@@ -1,0 +1,97 @@
+#custom-main-menu{
+  
+    .navbar-nav  {
+        .nav-item {
+            .nav-link{
+               color: $primary;
+                border-top: 4px solid transparent;
+                border-bottom: 4px solid transparent;
+                &:hover, &:focus {
+                    text-decoration: none;
+                    color: $secondary;
+                    border-top: 4px solid $yellow;
+                    border-bottom: 4px solid transparent;
+                    }
+                }
+            }               
+        }
+        
+    .dropdown {
+               a .caret {
+            border-top-color: #fff;
+            border-bottom-color: #fff;
+        }
+    }
+    .menu-large {
+    position: static !important;
+    }
+    .megamenu {
+          
+        width: 80%;
+        margin-top: -5px;
+        margin-left: 50px;
+    
+        div { 
+            li  {
+                ul {
+                    padding: 0;
+                    li {
+                        list-style: none;
+                    }
+                }
+            }
+        }
+        .card {
+        outline: none;
+        &:hover, &:focus {
+            outline: 1px solid #000;
+        }
+        }
+        div {
+            li {
+                ul {
+                    li {
+                        a {
+                            display: block;
+                            padding: 3px 20px;
+                            clear: both;
+                            font-weight: normal;
+                            line-height: 1.428571429;
+                            color: #333333;
+                            white-space: normal;
+                            border-left: 4px solid transparent;
+                            &:hover, &:focus {
+                                text-decoration: none;
+                                color: $secondary;
+                                border-top: 4px solid transparent;
+                                border-left: 4px solid $yellow;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.disabled > a {
+        color: #999999;
+        &:hover, &:focus {
+            color: #999999;
+
+        }
+        
+        &:hover, &:focus {
+            text-decoration: none;
+            background-color: transparent;
+            background-image: none;
+            cursor: not-allowed;
+        }
+        }
+        &.dropdown-header {
+        color: #428bca;
+        font-size: 18px;
+        }
+        }
+        .dropdown-item {
+            background-color: transparent;
+        }
+}

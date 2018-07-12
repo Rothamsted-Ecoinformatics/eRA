@@ -1,0 +1,247 @@
+
+<h1>Derived meteorological variables</h1>
+
+<p>The following variables are derived on extraction from e-RA:</p>
+
+
+<p></p>
+
+<ul>
+
+<LI class="nicelist"><A HREF="#DDA"><B>DDA</B></A>:	Day Degrees Above a base temperature (TLIM)	</li>
+<LI class="nicelist"><A HREF="#DDB"><B>DDB</B></A>:	Day Degrees Below a base TLIM	</li>
+<LI class="nicelist"><A HREF="#ACDDA"><B>ACCDDA</B></A>:	Accumulated Day Degrees Above TLIM	</li>
+<LI class="nicelist"><A HREF="#ACDDB"><B>ACCDDB</B></A>:	Accumulated Day Degrees Below TLIM	</li>
+<LI class="nicelist"><A HREF="#PSMD"><B>PSMD</B></A>:	Potential Soil Moisture Deficit (mm)	</li>
+<LI class="nicelist"><A HREF="#APSMD"><B>APSMD</B></A>:	Accumulated Potential Soil Moisture Deficit (mm)	</li>
+<LI class="nicelist"><A HREF="#RELH"><B>RELH</B></A>:	Relative humidity at 0900 GMT (% value of saturation value)	</li>
+<LI class="nicelist"><A HREF="#EVAPG"><B>EVAPG</B></A>:	Evaporation over Grass (mm)	</li>
+<LI class="nicelist"><A HREF="#EVAPW"><B>EVAPW</B></A>:	Evaporation over Water (mm)	</li>
+<LI class="nicelist"><A HREF="#VAP"><B>VAP</B></A>:	Vapour pressure (mb)	</li>
+
+</ul>
+
+<p>The following variables can be calculated if values are missing:</p>
+<ul>
+
+<LI class="nicelist"><A HREF="#WINDRUN"><B>WINDRUN</A>:</B>	Run of wind in 24h, 0900GMT to 0900GMT </li>
+<LI class="nicelist"><A HREF="#DEWP"><B>DEWP</A>:</B>	Dew point (ºC)</li>	
+<LI class="nicelist"><A HREF="#RAD"><B>RAD</A>:</B>	Radiation </li>
+</ul>
+
+<p>Other definitions:</p>
+<ul>
+
+<LI class="nicelist"><A HREF="#AVTEMP"><B>AVTEMP</A>:</B>	Average temperature (ºC)	</li>
+<LI class="nicelist"><A HREF="#TRANGE"><B>TRANGE</A>:</B>	Temperature range (ºC)	</li>
+<LI class="nicelist"><B>TMIN:</B>	Daily minimum temperature (ºC)	</li>
+<LI class="nicelist"><B>TMAX:</B>	Daily maximum temperature (ºC)	</li>
+<LI class="nicelist"><A HREF="#TLIM"><B>TLIM</A>:</B>	The (arbitrary) limiting or base temperature (set by user)	</li>
+<LI class="nicelist"><B>WETB:</B>	Wet bulb temperature (ºC)	</li>
+<LI class="nicelist"><B>DRYB:</B>	Dry bulb temperature (ºC)	</li>
+<LI class="nicelist"><B>WINDSP:</B>	Wind speed at 0900GMT (m/s)	</li>
+<LI class="nicelist"><B>RAIN:</B>	Rainfall in 24h, 0900GMT to 0900GMT (mm)	</li>
+<LI class="nicelist"><B>RDUR:</B>	Rainfall duration, 0900GMT to 0900GMT  (h)	</li>
+<LI class="nicelist"><B>SUN:</B>	Hours of sunshine (h)</li>
+</ul>
+	
+
+
+<p><B>Calculation of Temperature derived Items:</B></p>
+<a name="TRANGE"></a>
+
+<p>TRANGE = TMAX - TMIN    </p>
+
+<a name="AVTEMP"></a>
+<p>AVTEMP = (TMAX+TMIN)/2  </p>
+
+<a name="TLIM"></a>
+<a name="DDA"></a>
+
+<p><B>Calculation of DDA Day Degrees Above a base temperature: (TLIM </B>)</p>
+
+<p>If TMIN >= TLIM then <B>DDA</B> = AVTEMP - TLIM </p>
+<p>If TMAX< = TLIM then <B>DDA</B> = 0 </p>
+<p>If (TMAX - TLIM) >= (TLIM - TMIN) then <B>DDA</B> = (TMAX - TLIM)/2 - (TLIM - TMIN)/4</p>
+<p>If none of the above then <B>DDA</B> = (TMAX - TLIM)/4</p>
+
+
+<a name="DDB"></a>
+
+
+<p><B>Calculation of DDB Day Degrees Below a base temperature (TLIM)  </B></p>
+
+<p>If TMIN > = TLIM then <B>DDB</B> = 0 </p>
+<p>If TMAX <= TLIM then <B>DDB</B> = TLIM - AVTEMP</p>
+<p>If (TMAX - TLIM) >= (TLIM - TMIN) then <B>DDB</B> = (TLIM - TMIN)/4</p>
+<p>If none of these then <B>DDB</B> = (TLIM - TMIN)/2 - (TMAX - TLIM)/4</p>
+
+<a name="ACDDA"></a>
+<a name="ACDDB"></a>
+<p><B>ACCDDA & ACCDDB</B></p>
+
+<p>Accumulated day degree data: this is a running total, and an arbitrary start date has to be provided. </p>
+
+<p><B>Note:</B> these calculations are provided from the standard found in the Energy Efficiency Office Fuel 
+Efficiency Booklet 7 Degree Days (Published 1985).</p>
+
+<a name="WINDRUN"></a>
+
+<p>Calculation of wind run<B> (WINDRUN)</B> (only to be used if data is missing)</p>
+
+<p><B>WINDRUN</B> = WINDSP * 86.4  (this is conversion from m/s to km/24 hours).</p>
+
+
+
+<a name="VAP"></a>
+<a name="DEWP"></a>
+<p><B>Calculation of actual vapour pressure (VAP) and dew point (DEWP) </B></p>
+
+<p>If WETB > 0, <B>VAP</B>= 6.1375*EXP(17.502*WETB/(240.97+WETB))-0.799*(DRYB-WETB)</p>
+
+<p>If WETB <=0, <B>VAP</B>=6.1389*EXP(22.452*WETB/(272.55+WETB))-0.720*(DRYB-WETB)</p>
+
+<p><B>DEWP</B>= 240.97*LOG<sub>n</sub>  (VAP/6.1375)/(17.502-LOG<sub>n</sub>(VAP/6.1375))</p>
+
+<p>NB: this may be provided from the automatic weather station. This calculation gives only an approximation
+of the dew point.</p>
+
+
+<a name="RELH"></a>
+<p><B>Calculation of Relative Humidity, RELH</B> </p>
+
+<p>SVAP = Saturated vapour pressure</p>
+<p>VAP = Actual vapour pressure (see above)</p>
+<p>SVAP = 6.1375*EXP(17.502*DRYB/(240.97+DRYB))</p>
+<p>RELH = 100 * (VAP/SVAP)</p>
+
+<p>The relative humidity (RELH) expresses the degree of saturation of the air as a ratio of the actual
+(VAP) to the saturation (Es) Vapour pressure at the same temperature (From FAO doc 56, 2006, Irrigation
+and Drainage, Chapter 3, Meteorological data). </p>
+
+<p>Es = 6.1078 * exp((17.269 * AVTEMP) / avt)  (Es = saturated vapour pressure at Avtemp) Note that these 
+values are not exactly the same as for SVAP.  </p>
+
+
+<a name="RAD"></a>
+
+<p><B>Definitions and intermediate calculations for RAD, EVAPG, EVAPW and PSMD</B></p>
+
+
+<p>Cos, sin and tan have the usual trigonometric meanings</p>
+<p>Sqrt the square root function</p>
+<p>nday_val is the day number (Julian date) of the record in question e.g. 1st Feb. = 32</p>
+<p>days_in_year ordinarily is 365, but 366 in a leap year</p>
+<p>stn_latitude is the latitude of the station in question: Rothamsted = 51.81ºN
+<p>Woburn =  52.017 ºN Brooms Barn = 52.267 ºN.</p>
+<p>hrday is the maximum amount of sunshine in hours, that a latitude can receive. (i.e. cloudless all day)</p>
+<p>sunfr is the sun fraction, the ratio of recorded hours of sun to the maximum possible</p>
+<p>HMM is the evaporation term from net radiation over grass</p>
+<p>EA_GRASS is the evaporation term from humidity differences over grass</p>
+<p>EA_WATER is the evaporation term from humidity differences over water</p>
+<p>angnd = (6.28318 *(nday_val - days_in_year + 193))/days_in_year</p>
+<p>csd = cos(angnd)</p>
+<p>snd = sin(angnd)</p>
+<p>cs2d = (csd + snd)*(csd - snd)</p>
+<p>sn2d = 2*csd*snd</p>
+<p>sndecl = 0.00678 + (0.39762*csd)+(0.00613*snd)-(0.00661*cs2d)-(0.00159*sn2d)</p>
+<p>csdecl = sqrt(1 - sndecl*sndecl)</p>
+<p>csl = cos((stn_latitude*3.14159)/180)</p>
+<p>snl = sin((stn_latitude*3.14159)/180)</p>
+<p>cshass = (-0.014544 - (snl*sndecl))/(csl*csdecl)</p>
+<p>snhass = sqrt(1 - cshass*cshass)</p> 
+<p>hass = atan(snhass/cshass) if hass < 0 then hass = hass + 3.14159</p> 
+<p>hrday = hass*24/3.14159</p>
+<p>sunfr = SUN/ hrday</p>
+ 
+
+
+<p><B>Evaporation Items</B></p>
+
+
+<p>Exp is the exponential function (e<sup>x</sup>)</p>
+<p>** is the exponentiation function (x<sup>n</sup>)</p>
+<p>d0g is a correction factor for grass: 0.75</p>
+<p>d1g is a correction factor for grass: 1</p>
+<p>d0w is a correction factor for water: 0.95</p>
+<p>d1w is a correction factor for water: 0.5</p>
+<p>c1 is a constant: 4.0621 * 10<sup>-7</sup></p>
+<p>c2 is a constant: 3.721432778 x 10<sup>7</sup></p> 
+<p>avt = AVTEMP + 237.3 </p> 
+<p>Es = 6.1078 * exp((17.269 * AVTEMP) / avt)  (Es = saturated vapour pressure at Avtemp)</p>
+<p>delta = (4097.93 * Es) / (avt * avt)</p>
+<p>sunfr = SUN/ hrday</p>
+<p>fnt2 = (0.0048985 * (AVTEMP + 273.0) ** 4) *(0.47- (0.065 * sqrt(VAP))) * (0.17 + 0.83 * sunfr)</p>
+<p> ev1 = c1 * delta</p>
+
+
+
+
+<p><B>Calculation of Radiation (RAD)</B> (only to be used if data is missing)</p>
+
+
+<p>inv = 1.00011 - (0.03258*csd)-(0.00755*snd)+(0.00064*cs2d)+(0.00034*sn2d)</p>
+
+<p><B>RAD</B> = (0.16+(0.62*(((SUN)/hrday))))*c2*inv*((csl*csdecl*snhass) + (snl*sndecl*hass))</p>
+
+<p>NB: The calculated value for radiation should be divided by 1,000,000 to express MJ rather than joules
+of energy.</p>
+
+<a name="EVAPG"></a>
+<p><B>Calculation of Evaporation  over grass (EVAPG)</B></p>
+
+
+<p>EA_GRASS = 0.2625 * ((6.1078 * exp((17.269 * AVTEMP)/(237.3 + AVTEMP)) - (VAP)* 
+(d1g + (WINDRUN* .0062137)))</p> 
+
+
+<p>if EA_GRASS < 0 then EA_GRASS = 0</p>
+
+<p>hj_g = d0g * (1000000 * RAD) - fnt2</p>
+
+<p><B>EVAPG</B> = ( (hj_g * ev1) + (0.66 * EA_GRASS )) / (delta + 0.66) </p>
+
+<p>HMM = (hj_g * ev1)/ 0.66 </p>
+
+<a name="EVAPW"></a>
+<p><B>Calculation of Evaporation  over water (EVAPW)</B></p>
+
+
+<p>EA_WATER = 0.2625 * ((6.1078 * exp((17.269 * AVTEMP)/(237.3 + AVTEMP)) -
+(VAP)*(d1w + (WINDRUN * 0.0062137))) </p>
+
+<p>if EA_WATER < 0 then EA_WATER = 0;</p>
+
+<p>hj_w = d0w * (1000000 * RAD) fnt2</p>
+
+<p><B>EVAPW</B> = ((hj_w * ev1) + (0.66 * EA_WATER )) / (delta +0.66)</p> 
+
+
+<p>The calculation of EA, HMM, EVAPG and EVAPW are described in detail in "The Evaluation of Penman's 
+Natural Evaporation Formula by Electronic Computer" G. Berry, Aust. J. Appl. Sci, 1964, 15: 61-64.</p> 
+
+
+<a name="PSMD"></a>
+
+<p><B>Calculation of Potential Soil Moisture Deficit (PSMD)</B></p>
+
+<a name="APSMD"></a>
+<p><B>PSMD = APSMD + EVAPG - RAIN (Not negative)</B></p>
+
+<p>Where APSMD is the accumulated PSMD so far. </p>
+
+
+<p>PSMD is an accumulated value, starting at 0.0 on January 1<sup>st</sup>.</p>
+
+<p>This measures the loss of moisture in the soil; and while the daily value may be significant it is
+usually calculated over some months at least. Technically it is an accumulation, and into the summer 
+will usually show a net loss. The value can never be negative, as if precipitation exceeds evaporation
+together with any deficit to date, this forms runoff and contributes to surface water flow.</p>
+
+
+<p>Prepared by Margaret Glendining and Claudia Underwood, June 2010, with advice from Tony Scott. 
+Based on the BITS Metdata Web Manual, extracted Oct 2009, and the old e-RA webpages, 1997.
+For further details, contact the <a href= "mailto:era@rothamsted.ac.uk">e-RA Curators.</a></p>
+
+
+

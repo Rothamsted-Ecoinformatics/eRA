@@ -1,0 +1,24 @@
+#idPaperSideBar {
+	background-color: $light;
+	form {
+	   .form-group {
+		   label {
+		   
+		   }
+		   input {
+		   &:hover {
+		   background-color: $gray-200;
+		   }
+		   font-size: .8em;
+		   }
+		   select {
+		    &:hover {
+           background-color: $gray-200;
+           }
+		      option {
+		      font-size: .8em;
+		      }
+		   }
+	   }
+	}
+}

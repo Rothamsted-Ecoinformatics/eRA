@@ -1,0 +1,31 @@
+#custom-top-right {
+    .nav-item {
+     .nav-link {
+       
+         color:$gray-dark;
+         background-color: $white;
+         border: {
+           color: $white;
+           bottom: 4px solid $white;
+         }
+         &:hover {     
+           color: $red;    
+             border-bottom-color: $yellow;
+         }     
+       }
+     }
+     .dropdown-item {  
+           color:$gray-dark;
+           background-color: $white;
+           border: {
+             color: $white;
+             left: 4px solid $white;
+           }
+           &:hover {  
+             color: $red;      
+               border-left-color: $white;
+           }   
+      }
+   }
+ 
+ 

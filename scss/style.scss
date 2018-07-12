@@ -1,0 +1,94 @@
+//Colors 
+$white:    #fff ;
+$gray-100: #f3f3f3 ;
+$gray-200: #ded5bc ;
+$gray-300: #ccc2aa ;
+$gray-400: #b9ae97 ;
+$gray-500: #a39781 ;
+$gray-600: #8c7f69 ;
+$gray-700: #766953 ;
+$gray-800: #665744 ;
+$gray-900: #574834 ;
+$black:    #000 ;
+
+// Create grayscale
+$gray-dark:                $gray-900 !default;
+$gray:                     $gray-700 !default;
+$gray-light:               $gray-400 !default;
+$gray-lighter:             $gray-300 !default;
+$gray-lightest:            $gray-100 !default;
+
+
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #ff6633 !default;
+$yellow:  #ffd300 !default;
+$green:   #0E6633 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+$patina:  #669988 !default;
+$casper:  #aabbcc !default;
+$schist:  #aabb99 !default;
+$teal:    #57A492 !default;
+
+
+$primary:       $green !default;
+$secondary:     $teal !default;
+$success:       $yellow !default;
+$info:          $schist !default;
+$warning:       $orange !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+
+// Reassign color vars to semantic color scheme
+$brand-primary:             $green !default;
+$brand-success:             $yellow !default;
+$brand-info:                $schist !default;
+$brand-warning:             $orange !default;
+$brand-danger:              $red !default;
+$brand-inverse:             $gray-dark !default;
+
+
+$grid-columns: 12 !default; //I can change the number of colums in the grid
+$grid-gutter-width: 30px !default;
+
+$body-bg: $gray-400 !default;
+$body-color:                $gray-900 !default;
+$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:            $font-family-sans-serif !default;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1150px
+) !default;
+
+.row  {
+  col-* {
+  display: flex;
+  }
+} 
+.devnote { 
+  display:none;
+  background-color: $brand-warning;
+  font-style: italic;
+  font-size: smaller;
+}
+//Sass Partial imports
+@import 'topright';
+@import 'custom-main-menu';
+@import 'idPeople';
+@import 'idExpt';
+@import 'forms';
+@import 'idPaperSideBar';
+
+
+// Bootstrap Sass Imports
+@import "node_modules/bootstrap/scss/bootstrap";
+
