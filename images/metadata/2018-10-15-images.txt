@@ -1,0 +1,332 @@
+importedmediaID,Credit,URL,Caption,Type,exptID
+1,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/FPLandUse.jpg,FPLandUse,jpg,NorthWyke
+2,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/NWFPmap.png,NWFPmap,png,NorthWyke
+3,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/chambers.jpg,chambers,jpg,NorthWyke
+4,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/eweslambs.jpg,eweslambs,jpg,NorthWyke
+5,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/flumelab.jpg,flumelab,jpg,NorthWyke
+6,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/flumeswaterflow.jpg,flumeswaterflow,jpg,NorthWyke
+7,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/herbage.jpg,herbage,jpg,NorthWyke
+8,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/measurestation.jpg,measurestation,jpg,NorthWyke
+9,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/yearlingcattle.jpg,yearlingcattle,jpg,NorthWyke
+10,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/1623-map.jpg,1623 map,jpg,met
+11,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/2011-new-thousand-acre-gauge-23-03-2011.jpg,2011 new thousand acre gauge 23 03 2011,jpg,met
+12,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/2013-Ploughing-Broadbalk.jpg,2013 Ploughing Broadbalk,jpg,met
+13,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/5raingaugeandturfwall.jpg,5raingaugeandturfwall,jpg,met
+14,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Daily-weather-recording.jpg,Daily weather recording,jpg,met
+15,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/InsideStevenson.jpg,InsideStevenson,jpg,met
+16,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/MetStation.jpg,MetStation,jpg,met
+17,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/RES-rain-gauge.jpg,RES rain gauge,jpg,met
+18,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/RES-sun-recorder.jpg,RES sun recorder,jpg,met
+19,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/RES-thermometers.jpg,RES thermometers,jpg,met
+20,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/RES-wind-tower.jpg,RES wind tower,jpg,met
+21,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Raingaugebelow40.jpg,Raingaugebelow40,jpg,met
+22,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Rainy-Days.jpg,Rainy Days,jpg,met
+23,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Rainy-day.jpg,Rainy day,jpg,met
+24,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/RothGEtempprobes.jpg,RothGEtempprobes,jpg,met
+25,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/RothStevensonScreen.jpg,RothStevensonScreen,jpg,met
+26,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Rothamsted-grassmin.jpg,Rothamsted grassmin,jpg,met
+27,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Rothamsted-misty-day.jpg,Rothamsted misty day,jpg,met
+28,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Rothamsted-windy-day-2.jpg,Rothamsted windy day 2,jpg,met
+29,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Rothamsted-windy-day.jpg,Rothamsted windy day,jpg,met
+30,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Soildrains.jpg,Soildrains,jpg,met
+31,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/WindInstruments.jpg,WindInstruments,jpg,met
+32,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/WindInstrumentscloseup.jpg,WindInstrumentscloseup,jpg,met
+33,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/anemometer.gif,anemometer,gif,met
+34,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/met.jpg,met,jpg,met
+35,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/met2.jpg,met2,jpg,met
+36,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/misty-day-Rothamsted.jpg,misty day Rothamsted,jpg,met
+37,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/new-thousandth-acre-gauge.jpg,new thousandth acre gauge,jpg,met
+38,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/rain-gauge.jpg,rain gauge,jpg,met
+39,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/rainbow-ianfrancis.jpg,rainbow ianfrancis,jpg,met
+40,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/rainbow.jpg,rainbow,jpg,met
+41,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/rainy-day-at-Rothamsted.tif,rainy day at Rothamsted,tif,met
+42,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/rainy-day-at-Rothamsted2.PNG,rainy day at Rothamsted2,PNG,met
+43,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/snowy-day-at-Rothamsted-landscape.jpg,snowy day at Rothamsted landscape,jpg,met
+44,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/snowy-day-at-Rothamsted-portrait.jpg,snowy day at Rothamsted portrait,jpg,met
+45,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/soilsmap-orig.png,soilsmap orig,png,met
+46,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/soilsmap-ty.png,soilsmap ty,png,met
+47,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/solar.gif,solar,gif,met
+48,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/stevenson.jpg,stevenson,jpg,met
+49,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/stevenson2.jpg,stevenson2,jpg,met
+50,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/sun-recorder.jpg,sun recorder,jpg,met
+51,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/sunny-day-at-Rothamsted.jpg,sunny day at Rothamsted,jpg,met
+52,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/sunny-day-at-rothamsted-2.jpg,sunny day at rothamsted 2,jpg,met
+53,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/thermometers.jpg,thermometers,jpg,met
+54,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/thermometr-and-logger.jpg,thermometr and logger,jpg,met
+55,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/wind-direction-video.AVI,wind direction video,AVI,met
+56,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/wind-direction.png,wind direction,png,met
+57,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/wind-run.png,wind run,png,met
+58,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/wind-speed-video.AVI,wind speed video,AVI,met
+59,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/wind-speed.png,wind speed,png,met
+60,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/wind-tower.jpg,wind tower,jpg,met
+61,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/windy-day-2.jpg,windy day 2,jpg,met
+62,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/windy-day.jpg,windy day,jpg,met
+63,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/2013-Fosters.jpg,2013 Fosters,jpg,others
+64,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/2015-Barnfield-and-the-former-Agdell-at-bottom.jpg,2015 Barnfield and the former Agdell at bottom,jpg,others
+65,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/2015-Barnfield.jpg,2015 Barnfield,jpg,others
+66,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/2015-Former-Agdell.jpg,2015 Former Agdell,jpg,others
+67,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/2015-Fosters-Ley-Arable.jpg,2015 Fosters Ley Arable,jpg,others
+68,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/2015-Fosters.jpg,2015 Fosters,jpg,others
+69,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/2016-ECN-plot-Park-Grass-2016.jpg,2016 ECN plot Park Grass 2016,jpg,others
+70,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Classical-Experiments-aerial-layout.jpg,Classical Experiments aerial layout,jpg,others
+71,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Exhaustion-land-Hoosfield.jpg,Exhaustion land Hoosfield,jpg,others
+72,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Harpenden-and-farm-maps-WoburnFarm.jpg,Harpenden and farm maps WoburnFarm,jpg,others
+73,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Highfield-2015-750.jpg,Highfield 2015 750,jpg,others
+74,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Highfield-LTE-750.jpg,Highfield LTE 750,jpg,others
+75,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Highfield-Ley-Arable-2015-675.jpg,Highfield Ley Arable 2015 675,jpg,others
+76,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Historic-Barnfield-yield-comparison-turnips-750.jpg,Historic Barnfield yield comparison turnips 750,jpg,others
+77,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Hoosfield-750.jpg,Hoosfield 750,jpg,others
+78,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Hoosfield-Continuous-maize.jpg,Hoosfield Continuous maize,jpg,others
+79,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Hoosfield-LTEs-750.jpg,Hoosfield LTEs 750,jpg,others
+80,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Plan-Highfield-Experiments-750.jpg,Plan Highfield Experiments 750,jpg,others
+81,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Rothamsted-Farm-map-750.jpg,Rothamsted Farm map 750,jpg,others
+82,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Woburn-Farm-map-750.jpg,Woburn Farm map 750,jpg,others
+83,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Woburn-LTEs-750.jpg,Woburn LTEs 750,jpg,others
+84,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Woburn-ley-arable-675.jpg,Woburn ley arable 675,jpg,others
+85,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/amounts-of-straw.jpg,amounts of straw,jpg,others
+86,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/cs-427-i.jpg,cs 427 i,jpg,others
+87,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/wheatandfallow.jpg,wheatandfallow,jpg,others
+88,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/wheatandfallowsmall.jpg,wheatandfallowsmall,jpg,others
+89,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/1623-map.jpg,1623 map,jpg,rbk1
+90,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/1935-horse-harvest.jpg,1935 horse harvest,jpg,rbk1
+91,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/1935-tractor-harvest.jpg,1935 tractor harvest,jpg,rbk1
+92,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/1935tractoharvest.gif,1935tractoharvest,gif,rbk1
+93,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/2012-AJ-12-10.jpg,2012 AJ 12 10,jpg,rbk1
+94,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/2015-Rothamsted-Farm-Broadbalk-04.jpg,2015 Rothamsted Farm Broadbalk 04,jpg,rbk1
+95,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/2016-Broadbalk-03.jpg,2016 Broadbalk 03,jpg,rbk1
+96,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Aerial-pic-3.34.jpg,Aerial pic 3,34,rbk1
+97,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/BBK-today.jpg,BBK today,jpg,rbk1
+98,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/BFRMicrodochium.jpg,BFRMicrodochium,jpg,rbk1
+99,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Black-medick.jpg,Black medick,jpg,rbk1
+100,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Black-nightshade.jpg,Black nightshade,jpg,rbk1
+101,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Blackgrass.jpg,Blackgrass,jpg,rbk1
+102,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/BroadBalk-ty.png,BroadBalk ty,png,rbk1
+103,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/BroadBalk.png,BroadBalk,png,rbk1
+104,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-1954-Section5.jpg,Broadbalk 1954 Section5,jpg,rbk1
+105,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-20-August.jpg,Broadbalk 20 August,jpg,rbk1
+106,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-Mean-Yields-2016.png,Broadbalk Mean Yields 2016,png,rbk1
+107,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-Yield-Fig-June-2017.png,Broadbalk Yield Fig June 2017,png,rbk1
+108,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-harvest-1880.jpg,Broadbalk harvest 1880,jpg,rbk1
+109,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-med-lge.png,Broadbalk med lge,png,rbk1
+110,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-mid.png,Broadbalk mid,png,rbk1
+111,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-original.png,Broadbalk original,png,rbk1
+112,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-sampling-1943a.jpg,Broadbalk sampling 1943a,jpg,rbk1
+113,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-sampling-1943c.jpg,Broadbalk sampling 1943c,jpg,rbk1
+114,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-sampling-PL-RH.jpg,Broadbalk sampling PL RH,jpg,rbk1
+115,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-sampling-SM.jpg,Broadbalk sampling SM,jpg,rbk1
+116,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-wheat-elevated-view-(2).jpg,Broadbalk wheat elevated view (2),jpg,rbk1
+117,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-wheat-elevated-view-750-8553.jpg,Broadbalk wheat elevated view 750 8553,jpg,rbk1
+118,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-wheat-elevated-view.jpg,Broadbalk wheat elevated view,jpg,rbk1
+119,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk20August.gif,Broadbalk20August,gif,rbk1
+120,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/BroadbalkOrgC.png,BroadbalkOrgC,png,rbk1
+121,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Canadian-fleabane.jpg,Canadian fleabane,jpg,rbk1
+122,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Chickweed-macro.jpg,Chickweed macro,jpg,rbk1
+123,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Chickweed.jpg,Chickweed,jpg,rbk1
+124,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Cleavers.jpg,Cleavers,jpg,rbk1
+125,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Common-Bent-grass.jpg,Common Bent grass,jpg,rbk1
+126,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Common-vetch.jpg,Common vetch,jpg,rbk1
+127,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Corn-buttercup.jpg,Corn buttercup,jpg,rbk1
+128,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Corn-marigold.jpg,Corn marigold,jpg,rbk1
+129,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Cornflower.jpg,Cornflower,jpg,rbk1
+130,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Creeping-thistle.jpg,Creeping thistle,jpg,rbk1
+131,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Drilling-Broadbalk-2013.jpg,Drilling Broadbalk 2013,jpg,rbk1
+132,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Dwarf-spurge.jpg,Dwarf spurge,jpg,rbk1
+133,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ES-lesions.jpg,ES lesions,jpg,rbk1
+134,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ES-lodging.jpg,ES lodging,jpg,rbk1
+135,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/False-oatgrass.jpg,False oatgrass,jpg,rbk1
+136,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Field-forget-me-not.jpg,Field forget me not,jpg,rbk1
+137,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Field-poppy.jpg,Field poppy,jpg,rbk1
+138,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Fine-leaved-sandwort.jpg,Fine leaved sandwort,jpg,rbk1
+139,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Fools-parsley.jpg,Fools parsley,jpg,rbk1
+140,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Horsetails-DSCN6796.jpg,Horsetails DSCN6796,jpg,rbk1
+141,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/LargeTApatches.jpg,LargeTApatches,jpg,rbk1
+142,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Meadow-vetchling.jpg,Meadow vetchling,jpg,rbk1
+143,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Non-herbicide-wheat-plot-(2).jpg,Non herbicide wheat plot (2),jpg,rbk1
+144,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Non-herbicide-wheat-plot.jpg,Non herbicide wheat plot,jpg,rbk1
+145,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/OlsenP.png,OlsenP,png,rbk1
+146,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Onion-couch.jpg,Onion couch,jpg,rbk1
+147,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Plot-21.JPG,Plot 21,JPG,rbk1
+148,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Plot-3.JPG,Plot 3,JPG,rbk1
+149,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Ploughing-Broadbalk-2013.jpg,Ploughing Broadbalk 2013,jpg,rbk1
+150,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Red-bartsia-2.JPG,Red bartsia 2,JPG,rbk1
+151,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Red-bartsia.jpg,Red bartsia,jpg,rbk1
+152,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/SES-April.jpg,SES April,jpg,rbk1
+153,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Section-8-sign.jpg,Section 8 sign,jpg,rbk1
+154,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Section-8.jpg,Section 8,jpg,rbk1
+155,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Severe-BFR-Fusarium.jpg,Severe BFR Fusarium,jpg,rbk1
+156,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Severe-ES.jpg,Severe ES,jpg,rbk1
+157,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Severe-TakeAll.jpg,Severe TakeAll,jpg,rbk1
+158,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/SharpESstraw.jpg,SharpESstraw,jpg,rbk1
+159,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Shepherd-needle.jpg,Shepherd needle,jpg,rbk1
+160,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Sterile-brome-2.jpg,Sterile brome 2,jpg,rbk1
+161,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Sterile-brome.jpg,Sterile brome,jpg,rbk1
+162,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Tractor-plough-1935.jpg,Tractor plough 1935,jpg,rbk1
+163,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Venus-looking-glass.jpg,Venus looking glass,jpg,rbk1
+164,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/acid-ind.jpg,acid ind,jpg,rbk1
+165,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/archives-1.jpg,archives 1,jpg,rbk1
+166,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/archives-2.jpg,archives 2,jpg,rbk1
+167,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/bbk49.gif,bbk49,gif,rbk1
+168,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/bbk49.jpg,bbk49,jpg,rbk1
+169,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/bk-grain-1945.jpg,bk grain 1945,jpg,rbk1
+170,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/broadbalk-2003.jpg,broadbalk 2003,jpg,rbk1
+171,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/broadbalk-plan-today.jpg,broadbalk plan today,jpg,rbk1
+172,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/broadbalk.gif,broadbalk,gif,rbk1
+173,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/colour-analyser.jpg,colour analyser,jpg,rbk1
+174,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/condrometer-half-litre.jpg,condrometer half litre,jpg,rbk1
+175,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/condrometer-litre.jpg,condrometer litre,jpg,rbk1
+176,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/galium-tricornutum-broadbalk-200.png,galium tricornutum broadbalk 200,png,rbk1
+177,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/galium-tricornutum.png,galium tricornutum,png,rbk1
+178,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/grain-counter.jpg,grain counter,jpg,rbk1
+179,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/groundsel.jpg,groundsel,jpg,rbk1
+180,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/hfn.jpg,hfn,jpg,rbk1
+181,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/icp-oes.jpg,icp oes,jpg,rbk1
+182,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/icp.jpg,icp,jpg,rbk1
+183,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/leco.jpg,leco,jpg,rbk1
+184,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/mass-spec.jpg,mass spec,jpg,rbk1
+185,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/narrow-fruited-cornsalad.jpg,narrow fruited cornsalad,jpg,rbk1
+186,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/posterMacDonald.jpg,posterMacDonald,jpg,rbk1
+187,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/rothamsted-farm-plan.jpg,rothamsted farm plan,jpg,rbk1
+188,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/soilsmap-orig.png,soilsmap orig,png,rbk1
+189,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/straw-cut.jpg,straw cut,jpg,rbk1
+190,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/straw.jpg,straw,jpg,rbk1
+191,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/tiny-broadbalk.gif,tiny broadbalk,gif,rbk1
+192,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/wheat-ears.jpg,wheat ears,jpg,rbk1
+193,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/wheat-green.jpg,wheat green,jpg,rbk1
+194,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/wheat-ripe.jpg,wheat ripe,jpg,rbk1
+195,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/wheat-seeds.jpg,wheat seeds,jpg,rbk1
+196,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/winnower-sieve.jpg,winnower sieve,jpg,rbk1
+197,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/1623-map.jpg,1623 map,jpg,rex4
+198,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/Classical-Experiments-aerial-layout-750.jpg,Classical Experiments aerial layout 750,jpg,rex4
+199,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/Exhasution-Land-Fig-7-of-Guide.PNG,Exhasution Land Fig 7 of Guide,PNG,rex4
+200,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/Exhaustion-Land-fig-6-of-guide.PNG,Exhaustion Land fig 6 of guide,PNG,rex4
+201,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/Exhaustion-Land-fig-6-of-guide.jpg,Exhaustion Land fig 6 of guide,jpg,rex4
+202,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/Hoosfield-625.jpg,Hoosfield 625,jpg,rex4
+203,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/Hoosfield-LTEs-750.jpg,Hoosfield LTEs 750,jpg,rex4
+204,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rgc8/1921-Garden-Clover-675-crop.jpg,1921 Garden Clover 675 crop,jpg,rgc8
+205,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rgc8/1921-Garden-Clover-675.jpg,1921 Garden Clover 675,jpg,rgc8
+206,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rgc8/1921-Garden-Clover-750.jpg,1921 Garden Clover 750,jpg,rgc8
+207,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rgc8/Garden-Clover-RGC8-2008-Cut-1A-750.jpg,Garden Clover RGC8 2008 Cut 1A 750,jpg,rgc8
+208,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rgc8/Garden-Clover-RGC8-2012-Resown-750.jpg,Garden Clover RGC8 2012 Resown 750,jpg,rgc8
+209,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rgc8/Garden-clover-120508-Cut-1B-750.jpg,Garden clover 120508 Cut 1B 750,jpg,rgc8
+210,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/1623-map.jpg,1623 map,jpg,rhb2
+211,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/1648HistoricfarmHoosfield17August-1925.jpg,1648HistoricfarmHoosfield17August 1925,jpg,rhb2
+212,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/2010-Hoosfield.jpg,2010 Hoosfield,jpg,rhb2
+213,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/5472-Aerial-Photographs-2016-Long-Hoos-03-(2).jpg,5472 Aerial Photographs 2016 Long Hoos 03 (2),jpg,rhb2
+214,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/5551AerialPhotographs2016LongHoos001.jpg,5551AerialPhotographs2016LongHoos001,jpg,rhb2
+215,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/Hoosfield-yield-June-2017.PNG,Hoosfield yield June 2017,PNG,rhb2
+216,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/Hoosfield1925BW.jpg,Hoosfield1925BW,jpg,rhb2
+217,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/acid-ind.jpg,acid ind,jpg,rhb2
+218,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/aerialhoosfield.jpg,aerialhoosfield,jpg,rhb2
+219,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/anemometer.jpg,anemometer,jpg,rhb2
+220,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/archives-2.jpg,archives 2,jpg,rhb2
+221,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hfn.jpg,hfn,jpg,rhb2
+222,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hoos-field-yield-openaccess.jpg,hoos field yield openaccess,jpg,rhb2
+223,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hoos-original.png,hoos original,png,rhb2
+224,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hoos-small-80.png,hoos small 80,png,rhb2
+225,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hoos-small.png,hoos small,png,rhb2
+226,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hoosfield1925.gif,hoosfield1925,gif,rhb2
+227,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hoosfieldplan2008.gif,hoosfieldplan2008,gif,rhb2
+228,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hoosfieldplan2008.jpg,hoosfieldplan2008,jpg,rhb2
+229,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hoosfieldtoday.gif,hoosfieldtoday,gif,rhb2
+230,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hoosfieldtoday.jpg,hoosfieldtoday,jpg,rhb2
+231,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/icp-oes.jpg,icp oes,jpg,rhb2
+232,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/icp.jpg,icp,jpg,rhb2
+233,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/leco.jpg,leco,jpg,rhb2
+234,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/mass-spec.jpg,mass spec,jpg,rhb2
+235,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/solar.jpg,solar,jpg,rhb2
+236,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/test-Hoos-small-Capture.PNG,test Hoos small Capture,PNG,rhb2
+237,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rothamsted/1623-map.jpg,1623 map,jpg,rothamsted
+238,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rothamsted/1954-Harpenden-and-farm-maps-RothamstedFarm.jpg,1954 Harpenden and farm maps RothamstedFarm,jpg,rothamsted
+239,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rothamsted/archives-1.jpg,archives 1,jpg,rothamsted
+240,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/01-pg2015-2ndcut-cutting.jpg,01 pg2015 2ndcut cutting,jpg,rpg5
+241,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/02-pg2015-2ndcut-raking.jpg,02 pg2015 2ndcut raking,jpg,rpg5
+242,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/03-pg2015-2ndcut-weighing.jpg,03 pg2015 2ndcut weighing,jpg,rpg5
+243,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/04-pg2015-2ndcut-scales.jpg,04 pg2015 2ndcut scales,jpg,rpg5
+244,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/05-pg2015-2ndcut-strip.jpg,05 pg2015 2ndcut strip,jpg,rpg5
+245,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/06-pg2015-2ndcut-processing.jpg,06 pg2015 2ndcut processing,jpg,rpg5
+246,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/07-pg2015-2ndcut-wetweight.jpg,07 pg2015 2ndcut wetweight,jpg,rpg5
+247,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/08-pg2015-2ndcut-sampleboxes.jpg,08 pg2015 2ndcut sampleboxes,jpg,rpg5
+248,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/09-pg2015-2ndcut-driedsamples.jpg,09 pg2015 2ndcut driedsamples,jpg,rpg5
+249,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/10-pg2015-2ndcut-labelledsampletins.jpg,10 pg2015 2ndcut labelledsampletins,jpg,rpg5
+250,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/1623-map.jpg,1623 map,jpg,rpg5
+251,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/1709-Park-Grass-aerial-parkgrass.jpg,1709 Park Grass aerial parkgrass,jpg,rpg5
+252,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/23-May-2005-aerial-low.jpg,23 May 2005 aerial low,jpg,rpg5
+253,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/3008-Park-Grass-aerial-23-May-2005-f.jpg,3008 Park Grass aerial 23 May 2005 f,jpg,rpg5
+254,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/3008-Park-Grass-aerial-23-May-2005-p.jpg,3008 Park Grass aerial 23 May 2005 p,jpg,rpg5
+255,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/PG11-2dand12d09JUNE05j.jpg,PG11 2dand12d09JUNE05j,jpg,rpg5
+256,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/PG1865.jpg,PG1865,jpg,rpg5
+257,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/PG1881.jpg,PG1881,jpg,rpg5
+258,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/PG1961.jpg,PG1961,jpg,rpg5
+259,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/PG20June05b.jpg,PG20June05b,jpg,rpg5
+260,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/PG20June05g.jpg,PG20June05g,jpg,rpg5
+261,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/PG20June05k.jpg,PG20June05k,jpg,rpg5
+262,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/PG20June05n.jpg,PG20June05n,jpg,rpg5
+263,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/PGMay1990Plot1close-up.jpg,PGMay1990Plot1close up,jpg,rpg5
+264,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/PGMay1990Plots14.2v1.jpg,PGMay1990Plots14,2v1,rpg5
+265,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/PGMay1999Plot14.1v14.2.jpg,PGMay1999Plot14,1v14,rpg5
+266,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/PGMay1999Plot3close-up.jpg,PGMay1999Plot3close up,jpg,rpg5
+267,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Park-Grass-2016.png,Park Grass 2016,png,rpg5
+268,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Park-Grass-Species-Chart-2016.jpg,Park Grass Species Chart 2016,jpg,rpg5
+269,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Park-Grass-Species-Chart-2016.png,Park Grass Species Chart 2016,png,rpg5
+270,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Park-Grass-pH-2016.jpg,Park Grass pH 2016,jpg,rpg5
+271,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Park-Grass-pH-2016.png,Park Grass pH 2016,png,rpg5
+272,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ParkGrass-med.png,ParkGrass med,png,rpg5
+273,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ParkGrass.PNG,ParkGrass,PNG,rpg5
+274,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Plot-2-time-line.JPG,Plot 2 time line,JPG,rpg5
+275,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Sorting1930s.jpg,Sorting1930s,jpg,rpg5
+276,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/june16-2015-pg-aerial.jpg,june16 2015 pg aerial,jpg,rpg5
+277,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/metasoil-diagram.png,metasoil diagram,png,rpg5
+278,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/park-grass-today.jpg,park grass today,jpg,rpg5
+279,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/parkgrassharvest.gif,parkgrassharvest,gif,rpg5
+280,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/parkgrassharvest.jpg,parkgrassharvest,jpg,rpg5
+281,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/parkgrassharvest2.jpg,parkgrassharvest2,jpg,rpg5
+282,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/storkeyFig4.jpg,storkeyFig4,jpg,rpg5
+283,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rwf3/wheatandfallow.jpg,wheatandfallow,jpg,rwf3
+284,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rwf3/wheatandfallowsmall.jpg,wheatandfallowsmall,jpg,rwf3
+285,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/1623-map.jpg,1623 map,jpg,wilderness
+286,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/5184-Aerial-photographs-of-Rothamsted-site-June-2013-Gees-Croft-01.jpg,5184 Aerial photographs of Rothamsted site June 2013 Gees Croft 01,jpg,wilderness
+287,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/6048-Broadbalk-Wilderness-Experiments-DSC-2352.jpg,6048 Broadbalk Wilderness Experiments DSC 2352,jpg,wilderness
+288,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/750-Broadbalk-Wilderness-Carbon-Open-Access-Chart.png,750 Broadbalk Wilderness Carbon Open Access Chart,png,wilderness
+289,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/750-Geescroft-wilderness-Carbon-Open-Access-Chart.png,750 Geescroft wilderness Carbon Open Access Chart,png,wilderness
+290,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/Broadbalk-Wilderness-Carbon-Open-Access-Chart.png,Broadbalk Wilderness Carbon Open Access Chart,png,wilderness
+291,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/Geescroft-Wilderness-Carbon-Open-Access-Chart.png,Geescroft Wilderness Carbon Open Access Chart,png,wilderness
+292,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/bk-under-storey.jpg,bk under storey,jpg,wilderness
+293,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/bk-wilderness-leaf-litter-macro.jpg,bk wilderness leaf litter macro,jpg,wilderness
+294,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/broadbalk-aerial-with-wilderness-2015.jpg,broadbalk aerial with wilderness 2015,jpg,wilderness
+295,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/broadbalk-wilderness-C-orig.png,broadbalk wilderness C orig,png,wilderness
+296,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/broadbalk-wilderness-grazing-side.jpg,broadbalk wilderness grazing side,jpg,wilderness
+297,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/broadbalk-wilderness-litter.jpg,broadbalk wilderness litter,jpg,wilderness
+298,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/broadbalk-wilderness-side.jpg,broadbalk wilderness side,jpg,wilderness
+299,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/broadbalk2003.jpg,broadbalk2003,jpg,wilderness
+300,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/broadbalkplantoday.jpg,broadbalkplantoday,jpg,wilderness
+301,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/gee-wilderness-leaf-litter-macro.jpg,gee wilderness leaf litter macro,jpg,wilderness
+302,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/geescroft-aerial.gif,geescroft aerial,gif,wilderness
+303,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/geescroft-aerial.jpg,geescroft aerial,jpg,wilderness
+304,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/geescroft-sideview.jpg,geescroft sideview,jpg,wilderness
+305,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/geescroft-under-storey.jpg,geescroft under storey,jpg,wilderness
+306,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/geescroft-wilderness-C-orig.png,geescroft wilderness C orig,png,wilderness
+307,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/geescroft-wilderness-aerial-2015.jpg,geescroft wilderness aerial 2015,jpg,wilderness
+308,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/rothamsted-farm-plan.jpg,rothamsted farm plan,jpg,wilderness
+309,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/wilderness-litter-layer.jpg,wilderness litter layer,jpg,wilderness
+310,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/woburn/2015-Woburn-Fields-Butt-Close.jpg,2015 Woburn Fields Butt Close,jpg,woburn
+311,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/woburn/5472-Aerial-Images-2015-Woburn-Fields-Stackyard-08.jpg,5472 Aerial Images 2015 Woburn Fields Stackyard 08,jpg,woburn
+312,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/woburn/Woburn-Farm-map-750.jpg,Woburn Farm map 750,jpg,woburn
+313,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/woburn/Woburn-Fields-Butt-Close-750.jpg,Woburn Fields Butt Close 750,jpg,woburn
+314,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/woburn/Woburn-Fields-Stackyard-100.jpg,Woburn Fields Stackyard 100,jpg,woburn
+315,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/woburn/Woburn-Fields-Stackyard-750-(2).jpg,Woburn Fields Stackyard 750 (2),jpg,woburn
+316,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/woburn/Woburn-Fields-Stackyard-750.jpg,Woburn Fields Stackyard 750,jpg,woburn
+317,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/woburn/Woburn-LTEs-750.jpg,Woburn LTEs 750,jpg,woburn
+318,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/woburn/Woburn-Market-Garden-1-675.jpg,Woburn Market Garden 1 675,jpg,woburn
+319,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/woburn/Woburn-Market-Garden-1-750.jpg,Woburn Market Garden 1 750,jpg,woburn
+320,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/woburn/Woburn-Market-Garden-3-750.jpg,Woburn Market Garden 3 750,jpg,woburn
+321,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/woburn/Woburn-continuous-maize-675.jpg,Woburn continuous maize 675,jpg,woburn
+322,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/woburn/Woburn-ley-arable-675.jpg,Woburn ley arable 675,jpg,woburn
+323,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/woburn/Woburn-organic-manuring-675.jpg,Woburn organic manuring 675,jpg,woburn
+324,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/woburn/WoburnSoils.jpg,WoburnSoils,jpg,woburn
+325,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/woburn/woburn-sewage-sludge-675.jpg,woburn sewage sludge 675,jpg,woburn
+326,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/woburn/woburn-sewage-sludge-750.jpg,woburn sewage sludge 750,jpg,woburn
+327,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/woburn/woburn2.jpg,woburn2,jpg,woburn
+328,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wrn3/Woburn-Farm-map-750.jpg,Woburn Farm map 750,jpg,wrn3
+329,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wrn3/Woburn-Fields-Stackyard-750.jpg,Woburn Fields Stackyard 750,jpg,wrn3
+330,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wrn3/Woburn-LTEs-750.jpg,Woburn LTEs 750,jpg,wrn3
+331,eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wrn3/Woburn-ley-arable-675.jpg,Woburn ley arable 675,jpg,wrn3

@@ -1,0 +1,15 @@
+[
+    {
+        "type": "Organization",
+        "name": "Rothamsted Research",
+        "legalName": "Rothamsted Research",
+        "identifier": "NA",
+        "role": "research organisation",
+        "contactPoint": [
+            {
+                "contactType": "URL",
+                "description": "http://www.rothamsted.ac.uk"
+            }
+        ]
+    }
+]

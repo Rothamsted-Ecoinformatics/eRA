@@ -1,0 +1,72 @@
+{
+    "administrative": {
+        "type": "Experiment",
+        "identifier": "Highfield Bare Fallow",
+        "localIdentifier": "R/RS/1",
+        "name": "Highfield Bare Fallow",
+        "url": null,
+        "description": "In 1959 an area of permanent grass (since 1838, Lawes & Gilbert, 1885) adjacent to the Highfield Ley-Arable experiment at Rothamsted was ploughed, and has not grown a crop since. This is the Highfield Bare Fallow. Soil organic carbon (SOC) is measured periodically, and this has declined substantially since the area was first ploughed out of grass. Archived soil samples are available.",
+        "disambiguatingDescription": null
+    },
+    "dataAccess": {
+        "type": "creativeWork",
+        "conditionsOfAccess": "Available to any researcher on request",
+        "isAccessibleForFree": "YesOffline",
+        "publishingPrinciples": "http://www.era.rothamsted.ac.uk/Other#SEC7",
+        "actionableFeedbackPolicy": null,
+        "correctionsPolicy": null,
+        "unnamedSourcesPolicy": null
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "CC-by-4",
+        "license": "http://creativecommons.org/licenses/by/4.0"
+    },
+    "temporalCoverage": "1953/1970 from schema",
+    "dateStart": 1959,
+    "dateEPEnd": null,
+    "dateEnd": null,
+    "funder": "NOT in GLTEN",
+    "citation": [
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1111/ejss.12359",
+            "sameAs": "https://doi.org/10.1111/ejss.12359",
+            "citation": "Gregory A.S. et al., (2016) European Joural of Soil Science. 67, 421-430",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.5194/bg-7-3839-2010",
+            "sameAs": "https://doi.org/10.5194/bg-7-3839-2010",
+            "citation": "Barr\u00e9, P., Eglin, T., Christensen, B. T., Ciais, P., Houot, S., K\u00e4tterer, T., van Oort, F., Peylin, P., Poulton, P. R., Romanenkov, V., and Chenu, C.: Quantifying and isolating stable soil organic carbon using long-term bare fallow experiments, Biogeosciences, 7, 3839\u20133850",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1016/S0065-2113(08)00801-8",
+            "sameAs": "https://doi.org/10.1016/S0065-2113(08)00801-8",
+            "citation": "Johnston, A. E. , Poulton, P. R. and Coleman, K. (2009) \"Soil organic matter: its importance in sustainable agriculture and carbon dioxide fluxes\", Advances in Agronomy, 101, 1-57",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1016/j.soilbio.2009.07.011",
+            "sameAs": "https://doi.org/10.1016/j.soilbio.2009.07.011",
+            "citation": "Hirsch, P. R. , Gilliam, L. M. , Sohi, S. P. , Williams, J. K. , Clark, I. M. and Murray, P. J. (2009) \"Starving the soil of plant inputs for 50 years reduces abundance but not diversity of soil bacterial communities\", Soil Biology & Biochemistry, 41, 2021-2024",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://repository.rothamsted.ac.uk/item/87192",
+            "sameAs": "https://repository.rothamsted.ac.uk/item/87192",
+            "citation": "Avery, B. W. and Catt, J. A. 1995. The soil at Rothamsted. Lawes Agricultural Trust, (LAT) Harpenden.",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": null,
+            "localIdentifier": null,
+            "name": null,
+            "url": null,
+            "description": "Wheat straw was incorporated annually at a rate of none, once, twice, and four times the yield of straw the previous year (approximately 0, 5, 10 and 20 t/ha)"
+        },
+        "design": {
+            "dateStart": 1987,
+            "dateEnd": 2017,
+            "description": "Plots measure 40m2. Soil was sampled from all treatments after 7, 11 and 22 years of contrasting straw treatments",
+            "studyDesign": null,
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": 4,
+            "numberOfPlots": 16,
+            "numberOfReplicates": 4,
+            "numberOfSubplots": null
+        },
+        "crops": [
+            {
+                "name": "wheat",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": [
+            {
+                "id": 1459,
+                "name": "crop residue management exposure",
+                "description": "Chopped wheat straw applied annually before sowing.",
+                "effect": "",
+                "plotApplication": "crop residue management exposure",
+                "level": [
+                    {
+                        "id": 4760,
+                        "name": "control exposure",
+                        "amount": "0",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "All crop residues were removed."
+                    },
+                    {
+                        "id": 4761,
+                        "name": "Normal",
+                        "amount": "5",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 4762,
+                        "name": "2 x normal",
+                        "amount": "10",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 4763,
+                        "name": "4 x normal",
+                        "amount": "20",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "grain yield trait",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "annual",
+                "scale": "plot",
+                "material": "SpecifiedCrop",
+                "description": null,
+                "crop": 3168
+            },
+            {
+                "variable": "forage yield",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "annual",
+                "scale": "plot",
+                "material": "SpecifiedCrop",
+                "description": null,
+                "crop": 3168
+            }
+        ]
+    }
+]

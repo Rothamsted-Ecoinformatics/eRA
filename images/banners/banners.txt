@@ -1,0 +1,30 @@
+Credit,URL,Caption,Type,Extension,exptID,isReviewed,width,height,orientation
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/2006lotsofhoos.jpg,2006lotsofhoos,Banner,jpg,0,0,1600,400,Landscape
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/2011-thousand-acre-gauge.jpg,2011 thousand acre gauge,Banner,jpg,1,0,1600,400,Landscape
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/BBWilderness.jpg,BBWilderness,Banner,jpg,2,0,1600,400,Landscape
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/Broadbalk-02.jpg,Broadbalk 02,Banner,jpg,3,0,1600,400,Landscape
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/Broadbalk-03.jpg,Broadbalk 03,Banner,jpg,4,0,1600,400,Landscape
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/Broadbalk-04.jpg,Broadbalk 04,Banner,jpg,5,0,1600,400,Landscape
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/Broadbalk-06.jpg,Broadbalk 06,Banner,jpg,6,0,1600,400,Landscape
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/Corn-marigold.jpg,Corn marigold,Banner,jpg,7,0,1600,400,Landscape
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/Gees-Croft.jpg,Gees Croft,Banner,jpg,8,0,1600,400,Landscape
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/Hoos-AWF.jpg,Hoos AWF,Banner,jpg,9,0,1600,400,Landscape
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/Hoos.jpg,Hoos,Banner,jpg,10,0,1600,400,Landscape
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/Park-Grass.jpg,Park Grass,Banner,jpg,11,0,1600,400,Landscape
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/Park-Grassf-detail.jpg,Park Grassf detail,Banner,jpg,12,0,1600,400,Landscape
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/Park-Grassf-detail2.jpg,Park Grassf detail2,Banner,jpg,13,0,1600,400,Landscape
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/Stackyard-D.jpg,Stackyard D,Banner,jpg,14,0,1600,400,Landscape
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/broadbalk2003-1.jpg,broadbalk2003 1,Banner,jpg,15,0,1600,400,Landscape
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/diagfields.jpg,diagfields,Banner,jpg,16,0,1600,400,Landscape
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/flowersinwheat.jpg,flowersinwheat,Banner,jpg,17,0,1600,400,Landscape
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/hoosfield.jpg,hoosfield,Banner,jpg,18,0,1600,400,Landscape
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/hoosfieldBW.jpg,hoosfieldBW,Banner,jpg,19,0,1600,400,Landscape
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/met-misty-day-at-Rothamsted.jpg,met misty day at Rothamsted,Banner,jpg,20,0,1600,400,Landscape
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/met-new-thousandth-acre-gauge.jpg,met new thousandth acre gauge,Banner,jpg,21,0,1600,400,Landscape
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/met-snowy-day-at-Rothamsted-landscape.jpg,met snowy day at Rothamsted landscape,Banner,jpg,22,0,1600,400,Landscape
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/met-sunny-day-at-Rothamsted.jpg,met sunny day at Rothamsted,Banner,jpg,23,0,1600,400,Landscape
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/met-sunny-day-at-rothamsted-2.jpg,met sunny day at rothamsted 2,Banner,jpg,24,0,1600,400,Landscape
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/met-windy-day-2.jpg,met windy day 2,Banner,jpg,25,0,1600,400,Landscape
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/overview.jpg,overview,Banner,jpg,26,0,1600,400,Landscape
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/soilandflowers.jpg,oilandflowers,Banner,jpg,27,0,1600,400,Landscape
+eRA curators,http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/thermometr-and-logger.jpg,hermometr and logger,Banner,jpg,28,0,1600,400,Landscape

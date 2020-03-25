@@ -1,0 +1,118 @@
+{
+    "administrative": {
+        "name": "Butt Close West",
+        "identifier": null,
+        "type": "research station field",
+        "doi": null,
+        "visitsAllowed": "No",
+        "visitingArrangements": null,
+        "description": null,
+        "management": "Plots were bounded by wooden boards prevent soil movement during cultivation. Cultivations were carried out annually to ensure that the sludge additions were evenly incorporated in the top 0-25cm. The soil pH was maintained at 6.5."
+    },
+    "location": {
+        "addressLocality": "Husborne Crawley",
+        "addressRegion": "Hertfordshire",
+        "addressCountry": "United Kingdom",
+        "geoLocationPoint": {
+            "pointLongitude": -0.597963,
+            "pointLatitude": 52.01195
+        },
+        "geoLocationPlace": "United Kingdom",
+        "polygon": "NOT IN GLTEN",
+        "elevation": 96.0,
+        "elevationUnit": "Metres",
+        "slope": null,
+        "slopeAspect": null
+    },
+    "soil": {
+        "soilTypeLabel": "arenosol",
+        "soilDescription": null
+    },
+    "soilProperty": [
+        {
+            "variableMeasured": "sand content",
+            "isEstimated": false,
+            "isBaseline": true,
+            "valueReference": 83.0,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 25.0,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": 1995,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "silt content",
+            "isEstimated": false,
+            "isBaseline": true,
+            "valueReference": 8.0,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 25.0,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": 1995,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "clay content",
+            "isEstimated": false,
+            "isBaseline": true,
+            "valueReference": 9.0,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 25.0,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": 1995,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "soil pH",
+            "isEstimated": false,
+            "isBaseline": true,
+            "valueReference": 7.3,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 25.0,
+            "unitCode": null,
+            "unitText": null,
+            "refYear": 1995,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "soil organic carbon",
+            "isEstimated": false,
+            "isBaseline": true,
+            "valueReference": 1.1,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 25.0,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": 1995,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        }
+    ],
+    "climate": {
+        "name": "temperate oceanic climate",
+        "description": null,
+        "weatherStation": {
+            "weatherStationID": "NOT IN GLTEN",
+            "name": "NOT IN GLTEN",
+            "distance": "NOT IN GLTEN",
+            "direction": "NOT IN GLTEN"
+        }
+    }
+}

@@ -7,15 +7,6 @@
  * 
  */
 
-include_once 'includes/settings.inc'; //project constants
-include_once 'includes/functions.inc' ; //project php function 
-
-
-/*
- * First we need to clean up all what comes from the environemt _GET and _POST, 
- * flush out injection and prepare the variables. 
- * 
- */
 foreach ( $_GET as $sk => $sv ) {
     // stop injection
     // convert with htmlentities($userInput);
@@ -65,3 +56,16 @@ foreach ( $_POST as $sk => $sv ) {
     }
 }
 
+
+
+include_once 'includes/settings.inc'; //project constants
+include_once 'includes/functions.inc' ; //project php function 
+include_once 'includes/exptData.inc'; //experiment data process functions
+include_once 'includes/biblio.inc'; //functions for the bibliography
+
+
+/*
+ * First we need to clean up all what comes from the environemt _GET and _POST, 
+ * flush out injection and prepare the variables. 
+ * 
+ */

@@ -1,0 +1,323 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "First Period",
+            "localIdentifier": "First Period",
+            "name": "First Period",
+            "url": "First Period",
+            "description": ""
+        },
+        "design": {
+            "dateStart": 1899,
+            "dateEnd": 1965,
+            "description": null,
+            "studyDesign": "First Period",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": 4,
+            "numberOfPlots": null,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null
+        },
+        "crops": [
+            {
+                "name": "wheat",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "name": "root vegetables",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "name": "barley",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "name": "feed legumes",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": [
+            {
+                "name": "Norfolk Rotation",
+                "dateStart": 1899,
+                "dateEnd": 1969,
+                "phasing": "Complete",
+                "isTreatment": false,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 321,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 322,
+                        "description": "Swedes or turnips in the early years, then mangolds or beetroot"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 323,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 324,
+                        "description": "Normally beans but sometimes clover or peas"
+                    }
+                ]
+            }
+        ],
+        "factor": [
+            {
+                "id": 205,
+                "name": "fertilizer exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "fertilizer exposure",
+                "level": [
+                    {
+                        "id": 453,
+                        "name": "farmyard manure",
+                        "amount": "15",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 454,
+                        "name": "bone meal",
+                        "amount": "0.5",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 455,
+                        "name": "nitrogen",
+                        "amount": "100",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "sodium nitrate",
+                        "notes": null
+                    },
+                    {
+                        "id": 456,
+                        "name": "phosphorous",
+                        "amount": "40",
+                        "unitCode": "kgP/ha",
+                        "unitText": "kg phosphorous per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 457,
+                        "name": "potassium",
+                        "amount": "63",
+                        "unitCode": "kgK/ha",
+                        "unitText": "kg potassium per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "potassium chloride",
+                        "notes": null
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": [
+            {
+                "name": "D",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "farmyard manure",
+                        "levelText": "farmyard manure",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "BM",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "bone meal",
+                        "levelText": "bone meal",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "nitrogen",
+                        "levelText": "nitrogen",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "P",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "phosphorous",
+                        "levelText": "phosphorous",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "K",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "potassium",
+                        "levelText": "potassium",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "O",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "No fertilizer",
+                "factor": "NA"
+            },
+            {
+                "name": "PK",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "phosphorous",
+                        "levelText": "phosphorous",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "potassium",
+                        "levelText": "potassium",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "NK",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "nitrogen",
+                        "levelText": "nitrogen",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "potassium",
+                        "levelText": "potassium",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "NP",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "nitrogen",
+                        "levelText": "nitrogen",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "phosphorous",
+                        "levelText": "phosphorous",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "NPK",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "nitrogen",
+                        "levelText": "nitrogen",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "phosphorous",
+                        "levelText": "phosphorous",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "potassium",
+                        "levelText": "potassium",
+                        "Comment": null
+                    }
+                ]
+            }
+        ],
+        "measurements": "NA"
+    }
+]

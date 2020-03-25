@@ -15,7 +15,8 @@ $page_title .= "";
 //--  start dependant content ---------------------------------------------------------
 
 include '_carousel.php';
-include '_home.php';
+include '_about.php';
+include '_tools.php'; 
 include '_people.php';
 
 	

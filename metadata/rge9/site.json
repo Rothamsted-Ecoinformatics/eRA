@@ -1,0 +1,103 @@
+{
+    "administrative": {
+        "name": "Geescroft Wilderness",
+        "identifier": null,
+        "type": "research station field",
+        "doi": null,
+        "visitsAllowed": "No",
+        "visitingArrangements": "By arrangement with Dr Andy Macdonald",
+        "description": "The Geescroft Wilderness at Rothamsted was fenced off in the 1880s and left to revert naturally to woodland. The site had previously been arable for centuries. It is an area of 1.3 ha.",
+        "management": "Small amounts of chalk were applied in the 1840s-1880s, and the soil is now acidic (pH fell from 7.1 in 1883 to 4.4 in 1999)."
+    },
+    "location": {
+        "addressLocality": "Harpenden",
+        "addressRegion": "Hertfordshire",
+        "addressCountry": "United Kingdom",
+        "geoLocationPoint": {
+            "pointLongitude": -0.36036,
+            "pointLatitude": 51.802193
+        },
+        "geoLocationPlace": "United Kingdom",
+        "polygon": "NOT IN GLTEN",
+        "elevation": 133.0,
+        "elevationUnit": "Metres",
+        "slope": null,
+        "slopeAspect": null
+    },
+    "soil": {
+        "soilTypeLabel": "Chromic Luvisol",
+        "soilDescription": "Batcombe soil series, silty clay loam surface overlying clay-with-flints, overlying chalk at a depth of several meters."
+    },
+    "soilProperty": [
+        {
+            "variableMeasured": "soil pH",
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 4.4,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": null,
+            "maxSampleDepth": null,
+            "unitCode": null,
+            "unitText": null,
+            "refYear": 1999,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "soil pH",
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 7.1,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": null,
+            "maxSampleDepth": null,
+            "unitCode": null,
+            "unitText": null,
+            "refYear": 1183,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "clay content",
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 22.5,
+            "minValue": 20.0,
+            "maxValue": 25.0,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 23.0,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": null,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "clay content",
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 55.0,
+            "minValue": 50.0,
+            "maxValue": 60.0,
+            "minSampleDepth": null,
+            "maxSampleDepth": 1.0,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": null,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        }
+    ],
+    "climate": {
+        "name": null,
+        "description": "Batcombe soil series, silty clay loam surface overlying clay-with-flints, overlying chalk at a depth of several meters.",
+        "weatherStation": {
+            "weatherStationID": "NOT IN GLTEN",
+            "name": "NOT IN GLTEN",
+            "distance": "NOT IN GLTEN",
+            "direction": "NOT IN GLTEN"
+        }
+    }
+}

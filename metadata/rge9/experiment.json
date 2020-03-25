@@ -1,0 +1,112 @@
+{
+    "administrative": {
+        "type": "Experiment",
+        "identifier": "Geescroft Wilderness",
+        "localIdentifier": "R/GE/9",
+        "name": "Geescroft Wilderness",
+        "url": null,
+        "description": "The Geescroft Wildernesses site at Rothamsted was 'fenced off' in the 1880's and left to revert naturally to woodland. The site had previously been arable for centuries.  It is an acidic site (in contrast to the calcareous Broadbalk Wilderness). Although not an experiment in the usual sense, it is of great value, especially for looking at long-term changes in soil and regeneration of woodland vegetation. \n\nGeescroft Wilderness is an ECN (Environmental Change Network) site and is surveyed every 3 years.",
+        "disambiguatingDescription": "To study the establishment of plants after abandonment of arable cropping and subsequently the accumulation of organic carbon above and below ground."
+    },
+    "dataAccess": {
+        "type": "creativeWork",
+        "conditionsOfAccess": "Available to any researcher on request",
+        "isAccessibleForFree": "YesOffline",
+        "publishingPrinciples": "www.era.rothamsted.ac.uk/Wilderness",
+        "actionableFeedbackPolicy": "To study the establishment of plants after abandonment of arable cropping and subsequently the accumulation of organic carbon above and below ground.",
+        "correctionsPolicy": "To study the establishment of plants after abandonment of arable cropping and subsequently the accumulation of organic carbon above and below ground.",
+        "unnamedSourcesPolicy": null
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "CC-by-4",
+        "license": "http://creativecommons.org/licenses/by/4.0"
+    },
+    "temporalCoverage": "1953/1970 from schema",
+    "dateStart": 1883,
+    "dateEPEnd": null,
+    "dateEnd": null,
+    "funder": "NOT in GLTEN",
+    "citation": [
+        {
+            "type": "creativeWork",
+            "identifier": null,
+            "sameAs": null,
+            "citation": "Jenkinson, D. S. (1971). The accumulation of organic matter in soil left uncultivated. Rothamsted Experimental Station Report for 1970 , Part 2, 113-137",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": null,
+            "sameAs": null,
+            "citation": "Poulton, P. R. (1996) \"Geescroft Wilderness, 1883-1995\", NATO Advanced Research Workshop, Evaluation of soil organic matter models using existing long-term datasets, NATO ASI Series I: Global Environmental Change, (Powlson D. S. , Smith P. and Smith J.U. (eds)), Vol 38, 385-389",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1046/j.1365-2389.1999.00253.x",
+            "sameAs": "https://doi.org/10.1046/j.1365-2389.1999.00253.x",
+            "citation": "\u2022 Blake, L. , Goulding, K. W. T. , Johnston, A. E. and Mott, C. J. B. (1999) \"Changes in soil chemistry accompanying acidification over more than 100 years under woodland and grass at Rothamsted Experimental Station, UK\", European Journal of Soil Science, 50, 401-412",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1016/S0006-3207(01)00072-6",
+            "sameAs": "https://doi.org/10.1016/S0006-3207(01)00072-6",
+            "citation": "Harmer, R. , Peterken, G. , Kerr, G. and Poulton, P. (2001) \"Vegetation changes during 100 years of development of two secondary woodlands on abandoned arable land\", Biological Conservation, 101, 291-304",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": null,
+            "sameAs": null,
+            "citation": "Pye, E. (2002) \"Investigation of woodland regeneration within two Wilderness areas. PhD thesis\", University of Hertfordshire.",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": null,
+            "sameAs": null,
+            "citation": "\u2022 Blake, L. and Goulding, K. W. T. (2002) \"Effects of atmospheric deposition, soil pH and acidification on heavy metal contents in soils and vegetation of semi-natural ecosystems at Rothamsted Experimental Station, UK\", Plant and Soil, 240, 235-251",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1046/j.1365-2486.2003.00633.x",
+            "sameAs": "https://doi.org/10.1046/j.1365-2486.2003.00633.x",
+            "citation": "Poulton, P. R. , Pye, E. , Hargreaves, P. R. and Jenkinson, D. S. (2003) \"Accumulation of carbon and nitrogen by old arable land reverting to woodland\", Global Change Biology, 9, 942-955",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1111/j.1365-2389.2008.01025.x",
+            "sameAs": "https://doi.org/10.1111/j.1365-2389.2008.01025.x",
+            "citation": "Jenkinson, D. S. , Poulton, P. R. and Bryant, C. (2008) \"The turnover of organic carbon in subsoils. Part 1. Natural and bomb radiocarbon in soil profiles from the Rothamsted long-term field experiments\", European Journal of Soil Science, 59, 391-399",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1016/bs.aecr.2016.08.002",
+            "sameAs": "https://doi.org/10.1016/bs.aecr.2016.08.002",
+            "citation": "J. Storkey , A.J. Macdonald , J.R. Bell , I.M. Clark , A.S. Gregory , N.J. Hawkins , P.R. Hirsch , L.C. Todman and Whitmore, A. P. (2016) \"The Unique Contribution of Rothamsted to Ecological Research at Large Temporal Scales.\", Advances in Ecological Research (eds: A.J. Dumbrell , R.L. Kordas and G. Woodward), Vol 55, Chapter 1, pp. 3-42",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/KeyRefOAGEWoc.",
+            "sameAs": "https://doi.org/10.23637/KeyRefOAGEWoc.",
+            "citation": "Open Access data: Geescroft wilderness accumulation of organic carbon",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        }
+    ]
+}

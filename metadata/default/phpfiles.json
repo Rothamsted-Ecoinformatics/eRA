@@ -1,0 +1,594 @@
+[
+	{
+		"Credit": "eRA curators",
+		"FileName": "index.php",
+		"Caption": "The data extraction Tool",
+		"Type": "php",
+		"exptID": "DET",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "Intro.php",
+		"Caption": "about the meteorological records",
+		"Type": "php",
+		"exptID": "met",
+		"isReviewed": 1
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "Introoriginal.php",
+		"Caption": "about the meteorological records - original",
+		"Type": "php",
+		"exptID": "met",
+		"isReviewed": 1
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "derived-variables.php",
+		"Caption": "derived variables",
+		"Type": "php",
+		"exptID": "met",
+		"isReviewed": 1
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "important-meteorological-data-updates.php",
+		"Caption": "Important met data corrections and updates",
+		"Type": "php",
+		"exptID": "met",
+		"isReviewed": 1
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index.php",
+		"Caption": "Meteorological Data stored in e-RA",
+		"Type": "php",
+		"exptID": "met",
+		"isReviewed": 1
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "instrument-description.php",
+		"Caption": "Measurement of variables at Rothamsted and Woburn",
+		"Type": "php",
+		"exptID": "met",
+		"isReviewed": 1
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "met-open-access-new.php",
+		"Caption": "Open Access Met Data",
+		"Type": "php",
+		"exptID": "met",
+		"isReviewed": 1
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "met-open-access-old.php",
+		"Caption": "Open Access Met Data",
+		"Type": "php",
+		"exptID": "met",
+		"isReviewed": 1
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "met-open-access-res-matemp.php",
+		"Caption": "Annual mean air temperature at Rothamsted",
+		"Type": "php",
+		"exptID": "met",
+		"isReviewed": 1
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "metsoils.php",
+		"Caption": "Met station site data",
+		"Type": "php",
+		"exptID": "met",
+		"isReviewed": 1
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "monthly.php",
+		"Caption": "Rothamsted Met Data Monthly Updates",
+		"Type": "php",
+		"exptID": "met",
+		"isReviewed": 1
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "restest.php",
+		"Caption": "Introduction",
+		"Type": "php",
+		"exptID": "met",
+		"isReviewed": 1
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "schools.php",
+		"Caption": "Weather data for schools",
+		"Type": "php",
+		"exptID": "met",
+		"isReviewed": 1
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "schoolsmetdesc.php",
+		"Caption": "Description of Rothamsted weather data (met data)",
+		"Type": "php",
+		"exptID": "met",
+		"isReviewed": 1
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "sources.php",
+		"Caption": "Sources",
+		"Type": "php",
+		"exptID": "met",
+		"isReviewed": 1
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "draftindexNW.php",
+		"Caption": "draftindexNW",
+		"Type": "php",
+		"exptID": "northwyke",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index.php",
+		"Caption": "index",
+		"Type": "php",
+		"exptID": "northwyke",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "indexold.php",
+		"Caption": "indexold",
+		"Type": "php",
+		"exptID": "northwyke",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index.php",
+		"Caption": "index",
+		"Type": "php",
+		"exptID": "others",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "bbk-open-access-interactive.php",
+		"Caption": "bbk open access interactive",
+		"Type": "php",
+		"exptID": "rbk1",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "bbk-open-access-old.php",
+		"Caption": "bbk open access old",
+		"Type": "php",
+		"exptID": "rbk1",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "bbk-open-access-olsenp.php",
+		"Caption": "bbk open access olsenp",
+		"Type": "php",
+		"exptID": "rbk1",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "bbk-open-access.php",
+		"Caption": "bbk open access",
+		"Type": "php",
+		"exptID": "rbk1",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "bbknutr.php",
+		"Caption": "bbknutr",
+		"Type": "php",
+		"exptID": "rbk1",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "bbksoils.php",
+		"Caption": "bbksoils",
+		"Type": "php",
+		"exptID": "rbk1",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "bbksoils44.php",
+		"Caption": "bbksoils44",
+		"Type": "php",
+		"exptID": "rbk1",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "bbksoils66.php",
+		"Caption": "bbksoils66",
+		"Type": "php",
+		"exptID": "rbk1",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "bbksoils87.php",
+		"Caption": "bbksoils87",
+		"Type": "php",
+		"exptID": "rbk1",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "bbkweeds.php",
+		"Caption": "bbkweeds",
+		"Type": "php",
+		"exptID": "rbk1",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "bbkweeds0ol2.php",
+		"Caption": "bbkweeds0ol2",
+		"Type": "php",
+		"exptID": "rbk1",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "bbkweedsold.php",
+		"Caption": "bbkweedsold",
+		"Type": "php",
+		"exptID": "rbk1",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "bbkyields-other-crops.php",
+		"Caption": "bbkyields other crops",
+		"Type": "php",
+		"exptID": "rbk1",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "bbkyields.php",
+		"Caption": "bbkyields",
+		"Type": "php",
+		"exptID": "rbk1",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index.php",
+		"Caption": "index",
+		"Type": "php",
+		"exptID": "rbk1",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "indexoriginal.php",
+		"Caption": "indexoriginal",
+		"Type": "php",
+		"exptID": "rbk1",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "pg-composition.php",
+		"Caption": "pg composition",
+		"Type": "php",
+		"exptID": "rbk1",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "exhsoils.php",
+		"Caption": "exhsoils",
+		"Type": "php",
+		"exptID": "rex4",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "exhsoilsold.php",
+		"Caption": "exhsoilsold",
+		"Type": "php",
+		"exptID": "rex4",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index.php",
+		"Caption": "index",
+		"Type": "php",
+		"exptID": "rex4",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index.php",
+		"Caption": "index",
+		"Type": "php",
+		"exptID": "rgc8",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": " del-hoos-open-access.php",
+		"Caption": " del hoos open access",
+		"Type": "php",
+		"exptID": "rhb2",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "hfnutr.php",
+		"Caption": "hfnutr",
+		"Type": "php",
+		"exptID": "rhb2",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "hfsoils.php",
+		"Caption": "hfsoils",
+		"Type": "php",
+		"exptID": "rhb2",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "hoos-open-access-old2.php",
+		"Caption": "hoos open access old2",
+		"Type": "php",
+		"exptID": "rhb2",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "hoos-open-access-soc.php",
+		"Caption": "hoos open access soc",
+		"Type": "php",
+		"exptID": "rhb2",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "hoos-open-access-yields.php",
+		"Caption": "hoos open access yields",
+		"Type": "php",
+		"exptID": "rhb2",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "hoos-open-access.php",
+		"Caption": "hoos open access",
+		"Type": "php",
+		"exptID": "rhb2",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index.php",
+		"Caption": "index",
+		"Type": "php",
+		"exptID": "rhb2",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index2018.php",
+		"Caption": "index2018",
+		"Type": "php",
+		"exptID": "rhb2",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "indexoriginal.php",
+		"Caption": "indexoriginal",
+		"Type": "php",
+		"exptID": "rhb2",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "#NAME?",
+		"Caption": " del pg openaccess",
+		"Type": "php",
+		"exptID": "rpg5",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index-copy.php",
+		"Caption": "index copy",
+		"Type": "php",
+		"exptID": "rpg5",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index-original.php",
+		"Caption": "index original",
+		"Type": "php",
+		"exptID": "rpg5",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index.php",
+		"Caption": "index",
+		"Type": "php",
+		"exptID": "rpg5",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "parkgrass-history.php",
+		"Caption": "parkgrass history",
+		"Type": "php",
+		"exptID": "rpg5",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "parkgrass-today.php",
+		"Caption": "parkgrass today",
+		"Type": "php",
+		"exptID": "rpg5",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "pg-open-access-soilph.php",
+		"Caption": "pg open access soilph",
+		"Type": "php",
+		"exptID": "rpg5",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "pg-open-access-species.php",
+		"Caption": "pg open access species",
+		"Type": "php",
+		"exptID": "rpg5",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "pg-open-access.php",
+		"Caption": "pg open access",
+		"Type": "php",
+		"exptID": "rpg5",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "pg-openaccess.php",
+		"Caption": "pg openaccess",
+		"Type": "php",
+		"exptID": "rpg5",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "pgcomposition.php",
+		"Caption": "pgcomposition",
+		"Type": "php",
+		"exptID": "rpg5",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "pgcomposition1.php",
+		"Caption": "pgcomposition1",
+		"Type": "php",
+		"exptID": "rpg5",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "pgsoils.php",
+		"Caption": "pgsoils",
+		"Type": "php",
+		"exptID": "rpg5",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "test.php",
+		"Caption": "test",
+		"Type": "php",
+		"exptID": "rpg5",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index.php",
+		"Caption": "index",
+		"Type": "php",
+		"exptID": "rwf3",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index.php",
+		"Caption": "index",
+		"Type": "php",
+		"exptID": "wilderness",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "wilderness-open-access-broadbalk-oc.php",
+		"Caption": "wilderness open access broadbalk oc",
+		"Type": "php",
+		"exptID": "wilderness",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "wilderness-open-access-geescroft-oc.php",
+		"Caption": "wilderness open access geescroft oc",
+		"Type": "php",
+		"exptID": "wilderness",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "wilderness-open-access-geescroftxx.php",
+		"Caption": "wilderness open access geescroftxx",
+		"Type": "php",
+		"exptID": "wilderness",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "wilderness-open-access.php",
+		"Caption": "wilderness open access",
+		"Type": "php",
+		"exptID": "wilderness",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index.php",
+		"Caption": "index",
+		"Type": "php",
+		"exptID": "woburn",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "data.php",
+		"Caption": "data",
+		"Type": "php",
+		"exptID": "wrn3",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index.php",
+		"Caption": "index",
+		"Type": "php",
+		"exptID": "wrn3",
+		"isReviewed": 0
+	}
+]

@@ -1,0 +1,31 @@
+{
+    "administrative": {
+        "type": "Experiment",
+        "identifier": "Alternate Wheat and Fallow",
+        "localIdentifier": "R/WF/3",
+        "name": "Alternate Wheat and Fallow",
+        "url": null,
+        "description": "The Alternate Wheat and Fallow experiment was started by Lawes and Gilbert in 1856, on a 0.4 ha site on part of Hoosfield.\n\nThe experiment originally had two strips which alternated winter wheat and a bare fallow in successive years. Between 1932 and 1982, a modification was introduced to allow a yearly comparison of a one-year and a three-year fallow but the effects on the yield of the subsequent wheat crop were small and since 1983 the experiment has reverted to the original design.\n\nThe wheat cultivar grown has usually been the same as on Broadbalk, and the effects of fallowing on the yield of winter wheat can be roughly estimated by comparing yields from this experiment with continuous, unmanured wheat on Broadbalk (plot 03). In the first 10 years of the experiment the one-year fallow gave an extra 0.6 t ha-1, but over the next 60 years the difference was even smaller (0.14 t ha-1). Since its reversion to the original design in 1983, and with modern cultivars, average yields of the wheat after a one-year fallow have been 1.7 t ha-1. When expressed on the basis of the whole area (i.e. wheat plus fallow), the yield of 0.85 t ha-1 is slightly less than the 1.0 t ha-1 for continuous wheat on Broadbalk.\nSince autumn 2015, the whole experiment (both plots) has been sown to winter wheat, the same variety as is grown on Broadbalk. A small amount of N fertilizer (50 kg N ha-1) is applied in spring (mid-April), but to maintain the low soil P and K status, no other fertilizers are applied. \n\nNo yields or crop samples have been taken since harvest 2015.\n\nIt was in this experiment in 1935, that symptoms caused by the fungal pathogen Gibellina cerealis or 'white straw disease' were first recorded in the UK.",
+        "disambiguatingDescription": null
+    },
+    "dataAccess": {
+        "type": "creativeWork",
+        "conditionsOfAccess": "Available to any researcher on request",
+        "isAccessibleForFree": "YesOffline",
+        "publishingPrinciples": "http://www.era.rothamsted.ac.uk/Alternate",
+        "actionableFeedbackPolicy": null,
+        "correctionsPolicy": null,
+        "unnamedSourcesPolicy": null
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "CC-by-4",
+        "license": "http://creativecommons.org/licenses/by/4.0"
+    },
+    "temporalCoverage": "1953/1970 from schema",
+    "dateStart": 1856,
+    "dateEPEnd": null,
+    "dateEnd": 2014,
+    "funder": "NOT in GLTEN",
+    "citation": []
+}

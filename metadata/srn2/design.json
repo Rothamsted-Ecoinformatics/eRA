@@ -1,0 +1,112 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Final period",
+            "localIdentifier": "Final period",
+            "name": "Final period",
+            "url": "Final period",
+            "description": "4 blocks (A, B, C, D) each containing 8 main strips (1-8), each divided into 5 micro-plots (01-20)."
+        },
+        "design": {
+            "dateStart": 1969,
+            "dateEnd": 1986,
+            "description": "4 blocks (A, B, C, D) each containing 8 main strips (1-8), each divided into 5 micro-plots (01-20).",
+            "studyDesign": "Final period",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": 4,
+            "numberOfPlots": 8,
+            "numberOfReplicates": 4,
+            "numberOfSubplots": 5
+        },
+        "crops": [
+            {
+                "name": "potatoes",
+                "dateStart": 1969,
+                "dateEnd": 1974
+            },
+            {
+                "name": "sugarbeet",
+                "dateStart": 1969,
+                "dateEnd": 1974
+            },
+            {
+                "name": "winter wheat",
+                "dateStart": 1977,
+                "dateEnd": 1986
+            },
+            {
+                "name": "barley",
+                "dateStart": 1970,
+                "dateEnd": 1979
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": "NA",
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "plant available phosphorous",
+                "unitCode": null,
+                "unitText": "mg/kg",
+                "collectionFrequency": "Annual",
+                "scale": "0-23cm",
+                "material": "Soil",
+                "description": "Olsen P",
+                "crop": null
+            }
+        ]
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Early period",
+            "localIdentifier": "Early period",
+            "name": "Early period",
+            "url": "Early period",
+            "description": "Four large blocks each comprising 10 treatment strips. The treatments were applied once every four years. In 1952 two-thirds of the experiment was stopped, although one strip on two blocks we re-incorporated into the experiment later."
+        },
+        "design": {
+            "dateStart": 1899,
+            "dateEnd": 1964,
+            "description": "Started by the Education Committee of East Suffolk County Council, to determine how farmyard manure (FYM) and/or inorganic fertilizer (N and P) could best be distributed to crops in a four-course rotation.",
+            "studyDesign": "Early period",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": 4,
+            "numberOfPlots": 10,
+            "numberOfReplicates": 4,
+            "numberOfSubplots": null
+        },
+        "crops": "NA",
+        "cropRotations": "NA",
+        "factor": "NA",
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Middle period",
+            "localIdentifier": "Middle period",
+            "name": "Middle period",
+            "url": "Middle period",
+            "description": "Rothamsted took over the site in 1964 and modified the experiment. Additional FYM and P was applied to extend the range of P residues prior to testing the value of fresh and residual P on sub-plots within the main treatment strips. Strip 8, which had not received any treatment since 1952 was re-incorporated into the experiment."
+        },
+        "design": {
+            "dateStart": 1965,
+            "dateEnd": 1968,
+            "description": "Rothamsted took over the site in 1964 and modified the experiment. Additional FYM and P was applied to extend the range of P residues prior to testing the value of fresh and residual P on sub-plots within the main treatment strips. Strip 8, which had not received any treatment since 1952 was re-incorporated into the experiment.",
+            "studyDesign": "Middle period",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": 8,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null
+        },
+        "crops": "NA",
+        "cropRotations": "NA",
+        "factor": "NA",
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    }
+]

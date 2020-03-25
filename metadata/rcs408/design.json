@@ -1,0 +1,117 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Main period",
+            "localIdentifier": "Main period",
+            "name": "Main period",
+            "url": "Main period",
+            "description": "3 randomised blocks of 3 plots each"
+        },
+        "design": {
+            "dateStart": 1993,
+            "dateEnd": null,
+            "description": null,
+            "studyDesign": "Main period",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": 3,
+            "numberOfPlots": 9,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null
+        },
+        "crops": [
+            {
+                "name": "Miscanthus sinensis",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": [
+            {
+                "id": 200,
+                "name": "nitrogen fertilizer exposure",
+                "description": null,
+                "effect": "Cumulative",
+                "plotApplication": "nitrogen fertilizer exposure",
+                "level": [
+                    {
+                        "id": 434,
+                        "name": "control exposure",
+                        "amount": "0",
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 435,
+                        "name": "N1",
+                        "amount": "60",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": "annually in spring",
+                        "method": null,
+                        "chemicalForm": "ammonium nitrate",
+                        "notes": null
+                    },
+                    {
+                        "id": 436,
+                        "name": "N2",
+                        "amount": "120",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": "annually in spring",
+                        "method": null,
+                        "chemicalForm": "ammonium nitrate",
+                        "notes": null
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "plant biomass",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": "annual",
+                "scale": null,
+                "material": null,
+                "description": null,
+                "crop": null
+            },
+            {
+                "variable": "plant height",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": null,
+                "crop": null
+            },
+            {
+                "variable": "stem number",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": null,
+                "crop": null
+            }
+        ]
+    }
+]

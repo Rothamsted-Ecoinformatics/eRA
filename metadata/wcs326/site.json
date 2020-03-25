@@ -1,0 +1,42 @@
+{
+    "administrative": {
+        "name": "Far Field I",
+        "identifier": null,
+        "type": "research farm",
+        "doi": null,
+        "visitsAllowed": "No",
+        "visitingArrangements": null,
+        "description": "Winter wheat was grown for the 3 years prior to the experiment starting",
+        "management": "Site followed standard farm management practice for cultivation and pest control."
+    },
+    "location": {
+        "addressLocality": "Husborne Crawley",
+        "addressRegion": "Bedfordshire",
+        "addressCountry": "United Kingdom",
+        "geoLocationPoint": {
+            "pointLongitude": -0.619397,
+            "pointLatitude": 52.008415
+        },
+        "geoLocationPlace": "United Kingdom",
+        "polygon": "NOT IN GLTEN",
+        "elevation": 102.0,
+        "elevationUnit": "Metres",
+        "slope": null,
+        "slopeAspect": null
+    },
+    "soil": {
+        "soilTypeLabel": "cambisol",
+        "soilDescription": "Well drained sandy loam soil of the Lowlands Series."
+    },
+    "soilProperty": [],
+    "climate": {
+        "name": "temperate oceanic climate",
+        "description": "Well drained sandy loam soil of the Lowlands Series.",
+        "weatherStation": {
+            "weatherStationID": "NOT IN GLTEN",
+            "name": "NOT IN GLTEN",
+            "distance": "NOT IN GLTEN",
+            "direction": "NOT IN GLTEN"
+        }
+    }
+}

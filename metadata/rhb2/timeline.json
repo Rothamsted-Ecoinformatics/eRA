@@ -1,0 +1,65 @@
+{
+    "title": {
+        "text": {
+            "headline": "Hoosfield Experiment",
+            "text": "The aim of the Hoosfield Barley was to test the effects of different inorganic fertilizers on the yield of spring barley"
+        },
+        "media": {
+            "url": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/2010-Hoosfield.jpg",
+            "caption": "2010 Hoosfield",
+            "credit": "eRA curators",
+            "link": null,
+            "link_target": null
+        }
+    },
+    "events": [
+        {
+            "media": {
+                "url": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/1648-Historic-farm-Hoosfield-17-August-1925.jpg",
+                "caption": "1648 Historic farm Hoosfield 17 August 1925",
+                "credit": "eRA curators",
+                "thumbnail": "",
+                "link": null,
+                "link_target": null
+            },
+            "start_date": {
+                "month": 8,
+                "day": 17,
+                "year": 1925
+            },
+            "end_date": {
+                "month": 9,
+                "day": 17,
+                "year": 1925
+            },
+            "text": {
+                "headline": "Historic Image",
+                "text": "An image of Hoosfield in 1925"
+            }
+        },
+        {
+            "media": {
+                "url": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/2008-hoosfield-plan.gif",
+                "caption": "2008 hoosfield plan",
+                "credit": "eRA curators",
+                "thumbnail": "",
+                "link": null,
+                "link_target": null
+            },
+            "start_date": {
+                "month": 0,
+                "day": 0,
+                "year": 2008
+            },
+            "end_date": {
+                "month": 0,
+                "day": 0,
+                "year": 0
+            },
+            "text": {
+                "headline": "Hoos Spring Barley",
+                "text": "Design of Hoos Spring Barley in 2008"
+            }
+        }
+    ]
+}

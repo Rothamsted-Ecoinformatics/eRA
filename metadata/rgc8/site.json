@@ -1,0 +1,42 @@
+{
+    "administrative": {
+        "name": "Rothamsted Manor Kitchen Garden",
+        "identifier": null,
+        "type": "research station field",
+        "doi": null,
+        "visitsAllowed": "Yes",
+        "visitingArrangements": "By arrangement with Dr Andy Macdonald",
+        "description": null,
+        "management": null
+    },
+    "location": {
+        "addressLocality": "Harpenden",
+        "addressRegion": "Hertfordshire",
+        "addressCountry": "United Kingdom",
+        "geoLocationPoint": {
+            "pointLongitude": -0.370152,
+            "pointLatitude": 51.806624
+        },
+        "geoLocationPlace": "United Kingdom",
+        "polygon": "NOT IN GLTEN",
+        "elevation": 130.0,
+        "elevationUnit": "Metres",
+        "slope": null,
+        "slopeAspect": null
+    },
+    "soil": {
+        "soilTypeLabel": null,
+        "soilDescription": null
+    },
+    "soilProperty": [],
+    "climate": {
+        "name": "temperate oceanic climate",
+        "description": null,
+        "weatherStation": {
+            "weatherStationID": "NOT IN GLTEN",
+            "name": "NOT IN GLTEN",
+            "distance": "NOT IN GLTEN",
+            "direction": "NOT IN GLTEN"
+        }
+    }
+}

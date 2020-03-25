@@ -1,0 +1,31 @@
+{
+    "administrative": {
+        "type": "Experiment",
+        "identifier": "Exhaustion Land",
+        "localIdentifier": "R/EX/4",
+        "name": "Exhaustion Land",
+        "url": null,
+        "description": "The Exhaustion Land experiment has had several distinct phases since it started in 1856. Today, it is used to study the residual effects of fertilizers and manures applied from 1856-1901 and additional phosphate applied since 1986, on the yield of cereals. A test of potassium was introduced in 2007. Treatments have been managed so that the soils now have a wide range of plant available P and K.",
+        "disambiguatingDescription": "To test the residual effects of mineral fertilizer and manures applied 1876-1901 and of additional phosphate applied since 1986, on the yield of spring barley (up to 1991) and winter wheat. A test of potassium was introduced in 2007. Soils now have a range of plant available P and K."
+    },
+    "dataAccess": {
+        "type": "creativeWork",
+        "conditionsOfAccess": "Available to any researcher on request",
+        "isAccessibleForFree": "YesOffline",
+        "publishingPrinciples": "http://www.era.rothamsted.ac.uk/Exhaustion",
+        "actionableFeedbackPolicy": "To test the residual effects of mineral fertilizer and manures applied 1876-1901 and of additional phosphate applied since 1986, on the yield of spring barley (up to 1991) and winter wheat. A test of potassium was introduced in 2007. Soils now have a range of plant available P and K.",
+        "correctionsPolicy": "To test the residual effects of mineral fertilizer and manures applied 1876-1901 and of additional phosphate applied since 1986, on the yield of spring barley (up to 1991) and winter wheat. A test of potassium was introduced in 2007. Soils now have a range of plant available P and K.",
+        "unnamedSourcesPolicy": null
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "CC-by-4",
+        "license": "http://creativecommons.org/licenses/by/4.0"
+    },
+    "temporalCoverage": "1953/1970 from schema",
+    "dateStart": 1856,
+    "dateEPEnd": null,
+    "dateEnd": null,
+    "funder": "NOT in GLTEN",
+    "citation": []
+}

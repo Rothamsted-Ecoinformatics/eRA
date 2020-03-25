@@ -1,0 +1,28 @@
+[
+    {
+        "type": "Organization",
+        "name": "Rothamsted Research",
+        "legalName": "Rothamsted Research",
+        "identifier": "NA",
+        "role": "research organisation",
+        "contactPoint": [
+            {
+                "contactType": "URL",
+                "description": "www.era.rothamsted.ac.uk"
+            }
+        ]
+    },
+    {
+        "type": "Organization",
+        "name": "Dr Sarah Perryman",
+        "legalName": "Dr Sarah Perryman",
+        "identifier": "NA",
+        "role": null,
+        "contactPoint": [
+            {
+                "contactType": "Email",
+                "description": "era@rothamsted.ac.uk"
+            }
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "type": "Organization",
+        "name": "Rothamsted Research",
+        "legalName": "Rothamsted Research",
+        "identifier": "NA",
+        "role": "research organisation",
+        "contactPoint": [
+            {
+                "contactType": "URL",
+                "description": "http://www.rothamsted.ac.uk"
+            }
+        ]
+    },
+    {
+        "type": "Organization",
+        "name": "Environmental change Network",
+        "legalName": "ECN",
+        "identifier": "NA",
+        "role": "research organisation",
+        "contactPoint": "NA"
+    }
+]

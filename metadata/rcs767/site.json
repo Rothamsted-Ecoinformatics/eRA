@@ -1,0 +1,88 @@
+{
+    "administrative": {
+        "name": "Highfield",
+        "identifier": null,
+        "type": "research station field",
+        "doi": null,
+        "visitsAllowed": "Yes",
+        "visitingArrangements": "By arrangement with Dr Andy Macdonald",
+        "description": "Previously part of the Highfield Ley-Arable experiment. The site was originally permanent grassland. The bare fallow plots were started in 1959 and maintained by regular tilling. The arable plots were converted from grassland to continuous arable (wheat) in 1949.",
+        "management": null
+    },
+    "location": {
+        "addressLocality": "Harpenden",
+        "addressRegion": "Hertfordshire",
+        "addressCountry": "United Kingdom",
+        "geoLocationPoint": {
+            "pointLongitude": -0.36268,
+            "pointLatitude": 51.804307
+        },
+        "geoLocationPlace": "United Kingdom",
+        "polygon": "NOT IN GLTEN",
+        "elevation": 130.0,
+        "elevationUnit": "Metres",
+        "slope": null,
+        "slopeAspect": null
+    },
+    "soil": {
+        "soilTypeLabel": "luvisol",
+        "soilDescription": null
+    },
+    "soilProperty": [
+        {
+            "variableMeasured": "soil total carbon",
+            "isEstimated": false,
+            "isBaseline": true,
+            "valueReference": null,
+            "minValue": 0.97,
+            "maxValue": 5.39,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 10.0,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": 2008,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "total soil nitrogen",
+            "isEstimated": false,
+            "isBaseline": true,
+            "valueReference": null,
+            "minValue": 0.097,
+            "maxValue": 0.454,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 10.0,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": 2008,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "soil organic carbon",
+            "isEstimated": false,
+            "isBaseline": true,
+            "valueReference": null,
+            "minValue": 0.38,
+            "maxValue": 3.01,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 10.0,
+            "unitCode": "g/cm3",
+            "unitText": "gram per cubic centimetre",
+            "refYear": 2008,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        }
+    ],
+    "climate": {
+        "name": "temperate oceanic climate",
+        "description": null,
+        "weatherStation": {
+            "weatherStationID": "NOT IN GLTEN",
+            "name": "NOT IN GLTEN",
+            "distance": "NOT IN GLTEN",
+            "direction": "NOT IN GLTEN"
+        }
+    }
+}

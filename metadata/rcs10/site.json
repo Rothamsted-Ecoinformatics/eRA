@@ -1,0 +1,163 @@
+{
+    "administrative": {
+        "name": "Sawyers Field I",
+        "identifier": null,
+        "type": "research station field",
+        "doi": null,
+        "visitsAllowed": "No",
+        "visitingArrangements": null,
+        "description": null,
+        "management": null
+    },
+    "location": {
+        "addressLocality": "Harpenden",
+        "addressRegion": "Hertfordshire",
+        "addressCountry": "United Kingdom",
+        "geoLocationPoint": {
+            "pointLongitude": -0.37565,
+            "pointLatitude": 51.815925
+        },
+        "geoLocationPlace": "United Kingdom",
+        "polygon": "NOT IN GLTEN",
+        "elevation": 130.0,
+        "elevationUnit": "Metres",
+        "slope": null,
+        "slopeAspect": null
+    },
+    "soil": {
+        "soilTypeLabel": "luvisol",
+        "soilDescription": "Chromic Luvisols and Orthic Acrisols Podzoluvisols (FAO). Derived from drift and loess over clay-with-flints."
+    },
+    "soilProperty": [
+        {
+            "variableMeasured": "coarse sand content",
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 14.0,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": null,
+            "maxSampleDepth": null,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": 1974,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "fine sand content",
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 40.0,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": null,
+            "maxSampleDepth": null,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": 1974,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "silt content",
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 23.0,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": null,
+            "maxSampleDepth": null,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": 1974,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "clay content",
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 21.0,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": null,
+            "maxSampleDepth": null,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": 1974,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "soil total carbon",
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 1.4,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": null,
+            "maxSampleDepth": null,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": 1974,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "total soil nitrogen",
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 0.15,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": null,
+            "maxSampleDepth": null,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": 1974,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "soil density",
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 28000.0,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": null,
+            "maxSampleDepth": null,
+            "unitCode": "t/ha",
+            "unitText": "tonnes per hectare",
+            "refYear": 1974,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "soil pH",
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": null,
+            "minValue": 4.91,
+            "maxValue": 7.59,
+            "minSampleDepth": null,
+            "maxSampleDepth": null,
+            "unitCode": null,
+            "unitText": null,
+            "refYear": 1967,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        }
+    ],
+    "climate": {
+        "name": null,
+        "description": "Chromic Luvisols and Orthic Acrisols Podzoluvisols (FAO). Derived from drift and loess over clay-with-flints.",
+        "weatherStation": {
+            "weatherStationID": "NOT IN GLTEN",
+            "name": "NOT IN GLTEN",
+            "distance": "NOT IN GLTEN",
+            "direction": "NOT IN GLTEN"
+        }
+    }
+}

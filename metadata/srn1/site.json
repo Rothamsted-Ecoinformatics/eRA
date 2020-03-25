@@ -1,0 +1,42 @@
+{
+    "administrative": {
+        "name": "Harwood's Piece",
+        "identifier": null,
+        "type": "research station field",
+        "doi": null,
+        "visitsAllowed": "No",
+        "visitingArrangements": null,
+        "description": null,
+        "management": null
+    },
+    "location": {
+        "addressLocality": "Saxmundham",
+        "addressRegion": "Suffolk",
+        "addressCountry": "United Kingdom",
+        "geoLocationPoint": {
+            "pointLongitude": 1.466048,
+            "pointLatitude": 52.220964
+        },
+        "geoLocationPlace": "United Kingdom",
+        "polygon": "NOT IN GLTEN",
+        "elevation": 36.0,
+        "elevationUnit": "Metres",
+        "slope": null,
+        "slopeAspect": null
+    },
+    "soil": {
+        "soilTypeLabel": null,
+        "soilDescription": null
+    },
+    "soilProperty": [],
+    "climate": {
+        "name": null,
+        "description": null,
+        "weatherStation": {
+            "weatherStationID": "NOT IN GLTEN",
+            "name": "NOT IN GLTEN",
+            "distance": "NOT IN GLTEN",
+            "direction": "NOT IN GLTEN"
+        }
+    }
+}

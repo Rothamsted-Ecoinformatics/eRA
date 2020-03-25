@@ -1,0 +1,40 @@
+{
+    "administrative": {
+        "type": "Experiment",
+        "identifier": "Metal Salts Experiment",
+        "localIdentifier": "W/CS/439",
+        "name": "Metal Salts Experiment",
+        "url": null,
+        "description": "Enables the comparison of metal concentrations (zinc, copper and cadmium) at 3 rates applied as metal salts and with no additional organic matter. \nPeriodic soil and plant samples are available in the Rothamsted Sample Archive. \nThis experiment is part of a network of 3 sites across the UK and can also be compared with related Contaminated Sludge Cake Experiment and Metal Amended Liquid Sludge Experiment, also at Woburn.",
+        "disambiguatingDescription": "To study the effects of zinc, copper and cadmium as metal salts on soil microbial activity"
+    },
+    "dataAccess": {
+        "type": "creativeWork",
+        "conditionsOfAccess": "Available to any researcher on request",
+        "isAccessibleForFree": "YesOffline",
+        "publishingPrinciples": null,
+        "actionableFeedbackPolicy": "To study the effects of zinc, copper and cadmium as metal salts on soil microbial activity",
+        "correctionsPolicy": "To study the effects of zinc, copper and cadmium as metal salts on soil microbial activity",
+        "unnamedSourcesPolicy": null
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "CC-by-4",
+        "license": "http://creativecommons.org/licenses/by/4.0"
+    },
+    "temporalCoverage": "1953/1970 from schema",
+    "dateStart": 1995,
+    "dateEPEnd": null,
+    "dateEnd": null,
+    "funder": "NOT in GLTEN",
+    "citation": [
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1016/j.soilbio.2008.01.026",
+            "sameAs": "https://doi.org/10.1016/j.soilbio.2008.01.026",
+            "citation": "Chaudri, A. , McGrath, S. , Gibbs, P. , Chambers, B. , Carlton-Smith, C. , Bacon, J. , Campbell, C. and Aitken, M. (2008) \"Population size of indigenous Rhizobium leguminosarum biovar trifolii in long-term field experiments with sewage sludge cake, metal-amended liquid sludge or metal salts: Effects of zinc, copper and cadmium\", Soil Biology & Biochemistry, 40, 1670-1680",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        }
+    ]
+}

@@ -1,0 +1,193 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": null,
+            "localIdentifier": null,
+            "name": null,
+            "url": null,
+            "description": "Each plot received only one of the three metal amendments for 3 years between 1995 and 1997. In addition to the 9 treated plots there were two untreated control plots."
+        },
+        "design": {
+            "dateStart": 1995,
+            "dateEnd": null,
+            "description": "Plots measure 1.5 x 3.5m",
+            "studyDesign": null,
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": 3,
+            "numberOfPlots": 33,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null
+        },
+        "crops": [
+            {
+                "name": "rye grass",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "name": "spring wheat",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": [
+            {
+                "id": 1652,
+                "name": "zinc nutrient exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "zinc nutrient exposure",
+                "level": [
+                    {
+                        "id": 5432,
+                        "name": "Rate 1",
+                        "amount": "399",
+                        "unitCode": "kg/ha",
+                        "unitText": "kilogram per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1995,
+                        "dateEnd": 1997,
+                        "frequency": "annually",
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 5433,
+                        "name": "Rate 2",
+                        "amount": "845",
+                        "unitCode": "kg/ha",
+                        "unitText": "kilogram per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1995,
+                        "dateEnd": 1997,
+                        "frequency": "annually",
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 5434,
+                        "name": "Rate 3",
+                        "amount": "1303",
+                        "unitCode": "kg/ha",
+                        "unitText": "kilogram per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1995,
+                        "dateEnd": 1997,
+                        "frequency": "annually",
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 1653,
+                "name": "copper nutrient exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "copper nutrient exposure",
+                "level": [
+                    {
+                        "id": 5435,
+                        "name": "Rate 1",
+                        "amount": "205",
+                        "unitCode": "kg/ha",
+                        "unitText": "kilogram per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1995,
+                        "dateEnd": 1997,
+                        "frequency": "annually",
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 5436,
+                        "name": "Rate 2",
+                        "amount": "424",
+                        "unitCode": "kg/ha",
+                        "unitText": "kilogram per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1995,
+                        "dateEnd": 1997,
+                        "frequency": "annually",
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 5437,
+                        "name": "Rate 3",
+                        "amount": "593",
+                        "unitCode": "kg/ha",
+                        "unitText": "kilogram per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1995,
+                        "dateEnd": 1997,
+                        "frequency": "annually",
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 1654,
+                "name": "cadmium exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "cadmium exposure",
+                "level": [
+                    {
+                        "id": 5438,
+                        "name": "Rate 1",
+                        "amount": "6",
+                        "unitCode": "kg/ha",
+                        "unitText": "kilogram per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1995,
+                        "dateEnd": 1997,
+                        "frequency": "annually",
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 5439,
+                        "name": "Rate 2",
+                        "amount": "9.87",
+                        "unitCode": "kg/ha",
+                        "unitText": "kilogram per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1995,
+                        "dateEnd": 1997,
+                        "frequency": "annually",
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 5440,
+                        "name": "Rate 3",
+                        "amount": "13.01",
+                        "unitCode": "kg/ha",
+                        "unitText": "kilogram per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1995,
+                        "dateEnd": 1997,
+                        "frequency": "annually",
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    }
+]

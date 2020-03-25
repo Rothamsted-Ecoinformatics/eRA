@@ -7,6 +7,15 @@
   font-style: italic;
   font-size: smaller; }
 
+.zoom {
+  transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s; }
+  .zoom:hover {
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1); }
+
 #custom-top-right .nav-item .nav-link {
   color: #574834;
   background-color: #fff;
@@ -62,6 +71,8 @@
     line-height: 1.428571429;
     color: #333333;
     white-space: normal;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
     border-left: 4px solid transparent; }
     #custom-main-menu .megamenu div li ul li a:hover, #custom-main-menu .megamenu div li ul li a:focus {
       text-decoration: none;
@@ -77,40 +88,61 @@
       background-color: transparent;
       background-image: none;
       cursor: not-allowed; }
-  #custom-main-menu .megamenu.dropdown-header {
-    color: #428bca;
+  #custom-main-menu .megamenu .dropdown-header {
+    color: #0E6633;
     font-size: 18px; }
-
-#custom-main-menu .dropdown-item {
-  background-color: transparent; }
-
-#idPeople {
-  color: #0E6633; }
+    #custom-main-menu .megamenu .dropdown-header a {
+      color: #0E6633; }
+  #custom-main-menu .megamenu .dropdown-item {
+    background-color: transparent; }
 
 #idExpt .nav-tabs {
-  background-color: #aabb99; }
+  background-color: #fff; }
   #idExpt .nav-tabs li a {
-    background-color: #aabb99 !important;
-    color: #0E6633; }
+    background-color: #0E6633 !important;
+    color: #fff;
+    border-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px; }
     #idExpt .nav-tabs li a:hover {
       background-color: #fff !important;
-      border-radius: 5px;
       color: #0E6633;
       border: 1px solid #0E6633;
-      border-bottom: 1px solid #fff;
-      border-bottom-left-radius: 0px;
-      border-bottom-right-radius: 0px; }
+      border-bottom: 1px solid #aabb99; }
     #idExpt .nav-tabs li a:focus {
-      background-color: #fff !important;
-      border-radius: 5px;
+      background-color: #aabb99 !important;
       color: #0E6633;
       border: 1px solid #0E6633;
-      border-bottom: 1px solid #fff;
-      border-bottom-left-radius: 0px;
-      border-bottom-right-radius: 0px; }
+      border-bottom: 1px solid #aabb99; }
+
+#idExpt .tab-pane {
+  background-color: whitesmoke; }
+
+#idExptTabs .nav-tabs {
+  background-color: #aabb99; }
+  #idExptTabs .nav-tabs li a {
+    background-color: #aabb99 !important;
+    color: #0E6633;
+    border-radius: 8px;
+    border: 1px solid #0E6633;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px; }
+    #idExptTabs .nav-tabs li a:hover {
+      background-color: #fff !important;
+      color: #0E6633;
+      border-bottom: 1px solid #0E6633; }
+    #idExptTabs .nav-tabs li a:focus {
+      background-color: whitesmoke !important;
+      color: #0E6633;
+      border-bottom: 1px solid whitesmoke; }
+
+#idExptTabs .tab-pane {
+  background-color: whitesmoke; }
 
 #idPaperSideBar {
   background-color: #f3f3f3; }
+  #idPaperSideBar form .form-group label {
+    color: #0E6633; }
   #idPaperSideBar form .form-group input {
     font-size: .8em; }
     #idPaperSideBar form .form-group input:hover {
@@ -259,12 +291,12 @@ sup {
   top: -.5em; }
 
 a {
-  color: #0E6633;
+  color: #17a2b8;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover {
-    color: #052311;
+    color: #0E6633;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
@@ -2141,10 +2173,10 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #0E6633;
+  color: #17a2b8;
   background-color: transparent; }
   .btn-link:hover {
-    color: #052311;
+    color: #0E6633;
     text-decoration: underline;
     background-color: transparent;
     border-color: transparent; }
@@ -3379,12 +3411,12 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #0E6633;
+  color: #17a2b8;
   background-color: #fff;
   border: 1px solid #ccc2aa; }
   .page-link:hover {
     z-index: 2;
-    color: #052311;
+    color: #0E6633;
     text-decoration: none;
     background-color: #ded5bc;
     border-color: #ccc2aa; }
@@ -3699,10 +3731,10 @@ input[type="button"].btn-block {
 .list-group-item {
   position: relative;
   display: block;
-  padding: 0.75rem 1.25rem;
-  margin-bottom: -1px;
+  padding: 0.55rem 1rem;
+  margin-bottom: 0;
   background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125); }
+  border: 0 solid #fff; }
   .list-group-item:first-child {
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem; }

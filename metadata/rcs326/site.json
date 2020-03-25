@@ -1,0 +1,42 @@
+{
+    "administrative": {
+        "name": "Great Knott III",
+        "identifier": null,
+        "type": "research station field",
+        "doi": null,
+        "visitsAllowed": "No",
+        "visitingArrangements": null,
+        "description": "Winter wheat was grown for the 3 years prior to the experiment starting",
+        "management": null
+    },
+    "location": {
+        "addressLocality": "Harpenden",
+        "addressRegion": "Hertfordshire",
+        "addressCountry": "United Kingdom",
+        "geoLocationPoint": {
+            "pointLongitude": -0.380251,
+            "pointLatitude": 51.811069
+        },
+        "geoLocationPlace": "United Kingdom",
+        "polygon": "NOT IN GLTEN",
+        "elevation": 125.0,
+        "elevationUnit": "Metres",
+        "slope": null,
+        "slopeAspect": null
+    },
+    "soil": {
+        "soilTypeLabel": "luvisol",
+        "soilDescription": "Moderately well-drained flinty silty clay loam of the Batcombe and related series."
+    },
+    "soilProperty": [],
+    "climate": {
+        "name": "temperate oceanic climate",
+        "description": "Moderately well-drained flinty silty clay loam of the Batcombe and related series.",
+        "weatherStation": {
+            "weatherStationID": "NOT IN GLTEN",
+            "name": "NOT IN GLTEN",
+            "distance": "NOT IN GLTEN",
+            "direction": "NOT IN GLTEN"
+        }
+    }
+}

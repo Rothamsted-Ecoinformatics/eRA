@@ -1,0 +1,667 @@
+importedmediaID	Credit	URL	Caption	Type	exptID
+1	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/FPLandUse.jpg	FPLandUse	Other	NorthWyke
+2	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/FPmap-Nov13-ty.png	FPmap Nov13 ty.png	Thumbnail	NorthWyke
+3	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/FPmap-Nov13.pdf	FPmap Nov13.pdf	Other	NorthWyke
+4	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/NWFPmap.pdf	NWFPmap.pdf	Other	NorthWyke
+5	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/NWFPmap.png	NWFPmap.png	Other	NorthWyke
+6	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/chambers.jpg	chambers	Other	NorthWyke
+7	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/eweslambs.jpg	eweslambs	Other	NorthWyke
+8	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/flumelab.jpg	flumelab	Other	NorthWyke
+9	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/flumeswaterflow.jpg	flumeswaterflow	Other	NorthWyke
+10	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/herbage.jpg	herbage	Other	NorthWyke
+11	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/measurestation.jpg	measurestation	Other	NorthWyke
+12	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/old-NWFPmap.png	old NWFPmap.png	Other	NorthWyke
+13	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/ty-NWFPmap.png	ty NWFPmap.png	Thumbnail	NorthWyke
+14	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/ty-chambers.jpg	ty chambers	Thumbnail	NorthWyke
+15	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/ty-eweslambs.jpg	ty eweslambs	Thumbnail	NorthWyke
+16	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/ty-flumelab.jpg	ty flumelab	Thumbnail	NorthWyke
+17	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/ty-flumeswaterflow.jpg	ty flumeswaterflow	Thumbnail	NorthWyke
+18	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/ty-herbage.jpg	ty herbage	Thumbnail	NorthWyke
+19	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/ty-measurestation.jpg	ty measurestation	Thumbnail	NorthWyke
+20	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/ty-yearlingcattle.jpg	ty yearlingcattle	Thumbnail	NorthWyke
+21	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/NorthWyke/yearlingcattle.jpg	yearlingcattle	Other	NorthWyke
+22	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/Woburn/5472-Aerial-Images-2015-Woburn-Fields-Stackyard-08.jpg	5472 Aerial Images 2015 Woburn Fields Stackyard 08	Other	Woburn
+23	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/Woburn/Woburn-Farm-Fields-Map-2009.pdf	Woburn Farm Fields Map 2009.pdf	Other	Woburn
+24	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/Woburn/Woburn-Farm-map-750.jpg	Woburn Farm map 750	Other	Woburn
+25	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/Woburn/Woburn-LTEs-750.jpg	Woburn LTEs 750	Other	Woburn
+26	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/Woburn/Woburn-farm-field-plan-green.pdf	Woburn farm field plan green.pdf	Other	Woburn
+27	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/Woburn/Woburn-farm-soil-series-map.pdf	Woburn farm soil series map.pdf	Other	Woburn
+28	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/Woburn/Woburn-farm-soil-texture-map.pdf	Woburn farm soil texture map.pdf	Other	Woburn
+29	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/Woburn/Woburn-ley-arable-675.jpg	Woburn ley arable 675	Other	Woburn
+30	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/Woburn/WoburnSoils.jpg	WoburnSoils	Other	Woburn
+31	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/Woburn/ty-Woburn-Farm-map-100.jpg	ty Woburn Farm map 100	Thumbnail	Woburn
+32	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/Woburn/ty-Woburn-LTEs-100.jpg	ty Woburn LTEs 100	Thumbnail	Woburn
+33	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/Woburn/woburn2.jpg	woburn2	Other	Woburn
+34	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/1623-map.jpg	1623 map	Other	met
+35	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/2011-new-thousand-acre-gauge-23-03-2011.jpg	2011 new thousand acre gauge 23 03 2011	Other	met
+36	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/2013-Ploughing-Broadbalk.jpg	2013 Ploughing Broadbalk	Other	met
+37	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/5raingaugeandturfwall.jpg	5raingaugeandturfwall	Other	met
+38	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Daily-weather-recording.jpg	Daily weather recording	Other	met
+39	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/InsideStevenson.jpg	InsideStevenson	Other	met
+40	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/MetApplicationapplication-workflow.pdf	MetApplicationapplication workflow.pdf	Other	met
+41	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/MetStation.jpg	MetStation	Other	met
+42	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Question-sheet-Measuring-the-weather-at-Rothamsted.pdf	Question sheet Measuring the weather at Rothamsted.pdf	Other	met
+43	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/RES-rain-gauge.jpg	RES rain gauge	Other	met
+44	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/RES-sun-recorder.jpg	RES sun recorder	Other	met
+45	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/RES-thermometers.jpg	RES thermometers	Other	met
+46	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/RES-wind-tower.jpg	RES wind tower	Other	met
+47	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Raingaugebelow40.jpg	Raingaugebelow40	Other	met
+48	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Rainy-Days.jpg	Rainy Days	Other	met
+49	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Rainy-day.jpg	Rainy day	Other	met
+50	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/RothGEtempprobes.jpg	RothGEtempprobes	Other	met
+51	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/RothStevensonScreen.jpg	RothStevensonScreen	Other	met
+52	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Rothamsted-misty-day.jpg	Rothamsted misty day	Thumbnail	met
+53	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Rothamsted-snowy-day.jpg	Rothamsted snowy day	Other	met
+54	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Rothamsted-sunny-day.jpg	Rothamsted sunny day	Other	met
+55	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Rothamsted-windy-day-2.jpg	Rothamsted windy day 2	Other	met
+56	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Rothamsted-windy-day.jpg	Rothamsted windy day	Other	met
+57	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Rothgrassmin.jpg	Rothgrassmin	Other	met
+58	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Soildrains.jpg	Soildrains	Other	met
+59	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Weather-Reports-2007.pdf	Weather Reports 2007.pdf	Other	met
+60	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Weather-Reports-2008.pdf	Weather Reports 2008.pdf	Other	met
+61	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Weather-Reports-2009.pdf	Weather Reports 2009.pdf	Other	met
+62	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Weather-Reports-2010.pdf	Weather Reports 2010.pdf	Other	met
+63	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Weather-Reports-2011.pdf	Weather Reports 2011.pdf	Other	met
+64	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Weather-Reports-2012.pdf	Weather Reports 2012.pdf	Other	met
+65	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Weather-Reports-2013.pdf	Weather Reports 2013.pdf	Other	met
+66	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Weather-Reports-2014.pdf	Weather Reports 2014.pdf	Other	met
+67	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Weather-Reports-2015.pdf	Weather Reports 2015.pdf	Other	met
+68	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/Weather-Reports-2016.pdf	Weather Reports 2016.pdf	Other	met
+69	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/WindInstruments.jpg	WindInstruments	Other	met
+70	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/WindInstrumentscloseup.jpg	WindInstrumentscloseup	Other	met
+71	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/anemometer.gif	anemometer.gif	Other	met
+72	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/met.jpg	met	Other	met
+73	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/met2.jpg	met2	Other	met
+74	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/misty-day-Rothamsted.jpg	misty day Rothamsted	Thumbnail	met
+75	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/new-thousandth-acre-gauge.jpg	new thousandth acre gauge	Other	met
+76	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/rain-gauge.jpg	rain gauge	Other	met
+77	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/rainbow-ianfrancis.jpg	rainbow ianfrancis	Other	met
+78	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/rainbow.jpg	rainbow	Other	met
+79	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/rainy-day-at-Rothamsted.tif	rainy day at Rothamsted.tif	Other	met
+80	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/rainy-day-at-Rothamsted2.PNG	rainy day at Rothamsted2.PNG	Other	met
+81	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/snowy-day-at-Rothamsted-landscape.jpg	snowy day at Rothamsted landscape	Other	met
+82	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/snowy-day-at-Rothamsted-portrait.jpg	snowy day at Rothamsted portrait	Other	met
+83	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/soilsmap-orig.png	soilsmap orig.png	Other	met
+84	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/soilsmap-ty.png	soilsmap ty.png	Thumbnail	met
+85	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/solar.gif	solar.gif	Other	met
+86	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/stevenson.jpg	stevenson	Other	met
+87	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/stevenson2.jpg	stevenson2	Other	met
+88	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/sun-recorder.jpg	sun recorder	Other	met
+89	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/sunny-day-at-Rothamsted.jpg	sunny day at Rothamsted	Other	met
+90	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/sunny-day.jpg	sunny day	Other	met
+91	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/thermometers.jpg	thermometers	Other	met
+92	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/thermometr-and-logger.jpg	thermometr and logger	Other	met
+93	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/ty-1623-map.jpg	ty 1623 map	Thumbnail	met
+94	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/ty-5raingaugeandturfwall.jpg	ty 5raingaugeandturfwall	Thumbnail	met
+95	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/ty-InsideStevenson.jpg	ty InsideStevenson	Thumbnail	met
+96	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/ty-MetStation.jpg	ty MetStation	Thumbnail	met
+97	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/ty-Ploughing-Broadbalk-2013.jpg	ty Ploughing Broadbalk 2013	Thumbnail	met
+98	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/ty-RothG	ty RothG	Thumbnail	met
+99	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/ty-RothStevensonScreen.jpg	ty RothStevensonScreen	Thumbnail	met
+100	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/ty-Rothgrassmin.jpg	ty Rothgrassmin	Thumbnail	met
+101	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/ty-Soildrains.jpg	ty Soildrains	Thumbnail	met
+102	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/ty-WindInstruments.jpg	ty WindInstruments	Thumbnail	met
+103	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/ty-WindInstrumentscloseup.jpg	ty WindInstrumentscloseup	Thumbnail	met
+104	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/ty-anemometer.gif	ty anemometer.gif	Thumbnail	met
+105	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/ty-met.gif	ty met.gif	Thumbnail	met
+106	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/ty-met2.gif	ty met2.gif	Thumbnail	met
+107	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/ty-new-thousand-acre-gauge.jpg	ty new thousand acre gauge	Thumbnail	met
+108	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/ty-raingaugebelow40.jpg	ty raingaugebelow40	Thumbnail	met
+109	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/ty-solar.gif	ty solar.gif	Thumbnail	met
+110	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/ty-stevenson.gif	ty stevenson.gif	Thumbnail	met
+111	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/ty-stevenson2.gif	ty stevenson2.gif	Thumbnail	met
+112	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/wind-direction-video.AVI	wind direction video.AVI	Other	met
+113	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/wind-direction.png	wind direction.png	Other	met
+114	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/wind-run.png	wind run.png	Other	met
+115	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/wind-speed-video.AVI	wind speed video.AVI	Other	met
+116	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/wind-speed.png	wind speed.png	Other	met
+117	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/wind-tower.jpg	wind tower	Other	met
+118	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/windy-day-2.jpg	windy day 2	Other	met
+119	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/windy-day.jpg	windy day	Other	met
+120	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/worksheet.PNG	worksheet.PNG	Other	met
+121	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/1921-Garden-Clover-675-crop.jpg	1921 Garden Clover 675 crop	Other	others
+122	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/1921-Garden-Clover-675.jpg	1921 Garden Clover 675	Other	others
+123	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/1921-Garden-Clover-750.jpg	1921 Garden Clover 750	Other	others
+124	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/1954-Harpenden-and-farm-maps-RothamstedFarm.jpg	1954 Harpenden and farm maps RothamstedFarm	Other	others
+125	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/2810-Historic-Barnfield-yield-comparison-turnips-675.jpg	2810 Historic Barnfield yield comparison turnips 675	Other	others
+126	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/2810-Historic-Barnfield-yield-comparison-turnips-750.jpg	2810 Historic Barnfield yield comparison turnips 750	Other	others
+127	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/3423-Harpenden-and-farm-maps-WoburnFarm.jpg	3423 Harpenden and farm maps WoburnFarm	Other	others
+128	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/3648-Aerial-Images-2015-Woburn-Fields-Butt-Close-04.jpg	3648 Aerial Images 2015 Woburn Fields Butt Close 04	Other	others
+129	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/5472-Aerial-Images-2015-Rothamsted-Farm-Fosters-675.jpg	5472 Aerial Images 2015 Rothamsted Farm Fosters 675	Other	others
+130	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Barnfield-2015-750.jpg	Barnfield 2015 750	Other	others
+131	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Barnfield-and-the-former-Agdell-at-bottom-2015-750.jpg	Barnfield and the former Agdell at bottom 2015 750	Other	others
+132	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Classical-Experiments-aerial-layout-750.jpg	Classical Experiments aerial layout 750	Other	others
+133	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Continuous-maize-hoosfield-675.jpg	Continuous maize hoosfield 675	Other	others
+134	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/ECN-plot-Park-Grass-2016-675.jpg	ECN plot Park Grass 2016 675	Other	others
+135	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/ECN-plot-Park-Grass-2016-750.jpg	ECN plot Park Grass 2016 750	Other	others
+136	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Exhaustion-land-Hoosfield-675.jpg	Exhaustion land Hoosfield 675	Other	others
+137	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Former-Agdell-2015-675.jpg	Former Agdell 2015 675	Other	others
+138	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Fosters-2013-750.jpg	Fosters 2013 750	Other	others
+139	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Fosters-2015-750.jpg	Fosters 2015 750	Other	others
+140	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Fosters-Ley-Arable-675.jpg	Fosters Ley Arable 675	Other	others
+141	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Garden-Clover-RGC8-2008-Cut-1A-750.jpg	Garden Clover RGC8 2008 Cut 1A 750	Other	others
+142	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Garden-Clover-RGC8-2012-Resown-750.jpg	Garden Clover RGC8 2012 Resown 750	Other	others
+143	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Garden-clover-120508-Cut-1B-750.jpg	Garden clover 120508 Cut 1B 750	Other	others
+144	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Highfield-2015-750.jpg	Highfield 2015 750	Other	others
+145	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Highfield-LTE-750.jpg	Highfield LTE 750	Other	others
+146	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Highfield-Ley-Arable-2015-675.jpg	Highfield Ley Arable 2015 675	Other	others
+147	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Hoosfield-625.jpg	Hoosfield 625	Other	others
+148	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Hoosfield-750.jpg	Hoosfield 750	Other	others
+149	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Hoosfield-LTEs-750.jpg	Hoosfield LTEs 750	Other	others
+150	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/LTliming-expt-lime-application-amounts-and-dates.pdf	LTliming expt lime application amounts and dates.pdf	Other	others
+151	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Long-term-liming-experiments-site-and-soil-details.pdf	Long term liming experiments site and soil details.pdf	Other	others
+152	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Long-term-liming-expt-cropping-details.pdf	Long term liming expt cropping details.pdf	Other	others
+153	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Plan-Highfield-Experiments-750.jpg	Plan Highfield Experiments 750	Other	others
+154	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Rothamsted-Farm-map-750.jpg	Rothamsted Farm map 750	Other	others
+155	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Woburn-Farm-map-750.jpg	Woburn Farm map 750	Other	others
+156	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Woburn-Fields-Butt-Close-750.jpg	Woburn Fields Butt Close 750	Other	others
+157	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Woburn-Fields-Stackyard-100.jpg	Woburn Fields Stackyard 100	Other	others
+158	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Woburn-Fields-Stackyard-750-(2).jpg	Woburn Fields Stackyard 750 (2)	Other	others
+159	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Woburn-Fields-Stackyard-750.jpg	Woburn Fields Stackyard 750	Other	others
+160	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Woburn-LTEs-750.jpg	Woburn LTEs 750	Other	others
+161	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Woburn-Market-Garden-1-675.jpg	Woburn Market Garden 1 675	Other	others
+162	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Woburn-Market-Garden-1-750.jpg	Woburn Market Garden 1 750	Other	others
+163	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Woburn-Market-Garden-3-750.jpg	Woburn Market Garden 3 750	Other	others
+164	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Woburn-continuous-maize-675.jpg	Woburn continuous maize 675	Other	others
+165	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Woburn-ley-arable-675.jpg	Woburn ley arable 675	Other	others
+166	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Woburn-organic-manuring-675.jpg	Woburn organic manuring 675	Other	others
+167	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Yield-and-pH-data-availability-LT-liming-expt.pdf	Yield and pH data availability LT liming expt.pdf	Thumbnail	others
+168	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/aerialhoosfield.jpg	aerialhoosfield	Other	others
+169	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/amounts-of-straw-675.jpg	amounts of straw 675	Other	others
+170	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/cs-427-i-750.jpg	cs 427 i 750	Other	others
+171	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/cs-427-ii-675.jpg	cs 427 ii 675	Other	others
+172	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/ty-1921-Garden-Clover-100.jpg	ty 1921 Garden Clover 100	Thumbnail	others
+173	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/ty-2810-Historic-Barnfield-yield-comparison-turnips-100.jpg	ty 2810 Historic Barnfield yield comparison turnips 100	Thumbnail	others
+174	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/ty-Barnfield-2015-100.jpg	ty Barnfield 2015 100	Thumbnail	others
+175	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/ty-Barnfield-and-the-former-Agdell-at-bottom-2015-100.jpg	ty Barnfield and the former Agdell at bottom 2015 100	Thumbnail	others
+176	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/ty-Classical-Experiments-aerial-layout-100.jpg	ty Classical Experiments aerial layout 100	Thumbnail	others
+177	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/ty-ECN-plot-Park-Grass-2016-100.jpg	ty ECN plot Park Grass 2016 100	Thumbnail	others
+178	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/ty-Fosters-2013-100.jpg	ty Fosters 2013 100	Thumbnail	others
+179	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/ty-Fosters-2015-100.jpg	ty Fosters 2015 100	Thumbnail	others
+180	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/ty-Garden-Clover-RGC8-2008-Cut-1A-100.jpg	ty Garden Clover RGC8 2008 Cut 1A 100	Thumbnail	others
+181	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/ty-Garden-Clover-RGC8-2012-Resown-100.jpg	ty Garden Clover RGC8 2012 Resown 100	Thumbnail	others
+182	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/ty-Garden-clover-120508-Cut-1B-100.jpg	ty Garden clover 120508 Cut 1B 100	Thumbnail	others
+183	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/ty-Highfield-2015-100.jpg	ty Highfield 2015 100	Thumbnail	others
+184	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/ty-Highfield-LTE-100.jpg	ty Highfield LTE 100	Thumbnail	others
+185	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/ty-Hoosfield-100.jpg	ty Hoosfield 100	Thumbnail	others
+186	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/ty-Hoosfield-LTEs-100.jpg	ty Hoosfield LTEs 100	Thumbnail	others
+187	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/ty-Plan-Highfield-Experiments-100.jpg	ty Plan Highfield Experiments 100	Thumbnail	others
+188	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/ty-Rothamsted-Farm-map-100.jpg	ty Rothamsted Farm map 100	Thumbnail	others
+189	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/ty-Woburn-Farm-map-100.jpg	ty Woburn Farm map 100	Thumbnail	others
+190	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/ty-Woburn-Fields-Butt-Close-100.jpg	ty Woburn Fields Butt Close 100	Thumbnail	others
+191	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/ty-Woburn-Fields-Stackyard-100.jpg	ty Woburn Fields Stackyard 100	Thumbnail	others
+192	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/ty-Woburn-LTEs-100.jpg	ty Woburn LTEs 100	Thumbnail	others
+193	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/ty-Woburn-Market-Garden-1-100.jpg	ty Woburn Market Garden 1 100	Thumbnail	others
+194	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/ty-Woburn-Market-Garden-3-100.jpg	ty Woburn Market Garden 3 100	Thumbnail	others
+195	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/ty-aerialhoosfield.jpg	ty aerialhoosfield	Thumbnail	others
+196	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/ty-cs-427-i-100.jpg	ty cs 427 i 100	Thumbnail	others
+197	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/ty-woburn-sewage-sludge-100.jpg	ty woburn sewage sludge 100	Thumbnail	others
+198	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/wheatandfallow.jpg	wheatandfallow	Other	others
+199	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/wheatandfallowsmall.jpg	wheatandfallowsmall	Other	others
+200	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/woburn-sewage-sludge-675.jpg	woburn sewage sludge 675	Other	others
+201	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/woburn-sewage-sludge-750.jpg	woburn sewage sludge 750	Other	others
+202	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/1623-map.jpg	1623 map	Other	rbk1
+203	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/1935horseharvest.jpg	1935horseharvest	Other	rbk1
+204	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/1935tractoharvest.gif	1935tractoharvest.gif	Other	rbk1
+205	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/1935tractoharvest.jpg	1935tractoharvest	Other	rbk1
+206	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/250-Broadbalk-wheat-elevated-view.jpg	250 Broadbalk wheat elevated view	Other	rbk1
+207	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/4256-Aerial-2012-AJ-12-10.jpg	4256 Aerial 2012 AJ 12 10	Other	rbk1
+208	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/5472-Aerial-Images-2015-Rothamsted-Farm-Broadbalk-04.jpg	5472 Aerial Images 2015 Rothamsted Farm Broadbalk 04	Other	rbk1
+209	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/5472-Aerial-Photographs-2016-Broadbalk-03.jpg	5472 Aerial Photographs 2016 Broadbalk 03	Other	rbk1
+210	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/6048-Non-herbicide-wheat-plot-250.jpg	6048 Non herbicide wheat plot 250	Other	rbk1
+211	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/750-Blackgrass.jpg	750 Blackgrass	Other	rbk1
+212	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/750-Broadbalk-sampling-1943a.jpg	750 Broadbalk sampling 1943a	Other	rbk1
+213	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/750-Broadbalk-sampling-1943c.jpg	750 Broadbalk sampling 1943c	Other	rbk1
+214	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/750-Broadbalk-sampling-PL-RH.jpg	750 Broadbalk sampling PL RH	Other	rbk1
+215	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/750-Broadbalk-sampling-SM.jpg	750 Broadbalk sampling SM	Other	rbk1
+216	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/750-Broadbalk-wheat-elevated-view.jpg	750 Broadbalk wheat elevated view	Other	rbk1
+217	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/750-Chickweed-macro.jpg	750 Chickweed macro	Other	rbk1
+218	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/750-Chickweed.jpg	750 Chickweed	Other	rbk1
+219	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/750-Drilling-Broadbalk-2013.jpg	750 Drilling Broadbalk 2013	Other	rbk1
+220	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/750-Horsetails-DSCN6796.jpg	750 Horsetails DSCN6796	Other	rbk1
+221	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/750-Non-herbicide-wheat-plot.jpg	750 Non herbicide wheat plot	Other	rbk1
+222	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/750-Ploughing-Broadbalk-2013.jpg	750 Ploughing Broadbalk 2013	Other	rbk1
+223	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/750-galium-tricornutum-broadbalk.png	750 galium tricornutum broadbalk.png	Other	rbk1
+224	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Aerial-pic-3.34.jpg	Aerial pic 3.34	Other	rbk1
+225	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/BBKtoday.jpg	BBKtoday	Other	rbk1
+226	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/BFRMicrodochium.jpg	BFRMicrodochium	Other	rbk1
+227	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/BFRMicrodochium.tif	BFRMicrodochium.tif	Other	rbk1
+228	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/BK-beans-nutrient-data.pdf	BK beans nutrient data.pdf	Other	rbk1
+229	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/BK-maize-nutrient-data.pdf	BK maize nutrient data.pdf	Other	rbk1
+230	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/BK-oats-nutrient-data.pdf	BK oats nutrient data.pdf	Other	rbk1
+231	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/BK-potato-nutrient-data.pdf	BK potato nutrient data.pdf	Other	rbk1
+232	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Black-medick.jpg	Black medick	Other	rbk1
+233	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Black-nightshade.jpg	Black nightshade	Other	rbk1
+234	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/BroadBalk-ty.png	BroadBalk ty.png	Thumbnail	rbk1
+235	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/BroadBalk.png	BroadBalk.png	Other	rbk1
+236	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-Mean-Yields-2016.png	Broadbalk Mean Yields 2016.png	Other	rbk1
+237	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-Sections-Wheat-GRAIN-QUALITY.pdf	Broadbalk Sections Wheat GRAIN QUALITY.pdf	Other	rbk1
+238	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-Yield-Fig-Feb-2016.pdf	Broadbalk Yield Fig Feb 2016.pdf	Other	rbk1
+239	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-Yield-Fig-June-2017.pdf	Broadbalk Yield Fig June 2017.pdf	Other	rbk1
+240	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-Yield-Fig-June-2017.png	Broadbalk Yield Fig June 2017.png	Other	rbk1
+241	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-Yields-Chart.pdf	Broadbalk Yields Chart.pdf	Other	rbk1
+242	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-med-lge.png	Broadbalk med lge.png	Other	rbk1
+243	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-mid.png	Broadbalk mid.png	Other	rbk1
+244	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-original.png	Broadbalk original.png	Other	rbk1
+245	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-timeline.pdf	Broadbalk timeline.pdf	Other	rbk1
+246	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-wheat-elevated-view-750-8553.jpg	Broadbalk wheat elevated view 750 8553	Other	rbk1
+247	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk1954Section5.jpg	Broadbalk1954Section5	Other	rbk1
+248	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk20August.gif	Broadbalk20August.gif	Other	rbk1
+249	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk20August.jpg	Broadbalk20August	Other	rbk1
+250	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/BroadbalkFertilizerTreatments.pdf	BroadbalkFertilizerTreatments.pdf	Other	rbk1
+251	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/BroadbalkOrgC.pdf	BroadbalkOrgC.pdf	Other	rbk1
+252	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/BroadbalkOrgC.png	BroadbalkOrgC.png	Other	rbk1
+253	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/BroadbalkSectionsforCropNutrientContent-GRAIN.pdf	BroadbalkSectionsforCropNutrientContent GRAIN.pdf	Other	rbk1
+254	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/BroadbalkSectionsforCropNutrientContent-STRAW.pdf	BroadbalkSectionsforCropNutrientContent STRAW.pdf	Other	rbk1
+255	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalkcropping1844-1925.pdf	Broadbalkcropping1844 1925.pdf	Other	rbk1
+256	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalkcropping1926-1967.pdf	Broadbalkcropping1926 1967.pdf	Other	rbk1
+257	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalkcropping1968onwards.pdf	Broadbalkcropping1968onwards.pdf	Other	rbk1
+258	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalkharvest1880.jpg	Broadbalkharvest1880	Other	rbk1
+259	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalkplan1852-1925.pdf	Broadbalkplan1852 1925.pdf	Other	rbk1
+260	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalkplan1926-1967.pdf	Broadbalkplan1926 1967.pdf	Other	rbk1
+261	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Canadian-fleabane.jpg	Canadian fleabane	Other	rbk1
+262	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Cleavers.jpg	Cleavers	Other	rbk1
+263	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Common-Bent-grass.jpg	Common Bent grass	Other	rbk1
+264	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Common-vetch.jpg	Common vetch	Other	rbk1
+265	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Copy-of-Broadbalkplan1852-1925.pdf	Copy of Broadbalkplan1852 1925.pdf	Other	rbk1
+266	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Corn-buttercup.jpg	Corn buttercup	Other	rbk1
+267	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Corn-marigold.jpg	Corn marigold	Other	rbk1
+268	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Cornflower.jpg	Cornflower	Other	rbk1
+269	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Creeping-thistle.jpg	Creeping thistle	Other	rbk1
+270	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Dwarf-spurge.jpg	Dwarf spurge	Other	rbk1
+271	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ESlesions.jpg	ESlesions	Other	rbk1
+272	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ESlodging.jpg	ESlodging	Other	rbk1
+273	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ESlodging.tif	ESlodging.tif	Other	rbk1
+274	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/False-oatgrass.jpg	False oatgrass	Other	rbk1
+275	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Field-forget-me-not.jpg	Field forget me not	Other	rbk1
+276	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Field-poppy.jpg	Field poppy	Other	rbk1
+277	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Fine-leaved-sandwort.jpg	Fine leaved sandwort	Other	rbk1
+278	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Fools-parsley.jpg	Fools parsley	Other	rbk1
+279	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/LTE-Poster-Nov2012-Small.pdf	LTE Poster Nov2012 Small.pdf	Other	rbk1
+280	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/LargeTApatches.jpg	LargeTApatches	Other	rbk1
+281	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/LargeTApatches.tif	LargeTApatches.tif	Other	rbk1
+282	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Meadow-vetchling.jpg	Meadow vetchling	Other	rbk1
+283	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Measurements-of-Broadbalk-soil-properties-1843-1944.pdf	Measurements of Broadbalk soil properties 1843 1944.pdf	Other	rbk1
+284	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Measurements-of-Broadbalk-soil-properties-1966-2012.pdf	Measurements of Broadbalk soil properties 1966 2012.pdf	Other	rbk1
+285	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/OlsenP.png	OlsenP.png	Other	rbk1
+286	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Onion-couch.jpg	Onion couch	Other	rbk1
+287	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Open-Access-BK-Olsen-P.pdf	Open Access BK Olsen P.pdf	Other	rbk1
+288	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Plot-21.JPG	Plot 21.JPG	Other	rbk1
+289	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Plot-3.JPG	Plot 3.JPG	Other	rbk1
+290	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Red-bartsia-(2).JPG	Red bartsia (2).JPG	Other	rbk1
+291	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Red-bartsia.jpg	Red bartsia	Other	rbk1
+292	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/SESApril.jpg	SESApril	Other	rbk1
+293	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/SESApril.tif	SESApril.tif	Other	rbk1
+294	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Section-8-sign.jpg	Section 8 sign	Other	rbk1
+295	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Section-8.jpg	Section 8	Other	rbk1
+296	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/SevereBFRFusarium.jpg	SevereBFRFusarium	Other	rbk1
+297	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/SevereBFRFusarium.tif	SevereBFRFusarium.tif	Other	rbk1
+298	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/SevereES.jpg	SevereES	Other	rbk1
+299	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/SevereTakeAll.tif	SevereTakeAll.tif	Other	rbk1
+300	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/SevereTakeAll1.jpg	SevereTakeAll1	Other	rbk1
+301	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/SharpESstraw.jpg	SharpESstraw	Other	rbk1
+302	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/SharpESstraw.tif	SharpESstraw.tif	Other	rbk1
+303	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Shepherd's-needle-(2).jpg	Shepherd's needle (2)	Other	rbk1
+304	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Shepherd's-needle-(3).JPG	Shepherd's needle (3).JPG	Other	rbk1
+305	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Shepherd's-needle.jpg	Shepherd's needle	Other	rbk1
+306	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Soil-sampling;-comparisons-over-time-updated-to-2012.pdf	Soil sampling; comparisons over time updated to 2012.pdf	Other	rbk1
+307	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Sterile-brome-(2).jpg	Sterile brome (2)	Other	rbk1
+308	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Sterile-brome.jpg	Sterile brome	Other	rbk1
+309	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Tractorplough1935.jpg	Tractorplough1935	Other	rbk1
+310	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/TypicalESApril.jpg	TypicalESApril	Other	rbk1
+311	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/TypicalESApril.tif	TypicalESApril.tif	Other	rbk1
+312	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/TypicalESlesions.jpg	TypicalESlesions	Other	rbk1
+313	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Venus'-looking-glass-(2).jpg	Venus' looking glass (2)	Other	rbk1
+314	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Venus'-looking-glass-(3).jpg	Venus' looking glass (3)	Other	rbk1
+315	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Venus'-looking-glass-(4).jpg	Venus' looking glass (4)	Other	rbk1
+316	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Venus'-looking-glass.jpg	Venus' looking glass	Other	rbk1
+317	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Venus-looking-glass.jpg	Venus looking glass	Other	rbk1
+318	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Weeds-list-from-BK-WEEDS-SUM.pdf	Weeds list from BK WEEDS SUM.pdf	Other	rbk1
+319	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/acid-ind.jpg	acid ind	Other	rbk1
+320	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/archives-1.jpg	archives 1	Other	rbk1
+321	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/archives-2.jpg	archives 2	Other	rbk1
+322	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/bbk49.gif	bbk49.gif	Other	rbk1
+323	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/bbk49.jpg	bbk49	Other	rbk1
+324	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/bk-grain-1945.jpg	bk grain 1945	Other	rbk1
+325	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/broadbalk.gif	broadbalk.gif	Other	rbk1
+326	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/broadbalk2003.jpg	broadbalk2003	Other	rbk1
+327	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/broadbalkplantoday.jpg	broadbalkplantoday	Other	rbk1
+328	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/broadbalkplantoday.pdf	broadbalkplantoday.pdf	Other	rbk1
+329	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/colour-analyser.jpg	colour analyser	Other	rbk1
+330	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/condrometer-half-litre.jpg	condrometer half litre	Other	rbk1
+331	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/condrometer-litre.jpg	condrometer litre	Other	rbk1
+332	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/galium-tricornutum-broadbalk-200.png	galium tricornutum broadbalk 200.png	Other	rbk1
+333	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/grain-counter.jpg	grain counter	Other	rbk1
+334	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/groundsel.jpg	groundsel	Other	rbk1
+335	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/hfn.jpg	hfn	Other	rbk1
+336	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/icp-oes.jpg	icp oes	Other	rbk1
+337	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/icp.jpg	icp	Other	rbk1
+338	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/leco.jpg	leco	Other	rbk1
+339	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/mass-spec.jpg	mass spec	Other	rbk1
+340	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/narrow-fruited-cornsalad.jpg	narrow fruited cornsalad	Other	rbk1
+341	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/posterMacDonald.jpg	posterMacDonald	Other	rbk1
+342	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/posterMacdonald.pdf	posterMacdonald.pdf	Other	rbk1
+343	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/rothamsted-farm-plan.jpg	rothamsted farm plan	Other	rbk1
+344	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/soilsmap-orig.png	soilsmap orig.png	Other	rbk1
+345	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/soilsmap-ty.png	soilsmap ty.png	Thumbnail	rbk1
+346	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/straw-cut.jpg	straw cut	Other	rbk1
+347	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/straw.jpg	straw	Other	rbk1
+348	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/tiny-broadbalk.gif	tiny broadbalk.gif	Other	rbk1
+349	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-1623-map.jpg	ty 1623 map	Thumbnail	rbk1
+350	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-1935horseharvest.gif	ty 1935horseharvest.gif	Thumbnail	rbk1
+351	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-1935tractoharvest.gif	ty 1935tractoharvest.gif	Thumbnail	rbk1
+352	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Aerial-pic-3.34.jpg	ty Aerial pic 3.34	Thumbnail	rbk1
+353	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-BBKtoday.jpg	ty BBKtoday	Thumbnail	rbk1
+354	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-BFRMicrodochium.jpg	ty BFRMicrodochium	Thumbnail	rbk1
+355	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Black-medick.jpg	ty Black medick	Thumbnail	rbk1
+356	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Blackgrass.jpg	ty Blackgrass	Thumbnail	rbk1
+357	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Broadbalk-sampling-1943a.jpg	ty Broadbalk sampling 1943a	Thumbnail	rbk1
+358	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Broadbalk-sampling-1943c.jpg	ty Broadbalk sampling 1943c	Thumbnail	rbk1
+359	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Broadbalk-sampling-PL-RH.jpg	ty Broadbalk sampling PL RH	Thumbnail	rbk1
+360	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Broadbalk-sampling-SM.jpg	ty Broadbalk sampling SM	Thumbnail	rbk1
+361	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Broadbalk-wheat-elevated-view.jpg	ty Broadbalk wheat elevated view	Thumbnail	rbk1
+362	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Broadbalk1954Section5.gif	ty Broadbalk1954Section5.gif	Thumbnail	rbk1
+363	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Broadbalk20August.gif	ty Broadbalk20August.gif	Thumbnail	rbk1
+364	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Broadbalkharvest1880.jpg	ty Broadbalkharvest1880	Thumbnail	rbk1
+365	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Chickweed-macro.jpg	ty Chickweed macro	Thumbnail	rbk1
+366	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Chickweed.jpg	ty Chickweed	Thumbnail	rbk1
+367	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Cleavers.jpg	ty Cleavers	Thumbnail	rbk1
+368	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Common-vetch.jpg	ty Common vetch	Thumbnail	rbk1
+369	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Corn-buttercup.jpg	ty Corn buttercup	Thumbnail	rbk1
+370	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Creeping-thistle.jpg	ty Creeping thistle	Thumbnail	rbk1
+371	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Drilling-Broadbalk-2013.jpg	ty Drilling Broadbalk 2013	Thumbnail	rbk1
+372	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Dwarf-spurge.jpg	ty Dwarf spurge	Thumbnail	rbk1
+373	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-ESlesions.jpg	ty ESlesions	Thumbnail	rbk1
+374	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-ESlodging.jpg	ty ESlodging	Thumbnail	rbk1
+375	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Eyespot3.jpg	ty Eyespot3	Thumbnail	rbk1
+376	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Field-forget-me-not.jpg	ty Field forget me not	Thumbnail	rbk1
+377	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Field-poppy.jpg	ty Field poppy	Thumbnail	rbk1
+378	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Fine-leaved-sandwort.jpg	ty Fine leaved sandwort	Thumbnail	rbk1
+379	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Fools-parsley.jpg	ty Fools parsley	Thumbnail	rbk1
+380	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Horsetails-DSCN6796.jpg	ty Horsetails DSCN6796	Thumbnail	rbk1
+381	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-LargeTApatches.jpg	ty LargeTApatches	Thumbnail	rbk1
+382	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Meadow-vetchling.jpg	ty Meadow vetchling	Thumbnail	rbk1
+383	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Non-herbicide-wheat-plot.jpg	ty Non herbicide wheat plot	Thumbnail	rbk1
+384	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Plot-21.jpg	ty Plot 21	Thumbnail	rbk1
+385	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Plot-3.jpg	ty Plot 3	Thumbnail	rbk1
+386	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Ploughing-Broadbalk-2013.jpg	ty Ploughing Broadbalk 2013	Thumbnail	rbk1
+387	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-SESApril.jpg	ty SESApril	Thumbnail	rbk1
+388	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Section-8-sign.jpg	ty Section 8 sign	Thumbnail	rbk1
+389	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Section-8.jpg	ty Section 8	Thumbnail	rbk1
+390	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-SevereBFRFusarium.jpg	ty SevereBFRFusarium	Thumbnail	rbk1
+391	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-SevereES.jpg	ty SevereES	Thumbnail	rbk1
+392	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-SevereTakeAll1.jpg	ty SevereTakeAll1	Thumbnail	rbk1
+393	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-SharpESstraw.jpg	ty SharpESstraw	Thumbnail	rbk1
+394	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Shepherd's-needle.jpg	ty Shepherd's needle	Thumbnail	rbk1
+395	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Tractorplough1935.gif	ty Tractorplough1935.gif	Thumbnail	rbk1
+396	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-TypicalESlesions.jpg	ty TypicalESlesions	Thumbnail	rbk1
+397	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-Venus-looking-glass.jpg	ty Venus looking glass	Thumbnail	rbk1
+398	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-acid-ind.jpg	ty acid ind	Thumbnail	rbk1
+399	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-archives-1.jpg	ty archives 1	Thumbnail	rbk1
+400	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-archives-2.jpg	ty archives 2	Thumbnail	rbk1
+401	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-bbk49.gif	ty bbk49.gif	Thumbnail	rbk1
+402	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-bk-grain-1945.jpg	ty bk grain 1945	Thumbnail	rbk1
+403	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-broadbalk.gif	ty broadbalk.gif	Thumbnail	rbk1
+404	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-broadbalk2003.gif	ty broadbalk2003.gif	Thumbnail	rbk1
+405	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-broadbalkplantoday.jpg	ty broadbalkplantoday	Thumbnail	rbk1
+406	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-colour-analyser.jpg	ty colour analyser	Thumbnail	rbk1
+407	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-condrometer-half-litre.jpg	ty condrometer half litre	Thumbnail	rbk1
+408	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-condrometer-litre.jpg	ty condrometer litre	Thumbnail	rbk1
+409	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-galium-tricornutum-broadbalk.png	ty galium tricornutum broadbalk.png	Thumbnail	rbk1
+410	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-grain-counter.jpg	ty grain counter	Thumbnail	rbk1
+411	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-groundsel.jpg	ty groundsel	Thumbnail	rbk1
+412	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-hfn.jpg	ty hfn	Thumbnail	rbk1
+413	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-icp-oes.jpg	ty icp oes	Thumbnail	rbk1
+414	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-icp.jpg	ty icp	Thumbnail	rbk1
+415	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-leco.jpg	ty leco	Thumbnail	rbk1
+416	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-mass-spec.jpg	ty mass spec	Thumbnail	rbk1
+417	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-narrow-fruited-cornsalad.jpg	ty narrow fruited cornsalad	Thumbnail	rbk1
+418	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-posterMacDonald.jpg	ty posterMacDonald	Thumbnail	rbk1
+419	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-posterMacDonald.png	ty posterMacDonald.png	Thumbnail	rbk1
+420	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-rothamsted-farm-plan.jpg	ty rothamsted farm plan	Thumbnail	rbk1
+421	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-straw-cut.jpg	ty straw cut	Thumbnail	rbk1
+422	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-wheat-ears.jpg	ty wheat ears	Thumbnail	rbk1
+423	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-wheat-green.jpg	ty wheat green	Thumbnail	rbk1
+424	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-wheat-ripe.jpg	ty wheat ripe	Thumbnail	rbk1
+425	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-wheat-seeds.jpg	ty wheat seeds	Thumbnail	rbk1
+426	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty-winnower-sieve.jpg	ty winnower sieve	Thumbnail	rbk1
+427	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/ty1623-map.jpg	ty1623 map	Thumbnail	rbk1
+428	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/wheat-ears.jpg	wheat ears	Other	rbk1
+429	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/wheat-green.jpg	wheat green	Other	rbk1
+430	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/wheat-ripe.jpg	wheat ripe	Other	rbk1
+431	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/wheat-seeds.jpg	wheat seeds	Other	rbk1
+432	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/winnower-sieve.jpg	winnower sieve	Other	rbk1
+433	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/1623-map.jpg	1623 map	Other	rex4
+434	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/Classical-Experiments-aerial-layout-750.jpg	Classical Experiments aerial layout 750	Other	rex4
+435	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/Exhasution-Land-Fig-7-of-Guide.PNG	Exhasution Land Fig 7 of Guide.PNG	Other	rex4
+436	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/Exhaustion-Land-fig-6-of-guide.PNG	Exhaustion Land fig 6 of guide.PNG	Other	rex4
+437	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/Exhaustion-Land-fig-6-of-guide.jpg	Exhaustion Land fig 6 of guide	Other	rex4
+438	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/Exhaustion-land-P-and-K-inputs-1986-onwards.pdf	Exhaustion land P and K inputs 1986 onwards.pdf	Other	rex4
+439	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/Fertilizer-treatments-1986-92.pdf	Fertilizer treatments 1986 92.pdf	Other	rex4
+440	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/Fertilizer-treatments-1993-99.pdf	Fertilizer treatments 1993 99.pdf	Other	rex4
+441	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/Fertilizer-treatments-2000-06.pdf	Fertilizer treatments 2000 06.pdf	Other	rex4
+442	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/Fertilizer-treatments-Phase-III.pdf	Fertilizer treatments Phase III.pdf	Other	rex4
+443	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/Fertilizer-treatments-Phase-V-2007-.pdf	Fertilizer treatments Phase V 2007 .pdf	Other	rex4
+444	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/Fertilizer-treatments-cropping-Phase-I-II.pdf	Fertilizer treatments cropping Phase I II.pdf	Other	rex4
+445	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/Hoosfield-625.jpg	Hoosfield 625	Other	rex4
+446	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/Hoosfield-LTEs-750.jpg	Hoosfield LTEs 750	Other	rex4
+447	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/Layout-total-nutrients-applied-Phase-I.pdf	Layout total nutrients applied Phase I.pdf	Other	rex4
+448	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/Overview.pdf	Overview.pdf	Other	rex4
+449	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/ty-1623-map.jpg	ty 1623 map	Thumbnail	rex4
+450	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/ty-Classical-Experiments-aerial-layout-100.jpg	ty Classical Experiments aerial layout 100	Thumbnail	rex4
+451	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/ty-Hoosfield-100.jpg	ty Hoosfield 100	Thumbnail	rex4
+452	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/ty-Hoosfield-750.jpg	ty Hoosfield 750	Thumbnail	rex4
+453	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/ty-Hoosfield-LTEs-100.jpg	ty Hoosfield LTEs 100	Thumbnail	rex4
+454	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/wheatandfallow.jpg	wheatandfallow	Other	rex4
+455	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/wheatandfallowsmall.jpg	wheatandfallowsmall	Other	rex4
+456	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rgc8/Wheat-and-fallow-varieties.pdf	Wheat and fallow varieties.pdf	Other	rgc8
+457	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rgc8/Wheat-fallow-plans.pdf	Wheat fallow plans.pdf	Other	rgc8
+458	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rgc8/wheatandfallow.jpg	wheatandfallow	Other	rgc8
+459	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rgc8/wheatandfallowsmall.jpg	wheatandfallowsmall	Other	rgc8
+460	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/1623-map.jpg	1623 map	Other	rhb2
+461	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/1648HistoricfarmHoosfield17August-1925.jpg	1648HistoricfarmHoosfield17August 1925	Other	rhb2
+462	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/5472-Aerial-Photographs-2016-Long-Hoos-03-(2).jpg	5472 Aerial Photographs 2016 Long Hoos 03 (2)	Other	rhb2
+463	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/5551AerialPhotographs2016LongHoos001.jpg	5551AerialPhotographs2016LongHoos001	Other	rhb2
+464	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/HFcropping-sequence-N-rates-rotation-1968-78.pdf	HFcropping sequence N rates rotation 1968 78.pdf	Other	rhb2
+465	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/HFplan1852-1967.pdf	HFplan1852 1967.pdf	Other	rhb2
+466	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/HFplan1968-1978.pdf	HFplan1968 1978.pdf	Other	rhb2
+467	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/HFplan1979-2000.pdf	HFplan1979 2000.pdf	Other	rhb2
+468	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/Hoosfertilizertrt.pdf	Hoosfertilizertrt.pdf	Other	rhb2
+469	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/Hoosfield-SOC-chart.pdf	Hoosfield SOC chart.pdf	Other	rhb2
+470	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/Hoosfield-Yield-June-2017.pdf	Hoosfield Yield June 2017.pdf	Other	rhb2
+471	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/Hoosfield-Yield-figure.pdf	Hoosfield Yield figure.pdf	Other	rhb2
+472	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/Hoosfield-crop-nutrients-available-1964-1999.pdf	Hoosfield crop nutrients available 1964 1999.pdf	Other	rhb2
+473	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/Hoosfield-crop-nutrients-available-1964-2000.pdf	Hoosfield crop nutrients available 1964 2000.pdf	Other	rhb2
+474	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/Hoosfield-crop-nutrients-available-2001-onwards.pdf	Hoosfield crop nutrients available 2001 onwards.pdf	Other	rhb2
+475	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/Hoosfield-varieties.pdf	Hoosfield varieties.pdf	Other	rhb2
+476	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/Hoosfield-yield-June-2017.PNG	Hoosfield yield June 2017.PNG	Other	rhb2
+477	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/Hoosfield1925BW.jpg	Hoosfield1925BW	Other	rhb2
+478	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/Hoosfieldplan1852-1967.pdf	Hoosfieldplan1852 1967.pdf	Other	rhb2
+479	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/Hoosfieldplan1968-2000.pdf	Hoosfieldplan1968 2000.pdf	Other	rhb2
+480	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/Measurements-of-Hoosfield-soil-properties-1852.pdf	Measurements of Hoosfield soil properties 1852.pdf	Other	rhb2
+481	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/Treatments-2001onwards.pdf	Treatments 2001onwards.pdf	Other	rhb2
+482	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/acid-ind.jpg	acid ind	Other	rhb2
+483	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/aerialhoosfield.jpg	aerialhoosfield	Other	rhb2
+484	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/anemometer.jpg	anemometer	Other	rhb2
+485	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/archives-1.jpg	archives 1	Other	rhb2
+486	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/archives-2.jpg	archives 2	Other	rhb2
+487	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hfn.jpg	hfn	Other	rhb2
+488	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hoos-field-yield-openaccess.jpg	hoos field yield openaccess	Other	rhb2
+489	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hoos-original.png	hoos original.png	Other	rhb2
+490	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hoos-small-80.png	hoos small 80.png	Other	rhb2
+491	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hoos-small.png	hoos small.png	Other	rhb2
+492	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hoosfield1925.gif	hoosfield1925.gif	Other	rhb2
+493	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hoosfieldplan2008.gif	hoosfieldplan2008.gif	Other	rhb2
+494	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hoosfieldplan2008.jpg	hoosfieldplan2008	Other	rhb2
+495	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hoosfieldtoday.gif	hoosfieldtoday.gif	Other	rhb2
+496	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hoosfieldtoday.jpg	hoosfieldtoday	Other	rhb2
+497	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hoosfieldtoday.pdf	hoosfieldtoday.pdf	Other	rhb2
+498	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/icp-oes.jpg	icp oes	Other	rhb2
+499	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/icp.jpg	icp	Other	rhb2
+500	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/leco.jpg	leco	Other	rhb2
+501	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/mass-spec.jpg	mass spec	Other	rhb2
+502	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/solar.jpg	solar	Other	rhb2
+503	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/test-Hoos-small-Capture.PNG	test Hoos small Capture.PNG	Other	rhb2
+504	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/ty-1623-map.jpg	ty 1623 map	Thumbnail	rhb2
+505	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/ty-acid-ind.jpg	ty acid ind	Thumbnail	rhb2
+506	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/ty-aerialhoosfield.jpg	ty aerialhoosfield	Thumbnail	rhb2
+507	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/ty-archives-1.jpg	ty archives 1	Thumbnail	rhb2
+508	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/ty-archives-2.jpg	ty archives 2	Thumbnail	rhb2
+509	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/ty-hfn.jpg	ty hfn	Thumbnail	rhb2
+510	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/ty-hoosfield1925.gif	ty hoosfield1925.gif	Thumbnail	rhb2
+511	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/ty-hoosfieldplan2008.gif	ty hoosfieldplan2008.gif	Thumbnail	rhb2
+512	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/ty-hoosfieldtoday.jpg	ty hoosfieldtoday	Thumbnail	rhb2
+513	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/ty-icp-oes.jpg	ty icp oes	Thumbnail	rhb2
+514	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/ty-icp.jpg	ty icp	Thumbnail	rhb2
+515	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/ty-leco.jpg	ty leco	Thumbnail	rhb2
+516	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/ty-mass-spec.jpg	ty mass spec	Thumbnail	rhb2
+517	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/ty1623-map.jpg	ty1623 map	Thumbnail	rhb2
+518	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/01-pg2015-2ndcut-cutting.jpg	01 pg2015 2ndcut cutting	Other	rpg5
+519	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/02-pg2015-2ndcut-raking.jpg	02 pg2015 2ndcut raking	Other	rpg5
+520	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/03-pg2015-2ndcut-weighing.jpg	03 pg2015 2ndcut weighing	Other	rpg5
+521	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/04-pg2015-2ndcut-scales.jpg	04 pg2015 2ndcut scales	Other	rpg5
+522	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/05-pg2015-2ndcut-strip.jpg	05 pg2015 2ndcut strip	Other	rpg5
+523	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/06-pg2015-2ndcut-processing.jpg	06 pg2015 2ndcut processing	Other	rpg5
+524	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/07-pg2015-2ndcut-wetweight.jpg	07 pg2015 2ndcut wetweight	Other	rpg5
+525	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/08-pg2015-2ndcut-sampleboxes.jpg	08 pg2015 2ndcut sampleboxes	Other	rpg5
+526	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/09-pg2015-2ndcut-driedsamples.jpg	09 pg2015 2ndcut driedsamples	Other	rpg5
+527	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/10-pg2015-2ndcut-labelledsampletins.jpg	10 pg2015 2ndcut labelledsampletins	Other	rpg5
+528	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/1623-map.jpg	1623 map	Other	rpg5
+529	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/1709-Park-Grass-aerial-parkgrass.jpg	1709 Park Grass aerial parkgrass	Other	rpg5
+530	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/23May2005aerial-low.jpg	23May2005aerial low	Other	rpg5
+531	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/3008-Park-Grass-aerial-23-May-2005-f.jpg	3008 Park Grass aerial 23 May 2005 f	Other	rpg5
+532	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/3008-Park-Grass-aerial-23-May-2005-p.jpg	3008 Park Grass aerial 23 May 2005 p	Other	rpg5
+533	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/PG11-2dand12d09JUNE05j.jpg	PG11 2dand12d09JUNE05j	Other	rpg5
+534	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/PG1865.jpg	PG1865	Other	rpg5
+535	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/PG1881.jpg	PG1881	Other	rpg5
+536	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/PG1961.jpg	PG1961	Other	rpg5
+537	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/PG20June05b.jpg	PG20June05b	Other	rpg5
+538	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/PG20June05g.jpg	PG20June05g	Other	rpg5
+539	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/PG20June05k.jpg	PG20June05k	Other	rpg5
+540	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/PG20June05n.jpg	PG20June05n	Other	rpg5
+541	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/PGMay1990Plot1close-up.jpg	PGMay1990Plot1close up	Other	rpg5
+542	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/PGMay1990Plots14.2v1.jpg	PGMay1990Plots14.2v1	Other	rpg5
+543	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/PGMay1999Plot14.1v14.2.jpg	PGMay1999Plot14.1v14.2	Other	rpg5
+544	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/PGMay1999Plot3close-up.jpg	PGMay1999Plot3close up	Other	rpg5
+545	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Park-Grass-150th-Anniversary-leaflet.pdf	Park Grass 150th Anniversary leaflet.pdf	Other	rpg5
+546	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Park-Grass-2016.png	Park Grass 2016.png	Other	rpg5
+547	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Park-Grass-Chalk-Applics-1960-2009.pdf	Park Grass Chalk Applics 1960 2009.pdf	Other	rpg5
+548	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Park-Grass-Chalk-Applics-1960-2009old.pdf	Park Grass Chalk Applics 1960 2009old.pdf	Other	rpg5
+549	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Park-Grass-Chalk-Applics-1965-2009.pdf	Park Grass Chalk Applics 1965 2009.pdf	Other	rpg5
+550	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Park-Grass-Conference-Hand-out.pdf	Park Grass Conference Hand out.pdf	Other	rpg5
+551	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Park-Grass-Lime-Chalk-Applics1856-1902.pdf	Park Grass Lime Chalk Applics1856 1902.pdf	Other	rpg5
+552	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Park-Grass-Lime-Chalk-Applics1903-1964.pdf	Park Grass Lime Chalk Applics1903 1964.pdf	Other	rpg5
+553	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Park-Grass-Plot-2-timeline.pdf	Park Grass Plot 2 timeline.pdf	Other	rpg5
+554	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Park-Grass-Species-Chart-2016.jpg	Park Grass Species Chart 2016	Other	rpg5
+555	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Park-Grass-Species-Chart-2016.pdf	Park Grass Species Chart 2016.pdf	Other	rpg5
+556	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Park-Grass-Species-Chart-2016.png	Park Grass Species Chart 2016.png	Other	rpg5
+557	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Park-Grass-fertilizer-treatments.pdf	Park Grass fertilizer treatments.pdf	Other	rpg5
+558	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Park-Grass-lime-treatments.pdf	Park Grass lime treatments.pdf	Other	rpg5
+559	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Park-Grass-pH-2016.jpg	Park Grass pH 2016	Other	rpg5
+560	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Park-Grass-pH-2016.pdf	Park Grass pH 2016.pdf	Other	rpg5
+561	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Park-Grass-pH-2016.png	Park Grass pH 2016.png	Other	rpg5
+562	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Park-Grass-plan-1856-1902.pdf	Park Grass plan 1856 1902.pdf	Other	rpg5
+563	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Park-Grass-plan-1903-1964.pdf	Park Grass plan 1903 1964.pdf	Other	rpg5
+564	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Park-Grass-plan-1965-onwards.pdf	Park Grass plan 1965 onwards.pdf	Other	rpg5
+565	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ParkGrass-GenomicObservatory.pdf	ParkGrass GenomicObservatory.pdf	Other	rpg5
+566	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ParkGrass-med.png	ParkGrass med.png	Other	rpg5
+567	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ParkGrass.PNG	ParkGrass.PNG	Other	rpg5
+568	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ParkGrassPlan.pdf	ParkGrassPlan.pdf	Other	rpg5
+569	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ParkGrassSpeciesChart.pdf	ParkGrassSpeciesChart.pdf	Other	rpg5
+570	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Plot-2-time-line.JPG	Plot 2 time line.JPG	Other	rpg5
+571	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/Sorting1930s.jpg	Sorting1930s	Other	rpg5
+572	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/images.txt	images.txt	Other	rpg5
+573	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/june16-2015-pg-aerial.jpg	june16 2015 pg aerial	Other	rpg5
+574	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/metasoil-diagram.png	metasoil diagram.png	Other	rpg5
+575	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/park-grass-today.jpg	park grass today	Other	rpg5
+576	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/park-grass-today.pdf	park grass today.pdf	Other	rpg5
+577	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/parkgrass2006.pdf	parkgrass2006.pdf	Other	rpg5
+578	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/parkgrassharvest.gif	parkgrassharvest.gif	Other	rpg5
+579	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/parkgrassharvest.jpg	parkgrassharvest	Other	rpg5
+580	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/parkgrassharvest2.jpg	parkgrassharvest2	Other	rpg5
+581	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/storkeyFig4.jpg	storkeyFig4	Other	rpg5
+582	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ty-01-pg2015-2ndcut-cutting.jpg	ty 01 pg2015 2ndcut cutting	Thumbnail	rpg5
+583	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ty-02-pg2015-2ndcut-raking.jpg	ty 02 pg2015 2ndcut raking	Thumbnail	rpg5
+584	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ty-03-pg2015-2ndcut-weighing.jpg	ty 03 pg2015 2ndcut weighing	Thumbnail	rpg5
+585	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ty-04-pg2015-2ndcut-scales.jpg	ty 04 pg2015 2ndcut scales	Thumbnail	rpg5
+586	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ty-05-pg2015-2ndcut-strip.jpg	ty 05 pg2015 2ndcut strip	Thumbnail	rpg5
+587	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ty-06-pg2015-2ndcut-processing.jpg	ty 06 pg2015 2ndcut processing	Thumbnail	rpg5
+588	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ty-07-pg2015-2ndcut-wetweight.jpg	ty 07 pg2015 2ndcut wetweight	Thumbnail	rpg5
+589	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ty-08-pg2015-2ndcut-sampleboxes.jpg	ty 08 pg2015 2ndcut sampleboxes	Thumbnail	rpg5
+590	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ty-09-pg2015-2ndcut-driedsamples.jpg	ty 09 pg2015 2ndcut driedsamples	Thumbnail	rpg5
+591	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ty-10-pg2015-2ndcut-labelledsampletins.jpg	ty 10 pg2015 2ndcut labelledsampletins	Thumbnail	rpg5
+592	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ty-1623-map.jpg	ty 1623 map	Thumbnail	rpg5
+593	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ty-23-May-2005-aerial.jpg	ty 23 May 2005 aerial	Thumbnail	rpg5
+594	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ty-PG11-2dand12d09JUNE05j.jpg	ty PG11 2dand12d09JUNE05j	Thumbnail	rpg5
+595	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ty-PG1865.jpg	ty PG1865	Thumbnail	rpg5
+596	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ty-PG1881.jpg	ty PG1881	Thumbnail	rpg5
+597	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ty-PG1961.jpg	ty PG1961	Thumbnail	rpg5
+598	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ty-PG20June05b.jpg	ty PG20June05b	Thumbnail	rpg5
+599	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ty-PG20June05g.jpg	ty PG20June05g	Thumbnail	rpg5
+600	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ty-PG20June05k.jpg	ty PG20June05k	Thumbnail	rpg5
+601	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ty-PG20June05n.jpg	ty PG20June05n	Thumbnail	rpg5
+602	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ty-PGMay1990Plot1close-up.jpg	ty PGMay1990Plot1close up	Thumbnail	rpg5
+603	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ty-PGMay1990Plots14.2v1.jpg	ty PGMay1990Plots14.2v1	Thumbnail	rpg5
+604	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ty-PGMay1999Plot14.1v14.2.jpg	ty PGMay1999Plot14.1v14.2	Thumbnail	rpg5
+605	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ty-PGMay1999Plot3close-up.jpg	ty PGMay1999Plot3close up	Thumbnail	rpg5
+606	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ty-Sorting1930s.jpg	ty Sorting1930s	Thumbnail	rpg5
+607	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ty-june16-2015-pg-aerial.jpg	ty june16 2015 pg aerial	Thumbnail	rpg5
+608	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ty-park-grass-today.jpg	ty park grass today	Thumbnail	rpg5
+609	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rpg5/ty-parkgrassharvest.jpg	ty parkgrassharvest	Thumbnail	rpg5
+610	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rwf3/Wheat-and-fallow-varieties.pdf	Wheat and fallow varieties.pdf	Other	rwf3
+611	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rwf3/Wheat-fallow-plans.pdf	Wheat fallow plans.pdf	Other	rwf3
+612	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rwf3/wheatandfallow.jpg	wheatandfallow	Other	rwf3
+613	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rwf3/wheatandfallowsmall.jpg	wheatandfallowsmall	Other	rwf3
+614	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/1623-map.jpg	1623 map	Other	wilderness
+615	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/5184-Aerial-photographs-of-Rothamsted-site-June-2013-Gees-Croft-01.jpg	5184 Aerial photographs of Rothamsted site June 2013 Gees Croft 01	Other	wilderness
+616	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/6048-Broadbalk-Wilderness-Experiments-DSC-2352.jpg	6048 Broadbalk Wilderness Experiments DSC 2352	Other	wilderness
+617	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/750-Broadbalk-Wilderness-Carbon-Open-Access-Chart.png	750 Broadbalk Wilderness Carbon Open Access Chart.png	Other	wilderness
+618	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/750-Geescroft-wilderness-Carbon-Open-Access-Chart.png	750 Geescroft wilderness Carbon Open Access Chart.png	Other	wilderness
+619	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/Broadbalk-Wilderness-Carbon-Chart.pdf	Broadbalk Wilderness Carbon Chart.pdf	Other	wilderness
+620	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/Broadbalk-Wilderness-Carbon-Open-Access-Chart.png	Broadbalk Wilderness Carbon Open Access Chart.png	Other	wilderness
+621	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/Geescroft-Wilderness-Carbon-Chart.pdf	Geescroft Wilderness Carbon Chart.pdf	Other	wilderness
+622	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/Geescroft-Wilderness-Carbon-Open-Access-Chart.png	Geescroft Wilderness Carbon Open Access Chart.png	Other	wilderness
+623	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/bk-under-storey.jpg	bk under storey	Other	wilderness
+624	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/bk-wilderness-leaf-litter-macro.jpg	bk wilderness leaf litter macro	Other	wilderness
+625	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/broadbalk-aerial-with-wilderness-2015.jpg	broadbalk aerial with wilderness 2015	Other	wilderness
+626	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/broadbalk-wilderness-C-orig.png	broadbalk wilderness C orig.png	Other	wilderness
+627	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/broadbalk-wilderness-grazing-side.jpg	broadbalk wilderness grazing side	Other	wilderness
+628	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/broadbalk-wilderness-litter.jpg	broadbalk wilderness litter	Other	wilderness
+629	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/broadbalk-wilderness-side.jpg	broadbalk wilderness side	Other	wilderness
+630	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/broadbalk2003.jpg	broadbalk2003	Other	wilderness
+631	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/broadbalkplantoday.jpg	broadbalkplantoday	Other	wilderness
+632	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/broadbalkplantoday.pdf	broadbalkplantoday.pdf	Other	wilderness
+633	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/gee-wilderness-leaf-litter-macro.jpg	gee wilderness leaf litter macro	Other	wilderness
+634	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/geescroft-aerial.gif	geescroft aerial.gif	Other	wilderness
+635	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/geescroft-aerial.jpg	geescroft aerial	Other	wilderness
+636	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/geescroft-sideview.jpg	geescroft sideview	Other	wilderness
+637	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/geescroft-under-storey.jpg	geescroft under storey	Other	wilderness
+638	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/geescroft-wilderness-C-orig.png	geescroft wilderness C orig.png	Other	wilderness
+639	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/geescroft-wilderness-aerial-2015.jpg	geescroft wilderness aerial 2015	Other	wilderness
+640	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/rothamsted-farm-plan.jpg	rothamsted farm plan	Other	wilderness
+641	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/ty-1623-map.jpg	ty 1623 map	Thumbnail	wilderness
+642	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/ty-bk-under-storey.jpg	ty bk under storey	Thumbnail	wilderness
+643	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/ty-bk-wilderness-leaf-litter-macro.jpg	ty bk wilderness leaf litter macro	Thumbnail	wilderness
+644	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/ty-broadbalk-aerial-with-wilderness-2015.jpg	ty broadbalk aerial with wilderness 2015	Thumbnail	wilderness
+645	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/ty-broadbalk-wilderness-grazing-side.jpg	ty broadbalk wilderness grazing side	Thumbnail	wilderness
+646	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/ty-broadbalk-wilderness-litter.jpg	ty broadbalk wilderness litter	Thumbnail	wilderness
+647	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/ty-broadbalk-wilderness-side.jpg	ty broadbalk wilderness side	Thumbnail	wilderness
+648	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/ty-broadbalk2003.gif	ty broadbalk2003.gif	Thumbnail	wilderness
+649	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/ty-broadbalkplantoday.jpg	ty broadbalkplantoday	Thumbnail	wilderness
+650	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/ty-gee-wilderness-leaf-litter-macro.jpg	ty gee wilderness leaf litter macro	Thumbnail	wilderness
+651	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/ty-geescroft-aerial.gif	ty geescroft aerial.gif	Thumbnail	wilderness
+652	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/ty-geescroft-aerial.jpg	ty geescroft aerial	Thumbnail	wilderness
+653	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/ty-geescroft-sideview.jpg	ty geescroft sideview	Thumbnail	wilderness
+654	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/ty-geescroft-under-storey.jpg	ty geescroft under storey	Thumbnail	wilderness
+655	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/ty-geescroft-wilderness-aerial-2015.jpg	ty geescroft wilderness aerial 2015	Thumbnail	wilderness
+656	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/ty-rothamsted-farm-plan.jpg	ty rothamsted farm plan	Thumbnail	wilderness
+657	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/ty-wilderness-litter-layer.jpg	ty wilderness litter layer	Thumbnail	wilderness
+658	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wilderness/wilderness-litter-layer.jpg	wilderness litter layer	Other	wilderness
+659	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wrn3/Figure-1.pdf	Figure 1.pdf	Other	wrn3
+660	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wrn3/Woburn-Farm-map-750.jpg	Woburn Farm map 750	Other	wrn3
+661	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wrn3/Woburn-Fields-Stackyard-750.jpg	Woburn Fields Stackyard 750	Other	wrn3
+662	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wrn3/Woburn-LTEs-750.jpg	Woburn LTEs 750	Other	wrn3
+663	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wrn3/Woburn-ley-arable-675.jpg	Woburn ley arable 675	Other	wrn3
+664	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wrn3/ty-Woburn-Farm-map-100.jpg	ty Woburn Farm map 100	Thumbnail	wrn3
+665	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wrn3/ty-Woburn-Fields-Stackyard-100.jpg	ty Woburn Fields Stackyard 100	Thumbnail	wrn3
+666	Rothamsted VCU	http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/wrn3/ty-Woburn-LTEs-100.jpg	ty Woburn LTEs 100	Thumbnail	wrn3

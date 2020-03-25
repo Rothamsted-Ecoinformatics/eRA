@@ -1,0 +1,31 @@
+{
+    "administrative": {
+        "type": "Experiment",
+        "identifier": "Saxmundham Rotation I",
+        "localIdentifier": "S/RN/1",
+        "name": "Saxmundham Rotation I",
+        "url": null,
+        "description": "Two rotation experiments were started at Saxmundham in 1899 by East Suffolk County Council. The experiments consisted of four blocks so that a fully phased typical Norfolk 4-course rotation could be grown. The Rotation I experiment had a factorial test of nitrogen, phosphorous, potassium plus bone meal and farmyard manure.\n\nRothamsted assumed control of the experiments in 1965 and reviewed and modified the experiments. Rothamsted relinquished the site in 2010.\n\nThe Rotation I experiment has been used to look at crop responses to both P and K and their interactions with N, particularly where much fertiliser N was applied in later years to high yielding cultivars of wheat with the aim of achieving bread making quality.",
+        "disambiguatingDescription": null
+    },
+    "dataAccess": {
+        "type": "creativeWork",
+        "conditionsOfAccess": "Available to any researcher on request",
+        "isAccessibleForFree": "YesOffline",
+        "publishingPrinciples": null,
+        "actionableFeedbackPolicy": null,
+        "correctionsPolicy": null,
+        "unnamedSourcesPolicy": null
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "CC-by-4",
+        "license": "http://creativecommons.org/licenses/by/4.0"
+    },
+    "temporalCoverage": "1953/1970 from schema",
+    "dateStart": 1899,
+    "dateEPEnd": null,
+    "dateEnd": 2010,
+    "funder": "NOT in GLTEN",
+    "citation": []
+}

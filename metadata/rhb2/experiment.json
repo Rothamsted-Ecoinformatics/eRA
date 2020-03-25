@@ -1,0 +1,31 @@
+{
+    "administrative": {
+        "type": "Experiment",
+        "identifier": "Hoos Barley",
+        "localIdentifier": null,
+        "name": "Hoos Barley",
+        "url": null,
+        "description": null,
+        "disambiguatingDescription": "The aim was to test the effects of different inorganic fertilizers (supplying the elements N, P, K Mg and sodium silicate) and farmyard manure (FYM) on the yield of spring barley."
+    },
+    "dataAccess": {
+        "type": "creativeWork",
+        "conditionsOfAccess": "Available to any researcher on request",
+        "isAccessibleForFree": "YesOffline",
+        "publishingPrinciples": "http://www.era.rothamsted.ac.uk/Hoosfield",
+        "actionableFeedbackPolicy": "The aim was to test the effects of different inorganic fertilizers (supplying the elements N, P, K Mg and sodium silicate) and farmyard manure (FYM) on the yield of spring barley.",
+        "correctionsPolicy": "The aim was to test the effects of different inorganic fertilizers (supplying the elements N, P, K Mg and sodium silicate) and farmyard manure (FYM) on the yield of spring barley.",
+        "unnamedSourcesPolicy": null
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "CC-by-4",
+        "license": "http://creativecommons.org/licenses/by/4.0"
+    },
+    "temporalCoverage": "1953/1970 from schema",
+    "dateStart": 1852,
+    "dateEPEnd": null,
+    "dateEnd": null,
+    "funder": "NOT in GLTEN",
+    "citation": []
+}

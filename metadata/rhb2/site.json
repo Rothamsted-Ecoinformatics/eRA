@@ -1,0 +1,42 @@
+{
+    "administrative": {
+        "name": "Hoosfield",
+        "identifier": null,
+        "type": "research station field",
+        "doi": null,
+        "visitsAllowed": "Yes",
+        "visitingArrangements": "Contact Andy Macdonald",
+        "description": "The Continuous Spring Barley experiment was started in 1852 on a 1.7 hectare (4.25 acre) site on Hoosfield, to test the effects of organic manure and inorganic fertilizer on the growth of spring barley. The site has probably been occupied since Roman times, and the Rothamsted map of 1623 shows the site under arable cultivation. Arable crops were grown 1847-1851 (Poulton, 1997).",
+        "management": null
+    },
+    "location": {
+        "addressLocality": "Harpenden",
+        "addressRegion": "Hertfordshire",
+        "addressCountry": "United Kingdom",
+        "geoLocationPoint": {
+            "pointLongitude": -0.37608,
+            "pointLatitude": 51.81206
+        },
+        "geoLocationPlace": "United Kingdom",
+        "polygon": "NOT IN GLTEN",
+        "elevation": 130.0,
+        "elevationUnit": "Metres",
+        "slope": null,
+        "slopeAspect": null
+    },
+    "soil": {
+        "soilTypeLabel": null,
+        "soilDescription": null
+    },
+    "soilProperty": [],
+    "climate": {
+        "name": null,
+        "description": null,
+        "weatherStation": {
+            "weatherStationID": "NOT IN GLTEN",
+            "name": "NOT IN GLTEN",
+            "distance": "NOT IN GLTEN",
+            "direction": "NOT IN GLTEN"
+        }
+    }
+}

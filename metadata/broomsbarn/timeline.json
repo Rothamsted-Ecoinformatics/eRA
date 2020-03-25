@@ -1,0 +1,41 @@
+{
+    "title": {
+        "text": {
+            "headline": "Test and Tutorial Timeline",
+            "text": null
+        },
+        "media": {
+            "url": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Classical-Experiments-aerial-layout.jpg",
+            "caption": "Classical Experiments aerial layout",
+            "credit": "eRA curators",
+            "link": null,
+            "link_target": null
+        }
+    },
+    "events": [
+        {
+            "media": {
+                "url": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rothamsted/1623-map.jpg",
+                "caption": "1623 map",
+                "credit": "eRA curators",
+                "thumbnail": "",
+                "link": "http://www.google.com/",
+                "link_target": "_Top"
+            },
+            "start_date": {
+                "month": 0,
+                "day": 0,
+                "year": 1623
+            },
+            "end_date": {
+                "month": 0,
+                "day": 0,
+                "year": 1932
+            },
+            "text": {
+                "headline": "Rothamsted in 1623",
+                "text": "The plot of the Demeanes (domains) of the Mannor or Rothamsted."
+            }
+        }
+    ]
+}

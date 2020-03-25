@@ -1,0 +1,113 @@
+{
+    "title": {
+        "text": {
+            "headline": "Broadbalk Long term experiment",
+            "text": "The Broadbalk experiment is one of the oldest continuous agronomic experiments in the world."
+        },
+        "media": {
+            "url": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-20-August.jpg",
+            "caption": "Broadbalk 20 August",
+            "credit": "eRA curators",
+            "link": null,
+            "link_target": null
+        }
+    },
+    "events": [
+        {
+            "media": {
+                "url": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/1935-horse-harvest.jpg",
+                "caption": "1935 horse harvest",
+                "credit": "eRA curators",
+                "thumbnail": "",
+                "link": null,
+                "link_target": null
+            },
+            "start_date": {
+                "month": 0,
+                "day": 0,
+                "year": 1852
+            },
+            "end_date": {
+                "month": 0,
+                "day": 0,
+                "year": 1925
+            },
+            "text": {
+                "headline": "Early Period",
+                "text": "The experiment was divided into different Strips"
+            }
+        },
+        {
+            "media": {
+                "url": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-20-August.jpg",
+                "caption": "Broadbalk 20 August",
+                "credit": "eRA curators",
+                "thumbnail": "",
+                "link": null,
+                "link_target": null
+            },
+            "start_date": {
+                "month": 0,
+                "day": 0,
+                "year": 1926
+            },
+            "end_date": {
+                "month": 0,
+                "day": 0,
+                "year": 1927
+            },
+            "text": {
+                "headline": "Middle Period",
+                "text": "Winter Wheat"
+            }
+        },
+        {
+            "media": {
+                "url": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/1954-Broadbalk-Section5.jpg",
+                "caption": "1954 Broadbalk Section5",
+                "credit": "eRA curators",
+                "thumbnail": "",
+                "link": null,
+                "link_target": null
+            },
+            "start_date": {
+                "month": 0,
+                "day": 0,
+                "year": 1927
+            },
+            "end_date": {
+                "month": 0,
+                "day": 0,
+                "year": 0
+            },
+            "text": {
+                "headline": "Current Period",
+                "text": null
+            }
+        },
+        {
+            "media": {
+                "url": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Ploughing-Broadbalk-2013.jpg",
+                "caption": "Ploughing Broadbalk 2013",
+                "credit": "eRA curators",
+                "thumbnail": "",
+                "link": null,
+                "link_target": null
+            },
+            "start_date": {
+                "month": 0,
+                "day": 0,
+                "year": 2013
+            },
+            "end_date": {
+                "month": 0,
+                "day": 0,
+                "year": 0
+            },
+            "text": {
+                "headline": "Ploughing",
+                "text": "Ploughing Broadbalk"
+            }
+        }
+    ]
+}

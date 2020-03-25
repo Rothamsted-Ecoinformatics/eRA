@@ -1,0 +1,23 @@
+[
+    {
+        "type": "Organization",
+        "name": "Rothamsted Research",
+        "legalName": "Rothamsted Research",
+        "identifier": "NA",
+        "role": "research organisation",
+        "contactPoint": [
+            {
+                "contactType": "URL",
+                "description": "http://www.rothamsted.ac.uk"
+            }
+        ]
+    },
+    {
+        "type": "Organization",
+        "name": "Woburn Experimental Station",
+        "legalName": "Woburn Experimental Station",
+        "identifier": "NA",
+        "role": "experimental research station",
+        "contactPoint": "NA"
+    }
+]

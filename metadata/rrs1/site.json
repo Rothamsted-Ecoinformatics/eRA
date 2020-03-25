@@ -1,0 +1,103 @@
+{
+    "administrative": {
+        "name": "Highfield",
+        "identifier": null,
+        "type": "research station field",
+        "doi": null,
+        "visitsAllowed": "Yes",
+        "visitingArrangements": "By arrangement with Dr Andy Macdonald",
+        "description": "Permanent grass since 1838 (Lawes & Gilbert, 1885) adjacent to the Highfield Ley-Arable experiment at Rothamsted.",
+        "management": "Since 1959 the experiment is kept free of weeds by frequent cultivation, but herbicides are used occasionally, so inputs of carbon to the soil are negligible. The experiment is on a trapezoidal area of approximately 900 m2."
+    },
+    "location": {
+        "addressLocality": "Harpenden",
+        "addressRegion": "Hertfordshire",
+        "addressCountry": "United Kingdom",
+        "geoLocationPoint": {
+            "pointLongitude": -0.361341,
+            "pointLatitude": 51.804108
+        },
+        "geoLocationPlace": "United Kingdom",
+        "polygon": "NOT IN GLTEN",
+        "elevation": null,
+        "elevationUnit": null,
+        "slope": null,
+        "slopeAspect": null
+    },
+    "soil": {
+        "soilTypeLabel": "luvisol",
+        "soilDescription": null
+    },
+    "soilProperty": [
+        {
+            "variableMeasured": "sand content",
+            "isEstimated": false,
+            "isBaseline": true,
+            "valueReference": 15.0,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 18.0,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": 1945,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "silt content",
+            "isEstimated": false,
+            "isBaseline": true,
+            "valueReference": 59.0,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 18.0,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": 1945,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "clay content",
+            "isEstimated": false,
+            "isBaseline": true,
+            "valueReference": 26.0,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 18.0,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": 1945,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "soil pH",
+            "isEstimated": false,
+            "isBaseline": true,
+            "valueReference": 4.8,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 18.0,
+            "unitCode": null,
+            "unitText": null,
+            "refYear": 1945,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        }
+    ],
+    "climate": {
+        "name": "temperate oceanic climate",
+        "description": null,
+        "weatherStation": {
+            "weatherStationID": "NOT IN GLTEN",
+            "name": "NOT IN GLTEN",
+            "distance": "NOT IN GLTEN",
+            "direction": "NOT IN GLTEN"
+        }
+    }
+}

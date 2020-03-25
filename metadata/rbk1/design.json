@@ -1,0 +1,1764 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Early period",
+            "localIdentifier": "Early period",
+            "name": "Early period",
+            "url": "Early period",
+            "description": "The experiment was divided into different Strips or 'Plots' (2 - 20) receiving the different fertilizer and manure treatments each year. Most treatment strips were established by 1852, except for strip 2A, which began in 1885, and strip 20, which began in 1906. Plot 19 was originally a half plot, and became its current size in 1904. Between 1894 and 1925 many plots were harvested in two halves, Top (T) and Bottom (B), equivalent to the Western and Eastern parts of the experiment."
+        },
+        "design": {
+            "dateStart": 1852,
+            "dateEnd": 1925,
+            "description": null,
+            "studyDesign": "Early period",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": null,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null
+        },
+        "crops": [
+            {
+                "name": "winter wheat",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": [
+            {
+                "id": 1528,
+                "name": "nitrogen fertilizer exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "nitrogen fertilizer exposure",
+                "level": [
+                    {
+                        "id": 5009,
+                        "name": "N1",
+                        "amount": "48",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1852,
+                        "dateEnd": 1925,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "ammonium sulfate",
+                        "notes": null
+                    },
+                    {
+                        "id": 5010,
+                        "name": "N1*",
+                        "amount": "48",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1852,
+                        "dateEnd": 1983,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "sodium nitrate",
+                        "notes": null
+                    },
+                    {
+                        "id": 5011,
+                        "name": "N1.5",
+                        "amount": "72",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1852,
+                        "dateEnd": 1852,
+                        "frequency": "1878",
+                        "method": null,
+                        "chemicalForm": "ammonium sulfate",
+                        "notes": null
+                    },
+                    {
+                        "id": 5012,
+                        "name": "N2",
+                        "amount": "96",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1852,
+                        "dateEnd": 1925,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "ammonium sulfate",
+                        "notes": null
+                    },
+                    {
+                        "id": 5013,
+                        "name": "N2*",
+                        "amount": "96",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1855,
+                        "dateEnd": 1884,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "sodium nitrate",
+                        "notes": null
+                    },
+                    {
+                        "id": 5014,
+                        "name": "N3",
+                        "amount": "144",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1852,
+                        "dateEnd": 1925,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "ammonium sulfate",
+                        "notes": null
+                    },
+                    {
+                        "id": 5015,
+                        "name": "N4",
+                        "amount": "192",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1852,
+                        "dateEnd": 1925,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "ammonium sulfate",
+                        "notes": null
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": [
+            {
+                "name": "FYM",
+                "dateStart": 1885,
+                "dateEnd": 1925,
+                "description": "Applied to plot 2a. The plot was created when the original plot 2 was split in 1885",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N2",
+                        "levelText": "NULL",
+                        "Comment": "Supplying approximately 225 kgN/ha"
+                    }
+                ]
+            },
+            {
+                "name": "FYM",
+                "dateStart": 1843,
+                "dateEnd": 1925,
+                "description": "Plot 2b, originally called plot 2, named plot 2b in 1885 after the original plot was split to make plot 2a",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N2",
+                        "levelText": "NULL",
+                        "Comment": "Supplying approximately 225 kgN/ha"
+                    }
+                ]
+            },
+            {
+                "name": "Nil",
+                "dateStart": 1843,
+                "dateEnd": 1925,
+                "description": "Strip 3. Originally 2 half plots, 3 (nil since 1844) and 4 (1844-51 NP; since 1852 nil). Harvested separately until 1899",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N3",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "PKNaMg",
+                "dateStart": 1843,
+                "dateEnd": null,
+                "description": "Strip 5",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N1.5",
+                        "levelText": "NULL",
+                        "Comment": "As superphosphate"
+                    },
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N1*",
+                        "levelText": "NULL",
+                        "Comment": "As potassium sulphate"
+                    },
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "",
+                        "levelText": "",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N1 PKNaMg",
+                "dateStart": 1843,
+                "dateEnd": 1925,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N1",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            }
+        ],
+        "measurements": "NA"
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Middle period",
+            "localIdentifier": "Middle period",
+            "name": "Middle period",
+            "url": "Middle period",
+            "description": ""
+        },
+        "design": {
+            "dateStart": 1926,
+            "dateEnd": 1927,
+            "description": null,
+            "studyDesign": "Middle period",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": null,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null
+        },
+        "crops": [
+            {
+                "name": "winter wheat",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": "NA",
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Current period",
+            "localIdentifier": "Current period",
+            "name": "Current period",
+            "url": "Current period",
+            "description": "Two major modifications were made from 1968:\ni) The division of Sections I to V to create 10 new Sections (0 - 9), so the yield of wheat grown continuously could be compared with that of wheat grown in rotation after a two-year break. \nii) The introduction of modern, short-strawed cultivars, which lead to an increase in grain yields and a decrease in straw yields. The old cultivar Squarehead's Master was grown on parts of some plots between 1987 and 1990, enabling a comparison to be made with modern cultivars\n\nAfter the 1968 changes, Sections 0, 1, 8 and 9 continued to grow winter wheat only, whilst Sections 2, 4, 7 and Sections 3, 5, 6 went into two different 3-course rotations (see 1968 cropping details link). In 1978, Section 6 reverted to continuous wheat and the other five Sections went into a five year rotation. Pesticides are applied where necessary, except on Section 6, which does not receive spring or summer fungicides. Herbicides have been used as required since 1964 on all of the experiment, except for Section 8 (old Section VA), which has never received herbicides. On Section 0 the straw on each plot has been chopped after harvest and incorporated in the soil since autumn 1986; on all other Sections the straw is baled and removed.\n\nIn 1993 Section 9 was re-drained so that water leaching through the soil could again be collected and analysed.\n\nLime has been applied as required since the 1950s to maintain soil pH at a level at which crop yield is not limited.\n\nFrom 2001 P has not been applied to some plots until levels of plant available P decrease to more appropriate agronomic levels. This is reviewed each year."
+        },
+        "design": {
+            "dateStart": null,
+            "dateEnd": null,
+            "description": "Two major modifications were made from 1968:\ni) The division of Sections I to V to create 10 new Sections (0 - 9), so the yield of wheat grown continuously could be compared with that of wheat grown in rotation after a two-year break. \nii) The introduction of modern, short-strawed cultivars, which lead to an increase in grain yields and a decrease in straw yields. The old cultivar Squarehead's Master was grown on parts of some plots between 1987 and 1990, enabling a comparison to be made with modern cultivars\n\nAfter the 1968 changes, Sections 0, 1, 8 and 9 continued to grow winter wheat only, whilst Sections 2, 4, 7 and Sections 3, 5, 6 went into two different 3-course rotations (see 1968 cropping details link). In 1978, Section 6 reverted to continuous wheat and the other five Sections went into a five year rotation. Pesticides are applied where necessary, except on Section 6, which does not receive spring or summer fungicides. Herbicides have been used as required since 1964 on all of the experiment, except for Section 8 (old Section VA), which has never received herbicides. On Section 0 the straw on each plot has been chopped after harvest and incorporated in the soil since autumn 1986; on all other Sections the straw is baled and removed.\n\nIn 1993 Section 9 was re-drained so that water leaching through the soil could again be collected and analysed.\n\nLime has been applied as required since the 1950s to maintain soil pH at a level at which crop yield is not limited.\n\nFrom 2001 P has not been applied to some plots until levels of plant available P decrease to more appropriate agronomic levels. This is reviewed each year.",
+            "studyDesign": "Current period",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": null,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null
+        },
+        "crops": [
+            {
+                "name": "winter wheat",
+                "dateStart": 1968,
+                "dateEnd": null
+            },
+            {
+                "name": "oats",
+                "dateStart": 1996,
+                "dateEnd": null
+            },
+            {
+                "name": "beans",
+                "dateStart": 1968,
+                "dateEnd": 1978
+            },
+            {
+                "name": "potatoes",
+                "dateStart": 1968,
+                "dateEnd": 1996
+            },
+            {
+                "name": "beans",
+                "dateStart": 2018,
+                "dateEnd": null
+            },
+            {
+                "name": "fallow",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "name": "maize",
+                "dateStart": 1997,
+                "dateEnd": 2017
+            }
+        ],
+        "cropRotations": [
+            {
+                "name": "continuous wheat",
+                "dateStart": 1968,
+                "dateEnd": null,
+                "phasing": "Complete",
+                "isTreatment": true,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 3286,
+                        "description": null
+                    }
+                ]
+            },
+            {
+                "name": "F-W-W",
+                "dateStart": 1968,
+                "dateEnd": 1981,
+                "phasing": "Complete",
+                "isTreatment": true,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 3291,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 3286,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 3286,
+                        "description": null
+                    }
+                ]
+            },
+            {
+                "name": "P-Be-W",
+                "dateStart": 1968,
+                "dateEnd": 1979,
+                "phasing": "Complete",
+                "isTreatment": true,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 3289,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 3288,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 3286,
+                        "description": null
+                    }
+                ]
+            },
+            {
+                "name": "F-P-W-W-W",
+                "dateStart": 1982,
+                "dateEnd": 1999,
+                "phasing": "Complete",
+                "isTreatment": true,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 3291,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 3289,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 3286,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 3286,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 3286,
+                        "description": null
+                    }
+                ]
+            },
+            {
+                "name": "O-M-W-W-W",
+                "dateStart": 1996,
+                "dateEnd": 2017,
+                "phasing": "Complete",
+                "isTreatment": true,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 3287,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 3292,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 3286,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 3286,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 3286,
+                        "description": null
+                    }
+                ]
+            },
+            {
+                "name": "W-W-O-W-Be",
+                "dateStart": 2018,
+                "dateEnd": null,
+                "phasing": "Complete",
+                "isTreatment": true,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 3286,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 3286,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 3287,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 3286,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 3288,
+                        "description": null
+                    }
+                ]
+            }
+        ],
+        "factor": [
+            {
+                "id": 1529,
+                "name": "nitrogen fertilizer exposure",
+                "description": "N was applied as calcium ammonium nitrate (Nitro-chalk) between 1968 and 1985. Between 1968-1996 N was applied at the same rate to beans and potatoes. Between 1996-2017 oats did not receive N. Since 2018 Oats receive N at half the normal rate. Between 1997-2017 split N treatments were applied twice to the seedbed and post-emergence.",
+                "effect": "Direct",
+                "plotApplication": "nitrogen fertilizer exposure",
+                "level": [
+                    {
+                        "id": 5016,
+                        "name": "N1",
+                        "amount": "48",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1968,
+                        "dateEnd": null,
+                        "frequency": "annually in mid-April",
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 5017,
+                        "name": "N2",
+                        "amount": "96",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1968,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "ammonium nitrate",
+                        "notes": null
+                    },
+                    {
+                        "id": 5018,
+                        "name": "N3",
+                        "amount": "144",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1968,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "ammonium nitrate",
+                        "notes": null
+                    },
+                    {
+                        "id": 5019,
+                        "name": "N4",
+                        "amount": "192",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": 3286,
+                        "dateStart": 1986,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "ammonium nitrate",
+                        "notes": null
+                    },
+                    {
+                        "id": 5020,
+                        "name": "N5",
+                        "amount": "240",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1985,
+                        "dateEnd": null,
+                        "frequency": "annually in spring",
+                        "method": null,
+                        "chemicalForm": "ammonium nitrate",
+                        "notes": null
+                    },
+                    {
+                        "id": 5021,
+                        "name": "N6",
+                        "amount": "288",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1985,
+                        "dateEnd": null,
+                        "frequency": "annually in spring",
+                        "method": null,
+                        "chemicalForm": "ammonium nitrate",
+                        "notes": null
+                    },
+                    {
+                        "id": 5022,
+                        "name": "N1+1+1",
+                        "amount": "144",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 2001,
+                        "dateEnd": null,
+                        "frequency": "mid-March, mid-April, Mid-May",
+                        "method": null,
+                        "chemicalForm": "ammonium nitrate",
+                        "notes": "N2+1 for maize"
+                    },
+                    {
+                        "id": 5023,
+                        "name": "N1+2+1",
+                        "amount": "192",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 2001,
+                        "dateEnd": null,
+                        "frequency": "mid-March, mid-April, Mid-May",
+                        "method": null,
+                        "chemicalForm": "ammonium nitrate",
+                        "notes": "N2+2 for maize"
+                    },
+                    {
+                        "id": 5024,
+                        "name": "N1+3+1",
+                        "amount": "240",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": 3286,
+                        "dateStart": 2001,
+                        "dateEnd": null,
+                        "frequency": "mid-March, mid-April, Mid-May",
+                        "method": null,
+                        "chemicalForm": "ammonium nitrate",
+                        "notes": "N2+3 for maize"
+                    },
+                    {
+                        "id": 5025,
+                        "name": "N1+4+1",
+                        "amount": "288",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": 3286,
+                        "dateStart": 2001,
+                        "dateEnd": null,
+                        "frequency": "mid-March, mid-April, Mid-May",
+                        "method": null,
+                        "chemicalForm": "ammonium nitrate",
+                        "notes": "N2+4 for maize"
+                    }
+                ]
+            },
+            {
+                "id": 1530,
+                "name": "potassium fertilizer exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "potassium fertilizer exposure",
+                "level": [
+                    {
+                        "id": 5026,
+                        "name": "K",
+                        "amount": "90",
+                        "unitCode": "kgK/ha",
+                        "unitText": "kg potassium per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1968,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "potassium sulphate",
+                        "notes": null
+                    },
+                    {
+                        "id": 5027,
+                        "name": "K2",
+                        "amount": "180",
+                        "unitCode": "kgK/ha",
+                        "unitText": "kg potassium per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 2001,
+                        "dateEnd": 2005,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "potassium sulphate",
+                        "notes": null
+                    },
+                    {
+                        "id": 5028,
+                        "name": "K*",
+                        "amount": "90",
+                        "unitCode": "kgK/ha",
+                        "unitText": "kg potassium per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 2001,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "potassium chloride",
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 1531,
+                "name": "phosphate fertilizer exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "phosphate fertilizer exposure",
+                "level": [
+                    {
+                        "id": 5029,
+                        "name": "P",
+                        "amount": "35",
+                        "unitCode": "kgP/ha",
+                        "unitText": "kg phosphorous per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1968,
+                        "dateEnd": 2001,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "calcium bis(dihydrogenphosphate)",
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 1532,
+                "name": "sodium nutrient exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "sodium nutrient exposure",
+                "level": [
+                    {
+                        "id": 5030,
+                        "name": "Na1",
+                        "amount": "16",
+                        "unitCode": "kgNa/ha",
+                        "unitText": "kg sodium per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1968,
+                        "dateEnd": 1973,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "sodium sulphate",
+                        "notes": null
+                    },
+                    {
+                        "id": 5031,
+                        "name": "Na2",
+                        "amount": "55",
+                        "unitCode": "kgNa/ha",
+                        "unitText": "kg sodium per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1968,
+                        "dateEnd": 2000,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "sodium sulphate",
+                        "notes": "57 kgNa/ha until 1973"
+                    }
+                ]
+            },
+            {
+                "id": 1533,
+                "name": "magnesium nutrient exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "magnesium nutrient exposure",
+                "level": [
+                    {
+                        "id": 5032,
+                        "name": "Mg",
+                        "amount": "12",
+                        "unitCode": "kgMg/ha",
+                        "unitText": "kg magnesium per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1968,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "magnesium sulphate",
+                        "notes": "11kgMg until 1973. 35 kgMg every 3rd year 1974-2000."
+                    },
+                    {
+                        "id": 5033,
+                        "name": "Mg2",
+                        "amount": "24",
+                        "unitCode": "kgMg/ha",
+                        "unitText": "kg magnesium per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 2001,
+                        "dateEnd": 2005,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "magnesium sulphate",
+                        "notes": "Plus 60 kg Mg in autumn 2000 only"
+                    },
+                    {
+                        "id": 5034,
+                        "name": "Mg*",
+                        "amount": "30",
+                        "unitCode": "kgMg/ha",
+                        "unitText": "kg magnesium per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1968,
+                        "dateEnd": 2000,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "magnesium sulphate",
+                        "notes": "31kgMg as magnesium sulphate until 1973"
+                    }
+                ]
+            },
+            {
+                "id": 1534,
+                "name": "farmyard manure exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "farmyard manure exposure",
+                "level": [
+                    {
+                        "id": 5035,
+                        "name": "FYM",
+                        "amount": "35",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1968,
+                        "dateEnd": null,
+                        "frequency": "annually in spring",
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "Derived from cattle"
+                    },
+                    {
+                        "id": 5036,
+                        "name": "Residual FYM",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": 2001,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "Plots previously receiving FYM"
+                    }
+                ]
+            },
+            {
+                "id": 1535,
+                "name": "castor meal exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "castor meal exposure",
+                "level": [
+                    {
+                        "id": 5037,
+                        "name": "C",
+                        "amount": "96",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1968,
+                        "dateEnd": 1988,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 5038,
+                        "name": "Residual C",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "Plots previously receiving"
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": [
+            {
+                "name": "FYM N2 PK",
+                "dateStart": 1968,
+                "dateEnd": 1984,
+                "description": "Applied to strip 01",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N2",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "farmyard manure exposure",
+                        "levelCode": "FYM",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "phosphate fertilizer exposure",
+                        "levelCode": "P",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "potassium fertilizer exposure",
+                        "levelCode": "K",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "FYM N4 PK",
+                "dateStart": 1985,
+                "dateEnd": 2000,
+                "description": "Applied to strip 01",
+                "factor": [
+                    {
+                        "Factor": "farmyard manure exposure",
+                        "levelCode": "FYM",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N4",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "phosphate fertilizer exposure",
+                        "levelCode": "P",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "potassium fertilizer exposure",
+                        "levelCode": "K",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "(FYM) N4",
+                "dateStart": 2001,
+                "dateEnd": null,
+                "description": "Applied to strip 01",
+                "factor": [
+                    {
+                        "Factor": "farmyard manure exposure",
+                        "levelCode": "Residual FYM",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N4",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "FYM N2",
+                "dateStart": 1968,
+                "dateEnd": 2004,
+                "description": "Applied to strip 2.1",
+                "factor": [
+                    {
+                        "Factor": "farmyard manure exposure",
+                        "levelCode": "FYM",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N2",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "FYM N3",
+                "dateStart": 2005,
+                "dateEnd": null,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "farmyard manure exposure",
+                        "levelCode": "FYM",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N3",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "FYM",
+                "dateStart": 1968,
+                "dateEnd": null,
+                "description": "Applied to strip 2.2",
+                "factor": [
+                    {
+                        "Factor": "farmyard manure exposure",
+                        "levelCode": "FYM",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "Nil",
+                "dateStart": 1968,
+                "dateEnd": null,
+                "description": "No organic or inorganic amendments, strip 03",
+                "factor": "NA"
+            },
+            {
+                "name": "(P)K(Na)Mg",
+                "dateStart": 1968,
+                "dateEnd": 1973,
+                "description": "Applied to strip 05",
+                "factor": [
+                    {
+                        "Factor": "phosphate fertilizer exposure",
+                        "levelCode": "P",
+                        "levelText": "NULL",
+                        "Comment": "P not applied since 2000 due to high soil levels, reviewed annually."
+                    },
+                    {
+                        "Factor": "potassium fertilizer exposure",
+                        "levelCode": "K",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "sodium nutrient exposure",
+                        "levelCode": "Na1",
+                        "levelText": "NULL",
+                        "Comment": "Applied until 1973"
+                    },
+                    {
+                        "Factor": "magnesium nutrient exposure",
+                        "levelCode": "Mg",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N1 (P)K(Na)Mg",
+                "dateStart": 1968,
+                "dateEnd": null,
+                "description": "Applied to strip 06",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N1",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "phosphate fertilizer exposure",
+                        "levelCode": "P",
+                        "levelText": "NULL",
+                        "Comment": "P not applied since 2000 due to high soil levels, reviewed annually."
+                    },
+                    {
+                        "Factor": "potassium fertilizer exposure",
+                        "levelCode": "K",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "sodium nutrient exposure",
+                        "levelCode": "",
+                        "levelText": "",
+                        "Comment": "Applied until 1973"
+                    },
+                    {
+                        "Factor": "magnesium nutrient exposure",
+                        "levelCode": "Mg",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N2 (P)K(Na)Mg",
+                "dateStart": 1968,
+                "dateEnd": null,
+                "description": "Applied to strip 07 and applied to strip 16 until 1984",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N2",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "phosphate fertilizer exposure",
+                        "levelCode": "P",
+                        "levelText": "NULL",
+                        "Comment": "P not applied since 2000 due to high soil levels, reviewed annually."
+                    },
+                    {
+                        "Factor": "potassium fertilizer exposure",
+                        "levelCode": "K",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "sodium nutrient exposure",
+                        "levelCode": "Na1",
+                        "levelText": "NULL",
+                        "Comment": "Applied until 1973"
+                    },
+                    {
+                        "Factor": "magnesium nutrient exposure",
+                        "levelCode": "Mg",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N3 (P)K(Na)Mg",
+                "dateStart": 1968,
+                "dateEnd": null,
+                "description": "Applied to strip 08, and applied to strip 15 until 1984",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N3",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "phosphate fertilizer exposure",
+                        "levelCode": "P",
+                        "levelText": "NULL",
+                        "Comment": "P not applied since 2000 due to high soil levels, reviewed annually."
+                    },
+                    {
+                        "Factor": "potassium fertilizer exposure",
+                        "levelCode": "K",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "sodium nutrient exposure",
+                        "levelCode": "Na1",
+                        "levelText": "NULL",
+                        "Comment": "Applied until 1973"
+                    },
+                    {
+                        "Factor": "magnesium nutrient exposure",
+                        "levelCode": "Mg",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N4 (P)K(Na)Mg",
+                "dateStart": 1968,
+                "dateEnd": null,
+                "description": "Applied to strip 09",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N4",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "phosphate fertilizer exposure",
+                        "levelCode": "P",
+                        "levelText": "NULL",
+                        "Comment": "P not applied since 2000 due to high soil levels, reviewed annually."
+                    },
+                    {
+                        "Factor": "potassium fertilizer exposure",
+                        "levelCode": "K",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "sodium nutrient exposure",
+                        "levelCode": "Na1",
+                        "levelText": "NULL",
+                        "Comment": "Applied until 1973"
+                    },
+                    {
+                        "Factor": "magnesium nutrient exposure",
+                        "levelCode": "Mg",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N2",
+                "dateStart": 1968,
+                "dateEnd": 2000,
+                "description": "Applied to strip 10",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N2",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N4",
+                "dateStart": 2001,
+                "dateEnd": null,
+                "description": "Applied to strip 10",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N4",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N2 P",
+                "dateStart": 1968,
+                "dateEnd": 2000,
+                "description": "Applied to strip 11",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N2",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "phosphate fertilizer exposure",
+                        "levelCode": "P",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N4 PMg",
+                "dateStart": 2001,
+                "dateEnd": null,
+                "description": "Applied to strip 11",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N4",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "phosphate fertilizer exposure",
+                        "levelCode": "P",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "magnesium nutrient exposure",
+                        "levelCode": "Mg",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N2 PNa",
+                "dateStart": 1968,
+                "dateEnd": 2000,
+                "description": "Applied to strip 12",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N2",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "phosphate fertilizer exposure",
+                        "levelCode": "P",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "sodium nutrient exposure",
+                        "levelCode": "Na2",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N1+3+1 (P)K2Mg2",
+                "dateStart": 2001,
+                "dateEnd": 2005,
+                "description": "Applied to strip 12. P was not applied in this period",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N1+3+1",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "potassium fertilizer exposure",
+                        "levelCode": "K2",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "magnesium nutrient exposure",
+                        "levelCode": "Mg2",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N1+3+1 (P)KMg",
+                "dateStart": 2006,
+                "dateEnd": null,
+                "description": "Applied to plot 12",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N1+3+1",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "potassium fertilizer exposure",
+                        "levelCode": "K",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "magnesium nutrient exposure",
+                        "levelCode": "Mg",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N2 PK",
+                "dateStart": 1968,
+                "dateEnd": 2000,
+                "description": "Applied to plot 13",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N2",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "phosphate fertilizer exposure",
+                        "levelCode": "P",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "potassium fertilizer exposure",
+                        "levelCode": "K",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N4 PK",
+                "dateStart": 2001,
+                "dateEnd": null,
+                "description": "Applied to strip 14",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N4",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "phosphate fertilizer exposure",
+                        "levelCode": "P",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "potassium fertilizer exposure",
+                        "levelCode": "K",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N2 PKMg*",
+                "dateStart": 1968,
+                "dateEnd": 2000,
+                "description": "Applied to plot 14",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N2",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "phosphate fertilizer exposure",
+                        "levelCode": "P",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "potassium fertilizer exposure",
+                        "levelCode": "K",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "magnesium nutrient exposure",
+                        "levelCode": "Mg*",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N4 PK*",
+                "dateStart": 2001,
+                "dateEnd": null,
+                "description": "Applied to strip 14",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N4",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "phosphate fertilizer exposure",
+                        "levelCode": "P",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "potassium fertilizer exposure",
+                        "levelCode": "K*",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N5 (P)KMg",
+                "dateStart": 1985,
+                "dateEnd": null,
+                "description": "Applied to strip 15",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N5",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "phosphate fertilizer exposure",
+                        "levelCode": "P",
+                        "levelText": "NULL",
+                        "Comment": "Applied until 200, reviewed annually since"
+                    },
+                    {
+                        "Factor": "potassium fertilizer exposure",
+                        "levelCode": "K",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "magnesium nutrient exposure",
+                        "levelCode": "Mg",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N6 (P)KMg",
+                "dateStart": 1985,
+                "dateEnd": null,
+                "description": "Applied to plot 16",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N6",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "phosphate fertilizer exposure",
+                        "levelCode": "P",
+                        "levelText": "NULL",
+                        "Comment": "Applied until 2000, reviewed annually since"
+                    },
+                    {
+                        "Factor": "potassium fertilizer exposure",
+                        "levelCode": "K",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "magnesium nutrient exposure",
+                        "levelCode": "Mg",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N2 1/2[PK(Na)Mg",
+                "dateStart": 1968,
+                "dateEnd": 1984,
+                "description": "Applied to strips 17 and 18 in alternate years",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N2",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "phosphate fertilizer exposure",
+                        "levelCode": "P",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "potassium fertilizer exposure",
+                        "levelCode": "K",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "sodium nutrient exposure",
+                        "levelCode": "Na1",
+                        "levelText": "NULL",
+                        "Comment": "Until 1973"
+                    },
+                    {
+                        "Factor": "magnesium nutrient exposure",
+                        "levelCode": "Mg",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N[0|1]+3 1/2[PKMg]",
+                "dateStart": 1985,
+                "dateEnd": 2000,
+                "description": "Applied to strips 17 and 18 in alternate years",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N3",
+                        "levelText": "NULL",
+                        "Comment": "Applied to strip 17"
+                    },
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N4",
+                        "levelText": "NULL",
+                        "Comment": "Applied to strip 18"
+                    },
+                    {
+                        "Factor": "phosphate fertilizer exposure",
+                        "levelCode": "P",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "potassium fertilizer exposure",
+                        "levelCode": "K",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "magnesium nutrient exposure",
+                        "levelCode": "Mg",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N1+4+1 PKMg",
+                "dateStart": 2000,
+                "dateEnd": null,
+                "description": "Applied to strip 17",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N1+4+1",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "phosphate fertilizer exposure",
+                        "levelCode": "P",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "potassium fertilizer exposure",
+                        "levelCode": "K",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "magnesium nutrient exposure",
+                        "levelCode": "Mg",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N1+2+1 PKMg",
+                "dateStart": 2001,
+                "dateEnd": null,
+                "description": "Applied to strip 18",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N1+2+1",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "phosphate fertilizer exposure",
+                        "levelCode": "P",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "potassium fertilizer exposure",
+                        "levelCode": "K",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "magnesium nutrient exposure",
+                        "levelCode": "Mg",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "C",
+                "dateStart": 1968,
+                "dateEnd": 1988,
+                "description": "Applied to strip 19",
+                "factor": [
+                    {
+                        "Factor": "castor meal exposure",
+                        "levelCode": "C",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N1+1+1 KMg",
+                "dateStart": 2001,
+                "dateEnd": null,
+                "description": "Applied to strip 19",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N1+1+1",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "potassium fertilizer exposure",
+                        "levelCode": "K",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "magnesium nutrient exposure",
+                        "levelCode": "Mg",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N2 K(Na)Mg",
+                "dateStart": 1968,
+                "dateEnd": 2000,
+                "description": "Applied to strip 20",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N2",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "potassium fertilizer exposure",
+                        "levelCode": "K",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "sodium nutrient exposure",
+                        "levelCode": "Na1",
+                        "levelText": "NULL",
+                        "Comment": "applied until 1973"
+                    },
+                    {
+                        "Factor": "magnesium nutrient exposure",
+                        "levelCode": "Mg",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N4 KMg",
+                "dateStart": 2000,
+                "dateEnd": null,
+                "description": "Applied to strip 20",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N4",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "potassium fertilizer exposure",
+                        "levelCode": "K",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "magnesium nutrient exposure",
+                        "levelCode": "Mg",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            }
+        ],
+        "measurements": "NA"
+    }
+]

@@ -1,0 +1,88 @@
+{
+    "administrative": {
+        "name": "Hoosfield",
+        "identifier": null,
+        "type": "research station field",
+        "doi": null,
+        "visitsAllowed": "Yes",
+        "visitingArrangements": "By arrangement with Dr Any Macdonald",
+        "description": "From 1852-1855, this site was the 'Lois Weedon' plots, an experiment that tested different methods of husbandry, with no fertilizer or manure. Winter wheat was grown. See Johnston & Poulton (1977) for more details.",
+        "management": null
+    },
+    "location": {
+        "addressLocality": "Harpenden",
+        "addressRegion": "Hertfordshire",
+        "addressCountry": "United Kingdom",
+        "geoLocationPoint": {
+            "pointLongitude": -0.375931,
+            "pointLatitude": 51.812883
+        },
+        "geoLocationPlace": "United Kingdom",
+        "polygon": "NOT IN GLTEN",
+        "elevation": 128.0,
+        "elevationUnit": "Metres",
+        "slope": null,
+        "slopeAspect": null
+    },
+    "soil": {
+        "soilTypeLabel": "luvisol",
+        "soilDescription": "Chromic Luvisol. Silty clay loam topsoil over clay-with\u2013flints (Avery & Catt, 1995). The soil contains a large number of flints and some rounded pebbles from the material derived from the Reading Beds. The soil is naturally acid and free draining. Below about 2m depth the soil becomes chalk.\n\nSoil pH: Since the 1950s, chalk (CaCO3) has been applied as necessary to maintain a minimum soil pH of 7.0. Like several other old arable fields at Rothamsted, Hoosfield was given large dressings of chalk in the early 19th century, when the practice was to dig out the underlying chalk and spread it on the arable land. Chalk was applied at up to 250 t/ha, and this increased topsoil pH in water (23cm) to between 7.0 and 8.0 (from Poulton et al, 2013)."
+    },
+    "soilProperty": [
+        {
+            "variableMeasured": "sand content",
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 28.0,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": null,
+            "maxSampleDepth": null,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": null,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "clay content",
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 52.0,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": null,
+            "maxSampleDepth": null,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": null,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "clay content",
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 20.0,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": null,
+            "maxSampleDepth": null,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": null,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        }
+    ],
+    "climate": {
+        "name": null,
+        "description": "Chromic Luvisol. Silty clay loam topsoil over clay-with\u2013flints (Avery & Catt, 1995). The soil contains a large number of flints and some rounded pebbles from the material derived from the Reading Beds. The soil is naturally acid and free draining. Below about 2m depth the soil becomes chalk.\n\nSoil pH: Since the 1950s, chalk (CaCO3) has been applied as necessary to maintain a minimum soil pH of 7.0. Like several other old arable fields at Rothamsted, Hoosfield was given large dressings of chalk in the early 19th century, when the practice was to dig out the underlying chalk and spread it on the arable land. Chalk was applied at up to 250 t/ha, and this increased topsoil pH in water (23cm) to between 7.0 and 8.0 (from Poulton et al, 2013).",
+        "weatherStation": {
+            "weatherStationID": "NOT IN GLTEN",
+            "name": "NOT IN GLTEN",
+            "distance": "NOT IN GLTEN",
+            "direction": "NOT IN GLTEN"
+        }
+    }
+}

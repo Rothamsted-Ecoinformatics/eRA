@@ -5,21 +5,18 @@
 	</button>
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav ml-auto">
-			<li class="nav-item"><a class="nav-link" href="index.php">About</a>
-			</li>
-			<li class="nav-item"><a class="nav-link" href="contacts.php">Contacts</a>
-			</li>
-			<li class="nav-item dropdown"><a class="nav-link dropdown-toggle"
-				href="#" id="navbarDropdown" data-toggle="dropdown"> Styles </a>
-				<div class="dropdown-menu">
-					<a class="dropdown-item" href="devHTK.html"> HTK </a> <a
-						class="dropdown-item" href="devTemplate.html"> Template </a>
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="devKitSink.html">bootstrap
-						KitchenSink</a>
-				</div></li>
-			<li class="nav-item"><a class="nav-link" href="#">eRAdoc</a></li>
-			<li class="nav-item"><a class="nav-link" href="papers.php">Bibliography</a></li>
+			<li class="nav-item"><a class="btn btn-info mx-1"
+				href="e-RApubs.php"> <i class="fa fa-mortar-board"></i> e-RApubs
+			</a></li>
+			<li class="nav-item"><a class="btn btn-info mx-1"
+				href="e-RAdata.php"><i class="fa fa-list-alt"></i> e-RAdata</a></li>
+
+			<li class="nav-item"><a class="btn btn-info mx-1"
+				href="http://www.era.rothamsted.ac.uk/eradoc/"><i
+					class="fa fa-book"></i> e-RAdoc</a></li>
+
+			<li class="nav-item"><a class="btn btn-info mx-1"
+				href="e-RAsearch.php"><i class="fa fa-search"></i> e-RAsearch</a></li>
 		</ul>
 	</div>
 </nav>
@@ -30,7 +27,9 @@
 		<span class="navbar-toggler-icon"></span>
 	</button>
 	<a class="navbar-brand" href="index.php"> <img
-		src="images/eRALogoSmall.gif" class="rounded" alt=""> the electronic
+		src="images/logos/eRALogoSmall.gif" class="rounded"
+		alt="The
+        electronic Rothamsted Archive"> The electronic
 		Rothamsted Archive
 	</a>
 	<div class="collapse navbar-collapse" id="navbarera">
@@ -41,120 +40,168 @@
 			</a>
 				<ul class="dropdown-menu megamenu">
 					<div class="row">
+						<li class="col-md-4 dropdown-item">
+							<ul>
+								<li class="dropdown-header"><a
+									href="farm.php?farm=Rothamsted">Rothamsted</a></li>
+								<li><a href="expt.php?expt=rrs9">Acid Strip</a></li>
+								<li><a href="expt.php?expt=rwf3">Alternate Wheat and
+										Fallow</a></li>
+								<li><a href="expt.php?expt=rcs326">Amounts of Straw </a></li>
+								<li><a href="expt.php?expt=rbk1">Broadbalk</a></li>
+								<li><a href="expt.php?expt=rcs477">Continuous Maize </a></li>
+								<li><a href="expt.php?expt=rex4">Exhaustion Land</a></li>
+								<li><a href="expt.php?expt=rgc8">Garden Clover</a></li>
+								<li><a href="expt.php?expt=rge9">Geescroft Wilderness</a></li>
+								<li><a href="expt.php?expt=rrs1">Highfield Bare Fallow</a></li>
+								<li><a href="expt.php?expt=rcs767">Highfield Conversion</a></li>
+								<li><a href="expt.php?expt=rhb2">Hoosfield Spring
+										Barley</a></li>
+								<li><a href="expt.php?expt=rcs408">Miscanthus sinensis
+										giganteus study</a></li>
+								<li><a href="expt.php?expt=rpg5">Park Grass</a></li>
+								<li><a href="expt.php?expt=rcs10"> Longterm Liming</a></li>
+							</ul>
+						</li>
+
+						<li class="col-md-4 dropdown-item">
+							<ul>
+								<li class="dropdown-header"><a
+									href="farm.php?farm=Broom\s Barn">Broom\s Barn</a></li>
+								<li><a href=""> NONE</a></li>
+								<li class="dropdown-header"><a
+									href="farm.php?farm=Saxmundham">Saxmundham</a></li>
+								<li><a href="expt.php?expt=srn1"> Rotation 1</a></li>
+								<li><a href="expt.php?expt=srn2"> Rotation 2</a></li>
+							</ul>
+						</li>
+
+						<li class="col-md-4 dropdown-item">
+							<ul>
+								<li class="dropdown-header"><a href="farm.php?farm=Woburn">Woburn</a>
+								</li>
+								<li><a href="expt.php?expt=wcs326">Amounts of Straw </a></li>
+								<li><a href="expt.php?expt=wcs478">Continuous Maize </a></li>
+								<li><a href="expt.php?expt=wcs428">Liquid Sludge
+										Experiment</a></li>
+								<li><a href="expt.php?expt=wcs439">Metal Salts
+										Experiment</a></li>
+							</ul>
+						</li>
+
+
+					</div>
+				</ul></li>
+			<li class="dropdown menu-large nav-item"><a href="#"
+				class="dropdown-toggle nav-link" data-toggle="dropdown">WEATHER
+					DATA </a>
+				<ul class="dropdown-menu megamenu">
+					<div class="row">
 						<li class="col-md-3 dropdown-item">
 							<ul>
-								<li class="dropdown-header">Classical Experiments</li>
-								<li><a href="#">Broadbalk</a></li>
-								<li class="disabled"><a href="#">Highfield</a></li>
-								<li><a href="#">Park-Grass</a></li>
-								<li class="divider"></li>
-								<li class="dropdown-header">Templates</li>
-								<li><a href="expt.php">Experiment Template</a></li>
-								<li><a href="devDataset.html">Dataset Template</a></li>
-								<li><a href="#">Headers</a></li>
-								<li><a href="#">Disabled menu items</a></li>
+								<li class="dropdown-header">Measuring</li>
+								<li><a href="pesticides.php">Pesticide used</a></li>
+								<li><a href="conventions.php">Conventions</a></li>
+								<li><a href="conversion.php">Conversion Factors</a></li>
+
+
 							</ul>
 						</li>
 						<li class="col-md-3 dropdown-item">
 							<ul>
-								<li class="dropdown-header">Button groups</li>
-								<li><a href="#">Basic example</a></li>
-								<li><a href="#">Button toolbar</a></li>
-								<li><a href="#">Sizing</a></li>
-								<li><a href="#">Nesting</a></li>
-								<li><a href="#">Vertical variation</a></li>
-								<li class="divider"></li>
-								<li class="dropdown-header">Button dropdowns</li>
-								<li><a href="#">Single button dropdowns</a></li>
+								<li class="dropdown-header">Weather Stations</li>
+								<li><a href="farm.php?farm=rothamsted">Rothamsted</a></li>
+								<li><a href="farm.php?farm=woburn">Woburn</a></li>
+								<li><a href="farm.php?farm=broomsbarn">Broom's Barn</a></li>
+
 							</ul>
 						</li>
 						<li class="col-md-3 dropdown-item">
 							<ul>
-								<li class="dropdown-header">Input groups</li>
-								<li><a href="#">Basic example</a></li>
-								<li><a href="#">Sizing</a></li>
-								<li><a href="#">Checkboxes and radio addons</a></li>
-								<li class="divider"></li>
-								<li class="dropdown-header">Navs</li>
-								<li><a href="#">Tabs</a></li>
-								<li><a href="#">Pills</a></li>
-								<li><a href="#">Justified</a></li>
+								<li class="dropdown-header">Met data</li>
+								<li><a href="#">Recording Weather Data</a></li>
+								<li><a href="#">For School</a></li>
 							</ul>
 						</li>
 						<li class="col-md-3 dropdown-item">
 							<ul>
-								<li class="dropdown-header">Navbar</li>
-								<li><a href="#">Default navbar</a></li>
-								<li><a href="#">Buttons</a></li>
-								<li><a href="#">Text</a></li>
-								<li><a href="#">Non-nav links</a></li>
-								<li><a href="#">Component alignment</a></li>
-								<li><a href="#">Fixed to top</a></li>
-								<li><a href="#">Fixed to bottom</a></li>
-								<li><a href="#">Static top</a></li>
-								<li><a href="#">Inverted navbar</a></li>
+								<li class="dropdown-header">About</li>
+								<li><a href="#">History</a></li>
+								<li><a href="#">Credits</a></li>
+								<li><a href="#">How to Credit</a></li>
+								<li><a href="#">News</a></li>
+
 							</ul>
 						</li>
 					</div>
 				</ul></li>
 			<li class="dropdown menu-large nav-item"><a href="#"
-				class="dropdown-toggle nav-link" data-toggle="dropdown">STUDIES </a>
+				class="dropdown-toggle nav-link" data-toggle="dropdown">ABOUT </a>
 				<ul class="dropdown-menu megamenu">
 					<div class="row">
 						<li class="col-md-3 dropdown-item">
 							<ul>
-								<li class="dropdown-header">Glyphicons</li>
-								<li><a href="#">Available glyphs</a></li>
+								<li class="dropdown-header">Standards</li>
+								<li><a href="pesticides.php">Pesticide used</a></li>
+								<li><a href="conventions.php">Conventions</a></li>
+								<li><a href="conventions.php">Data Quality</a></li>
+								<li><a href="conversion.php">Conversion Factors</a></li>
 
-								<li><a href="#">STUDIES</a></li>
-								<li class="divider"></li>
 
-								<li><a href="#">Alignment options</a></li>
-								<li><a href="#">Headers</a></li>
-								<li><a href="#">Disabled menu items</a></li>
 							</ul>
 						</li>
 						<li class="col-md-3 dropdown-item">
 							<ul>
-								<li class="dropdown-header">Button groups</li>
-								<li><a href="#">Basic example</a></li>
-
-
-								<li><a href="#">Vertical variation</a></li>
-								<li class="divider"></li>
-								<li class="dropdown-header">Button dropdowns</li>
-								<li><a href="#">Single button dropdowns</a></li>
+								<li class="dropdown-header"><a name="sites">Sites</a></li>
+								<li><a href="farm.php?farm=rothamsted">Rothamsted</a></li>
+								<li><a href="farm.php?farm=woburn">Woburn</a></li>
+								<li><a href="farm.php?farm=saxmundham">Saxmundham</a></li>
+								<li><a href="farm.php?farm=broomsbarn">Broom's Barn</a></li>
+								<li><a href="farm.php?farm=northwyke">North Wyke</a></li>
 							</ul>
 						</li>
 						<li class="col-md-3 dropdown-item">
 							<ul>
-								<li class="dropdown-header">Input groups</li>
-								<li><a href="#">Basic example</a></li>
-								<li><a href="#">Sizing</a></li>
-								<li><a href="#">Checkboxes and radio addons</a></li>
-								<li class="divider"></li>
-								<li class="dropdown-header">Navs</li>
-								<li><a href="#">Tabs</a></li>
-								<li><a href="#">Pills</a></li>
-								<li><a href="#">Justified</a></li>
+								<li class="dropdown-header">News and Updates</li>
+								<li><a href="https://twitter.com/eRA_Curator">Twitter</a></li>
+								<li><a href="updates.php">Data Updates</a></li>
+								<li><a href="news.php">e-RA news</a>
 							</ul>
 						</li>
 						<li class="col-md-3 dropdown-item">
 							<ul>
-								<li class="dropdown-header">Navbar</li>
-								<li><a href="#">Default navbar</a></li>
-								<li><a href="#">Buttons</a></li>
-								<li><a href="#">Text</a></li>
-								<li><a href="#">Non-nav links</a></li>
-								<li><a href="#">Component alignment</a></li>
-								<li><a href="#">Fixed to top</a></li>
-								<li><a href="#">Fixed to bottom</a></li>
-								<li><a href="#">Static top</a></li>
-								<li><a href="#">Inverted navbar</a></li>
+								<li class="dropdown-header"><a href="about.php">About</a></li>
+								<li><a href="history.php">History</a></li>
+								<li><a href="contact.php">Contact us</a></li>
+								<li><a href="credit.php">How to Credit</a></li>
+								<li><a href="register.php">Register</a></li>
+
 							</ul>
 						</li>
 					</div>
 				</ul></li>
+
+			<li class="dropdown menu-large nav-item"><a href="#"
+				class="dropdown-toggle nav-link" data-toggle="dropdown">DEV</a>
+				<ul class="dropdown-menu megamenu">
+					<div class="row">
+						<li class="col-md-12 dropdown-item">
+							<ul>
+								<li><a
+									href="http://local-info.rothamsted.ac.uk/eRA/era2018-doxy/html/index.html">Documentation</a></li>
+								<li><a href="zdevHTK.html">devdevHTK.html: Bootstrap 4
+										Kitchen Sink</a></li>
+								<li><a href="zdevTemplate.html">zdevTemplate.html: an
+										early stage templage</a></li>
+								<li><a href="zdevBlank.php">devBlank: Blank template
+										page (generic)</a>
+								<li><a href="zdevdocuments.php">All the Documents</a></li>
+								<li><a href="zdevProcessImages.php">Process Images</a></li>
+							</ul>
+						</li>
+
+					</div>
+				</ul>
 		</ul>
 	</div>
 </nav>

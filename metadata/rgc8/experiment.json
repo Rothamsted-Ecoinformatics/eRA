@@ -1,0 +1,40 @@
+{
+    "administrative": {
+        "type": "Experiment",
+        "identifier": "Garden Clover",
+        "localIdentifier": "R/GC/8",
+        "name": "Garden Clover",
+        "url": null,
+        "description": "The smallest and simplest of the Rothamsted Classical experiments, with (until 1956) only one, unmanured plot measuring 3m by 2.1m. Yields were very large for the first 10 years averaging about 10 t dry matter ha-1, probably because the soil was rich in nutrients and the soil-borne pests and diseases of clover were absent. Reasonable yields were obtained over the next 30 years but thereafter yields showed a marked decline and there were several complete failures.\n\nBetween 1956 and 1972 the plot was sub-divided and a sequence of tests made of K, molybdenum (Mo), formalin, N and Mg, but the the crop was usually severely damaged during the winter by clover rot (Sclerotinia trifoliorum) and was resown each spring. Since 1973 basal N, P, K, Mg and chalk have been applied.\n\nBetween 1976 and 1978 aldicarb was tested as a control for clover cyst nematode, Heterodera trifolii, which was known to be present, and the cultivar Hungaropoly, believed resistant to clover-rot, was compared with the standard susceptible variety S.123.\n\nThe plot then grew Hungaropoly only, with basal aldicarb (until 1988), and tested the fungicide benomyl from 1980-90. The cultivar was changed to Merviot in 1996. Between 1979 and 2006 the experiment has been resown seven times. A mean yield of 13t ha-1 has been achieved in this period, with up to 20 t ha-1 in some years. In 2013 the clover variety was changed to Milvus\n\nOther than Park Grass, with its mixed herbage, this is the only Classical experiment where a non-graminaceous crop has been grown continuously. In terms of microbial diversity, its soil provides a potentially valuable contrast with those of Broadbalk and Hoosfield.",
+        "disambiguatingDescription": "To test whether red clover could be grown continuously on a rich garden soil."
+    },
+    "dataAccess": {
+        "type": "creativeWork",
+        "conditionsOfAccess": "Available to any researcher on request",
+        "isAccessibleForFree": "YesOffline",
+        "publishingPrinciples": "http://www.era.rothamsted.ac.uk/Other#SEC3",
+        "actionableFeedbackPolicy": "To test whether red clover could be grown continuously on a rich garden soil.",
+        "correctionsPolicy": "To test whether red clover could be grown continuously on a rich garden soil.",
+        "unnamedSourcesPolicy": null
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "CC-by-4",
+        "license": "http://creativecommons.org/licenses/by/4.0"
+    },
+    "temporalCoverage": "1953/1970 from schema",
+    "dateStart": 1854,
+    "dateEPEnd": null,
+    "dateEnd": null,
+    "funder": "NOT in GLTEN",
+    "citation": [
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/ERADOC-1-193",
+            "sameAs": "https://doi.org/10.23637/ERADOC-1-193",
+            "citation": "Details of the Classical and Long-term Experiments 1968-1973",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        }
+    ]
+}

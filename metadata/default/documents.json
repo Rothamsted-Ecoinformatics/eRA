@@ -1,0 +1,1482 @@
+[
+	{
+		"importedmediaID": 1,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/DET\/Complete-list-of-project-categories-and-numbers-of-requests-per-category.docx",
+		"Caption": "Complete list of project categories and numbers of requests per category",
+		"Type": "docx",
+		"exptID": "DET"
+	},
+	{
+		"importedmediaID": 2,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/DET\/Complete-list-of-projects.pdf",
+		"Caption": "Complete list of projects",
+		"Type": "pdf",
+		"exptID": "DET"
+	},
+	{
+		"importedmediaID": 3,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/DET\/Estimates-of-numbers-of-requests-for-e-RA-data-what-data.docx",
+		"Caption": "Estimates of numbers of requests for e RA data what data",
+		"Type": "docx",
+		"exptID": "DET"
+	},
+	{
+		"importedmediaID": 4,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/DET\/Estimates-of-numbers-of-requests-for-eRA-data.docx",
+		"Caption": "Estimates of numbers of requests for eRA data",
+		"Type": "docx",
+		"exptID": "DET"
+	},
+	{
+		"importedmediaID": 5,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/DET\/Estimates-of-numbers-of-requests-for-eRA-data.pdf",
+		"Caption": "Estimates of numbers of requests for eRA data",
+		"Type": "pdf",
+		"exptID": "DET"
+	},
+	{
+		"importedmediaID": 6,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/DET\/Numbers-of-requests-for-e-RA-data-01-01-2012-to-31-12-2016-who-is-requesting.docx",
+		"Caption": "Numbers of requests for e RA data 01 01 2012 to 31 12 2016 who is requesting",
+		"Type": "docx",
+		"exptID": "DET"
+	},
+	{
+		"importedmediaID": 7,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/DET\/Numbers-of-requests-for-e-RA-data-01-01-2012-to-31-12-2016.docx",
+		"Caption": "Numbers of requests for e RA data 01 01 2012 to 31 12 2016",
+		"Type": "docx",
+		"exptID": "DET"
+	},
+	{
+		"importedmediaID": 8,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/DET\/Numbers-of-requests-for-e-RA-data-what-data.pdf",
+		"Caption": "Numbers of requests for e RA data what data",
+		"Type": "pdf",
+		"exptID": "DET"
+	},
+	{
+		"importedmediaID": 9,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/DET\/Numbers-of-requests-for-e-RA-who-is-requesting.pdf",
+		"Caption": "Numbers of requests for e RA who is requesting",
+		"Type": "pdf",
+		"exptID": "DET"
+	},
+	{
+		"importedmediaID": 10,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/DET\/Summary-of-disciplines-using-eRA-data.docx",
+		"Caption": "Summary of disciplines using eRA data",
+		"Type": "docx",
+		"exptID": "DET"
+	},
+	{
+		"importedmediaID": 11,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/DET\/Summary-of-disciplines-using-eRA-data.pdf",
+		"Caption": "Summary of disciplines using eRA data",
+		"Type": "pdf",
+		"exptID": "DET"
+	},
+	{
+		"importedmediaID": 12,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/30-year-means-all-variables-Harpenden.xlsx",
+		"Caption": "30 year means all variables Harpenden",
+		"Type": "xlsx",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 13,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/Exercise-sheet-for-students-all.docx",
+		"Caption": "Exercise sheet for students all",
+		"Type": "docx",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 14,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/Exercise-sheet-for-students-day.docx",
+		"Caption": "Exercise sheet for students day",
+		"Type": "docx",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 15,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/Exercise-sheet-for-students-day.pdf",
+		"Caption": "Exercise sheet for students day",
+		"Type": "pdf",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 16,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/Exercise-sheet-for-students-day.xps",
+		"Caption": "Exercise sheet for students day",
+		"Type": "xps",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 17,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/Exercise-sheet-for-students-month.docx",
+		"Caption": "Exercise sheet for students month",
+		"Type": "docx",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 18,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/Exercise-sheet-for-students-month.pdf",
+		"Caption": "Exercise sheet for students month",
+		"Type": "pdf",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 19,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/Exercise-sheet-for-students.docx",
+		"Caption": "Exercise sheet for students",
+		"Type": "docx",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 20,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/Exercise-sheet-for-students.pdf",
+		"Caption": "Exercise sheet for students",
+		"Type": "pdf",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 21,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/Historical-events-when-Rothamsted-started-v4.pdf",
+		"Caption": "Historical events when Rothamsted started v4",
+		"Type": "pdf",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 22,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/I-July-2012-daily-weather-Rothamsted.xlsx",
+		"Caption": "I July 2012 daily weather Rothamsted",
+		"Type": "xlsx",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 23,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/II-130-years-5-10-yr-means-temperature-Rothamsted.xlsx",
+		"Caption": "II 130 years 5 10 yr means temperature Rothamsted",
+		"Type": "xlsx",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 24,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/III-30-year-monthly-mean-weather-Rothamsted.xlsx",
+		"Caption": "III 30 year monthly mean weather Rothamsted",
+		"Type": "xlsx",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 25,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/IV-2012-monthly-means-2-sites.xlsx",
+		"Caption": "IV 2012 monthly means 2 sites",
+		"Type": "xlsx",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 26,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/Important-Met-data-updates.docx",
+		"Caption": "Important Met data updates",
+		"Type": "docx",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 27,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/Mean-annual-temp-data.xlsx",
+		"Caption": "Mean annual temp data",
+		"Type": "xlsx",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 28,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/Mean-annual-temp-fig.pdf",
+		"Caption": "Mean annual temp fig",
+		"Type": "pdf",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 29,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/MetApplicationapplication-workflow.pdf",
+		"Caption": "MetApplicationapplication workflow",
+		"Type": "pdf",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 30,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/Question-sheet-Measuring-the-weather-at-Rothamsted.docx",
+		"Caption": "Question sheet Measuring the weather at Rothamsted",
+		"Type": "docx",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 31,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/Question-sheet-Measuring-the-weather-at-Rothamsted.pdf",
+		"Caption": "Question sheet Measuring the weather at Rothamsted",
+		"Type": "pdf",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 32,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/School-weather-datsets.xlsx",
+		"Caption": "School weather datsets",
+		"Type": "xlsx",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 33,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/V-July-2015-daily-weather-3-sites.xlsx",
+		"Caption": "V July 2015 daily weather 3 sites",
+		"Type": "xlsx",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 34,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/Weather-Reports-2007.pdf",
+		"Caption": "Weather Reports 2007",
+		"Type": "pdf",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 35,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/Weather-Reports-2008.pdf",
+		"Caption": "Weather Reports 2008",
+		"Type": "pdf",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 36,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/Weather-Reports-2009.pdf",
+		"Caption": "Weather Reports 2009",
+		"Type": "pdf",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 37,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/Weather-Reports-2010.pdf",
+		"Caption": "Weather Reports 2010",
+		"Type": "pdf",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 38,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/Weather-Reports-2011.pdf",
+		"Caption": "Weather Reports 2011",
+		"Type": "pdf",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 39,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/Weather-Reports-2012.pdf",
+		"Caption": "Weather Reports 2012",
+		"Type": "pdf",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 40,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/Weather-Reports-2013.pdf",
+		"Caption": "Weather Reports 2013",
+		"Type": "pdf",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 41,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/Weather-Reports-2014.pdf",
+		"Caption": "Weather Reports 2014",
+		"Type": "pdf",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 42,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/Weather-Reports-2015.pdf",
+		"Caption": "Weather Reports 2015",
+		"Type": "pdf",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 43,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/met\/Weather-Reports-2016.pdf",
+		"Caption": "Weather Reports 2016",
+		"Type": "pdf",
+		"exptID": "met"
+	},
+	{
+		"importedmediaID": 44,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/northwyke\/FPmap-Nov13.pdf",
+		"Caption": "FPmap Nov13",
+		"Type": "pdf",
+		"exptID": "northwyke"
+	},
+	{
+		"importedmediaID": 45,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/northwyke\/INSTRUMENTATION-with-measuring-limits-and-accuracy-NW-original.docx",
+		"Caption": "INSTRUMENTATION with measuring limits and accuracy NW original",
+		"Type": "docx",
+		"exptID": "northwyke"
+	},
+	{
+		"importedmediaID": 46,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/northwyke\/INSTRUMENTATION-with-measuring-limits-and-accuracy.docx",
+		"Caption": "INSTRUMENTATION with measuring limits and accuracy",
+		"Type": "docx",
+		"exptID": "northwyke"
+	},
+	{
+		"importedmediaID": 47,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/northwyke\/NWFPmap.pdf",
+		"Caption": "NWFPmap",
+		"Type": "pdf",
+		"exptID": "northwyke"
+	},
+	{
+		"importedmediaID": 48,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/others\/LTliming-expt-lime-application-amounts-and-dates.pdf",
+		"Caption": "LTliming expt lime application amounts and dates",
+		"Type": "pdf",
+		"exptID": "others"
+	},
+	{
+		"importedmediaID": 49,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/others\/Long-term-liming-expt-cropping-details.pdf",
+		"Caption": "Long term liming expt cropping details",
+		"Type": "pdf",
+		"exptID": "others"
+	},
+	{
+		"importedmediaID": 50,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/others\/Yield-and-pH-data-availability-LT-liming-expt.pdf",
+		"Caption": "Yield and pH data availability LT liming expt",
+		"Type": "pdf",
+		"exptID": "others"
+	},
+	{
+		"importedmediaID": 51,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/BK-beans-nutrient-data.pdf",
+		"Caption": "BK beans nutrient data",
+		"Type": "pdf",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 52,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/BK-maize-nutrient-data.pdf",
+		"Caption": "BK maize nutrient data",
+		"Type": "pdf",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 53,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/BK-oats-nutrient-data.pdf",
+		"Caption": "BK oats nutrient data",
+		"Type": "pdf",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 54,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/BK-potato-nutrient-data.pdf",
+		"Caption": "BK potato nutrient data",
+		"Type": "pdf",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 55,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/BKGR-QUALITYexample.xlsx",
+		"Caption": "BKGR QUALITYexample",
+		"Type": "xlsx",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 56,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/BKweeds-list-ROT-1968-79.xlsx",
+		"Caption": "BKweeds list ROT 1968 79",
+		"Type": "xlsx",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 57,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/BRC-codes(VEG).xls",
+		"Caption": "BRC codes(VEG)",
+		"Type": "xls",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 58,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/Broadbalk-Fertilizer-Treatments.pdf",
+		"Caption": "Broadbalk Fertilizer Treatments",
+		"Type": "pdf",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 59,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/Broadbalk-Org-C.pdf",
+		"Caption": "Broadbalk Org C",
+		"Type": "pdf",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 60,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/Broadbalk-Sections-Wheat-GRAIN-QUALITY.pdf",
+		"Caption": "Broadbalk Sections Wheat GRAIN QUALITY",
+		"Type": "pdf",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 61,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/Broadbalk-Sections-for-Crop-Nutrient-Content-GRAIN.pdf",
+		"Caption": "Broadbalk Sections for Crop Nutrient Content GRAIN",
+		"Type": "pdf",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 62,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/Broadbalk-Sections-for-Crop-Nutrient-Content-STRAW.pdf",
+		"Caption": "Broadbalk Sections for Crop Nutrient Content STRAW",
+		"Type": "pdf",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 63,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/Broadbalk-Yield-Fig-Feb-2016.pdf",
+		"Caption": "Broadbalk Yield Fig Feb 2016",
+		"Type": "pdf",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 64,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/Broadbalk-Yield-Fig-June-2017.pdf",
+		"Caption": "Broadbalk Yield Fig June 2017",
+		"Type": "pdf",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 65,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/Broadbalk-Yields-Chart.pdf",
+		"Caption": "Broadbalk Yields Chart",
+		"Type": "pdf",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 66,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/Broadbalk-Yields.txt",
+		"Caption": "Broadbalk Yields",
+		"Type": "txt",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 67,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/Broadbalk-cropping-1844-1925.pdf",
+		"Caption": "Broadbalk cropping 1844 1925",
+		"Type": "pdf",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 68,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/Broadbalk-cropping-1926-1967.pdf",
+		"Caption": "Broadbalk cropping 1926 1967",
+		"Type": "pdf",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 69,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/Broadbalk-cropping-1968-onwards.pdf",
+		"Caption": "Broadbalk cropping 1968 onwards",
+		"Type": "pdf",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 70,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/Broadbalk-plan-1852-1925.pdf",
+		"Caption": "Broadbalk plan 1852 1925",
+		"Type": "pdf",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 71,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/Broadbalk-plan-1926-1967.pdf",
+		"Caption": "Broadbalk plan 1926 1967",
+		"Type": "pdf",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 72,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/Broadbalk-timeline.pdf",
+		"Caption": "Broadbalk timeline",
+		"Type": "pdf",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 73,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/BroadbalkOlsenPdata.xlsx",
+		"Caption": "BroadbalkOlsenPdata",
+		"Type": "xlsx",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 74,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/BroadbalkSOCdata.xlsx",
+		"Caption": "BroadbalkSOCdata",
+		"Type": "xlsx",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 75,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/Complete-list-of-weed-species-from-Broadbalk-Survey-data-1869-2013.docx",
+		"Caption": "Complete list of weed species from Broadbalk Survey data 1869 2013",
+		"Type": "docx",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 76,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/Copy-of-Broadbalkplan1852-1925.pdf",
+		"Caption": "Copy of Broadbalkplan1852 1925",
+		"Type": "pdf",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 77,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/LTE-Poster-Nov2012-Small.pdf",
+		"Caption": "LTE Poster Nov2012 Small",
+		"Type": "pdf",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 78,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/Latin-and-common-names-of-weed-species-on-Broadbalk-in-current-surveys.xlsx",
+		"Caption": "Latin and common names of weed species on Broadbalk in current surveys",
+		"Type": "xlsx",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 79,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/Measurements-of-Broadbalk-soil-properties-1843-1944.pdf",
+		"Caption": "Measurements of Broadbalk soil properties 1843 1944",
+		"Type": "pdf",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 80,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/Measurements-of-Broadbalk-soil-properties-1966-2012.pdf",
+		"Caption": "Measurements of Broadbalk soil properties 1966 2012",
+		"Type": "pdf",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 81,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/Open-Access-BK-Olsen-P.pdf",
+		"Caption": "Open Access BK Olsen P",
+		"Type": "pdf",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 82,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/Weed-list-on-Broadbalk-1869.docx",
+		"Caption": "Weed list on Broadbalk 1869",
+		"Type": "docx",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 83,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/Weeds-list-from-BK-WEEDS-SUM.docx",
+		"Caption": "Weeds list from BK WEEDS SUM",
+		"Type": "docx",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 84,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/Weeds-list-from-BK-WEEDS-SUM.pdf",
+		"Caption": "Weeds list from BK WEEDS SUM",
+		"Type": "pdf",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 85,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/Weeds-list-from-DET-BBKWEEDS-FAL.docx",
+		"Caption": "Weeds list from DET BBKWEEDS FAL",
+		"Type": "docx",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 86,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/Weeds-list-from-DET-BBKWEEDS-ROT.docx",
+		"Caption": "Weeds list from DET BBKWEEDS ROT",
+		"Type": "docx",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 87,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/Weeds-on-Broadbalk-1869.docx",
+		"Caption": "Weeds on Broadbalk 1869",
+		"Type": "docx",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 88,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/Weeds-on-section-8-Broadbalk-1933-1967.docx",
+		"Caption": "Weeds on section 8 Broadbalk 1933 1967",
+		"Type": "docx",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 89,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/broadbalk-plan-today.pdf",
+		"Caption": "broadbalk plan today",
+		"Type": "pdf",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 90,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/data.json",
+		"Caption": "data",
+		"Type": "json",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 91,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/poster-Macdonald.pdf",
+		"Caption": "poster Macdonald",
+		"Type": "pdf",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 92,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/preview.xls",
+		"Caption": "preview",
+		"Type": "xls",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 93,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rbk1\/rbk1-design.xlsx",
+		"Caption": "rbk1 design",
+		"Type": "xlsx",
+		"exptID": "rbk1"
+	},
+	{
+		"importedmediaID": 94,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rex4\/Exhaustion-land-P-and-K-inputs-1986-onwards.pdf",
+		"Caption": "Exhaustion land P and K inputs 1986 onwards",
+		"Type": "pdf",
+		"exptID": "rex4"
+	},
+	{
+		"importedmediaID": 95,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rex4\/Fertilizer-treatments-1986-92.pdf",
+		"Caption": "Fertilizer treatments 1986 92",
+		"Type": "pdf",
+		"exptID": "rex4"
+	},
+	{
+		"importedmediaID": 96,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rex4\/Fertilizer-treatments-1993-99.pdf",
+		"Caption": "Fertilizer treatments 1993 99",
+		"Type": "pdf",
+		"exptID": "rex4"
+	},
+	{
+		"importedmediaID": 97,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rex4\/Fertilizer-treatments-2000-06.pdf",
+		"Caption": "Fertilizer treatments 2000 06",
+		"Type": "pdf",
+		"exptID": "rex4"
+	},
+	{
+		"importedmediaID": 98,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rex4\/Fertilizer-treatments-Phase-III.pdf",
+		"Caption": "Fertilizer treatments Phase III",
+		"Type": "pdf",
+		"exptID": "rex4"
+	},
+	{
+		"importedmediaID": 99,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rex4\/Fertilizer-treatments-Phase-V-2007-.pdf",
+		"Caption": "Fertilizer treatments Phase V 2007 ",
+		"Type": "pdf",
+		"exptID": "rex4"
+	},
+	{
+		"importedmediaID": 100,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rex4\/Fertilizer-treatments-cropping-Phase-I-II.pdf",
+		"Caption": "Fertilizer treatments cropping Phase I II",
+		"Type": "pdf",
+		"exptID": "rex4"
+	},
+	{
+		"importedmediaID": 101,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rex4\/Layout-total-nutrients-applied-Phase-I.pdf",
+		"Caption": "Layout total nutrients applied Phase I",
+		"Type": "pdf",
+		"exptID": "rex4"
+	},
+	{
+		"importedmediaID": 102,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rex4\/Overview.pdf",
+		"Caption": "Overview",
+		"Type": "pdf",
+		"exptID": "rex4"
+	},
+	{
+		"importedmediaID": 103,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rgc8\/Wheat-and-fallow-varieties.pdf",
+		"Caption": "Wheat and fallow varieties",
+		"Type": "pdf",
+		"exptID": "rgc8"
+	},
+	{
+		"importedmediaID": 104,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rgc8\/Wheat-fallow-plans.pdf",
+		"Caption": "Wheat fallow plans",
+		"Type": "pdf",
+		"exptID": "rgc8"
+	},
+	{
+		"importedmediaID": 105,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/HF-N-rate-sequence-1968-.xlsx",
+		"Caption": "HF N rate sequence 1968 ",
+		"Type": "xlsx",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 106,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/HFNUTRIMAINexample.xlsx",
+		"Caption": "HFNUTRIMAINexample",
+		"Type": "xlsx",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 107,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/HFcropping-sequence-N-rates-rotation-1968-78.pdf",
+		"Caption": "HFcropping sequence N rates rotation 1968 78",
+		"Type": "pdf",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 108,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/HFplan1852-1967.pdf",
+		"Caption": "HFplan1852 1967",
+		"Type": "pdf",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 109,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/HFplan1968-1978.pdf",
+		"Caption": "HFplan1968 1978",
+		"Type": "pdf",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 110,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/HFplan1979-2000.pdf",
+		"Caption": "HFplan1979 2000",
+		"Type": "pdf",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 111,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/HOOSYIELD5-example.xlsx",
+		"Caption": "HOOSYIELD5 example",
+		"Type": "xlsx",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 112,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/Hoosfertilizertrt.pdf",
+		"Caption": "Hoosfertilizertrt",
+		"Type": "pdf",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 113,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/Hoosfield-N-rate-sequence.xlsx",
+		"Caption": "Hoosfield N rate sequence",
+		"Type": "xlsx",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 114,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/Hoosfield-SOC-chart.pdf",
+		"Caption": "Hoosfield SOC chart",
+		"Type": "pdf",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 115,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/Hoosfield-SOC-data.xlsx",
+		"Caption": "Hoosfield SOC data",
+		"Type": "xlsx",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 116,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/Hoosfield-Yield-June-2017.pdf",
+		"Caption": "Hoosfield Yield June 2017",
+		"Type": "pdf",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 117,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/Hoosfield-Yield-figure.pdf",
+		"Caption": "Hoosfield Yield figure",
+		"Type": "pdf",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 118,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/Hoosfield-Yields-old.xlsx",
+		"Caption": "Hoosfield Yields old",
+		"Type": "xlsx",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 119,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/Hoosfield-YieldsJune-2017.xlsx",
+		"Caption": "Hoosfield YieldsJune 2017",
+		"Type": "xlsx",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 120,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/Hoosfield-crop-nutrients-available-1964-1999.pdf",
+		"Caption": "Hoosfield crop nutrients available 1964 1999",
+		"Type": "pdf",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 121,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/Hoosfield-crop-nutrients-available-1964-2000.pdf",
+		"Caption": "Hoosfield crop nutrients available 1964 2000",
+		"Type": "pdf",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 122,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/Hoosfield-crop-nutrients-available-2001-onwards.pdf",
+		"Caption": "Hoosfield crop nutrients available 2001 onwards",
+		"Type": "pdf",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 123,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/Hoosfield-plan-1852-1967.pdf",
+		"Caption": "Hoosfield plan 1852 1967",
+		"Type": "pdf",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 124,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/Hoosfield-plan-1968-2000.pdf",
+		"Caption": "Hoosfield plan 1968 2000",
+		"Type": "pdf",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 125,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/Hoosfield-plan.xlsx",
+		"Caption": "Hoosfield plan",
+		"Type": "xlsx",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 126,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/Hoosfield-varieties.pdf",
+		"Caption": "Hoosfield varieties",
+		"Type": "pdf",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 127,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/Hoosfield-yield-June-2017.PNG",
+		"Caption": "Hoosfield yield June 2017",
+		"Type": "PNG",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 128,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/Measurements-of-Hoosfield-soil-properties-1852.pdf",
+		"Caption": "Measurements of Hoosfield soil properties 1852",
+		"Type": "pdf",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 129,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/Soil-Organic-Carbon-and-Treatments.xlsx",
+		"Caption": "Soil Organic Carbon and Treatments",
+		"Type": "xlsx",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 130,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/Treatments-2001onwards.pdf",
+		"Caption": "Treatments 2001onwards",
+		"Type": "pdf",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 131,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/hoos-original.png",
+		"Caption": "hoos original",
+		"Type": "png",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 132,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/hoos-small-80.png",
+		"Caption": "hoos small 80",
+		"Type": "png",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 133,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/hoos-small.png",
+		"Caption": "hoos small",
+		"Type": "png",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 134,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/hoosfield-today.pdf",
+		"Caption": "hoosfield today",
+		"Type": "pdf",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 135,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rhb2\/test-Hoos-small-Capture.PNG",
+		"Caption": "test Hoos small Capture",
+		"Type": "PNG",
+		"exptID": "rhb2"
+	},
+	{
+		"importedmediaID": 136,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/PARKCOMPICexample.xlsx",
+		"Caption": "PARKCOMPICexample",
+		"Type": "xlsx",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 137,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/PGHAYEQUIVexample.xlsx",
+		"Caption": "PGHAYEQUIVexample",
+		"Type": "xlsx",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 138,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/Park-Grass-150th-Anniversary-leaflet.pdf",
+		"Caption": "Park Grass 150th Anniversary leaflet",
+		"Type": "pdf",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 139,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/Park-Grass-Chalk-Applics-1960-2009.pdf",
+		"Caption": "Park Grass Chalk Applics 1960 2009",
+		"Type": "pdf",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 140,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/Park-Grass-Chalk-Applics-1960-2009old.pdf",
+		"Caption": "Park Grass Chalk Applics 1960 2009old",
+		"Type": "pdf",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 141,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/Park-Grass-Chalk-Applics-1965-2009.pdf",
+		"Caption": "Park Grass Chalk Applics 1965 2009",
+		"Type": "pdf",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 142,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/Park-Grass-Conference-Hand-out.pdf",
+		"Caption": "Park Grass Conference Hand out",
+		"Type": "pdf",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 143,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/Park-Grass-Conference-Hand-out.ppt",
+		"Caption": "Park Grass Conference Hand out",
+		"Type": "ppt",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 144,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/Park-Grass-Genomic-Observatory.pdf",
+		"Caption": "Park Grass Genomic Observatory",
+		"Type": "pdf",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 145,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/Park-Grass-Lime-Chalk-Applics1856-1902.pdf",
+		"Caption": "Park Grass Lime Chalk Applics1856 1902",
+		"Type": "pdf",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 146,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/Park-Grass-Lime-Chalk-Applics1903-1964.pdf",
+		"Caption": "Park Grass Lime Chalk Applics1903 1964",
+		"Type": "pdf",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 147,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/Park-Grass-Plan.pdf",
+		"Caption": "Park Grass Plan",
+		"Type": "pdf",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 148,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/Park-Grass-Plot-2-timeline.pdf",
+		"Caption": "Park Grass Plot 2 timeline",
+		"Type": "pdf",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 149,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/Park-Grass-Species-Chart-2016.pdf",
+		"Caption": "Park Grass Species Chart 2016",
+		"Type": "pdf",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 150,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/Park-Grass-Species-data-2016.xlsx",
+		"Caption": "Park Grass Species data 2016",
+		"Type": "xlsx",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 151,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/Park-Grass-Species-data.xls",
+		"Caption": "Park Grass Species data",
+		"Type": "xls",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 152,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/Park-Grass-Species-data.xlsx",
+		"Caption": "Park Grass Species data",
+		"Type": "xlsx",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 153,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/Park-Grass-fertilizer-treatments.pdf",
+		"Caption": "Park Grass fertilizer treatments",
+		"Type": "pdf",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 154,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/Park-Grass-lime-treatments.pdf",
+		"Caption": "Park Grass lime treatments",
+		"Type": "pdf",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 155,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/Park-Grass-pH-2016-data.xls",
+		"Caption": "Park Grass pH 2016 data",
+		"Type": "xls",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 156,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/Park-Grass-pH-2016.pdf",
+		"Caption": "Park Grass pH 2016",
+		"Type": "pdf",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 157,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/Park-Grass-plan-1856-1902.pdf",
+		"Caption": "Park Grass plan 1856 1902",
+		"Type": "pdf",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 158,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/Park-Grass-plan-1903-1964.pdf",
+		"Caption": "Park Grass plan 1903 1964",
+		"Type": "pdf",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 159,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/Park-Grass-plan-1965-onwards.pdf",
+		"Caption": "Park Grass plan 1965 onwards",
+		"Type": "pdf",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 160,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/Park-Grass-plan-in-excel-(Portrait)-Version-3.xls",
+		"Caption": "Park Grass plan in excel (Portrait) Version 3",
+		"Type": "xls",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 161,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/ParkGrassSpeciesChart.pdf",
+		"Caption": "ParkGrassSpeciesChart",
+		"Type": "pdf",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 162,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/Thumbs.db",
+		"Caption": "Thumbs",
+		"Type": "db",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 163,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/park-grass-today.pdf",
+		"Caption": "park grass today",
+		"Type": "pdf",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 164,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rpg5\/parkgrass-2006.pdf",
+		"Caption": "parkgrass 2006",
+		"Type": "pdf",
+		"exptID": "rpg5"
+	},
+	{
+		"importedmediaID": 165,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rwf3\/Wheat-and-fallow-varieties.pdf",
+		"Caption": "Wheat and fallow varieties",
+		"Type": "pdf",
+		"exptID": "rwf3"
+	},
+	{
+		"importedmediaID": 166,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/rwf3\/Wheat-fallow-plans.pdf",
+		"Caption": "Wheat fallow plans",
+		"Type": "pdf",
+		"exptID": "rwf3"
+	},
+	{
+		"importedmediaID": 167,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/wilderness\/Broadbalk-Wilderness-Carbon-Chart.pdf",
+		"Caption": "Broadbalk Wilderness Carbon Chart",
+		"Type": "pdf",
+		"exptID": "wilderness"
+	},
+	{
+		"importedmediaID": 168,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/wilderness\/Broadbalk-Wilderness-Open-Access.xlsx",
+		"Caption": "Broadbalk Wilderness Open Access",
+		"Type": "xlsx",
+		"exptID": "wilderness"
+	},
+	{
+		"importedmediaID": 169,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/wilderness\/Geescroft-Wilderness-Carbon-Chart.pdf",
+		"Caption": "Geescroft Wilderness Carbon Chart",
+		"Type": "pdf",
+		"exptID": "wilderness"
+	},
+	{
+		"importedmediaID": 170,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/wilderness\/Geescroft-Wilderness-Open-Access.xlsx",
+		"Caption": "Geescroft Wilderness Open Access",
+		"Type": "xlsx",
+		"exptID": "wilderness"
+	},
+	{
+		"importedmediaID": 171,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/wilderness\/broadbalk-plan-today.pdf",
+		"Caption": "broadbalk plan today",
+		"Type": "pdf",
+		"exptID": "wilderness"
+	},
+	{
+		"importedmediaID": 172,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/woburn\/Woburn-Farm-Fields-Map-2009.pdf",
+		"Caption": "Woburn Farm Fields Map 2009",
+		"Type": "pdf",
+		"exptID": "woburn"
+	},
+	{
+		"importedmediaID": 173,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/woburn\/Woburn-Farm-soil-series-legend-revised-2017.xlsx",
+		"Caption": "Woburn Farm soil series legend revised 2017",
+		"Type": "xlsx",
+		"exptID": "woburn"
+	},
+	{
+		"importedmediaID": 174,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/woburn\/Woburn-farm-field-plan-green.pdf",
+		"Caption": "Woburn farm field plan green",
+		"Type": "pdf",
+		"exptID": "woburn"
+	},
+	{
+		"importedmediaID": 175,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/woburn\/Woburn-farm-soil-series-map.pdf",
+		"Caption": "Woburn farm soil series map",
+		"Type": "pdf",
+		"exptID": "woburn"
+	},
+	{
+		"importedmediaID": 176,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/woburn\/Woburn-farm-soil-texture-map.pdf",
+		"Caption": "Woburn farm soil texture map",
+		"Type": "pdf",
+		"exptID": "woburn"
+	},
+	{
+		"importedmediaID": 177,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/wrn3\/Figure-1.pdf",
+		"Caption": "Figure 1",
+		"Type": "pdf",
+		"exptID": "wrn3"
+	},
+	{
+		"importedmediaID": 178,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/wrn3\/Table-S1.xlsx",
+		"Caption": "Table S1",
+		"Type": "xlsx",
+		"exptID": "wrn3"
+	},
+	{
+		"importedmediaID": 179,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/wrn3\/Table-S2.xlsx",
+		"Caption": "Table S2",
+		"Type": "xlsx",
+		"exptID": "wrn3"
+	},
+	{
+		"importedmediaID": 180,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/wrn3\/WLA-Cropping-since-1938.xlsx",
+		"Caption": "WLA Cropping since 1938",
+		"Type": "xlsx",
+		"exptID": "wrn3"
+	},
+	{
+		"importedmediaID": 181,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/wrn3\/WLA-FYM-applications.xlsx",
+		"Caption": "WLA FYM applications",
+		"Type": "xlsx",
+		"exptID": "wrn3"
+	},
+	{
+		"importedmediaID": 182,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/wrn3\/WLA-Lime-applications-1938-2009.xlsx",
+		"Caption": "WLA Lime applications 1938 2009",
+		"Type": "xlsx",
+		"exptID": "wrn3"
+	},
+	{
+		"importedmediaID": 183,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/wrn3\/WLA-Soil-N.xlsx",
+		"Caption": "WLA Soil N",
+		"Type": "xlsx",
+		"exptID": "wrn3"
+	},
+	{
+		"importedmediaID": 184,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/wrn3\/WLA-Soil-OC-tha.xlsx",
+		"Caption": "WLA Soil OC tha",
+		"Type": "xlsx",
+		"exptID": "wrn3"
+	},
+	{
+		"importedmediaID": 185,
+		"Credit": "eRA curators",
+		"URL": "http:\/\/local-info.rothamsted.ac.uk\/eRA\/era2018-new\/metadata\/wrn3\/WLA-Soil-OC.xlsx",
+		"Caption": "WLA Soil OC",
+		"Type": "xlsx",
+		"exptID": "wrn3"
+	}
+]

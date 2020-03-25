@@ -1,0 +1,42 @@
+{
+    "administrative": {
+        "name": "Stackyard Series A I",
+        "identifier": null,
+        "type": "research farm",
+        "doi": null,
+        "visitsAllowed": "No",
+        "visitingArrangements": null,
+        "description": null,
+        "management": null
+    },
+    "location": {
+        "addressLocality": "Husborne Crawley",
+        "addressRegion": "Bedfordshire",
+        "addressCountry": "United Kingdom",
+        "geoLocationPoint": {
+            "pointLongitude": -0.616007,
+            "pointLatitude": 51.998701
+        },
+        "geoLocationPlace": "United Kingdom",
+        "polygon": "NOT IN GLTEN",
+        "elevation": 102.0,
+        "elevationUnit": "Metres",
+        "slope": null,
+        "slopeAspect": null
+    },
+    "soil": {
+        "soilTypeLabel": "arenosol",
+        "soilDescription": null
+    },
+    "soilProperty": [],
+    "climate": {
+        "name": null,
+        "description": null,
+        "weatherStation": {
+            "weatherStationID": "NOT IN GLTEN",
+            "name": "NOT IN GLTEN",
+            "distance": "NOT IN GLTEN",
+            "direction": "NOT IN GLTEN"
+        }
+    }
+}

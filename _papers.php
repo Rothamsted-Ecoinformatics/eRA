@@ -1,26 +1,34 @@
-
+<?php 
+/**
+ * @file _papers.php
+ * @brief module that search papers in the bibliography database.
+ *
+ * @author Nathalie Castells-Brooke
+ * @date 9/27/2018
+ */
+?>
 <div class="row">
 	<div class="col-sm-3">
 		<div id="idPaperSideBar" class="card p-1 ml-3">
 			<h4>Search Settings</h4>
 			<hr />
-			<form action="papers.php" method="Get">
+			<form name = "paperForm" action="e-RApubs.php" method="Get">
 
 				<div class="form-group">
 					<label for="SearchAuthor">Author:</label> <input type="text"
 						class="form-control" id="SearchAuthor" name="SearchAuthor"
-						value="verrier">
+						value="" onclick="document.paperForm.submit()">
 				</div>
 
 				<div class="form-group">
 					<label for="SearchTitle">Title:</label> <input type="text"
-						class="form-control" id="SearchTitle" name="SearchTitle" value="">
+						class="form-control" id="SearchTitle" name="SearchTitle" value="" onclick="document.paperForm.submit()">
 				</div>
 
 				<hr />
 				<div class="form-group">
 					<label for="expt[]" multiple="multiple">Experiment:</label> <select
-						class="form-control" multiple id="expt[]" name="expt[]">
+						class="form-control" multiple id="expt[]" name="expt[]" onclick="document.paperForm.submit()">
 						<option value="Broadbalk">Broadbalk</option>
 						<option value="Park Grass">Park Grass</option>
 						<option value="Hoosfield">Hoosfield</option>
@@ -56,7 +64,7 @@
 						name="Summary" class="form-control" />
 				</div>
 				<hr />
-				<div class="form-group">
+				<div class="form-group d-none">
 					<label for="output">Prepare Output: </label> <br /> <input
 						type="radio" name="output" value="TAB" />: TAB separated values<br />
 					<input type="radio" name="output" value="ENL" />: or other
@@ -72,7 +80,8 @@
 	</div>
 
 	<div class="col-sm-9 pr-3">
-		<h1>Search the Bibliography</h1>
+		<h1>e-RApubs</h1>
+		<h2>Search the Bibliography</h2>
 				<?php
     if (! $submit) {
         ?>
@@ -159,7 +168,7 @@ IF(`eraPapers`.Year IS NULL or `eraPapers`.Year='', 1, 0)AS yearnull ,
             outputTAB($query);
             
             ?>
-<br /> <b> <a href="export.txt?noCache=<?=$random?>" target="_BLANK">Download
+<br /> <b> <a href="export.txt?noCache=<?=$random?>" >Download
 				your TAB separated Output</a>
 		</b>
 						<?php
@@ -167,7 +176,7 @@ IF(`eraPapers`.Year IS NULL or `eraPapers`.Year='', 1, 0)AS yearnull ,
             outputALL($query);
             ?>
 
-<b><a href="export.txt?noCache=<?=$random?>" target="_BLANK">Save to
+<b><a href="export.txt?noCache=<?=$random?>" >Save to
 				Endnote or other reference software</a> | <a href="home/helpenl.php"
 			target="out">Help (html) </a> | <a href="home/helpenl.pdf"
 			target="out">Help (pdf) </a> </b>
@@ -235,23 +244,23 @@ IF(`eraPapers`.Year IS NULL or `eraPapers`.Year='', 1, 0)AS yearnull ,
                 }
                 $link = 0;
                 if (strlen(trim($rowk2[eradocDOI])) > 1) {
-                    $ReferenceLine = $ReferenceLine . "<br /> <b>DOI: <A HREF=\"\" target=\"popup\" onClick=\"NewWindow('$rowk2[eradocDOI]', 'popup', 850, 700, 'center'); return false; window.name('Main');\">$rowk2[eradocDOI]</a></b>";
+                    $ReferenceLine = $ReferenceLine . "<br /> <b>DOI: <A HREF=\"$rowk2[eradocDOI]\" >$rowk2[eradocDOI]</a></b>";
                     $link = 1;
                 } else if (strlen(trim($rowk2[eRAGRID])) > 1) {
-                    $ReferenceLine = $ReferenceLine . "<br /> <b>eRAdocID: <A HREF=\"\" target=\"popup\" onClick=\"NewWindow('eradoc/article/$rowk2[eRAGRID]', 'popup', 850, 700, 'center'); return false; window.name('Main');\">$rowk2[eRAGRID]</a></b>";
+                    $ReferenceLine = $ReferenceLine . "<br /> <b>eRAdocID: <A HREF=\"http://www.era.rothamsted.ac.uk/eradoc/article/$rowk2[eRAGRID]\" >$rowk2[eRAGRID]</a></b>";
                     $link = 1;
                 } else if (strlen(trim($rowk2[PaperDOI])) > 1) {
-                    $ReferenceLine = $ReferenceLine . "<br /> <b>DOI: <A HREF=\"\" target=\"popup\" onClick=\"NewWindow('http://dx.doi.org/$rowk2[PaperDOI]', 'popup', 850, 700, 'center'); return false; window.name('Main');\">$rowk2[PaperDOI]</a></b>";
+                    $ReferenceLine = $ReferenceLine . "<br /> <b>DOI: <A HREF=\"http://dx.doi.org/$rowk2[PaperDOI]\" >$rowk2[PaperDOI]</a></b>";
                     $link = 1;
                 } else if (strlen(trim($rowk2[URL])) > 1 && ! strstr(trim($rowk2[URL]), '<')) {
                     
                     $link = 1;
                     
-                    $ReferenceLine = $ReferenceLine . "<br /> <b>URL: <A HREF=\"\" target=\"popup\" onClick=\"NewWindow('$rowk2[URL]', 'popup', 850, 700, 'center'); return false; window.name('Main');\">Get Paper</a></b>";
+                    $ReferenceLine = $ReferenceLine . "<br /> <b>URL: <A HREF=\"$rowk2[URL]\" >Get Paper</a></b>";
                 }
                 if ($link == 0) {
                     $title = urlencode($rowk2[Title]);
-                    $ReferenceLine = $ReferenceLine . "<br /> <b><A HREF=\"\" target=\"popup\" onClick=\"NewWindow('https://scholar.google.co.uk/scholar?hl=en&q=" . $title . "', 'popup', 850, 700, 'center'); return false; window.name('Main');\">Search Google Scholar</a></b>";
+                    $ReferenceLine = $ReferenceLine . "<br /> <b><A HREF=\"https://scholar.google.co.uk/scholar?hl=en&q=" . $title . "\" >Search Google Scholar</a></b>";
                 }
                 
                 if ($rowk2[Comment]) {

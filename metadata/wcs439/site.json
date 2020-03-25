@@ -1,0 +1,42 @@
+{
+    "administrative": {
+        "name": "Butt Close West",
+        "identifier": null,
+        "type": "research station field",
+        "doi": null,
+        "visitsAllowed": "No",
+        "visitingArrangements": null,
+        "description": null,
+        "management": "Cultivations were carried out annually to ensure that the metal salts were evenly incorporated in the top 0-25cm and to encourage organic matter breakdown of the sludge cakes. The soil pH was maintained at 6.5."
+    },
+    "location": {
+        "addressLocality": "Husborne Crawley",
+        "addressRegion": "Hertfordshire",
+        "addressCountry": "United Kingdom",
+        "geoLocationPoint": {
+            "pointLongitude": -0.597963,
+            "pointLatitude": 52.01195
+        },
+        "geoLocationPlace": "United Kingdom",
+        "polygon": "NOT IN GLTEN",
+        "elevation": 96.0,
+        "elevationUnit": "Metres",
+        "slope": null,
+        "slopeAspect": null
+    },
+    "soil": {
+        "soilTypeLabel": "arenosol",
+        "soilDescription": null
+    },
+    "soilProperty": [],
+    "climate": {
+        "name": "temperate oceanic climate",
+        "description": null,
+        "weatherStation": {
+            "weatherStationID": "NOT IN GLTEN",
+            "name": "NOT IN GLTEN",
+            "distance": "NOT IN GLTEN",
+            "direction": "NOT IN GLTEN"
+        }
+    }
+}

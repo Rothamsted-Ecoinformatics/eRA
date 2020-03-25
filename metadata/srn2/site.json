@@ -1,0 +1,42 @@
+{
+    "administrative": {
+        "name": "Saxmundham II",
+        "identifier": null,
+        "type": "research station field",
+        "doi": null,
+        "visitsAllowed": "No",
+        "visitingArrangements": "None",
+        "description": "Rothamsted relinquished the site in 2010",
+        "management": "The site is no longer managed as an experimental site."
+    },
+    "location": {
+        "addressLocality": "Saxmundham",
+        "addressRegion": "Suffolk",
+        "addressCountry": "UK",
+        "geoLocationPoint": {
+            "pointLongitude": 1.466,
+            "pointLatitude": 52.221
+        },
+        "geoLocationPlace": "UK",
+        "polygon": "NOT IN GLTEN",
+        "elevation": 37.0,
+        "elevationUnit": "Metres",
+        "slope": null,
+        "slopeAspect": null
+    },
+    "soil": {
+        "soilTypeLabel": "Eutric Gleysol",
+        "soilDescription": "Sandy clay loam developed in drift over Chalky boulder clay, Beccles Series"
+    },
+    "soilProperty": [],
+    "climate": {
+        "name": null,
+        "description": "Sandy clay loam developed in drift over Chalky boulder clay, Beccles Series",
+        "weatherStation": {
+            "weatherStationID": "NOT IN GLTEN",
+            "name": "NOT IN GLTEN",
+            "distance": "NOT IN GLTEN",
+            "direction": "NOT IN GLTEN"
+        }
+    }
+}

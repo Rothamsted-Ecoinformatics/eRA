@@ -1,0 +1,31 @@
+{
+    "administrative": {
+        "type": "Experiment",
+        "identifier": "Broadbalk",
+        "localIdentifier": "R/BK/1",
+        "name": "Broadbalk",
+        "url": null,
+        "description": "The Broadbalk experiment is one of the oldest continuous agronomic experiments in the world. Started by Lawes and Gilbert in the autumn of 1843, winter wheat has been sown and harvested on all or part of the field every year since then. The original aim of the experiment was to test the effects of various combinations of inorganic fertilizers (supplying the elements N, P, K, Na and Mg) and different organic manures on the yield of winter wheat; a control strip has received no fertilizer or organic manures since 1843. For the first few years these treatments varied a little, but in 1852 a scheme was established that has continued, with some modifications, until today.",
+        "disambiguatingDescription": "The aim of the experiment was to test the effect of different organic manures and inorganic fertilizers on the yield of winter wheat."
+    },
+    "dataAccess": {
+        "type": "creativeWork",
+        "conditionsOfAccess": null,
+        "isAccessibleForFree": "YesOffline",
+        "publishingPrinciples": null,
+        "actionableFeedbackPolicy": "The aim of the experiment was to test the effect of different organic manures and inorganic fertilizers on the yield of winter wheat.",
+        "correctionsPolicy": "The aim of the experiment was to test the effect of different organic manures and inorganic fertilizers on the yield of winter wheat.",
+        "unnamedSourcesPolicy": null
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "CC-by-4",
+        "license": "http://creativecommons.org/licenses/by/4.0"
+    },
+    "temporalCoverage": "1953/1970 from schema",
+    "dateStart": 1843,
+    "dateEPEnd": 1951,
+    "dateEnd": null,
+    "funder": "NOT in GLTEN",
+    "citation": []
+}

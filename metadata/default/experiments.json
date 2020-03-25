@@ -1,0 +1,102 @@
+[
+    {
+        "exptID": "rrs9",
+        "Title": "Acid Strip",
+        "station": "r"
+    },
+    {
+        "exptID": "rwf3",
+        "Title": "Alternate Wheat and Fallow",
+        "station": "r"
+    },
+    {
+        "exptID": "rcs326",
+        "Title": "Amounts of Straw - Rothamsted",
+        "station": "r"
+    },
+    {
+        "exptID": "wcs326",
+        "Title": "Amounts of Straw - Woburn",
+        "station": "w"
+    },
+    {
+        "exptID": "rbk1",
+        "Title": "Broadbalk",
+        "station": "r"
+    },
+    {
+        "exptID": "rcs477",
+        "Title": "Continuous Maize - Rothamsted",
+        "station": "r"
+    },
+    {
+        "exptID": "wcs478",
+        "Title": "Continuous Maize - Woburn",
+        "station": "w"
+    },
+    {
+        "exptID": "rex4",
+        "Title": "Exhaustion Land",
+        "station": "r"
+    },
+    {
+        "exptID": "rgc8",
+        "Title": "Garden Clover",
+        "station": "r"
+    },
+    {
+        "exptID": "rge9",
+        "Title": "Geescroft Wilderness",
+        "station": "r"
+    },
+    {
+        "exptID": "rrs1",
+        "Title": "Highfield Bare Fallow",
+        "station": "r"
+    },
+    {
+        "exptID": "rcs767",
+        "Title": "Highfield Conversion",
+        "station": "r"
+    },
+    {
+        "exptID": "rhb2",
+        "Title": "Hoosfield Spring Barley",
+        "station": "r"
+    },
+    {
+        "exptID": "wcs428",
+        "Title": "Liquid Sludge Experiment",
+        "station": "w"
+    },
+    {
+        "exptID": "wcs439",
+        "Title": "Metal Salts Experiment",
+        "station": "w"
+    },
+    {
+        "exptID": "rcs408",
+        "Title": "Miscanthus sinensis giganteus study",
+        "station": "r"
+    },
+    {
+        "exptID": "rpg5",
+        "Title": "Park Grass",
+        "station": "r"
+    },
+    {
+        "exptID": "rcs10",
+        "Title": "Rothamsted Long-term Liming",
+        "station": "r"
+    },
+    {
+        "exptID": "srn1",
+        "Title": "Saxmundham Rotation 1",
+        "station": "s"
+    },
+    {
+        "exptID": "srn2",
+        "Title": "Saxmundham Rotation 2",
+        "station": "s"
+    }
+]

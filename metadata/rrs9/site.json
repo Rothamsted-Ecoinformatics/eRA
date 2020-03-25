@@ -1,0 +1,58 @@
+{
+    "administrative": {
+        "name": "Acid Strip",
+        "identifier": "R/RS/9",
+        "type": "research station field",
+        "doi": null,
+        "visitsAllowed": "No",
+        "visitingArrangements": "By arrangement with Dr Andy Macdonald",
+        "description": "The acid strip is sited at one end of Hoosfield Barley Long-term Experiment. It been under arable management since before the 19th century. It had uneven applications of chalk in the 19th century at which time chalk was dug from 'bell-pits' on neighboring slopes and spread by hand to improve the fertility and workability of the originally acid soils. Spring barley was grown continuously for over 100 years. It is now sown to winter wheat each year. The acid strip has not received any amendment including chemical or organic fertilizer since then. By the 1950's, reserves of CaCO3 remaining from earlier applications had become exhausted by leaching, especially at further distances from the chalk pits. Here the soil became acidic. It is now sown to winter wheat each year and the wheat starts to die out about half way along the plot, when the pH is below 5.5.",
+        "management": "100 kg N ha-1 applied per year."
+    },
+    "location": {
+        "addressLocality": "Harpenden",
+        "addressRegion": "Hertfordshire",
+        "addressCountry": "United Kingdom",
+        "geoLocationPoint": {
+            "pointLongitude": -0.375816,
+            "pointLatitude": 51.812629
+        },
+        "geoLocationPlace": "United Kingdom",
+        "polygon": "NOT IN GLTEN",
+        "elevation": 128.0,
+        "elevationUnit": "Metres",
+        "slope": null,
+        "slopeAspect": null
+    },
+    "soil": {
+        "soilTypeLabel": "FAO Classification: chromic luvisol",
+        "soilDescription": "Soil survey of England & Wales soil series: Batcombe-Carstens mix with sandier inclusions\nChromic luvisols soils were originally acidic, well-drained to moderately well-drained and developed in a relatively silty (loess-containing) superficial deposit overlaying, and mixed with, clay-with-flints. The topsoil is a flinty, silty clay loam (18\u201327% clay)."
+    },
+    "soilProperty": [
+        {
+            "variableMeasured": "soil pH",
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": null,
+            "minValue": 3.7,
+            "maxValue": 8.3,
+            "minSampleDepth": null,
+            "maxSampleDepth": null,
+            "unitCode": null,
+            "unitText": null,
+            "refYear": 2008,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        }
+    ],
+    "climate": {
+        "name": null,
+        "description": "Soil survey of England & Wales soil series: Batcombe-Carstens mix with sandier inclusions\nChromic luvisols soils were originally acidic, well-drained to moderately well-drained and developed in a relatively silty (loess-containing) superficial deposit overlaying, and mixed with, clay-with-flints. The topsoil is a flinty, silty clay loam (18\u201327% clay).",
+        "weatherStation": {
+            "weatherStationID": "NOT IN GLTEN",
+            "name": "NOT IN GLTEN",
+            "distance": "NOT IN GLTEN",
+            "direction": "NOT IN GLTEN"
+        }
+    }
+}

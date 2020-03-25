@@ -1,253 +1,323 @@
-<div class="jumbotron bg-lighter p-3 m-2">
-	<h1 class="display-3">Contacting e-RA</h1>
-	<p class="lead">
-		For further information and access to the data held in e-RA, please
-		contact the e-RA curators, Sarah Perryman and Margaret Glendining
-		using the e-RA email address: <a href="mailto:era@rothamsted.ac.uk">era@rothamsted.ac.uk</a>
-	</p>
-	<p class="lead">
-		<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-	</p>
-</div>
+<?php
+/**
+ * @file _people.php
+ * @brief module that lists the people on the project.
+ * This displays the people on the project in cards. 
+ * This is harcoded html
+ * @todo  We could use a list of people in a list json and make a funtion to process that. As the staff is not changing too often, this is not a priority. 
+ * @author Nathalie Castells-Brooke
+ * @date 9/27/2018
+ */
+?>
+
 <div id="idPeople">
-	<div class="row px-3 ">
-		<div class="col">
+	<div class="row p-3 m-3">
+		
 			<h1>The e-RA Project Team Today</h1>
-		</div>
+		
 	</div>
-	<div class="row px-3 ">
-		<div class="col">
-			<h2>Project Managment Team</h2>
-		</div>
+	<div class="row p-3 m-3">
+
+			<h2>Project Management Team</h2>
+
 	</div>
-	<div class="row px-3">
-		<div class="col-sm-6 col-md-4 col-xl-2">
-			<div class="card ">
-				<img class="card-img-top" src="images/people/chris-rawlings.jpg"
-					alt="Chris Rawlings" style="width: 100%">
-				<div class="card-body">
-					<h6 class="card-title">
-						Chris Rawlings
-						</h4>
-						<p class="card-text small">Head of Computational and Analytical
-							Sciences, Chair of the e-RA project team</p>
-				
+	<div class="row p-3 m-3">
+		<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+			<div class="card mt-3 text-center border-0">
+			
+
+				<div class="h-100 zoom  zoom">
+					<picture>
+					<source media="(min-width: 576px)"
+						srcset="images/people/Pages/chris-rawlings.jpg">
+					<source media="(min-width: 1200 px)"
+						srcset="images/people/Thumbs/chris-rawlings.jpg">
+					<a href="https://www.rothamsted.ac.uk/our-people/chris-rawlings"><img
+						class="card-img-top rounded-circle"
+						src="images/people/FullSize/chris-rawlings.jpg"
+						alt="Chris Rawlings" style="width: 100%"></a></picture>
 				</div>
-				<div class="card-footer border-top-0">
-					<a href="https://www.rothamsted.ac.uk/our-people/chris-rawlings"
-						class="btn btn-info text-white">See Profile</a>
+				<div class="card-body  text-top">
+					<h6 class="card-title">
+						<a class="text-warning"
+							href="https://www.rothamsted.ac.uk/our-people/chris-rawlings">Chris
+							Rawlings</a></a>
+					</h6>
+					<p class="card-text small">Chair</p>
+
 				</div>
 			</div>
 		</div>
-		<div class="col-sm-6 col-md-4 col-xl-2">
-			<div class="card ">
-				<img class="card-img-top" src="images/people/malcolm-hawkesford.jpg"
-					alt="Malcom Hawkesford" style="width: 100%">
-				<div class="card-body">
-					<h6 class="card-title">
-						Malcolm Hawkesford
-						</h4>
-						<p class="card-text small">Head of Plant Sciences, Chair of the
-							e-RA project team</p>
-				
-				</div>
-				<div class="card-footer border-top-0">
+		<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+			<div class="card mt-3 text-center border-0">
+				<div class="h-100 zoom  zoom">
+					<picture>
+					<source media="(min-width: 576px)"
+						srcset="images/people/Pages/malcolm-hawkesford.jpg">
+					<source media="(min-width: 1200 px)"
+						srcset="images/people/Thumbs/malcolm-hawkesford.jpg">
 					<a
-						href="https://www.rothamsted.ac.uk/our-people/malcolm-hawkesford"
-						class="btn btn-info text-white">See Profile</a>
+						href="https://www.rothamsted.ac.uk/our-people/malcolm-hawkesford"><a
+						href="https://www.rothamsted.ac.uk/our-people/cmalcolm-hawkesford"><img
+							class="card-img-top rounded-circle"
+							src="images/people/FullSize/malcolm-hawkesford.jpg"
+							alt="Malcom Hawkesford" style="width: 100%"></a></picture>
 				</div>
+				<div class="card-body text-top">
+					<h6 class="card-title">
+						<a
+							href="https://www.rothamsted.ac.uk/our-people/malcolm-hawkesford"
+							class="text-warning">Malcolm Hawkesford</a>
+					</h6>
+					<p class="card-text small">Chair</p>
+
+				</div>
+
 			</div>
 		</div>
-		<div class="col-sm-6 col-md-4 col-xl-2">
-			<div class="card">
-				<img class="card-img-top" src="images/people/richard-ostler.jpg"
-					alt="Chris Rawlings" style="width: 100%">
-				<div class="card-body">
+		<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+			<div class="card mt-3 text-center border-0">
+				<div class="h-100 zoom ">
+					<picture>
+					<source media="(min-width: 576px)"
+						srcset="images/people/Pages/richard-ostler.jpg">
+					<source media="(min-width: 1200 px)"
+						srcset="images/people/Thumbs/richard-ostler.jpg">
+					<a href="https://www.rothamsted.ac.uk/our-people/richard-ostler"><img
+						class="card-img-top rounded-circle"
+						src="images/people/FullSize/richard-ostler.jpg"
+						alt="Malcom Hawkesford" style="width: 100%"> </a></picture>
+
+
+				</div>
+				<div class="card-body text-top">
 					<h6 class="card-title">
-						Richard Ostler
-						</h4>
-						<p class="card-text small">Project Leader e-RA: improving the
-							discoverability, openness and use of agri-ecological datasets.</p>
-				
+						<a class="text-warning"
+							href="https://www.rothamsted.ac.uk/our-people/richard-ostler">Richard
+							Ostler</a>
+					</h6>
+					<p class="card-text small">Project Leader</p>
+
 				</div>
-				<div class="card-footer border-top-0">
-					<a href="https://www.rothamsted.ac.uk/our-people/richard-ostler"
-						class="btn btn-info text-white">See Profile</a>
-				</div>
+
 			</div>
 		</div>
-		<div class="col-sm-6 col-md-4 col-xl-2">
-			<div class="card ">
-				<img class="card-img-top"
-					src="images/people/nathalie-castells-brooke.jpg"
-					alt="Nathalie Castells-Brooke" style="width: 100%">
-				<div class="card-body">
-					<h6 class="card-title">
-						Nathalie Castells-Brooke
-						</h4>
-						<p class="card-text small">Database and Software Development</p>
-				
-				</div>
-				<div class="card-footer border-top-0">
+		<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+			<div class="card mt-3 text-center border-0">
+				<div class="h-100 zoom ">
+					<picture>
+					<source media="(min-width: 576px)"
+						srcset="images/people/Pages/nathalie-castells-brooke.jpg">
+					<source media="(min-width: 1200 px)"
+						srcset="images/people/Thumbs/nathalie-castells-brooke.jpg">
 					<a
-						href="https://www.rothamsted.ac.uk/our-people/nathalie-castells-brooke"
-						class="btn btn-info text-white">See Profile</a>
+						href="https://www.rothamsted.ac.uk/our-people/nathalie-castells-brooke"><img
+						class="card-img-top rounded-circle"
+						src="images/people/FullSize/nathalie-castells-brooke.jpg"
+						alt="Nathalie Castells-Brooke" style="width: 100%"> </a></picture>
+				</div>
+				<div class="card-body text-top">
+					<h6 class="card-title">
+						<a class="text-warning"
+							href="https://www.rothamsted.ac.uk/our-people/nathalie-castells-brooke">Nathalie
+							Castells-Brooke</a>
+					</h6>
+					<p class="card-text small">Software Developer</p>
+
 				</div>
 			</div>
 		</div>
-		<div class="col-sm-6 col-md-4 col-xl-2">
-			<div class="card ">
-				<img class="card-img-top"
-					src="images/people/margaret-glendining.jpg"
-					alt="Margaret Glendining" style="width: 100%">
-				<div class="card-body">
-					<h6 class="card-title">
-						Margaret Glendining
-						</h4>
-						<p class="card-text small">Database and Website content, data
-							management and curation</p>
-				
-				</div>
-				<div class="card-footer border-top-0">
+		<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+			<div class="card mt-3 text-center border-0">
+				<div class="h-100 zoom ">
+					<picture>
+					<source media="(min-width: 576px)"
+						srcset="images/people/Pages/margaret-glendining.jpg">
+					<source media="(min-width: 1200 px)"
+						srcset="images/people/Thumbs/margaret-glendining.jpg">
 					<a
-						href="https://www.rothamsted.ac.uk/our-people/margaret-glendining"
-						class="btn btn-info text-white">See Profile</a>
+						href="https://www.rothamsted.ac.uk/our-people/margaret-glendining"><img
+						class="card-img-top rounded-circle"
+						src="images/people/FullSize/margaret-glendining.jpg"
+						alt="Margaret Glendining" style="width: 100%"> </a></picture>
+
+				</div>
+				<div class="card-body text-top">
+					<h6 class="card-title">
+						<a class="text-warning"
+							href="https://www.rothamsted.ac.uk/our-people/margaret-glendining">Margaret
+							Glendining</a>
+					</h6>
+					<p class="card-text small">Data manager</p>
+
 				</div>
 			</div>
 		</div>
-		<div class="col-sm-6 col-md-4 col-xl-2">
-			<div class="card ">
-				<img class="card-img-top" src="images/people/sarah-a-m-perryman.jpg"
-					alt="Sarah Perryman" style="width: 100%">
-				<div class="card-body">
+		<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+			<div class="card mt-3 text-center border-0">
+				<div class="h-100 zoom ">
+					<picture>
+					<source media="(min-width: 576px)"
+						srcset="images/people/Pages/sarah-perryman.jpg">
+					<source media="(min-width: 1200 px)"
+						srcset="images/people/Thumbs/sarah-perryman.jpg">
+					<a href="https://www.rothamsted.ac.uk/our-people/sarah-perryman"><img
+						class="card-img-top rounded-circle"
+						src="images/people/FullSize/sarah-perryman.jpg"
+						alt="Sarah Perryman" style="width: 100%"> </a></picture>
+
+				</div>
+				<div class="card-body text-top">
 					<h6 class="card-title">
-						Sarah Perryman
-						</h4>
-						<p class="card-text small">Database and Website content, data
-							management and curation</p>
-				
+						<a class="text-warning"
+							href="https://www.rothamsted.ac.uk/our-people/sarah-perryman">Sarah
+							Perryman</a>
+					</h6>
+					<p class="card-text small">Data manager</p>
+
 				</div>
-				<div class="card-footer border-top-0">
-					<a href="https://www.rothamsted.ac.uk/our-people/sarah-perryman"
-						class="btn btn-info text-white">See Profile</a>
-				</div>
+
 			</div>
 
 		</div>
 	</div>
-	<div class="row px-3 mt-3">
-		<div class="col">
-			<h2 class="card-title">Data Provision and preparation</h2>
-		</div>
+<div class="row p-3 m-3">
+
+			<h2>Data Provision, Preparation and Analysis</h2>
+
 	</div>
 
-	<div class="row px-3 ">
+	<div class="row px-3 mb-3">
 
-		<div class="col-sm-6 col-md-4 col-xl-2">
-			<div class="card ">
-				<img class="card-img-top" src="images/people/chris-hall.jpg"
-					alt="Chris Hall" style="width: 100%">
-				<div class="card-body">
-					<h6 class="card-title">
-						Chris Hall
-						</h4>
-						<p class="card-text small">Field Trial Technician: processing
-							facilities team leader</p>
-				
-				</div>
-				<div class="card-footer border-top-0">
-					<a href="https://www.rothamsted.ac.uk/our-people/chris-hall"
-						class="btn btn-info text-white">See Profile</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-sm-6 col-md-4 col-xl-2">
-			<div class="card ">
-				<img class="card-img-top" src="images/people/steve-freeman.jpg"
-					alt="Steve Freeman" style="width: 100%">
-				<div class="card-body">
-					<h6 class="card-title">
-						Steve Freeman
-						</h4>
-						<p class="card-text small">Soil science and ecology technician:
-							collection and processing of samples</p>
-				
-				</div>
-				<div class="card-footer border-top-0">
-					<a href="https://www.rothamsted.ac.uk/our-people/steve-freeman"
-						class="btn btn-info text-white">See Profile</a>
-				</div>
-			</div>
+		<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+			<div class="card mt-3 text-center border-0">
+				<div class="h-100 zoom ">
+					<picture>
+					<source media="(min-width: 576px)"
+						srcset="images/people/Pages/chris-hall.jpg">
+					<source media="(min-width: 1200 px)"
+						srcset="images/people/Thumbs/chris-hall.jpg">
+					<a href="https://www.rothamsted.ac.uk/our-people/chris-hall"><img
+						class="card-img-top rounded-circle"
+						src="images/people/FullSize/chris-hall.jpg" alt="Chris Hall"
+						style="width: 100%"> </a></picture>
 
-		</div>
-		<div class="col-sm-6 col-md-4 col-xl-2">
-			<div class="card ">
-				<img class="card-img-top" src="images/people/andy-macdonald.jpg"
-					alt="Andy Macdonald" style="width: 100%">
-				<div class="card-body">
-					<h6 class="card-title">
-						Andy Macdonald
-						</h4>
-						<p class="card-text small">Project leader: Long term experiments
-							data</p>
-				
 				</div>
-				<div class="card-footer border-top-0">
-					<a href="https://www.rothamsted.ac.uk/our-people/andy-macdonald"
-						class="btn btn-info text-white">See Profile</a>
+				<div class="card-body text-top">
+					<h6 class="card-title">
+						<a class="text-warning"
+							href="https://www.rothamsted.ac.uk/our-people/chris-hall">Chris
+							Hall</a>
+					</h6>
+					<p class="card-text small">Field Technician</p>
+
 				</div>
 			</div>
 		</div>
-		<div class="col-sm-6 col-md-4 col-xl-2">
-			<div class="card ">
-				<img class="card-img-top" src="images/people/tony-scott.jpg"
-					alt="Tony Scott" style="width: 100%">
-				<div class="card-body">
+		<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+			<div class="card mt-3 text-center border-0 ">
+				<div class="h-100 zoom ">
+					<picture>
+					<source media="(min-width: 576px)"
+						srcset="images/people/Pages/steve-freeman.jpg">
+					<source media="(min-width: 1200 px)"
+						srcset="images/people/Thumbs/steve-freeman.jpg">
+					<a href="https://www.rothamsted.ac.uk/our-people/steve-freeman"><img
+						class="card-img-top rounded-circle"
+						src="images/people/FullSize/steve-freeman.jpg" alt="Steve Freeman"
+						style="width: 100%"> </a></picture>
+
+				</div>
+				<div class="card-body text-top">
 					<h6 class="card-title">
-						Tony Scott
-						</h4>
-						<p class="card-text small">Environmental Scientist: weather data</p>
-				
+						<a class="text-warning"
+							href="https://www.rothamsted.ac.uk/our-people/steve-freeman">Steve
+							Freeman</a>
+					</h6>
+					<p class="card-text small">Ecology technician</p>
+
 				</div>
-				<div class="card-footer border-top-0">
-					<a href="https://www.rothamsted.ac.uk/our-people/tony-scott"
-						class="btn btn-info text-white">See Profile</a>
-				</div>
+
 			</div>
 
 		</div>
-		<div class="col-sm-6 col-md-4 col-xl-2">
-			<div class="card ">
-				<img class="card-img-top" src="images/people/valerie-mitchell.jpg"
-					alt="Valerie Mitchell" style="width: 100%">
-				<div class="card-body">
+		<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+			<div class="card mt-3 text-center border-0">
+				<div class="h-100 zoom ">
+					<picture>
+					<source media="(min-width: 576px)"
+						srcset="images/people/Pages/andy-macdonald.jpg">
+					<source media="(min-width: 1200 px)"
+						srcset="images/people/Thumbs/andy-macdonald.jpg">
+					<a href="https://www.rothamsted.ac.uk/our-people/andy-macdonald"><img
+						class="card-img-top rounded-circle"
+						src="images/people/FullSize/andy-macdonald.jpg"
+						alt="Andy Macdonald" style="width: 100%"> </a></picture>
+
+				</div>
+				<div class="card-body text-top">
 					<h6 class="card-title">
-						Valerie Mitchell
-						</h4>
-						<p class="card-text small">Data managment Assistant</p>
-				
+						<a class="text-warning"
+							href="https://www.rothamsted.ac.uk/our-people/andy-macdonald">Andy
+							Macdonald</a>
+					</h6>
+					<p class="card-text small">Project leader</p>
+
 				</div>
-				<div class="card-footer border-top-0">
-					<a href="https://www.rothamsted.ac.uk/our-people/valerie-mitchell"
-						class="btn btn-info text-white">See Profile</a>
-				</div>
+
 			</div>
 		</div>
-		<div class="col-sm-6 col-md-4 col-xl-2">
-			<div class="card ">
-				<img class="card-img-top" src="images/people/suzanne-j.-clark.jpg"
-					alt="Suzanne Clark" style="width: 100%">
-				<div class="card-body">
+		<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+			<div class="card mt-3 text-center border-0">
+				<div class="h-100 zoom ">
+					<picture>
+					<source media="(min-width: 576px)"
+						srcset="images/people/Pages/tony-scott.jpg">
+					<source media="(min-width: 1200 px)"
+						srcset="images/people/Thumbs/tony-scott.jpg">
+					<a href="https://www.rothamsted.ac.uk/our-people/tony-scott"><img
+						class="card-img-top rounded-circle"
+						src="images/people/FullSize/tony-scott.jpg" alt="Tony Scott"
+						style="width: 100%"> </a></picture>
+
+				</div>
+				<div class="card-body text-top">
 					<h6 class="card-title">
-						Suzanne Clark
-						</h4>
-						<p class="card-text small">Applied Statistician, quality assurance</p>
-				
+						<a class="text-warning"
+							href="https://www.rothamsted.ac.uk/our-people/tony-scott">Tony
+							Scott</a>
+					</h6>
+					<p class="card-text small">Environmental Scientist</p>
+
 				</div>
-				<div class="card-footer border-top-0">
-					<a href="https://www.rothamsted.ac.uk/our-people/suzanne-clark"
-						class="btn btn-info text-white">See Profile</a>
+			</div>
+
+		</div>
+
+		<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+			<div class="card mt-3 text-center border-0">
+				<div class="h-100 zoom ">
+					<picture>
+					<source media="(min-width: 576px)"
+						srcset="images/people/Pages/suzanne-clark.jpg">
+					<source media="(min-width: 1200 px)"
+						srcset="images/people/Thumbs/suzanne-clark.jpg">
+					<a href="https://www.rothamsted.ac.uk/our-people/suzanne-clark"><img
+						class="card-img-top rounded-circle"
+						src="images/people/FullSize/suzanne-clark.jpg" alt="Suzanne Clark"
+						style="width: 100%"> </a></picture>
+
 				</div>
+				<div class="card-body text-top">
+					<h6 class="card-title">
+						<a class="text-warning"
+							href="https://www.rothamsted.ac.uk/our-people/suzanne-clark">Suzanne
+							Clark</a>
+					</h6>
+					<p class="card-text small">Statistician</p>
+
+				</div>
+
 			</div>
 		</div>
 	</div>

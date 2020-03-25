@@ -1,0 +1,83 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Text",
+    "identifier": "10.23637/EX4-sup-001-01",
+    "name": "Exhaustion Land Experiment overview figure",
+    "shortName": null,
+    "url": "http://www.era.rothamsted.ac.uk/metadata/exhaustion/Overview.pdf",
+    "description": [
+        {
+            "inLanguage": "en",
+            "descriptionType": "Abstract",
+            "description": "Figure illustrating the main treatment phases for the Exhaustion Land Long-term experiment"
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "The Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "datePublished": null,
+    "dateCreated": "2016-03-05",
+    "dateModified": null,
+    "inLanguage": "en",
+    "version": "1",
+    "keywords": [
+        "potatoes",
+        "precipitation",
+        "rainfall patterns",
+        "ecological succession"
+    ],
+    "creator": [
+        {
+            "type": "organization",
+            "name": "Rothamsted Research"
+        }
+    ],
+    "contributor": [],
+    "encodingFormat": "application/pdf",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "The Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License"
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.37608,
+            "latitude": 51.81206
+        },
+        "name": "Hoosfield"
+    },
+    "relatedIdentifier": [],
+    "funder": [
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/00005189 - The Rothamsted Long-Term Experiments including Sample Archive and e-RA database",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F00005189"
+        }
+    ],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": null,
+            "URL": null,
+            "encodingFormat": "",
+            "fileSize": "2 pages"
+        },
+        {
+            "type": "dataDownload",
+            "name": null,
+            "URL": null,
+            "encodingFormat": "",
+            "fileSize": "192 KB"
+        }
+    ]
+}

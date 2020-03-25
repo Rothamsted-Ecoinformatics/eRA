@@ -1,0 +1,48 @@
+{
+    "administrative": {
+        "type": "Experiment",
+        "identifier": "Rothamsted Amounts of Straw",
+        "localIdentifier": "R/CS/326",
+        "name": "Rothamsted Amounts of Straw",
+        "url": null,
+        "description": "This experiment, along with the Woburn Amounts of Straw experiment provides a comparison of soil organic matter dynamics in contrasting soil types, at Rothamsted (a silty clay loam) and at Woburn (a sandy loam). The experiments have been used to study soil structure and earthworm activity.\nThe findings at Rothamsted can be compared with those from section 0 on Broadbalk where straw is also incorporated.\nThe experiment was discontinued after the 2017 harvest. No yields were recorded in 2016 and 2017.",
+        "disambiguatingDescription": "To study the effects of a range of amounts of straw incorporated into the soil on winter wheat."
+    },
+    "dataAccess": {
+        "type": "creativeWork",
+        "conditionsOfAccess": "Available to any researcher on request",
+        "isAccessibleForFree": "YesOffline",
+        "publishingPrinciples": null,
+        "actionableFeedbackPolicy": "To study the effects of a range of amounts of straw incorporated into the soil on winter wheat.",
+        "correctionsPolicy": "To study the effects of a range of amounts of straw incorporated into the soil on winter wheat.",
+        "unnamedSourcesPolicy": null
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "CC-by-4",
+        "license": "http://creativecommons.org/licenses/by/4.0"
+    },
+    "temporalCoverage": "1953/1970 from schema",
+    "dateStart": 1987,
+    "dateEPEnd": null,
+    "dateEnd": 2017,
+    "funder": "NOT in GLTEN",
+    "citation": [
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1016/j.apsoil.2016.12.006",
+            "sameAs": "https://doi.org/10.1016/j.apsoil.2016.12.006",
+            "citation": "Sizmur, T. , Martin, E. , Wagner, K. , Parmentier, E. , Watts, C. and Whitmore, A. P. (2017) \"Milled cereal straw accelerates earthworm (Lumbricus terrestris) growth more than selected organic amendments\", Applied Soil Ecology, 113, 166-177",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1017/S0021859600008558",
+            "sameAs": "https://doi.org/10.1017/S0021859600008558",
+            "citation": "Jenkyn, J. F. , Christian, D. G. , Bacon, E. T. G. , Gutteridge, R. J. and Todd, A. D. (2001) \"Effects of incorporating different amounts of straw on growth, diseases and yield of consecutive crops of winter wheat grown on contrasting soil types\", Journal of Agricultural Science, 136, 1-14",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        }
+    ]
+}

@@ -1,0 +1,137 @@
+{
+    "title": {
+        "text": {
+            "headline": "Rothamsted Maps",
+            "text": "175 years of Rothamsted"
+        },
+        "media": {
+            "url": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/Classical-Experiments-aerial-layout.jpg",
+            "caption": "Classical Experiments aerial layout",
+            "credit": "eRA curators",
+            "link": null,
+            "link_target": null
+        }
+    },
+    "events": [
+        {
+            "media": {
+                "url": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rothamsted/1623-map.jpg",
+                "caption": "1623 map",
+                "credit": "eRA curators",
+                "thumbnail": "",
+                "link": "http://www.google.com/",
+                "link_target": "_Top"
+            },
+            "start_date": {
+                "month": 0,
+                "day": 0,
+                "year": 1623
+            },
+            "end_date": {
+                "month": 0,
+                "day": 0,
+                "year": 1932
+            },
+            "text": {
+                "headline": "Rothamsted in 1623",
+                "text": "The plot of the Demeanes (domains) of the Mannor or Rothamsted."
+            }
+        },
+        {
+            "media": {
+                "url": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rothamsted/1954-Harpenden-and-farm-maps.jpg",
+                "caption": "1954 Harpenden and farm maps",
+                "credit": "eRA curators",
+                "thumbnail": "",
+                "link": null,
+                "link_target": null
+            },
+            "start_date": {
+                "month": 0,
+                "day": 0,
+                "year": 1954
+            },
+            "end_date": {
+                "month": 0,
+                "day": 0,
+                "year": 0
+            },
+            "text": {
+                "headline": "Rothamsted in 1954",
+                "text": "In 1954, Rothamsted campus has acquired some stuff."
+            }
+        },
+        {
+            "media": {
+                "url": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/soils-map.png",
+                "caption": "Soils map",
+                "credit": "eRA curators",
+                "thumbnail": "",
+                "link": null,
+                "link_target": null
+            },
+            "start_date": {
+                "month": 0,
+                "day": 0,
+                "year": 2006
+            },
+            "end_date": {
+                "month": 0,
+                "day": 0,
+                "year": 0
+            },
+            "text": {
+                "headline": "Broadbalk Soils Map",
+                "text": "Percentage of clay in Broadbalk"
+            }
+        },
+        {
+            "media": {
+                "url": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Harpenden-and-farm-maps-WoburnFarm.jpg",
+                "caption": "Harpenden and farm maps WoburnFarm",
+                "credit": "eRA curators",
+                "thumbnail": "",
+                "link": null,
+                "link_target": null
+            },
+            "start_date": {
+                "month": 0,
+                "day": 0,
+                "year": 1960
+            },
+            "end_date": {
+                "month": 0,
+                "day": 0,
+                "year": 2015
+            },
+            "text": {
+                "headline": "Woburn Farm Map",
+                "text": "Woburn Experimental Farm, Husborne, Crawley, Bedford"
+            }
+        },
+        {
+            "media": {
+                "url": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/2008-hoosfield-plan.gif",
+                "caption": "2008 hoosfield plan",
+                "credit": "eRA curators",
+                "thumbnail": "",
+                "link": null,
+                "link_target": null
+            },
+            "start_date": {
+                "month": 0,
+                "day": 0,
+                "year": 2008
+            },
+            "end_date": {
+                "month": 0,
+                "day": 0,
+                "year": 0
+            },
+            "text": {
+                "headline": "Hoos Spring Barley",
+                "text": "Design of Hoos Spring Barley in 2008"
+            }
+        }
+    ]
+}

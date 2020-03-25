@@ -1,0 +1,144 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": null,
+            "localIdentifier": null,
+            "name": null,
+            "url": null,
+            "description": "There were six crop and straw treatment combinations"
+        },
+        "design": {
+            "dateStart": 1997,
+            "dateEnd": 2015,
+            "description": "Soil samples were collected in 1997, 2008 and 2015",
+            "studyDesign": null,
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": 3,
+            "numberOfPlots": 18,
+            "numberOfReplicates": 3,
+            "numberOfSubplots": null
+        },
+        "crops": [
+            {
+                "name": "maize",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "name": "barley",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": [
+            {
+                "id": 1090,
+                "name": "crop residue management exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "crop residue management exposure",
+                "level": [
+                    {
+                        "id": 2986,
+                        "name": "Continuous maize, stubble incorporated",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 2987,
+                        "name": "Continuous maize, stubble plus 10t maize tops incorporated",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 2988,
+                        "name": "Maize after three years of spring barley, straw removed",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 2989,
+                        "name": "Spring barley after five years maize, stubble incorporated",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 2990,
+                        "name": "Continuous spring barley, straw removed plus 10 t maize tops incorporated",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 2991,
+                        "name": "Continuous spring barley, straw removed",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "grain yield trait",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "annual",
+                "scale": "plot",
+                "material": "AllCrops",
+                "description": null,
+                "crop": null
+            }
+        ]
+    }
+]

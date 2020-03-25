@@ -1,0 +1,72 @@
+{
+    "administrative": {
+        "type": "Experiment",
+        "identifier": "Acid Strip",
+        "localIdentifier": "R/RS/9",
+        "name": "Acid Strip",
+        "url": null,
+        "description": "This is an area on the north end of Hoosfield Barley long-term field experiment with a soil pH ranging from 3.7 to 7.8 (at 0-23cm depth) due to uneven applications of chalk in the 19th Century. Spring barley was grown continuously for over 100 years. It is now sown to winter wheat each year, given only 100 kg N ha-1.The wheat starts to die out about half way along the plot, when the pHis below 5.5. This area has been used to study the relationship between soil pH, and microbial ecology and nutrient dynamics.",
+        "disambiguatingDescription": "Effects of soil acidity on soil properties under winter wheat"
+    },
+    "dataAccess": {
+        "type": "creativeWork",
+        "conditionsOfAccess": null,
+        "isAccessibleForFree": "YesOffline",
+        "publishingPrinciples": null,
+        "actionableFeedbackPolicy": "Effects of soil acidity on soil properties under winter wheat",
+        "correctionsPolicy": "Effects of soil acidity on soil properties under winter wheat",
+        "unnamedSourcesPolicy": null
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "CC-by-4",
+        "license": "http://creativecommons.org/licenses/by/4.0"
+    },
+    "temporalCoverage": "1953/1970 from schema",
+    "dateStart": 1850,
+    "dateEPEnd": null,
+    "dateEnd": null,
+    "funder": "NOT in GLTEN",
+    "citation": [
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1016/j.soilbio.2008.03.020",
+            "sameAs": "https://doi.org/10.1016/j.soilbio.2008.03.020",
+            "citation": "Turner, B. L. and Blackwell, M. S. A. (2013) \"Isolating the influence of pH on the amounts and forms of soil organic phosphorus\", European Journal of Soil Science, 64, 249-259",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://www.nature.com/articles/ismej201058",
+            "sameAs": "https://www.nature.com/articles/ismej201058",
+            "citation": "Rousk, J. , Baath, E. , Brookes, P. C. , Lauber, C. L. , Lozupone, C. , Caporaso, J. G. , Knight, R. and Fierer, N. (2010) \"Soil bacterial and fungal communities across a pH gradient in an arable soil\", ISME Journal, 4, 1340-1351",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1016/j.soilbio.2009.11.026",
+            "sameAs": "https://doi.org/10.1016/j.soilbio.2009.11.026",
+            "citation": "Rousk, J. , Brookes, P. C. and Baath, E. (2010) \"The microbial PLFA composition as affected by pH in an arable soil\", Soil Biology & Biochemistry, 42, 516-520",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": null,
+            "sameAs": null,
+            "citation": "Rousk, J. , Brookes, P. C. and Baath, E. (2009) \"Contrasting Soil pH Effects on Fungal and Bacterial Growth Suggest Functional Redundancy in Carbon Mineralization\", Applied and Environmental Microbiology, 75, 1589-1596",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1016/j.soilbio.2008.03.020",
+            "sameAs": "https://doi.org/10.1016/j.soilbio.2008.03.020",
+            "citation": "Pietri, J. C. A. and Brookes, P. C. (2008) \"Relationships between soil pH and microbial properties in a UK arable soil\", Soil Biology & Biochemistry, 40, 1856-1861",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        }
+    ]
+}

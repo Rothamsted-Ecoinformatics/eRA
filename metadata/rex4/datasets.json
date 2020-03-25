@@ -1,0 +1,16 @@
+[
+    {
+        "md_id": -28178770,
+        "title": "Exhaustion Land yields (spring barley and winter wheat) and assorted crop & soil phosphate (P) data, 1974-2008",
+        "URL": "http://www.era.rothamsted.ac.uk/Exhaustion/exh_open_access_data",
+        "identifier": "10.23637/EX4-oadata-001-01",
+        "identifier_type": "DOI",
+        "dataset_type": "Crop  yield data",
+        "extension": "xlsx",
+        "description": "This dataset contains data from the long-term Exhaustion Land experiment at Rothamsted Research, specifically grain and straw yields (spring barley to 1991, thereafter winter wheat), % phosphorous (P) and P uptake (1976-2008), soil Olsen P (plant available P) and Total P (1974-2008) from the long-term Exhaustion Land experiment (established 1856) at Rothamsted Research. The experiment as a whole underwent five different phases of treatment (see below). This data is from that half of the experiment, established in 1986, called the 'P Test' which tested the effects of different levels of plant available P on crop yields and P uptake. It also contains data from the preceding 10/12 years.\r\n\r\nPrior to the 'P test', fertilizer N was applied. This had increased yields and allowed the crop to take greater advantage of the P and K residues remaining in the soil from an earlier phase (Phase I) of the experiment. These were initially large but declined as amounts of phosphate in the soil declined. In Phase IV, from 1986, because the P residues had been exhausted it was decided to see how quickly this decline in soil fertility could be reversed - annual cumulative dressings of P as triple phosphate were tested (four different rates on four sub-plots) and spring barley grown - this is known as the 'P test'. Basal N & K were applied so that was not limited. Yield responses to available-P were rapid and showed that above a critical level on this soil, of about 10-12 mg kg P there is no further increase in yield. No P was applied between 1993-1999. Maintenance dressings of P have been applied since 2000 (but not to the P0 sub-plots).",
+        "fieldname": "Hoosfield",
+        "experiment_name": "Exhaustion Land",
+        "experiment_code": "R/EX/4",
+        "shortName": "ExLand2016"
+    }
+]

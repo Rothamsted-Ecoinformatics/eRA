@@ -1,0 +1,328 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Original Scheme",
+            "localIdentifier": "Original Scheme",
+            "name": "Original Scheme",
+            "url": "Original Scheme",
+            "description": "Two half acre strips, A and B, lie side by side, one carrying wheat while the other is fallow. These treatments alternate each year. No fertilisers are applied."
+        },
+        "design": {
+            "dateStart": 1856,
+            "dateEnd": 1931,
+            "description": null,
+            "studyDesign": "Original Scheme",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": 2,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null
+        },
+        "crops": [
+            {
+                "name": "wheat",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "name": "fallow",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": "NA",
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "harvested surface area",
+                "unitCode": "ha",
+                "unitText": "hectare",
+                "collectionFrequency": "annually",
+                "scale": "plot",
+                "material": "SpecifiedCrop",
+                "description": null,
+                "crop": 216
+            },
+            {
+                "variable": "grain yield trait",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "annually",
+                "scale": "plot",
+                "material": "SpecifiedCrop",
+                "description": "At field moisture content",
+                "crop": 216
+            },
+            {
+                "variable": "harvest date",
+                "unitCode": "date",
+                "unitText": "Date",
+                "collectionFrequency": "annually",
+                "scale": "plot",
+                "material": null,
+                "description": "Start and end date",
+                "crop": null
+            },
+            {
+                "variable": "forage yield",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "annually",
+                "scale": "plot",
+                "material": "SpecifiedCrop",
+                "description": "straw yield",
+                "crop": 216
+            }
+        ]
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Revised Scheme",
+            "localIdentifier": "Revised Scheme",
+            "name": "Revised Scheme",
+            "url": "Revised Scheme",
+            "description": "Each original A and B strip was divided transversly into 4 equal sections. When a strip carries wheat, only 3 of the 4 sections are cropped, the fourth section being left fallow. Each of the eight sections has a triple fallow in turn with an eight year cycle having 5 fallow and 3 cropped years\n\nBetween the autumn of 1956 and 1960 each strip was divided in half longitudinally. The centre two halves continued the eight year cycle while the outer plots were assigned to the Entomology department for studies wheat bulb fly. No fertilizers were used.\n\nBetween 1963 and 1966 plots were split to compare varieties Squarehead's Master 13/4 (Kloka 1966), Capelle and Rothwell Perdix."
+        },
+        "design": {
+            "dateStart": 1932,
+            "dateEnd": 1982,
+            "description": "A modification was made to enable the effect of a 1 year fallow to be compared with that of a 3 year fallow.",
+            "studyDesign": "Revised Scheme",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": 8,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null
+        },
+        "crops": [
+            {
+                "name": "wheat",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "name": "fallow",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": [
+            {
+                "name": "WFFFWFWF",
+                "dateStart": null,
+                "dateEnd": null,
+                "phasing": null,
+                "isTreatment": false,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 218,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 219,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 219,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 219,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 218,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 219,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 218,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 219,
+                        "description": null
+                    }
+                ]
+            }
+        ],
+        "factor": "NA",
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "harvested surface area",
+                "unitCode": "ha",
+                "unitText": "hectare",
+                "collectionFrequency": "annually",
+                "scale": "plot",
+                "material": null,
+                "description": null,
+                "crop": null
+            },
+            {
+                "variable": "harvest date",
+                "unitCode": "date",
+                "unitText": "Date",
+                "collectionFrequency": "annually",
+                "scale": "plot",
+                "material": null,
+                "description": "start and end date",
+                "crop": null
+            },
+            {
+                "variable": "grain yield trait",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "annually",
+                "scale": "plot",
+                "material": "SpecifiedCrop",
+                "description": "Measured at field moisture content until 1957 and 85% dry matter from 1958",
+                "crop": 218
+            },
+            {
+                "variable": "forage yield",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "annually",
+                "scale": "plot",
+                "material": "SpecifiedCrop",
+                "description": "Measured at field moisture content until 1957 and 85% dry matter from 1958",
+                "crop": 218
+            },
+            {
+                "variable": null,
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": "The number of consecutive fallow years",
+                "crop": null
+            }
+        ]
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Reversion to Original Scheme",
+            "localIdentifier": "Reversion to Original Scheme",
+            "name": "Reversion to Original Scheme",
+            "url": "Reversion to Original Scheme",
+            "description": "The four sections for each strip were merged reverting the experiment to the original two strip design."
+        },
+        "design": {
+            "dateStart": 1983,
+            "dateEnd": 2015,
+            "description": null,
+            "studyDesign": "Reversion to Original Scheme",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": 2,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null
+        },
+        "crops": [
+            {
+                "name": "wheat",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "name": "fallow",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": "NA",
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "harvest date",
+                "unitCode": "date",
+                "unitText": "Date",
+                "collectionFrequency": "annually",
+                "scale": "plot",
+                "material": "SpecifiedCrop",
+                "description": null,
+                "crop": 220
+            },
+            {
+                "variable": "harvested surface area",
+                "unitCode": "ha",
+                "unitText": "hectare",
+                "collectionFrequency": "annually",
+                "scale": "plot",
+                "material": null,
+                "description": null,
+                "crop": null
+            },
+            {
+                "variable": "grain yield trait",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "annually",
+                "scale": "plot",
+                "material": "SpecifiedCrop",
+                "description": "Measured at 85% dry matter",
+                "crop": 220
+            },
+            {
+                "variable": "forage yield",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "annually",
+                "scale": "plot",
+                "material": "SpecifiedCrop",
+                "description": "Measured at 85% dry matter",
+                "crop": 220
+            }
+        ]
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Low P and K Maintenance",
+            "localIdentifier": "Low P and K Maintenance",
+            "name": "Low P and K Maintenance",
+            "url": "Low P and K Maintenance",
+            "description": "Since autumn 2015, the whole experiment (both plots) has been sown to winter wheat, the same variety as is grown on Broadbalk. A small amount of N fertilizer (50 kg N ha-1) is applied in spring (mid-April), but to maintain the low soil P and K status, no other fertilizers are applied. No yields or crop samples have been taken since harvest 2015."
+        },
+        "design": {
+            "dateStart": 2016,
+            "dateEnd": null,
+            "description": "Since autumn 2015, the whole experiment (both plots) has been sown to winter wheat, the same variety as is grown on Broadbalk. A small amount of N fertilizer (50 kg N ha-1) is applied in spring (mid-April), but to maintain the low soil P and K status, no other fertilizers are applied. No yields or crop samples have been taken since harvest 2015.",
+            "studyDesign": "Low P and K Maintenance",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": 1,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null
+        },
+        "crops": [
+            {
+                "name": "wheat",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": "NA",
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    }
+]

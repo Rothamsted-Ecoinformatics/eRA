@@ -1,0 +1,79 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Whole period",
+            "localIdentifier": "Whole period",
+            "name": "Whole period",
+            "url": "Whole period",
+            "description": "This acidic site, Geescroft Wilderness, is now a deciduous wood dominated by oak (Quercus robur), with an understory of holly (Ilex aquafolium). Because the soil is so acidic, there are few ground cover species, and there is a permanent litter layer (in contrast to the Broadbalk Wilderness, where each year's litter decomposes)."
+        },
+        "design": {
+            "dateStart": 1847,
+            "dateEnd": null,
+            "description": "This acidic site, Geescroft Wilderness, is now a deciduous wood dominated by oak (Quercus robur), with an understory of holly (Ilex aquafolium). Because the soil is so acidic, there are few ground cover species, and there is a permanent litter layer (in contrast to the Broadbalk Wilderness, where each year's litter decomposes).",
+            "studyDesign": "Whole period",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": null,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null
+        },
+        "crops": [
+            {
+                "name": "faba beans",
+                "dateStart": 1847,
+                "dateEnd": 1878
+            },
+            {
+                "name": null,
+                "dateStart": 1879,
+                "dateEnd": 1883
+            },
+            {
+                "name": "clover",
+                "dateStart": 1883,
+                "dateEnd": 1885
+            },
+            {
+                "name": null,
+                "dateStart": 1886,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": [
+            {
+                "id": 1759,
+                "name": "liming exposure",
+                "description": "Small amounts of chalk were applied in the 1840s-1880s, and the soil is now acidic (pH fell from 7.1 in 1883 to 4.4 in 1999).",
+                "effect": "",
+                "plotApplication": "liming exposure",
+                "level": []
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "soil organic carbon",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "infrequent",
+                "scale": null,
+                "material": "Soil",
+                "description": "Sample data for 1883, 1904, 1965, 1999 (comprising 8, 2, 4, 8 separate samples respectively). Other physical samples available in sample archive (1963, 1964, 1969, 1990, 1991, 1992)",
+                "crop": null
+            },
+            {
+                "variable": "plant biomass",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "infrequent",
+                "scale": null,
+                "material": null,
+                "description": "Sample data = organic carbon from  1883, 1904, 1965, 1999 for trees/shrubs, litter and roots.",
+                "crop": null
+            }
+        ]
+    }
+]

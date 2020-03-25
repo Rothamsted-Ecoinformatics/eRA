@@ -1,0 +1,16 @@
+[
+    {
+        "md_id": 52532482,
+        "title": "Rothamsted Ley Arable soil organic carbon 1948-2008",
+        "URL": "http://www.era.rothamsted.ac.uk/RRN/rothla_open_access_soc",
+        "identifier": "10.23637/KeyRefOARLAsoc",
+        "identifier_type": "DOI",
+        "dataset_type": "Crop nutrient data",
+        "extension": "xlsx",
+        "description": "Summary data showing the effect of two contrasting farming systems (Highfield  originally permanent grassland at least from 1838 & Fosters originally long-term arable for several centuries) on SOC at Rothamsted over a 60-year time-period 1948-2008.",
+        "fieldname": "Fosters Field",
+        "experiment_name": "Fosters Ley Arable",
+        "experiment_code": "R/RN/2",
+        "shortName": "SOC4808"
+    }
+]

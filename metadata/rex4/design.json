@@ -1,0 +1,752 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Phase I",
+            "localIdentifier": "Phase I",
+            "name": "Phase I",
+            "url": "Phase I",
+            "description": "Four plots were established on the Exhaustion Land site in 1856, this was known as 'Smith's Wheat' experiment. Winter wheat was grown each year. In 1876 the four plots were divided and two more plots were added, from a strip of unmanured and unfertilized wheat on the north side of the experiment. This was known as the 'Potato experiment', and potatoes were grown every year from 1876-1901. From 1856 to 1901, the plots received annual applications of N, P, K or FYM. There were 10 plots from 1876 to 1901, each 0.067 ha (1/6th of an acre)."
+        },
+        "design": {
+            "dateStart": 1856,
+            "dateEnd": 1901,
+            "description": null,
+            "studyDesign": "Phase I",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": null,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null
+        },
+        "crops": [
+            {
+                "name": "wheat",
+                "dateStart": 1856,
+                "dateEnd": 1875
+            },
+            {
+                "name": "potatoes",
+                "dateStart": 1876,
+                "dateEnd": 1901
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": [
+            {
+                "id": 1058,
+                "name": "phosphate fertilizer exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "phosphate fertilizer exposure",
+                "level": [
+                    {
+                        "id": 2841,
+                        "name": "superphosphate",
+                        "amount": "34",
+                        "unitCode": "kgP/ha",
+                        "unitText": "kg phosphorous per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1876,
+                        "dateEnd": 1896,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 2842,
+                        "name": "basic slag",
+                        "amount": "34",
+                        "unitCode": "kgP/ha",
+                        "unitText": "kg phosphorous per hectare",
+                        "appliedToCrop": 2185,
+                        "dateStart": 1897,
+                        "dateEnd": 1901,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 1059,
+                "name": "potassium fertilizer exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "potassium fertilizer exposure",
+                "level": [
+                    {
+                        "id": 2843,
+                        "name": null,
+                        "amount": "91",
+                        "unitCode": "kgK/ha",
+                        "unitText": "kg potassium per hectare",
+                        "appliedToCrop": 2184,
+                        "dateStart": 1859,
+                        "dateEnd": 1874,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "potassium sulphate",
+                        "notes": null
+                    },
+                    {
+                        "id": 2844,
+                        "name": null,
+                        "amount": "137",
+                        "unitCode": "kgK/ha",
+                        "unitText": "kg potassium per hectare",
+                        "appliedToCrop": 2185,
+                        "dateStart": 1876,
+                        "dateEnd": 1901,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "potassium sulphate",
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 1060,
+                "name": "farmyard manure exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "farmyard manure exposure",
+                "level": [
+                    {
+                        "id": 2845,
+                        "name": "farmyard manure",
+                        "amount": "35",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": 2185,
+                        "dateStart": 1876,
+                        "dateEnd": 1901,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 1061,
+                "name": "nitrogen fertilizer exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "nitrogen fertilizer exposure",
+                "level": [
+                    {
+                        "id": 2846,
+                        "name": null,
+                        "amount": "96",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1856,
+                        "dateEnd": 1901,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "As ammonium salts ammonium sulphate & ammonium chloride"
+                    },
+                    {
+                        "id": 2847,
+                        "name": null,
+                        "amount": "96",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1856,
+                        "dateEnd": 1901,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "sodium nitrate",
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 1062,
+                "name": "sodium nutrient exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "sodium nutrient exposure",
+                "level": [
+                    {
+                        "id": 2848,
+                        "name": null,
+                        "amount": "16",
+                        "unitCode": "kgNa/ha",
+                        "unitText": "kg sodium per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1856,
+                        "dateEnd": 1901,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 1063,
+                "name": "magnesium nutrient exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "magnesium nutrient exposure",
+                "level": [
+                    {
+                        "id": 2849,
+                        "name": null,
+                        "amount": "11",
+                        "unitCode": "kgMg/ha",
+                        "unitText": "kg magnesium per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1856,
+                        "dateEnd": 1901,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": [
+            {
+                "name": "PKNaMg",
+                "dateStart": 1856,
+                "dateEnd": 1901,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "phosphate fertilizer exposure",
+                        "levelCode": "superphosphate",
+                        "levelText": "superphosphate",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "potassium fertilizer exposure",
+                        "levelCode": "",
+                        "levelText": "",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "magnesium nutrient exposure",
+                        "levelCode": "",
+                        "levelText": "",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "sodium nutrient exposure",
+                        "levelCode": "",
+                        "levelText": "",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "P",
+                "dateStart": 1876,
+                "dateEnd": 1901,
+                "description": "To half of previous wheat plot receiving PKNaMg plot",
+                "factor": [
+                    {
+                        "Factor": "phosphate fertilizer exposure",
+                        "levelCode": "superphosphate",
+                        "levelText": "superphosphate",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "NPKNaMg",
+                "dateStart": 1856,
+                "dateEnd": 1901,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "",
+                        "levelText": "",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "phosphate fertilizer exposure",
+                        "levelCode": "",
+                        "levelText": "",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "potassium fertilizer exposure",
+                        "levelCode": "",
+                        "levelText": "",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "sodium nutrient exposure",
+                        "levelCode": "",
+                        "levelText": "",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "magnesium nutrient exposure",
+                        "levelCode": "",
+                        "levelText": "",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N",
+                "dateStart": 1856,
+                "dateEnd": 1901,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "",
+                        "levelText": "",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "",
+                        "levelText": "",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "FYM (P)",
+                "dateStart": 1876,
+                "dateEnd": 1882,
+                "description": "Applied to previous wheat nil plot",
+                "factor": [
+                    {
+                        "Factor": "farmyard manure exposure",
+                        "levelCode": "",
+                        "levelText": "",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "phosphate fertilizer exposure",
+                        "levelCode": "",
+                        "levelText": "",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "FYM (N*P)",
+                "dateStart": 1876,
+                "dateEnd": 1882,
+                "description": "Applied to previous wheat nil plot",
+                "factor": [
+                    {
+                        "Factor": "farmyard manure exposure",
+                        "levelCode": "",
+                        "levelText": "",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "",
+                        "levelText": "",
+                        "Comment": "Last application in 1881"
+                    },
+                    {
+                        "Factor": "phosphate fertilizer exposure",
+                        "levelCode": "",
+                        "levelText": "",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "FYM",
+                "dateStart": 1883,
+                "dateEnd": 1901,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "farmyard manure exposure",
+                        "levelCode": "",
+                        "levelText": "",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "Nil",
+                "dateStart": 1856,
+                "dateEnd": 1901,
+                "description": "Control plots receiving no fertilizer inputs",
+                "factor": "NA"
+            }
+        ],
+        "measurements": "NA"
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Phase II",
+            "localIdentifier": "Phase II",
+            "name": "Phase II",
+            "url": "Phase II",
+            "description": "Between 1902 and 1939 no fertilizers or manures were applied and, with a few exceptions, cereals (usually spring barley) were grown. The site was fallow in 1920. Yields were recorded in some of the earlier years, and residual effects of the previous treatments were very small in the absence of fresh nitrogen fertilizer. Yields were not recorded from 1923-1939, except in 1935."
+        },
+        "design": {
+            "dateStart": 1902,
+            "dateEnd": 1939,
+            "description": "Between 1902 and 1939 no fertilizers or manures were applied and, with a few exceptions, cereals (usually spring barley) were grown. The site was fallow in 1920. Yields were recorded in some of the earlier years, and residual effects of the previous treatments were very small in the absence of fresh nitrogen fertilizer. Yields were not recorded from 1923-1939, except in 1935.",
+            "studyDesign": "Phase II",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": 10,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null
+        },
+        "crops": "NA",
+        "cropRotations": "NA",
+        "factor": "NA",
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Phase III",
+            "localIdentifier": "Phase III",
+            "name": "Phase III",
+            "url": "Phase III",
+            "description": "Between 1940 and 1985, spring barley was grown and N fertilizer applied to all plots every year. Initially a single rate was applied, 63-88 kg N/ha.  In 1976 the 10 main plots were each divided to test four rates of N (0, 48, 96 and 144 kg N/ha), which were rotated each year. No other fertilizer or manure was applied 1902-1985. No crop was grown in 1967 or 1975. Grain and straw yields were recorded from 1949 onwards. Nitrogen not only increased yields, but allowed the crop to take advantage of P and K residues remaining in the soil from Phase I of the experiment. The effects of these were initially large but declined as amounts of phosphate in the soil declined."
+        },
+        "design": {
+            "dateStart": 1940,
+            "dateEnd": 1985,
+            "description": "Between 1940 and 1985, spring barley was grown and N fertilizer applied to all plots every year. Initially a single rate was applied, 63-88 kg N/ha.  In 1976 the 10 main plots were each divided to test four rates of N (0, 48, 96 and 144 kg N/ha), which were rotated each year. No other fertilizer or manure was applied 1902-1985. No crop was grown in 1967 or 1975. Grain and straw yields were recorded from 1949 onwards. Nitrogen not only increased yields, but allowed the crop to take advantage of P and K residues remaining in the soil from Phase I of the experiment. The effects of these were initially large but declined as amounts of phosphate in the soil declined.",
+            "studyDesign": "Phase III",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": 10,
+            "numberOfReplicates": null,
+            "numberOfSubplots": 40
+        },
+        "crops": [
+            {
+                "name": "barley",
+                "dateStart": 1940,
+                "dateEnd": 1985
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": [
+            {
+                "id": 1064,
+                "name": "nitrogen fertilizer exposure",
+                "description": "Single rate applied to all plots until 1976 when 4 different N rates were applied but rotate in the sequence N0>N3>N2>N1, eg N0 1976, N3 1977, N2 1978, N1 1979, N0 1980. the cumulative N rate for each plot is therefore equal.",
+                "effect": "",
+                "plotApplication": "nitrogen fertilizer exposure",
+                "level": [
+                    {
+                        "id": 2850,
+                        "name": null,
+                        "amount": "75",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1940,
+                        "dateEnd": 1948,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "ammonium sulfate",
+                        "notes": null
+                    },
+                    {
+                        "id": 2851,
+                        "name": null,
+                        "amount": "63",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1949,
+                        "dateEnd": 1963,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "ammonium sulfate",
+                        "notes": null
+                    },
+                    {
+                        "id": 2852,
+                        "name": null,
+                        "amount": "88",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1964,
+                        "dateEnd": 1974,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "calcium ammonium nitrate",
+                        "notes": null
+                    },
+                    {
+                        "id": 2853,
+                        "name": "N0",
+                        "amount": "0",
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": 1976,
+                        "dateEnd": 1985,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 2854,
+                        "name": "N1",
+                        "amount": "48",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1976,
+                        "dateEnd": 1985,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "calcium ammonium nitrate",
+                        "notes": null
+                    },
+                    {
+                        "id": 2855,
+                        "name": "N2",
+                        "amount": "96",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1976,
+                        "dateEnd": 1985,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "calcium ammonium nitrate",
+                        "notes": null
+                    },
+                    {
+                        "id": 2856,
+                        "name": "N3",
+                        "amount": "144",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1976,
+                        "dateEnd": 1985,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "calcium ammonium nitrate",
+                        "notes": null
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Phase IV",
+            "localIdentifier": "Phase IV",
+            "name": "Phase IV",
+            "url": "Phase IV",
+            "description": "In 1986, after a long period when the P residues in particular were being \u201cexhausted\u201d, it was decided to see how quickly this decline in soil fertility could be reversed. Annual, cumulative dressings of 0 v 44 v 87 v 131 kg P ha-1, as triple superphosphate, were tested on five of the original plots (each divided into four sub-plots). Spring barley was grown. This was known as the \"P Test\". Basal N and K were applied such that these nutrients did not limit yield. Responses to fresh P were rapid. Applications of P stopped after seven years. No P was applied between 1993 and 1999, but since 2000, maintenance dressings, equivalent to offtakes by the crop, have been applied (not to the no-fresh-P sub-plots). \n\nWheat has been grown since 1992. Typically, it showed the same response to available-P as spring barley i.e. above a critical level, on this soil, of about 12 mg kg-1 there is no further increase in yield."
+        },
+        "design": {
+            "dateStart": 1986,
+            "dateEnd": 2006,
+            "description": "In 1986, after a long period when the P residues in particular were being \u201cexhausted\u201d, it was decided to see how quickly this decline in soil fertility could be reversed. Annual, cumulative dressings of 0 v 44 v 87 v 131 kg P ha-1, as triple superphosphate, were tested on five of the original plots (each divided into four sub-plots). Spring barley was grown. This was known as the \"P Test\". Basal N and K were applied such that these nutrients did not limit yield. Responses to fresh P were rapid. Applications of P stopped after seven years. No P was applied between 1993 and 1999, but since 2000, maintenance dressings, equivalent to offtakes by the crop, have been applied (not to the no-fresh-P sub-plots). \n\nWheat has been grown since 1992. Typically, it showed the same response to available-P as spring barley i.e. above a critical level, on this soil, of about 12 mg kg-1 there is no further increase in yield.",
+            "studyDesign": "Phase IV",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": null,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null
+        },
+        "crops": [
+            {
+                "name": "barley",
+                "dateStart": 1986,
+                "dateEnd": 1991
+            },
+            {
+                "name": "wheat",
+                "dateStart": 1992,
+                "dateEnd": 2006
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": [
+            {
+                "id": 1065,
+                "name": "phosphate fertilizer exposure",
+                "description": "Applied to \"P\" test sub-plots. These plots received basal manuring rates of 144 kg N/ha and 83 kg K/ha",
+                "effect": "",
+                "plotApplication": "phosphate fertilizer exposure",
+                "level": [
+                    {
+                        "id": 2857,
+                        "name": "P0",
+                        "amount": "0",
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 2858,
+                        "name": "P1",
+                        "amount": "44",
+                        "unitCode": "kgP/ha",
+                        "unitText": "kg phosphorous per hectare",
+                        "appliedToCrop": 2187,
+                        "dateStart": 1986,
+                        "dateEnd": 1991,
+                        "frequency": "annually in autumn",
+                        "method": null,
+                        "chemicalForm": "calcium bis(dihydrogenphosphate)",
+                        "notes": null
+                    },
+                    {
+                        "id": 2859,
+                        "name": "P2",
+                        "amount": "87",
+                        "unitCode": "kgP/ha",
+                        "unitText": "kg phosphorous per hectare",
+                        "appliedToCrop": 2187,
+                        "dateStart": 1986,
+                        "dateEnd": 1991,
+                        "frequency": "annually in autumn",
+                        "method": null,
+                        "chemicalForm": "calcium bis(dihydrogenphosphate)",
+                        "notes": null
+                    },
+                    {
+                        "id": 2860,
+                        "name": "P3",
+                        "amount": "131",
+                        "unitCode": "kgP/ha",
+                        "unitText": "kg phosphorous per hectare",
+                        "appliedToCrop": 2187,
+                        "dateStart": 1986,
+                        "dateEnd": 1991,
+                        "frequency": "annually in autumn",
+                        "method": null,
+                        "chemicalForm": "calcium bis(dihydrogenphosphate)",
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 1066,
+                "name": "nitrogen fertilizer exposure",
+                "description": "Applied to \"N\" Tests sub plots. N rates rotate each year N0>N3>N2>N1, eg N0 1986, N3 1987, N2 1988, N1 1989, N0 1990",
+                "effect": "",
+                "plotApplication": "nitrogen fertilizer exposure",
+                "level": [
+                    {
+                        "id": 2861,
+                        "name": "N0",
+                        "amount": "0",
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": 2188,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 2862,
+                        "name": "N1",
+                        "amount": "48",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": 2187,
+                        "dateStart": 1986,
+                        "dateEnd": 1991,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "calcium ammonium nitrate",
+                        "notes": null
+                    },
+                    {
+                        "id": 2863,
+                        "name": "N2",
+                        "amount": "96",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1986,
+                        "dateEnd": 1991,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "calcium ammonium nitrate",
+                        "notes": null
+                    },
+                    {
+                        "id": 2864,
+                        "name": "N3",
+                        "amount": "144",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": 2187,
+                        "dateStart": 1986,
+                        "dateEnd": 1991,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "calcium ammonium nitrate",
+                        "notes": null
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Phase V",
+            "localIdentifier": "Phase V",
+            "name": "Phase V",
+            "url": "Phase V",
+            "description": "On the other half of the experiment, the effects of K residues (in the presence of basal P and N) on yield are investigated (the \"K Test\" plots). Since 2007, annual cumulative applications of 0, 62.2 and 124.5 kg K ha-1 as muriate of potash have been applied (K0, K1 and K2). Basal N and P has been applied so that yields are not limited. From autumn 2015 P was withheld from plots 013, 033, 053, 073 and 093 (\"P Test\" plots) in addition to those which no longer receive P (plots 014, 034, 054, 074 and 094) because the plant available P was increasing on these plots. See Exhaustion Land today for more details."
+        },
+        "design": {
+            "dateStart": 2007,
+            "dateEnd": null,
+            "description": "On the other half of the experiment, the effects of K residues (in the presence of basal P and N) on yield are investigated (the \"K Test\" plots). Since 2007, annual cumulative applications of 0, 62.2 and 124.5 kg K ha-1 as muriate of potash have been applied (K0, K1 and K2). Basal N and P has been applied so that yields are not limited. From autumn 2015 P was withheld from plots 013, 033, 053, 073 and 093 (\"P Test\" plots) in addition to those which no longer receive P (plots 014, 034, 054, 074 and 094) because the plant available P was increasing on these plots. See Exhaustion Land today for more details.",
+            "studyDesign": "Phase V",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": null,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null
+        },
+        "crops": "NA",
+        "cropRotations": "NA",
+        "factor": "NA",
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    }
+]

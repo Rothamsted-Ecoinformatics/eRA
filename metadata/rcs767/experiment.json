@@ -1,0 +1,48 @@
+{
+    "administrative": {
+        "type": "Experiment",
+        "identifier": "Highfield Conversion Experiment",
+        "localIdentifier": "R/CS/767",
+        "name": "Highfield Conversion Experiment",
+        "url": null,
+        "description": "In 2008 two plots (continuous grass and arable) within each block of the Highfield Ley-Arable experiment were split to establish grass, arable and bare-fallow treatments within each. Adjacent long-term bare-fallow areas were also included in the experiment. Soil samples are taken regularly and yields are taken annually. Many archived samples are available.\n\nIt is the only site at Rothamsted available for studying the effects of converting long-term grass to arable and bare-fallow treatments on Soil Organic Carbon (SOC), fertility, soil resilience and recovery. The experiment has support from several groups within Rothamsted, providing a resource for multidisciplinary research, from analytical chemistry, soil physical structure, GHG emissions and nitrification potential, microbial and mesofauna community responses to management change. It is probably unique in that it examines soil resilience and restoration through plants.",
+        "disambiguatingDescription": "To study the effects of changes in agricultural land use and management on crop production and soil physical, chemical and biological parameters, including soil organic matter and structure, soil fauna and microbial diversity; originally long-term grass (>100 years)"
+    },
+    "dataAccess": {
+        "type": "creativeWork",
+        "conditionsOfAccess": "Available to any researcher on request",
+        "isAccessibleForFree": "YesOffline",
+        "publishingPrinciples": null,
+        "actionableFeedbackPolicy": "To study the effects of changes in agricultural land use and management on crop production and soil physical, chemical and biological parameters, including soil organic matter and structure, soil fauna and microbial diversity; originally long-term grass (>100 years)",
+        "correctionsPolicy": "To study the effects of changes in agricultural land use and management on crop production and soil physical, chemical and biological parameters, including soil organic matter and structure, soil fauna and microbial diversity; originally long-term grass (>100 years)",
+        "unnamedSourcesPolicy": null
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "CC-by-4",
+        "license": "http://creativecommons.org/licenses/by/4.0"
+    },
+    "temporalCoverage": "1953/1970 from schema",
+    "dateStart": 2008,
+    "dateEPEnd": null,
+    "dateEnd": null,
+    "funder": "NOT in GLTEN",
+    "citation": [
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1007/s11104-016-3068-x",
+            "sameAs": "https://doi.org/10.1007/s11104-016-3068-x",
+            "citation": "Hirsch, P.R., Jhurreea, D., Williams, J.K. et al. Plant Soil (2017) 412: 283.",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1016/j.soilbio.2009.07.011",
+            "sameAs": "https://doi.org/10.1016/j.soilbio.2009.07.011",
+            "citation": "Hirsch, P.R. et al. Soil Biology and Biochemistry (2009) 41: 2021-2024",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        }
+    ]
+}
