@@ -9,11 +9,14 @@
  * @todo  contact person for images should be managed by the database.
  * 
  */
-//$base = "http://local-info.rothamsted.ac.uk/eRA/era2018-new/";
-//$Web_base = "http://local-info.rothamsted.ac.uk/eRA/era2018-new/";
 
 $base = "http://localhost/era2018/";
 $Web_base = "http://localhost/era2018/";
+
+$base = "http://local-info.rothamsted.ac.uk/eRA/era2018-new/";
+$Web_base = "http://local-info.rothamsted.ac.uk/eRA/era2018-new/";
+
+
 /**
  * < base URL for the site
  */
