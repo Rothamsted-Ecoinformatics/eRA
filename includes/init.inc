@@ -6,7 +6,8 @@
  * 
  * 
  */
-
+$image = '';
+$hasDatacite = 0;
 foreach ( $_GET as $sk => $sv ) {
     // stop injection
     // convert with htmlentities($userInput);
@@ -57,7 +58,7 @@ foreach ( $_POST as $sk => $sv ) {
 }
 
 
-
+include_once 'includes/config.inc'; //project local constants
 include_once 'includes/settings.inc'; //project constants
 include_once 'includes/functions.inc' ; //project php function 
 include_once 'includes/exptData.inc'; //experiment data process functions

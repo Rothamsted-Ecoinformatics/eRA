@@ -476,8 +476,8 @@ function processCell($item)
 function mapKey($key)
 {
     GLOBAL $variableMapping;
-    
-    if ($variableMapping[$key]) {
+   
+    if (isset($variableMapping[$key])) {
         $key = $variableMapping[$key];}
         
         return $key;

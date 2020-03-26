@@ -179,10 +179,12 @@ function nexplode($string)
     $string = str_ireplace("  ", " ", $string);
     $j = 0; // this is the initializer for the array or words
     $pattern = '/\W/';
-    for ($i = 0; $i < strlen($string); $i ++) {
+    $words = array(' ');
+    for ($i = 0; $i < strlen($string); $i++) {
         
         if ((preg_match($pattern, $string[$i], $match) && ($len != 1)) || $string[$i] == " ") {
             $j ++; // increments j if we hit a non word. so starts a new word
+            $words[$j] = '';
         } else {}
         $words[$j] .= $string[$i];
         $tok = $words[$j];
@@ -837,14 +839,14 @@ function title_case($string)
         "ska"
     );
     if (! $string) {
-        $string = "Default title";
+        $string = "Default Title";
     }
     
-    $words = nexplode($string); // we explode the string according to spaces
+    $words = nexplode($string); // we explode the string according to spaces and other characters
     
     $i = 0;
     foreach ($words as $word) { // this word is potentioally a hyphen
-                                  // if hyphenated word, I need to chop it, upercase both words and implode it.
+                                  // if hyphenated word, I need to chop it, uppercase both words and implode it.
         $word = strtolower($word);
         if (! in_array(trim($word), $capExeptions)) // this deals with the small words that don't get capitalized
 {
