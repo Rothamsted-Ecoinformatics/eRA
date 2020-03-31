@@ -8,6 +8,7 @@
  * @email nathalie.castells@rothamsted.ac.uk
  *
  */
+global $person;
 function getPersonInfo($personDetails)
 {
     
@@ -24,7 +25,7 @@ function getPersonInfo($personDetails)
     // "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
     // }
     // },
-    $line = "<ul class=\"list-group m-5\">";
+    $line = "";
     if ($personDetails['name']) {
         $line .= "\n<li class=\"list-group-item \"><b>Name: </b>" . $personDetails['name'];
     } elseif ($personDetails['givenName'] and $personDetails['familyName']) {
@@ -37,11 +38,8 @@ function getPersonInfo($personDetails)
         $line .= "\n<li class=\"list-group-item \"><b>Organisation: </b>" . $personDetails['affiliation']['name'];
         $line .= "\n<li class=\"list-group-item \"><b>Address: </b>" . $personDetails['affiliation']['address'];
     }
-    $line .= "</ul>";
-    return $line?>
     
-
-<?php
+    return $line;
 }
 ?>
 
@@ -74,7 +72,7 @@ echo $list;
 		maxZoom: 18,
 		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
 			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+			'Imagery ï¿½ <a href="https://www.mapbox.com/">Mapbox</a>',
 		id: 'mapbox.streets'
 	}).addTo(mymap);
 	L.marker([<?php echo $coords;?>]).addTo(mymap)
@@ -112,13 +110,14 @@ echo $list;
             echo $list;
             
             if (count($person['contributors']) > 0) {
-                ?>
-          <h3>Contributors</h3>
-            <?php
+              
+                $line = "<h3>Contributors</h3> <ul class=\"list-group m-3\">";
+                echo $line;
                 foreach ($person['contributors'] as $personDetails) {
                     $list = getPersonInfo($personDetails);
                     echo $list;
                 }
+                echo "</ul>";
             }
             ?>
                

@@ -18,16 +18,16 @@ function getVocab($localword)
     GLOBAL $words;
     GLOBAL $scheme;
     $hasKey = FALSE;
-    $i = 0;
+    
     $vocab = "";
-    while (! $hasKey or $i == count($words)) {
+    for ($i = 0; $i < count($words); $i++) {
         if ($words[$i]['subject'] == $localword) {
             $hasKey = TRUE;
             $localScheme = $words[$i]['scheme'];
             $URI = $scheme[$localScheme];
             $vocab .= "<a href=\"" . $URI . $words[$i]['URI'] . "\" target = \"out\">" . $localword . "</a>";
         } 
-        $i += 1;
+ 
     }
     return $vocab;
 }
@@ -186,6 +186,7 @@ if ($hasDataset) {
 						<li class="list-group-item"><b>Keywords: </b> 
 						<?php
     $localwords = $dsinfo['keywords'];
+    
     echo printVocab($localwords);
     
     ?></li>
@@ -208,31 +209,31 @@ if ($arrDescription['Methods']) {
 			<p><?php echo $arrDescription['Methods']; ?></p>
 			    <?php
 }
-if ($arrDescription['TableOfContents']) {
+if (isset($arrDescription['TableOfContents'])) {
     ?>
 			    <h2>Table Of Contents</h2>
 			<p><?php echo $arrDescription['TableOfContents']; ?></p>
 			    <?php
 }
-if ($arrDescription['TechnicalInfo']) {
+if (isset($arrDescription['TechnicalInfo'])) {
     ?>
 			    <h2>Technical Information</h2>
 			<p><?php echo $arrDescription['TechnicalInfo']; ?></p>
 			    <?php
 }
-if ($arrDescription['Provenance']) {
+if (isset($arrDescription['Provenance'])) {
     ?>
 			    <h2>Provenance</h2>
 			<p><?php echo $arrDescription['Provenance']; ?></p>
 			    <?php
 }
-if ($arrDescription['Quality']) {
+if (isset($arrDescription['Quality'])) {
     ?>
 			    <h2>Quality</h2>
 			<p><?php echo $arrDescription['Quality']; ?></p>
 			    <?php
 }
-if ($arrDescription['Other']) {
+if (isset($arrDescription['Other'])) {
     ?>
 			    <h2>Miscelleaneous Description</h2>
 			<p><?php echo $arrDescription['Other']; ?></p>

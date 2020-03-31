@@ -165,7 +165,7 @@ echo title_case($experiment['administrative']['identifier']) . "  " . title_case
 							</div>
 						<div class="tab-pane" id="keyrefs" role="tabpanel"
 							aria-labelledby="keyrefs-tab">
-							<?php include '_keyrefs.php'; ?>
+							<?php //include '_keyrefs.php'; ?>
 							</div>
 
 

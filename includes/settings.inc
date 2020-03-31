@@ -963,6 +963,7 @@ $variableMapping = array (
     'minValue' => 'Minimum value',
     'name' => 'Title',
     'numberHarvest' => 'Number of Harvests per Year',
+    'numberOdBlocks' => 'Number Of Blocks',
     'numberOfPlots' => 'Number of Blocks',
     'numberOfReplicates' => 'Number of Replicates',
     'numberOfSubplots' => 'Number of Sub-plots',

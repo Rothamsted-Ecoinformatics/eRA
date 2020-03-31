@@ -30,10 +30,11 @@ foreach ($datasets as $dataset) {
     $id = str_replace($prefix, '', $dataset['identifier']);
     $info .= "<h3 class=\"mx-3\">".$dataset['title']."</h3>";
     $info .=  "<ul  class=\"list-group mx-5\">";
-    $info .= "<li class=\"list-group-item \"><a href=\"".$dataset['URL']."\">".$dataset['identifier']."</a></li>";
+    $info .= "<li class=\"list-group-item \">Dataset Page on old e-RA site: <a href=\"".$dataset['URL']."\">".$dataset['identifier']."</a></li>";
+    $info .= "<li class=\"list-group-item \">Dataset Page on new e-RA site: <a href=\"dataset.php?expt=".$expt."&amp;dataset=".$dataset['shortName']."\">".$dataset['identifier']." - ".$dataset['shortName']."</a></li>";
+   
     $info .= "<li class=\"list-group-item \">".$dataset['description']."</li>";
-    $info .= "<li class=\"list-group-item \"><a href=\"dataset.php?expt=".$expt."&amp;dataset=".$dataset['shortName']."\">".$dataset['shortName']."</a>".$fileDataset."</li>";
-    $info .= "</ul>";
+       $info .= "</ul>";
 }
 
 
@@ -45,4 +46,3 @@ echo $info;
 
 ?>
 
-<p><b><a href="http://local-info.rothamsted.ac.uk/eRA/era2018-new/dataset.php?dataset=rothmet">Link to template Dataset</a></b></p>

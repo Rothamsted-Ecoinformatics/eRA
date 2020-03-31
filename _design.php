@@ -8,6 +8,9 @@
  * @author Nathalie Castells-Brooke
  * @date 9/27/2018
  */
+
+Global $design;
+global $data;
 function listItem($value, $label)
 {
     global $variableMapping;
@@ -32,6 +35,8 @@ function listItem($value, $label)
 function getContent($period)
 {
     Global $variableMapping;
+    Global $design;
+    global $data;
     $content = ""; // reset the content
     if ($period['administrative']['description']) {
         $content .= "\n <div class=\"m-5\">";
@@ -56,14 +61,14 @@ function getContent($period)
             if ($period['design']['dateEnd']) {
                 $data.= " -  " . $period['design']['dateEnd'] . "</li>";
             } else
-                $data.= " -  Now </li>" . $design['dateEnd'];
+                $data.= " -  Now </li>" ;
         }
         if ($period['design']['factorCombinationNumber'] != 'NA') {
             $hasData = True;
             $data.= "\n<li class=\"list-group-item \"><b>Number of Combinations:</b> " . $period['design']['factorCombinationNumber'] . "</li>";
         }
         
-        if ($period['design']['numberOdBlocks']) {
+        if ($period['design']['numberOdBlocks']>0) {
             $hasData = True;
             $data.= "\n<li class=\"list-group-item \"><b>" . $variableMapping['numberOdBlocks'] . ":</b> " . $period['design']['numberOdBlocks'] . "</li>";
         }
@@ -110,7 +115,7 @@ function getContent($period)
         $content .= "\n</ul>";
     }
     
-    if (is_array($period['measurements']) and count(is_array($period['measurements'] > 0))) {
+    if (is_array($period['measurements']) and count($period['measurements']) > 0) {
         $content .= "\n<h2 class=\"mx-3\">Measurements</h2>";
         $content .= "\n<div class=\"table-responsive-sm \"><table class = \"table  table-responsive-sm table-sm  table-hover\"><thead><tr>";
         $content .= "\n<th scope=\"col\">Variable</th>";
