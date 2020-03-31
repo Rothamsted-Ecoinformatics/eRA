@@ -20,10 +20,16 @@ include_once 'includes/init.inc'; // these are the settings that refer to more t
 
 $pageinfo = getPageInfo($expt);
 $KeyRef = $pageinfo['KeyRef'];
-$page_title .= ': '.$pageinfo['ExperimentName'];
+$page_title .= ': '.$pageinfo['Experiment'];
 
-$filedatacite= 'metadata/'.$expt.'/info.json';
+$filedatacite= 'metadata/'.$expt.'/experiment.json';
 $datacite = file_get_contents($filedatacite);
+$hasDatacite = file_exists($filedatacite);
+if ($hasDatacite) {
+    $datacite = file_get_contents($filedatacite);
+    $datacite = utf8_encode($datacite);
+    $experiment = json_decode($datacite, true);
+}
 
 if ($datacite) {
     $script = "<script type=\"application/ld+json\">" . $datacite . "</script>";
@@ -46,7 +52,7 @@ include 'includes/header.html'; // all the menus at the top
 
 			<h1><?php
 // /experimentname is found in the datadescription file.
-echo $experimentName;
+			echo $pageinfo['Experiment'];
 ?></h1>
 			<div class="row">
 				<div class="col-12 py-3">
@@ -54,9 +60,8 @@ echo $experimentName;
 						<li class="nav-item active"><a class="nav-link active"
 							id="eRAdet-tab" data-toggle="tab" href="#eRAdet">eRAdet</a></li>
 						<li class="nav-item"><a class="nav-link" id="info-tab"
-							data-toggle="tab" href="#info">About eRAdet</a></li>
-						<li class="nav-item"><a class="nav-link" id="help-tab"
-							data-toggle="tab" href="#help">Help</a></li>
+							data-toggle="tab" href="#info">Register</a></li>
+						
 
 					</ul>
 
@@ -70,9 +75,8 @@ echo $experimentName;
 
 						<div class="tab-pane" id="info" role="tabpanel"
 							aria-labelledby="info-tab">
-							<p>This will have general information about eRAdet</p>
-							<?php //include '_info.php';?>
-							</div>
+						
+								</div>
 
 						<div class="tab-pane" id="help" role="tabpanel"
 							aria-labelledby="help-tab">
