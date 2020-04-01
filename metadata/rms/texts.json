@@ -1,0 +1,16 @@
+[
+    {
+        "md_id": 1534342858,
+        "title": "Broadbalk plan 1852-1925 - test",
+        "URL": "http://www.era.rothamsted.ac.uk/metadata/broad/Broadbalkplan1852-1925.pdf",
+        "identifier": "10.23637/rbk1-sup-1534342858-01",
+        "identifier_type": "DOI",
+        "dataset_type": "Field plot map",
+        "extension": "pdf",
+        "description": "Plan of the Broadbalk long-term experiment 1852-1925 showing annual treatments.",
+        "fieldname": "Broadbalk",
+        "experiment_name": "Broadbalk",
+        "experiment_code": "R/BK/1",
+        "shortName": ""
+    }
+]

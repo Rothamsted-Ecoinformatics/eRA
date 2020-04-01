@@ -1,0 +1,34 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Weather station",
+            "localIdentifier": "Weather station",
+            "name": "Weather station",
+            "url": "Weather station",
+            "description": "Originally all the weather data were recorded by hand. Every morning at 9am a scientist would go out to the weather station, seven days a week, 365(6) days a year. Then in 2004 the Rothamsted weather station was fully automated, and the weather data is now measured by a range of sensors attached to an automatic data logger, linked directly to a computer"},
+        "design": {
+            "dateStart": 1852,
+            "dateEnd": null,
+            "description": null,
+            "studyDesign": "Weather station",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": null,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null
+        },
+        "crops": [
+            
+        ],
+        "cropRotations": "NA",
+        "factor": [
+            
+        ],
+        "factorCombinations": [
+           
+        ],
+        "measurements": "NA"
+   
+    }
+]
