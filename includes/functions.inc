@@ -836,6 +836,7 @@ function title_case($string)
         "/r/bk",
         "/r/hf",
         "/r/pg",
+        "/r/doi",
         "ska"
     );
     if (! $string) {

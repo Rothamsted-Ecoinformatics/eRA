@@ -491,8 +491,10 @@ function listAttributes2($data)
         
         if (! is_array($value)) {
             $key = mapKey($key);
-            $key = title_case($key);
+            //$key = title_case($key);
+            if ($value) {
             $list .= "<li  class=\"list-group-item \"><b>" . $key . ":</b> " . $value . " </li>";
+            }
         } else {
             $list .= "</ul><h2 class=\"mx-3\">" . $key . "</h2>";
             

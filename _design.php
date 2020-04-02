@@ -50,7 +50,7 @@ function getContent($period)
     }
     if (is_array($period['design'])) {
         $hasData = False;
-        $data .= "\n<h2 class=\"mx-3\">Design</h2>";
+        $data = "\n<h2 class=\"mx-3\">Design</h2>";
         
         $data.= "\n<ul class=\"list-group m-5\">";
         

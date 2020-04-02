@@ -27,9 +27,9 @@ function getPersonInfo($personDetails)
     // },
     $line = "";
     if ($personDetails['name']) {
-        $line .= "\n<h3>" . $personDetails['name']."</h3>";
+        $line .= "\n<h4 class=\"mt-3\">" . $personDetails['name']."</h4>";
     } elseif ($personDetails['givenName'] and $personDetails['familyName']) {
-        $line .= "\n<h3>" . $personDetails['givenName'] . "  " . $personDetails['familyName']."</h3>";
+        $line .= "\n<h4 class=\"mt-3\">" . $personDetails['givenName'] . "  " . $personDetails['familyName']."</h4>";
     }
     if ($personDetails['sameAs']) {
         $line .= "\n<li class=\"list-group-item \"><b>ORCID: </b><a href=" . $personDetails['sameAs'] . "\">" . $personDetails['sameAs'] . "</a>"."</li>";
@@ -85,9 +85,9 @@ echo $list;
 
 
 	</div>
-	<h3 class="my-3">Timeline</h3>
+	<h3 class="my-3 mt-5">Timeline</h3>
 	<ul class="list-group mx-3">
-		<li class="list-group-item "><b>temporalCoverage:</b> <?php echo $experiment['temporalCoverage']; ?></li>
+		<li class="list-group-item "><b>Temporal Coverage:</b> <?php echo $experiment['temporalCoverage']; ?></li>
 		<li class="list-group-item "><b>Date Start:</b><?php echo $experiment['dateStart']; ?>
             	</li>
             	<?php if ($experiment['dateEPEnd']) {?>
@@ -96,22 +96,22 @@ echo $list;
             	<li class="list-group-item "><b>Date End:</b>  <?php if (!$experiment['dateEnd']) {echo"Ongoing";} else { echo $experiment['dateEnd'];}; ?></li>
 
 	</ul>
-          <?php  if ( $hasTimeline ){ include '_timeline.php';} else {; } ?> 
+          <?php // if ( $hasTimeline ){ include '_timeline.php';} else {; } ?> 
 							  
             
-          <h3 class="my-3">Data Access</h3>
-            <?php
+    <h3 class="my-3 mt-5">Data Access</h3>
+       <?php
             $list = listAttributes2($experiment['dataAccess']);
             echo $list;
             ?>
-          <h3>License</h3>
+    <h3 class="my-3 mt-5">License</h3>
             <?php
             $list = listAttributes2($experiment['license']);
             echo $list;
             
-            if (count($person['contributors']) > 0) {
+    if (count($person['contributors']) > 0) {
               
-                $line = "<h3>Contributors</h3> <ul class=\"list-group m-3\">";
+                $line = "<h3 class=\"my-3 mt-5\">Contributors</h3> <ul class=\"list-group m-3\">";
                 echo $line;
                 foreach ($person['contributors'] as $personDetails) {
                     $list = getPersonInfo($personDetails);

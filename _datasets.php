@@ -28,7 +28,7 @@ foreach ($datasets as $dataset) {
     $fileDataset = $exptFolder . '/' . $dataset['shortName'].'/' . $dataset['shortName'].'.json';
     
     $id = str_replace($prefix, '', $dataset['identifier']);
-    $info .= "<h3 class=\"mx-3\">".$dataset['title']."</h3>";
+    $info .= "<h3 class=\"mx-3 mt-5\">".$dataset['title']."</h3>";
     $info .=  "<ul  class=\"list-group mx-5\">";
     $info .= "<li class=\"list-group-item \">Dataset Page on old e-RA site: <a href=\"".$dataset['URL']."\">".$dataset['identifier']."</a></li>";
     $info .= "<li class=\"list-group-item \">Dataset Page on new e-RA site: <a href=\"dataset.php?expt=".$expt."&amp;dataset=".$dataset['shortName']."\">".$dataset['identifier']." - ".$dataset['shortName']."</a></li>";
