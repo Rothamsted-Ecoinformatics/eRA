@@ -4,13 +4,13 @@
  * 
  * @brief A topic page. 
  * 
- * This will include a php page. it needs to know which folder the page is and what the filename is. 
+ * This will include a php page for an experiment. it needs to know which folder the page is and what the filename is. 
  *
  * @author Nathalie Castells-Brooke.
  * 
  * @version 1.00
  * 
- * Template page for the site. Start here, fill in what you need, add modules (prefixed _)
+ * 
  * 
  * 
  * @version 0.1
@@ -21,14 +21,11 @@
 // /This will be used to pass the FileName code.
 if (isset($_POST['FileName'])) {
     $FileName = $_POST['FileName'];
-}
-if (isset($_GET['FileName'])) {
-    $FileName = $_GET['FileName'];
+} else {
+    $Filename = 'index.php';
 }
 
-if (! $FileName) {
-    $FileName = 'index';
-}
+
 // /This will be used to pass the experiment code, or type of page.
 if (isset($_POST['expt'])) {
     $expt = $_POST['expt'];
@@ -37,8 +34,8 @@ if (isset($_GET['expt'])) {
     $expt = $_GET['expt'];
 }
 
-if (! $expt) {
-    $expt = 'rothamsted';
+if (!isset($expt)) {
+    $expt = '';
 }
 
 include_once 'includes/init.inc'; // these are the settings that refer to more than one page
@@ -60,7 +57,7 @@ $metadata = "images/metadata/" . $expt . '/'; // where the images are if needed
 /**
  * We need the caption of the file.
  *
- * @var Ambiguous $page_title
+ * @var String $page_title
  */
 $exptFolder = 'metadata/' . $expt;
 $url = 'metadata/default/phpfiles.json';
@@ -80,7 +77,7 @@ if (is_file($url)) {
     */
     $h1Title = $page[0]['Caption'];
     $page_title .= ': ' . $page[0]['Caption'];
-    $KeyRef = $page[0]['KeyRef'];
+    //$KeyRef = $page[0]['KeyRef'];
 } else {
     $h1Title = $pageinfo['ExperimentName'];
     $page_title .= $page_title .= ': ' . $pageinfo['ExperimentName'];
@@ -89,7 +86,8 @@ if (is_file($url)) {
 
 $pageinfo = getPageInfo($expt);
 $KeyRef = $pageinfo['KeyRef'];
-$filedatacite = 'metadata/' . $expt . '/arrdatacite.json';
+$filedatacite = 'metadata/' . $expt . '/experiment.json';
+$File = 'metadata/' . $expt . '/'.$FileName;
 $datacite = file_get_contents($filedatacite);
 
 if ($datacite) {

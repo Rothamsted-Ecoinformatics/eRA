@@ -3,7 +3,6 @@ include_once 'includes/init.inc'; // these are the settings that refer to more t
 
 $page_title .= "";
 
-
 ?>
 <?php include 'includes/head.html';     // that is the <head tags>?>
 <body>
@@ -13,12 +12,18 @@ $page_title .= "";
 <?php include 'includes/header.html';   // all the menus at the top 
 
 //--  start dependant content ---------------------------------------------------------
-
+if (!isset($incPage)) {
 include '_carousel.php';
 include '_about.php';
 include '_tools.php'; 
 include '_people.php';
-
+} 
+else 
+{   
+    $incPage = '_'.$incPage.'.php';    
+    include $incPage;
+    
+}
 	
 //-- start footers  -----------------------------
 

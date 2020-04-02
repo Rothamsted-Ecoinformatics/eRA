@@ -59,7 +59,7 @@ foreach ( $_POST as $sk => $sv ) {
 
 
 include_once 'includes/config.inc'; //project local constants
-include_once 'includes/settings.inc'; //project constants
+include_once 'includes/settings.inc'; //project default constants
 include_once 'includes/functions.inc' ; //project php function 
 include_once 'includes/exptData.inc'; //experiment data process functions
 include_once 'includes/biblio.inc'; //functions for the bibliography
