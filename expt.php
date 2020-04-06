@@ -110,10 +110,11 @@ echo title_case($experiment['administrative']['identifier']) . "  " . title_case
 					<ul class="nav nav-tabs nav-fill text-body ">
 						<li class="nav-item"><a class="nav-link active" id="summary-tab"
 							data-toggle="tab" href="#summary">Overview</a></li>
-						<li class="nav-item"><a class="nav-link" id="design-tab"
-							data-toggle="tab" href="#design">Design</a></li>
 						<li class="nav-item"><a class="nav-link" id="site-tab"
 							data-toggle="tab" href="#site">Site</a></li>
+						<li class="nav-item"><a class="nav-link" id="design-tab"
+							data-toggle="tab" href="#design">Design</a></li>
+						
 						<?php if ($hasDatasets) {?>
 						<li class="nav-item"><a class="nav-link" id="datasets-tab"
 							data-toggle="tab" href="#datasets">Datasets</a></li>
