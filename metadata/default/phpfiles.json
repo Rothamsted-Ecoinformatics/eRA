@@ -14,6 +14,13 @@
 		"Type": "php",
 		"exptID": "met",
 		"isReviewed": 1
+	},{
+		"Credit": "eRA curators",
+		"FileName": "measurements.php",
+		"Caption": "Data available and how it is measured",
+		"Type": "php",
+		"exptID": "rms",
+		"isReviewed": 1
 	},
 	{
 		"Credit": "eRA curators",
@@ -116,7 +123,7 @@
 		"FileName": "schoolsmetdesc.php",
 		"Caption": "Description of Rothamsted weather data (met data)",
 		"Type": "php",
-		"exptID": "met",
+		"exptID": "rms",
 		"isReviewed": 1
 	},
 	{
