@@ -27,5 +27,13 @@ $(document).ready(function() {
     $('#mapid').on('shown.bs.collapse', function (e) {
         map.invalidateSize(true);
     })
+    
+
+    let selectedTab = window.location.hash;
+
+    $('.nav-link[href="' + selectedTab + '"]' ).trigger('click');
+    $('.nav-item[href="' + selectedTab + '"]' ).trigger('click');
+    $('.nav.active').trigger('click');
+    //$('.nav-link[href="' + selectedTab + '"]' ).parent().addClass('active');
 });
 

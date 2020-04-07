@@ -108,7 +108,7 @@ echo title_case($experiment['administrative']['identifier']) . "  " . title_case
 			<div class="row">
 				<div class="col-12 py-3">
 					<ul class="nav nav-tabs nav-fill text-body ">
-						<li class="nav-item"><a class="nav-link active" id="summary-tab"
+						<li class="nav-item"><a class="nav-link active show" id="summary-tab"
 							data-toggle="tab" href="#summary">Overview</a></li>
 						<li class="nav-item"><a class="nav-link" id="site-tab"
 							data-toggle="tab" href="#site">Site</a></li>
@@ -131,7 +131,7 @@ echo title_case($experiment['administrative']['identifier']) . "  " . title_case
 
 					<div class="tab-content mh-100" id="idExptTabs">
 
-						<div class="tab-pane active" id="summary" role="tabpanel"
+						<div class="tab-pane active show" id="summary" role="tabpanel"
 							aria-labelledby="summary-tab">
 							<?php
     include '_summary.php';
@@ -157,7 +157,7 @@ echo title_case($experiment['administrative']['identifier']) . "  " . title_case
 							<?php }?>
 						<div class="tab-pane" id="images" role="tabpanel"
 							aria-labelledby="images-tab">
-							<?php include '_images.php';?>
+							<?php //include '_images.php';?>
 							</div>
 						<div class="tab-pane" id="documents" role="tabpanel"
 							aria-labelledby="documents-tab">

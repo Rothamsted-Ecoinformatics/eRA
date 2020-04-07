@@ -172,7 +172,7 @@ if ($hasDataset) {
 						<li class="list-group-item"><b>DOI: </b><?php echo $dsinfo['identifier'];?>
 						</li>
 						<li class="list-group-item"><b>Experiment: </b> <a
-							href="expt.php?expt=<?php echo $expt;?>"><?php echo $pageinfo['Experiment']; ?></a></li>
+							href="expt.php?expt=<?php echo $expt;?>#datasets"><?php echo $pageinfo['Experiment']; ?></a></li>
 						<li class="list-group-item"><b>Files: </b> <?php echo $distribution; ?>
 						
 						
