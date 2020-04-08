@@ -1,7 +1,7 @@
 {
     "administrative": {
-        "type": "Experiment",
-        "identifier": "RMS",
+        "type": "Station",
+        "identifier": "Rothamsted Meteorological",
         "localIdentifier": "RMS",
         "name": "Rothamsted Met Station",
         "url": null,
