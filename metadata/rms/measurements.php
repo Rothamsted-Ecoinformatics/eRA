@@ -10,7 +10,7 @@
 		Curators.</a>
 </p>
 <div class="table-responsive-sm">
-	<table class="table  table-responsive-sm table-sm  table-hove table-bordered">
+	<table class="table  table-responsive-sm table-sm  table-hover table-bordered">
 		<thead>
 
 			<th scope="col">Variable</th>
