@@ -32,8 +32,9 @@ $(document).ready(function() {
     let selectedTab = window.location.hash;
 
     $('.nav-link[href="' + selectedTab + '"]' ).trigger('click');
-    $('.nav-item[href="' + selectedTab + '"]' ).trigger('click');
-    $('.nav.active').trigger('click');
+   // $('.nav-item[href="' + selectedTab + '"]' ).trigger('click');
+    //$('.nav.active').trigger('click');
+    //location.reload();
     //$('.nav-link[href="' + selectedTab + '"]' ).parent().addClass('active');
 });
 

@@ -1,6 +1,7 @@
 <?php
 ?>
-<h1>Rothamsted Weather data available in 'Rothmet'</h1>
+<div class="row mx-3">
+<h2>Rothamsted Weather data available in ROTHMET</h2>
 
 <p>
 	Daily meteorological data recorded at Rothamsted, Harpenden,
@@ -9,7 +10,7 @@
 		Curators.</a>
 </p>
 <div class="table-responsive-sm">
-	<table class="table  table-responsive-sm table-sm  table-hove">
+	<table class="table  table-responsive-sm table-sm  table-hove table-bordered">
 		<thead>
 
 			<th scope="col">Variable</th>
@@ -30,8 +31,8 @@
 						period 0900 to 0900GMT; this is used for the previous day's
 						maximum (TMAX) and the current day's minimum temperature (TMIN).
 						All other temperatures are recorded at 0900GMT. Until 1970 all
-						temperatures were measured in ºF; since 1972 they have been
-						recorded in ºC. All temperatures in e-RA are displayed as ºC.</p>
+						temperatures were measured in &deg;F; since 1972 they have been
+						recorded in &deg;C. All temperatures in e-RA are displayed as &deg;C.</p>
 					<p>Air temperatures: Maximum (TMAX) and minimum (TMIN) air
 						temperatures were first recorded in 1878. TMAX was recorded using
 						a mercury column thermometer and TMIN using a spirit-in-glass with
@@ -68,6 +69,7 @@
 
 				<td>Dew point 1915-current date (derived from DRYB &amp; WETB until
 					2013, derived from DRYB &amp; RELH since 2014)</td>
+					<td><p>On 15th January 2014 <B>WETB </B>was discontinued and replaced by a Relative Humidity Sensor (Campbell Scientific, MP100A) to measure relative humidity <B>(RELH) </B>and from which vapour pressure <B>(VAP)</B> and dew point <B>(DEWP)</B> are now calculated after the method of <a href="https://doi.org/10.1175/1520-0450(1981)020<1527:NEFCVP>2.0.CO;2">Buck (1981)</a>. </p>
 			</tr>
 			<tr>
 				<td>GRSMIN</td>
@@ -251,7 +253,7 @@
 						replaced by an identical new one in 1992. For details of the early
 						history of the 1/1000th acre rain gauge, see Lawes,<a
 							href="https://babel.hathitrust.org/cgi/pt?id=osu.32435010735041&view=1up&seq=7
-				">Gilbert & Warrington, 1881 (J Royal Agric Soc <b> 17</b>: 241-279)
+				">Gilbert & Warington, 1881 (J Royal Agric Soc <b> 17</b>: 241-279)
 						</a>
 					</p>
 					<p>From 2004 onwards the calibrated cylinders were replaced by an
@@ -595,4 +597,6 @@
 			</tr>
 		</tbody>
 	</table>
+</div>
+
 </div>

@@ -101,9 +101,9 @@ include 'includes/header.html'; // all the menus at the top
 // -- start dependant content ---------------------------------------------------------
 ?>
 <div id="idExpt">
-			<h1><?php
+			<h1 class="mx-3"><?php
 // /experimentname is found in the datadescription file.
-echo title_case($experiment['administrative']['identifier']) . "  " . title_case($experiment['administrative']['type']);
+echo title_case($experiment['administrative']['name']);
 ?></h1>
 			<div class="row">
 				<div class="col-12 py-3">
@@ -144,8 +144,8 @@ echo title_case($experiment['administrative']['identifier']) . "  " . title_case
 							aria-labelledby="measurements-tab">
 							<?php 
 							$measurements = $exptFolder . '/measurements.php';
-							echo $measurements;
-							include ( $measurements);
+							
+							include ($measurements);
 							?>
 							</div>
 
