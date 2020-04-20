@@ -20,7 +20,7 @@ foreach ($design as $period) {
     $content .= "<div class=\"mx-5\">";
     $content.= "<ul class=\"list-group m-3\">";
     if ($period['administrative']['description']) {
-        $content.= "\n<li class=\"list-group-item \"><b>Description:</b> " .$period['administrative']['description']. "</li>";
+        $content.= "\n<li class=\"list-group-item \"   style=\"white-space: pre-wrap;\"><b>Description:</b> " .$period['administrative']['description']. "</li>";
     }
     $content .= "</ul>";
     $content .= "</div>";

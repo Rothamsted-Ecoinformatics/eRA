@@ -33,7 +33,7 @@ foreach ($datasets as $dataset) {
     $info .= "<li class=\"list-group-item \">Dataset Page on old e-RA site: <a href=\"".$dataset['URL']."\">".$dataset['identifier']."</a></li>";
     $info .= "<li class=\"list-group-item \">Dataset Page on new e-RA site: <a href=\"dataset.php?expt=".$expt."&amp;dataset=".$dataset['shortName']."\">".$dataset['identifier']." - ".$dataset['shortName']."</a></li>";
    
-    $info .= "<li class=\"list-group-item \">".$dataset['description']."</li>";
+    $info .= "<li class=\"list-group-item \"    style=\"white-space: pre-wrap;\" >".$dataset['description']."</li>";
        $info .= "</ul>";
 }
 

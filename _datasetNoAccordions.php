@@ -203,40 +203,40 @@ if ($hasDataset) {
 			<p><?php echo $arrDescription['Abstract']; ?></p>
 			<?php
 
-if ($arrDescription['Methods']) {
+			if (isset($arrDescription['Methods'])) {
     ?>
 			    <h2>Methods</h2>
-			<p><?php echo $arrDescription['Methods']; ?></p>
+			<p  style="white-space: pre-wrap;" ><?php echo $arrDescription['Methods']; ?></p>
 			    <?php
 }
 if (isset($arrDescription['TableOfContents'])) {
     ?>
 			    <h2>Table Of Contents</h2>
-			<p><?php echo $arrDescription['TableOfContents']; ?></p>
+			<p style="white-space: pre-wrap;" ><?php echo $arrDescription['TableOfContents']; ?></p>
 			    <?php
 }
 if (isset($arrDescription['TechnicalInfo'])) {
     ?>
 			    <h2>Technical Information</h2>
-			<p><?php echo $arrDescription['TechnicalInfo']; ?></p>
+			<p style="white-space: pre-wrap;" ><?php echo $arrDescription['TechnicalInfo']; ?></p>
 			    <?php
 }
 if (isset($arrDescription['Provenance'])) {
     ?>
 			    <h2>Provenance</h2>
-			<p><?php echo $arrDescription['Provenance']; ?></p>
+			<p style="white-space: pre-wrap;" ><?php echo $arrDescription['Provenance']; ?></p>
 			    <?php
 }
 if (isset($arrDescription['Quality'])) {
     ?>
 			    <h2>Quality</h2>
-			<p><?php echo $arrDescription['Quality']; ?></p>
+			<p style="white-space: pre-wrap;" ><?php echo $arrDescription['Quality']; ?></p>
 			    <?php
 }
 if (isset($arrDescription['Other'])) {
     ?>
 			    <h2>Miscelleaneous Description</h2>
-			<p><?php echo $arrDescription['Other']; ?></p>
+			<p style="white-space: pre-wrap;" ><?php echo $arrDescription['Other']; ?></p>
 			    <?php
 }
 

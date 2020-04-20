@@ -28,10 +28,10 @@
         $line .= "\n<li class=\"list-group-item \"><b>DOI:</b> <a href=\"http://doi.org/" . $site['administrative']['doi'] . "\">" . $site['administrative']['doi'] . "</li>";
     }
     if ($site['administrative']['description']) {
-        $line .= "\n<li class=\"list-group-item \"><b>Description:</b> " . $site['administrative']['description'] . "</li>";
+        $line .= "\n<li class=\"list-group-item \" style=\"white-space: pre-wrap;\" ><b>Description:</b> " . $site['administrative']['description'] . "</li>";
     }
     if ($site['administrative']['management']) {
-        $line .= "\n<li class=\"list-group-item \"><b>Management:</b> " . $site['administrative']['management'] . "</li>";
+        $line .= "\n<li class=\"list-group-item \" style=\"white-space: pre-wrap;\" ><b>Management:</b> " . $site['administrative']['management'] . "</li>";
     }
     
     if ($site['administrative']['visitsAllowed']) {
@@ -39,7 +39,7 @@
         $line .= "\n<li class=\"list-group-item \"><b>Visit Permitted?:</b> Yes </li>";
         
         if ($site['administrative']['visitingArrangements']) {
-            $line .= "\n<li class=\"list-group-item \"><b>Visiting Arrangments:</b> " . $site['administrative']['visitingArrangements'] . "</li>";
+            $line .= "\n<li class=\"list-group-item \" style=\"white-space: pre-wrap;\" ><b>Visiting Arrangments:</b> " . $site['administrative']['visitingArrangements'] . "</li>";
         }
     }
     if ($site['location']['elevation']) {
@@ -67,7 +67,7 @@
 
 $line = "<ul class=\"list-group m-5\">";
 if ($site['soil']['soilTypeLabel']) {
-    $line .= "\n<li class=\"list-group-item \"><b>Type:</b> " . title_case($site['soil']['soilTypeLabel']);
+    $line .= "\n<li class=\"list-group-item \"  style=\"white-space: pre-wrap;\" ><b>Type:</b> " . title_case($site['soil']['soilTypeLabel']);
     
     if ($site['soil']['soilDescription']) {
         $line .= "\n<br />" . $site['soil']['soilDescription'] . "</li>";

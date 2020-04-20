@@ -43,7 +43,7 @@ function getContent($period)
         
         $content .= "\n\t        <ul class=\"list-group mx-3\">";
         if ($period['administrative']['description']) {
-            $content .= "\n<li class=\"list-group-item \">" . $period['administrative']['description'] . "</li>";
+            $content .= "\n<li class=\"list-group-item \" style=\"white-space: pre-wrap;\">" . $period['administrative']['description'] . "</li>";
         }
         $content .= " \n      </ul>";
         

@@ -493,7 +493,7 @@ function listAttributes2($data)
             $key = mapKey($key);
             //$key = title_case($key);
             if ($value) {
-            $list .= "<li  class=\"list-group-item \"><b>" . $key . ":</b> " . $value . " </li>";
+            $list .= "<li  class=\"list-group-item \" style=\"white-space: pre-wrap;\"><b>" . $key . ":</b> " . $value . " </li>";
             }
         } else {
             $list .= "</ul><h2 class=\"mx-3\">" . $key . "</h2>";
