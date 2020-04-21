@@ -26,7 +26,7 @@ function getPersonInfo($personDetails)
     // "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
     // }
     // },
-    $line = "<ul>";
+    $line = "";
     if ($personDetails['name']) {
         $line .= "\n<li class=\"list-group-item \"><h4 class=\"mt-3\">" . $personDetails['name'] . "</h4></li>";
     } elseif ($personDetails['givenName'] and $personDetails['familyName']) {
@@ -39,7 +39,7 @@ function getPersonInfo($personDetails)
         $line .= "\n<li class=\"list-group-item pl-5\"><b>Organisation: </b>" . $personDetails['affiliation']['name'] . "</li>";
         $line .= "\n<li class=\"list-group-item pl-5\"><b>Address: </b>" . $personDetails['affiliation']['address'] . "</li>";
     }
-    $line .= "</ul>";
+    $line .= "";
     return $line;
 }
 ?>
@@ -132,7 +132,7 @@ function getPersonInfo($personDetails)
 
             if (count($person['contributors']) > 0) {
 
-                $line = "<h3 class=\"my-3 mt-5\">Contributors</h3> <ul class=\"list-group m-3\">";
+                $line = "<h3 class=\"my-3 mt-5\">Contributors</h3> <ul class=\"list-group  mx-3\">";
                 echo $line;
                 foreach ($person['contributors'] as $personDetails) {
                     $list = getPersonInfo($personDetails);
