@@ -32,9 +32,14 @@ function getPersonInfo($personDetails)
     } elseif ($personDetails['givenName'] and $personDetails['familyName']) {
         $line .= "\n<li class=\"list-group-item \"><h4 class=\"mt-3\">" . $personDetails['givenName'] . "  " . $personDetails['familyName'] . "</h4></li>";
     }
+    if ($personDetails['jobTitle']) {
+        $line .= "\n<li class=\"list-group-item pl-5\"><b>Role: </b>". title_case($personDetails['jobTitle']) . "</li>";
+    }
     if ($personDetails['sameAs']) {
         $line .= "\n<li class=\"list-group-item pl-5\"><b>ORCID: </b><a href=\"" . $personDetails['sameAs'] . "\">" . $personDetails['sameAs'] . "</a>" . "</li>";
     }
+
+    
     if ($personDetails['affiliation']['type'] == "Organization") {
         $line .= "\n<li class=\"list-group-item pl-5\"><b>Organisation: </b>" . $personDetails['affiliation']['name'] . "</li>";
         $line .= "\n<li class=\"list-group-item pl-5\"><b>Address: </b>" . $personDetails['affiliation']['address'] . "</li>";
