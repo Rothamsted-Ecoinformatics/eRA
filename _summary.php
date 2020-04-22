@@ -52,7 +52,7 @@ function getPersonInfo($personDetails)
 
 <h2 class="mx-3">Overview</h2>
 <div class="mx-5">
-	<h3 class="my-3">General Information</h3>
+	
 	<div class="container">
 		<div class="row">
 			<div class="col">
@@ -77,7 +77,16 @@ function getPersonInfo($personDetails)
                        echo $line;
 					    ?>
 					
-					
+				
+
+		<li class="list-group-item "><b>Date Start: </b><?php echo $experiment['dateStart']; ?>
+            	</li>
+            	<?php if ($experiment['dateEPEnd']) {?>
+            	<li class="list-group-item "><b>Establisment Period End: </b><?php echo $experiment['dateEPEnd']; ?></li>
+            	<?php } ?>
+            	<li class="list-group-item "><b>Date End: </b>  <?php if (!$experiment['dateEnd']) {echo"Ongoing";} else { echo $experiment['dateEnd'];}; ?></li>
+
+		
 				</ul>
 			</div>
 			<div class="col">
@@ -111,18 +120,16 @@ function getPersonInfo($personDetails)
 
 
 	</div>
-	<h3 class="my-3 mt-5">Timeline</h3>
-	<ul class="list-group mx-3">
-
-		<li class="list-group-item "><b>Date Start: </b><?php echo $experiment['dateStart']; ?>
-            	</li>
-            	<?php if ($experiment['dateEPEnd']) {?>
-            	<li class="list-group-item "><b>Establisment Period End: </b><?php echo $experiment['dateEPEnd']; ?></li>
-            	<?php } ?>
-            	<li class="list-group-item "><b>Date End: </b>  <?php if (!$experiment['dateEnd']) {echo"Ongoing";} else { echo $experiment['dateEnd'];}; ?></li>
-
-	</ul>
-          <?php // if ( $hasTimeline ){ include '_timeline.php';} else {; } ?> 
+	
+	
+          <?php 
+//              if ( $hasTimeline ){ 
+//             echo("     <h3 class=\"my-3 mt-5\">Timeline</h3>");
+//             include '_timeline.php';
+//              } else {; } 
+            
+            
+            ?> 
 							  
             
     <h3 class="my-3 mt-5">Data Access</h3>
