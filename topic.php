@@ -35,7 +35,7 @@ if (isset($_GET['expt'])) {
 }
 
 if (!isset($expt)) {
-    $expt = '';
+    $expt = 'default';
 }
 
 include_once 'includes/init.inc'; // these are the settings that refer to more than one page

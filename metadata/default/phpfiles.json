@@ -9,12 +9,29 @@
 	},
 	{
 		"Credit": "eRA curators",
+		"FileName": "index.php",
+		"Caption": "default blank",
+		"Type": "php",
+		"exptID": "default",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "dataQuality.php",
+		"Caption": "Data Quality in e-RA",
+		"Type": "php",
+		"exptID": "default",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
 		"FileName": "Intro.php",
 		"Caption": "about the meteorological records",
 		"Type": "php",
 		"exptID": "met",
 		"isReviewed": 1
-	},{
+	},
+	{
 		"Credit": "eRA curators",
 		"FileName": "measurements.php",
 		"Caption": "Data available and how it is measured",
