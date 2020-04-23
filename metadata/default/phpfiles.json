@@ -23,6 +23,15 @@
 		"exptID": "default",
 		"isReviewed": 0
 	},
+	
+	{
+		"Credit": "eRA curators",
+		"FileName": "CF.php",
+		"Caption": "Conversion Factors",
+		"Type": "php",
+		"exptID": "default",
+		"isReviewed": 0
+	},
 	{
 		"Credit": "eRA curators",
 		"FileName": "Intro.php",
