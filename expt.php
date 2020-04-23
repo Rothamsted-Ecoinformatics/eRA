@@ -119,6 +119,10 @@ echo title_case($experiment['administrative']['name']) ;
 						<li class="nav-item"><a class="nav-link" id="datasets-tab"
 							data-toggle="tab" href="#datasets">Datasets</a></li>
 						<?php } ?>
+												<?php if ($hasDatasets) {?>
+						<li class="nav-item"><a class="nav-link" id="datasets2-tab"
+							data-toggle="tab" href="#datasets2">Datasets Cards</a></li>
+						<?php } ?>
 						<li class="nav-item"><a class="nav-link" id="images-tab"
 							data-toggle="tab" href="#images">Images</a></li>
 						<li class="nav-item"><a class="nav-link" id="documents-tab"
@@ -150,6 +154,12 @@ echo title_case($experiment['administrative']['name']) ;
 							<?php include '_site.php';?>
 							</div>
 								<?php if ($hasDatasets) {?>
+						<div class="tab-pane" id="datasets2" role="tabpanel"
+							aria-labelledby="datasets2-tab">
+							<?php include '_datasetsCards.php';?>
+							</div>
+							<?php }?>
+							<?php if ($hasDatasets) {?>
 						<div class="tab-pane" id="datasets" role="tabpanel"
 							aria-labelledby="datasets-tab">
 							<?php include '_datasets.php';?>
