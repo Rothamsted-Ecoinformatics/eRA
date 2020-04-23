@@ -100,13 +100,13 @@ include 'includes/header.html'; // all the menus at the top
                                 
 // -- start dependant content ---------------------------------------------------------
 ?>
-<div id="idExpt">
+<div id="idExpt" class="p-0 mb-0">
 			<h1 class="mx-3"><?php
 // /experimentname is found in the datadescription file.
 echo title_case($experiment['administrative']['name']) ;
 ?></h1>
 			<div class="row">
-				<div class="col-12 py-3">
+				<div class="col-12 pt-3">
 					<ul class="nav nav-tabs nav-fill text-body ">
 						<li class="nav-item"><a class="nav-link active show" id="summary-tab"
 							data-toggle="tab" href="#summary">Overview</a></li>
@@ -135,7 +135,7 @@ echo title_case($experiment['administrative']['name']) ;
 
 					<div class="tab-content mh-100" id="idExptTabs">
 
-						<div class="tab-pane active show" id="summary" role="tabpanel"
+						<div class="tab-pane active show pb-3" id="summary" role="tabpanel"
 							aria-labelledby="summary-tab">
 							<?php
     include '_summary.php';
@@ -144,23 +144,23 @@ echo title_case($experiment['administrative']['name']) ;
 
 							</div>
 
-						<div class="tab-pane" id="design" role="tabpanel"
+						<div class="tab-pane  pb-3" id="design" role="tabpanel"
 							aria-labelledby="design-tab">
 							<?php include '_design.php';?>
 							</div>
 
-						<div class="tab-pane" id="site" role="tabpanel"
+						<div class="tab-pane  pb-3" id="site" role="tabpanel"
 							aria-labelledby="site-tab">
 							<?php include '_site.php';?>
 							</div>
 								<?php if ($hasDatasets) {?>
-						<div class="tab-pane" id="datasets2" role="tabpanel"
+						<div class="tab-pane  pb-3" id="datasets2" role="tabpanel"
 							aria-labelledby="datasets2-tab">
 							<?php include '_datasetsCards.php';?>
 							</div>
 							<?php }?>
 							<?php if ($hasDatasets) {?>
-						<div class="tab-pane" id="datasets" role="tabpanel"
+						<div class="tab-pane  pb-3" id="datasets" role="tabpanel"
 							aria-labelledby="datasets-tab">
 							<?php include '_datasets.php';?>
 							</div>
@@ -169,12 +169,12 @@ echo title_case($experiment['administrative']['name']) ;
 							aria-labelledby="images-tab">
 							<?php //include '_images.php';?>
 							</div>
-						<div class="tab-pane" id="documents" role="tabpanel"
+						<div class="tab-pane  pb-3" id="documents" role="tabpanel"
 							aria-labelledby="documents-tab">
 							<?php include '_documents.php';?>
 							<?php include '_phpPages.php';?>
 							</div>
-						<div class="tab-pane" id="keyrefs" role="tabpanel"
+						<div class="tab-pane  pb-3" id="keyrefs" role="tabpanel"
 							aria-labelledby="keyrefs-tab">
 							<?php if ($dev == 'norton') {} else  {include '_keyrefs.php';} ?>
 							</div>
