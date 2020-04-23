@@ -21,9 +21,7 @@
     <?php
     
     $line = "<ul class=\"list-group m-5\">";
-    if ($site['administrative']['type']) {
-        $line .= "\n<li class=\"list-group-item \"><b>Type:</b> " . title_case($site['administrative']['type']) . "</li>";
-    }
+    
     if ($site['administrative']['doi']) {
         $line .= "\n<li class=\"list-group-item \"><b>DOI:</b> <a href=\"http://doi.org/" . $site['administrative']['doi'] . "\">" . $site['administrative']['doi'] . "</li>";
     }
