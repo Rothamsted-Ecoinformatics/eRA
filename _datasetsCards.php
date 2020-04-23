@@ -35,7 +35,7 @@ if (! $hasDatasets) {
         $info .= "\n	\t	<div class=\"card-header\">" . $dataset['title'] . "</div>";
         $info .= "\n	\t	<div class=\"card-body\">";
         // $info .="\n \t <h4 class=\"card-title\">Light card title</h4>";
-        $info .= "\n	\t	\t		<p class=\"card-text\">" . $dataset['description'] . "</p>";
+        $info .= "\n	\t	\t		<small class=\"card-muted\">" . $dataset['description'] . "</small>";
         
         $info .= "\n	\t		</div>";
         $info .= "\n	\t	<div class=\"card-footer\"> <a href=\"dataset.php?expt=" . $expt . "&amp;dataset=" . $dataset['shortName'] . "\">" . $dataset['identifier'] . " - " . $dataset['shortName'] . "</a></div>";
