@@ -2,6 +2,13 @@
 	{
 		"Credit": "eRA curators",
 		"FileName": "index.php",
+		"Caption": "Brooms Barn",
+		"Type": "php",
+		"exptID": "broomsbarn",
+		"isReviewed": 0
+	},{
+		"Credit": "eRA curators",
+		"FileName": "index.php",
 		"Caption": "The data extraction Tool",
 		"Type": "php",
 		"exptID": "DET",
@@ -160,30 +167,7 @@
 		"exptID": "met",
 		"isReviewed": 1
 	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "draftindexNW.php",
-		"Caption": "draftindexNW",
-		"Type": "php",
-		"exptID": "northwyke",
-		"isReviewed": 0
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "index.php",
-		"Caption": "index",
-		"Type": "php",
-		"exptID": "northwyke",
-		"isReviewed": 0
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "indexold.php",
-		"Caption": "indexold",
-		"Type": "php",
-		"exptID": "northwyke",
-		"isReviewed": 0
-	},
+
 	{
 		"Credit": "eRA curators",
 		"FileName": "index.php",
@@ -439,6 +423,13 @@
 		"Type": "php",
 		"exptID": "rhb2",
 		"isReviewed": 0
+	},{
+		"Credit": "eRA curators",
+		"FileName": "index.php",
+		"Caption": "Rothamsted Experimental Station",
+		"Type": "php",
+		"exptID": "rothamsted",
+		"isReviewed": 0
 	},
 	{
 		"Credit": "eRA curators",
@@ -559,6 +550,14 @@
 		"Type": "php",
 		"exptID": "rwf3",
 		"isReviewed": 0
+	},	
+	{
+		"Credit": "eRA curators",
+		"FileName": "index.php",
+		"Caption": "Saxmundham Station",
+		"Type": "php",
+		"exptID": "saxmundham",
+		"isReviewed": 0
 	},
 	{
 		"Credit": "eRA curators",
@@ -603,7 +602,7 @@
 	{
 		"Credit": "eRA curators",
 		"FileName": "index.php",
-		"Caption": "index",
+		"Caption": "Woburn Station",
 		"Type": "php",
 		"exptID": "woburn",
 		"isReviewed": 0
