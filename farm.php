@@ -67,7 +67,7 @@ include 'includes/header.html'; // all the menus at the top
 // -- start dependant content ---------------------------------------------------------
 ?>
 <div id="idExpt">
-			<h1><?php
+			<h1 class="mx-3"><?php
 // /experimentname is found in the datadescription file.
 echo $pageinfo['Experiment'];
 ?></h1>
