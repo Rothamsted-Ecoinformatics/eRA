@@ -4,8 +4,9 @@
 <div class="row p-3">
 	<div class="col-6">
 		<p>
-		Rothamsted Experimental Station
+		Rothamsted Research is a world-leading, non-profit research centre that focuses on strategic agricultural science to the benefit of farmers and society worldwide.
 		</p>
+		<p><a href="https://www.rothamsted.ac.uk/">More...</a></p>
 	</div>
 	<div class="col-6">
 		<div id="mapid" style="width: 500px; height: 400px;"></div>

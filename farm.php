@@ -101,8 +101,9 @@ echo $pageinfo['Experiment'];
 							
 						<div class="tab-pane" id="history" role="tabpanel"
 							aria-labelledby="history-tab">
-							
+							<div class="row px-5">
 						<?php include ($exptFolder.'/history.php');?>	
+						</div>
 							</div>
 
 						<div class="tab-pane" id="experiments" role="tabpanel"
