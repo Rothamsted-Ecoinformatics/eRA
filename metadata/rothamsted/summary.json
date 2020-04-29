@@ -1,0 +1,32 @@
+{
+    "administrative": {
+        "type": "Farm",
+        "identifier": "Rothamsted",
+        "identifierType":"RO",
+        "localIdentifier": "rothamsted",
+        "name": "Rothamsted Experimental Station",
+        "url": 'http://www.rothamsted.ac.uk',
+        "description": "MOCK DATA",
+        "disambiguatingDescription": "MOCK DATA"
+    },
+    "dataAccess": {
+        "type": "creativeWork",
+        "conditionsOfAccess": null,
+        "isAccessibleForFree": "YesOffline",
+        "publishingPrinciples": null,
+        "actionableFeedbackPolicy": "MOCK DATA",
+        "correctionsPolicy": "MOCK DATA",
+        "unnamedSourcesPolicy": null
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "CC-by-4",
+        "license": "http://creativecommons.org/licenses/by/4.0"
+    },
+    "temporalCoverage": "MOCK",
+    "dateStart": 1843,
+    "dateEPEnd": 1951,
+    "dateEnd": null,
+    "funder": "NOT in GLTEN",
+    "citation": []
+}

@@ -6,8 +6,15 @@
  * 
  * 
  */
-$image = '';
-$hasDatacite = 0;
+
+
+/*
+ * First we need to clean up all what comes from the environemt _GET and _POST,
+ * flush out injection and prepare the variables.
+ *
+ */
+
+
 foreach ( $_GET as $sk => $sv ) {
     // stop injection
     // convert with htmlentities($userInput);
@@ -57,6 +64,9 @@ foreach ( $_POST as $sk => $sv ) {
     }
 }
 
+$image = '';
+$hasDatacite = 0;
+
 
 include_once 'includes/config.inc'; //project local constants
 include_once 'includes/settings.inc'; //project default constants
@@ -65,8 +75,4 @@ include_once 'includes/exptData.inc'; //experiment data process functions
 include_once 'includes/biblio.inc'; //functions for the bibliography
 
 
-/*
- * First we need to clean up all what comes from the environemt _GET and _POST, 
- * flush out injection and prepare the variables. 
- * 
- */
+

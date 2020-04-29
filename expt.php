@@ -9,13 +9,8 @@
  * In this development stage, some variables are encoded here but will eventually come from database or URL.
  * @date 9/27/2018
  */
-if (isset($_POST['expt'])) {
-    $expt = $_POST['expt'];
-}
-if (isset($_GET['expt'])) {
-    $expt = $_GET['expt'];
-}
 
+if(!isset($expt)) {$expt = 'rbk1';} // default experiment arbitrarily broadbalk. We could be more clever? random experiment?
 include_once 'includes/init.inc'; // these are the settings that refer to more than one page
 
 /**

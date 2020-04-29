@@ -113,7 +113,8 @@ if (! function_exists('array_column')) {
  */
 function getPageInfo($var = "rothamsted")
 {
-    global $pageSettings;
+    global $pageSettings; // array in settings.inc (could be moved a an array in metadata/default)
+    
     $new_column_key = 'ExptCode';
     $new_ID = array_column($pageSettings, $new_column_key);
     $new_key = array_search($var, $new_ID);
