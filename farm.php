@@ -105,37 +105,46 @@ $page_title .= ': ' . $pageinfo['Experiment'];
             							data-toggle="tab" href="#site">Site</a></li>
             						<li class="nav-item"><a class="nav-link" id="experiments-tab"
             							data-toggle="tab" href="#experiments">Experiments</a></li>
-            						<li class="nav-item"><a class="nav-link" id="documents-tab"
-            							data-toggle="tab" href="#documents">Documents</a></li>
+            						
             						<li class="nav-item"><a class="nav-link" id="images-tab"
             							data-toggle="tab" href="#images">Images</a></li>
+            							<li class="nav-item"><a class="nav-link" id="keyrefs-tab"
+            							data-toggle="tab" href="#keyrefs">References</a></li>
             
             					</ul>
             
             					<div class="tab-content mh-100" id="idExptTabs">
             						<div class="tab-pane active" id="summary" role="tabpanel"
             							aria-labelledby="summary-tab">
-            						<?php include ($exptFolder.'/summary.php');?>
+            								<?php include ($exptFolder.'/summary.php');?>
             							</div>
             
             						<div class="tab-pane" id="site" role="tabpanel"
-            							aria-labelledby="site-tab"></div>
+            							aria-labelledby="site-tab">
+            							<div class="row px-5">
+            								<?php include ($exptFolder.'/site.php');?>
+            							</div>
+            						</div>
             
             						<div class="tab-pane" id="history" role="tabpanel"
             							aria-labelledby="history-tab">
             							<div class="row px-5">
-            						<?php include ($exptFolder.'/history.php');?>	
-            						</div>
+            								<?php include ($exptFolder.'/history.php');?>	
+            							</div>
             						</div>
             
             						<div class="tab-pane" id="experiments" role="tabpanel"
-            							aria-labelledby="experiments-tab"></div>
+            							aria-labelledby="experiments-tab">
+            								<?php include ($exptFolder.'/experiments.php');?>
+            						</div>
             						<div class="tab-pane" id="images" role="tabpanel"
             							aria-labelledby="images-tab">
-            							<?php include '_images.php';?>
+            								<?php include '_images.php';?>
             							</div>
-            						<div class="tab-pane" id="documents" role="tabpanel"
-            							aria-labelledby="documents-tab"></div>
+            						<div class="tab-pane  pb-3" id="keyrefs" role="tabpanel"
+							aria-labelledby="keyrefs-tab">
+							<?php if ($dev == 'norton') {} else  {include '_keyrefs.php';} ?>
+							</div>
             
             
             					</div>
