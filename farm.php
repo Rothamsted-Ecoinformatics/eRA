@@ -88,7 +88,7 @@ if (isset($datacite)) {
         
         // -- start dependant content ---------------------------------------------------------
         ?>
-        <div id="idFarm">
+        <div id="idExpt">
         			<h1 class="mx-3"><?php
                     // /experimentname is found in the datadescription file.
                     echo $pageinfo['Experiment'];
