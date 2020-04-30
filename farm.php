@@ -135,7 +135,9 @@ $page_title .= ': ' . $pageinfo['Experiment'];
             
             						<div class="tab-pane" id="experiments" role="tabpanel"
             							aria-labelledby="experiments-tab">
+            							<div class="row px-5">
             								<?php include ($exptFolder.'/experiments.php');?>
+            								</div>
             						</div>
             						<div class="tab-pane" id="images" role="tabpanel"
             							aria-labelledby="images-tab">
