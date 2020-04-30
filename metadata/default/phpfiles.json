@@ -21,6 +21,13 @@
 		"Type": "php",
 		"exptID": "default",
 		"isReviewed": 0
+	},{
+		"Credit": "eRA curators",
+		"FileName": "experiments.php",
+		"Caption": "All the experiments",
+		"Type": "php",
+		"exptID": "default",
+		"isReviewed": 0
 	},
 	{
 		"Credit": "eRA curators",
