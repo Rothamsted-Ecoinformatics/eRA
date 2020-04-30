@@ -6,10 +6,10 @@
 
 
 <table>
-	<tr>
-		<th>experiment_name</th>
-		<th>experiment_code</th>
-		<th>purpose</th>
+	<tr class="d-hidden">
+		<th>Experiment</th>
+		<th>Code</th>
+		<th>Purpose</th>
 		<th>Started</th>
 	</tr>
 
@@ -34,26 +34,26 @@
 	<tr class="odd">
 		<td>Alternate Wheat and Fallow</td>
 		<td><a href="expt.php?expt=rwf3">R/WF/3</td>
-		<td></td>
-		<td>1</td>
+		<td>To observe alternate fallowing on a part of Hoosfield that had received no applications of fertilizers or manures </td>
+		<td>1856</td>
 	</tr>
 	<tr class="odd">
 		<td>Exhaustion Land</td>
 		<td><a href="expt.php?expt=rex4">R/EX/4</td>
-		<td>Observe the residual effects of mineral fertilizer and manures on the yield of spring barley and winter wheat</td>
-		<td>1</td>
+		<td>To observe the residual effects of mineral fertilizer and manures on the yield of spring barley and winter wheat</td>
+		<td>1876</td>
 	</tr>
 	<tr class="odd">
 		<td>Ley Arable</td>
 		<td><a href="expt.php?expt=rrn1">R/RN/1</td>
-		<td>Effects of continuous arable and ley arable cropping systems on soil organic matter and fertility</td>
-		<td>1</td>
+		<td>To observe the effects of continuous arable and ley arable cropping systems on soil organic matter and fertility</td>
+		<td>1948</td>
 	</tr>
 	<tr class="odd">
-		<td>Geescroft Wilderness</td>
+		<td>Wilderness</td>
 		<td><a href="expt.php?expt=rge9">R/GE/9</td>
-		<td>Left to revert naturally to <b>woodland</b>.</td>
-		<td>1</td>
+		<td>To observe a land left to revert naturally to <b>woodland</b>.</td>
+		<td>1880s</td>
 	</tr>
 </table>
 
@@ -61,49 +61,62 @@
 
 <table>
 	<tr>
-		<th>experiment_name</th>
-		<th>experiment_code</th>
-		<th>purpose</th>
-		<th>isLTE</th>
+		<th>Experiment</th>
+		<th>Code</th>
+		<th>Purpose</th>
+		<th>Started</th>
+	</tr>
+	<tr>
+		<td>Acid Strip</td>
+		<td><a href="expt.php?expt=rcs326">R/RS/9</td>
+		<td>To observe the effects of soil acidity on soil properties under winter wheat</td>
+		<td>1950</td>
 	</tr>
 	<tr>
 		<td>Amounts of Straw</td>
 		<td><a href="expt.php?expt=rcs326">R/CS/326</td>
-		<td></td>
-		<td>1</td>
+		<td>To study the effects of a range of amounts of straw incorporated into the soil on winter wheat</td>
+		<td>1987</td>
 	</tr>
 
 	<tr>
 		<td>Continuous Maize</td>
 		<td><a href="expt.php?expt=rcs477">R/CS/477</td>
-		<td></td>
-		<td>1</td>
+		<td>To monitor the fate of organic carbon in the soil organic matter.</td>
+		<td>1997</td>
 	</tr>
 
 	<tr>
 		<td>Garden Clover</td>
 		<td><a href="expt.php?expt=rgc8">R/GC/8</td>
-		<td></td>
-		<td>1</td>
+		<td>To test whether red clover could be grown continuously on a rich garden soil.</td>
+		<td>1854</td>
 	</tr>
 
 	<tr>
 		<td>Highfield Bare Fallow</td>
 		<td><a href="expt.php?expt=rrs1">R/RS/1</td>
 		<td></td>
-		<td>1</td>
+		<td>1959</td>
 	</tr>
 	<tr class="odd">
 		<td>Highfield Conversion</td>
 		<td><a href="expt.php?expt=rcs767">R/CS/767</td>
 		<td></td>
-		<td>1</td>
+		<td>2008</td>
 	</tr>
 	<tr>
+		<td>Long-term Miscanthus Experiment</td>
+		<td><a href="expt.php?expt=rcs10">R/CS/408</td>
+		<td>To quantify the biomass yield potential of <i><b>Miscanthus sinensis giganteus</b></i></td>
+		<td>1962</td>
+	</tr>
+	
+		<tr>
 		<td>Rothamsted Long-term Liming</td>
 		<td><a href="expt.php?expt=rcs10">R/CS/10</td>
-		<td></td>
-		<td>1</td>
+		<td>To observe the effect of lime on the yield and composition of crops and on the status of P and K in soils.</td>
+		<td>1962</td>
 	</tr>
 
 
@@ -114,10 +127,10 @@
 
 <table>
 	<tr>
-		<th>experiment_name</th>
-		<th>experiment_code</th>
-		<th>purpose</th>
-		<th>isLTE</th>
+		<th>Experiment</th>
+		<th>Code</th>
+		<th>Purpose</th>
+		<th>Started</th>
 	</tr>
 	<tr class="odd">
 		<td>Agdell</td>
