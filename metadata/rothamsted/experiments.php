@@ -13,7 +13,7 @@
 			<th>Started</th>
 		</tr>
 
-		<tr class="odd">
+		<tr>
 			<td>Broadbalk</td>
 			<td><a href="expt.php?expt=rbk1">R/BK/1</a></td>
 			<td>To test the effects of various combinations of inorganic
@@ -21,7 +21,7 @@
 			</td>
 			<td>1843</td>
 		</tr>
-		<tr class="odd">
+		<tr>
 			<td>Park Grass</td>
 			<td><a href="expt.php?expt=rpg5">R/PG/5</td>
 			<td>To investigate ways of improving the yield of <b> hay </b>by the
@@ -37,33 +37,40 @@
 			</td>
 			<td>1852</td>
 		</tr>
-		<tr class="odd">
+		<tr>
 			<td>Alternate Wheat and Fallow</td>
 			<td><a href="expt.php?expt=rwf3">R/WF/3</td>
 			<td>To observe alternate fallowing on a part of Hoosfield that had
 				received no applications of fertilizers or manures</td>
 			<td>1856</td>
 		</tr>
-		<tr class="odd">
+		<tr>
 			<td>Exhaustion Land</td>
 			<td><a href="expt.php?expt=rex4">R/EX/4</td>
 			<td>To observe the residual effects of mineral fertilizer and manures
 				on the yield of spring barley and winter wheat</td>
 			<td>1876</td>
 		</tr>
-		<tr class="odd">
+		<tr>
 			<td>Ley Arable</td>
 			<td><a href="expt.php?expt=rrn1">R/RN/1</td>
 			<td>To observe the effects of continuous arable and ley arable
 				cropping systems on soil organic matter and fertility</td>
 			<td>1948</td>
 		</tr>
-		<tr class="odd">
+		<tr>
 			<td>Wilderness</td>
 			<td><a href="expt.php?expt=rge9">R/GE/9</td>
 			<td>To observe a land left to revert naturally to <b>woodland</b>.
 			</td>
 			<td>1880s</td>
+		</tr>
+				<tr>
+			<td>Garden Clover</td>
+			<td><a href="expt.php?expt=rgc8">R/GC/8</td>
+			<td>To test whether red clover could be grown continuously on a rich
+				garden soil.</td>
+			<td>1854</td>
 		</tr>
 	</table>
 </div>
@@ -96,27 +103,21 @@
 			<td>Continuous Maize</td>
 			<td><a href="expt.php?expt=rcs477">R/CS/477</td>
 			<td>To monitor the fate of organic carbon in the soil organic matter.</td>
-			<td>1997</td>
+			<td>1997-2015</td>
 		</tr>
 
-		<tr>
-			<td>Garden Clover</td>
-			<td><a href="expt.php?expt=rgc8">R/GC/8</td>
-			<td>To test whether red clover could be grown continuously on a rich
-				garden soil.</td>
-			<td>1854</td>
-		</tr>
+
 
 		<tr>
 			<td>Highfield Bare Fallow</td>
 			<td><a href="expt.php?expt=rrs1">R/RS/1</td>
-			<td></td>
+			<td>Effects of long-term bare fallow on soil organic matter and fertility, after long-term grass (>100 years)</td>
 			<td>1959</td>
 		</tr>
-		<tr class="odd">
+		<tr>
 			<td>Highfield Conversion</td>
 			<td><a href="expt.php?expt=rcs767">R/CS/767</td>
-			<td></td>
+			<td>Effects of changes in agricultural land use and management on crop production and soil physical, chemical and biological parameters.</td>
 			<td>2008</td>
 		</tr>
 		<tr>
@@ -150,23 +151,23 @@
 			<th>Purpose</th>
 			<th>Started</th>
 		</tr>
-		<tr class="odd">
+		<tr>
 			<td>Agdell</td>
 			<td>R/AG/6</td>
-			<td></td>
-			<td>0</td>
+			<td>Effects of fertilizers and organic manures on four-course rotations (cereal, root, legume, fallow). Stopped in 1990 after testing residual effects of P and K. Only archived crop and soil samples are now available</td>
+			<td>1848-1990</td>
 		</tr>
 		<tr>
-			<td>Arable Reference Plots - Rothamsted</td>
+			<td>Arable Reference Plots</td>
 			<td>R/RN/5</td>
 			<td></td>
 			<td>0</td>
 		</tr>
-		<tr class="odd">
+		<tr>
 			<td>Barnfield</td>
-			<td>R/BN/7</td>
-			<td></td>
-			<td>0</td>
+			<td><!--  href="expt.php?expt=rbn7" -->R/BN/7</td>
+			<td>Effects of fertilizers and organic manures on root crops, arable crops and grass & clover. No treatments applied or yields measured since 2001</td>
+			<td>1843-2001</td>
 		</tr>
 		<tr>
 			<td>Barnfield Mangolds</td>
@@ -174,7 +175,7 @@
 			<td></td>
 			<td>0</td>
 		</tr>
-		<tr class="odd">
+		<tr>
 			<td>Barnfield Sugarbeet</td>
 			<td>X5</td>
 			<td></td>
@@ -186,7 +187,7 @@
 			<td></td>
 			<td>0</td>
 		</tr>
-		<tr class="odd">
+		<tr>
 			<td>Cultivation Weedkiller Rotation Experiment</td>
 			<td>R/RN/8</td>
 			<td></td>
@@ -198,7 +199,7 @@
 			<td></td>
 			<td>0</td>
 		</tr>
-		<tr class="odd">
+		<tr>
 			<td>Delharding Reserve Site</td>
 			<td>R/RS/5</td>
 			<td></td>
@@ -210,7 +211,7 @@
 			<td></td>
 			<td>0</td>
 		</tr>
-		<tr class="odd">
+		<tr>
 			<td>Fallow Reversion Plots - Geescroft</td>
 			<td>R/CS/684</td>
 			<td></td>
@@ -222,7 +223,7 @@
 			<td></td>
 			<td>0</td>
 		</tr>
-		<tr class="odd">
+		<tr>
 			<td>Fosters Ley Arable</td>
 			<td>R/RN/2</td>
 			<td></td>
@@ -234,7 +235,7 @@
 			<td></td>
 			<td>0</td>
 		</tr>
-		<tr class="odd">
+		<tr>
 			<td>Fumigation</td>
 			<td>R/RO</td>
 			<td></td>
@@ -246,7 +247,7 @@
 			<td></td>
 			<td>0</td>
 		</tr>
-		<tr class="odd">
+		<tr>
 			<td>Grazed Reference Plots</td>
 			<td>R/CS/2</td>
 			<td></td>
@@ -258,7 +259,7 @@
 			<td></td>
 			<td>0</td>
 		</tr>
-		<tr class="odd">
+		<tr>
 			<td>Hoosfield Leguminous Plants</td>
 			<td>X14</td>
 			<td></td>
@@ -270,7 +271,7 @@
 			<td></td>
 			<td>0</td>
 		</tr>
-		<tr class="odd">
+		<tr>
 			<td>Irrigation</td>
 			<td>R/RN/11</td>
 			<td></td>
