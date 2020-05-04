@@ -1,0 +1,29 @@
+{
+    "administrative": {
+        "name": "Saxmundham Met station",
+        "identifier": null,
+        "type": "research met station ",
+        "doi": null,
+        "visitsAllowed": "Yes",
+        "visitingArrangements": "Contact Andy Macdonald",
+        "description": "Please describe",
+        "management": "Please Describe managment"
+    },
+    "location": {
+        "addressLocality": "Saxmundham",
+        "addressRegion": "Suffolk",
+        "addressCountry": "United Kingdom",
+        "geoLocationPoint": {
+            "pointLongitude":  1.466 ,
+            "pointLatitude": 52.221 
+        },
+        "geoLocationPlace": "United Kingdom",
+        "polygon": "NOT IN GLTEN",
+        "elevation": 30.0,
+        "elevationUnit": "Metres",
+        "slope": null,
+        "slopeAspect": null
+    }
+
+   
+}
