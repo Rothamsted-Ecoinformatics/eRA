@@ -1,7 +1,7 @@
 <?php
 ?>
 <div class="row mx-3">
-	<h2>Rothamsted Weather data available in ROTHMET</h2>
+	<h2>Rothamsted Weather data available in BROMET</h2>
 
 	<p>
 		Daily meteorological data recorded at Rothamsted, Harpenden,

@@ -1,13 +1,14 @@
 <?php
 ?>
 <div class="row mx-3">
-	<h2>Saxmundham Weather data available in ROTHMET</h2>
+	<h2>Saxmundham Weather data available</h2>
 </div>
 <div class="row mx-3">
 	<p>
-		Daily meteorological data recorded at Saxmundham, Suffolk,
+		Daily meteorological data recorded at Saxmundham, Suffolk.
 
 	</p>
+	<p class="text-danger">This is taken from BB: so review all as there was no information on web site</p>
 	<div class="table-responsive-sm">
 		<table
 			class="table  table-responsive-sm table-sm  table-hover table-bordered">
