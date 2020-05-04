@@ -1,0 +1,29 @@
+{
+    "administrative": {
+        "name": "Broom's' Met station",
+        "identifier": null,
+        "type": "research met station ",
+        "doi": null,
+        "visitsAllowed": "Yes",
+        "visitingArrangements": "Contact Andy Macdonald",
+        "description": "Please describe",
+        "management": "Please Describe managment"
+    },
+    "location": {
+        "addressLocality": "Broom's barn",
+        "addressRegion": "Cambridgeshire",
+        "addressCountry": "United Kingdom",
+        "geoLocationPoint": {
+            "pointLongitude":  0.5656,
+            "pointLatitude": 52.2605
+        },
+        "geoLocationPlace": "United Kingdom",
+        "polygon": "NOT IN GLTEN",
+        "elevation": 30.0,
+        "elevationUnit": "Metres",
+        "slope": null,
+        "slopeAspect": null
+    }
+
+   
+}
