@@ -39,7 +39,7 @@ $exptFolder = 'metadata/' . $expt;
 
 $page_title .= ': ' . $pageinfo['Experiment']; // This is used in the head file as the title tag
 
-$filedatacite = $exptFolder . '/'.'experiment.json';
+$filedatacite = $exptFolder . '/' . 'experiment.json';
 $hasDatacite = file_exists($filedatacite);
 if ($hasDatacite) {
     $datacite = file_get_contents($filedatacite);
@@ -69,14 +69,6 @@ if ($hasSite) {
     $site = json_decode($jdata, true);
 }
 
-$fileDesign = $exptFolder . '/design.json';
-$hasDesign = file_exists($fileDesign);
-if ($hasDesign) {
-    $jdata = file_get_contents($fileDesign);
-    $jdata = utf8_encode($jdata);
-    $design = json_decode($jdata, true);
-}
-
 $fileDataset = $exptFolder . '/' . 'datasets.json';
 
 $hasDatasets = file_exists($fileDataset);
@@ -86,7 +78,8 @@ if ($hasDatasets) {
     $datasets = json_decode($jdatasets, true);
 }
 
-
+$fileMonthly = $exptFolder . '/' . 'monthly.php';
+$hasMonthly = file_exists($fileMonthly);
 
 include 'includes/head.html'; // that is the <head tags>
 ?>
@@ -97,7 +90,7 @@ include 'includes/head.html'; // that is the <head tags>
 <?php
 
 include 'includes/header.html'; // all the menus at the top
-                                
+
 // -- start dependant content ---------------------------------------------------------
 ?>
 <div id="idExpt">
@@ -108,8 +101,8 @@ echo title_case($experiment['administrative']['name']);
 			<div class="row">
 				<div class="col-12 py-3">
 					<ul class="nav nav-tabs nav-fill text-body ">
-						<li class="nav-item"><a class="nav-link active show" id="summary-tab"
-							data-toggle="tab" href="#summary">Overview</a></li>
+						<li class="nav-item"><a class="nav-link active show"
+							id="summary-tab" data-toggle="tab" href="#summary">Overview</a></li>
 						<li class="nav-item"><a class="nav-link" id="site-tab"
 							data-toggle="tab" href="#site">Site</a></li>
 						<li class="nav-item"><a class="nav-link" id="design-tab"
@@ -122,7 +115,8 @@ echo title_case($experiment['administrative']['name']);
 						<li class="nav-item"><a class="nav-link" id="images-tab"
 							data-toggle="tab" href="#images">Images</a></li>
 						<li class="nav-item"><a class="nav-link" id="documents-tab"
-							data-toggle="tab" href="#documents">Documents</a></li>
+							data-toggle="tab" href="#documents">Summaries</a></li>
+
 						<li class="nav-item"><a class="nav-link" id="keyrefs-tab"
 							data-toggle="tab" href="#keyrefs">Bibliography</a></li>
 
@@ -135,19 +129,21 @@ echo title_case($experiment['administrative']['name']);
 							aria-labelledby="summary-tab">
 							<?php
     include '_summary.php';
-    
+
     ?>						
 
 							</div>
 
 						<div class="tab-pane" id="measurements" role="tabpanel"
 							aria-labelledby="measurements-tab">
-							<?php 
-							$measurements = $exptFolder . '/measurements.php';
-							
-							include ($measurements);
-							?>
+							<div class="row px-5">
+							<?php
+    $measurements = $exptFolder . '/measurements.php';
+
+    include ($measurements);
+    ?>
 							</div>
+						</div>
 
 						<div class="tab-pane" id="site" role="tabpanel"
 							aria-labelledby="site-tab">
@@ -165,9 +161,16 @@ echo title_case($experiment['administrative']['name']);
 							</div>
 						<div class="tab-pane" id="documents" role="tabpanel"
 							aria-labelledby="documents-tab">
-							<?php include '_documents.php';?>
-							<?php include '_phpPages.php';?>
-							</div>
+							<div class="row px-5">
+							<?php
+    $fileMonthly = $exptFolder . '/' . 'monthly.php';
+    $hasMonthly = file_exists($fileMonthly);
+    if ($hasMonthly) {
+        include ($fileMonthly);
+    }
+    ?>
+                               </div>
+						</div>
 						<div class="tab-pane" id="keyrefs" role="tabpanel"
 							aria-labelledby="keyrefs-tab">
 							<?php if ($dev == 'norton') {} else  {include '_keyrefs.php';} ?>

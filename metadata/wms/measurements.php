@@ -5,10 +5,10 @@
  * 
  */
 ?>
-<div class="row mx-3">
+<div class="row">
 	<h2 class="d-block">Weather data available in WOBMET</h2>
 	</div>
-	<div class="row mx-3">
+	<div class="row">
 	<p class="clearfix">Daily meteorological data recorded at Woburn.</p>
 	<div class="table-responsive-sm">
 		<table
