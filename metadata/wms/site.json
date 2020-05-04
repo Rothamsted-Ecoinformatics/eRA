@@ -1,0 +1,88 @@
+{
+    "administrative": {
+        "name": "Woburn Met station",
+        "identifier": null,
+        "type": "research met station ",
+        "doi": null,
+        "visitsAllowed": "Yes",
+        "visitingArrangements": "Contact Andy Macdonald",
+        "description": "T",
+        "management": ""
+    },
+    "location": {
+        "addressLocality": "Woburn",
+        "addressRegion": "Hertfordshire",
+        "addressCountry": "United Kingdom",
+        "geoLocationPoint": {
+            "pointLongitude":  -0.5962 ,
+            "pointLatitude": 52.0145
+        },
+        "geoLocationPlace": "United Kingdom",
+        "polygon": "NOT IN GLTEN",
+        "elevation": 130.0,
+        "elevationUnit": "Metres",
+        "slope": null,
+        "slopeAspect": null
+    },
+    "soil": {
+        "soilTypeLabel": "luvisol",
+        "soilDescription": "The soil is classified as a Chromic luvisol. \n\nThe soil texture is described as clay loam to silty clay loam over clay-with flints. The soils contain a large number of flints and are slightly calcareous. Below about 2m depth the soil becomes chalk. The experiment is under-drained and the site is free draining. There is considerable variation in soil texture across the site, with clay contents ranging from 19 \u2013 39%"
+    },
+    "soilProperty": [
+        {
+            "variableMeasured": "sand content",
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 25.0,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": null,
+            "maxSampleDepth": null,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": null,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "silt content",
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 50.0,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": null,
+            "maxSampleDepth": null,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": null,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "clay content",
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 25.0,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": null,
+            "maxSampleDepth": null,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": null,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        }
+    ],
+    "climate": {
+        "name": null,
+        "description": "The soil is classified as a Chromic luvisol. \n\nThe soil texture is described as clay loam to silty clay loam over clay-with flints. The soils contain a large number of flints and are slightly calcareous. Below about 2m depth the soil becomes chalk. The experiment is under-drained and the site is free draining. There is considerable variation in soil texture across the site, with clay contents ranging from 19 \u2013 39%",
+        "weatherStation": {
+            "weatherStationID": "NOT IN GLTEN",
+            "name": "NOT IN GLTEN",
+            "distance": "NOT IN GLTEN",
+            "direction": "NOT IN GLTEN"
+        }
+    }
+}

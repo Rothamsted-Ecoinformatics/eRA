@@ -8,9 +8,7 @@
 		from the point of collection in the field to entry into the database.
 		Full details of the Standard Operating Procedures (SOPs) followed to
 		ensure data quality control can be obtained from the e-RA Curators <a
-			href="mailto:era@rothamsted.ac.uk"> e-RA Curators</a> or the <a
-			href="mailto:laurence.benjamin@rothamsted.ac.uk">Rothamsted Quality
-			Assurance Manager </a>.
+			href="mailto:era@rothamsted.ac.uk"> e-RA Curators</a>.
 	</p>
 
 	<h1>Sample collection procedures</h1>

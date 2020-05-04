@@ -6,15 +6,15 @@
         "name": "Rothamsted Meteorological Station",
         "url": null,
         "description": "Sir John Lawes, the founder of Rothamsted, realized that to understand crop growth, it was important to have records of the weather. Weather records also help us to understand the spread of crop diseases and insect behaviour. Rainfall and wind direction have been measured at Rothamsted every day since 1853, temperature since 1878 and sunshine since 1890, making this one of the longest sets of meteorological (weather) data available in the UK. As new equipment was invented to measure different meteorological variables, scientists added them to the Rothamsted weather station. Now over 25 different weather measurements are made every day.",
-        "disambiguatingDescription": "The aim of the experiment was to test the effect of different organic manures and inorganic fertilizers on the yield of winter wheat."
+        "disambiguatingDescription": ""
     },
     "dataAccess": {
         "type": "creativeWork",
         "conditionsOfAccess": null,
         "isAccessibleForFree": "YesOffline",
         "publishingPrinciples": null,
-        "actionableFeedbackPolicy": "The aim of the experiment was to test the effect of different organic manures and inorganic fertilizers on the yield of winter wheat.",
-        "correctionsPolicy": "The aim of the experiment was to test the effect of different organic manures and inorganic fertilizers on the yield of winter wheat.",
+        "actionableFeedbackPolicy": "",
+        "correctionsPolicy": "",
         "unnamedSourcesPolicy": null
     },
     "license": {
@@ -22,7 +22,7 @@
         "name": "CC-by-4",
         "license": "http://creativecommons.org/licenses/by/4.0"
     },
-    "temporalCoverage": "1953/1970 from schema",
+    "temporalCoverage": "",
     "dateStart": 1843,
     "dateEPEnd": 1951,
     "dateEnd": null,

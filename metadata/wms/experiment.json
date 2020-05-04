@@ -1,0 +1,31 @@
+{
+    "administrative": {
+        "type": "Station",
+        "identifier": "WMS",
+        "localIdentifier": "WMS",
+        "name": "Woburn Meteorological Station",
+        "url": null,
+        "description": "Please describe",
+        "disambiguatingDescription": "Please Complete"
+    },
+    "dataAccess": {
+        "type": "creativeWork",
+        "conditionsOfAccess": null,
+        "isAccessibleForFree": "YesOffline",
+        "publishingPrinciples": null,
+        "actionableFeedbackPolicy": "",
+        "correctionsPolicy": "",
+        "unnamedSourcesPolicy": null
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "CC-by-4",
+        "license": "http://creativecommons.org/licenses/by/4.0"
+    },
+    "temporalCoverage": "",
+    "dateStart": 1843,
+    "dateEPEnd": 1951,
+    "dateEnd": null,
+    "funder": "NOT in GLTEN",
+    "citation": []
+}
