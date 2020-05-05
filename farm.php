@@ -31,27 +31,11 @@ if ($hasDatacite) {
     $summary = json_decode($datacite, true);
 }
 
-
-
-/**
- * pageinfo will have the values for the Title or the pages, experiment or farm keyword.
- * The array is in settings.inc at the moment but we would also provide this using a json file or calling db.
- *
- * It has the following keys:
- * { ["ExperimentName"]=> string(9) "Broadbalk" : the Long title of the experiment
- * ["ExptCode"]=> string(4) "rbk1" : the code. This is what is search for
- * ["KeyRef"]=> string(15) "KeyRefBroadbalk" : the keyword associated with the experiment or page to pull out of eRAbib the relevant papers
- * ["URLCode"]=> string(9) "Broadbalk" : Previous code used in the URL of old site: we should look for that too.
- * }
- *
- * @var array $pageinfo
- */
-
 $pageinfo = getPageInfo($farm);
 
 $KeyRef = $pageinfo['KeyRef']; // this is the variable that is used to pull out the bibliography from the database
 
-$page_title .= ': ' . $pageinfo['Experiment'];
+$page_title .=  $pageinfo['Experiment'];
 
 /*
  * filedatacite contains schema information So we may want one
@@ -59,14 +43,10 @@ $page_title .= ': ' . $pageinfo['Experiment'];
  */
 // $filedatacite = 'metadata/' . $farm . '/overview.json';
 // $datacite = file_get_contents($filedatacite);
-
 ?>
-
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-
-    <head>
-    
+    <head>  
         <?php
         include 'includes/meta.html'; // that is the <meta and link tags> superseeds head.html
         
@@ -75,8 +55,7 @@ $page_title .= ': ' . $pageinfo['Experiment'];
             $script = "<script type=\"application/ld+json\">" . $datacite . "</script>";
             echo $script;
         }
-        ?>
-    
+        ?>  
     </head>
     
     <body>
