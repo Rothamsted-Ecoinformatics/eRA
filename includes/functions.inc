@@ -30,7 +30,7 @@ function check_input($value)
 
 /**
  * Cleans-up  input from forms and URLs
- * @param unknown $string
+ * @param string $string
  * @return string
  */
 function cleanQuery($string)
@@ -52,7 +52,7 @@ function cleanQuery($string)
  * Glorified VarDump.
  * Presents values of an array (or double array in a table)
  * @author Nathalie Castells-Brooke
- * @param unknown_type $var            
+ *           
  */
 function pretty($var)
 {
@@ -196,7 +196,7 @@ function nexplode($string)
 /**
  * transform text into Title Type capitalization. 
  * @author NCB
- * @param unknown $string
+ * @param string $string
  * @return string
  * 
  * @todo  remove the arrays for latin names and supply them in another file or get from dictionary

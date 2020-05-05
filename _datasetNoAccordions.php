@@ -67,7 +67,7 @@ if ($hasDataset) {
     }
     if (is_array($dsinfo['distribution'])) {
         $distribution = "<ul>";
-        foreach ($dsinfo['distribution'] as $n => $filedownloads) {
+        foreach ($dsinfo['distribution'] as  $filedownloads) {
             
             $distribution .= "<li><a href=\"" . $exptFolder . "/" . $datasetFolder . "/" . $filedownloads['URL'] . "\">" . $filedownloads['name'] . "</a></li>";
         }

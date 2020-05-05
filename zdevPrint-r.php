@@ -52,7 +52,7 @@ include 'includes/header.html'; // all the menus at the top
 <?php 
 /**
  * This outputs the json array for the data. Just used to make json files for testing as I already had the arrays
- * @param unknown $array
+ * @param array  $array
  */
 function makeJson($array) {
 $json = json_encode($array);

@@ -10,7 +10,7 @@
  * @author Nathalie Castells-Brooke
  * @date 9/27/2018
  */
- *
+ 
  ?><div id="carouselIndexIndicators" class="carousel slide mx-0 px-0"
 	data-ride="carousel">
 	<div class="carousel-inner">

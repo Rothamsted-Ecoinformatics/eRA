@@ -108,7 +108,7 @@ if (! function_exists('array_column')) {
  *
  * @todo when a new experiment or dataset is provided, please update the $pagesettings array in settings.inc .
  *      
- * @param unknown $var            
+ * @param string $var            
  * @return array $arrPageInfo one set of parameters for the page that has been called
  */
 function getPageInfo($var = "rothamsted")

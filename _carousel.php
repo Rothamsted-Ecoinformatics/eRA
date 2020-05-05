@@ -29,7 +29,7 @@
 		<div class="carousel-item">
 		<a href="expt.php?expt=rpg5"> 
 			<img class="d-block w-100" src="images/banners/Park-Grass.jpg"
-				alt="All about Park Grass">
+				alt="All about Park Grass"></a>
 			<div class="carousel-caption d-none d-md-block">
 				<h2>Park Grass</h2>
 				<p>150 years of ecological studies</p>

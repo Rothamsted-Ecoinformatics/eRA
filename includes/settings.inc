@@ -34,7 +34,7 @@ $det = $DETin;
 /**
  * default Format for today's date on the site
  *
- * @var Ambiguous $date
+ * @var string $date
  */
 $date = date("D F j, Y");
 
