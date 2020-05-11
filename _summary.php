@@ -137,10 +137,8 @@ function getPersonInfo($personDetails)
         ?>
       
        	<ul class="list-group mx-3">
-		<li class="list-group-item " style="white-space: pre-wrap;"><b>Type:</b>
-			creativeWork</li>
-		<li class="list-group-item " style="white-space: pre-wrap;"><b>Condition
-				of Access:</b> Waiting for Boiler plate text</li>
+		<li class="list-group-item " style="white-space: pre-wrap;"><b>Type:</b> creativeWork</li>
+		<li class="list-group-item " style="white-space: pre-wrap;"><b>Condition of Access:</b> Waiting for Boiler plate text</li>
 
 	</ul>
 
