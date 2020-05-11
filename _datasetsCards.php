@@ -16,7 +16,7 @@
 	
 	
 
-<div class="card-columns">
+
 <?php
 
 if (! $hasDatasets) {
@@ -30,8 +30,8 @@ if (! $hasDatasets) {
 
         $id = str_replace($prefix, '', $dataset['identifier']);
         
-        
-        $info .= "\n	<div class=\"card  card-block bg-light mb-3 d-inline-block\" >";
+        $info .="<div class=\"col-sm-4 py-2\">";
+        $info .= "\n	<div class=\"card  h-100 bg-light mb-3 \" >";
         $info .= "\n	\t	<div class=\"card-header\">" . $dataset['title'] . "</div>";
         $info .= "\n	\t	<div class=\"card-body\">";
         // $info .="\n \t <h4 class=\"card-title\">Light card title</h4>";
@@ -41,11 +41,12 @@ if (! $hasDatasets) {
         $info .= "\n	\t	<div class=\"card-footer\"> <a class=\"btn btn-primary stretched-link\" href=\"dataset.php?expt=" . $expt . "&amp;dataset=" . $dataset['shortName'] . "\"> More ...</a></div>";
   
         $info .= "\n	\t	</div>";
+        $info .= "\n	\t	</div>";
     }
 
     echo $info;
 }
 
 ?>
-</div>
+
 </div>
