@@ -27,7 +27,13 @@ if (! $hasDatasets) {
 
     foreach ($datasets as $dataset) {
         $fileDataset = $exptFolder . '/' . $dataset['shortName'] . '/' . $dataset['shortName'] . '.json';
-
+        $subDescription = '';
+     
+     
+        
+     if (strlen($dataset['description']) > 300) {
+         $subDescription = substr($dataset['description'], 0, 300 ) . "...";
+     } else {$subDescription = $dataset['description'];}
         $id = str_replace($prefix, '', $dataset['identifier']);
         
         $info .="<div class=\"col-sm-4 py-2\">";
@@ -35,7 +41,7 @@ if (! $hasDatasets) {
         $info .= "\n	\t	<div class=\"card-header\">" . $dataset['title'] . "</div>";
         $info .= "\n	\t	<div class=\"card-body\">";
         // $info .="\n \t <h4 class=\"card-title\">Light card title</h4>";
-        $info .= "\n	\t	\t		<small class=\"card-muted\">" . $dataset['description'] . "</small>";
+        $info .= "\n	\t	\t		<small class=\"card-muted\">" . $subDescription." </small>";
         
         $info .= "\n	\t		</div>";
         $info .= "\n	\t	<div class=\"card-footer\"> <a class=\"btn btn-primary stretched-link\" href=\"dataset.php?expt=" . $expt . "&amp;dataset=" . $dataset['shortName'] . "\"> More ...</a></div>";
