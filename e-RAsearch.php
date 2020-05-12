@@ -41,9 +41,22 @@ if ($datacite) {
     $script = "<script type=\"application/ld+json\">" . $datacite . "</script>";
 }
 
-include 'includes/head.html'; // that is the <head tags>
-?>
 
+
+?>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>  
+        <?php
+        include 'includes/meta.html'; // that is the <meta and link tags> superseeds head.html
+        
+        $script = ''; // $script is added to the header as the
+        if (isset($datacite)) {
+            $script = "<script type=\"application/ld+json\">" . $datacite . "</script>";
+            echo $script;
+        }
+        ?>  
+    </head>
 <body>
 	<div class="container bg-white px-0">
 
