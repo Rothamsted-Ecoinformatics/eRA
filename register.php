@@ -15,8 +15,15 @@
 
 include_once 'includes/init.inc'; // these are the settings that refer to more than one page
 
-include 'includes/head.html'; // that is the <head tags>
 ?>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>  
+        <?php
+        include 'includes/meta.html'; // that is the <meta and link tags> superseeds head.html
+        
+        ?>  
+    </head>
 
 <body>
 	<div class="container bg-white px-0">
