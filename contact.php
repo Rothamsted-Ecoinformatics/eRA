@@ -1,37 +1,47 @@
 <?php 
-/**
- * @file contacts.php
- * @brief contact and credit page
- * 
- * This is a page: so it includes modules
- *
- * @author Nathalie Castells-Brooke
- * @date 9/27/2018
- */
-include 'includes/init.inc'; // these are the settings that refer to more than one page
+include_once 'includes/init.inc'; // these are the settings that refer to more than one page
 
-
-$page_title .= " - contacts";
-
+$page_title .= "About e-RA";
 
 ?>
-<?php include 'includes/head.html';     // that is the <head tags>?>
-<body>
-    <div class="container bg-white px-0">
-
-<?php include 'includes/header.html';   // all the menus at the top ?>
-
-	<!--  start dependant content --------------------------------------------------------->
-<?php 
-
-include '_people.php';
-?>
-	
-	<!--  end page dependant content  -->
-	<!-- Start footer  -->
-<?php include('includes/footer.html');?>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>  
+        <?php
+        include 'includes/meta.html'; // that is the <meta and link tags> superseeds head.html
+        
+        $script = ''; // $script is added to the header as the
+        if (isset($datacite)) {
+            $script = "<script type=\"application/ld+json\">" . $datacite . "</script>";
+            echo $script;
+        }
+        ?>  
+    </head>
  
-	</div>
+<body>
+    
+<div class="container bg-white px-0">
+
+<?php include 'includes/header.html';   // all the menus at the top 
+
+//--  start dependant content ---------------------------------------------------------
+
+//include '_carousel.php';
+//include '_about.php';
+//include '_tools.php';
+include '_people.php';
+
+	
+//-- start footers  -----------------------------
+
+include_once 'includes/footer.html';
+include_once 'includes/finish.inc';
+
+
+?>
+
+ 
+</div>
 </body>
 
 </html>
