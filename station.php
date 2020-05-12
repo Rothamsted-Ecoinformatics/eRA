@@ -9,12 +9,7 @@
  * In this development stage, some variables are encoded here but will eventually come from database or URL.
  * @date 9/27/2018
  */
-if (isset($_POST['expt'])) {
-    $expt = $_POST['expt'];
-}
-if (isset($_GET['expt'])) {
-    $expt = $_GET['expt'];
-}
+
 
 include_once 'includes/init.inc'; // these are the settings that refer to more than one page
 
@@ -81,8 +76,20 @@ if ($hasDatasets) {
 $fileMonthly = $exptFolder . '/' . 'monthly.php';
 $hasMonthly = file_exists($fileMonthly);
 
-include 'includes/head.html'; // that is the <head tags>
 ?>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>  
+        <?php
+        include 'includes/meta.html'; // that is the <meta and link tags> superseeds head.html
+        
+        $script = ''; // $script is added to the header as the
+        if (isset($datacite)) {
+            $script = "<script type=\"application/ld+json\">" . $datacite . "</script>";
+            echo $script;
+        }
+        ?>  
+    </head>
 
 <body>
 	<div class="container bg-white px-0">

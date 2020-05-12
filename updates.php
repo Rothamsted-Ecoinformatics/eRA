@@ -11,13 +11,6 @@
  * Updates granularity: experiment. 
  */
 
-// /This will be used to pass the experiment code, or type of page.
-if (isset($_POST['expt'])) {
-    $expt = $_POST['expt'];
-}
-if (isset($_GET['expt'])) {
-    $expt= $_GET['expt'];
-}
 
 if (! $farm) {
     $expt= 'default';
@@ -47,14 +40,25 @@ $metadata = "images/metadata/" . $expt;
 $page_title .= $pageinfo[ExperimentName];
 
 // /$arrdatacite is found in $exptDescriptionFile - describes the submission to Datacite - necessary for DOI pages
-$datacite = json_encode($arrdatacite);
+
 
 if ($datacite) {
     $script = "<script type=\"application/ld+json\">" . $datacite . "</script>";
 }
-include 'includes/head.html'; // that is the <head tags>
 ?>
-
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>  
+        <?php
+        include 'includes/meta.html'; // that is the <meta and link tags> superseeds head.html
+        
+        $script = ''; // $script is added to the header as the
+        if (isset($datacite)) {
+            $script = "<script type=\"application/ld+json\">" . $datacite . "</script>";
+            echo $script;
+        }
+        ?>  
+    </head>
 <body>
 	<div class="container bg-white px-0">
 
