@@ -29,28 +29,40 @@ if ($hasDataset) {
     $jdataset8 = utf8_encode($jdataset);
     $dsinfo = json_decode($jdataset8, true);
 }
-
-
-include 'includes/head.html';     // that is the <head tags>
 ?>
-<body>    
-	<div class="container bg-white px-0">
-
-<?php include 'includes/header.html';   // all the menus at the top 
-
-//--  start dependent content ---------------------------------------------------------
-
-include '_datasetNoAccordions.php';
-	
-//-- start footers  -----------------------------
-
-include_once 'includes/footer.html';
-include_once 'includes/finish.inc';
-
-?>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>  
+        <?php
+        include 'includes/meta.html'; // that is the <meta and link tags> superseeds head.html
+ // that is the <head tags>
  
-	</div>
-</body>
+        $script = ''; // $script is added to the header as the
+        if (isset($jdataset8)) {
+            $script = "<script type=\"application/ld+json\">" . $jdataset8 . "</script>";
+            echo $script;
+        }
+        ?>
+    </head>
 
+    <body>    
+    	<div class="container bg-white px-0">
+    
+    <?php include 'includes/header.html';   // all the menus at the top 
+    
+    //--  start dependent content ---------------------------------------------------------
+    
+    include '_datasetNoAccordions.php';
+    	
+    //-- start footers  -----------------------------
+    
+    include_once 'includes/footer.html';
+    include_once 'includes/finish.inc';
+    
+    ?>
+     
+    	</div>
+    </body>
+    
 </html>
-
+    
