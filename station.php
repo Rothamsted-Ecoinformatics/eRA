@@ -114,6 +114,11 @@ $hasMonthly = file_exists($fileMonthly);
 						<li class="nav-item"><a class="nav-link" id="datasets-tab"
 							data-toggle="tab" href="#datasets">Datasets</a></li>
 						<?php } ?>
+						<?php if ($hasDatasets) {?>
+                						<li class="nav-item"><a class="nav-link"
+							id="datasets2-tab" data-toggle="tab" href="#datasets2">Datasets
+								Cards</a></li>
+                						<?php } ?>
 						<li class="nav-item"><a class="nav-link" id="images-tab"
 							data-toggle="tab" href="#images">Images</a></li>
 						<li class="nav-item"><a class="nav-link" id="documents-tab"
@@ -148,6 +153,13 @@ $hasMonthly = file_exists($fileMonthly);
 							<?php include '_datasets.php';?>
 							</div>
 						<?php }?>
+						
+                						<?php if ($hasDatasets) {?>
+                						<div class="tab-pane  pb-3" id="datasets2"
+							role="tabpanel" aria-labelledby="datasets2-tab">
+                							<?php include '_datasetsCards.php';?>
+                							</div>
+                							<?php }?>
 						<div class="tab-pane" id="images" role="tabpanel"
 							aria-labelledby="images-tab">
 							<?php //include '_images.php';?>
