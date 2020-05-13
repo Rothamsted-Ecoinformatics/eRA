@@ -140,7 +140,7 @@ $page_title .=  $pageinfo['Experiment'];
             
             ?>
      
-    	</div>
+    	
         <?php
         
         include_once 'includes/finish.inc'; // this has the common js scripts

@@ -197,7 +197,7 @@ include_once 'includes/footer.html';
 
 ?>
  
-	</div>
+	
 <?php
 
 include_once 'includes/finish.inc'; // this has the common js scripts

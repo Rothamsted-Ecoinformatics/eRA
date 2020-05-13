@@ -1,6 +1,7 @@
 <?php
-
+include "_bottom.php";
 ?>
+</div>
 <script src="js/jquery.min.js"></script>
 <script src="js/era.js"></script>
 <script src="js/popper.min.js"></script>
