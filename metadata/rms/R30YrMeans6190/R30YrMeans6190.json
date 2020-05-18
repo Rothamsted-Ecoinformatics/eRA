@@ -65,10 +65,10 @@
     "creator": [
         {
             "type": "Person",
-            "Name": "Sarah Perryman",
-            "givenName": "Sarah",
-            "familyName": "Perryman",
-            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "Name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
@@ -85,10 +85,10 @@
         },
         {
             "type": "Person",
-            "Name": "Margaret Glendining",
-            "givenName": "Margaret",
-            "familyName": "Glendining",
-            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "Name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
@@ -152,6 +152,27 @@
         {
             "type": "Person",
             "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
             "name": "Sarah Perryman",
             "givenName": "Sarah",
             "familyName": "Perryman",
@@ -172,11 +193,11 @@
         },
         {
             "type": "Person",
-            "jobTitle": "DataCurator",
-            "name": "Margaret Glendining",
-            "givenName": "Margaret",
-            "familyName": "Glendining",
-            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "jobTitle": "RelatedPerson",
+            "name": "Nathalie Castells-Brooke",
+            "givenName": "Nathalie",
+            "familyName": "Castells-Brooke",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
@@ -230,27 +251,6 @@
             "affiliation": {
                 "type": "Organization",
                 "name": "Sustainable Agricultural Sciences, Rothamsted Research",
-                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
-            }
-        },
-        {
-            "type": "Person",
-            "jobTitle": "RelatedPerson",
-            "name": "Nathalie Castells-Brooke",
-            "givenName": "Nathalie",
-            "familyName": "Castells-Brooke",
-            "sameAs": "https://orcid.org/0000-0003-0168-6254",
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
-                "addressLocality": "Harpenden",
-                "addressRegion": "Hertfordshire",
-                "postalCode": "AL5 2JQ",
-                "addressCountry": "United Kingdom"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Computational and Analytical Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
         }

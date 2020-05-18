@@ -101,7 +101,7 @@
             "relatedIdentifier": "10.23637/rbk1-1796346264-1",
             "relatedIdentifierType": "DOI",
             "name": "Broadbalk Dataset",
-            "relatedIdentifierGeneralType": "Dataset",
+            "relatedIdentifierGeneralType": "text",
             "relationType": "IsDerivedFrom",
             "rt_id": 28,
             "relationTypeValue": "is derived from"

@@ -1,35 +1,35 @@
 {
     "@context": "https://schema.org/",
     "@type": "Dataset",
-    "identifier": "10.23637/OARES30YrMeans7100",
-    "name": "Rothamsted 30-year mean meteorological data 1971-2000",
-    "shortName": "R30YrMeans7100",
-    "url": "http://www.era.rothamsted.ac.uk/Met/R30YrMeans7100",
+    "identifier": "10.23637/rmsmmtemp10850917",
+    "name": "Mean monthly temperature at Rothamsted October 1985-September 2017",
+    "shortName": "rmsMMT10850917",
+    "url": "http://www.era.rothamsted.ac.uk/Met/rmsMMT10850917",
     "description": [
         {
             "inLanguage": "en",
             "descriptionType": "Abstract",
-            "description": "This dataset consists of the 30-year monthly mean meteorological data measured at Rothamsted Research, Harpenden, UK, from January 1971 until December 2000."
+            "description": "This dataset represents the mean monthly temperature at Rothamsted from October 1985 - September 2017 and is based on continuous daily records measured at the site."
         },
         {
             "inLanguage": "en",
             "descriptionType": "Methods",
-            "description": "Data is derived from daily measurements taken at the site. Mean monthly data is determined from daily data using Genstat 19th Edition."
-        },
-        {
-            "inLanguage": "en",
-            "descriptionType": "TableOfContents",
-            "description": "Rain, sun hours, max and min temp, mean temp, soil temp under grass, wind, evaporation, radiation."
+            "description": "The mean daily temperature is measured over a 24 hour period 0900 to 0900 GMT and calculated from the daily maximum (Tmax) and minimum temperatures (Tmin); the mean daily tamperature = (Tmax = Tmin)/2. The temperature is recorded at 1.5 m height above the ground surface within a naturally aspirating temperature unit (Stevenson screen). Temperature was first recorded in 1878, Tmax was then measured using a mercury column thermometer and Tmin using a spirit-in-glass with indicator bar minimum thermometer. Data were collected daily manually until 2004 using a standard protocol. Since 2004, temperatures have been recorded automatically by Automatic Weather Station thermistors (electronic temperature probes, Campbell Scientific, Type 107)."
         },
         {
             "inLanguage": "en",
             "descriptionType": "TechnicalInfo",
-            "description": "MEASUREMENTS:\u2022Rain: The mean total monthly rainfall including all precipitation (snow, rain, mist and fog) captured in a 5 inch rain gauge (mm per month)\r\n\r\n\u2022Sunshine: The mean total hours of sunshine (hours per month)\r\n\r\n\u2022Maximum temperature: The mean maximum monthly air temperature (degrees C)\r\n\u2022Minimum temperature: The mean minumum monthly air temperature (degrees C)\r\n\u2022Average temperature: The mean of the maximum and minimum air temperature (degrees C)\r\n\u2022Soil temperature under grass 30cm: The mean monthly soil temperature under grass at 30cm depth, measured at 0900 GMT (degrees C) \r\n\u2022Soil temperature under grass 100cm: The mean monthly soil temperature under grass at 100cm depth, measured at 0900 GMT (degrees C)\r\n\u2022Wind: The mean monthly wind speed measured at 2 metres above ground level, averaged over 24 hours (km per hour)\r\n\u2022Evaporation: The mean total monthly evaporation over two open water tanks installed in the spring of each year (mm per month) \r\n\u2022Radiation: The mean daily solar radiation measured with a Kipp Solarimeter (J/cm2)"
+            "description": "Location: Rothamsted Meteorological Station, Harpenden, Hertfordshire, England 51.82 N 0.37 W 128 m asl."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Other",
+            "description": "The original raw daily data is available, after registering, from the e-RA database. Please contact the e-RA Curators for an access password and further details."
         },
         {
             "inLanguage": "en",
             "descriptionType": "Provenance",
-            "description": "This 30-year mean meteorological data contained in this spreadsheet are derived from daily data measured at Rothamsted Research."
+            "description": "The monthly summary data contained in this spreadsheet are derived from daily data measured at Rothamsted Meteorological Station, Harpenden. Total monthly data is determined from daily data using Genstat 19th Edition."
         },
         {
             "inLanguage": "en",
@@ -42,44 +42,22 @@
         "name": "The Electronic Rothamsted Archive, Rothamsted Research"
     },
     "datePublished": null,
-    "dateCreated": "2019-10-07",
+    "dateCreated": "2020-03-11",
     "dateModified": null,
     "inLanguage": "en",
-    "version": "1",
+    "version": "01",
     "keywords": [
-        "air temperature",
-        "climate",
-        "climate change",
-        "meteorological factors",
+        "weather data",
         "meteorological station",
-        "precipitation",
-        "rain",
-        "rainfall patterns",
+        "weather",
         "temperature",
-        "soil temperature",
-        "wind speed"
+        "air temperature",
+        "precipitation",
+        "climate change",
+        "climate",
+        "Rothamsted Research"
     ],
     "creator": [
-        {
-            "type": "Person",
-            "Name": "Margaret Glendining",
-            "givenName": "Margaret",
-            "familyName": "Glendining",
-            "sameAs": "https://orcid.org/0000-0002-6466-4629",
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
-                "addressLocality": "Harpenden",
-                "addressRegion": "Hertfordshire",
-                "postalCode": "AL5 2JQ",
-                "addressCountry": "United Kingdom"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Computational and Analytical Sciences, Rothamsted Research",
-                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
-            }
-        },
         {
             "type": "Person",
             "Name": "Sarah Perryman",
@@ -99,56 +77,33 @@
                 "name": "Computational and Analytical Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
-        },
-        {
-            "type": "Person",
-            "Name": "Tony Scott",
-            "givenName": "Tony",
-            "familyName": "Scott",
-            "sameAs": "https://orcid.org/0000-0002-6631-0672",
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
-                "addressLocality": "Harpenden",
-                "addressRegion": "Hertfordshire",
-                "postalCode": "AL5 2JQ",
-                "addressCountry": "United Kingdom"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
-                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
-            }
-        },
-        {
-            "type": "Person",
-            "Name": "Chris Hall",
-            "givenName": "Chris",
-            "familyName": "Hall",
-            "sameAs": null,
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
-                "addressLocality": "Harpenden",
-                "addressRegion": "Hertfordshire",
-                "postalCode": "AL5 2JQ",
-                "addressCountry": "United Kingdom"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
-                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
-            }
-        },
-        {
-            "type": "organization",
-            "name": "Rothamsted Research"
         }
     ],
     "contributor": [
         {
             "type": "Person",
-            "jobTitle": "DataCurator",
+            "jobTitle": "ProjectManager",
+            "name": "Andrew Macdonald",
+            "givenName": "Andrew",
+            "familyName": "Macdonald",
+            "sameAs": "https://orcid.org/0000-0002-1785-4892",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
             "name": "Margaret Glendining",
             "givenName": "Margaret",
             "familyName": "Glendining",
@@ -169,7 +124,7 @@
         },
         {
             "type": "Person",
-            "jobTitle": "DataCurator",
+            "jobTitle": "DataManager",
             "name": "Sarah Perryman",
             "givenName": "Sarah",
             "familyName": "Perryman",
@@ -190,11 +145,32 @@
         },
         {
             "type": "Person",
-            "jobTitle": "RelatedPerson",
+            "jobTitle": "ProjectMember",
             "name": "Nathalie Castells-Brooke",
             "givenName": "Nathalie",
             "familyName": "Castells-Brooke",
             "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectLeader",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
@@ -272,17 +248,7 @@
         },
         "name": "Rothamsted Met Station"
     },
-    "relatedIdentifier": [
-        {
-            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Met/R30YrMeans6190",
-            "relatedIdentifierType": "URL",
-            "name": "Not in the Database",
-            "relatedIdentifierGeneralType": "text",
-            "relationType": "Continues",
-            "rt_id": 6,
-            "relationTypeValue": "continues"
-        }
-    ],
+    "relatedIdentifier": [],
     "funder": [
         {
             "type": "organization",
@@ -295,10 +261,10 @@
     "distribution": [
         {
             "type": "dataDownload",
-            "name": null,
-            "URL": null,
-            "encodingFormat": "",
-            "fileSize": "8 KB"
+            "name": "Mean monthly temperature at Rothamsted October 1985-September 2017",
+            "URL": "rmsMMT10850917-data",
+            "encodingFormat": "rmsMMT10850917-data",
+            "fileSize": "13 KB"
         }
     ]
 }

@@ -142,7 +142,7 @@
             "relatedIdentifier": "10.23637/ERADOC-1-34920",
             "relatedIdentifierType": "DOI",
             "name": "The Soils of Broadbalk",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Dataset",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
             "relationTypeValue": "is described by"

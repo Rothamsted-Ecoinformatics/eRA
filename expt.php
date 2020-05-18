@@ -113,7 +113,7 @@ echo title_case($experiment['administrative']['name']);
                 						<li class="nav-item"><a class="nav-link"
 							id="datasets-tab" data-toggle="tab" href="#datasets">Datasets</a></li>
                 						<?php } ?>
-                												<?php if ($hasDatasets) {?>
+                		<?php if ($hasDatasets) {?>
                 						<li class="nav-item"><a class="nav-link"
 							id="datasets2-tab" data-toggle="tab" href="#datasets2">Datasets
 								Cards</a></li>
