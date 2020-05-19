@@ -188,18 +188,18 @@ IF(`eraPapers`.Year IS NULL or `eraPapers`.Year='', 1, 0)AS yearnull ,
 
 					<?php
         // echo $query;
-        LogAsGuest();
-        
-        $resultk2 = mysql_query($query);
+        $link = LogAsGuest();
+        echo ($query);
+        $resultk2 = mysqli_query($link,$query);
         if (! $resultk2) {
             print("query failed");
         } else {
             $i = 0;
-            $nbResults = mysql_num_rows($resultk2);
+            $nbResults = mysqli_num_rows($resultk2);
             if ($nbResults > 0) {
                 echo ("<br /><b>Result: $nbResults references</b><br />");
             }
-            while ($rowk2 = mysql_fetch_array($resultk2)) {
+            while ($rowk2 = mysqli_fetch_array($resultk2)) {
                 
                 /*
                  * if ( $rowk2[RefType] != $OldType) {

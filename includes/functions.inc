@@ -159,14 +159,13 @@ function LogAsGuest()
     global $Gs0tw;
     global $ltwogd1yr;
     $debug .= "login in <br />";
-    $link = mysql_connect($Turbigo, $Dfdniwie, $Gs0tw) or die("Error Could not connect to Database: " . mysql_error()); // connect to database
-    mysql_select_db($ltwogd1yr) or exit(); // select rrr database
+    $link = mysqli_connect($Turbigo, $Dfdniwie, $Gs0tw) or die("Error Could not connect to Database: " . mysql_error()); // connect to database
+    mysqli_select_db($link, $ltwogd1yr) or exit(); // select rrr database
     if ($link)
         $debug .= "Connected";
-    // echo $debug;
+    echo $debug;
     return $link;
 }
-
 
 
 

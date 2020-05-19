@@ -16,15 +16,15 @@ function GetKeyRefs($KeyRef)
     // echo $query; //Change that with Listing Unreviewed poster in a separate category.
     LogAsGuest();
     
-    $resultk2 = mysql_query($query);
-    $num_rowsk2 = mysql_num_rows($resultk2);
+    $resultk2 = mysqli_query($query);
+    $num_rowsk2 = mysqli_num_rows($resultk2);
     
     if (! $resultk2) {
         print("query failed");
     } else {
         if ($num_rowsk2 > 0) {
             $i = 0;
-            while ($rowk2 = mysql_fetch_array($resultk2)) {
+            while ($rowk2 = mysqli_fetch_array($resultk2)) {
                 
                 if ($rowk2[Year] != $OldYear) {
                     
@@ -96,7 +96,7 @@ function outputTAB($query)
 { // prepare a file called export.txt in index directory to export Library as TAB
 LogAsGuest();
 
-$resultk2 = mysql_query($query);
+$resultk2 = mysqli_query($query);
 if (! $resultk2) {
     print("query failed");
 } else {
@@ -107,7 +107,7 @@ if (! $resultk2) {
     // echo ("<pre>");
     $i = 0;
     // echo ("Reference Type\tAuthor\tYear\tTitle\tSecondary Title\tVolume\tPages");
-    while ($rowk2 = mysql_fetch_array($resultk2)) {
+    while ($rowk2 = mysqli_fetch_array($resultk2)) {
         
         $ReferenceLine = "\n$rowk2[RefType]";
         $stringAuthors = str_replace(". and", ";", $rowk2[Authors]);
@@ -132,7 +132,7 @@ function outputEN($query)
 {
     LogAsGuest();
     
-    $resultk2 = mysql_query($query);
+    $resultk2 = mysqli_query($query);
     if (! $resultk2) {
         print("query failed");
     } else {
@@ -142,7 +142,7 @@ function outputEN($query)
         // echo ("<pre>");
         $i = 0;
         
-        while ($rowk2 = mysql_fetch_array($resultk2)) {
+        while ($rowk2 = mysqli_fetch_array($resultk2)) {
             
             $ReferenceLine = "\n\n%0 $rowk2[RefType]";
             $stringAuthors = str_replace(". and", "\n%A", $rowk2[Authors]);
@@ -180,7 +180,7 @@ function outputMED($query)
 {
     LogAsGuest();
     
-    $resultk2 = mysql_query($query);
+    $resultk2 = mysqli_query($query);
     if (! $resultk2) {
         print("query failed");
     } else {
@@ -190,7 +190,7 @@ function outputMED($query)
         // echo ("<pre>");
         $i = 0;
         
-        while ($rowk2 = mysql_fetch_array($resultk2)) {
+        while ($rowk2 = mysqli_fetch_array($resultk2)) {
             
             $ReferenceLine = "\n\nPMID- $rowk2[PaperID]\nPT  - $rowk2[RefType]";
             $stringAuthors = str_replace(". and", "\nAU", $rowk2[Authors]);
@@ -238,14 +238,14 @@ function outputALL($query)
     LogAsGuest();
     
     $ReferenceLine = "FN ISI Export Format";
-    $results = mysql_query($query);
+    $results = mysqli_query($query);
     if (! $results) {
         print("query failed");
     } else {
         $ourFileName = "export.txt";
         $fh = fopen($ourFileName, 'w') or die("can't open file");
         fwrite($fh, $ReferenceLine);
-        while ($rows = mysql_fetch_array($results)) {
+        while ($rows = mysqli_fetch_array($results)) {
             
             $RefType = $rows[RefType];
             $PT = $RefType{0};
