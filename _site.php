@@ -15,6 +15,43 @@
  * @param unknown $site            
  * @return string
  */
+function getProperties ($site) {
+    $content = '';
+    if (is_array($site['soilProperty']) and count($site['soilProperty']) > 0) {
+
+        $content .= "\n<h3 class=\"mx-3\">Soil Properties</h3>";
+        $content .= "\n<div class=\"table-responsive-sm bg-white m-5 p-3\">";
+        $content .= "\n\n<table class = \"table  table-responsive-sm table-sm  table-hover\"><thead><tr>";
+        $content .= "\n<th scope=\"col\">Variable</th>";
+        
+        $content .= "\n<th scope=\"col\">Value</th>";
+        //$content .= "\n<th scope=\"col\">Measured at Depth</th>";
+        
+        $content .= "\n<th scope=\"col\">Reference Year</th>";
+        $content .= "\n<th scope=\"col\">Is Estimated</th>";
+        $content .= "\n<th scope=\"col\">Is Baseline</th>";
+        $content .= "\n</tr>";
+        $content .= "\n</thead>";
+        $content .= "\n<tbody>";
+        foreach ($site['soilProperty'] as $measurement) {
+            if ($measurement['isEstimated'] == TRUE) {$isEst = "YES";} else {$isEst = "NO";}
+            if ($measurement['isBaseline'] == TRUE) {$isBas = "YES";} else {$isBas = "NO";}
+            $content .= "\n<tr>";
+            $content .= "\n<td>" . title_case($measurement['variableMeasured']) . "</td>";
+            $content .= "\n<td>" . $measurement['valueReference'] . $measurement['unitCode'] . " (". $measurement['unitText'] . ") </td>";
+            //$content .= "\n<td> Depth (TODO) </td>";
+            $content .= "\n<td>" . $measurement['refYear'] . "</td>";
+            $content .= "\n<td>" . $isEst. "</td>";
+            $content .= "\n<td>" . $isBas . "</td>";
+            
+            $content .= "\n</tr>";
+        }
+        
+        $content .= "\n</tbody>";
+        $content .= "\n</table></div>";
+    }
+    return $content;
+}
 ?>
 <h2 class="mx-3">Site: <?php echo $site['administrative']['name'];?></h2>
 <div class="mx-5">
@@ -73,6 +110,9 @@ if ($site['soil']['soilTypeLabel']) {
     $line .= "\n</li>";
 }
 $line .= "\n</ul>";
+
+$line .=getProperties ($site);
+
 echo $line;
 ?>
  
