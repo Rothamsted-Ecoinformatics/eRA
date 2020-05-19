@@ -6,3 +6,4 @@ includes/config.inc
 1test.html
 2test.html
 metadata/default/dataQuality.php.bak
+*.bak
