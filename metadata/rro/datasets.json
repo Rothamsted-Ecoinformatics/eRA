@@ -11,6 +11,7 @@
         "fieldname": "Pastures",
         "experiment_name": "Fumigation",
         "experiment_code": "R/RO",
+        "grade": 1,
         "shortName": "Fumi35"
     },
     {
@@ -25,6 +26,7 @@
         "fieldname": "Pastures",
         "experiment_name": "Fumigation",
         "experiment_code": "R/RO",
+        "grade": 1,
         "shortName": "Fumi36"
     }
 ]
