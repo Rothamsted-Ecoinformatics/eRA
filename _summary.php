@@ -36,7 +36,7 @@ function getPersonInfo($personDetails)
         $line .= "\n<li class=\"list-group-item pl-5\"><b>Role: </b>" . title_case($personDetails['jobTitle']) . "</li>";
     }
     if ($personDetails['sameAs']) {
-        $line .= "\n<li class=\"list-group-item pl-5\"><b>ORCID: </b><a target =\"_blank\"  href=\"" . $personDetails['sameAs'] . "\">" . $personDetails['sameAs'] . "</a>" . "</li>";
+        $line .= "\n<li class=\"list-group-item pl-5\"><b>ORCID: </b><a target =\"_blank\"  href=\"" . $personDetails['sameAs'] . "\">" . $personDetails['sameAs'] . "</a> <sup><i class=\"fa fa-external-link\" aria-hidden=\"true\"></i></sup>" . "</li>";
     }
 
     if ($personDetails['affiliation']['type'] == "Organization") {

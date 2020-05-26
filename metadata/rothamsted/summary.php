@@ -6,7 +6,7 @@
 		<p>
 		Rothamsted Research is a world-leading, non-profit research centre that focuses on strategic agricultural science to the benefit of farmers and society worldwide.
 		</p>
-		<p><a target="_blank" href="https://www.rothamsted.ac.uk/">More...</a></p>
+		<p><a target="_blank" href="https://www.rothamsted.ac.uk/">More... <sup><i class="fa fa-external-link" aria-hidden="true"></i></sup></a></p>
 	</div>
 	<div class="col-6">
 		<div id="mapid" style="width: 500px; height: 400px;"></div>
