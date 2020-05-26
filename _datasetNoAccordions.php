@@ -105,7 +105,7 @@ if ($hasDataset) {
             if ($ris['relatedIdentifierGeneralType'] == "text") {
                
                 $hasDocuments = 1;
-                $relDocuments .= "<li>".$ris['relationTypeValue']." : <a href=\"http://doi.org/".$ris['relatedIdentifier']."\">".$ris['relatedIdentifier']."</a>: ".$ris['name']."</li>";
+                $relDocuments .= "<li>".$ris['relationTypeValue']." : <a target = \_blank\" href=\"http://doi.org/".$ris['relatedIdentifier']."\">".$ris['relatedIdentifier']."</a> <sup><i class=\"fa fa-external-link\" aria-hidden=\"true\"></i></sup>: ".$ris['name']."</li>";
             } elseif ($ris['relatedIdentifierGeneralType'] == "Dataset") 
                 {
                     $hasDatasets = 1;
