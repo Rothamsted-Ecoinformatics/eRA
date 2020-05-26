@@ -267,7 +267,7 @@ if (isset($arrDescription['Other'])) {
 						data-parent="#accordion">
 						<div class="card-body">
 							<p>
-								<a rel="license"
+								<a rel="license" target="_blank" 
 									href="http://creativecommons.org/licenses/by/4.0/" target="out"><img
 									style="width: 50px;" alt="Creative Commons License"
 									src="images/logos/cc4.png" align="middle" /></a> This work is
@@ -278,7 +278,7 @@ if (isset($arrDescription['Other'])) {
 							<p>
 								<strong>YOU MUST CITE AS: </strong>Rothamsted Research (<?php echo $datePublication;?>).
 								<?php echo $dsinfo['name'];?> <em>Electronic Rothamsted Archive</em>
-								<a href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
+								<a  target="_blank"  href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
 
 							</p>
 							<p>Rothamsted relies on the integrity of users to ensure that

@@ -36,7 +36,7 @@ function getPersonInfo($personDetails)
         $line .= "\n<li class=\"list-group-item pl-5\"><b>Role: </b>" . title_case($personDetails['jobTitle']) . "</li>";
     }
     if ($personDetails['sameAs']) {
-        $line .= "\n<li class=\"list-group-item pl-5\"><b>ORCID: </b><a href=\"" . $personDetails['sameAs'] . "\">" . $personDetails['sameAs'] . "</a>" . "</li>";
+        $line .= "\n<li class=\"list-group-item pl-5\"><b>ORCID: </b><a target =\"_blank\"  href=\"" . $personDetails['sameAs'] . "\">" . $personDetails['sameAs'] . "</a>" . "</li>";
     }
 
     if ($personDetails['affiliation']['type'] == "Organization") {
@@ -151,7 +151,7 @@ function getPersonInfo($personDetails)
  	<ul class="list-group mx-3">
 		<li class="list-group-item " style="white-space: pre-wrap;"><b>Type: </b>CreativeWork</li>
 		<li class="list-group-item " style="white-space: pre-wrap;"><b>Title: </b>CC0</li>
-		<li class="list-group-item " style="white-space: pre-wrap;"><b>License: </b><a href="https://creativecommons.org/share-your-work/public-domain/cc0/"><img src="images/logos/cc0.png"></a></li>
+		<li class="list-group-item " style="white-space: pre-wrap;"><b>License: </b><a target=\"_blank\" href="https://creativecommons.org/share-your-work/public-domain/cc0/"><img src="images/logos/cc0.png"></a></li>
 	</ul>
 <?php
 if (count($person['contributors']) > 0) {

@@ -13,7 +13,8 @@
 		data-width="100%" 
 		data-height="900" 
 		data-tweet-limit="3"
-			href="https://twitter.com/eRA_Curator">Tweets by eRA_Curator</a>
+		target="_blank" 
+		href="https://twitter.com/eRA_Curator">Tweets by eRA_Curator</a>
 	</div>
 </div>
 

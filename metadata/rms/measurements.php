@@ -69,7 +69,7 @@
 
 				<td>Dew point 1915-current date (derived from DRYB &amp; WETB until
 					2013, derived from DRYB &amp; RELH since 2014)</td>
-					<td><p>On 15th January 2014 <B>WETB </B>was discontinued and replaced by a Relative Humidity Sensor (Campbell Scientific, MP100A) to measure relative humidity <B>(RELH) </B>and from which vapour pressure <B>(VAP)</B> and dew point <B>(DEWP)</B> are now calculated after the method of <a href="https://doi.org/10.1175/1520-0450(1981)020<1527:NEFCVP>2.0.CO;2">Buck (1981)</a>. </p>
+					<td><p>On 15th January 2014 <B>WETB </B>was discontinued and replaced by a Relative Humidity Sensor (Campbell Scientific, MP100A) to measure relative humidity <B>(RELH) </B>and from which vapour pressure <B>(VAP)</B> and dew point <B>(DEWP)</B> are now calculated after the method of <a target="_blank" href="https://doi.org/10.1175/1520-0450(1981)020<1527:NEFCVP>2.0.CO;2">Buck (1981) <sup><i class="fa fa-external-link" aria-hidden="true"></i></sup></a>. </p>
 			</tr>
 			<tr>
 				<td>GRSMIN</td>
@@ -251,9 +251,9 @@
 						new gauge was installed and the carboys replaced by galvanized
 						iron calibrated cylinders to measure rainfall. The old gauge was
 						replaced by an identical new one in 1992. For details of the early
-						history of the 1/1000th acre rain gauge, see Lawes,<a
+						history of the 1/1000th acre rain gauge, see Lawes,<a target="_blank"
 							href="https://babel.hathitrust.org/cgi/pt?id=osu.32435010735041&view=1up&seq=7
-				">Gilbert & Warington, 1881 (J Royal Agric Soc <b> 17</b>: 241-279)
+				">Gilbert & Warington, 1881 (J Royal Agric Soc <b> 17</b>: 241-279) <sup><i class="fa fa-external-link" aria-hidden=\"true"></i></sup>
 						</a>
 					</p>
 					<p>From 2004 onwards the calibrated cylinders were replaced by an
