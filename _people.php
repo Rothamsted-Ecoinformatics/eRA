@@ -32,7 +32,7 @@
 						srcset="images/people/Pages/chris-rawlings.jpg">
 					<source media="(min-width: 1200 px)"
 						srcset="images/people/Thumbs/chris-rawlings.jpg">
-					<a href="https://www.rothamsted.ac.uk/our-people/chris-rawlings"><img
+					<a target="_blank" href="https://www.rothamsted.ac.uk/our-people/chris-rawlings"><img
 						class="card-img-top rounded-circle"
 						src="images/people/FullSize/chris-rawlings.jpg"
 						alt="Chris Rawlings" style="width: 100%"></a></picture>
@@ -40,8 +40,8 @@
 				<div class="card-body  text-top">
 					<h6 class="card-title">
 						<a class="text-warning"
-							href="https://www.rothamsted.ac.uk/our-people/chris-rawlings">Chris
-							Rawlings</a></a>
+							target="_blank" href="https://www.rothamsted.ac.uk/our-people/chris-rawlings">Chris
+							Rawlings</a>
 					</h6>
 					<p class="card-text small">Chair</p>
 
@@ -57,8 +57,8 @@
 					<source media="(min-width: 1200 px)"
 						srcset="images/people/Thumbs/malcolm-hawkesford.jpg">
 					<a
-						href="https://www.rothamsted.ac.uk/our-people/malcolm-hawkesford"><a
-						href="https://www.rothamsted.ac.uk/our-people/cmalcolm-hawkesford"><img
+						target="_blank" href="https://www.rothamsted.ac.uk/our-people/malcolm-hawkesford"><a
+						target="_blank" href="https://www.rothamsted.ac.uk/our-people/malcolm-hawkesford"><img
 							class="card-img-top rounded-circle"
 							src="images/people/FullSize/malcolm-hawkesford.jpg"
 							alt="Malcom Hawkesford" style="width: 100%"></a></picture>
@@ -66,7 +66,7 @@
 				<div class="card-body text-top">
 					<h6 class="card-title">
 						<a
-							href="https://www.rothamsted.ac.uk/our-people/malcolm-hawkesford"
+							target="_blank" href="https://www.rothamsted.ac.uk/our-people/malcolm-hawkesford"
 							class="text-warning">Malcolm Hawkesford</a>
 					</h6>
 					<p class="card-text small">Chair</p>
@@ -83,7 +83,7 @@
 						srcset="images/people/Pages/richard-ostler.jpg">
 					<source media="(min-width: 1200 px)"
 						srcset="images/people/Thumbs/richard-ostler.jpg">
-					<a href="https://www.rothamsted.ac.uk/our-people/richard-ostler"><img
+					<a target="_blank" href="https://www.rothamsted.ac.uk/our-people/richard-ostler"><img
 						class="card-img-top rounded-circle"
 						src="images/people/FullSize/richard-ostler.jpg"
 						alt="Malcom Hawkesford" style="width: 100%"> </a></picture>
@@ -93,7 +93,7 @@
 				<div class="card-body text-top">
 					<h6 class="card-title">
 						<a class="text-warning"
-							href="https://www.rothamsted.ac.uk/our-people/richard-ostler">Richard
+							target="_blank" href="https://www.rothamsted.ac.uk/our-people/richard-ostler">Richard
 							Ostler</a>
 					</h6>
 					<p class="card-text small">Project Leader</p>
@@ -111,7 +111,7 @@
 					<source media="(min-width: 1200 px)"
 						srcset="images/people/Thumbs/nathalie-castells-brooke.jpg">
 					<a
-						href="https://www.rothamsted.ac.uk/our-people/nathalie-castells-brooke"><img
+						target="_blank" href="https://www.rothamsted.ac.uk/our-people/nathalie-castells-brooke"><img
 						class="card-img-top rounded-circle"
 						src="images/people/FullSize/nathalie-castells-brooke.jpg"
 						alt="Nathalie Castells-Brooke" style="width: 100%"> </a></picture>
@@ -119,7 +119,7 @@
 				<div class="card-body text-top">
 					<h6 class="card-title">
 						<a class="text-warning"
-							href="https://www.rothamsted.ac.uk/our-people/nathalie-castells-brooke">Nathalie
+							target="_blank" href="https://www.rothamsted.ac.uk/our-people/nathalie-castells-brooke">Nathalie
 							Castells-Brooke</a>
 					</h6>
 					<p class="card-text small">Software Developer</p>
@@ -136,7 +136,7 @@
 					<source media="(min-width: 1200 px)"
 						srcset="images/people/Thumbs/margaret-glendining.jpg">
 					<a
-						href="https://www.rothamsted.ac.uk/our-people/margaret-glendining"><img
+						target="_blank" href="https://www.rothamsted.ac.uk/our-people/margaret-glendining"><img
 						class="card-img-top rounded-circle"
 						src="images/people/FullSize/margaret-glendining.jpg"
 						alt="Margaret Glendining" style="width: 100%"> </a></picture>
@@ -145,7 +145,7 @@
 				<div class="card-body text-top">
 					<h6 class="card-title">
 						<a class="text-warning"
-							href="https://www.rothamsted.ac.uk/our-people/margaret-glendining">Margaret
+							target="_blank" href="https://www.rothamsted.ac.uk/our-people/margaret-glendining">Margaret
 							Glendining</a>
 					</h6>
 					<p class="card-text small">Data manager</p>
@@ -161,7 +161,7 @@
 						srcset="images/people/Pages/sarah-perryman.jpg">
 					<source media="(min-width: 1200 px)"
 						srcset="images/people/Thumbs/sarah-perryman.jpg">
-					<a href="https://www.rothamsted.ac.uk/our-people/sarah-perryman"><img
+					<a target="_blank" href="https://www.rothamsted.ac.uk/our-people/sarah-perryman"><img
 						class="card-img-top rounded-circle"
 						src="images/people/FullSize/sarah-perryman.jpg"
 						alt="Sarah Perryman" style="width: 100%"> </a></picture>
@@ -170,7 +170,7 @@
 				<div class="card-body text-top">
 					<h6 class="card-title">
 						<a class="text-warning"
-							href="https://www.rothamsted.ac.uk/our-people/sarah-perryman">Sarah
+							target="_blank" href="https://www.rothamsted.ac.uk/our-people/sarah-perryman">Sarah
 							Perryman</a>
 					</h6>
 					<p class="card-text small">Data manager</p>
@@ -197,7 +197,7 @@
 						srcset="images/people/Pages/chris-hall.jpg">
 					<source media="(min-width: 1200 px)"
 						srcset="images/people/Thumbs/chris-hall.jpg">
-					<a href="https://www.rothamsted.ac.uk/our-people/chris-hall"><img
+					<a target="_blank" href="https://www.rothamsted.ac.uk/our-people/chris-hall"><img
 						class="card-img-top rounded-circle"
 						src="images/people/FullSize/chris-hall.jpg" alt="Chris Hall"
 						style="width: 100%"> </a></picture>
@@ -206,7 +206,7 @@
 				<div class="card-body text-top">
 					<h6 class="card-title">
 						<a class="text-warning"
-							href="https://www.rothamsted.ac.uk/our-people/chris-hall">Chris
+							target="_blank" href="https://www.rothamsted.ac.uk/our-people/chris-hall">Chris
 							Hall</a>
 					</h6>
 					<p class="card-text small">Field Technician</p>
@@ -222,7 +222,7 @@
 						srcset="images/people/Pages/steve-freeman.jpg">
 					<source media="(min-width: 1200 px)"
 						srcset="images/people/Thumbs/steve-freeman.jpg">
-					<a href="https://www.rothamsted.ac.uk/our-people/steve-freeman"><img
+					<a target="_blank" href="https://www.rothamsted.ac.uk/our-people/steve-freeman"><img
 						class="card-img-top rounded-circle"
 						src="images/people/FullSize/steve-freeman.jpg" alt="Steve Freeman"
 						style="width: 100%"> </a></picture>
@@ -231,7 +231,7 @@
 				<div class="card-body text-top">
 					<h6 class="card-title">
 						<a class="text-warning"
-							href="https://www.rothamsted.ac.uk/our-people/steve-freeman">Steve
+							target="_blank" href="https://www.rothamsted.ac.uk/our-people/steve-freeman">Steve
 							Freeman</a>
 					</h6>
 					<p class="card-text small">Ecology technician</p>
@@ -249,7 +249,7 @@
 						srcset="images/people/Pages/andy-macdonald.jpg">
 					<source media="(min-width: 1200 px)"
 						srcset="images/people/Thumbs/andy-macdonald.jpg">
-					<a href="https://www.rothamsted.ac.uk/our-people/andy-macdonald"><img
+					<a target="_blank" href="https://www.rothamsted.ac.uk/our-people/andy-macdonald"><img
 						class="card-img-top rounded-circle"
 						src="images/people/FullSize/andy-macdonald.jpg"
 						alt="Andy Macdonald" style="width: 100%"> </a></picture>
@@ -258,7 +258,7 @@
 				<div class="card-body text-top">
 					<h6 class="card-title">
 						<a class="text-warning"
-							href="https://www.rothamsted.ac.uk/our-people/andy-macdonald">Andy
+							target="_blank" href="https://www.rothamsted.ac.uk/our-people/andy-macdonald">Andy
 							Macdonald</a>
 					</h6>
 					<p class="card-text small">Project leader</p>
@@ -275,7 +275,7 @@
 						srcset="images/people/Pages/tony-scott.jpg">
 					<source media="(min-width: 1200 px)"
 						srcset="images/people/Thumbs/tony-scott.jpg">
-					<a href="https://www.rothamsted.ac.uk/our-people/tony-scott"><img
+					<a target="_blank" href="https://www.rothamsted.ac.uk/our-people/tony-scott"><img
 						class="card-img-top rounded-circle"
 						src="images/people/FullSize/tony-scott.jpg" alt="Tony Scott"
 						style="width: 100%"> </a></picture>
@@ -284,7 +284,7 @@
 				<div class="card-body text-top">
 					<h6 class="card-title">
 						<a class="text-warning"
-							href="https://www.rothamsted.ac.uk/our-people/tony-scott">Tony
+							target="_blank" href="https://www.rothamsted.ac.uk/our-people/tony-scott">Tony
 							Scott</a>
 					</h6>
 					<p class="card-text small">Environmental Scientist</p>
@@ -302,7 +302,7 @@
 						srcset="images/people/Pages/suzanne-clark.jpg">
 					<source media="(min-width: 1200 px)"
 						srcset="images/people/Thumbs/suzanne-clark.jpg">
-					<a href="https://www.rothamsted.ac.uk/our-people/suzanne-clark"><img
+					<a target="_blank" href="https://www.rothamsted.ac.uk/our-people/suzanne-clark"><img
 						class="card-img-top rounded-circle"
 						src="images/people/FullSize/suzanne-clark.jpg" alt="Suzanne Clark"
 						style="width: 100%"> </a></picture>
@@ -311,7 +311,7 @@
 				<div class="card-body text-top">
 					<h6 class="card-title">
 						<a class="text-warning"
-							href="https://www.rothamsted.ac.uk/our-people/suzanne-clark">Suzanne
+							target="_blank" href="https://www.rothamsted.ac.uk/our-people/suzanne-clark">Suzanne
 							Clark</a>
 					</h6>
 					<p class="card-text small">Statistician</p>

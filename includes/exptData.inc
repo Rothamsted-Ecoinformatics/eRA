@@ -442,10 +442,10 @@ function processCell($item)
         } else {
             switch ($heading) {
                 case 'DOI':
-                    $pCell = '<a target="out" href="http://doi.org/' . $cell . '">' . $cell . '</a>';
+                    $pCell = '<a target="_blank" href="http://doi.org/' . $cell . '">' . $cell . '</a>';
                     break;
                 case 'Grant number':
-                    $pCell = '<a href="https://bbsrc.ukri.org/research/grants-search/AwardDetails/?FundingReference=' . urlencode($cell) . '">' . $cell . '</a>';
+                    $pCell = '<a target="_blank"  href="https://bbsrc.ukri.org/research/grants-search/AwardDetails/?FundingReference=' . urlencode($cell) . '">' . $cell . '</a>';
                     break;
                 case 'Title':
                     $pCell = '<b>' . $cell . '</b>';
