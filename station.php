@@ -116,8 +116,7 @@ $hasMonthly = file_exists($fileMonthly);
 						<?php } ?>
 						<?php if ($hasDatasets) {?>
                 						<li class="nav-item"><a class="nav-link"
-							id="datasets2-tab" data-toggle="tab" href="#datasets2">Datasets
-								Cards</a></li>
+							id="datasets2-tab" data-toggle="tab" href="#datasets">Datasets</a></li>
                 						<?php } ?>
 						<li class="nav-item"><a class="nav-link" id="images-tab"
 							data-toggle="tab" href="#images">Images</a></li>
