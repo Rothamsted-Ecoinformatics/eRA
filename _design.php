@@ -89,6 +89,7 @@ function getContent($period)
             $hasData = True;
             $data.= "\n<li class=\"list-group-item \"><b>" . $variableMapping['numberOfHarvests'] . ":</b> " . $period['design']['numberOfHarvests'] . "</li>";
         }
+      
         
        
         
@@ -117,6 +118,30 @@ function getContent($period)
             $content .= "</li>";
         }
         $content .= "\n</ul>";
+    }
+    
+    if (is_array($period['cropRotations'])) {
+        $info = "<div class=\"row equal m-3\">";
+        $content .= "\n<h3 class=\"mx-3\">Crop Rotations</h3>";  
+        foreach ($period['cropRotations'] as $rotation) { 
+         
+            $info .= "<div class=\"col-sm-4 py-2\">";
+            $info .= "      <div class=\"card bg-light  mb-2 \" style=\"max-width: 18rem;\">";
+            $info .= "          <div class=\"card-header\">" . $rotation['name'] ." <i>(" . $rotation['dateStart'] ." - " . $rotation['dateEnd'] .")</i> " .  "</div>";
+            $info .= "          <div class=\"card-body\">";
+            $info .= "              <p class=\"card-text\">Some quick example text to build on the card title and make up the";
+            $info .= "                  bulk of the card's content.</p>";
+            $info .= "          </div>";
+            $info .= "      </div>";
+            $info .= "      </div>";
+          
+
+          
+
+        }
+        
+        $info .= "\n</div>";
+        $content .= $info;
     }
     
     if (is_array($period['measurements']) and count($period['measurements']) > 0) {
