@@ -17,7 +17,8 @@
             "numberOdBlocks": 4,
             "numberOfPlots": 8,
             "numberOfReplicates": 4,
-            "numberOfSubplots": 5
+            "numberOfSubplots": 5,
+            "numberOfHarvests": 1
         },
         "crops": [
             {
@@ -79,7 +80,8 @@
             "numberOdBlocks": 4,
             "numberOfPlots": 10,
             "numberOfReplicates": 4,
-            "numberOfSubplots": null
+            "numberOfSubplots": null,
+            "numberOfHarvests": 1
         },
         "crops": "NA",
         "cropRotations": "NA",
@@ -105,7 +107,8 @@
             "numberOdBlocks": null,
             "numberOfPlots": 8,
             "numberOfReplicates": null,
-            "numberOfSubplots": null
+            "numberOfSubplots": null,
+            "numberOfHarvests": 1
         },
         "crops": "NA",
         "cropRotations": "NA",

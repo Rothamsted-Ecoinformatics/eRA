@@ -17,7 +17,8 @@
             "numberOdBlocks": 3,
             "numberOfPlots": 12,
             "numberOfReplicates": 3,
-            "numberOfSubplots": null
+            "numberOfSubplots": null,
+            "numberOfHarvests": 1
         },
         "crops": [
             {

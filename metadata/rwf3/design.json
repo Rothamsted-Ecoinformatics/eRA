@@ -17,7 +17,8 @@
             "numberOdBlocks": null,
             "numberOfPlots": 2,
             "numberOfReplicates": null,
-            "numberOfSubplots": null
+            "numberOfSubplots": null,
+            "numberOfHarvests": 1
         },
         "crops": [
             {
@@ -97,7 +98,8 @@
             "numberOdBlocks": null,
             "numberOfPlots": 8,
             "numberOfReplicates": null,
-            "numberOfSubplots": null
+            "numberOfSubplots": null,
+            "numberOfHarvests": 1
         },
         "crops": [
             {
@@ -237,7 +239,8 @@
             "numberOdBlocks": null,
             "numberOfPlots": 2,
             "numberOfReplicates": null,
-            "numberOfSubplots": null
+            "numberOfSubplots": null,
+            "numberOfHarvests": 1
         },
         "crops": [
             {
@@ -317,7 +320,8 @@
             "numberOdBlocks": null,
             "numberOfPlots": 1,
             "numberOfReplicates": null,
-            "numberOfSubplots": null
+            "numberOfSubplots": null,
+            "numberOfHarvests": 1
         },
         "crops": [
             {
