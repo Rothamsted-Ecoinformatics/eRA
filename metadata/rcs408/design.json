@@ -21,6 +21,7 @@
         },
         "crops": [
             {
+                "id": 296,
                 "name": "Miscanthus sinensis",
                 "dateStart": null,
                 "dateEnd": null

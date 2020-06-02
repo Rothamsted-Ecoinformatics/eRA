@@ -21,11 +21,13 @@
         },
         "crops": [
             {
+                "id": 2226,
                 "name": "maize",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
+                "id": 2227,
                 "name": "barley",
                 "dateStart": null,
                 "dateEnd": null

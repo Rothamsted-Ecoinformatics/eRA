@@ -21,11 +21,13 @@
         },
         "crops": [
             {
+                "id": 2184,
                 "name": "wheat",
                 "dateStart": 1856,
                 "dateEnd": 1875
             },
             {
+                "id": 2185,
                 "name": "potatoes",
                 "dateStart": 1876,
                 "dateEnd": 1901
@@ -437,6 +439,7 @@
         },
         "crops": [
             {
+                "id": 2186,
                 "name": "barley",
                 "dateStart": 1940,
                 "dateEnd": 1985
@@ -577,11 +580,13 @@
         },
         "crops": [
             {
+                "id": 2187,
                 "name": "barley",
                 "dateStart": 1986,
                 "dateEnd": 1991
             },
             {
+                "id": 2188,
                 "name": "wheat",
                 "dateStart": 1992,
                 "dateEnd": 2006

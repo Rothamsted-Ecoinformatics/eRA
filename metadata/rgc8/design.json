@@ -21,6 +21,7 @@
         },
         "crops": [
             {
+                "id": 1554,
                 "name": "red clover",
                 "dateStart": null,
                 "dateEnd": null
@@ -79,6 +80,7 @@
         },
         "crops": [
             {
+                "id": 1555,
                 "name": "red clover",
                 "dateStart": null,
                 "dateEnd": null
@@ -250,6 +252,7 @@
         },
         "crops": [
             {
+                "id": 1556,
                 "name": "red clover",
                 "dateStart": null,
                 "dateEnd": null

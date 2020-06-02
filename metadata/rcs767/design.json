@@ -21,16 +21,19 @@
         },
         "crops": [
             {
+                "id": 2200,
                 "name": "fallow",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
+                "id": 2201,
                 "name": "grass",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
+                "id": 2202,
                 "name": "wheat",
                 "dateStart": null,
                 "dateEnd": null

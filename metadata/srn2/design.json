@@ -21,21 +21,25 @@
         },
         "crops": [
             {
+                "id": 3552,
                 "name": "potatoes",
                 "dateStart": 1969,
                 "dateEnd": 1974
             },
             {
+                "id": 3553,
                 "name": "sugarbeet",
                 "dateStart": 1969,
                 "dateEnd": 1974
             },
             {
+                "id": 3554,
                 "name": "winter wheat",
                 "dateStart": 1977,
                 "dateEnd": 1986
             },
             {
+                "id": 3555,
                 "name": "barley",
                 "dateStart": 1970,
                 "dateEnd": 1979
