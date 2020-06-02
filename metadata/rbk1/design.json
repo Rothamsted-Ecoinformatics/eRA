@@ -339,30 +339,6 @@
                 ]
             },
             {
-                "name": "F-W-W",
-                "dateStart": 1968,
-                "dateEnd": 1981,
-                "phasing": "Complete",
-                "isTreatment": true,
-                "rotationPhases": [
-                    {
-                        "samePhase": false,
-                        "crop": 3291,
-                        "description": null
-                    },
-                    {
-                        "samePhase": false,
-                        "crop": 3286,
-                        "description": null
-                    },
-                    {
-                        "samePhase": false,
-                        "crop": 3286,
-                        "description": null
-                    }
-                ]
-            },
-            {
                 "name": "P-Be-W",
                 "dateStart": 1968,
                 "dateEnd": 1979,
@@ -377,6 +353,30 @@
                     {
                         "samePhase": false,
                         "crop": 3288,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 3286,
+                        "description": null
+                    }
+                ]
+            },
+            {
+                "name": "F-W-W",
+                "dateStart": 1968,
+                "dateEnd": 1981,
+                "phasing": "Complete",
+                "isTreatment": true,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 3291,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 3286,
                         "description": null
                     },
                     {
