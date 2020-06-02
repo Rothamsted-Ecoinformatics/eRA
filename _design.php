@@ -85,6 +85,10 @@ function getContent($period)
             $hasData = True;
             $data.= "\n<li class=\"list-group-item \"><b>" . $variableMapping['numberOfSubplots'] . ":</b> " . $period['design']['numberOdBlocks'] . "</li>";
         }
+        if ($period['design']['numberOfHarvests']) {
+            $hasData = True;
+            $data.= "\n<li class=\"list-group-item \"><b>" . $variableMapping['numberOfHarvests'] . ":</b> " . $period['design']['numberOfHarvests'] . "</li>";
+        }
         
        
         

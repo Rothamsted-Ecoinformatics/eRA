@@ -448,6 +448,7 @@ $variableMapping = array (
     'numberOfPlots' => 'Number of Blocks',
     'numberOfReplicates' => 'Number of Replicates',
     'numberOfSubplots' => 'Number of Sub-plots',
+    'numberOfHarvests' => 'Number of Harvests per Year',
     'phase' => 'Phase',
     'phasing' => 'Phasing',
     'plotApplication' => 'Plot Application',
