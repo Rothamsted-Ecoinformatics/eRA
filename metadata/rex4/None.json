@@ -1,15 +1,15 @@
 {
     "@context": "https://schema.org/",
     "@type": "Text",
-    "identifier": "10.23637/EX4-sup-001-01",
-    "name": "Exhaustion Land Experiment overview figure",
+    "identifier": "10.23637/EX4-sup-007-01",
+    "name": "Exhaustion Land plan & fertilizer treatments Phase V 2007- present",
     "shortName": null,
-    "url": "http://www.era.rothamsted.ac.uk/metadata/exhaustion/Overview.pdf",
+    "url": "http://www.era.rothamsted.ac.uk/metadata/exhaustion/Fertilizer%20treatments%20Phase%20V%202007-.pdf",
     "description": [
         {
             "inLanguage": "en",
             "descriptionType": "Abstract",
-            "description": "Figure illustrating the main treatment phases for the Exhaustion Land Long-term experiment"
+            "description": "Plan of the Exhaustion Land Experiment illustrating plots and treatments for Phase V 2007"
         }
     ],
     "publisher": {
@@ -17,15 +17,18 @@
         "name": "The Electronic Rothamsted Archive, Rothamsted Research"
     },
     "datePublished": null,
-    "dateCreated": "2016-03-05",
+    "dateCreated": null,
     "dateModified": null,
     "inLanguage": "en",
     "version": "1",
     "keywords": [
         "potatoes",
-        "precipitation",
         "rainfall patterns",
-        "ecological succession"
+        "precipitation",
+        "cropping system",
+        "ecological succession",
+        "climate change",
+        "soil pH"
     ],
     "creator": [
         {
@@ -55,15 +58,7 @@
         "name": "Hoosfield"
     },
     "relatedIdentifier": [],
-    "funder": [
-        {
-            "type": "organization",
-            "name": "Biotechnology and Biological Sciences Research Council",
-            "sameAs": "http://dx.doi.org/10.13039/501100000268",
-            "award": "BBS/E/C/00005189 - The Rothamsted Long-Term Experiments including Sample Archive and e-RA database",
-            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F00005189"
-        }
-    ],
+    "funder": [],
     "distribution": [
         {
             "type": "dataDownload",
@@ -77,7 +72,7 @@
             "name": null,
             "URL": null,
             "encodingFormat": "",
-            "fileSize": "192 KB"
+            "fileSize": "290 KB"
         }
     ],
     "grade": 1

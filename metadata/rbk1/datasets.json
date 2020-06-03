@@ -26,8 +26,38 @@
         "fieldname": "Broadbalk",
         "experiment_name": "Broadbalk",
         "experiment_code": "R/BK/1",
-        "grade": 2,
+        "grade": 3,
         "shortName": "Nitro1843"
+    },
+    {
+        "md_id": 1796346264,
+        "title": "BKYIELD: Broadbalk wheat grain and straw yields 1844-1925",
+        "URL": "http://www.era.rothamsted.ac.uk/Broadbalk/",
+        "identifier": "10.23637/rbk1-1796346264-1",
+        "identifier_type": "DOI",
+        "dataset_type": "Crop  yield data",
+        "extension": "html",
+        "description": "Wheat grain and straw yields have been recorded every year since the experiment began, with the first harvest in 1844 (the crop was sown in autumn 1843). Dried grain and straw samples have also been kept for chemical analysis since 1844; these are preserved in the Rothamsted Sample Archive.",
+        "fieldname": "Broadbalk",
+        "experiment_name": "Broadbalk",
+        "experiment_code": "R/BK/1",
+        "grade": 2,
+        "shortName": "YIELD844925"
+    },
+    {
+        "md_id": 935928566,
+        "title": "Broadbalk changes in Olsen P in top soil, 1844-2010",
+        "URL": "http://www.era.rothamsted.ac.uk/Broadbalk/bbk_open_access_olsenp",
+        "identifier": "10.23637/keyrefoabkolsenp",
+        "identifier_type": "DOI",
+        "dataset_type": "Crop nutrient data",
+        "extension": "xls",
+        "description": "Summary data showing changes in plant-available phosphorus (Olsen P) in the topsoil (0-23cm) of selected plots of the Broadbalk Wheat experiment, 1844-2010.",
+        "fieldname": "Broadbalk",
+        "experiment_name": "Broadbalk",
+        "experiment_code": "R/BK/1",
+        "grade": 2,
+        "shortName": "OAOlsenP1844"
     },
     {
         "md_id": -2078416917,
@@ -58,35 +88,5 @@
         "experiment_code": "R/BK/1",
         "grade": 1,
         "shortName": "FISHER1921"
-    },
-    {
-        "md_id": 1796346264,
-        "title": "BKYIELD: Broadbalk wheat grain and straw yields 1844-1925",
-        "URL": "http://www.era.rothamsted.ac.uk/Broadbalk/",
-        "identifier": "10.23637/rbk1-1796346264-1",
-        "identifier_type": "DOI",
-        "dataset_type": "Crop  yield data",
-        "extension": "html",
-        "description": "Wheat grain and straw yields have been recorded every year since the experiment began, with the first harvest in 1844 (the crop was sown in autumn 1843). Dried grain and straw samples have also been kept for chemical analysis since 1844; these are preserved in the Rothamsted Sample Archive.",
-        "fieldname": "Broadbalk",
-        "experiment_name": "Broadbalk",
-        "experiment_code": "R/BK/1",
-        "grade": 1,
-        "shortName": "YIELD844925"
-    },
-    {
-        "md_id": 935928566,
-        "title": "Broadbalk changes in Olsen P in top soil, 1844-2010",
-        "URL": "http://www.era.rothamsted.ac.uk/Broadbalk/bbk_open_access_olsenp",
-        "identifier": "10.23637/keyrefoabkolsenp",
-        "identifier_type": "DOI",
-        "dataset_type": "Crop nutrient data",
-        "extension": "xls",
-        "description": "Summary data showing changes in plant-available phosphorus (Olsen P) in the topsoil (0-23cm) of selected plots of the Broadbalk Wheat experiment, 1844-2010.",
-        "fieldname": "Broadbalk",
-        "experiment_name": "Broadbalk",
-        "experiment_code": "R/BK/1",
-        "grade": 1,
-        "shortName": "OAOlsenP1844"
     }
 ]

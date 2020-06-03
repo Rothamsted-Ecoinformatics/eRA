@@ -1,18 +1,33 @@
 [
     {
-        "md_id": -1996381318,
-        "title": "Annual Mean Air Temperature at Rothamsted 1878-2013",
-        "URL": "http://www.era.rothamsted.ac.uk/Met/met_open_access_res_matemp",
-        "identifier": "10.23637/KeyRefOARESmatemp",
+        "md_id": 997207219,
+        "title": "Annual Mean Air Temperature at Rothamsted 1878-2019",
+        "URL": "http://www.era.rothamsted.ac.uk/Met/met_open_access_res_matemp_v2",
+        "identifier": "10.23637/rms-RMAAtemp-02",
         "identifier_type": "DOI",
         "dataset_type": "Meteorological dataset",
-        "extension": "xlsx",
+        "extension": "csv",
         "description": "Rothamsted has one of the longest running continuous sets of meteorological recordings in the world. The figure shows the annual mean air temperature at Rothamsted every year from 1878-2013. Also shown is the mean over each five-year period, 1878-1882, 1883-1887, etc. The red line shows the mean temperature, 1878-1987. Mean annual air temperature has fluctuated considerably between 1878-2013. However, when the variation in annual temperature is smoothed using five-year means, it is apparent that air temperatures have risen sharply since 1987 (Scott, 2015). The mean air temperature at Rothamsted is now approximately 10.04\u00b0C which is 1.1\u00b0C higher than the 1878-1987 average. The 10 warmest years on record occurred in the last 17 years. Much of the rise is due to increases in the autumn and winter months, and in night time temperatures.",
         "fieldname": "Rothamsted Met Station",
         "experiment_name": "Rothamsted Meteorological Station",
         "experiment_code": "RMS",
         "grade": 3,
         "shortName": "RMAAtemp"
+    },
+    {
+        "md_id": 1535448515,
+        "title": "Mean Monthly Rainfall at Rothamsted March 1853 - July 2018",
+        "URL": "http://www.era.rothamsted.ac.uk/Met/RMMRAIN5318",
+        "identifier": "10.23637/RMMRAIN5318",
+        "identifier_type": "DOI",
+        "dataset_type": "Meteorological dataset",
+        "extension": "csv",
+        "description": "This dataset represents the monthly mean rainfall at Rothamsted continuously from March 1853 - July 2018 and is based on continuous daily records measured at the site.",
+        "fieldname": "Rothamsted Met Station",
+        "experiment_name": "Rothamsted Meteorological Station",
+        "experiment_code": "RMS",
+        "grade": 3,
+        "shortName": "RMMRAINS5318"
     },
     {
         "md_id": -728549132,
@@ -30,51 +45,6 @@
         "shortName": "rmsMMR10850917"
     },
     {
-        "md_id": 997207219,
-        "title": "Annual Mean Air Temperature at Rothamsted 1878-2019",
-        "URL": "http://www.era.rothamsted.ac.uk/Met/met_open_access_res_matemp_v2",
-        "identifier": "10.23637/rms-RMAAtemp-02",
-        "identifier_type": "DOI",
-        "dataset_type": "Meteorological dataset",
-        "extension": "csv",
-        "description": "Rothamsted has one of the longest running continuous sets of meteorological recordings in the world. The figure shows the annual mean air temperature at Rothamsted every year from 1878-2013. Also shown is the mean over each five-year period, 1878-1882, 1883-1887, etc. The red line shows the mean temperature, 1878-1987. Mean annual air temperature has fluctuated considerably between 1878-2013. However, when the variation in annual temperature is smoothed using five-year means, it is apparent that air temperatures have risen sharply since 1987 (Scott, 2015). The mean air temperature at Rothamsted is now approximately 10.04\u00b0C which is 1.1\u00b0C higher than the 1878-1987 average. The 10 warmest years on record occurred in the last 17 years. Much of the rise is due to increases in the autumn and winter months, and in night time temperatures.",
-        "fieldname": "Rothamsted Met Station",
-        "experiment_name": "Rothamsted Meteorological Station",
-        "experiment_code": "RMS",
-        "grade": 1,
-        "shortName": "RMAAtemp"
-    },
-    {
-        "md_id": 1535448515,
-        "title": "Mean Monthly Rainfall at Rothamsted March 1853 - July 2018",
-        "URL": "http://www.era.rothamsted.ac.uk/Met/RMMRAIN5318",
-        "identifier": "10.23637/RMMRAIN5318",
-        "identifier_type": "DOI",
-        "dataset_type": "Meteorological dataset",
-        "extension": "csv",
-        "description": "This dataset represents the monthly mean rainfall at Rothamsted continuously from March 1853 - July 2018 and is based on continuous daily records measured at the site.",
-        "fieldname": "Rothamsted Met Station",
-        "experiment_name": "Rothamsted Meteorological Station",
-        "experiment_code": "RMS",
-        "grade": 1,
-        "shortName": "RMMRAINS5318"
-    },
-    {
-        "md_id": -604972603,
-        "title": "Mean monthly temperature at Rothamsted October 1985-September 2017",
-        "URL": "http://www.era.rothamsted.ac.uk/Met/rmsMMT10850917",
-        "identifier": "10.23637/rmsmmtemp10850917",
-        "identifier_type": "DOI",
-        "dataset_type": "Meteorological dataset",
-        "extension": "xlsx",
-        "description": "This dataset represents the mean monthly temperature at Rothamsted from October 1985 - September 2017 and is based on continuous daily records measured at the site.",
-        "fieldname": "Rothamsted Met Station",
-        "experiment_name": "Rothamsted Meteorological Station",
-        "experiment_code": "RMS",
-        "grade": 1,
-        "shortName": "rmsMMT10850917"
-    },
-    {
         "md_id": -666638375,
         "title": "Rothamsted 30-year mean meteorological data 1961-1990",
         "URL": "http://www.era.rothamsted.ac.uk/Met/R30YrMeans6190",
@@ -86,7 +56,7 @@
         "fieldname": "Rothamsted Met Station",
         "experiment_name": "Rothamsted Meteorological Station",
         "experiment_code": "RMS",
-        "grade": 1,
+        "grade": 3,
         "shortName": "R30YrMeans6190"
     },
     {
@@ -101,7 +71,7 @@
         "fieldname": "Rothamsted Met Station",
         "experiment_name": "Rothamsted Meteorological Station",
         "experiment_code": "RMS",
-        "grade": 1,
+        "grade": 3,
         "shortName": "R30YrMeans7100"
     },
     {
@@ -116,7 +86,37 @@
         "fieldname": "Rothamsted Met Station",
         "experiment_name": "Rothamsted Meteorological Station",
         "experiment_code": "RMS",
-        "grade": 1,
+        "grade": 3,
         "shortName": "R30YrMeans8110"
+    },
+    {
+        "md_id": -1996381318,
+        "title": "Annual Mean Air Temperature at Rothamsted 1878-2013",
+        "URL": "http://www.era.rothamsted.ac.uk/Met/met_open_access_res_matemp",
+        "identifier": "10.23637/KeyRefOARESmatemp",
+        "identifier_type": "DOI",
+        "dataset_type": "Meteorological dataset",
+        "extension": "xlsx",
+        "description": "Rothamsted has one of the longest running continuous sets of meteorological recordings in the world. The figure shows the annual mean air temperature at Rothamsted every year from 1878-2013. Also shown is the mean over each five-year period, 1878-1882, 1883-1887, etc. The red line shows the mean temperature, 1878-1987. Mean annual air temperature has fluctuated considerably between 1878-2013. However, when the variation in annual temperature is smoothed using five-year means, it is apparent that air temperatures have risen sharply since 1987 (Scott, 2015). The mean air temperature at Rothamsted is now approximately 10.04\u00b0C which is 1.1\u00b0C higher than the 1878-1987 average. The 10 warmest years on record occurred in the last 17 years. Much of the rise is due to increases in the autumn and winter months, and in night time temperatures.",
+        "fieldname": "Rothamsted Met Station",
+        "experiment_name": "Rothamsted Meteorological Station",
+        "experiment_code": "RMS",
+        "grade": 2,
+        "shortName": "RMAAtemp"
+    },
+    {
+        "md_id": -604972603,
+        "title": "Mean monthly temperature at Rothamsted October 1985-September 2017",
+        "URL": "http://www.era.rothamsted.ac.uk/Met/rmsMMT10850917",
+        "identifier": "10.23637/rmsmmtemp10850917",
+        "identifier_type": "DOI",
+        "dataset_type": "Meteorological dataset",
+        "extension": "xlsx",
+        "description": "This dataset represents the mean monthly temperature at Rothamsted from October 1985 - September 2017 and is based on continuous daily records measured at the site.",
+        "fieldname": "Rothamsted Met Station",
+        "experiment_name": "Rothamsted Meteorological Station",
+        "experiment_code": "RMS",
+        "grade": 2,
+        "shortName": "rmsMMT10850917"
     }
 ]
