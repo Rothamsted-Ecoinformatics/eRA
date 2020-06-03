@@ -104,11 +104,11 @@ function getContent($period)
         
         $content .= "\n<div class=\"table-responsive-sm bg-white m-5 p-3\">";
         $content .= "\n\n<table class = \"table  table-responsive-sm table-sm  table-hover\">";
-        $content .="\n<thead class=\"thead-light\"><tr><th scope=\"col\">Crop</th><th scope=\"col\">Planted</th></tr></thead><tbody>";
+        $content .="\n<thead class=\"thead-light\">\n\t<tr>\n\t\t<th scope=\"col\">Crop</th>\n\t\t<th scope=\"col\">Planted</th>\n\t</tr>\n</thead>\n<tbody>";
         foreach ($period['crops'] as $crop) {
             $id = $crop['id'];
             $arrCrop[$id]= $crop['name'];
-            $content .= "\n<tr><th scope=\"row\">" . $crop['name']."</td><td>";
+            $content .= "\n\t<tr><th scope=\"row\">" . $crop['name']."</td><td>";
             if ($crop['dateStart']) {
                 
                 $content .=  $crop['dateStart'];
@@ -124,23 +124,20 @@ function getContent($period)
     }
     
     if (is_array($period['cropRotations'])) {
-        $info = "<div class=\"row equal m-3\">";
+        $info = "\n<div class=\"row equal m-3\">";
         $content .= "\n<h3 class=\"mx-3\">Crop Rotations</h3>";  
         foreach ($period['cropRotations'] as $rotation) { 
          
-            $info .= "<div class=\"col-sm-4 py-2\">";
-            $info .= "      <ul class=\"list-group border rounded\">";
-            $info .= "          <li class=\"list-group-item bg-light border-bottom\">" . $rotation['name'] ." <i>(" . $rotation['dateStart'] ." - " . $rotation['dateEnd'] .")</i> " .  "</li>";
+            $info .= "\n    \t<div class=\"col-sm-4 py-2\">";
+            $info .= "\n    \t     \t <ul class=\"list-group border rounded\">";
+            $info .= "\n    \t      \t      \t<li class=\"list-group-item bg-light border-bottom\">" . $rotation['name'] ." <i>(" . $rotation['dateStart'] ." - " . $rotation['dateEnd'] .")</i> " .  "</li>";
             foreach($rotation['rotationPhases'] as $crop) {
                 
-                $info .= "          <li class=\"list-group-item\">".$arrCrop[$crop['crop']]."</li>";
+                $info .= "\n    \t      \t      \t <li class=\"list-group-item\">".$arrCrop[$crop['crop']]."</li>";
                 
             }
-            $info .= "      </ul>";
-            $info .= "</div>";
-          
-
-          
+            $info .= "\n    \t      \t </ul>";
+            $info .= "\n    \t</div>";         
 
         }
         
