@@ -33,7 +33,7 @@ function listItem($value, $label)
 }
 
 function getContent($period)
-{
+{   $arrCrop = array();
     Global $variableMapping;
     Global $design;
     global $data;
@@ -99,25 +99,28 @@ function getContent($period)
         }
     }
     if (is_array($period['crops']) and count($period['crops']) > 0) {
+     
         $content .= "\n<h3 class=\"mx-3\">Crops</h3>";
         
-        $content .= "\n\t <ul class=\"list-group mx-3\">";
-        
+        $content .= "\n<div class=\"table-responsive-sm bg-white m-5 p-3\">";
+        $content .= "\n\n<table class = \"table  table-responsive-sm table-sm  table-hover\">";
+        $content .="\n<thead class=\"thead-light\"><tr><th scope=\"col\">Crop</th><th scope=\"col\">Planted</th></tr></thead><tbody>";
         foreach ($period['crops'] as $crop) {
-            
-            $content .= "\n<li class=\"list-group-item \"><b>" . $crop['name'];
+            $id = $crop['id'];
+            $arrCrop[$id]= $crop['name'];
+            $content .= "\n<tr><th scope=\"row\">" . $crop['name']."</td><td>";
             if ($crop['dateStart']) {
                 
-                $content .= ":</b> " . $crop['dateStart'];
+                $content .=  $crop['dateStart'];
                 if ($crop['dateEnd']) {
                     $content .= " -  " . $crop['dateEnd'];
                 }
             } else {
-                $content .= "</b> ";
+                $content .= "   </td> ";
             }
-            $content .= "</li>";
+            $content .= "</tr>";
         }
-        $content .= "\n</ul>";
+        $content .= "\n</tbody></table></div>";
     }
     
     if (is_array($period['cropRotations'])) {
@@ -126,14 +129,15 @@ function getContent($period)
         foreach ($period['cropRotations'] as $rotation) { 
          
             $info .= "<div class=\"col-sm-4 py-2\">";
-            $info .= "      <div class=\"card bg-light  mb-2 \" style=\"max-width: 18rem;\">";
-            $info .= "          <div class=\"card-header\">" . $rotation['name'] ." <i>(" . $rotation['dateStart'] ." - " . $rotation['dateEnd'] .")</i> " .  "</div>";
-            $info .= "          <div class=\"card-body\">";
-            $info .= "              <p class=\"card-text\">Some quick example text to build on the card title and make up the";
-            $info .= "                  bulk of the card's content.</p>";
-            $info .= "          </div>";
-            $info .= "      </div>";
-            $info .= "      </div>";
+            $info .= "      <ul class=\"list-group border rounded\">";
+            $info .= "          <li class=\"list-group-item bg-light border-bottom\">" . $rotation['name'] ." <i>(" . $rotation['dateStart'] ." - " . $rotation['dateEnd'] .")</i> " .  "</li>";
+            foreach($rotation['rotationPhases'] as $crop) {
+                
+                $info .= "          <li class=\"list-group-item\">".$arrCrop[$crop['crop']]."</li>";
+                
+            }
+            $info .= "      </ul>";
+            $info .= "</div>";
           
 
           
@@ -147,7 +151,7 @@ function getContent($period)
     if (is_array($period['measurements']) and count($period['measurements']) > 0) {
         
         $content .= "\n<h3 class=\"mx-3\">Measurements</h3>";
-        $content .= "\n<div class=\"table-responsive-sm \"><table class = \"table  table-responsive-sm table-sm  table-hover\"><thead><tr>";
+        $content .= "\n<div class=\"table-responsive-sm \"><table class = \"table  table-responsive-sm table-sm  table-hover\"><thead  class=\"thead-light\"><tr>";
         $content .= "\n<th scope=\"col\">Variable</th>";
         $content .= "\n<th scope=\"col\">Unit</th>";
         $content .= "\n<th scope=\"col\">Collection <br />Frequency</th>";

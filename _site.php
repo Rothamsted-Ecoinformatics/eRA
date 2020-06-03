@@ -21,7 +21,7 @@ function getProperties ($site) {
 
         $content .= "\n<h3 class=\"mx-3\">Soil Properties</h3>";
         $content .= "\n<div class=\"table-responsive-sm bg-white m-5 p-3\">";
-        $content .= "\n\n<table class = \"table  table-responsive-sm table-sm  table-hover\"><thead><tr>";
+        $content .= "\n\n<table class = \"table  table-responsive-sm table-sm  table-hover\"><thead  class=\"thead-light\"><tr>";
         $content .= "\n<th scope=\"col\">Variable</th>";
         
         $content .= "\n<th scope=\"col\">Value</th>";
