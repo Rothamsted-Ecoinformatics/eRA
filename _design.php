@@ -154,21 +154,6 @@ function getContent($period)
                 $info .= "<p class=\"ml-5\"><b>Application:</b> " . $factor['plotApplication'] . "</p>";
             }
             
-            /*"level": [
-                    {
-                        "id": 5016,
-                        "name": "N1",
-                        "amount": "48",
-                        "unitCode": "kgN/ha",
-                        "unitText": "kg nitrogen per hectare",
-                        "appliedToCrop": null,
-                        "dateStart": 1968,
-                        "dateEnd": null,
-                        "frequency": "annually in mid-April",
-                        "method": null,
-                        "chemicalForm": null,
-                        "notes": null
-                    },*/
             
             if (is_array($factor['level'])) {
                 $info .= "\n<h5 class=\"mx-5\">Levels</h5>";
@@ -212,7 +197,53 @@ function getContent($period)
 
         $content .= $info;
     }
-
+    if (is_array($period['factorCombinations'])){
+        $info = "";
+        $info .= "\n<h3 class=\"mx-3\">Factor Recombinations</h3>";
+        $info .= "\n<div class=\"row equal m-3\">";
+        foreach ($period['factorCombinations']  as $fr) {
+            /*
+             * "name": "FYM N2 PK",
+                "dateStart": 1968,
+                "dateEnd": 1984,
+                "description": "Applied to strip 01",
+                "factor": [
+                    {
+                        "Factor": "nitrogen fertilizer exposure",
+                        "levelCode": "N2",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+             */
+            $info .= "\n    \t<div class=\"col-sm-4 py-2\">";
+            $info .= "\n    \t     \t <ul class=\"list-group border rounded\">";
+            $info .= "\n    \t      \t      \t<li class=\"list-group-item bg-light border-bottom\"><b>";
+            $info .= $fr['name'] . " (";
+            $info .= $fr['dateStart'];
+            if ($fr['dateEnd']) {
+                $info .= " - ".$fr['dateEnd'];
+                }
+                
+            $info .= ")</b></li>";
+            if ($fr['description']) {
+                $info .= "\n    \t      \t      \t <li class=\"list-group-item\"><i>".$fr['description']."</i></li>";
+                
+            }
+            if (is_array($fr['factor'])) {
+                foreach ($fr['factor'] as $frf)
+                {
+                    if ($frf['Factor']) {
+                        $info .= "\n    \t      \t      \t <li class=\"list-group-item\"><b>". $frf['levelCode'].": </b>".$frf['Factor']."</li>";
+                    }
+                }
+            }
+            $info .= "\n    \t      \t </ul>";
+            $info .= "\n    \t</div>";
+        }
+        $info .= "\n    \t</div>";
+        
+        $content .= $info;
+    }
     if (is_array($period['measurements']) and count($period['measurements']) > 0) {
 
         $content .= "\n<h3 class=\"mx-3\">Measurements</h3>";
