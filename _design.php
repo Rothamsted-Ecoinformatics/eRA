@@ -143,7 +143,7 @@ function getContent($period)
         $arrFactors = array();
         $arrLevels = array();
         $info = "";
-        $info .= "\n<h3 class=\"mx-3\">Factors</h3>";
+        $info .= "\n<h3 class=\"mx-3\">Factors</h3><p class=\"mx-3\">Factors are the interventions or treatments which vary across the experiment.</p>";
         foreach ($period['factor'] as $factor) {
             $arrFactors[$factor['id']] = $factor['name'];
             $info .= "\n<h4 class=\"mx-3\">" . $factor['name'] . "</h3>";
@@ -197,50 +197,57 @@ function getContent($period)
 
         $content .= $info;
     }
+//     if (is_array($period['factorCombinations'])){
+//         $info = "";
+//         $info .= "\n<h3 class=\"mx-3\">Factor Combinations</h3><p class=\"mx-3\">Factor Combinations are the combination of factors applied to different plots on the experiment.</p>";
+//         $info .= "\n<div class=\"row equal m-3\">";
+//         foreach ($period['factorCombinations']  as $fr) {
+            
+//             $info .= "\n    \t<div class=\"col-sm-4 py-2\">";
+//             $info .= "\n    \t     \t <ul class=\"list-group border rounded\">";
+//             $info .= "\n    \t      \t      \t<li class=\"list-group-item bg-light border-bottom\"><b>";
+//             $info .= $fr['name'] . " (";
+//             $info .= $fr['dateStart'];
+//             if ($fr['dateEnd']) {
+//                 $info .= " - ".$fr['dateEnd'];
+//                 }
+                
+//             $info .= ")</b></li>";
+//             if ($fr['description']) {
+//                 $info .= "\n    \t      \t      \t <li class=\"list-group-item\"><i>".$fr['description']."</i></li>";
+                
+//             }
+            
+//             $info .= "\n    \t      \t </ul>";
+//             $info .= "\n    \t</div>";
+//         }
+//         $info .= "\n    \t</div>";
+        
+//         $content .= $info;
+//     }
+    
     if (is_array($period['factorCombinations'])){
         $info = "";
-        $info .= "\n<h3 class=\"mx-3\">Factor Recombinations</h3>";
-        $info .= "\n<div class=\"row equal m-3\">";
+        $info .= "\n<h3 class=\"mx-3\">Factor Combinations</h3><p class=\"mx-3\">Factor Combinations are the combination of factors applied to different plots on the experiment.</p>";
+        $info .= "\n<div class=\"table-responsive-sm \"><table class = \"table  table-responsive-sm table-sm  table-hover\"><thead  class=\"thead-light\"><tr>";
+        $info .= "\n<th scope=\"col\">Factor Combination</th>";
+        $info .= "\n<th scope=\"col\">Time Coverage</th>";
+        $info .= "\n<th scope=\"col\">Notes</th>";
+        $info .= "\n</tr></thead>\n<tbody>";
+        
         foreach ($period['factorCombinations']  as $fr) {
-            /*
-             * "name": "FYM N2 PK",
-                "dateStart": 1968,
-                "dateEnd": 1984,
-                "description": "Applied to strip 01",
-                "factor": [
-                    {
-                        "Factor": "nitrogen fertilizer exposure",
-                        "levelCode": "N2",
-                        "levelText": "NULL",
-                        "Comment": null
-                    },
-             */
-            $info .= "\n    \t<div class=\"col-sm-4 py-2\">";
-            $info .= "\n    \t     \t <ul class=\"list-group border rounded\">";
-            $info .= "\n    \t      \t      \t<li class=\"list-group-item bg-light border-bottom\"><b>";
-            $info .= $fr['name'] . " (";
-            $info .= $fr['dateStart'];
+            $info .= "\n<tr>";
+            $info .= "\n<td><b>" . $fr['name']  . "</b></td>";
+            $info .= "\n<td>" . $fr['dateStart'];
             if ($fr['dateEnd']) {
                 $info .= " - ".$fr['dateEnd'];
-                }
-                
-            $info .= ")</b></li>";
-            if ($fr['description']) {
-                $info .= "\n    \t      \t      \t <li class=\"list-group-item\"><i>".$fr['description']."</i></li>";
-                
             }
-            if (is_array($fr['factor'])) {
-                foreach ($fr['factor'] as $frf)
-                {
-                    if ($frf['Factor']) {
-                        $info .= "\n    \t      \t      \t <li class=\"list-group-item\"><b>". $frf['levelCode'].": </b>".$frf['Factor']."</li>";
-                    }
-                }
-            }
-            $info .= "\n    \t      \t </ul>";
-            $info .= "\n    \t</div>";
+            
+            $info .= "</td>";
+            $info .= "\n<td><i>".$fr['description']."</i></td>";
+            $info .= "</tr>";
         }
-        $info .= "\n    \t</div>";
+        $info .= "\n    \t</table></div>";
         
         $content .= $info;
     }
@@ -251,7 +258,7 @@ function getContent($period)
         $content .= "\n<th scope=\"col\">Variable</th>";
         $content .= "\n<th scope=\"col\">Unit</th>";
         $content .= "\n<th scope=\"col\">Collection <br />Frequency</th>";
-        $content .= "\n<th scope=\"col\">Scale</th>";
+        #$content .= "\n<th scope=\"col\">Scale</th>";
         $content .= "\n<th scope=\"col\">Material</th>";
         $content .= "\n<th scope=\"col\">Description</th>";
         $content .= "\n<th scope=\"col\">Crop</th>";
@@ -259,14 +266,18 @@ function getContent($period)
         $content .= "\n</thead>";
         $content .= "\n<tbody>";
         foreach ($period['measurements'] as $measurement) {
+            $vcrop = '';
+            if ($measurement['crop']) {
+                $vcrop = $arrCrop[$measurement['crop']];
+            }
             $content .= "\n<tr>";
             $content .= "\n<td>" . title_case($measurement['variable']) . "</td>";
             $content .= "\n<td>" . $measurement['unitCode'] . "</td>";
             $content .= "\n<td>" . $measurement['collectionFrequency'] . "</td>";
             $content .= "\n<td>" . $measurement['material'] . "</td>";
-            $content .= "\n<td>" . $measurement['scale'] . "</td>";
+            #$content .= "\n<td>" . $measurement['scale'] . "</td>";
             $content .= "\n<td>" . $measurement['description'] . "</td>";
-            $content .= "\n<td>" . $measurement['crop'] . "</td>";
+            $content .= "\n<td>" . $vcrop . "</td>";
 
             $content .= "\n</tr>";
         }
