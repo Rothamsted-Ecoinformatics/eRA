@@ -52,7 +52,7 @@ if ($hasDataset) {
     
     //--  start dependent content ---------------------------------------------------------
     
-    include '_datasetNoAccordions.php';
+    include '_dataset.php';
     	
     //-- start footers  -----------------------------
     
