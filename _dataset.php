@@ -18,16 +18,15 @@ function getVocab($localword)
     GLOBAL $words;
     GLOBAL $scheme;
     $hasKey = FALSE;
-    
+
     $vocab = "";
-    for ($i = 0; $i < count($words); $i++) {
+    for ($i = 0; $i < count($words); $i ++) {
         if ($words[$i]['subject'] == $localword) {
             $hasKey = TRUE;
             $localScheme = $words[$i]['scheme'];
             $URI = $scheme[$localScheme];
             $vocab .= "<a href=\"" . $URI . $words[$i]['URI'] . "\" target = \"out\">" . $localword . "</a>";
-        } 
- 
+        }
     }
     return $vocab;
 }
@@ -36,7 +35,7 @@ function printVocab($localwords)
 {
     $strvocab = "";
     foreach ($localwords as $localword) {
-        
+
         $vocab = getVocab($localword);
         $strvocab .= $vocab . " - ";
     }
@@ -47,19 +46,19 @@ function printVocab($localwords)
 $relDatasets = 'List of Related Datasets';
 $relDocuments = 'List of Related Documents';
 if ($hasDataset) {
-    $datasetFolder =  $dsinfo["shortName"];
+    $datasetFolder = $dsinfo["shortName"];
     if ($dsinfo["datePublished"]) {
         $datePublication = $dsinfo["datePublished"];
     } else {
         $datePublication = "N/A";
     }
-    
+
     if ($dsinfo["dateCreated"]) {
         $dateCreation = $dsinfo["dateCreated"];
     } else {
         $dateCreation = "N/A";
     }
-    
+
     if ($dsinfo["dateModified"]) {
         $dateUpdate = $dsinfo["dateModified"];
     } else {
@@ -67,13 +66,17 @@ if ($hasDataset) {
     }
     if (is_array($dsinfo['distribution'])) {
         $distribution = "<ul>";
-        foreach ($dsinfo['distribution'] as  $filedownloads) {
-            
-            $distribution .= "<li><a href=\"" . $exptFolder . "/" . $datasetFolder . "/" . $filedownloads['URL'] . "\">" . $filedownloads['name'] . "</a></li>";
+        foreach ($dsinfo['distribution'] as $filedownloads) {
+
+            $distribution .= "<li>";
+           # $distribution .="<a href=\"" . $exptFolder . "/" . $datasetFolder . "/" . $filedownloads['URL'] . "\">";
+            $distribution .=  $filedownloads['name'] ;
+           # $distribution .=  "</a>";
+            $distribution .=  "</li>";
         }
         $distribution .= "</ul>";
     }
-    
+
     if (is_array($dsinfo['relatedIdentifier'])) {
         $hasDatasets = 0;
         $hasDocuments = 0;
@@ -88,7 +91,7 @@ if ($hasDataset) {
 					<div id=\"collapseFive\" class=\"collapse\" aria-labelledby=\"Related\"
 						data-parent=\"#accordion\">
 						<div class=\"card-body\">";
-        
+
         $relDocuments = "<div class=\"card\">
 					<div class=\"card-header\" id=\"Supporting\">
 						<h5 class=\"mb-0\">
@@ -100,19 +103,17 @@ if ($hasDataset) {
 					<div id=\"collapseSupporting\" class=\"collapse\"
 						aria-labelledby=\"Supporting\" data-parent=\"#accordion\">
 						<div class=\"card-body\">";
-        
+
         foreach ($dsinfo['relatedIdentifier'] as $n => $ris) {
             if ($ris['relatedIdentifierGeneralType'] == "text") {
-               
+
                 $hasDocuments = 1;
-                $relDocuments .= "<li>".$ris['relationTypeValue']." : <a target = \_blank\" href=\"http://doi.org/".$ris['relatedIdentifier']."\">".$ris['relatedIdentifier']."</a> <sup><i class=\"fa fa-external-link\" aria-hidden=\"true\"></i></sup>: ".$ris['name']."</li>";
-            } elseif ($ris['relatedIdentifierGeneralType'] == "Dataset") 
-                {
-                    $hasDatasets = 1;
-                    
-                    $relDatasets.= "<li>".$ris['relationTypeValue']." :<a href=\"http://doi.org/".$ris['relatedIdentifier']."\">".$ris['relatedIdentifier']."</a>: ".$ris['name']."</li>";
-                } else 
-                {}
+                $relDocuments .= "<li>" . $ris['relationTypeValue'] . " : <a target = \_blank\" href=\"http://doi.org/" . $ris['relatedIdentifier'] . "\">" . $ris['relatedIdentifier'] . "</a> <sup><i class=\"fa fa-external-link\" aria-hidden=\"true\"></i></sup>: " . $ris['name'] . "</li>";
+            } elseif ($ris['relatedIdentifierGeneralType'] == "Dataset") {
+                $hasDatasets = 1;
+
+                $relDatasets .= "<li>" . $ris['relationTypeValue'] . " :<a href=\"http://doi.org/" . $ris['relatedIdentifier'] . "\">" . $ris['relatedIdentifier'] . "</a>: " . $ris['name'] . "</li>";
+            } else {}
         }
         $relDatasets .= "
 
@@ -176,7 +177,8 @@ if ($hasDataset) {
 						<li class="list-group-item"><b>Files: </b> <?php echo $distribution; ?>
 						
 						
-						
+						<button type="button" class="btn btn-primary" data-toggle="modal"
+								data-target="#modalClickTrough">Download</button>
 						
 						<li class="list-group-item"><b>Version: </b> <?php echo $dsinfo['version']; ?></li>
 						<li class="list-group-item"><b>Creation Date: </b> <?php echo $dateCreation; ?></li>
@@ -186,9 +188,9 @@ if ($hasDataset) {
 						<li class="list-group-item"><b>Keywords: </b> 
 						<?php
     $localwords = $dsinfo['keywords'];
-    
+
     echo printVocab($localwords);
-    
+
     ?></li>
 						<li class="list-group-item"><b>Authors: </b> Margaret Glendining,
 							Sarah Perryman</li>
@@ -203,56 +205,57 @@ if ($hasDataset) {
 			<p><?php echo $arrDescription['Abstract']; ?></p>
 			<?php
 
-			if (isset($arrDescription['Methods'])) {
+if (isset($arrDescription['Methods'])) {
     ?>
 			    <h2>Methods</h2>
-			<p  style="white-space: pre-wrap;" ><?php echo $arrDescription['Methods']; ?></p>
+			<p style="white-space: pre-wrap;"><?php echo $arrDescription['Methods']; ?></p>
 			    <?php
 }
 if (isset($arrDescription['TableOfContents'])) {
     ?>
 			    <h2>Table Of Contents</h2>
-			<p style="white-space: pre-wrap;" ><?php echo $arrDescription['TableOfContents']; ?></p>
+			<p style="white-space: pre-wrap;"><?php echo $arrDescription['TableOfContents']; ?></p>
 			    <?php
 }
 if (isset($arrDescription['TechnicalInfo'])) {
     ?>
 			    <h2>Technical Information</h2>
-			<p style="white-space: pre-wrap;" ><?php echo $arrDescription['TechnicalInfo']; ?></p>
+			<p style="white-space: pre-wrap;"><?php echo $arrDescription['TechnicalInfo']; ?></p>
 			    <?php
 }
 if (isset($arrDescription['Provenance'])) {
     ?>
 			    <h2>Provenance</h2>
-			<p style="white-space: pre-wrap;" ><?php echo $arrDescription['Provenance']; ?></p>
+			<p style="white-space: pre-wrap;"><?php echo $arrDescription['Provenance']; ?></p>
 			    <?php
 }
 if (isset($arrDescription['Quality'])) {
     ?>
 			    <h2>Quality</h2>
-			<p style="white-space: pre-wrap;" ><?php echo $arrDescription['Quality']; ?></p>
+			<p style="white-space: pre-wrap;"><?php echo $arrDescription['Quality']; ?></p>
 			    <?php
 }
 if (isset($arrDescription['Other'])) {
     ?>
 			    <h2>Miscelleaneous Description</h2>
-			<p style="white-space: pre-wrap;" ><?php echo $arrDescription['Other']; ?></p>
+			<p style="white-space: pre-wrap;"><?php echo $arrDescription['Other']; ?></p>
 			    <?php
 }
-
 
 ?>
 			<div id="accordion">
 
 				
-				<?php 
-                                
-                  if ( $hasDocuments == 1) {echo $relDocuments;}
-                      
-						
-				
-				 if ( $hasDatasets == 1) {echo $relDatasets;}
-				 ?>
+				<?php
+
+    if ($hasDocuments == 1) {
+        echo $relDocuments;
+    }
+
+    if ($hasDatasets == 1) {
+        echo $relDatasets;
+    }
+    ?>
 
 							
 				<div class="card">
@@ -267,7 +270,7 @@ if (isset($arrDescription['Other'])) {
 						data-parent="#accordion">
 						<div class="card-body">
 							<p>
-								<a rel="license" target="_blank" 
+								<a rel="license" target="_blank"
 									href="http://creativecommons.org/licenses/by/4.0/" target="out"><img
 									style="width: 50px;" alt="Creative Commons License"
 									src="images/logos/cc4.png" align="middle" /></a> This work is
@@ -278,7 +281,8 @@ if (isset($arrDescription['Other'])) {
 							<p>
 								<strong>YOU MUST CITE AS: </strong>Rothamsted Research (<?php echo $datePublication;?>).
 								<?php echo $dsinfo['name'];?> <em>Electronic Rothamsted Archive</em>
-								<a  target="_blank"  href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
+								<a target="_blank"
+									href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
 
 							</p>
 							<p>Rothamsted relies on the integrity of users to ensure that
@@ -292,6 +296,57 @@ if (isset($arrDescription['Other'])) {
 				</div>
 			</div>
 
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="modalClickTrough" tabindex="-1"
+	role="dialog" aria-labelledby="exampleModalCenterTitle"
+	aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+				<button type="button" class="close" data-dismiss="modal"
+					aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>
+								<a rel="license" target="_blank"
+									href="http://creativecommons.org/licenses/by/4.0/" target="out"><img
+									style="width: 50px;" alt="Creative Commons License"
+									src="images/logos/cc4.png" align="middle" /></a> This work is
+								licensed under a <a rel="license"
+									href="http://creativecommons.org/licenses/by/4.0/">Creative
+									Commons Attribution 4.0 International License</a>.
+							</p>
+							<p>
+								<strong>YOU MUST CITE AS: </strong>Rothamsted Research (<?php echo $datePublication;?>).
+								<?php echo $dsinfo['name'];?> <em>Electronic Rothamsted Archive</em>
+								<a target="_blank"
+									href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
+
+							</p>
+							<p>Rothamsted relies on the integrity of users to ensure that
+								Rothamsted Research receives suitable acknowledgment as being
+								the originators of these data. This enables us to monitor the
+								use of each dataset and to demonstrate their value. </p>
+								
+							<p>If you have not done so, please <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=JTaItkGJQkOw43uMyDkvZDZRGOUcKblFt0gV54i_OxNUN1pJR1Q4QVVBT1JZWkZGWldSS0FTUDQxSSQlQCN0PWcu" >fill in this  form</a> and if possible, inform us of  any publication that uses this Rothamsted data.</p>
+
+				
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				<a type="button" download class="btn btn-primary" href="testZip.zip">Agree and Download</a>
+			</div>
 		</div>
 	</div>
 </div>
