@@ -1,0 +1,56 @@
+{
+    "administrative": {
+        "type": "ScholarlyArticle",
+        "identifier": "Park Grass",
+        "localIdentifier": "R/PG/5",
+        "name": "Park Grass",
+        "url": null,
+        "description": "Started by Lawes and Gilbert in 1856, its original purpose was to investigate ways of improving the yield of hay by the application of inorganic fertilisers or organic manures. \nWithin 2-3 years it became clear that these treatments were having a dramatic effect on the species composition of what had been a uniform sward comprising about 50 species. Dramatically different swards have evolved as a result of the different pH and nutrient status of the soils. There are 35-45 species on the unfertilised plots but only 2 or 3 species on some of the fertilised plots. The continuing effects on species diversity and on soil function of the original treatments, together with later tests of liming and interactions with atmospheric inputs and climate change, has meant that Park Grass has become increasingly important to ecologists and soil scientist.\nThe plots are cut for hay in mid-June. The first cut for hay ensures seeds are returned each year. The management of the aftermath following the first hay cut varied in the early years, either being grazed by sheep or cut green. Since the 1890s the second crop has been cut green and removed. In some years a third cut has also been taken\nThe experiment includes a small area used for micro-plot experiments.",
+        "disambiguatingDescription": "To study the effects of organic and inorganic amendments and lime on old grass for hay"
+    },
+    "dataAccess": {
+        "type": "creativeWork",
+        "conditionsOfAccess": "Available to any researcher on request",
+        "isAccessibleForFree": "YesOffline",
+        "publishingPrinciples": "http://www.era.rothamsted.ac.uk/Park",
+        "actionableFeedbackPolicy": "To study the effects of organic and inorganic amendments and lime on old grass for hay",
+        "correctionsPolicy": "To study the effects of organic and inorganic amendments and lime on old grass for hay",
+        "unnamedSourcesPolicy": null
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "CC0",
+        "license": "https://creativecommons.org/share-your-work/public-domain/cc0/"
+    },
+    "temporalCoverage": "1953/1970 from schema",
+    "dateStart": 1856,
+    "dateEPEnd": null,
+    "dateEnd": null,
+    "funder": "NOT in GLTEN",
+    "citation": [
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1016/bs.aecr.2016.08.002",
+            "sameAs": "https://doi.org/10.1016/bs.aecr.2016.08.002",
+            "citation": "J. Storkey , A.J. Macdonald , J.R. Bell , I.M. Clark , A.S. Gregory , N.J. Hawkins , P.R. Hirsch , L.C. Todman and Whitmore, A. P. (2016) \"The Unique Contribution of Rothamsted to Ecological Research at Large Temporal Scales.\", Advances in Ecological Research (eds: A.J. Dumbrell , R.L. Kordas and G. Woodward), Vol 55, Chapter 1, pp. 3-42",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1038/nature16444",
+            "sameAs": "https://doi.org/10.1038/nature16444",
+            "citation": "Storkey, J. , Macdonald, A. J. , Poulton, P. R. , Scott, T. , Kohler, I. H. , Schnyder, H. , Goulding, K. W. T. and Crawley, M. J. (2015) \"Grassland biodiversity bounces back from long-term nitrogen addition\", Nature , 528, 401-4",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1111/j.1365-2745.2006.01145.x",
+            "sameAs": "https://doi.org/10.1111/j.1365-2745.2006.01145.x",
+            "citation": "Silvertown, J. , Poulton, P. R. , Johnston, A., E. , Edwards, G. , Heard, M. and Biss, P. M. (2006) \"The Park Grass Experiment 1856-2006: Its contribution to ecology\", Journal of Ecology, 94, 801-814",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        }
+    ]
+}

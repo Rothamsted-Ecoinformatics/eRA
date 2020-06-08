@@ -254,30 +254,33 @@ function getContent($period)
     if (is_array($period['measurements']) and count($period['measurements']) > 0) {
 
         $content .= "\n<h3 class=\"mx-3\">Measurements</h3>";
-        $content .= "\n<div class=\"table-responsive-sm \"><table class = \"table  table-responsive-sm table-sm  table-hover\"><thead  class=\"thead-light\"><tr>";
-        $content .= "\n<th scope=\"col\">Variable</th>";
-        $content .= "\n<th scope=\"col\">Unit</th>";
-        $content .= "\n<th scope=\"col\">Collection <br />Frequency</th>";
-        #$content .= "\n<th scope=\"col\">Scale</th>";
-        $content .= "\n<th scope=\"col\">Material</th>";
-        $content .= "\n<th scope=\"col\">Description</th>";
-        $content .= "\n<th scope=\"col\">Crop</th>";
-        $content .= "\n</tr>";
-        $content .= "\n</thead>";
-        $content .= "\n<tbody>";
+        $content .= "\n<div class=\"table-responsive-sm \">";
+        $content .= "\n \t<table class = \"table  table-responsive-sm table-sm  table-hover table-condensed\">";
+        $content .= "\n  \t     \t   <thead  class=\"thead-light\">";
+        $content .= "\n  \t     \t   \t   <tr>";
+        $content .= "\n  \t     \t   \t   \t   <th scope=\"col\">Variable</th>";
+        $content .= "\n  \t     \t   \t   \t   <th scope=\"col\">Unit</th>";
+        $content .= "\n  \t     \t   \t   \t   <th scope=\"col\">Collection <br />Frequency</th>";
+      
+        $content .= "\n  \t     \t   \t   \t   <th scope=\"col\">Material</th>";
+        $content .= "\n  \t     \t   \t   \t   <th scope=\"col\"  class=\" w-25\">Description</th>";
+        $content .= "\n  \t     \t   \t   \t   <th scope=\"col\">Crop</th>";
+        $content .= "\n  \t     \t   \t   </tr>";
+        $content .= "\n  \t     \t   </thead>";
+        $content .= "\n  \t   \t   <tbody>";
         foreach ($period['measurements'] as $measurement) {
             $vcrop = '';
             if ($measurement['crop']) {
                 $vcrop = $arrCrop[$measurement['crop']];
             }
             $content .= "\n<tr>";
-            $content .= "\n<td>" . title_case($measurement['variable']) . "</td>";
-            $content .= "\n<td>" . $measurement['unitCode'] . "</td>";
-            $content .= "\n<td>" . $measurement['collectionFrequency'] . "</td>";
-            $content .= "\n<td>" . $measurement['material'] . "</td>";
+            $content .= "\n<td class=\"pr-4 \"><small>" . title_case($measurement['variable']) . "</small></td>";
+            $content .= "\n<td class=\"pr-4 \"><small>" . $measurement['unitCode'] . "</small></td>";
+            $content .= "\n<td class=\"pr-4 \"><small>" . $measurement['collectionFrequency'] . "</small></td>";
+            $content .= "\n<td class=\"pr-4 \"><small>" . $measurement['material'] . "</small></td>";
             #$content .= "\n<td>" . $measurement['scale'] . "</td>";
-            $content .= "\n<td>" . $measurement['description'] . "</td>";
-            $content .= "\n<td>" . $vcrop . "</td>";
+            $content .= "\n<td class=\"pr-4 w-25\"><small>" . $measurement['description'] . "</small></td>";
+            $content .= "\n<td class=\"pr-4 \"><small>" . $vcrop . "</small></td>";
 
             $content .= "\n</tr>";
         }

@@ -1,0 +1,313 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "First period",
+            "localIdentifier": "First period",
+            "name": "First period",
+            "url": "First period",
+            "description": ""
+        },
+        "design": {
+            "dateStart": 1856,
+            "dateEnd": 1902,
+            "description": null,
+            "studyDesign": "First period",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": null,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
+        },
+        "crops": [
+            {
+                "id": 6858,
+                "name": "grass",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": [
+            {
+                "id": 3726,
+                "name": "nitrogen fertilizer exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "nitrogen fertilizer exposure",
+                "level": [
+                    {
+                        "id": 11327,
+                        "name": "N1",
+                        "amount": "52",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "ammonium sulfate",
+                        "notes": null
+                    },
+                    {
+                        "id": 11328,
+                        "name": "N2",
+                        "amount": "104",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "ammonium sulfate",
+                        "notes": null
+                    },
+                    {
+                        "id": 11329,
+                        "name": "N3",
+                        "amount": "156",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "ammonium sulfate",
+                        "notes": null
+                    },
+                    {
+                        "id": 11330,
+                        "name": "N1*",
+                        "amount": "52",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "ammonium nitrate",
+                        "notes": null
+                    },
+                    {
+                        "id": 11331,
+                        "name": "N2*",
+                        "amount": "104",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "ammonium nitrate",
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 3727,
+                "name": "natural fertilizer exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "natural fertilizer exposure",
+                "level": [
+                    {
+                        "id": 11332,
+                        "name": "farmyard manure",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": "once every 4 years",
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 11333,
+                        "name": "fish meal",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": "once every 4 years",
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "To supply 68 kgN/ha."
+                    }
+                ]
+            },
+            {
+                "id": 3728,
+                "name": "superphosphate exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "superphosphate exposure",
+                "level": [
+                    {
+                        "id": 11334,
+                        "name": "P",
+                        "amount": "36",
+                        "unitCode": "kgP/ha",
+                        "unitText": "kg phosphorous per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 3729,
+                "name": "potassium fertilizer exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "potassium fertilizer exposure",
+                "level": [
+                    {
+                        "id": 11335,
+                        "name": "K",
+                        "amount": "242",
+                        "unitCode": "kgK/ha",
+                        "unitText": "kg potassium per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "potassium sulphate",
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 3730,
+                "name": "sodium nutrient exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "sodium nutrient exposure",
+                "level": [
+                    {
+                        "id": 11336,
+                        "name": "Na",
+                        "amount": "17",
+                        "unitCode": "kgNa/ha",
+                        "unitText": "kg sodium per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "sodium sulphate",
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 3731,
+                "name": "magnesium nutrient exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "magnesium nutrient exposure",
+                "level": [
+                    {
+                        "id": 11337,
+                        "name": "Mg",
+                        "amount": "12",
+                        "unitCode": "kgMg/ha",
+                        "unitText": "kg magnesium per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "magnesium sulphate",
+                        "notes": null
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Second period",
+            "localIdentifier": "Second period",
+            "name": "Second period",
+            "url": "Second period",
+            "description": "In 1903 plots 1-13, (except 5/1, 5/2, 6 and 12) and 16 were halved and the effects of regular applications of lime (as CaCO3) were tested. FYM, applied every four years, was re-introduced on three plots (13, 19 and 20) in 1905. In 1920, three more plots (14, 15 and 17), were halved and plots 18, 19 and 20 were divided into 3 subplots to test lime."
+        },
+        "design": {
+            "dateStart": 1903,
+            "dateEnd": 1964,
+            "description": null,
+            "studyDesign": "Second period",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": null,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
+        },
+        "crops": [
+            {
+                "id": 6859,
+                "name": "grass",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": "NA",
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Third period",
+            "localIdentifier": "Third period",
+            "name": "Third period",
+            "url": "Third period",
+            "description": "In 1965 most plots were divided into four sub-plots, three of which receive chalk to maintain pHs of 7, 6 and 5 (sub-plots a, b and c respectively). The fourth sub-plot (sub-plot d) receives no chalk and the pH of these ranges from 3.5 to 5.7 depending on the fertilizer treatment.\nFrom 1965 plots 5/1, 5/2 and 6 were used for microplot experiments. Plots 6a and 6b were re-included in the main experiment in 1972 but the other half of plot 6 (6c and 6d) and plots 5/1 and 5/2 have remained outside the main experiment. Since 1990, nitrogen fertilizer has been withheld from half of all sub-plots formerly receiving 96 kg N ha-1 (plots 9 and 14) as either ammonium sulphate or sodium nitrate to study processes controlling soil acidification, heavy-metal mobilisation and botanical changes. Since 1995, plot 13 has been split into 13/1 and 13/2 and FYM/Fishmeal withheld from plot 13/1. Since 1996 plot 2 has been split into 2/1 and 2/2 with plot 2/1 receiving K as potassium sulphate.\nIn 2013 plot 7 (PKNaMg) was divided into two equal sized plots, 7/1 and 7/2. This was to test whether P fertilizer was still required, because large reserves of P have built up in the soil. No P fertilizer was applied to Plot 7/1, but K, Na and Mg applications continued. Plot 7/2 continued as before (i.e. it received PKNaMg). In addition, N applications began on plot 15; 144kg N/ha as sodium nitrate to provide a comparison with plot 11/1 which receives the same amount of N as ammonium sulphate together with P, K, Na & Mg.\nFrom autumn 2016 all plots previously receiving 35 kg P ha-1 as triple superphosphate will receive 17 kg P ha-1 (until further notice) because of the high levels of available soil P from past P inputs. The P application to plot 20 will remain unchanged. Current K, Mg and Na rates on Park Grass remain unchanged."
+        },
+        "design": {
+            "dateStart": 1965,
+            "dateEnd": null,
+            "description": "The botanical composition of the plots has been studied by visual surveys and by looking at the percentage contribution of the various species to the hay harvested. Chemical analyses of the crops and soils have been made and physical samples of the crops and soils preserved.",
+            "studyDesign": "Third period",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": null,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
+        },
+        "crops": [
+            {
+                "id": 6860,
+                "name": null,
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": "NA",
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    }
+]

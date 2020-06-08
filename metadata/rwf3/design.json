@@ -210,7 +210,7 @@
                 "crop": 218
             },
             {
-                "variable": null,
+                "variable": "fallow years",
                 "unitCode": null,
                 "unitText": null,
                 "collectionFrequency": null,

@@ -625,7 +625,7 @@
                 "crop": 6736
             },
             {
-                "variable": null,
+                "variable": "soil organic carbon",
                 "unitCode": "%",
                 "unitText": "Percent",
                 "collectionFrequency": "infrequently",
@@ -645,7 +645,7 @@
                 "crop": null
             },
             {
-                "variable": null,
+                "variable": "soil total nitrogen",
                 "unitCode": "%",
                 "unitText": "Percent",
                 "collectionFrequency": "infrequently",
@@ -665,7 +665,7 @@
                 "crop": null
             },
             {
-                "variable": null,
+                "variable": "soil bulk density",
                 "unitCode": "g/cm3",
                 "unitText": "gram per cubic centimetre",
                 "collectionFrequency": "infrequently",
@@ -854,7 +854,7 @@
                 "crop": 6737
             },
             {
-                "variable": null,
+                "variable": "soil organic carbon",
                 "unitCode": "%",
                 "unitText": "Percent",
                 "collectionFrequency": "infrequently",
@@ -884,7 +884,7 @@
                 "crop": null
             },
             {
-                "variable": null,
+                "variable": "soil bulk density",
                 "unitCode": "g/cm3",
                 "unitText": "gram per cubic centimetre",
                 "collectionFrequency": "infrequently",
@@ -894,7 +894,7 @@
                 "crop": null
             },
             {
-                "variable": null,
+                "variable": "soil organic carbon",
                 "unitCode": "t/ha",
                 "unitText": "tonnes per hectare",
                 "collectionFrequency": "infrequently",
@@ -2464,7 +2464,7 @@
                 "crop": 6739
             },
             {
-                "variable": null,
+                "variable": "thousand grain weight",
                 "unitCode": null,
                 "unitText": "gram",
                 "collectionFrequency": "annually",
@@ -2484,7 +2484,7 @@
                 "crop": null
             },
             {
-                "variable": null,
+                "variable": "soil organic carbon",
                 "unitCode": null,
                 "unitText": "percent",
                 "collectionFrequency": "every five years from 1987",
@@ -2494,7 +2494,7 @@
                 "crop": null
             },
             {
-                "variable": null,
+                "variable": "soil total nitrogen",
                 "unitCode": null,
                 "unitText": "percent",
                 "collectionFrequency": "every five years from 1987",
@@ -2514,7 +2514,7 @@
                 "crop": null
             },
             {
-                "variable": null,
+                "variable": "soil bulk density",
                 "unitCode": null,
                 "unitText": "gram per cubic centimeter",
                 "collectionFrequency": null,
