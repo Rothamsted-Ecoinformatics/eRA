@@ -169,6 +169,8 @@ if ($hasDataset) {
 		<div class="col-sm-4">
 			<div class="card card-summary">
 				<div class="card-body">
+				<button type="button" class="btn btn-primary" data-toggle="modal"
+								data-target="#modalClickTrough">Download</button>
 					<ul class="list-group list-group-flush">
 						<li class="list-group-item"><b>DOI: </b><?php echo $dsinfo['identifier'];?>
 						</li>
@@ -177,8 +179,7 @@ if ($hasDataset) {
 						<li class="list-group-item"><b>Files: </b> <?php echo $distribution; ?>
 						
 						
-						<button type="button" class="btn btn-primary" data-toggle="modal"
-								data-target="#modalClickTrough">Download</button>
+						
 						
 						<li class="list-group-item"><b>Version: </b> <?php echo $dsinfo['version']; ?></li>
 						<li class="list-group-item"><b>Creation Date: </b> <?php echo $dateCreation; ?></li>
@@ -196,6 +197,8 @@ if ($hasDataset) {
 							Sarah Perryman</li>
 						<li class="list-group-item"><b>Publisher: </b>Rothamsted Research</li>
 					</ul>
+					<button type="button" class="btn btn-primary" data-toggle="modal"
+								data-target="#modalClickTrough">Download</button>
 				</div>
 
 			</div>
