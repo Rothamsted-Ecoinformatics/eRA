@@ -77,7 +77,7 @@ $hasMonthly = file_exists($fileMonthly);
 ?>
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-	<head>  
+<head>  
         <?php
         include 'includes/meta.html'; // that is the <meta and link tags> superseeds head.html
 
@@ -89,20 +89,20 @@ $hasMonthly = file_exists($fileMonthly);
         ?>  
     </head>
 
-	<body>
+<body>
 	<div class="container bg-white px-0">
-        <?php       
-        include 'includes/header.html'; // all the menus at the top        
-        // -- start dependant content ---------------------------------------------------------
+        <?php
+        include 'includes/header.html'; // all the menus at the top
+                                        // -- start dependant content ---------------------------------------------------------
         ?>
         <div id="idExpt">
-            <h1 class="mx-3"><?php
-            // /experimentname is found in the datadescription file.
-            echo title_case($experiment['administrative']['name']);
-            ?></h1>
-            <div class="row">
-            	<div class="col-12 py-3">
-    				<ul class="nav nav-tabs nav-fill text-body ">
+			<h1 class="mx-3"><?php
+// /experimentname is found in the datadescription file.
+echo title_case($experiment['administrative']['name']);
+?></h1>
+			<div class="row">
+				<div class="col-12 py-3">
+					<ul class="nav nav-tabs nav-fill text-body ">
 						<li class="nav-item"><a class="nav-link active show"
 							id="summary-tab" data-toggle="tab" href="#summary">Overview</a></li>
 						<li class="nav-item"><a class="nav-link" id="site-tab"
@@ -114,10 +114,7 @@ $hasMonthly = file_exists($fileMonthly);
 						<li class="nav-item"><a class="nav-link" id="datasets-tab"
 							data-toggle="tab" href="#datasets">Datasets</a></li>
 						<?php } ?>
-						<?php if ($hasDatasets) {?>
-                						<li class="nav-item"><a class="nav-link"
-							id="datasets2-tab" data-toggle="tab" href="#datasets">Datasets</a></li>
-                						<?php } ?>
+						
 						<li class="nav-item"><a class="nav-link" id="images-tab"
 							data-toggle="tab" href="#images">Images</a></li>
 						<li class="nav-item"><a class="nav-link" id="documents-tab"
@@ -125,40 +122,33 @@ $hasMonthly = file_exists($fileMonthly);
 
 						<li class="nav-item"><a class="nav-link" id="keyrefs-tab"
 							data-toggle="tab" href="#keyrefs">Bibliography</a></li>
-    				</ul>
-    				<div class="tab-content mh-100" id="idExptTabs">
-    					<div class="tab-pane active show" id="summary" role="tabpanel"
-    							aria-labelledby="summary-tab">
+					</ul>
+					<div class="tab-content mh-100" id="idExptTabs">
+						<div class="tab-pane active show" id="summary" role="tabpanel"
+							aria-labelledby="summary-tab">
     							<?php
-                                 include '_summary.php';
-                                 ?>						
+        include '_summary.php';
+        ?>						
     					</div>
-    					<div class="tab-pane" id="measurements" role="tabpanel"
-    							aria-labelledby="measurements-tab">
-    							<div class="row px-5">
+						<div class="tab-pane" id="measurements" role="tabpanel"
+							aria-labelledby="measurements-tab">
+							<div class="row px-5">
     							<?php
-                                 $measurements = $exptFolder . '/measurements.php';
-                                    include ($measurements);
-                                    ?>
+        $measurements = $exptFolder . '/measurements.php';
+        include ($measurements);
+        ?>
     							</div>
-    					</div>
+						</div>
 						<div class="tab-pane" id="site" role="tabpanel"
 							aria-labelledby="site-tab">
 							<?php include '_site.php';?>
 							</div>
 						<?php if ($hasDatasets) {?>
-						<div class="tab-pane" id="datasets" role="tabpanel"
-							aria-labelledby="datasets-tab">
-							<?php include '_datasets.php';?>
-							</div>
-						<?php }?>
-						
-                						<?php if ($hasDatasets) {?>
-                						<div class="tab-pane  pb-3" id="datasets2"
-							role="tabpanel" aria-labelledby="datasets2-tab">
-                							<?php include '_datasetsCards.php';?>
-                							</div>
-                							<?php }?>
+                		<div class="tab-pane  pb-3" id="datasets"
+							role="tabpanel" aria-labelledby="datasets-tab">
+                			<?php include '_datasetsCards.php';?>
+                		</div>
+                		<?php }?>
 						<div class="tab-pane" id="images" role="tabpanel"
 							aria-labelledby="images-tab">
 							<?php //include '_images.php';?>
@@ -167,43 +157,44 @@ $hasMonthly = file_exists($fileMonthly);
 							aria-labelledby="documents-tab">
 							<div class="row px-5">
 							<?php
-                            $fileMonthly = $exptFolder . '/' . 'monthly.php';
-                            $hasMonthly = file_exists($fileMonthly);
-                            if ($hasMonthly) {
-                                include ($fileMonthly);
-                            }
-                            ?>
+    $fileMonthly = $exptFolder . '/' . 'monthly.php';
+    $hasMonthly = file_exists($fileMonthly);
+    if ($hasMonthly) {
+        include ($fileMonthly);
+    }
+    ?>
                          	</div>
-    					</div>
-    					<div class="tab-pane" id="keyrefs" role="tabpanel"
-    							aria-labelledby="keyrefs-tab">
+						</div>
+						<div class="tab-pane" id="keyrefs" role="tabpanel"
+							aria-labelledby="keyrefs-tab">
     							<?php if ($dev == 'norton') {} else  {include '_keyrefs.php';} ?>
     					</div>
-    
-    
-    				</div>
-    			</div>
-            </div>
-           
-        </div>
+
+
+					</div>
+				</div>
+			</div>
+
+		</div>
         					
         <?php
         // -- start footers -----------------------------
-        
+
         include_once 'includes/footer.html';
-        
+
         include_once 'includes/finish.inc'; // this has the common js scripts
-        
+
         ?>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
-        <script>
+        <script
+			src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+		<script>
         	 baguetteBox.run('.compact-gallery',{animation:'slideIn',
         	 captions: function(element) {
         	  return element.getElementsByTagName('img')[0].alt;
         	   }});
         </script>
-        <div id="mapid"></div>
+		<div id="mapid"></div>
 	</div>
-	</body>
+</body>
 </html>
 
