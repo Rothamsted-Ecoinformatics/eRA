@@ -65,6 +65,7 @@ if ($hasDataset) {
         $dateUpdate = "N/A";
     }
     if (is_array($dsinfo['distribution'])) {
+        $zipfile = $exptFolder . "/" . $datasetFolder . "/" . $datasetFolder . ".zip" ;
         $distribution = "<ul>";
         foreach ($dsinfo['distribution'] as $filedownloads) {
 
@@ -348,7 +349,7 @@ if (isset($arrDescription['Other'])) {
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				<a type="button" download class="btn btn-primary" href="testZip.zip">Agree and Download</a>
+				<a type="button" download class="btn btn-primary" href="<?php echo $zipfile; ?>">Agree and Download</a>
 			</div>
 		</div>
 	</div>
