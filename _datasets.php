@@ -1,4 +1,4 @@
-<?php 
+<?php
 /**
  * @file _datasets.php
  * @brief lists datasets for an experiment
@@ -7,42 +7,106 @@
  * @author Nathalie Castells-Brooke
  * @date 9/27/2018
  */
-
 ?>
 
 <h2 class="mx-3">Datasets available</h2>
 
+
+<div class="row equal m-3">
+	
+	
+
+
 <?php
 
-
-
-if (!$hasDatasets) {
-    $info = "<p>There are no datasets for this experiments yet. </p>";
-}
-else 
+/*
+ * function niceChop -
+ * to chop a paragrapgh to the length $length, but to previous or next full stop, whichever is teh closest
+ * Note that an abbreviation can be mistaken for a full stop. We will filter out the full stop following single letters.
+ *
+ *
+ */
+function niceChop($text, $length)
 {
-$info = "";
-$prefix = "10.23637/";
+    $prestr = explode('.', $text);
+    $sents = array();
+    $sents[0] = '';
+    $desc = '';
+    $next = '';
+    $j = 0;
+    for ($i = 0; $i < count($prestr); $i ++) {
+        
+        $isInitial = 0;
+        $sentLen = strlen($prestr[$i]);
+        /* testing for single letters last word */
+        if ($sentLen > 2) {
+            if ($prestr[$i][$sentLen - 2] == ' ') {
+                $isInitial = 1;
+            } 
+        } else {
+            $isInitial = 1;
+        }
 
-foreach ($datasets as $dataset) {
-    $fileDataset = $exptFolder . '/' . $dataset['shortName'].'/' . $dataset['shortName'].'.json';
-    
-    $id = str_replace($prefix, '', $dataset['identifier']);
-    $info .= "<h3 class=\"mx-3 mt-5\">".$dataset['title']."</h3>";
-    $info .=  "<ul  class=\"list-group mx-5\">";
-    $info .= "<li class=\"list-group-item \">Dataset Page on old e-RA site: <a href=\"".$dataset['URL']."\">".$dataset['identifier']."</a></li>";
-    $info .= "<li class=\"list-group-item \">Dataset Page on new e-RA site: <a href=\"dataset.php?expt=".$expt."&amp;dataset=".$dataset['shortName']."\">".$dataset['identifier']." - ".$dataset['shortName']."</a></li>";
-   
-    $info .= "<li class=\"list-group-item \"    style=\"white-space: pre-wrap;\" >".$dataset['description']."</li>";
-       $info .= "</ul>";
+        if ($isInitial == 1) {
+            $sents[$j] .= '. '.$prestr[$i];
+        } else {
+            $sents[$j] .= '. '.$prestr[$i];
+            $next = $desc  . $sents[$j];
+            $j ++;
+            $sents[$j] = '';
+        }
+
+        if (strlen($desc) > $length) {
+            
+            break;
+        } else {
+            $desc = $next ;
+        }
+        $desc = ltrim($desc, '.');
+        $desc = str_replace('..', '.', $desc);
+        $desc .= '.';
+    }
+    return $desc;
 }
 
+if (! $hasDatasets) {
+    $info = "<p>There are no datasets for this experiments yet. </p>";
+} else {
+    $info = "";
+    $prefix = "10.23637/";
 
-echo $info;
+    foreach ($datasets as $dataset) {
+        $fileDataset = $exptFolder . '/' . $dataset['shortName'] . '/' . $dataset['shortName'] . '.json';
+        $subDescription = '';
 
+        /*
+         * TODO: make this a nice function that chops at the next or previous full stop, whatever is closest.
+         *
+         * if (strlen($dataset['description']) > 300) {
+         * $subDescription = substr($dataset['description'], 0, 300 ) . "...";
+         * } else {$subDescription = $dataset['description'];}
+         */
+        $subDescription = niceChop($dataset['description'], 200);
 
+        $id = str_replace($prefix, '', $dataset['identifier']);
+
+        $info .= "<div class=\"col-sm-4 py-2\">";
+        $info .= "\n	<div class=\"card  h-100 bg-light mb-3 \" >";
+        $info .= "\n	\t	<div class=\"card-header\">" . $dataset['title'] . "</div>";
+        $info .= "\n	\t	<div class=\"card-body\">";
+        // $info .="\n \t <h4 class=\"card-title\">Light card title</h4>";
+        $info .= "\n	\t	\t		<small class=\"card-muted\">" . $subDescription . " </small>";
+
+        $info .= "\n	\t		</div>";
+        $info .= "\n	\t	<div class=\"card-footer\"> <a class=\"btn btn-primary stretched-link\" href=\"dataset.php?expt=" . $expt . "&amp;dataset=" . $dataset['shortName'] . "\"> More ...</a></div>";
+
+        $info .= "\n	\t	</div>";
+        $info .= "\n	\t	</div>";
+    }
+
+    echo $info;
 }
-
 
 ?>
 
+</div>

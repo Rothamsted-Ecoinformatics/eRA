@@ -145,7 +145,7 @@ echo title_case($experiment['administrative']['name']);
                 								<?php if ($hasDatasets) {?>
                 						<div class="tab-pane  pb-3" id="datasets"
 							role="tabpanel" aria-labelledby="datasets-tab">
-                							<?php include '_datasetsCards.php';?>
+                							<?php include '_datasets.php';?>
                 							</div>
                 							<?php }?>
                 							
