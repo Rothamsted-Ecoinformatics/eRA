@@ -76,7 +76,15 @@ if (! $hasDatasets) {
     $prefix = "10.23637/";
 
     foreach ($datasets as $dataset) {
-        $fileDataset = $exptFolder . '/' . $dataset['shortName'] . '/' . $dataset['shortName'] . '.json';
+        if ($dataset['UID']) {
+        $fileDataset = $exptFolder . '/' . $dataset['shortName'] . '/' . $dataset['UID'] . '.json';
+        
+        }
+        else 
+        {
+            $fileDataset = $exptFolder . '/' . $dataset['shortName'] . '/' . $dataset['shortname'] . '.json';
+            
+        }
         $subDescription = '';
 
         /*
@@ -98,7 +106,7 @@ if (! $hasDatasets) {
         $info .= "\n	\t	\t		<small class=\"card-muted\">" . $subDescription . " </small>";
 
         $info .= "\n	\t		</div>";
-        $info .= "\n	\t	<div class=\"card-footer\"> <a class=\"btn btn-primary stretched-link\" href=\"dataset.php?expt=" . $expt . "&amp;dataset=" . $dataset['shortName'] . "\"> More ...</a></div>";
+        $info .= "\n	\t	<div class=\"card-footer\"> <a class=\"btn btn-primary stretched-link\" href=\"dataset.php?expt=" . $expt . "&amp;dataset=" . $dataset['UID'] . "\"> More ...</a></div>";
 
         $info .= "\n	\t	</div>";
         $info .= "\n	\t	</div>";

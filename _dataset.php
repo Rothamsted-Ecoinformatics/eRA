@@ -65,7 +65,7 @@ if ($hasDataset) {
         $dateUpdate = "N/A";
     }
     if (is_array($dsinfo['distribution'])) {
-        $zipfile = $exptFolder . "/" . $datasetFolder . "/" . $datasetFolder . ".zip" ;
+        $zipfile = $exptFolder . "/" . $datasetFolder . "/" . $dataset . ".zip" ;
         $distribution = "<ul>";
         foreach ($dsinfo['distribution'] as $filedownloads) {
 

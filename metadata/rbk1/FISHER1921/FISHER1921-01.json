@@ -1,0 +1,143 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/rbk1-data-fisher-1921-01",
+    "name": "Fisher 1921 Broadbalk wheat grain yields 1852-1918",
+    "shortName": "FISHER1921",
+    "url": "http://www.era.rothamsted.ac.uk/Broadbalk/Fisher1921",
+    "description": [
+        {
+            "inLanguage": "en",
+            "descriptionType": "Abstract",
+            "description": "This dataset consists of annual wheat yields from selected plots of the Broadbalk Wheat Experiment, 1852-1918, as used by R.A. Fisher in his 1921 paper 'Studies in crop variation'."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Methods",
+            "description": "Data are presented as annual dressed wheat grain yields, in bushels/acre, from the Broadbalk Wheat Experiment, Rothamsted Research, Harpenden, Herts, AL5 2JQ, UK. Data is given for 13 plots (2b, 3&4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 17 and 18), from 1852-1918 inclusive."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Provenance",
+            "description": "Data from plots 2b, 3&4, 5, 10, 11, 12, 13, 14, 17 and 18 were transcribed from Fisher's original hand written datasheets. These are kept in the Rothamsted Research Library Archive. The original datasheets for plots 6-8 could not be found in the Archive, so the annual data have been re-constructed, based on yield data in the e-RA Database, dataset BKYIELD. See Supporting Information for more details of how this was done. Verification includes checking all data entry, checking that the mean values agree with Fisher's mean values in Table 1 of the 1921 paper and re-constructing known data from plots 5 and 11 to check which sub-plots were used by Fisher. There are some minor differences, see Supporting Information for more details. The raw data used to derive the yields for plots 6-8 is available, after registering, from the e-RA database. Please contact the e-RA Curators for an access password and further details."
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "The Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "datePublished": "2018-12-17",
+    "dateCreated": "2018-12-17",
+    "dateModified": null,
+    "inLanguage": "en",
+    "version": "01",
+    "keywords": [
+        "Broadbalk long-term experiment",
+        "crop yield",
+        "long term experiments",
+        "wheat",
+        "statistical data"
+    ],
+    "creator": [
+        {
+            "type": "organization",
+            "name": "Rothamsted Research"
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "text/csv",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "The Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License"
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.37301,
+            "latitude": 51.80946
+        },
+        "name": "Broadbalk"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/rbk1-sup-1534342858-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk Plan 1852-1925",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rbk1-1796346264-1",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk Dataset",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsDerivedFrom",
+            "rt_id": 28,
+            "relationTypeValue": "is derived from"
+        }
+    ],
+    "funder": [
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/000J0300 - The Rothamsted Long - Term Experiments - National Capability",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F000J0300"
+        }
+    ],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Notes describing the Fisher 1921 raw data",
+            "URL": "01-Notes-2018-08-01.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "14 KB"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Fisher 1921 Broadbalk grain yields 1852-1918",
+            "URL": "01-yields-1852-1918-2018-08-01.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "7 KB"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Fisher 1921 Broadbalk grain yields 1852-1918",
+            "URL": "01-yields-1852-1918-2018-08-01.csv",
+            "encodingFormat": "csv",
+            "fileSize": "20 KB"
+        }
+    ],
+    "grade": 1
+}

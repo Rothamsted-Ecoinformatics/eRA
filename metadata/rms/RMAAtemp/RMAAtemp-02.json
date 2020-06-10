@@ -1,10 +1,10 @@
 {
     "@context": "https://schema.org/",
     "@type": "Dataset",
-    "identifier": "10.23637/KeyRefOARESmatemp",
-    "name": "Annual Mean Air Temperature at Rothamsted 1878-2013",
+    "identifier": "10.23637/rms-RMAAtemp-02",
+    "name": "Annual Mean Air Temperature at Rothamsted 1878-2019",
     "shortName": "RMAAtemp",
-    "url": "http://www.era.rothamsted.ac.uk/Met/met_open_access_res_matemp",
+    "url": "http://www.era.rothamsted.ac.uk/Met/met_open_access_res_matemp_v2",
     "description": [
         {
             "inLanguage": "en",
@@ -14,12 +14,12 @@
         {
             "inLanguage": "en",
             "descriptionType": "Methods",
-            "description": "Summary data used for this chart are derived from annual daily data measured at Rothamsted Meteorological Station. Daily temperature is measured over the 24 hour period 0900 to 0900 GMT."
+            "description": "Summary data used for this chart are derived from annual daily data measured at Rothamsted Meteorological Station. The mean daily temperature is measured over a 24 hour period 0900 to 0900 GMT and calculated from the daily maximum (Tmax) and minimum temperatures (Tmin); the mean daily tamperature = (Tmax = Tmin)/2."
         },
         {
             "inLanguage": "en",
             "descriptionType": "TechnicalInfo",
-            "description": "Since first recorded in 1878, maximum temperature (TMAX) was measured using a mercury column thermometer and mimimum temperature (TMIN) using a spirit-in-glass with indicator bar minimum thermometer. \r\n Since 2004, temperatures have been recorded automatically by thermistors (electronic temperature probes, Campbell Scientific, Type 107)."
+            "description": "First recorded in 1878, Tmax was then measured using a mercury column thermometer and Tmin using a spirit-in-glass with indicator bar minimum thermometer.\r\n\r\nSince 2004, temperatures have been recorded automatically by thermistors (electronic temperature probes, Campbell Scientific, Type 107)."
         }
     ],
     "publisher": {
@@ -30,12 +30,12 @@
     "dateCreated": "2020-02-12",
     "dateModified": null,
     "inLanguage": "en",
-    "version": "01",
+    "version": "02",
     "keywords": [
         "meteorological station",
         "Rothamsted Research",
-        "weather data",
         "weather",
+        "weather data",
         "temperature",
         "air temperature",
         "climate",
@@ -113,7 +113,7 @@
             }
         }
     ],
-    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "encodingFormat": "text/csv",
     "copyrightHolder": {
         "type": "organization",
         "name": "The Electronic Rothamsted Archive, Rothamsted Research"
@@ -135,18 +135,18 @@
     },
     "relatedIdentifier": [
         {
-            "relatedIdentifier": "10.23637/rms-RMAAtemp-02",
+            "relatedIdentifier": "10.23637/ROTHAMSTED-LONG-TERM-EXPERIMENTS-GUIDE-2018",
             "relatedIdentifierType": "DOI",
-            "name": "Annual Mean Air Temperature at Rothamsted 1878-2019",
+            "name": "Macdonald, A. Guide to the Classical and Other Long-term Experiments (2018)",
             "relatedIdentifierGeneralType": "text",
-            "relationType": "IsPreviousVersionOf",
-            "rt_id": 14,
-            "relationTypeValue": "is previous version of"
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
         },
         {
             "relatedIdentifier": "10.23637/ecn-rothamsted-booklet-2015",
             "relatedIdentifierType": "DOI",
-            "name": "The U.K. Environmental Change Network Rothamsted. The first 20 Years (2015)",
+            "name": "Scott, T. The U.K. Environmental Change Network Rothamsted. The First 20 Years (2015)",
             "relatedIdentifierGeneralType": "text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
@@ -180,22 +180,13 @@
             "relationTypeValue": "is referenced by"
         },
         {
-            "relatedIdentifier": "www.era.rothamsted.ac.uk/eradoc/book/216",
-            "relatedIdentifierType": "URL",
-            "name": "Guide to the Classical and Other Long-term Experiments, Datasets and Sample Archive (2018)",
-            "relatedIdentifierGeneralType": "text",
-            "relationType": "IsDescribedBy",
-            "rt_id": 7,
-            "relationTypeValue": "is described by"
-        },
-        {
-            "relatedIdentifier": "10.23637/keyrefoabkolsenp",
+            "relatedIdentifier": "10.23637/KeyRefOARESmatemp",
             "relatedIdentifierType": "DOI",
-            "name": "Broadbalk changes in Olsen P in top soil, 1844-2010",
+            "name": "Annual Mean Air Temperature at Rothamsted 1878-2013",
             "relatedIdentifierGeneralType": "text",
-            "relationType": "Cites",
-            "rt_id": 2,
-            "relationTypeValue": "cites"
+            "relationType": "IsNewVersionOf",
+            "rt_id": 13,
+            "relationTypeValue": "is new version of"
         }
     ],
     "funder": [
@@ -203,32 +194,32 @@
             "type": "organization",
             "name": "Biotechnology and Biological Sciences Research Council",
             "sameAs": "http://dx.doi.org/10.13039/501100000268",
-            "award": "BBS/E/C/00005189 - The Rothamsted Long-Term Experiments including Sample Archive and e-RA database",
-            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F00005189"
+            "award": "BBS/E/C/000J0300 - The Rothamsted Long - Term Experiments - National Capability",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F000J0300"
         }
     ],
     "distribution": [
         {
             "type": "dataDownload",
-            "name": "Annual Mean Rothamsted Temperature 1878-2013 (data)",
-            "URL": "01-data_1878-2013.xlsx",
+            "name": "Annual Mean Rothamsted Temperature 1878-2019 (data)",
+            "URL": "02-data_1878-2019.xlsx",
             "encodingFormat": "xlsx",
-            "fileSize": "14 KB"
+            "fileSize": "15 KB"
         },
         {
             "type": "dataDownload",
-            "name": "Annual Mean Rothamsted Temperature 1878-2013 (figure)",
-            "URL": "01-fig_1878-2013.pdf",
+            "name": "Annual Mean Rothamsted Temperature 1878-2019 (figure)",
+            "URL": "02-fig_1878-2019.pdf",
             "encodingFormat": "pdf",
-            "fileSize": "97 KB"
+            "fileSize": "170 KB"
         },
         {
             "type": "dataDownload",
-            "name": "Annual Mean Rothamsted Temperature 1878-2013 (figure)",
-            "URL": "01-fig_1878-2013.png",
+            "name": "Annual Mean Rothamsted Temperature 1878-2019 (figure)",
+            "URL": "02-fig_1878-2019.png",
             "encodingFormat": "png",
-            "fileSize": "37 KB"
+            "fileSize": "46 KB"
         }
     ],
-    "grade": 2
+    "grade": 3
 }

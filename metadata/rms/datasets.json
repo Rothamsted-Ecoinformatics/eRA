@@ -12,7 +12,9 @@
         "experiment_name": "Rothamsted Meteorological Station",
         "experiment_code": "RMS",
         "grade": 3,
-        "shortName": "RMAAtemp"
+        "version": "02",
+        "shortName": "RMAAtemp",
+        "UID": "RMAAtemp-02"
     },
     {
         "md_id": 1535448515,
@@ -27,7 +29,9 @@
         "experiment_name": "Rothamsted Meteorological Station",
         "experiment_code": "RMS",
         "grade": 3,
-        "shortName": "RMMRAINS5318"
+        "version": "01",
+        "shortName": "RMMRAINS5318",
+        "UID": "RMMRAINS5318-01"
     },
     {
         "md_id": -728549132,
@@ -42,7 +46,9 @@
         "experiment_name": "Rothamsted Meteorological Station",
         "experiment_code": "RMS",
         "grade": 3,
-        "shortName": "rmsMMR10850917"
+        "version": "01",
+        "shortName": "rmsMMR10850917",
+        "UID": "rmsMMR10850917-01"
     },
     {
         "md_id": -666638375,
@@ -57,7 +63,9 @@
         "experiment_name": "Rothamsted Meteorological Station",
         "experiment_code": "RMS",
         "grade": 3,
-        "shortName": "R30YrMeans6190"
+        "version": "01",
+        "shortName": "R30YrMeans6190",
+        "UID": "R30YrMeans6190-01"
     },
     {
         "md_id": 977701674,
@@ -72,7 +80,9 @@
         "experiment_name": "Rothamsted Meteorological Station",
         "experiment_code": "RMS",
         "grade": 3,
-        "shortName": "R30YrMeans7100"
+        "version": "01",
+        "shortName": "R30YrMeans7100",
+        "UID": "R30YrMeans7100-01"
     },
     {
         "md_id": 1139325298,
@@ -87,7 +97,9 @@
         "experiment_name": "Rothamsted Meteorological Station",
         "experiment_code": "RMS",
         "grade": 3,
-        "shortName": "R30YrMeans8110"
+        "version": "01",
+        "shortName": "R30YrMeans8110",
+        "UID": "R30YrMeans8110-01"
     },
     {
         "md_id": -1996381318,
@@ -102,7 +114,9 @@
         "experiment_name": "Rothamsted Meteorological Station",
         "experiment_code": "RMS",
         "grade": 2,
-        "shortName": "RMAAtemp"
+        "version": "01",
+        "shortName": "RMAAtemp",
+        "UID": "RMAAtemp-01"
     },
     {
         "md_id": -604972603,
@@ -117,6 +131,8 @@
         "experiment_name": "Rothamsted Meteorological Station",
         "experiment_code": "RMS",
         "grade": 2,
-        "shortName": "rmsMMT10850917"
+        "version": "01",
+        "shortName": "rmsMMT10850917",
+        "UID": "rmsMMT10850917-01"
     }
 ]

@@ -1,0 +1,215 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/OA-OE-1935002-1",
+    "name": "Soil Fumigation Experiment, Spring Oats, Pastures, 1935",
+    "shortName": "Fumi35",
+    "url": "http://www.era.rothamsted.ac.uk/Other/FumigationExperiment1935",
+    "description": [
+        {
+            "inLanguage": "en",
+            "descriptionType": "Abstract",
+            "description": "Numbers of eelworms in soil before and after fumigant treatments. This dataset consists of the plan, treatments, cultivations, yields and numbers of eelworm cysts relating to the Fumigation Experiment conducted in the field, Pastures, at Rothamsted. then Experimental Station, in 1935."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Methods",
+            "description": "In March 1935, 400 grams of soil were sampled and the number of eelworm cysts were counted. Fumigants were added to the soil, oats were sown and harvested in August. In October the plots were sampled again and the final number of cysts recorded."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TechnicalInfo",
+            "description": "System of replication: 4 randomised blocks of 12 plots each.\r\nArea of each plots: 1/80 acre (30lks. X 41.7 lks.).\r\nTreatments: No fumigant (O), single (1) and double (2) dressings of \"cymag\" (CM), carbon disulphode jelly (S), chlordinitrobenzene (N) and \"seekay\" (CK), at the following rates of application per acre for the single dressing: 1 CM, 7.5 cwt.; 1 S, 24.3 cwt.; 1 N, 2.0 cwt. and 1 CK, 5.0 cwt.\r\nBasal Manuring: 1 cwt. sulphate of ammonia per acre.\r\nCultivations: Ploughed: March 21 and 22. Fumigants ploughed in. Harrowed: March 25 and 26. Rolled: March 26. Drilled: March 26. Harrowed: March 27. Rolled: March 27. Harrowed: May 3. Harvested: August 9. Variety: Marvellous. Previous crop: Spring oats.\r\nSpecial Note: The ratio of weeds to total oats was determined by sampling at harvesting, two random samples being taken per plot.\r\nStandard Errors per plot: Grain: 3.38 cwt. per acre or 28.5%; straw: 6.17 cwt. per acre or 30.4%; weeds: 5.07 cwt. per acre."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Provenance",
+            "description": "This experiment is originally documented in the Rothamsted Annual Report of 1935 pages 176-178 as digitally archived in eRADoc \"Other Experiments at Rothamsted\" (1936) Report for 1935,  https://doi.org/10.23637/ERADOC-1-67"
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "The Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "datePublished": null,
+    "dateCreated": null,
+    "dateModified": null,
+    "inLanguage": "en",
+    "version": "01",
+    "keywords": [
+        "statistical data",
+        "soil",
+        "experimental design",
+        "nematoda"
+    ],
+    "creator": [
+        {
+            "type": "organization",
+            "name": "Rothamsted Research"
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "RelatedPerson",
+            "name": "Nathalie Castells-Brooke",
+            "givenName": "Nathalie",
+            "familyName": "Castells-Brooke",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectManager",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "The Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License"
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.373496,
+            "latitude": 51.807939
+        },
+        "name": "Pastures"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-67",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted Report for 1935",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        }
+    ],
+    "funder": [
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/000J0300 - The Rothamsted Long - Term Experiments - National Capability",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F000J0300"
+        }
+    ],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Table 1. Plan and yields 1935",
+            "URL": "01-Table1Planandyields1935.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "13 KB"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Table 2. Summary of Results Grain, Straw, Weeds 1935",
+            "URL": "01-Table2SummaryofResults1935.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "28 KB"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Table 3. Plan and numbers of cysts 1935",
+            "URL": "01-Table3Planandnumbersofcysts1935.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "13 KB"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Table 4. Summary of Results 1935",
+            "URL": "01-Table4SummaryofResults1935.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "29 KB"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Combined results: Eel cyst counts and yields 1935",
+            "URL": "01-SoilFumigationExperimenteelsandyields1935.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "14 KB"
+        }
+    ],
+    "grade": 1
+}

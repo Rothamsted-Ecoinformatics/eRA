@@ -12,7 +12,9 @@
         "experiment_name": "Broadbalk",
         "experiment_code": "R/BK/1",
         "grade": 3,
-        "shortName": "OAWWYields"
+        "version": "01",
+        "shortName": "OAWWYields",
+        "UID": "OAWWYields-01"
     },
     {
         "md_id": -1140916605,
@@ -27,7 +29,9 @@
         "experiment_name": "Broadbalk",
         "experiment_code": "R/BK/1",
         "grade": 3,
-        "shortName": "Nitro1843"
+        "version": "01",
+        "shortName": "Nitro1843",
+        "UID": "Nitro1843-01"
     },
     {
         "md_id": 1796346264,
@@ -42,7 +46,9 @@
         "experiment_name": "Broadbalk",
         "experiment_code": "R/BK/1",
         "grade": 2,
-        "shortName": "YIELD844925"
+        "version": "01",
+        "shortName": "YIELD844925",
+        "UID": "YIELD844925-01"
     },
     {
         "md_id": 935928566,
@@ -57,7 +63,9 @@
         "experiment_name": "Broadbalk",
         "experiment_code": "R/BK/1",
         "grade": 2,
-        "shortName": "OAOlsenP1844"
+        "version": "01",
+        "shortName": "OAOlsenP1844",
+        "UID": "OAOlsenP1844-01"
     },
     {
         "md_id": -2078416917,
@@ -72,7 +80,9 @@
         "experiment_name": "Broadbalk",
         "experiment_code": "R/BK/1",
         "grade": 1,
-        "shortName": "Circum1991"
+        "version": "01",
+        "shortName": "Circum1991",
+        "UID": "Circum1991-01"
     },
     {
         "md_id": -1004390306,
@@ -87,6 +97,8 @@
         "experiment_name": "Broadbalk",
         "experiment_code": "R/BK/1",
         "grade": 1,
-        "shortName": "FISHER1921"
+        "version": "01",
+        "shortName": "FISHER1921",
+        "UID": "FISHER1921-01"
     }
 ]

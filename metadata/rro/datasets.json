@@ -12,7 +12,9 @@
         "experiment_name": "Fumigation",
         "experiment_code": "R/RO",
         "grade": 1,
-        "shortName": "Fumi35"
+        "version": "01",
+        "shortName": "Fumi35",
+        "UID": "Fumi35-01"
     },
     {
         "md_id": 1971713025,
@@ -27,6 +29,8 @@
         "experiment_name": "Fumigation",
         "experiment_code": "R/RO",
         "grade": 1,
-        "shortName": "Fumi36"
+        "version": "01",
+        "shortName": "Fumi36",
+        "UID": "Fumi36-01"
     }
 ]

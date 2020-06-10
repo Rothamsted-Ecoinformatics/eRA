@@ -12,7 +12,9 @@
         "experiment_name": "Exhaustion Land",
         "experiment_code": "R/EX/4",
         "grade": 2,
-        "shortName": ""
+        "version": "01",
+        "shortName": 988151632,
+        "UID": 988151632
     },
     {
         "md_id": 1986191933,
@@ -27,7 +29,9 @@
         "experiment_name": "Exhaustion Land",
         "experiment_code": "R/EX/4",
         "grade": 2,
-        "shortName": ""
+        "version": "01",
+        "shortName": 1986191933,
+        "UID": 1986191933
     },
     {
         "md_id": 4,
@@ -42,7 +46,9 @@
         "experiment_name": "Exhaustion Land",
         "experiment_code": "R/EX/4",
         "grade": 1,
-        "shortName": ""
+        "version": "01",
+        "shortName": 4,
+        "UID": 4
     },
     {
         "md_id": 591370265,
@@ -57,7 +63,9 @@
         "experiment_name": "Exhaustion Land",
         "experiment_code": "R/EX/4",
         "grade": 1,
-        "shortName": ""
+        "version": "01",
+        "shortName": 591370265,
+        "UID": 591370265
     },
     {
         "md_id": 173309935,
@@ -72,7 +80,9 @@
         "experiment_name": "Exhaustion Land",
         "experiment_code": "R/EX/4",
         "grade": 1,
-        "shortName": ""
+        "version": "01",
+        "shortName": 173309935,
+        "UID": 173309935
     },
     {
         "md_id": 1284192004,
@@ -87,7 +97,9 @@
         "experiment_name": "Exhaustion Land",
         "experiment_code": "R/EX/4",
         "grade": 1,
-        "shortName": ""
+        "version": "01",
+        "shortName": 1284192004,
+        "UID": 1284192004
     },
     {
         "md_id": 887505845,
@@ -102,7 +114,9 @@
         "experiment_name": "Exhaustion Land",
         "experiment_code": "R/EX/4",
         "grade": 1,
-        "shortName": ""
+        "version": "01",
+        "shortName": 887505845,
+        "UID": 887505845
     },
     {
         "md_id": 1368294610,
@@ -117,6 +131,8 @@
         "experiment_name": "Exhaustion Land",
         "experiment_code": "R/EX/4",
         "grade": 1,
-        "shortName": ""
+        "version": "01",
+        "shortName": 1368294610,
+        "UID": 1368294610
     }
 ]

@@ -16,12 +16,12 @@ $pageinfo = getPageInfo($expt);
 $KeyRef = $pageinfo['KeyRef'];
 $exptFolder = 'metadata/' . $expt;
 $page_title .= ' dataset' . $dataset;
-
+$datasetParts = explode("-", $dataset);
 $pageinfo = getPageInfo($expt);
 $KeyRef = $pageinfo['KeyRef'];
 $exptFolder = 'metadata/' . $expt;
 
-$fileDataset = $exptFolder . '/' . $dataset .'/' . $dataset .'.json';
+$fileDataset = $exptFolder . '/' . $datasetParts[0] .'/' . $dataset .'.json';
 
 $hasDataset = file_exists($fileDataset);
 if ($hasDataset) {
