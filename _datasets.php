@@ -72,7 +72,7 @@ function niceChop($text, $length)
 if (! $hasDatasets) {
     $info = "<p>There are no datasets for this experiments yet. </p>";
 } else {
-    $info = "";
+    $list = "";
     $prefix = "10.23637/";
 
     foreach ($datasets as $dataset) {
@@ -87,32 +87,37 @@ if (! $hasDatasets) {
         }
         $subDescription = '';
 
-        /*
-         * TODO: make this a nice function that chops at the next or previous full stop, whatever is closest.
-         *
-         * if (strlen($dataset['description']) > 300) {
-         * $subDescription = substr($dataset['description'], 0, 300 ) . "...";
-         * } else {$subDescription = $dataset['description'];}
-         */
         $subDescription = niceChop($dataset['description'], 200);
 
         $id = str_replace($prefix, '', $dataset['identifier']);
-
-        $info .= "<div class=\"col-sm-4 py-2\">";
+        $shortname = $dataset['shortName'];
+        $countVersions = array_count_values(array_column($datasets, 'shortName'))[$shortname];
+        if ($countVersions<10) {
+            $strCount = "0".strval($countVersions);
+        } else {
+            $strCount = strval($countVersion);
+        }
+        $info = "<div class=\"col-sm-4 py-2\">";
         $info .= "\n	<div class=\"card  h-100 bg-light mb-3 \" >";
         $info .= "\n	\t	<div class=\"card-header\">" . $dataset['title'] . "</div>";
         $info .= "\n	\t	<div class=\"card-body\">";
         // $info .="\n \t <h4 class=\"card-title\">Light card title</h4>";
         $info .= "\n	\t	\t		<small class=\"card-muted\">" . $subDescription . " </small>";
-
         $info .= "\n	\t		</div>";
         $info .= "\n	\t	<div class=\"card-footer\"> <a class=\"btn btn-primary stretched-link\" href=\"dataset.php?expt=" . $expt . "&amp;dataset=" . $dataset['UID'] . "\"> More ...</a></div>";
 
         $info .= "\n	\t	</div>";
         $info .= "\n	\t	</div>";
-    }
+        /*
+         * now if the dataset has a next version, then do not show
+         */
 
-    echo $info;
+        if ($strCount == $dataset['version'] ) {
+            $list .= $info;
+        }
+    }
+    
+    echo $list;
 }
 
 ?>
