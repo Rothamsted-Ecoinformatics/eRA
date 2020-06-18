@@ -10,7 +10,7 @@
  * uses baguetteBox.js: https://feimosi.github.io/baguetteBox.js/ which is included at the bottom of the pages where this module is included
  * 
  * When using this module: remember to include the baguetteBox at the bottom of the page and also the baguetteBox.css in the header. 
- * See farm.php for example. 
+ * See site.php for example. 
  * 
  * modified to use the images.json
  * @author Nathalie Castells-Brooke
