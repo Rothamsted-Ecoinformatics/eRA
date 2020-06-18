@@ -134,7 +134,7 @@ echo title_case($experiment['administrative']['name']);
 							aria-labelledby="measurements-tab">
 							<div class="row px-5">
     							<?php
-        $measurements = $exptFolder . '/measurements.php';
+        $measurements = $exptFolder . '/measurements.html';
         include ($measurements);
         ?>
     							</div>
