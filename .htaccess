@@ -1,0 +1,64 @@
+# Apache configuration file
+# http://httpd.apache.org/docs/2.2/mod/quickreference.html
+
+# Turning on the rewrite engine is necessary for the following rules and
+# features. "+FollowSymLinks" must be enabled for this to work symbolically.
+
+<IfModule mod_rewrite.c>
+# enable rewrite engine
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+ 
+ RewriteRule ^Broadbalk$ expt.php?expt=rbk1
+ RewriteRule ^Broadbalk/([a-zA-Z-0-9_\/]*)$ expt.php?expt=rbk1&sub=$1
+ RewriteRule ^Park$ index.php?area=home&page=index&dataset=1
+ RewriteRule ^Park/([a-zA-Z-0-9_\/]*)$ index.php?area=home&page=index&dataset=1&sub=$1
+ RewriteRule ^Garden$ index.php?area=home&page=index&dataset=11
+ RewriteRule ^Garden/([a-zA-Z-0-9_\/]*)$ index.php?area=home&page=index&dataset=11&sub=$1
+ RewriteRule ^Hoos$ index.php?area=home&page=index&dataset=5
+ RewriteRule ^Hoos/([a-zA-Z-0-9_\/]*)$ index.php?area=home&page=index&dataset=5&sub=$1 
+ RewriteRule ^Hoosfield$ index.php?area=home&page=index&dataset=5
+ RewriteRule ^Hoosfield/([a-zA-Z-0-9_\/]*)$ index.php?area=home&page=index&dataset=5&sub=$1
+ RewriteRule ^Other$ index.php?area=home&page=index&dataset=9
+ RewriteRule ^Other/([a-zA-Z-0-9_\/]*)$ index.php?area=home&page=index&dataset=9&sub=$1
+ RewriteRule ^Alternate$ index.php?area=home&page=index&dataset=6
+ RewriteRule ^Alternate/([a-zA-Z-0-9_\/]*)$ index.php?area=home&page=index&dataset=6&sub=$1 
+ RewriteRule ^WoburnFarm$ index.php?area=home&page=index&dataset=14
+ RewriteRule ^WoburnFarm/([a-zA-Z-0-9_\/]*)$ index.php?area=home&page=index&dataset=14&sub=$1 
+ RewriteRule ^WoburnLA$ index.php?area=home&page=index&dataset=12
+ RewriteRule ^WoburnLA/([a-zA-Z-0-9_\/]*)$ index.php?area=home&page=index&dataset=12&sub=$1
+ RewriteRule ^Wilderness$ ./index.php?area=home&page=index&dataset=8
+ RewriteRule ^Wilderness/([a-zA-Z-0-9_\/]*)$ index.php?area=home&page=index&dataset=8&sub=$1
+ RewriteRule ^Exhaustion$ ./index.php?area=home&page=index&dataset=10
+ RewriteRule ^Exhaustion/([a-zA-Z-0-9_\/]*)$ index.php?area=home&page=index&dataset=10&sub=$1
+ RewriteRule ^Met$ index.php?area=home&page=index&dataset=2
+ RewriteRule ^Met/([a-zA-Z-0-9_\/]*)$ index.php?area=home&page=index&dataset=2&sub=$1
+ RewriteRule ^Met/public index.php?area=home&page=index&dataset=2&sub=schools
+ RewriteRule ^DET$ index.php?area=home&page=index&dataset=13
+ RewriteRule ^DET/([a-zA-Z-0-9_\/]*)$ index.php?area=home&page=index&dataset=13&sub=$1
+ RewriteRule ^RRN$ index.php?area=home&page=index&dataset=15
+ RewriteRule ^RRN/([a-zA-Z-0-9_\/]*)$ index.php?area=home&page=index&dataset=15&sub=$1
+ RewriteRule ^RRN1$ index.php?area=home&page=index&dataset=16
+ RewriteRule ^RRN1/([a-zA-Z-0-9_\/]*)$ index.php?area=home&page=index&dataset=16&sub=$1 
+ RewriteRule ^RRN2$ index.php?area=home&page=index&dataset=17
+ RewriteRule ^RRN2/([a-zA-Z-0-9_\/]*)$ index.php?area=home&page=index&dataset=17&sub=$1
+ RewriteRule ^Saxmundham$ index.php?area=home&page=index&dataset=18
+ RewriteRule ^Saxmundham/([a-zA-Z-0-9_\/]*)$ index.php?area=home&page=index&dataset=18&sub=$1 
+ 
+ RewriteRule ^([a-zA-Z-0-9_\/]*)$ index.php?area=home&page=$1
+ RewriteRule ^home - [L]
+RewriteRule ^news - [L]
+RewriteRule ^metadata - [L]
+RewriteRule ^eradoc - [L]
+RewriteRule ^js - [L]
+RewriteRule ^includes - [L]
+RewriteRule ^css - [L]
+RewriteRule ^help - [L]
+RewriteRule ^references - [L]
+
+
+
+</IfModule>

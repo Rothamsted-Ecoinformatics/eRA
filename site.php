@@ -16,7 +16,7 @@
 
 include_once 'includes/init.inc'; // these are the settings that refer to more than one page
 
-if (!isset($farm)) {$farm = 'rothasmted';}
+if (!isset($farm)) {$farm = 'rothamsted';}
 $exptFolder = 'metadata/' . $farm;
 
 /*
