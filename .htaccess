@@ -13,7 +13,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
  
  RewriteRule ^Broadbalk$ expt.php?expt=rbk1
- RewriteRule ^Broadbalk/([a-zA-Z-0-9_\/]*)$ expt.php?expt=rbk1&sub=$1
+ RewriteRule ^Broadbalk/([a-zA-Z-0-9_\/]*)$ expt.php?expt=rbk1&sub=$1#documents
  RewriteRule ^Park$ index.php?area=home&page=index&dataset=1
  RewriteRule ^Park/([a-zA-Z-0-9_\/]*)$ index.php?area=home&page=index&dataset=1&sub=$1
  RewriteRule ^Garden$ index.php?area=home&page=index&dataset=11

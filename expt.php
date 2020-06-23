@@ -13,12 +13,16 @@ include_once 'includes/init.inc'; // these are the settings that refer to more t
 
 if (! isset($expt)) {
     $expt = 'rbk1';
-} // default experiment arbitrarily broadbalk. We could be more clever? random experiment?
+}
+
+
+    // default experiment arbitrarily broadbalk. We could be more clever? random experiment?
 $exptFolder = 'metadata/' . $expt;
 $pageinfo = getPageInfo($expt);
-$KeyRef = $pageinfo['KeyRef'];
+
 
 $page_title .= $pageinfo['Experiment']; // This is used in the head file as the title tag
+
 
 $filedatacite = $exptFolder . '/' . 'experiment.json';
 $hasDatacite = file_exists($filedatacite);
@@ -155,12 +159,32 @@ echo title_case($experiment['administrative']['name']);
                 							</div>
 						<div class="tab-pane  pb-3" id="documents" role="tabpanel"
 							aria-labelledby="documents-tab">
-                							<?php include '_documents.php';?>
-                							<?php include '_phpPages.php';?>
+							
+							
+							<?php 							
+							    $doclist= $exptFolder.'/doclist.php';
+							    include $doclist;
+							    	    
+							if ( isset ($sub) ) {
+							    $docpage = $exptFolder.'/'.$sub.'.html';
+							    echo ('<hr />');
+							    
+							    include $docpage;						   
+							} 		
+										
+							if (isset($ref)) {
+							    $KeyRef = $ref;
+							}
+							if ($dev == 'norton') { echo $KeyRef; } else  {include '_keyrefs.php';} 
+							
+							?>
+						
                 							</div>
 						<div class="tab-pane  pb-3" id="keyrefs" role="tabpanel"
 							aria-labelledby="keyrefs-tab">
-                							<?php if ($dev == 'norton') {} else  {include '_keyrefs.php';} ?>
+                							<?php 
+                							$KeyRef = $pageinfo['KeyRef'];
+                							if ($dev == 'norton') { echo $KeyRef; } else  {include '_keyrefs.php';} ?>
                 							</div>
 
 
