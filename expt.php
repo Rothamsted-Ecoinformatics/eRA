@@ -162,7 +162,7 @@ echo title_case($experiment['administrative']['name']);
 							
 							
 							<?php 							
-							    $doclist= $exptFolder.'/doclist.php';
+							    $doclist= $exptFolder.'/doclist.html';
 							    include $doclist;
 							    	    
 							if ( isset ($sub) ) {
