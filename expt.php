@@ -70,6 +70,8 @@ if ($hasDatasets) {
     $jdatasets = utf8_encode($jdatasets);
     $datasets = json_decode($jdatasets, true);
 }
+$fileDocs =  $exptFolder . '/' . 'doclist.html';
+$hasDocs = file_exists($fileDocs);
 
 ?>
 
@@ -120,8 +122,11 @@ echo title_case($experiment['administrative']['name']);
                 						<?php } ?>
                 						<li class="nav-item"><a class="nav-link"
 							id="images-tab" data-toggle="tab" href="#images">Images</a></li>
+						<?php if ($hasDocs) {?>	
 						<li class="nav-item"><a class="nav-link" id="documents-tab"
 							data-toggle="tab" href="#documents">Documents</a></li>
+							<?php }
+						?>
 						<li class="nav-item"><a class="nav-link" id="keyrefs-tab"
 							data-toggle="tab" href="#keyrefs">Bibliography</a></li>
 
