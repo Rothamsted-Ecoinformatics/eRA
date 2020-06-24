@@ -1,4 +1,5 @@
 ﻿# Images, image processing and image conventions
+Work in progress: this looks too complicated. 
 
 ## Image location:
 all the images are located in the `images` folder. 

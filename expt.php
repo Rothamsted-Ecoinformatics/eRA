@@ -19,7 +19,10 @@ if (! isset($expt)) {
     // default experiment arbitrarily broadbalk. We could be more clever? random experiment?
 $exptFolder = 'metadata/' . $expt;
 $pageinfo = getPageInfo($expt);
-
+$KeyRef = '';
+if (is_array($pageinfo)) {
+    $KeyRef = $pageinfo['KeyRef'];
+}
 
 $page_title .= $pageinfo['Experiment']; // This is used in the head file as the title tag
 
@@ -188,7 +191,7 @@ echo title_case($experiment['administrative']['name']);
 						<div class="tab-pane  pb-3" id="keyrefs" role="tabpanel"
 							aria-labelledby="keyrefs-tab">
                 							<?php 
-                							$KeyRef = $pageinfo['KeyRef'];
+                					
                 							if ($dev == 'norton') { echo $KeyRef; } else  {include '_keyrefs.php';} ?>
                 							</div>
 
