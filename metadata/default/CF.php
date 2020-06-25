@@ -1,7 +1,7 @@
 <?php
 ?>
 <div id="CF">
-	<h1>Conversion Factors</h1>
+
 
 
 	<h2>Imperial to Metric units</h2>
@@ -231,15 +231,14 @@
 	<ul>
 	<li>Rothamsted 1973, Conversion Factors (1974), Yields of the
 	Field Experiments, 1973, pp 406-407 DOI:
-	https://doi.org/10.23637/ERADOC-1-98 (whole book). </li>
+	<a href="https://doi.org/10.23637/ERADOC-1-98">10.23637/ERADOC-1-98</a> (whole book). </li>
 	<li>Meteorological
 	Office (1982) "Observer's Handbook, 4th Edition, Met.0.933</li>
 	
-	Meteorological data: Taken from e-RA webpages:
-	http://www.era.rothamsted.ac.uk/Met/instrumentdescription
+	<li>Meteorological data:  <a href="info.php?FileName=instrumentdescription.html">Instrument Description</a></li>
 	<li> DEFRA (2010)
 	Fertilizer Manual (RB209) 8th Edition. The Stationery Office, UK.
-	www.defra.gov.uk</li>
+	<a href="https://ahdb.org.uk/rb209">https://ahdb.org.uk/rb209</a></li>
 	</ul>
 
 

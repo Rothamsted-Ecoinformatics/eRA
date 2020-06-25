@@ -46,30 +46,9 @@
 
 	<p>
 		See <a target="pdf"
-			href="home/Rothamsted Research Quality Statement 2014.pdf">
+			href="docs/Rothamsted-Research-Quality-Statement-2014.pdf">
 			Rothamsted Research Quality Statement (2014). </A>
 	</p>
-
-
-	<h1>SOPs</h1>
-
-
-	<p>Please note that the SOPs listed below are Rothamsted internal
-		quality control documents.</p>
-	<UL>
-		<LI class="nicelist"><sup>1</sup>Guidelines for the use of Sampo 2010
-			Plot Combine Harvester</LI>
-		<LI class="nicelist"><sup>2</sup>Overview of the Rothamsted Sample
-			Processing Facility</LI>
-		<LI class="nicelist"><sup>3</sup>Guidelines for dealing with harvest
-			samples and preparing them for analysis</LI>
-		<LI class="nicelist"><sup>4</sup>Details of additional samples to be
-			kept for the Classical Experiments</LI>
-		<LI class="nicelist"><sup>5</sup>Procedure for downloading the met
-			data from Rothamsted and Woburn automatic weather stations</LI>
-		<LI class="nicelist"><sup>6</sup>Standard operating procedure for data
-			entry</LI>
-	</UL>
 
 </div>
 
