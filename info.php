@@ -104,10 +104,14 @@ include 'includes/header.html'; // all the menus at the top
 
 
 
-<?php 
-// -- start dependant content ---------------------------------------------------------
 
 
+<div id="idExpt" class="p-0 mb-0">
+<h1 class="mx-3"><?php
+// /experimentname is found in the datadescription file.
+echo title_case($h1Title);
+?></h1>
+<?php // -- start dependant content ---------------------------------------------------------
 include_once 'metadata/' . $expt . '/' . $FileName;
 
 

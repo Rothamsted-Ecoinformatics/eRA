@@ -31,6 +31,13 @@
 	},
 	{
 		"Credit": "eRA curators",
+		"FileName": "instrumentdescription.html",
+		"Caption": "Measuring the weather",
+		"Type": "html",
+		"exptID": "default",
+		"isReviewed": 0
+	},	{
+		"Credit": "eRA curators",
 		"FileName": "dataQuality.php",
 		"Caption": "Data Quality in e-RA",
 		"Type": "php",

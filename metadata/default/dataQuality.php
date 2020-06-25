@@ -1,7 +1,6 @@
-<?php
-?>
-<div id="nameThat">
-	<h1>Data quality in e-RA</h1>
+
+<div id="instrument" class="p-0 mb-0">
+	
 
 	<p>
 		The data in e-RA are subject to rigorous quality control procedures
