@@ -38,7 +38,7 @@
 		"isReviewed": 0
 	},	{
 		"Credit": "eRA curators",
-		"FileName": "dataQuality.php",
+		"FileName": "dataQuality.html",
 		"Caption": "Data Quality in e-RA",
 		"Type": "php",
 		"exptID": "default",
@@ -47,7 +47,7 @@
 	
 	{
 		"Credit": "eRA curators",
-		"FileName": "CF.php",
+		"FileName": "CF.html",
 		"Caption": "Conversion Factors",
 		"Type": "php",
 		"exptID": "default",

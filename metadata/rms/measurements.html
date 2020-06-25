@@ -1,204 +1,214 @@
 <?php
 ?>
 <div class="row mx-3">
-<h2>Rothamsted Weather data available in ROTHMET</h2>
+<h2>Rothamsted Meteorological data available in ROTHMET</h2>
 	
 <p>
 	Daily meteorological data recorded at Rothamsted, Harpenden,
-	Hertfordshire available from e-RA. Hourly data for Rothamsted from 2004
+	Hertfordshire available from e-RA since 1853. Hourly data for Rothamsted from 2004
 	is available from the <a href="mailto:era@rothamsted.ac.uk"> e-RA
 		Curators.</a>
 </p>
 <div class="table-responsive-sm">
-	<table class="table  table-responsive-sm table-sm  table-hover table-bordered">
+	<table class="table  table-responsive-sm table-sm  table-hover table-bordered" border="1">
 		<thead>
 
 			<th scope="col">Variable</th>
 			<th scope="col">Units</th>
 			<th scope="col">Description</th>
+			<th scope="col">When recorded?</th>
 			<th scope="col">How is it measured?
 		
 		</thead>
 		<tbody>
 			<tr>
-				<td colspan="5"><h3>Air temperature</h3></td>
+				<td colspan="6"><h3>Air temperature</h3></td>
 			</tr>
 			<tr>
 				<td>TMAX</td>
 				<td>&deg;C</td>
-				<td>Maximum temperature, 1878-current date</td>
-				<td rowspan="2"><p>Daily temperature is measured over the 24 hour
-						period 0900 to 0900GMT; this is used for the previous day's
-						maximum (TMAX) and the current day's minimum temperature (TMIN).
-						All other temperatures are recorded at 0900GMT. Until 1970 all
-						temperatures were measured in &deg;F; since 1972 they have been
-						recorded in &deg;C. All temperatures in e-RA are displayed as &deg;C.</p>
-					<p>Air temperatures: Maximum (TMAX) and minimum (TMIN) air
-						temperatures were first recorded in 1878. TMAX was recorded using
-						a mercury column thermometer and TMIN using a spirit-in-glass with
+				<td>Maximum temperature</td>
+				<td>1878-current date; over the 24 hour period 0900 to 0900GMT, for the previous day's maximum</td>
+				<td rowspan="2"><p>Since 2004 recorded by thermistors (electronic temperature probes, Campbell
+						Scientific, type 107). <b>TMAX</b> originally recorded using
+						a mercury column thermometer and <b>TMIN</b> using a spirit-in-glass with
 						indicator bar minimum thermometer.</p></td>
 			</tr>
 			<tr>
 				<td>TMIN</td>
 				<td>&deg;C</td>
-
-				<td>Minimum temperature, 1878-current date</td>
+				<td>Minimum temperature</td>
+				<td>1878-current date; over the 24 hour period 0900 to 0900GMT, for the current day's minimum</td>
 			</tr>
 			<tr>
 				<td>WETB</td>
 				<td>&deg;C</td>
 
-				<td>Wet bulb temperature, 1915-January 2014</td>
-				<td rowspan="2"><p>In 1915 dry (DRYB) and wet (WETB) bulb mercury
-						column thermometers were introduced to record air temperatures and
-						calculate variables such as relative humidity, vapour pressure and
-						dew point.</p>
-					<p>On 15th January 2014 WETB was discontinued and replaced by a
+				<td>Wet bulb temperature, measuring temperature of evaporation</td>
+                                <td>1915-January 2014; recorded at 0900GMT</td>
+				<td rowspan="2"><p>Since 2004 recorded by thermistors (electronic temperature probes, Campbell
+				Scientific, type 107). Originally measured with mercury
+				column thermometers. Used to calculate variables such as relative humidity <b>(RELH)</b>,
+				vapour pressure <b>(VAP)</b> and dew point <b>(DEWP)</b>. 
+						</p> For recording <b>WETB</b>, the thermometer bulb was covered by a cotton wick kept moist from a water reservoir.
+				<b>WETB</b> was discontinued on 15th January 2014 and replaced by a
 						Relative Humidity Sensor (Campbell Scientific, MP100A) to measure
-						relative humidity (RELH)</p></td>
+						<b>RELH</b>, and from which <b>VAP</b> and <b>DEWP</b> are now calculated after the method of 
+						<a href="https://doi.org/10.1175/1520-0450(1981)020<1527:NEFCVP>2.0.CO;2">Buck (1981)</a>. 
+			</p></td>
 			</tr>
 			<tr>
 				<td>DRYB</td>
 				<td>&deg;C</td>
-
-				<td>Dry bulb temperature, 1915-current date</td>
+				<td>Dry bulb temperature</td>
+				<td>1915-current date; recorded at 0900GMT</td>
 			</tr>
 			<tr>
 				<td>DEWP</td>
 				<td>&deg;C</td>
-
-				<td>Dew point 1915-current date (derived from DRYB &amp; WETB until
-					2013, derived from DRYB &amp; RELH since 2014)</td>
-					<td><p>On 15th January 2014 <B>WETB </B>was discontinued and replaced by a Relative Humidity Sensor (Campbell Scientific, MP100A) to measure relative humidity <B>(RELH) </B>and from which vapour pressure <B>(VAP)</B> and dew point <B>(DEWP)</B> are now calculated after the method of <a target="_blank" href="https://doi.org/10.1175/1520-0450(1981)020<1527:NEFCVP>2.0.CO;2">Buck (1981) <sup><i class="fa fa-external-link" aria-hidden="true"></i></sup></a>. </p>
+				<td>Dew point </td>
+				<td>1915-current date; recorded at 0900GMT</td>
+				<td>Derived from <b>DRYB</b> and <b>RELH</b> since 2014, derived from <b>DRYB</b> and <b>WETB</b> until
+				2013. Prior to 2004 calculated from Hygrometric tables, now calculated from equations.</td> 
 			</tr>
 			<tr>
 				<td>GRSMIN</td>
 				<td>&deg;C</td>
-
-				<td>Grass minimum temperature, 1909-current date</td>
-				<td>
-					<p>Recorded using a spirit-in-glass with indicator bar minimum
-						thermometer.</p>
+				<td>Grass minimum temperature</td>
+				<td>1909-current date; recorded at 0900GMT</td>
+				<td>Since 2004 recorded by thermistors (electronic temperature probes, Campbell
+				Scientific, type 107). Previously recorded using a spirit-in-glass with indicator bar minimum
+				thermometer.  
 				</td>
 			</tr>
 			<tr>
-				<td colspan="5"><h3>Soil temperature under grass</h3></td>
+				<td colspan="6"><h3>Soil temperature under grass</h3></td>
 			</tr>
 			<tr>
 				<td>G10T</td>
 				<td>&deg;C</td>
+				<td>Soil temperature under grass at 10cm</td>
+				<td>1931-current date; recorded at 0900GMT</td>				
+				<td rowspan="6">
+										
+				<p>Since 2004, all temperatures have been recorded
+				by thermistors (electronic temperature probes, Campbell
+				Scientific, type 107), buried in the soil at the appropriate depth.</p>
 
-				<td>Soil temperature under grass at 10cm, 1931-current date</td>
-				<td rowspan="3">
-					<p>
+				<p>First recorded using specially adapted thermometers set at depths of 
+				10, 20, 30, 61, and 122cm (4, 8, 12, 24 and 48 inches) under grass cover 
+				<b>(G10T, G20T, G30T, E30T, E50T </b>and <b>E100T</b>).  
+				<b>G10T, G20T</b> and <b>G30T</b> were in direct contact with the soil. <b>G30T</b> was discontinued in 1997. 
+				The thermometers used to record <b>E30T, E50T</b> and <b>E100T</b> were encased in a glass sheath 
+				in a metal tube, so that they could easily be removed to read the temperature. The bulb was set in
+				paraffin wax to minimize rapid temperature fluctuations when the
+				thermometer was removed from the soil.</p>
 					
-					<p>
-						<B>Soil temperatures</B> are recorded at 0900GMT. They were first
-						recorded in the 1930's using specially adapted thermometers. These
-						were set at depths of 4, 8, 12, 24 and 48 inches (10, 20, 30, 61,
-						and 122 cm) under grass cover <B>(G10T, G20T, G30T, E30T, E50T and
-							E100T) </B>and 4, 8 and 12 inches (10, 20 and 30 cm) under bare
-						soil <B> (S10T, S20T and S30T)</B>. <B>G10T, G20T, G30T, S10T and
-							S20T </B>were in direct contact with the soil; G30T was
-						discontinued in 1997.
 					
-					<P>Since 2004, all temperatures (air and soil) have been recorded
-						by thermistors (electronic temperature probes, Campbell
-						Scientific, type 107). For measuring soil temperatures, these are
-						buried in the soil at the appropriate depth.</p>
-
-
 				</td>
 			</tr>
 			<tr>
 				<td>G20T</td>
 				<td>&deg;C</td>
-
-				<td>Soil temperature under grass at 20cm, 1931-current date</td>
+				<td>Soil temperature under grass at 20cm</td>
+				<td>1931-current date; recorded at 0900GMT</td>
 			</tr>
 			<tr>
 				<td>G30T</td>
 				<td>&deg;C</td>
-
-				<td>Soil temperature under grass at 30cm, 1931-97</td>
+				<td>Soil temperature under grass at 30cm</td>
+				<td>1931-1997; recorded at 0900GMT </td>
 			</tr>
 			<tr>
 				<td>E30T</td>
 				<td>&deg;C</td>
-
-				<td>Soil temperature under grass at 30cm, 1915-57; 1997-current date</td>
-				<td rowspan="3"><p>
-						The thermometers used to measure <B> E30T, E50T, E100T and S30T</B>
-						were encased in a glass sheath in a metal tube, so that they could
-						easily be removed to read the temperature. The bulb was set in
-						paraffin wax to minimize rapid temperature fluctuations when the
-						thermometer was removed from the soil.
-					</P></td>
+				<td>Soil temperature under grass at 30cm</td>
+				<td>1915-1957; 1997-current date; recorded at 0900GMT </td>
+				
 			</tr>
 			<tr>
 				<td>E50T</td>
 				<td>&deg;C</td>
-
-				<td>Soil temperature under grass at 50cm, 1948-current date</td>
+				<td>Soil temperature under grass at 50cm</td>
+				<td>1948-current date; recorded at 0900GMT</td>
 			</tr>
 			<tr>
 				<td>E100T</td>
 				<td>&deg;C</td>
-
-				<td>Soil temperature under grass at 100cm, 1945-current date</td>
+				<td>Soil temperature under grass at 100cm</td>
+				<td>1945-current date; recorded at 0900GMT </td>
 			</tr>
 			<tr>
-				<td colspan="5"><h3>Soil temperature under bare soil</h3></td>
+				<td colspan="6"><h3>Soil temperature under bare soil</h3></td>
 			</tr>
 			<tr>
 				<td>S10T</td>
 				<td>&deg;C</td>
+				<td>Bare soil temperature at 10cm</td>
+				<td>1931-current date; recorded at 0900GMT </td>
 
-				<td>Bare soil temperature at 10cm, 1931-current date</td>
-				<td rowspan="3"><p>
-						The thermometers used to measure E30T, E50T, E100T and <B>S30T</B>
-						were encased in a glass sheath in a metal tube, so that they could
-						easily be removed to read the temperature. The bulb was set in
-						paraffin wax to minimize rapid temperature fluctuations when the
-						thermometer was removed from the soil.
-					</P></td>
+				<td rowspan="3">
+				<P>Since 2004, all temperatures have been recorded
+				by thermistors (electronic temperature probes, Campbell
+				Scientific, type 107), buried in the soil at the appropriate depth.</p>
+			<p> 	First recorded using specially adapted thermometers set at depths of 
+				10, 20 and 30cm (4, 8 and 12 inches) under bare
+				soil <b>(S10T, S20T</b> and <b>S30T</b>). <b>S10T</b> and <b>S20T</b> were in direct contact with the soil. 
+				The thermometers used to measure <b>S30T</b> were encased in a glass sheath in a metal tube, so that they could
+				easily be removed to read the temperature. The bulb was set in
+				paraffin wax to minimize rapid temperature fluctuations when the
+				thermometer was removed from the soil. 	</p>				
+				
+					
 			</tr>
 			<tr>
 				<td>S20T</td>
 				<td>&deg;C</td>
-
-				<td>Bare soil temperature at 20cm, 1931-current date</td>
+				<td>Bare soil temperature at 20cm</td>
+				<td>1931-current date; recorded at 0900GMT</td>
 			</tr>
 			<tr>
 				<td>S30T</td>
 				<td>&deg;C</td>
-
-				<td>Bare soil temperature at 30cm, 1931-current date</td>
+				<td>Bare soil temperature at 30cm</td>
+				<td>1931-current date; recorded at 0900GMT</td>
+				
 			</tr>
 			<tr>
-				<td colspan="5"><h3>Rainfall</h3></td>
+				<td colspan="6"><h3>Rainfall (precipitation)</h3></td>
 			</tr>
 			<tr>
 				<td>RAIN</td>
 				<td>mm</td>
+				<td>Rainfall from original 5 inch gauge</td>
+				<td>1853-1879; 1914-current date; total rainfall over 24 hours recorded at 0900GMT</td>
+				<td><p>Since 2004, when the meteorological station was automated, <B>RAIN </B> has
+						been measured by an electronic tipping bucket rain gauge of 25.4cm (10 inch)
+						diameter, (Campbell Scientific, ARG100) calibrated to tip at 0.2mm, within the original turf wall.
+						The old 5 inch manual copper rain gauge is still used to manually measure
+						precipitation fallen as snow when the tipping bucket rain gauge is
+						blocked with snow or ice.</p>
 
-				<td>Rainfall from original 5 inch gauge, 1853-1879; 1914-current
-					date</td>
-				<td><p>
-						The variable <B>RAIN </B> was originally recorded in a 5 inch
-						(12.7cm) rain gauge built in a garden near the laboratory in 1852.
+				<p> 		<B>RAIN </B> was originally recorded in a 5 inch
+						(12.7cm) diameter rain gauge built in a garden near the laboratory in 1852.
 						The water collected was measured in a graduated cylinder until
-						about 1880. The gauge was then moved to the meteorological
+						about 1880. The gauge was then moved to the current meteorological
 						enclosure. In 1948, a 5 inch (12.7cm) copper rain gauge of
 						Meteorological Office standard was installed within a 0.3 m high,
-						1.5 m radius turf wall retained by brick to reduce wind eddies.
-						Since 2004, when the met station was automated, <B>RAIN </B> has
-						been measured by an electronic tipping bucket rain gauge of 25.4cm
-						diameter, calibrated to tip at 0.2mm, also within the turf wall.
-						The old 5 inch manual copper rain gauge is still used to measure
-						precipitation fallen as snow when the tipping bucket rain gauge is
-						blocked with snow or ice.
-					</p>
+						1.5 m radius turf wall retained by brick to reduce wind eddies.</p>	
+
+				<p>Data is available for <b>RAIN</b> from 05/02/1853 - present, except
+						between 1880-1914. It is recommended that for a complete run of
+						data from a standard rain gauge that a composite of RAIN and <b>RAIN5</b>
+						is used, based on RAIN, with data from RAIN5 being used from
+						1880-1914 only.</p>					
+				
+
+						<p>"Missing values" There are many instances before 2004 when no
+						data is shown for RAIN (rather than zero). This is because a 'trace' of
+						rain, snow, mist, dew or fog was manually recorded. A 'trace' is
+						less than 0.05mm. For most purposes a missing value can be assumed
+						to be zero.</p>
 					<p>
 						The manufacturers of the ARG100 state that the "ARG100 rain gauge
 						typically captures over 5% more rainfall than most
@@ -216,15 +226,15 @@
 						or <b>RAIN5</b>. To convert 5 inch data to ARG100 data, multiply
 						by 1.1. To convert ARG100 data to 5 inch, divide by 1.1. We
 						recommend that when you download data that spans both gauges, you
-						multiply the 5 inch data by 1.1. Please contact the e-RA curators
+						multiply the 5 inch data by 1.1. Please contact the e-RA curators (add link)
 						for more information.
 					</p></td>
 			</tr>
 			<tr>
 				<td>RAIN5</td>
 				<td>mm</td>
-
-				<td>Rainfall from second 5 inch gauge, 1873-1987</td>
+				<td>Rainfall from second 5 inch gauge </td>
+				<td>1873-1987; total rainfall over 24 hours recorded at 0900GMT</td>
 				<td><p>
 						The variable <b>RAIN5 </b> was originally recorded in another 5
 						inch (12.7cm) cooper rain gauge, established in 1873. Data was not
@@ -232,116 +242,119 @@
 						gauges, hence the values do not exactly agree.
 					</p>
 
-					<p>Data is available for RAIN from 05/02/1853 - present, except
+					<p>Data is available for <b>RAIN</b> from 05/02/1853 - present, except
 						between 1880-1914. It is recommended that for a complete run of
-						data from a standard rain gauge that a composite of RAIN and RAIN5
+						data from a standard rain gauge that a composite of <b>RAIN</b> and RAIN5
 						is used, based on RAIN, with data from RAIN5 being used from
-						1880-1914 only.</p></td>
+						1880-1914 only.</p>
+
+						<p>"Missing values" There are many instances before 1987 when no
+						data is shown for RAIN5 (rather than zero). This is because a 'trace' of
+						rain, snow, mist, dew or fog was manually recorded. A 'trace' is
+						less than 0.05mm. For most purposes a missing value can be assumed
+						to be zero.</p></td>
+
+						</td>
 			</tr>
 			<tr>
 				<td>RAINL</td>
 				<td>mm</td>
-
-				<td>Rainfall in the 1/1000th acre rain gauge, 1853-current date</td>
+				<td>Rainfall in the 1/1000th acre rain gauge, to be used with the drainage data (<b>DR20, DR40</b> 
+				and <b>DR60</b>) ONLY</td>
+				<td>1853-current date; total rainfall over 24 hours recorded at 0900GMT</td>
 				<td><p>
-						The variable <B> RAIN_L</B> measures rain in a gauge of 1/1000th
-						of an acre (4.047 sq metres), built in 1852/53. The gauge was
-						constructed of timber with a lead funnel. Rain was collected daily
-						in carboys and weighed to estimate the amount of rain. In 1873 a
-						new gauge was installed and the carboys replaced by galvanized
-						iron calibrated cylinders to measure rainfall. The old gauge was
-						replaced by an identical new one in 1992. For details of the early
-						history of the 1/1000th acre rain gauge, see Lawes,<a target="_blank"
-							href="https://babel.hathitrust.org/cgi/pt?id=osu.32435010735041&view=1up&seq=7
-				">Gilbert & Warington, 1881 (J Royal Agric Soc <b> 17</b>: 241-279) <sup><i class="fa fa-external-link" aria-hidden=\"true"></i></sup>
-						</a>
+				The variable <B> RAIN_L</B> measures rain in a gauge of 1/1000th
+				of an acre (4.047 sq metres), built in 1852/53. The gauge was
+				constructed of timber with a lead funnel. Rain was collected daily
+				in carboys and weighed to estimate the amount of rain. In 1873 a
+				new gauge was installed and the carboys replaced by galvanized
+				iron calibrated cylinders to measure rainfall. The old gauge was					
+				replaced by an identical new one in 1992. For details of the early
+				history of the 1/1000th acre rain gauge, see Lawes,<a
+				href="https://babel.hathitrust.org/cgi/pt?id=osu.32435010735041&view=1up&seq=7
+				">Gilbert & Warington, 1881 (J Royal Agric Soc <b> 17</b>: 241-279)</a>
 					</p>
-					<p>From 2004 onwards the calibrated cylinders were replaced by an
-						electronic tipping bucket rain gauge (Campbell Scientific, ARG100)
-						calibrated to tip with every 0.0025mm of rain. In July 2010 the
-						lead lining was stolen and it was replaced by a new stainless
-						steel funnel of grade 316 and dimensions 2213mm x 1829mm in
-						February 2011. No RAIN_L data was collected for this period.</p>
+				<p>From 2004 onwards the calibrated cylinders were replaced by an
+				electronic tipping bucket rain gauge (Campbell Scientific, ARG100)
+				calibrated to tip with every 0.0025mm of rain. In July 2010 the
+				lead lining was stolen and it was replaced by a new stainless
+				steel funnel of grade 316 and dimensions 2213mm x 1829mm in
+				February 2011. No RAIN_L data was collected for this period.</p>
 
-					<p>Since 2004, when the met station was automated, RAINL may have
-						been underestimating rainfall when rain is intense. RAINL should
-						only be used in conjunction with the drainage data, which has the
-						same surface area (DR20, DR40, DR60). For general daily rainfall
-						data please use RAIN. It is recommended that if you use RAINL,
-						RAIN should be used as a check.</p>
+				<p>Since 2004, when the met station was automated, RAINL may have
+				been underestimating rainfall when rain is intense. RAINL should
+				only be used in conjunction with the drainage data, which has the
+				same surface area (DR20, DR40, DR60). For general daily rainfall
+				data please use RAIN. It is recommended that if you use RAINL,
+				RAIN should be used as a check.</p>
 
-					<p>"Missing values" There are many instances before 2004 when no
-						data is shown for RAIN and RAINL. This is because a 'trace' of
-						rain, snow, mist, dew or fog was manually recorded. A 'trace' is
-						less than 0.05mm. For most purposes a missing value can be assumed
-						to be zero.</p></td>
+				<p>"Missing values" There are many instances before 2004 when no
+				data is shown for RAINL (rather than zero). This is because a 'trace' of
+				rain, snow, mist, dew or fog was manually recorded. A 'trace' is
+				less than 0.05mm. For most purposes a missing value can be assumed
+				to be zero.</p></td>
 			</tr>
 			<tr>
 				<td>RDUR</td>
 				<td>hr</td>
-
-				<td>Rainfall duration, 1931-current date</td>
+				<td>Rainfall duration</td>
+				<td>1931-current date, total hours of rainfall over 24 hours recorded at 0900GMT </td>
 				<td>
-					<p>Recorded at 0900 GMT each day. Originally it was measured by a
-						Negretti and Zamra natural siphon rain recorder. Rain was
-						collected in a float chamber and recorded on a daily chart on a
-						clock drum, which recorded 10mm of rain before siphoning began and
-						the recording restarted at the bottom of the chart. In 1978 this
-						was replaced with a Cassella recorder with a diameter of 20.3cm.
-						Since 2004 it has been measured by an electronic tipping bucket
-						rain gauge.</p>
+				<p>Since 2004 measured by an electronic tipping bucket
+				rain gauge (Campbell Scientific ARG100) used to record <b>RAIN</b>. Originally measured by a
+				Negretti and Zamra natural siphon rain recorder. Rain was
+				collected in a float chamber and recorded on a daily chart on a
+				clock drum, which recorded 10mm of rain before siphoning began and
+				the recording restarted at the bottom of the chart. In 1978 this
+				was replaced with a Cassella recorder with a diameter of 20.3cm.
+						</p>
 				</td>
 			</tr>
 			<tr>
-				<td colspan="5"><h3>Drainage data</h3></td>
+				<td colspan="6"><h3>Drainage data (percolation)</h3></td>
 			</tr>
 			<tr>
 				<td>DR20</td>
 				<td>inches</td>
-
-				<td>Drainage from drain gauge at 20 inch (51cm) depth, 1870-current
-					date</td>
-				<td rowspan="3"><p>Three drain gauges (20, 40 and 60 inches) were
+				<td>Drainage from drain gauge at 20 inch (51cm) depth</td>
+				<td>1870-current date; total drainage over 24 hours recorded at 0900GMT</td>
+				<td rowspan="3"><p>Three drain gauges (<b>DR20, DR40</b> and <b>DR60</b>) were
 						constructed at Rothamsted in 1870. They consist of undisturbed
-						blocks of soil 20, 40 and 60 inches (51,102 and 152 cm,
-						respectively) deep and are equal in area to the rain gauge of
-						1/1000th of an acre.</p>
+						blocks of soil 20, 40 and 60 inches (51, 102 and 152 cm) deep 
+						and are equal in area to the rain gauge of 1/1000th of an acre (<b>RAINL</b>).</p>
 
 					<p>The gauges were constructed by digging under and around the
 						block of soil, placing perforated plates underneath at the
 						required depth and bricking up the sides. The soil around the
-						gauges remained undisturbed throughout the construction process.
+						gauges remained undisturbed throughout the construction process.</p>
+						<p>Since 2004 drainage has been measured by electronic tipping bucket rain gauge (Campbell Scientific ARG100). 
 						Drain water was originally measured by weighing the carboys of
-						collected water (as for 1/1000th of an acre rainfall above), but
-						these too were replaced by calibrated cylinders. In 2004 those
-						were replaced by the electronic tipping bucket rain gauge.
-						Percolation is the total over the previous 24 hours, recorded at
-						0900GMT. All three drain gauges remain as originally built. The
+						collected water (as for <b>RAINL</b>), but
+						these were replaced by calibrated cylinders. 
+						All three drain gauges remain as originally built. The
 						soil has never been deep cultivated or cropped and the top is kept
 						clear by hand weeding.</p></td>
 			</tr>
 			<tr>
 				<td>DR40</td>
 				<td>inches</td>
-
-				<td>Drainage from drain gauge at 40 inch (102cm) depth, 1870-current
-					date</td>
+				<td>Drainage from drain gauge at 40 inch (102cm) depth</td>
+				<td>1870-current date; total drainage over 24 hours recorded at 0900GMT</td>
 			</tr>
 			<tr>
 				<td>DR60</td>
 				<td>inches</td>
-
-				<td>Drainage from drain gauge at 60 inch (152cm) depth, 1870-current
-					date</td>
+				<td>Drainage from drain gauge at 60 inch (152cm) depth</td>
+				<td>1870-current date; total drainage over 24 hours recorded at 0900GMT</td>
 			</tr>
 			<tr>
-				<td colspan="5"><h3>Sunshine</h3></td>
+				<td colspan="6"><h3>Sunshine</h3></td>
 			</tr>
 			<tr>
 				<td>SUN</td>
 				<td>hr</td>
-
-				<td>Hours of sunshine, 1890-current date</td>
+				<td>Hours of sunshine </td>
+				<td>1890-current date; total over a 24 hour period, 0000GMT to 2400GMT</td>
 				<td><p>Recorded in 1892 using a Campbell-Stokes sunshine recorder.
 						The sun's rays are focused onto a card (treated to prevent it from
 						catching fire) and the brown scorch mark on the card is then
@@ -355,245 +368,263 @@
 			<tr>
 				<td>SUNMAX</td>
 				<td>&deg;C</td>
-
 				<td>Maximum temperature in the sun</td>
-				<td><p>Recorded between 1915 and 1935 using a black bulb in vacuo</p>
+				<td>1915-1935; [<b>this data is not currently displayed in Rothmet, so exclude]</b> </td>	
+				<td><p>Recorded using a black bulb <i>in vacuo</i></p>
 			
 			</tr>
 			<tr>
-				<td colspan="5"><h3>Radiation</h3></td>
+				<td colspan="6"><h3>Radiation</h3></td>
 			</tr>
 			<tr>
 				<td>RAD</td>
 				<td>J/cm2</td>
+				<td>Total solar radiation</td>
+				<td>1931-current date; total over a 24 hour period 0000GMT to 2400GMT
+					</td>
+				<td><p>Total solar radiation <b>(RAD) </b> measured since 2004 by a Kipp and Zonen thermopile pyranometer.
+				Recorded since 1921, but the data in e-RA are from 1931, as the early data was considered unreliable. 
+				Originally recorded with a Callendar radiation chart recorder. 
+				In 1955 this was replaced with a Moll-type solarimeter (Kipp) with a paper chart recording potentiometer. 
+				Daily totals were obtained by planimeter integration until 1958 when an automatic integrator was added.  
+				A Kipp integrator and recorder was used from 13th November 1975, and a 
+				Kipp and Zonen integrator installed in 1989. </p>
+					 
+				<p> <b>All data before 1955 should be treated with caution.</b> There was much uncertainty about 
+				the sensitivity of the equipment (<a href="https://doi.org/10.23637/ERADOC-1-34638">Penman, 1974</a>).  
+				Radiation readings between 1947 and 1954 are around 20% higher than would be expected from sunshine hours, 
+				and a lot of data is missing between 1947 and 1949. 
+				</p>
 
-				<td>Total radiation, 1931-current date - Over 24-hour periods
-					00.00-24.00 hrs GMT</td>
-				<td><p>
-						Measurements have been made since 1921, but the earliest recorded
-						data in e-RA are from 1931. There were several gaps between 1921
-						and 1923, probably due to equipment malfunction, so these early
-						data have little value. From 1921-1930, radiation was calculated
-						in calories/cm<sup>2</sup> but from January 1931, radiation was
-						expressed in Joules/cm<sup>2</sup>, and these are the data that
-						have been included in e-RA. Penman (1974, see key references
-						below) stated that 'Apart from periods for instrument repairs,
-						solar radiation has been recorded daily at Rothamsted since
-						October 1921. The first instrument was a Callendar recorder,
-						purchased by the Plant Physiology Department of Imperial College
-						in 1916, and run at Rothamsted for the Department from 1921. In
-						1943 Professor Blackman asked Rothamsted to take over the
-						instrument and be responsible for all future repairs and
-						replacements. Right up to 1954 there was great uncertainty about
-						the sensitivity, and as the original supplier had ceased to make
-						them the replacement then sought had to be found elsewhere: Over
-						the first 30 years the readings were probably accurate enough for
-						the use that could be made of them at the time … (but are not good
-						enough for present needs) … In 1955 a Moll-type solarimeter (Kipp)
-						was installed with a paper chart recording potentiometer. As
-						before, daily totals were obtained by planimeter integration - a
-						tedious and awkward task - until in 1958 an automatic integrator
-						was added with a digital counter set to register directly in
-						cal/cm<sup>2</sup> ' (Rothamsted Weather, Rothamsted Report for
-						1973, Part 2, 172 - 201).
-					</p>
-					<p>Radiation figures between 1947 and 1954 were noted by Monteith
-						to be 20% higher than would be expected (and the same probably
-						applies to earlier data). Thus, data from before 1955 should be
-						treated with some caution. A Kipp integrator and recorder was in
-						use from 13th November 1975. A (new) Kipp and Zonen integrator was
-						installed in 1989. In 2004 this was replaced by a Kipp and Zonen
-						thermopile pyranometer.</p>
-
-					<p>
-						Data from Rothamsted are recorded as J/cm<sup>2</sup>. To convert
-						to MJ/m<sup>2</sup> divide by 100. To convert MJ/m<sup>2</sup> to
-						W/m<sup>2</sup> multiply by 11.6.
+				<p>	Data are recorded as J/cm<sup>2</sup>. To convert to MJ/m<sup>2</sup> divide by 100. 
+				To convert MJ/m<sup>2</sup> to W/m<sup>2</sup> multiply by 11.6.
 					</p></td>
 			</tr>
 			<tr>
-				<td colspan="5">Cloud</td>
+				<td colspan="6"><h3>Cloud</h3></td>
 			</tr>
 			<tr>
 				<td>CLOUD</td>
-				<td></td>
+				<td>okta</td>
+				<td>Cloud cover </td>
+				<td>1915-2007; recorded at 0900GMT </td>
+			<td><p> Observed cloud cover on a scale of 0 to 9 Oktas. 0 oktas represents the complete absence of cloud. 1 okta represents a cloud amount of 1 eighth or less, but not zero. 
+			7 oktas represents a cloud amount of 7 eighths or more, but not full cloud cover. 8 oktas represents full cloud cover with no breaks. 
+			9 oktas represents sky obscured by fog or other meteorological phenomena. Observations discontinued May 3rd 2007.</p> </td>
 
-				<td>Cloud cover (in Oktas with 9=Fog) at 0900 GMT, 1915-2007</td>
 			</tr>
 			<tr>
-				<td colspan="5"><h3>Wind</h3></td>
+				<td colspan="6"><h3>Wind</h3></td>
 			</tr>
 			<tr>
 				<td>WDIR</td>
 				<td>degrees</td>
-
-				<td>Wind direction at 0900 GMT (0-360 degrees), 1853-current date</td>
-				<td rowspan="4"><p>
-						Wind direction<B> (WDIR) </B>has been measured since 1853. Wind
-						direction is shown in e-RA as an angle, going clockwise from
+				<td>Wind direction (0-360 degrees) (at 10m)</td>
+				<td>1853-current date; recorded at 0900GMT</td>
+				<td><p>
+						Wind direction<B> (WDIR) </B>has been recorded since 1853 and is measured by a wind vane. 
+						It is shown as an angle, going clockwise from
 						North. 360 = North, 90 = East, 180 = South, 270 = West. The
 						reading 0 (or 000) indicates that there is no wind, ie the
 						windspeed is 0 m/s. A WDIR reading of 0 with a windspeed greater
-						than 0 implies that the WDIR is 360 degrees (North).
-					</p>
-					<p>
-						Wind speed was originally estimated using the Beaufort scale. It
-						is shown in e-RA as wind force<B> (WFORCE) </B>from 1915 to 1959.
-						From 1960 onwards it is shown as wind speed <B>(WINDSP)</B>
-						converted from knots to m/s (1 knot = 0.514 m/s).
-					</p>
+						than 0 implies that the WDIR is 360 degrees (North). </p>
 
-					<p>The Beaufort scale can be adjusted to wind speed using the
-						following equation:</p>
-
-					<p>
-						V = 1.624 x SQRT (B<sup>3</sup>)
-					</p>
-
-					<p>Where V = wind speed in knots, B = Beaufort scale (1 knot =
-						0.514 m/s) (Met Office 1982).</p>
-
-					<p>
-						Wind direction <B> (WDIR) </B> and wind speed <B>(WINDSP) </B>
-						were then measured by wind vane and a cup anemeometer linked to a
-						Munro roll chart recorder (model IM175) installed in 1978. From
-						2004 an electronic wind vane (Vector Instruments, W200P) and cup
-						anemometer (Vector Instruments, A100LK/2) were installed at a
+						<p>Since 2004 it has been recorded by electronic wind vane (Vector Instruments, W200P) at a
 						height of 12.8m above ground level. The standard height for
 						surface wind measurements over open and level terrain is 10m.
-						However, no correction is needed for wind speeds measured between
+						However, no correction is needed for wind measured between
 						8 and 13m (Met Office, 1982). We therefore assume a mid-point
-						height of 10m. From 2004 wind direction and speed are calculated
-						as an average over 10 minutes from 8.50 to 9am
+						height of 10m. From 2004 WDIR has been calculated
+						as an average over 10 minutes from 8.50 to 9am. </p>
+
+					<p>From 1978 <B> (WDIR) </B> was measured by a wind vane linked to a
+					Munro roll chart recorder (model IM175). Previously it was estimated from a wind vane with fixed ordinal points.</p>
+
+									</td>
+			</tr>
+			<tr>
+				<td>WFORCE </td>
+				<td>code</td>
+				<td>Wind force in Beaufort scale (0-12) </td>
+				<td>1915-1959; recorded at 0900GMT </td>
+				<td>Wind speed was first estimated at Rothamsted using the Beaufort scale, which describes wind speed on a scale of 
+				0 (no wind) to 12 (hurricane) based on observations of the movement of smoke, leaves, branches, etc. It
+				is shown in e-RA as wind force<B> (WFORCE)</B>. 
+				From 1960 onwards this was replaced by direct measurements of wind speed <B>(WINDSP)</B>.<p>
+
+				<p>The Beaufort scale can be adjusted to wind speed as follows:
+						 V = 0.836 x SQRT (B<sup>3</sup>) m/s </p>
+				<p>where V is the equivalent wind speed at 10 metres above ground level and 
+				B is Beaufort scale number.  
+
+					
 					</p>
 
-					<p>
-						Measurements of wind run <B>(WINDRUN)</B> are available from 1946
-						onwards, first measured using a cup anemometer with a calibrated
-						meter installed at a height of 2m. From 2004 to January 2014 wind
-						run has been measured using an electronic cup anemometer (see
-						above). The cup anemometer was at a height of 12.8m. This was then
-						corrected to 2m by multiplying by 0.78:
+					
+			</tr>
+			<tr>
+				<td>WINDSP </td>
+				<td>m/s</td>
+				<td>Wind speed (at 10m)</td>
+				<td>1960-current date; recorded at 0900GMT</td>
+
+				<td> <p>Direct measurement of wind speed <B>(WINDSP) </B> by cup anemometer 
+				replaced the visual assessment of windspeed (<B>WFORCE</B>) based on the Beaufort scale in 1960. </p>
+				<p>
+				Since 2004 it has been recorded by electronic cup anemometer (Vector Instruments, A100LK/2) installed at a
+				height of 12.8m above ground level. The standard height for
+				surface wind measurements over open and level terrain is 10m.
+				However, no correction is needed for wind speeds measured between
+						8 and 13m (Met Office, 1982). We therefore assume a mid-point
+						height of 10m. </p>
+						<p>From 1978 it was measured by a cup anemometer linked to a
+						Munro roll chart recorder (model IM175). </p>
+			
+				<p>WINDSP and WFORCE are point values, recorded at 0900GMT. From 2004 WINDSP has been calculated as an average over 
+				10 minutes from 8.50 to 9am. Average daily (24 hour) windspeed can be calculated from total daily <b>WINDRUN</b>. </p>
+
+				<p> 
+
+				Average daily windspeed (m/s) = (total WINDRUN km/24 hours) / 86.4  </p>
+
+				<p>Multiply by 1.28 to convert from 2m to the standard height of 10m.  </p>
+
+						
+			</tr>
+			<tr>
+				<td>WINDRUN  </td>
+				<td>km</td>
+				<td>Run of Wind (at 2m)</td>
+				<td>1946-current date: total run of wind in 24 hours, recorded at 0900GMT </td>
+				
+				<td><p>	<B>WINDRUN</B> measures the total 'run' (distance) of wind in 24 hours. It is measured by a cup anemometer. 	
+				Since February 1st 2014 it has been recorded by an electronic cup anemometer (Vector Instruments A100LK) at the 
+				standard height of 2m above ground level. </p>
+
+ 				<p>Recorded from February 4th 2004 to January 2014 with an electronic cup anemometer (Vector Instruments, A100LK/2) 
+				at 12.8m above ground level, downscaled to the 2m equivalent by multiplying by 0.78 (Met Office 1982, p83-88):
 					</p>
 
 					<p>Vh/V10 = 0.233+0.656*log10 (h+4.75), where Vh = speed in knots
 						at height h, V10 = speed at 10m and h = height in m (Met Office
-						1982).</p>
-					<p>Since February 1st 2014 a second cup anemometer (Vector
-						Instruments A100LK) installed at a height of 2m has been used to
-						measure wind run, so no adjustment for height is now required.</p>
-				</td>
-			</tr>
-			<tr>
-				<td>WFORCE</td>
-				<td></td>
+						1982). ADD THIS TO CONVERSTION FACTORS??</p>
+					<p>From 1946 to February 3rd 2004 recorded manually using a cup anemometer with a calibrated meter 
+				at the standard height of 2m. 
 
-				<td>Wind force in Beaufort scale (0-12) at 0900 GMT, 1915-59</td>
-			</tr>
-			<tr>
-				<td>WINDSP</td>
-				<td>m/s</td>
+				</p>
 
-				<td>Wind speed at 0900 GMT (at 10m), 1960-current date</td>
 			</tr>
 			<tr>
-				<td>WINDRUN</td>
-				<td>km</td>
-
-				<td>Run of Wind 0900 to 0900 GMT (at 2m, see notes), 1946-current
-					date</td>
-			</tr>
-			<tr>
-				<td colspan="5"><h3>Diary</h3></td>
+				<td colspan="6"><h3>Diary</h3>Daily observations, based on standard Met Office weather codes</td>
 			</tr>
 			<tr>
 				<td>DYHAIL</td>
-				<td></td>
-
-				<td>Code indicating type of hail, 1960-88; 1998-2007</td>
+				<td>Code</td>
+				<td>Code indicating type of hail</td>
+				<td>1960-1988; 1998-2007; recorded at 0900GMT</td>
+				<td>Manual observations recording if hail was present. Codes 0 - 6. Null or Code 0 = no hail. Discontinued mid 2007. </td>
 			</tr>
 			<tr>
 				<td>DYSNOW</td>
-				<td></td>
-
-				<td>Code indicating day with snow or sleet, 1960-88; 1998-2007</td>
+				<td>Code</td>
+				<td>Code indicating day with snow or sleet</td>
+				<td>1960-88; 1998-2007; recorded at 0900GMT</td>
+				<td>Manual observations recording if snow or sleet was present. Code 1 = sleet, code 5 = snow crystals. Code 0 = no snow 
+				(1971-2007 only). Discontinued mid 2007. </td>
 			</tr>
 			<tr>
 				<td>DYTHUN</td>
-				<td></td>
-
-				<td>Code indicating day with thunder, 1960-88; 1998-2007</td>
+				<td>Code</td>
+				<td>Code indicating day with thunder</td>
+				<td>1960-1988; 1998-2007; recorded at 0900GMT</td>
+				<td>Manual observations recording if thunder was present. Code 1 = thunder present, code 0 = no thunder (1971-2007 only). 
+				Discontinued mid 2007. </td>
 			</tr>
 			<tr>
 				<td>FOG</td>
-				<td></td>
-
-				<td>Code indicating day with fog at 0900 GMT, 1960-78</td>
+				<td>Code</td>
+				<td>Code indicating day with fog</td>
+				<td>1960-1978; recorded at 0900GMT</td>
+				<td>Manual observations recording if fog was present. Code 1 = fog present, code 0 = no fog (1971-1978 only). 
+				Discontinued 1978. </td>
 			</tr>
 			<tr>
 				<td>SNOWL</td>
-				<td></td>
-
-				<td>Code indicating whether snow lying, 1960-78</td>
+				<td>Code</td>
+				<td>Code indicating whether snow lying</td>
+				<td>1960-1978; recorded at 0900GMT</td>
+				<td>Manual observations recording if snow was present. This may have been snow from a previous day. See <b>FSNOWD</b> 
+				for depth of freshly fallen snow for the current day. Code 1 = snow present, code 0 = no snow (1971-1978 only). 
+				Discontinued 1978. </td>
 			</tr>
 			<tr>
 				<td>SNOWD</td>
 				<td>mm</td>
-
-				<td>Total depth of snow, 1960-2007</td>
+				<td>Total depth of snow</td>
+				<td>1960-2007; recorded at 0900GMT</td>
+				<td>Manual recording of total depth of lying snow. This may be snow that fell in previous days. Discontiuned mid 2007.</td>
 			</tr>
 			<tr>
 				<td>FSNOWD</td>
 				<td>mm</td>
-
-				<td>Depth of freshly-fallen snow at 0900 GMT, 1960-78</td>
+				<td>Depth of freshly-fallen snow </td>
+				<td>1960-1978; recorded at 0900GMT </td>
+				<td>Manual recording of total depth of freshly-fallen snow. Discontinued 1978.  </td>
 			</tr>
 			<tr>
-				<td colspan="5"><h3>Other selected fields</h3></td>
+				<td colspan="6"><h3>Other selected fields</h3></td>
 			</tr>
 			<tr>
 				<td>RELH</td>
 				<td>%</td>
-
-				<td>Relative humidity at 0900 GMT 1925-current date (derived from
-					DRYB &amp; WETB until 2013)</td>
+				<td>Relative humidity </td>
+				<td>1925-current date; recorded at 0900GMT </td>
 				<td>
-					
-					<p>
-						Relative Humidity <b>RELH</b> was originally derived from wet and
-						dry bulb temperatures. A Relative Humidity Sensor (MP100A, made by
-						Rotronics, supplied by Campbell Scientific) replaced the wet bulb
-						sensor at Woburn and Brooms Barn in 2009 and at Rothamsted in late
-						2013. The MP100A was replaced by an EE181 E+E RH probe, which is
-						made by E+E Elektronic Corporation, supplied by Campbell
-						Scientific, on August 7th 2018.
-					</p>
+				<p>
+				Since August 7th 2018 measured by a Relative Humidty sensor (EE181, made by E+E Elektronic Corporation, 
+				supplied by Campbell Scientific). This replaced the MP100A RH Sensor (Rotronics, supplied by Campbell Scientific) 
+				installed in late 2013. <b>RELH</b> was derived from <B>WETB</B> and
+				<B>DRYB</b> temperatures up to 2013, and calculated from hygrometric tables up to 2004, before the met station was automated in 2004. </p>
 				</td>
-			</tr>
+			</tr> 
 			<tr>
 				<td>BAR</td>
 				<td>mb</td>
-
-				<td>Barometric pressure, 1915-59; 1977-2003</td>
+				<td>Barometric pressure </td>
+				<td>1915-1959; 1977-2003; recorded at 0900GMT</td>
+				<td>Atmospheric pressure was measured with a mercury barometer until 2003. For further details, see Met Office (1982) p 103. </td>
+			</tr>
+<tr>
+				<td>THERM</td>
+				<td>&deg;C</td>
+				<td>Attached thermometer reading for barometric pressure </td>
+				<td>1915-1959; recorded at 0900GMT</td>
+				<td>A thermometer attached to the instrument casing, known as the attached thermometer, was used to 
+				measure the temperature of the mercury column from which the density of the mercury was established. The barometer and attached thermometer were kept indoors. 
+				For further details, see Met Office (1982) p 103. </td>
 			</tr>
 			<tr>
 				<td>BAR_MSL</td>
 				<td>mb</td>
-
-				<td>Air pressure at Mean Sea Level, 1950-77</td>
+				<td>Air pressure at Mean Sea Level (MSL) </td>
+				<td>1950-1977; recorded at 0900GMT</td>
+				<td>Atmospheric pressure corrected to Mean Sea Level was measured with a mercury barometer. For further details, see Met Office (1982) p 103. </td>
 			</tr>
 			<tr>
 				<td>VAP</td>
 				<td>mb</td>
-
-				<td>Vapour pressure 1946-current date (derived from DRYB &amp; WETB
-					until 2013, derived from DRYB &amp; RELH since 2014)</td>
+				<td>Vapour pressure </td>
+				<td>1946-current date; recorded at 0900GMT </td>
+				<td>Since January 15th 2014 <b>VAP</b> has been derived from <b>RELH</b> and <b>DRYB</b> after the method of 
+				<a href="https://doi.org/10.1175/1520-0450(1981)020<1527:NEFCVP>2.0.CO;2">Buck (1981)</a> THIS LINK DOESN'T WORK. 
+				Previously it was derived from <B>DRYB</b> and <B>WETB</b> (see derived variables). 
 			</tr>
 			<tr>
 				<td>VIS</td>
-				<td></td>
-
-				<td>Visibility at 0900 GMT (code), 1923-2007</td>
+				<td>Code</td>
+				<td>Visibility (code)</td>
+				<td>1923-2007; recorded at 0900GMT</td>
+				<td>Manual recording of visibility. Codes A-L, X (1923-1959) and 0-9, E (1960-2007). Discontiuned mid 2007 FIND OUT WHAT THE CODES ARE.</td>
 			</tr>
 		</tbody>
 	</table>

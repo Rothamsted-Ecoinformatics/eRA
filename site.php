@@ -95,27 +95,27 @@ $page_title .=  $pageinfo['Experiment'];
             					<div class="tab-content mh-100" id="idExptTabs">
             						<div class="tab-pane active" id="summary" role="tabpanel"
             							aria-labelledby="summary-tab">
-            								<?php include ($exptFolder.'/summary.php');?>
+            								<?php include ($exptFolder.'/summary.html');?>
             							</div>
             
             						<div class="tab-pane" id="site" role="tabpanel"
             							aria-labelledby="site-tab">
             							<div class="row px-5">
-            								<?php include ($exptFolder.'/site.php');?>
+            								<?php include ($exptFolder.'/site.html');?>
             							</div>
             						</div>
             
             						<div class="tab-pane" id="history" role="tabpanel"
             							aria-labelledby="history-tab">
             							<div class="row px-5">
-            								<?php include ($exptFolder.'/history.php');?>	
+            								<?php include ($exptFolder.'/history.html');?>	
             							</div>
             						</div>
             
             						<div class="tab-pane" id="experiments" role="tabpanel"
             							aria-labelledby="experiments-tab">
             							<div class="row px-5">
-            								<?php include ($exptFolder.'/experiments.php');?>
+            								<?php include ($exptFolder.'/experiments.html');?>
             								</div>
             						</div>
             						<div class="tab-pane" id="images" role="tabpanel"
