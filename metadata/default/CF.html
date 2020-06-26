@@ -76,8 +76,6 @@
 					<td>1 bushel</td>
 					<td>36.369 litre</td>
 				</tr>
-				<tr>
-					<td>
 			</tbody>
 		</table>
 	</div>
@@ -131,14 +129,14 @@
 	<div class="table-responsive-sm ">
 		<table class="table  table-responsive-sm table-sm  table-hover">
 			<thead class="thead-light">
-
 				<tr>
 					<th>To convert</th>
 					<th>Multiply by</th>
+				</tr>
 			</thead>
 			<tbody>
 				<tr>
-					<td colspan="2">Temperature:</td>
+					<td colspan="2"><b><i>Temperature:</i></b></td>
 				</tr>
 				<tr>
 					<td>&deg;F to &deg;C</td>
@@ -149,7 +147,7 @@
 					<td>multiply by 1.8 and add 32</td>
 				</tr>
 				<tr>
-					<td>Solar radiation (RAD):</td>
+					<td colspan="2"><b><i>Solar radiation (RAD):</i></b></td>
 				</tr>
 				<tr>
 					<td>J/cm2 to MJ/m2</td>
@@ -160,32 +158,36 @@
 					<td>11.6</td>
 				</tr>
 				<tr>
-					<td>Wind measurements:</td>
+					<td colspan="2"><b><i>Wind measurements:</i></b></td>
 				</tr>
 				<tr>
-					<td>Knot to m/s (wind speed)</td>
+					<td>Knots to m/s</td>
 					<td>0.5144</td>
 				</tr>
 				<tr>
-					<td>Conversion from 10m to 2m height</td>
-					<td>0.78 (Met Office 1982)</td>
+					<td>From 10m to 2m height (see equation (1) below)</td>
+					<td>0.78</td>
 				</tr>
 				<tr>
-					<td>(see equation below) Conversion from 2m to 10m height</td>
+					<td>From 2m to 10m height (see equation (1) below)</td>
 					<td>1.28</td>
 				</tr>
 				<tr>
-					<td>To calculate average daily windspeed (m/s) from total
-						daily windrun (km in 24 hours)</td>
+					<td>Average daily windspeed (m/s) from total daily windrun (km
+						in 24 hours)</td>
 					<td>0.011574</td>
 				</tr>
 				<tr>
-					<td>To calculate total daily windrun (km in 24 hours) from
-						average daily windspeed (m/s)</td>
+					<td>Total daily windrun (km in 24 hours) from average daily
+						windspeed (m/s)</td>
 					<td>86.4</td>
 				</tr>
 				<tr>
-					<td>Vapour pressure (VAP):</td>
+					<td>Beaufort wind scale number (B) to windspeed (m/s) at 10m</td>
+					<td>0.836 B<sup>3/2</sup></td>
+				</tr>
+				<tr>
+					<td colspan="2"><b><i>Vapour pressure (VAP):</i></b></td>
 				</tr>
 				<tr>
 					<td>kPa to mb</td>
@@ -194,19 +196,24 @@
 			</tbody>
 		</table>
 	</div>
+
+
 	<h2>Equations for wind measurements:</h2>
 	<ul>
 		<li>1) Adjusting wind measurements for different heights of
-			measurement: Vh/V10 = 0.233+0.656*log10 (h+4.75) where Vh = speed in
-			knots at height h, V10 = speed at 10m and h = height in m (Met Office
-			1982).</li>
-		<li>2) Converting the Beaufort scale wind speed: v = 0.836 B3/2
-			m/s. Where v is the equivalent wind speed at 10 metres above the sea
-			surface and B is Beaufort scale number.</li>
+			measurement: <br /> Vh/V10 = 0.233+0.656*log10 (h+4.75) <br />
+			where Vh = speed in knots at height h, V10 = speed at 10m and h =
+			height in m (Met Office 1982).
+		</li>
+		<li>2) Converting the Beaufort scale wind speed:<br> v =
+			0.836 B3/2 m/s. <br /> Where v is the equivalent wind speed at 10
+			metres above the sea surface and B is Beaufort scale number.
+		</li>
+
 	</ul>
 
 	<h2>Chemical components of fertilizers:</h2>
-	<div class="table-responsive-sm">
+	<div class="table-responsive-sm ">
 		<table class="table  table-responsive-sm table-sm  table-hover">
 			<thead class="thead-light">
 				<tr>
@@ -216,10 +223,13 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td>P2O5 to P 0.436</td>
+					<td>P<sub>2</sub>O<sub>5</sub> to P
+					</td>
+					<td>0.436</td>
 				</tr>
 				<tr>
-					<td>K2O to K</td>
+					<td>K<sub>2</sub>O to K
+					</td>
 					<td>0.830</td>
 				</tr>
 				<tr>
@@ -227,32 +237,35 @@
 					<td>0.603</td>
 				</tr>
 				<tr>
-					<td>SO3 to S</td>
-					<td>0.4</td>
+					<td>SO<sub>3</sub> to S
+					</td>
+					<td>0.400</td>
+				</tr>
+				<tr>
+					<td>CaCO<sub>3</sub> to Ca
+					</td>
+					<td>0.400</td>
 				</tr>
 			</tbody>
 		</table>
-		
 	</div>
+
 	<h2>References:</h2>
 	<ul>
-		<li>Rothamsted 1973, Conversion Factors (1974), Yields of the
-			Field Experiments, 1973, pp 406-407 DOI: <a
+		<li>Rothamsted (1974), "Conversion Factors", <i>Yields of the
+				Field Experiments, 1973</i>, pp 406-407 DOI: <a
 			href="https://doi.org/10.23637/ERADOC-1-98">10.23637/ERADOC-1-98</a>
 			(whole book).
 		</li>
-		<li>Meteorological Office (1982) "Observer's Handbook, 4th
-			Edition, Met.0.933</li>
+		<li>Meteorological Office (1982) <i>"Observer's Handbook</i>, 4th
+			Edition, Met.0.933
+		</li>
 
 		<li>Meteorological data: <a
 			href="info.php?FileName=instrumentdescription.html">Instrument
 				Description</a></li>
-		<li>DEFRA (2010) Fertilizer Manual (RB209) 8th Edition. The
+		<li>DEFRA (2010) "Fertilizer Manual (RB209)" 8th Edition. The
 			Stationery Office, UK. <a href="https://ahdb.org.uk/rb209">https://ahdb.org.uk/rb209</a>
 		</li>
 	</ul>
-
-
-
-
 </div>
