@@ -12,10 +12,11 @@
 /**
  * getFieldInfo : formats the information about the field
  *
- * @param unknown $site            
+ * @param unknown $site
  * @return string
  */
-function getProperties ($site) {
+function getProperties($site)
+{
     $content = '';
     if (is_array($site['soilProperty']) and count($site['soilProperty']) > 0) {
 
@@ -23,10 +24,10 @@ function getProperties ($site) {
         $content .= "\n<div class=\"table-responsive-sm bg-white m-5 p-3\">";
         $content .= "\n\n<table class = \"table  table-responsive-sm table-sm  table-hover\"><thead  class=\"thead-light\"><tr>";
         $content .= "\n<th scope=\"col\">Variable</th>";
-        
+
         $content .= "\n<th scope=\"col\">Value</th>";
-        //$content .= "\n<th scope=\"col\">Measured at Depth</th>";
-        
+        // $content .= "\n<th scope=\"col\">Measured at Depth</th>";
+
         $content .= "\n<th scope=\"col\">Reference Year</th>";
         $content .= "\n<th scope=\"col\">Is Estimated</th>";
         $content .= "\n<th scope=\"col\">Is Baseline</th>";
@@ -34,19 +35,27 @@ function getProperties ($site) {
         $content .= "\n</thead>";
         $content .= "\n<tbody>";
         foreach ($site['soilProperty'] as $measurement) {
-            if ($measurement['isEstimated'] == TRUE) {$isEst = "YES";} else {$isEst = "NO";}
-            if ($measurement['isBaseline'] == TRUE) {$isBas = "YES";} else {$isBas = "NO";}
+            if ($measurement['isEstimated'] == TRUE) {
+                $isEst = "YES";
+            } else {
+                $isEst = "NO";
+            }
+            if ($measurement['isBaseline'] == TRUE) {
+                $isBas = "YES";
+            } else {
+                $isBas = "NO";
+            }
             $content .= "\n<tr>";
             $content .= "\n<td>" . title_case($measurement['variableMeasured']) . "</td>";
-            $content .= "\n<td>" . $measurement['valueReference'] . $measurement['unitCode'] . " (". $measurement['unitText'] . ") </td>";
-            //$content .= "\n<td> Depth (TODO) </td>";
+            $content .= "\n<td>" . $measurement['valueReference'] . $measurement['unitCode'] . " (" . $measurement['unitText'] . ") </td>";
+            // $content .= "\n<td> Depth (TODO) </td>";
             $content .= "\n<td>" . $measurement['refYear'] . "</td>";
-            $content .= "\n<td>" . $isEst. "</td>";
+            $content .= "\n<td>" . $isEst . "</td>";
             $content .= "\n<td>" . $isBas . "</td>";
-            
+
             $content .= "\n</tr>";
         }
-        
+
         $content .= "\n</tbody>";
         $content .= "\n</table></div>";
     }
@@ -56,9 +65,9 @@ function getProperties ($site) {
 <h2 class="mx-3">Site: <?php echo $site['administrative']['name'];?></h2>
 <div class="mx-5">
     <?php
-    
+
     $line = "<ul class=\"list-group m-5\">";
-    
+
     if ($site['administrative']['doi']) {
         $line .= "\n<li class=\"list-group-item \"><b>DOI:</b> <a href=\"http://doi.org/" . $site['administrative']['doi'] . "\">" . $site['administrative']['doi'] . "</li>";
     }
@@ -68,11 +77,11 @@ function getProperties ($site) {
     if ($site['administrative']['management']) {
         $line .= "\n<li class=\"list-group-item \" style=\"white-space: pre-wrap;\" ><b>Management:</b> " . $site['administrative']['management'] . "</li>";
     }
-    
+
     if ($site['administrative']['visitsAllowed']) {
-        
+
         $line .= "\n<li class=\"list-group-item \"><b>Visit Permitted?:</b> Yes </li>";
-        
+
         if ($site['administrative']['visitingArrangements']) {
             $line .= "\n<li class=\"list-group-item \" style=\"white-space: pre-wrap;\" ><b>Visiting Arrangments:</b> " . $site['administrative']['visitingArrangements'] . "</li>";
         }
@@ -86,34 +95,32 @@ function getProperties ($site) {
     if ($site['location']['slopeAspect']) {
         $line .= "\n<li class=\"list-group-item \"><b>Slope:</b> " . $site['location']['slopeAspect'] . "</li>";
     }
-    
+
     if (is_array($site['location']['geoLocationPoint'])) {
         $line .= "\n<li class=\"list-group-item \"><b>Geolocation:</b> " . $site['location']['geoLocationPoint']['pointLongitude'] . " - " . $site['location']['geoLocationPoint']['pointLatitude'] . "</li>";
-      }
-    
-    
-    
+    }
+
     $line .= "\n</ul>";
 
+    if (isset($site['soil'])) {
+
+        $line .= "<h2 class=\"mx-3\">Soil</h2>";
+
+        $line .= "<ul class=\"list-group m-5\">";
+        if ($site['soil']['soilTypeLabel']) {
+            $line .= "\n<li class=\"list-group-item \"  style=\"white-space: pre-wrap;\" ><b>Type:</b> " . title_case($site['soil']['soilTypeLabel']);
+
+            if ($site['soil']['soilDescription']) {
+                $line .= "\n<br />" . $site['soil']['soilDescription'] . "</li>";
+            }
+            $line .= "\n</li>";
+        }
+        $line .= "\n</ul>";
+    }
+    if (isset($site['soilProperty'])) {
+    $line .= getProperties($site);
+    }
     echo $line;
     ?>
-   <h2 class="mx-3">Soil</h2>
-   <?php
-
-$line = "<ul class=\"list-group m-5\">";
-if ($site['soil']['soilTypeLabel']) {
-    $line .= "\n<li class=\"list-group-item \"  style=\"white-space: pre-wrap;\" ><b>Type:</b> " . title_case($site['soil']['soilTypeLabel']);
-    
-    if ($site['soil']['soilDescription']) {
-        $line .= "\n<br />" . $site['soil']['soilDescription'] . "</li>";
-    }
-    $line .= "\n</li>";
-}
-$line .= "\n</ul>";
-
-$line .=getProperties ($site);
-
-echo $line;
-?>
  
 </div>
