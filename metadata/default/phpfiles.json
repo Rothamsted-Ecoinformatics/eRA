@@ -79,10 +79,10 @@
 	},
 	{
 		"Credit": "eRA curators",
-		"FileName": "derived-variables.php",
+		"FileName": "derived_variables.html",
 		"Caption": "derived variables",
-		"Type": "php",
-		"exptID": "met",
+		"Type": "html",
+		"exptID": "default",
 		"isReviewed": 1
 	},
 	{
