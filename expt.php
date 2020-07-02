@@ -15,8 +15,7 @@ if (! isset($expt)) {
     $expt = 'rbk1';
 }
 
-
-    // default experiment arbitrarily broadbalk. We could be more clever? random experiment?
+// default experiment arbitrarily broadbalk. We could be more clever? random experiment?
 $exptFolder = 'metadata/' . $expt;
 $pageinfo = getPageInfo($expt);
 $KeyRef = '';
@@ -25,7 +24,6 @@ if (is_array($pageinfo)) {
 }
 
 $page_title .= $pageinfo['Experiment']; // This is used in the head file as the title tag
-
 
 $filedatacite = $exptFolder . '/' . 'experiment.json';
 $hasDatacite = file_exists($filedatacite);
@@ -73,7 +71,7 @@ if ($hasDatasets) {
     $jdatasets = utf8_encode($jdatasets);
     $datasets = json_decode($jdatasets, true);
 }
-$fileDocs =  $exptFolder . '/' . 'doclist.html';
+$fileDocs = $exptFolder . '/' . 'doclist.html';
 $hasDocs = file_exists($fileDocs);
 
 ?>
@@ -128,8 +126,10 @@ echo title_case($experiment['administrative']['name']);
 						<?php if ($hasDocs) {?>	
 						<li class="nav-item"><a class="nav-link" id="documents-tab"
 							data-toggle="tab" href="#documents">Documents</a></li>
-							<?php }
-						?>
+							<?php
+
+}
+    ?>
 						<li class="nav-item"><a class="nav-link" id="keyrefs-tab"
 							data-toggle="tab" href="#keyrefs">Bibliography</a></li>
 
@@ -167,32 +167,43 @@ echo title_case($experiment['administrative']['name']);
                 							</div>
 						<div class="tab-pane  pb-3" id="documents" role="tabpanel"
 							aria-labelledby="documents-tab">
+							<div class="row equal mx-3">
 							
-							
-							<?php 							
-							    $doclist= $exptFolder.'/doclist.html';
-							    include $doclist;
-							    	    
-							if ( isset ($sub) ) {
-							    $docpage = $exptFolder.'/'.$sub.'.html';
-							    echo ('<hr />');
-							    
-							    include $docpage;						   
-							} 		
-										
-							if (isset($ref)) {
-							    $KeyRef = $ref;
-							}
-							if ($dev == 'norton') { echo $KeyRef; } else  {include '_keyrefs.php';} 
-							
-							?>
-						
-                							</div>
+							<?php
+    $doclist = $exptFolder . '/doclist.html';
+
+    include $doclist;
+
+    if (isset($sub)) {
+        $docpage = $exptFolder . '/' . $sub . '.html';
+        echo ('<hr>\n');
+
+        include $docpage;
+       
+    }
+
+    if (isset($ref)) {
+        $KeyRef = $ref;
+    }
+    if ($dev == 'norton') {
+        echo $KeyRef;
+    } else {
+        include '_keyrefs.php';
+    }
+
+    ?>
+							</div>
+						</div>
 						<div class="tab-pane  pb-3" id="keyrefs" role="tabpanel"
 							aria-labelledby="keyrefs-tab">
-                							<?php 
-                					
-                							if ($dev == 'norton') { echo $KeyRef; } else  {include '_keyrefs.php';} ?>
+                							<?php
+
+                    if ($dev == 'norton') {
+                        echo $KeyRef;
+                    } else {
+                        include '_keyrefs.php';
+                    }
+                    ?>
                 							</div>
 
 
