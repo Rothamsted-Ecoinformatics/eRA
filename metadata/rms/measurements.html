@@ -11,15 +11,15 @@
 	</p>
 	<div class="table-responsive-sm">
 		<table
-			class="table  table-responsive-sm table-sm  table-hover table-bordered"
+			class="table  table-responsive-sm table-sm  table-bordered"
 			border="1">
 			<thead>
 				<tr>
 					<th scope="col">Variable</th>
 					<th scope="col">Units</th>
 					<th scope="col">Description</th>
-					<th scope="col" >When recorded?</th>
-					<th scope="col" >How is it measured?</th>
+					<th scope="col" >Dates recorded</th>
+					<th scope="col" >Methods of measurement</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -54,11 +54,10 @@
 					<td>1915-January 2014 </td>
 					<td rowspan="2">
 					<p>Recorded at 0900GMT</p>
-							<p>Since 2004 recorded by thermistors (electronic temperature
+							<p>Since 2004, is recorded by thermistors (electronic temperature
 							probes, Campbell Scientific, type 107). Originally measured with
-							mercury column thermometers. Used to calculate variables such as
-							relative humidity <b>(RELH)</b>, vapour pressure <b>(VAP)</b> and
-							dew point <b>(DEWP)</b>.
+							mercury column thermometers. Is used to calculate relative humidity <b>(RELH)</b>, 
+							vapour pressure <b>(VAP)</b> and dew point <b>(DEWP)</b>.
 						</p> For recording <b>WETB</b>, the thermometer bulb was covered by a
 						cotton wick kept moist from a water reservoir. <b>WETB</b> was
 						discontinued on 15th January 2014 and replaced by a Relative
@@ -81,9 +80,11 @@
 					<td>Dew point</td>
 					<td>1915-current date; </td>
 					<td><p>Recorded at 0900GMT</p>
-					<p>Derived from <b>DRYB</b> and <b>RELH</b> since 2014,
-						derived from <b>DRYB</b> and <b>WETB</b> until 2013. Prior to 2004
-						calculated from Hygrometric tables, now calculated from equations.
+					<p>Derived from <b>DRYB</b> and <b>RELH</b> since 2014, calculated after
+						the method of <a href="https://doi.org/10.1175/1520-0450(1981)020<1527:NEFCVP>2.0.CO;2">Buck
+							(1981).</a> [<b>link to derived variables</b>]</p>
+					<p>Derived from <b>DRYB</b> and <b>WETB</b> until 2013, [<b>Link to derived variables</b>]. Before 2004 it was 
+						calculated from hygrometric tables.</p>
 					</td>
 				</tr>
 				<tr>
@@ -118,8 +119,7 @@
 							<b>G10T, G20T</b> and <b>G30T</b> were in direct contact with the
 							soil. <b>G30T</b> was discontinued in 1997. The thermometers used
 							to record <b>E30T, E50T</b> and <b>E100T</b> were encased in a
-							glass sheath in a metal tube, so that they could easily be
-							removed to read the temperature. The bulb was set in paraffin wax
+							glass sheath in a metal tube, enabling easy removal to read the temperature. The bulb was set in paraffin wax
 							to minimize rapid temperature fluctuations when the thermometer
 							was removed from the soil.
 						</p>
@@ -177,8 +177,7 @@
 							of 10, 20 and 30cm (4, 8 and 12 inches) under bare soil <b>(S10T,
 								S20T</b> and <b>S30T</b>). <b>S10T</b> and <b>S20T</b> were in
 							direct contact with the soil. The thermometers used to measure <b>S30T</b>
-							were encased in a glass sheath in a metal tube, so that they
-							could easily be removed to read the temperature. The bulb was set
+							were encased in a glass sheath in a metal tube, enabling easy removal to read the temperature. The bulb was set
 							in paraffin wax to minimize rapid temperature fluctuations when
 							the thermometer was removed from the soil.
 						</p>
@@ -205,6 +204,15 @@
 					<td>Rainfall from original 5 inch gauge</td>
 					<td>1853-1879; 1914-current date </td>
 					<td><p>Total rainfall over 24 hours recorded at 0900GMT</p>
+							<p><B>RAIN </B> was originally recorded in a 5 inch (12.7cm)
+							diameter rain gauge built in a garden near the laboratory in
+							1852. The water collected was measured in a graduated cylinder
+							until about 1880. The gauge was then moved to the current
+							meteorological enclosure. In 1948, a 12.7cm (5 inch) copper rain
+							gauge of Meteorological Office standard was installed within a
+							0.3 m high, 1.5 m radius turf wall retained by brick to reduce
+							wind eddies.
+						</p>
 							<p>Since 2004, when the meteorological station was automated, <B>RAIN
 							</B> has been measured by an electronic tipping bucket rain gauge of
 							25.4cm (10 inch) diameter, (Campbell Scientific, ARG100)
@@ -214,28 +222,12 @@
 							gauge is blocked with snow or ice.
 						</p>
 
-						<p>
-							<B>RAIN </B> was originally recorded in a 5 inch (12.7cm)
-							diameter rain gauge built in a garden near the laboratory in
-							1852. The water collected was measured in a graduated cylinder
-							until about 1880. The gauge was then moved to the current
-							meteorological enclosure. In 1948, a 5 inch (12.7cm) copper rain
-							gauge of Meteorological Office standard was installed within a
-							0.3 m high, 1.5 m radius turf wall retained by brick to reduce
-							wind eddies.
-						</p>
-
-						<p>
-							Data is available for <b>RAIN</b> from 05/02/1853 - present,
-							except between 1880-1914. It is recommended that for a complete
-							run of data from a standard rain gauge that a composite of RAIN
-							and <b>RAIN5</b> is used, based on RAIN, with data from RAIN5
-							being used from 1880-1914 only.
-						</p>
+						<p>Data from <b>RAIN</b> is missing between 1880-1914, and it is recommended that for a complete
+						run of data from a standard rain gauge <b>RAIN5</b> should be used for 1880-1914. </p>
 
 
 						<p>"Missing values" There are many instances before 2004 when
-							no data is shown for RAIN (rather than zero). This is because a
+							no data is shown for <b>RAIN</b> (rather than zero). This is because a
 							'trace' of rain, snow, mist, dew or fog was manually recorded. A
 							'trace' is less than 0.05mm. For most purposes a missing value
 							can be assumed to be zero.</p>
@@ -257,7 +249,7 @@
 							convert 5 inch data to ARG100 data, multiply by 1.1. To convert
 							ARG100 data to 5 inch, divide by 1.1. We recommend that when you
 							download data that spans both gauges, you multiply the 5 inch
-							data by 1.1. Please contact the e-RA curators (add link) for more
+							data by 1.1. Please contact the e-RA curators [<B>add link</B>] for more
 							information.
 						</p></td>
 				</tr>
@@ -270,20 +262,15 @@
 						0900GMT</p>
 					<p>The variable <b>RAIN5 </b> was originally recorded in another 5
 							inch (12.7cm) cooper rain gauge, established in 1873. Data was
-							not recorded in e-RA after 1987. RAIN and RAINL are two separate
+							not recorded in e-RA after 1987. <b>RAIN</b> and <b>RAINL</b> are two separate
 							gauges, hence the values do not exactly agree.
 						</p>
 
-						<p>
-							Data is available for <b>RAIN</b> from 05/02/1853 - present,
-							except between 1880-1914. It is recommended that for a complete
-							run of data from a standard rain gauge that a composite of <b>RAIN</b>
-							and RAIN5 is used, based on RAIN, with data from RAIN5 being used
-							from 1880-1914 only.
-						</p>
+						<p>Data from <b>RAIN</b> is missing between 1880-1914, and it is recommended that for a complete
+						run of data from a standard rain gauge <b>RAIN5</b> should be used for 1880-1914. </p>						</p>
 
 						<p>"Missing values" There are many instances before 1987 when
-							no data is shown for RAIN5 (rather than zero). This is because a
+							no data is shown for <b>RAIN5</b> (rather than zero). This is because a
 							'trace' of rain, snow, mist, dew or fog was manually recorded. A
 							'trace' is less than 0.05mm. For most purposes a missing value
 							can be assumed to be zero.</p></td>
@@ -298,36 +285,36 @@
 					</td>
 					<td>1853-current date </td>
 					<td><p>Total rainfall over 24 hours recorded at 0900GMT</p>
-					<p>The variable <B> RAIN_L</B> measures rain in a gauge of 1/1000th
+					<p>The variable <B>RAINL</B> measures rain in a gauge of 1/1000th
 							of an acre (4.047 sq metres), built in 1852/53. The gauge was
 							constructed of timber with a lead funnel. Rain was collected
 							daily in carboys and weighed to estimate the amount of rain. In
 							1873 a new gauge was installed and the carboys replaced by
 							galvanized iron calibrated cylinders to measure rainfall. The old
 							gauge was replaced by an identical new one in 1992. For details
-							of the early history of the 1/1000th acre rain gauge, see Lawes,<a
+							of the early history of the 1/1000th acre rain gauge, see Lawes, <a
 								href="https://babel.hathitrust.org/cgi/pt?id=osu.32435010735041&view=1up&seq=7
 				">Gilbert
 								& Warington, 1881 (J Royal Agric Soc <b> 17</b>: 241-279)
-							</a>
+							</a>[check these refs]
 						</p>
 						<p>From 2004 onwards the calibrated cylinders were replaced by
 							an electronic tipping bucket rain gauge (Campbell Scientific,
 							ARG100) calibrated to tip with every 0.0025mm of rain. In July
 							2010 the lead lining was stolen and it was replaced by a new
 							stainless steel funnel of grade 316 and dimensions 2213mm x
-							1829mm in February 2011. No RAIN_L data was collected for this
+							1829mm in February 2011. No <b>RAINL</b> data was collected for this
 							period.</p>
 
-						<p>Since 2004, when the met station was automated, RAINL may
-							have been underestimating rainfall when rain is intense. RAINL
+						<p>Since 2004, when the met station was automated, <b>RAINL</b> may
+							have been underestimating rainfall when rain is intense. <b>RAINL</b>
 							should only be used in conjunction with the drainage data, which
-							has the same surface area (DR20, DR40, DR60). For general daily
-							rainfall data please use RAIN. It is recommended that if you use
-							RAINL, RAIN should be used as a check.</p>
+							has the same surface area (<b>DR20, DR40, DR60</b>). For general daily
+							rainfall data please use <b>RAIN</b>. It is recommended that if you use
+							<b>RAINL, RAIN</b> should be used as a check.</p>
 
 						<p>"Missing values" There are many instances before 2004 when
-							no data is shown for RAINL (rather than zero). This is because a
+							no data is shown for <b>RAINL</b> (rather than zero). This is because a
 							'trace' of rain, snow, mist, dew or fog was manually recorded. A
 							'trace' is less than 0.05mm. For most purposes a missing value
 							can be assumed to be zero.</p></td>
@@ -402,7 +389,7 @@
 					<td>1890-current date</td>
 					<td><p>Total sun hours over 24 hours, 0000GMT to
 						2400GMT</p>
-					<p>Recorded in 1892 using a Campbell-Stokes sunshine
+					<p>Originally recorded using a Campbell-Stokes sunshine
 							recorder. The sun's rays are focused onto a card (treated to
 							prevent it from catching fire) and the brown scorch mark on the
 							card is then measured. The cards are of varying lengths
@@ -415,11 +402,11 @@
 					<td>SUNMAX</td>
 					<td>&deg;C</td>
 					<td>Maximum temperature in the sun</td>
-					<td>1915-1935; [<b>this data is not currently displayed in
-							Rothmet, so exclude]</b>
+					<td>1915-1935; </b>
 					</td>
 					<td><p>
-							Recorded using a black bulb <i>in vacuo</i>
+							Recorded using a black bulb in a vacuum.
+					[<b>this data is not currently displayed in Rothmet, so exclude]
 						</p>
 				</tr>
 				<tr>
@@ -454,8 +441,7 @@
 
 						<p>
 							Data are recorded as J/cm<sup>2</sup>. To convert to MJ/m<sup>2</sup>
-							divide by 100. To convert MJ/m<sup>2</sup> to W/m<sup>2</sup>
-							multiply by 11.6.
+							divide by 100. [<b>Link to Conversion Factors</b>.
 						</p></td>
 				</tr>
 				<tr>
@@ -467,13 +453,11 @@
 					<td>Cloud cover</td>
 					<td>1915-2007 </td>
 					<td><p>Recorded at 0900GMT</p>
-					<p>Observed cloud cover on a scale of 0 to 9 Oktas. 0
-							oktas represents the complete absence of cloud. 1 okta represents
-							a cloud amount of 1 eighth or less, but not zero. 7 oktas
-							represents a cloud amount of 7 eighths or more, but not full
-							cloud cover. 8 oktas represents full cloud cover with no breaks.
-							9 oktas represents sky obscured by fog or other meteorological
-							phenomena. Observations discontinued May 3rd 2007.</p></td>
+					<p>Observed cloud cover on a scale of 0 to 9 Oktas. 0 = the complete absence of cloud. 
+					1 = a cloud amount of 1 eighth or less of the sky, but not zero, etc. 7 = a cloud amount of 7 eighths or more, but not full
+							cloud cover. 8 = full cloud cover with no breaks.
+							9 = sky obscured by fog or other meteorological
+							phenomena. </p></td>
 
 				</tr>
 				<tr>
@@ -489,8 +473,8 @@
 							measured by a wind vane. It is shown as an angle, going clockwise
 							from North. 360 = North, 90 = East, 180 = South, 270 = West. The
 							reading 0 (or 000) indicates that there is no wind, ie the
-							windspeed is 0 m/s. A WDIR reading of 0 with a windspeed greater
-							than 0 implies that the WDIR is 360 degrees (North).
+							windspeed is 0 m/s. A <b>WDIR</b> reading of 0 with a windspeed greater
+							than 0 implies that the <b>WDIR</b> is 360 degrees (North).
 						</p>
 
 						<p>Since 2004 it has been recorded by electronic wind vane
@@ -498,11 +482,11 @@
 							level. The standard height for surface wind measurements over
 							open and level terrain is 10m. However, no correction is needed
 							for wind measured between 8 and 13m (Met Office, 1982). We
-							therefore assume a mid-point height of 10m. From 2004 WDIR has
+							therefore assume a mid-point height of 10m. From 2004 <b>WDIR</B> has
 							been calculated as an average over 10 minutes from 8.50 to 9am.</p>
 
 						<p>
-							From 1978 <B> (WDIR) </B> was measured by a wind vane linked to a
+							From 1978 <B>(WDIR)</B> was measured by a wind vane linked to a
 							Munro roll chart recorder (model IM175). Previously it was
 							estimated from a wind vane with fixed ordinal points.
 						</p></td>
@@ -513,11 +497,10 @@
 					<td>Wind force in Beaufort scale (0-12)</td>
 					<td>1915-1959 </td>
 					<td><p>Recorded at 0900GMT</p>
-					<p>Wind speed was first estimated at Rothamsted using the
-						Beaufort scale, which describes wind speed on a scale of 0 (no
+					<p>Wind speed was first estimated using the
+						Beaufort scale, which describes wind force on a scale of 0 (no
 						wind) to 12 (hurricane) based on observations of the movement of
-						smoke, leaves, branches, etc. It is shown in e-RA as wind force<B>
-							(WFORCE)</B>. From 1960 onwards this was replaced by direct
+						smoke, leaves, branches, etc. From 1960 onwards this was replaced by direct
 						measurements of wind speed <B>(WINDSP)</B>.
 						<p>
 						<p>
@@ -525,7 +508,8 @@
 							0.836 x SQRT (B<sup>3</sup>)
 						</p>
 						<p>where V is the equivalent wind speed (m/s) at 10 metres
-							above ground level and B is Beaufort scale number.</p>
+							above ground level and B is Beaufort scale number. 
+						[<b>Link to conversion factors- should we omit this equation?</b>]</p>
 				</tr>
 				<tr>
 					<td>WINDSP</td>
@@ -550,17 +534,14 @@
 							Munro roll chart recorder (model IM175).</p>
 
 						<p>
-							WINDSP and WFORCE are point values, recorded at 0900GMT. From
-							2004 WINDSP has been calculated as an average over 10 minutes
-							from 8.50 to 9am. Average daily (24 hour) windspeed can be
-							calculated from total daily <b>WINDRUN</b>.
+							<b>WINDSP</b> and <b>WFORCE</b> are point values, recorded at 0900GMT. From
+							2004 <b>WINDSP</b> has been calculated as an average over 10 minutes
+							from 8.50 to 9am. </p>
+						<p>Average daily (24 hour) windspeed can be
+						calculated from total daily <b>WINDRUN</b>, correcting for height, see Conversion Factors [<b>Link to Conversion factors</b>].
 						</p>
 
-						<p>Average daily windspeed (m/s) = (total WINDRUN km/24 hours)
-							/ 86.4</p>
-
-						<p>Multiply by 1.28 to convert from 2m to the standard height
-							of 10m.</p>
+						
 				</tr>
 				<tr>
 					<td>WINDRUN</td>
@@ -579,8 +560,8 @@
 						<p>Recorded from February 4th 2004 to January 2014 with an
 							electronic cup anemometer (Vector Instruments, A100LK/2) at 12.8m
 							above ground level, downscaled to the 2m equivalent by
-							multiplying by 0.78 (Met Office 1982, p83-88, see [link
-							to]Conversion Factors).</p>
+							multiplying by 0.78 (Met Office 1982, p83-88 [<b> see link
+							to]Conversion Factors</b>].</p>
 
 
 						<p>From 1946 to February 3rd 2004 recorded manually using a
@@ -599,7 +580,7 @@
 					<td><p>Recorded at 0900GMT</p>
 					<p>Manual observations indicating if hail was present during the day, and if so, what type. Code 0-7. 
 					1 = Ice prisms; 2 = Snow grains; 3 = Snow pellets; 4 = Ice pellets; 5 = Hail (5-9mm diameter); 	
-					6 = Hail (10-19mm diameter); 7 = Hail (20mm diameter or more). Null or code 0 = No Hail;  </td>
+					6 = Hail (10-19mm diameter); 7 = Hail (20mm diameter or more). Null or code 0 = No Hail.  </td>
 				</tr>
 				<tr>
 					<td>DYSNOW</td>
@@ -608,8 +589,7 @@
 					<td>1960-88; 1998-2007</td>
 					<td><p>Recorded at 0900GMT</p>
 					<p>Manual observations recording if snow or sleet was
-						present. Code 1 = sleet, code 5 = snow crystals. Code 0 = no snow
-						(1971-2007 only). </td>
+						present. Code 1 = sleet, code 5 = snow crystals. Code 0 = no snow. </td>
 				</tr>
 				<tr>
 					<td>DYTHUN</td>
@@ -628,7 +608,7 @@
 					<td>1960-1978</td>
 					<td><p>Recorded at 0900GMT</p>
 					<p>Manual observations recording if fog was present. Code 1 =
-						fog present, code 0 = no fog (1971-1978 only). </p>	</td>
+						fog present, code 0 = no fog. </p>	</td>
 				</tr>
 				<tr>
 					<td>SNOWL</td>
@@ -639,7 +619,7 @@
 						<p>Manual observations recording if snow was present. This
 						may have been snow from a previous day. See <b>FSNOWD</b> for
 						depth of freshly fallen snow for the current day. Code 1 = snow
-						present, code 0 = no snow (1971-1978 only). </p>
+						present, code 0 = no snow. </p>
 					</td>
 				</tr>
 				<tr>
@@ -650,7 +630,7 @@
 					<td><p>Recorded at 0900GMT</p>
 					<p>Manual recording of total depth of lying snow at the time of observation. This may be
 						snow that fell in previous days. 
-					See <b>FSNOWD</b> for depth of freshly fallen snow for the current day.</p></p></td>
+					See <b>FSNOWD</b> for depth of freshly fallen snow for the current day.</p></td>
 				</tr>
 				<tr>
 					<td>FSNOWD</td>
@@ -667,7 +647,7 @@
 				<tr>
 					<td>RELH</td>
 					<td>%</td>
-					<td>Relative humidity</td>
+					<td>Relative humidity</td>F
 					<td>1925-current date </td>
 					<td><p>Recorded at 0900GMT</p>
 							<p>Since August 7th 2018 measured by a Relative Humidty sensor
@@ -675,8 +655,7 @@
 							Scientific). This replaced the MP100A RH Sensor (Rotronics,
 							supplied by Campbell Scientific) installed in late 2013. <b>RELH</b>
 							was derived from <B>WETB</B> and <B>DRYB</b> temperatures up to
-							2013, and calculated from hygrometric tables up to 2004, before
-							the met station was automated in 2004.
+							2013, [<b>link to derived variables</b>]and calculated from hygrometric tables up to 2004. 
 						</p>
 					</td>
 				</tr>
@@ -721,7 +700,7 @@
 						and <b>DRYB</b> after the method of <a
 						href="https://doi.org/10.1175/1520-0450(1981)020<1527:NEFCVP>2.0.CO;2">Buck
 							(1981)</a> THIS LINK DOESN'T WORK. Previously it was derived from <B>DRYB</b>
-						and <B>WETB</b> (see derived variables).</p>
+						and <B>WETB</b> [<b>link to derived variables</b>].</p>
 				</tr>
 				<tr>
 					<td>VIS</td>
@@ -735,8 +714,8 @@
 					Visibility range 100-199m; CODE 2 = Thick fog. Visibility range 200-399m, CODE 3 = Moderate fog. Visibility 
 					range 400-999m; CODE 4 = Very poor visibility, range 1000-1999m; CODE 5 = Poor visibility, range 2000-3999m; 
 					CODE 6 = Moderate visibility, range 4-9km; CODE 7 = Good visibility, range 10-19km; CODE 8 = Very good visibility, 
-					range 20-39km; CODE 9 = Excellent visibility, range 40km or over. Discontiuned mid 2007 FIND OUT WHAT THE
-						CODES ARE.</p></td>
+					range 20-39km; CODE 9 = Excellent visibility, range 40km or over. Discontiuned mid 2007 [<b>FIND OUT WHAT THE
+						OTHER CODES ARE</b>].</p></td>
 				</tr>
 			</tbody>
 		</table>
