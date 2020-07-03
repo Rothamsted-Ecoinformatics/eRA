@@ -166,10 +166,20 @@ if (count($person['contributors']) > 0) {
 }
 ?>
                	<h3 class="my-3 mt-5">Funding</h3>
-         
- 	<ul class="list-group mx-3">
-		<li class="list-group-item " style="white-space: pre-wrap;"><b>BBSRC / UKRI: </b>National Capability</li>
-		<li class="list-group-item " style="white-space: pre-wrap;"><b>Grant Number: </b></li>
-		<li class="list-group-item " style="white-space: pre-wrap;"><b>Please update: </b></li>
+               	<p> </p>
+		
+		<ul class="list-group mx-3">
+		<li class="list-group-item " >The e-RA Database, is part of the <a target = "_blank" href="https://www.rothamsted.ac.uk/national-capabilities"> National Capabilities </a>, which also
+		includes the <a href="https://www.rothamsted.ac.uk/long-term-experiments">Long-Term Experiment</a> , the <a  target = "_blank"  href="https://www.rothamsted.ac.uk/sample-archive">Sample
+		Archive</a> and the
+		<a href="https://www.rothamsted.ac.uk/environmental-change-network">Environmental Change Network</a>.</li>
+		<li class="list-group-item ">The
+		Rothamsted Long-term Experiments National Capability is supported by
+		the Lawes Agricultural Trust and the Biotechnology and Biological
+		Sciences Research Council (Grants <a target="_blank" href="https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F00005189">BBS/E/C/00005189</a>) (2012-2017)
+		and <a target="_blank" href="https://gtr.ukri.org/project/40CC213B-6923-433A-89AD-789CC3E8E1F5">BBS/E/C/000J0300</a>
+		)
+		(2017-2022)).</li>
+		
 	</ul>
     </div>
