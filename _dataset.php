@@ -65,15 +65,15 @@ if ($hasDataset) {
         $dateUpdate = "N/A";
     }
     if (is_array($dsinfo['distribution'])) {
-        $zipfile = $exptFolder . "/" . $datasetFolder . "/" . $dataset . ".zip" ;
+        $zipfile = $exptFolder . "/" . $datasetFolder . "/" . $dataset . ".zip";
         $distribution = "<ul>";
         foreach ($dsinfo['distribution'] as $filedownloads) {
 
             $distribution .= "<li>";
-           # $distribution .="<a href=\"" . $exptFolder . "/" . $datasetFolder . "/" . $filedownloads['URL'] . "\">";
-            $distribution .=  $filedownloads['name'] ;
-           # $distribution .=  "</a>";
-            $distribution .=  "</li>";
+            // $distribution .="<a href=\"" . $exptFolder . "/" . $datasetFolder . "/" . $filedownloads['URL'] . "\">";
+            $distribution .= $filedownloads['name'];
+            // $distribution .= "</a>";
+            $distribution .= "</li>";
         }
         $distribution .= "</ul>";
     }
@@ -170,14 +170,16 @@ if ($hasDataset) {
 		<div class="col-sm-4">
 			<div class="card card-summary">
 				<div class="card-body">
-				<button type="button" class="btn btn-primary" data-toggle="modal"
-								data-target="#modalClickTrough">Download</button>
+					<button type="button" class="btn btn-primary" data-toggle="modal"
+						data-target="#modalClickTrough">Download</button>
 					<ul class="list-group list-group-flush">
 						<li class="list-group-item"><b>DOI: </b><?php echo $dsinfo['identifier'];?>
 						</li>
 						<li class="list-group-item"><b>Experiment: </b> <a
 							href="expt.php?expt=<?php echo $expt;?>#datasets"><?php echo $pageinfo['Experiment']; ?></a></li>
 						<li class="list-group-item"><b>Files: </b> <?php echo $distribution; ?>
+						
+						
 						
 						
 						
@@ -199,7 +201,7 @@ if ($hasDataset) {
 						<li class="list-group-item"><b>Publisher: </b>Rothamsted Research</li>
 					</ul>
 					<button type="button" class="btn btn-primary" data-toggle="modal"
-								data-target="#modalClickTrough">Download</button>
+						data-target="#modalClickTrough">Download</button>
 				</div>
 
 			</div>
@@ -263,6 +265,46 @@ if (isset($arrDescription['Other'])) {
 
 							
 				<div class="card">
+					<div class="card-header" id="Funding">
+						<h5 class="mb-0">
+							<button class="btn btn-link collapsed" data-toggle="collapse"
+								data-target="#collapseFunding" aria-expanded="false"
+								aria-controls="collapseFunding">Funding</button>
+						</h5>
+					</div>
+					<div id="collapseFunding" class="collapse"
+						aria-labelledby="Funding" data-parent="#accordion">
+						<div class="card-body">
+
+							<ul class="list-group mx-3">
+								<li class="list-group-item ">The dataset <b><?php echo $dsinfo['name'];?></b> is a
+									published dataset from the e-RA Database. The e-RA database,
+									including the published datasets generated from it, The e-RA
+									Database, is part of the <a target="_blank"
+									href="https://www.rothamsted.ac.uk/national-capabilities">
+										National Capabilities </a>, which also includes the <a
+									href="https://www.rothamsted.ac.uk/long-term-experiments">Long-Term
+										Experiment</a> , the <a target="_blank"
+									href="https://www.rothamsted.ac.uk/sample-archive">Sample
+										Archive</a> and the <a
+									href="https://www.rothamsted.ac.uk/environmental-change-network">Environmental
+										Change Network</a>.
+								</li>
+								<li class="list-group-item ">The Rothamsted Long-term
+									Experiments National Capability is supported by the Lawes
+									Agricultural Trust and the Biotechnology and Biological
+									Sciences Research Council (Grants <a target="_blank"
+									href="https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F00005189">BBS/E/C/00005189</a>)
+									(2012-2017) and <a target="_blank"
+									href="https://gtr.ukri.org/project/40CC213B-6923-433A-89AD-789CC3E8E1F5">BBS/E/C/000J0300</a>
+									) (2017-2022)).
+								</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="card">
 					<div class="card-header" id="Access">
 						<h5 class="mb-0">
 							<button class="btn btn-link collapsed" data-toggle="collapse"
@@ -323,33 +365,39 @@ if (isset($arrDescription['Other'])) {
 			</div>
 			<div class="modal-body">
 				<p>
-								<a rel="license" target="_blank"
-									href="http://creativecommons.org/licenses/by/4.0/" target="out"><img
-									style="width: 50px;" alt="Creative Commons License"
-									src="images/logos/cc4.png" align="middle" /></a> This work is
-								licensed under a <a rel="license"
-									href="http://creativecommons.org/licenses/by/4.0/">Creative
-									Commons Attribution 4.0 International License</a>.
-							</p>
-							<p>
-								<strong>YOU MUST CITE AS: </strong>Rothamsted Research (<?php echo $datePublication;?>).
+					<a rel="license" target="_blank"
+						href="http://creativecommons.org/licenses/by/4.0/" target="out"><img
+						style="width: 50px;" alt="Creative Commons License"
+						src="images/logos/cc4.png" align="middle" /></a> This work is
+					licensed under a <a rel="license"
+						href="http://creativecommons.org/licenses/by/4.0/">Creative
+						Commons Attribution 4.0 International License</a>.
+				</p>
+				<p>
+					<strong>YOU MUST CITE AS: </strong>Rothamsted Research (<?php echo $datePublication;?>).
 								<?php echo $dsinfo['name'];?> <em>Electronic Rothamsted Archive</em>
-								<a target="_blank"
-									href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
+					<a target="_blank"
+						href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
 
-							</p>
-							<p>Rothamsted relies on the integrity of users to ensure that
-								Rothamsted Research receives suitable acknowledgment as being
-								the originators of these data. This enables us to monitor the
-								use of each dataset and to demonstrate their value. </p>
-								
-							<p>If you have not done so, please <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=JTaItkGJQkOw43uMyDkvZDZRGOUcKblFt0gV54i_OxNUMTVYSEZKU0NDRENRSElCNVRCMjdSV0dRMSQlQCN0PWcu" >fill in this  form</a> and if possible, inform us of  any publication that uses this Rothamsted data.</p>
+				</p>
+				<p>Rothamsted relies on the integrity of users to ensure that
+					Rothamsted Research receives suitable acknowledgment as being the
+					originators of these data. This enables us to monitor the use of
+					each dataset and to demonstrate their value.</p>
 
-				
+				<p>
+					If you have not done so, please <a
+						href="https://forms.office.com/Pages/ResponsePage.aspx?id=JTaItkGJQkOw43uMyDkvZDZRGOUcKblFt0gV54i_OxNUMTVYSEZKU0NDRENRSElCNVRCMjdSV0dRMSQlQCN0PWcu">fill
+						in this form</a> and if possible, inform us of any publication
+					that uses this Rothamsted data.
+				</p>
+
+
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				<a type="button" download class="btn btn-primary" href="<?php echo $zipfile; ?>">Agree and Download</a>
+				<a type="button" download class="btn btn-primary"
+					href="<?php echo $zipfile; ?>">Agree and Download</a>
 			</div>
 		</div>
 	</div>
