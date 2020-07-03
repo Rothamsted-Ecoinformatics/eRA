@@ -184,6 +184,8 @@ if ($hasDataset) {
 						
 						
 						
+						
+						
 						<li class="list-group-item"><b>Version: </b> <?php echo $dsinfo['version']; ?></li>
 						<li class="list-group-item"><b>Creation Date: </b> <?php echo $dateCreation; ?></li>
 						<li class="list-group-item"><b>Publication Date: </b> <?php echo $datePublication; ?></li>
@@ -277,10 +279,10 @@ if (isset($arrDescription['Other'])) {
 						<div class="card-body">
 
 							<ul class="list-group mx-3">
-								<li class="list-group-item ">The dataset <b><?php echo $dsinfo['name'];?></b> is a
-									published dataset from the e-RA Database. The e-RA database,
-									including the published datasets generated from it, The e-RA
-									Database, is part of the <a target="_blank"
+								<li class="list-group-item ">The dataset <b><?php echo $dsinfo['name'];?></b>
+									is a published dataset from the e-RA Database. The e-RA
+									database, including the published datasets generated from it,
+									The e-RA Database, is part of the <a target="_blank"
 									href="https://www.rothamsted.ac.uk/national-capabilities">
 										National Capabilities </a>, which also includes the <a
 									href="https://www.rothamsted.ac.uk/long-term-experiments">Long-Term
@@ -315,21 +317,31 @@ if (isset($arrDescription['Other'])) {
 					<div id="collapseAccess" class="collapse" aria-labelledby="Access"
 						data-parent="#accordion">
 						<div class="card-body">
+							<h5>Rights Holder</h5>
+							<p>Rothamsted Research</p>
+
+							<h5>License</h5>
 							<p>
 								<a rel="license" target="_blank"
 									href="http://creativecommons.org/licenses/by/4.0/" target="out"><img
 									style="width: 50px;" alt="Creative Commons License"
-									src="images/logos/cc4.png" align="middle" /></a> This work is
-								licensed under a <a rel="license"
+									src="images/logos/cc4.png" align="middle" /></a> This dataset
+								is available under a <a rel="license"
 									href="http://creativecommons.org/licenses/by/4.0/">Creative
-									Commons Attribution 4.0 International License</a>.
+									Commons Attribution Licence (4.0)</a>.
 							</p>
+							<h5>Cite this Dataset</h5>
 							<p>
 								<strong>YOU MUST CITE AS: </strong>Rothamsted Research (<?php echo $datePublication;?>).
 								<?php echo $dsinfo['name'];?> <em>Electronic Rothamsted Archive</em>
 								<a target="_blank"
 									href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
 
+							</p>
+							<h5>Conditions of use</h5>
+							<p>
+								Please review the <a href="">Conditions of use</a> before
+								downloading
 							</p>
 							<p>Rothamsted relies on the integrity of users to ensure that
 								Rothamsted Research receives suitable acknowledgment as being
