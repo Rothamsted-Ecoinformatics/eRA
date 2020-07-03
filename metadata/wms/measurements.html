@@ -5,309 +5,451 @@
  * 
  */
 ?>
-<div class="row">
-	<h2 class="d-block">Weather data available in WOBMET</h2>
+<div class="row mx-3">
+	<h2 class="d-block">Meteorological data available in WOBMET</h2>
 	</div>
 	<div class="row">
-	<p class="clearfix">Daily meteorological data recorded at Woburn.</p>
+	<p class="clearfix">Daily meteorological data recorded at Woburn, Bedfordshire available since 1928. Manual observations ceased on 1st July 1999, 
+and meteorological records are now measured by a range of sensors attached to an automatic data logger. Hourly data from 2004 is available from the <a
+			href="register.php"> e-RA Curators.</p>
 	<div class="table-responsive-sm">
 		<table
-			class="table  table-responsive-sm table-sm  table-hover table-bordered">
+			class="table  table-responsive-sm table-sm table-bordered"
+			border="1">
 			<thead>
+			<tr>
 				<th scope="col">Variable</th>
 				<th scope="col">Units</th>
 				<th scope="col">Description</th>
-				<th scope="col">How is it measured?</th>
+				<th scope="col">When recorded</th>
+				<th scope="col">Methods of measurement</th>
+			</tr>
 			</thead>
 			<tbody>
 				<tr>
-					<td colspan="4"><h3>Air temperature</h3></td>
+					<td colspan="5"><h3>Air temperature</h3></td>
 				</tr>
 				<tr>
 					<td>TMAX</td>
-					<td>degrees C</td>
-					<td>Maximum temperature, 1928-current date</td>
-					<td>Maximum (TMAX) and minimum (TMIN) temperatures were first
-						recorded in 1928 using mercury column thermometers. Dry (DRYB) and
-						wet (WETB) bulb mercury column thermometers were used to record
-						air temperatures and calculate variables such as relative
-						humidity, vapour pressure and dew point. On 1st December 2009 WETB
-						was discontinued and replaced by a Relative Humidity Sensor
-						(Campbell Scientific, MP100A) to measure relative humidity (RELH)
-						and from which vapour pressure (VAP) and dew point (DEWP) are now
-						calculated after the method of Lowe (1977).</td>
+					<td>&deg;C</td>
+					<td>Maximum temperature</td>					
+					<td>1928-current date</td>
+					
+					<td><p>Recorded over the 24 hour period up to 0900GMT, for the previous day's maximum temperature.</p>
+					<p>Since 1999 recorded by a thermistor (electronic temperature probe, Campbell Scientific, type 107). 
+					Previously recorded with a mecury column thermometer. </p></td>
 				</tr>
 				<tr>
 					<td>TMIN</td>
-					<td>degrees C</td>
+					<td>&deg;C</td>
+					<td>Minimum temperature</td>
+					<td>1928-current date</td>
+					<td><P>Recorded over the 24 hour period up to 0900GMT, for the current day's minimum temperature.</p>
 
-					<td>Minimum temperature, 1928-current date</td>
-					<td></td>
+					<p>Since 1999 recorded by a thermistor (electronic temperature probe, Campbell Scientific, type 107). 
+					Previously recorded with a spirit-in-glass with indicator bar minimum thermometer.</p></td>
 				</tr>
 				<tr>
 					<td>WETB</td>
-					<td>degrees C</td>
-
-					<td>Wet bulb temperature, 1928-2009</td>
-					<td></td>
+					<td>&deg;C</td>
+					<td>Wet bulb temperature, measuring temperature of evaporation</td>
+					<td>1928-2009</td>
+					
+					<td><p> Recorded at 0900GMT</p>
+					<p> Since 1999 measured by a thermistor (electronic temperature
+							probe, Campbell Scientific, type 107). Previously measured with a mercury column thermometer, 
+					the bulb covered by a cotton wick kept moist from a water reservoir. 	
+					Discontinued on 1st December 2009 and replaced by a Relative Humidity Sensor
+						(Campbell Scientific, MP100A) to measure relative humidity (RELH)
+						and from which vapour pressure (VAP) and dew point (DEWP) are now
+						calculated after the method of Lowe (1977).</p>
+					<p>Until 2009 used with <b>DRYB</b> to 
+						calculate variables including RELH, VAP and DEWP. </p>
+						</td>
 				</tr>
 				<tr>
 					<td>DRYB</td>
-					<td>degrees C</td>
-
-					<td>Dry bulb temperature, 1928-current date</td>
-					<td></td>
+					<td>&deg;C</td>
+					<td>Dry bulb temperature</td>
+					<td>1928-current date</td>
+					<td><p> Recorded at 0900GMT</p>
+					<p>Since 1999 measured by a thermistor (electronic temperature probe, Campbell Scientific, type 107). 
+					Previously measured with a mercury column thermometer.  </p>
+					<p>Used with <b>WETB</b> and then <b>RELH</b> to derive other variables including VAP and DEWP.</p></td>
 				</tr>
 				<tr>
 					<td>DEWP</td>
-					<td>degrees C</td>
-
-					<td>Dew point (derived from DRYB and WETB), 1968-current date</td>
+					<td>&deg;C</td>
+					<td>Dew point (derived)</td>
+					<td>1968-current date</td>
+					<td><p>Recorded at 0900GMT</p>
+					<p>Derived from <b>DRYB</b> and <b>RELH</b> since December 1st 2009, calculated after the method of Lowe (1977). 
+					Previously derived from <b>DRYB</b> and <b>WETB</b>, calculated from equations by the datalogger 
+					(see <a href="info.php?FileName=derived_variables.html"> derived variables<a>).
+					Before 1999 calculated from hygrometric tables.</p>
+					</td>
 					<td></td>
 				</tr>
 				<tr>
 					<td>GRSMIN</td>
-					<td>degrees C</td>
-
-					<td>Grass minimum temperature, 1929-current date</td>
-					<td></td>
+					<td>&deg;C</td>
+					<td>Grass minimum temperature</td>
+					<td>1929-current date</td>
+					<td><p>Recorded at 0900GMT. Mimimum temperature on grass over the previous 24 hours</p>
+					<p>Since 1999 recorded by a thermistor (electronic temperature
+							probe, Campbell Scientific, type 107). 
+					Previously recorded with a spirit-in-glass with indicator bar minimum thermometer.</p></td>
 				</tr>
 				<tr name="title_row">
-					<td colspan="4"><h3>Soil temperature under grass</h3></td>
+					<td colspan="5"><h3>Soil temperature under grass</h3></td>
 				</tr>
 				<tr>
 					<td>G30T</td>
-					<td>degrees C</td>
-
-					<td>Soil temperature at 30cm under grass, 1971-87</td>
-					<td></td>
+					<td>&deg;C</td>
+				<td>Soil temperature at 30cm under grass</td>
+				<td>1971-1987</td>
+					<td rowspan="6">
+					<p>Recorded at 0900GMT</p>
+				<p>Since 1999 measured by thermistors (electronic temperature probes, Campbell Scientific, type 107), 
+				buried in the soil at the appropriate depth. First recorded in 1928 using specially adapted mercury thermometers, 
+				set at depths of 1 foot and 4 feet (approximately 30 and 100cm)
+				under grass cover. Other depths added later. </p>
+				<p>30cm depth recorded as <b>E30T</b> 1928-1970; 1988-current, and as <B>G30T</B>1971-1987. For soil temperature at approximately 1 metre depth, use <B>E100T</b>
+				1928-1967; 1971-current date, and <B>E122T</B> 1968-1970. </td>
 				</tr>
 				<tr>
 					<td>E30T</td>
-					<td>degrees C</td>
-
-					<td>Soil temperature at 30cm under grass, 1928-70; 1988-current
-						date</td>
-					<td></td>
+					<td>&deg;C</td>
+					<td>Soil temperature at 30cm under grass</td>
+					<td>1928-1970; 1988-current date</td>
+					
 				</tr>
 				<tr>
 					<td>E50T</td>
-					<td>degrees C</td>
-
-					<td>Soil temperature at 50cm under grass, 1971-current date</td>
-					<td></td>
+					<td>&deg;C</td>
+					<td>Soil temperature at 50cm under grass</td>
+					<td>1971-current date</td>
+					
 				</tr>
 				<tr>
 					<td>E60T</td>
-					<td>degrees C</td>
-
-					<td>Soil temperature at 60cm under grass, 1968-70</td>
-					<td></td>
+					<td>&deg;C</td>
+					<td>Soil temperature at 60cm under grass</td>
+					<td>1968-1970</td>
+					
 				</tr>
 				<tr>
 					<td>E100T</td>
-					<td>degrees C</td>
-
-					<td>Soil temperature at 100cm under grass, 1928-67; 1971-current
-						date</td>
-					<td></td>
+					<td>&deg;C</td>
+					<td>Soil temperature at 100cm under grass</td>
+					<td>1928-1967; 1971-current date</td>
+					
 				</tr>
 				<tr>
 					<td>E122T</td>
-					<td>degrees C</td>
-
-					<td>Soil Temperature at 122cm under grass, 1968-70</td>
-					<td></td>
+					<td>&deg;C</td>
+					<td>Soil Temperature at 122cm under grass</td>
+					<td>1968-1970</td>
+					
 				</tr>
 				<tr name="title_row">
-					<td colspan="4"><h3>Soil temperature under bare soil</h3></td>
+					<td colspan="5"><h3>Soil temperature under bare soil</h3></td>
 				</tr>
 				<tr>
 					<td>S10T</td>
-					<td>degrees C</td>
-
-					<td>Bare soil temperature at 10cm depth, 1968-current date</td>
-					<td></td>
+					<td>&deg;C</td>
+					<td>Bare soil temperature at 10cm depth</td>
+					<td>1968-current date</td>
+					<td rowspan="2">
+					<p>Recorded at 0900GMT</p>
+					<p>Since 1999 measured by thermistors (electronic temperature
+							probes, Campbell Scientific, type 107), buried in the soil at the appropriate depth. 
+					First recorded in 1968 using specially adapted mercury thermometers, 
+				set at depths of 10 and 20cm under bare soil. </td></td>
 				</tr>
 				<tr>
 					<td>S20T</td>
-					<td>degrees C</td>
-
-					<td>Bare soil temperature at 20cm depth, 1968-current depth</td>
-					<td></td>
+					<td>&deg;C</td>
+					<td>Bare soil temperature at 20cm depth</td>
+					<td>1968-current depth</td>
+					
 				</tr>
 				<tr name="title_row">
-					<td colspan="4"><h3>Rainfall</h3></td>
+					<td colspan="5"><h3>Rainfall</h3></td>
 				</tr>
 				<tr>
 					<td>RAIN</td>
 					<td>mm</td>
+					<td>Rainfall</td>
+					<td>1928-current date</td>
+					<td><p>Total rainfall over the previous 24 hours, recorded at 0900GMT</p> <p>Since 1999 rainfall has been measured by an
+						electronic tipping bucket rain gauge of 25.4cm (10 inch) diameter,
+						calibrated to tip at 0.2mm (Campbell Scientific, ARG100). It was originally measured manually using
+						a 12.7cm (5 inch) copper cylindrical rain gauge. </p>
 
-					<td>Rainfall, 1928-current date</td>
-					<td>Woburn: Rainfall (RAIN) was originally measured manually using
-						a 5" (12.7cm) copper cylindrical rain gauge. Since 1999, when the
-						met station was automated, rainfall has been measured by an
-						electronic tipping bucket rain gauge of 25.4cm diameter,
-						calibrated to tip at 0.2mm (Campbell Scientific, ARG100).</td>
+				<p>The manufacturers of the ARG100 state that the "ARG100 rain gauge typically captures over 5% more rainfall than most 
+				traditionally-shaped cylindrical gauges due to its unique aerodynamic shape and reduced evaporation-loss properties". 
+				This has been found to be the case at Rothamsted, were rainfall in the 5" rain gauge continued to be measured on a twice 
+				weekly basis. The 5" gauges at Woburn ceased to be used at the time of automation, so it is not possible to make a comparison.</p>
+					
+					<p>"Missing values" There are some instances before 1968 when no data is shown for <b>RAIN</b> (rather than zero). 
+					This is because a 'trace' of rain, snow, mist, dew or fog was manually recorded. A 'trace' is less than 0.05mm. 
+					For most purposes a missing value can be assumed to be zero. </p></td>
 				</tr>
-				<tr>
+				<!--  tr>
 					<td>RDUR</td>
 					<td>hr</td>
-
-					<td>Rainfall duration, 1988-99</td>
-					<td>It is defined as the number of hours during which rain fell
-						over the previous 24 hours, recorded at 0900 GMT each day.</td>
+					<td>Rainfall duration</td>
+					<td>1988-99</td>
+					<td><p>Total number of hours during which rain fell
+						over the previous 24 hours, recorded at 0900 GMT each day.</p>[METHOD NOT KNOWN]
+					<P><b>Please OMIT RDUR as there is very little data, missing data in 1988-1990, and I can't find how it was measured</b></td>
 				</tr>
-				<tr name="title_row">
-					<td colspan="4"><h3>Sunshine</h3></td>
-					<td></td>
-				</tr>
+				 -->
+					<td colspan="5"><h3>Sunshine</h3></td>
+					</tr>
 				<tr>
 					<td>SUN</td>
 					<td>hr</td>
-
-					<td>Hours sunshine, 1928-current date</td>
-					<td></td>
+					<td>Hours sunshine</td>
+					<td>1928-current date</td>
+					<td><p>Hours of bright sunshine in previous 24 hours, 0000GMT to 2400GMT. </p>
+					<p>Since 1999 recorded automatically, 
+					calculated using the Campbell-Stokes equation from solar radiation measurments using a Kipp and Zonen thermopile
+					pyranometer. Previously measured manually with a Campbell-Stokes sunshine recorder, at 2m above the ground. 
+					The sun's rays are focused onto a card (treated to prevent it from catching fire) and the brown scorch mark on the
+							card is then measured. The cards are of varying lengths
+							applicable to the time of year (winter, equinox, and summer).</p> </td>
 				</tr>
 				<tr name="title_row">
-					<td colspan="4"><h3>Radiation</h3></td>
+					<td colspan="5"><h3>Radiation</h3></td>
 				</tr>
 				<tr>
 					<td>RAD</td>
 					<td>MJ/m2</td>
-
-					<td>Total radiation, 1981-current date</td>
-					<td></td>
+					<td>Total solar radiation</td>
+					<td>1981-current date</td>
+					<td><p>Total solar radiation in previous 24 hours, 0000GMT to 2400GMT.</p>
+					<p>Since July 1999 solar radiation has been recorded automatically using a pyranometer (Kipp and Zonen, CM6B). 
+					Previously it was recorded manually. No data was recorded 1/12/1998 - 28/6/1999. </p> </td>
 				</tr>
 				<tr name="title_row">
-					<td colspan="4"><h3>Cloud</h3></td>
+					<td colspan="5"><h3>Cloud</h3></td>
 				</tr>
 				<tr>
 					<td>CLOUD</td>
-					<td></td>
-
-					<td>Cloud cover (in Oktas with 9=Fog) at 0900 GMT, 1928-99</td>
-					<td></td>
+					<td>otka</td>
+					<td>Cloud cover</td>
+					<td>1928-1999</td>
+					<td><p>Recorded at 0900GMT</p>
+					<p>Observed cloud cover on a scale of 0 to 9 Oktas. 
+					0 oktas represents the complete absence of cloud. 1 okta represents
+							a cloud amount of 1 eighth or less, but not zero. 7 oktas
+							represents a cloud amount of 7 eighths or more, but not full
+							cloud cover. 8 oktas represents full cloud cover with no breaks.
+							9 oktas represents sky obscured by fog or other meteorological
+							phenomena. </p>
+				<p>From 1928-1960s, cloud cover shown in 10th, ie scale of 0-10, with 10 = full cover. 
+				</p></td>
 				</tr>
 				<tr name="title_row">
-					<td colspan="4"><h3>Wind</h3></td>
+					<td colspan="5"><h3>Wind</h3></td>
 				</tr>
 				<tr>
 					<td>WDIR</td>
-					<td></td>
-
-					<td>Wind direction at 0900 GMT (0-360 degrees), 1928-current date</td>
-					<td></td>
+					<td>degrees</td>
+					<td>Wind direction (0-360 degrees)</td>
+					<td>1928-current date</td>
+					<td><p>Recorded at 0900GMT</p>
+					<p>Wind direction<B> (WDIR) </B>has been recorded since 1928 and was originally estimated by a wind vane with fixed 
+					ordinal points. It is shown as an angle, going clockwise from North. 360 = North, 90 = East, 180 = South, 270 = West. 
+					The reading 0 (or 000) indicates that there is no wind, ie the
+							windspeed is 0 m/s. A WDIR reading of 0 with a windspeed greater
+							than 0 implies that the WDIR is 360 degrees (North).
+				<p>Since 1999 measured by an electronic wind vane (Vector Instruments, W200P) at 2m height. </p></td>
 				</tr>
 				<tr>
 					<td>WFORCE</td>
-					<td></td>
+					<td>code</td>
+					<td>Wind force in Beaufort scale (0-12) </td>
+					<td>1928-1967</td>
+					<td><p>Recorded at 0900GMT</p>
 
-					<td>Wind force in Beaufort scale (0-12) at 0900 GMT, 1928-67</td>
-					<td></td>
+					<p>Wind speed was first estimated at Woburn using the Beaufort scale, which describes wind speed on a scale of 0 (no
+						wind) to 12 (hurricane) based on observations of the movement of
+						smoke, leaves, branches, etc. It is shown in e-RA as wind force<B>
+							(WFORCE)</B>. From 1968 onwards this was replaced by direct
+						measurements of wind speed <B>(WINDSP)</B>.
+						</p>
+						<p>
+							The Beaufort scale can be adjusted to wind speed as follows: V =
+							0.836 x SQRT (B<sup>3</sup>)
+						</p>
+						<p>where V is the equivalent wind speed (m/s) at 10 metres
+							above ground level and B is Beaufort scale number (see <a href="info.php?FileName=CF.html">Conversion factors</a>)</p>
+						</td>
 				</tr>
 				<tr>
 					<td>WINDSP</td>
 					<td>m/s</td>
+					<td>Wind speed (at 10m)</td>
+					<td>1968-current date</td>
+					<td><p>Recorded at 0900GMT</p>
+					<p>From July 1st 1999 measured with an automated cup anemometer 
+					at 2m height, multiplied by 1.28 to upscale to the standard 10m height (see <a href="info.php?FileName=CF.html">Conversion factors</a>). 
+					This sensor was replaced in July 2008 with a new automated cup anemometer (Vector Instruments, A100LK) also at 2m,  
+					adjusted to the standard 10m height. 
+					Before July 1999 measured with a cup anemometer at 2m high. </p>
 
-					<td>Wind speed at 0900 GMT (at 10m), 1968-current date</td>
-					<td></td>
+					<p>From 1999 WINDSP has been calculated as an average over 10 minutes
+							from 8.50 to 9am. Average 24 hour windspeed can be
+							calculated from total daily <b>WINDRUN</b>, correcting for height  (see <a href="info.php?FileName=CF.html">Conversion factors</a>).
+						</p>
+
+						
+					 </td>
 				</tr>
 				<tr>
 					<td>WINDRUN</td>
 					<td>km</td>
-
-					<td>Run of wind 0900 to 0900 GMT (at 2m), 1968-current date</td>
-					<td></td>
+					<td>Run of wind (at 2m) </td>
+					<td>1968-current date</td>
+					<td><p>Run of wind in the previous 24 hours recorded at 0900GMT</p>
+					<p>Since July 1999 measured with an automated cup anemometer at 2m high, replaced in July 2008 with a  
+					A100LK automated cup anemometer (Vector Instruments) also at 2m.
+					Before July 1999 measured with a cup anemometer at 2m high, with a calibrated counter. </p></td>
 				</tr>
 				<tr name="title_row">
-					<td colspan="4"><h3>Diary</h3></td>
+					<td colspan="5"><h3>Diary</h3>Daily observations, based on
+						standard Met Office weather codes. Discontinued 1978 or 1999.</td>
 				</tr>
 				<tr>
 					<td>DYHAIL</td>
-					<td></td>
+					<td>Code</td>
+					<td>Code indicating type of hail</td>
+					<td>1968-1987; 1997-1999</td>
+					<td><p>Recorded at 0900GMT</p>
 
-					<td>Code indicating type of hail, 1968-87; 1997-99</td>
-					<td></td>
-				</tr>
+					<p>Manual observations indicating if hail was present during the day, and if so, what type. Code 0-7. 
+					1 = Ice prisms; 2 = Snow grains; 3 = Snow pellets; 4 = Ice pellets; 5 = Hail (5-9mm diameter); 	
+					6 = Hail (10-19mm diameter); 7 = Hail (20mm diameter or more). Null or code 0 = No hail. </p></td>
+				</tr>S
 				<tr>
 					<td>DYSNOW</td>
-					<td></td>
+					<td>Code</td>
+					<td>Code indicating day with snow or sleet</td>
+					<td>1968-1987; 1997-1999</td>
+					<td><p>Recorded at 0900GMT</p>
 
-					<td>Code indicating day with snow or sleet, 1968-87; 1997-99</td>
-					<td></td>
+					<p>Manual observations recording if snow or sleet was
+						present. Code 1 = sleet; code 5 = snow crystals. Null or code 0 = no snow. </td>
+
+
+
 				</tr>
 				<tr>
 					<td>DYTHUN</td>
-					<td></td>
+					<td>Code</td>
+					<td>Code indicating day with thunder</td>
+					<td>1968-1987; 1997-1999</td>
+					<td><p>Recorded at 0900GMT</p>
 
-					<td>Code indicating day with thunder, 1968-87; 1997-99</td>
-					<td></td>
+					<p>Manual observations recording if thunder was present. Code
+					1 = thunder present during the day. Null or code 0 = no thunder during the day. </p></td>
 				</tr>
 				<tr>
 					<td>FOG</td>
-					<td></td>
-
-					<td>Code indicating fog at 0900 GMT, 1968-78</td>
-					<td></td>
+					<td>Code</td>
+					<td>Code indicating fog </td>
+	
+					<td>1968-1978</td>
+					<td><p>Recorded at 0900GMT</p>
+					<p>Manual observations recording if fog was present at time of observation. Code 1 =
+						fog present. Null or code 0 = no fog. </p></td>
 				</tr>
 				<tr>
 					<td>SNOWL</td>
-					<td></td>
+					<td>Code</td>
+					<td>Code indicating whether snow lying</td>
+					<td>1968-1978</td>
+					<td><p>Recorded at 0900GMT</p>
 
-					<td>Code indicating whether snow lying, 1968-78</td>
-					<td></td>
+					<p>Manual observation recording if snow was present on the ground at the time of the observation. 
+					Code 1 = more than 50% ground at the station covered with snow; Null or code 0 = no snow lying. 
+					This may include snow from a previous day. See <b>FSNOWD</b> for depth of freshly fallen snow for the current day</td>
+
+
 				</tr>
 				<tr>
 					<td>SNOWD</td>
 					<td>mm</td>
-
-					<td>Total depth of snow, 1968-99</td>
-					<td></td>
+					<td>Total depth of snow</td>
+					<td>1968-1999</td>
+					<td><p>Recorded at 0900GMT</p>
+				<p>Manual reading of total depth of snow at time of observation. This may include snow from a previous day. 
+				See <b>FSNOWD</b> for depth of freshly fallen snow for the current day.</p></td>
 				</tr>
 				<tr>
 					<td>FSNOWD</td>
 					<td>mm</td>
-
-					<td>Depth of freshly-fallen snow at 0900 GMT, 1968-78</td>
-					<td></td>
+					<td>Depth of freshly-fallen snow </td>
+					<td>1968-1978</td>
+					<td><p>Recorded at 0900GMT</p>
+				<p>Manual recording of total depth of freshly-fallen snow at time of observation. </p>
+</td>
 				</tr>
 				<tr name="title_row">
-					<td colspan="4"><h3>Other selected fields</h3></td>
+					<td colspan="5"><h3>Other selected fields</h3></td>
 				</tr>
 				<tr>
 					<td>RELH</td>
 					<td>%</td>
-
-					<td>Relative Humidity, 1928-70; 2009-current date</td>
-					<td></td>
+					<td>Relative Humidity</td>
+					<td>1928-70; 2009-current date</td>
+					<td><p>Recorded at 0900GMT</p>
+					<p>Since 2009 measured with a Relative Humidty sensor, MP100A RH Sensor (Rotronics,
+					supplied by Campbell Scientific). Previoulsy derived from <b>WETB</b> and <B>DRYB</b>, 
+					calculated within the datalogger from 1999, and derived from hygrometric tables before 1999. </p></td>
 				</tr>
 				<tr>
 					<td>BAR</td>
 					<td>mb</td>
-
-					<td>Barometric pressure, 1928-70; 1988-99</td>
-					<td></td>
+					<td>Barometric pressure</td>
+					<td>1928-70; 1988-99</td>
+					<td><p>Recorded at 0900GMT. </p>
+					<p>A mecury barometer was used to measure atmospheric pressure. Attached thermometer readings (THERM) are available from the e-RA curators. </p></td>
 				</tr>
 				<tr>
 					<td>VAP</td>
 					<td>mb</td>
-
-					<td>Vapour pressure (derived from DRYB and WETB), 1928-78;
-						1988-current date</td>
-					<td></td>
+					<td>Vapour pressure (derived from DRYB and WETB)</td>
+					<td>1928-1978; 1988-current date</td>
+					<td><p>Recorded at 0900GMT</p>
+					<p>From December 2009 onwards calculated within the datalogger from <b>RELH</b> and <b>DRYB</b> after Lowe (1977). 
+					Before December 2009 calculated from <b>WETB</b> and <b>DRYB</b>, (see <a href="info.php?FileName=derived_variables.html"> derived variables<a>). 
+					There were problems with <B>WETB</b> drying out and data from June - October 2009 is missing. 
+					</p>
+					</td>
 				</tr>
 				<tr>
 					<td>VIS</td>
-					<td></td>
-
-					<td>Visibility at 0900 GMT (code), 1928-99</td>
-					<td></td>
+					<td>code</td>
+					<td>Visibility </td>
+					<td>1928-1999</td>
+					<td><p>Recorded at 0900GMT</p>
+					<p>Manual recording of visibility at time of observation. Codes 1962-1999: Code X = Dense fog. Visibility range 0-19m; CODE E = 
+					Dense fog. Visibility range 20-39m; CODE 0  = Thick fog. Visibility range 40-99m; CODE 1 = Thick fog. 
+					Visibility range 100-199m; CODE 2 = Thick fog. Visibility range 200-399m, CODE 3 = Moderate fog. Visibility 
+					range 400-999m; CODE 4 = Very poor visibility, range 1000-1999m; CODE 5 = Poor visibility, range 2000-3999m; 
+					CODE 6 = Moderate visibility, range 4-9km; CODE 7 = Good visibility, range 10-19km; CODE 8 = Very good visibility, 
+					range 20-39km; CODE 9 = Excellent visibility, range 40km or over. </p>
+					<p>Codes for 1928-1961: A-E, G and X. <b>FIND EARLIER CODES</B></p></td>
 				</tr>
 			</tbody>
 		</table>
 		</tbody>
 
 	</div>
+</div>
 
 </div>

@@ -8,3 +8,8 @@ includes/config.inc
 metadata/default/dataQuality.php.bak
 *.bak
 1.php
+metadata/.settings/.jsdtscope
+metadata/.settings/org.eclipse.wst.common.component
+metadata/.settings/org.eclipse.wst.common.project.facet.core.xml
+metadata/.settings/org.eclipse.wst.jsdt.ui.superType.container
+metadata/.settings/org.eclipse.wst.jsdt.ui.superType.name
