@@ -1,5 +1,4 @@
-﻿<?php
-?>
+﻿
 <div class="row mx-3">
 	<h2>Rothamsted Meteorological data available in ROTHMET</h2>
 
@@ -16,9 +15,9 @@
 			border="1">
 			<thead>
 				<tr>
-					<th scope="col">Variable</th>
-					<th scope="col">Units</th>
-					<th scope="col">Description</th>
+					<th scope="col" >Variable</th>
+					<th scope="col" >Units</th>
+					<th scope="col" >Description</th>
 					<th scope="col" >Dates recorded</th>
 					<th scope="col" >Methods of measurement</th>
 				</tr>
@@ -83,7 +82,7 @@
 					<td><p>Recorded at 0900GMT</p>
 					<p>Derived from <b>DRYB</b> and <b>RELH</b> since 2014, after
 						the method of <a href="https://doi.org/10.1175/1520-0450(1981)020<1527:NEFCVP>2.0.CO;2">Buck
-							(1981).</a> [<b>link to derived variables</b>]</p>
+							(1981).</a> (see <a href="info.php?FileName=derived_variables.html"> derived variables<a>)</p>
 					<p>Derived from <b>DRYB</b> and <b>WETB</b> until 2013, 
 					(see <a href="info.php?FileName=derived_variables.html"> derived variables<a>), 
 					calculated within the datalogger. Before 2004 it was calculated from hygrometric tables.</p>
@@ -179,7 +178,8 @@
 							of 10, 20 and 30cm (4, 8 and 12 inches) under bare soil <b>(S10T,
 								S20T</b> and <b>S30T</b>). <b>S10T</b> and <b>S20T</b> were in
 							direct contact with the soil. The thermometers used to measure <b>S30T</b>
-							were encased in a glass sheath in a metal tube, enabling easy removal to read the temperature. The bulb was set
+							were encased in a glass sheath in a metal tube, enabling easy removal to read the temperature. 
+							The bulb was set
 							in paraffin wax to minimize rapid temperature fluctuations when
 							the thermometer was removed from the soil.
 						</p>
@@ -482,7 +482,7 @@
 							open and level terrain is 10m. However, no correction is needed
 							for wind measured between 8 and 13m (Met Office, 1982). We
 							therefore assume a mid-point height of 10m. From 2004 <b>WDIR</B> has
-							been calculated as an average over 10 minutes from 8.50 to 9am.</p>
+							been calculated as an average over 10 minutes from 0850 to 0900GMT.</p>
 
 						<p>
 							From 1978 <B>(WDIR)</B> was measured by a wind vane linked to a
@@ -534,8 +534,8 @@
 
 						<p>
 							<b>WINDSP</b> and <b>WFORCE</b> are point values, recorded at 0900GMT. From
-							2004 <b>WINDSP</b> has been calculated as an average over 10 minutes
-							from 8.50 to 9am. </p>
+							2004 <b>WINDSP</b> has been calculated as an average over 60 seconds
+							sampled at 0900GMT. </p>
 						<p>Average daily (24 hour) windspeed can be
 						calculated from total daily <b>WINDRUN</b>, correcting for height  (see <a href="info.php?FileName=CF.html">Conversion factors</a>).
 						</p>
@@ -645,7 +645,7 @@
 				<tr>
 					<td>RELH</td>
 					<td>%</td>
-					<td>Relative humidity</td>F
+					<td>Relative humidity</td>
 					<td>1925-current date </td>
 					<td><p>Recorded at 0900GMT</p>
 							<p>
@@ -696,7 +696,7 @@
 					<td><p>Recorded at 0900GMT</p>
 					<p>Since January 15th 2014 derived from <b>RELH</b> and <b>DRYB</b> after the method of <a
 						href="https://doi.org/10.1175/1520-0450(1981)020<1527:NEFCVP>2.0.CO;2">Buck
-							(1981)</a> THIS LINK DOESN'T WORK. Previously derived from <B>DRYB</b>
+							(1981)</a>. Previously derived from <B>DRYB</b>
 						and <B>WETB</b> (see <a href="info.php?FileName=derived_variables.html"> derived variables<a>).</p>
 				</tr>
 				<tr>
@@ -711,8 +711,7 @@
 					Visibility range 100-199m; CODE 2 = Thick fog. Visibility range 200-399m, CODE 3 = Moderate fog. Visibility 
 					range 400-999m; CODE 4 = Very poor visibility, range 1000-1999m; CODE 5 = Poor visibility, range 2000-3999m; 
 					CODE 6 = Moderate visibility, range 4-9km; CODE 7 = Good visibility, range 10-19km; CODE 8 = Very good visibility, 
-					range 20-39km; CODE 9 = Excellent visibility, range 40km or over. Discontiuned mid 2007 [<b>FIND OUT WHAT THE
-						OTHER CODES ARE</b>].</p></td>
+					range 20-39km; CODE 9 = Excellent visibility, range 40km or over. </p></td>
 				</tr>
 			</tbody>
 		</table>
