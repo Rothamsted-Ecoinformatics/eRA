@@ -11,7 +11,7 @@
 	<div class="row">
 	<p class="clearfix">Daily meteorological data recorded at Woburn, Bedfordshire available since 1928. Manual observations ceased on 1st July 1999, 
 and meteorological records are now measured by a range of sensors attached to an automatic data logger. Hourly data from 2004 is available from the <a
-			href="register.php"> e-RA Curators.</p>
+			href="register.php"> e-RA Curators.</a></p>
 	<div class="table-responsive-sm">
 		<table
 			class="table  table-responsive-sm table-sm table-bordered"
@@ -37,7 +37,7 @@ and meteorological records are now measured by a range of sensors attached to an
 					
 					<td><p>Recorded over the 24 hour period up to 0900GMT, for the previous day's maximum temperature.</p>
 					<p>Since 1999 recorded by a thermistor (electronic temperature probe, Campbell Scientific, type 107). 
-					Previously recorded with a mecury column thermometer. </p></td>
+					Previously recorded with a mercury-in-glass sheathed thermometer housed in a naturally aspirating temperature screen.</p></td>
 				</tr>
 				<tr>
 					<td>TMIN</td>
@@ -47,7 +47,8 @@ and meteorological records are now measured by a range of sensors attached to an
 					<td><P>Recorded over the 24 hour period up to 0900GMT, for the current day's minimum temperature.</p>
 
 					<p>Since 1999 recorded by a thermistor (electronic temperature probe, Campbell Scientific, type 107). 
-					Previously recorded with a spirit-in-glass with indicator bar minimum thermometer.</p></td>
+					Previously recorded with a spirit-in-glass with indicator bar minimum thermometer, 
+					housed in a naturally aspirating temperature screen.</p></td>
 				</tr>
 				<tr>
 					<td>WETB</td>
@@ -57,8 +58,8 @@ and meteorological records are now measured by a range of sensors attached to an
 					
 					<td><p> Recorded at 0900GMT</p>
 					<p> Since 1999 measured by a thermistor (electronic temperature
-							probe, Campbell Scientific, type 107). Previously measured with a mercury column thermometer, 
-					the bulb covered by a cotton wick kept moist from a water reservoir. 	
+							probe, Campbell Scientific, type 107). Previously measured with a mercury-in-glass sheathed thermometer 
+					housed in a naturally aspirating temperature screen, the bulb covered by a cotton wick kept moist from a water reservoir. 	
 					Discontinued on 1st December 2009 and replaced by a Relative Humidity Sensor
 						(Campbell Scientific, MP100A) to measure relative humidity (RELH)
 						and from which vapour pressure (VAP) and dew point (DEWP) are now
@@ -74,7 +75,7 @@ and meteorological records are now measured by a range of sensors attached to an
 					<td>1928-current date</td>
 					<td><p> Recorded at 0900GMT</p>
 					<p>Since 1999 measured by a thermistor (electronic temperature probe, Campbell Scientific, type 107). 
-					Previously measured with a mercury column thermometer.  </p>
+					Previously measured with a mercury-in-glass sheathed thermometer housed in a naturally aspirating temperature screen. </p>
 					<p>Used with <b>WETB</b> and then <b>RELH</b> to derive other variables including VAP and DEWP.</p></td>
 				</tr>
 				<tr>
@@ -182,10 +183,11 @@ and meteorological records are now measured by a range of sensors attached to an
 					<td>mm</td>
 					<td>Rainfall</td>
 					<td>1928-current date</td>
-					<td><p>Total rainfall over the previous 24 hours, recorded at 0900GMT</p> <p>Since 1999 rainfall has been measured by an
-						electronic tipping bucket rain gauge of 25.4cm (10 inch) diameter,
-						calibrated to tip at 0.2mm (Campbell Scientific, ARG100). It was originally measured manually using
-						a 12.7cm (5 inch) copper cylindrical rain gauge. </p>
+					<td><p>Total rainfall over the previous 24 hours, recorded at 0900GMT</p> 
+					<p>Since 1999 rainfall has been measured by an
+					electronic tipping bucket rain gauge of 25.4cm (10 inch) diameter,
+					calibrated to tip at 0.2mm (Campbell Scientific, ARG100). It was originally measured manually using
+					a 12.7cm (5 inch) copper cylindrical rain gauge. </p>
 
 				<p>The manufacturers of the ARG100 state that the "ARG100 rain gauge typically captures over 5% more rainfall than most 
 				traditionally-shaped cylindrical gauges due to its unique aerodynamic shape and reduced evaporation-loss properties". 
@@ -258,15 +260,15 @@ and meteorological records are now measured by a range of sensors attached to an
 				<tr>
 					<td>WDIR</td>
 					<td>degrees</td>
-					<td>Wind direction (0-360 degrees)</td>
+					<td>Wind direction (at 2m)</td>
 					<td>1928-current date</td>
 					<td><p>Recorded at 0900GMT</p>
 					<p>Wind direction<B> (WDIR) </B>has been recorded since 1928 and was originally estimated by a wind vane with fixed 
-					ordinal points. It is shown as an angle, going clockwise from North. 360 = North, 90 = East, 180 = South, 270 = West. 
+					ordinal points. It is shown as an angle (0-360 degrees), going clockwise from North. 360 = North, 90 = East, 180 = South, 270 = West. 
 					The reading 0 (or 000) indicates that there is no wind, ie the
 							windspeed is 0 m/s. A WDIR reading of 0 with a windspeed greater
 							than 0 implies that the WDIR is 360 degrees (North).
-				<p>Since 1999 measured by an electronic wind vane (Vector Instruments, W200P) at 2m height. </p></td>
+				<p>Since 1999 measured by an electronic wind vane (Vector Instruments, W200P) at 2m height, as an average over 10 minutes from 0850 to 0900GMT. </p></td>
 				</tr>
 				<tr>
 					<td>WFORCE</td>
@@ -301,8 +303,8 @@ and meteorological records are now measured by a range of sensors attached to an
 					adjusted to the standard 10m height. 
 					Before July 1999 measured with a cup anemometer at 2m high. </p>
 
-					<p>From 1999 WINDSP has been calculated as an average over 10 minutes
-							from 8.50 to 9am. Average 24 hour windspeed can be
+					<p>From 1999 WINDSP has been calculated as an average over 60 seconds sampled at 0900GMT. 
+							Average 24 hour windspeed can be
 							calculated from total daily <b>WINDRUN</b>, correcting for height  (see <a href="info.php?FileName=CF.html">Conversion factors</a>).
 						</p>
 
@@ -443,7 +445,9 @@ and meteorological records are now measured by a range of sensors attached to an
 					range 400-999m; CODE 4 = Very poor visibility, range 1000-1999m; CODE 5 = Poor visibility, range 2000-3999m; 
 					CODE 6 = Moderate visibility, range 4-9km; CODE 7 = Good visibility, range 10-19km; CODE 8 = Very good visibility, 
 					range 20-39km; CODE 9 = Excellent visibility, range 40km or over. </p>
-					<p>Codes for 1928-1961: A-E, G and X. <b>FIND EARLIER CODES</B></p></td>
+					</td>
+
+					<!--  ><p>Codes for 1928-1961: A-E, G and X. <b>FIND EARLIER CODES</B></p>  -->
 				</tr>
 			</tbody>
 		</table>
