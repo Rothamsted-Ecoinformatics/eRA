@@ -6,9 +6,7 @@
 
 	<div class="row p-3">
 		<div class="col-6">
-			<p>Rothamsted Research is a world-leading, non-profit research
-				centre that focuses on strategic agricultural science to the benefit
-				of farmers and society worldwide.</p>
+			<p>Something about Woburn</p>
 			<p>
 				<a target="_blank" href="https://www.rothamsted.ac.uk/">More...
 					<sup><i class="fa fa-external-link" aria-hidden="true"></i></sup>
@@ -18,8 +16,8 @@
 		<div class="col-6">
 			<div id="mapid" style="width: 500px; height: 400px;"></div>
 			<script>
-				var mymap = L.map('mapid').setView([ 51.8063927, -0.3761851 ],
-						14);
+				var mymap = L.map('mapid')
+						.setView([ 52.013319, -0.595542 ], 14);
 
 				L
 						.tileLayer(
@@ -31,9 +29,8 @@
 											+ 'Imagery � <a href="https://www.mapbox.com/">Mapbox</a>',
 									id : 'mapbox.streets'
 								}).addTo(mymap);
-				L.marker([ 51.8063927, -0.3761851 ]).addTo(mymap).bindPopup(
-						"<b>Rothamsted Experimental Station</b><br />")
-						.openPopup();
+				L.marker([ 52.013319, -0.595542 ]).addTo(mymap).bindPopup(
+						"<b>Woburn Farm</b><br />").openPopup();
 			</script>
 		</div>
 

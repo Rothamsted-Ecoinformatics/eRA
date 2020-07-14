@@ -105,9 +105,11 @@ echo title_case($experiment['administrative']['name']);
 					<ul class="nav nav-tabs nav-fill text-body ">
 						<li class="nav-item"><a class="nav-link active show"
 							id="summary-tab" data-toggle="tab" href="#summary">Overview</a></li>
-						<li class="nav-item"><a class="nav-link" id="site-tab"
-							data-toggle="tab" href="#site">Site</a></li>
-						<li class="nav-item"><a class="nav-link" id="design-tab"
+							
+						<li class="nav-item"><a class="nav-link" id="equipment-tab"
+							data-toggle="tab" href="#equipment">Equipment</a></li>
+							
+						<li class="nav-item"><a class="nav-link" id="measurements-tab"
 							data-toggle="tab" href="#measurements">Measurements</a></li>
 						
 						<?php if ($hasDatasets) {?>
@@ -127,21 +129,26 @@ echo title_case($experiment['administrative']['name']);
 						<div class="tab-pane active show" id="summary" role="tabpanel"
 							aria-labelledby="summary-tab">
     							<?php
-        include '_summary.php';
-        ?>						
+                                        $summarypage= $exptFolder . '/summary.html';
+                                        include ($summarypage);
+                                 ?>					
     					</div>
 						<div class="tab-pane" id="measurements" role="tabpanel"
 							aria-labelledby="measurements-tab">
 							<div class="row px-5">
     							<?php
-        $measurements = $exptFolder . '/measurements.html';
-        include ($measurements);
-        ?>
+                                        $measurements = $exptFolder . '/measurements.html';
+                                        include ($measurements);
+                                 ?>
     							</div>
 						</div>
-						<div class="tab-pane" id="site" role="tabpanel"
-							aria-labelledby="site-tab">
-							<?php include '_site.php';?>
+						<div class="tab-pane" id="equipment" role="tabpanel"
+							aria-labelledby="equipment-tab">
+							    <?php
+
+							    $equipmentpage = $exptFolder . '/equipment.html';
+							    include ($equipmentpage);
+        ?>
 							</div>
 						<?php if ($hasDatasets) {?>
                 		<div class="tab-pane  pb-3" id="datasets"

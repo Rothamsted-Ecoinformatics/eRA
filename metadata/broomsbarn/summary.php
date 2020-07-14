@@ -1,15 +1,15 @@
-<?php
-?>
+<div id="summary">
+	<p class="text-warning">
+		<b>In Progress - removed when ready to be published</b>
+	</p>
 
-<div class="row p-3">
-	<div class="col-6">
-		<p>
-			Broom's summary
-		</p>
-	</div>
-	<div class="col-6">
-		<div id="mapid" style="width: 500px; height: 400px;"></div>
-		<script>
+	<div class="row p-3">
+		<div class="col-6">
+			<p>A summary about Brooms Barn Met station</p>
+		</div>
+		<div class="col-6">
+			<div id="mapid" style="width: 500px; height: 400px;"></div>
+			<script>
 var mymap = L.map('mapid').setView([52.221 , 1.466], 14);
 
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
@@ -22,6 +22,6 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=p
 L.marker([52.221 , 1.466]).addTo(mymap)
 .bindPopup("<b>Broom's barn Research Station </b><br />").openPopup();
 </script>
-	</div>
+		</div>
 
-</div>
+	</div>

@@ -85,6 +85,14 @@ $pageSettings = array(
         "prevFolder" => ""
     ),
     array(
+        "exp-ID" => 24,
+        "Experiment" => "Brooms Barn Met Statio",
+        "ExptCode" => "bms",
+        "KeyRef" => " - ",
+        "URLCode" => "",
+        "prevFolder" => ""
+    ),
+    array(
         "exp-ID" => 7,
         "Experiment" => "Broom's Barn",
         "ExptCode" => "broomsbarn",

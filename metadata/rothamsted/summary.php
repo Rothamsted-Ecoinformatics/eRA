@@ -1,6 +1,3 @@
-<?php
-?>
-
 <div class="row p-3">
 	<div class="col-6">
 		<p>

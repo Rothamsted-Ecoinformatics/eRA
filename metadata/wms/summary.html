@@ -8,19 +8,9 @@
 			<div class="row">
 				<div class="col">
 					<ul class="list-group">
-						
-						<li class="list-group-item"><b>Description: </b>Sir John
-							Lawes, the founder of Rothamsted, realized that to understand
-							crop growth, it was important to have records of the weather.
-							Weather records also help us to understand the spread of crop
-							diseases and insect behaviour. Rainfall and wind direction have
-							been measured at Rothamsted every day since 1853, temperature
-							since 1878 and sunshine since 1890, making this one of the
-							longest sets of meteorological (weather) data available in the
-							UK. As new equipment was invented to measure different
-							meteorological variables, scientists added them to the Rothamsted
-							weather station. Now over 25 different weather measurements are
-							made every day.</li>
+
+						<li class="list-group-item"><b>Description: </b>Something
+							about Woburn</li>
 
 						<li class="list-group-item "><b>Date Start: </b>1843</li>
 						<li class="list-group-item "><b>Establisment Period End:
@@ -29,11 +19,11 @@
 
 					</ul>
 				</div>
-				<div class="col">
+				<div class="col-6">
 					<div id="mapid" style="width: 500px; height: 400px;"></div>
-					<script type="text/javascript">
+					<script>
 						var mymap = L.map('mapid').setView(
-								[ 51.806876, -0.360137 ], 14);
+								[ 52.0145, -0.596203 ], 14);
 
 						L
 								.tileLayer(
@@ -45,17 +35,13 @@
 													+ 'Imagery � <a href="https://www.mapbox.com/">Mapbox</a>',
 											id : 'mapbox.streets'
 										}).addTo(mymap);
-						L.marker([ 51.806876, -0.360137 ]).addTo(mymap)
-								.bindPopup(
-										"<b>Rothamsted Met station</b><br />")
+						L.marker([ 52.0145, -0.596203 ]).addTo(mymap)
+								.bindPopup("<b>Woburn Met Station</b><br />")
 								.openPopup();
 					</script>
 				</div>
 			</div>
-
-
 		</div>
-
 		<h3 class="my-3 mt-5">Contributors</h3>
 		<ul class="list-group  mx-3">
 			<li class="list-group-item "><h4 class="mt-3">Andy
@@ -84,6 +70,8 @@
 			<li class="list-group-item pl-5"><b>Address: </b>West Common,
 				Harpenden, Hertfordshire, AL5 2JQ, United Kingdom</li>
 		</ul>
+
+
 		<h3 class="my-3 mt-5">Funding</h3>
 
 
