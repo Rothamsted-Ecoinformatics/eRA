@@ -12,7 +12,7 @@
 /**
  * getFieldInfo : formats the information about the field
  *
- * @param unknown $site
+ * @param  $site
  * @return string
  */
 function getProperties($site)

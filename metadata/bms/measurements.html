@@ -1,273 +1,384 @@
-﻿<div class="row mx-3">
-<p class="text-warning"><b>In Progress - removed when ready to be published</b></p>
-	<h2>Meteorological data available in BROOMET</h2>
+﻿<div id="measurements">
+	<p class="text-warning">
+		<b>In Progress - removed when ready to be published</b>
+	</p>
 
-	<p>
-		Daily meteorological data recorded at Brooms Barn, Higham, Bury St Edmunds, Suffolk available since 1982. 
-		Manual observations ceased  in 1996 (apart from sunshine) and meteorological records are now measured by a range of sensors attached to an 
-		automatic data logger (CR1000). 
-		Between August 2009 and May 2012 the weather station was not fully functional, and raw data supplied by the Brooms Barn Met Office weather station was used 
-		for some variables. The faulty sensors were replaced 23 May 2012, new dataloggers installed 12-13 December 2012. </p>
-		<p>Hourly data from 2016 (radiation from 2003) is available from the <a href="register.php"> e-RA Curators.</a></p>
-		
-	<div class="table-responsive-sm">
-		<table
-			class="table  table-responsive-sm table-sm   table-bordered"
-			border="1">
-			<thead>
+	<div class="mx-3">
+		<h2>Meteorological data available in BROOMET</h2>
 
-				<th scope="col">Variable</th>
-				<th scope="col">Units</th>
-				<th scope="col">Description</th>
-				<th scope="col">When recorded</th>
-				<th scope="col">Methods of measurement</th>
-			</thead>
-			<tbody>
-				<tr name="title_row">
-					<td colspan="5"><h3>Air temperature</h3></td>
-				</tr>
-				<tr>
-					<td>TMAX</td>
-					<td>degrees C</td>
-					<td>Maximum temperature</td>
-					<td>1982-current date</td>
-					<td>Recorded over the 24 hour period up to 0900GMT, for the previous day's maximum temperature.</p>
-					<p>Since April 25th 2018 measured by an automatic EE181 E+E Relative Humidity and Temperature probe (E+E Elektronic Corporation, 
-					supplied by Campbell Scientific). Prior to this measured with an automatic HMP45C Relative Humidity and Temperature 
-					sensor. New temperature sensors were installed on 8th November 2012. </p>
-					<p>Before November 1996 manually recorded with a mecury-in-glass sheathed maximum thermometer, 
-					housed in a naturally aspirating temperature screen. </p> 
-					<p>Data from August 2009-May 2012 provided by the Met Office. @ Crown Copyright 2009-2012.</p>
-					</td></tr>
-				<tr>
-					<td>TMIN</td>
-					<td>degrees C</td>
-					<td>Minimum temperature</td>
-					<td>1982-current date</td>
-				<td><P>Recorded over the 24 hour period up to 0900GMT, for the current day's minimum temperature.</p>
-					<p>Since April 25th 2018 measured by an automatic EE181 E+E Relative Humidity and Temperature probe (E+E Elektronic Corporation, 
-					supplied by Campbell Scientific). Prior to this measured with an automatic HMP45C Relative Humidity and 
-					Temperature sensor. New temperature sensors were installed on 8th November 2012.</p>
-					<P>Before November 1996 manually recorded with a spirit-in-glass with indicator bar minimum thermometer, 
-					housed in a naturally aspirating temperature screen.</p>
-					<p>Data from August 2009-May 2012 provided by the Met Office. @ Crown Copyright 2009-2012.</p></td></tr>
-				<tr>
-					<td>WETB</td>
-					<td>degrees C</td>
-					<td>Wet bulb temperature, measuring temperature of evaporation</td>
-					<td>1982 - 2009</td>
-				<td><p> Recorded at 0900GMT. Until 2009 used with <b>DRYB</b> to  calculate <b>RELH</b>, <b>VAP</b> and <b>DEWP</b>. <p>
-				<p>Since November 1996 calculated from an automatic Relative Humidity and Temperature sensor. 
-				Prior to this measured with a mercury-in-glass sheathed thermometer housed in a naturally aspirating temperature screen, 
-					the bulb covered by a cotton wick kept moist from a water reservoir. 	
-					Discontinued September 2009 and replaced by a HMP45C Relative Humidity and Temperature sensor,
-					to measure relative humidity <b>(RELH)</b>, from which <b>VAP</b> and <b>DEWP</b> 
-					are now calculated after the method of <a href="https://doi.org/10.1175/1520-0450(1981)020<1527:NEFCVP>2.0.CO;2">Buck
-							(1981)</a>.</p>
-					</td></tr>
-				<tr>
-					<td>DRYB</td>
-					<td>degrees C</td>
-					<td>Dry bulb Temperature</td>
-					<td>1982-current date</td>
-				<td><p>Recorded at 0900GMT. <p>
-				<p>Since April 25th 2018 measured by an EE181 E+E Relative Humidity and Temperature probe (E+E Elektronic Corporation, 
-					supplied by Campbell Scientific). Prior to this it was measured with an automatic HMP45C Relative Humidity and 
-					Temperature sensor. New temperature sensors were installed November 2012. </p>
-					Before November 1996 recorded with a mecury-in-glass sheathed thermometer housed in a naturally aspirating temperature screen.</p> 
-					<p>Data from August 2009-May 2012 provided by the Met Office. @ Crown Copyright 2009-2012.</p></td></tr>
-				<tr>
-					<td>DEWP</td>
-					<td>degrees C</td>
-					<td>Dew point (derived from DRYB and WETB)</td>
-					<td>1982-2009</td>
-				<td><p>Recorded at 0900GMT</p>
-				<p>Until August 2009 derived from <b>DRYB</b> and <b>WETB</b>, calculated by the datalogger 
-					(see <a href="info.php?FileName=derived_variables.html"> derived variables<a>).
-					Before November 1996 calculated from hygrometric tables.</p>
-					<p>Since September 2009 available as a derived variable within e-RA, derived from <b>DRYB</b> and <b>RELH</b> 
-					calculated after the method of <a href="https://doi.org/10.1175/1520-0450(1981)020<1527:NEFCVP>2.0.CO;2">Buck
-					(1981)</a>. 
-				</td></tr>
+		<p>Daily meteorological data recorded at Brooms Barn, Higham, Bury
+			St Edmunds, Suffolk available since 1982. Manual observations ceased
+			in 1996 (apart from sunshine) and meteorological records are now
+			measured by a range of sensors attached to an automatic data logger
+			(CR1000). Between August 2009 and May 2012 the weather station was
+			not fully functional, and raw data supplied by the Brooms Barn Met
+			Office weather station was used for some variables. The faulty
+			sensors were replaced 23 May 2012, new dataloggers installed 12-13
+			December 2012.</p>
+		<p>
+			Hourly data from 2016 (radiation from 2003) is available from the <a
+				href="register.php"> e-RA Curators.</a>
+		</p>
 
-				<tr>
-					<td>GRSMIN</td>
-					<td>degrees C</td>
-					<td>Grass minimum temperature</td>
-					<td>1982-current date</td>
-				<td><p>Recorded at 0900GMT. Mimimum temperature on grass over the previous 24 hours</p>
-					<p>Recorded by a thermistor (electronic temperature probe, Campbell Scientific, type 107). 
-					Before Nov 1996 recorded manually with a spirit-in-glass with indicator bar minimum thermometer.</p></td></tr>
+		<div class="table-responsive-sm">
+			<table class="table  table-responsive-sm table-sm   table-bordered"
+				border="1">
+				<thead>
 
-				<tr name="title_row">
-					<td colspan="5"><h3>Soil temperature under grass</h3></td>
-				</tr>
-				
-				<tr>
-					<td>G30T</td>
-					<td>degrees C</td>
-					<td>Soil temperature under grass at 30cm</td>
-					<td>2012-current date</td>
-				<td rowspan="3">
-					<p>Recorded at 0900GMT</p>
-				<p>Measured by thermistors (electronic temperature probes, Campbell Scientific, type 107), 
-				buried in the soil at the appropriate depth.  </td></td></tr>
-				<tr>
-					<td>G50T</td>
-					<td>degrees C</td>
-					<td>Soil temperature under grass at 50cm</td>
-					<td>2012-current date</td>
-				<td></td></tr>
-				<tr>
-					<td>G100T</td>
-					<td>degrees C</td>
-					<td>Soil temperature under grass at 100cm</td>
-					<td>2012-current date</td>
-				<td></td></tr>
-				<tr name="title_row">
-					<td colspan="5"><h3>Soil temperature under bare soil</h3></td>
-				</tr>
-				<tr>
-					<td>S10T</td>
-					<td>degrees C</td>
-					<td>Bare soil temperature at 10cm</td>
-					<td>2012-current date</td>
-				<td rowspan="2">
-				<p>Recorded at 0900GMT</p>
-				<p>Measured by thermistors (electronic temperature probes, Campbell Scientific, type 107), 
-				buried in the soil at the appropriate depth.  
-				<td></td></tr>
-				<tr>
-					<td>S20T</td>
-					<td>degrees C</td>
-					<td>Bare soil temperature at 20cm</td>
-					<td>1982-current date</td>
-				<td></td></tr>
-				<tr name="title_row">
-					<td colspan="5"><h3>Rainfall</h3></td>
-				</tr>
-				<tr>
-					<td>RAIN</td>
-					<td>mm</td>
-					<td>Rainfall</td>
-					<td>1982-current date</td>
-				<td>	<p>Total rainfall over the previous 24 hours, recorded at 0900GMT. </p>
-					<p>Since 1996 recorded with electronic tipping bucket rain gauge of 25.4cm diameter, calibrated to tip at 
-					0.2mm (Campbell Scientific, ARG100). 
-					Before November 1996 recorded manually using a 5" (12.7cm) copper cylindrical rain gauge.</p>
-
-				<p>The manufacturers of the ARG100 state that the "ARG100 rain gauge typically captures over 5% more rainfall than most 
-				traditionally-shaped cylindrical gauges due to its unique aerodynamic shape and reduced evaporation-loss properties". 
-				This has been found to be the case at Rothamsted, were rainfall in the 5" rain gauge continued to be measured on a twice 
-				weekly basis. The 5" gauge at Brooms Barn ceased to be used at the time of automation, so it is not possible to make a 
-				comparison.</p>
-					<p>Data from August 2009-May 2012 provided by the Met Office. @ Crown Copyright 2009-2012.</p></td></tr>
-				<tr name="title_row">
-					<td colspan="5"><h3>Sunshine</h3></td>
-				</tr>
-				<tr>
-					<td>SUN</td>
-					<td>hr</td>
-					<td>Hours of sunshine</td>
-					<td>1982-current date</td>
-				<td><p>Hours of bright sunshine recorded over the previous 24 hours, 0000 to 2400GMT. </p>
-					Since Jan 15 1998 recorded automatically, 
-					calculated using the Campbell-Stokes equation from total radiation measurements using a Kipp and Zonen thermopile
-					pyranometer. From 2012 calculated using Campbell Scientific's algorithms (Tech Note 18). </p>
-					<p>Previously measured manually with a Campbell-Stokes sunshine recorder, at 2m above the ground. 
-					The sun's rays are focused onto a card (treated to prevent it from catching fire) and the brown scorch mark on the
-							card is then measured. The cards are of varying lengths
-							applicable to the time of year (winter, equinox, and summer).</p> 
-				</td></tr>
-				<tr name="title_row">
-					<td colspan="5"><h3>Radiation</h3></td>
-				</tr>
-				<tr>
-					<td>RAD</td>
-					<td>MJ/m2</td>
-					<td>Total radiation</td>
-					<td>1982-current date</td>
-				<td><p>Total radiation in previous 24 hours, 0000 to 2400GMT</p>
-				<p><p>Total (or global) radiation is total incoming radiation. Recorded automatically using a Kipp & Zonen Pyranometer type CM3. 
-				Before November 1996 it was recorded manually. </td></tr>
-				<tr>
-					<td>NETRAD</td>
-					<td>MJ/m2</td>
-					<td>Net radiation</td>
-					<td>1998-current date</td>
-				<td><p>Net radiation in previous 24 hours, 0000 to 2400GMT. </p>
-				<p>Net radiation is the balance between incoming and outgoing radiation under outdoor conditions.
-				Since September 2002 it has been measured by a Kipp & Zonen NR-LITE net-radiometer.  
-				An automatic Q7 net radiometer was installed in January 1998.
-				 </p></td></tr>
-				<tr name="title_row">
-					<td colspan="5"><h3>Wind</h3>The weather station is situated approx 30m from the main buildings, which are approx 10m high. 
-				This may cause some interference with wind direction and wind speed measurements.</td>
-				</tr>
-				<tr>
-					<td>WDIR</td>
-					<td>degrees</td>
-					<td>Wind direction (at 2m)</td>
-					<td>2012-current date</td>
-				<td><p>Recorded at 0900GMT.</p>
-					<p>Wind direction is shown as an angle (0-360 degrees), going clockwise from North. 360 = North, 90 = East, 180 = South, 270 = West. 
-					The reading 0 indicates that there is no wind, ie the
-							windspeed is 0 m/s. A WDIR reading of 0 with a windspeed greater
-							than 0 implies that the WDIR is 360 degrees (North).
-				<p>Measured by an electronic wind vane (Vector Instruments, W200P) at 2m height. 
-				</p></td></tr>
-				<tr>
-					<td>WINDSP</td>
-					<td>m/s</td>
-					<td>Wind speed (at 10m)</td>
-					<td>2012-current date</td>
-				<td><p>Recorded at 0900GMT.</p>
-				<p>Windspeed is measured by automatic cup anemometer Vector Insturment type A100R at 2m and adjusted to the standard height of 10m by multiplying by 1.28. 
-				Between 24th May 2012 and 11th December 2012, windspeed was a 10 minute average, 
-				recorded between 0850 and 0900GMT. Since 2013 it has been a point value recorded at 0900GMT.  </p>
-				</td></tr>
-				
+					<th scope="col">Variable</th>
+					<th scope="col">Units</th>
+					<th scope="col">Description</th>
+					<th scope="col">When recorded</th>
+					<th scope="col">Methods of measurement</th>
+				</thead>
+				<tbody>
+					<tr name="title_row">
+						<td colspan="5"><h3>Air temperature</h3></td>
+					</tr>
+					<tr>
+						<td>TMAX</td>
+						<td>degrees C</td>
+						<td>Maximum temperature</td>
+						<td>1982-current date</td>
+						<td>Recorded over the 24 hour period up to 0900GMT, for the
+							previous day's maximum temperature.
+							</p>
+							<p>Since April 25th 2018 measured by an automatic EE181 E+E
+								Relative Humidity and Temperature probe (E+E Elektronic
+								Corporation, supplied by Campbell Scientific). Prior to this
+								measured with an automatic HMP45C Relative Humidity and
+								Temperature sensor. New temperature sensors were installed on
+								8th November 2012.</p>
+							<p>Before November 1996 manually recorded with a
+								mecury-in-glass sheathed maximum thermometer, housed in a
+								naturally aspirating temperature screen.</p>
+							<p>Data from August 2009-May 2012 provided by the Met Office.
+								@ Crown Copyright 2009-2012.</p>
+						</td>
+					</tr>
+					<tr>
+						<td>TMIN</td>
+						<td>degrees C</td>
+						<td>Minimum temperature</td>
+						<td>1982-current date</td>
+						<td><P>Recorded over the 24 hour period up to 0900GMT,
+								for the current day's minimum temperature.</p>
+							<p>Since April 25th 2018 measured by an automatic EE181 E+E
+								Relative Humidity and Temperature probe (E+E Elektronic
+								Corporation, supplied by Campbell Scientific). Prior to this
+								measured with an automatic HMP45C Relative Humidity and
+								Temperature sensor. New temperature sensors were installed on
+								8th November 2012.</p>
+							<P>Before November 1996 manually recorded with a
+								spirit-in-glass with indicator bar minimum thermometer, housed
+								in a naturally aspirating temperature screen.</p>
+							<p>Data from August 2009-May 2012 provided by the Met Office.
+								@ Crown Copyright 2009-2012.</p></td>
+					</tr>
+					<tr>
+						<td>WETB</td>
+						<td>degrees C</td>
+						<td>Wet bulb temperature, measuring temperature of
+							evaporation</td>
+						<td>1982 - 2009</td>
+						<td><p>
+								Recorded at 0900GMT. Until 2009 used with <b>DRYB</b> to
+								calculate <b>RELH</b>, <b>VAP</b> and <b>DEWP</b>.
+							<p>
+							<p>
+								Since November 1996 calculated from an automatic Relative
+								Humidity and Temperature sensor. Prior to this measured with a
+								mercury-in-glass sheathed thermometer housed in a naturally
+								aspirating temperature screen, the bulb covered by a cotton wick
+								kept moist from a water reservoir. Discontinued September 2009
+								and replaced by a HMP45C Relative Humidity and Temperature
+								sensor, to measure relative humidity <b>(RELH)</b>, from which <b>VAP</b>
+								and <b>DEWP</b> are now calculated after the method of <a
+									href="https://doi.org/10.1175/1520-0450(1981)020<1527:NEFCVP>2.0.CO;2">Buck
+									(1981)</a>.
+							</p></td>
+					</tr>
+					<tr>
+						<td>DRYB</td>
+						<td>degrees C</td>
+						<td>Dry bulb Temperature</td>
+						<td>1982-current date</td>
+						<td><p>Recorded at 0900GMT.
+							<p>
+							<p>Since April 25th 2018 measured by an EE181 E+E Relative
+								Humidity and Temperature probe (E+E Elektronic Corporation,
+								supplied by Campbell Scientific). Prior to this it was measured
+								with an automatic HMP45C Relative Humidity and Temperature
+								sensor. New temperature sensors were installed November 2012.</p>
+							Before November 1996 recorded with a mecury-in-glass sheathed
+							thermometer housed in a naturally aspirating temperature screen.
+							</p>
+							<p>Data from August 2009-May 2012 provided by the Met Office.
+								@ Crown Copyright 2009-2012.</p></td>
+					</tr>
+					<tr>
+						<td>DEWP</td>
+						<td>degrees C</td>
+						<td>Dew point (derived)</td>
+						<td>1982-2009</td>
+						<td><p>Recorded at 0900GMT</p>
+							<p>
+								Until August 2009 derived from <b>DRYB</b> and <b>WETB</b>,
+								calculated by the datalogger (see <a
+									href="info.php?FileName=derived_variables.html"> derived
+									variables<a>). Before November 1996 calculated from
+										hygrometric tables. 
+							</p>
+							<p>
+								Since September 2009 available as a derived variable within
+								e-RA, derived from <b>DRYB</b> and <b>RELH</b> calculated after
+								the method of <a
+									href="https://doi.org/10.1175/1520-0450(1981)020<1527:NEFCVP>2.0.CO;2">Buck
+									(1981)</a>.</td>
+					</tr>
 
 					<tr>
-					<td>WINDRUN</td>
-					<td>km</td>
-					<td>Run of Wind (at 2m)</td>
-					<td>1982-current date</td>
-				<td><p>Run of wind in the previous 24 hours, 0900 to 0900GMT, recorded at 0900GMT. </p>
-				<p>Windrun is currently measured by automatic cup anemometer Vector Insturment type A100R at standard height of 2m. 
-				Before November 1996 it was manually measured with a cup anemometer at 2m high, with a calibrated counter. </td></tr>
-				<tr name="title_row">
-					<td colspan="5"><h3>Other</h3></td>
-				</tr>
-				<tr>
-					<td>GROUND</td>
-					<td>code</td>
-					<td>State of ground</td>
-					<td>1982-96</td>
-				<td>Recorded at 0900GMT. Visual assessment of the state of the ground's surface, using numerical codes based on the Met Office Standard weather codes. </td></tr>
-				<tr>
-					<td>RELH</td>
-					<td>%</td>
-					<td>Relative humidity at 0900 GMT</td>
-					<td>2009-current date</td>
-				<td><p>Recorded at 0900GMT</p>
-					<p>Since April 25th 2018 measured by an EE181 E+E Relative Humidity and Temperature probe (E+E Elektronic Corporation, 
-					supplied by Campbell Scientific). Prior to this it was measured with a HMP45C Relative Humidity and Temperature sensor. </p>					 
-					</p><p>Data from August 2009-May 2012 provided by the Met Office. @ Crown Copyright 2009-2012.</p></td></tr>
-				<tr>
-					<td>VAP</td>
-					<td>mb</td>
-					<td>Vapour pressure (derived from DRYB and WETB)</td>
-					<td>1982-2009</td>
-				<td><p>Recorded at 0900GMT</p>	
-				<p>Derived from <b>DRYB</b> and <b>WETB</b> until 2009 (see <a href="info.php?FileName=derived_variables.html"> derived variables<a>). 
-				From 2009 available as a dervied variable within e-RA, calculated from <b>RELH</b> and 
-				 <b>DRYB</b> after the method of <a href="https://doi.org/10.1175/1520-0450(1981)020<1527:NEFCVP>2.0.CO;2">Buck
-							(1981)</a>. </p></td>
+						<td>GRSMIN</td>
+						<td>degrees C</td>
+						<td>Grass minimum temperature</td>
+						<td>1982-current date</td>
+						<td><p>Recorded at 0900GMT. Mimimum temperature on grass
+								over the previous 24 hours</p>
+							<p>Recorded by a thermistor (electronic temperature probe,
+								Campbell Scientific, type 107). Before Nov 1996 recorded
+								manually with a spirit-in-glass with indicator bar minimum
+								thermometer, with cotton sleeve and anti-condensation shield on upper part of the instrument.</p></td>
+					</tr>
 
-				</tr>
-			</tbody>
-		</table>
+					<tr name="title_row">
+						<td colspan="5"><h3>Soil temperature under grass</h3></td>
+					</tr>
+
+					<tr>
+						<td>G30T</td>
+						<td>degrees C</td>
+						<td>Soil temperature under grass at 30cm</td>
+						<td>2012-current date</td>
+						<td rowspan="3">
+							<p>Recorded at 0900GMT</p>
+							<p>Measured by thermistors (electronic temperature probes,
+								Campbell Scientific, type 107), buried in the soil at the
+								appropriate depth.
+						</td>
+						</td>
+					</tr>
+					<tr>
+						<td>G50T</td>
+						<td>degrees C</td>
+						<td>Soil temperature under grass at 50cm</td>
+						<td>2012-current date</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>G100T</td>
+						<td>degrees C</td>
+						<td>Soil temperature under grass at 100cm</td>
+						<td>2012-current date</td>
+						<td></td>
+					</tr>
+					<tr name="title_row">
+						<td colspan="5"><h3>Soil temperature under bare soil</h3></td>
+					</tr>
+					<tr>
+						<td>S10T</td>
+						<td>degrees C</td>
+						<td>Bare soil temperature at 10cm</td>
+						<td>2012-current date</td>
+						<td rowspan="2">
+							<p>Recorded at 0900GMT</p>
+							<p>Measured by thermistors (electronic temperature probes,
+								Campbell Scientific, type 107), buried in the soil at the
+								appropriate depth.
+						<td></td>
+					</tr>
+					<tr>
+						<td>S20T</td>
+						<td>degrees C</td>
+						<td>Bare soil temperature at 20cm</td>
+						<td>1982-current date</td>
+						<td></td>
+					</tr>
+					<tr name="title_row">
+						<td colspan="5"><h3>Rainfall</h3></td>
+					</tr>
+					<tr>
+						<td>RAIN</td>
+						<td>mm</td>
+						<td>Rainfall</td>
+						<td>1982-current date</td>
+						<td>
+							<p>Total rainfall over the previous 24 hours, recorded at
+								0900GMT.</p>
+							<p>Since 1996 recorded with electronic tipping bucket rain
+								gauge of 25.4cm diameter, calibrated to tip at 0.2mm, ARG100 
+							(manufactured by Environmental Measurements Ltd (EML), 
+							supplied and calibrated by Campbell Scientific). Before November 1996 recorded manually
+								using a 5" (12.7cm) copper cylindrical rain gauge.</p>
+
+							<p>EML state that the "ARG100
+								rain gauge typically captures over 5% more rainfall than most
+								traditionally-shaped cylindrical gauges due to its unique
+								aerodynamic shape and reduced evaporation-loss properties". This
+								has been found to be the case at Rothamsted, were rainfall in
+								the 5" rain gauge continued to be measured on a twice weekly
+								basis. The 5" gauge at Brooms Barn ceased to be used at the time
+								of automation, so it is not possible to make a comparison.</p>
+							<p>Data from August 2009-May 2012 provided by the Met Office.
+								@ Crown Copyright 2009-2012.</p>
+						</td>
+					</tr>
+					<tr name="title_row">
+						<td colspan="5"><h3>Sunshine</h3></td>
+					</tr>
+					<tr>
+						<td>SUN</td>
+						<td>hr</td>
+						<td>Hours of sunshine</td>
+						<td>1982-current date</td>
+						<td><p>Hours of bright sunshine recorded over the
+								previous 24 hours, 0000 to 2400GMT.</p> Since Jan 15 1998 recorded
+							automatically, calculated using the Campbell-Stokes equation from
+							total radiation measurements using a Kipp and Zonen CM3 thermopile
+							pyranometer. From 2012 calculated using Campbell Scientific's
+							algorithms (Tech Note 18).
+							</p>
+							<p>Previously measured manually with a Campbell-Stokes
+								sunshine recorder, at 2m above the ground. The sun's rays are
+								focused onto a card (treated to prevent it from catching fire)
+								and the brown scorch mark on the card is then measured. The
+								cards are of varying lengths applicable to the time of year
+								(winter, equinox, and summer).</p></td>
+					</tr>
+					<tr name="title_row">
+						<td colspan="5"><h3>Radiation</h3></td>
+					</tr>
+					<tr>
+						<td>RAD</td>
+						<td>MJ/m2</td>
+						<td>Total radiation</td>
+						<td>1982-current date</td>
+						<td><p>Total radiation in previous 24 hours, 0000 to
+								2400GMT</p>
+							<p>
+							<p>Total (or global) radiation is total incoming radiation.
+								Recorded automatically using a Kipp and Zonen CM3 thermopile pyranometer. 
+							Before November 1996 it was recorded manually.</td>
+					</tr>
+					<tr>
+						<td>NETRAD</td>
+						<td>MJ/m2</td>
+						<td>Net radiation</td>
+						<td>1998-current date</td>
+						<td><p>Net radiation in previous 24 hours, 0000 to
+								2400GMT.</p>
+							<p>Net radiation is the balance between incoming and outgoing
+								radiation under outdoor conditions. Since September 2002 it has
+								been measured by a Kipp & Zonen NR-LITE net-radiometer. An
+								automatic Q7 net radiometer was installed in January 1998.</p></td>
+					</tr>
+					<tr name="title_row">
+						<td colspan="5"><h3>Wind</h3>The weather station is situated
+							approx 30m from the main buildings, which are approx 10m high.
+							This may cause some interference with wind direction and wind
+							speed measurements.</td>
+					</tr>
+					<tr>
+						<td>WDIR</td>
+						<td>degrees</td>
+						<td>Wind direction (at 2m)</td>
+						<td>2012-current date</td>
+						<td><p>Recorded at 0900GMT.</p>
+							<p>Wind direction is shown as an angle (0-360 degrees), going
+								clockwise from North. 360 = North, 90 = East, 180 = South, 270 =
+								West. The reading 0 indicates that there is no wind, ie the
+								windspeed is 0 m/s. A WDIR reading of 0 with a windspeed greater
+								than 0 implies that the WDIR is 360 degrees (North).
+							<p>Measured by an electronic wind vane (Vector Instruments,
+								W200P) at 2m height.</p></td>
+					</tr>
+					<tr>
+						<td>WINDSP</td>
+						<td>m/s</td>
+						<td>Wind speed (at 10m)</td>
+						<td>2012-current date</td>
+						<td><p>Recorded at 0900GMT.</p>
+							<p>Windspeed is measured by automatic cup anemometer Vector
+								Insturment type A100R at 2m and adjusted to the standard height
+								of 10m by multiplying by 1.28. Between 24th May 2012 and 11th
+								December 2012, windspeed was a 10 minute average, recorded
+								between 0850 and 0900GMT. Since 2013 it has been a point value
+								recorded at 0900GMT.</p>
+						<p>Average daily (24 hour) windspeed can be calculated from total daily <b>WINDRUN</b>, 
+						correcting for height  (see <a href="info.php?FileName=CF.html">Conversion factors</a>).
+						</p></td>
+					</tr>
+
+
+					<tr>
+						<td>WINDRUN</td>
+						<td>km</td>
+						<td>Run of Wind (at 2m)</td>
+						<td>1982-current date</td>
+						<td><p>Run of wind in the previous 24 hours, 0900 to
+								0900GMT, recorded at 0900GMT.</p>
+							<p>Windrun is currently measured by automatic cup anemometer
+								Vector Insturment type A100R at standard height of 2m. Before
+								November 1996 it was manually measured with a cup anemometer at
+								2m high, with a calibrated counter.</td>
+					</tr>
+					<tr name="title_row">
+						<td colspan="5"><h3>Other</h3></td>
+					</tr>
+					<tr>
+						<td>GROUND</td>
+						<td>code</td>
+						<td>State of ground</td>
+						<td>1982-96</td>
+						<td>Recorded at 0900GMT. Visual assessment of the state of
+							the ground's surface, using numerical codes based on the Met
+							Office Standard weather codes.</td>
+					</tr>
+					<tr>
+						<td>RELH</td>
+						<td>%</td>
+						<td>Relative humidity </td>
+						<td>2009-current date</td>
+						<td><p>Recorded at 0900GMT</p>
+							<p>Since April 25th 2018 measured by an EE181 E+E Relative
+								Humidity and Temperature probe (E+E Elektronic Corporation,
+								supplied by Campbell Scientific). Prior to this it was measured
+								with a HMP45C Relative Humidity and Temperature sensor.</p>
+							</p>
+							<p>Data from September 2009-May 2012 provided by the Met Office.
+								@ Crown Copyright 2009-2012.</p>
+					<p>Before September 2009 available as a derived variable within e-RA, derived from <b>WETB</b> and <B>DRYB</b> 
+					 (see <a href="info.php?FileName=derived_variables.html"> derived variables<a>)</td>
+					</tr>
+					<tr>
+						<td>VAP</td>
+						<td>mb</td>
+						<td>Vapour pressure (derived)</td>
+						<td>1982-2009</td>
+						<td><p>Recorded at 0900GMT</p>
+							<p>
+								Derived from <b>DRYB</b> and <b>WETB</b> until 2009 (see <a
+									href="info.php?FileName=derived_variables.html"> derived
+									variables<a>). From 2009 available as a dervied variable
+										within e-RA, calculated from <b>RELH</b> and <b>DRYB</b> after
+										the method of <a
+										href="https://doi.org/10.1175/1520-0450(1981)020<1527:NEFCVP>2.0.CO;2">Buck
+											(1981)</a>. 
+							</p></td>
+
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
 	</div>
-
 </div>

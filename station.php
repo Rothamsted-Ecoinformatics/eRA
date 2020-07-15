@@ -105,10 +105,10 @@ echo title_case($experiment['administrative']['name']);
 					<ul class="nav nav-tabs nav-fill text-body ">
 						<li class="nav-item"><a class="nav-link active show"
 							id="summary-tab" data-toggle="tab" href="#summary">Overview</a></li>
-							
+
 						<li class="nav-item"><a class="nav-link" id="equipment-tab"
 							data-toggle="tab" href="#equipment">Equipment</a></li>
-							
+
 						<li class="nav-item"><a class="nav-link" id="measurements-tab"
 							data-toggle="tab" href="#measurements">Measurements</a></li>
 						
@@ -119,8 +119,8 @@ echo title_case($experiment['administrative']['name']);
 						
 						<li class="nav-item"><a class="nav-link" id="images-tab"
 							data-toggle="tab" href="#images">Images</a></li>
-						<li class="nav-item"><a class="nav-link" id="documents-tab"
-							data-toggle="tab" href="#documents">Summaries</a></li>
+						<li class="nav-item"><a class="nav-link" id="monthly-tab"
+							data-toggle="tab" href="#monthly">Summaries</a></li>
 
 						<li class="nav-item"><a class="nav-link" id="keyrefs-tab"
 							data-toggle="tab" href="#keyrefs">Bibliography</a></li>
@@ -129,25 +129,25 @@ echo title_case($experiment['administrative']['name']);
 						<div class="tab-pane active show" id="summary" role="tabpanel"
 							aria-labelledby="summary-tab">
     							<?php
-                                        $summarypage= $exptFolder . '/summary.html';
-                                        include ($summarypage);
-                                 ?>					
+        $summarypage = $exptFolder . '/summary.html';
+        include ($summarypage);
+        ?>					
     					</div>
 						<div class="tab-pane" id="measurements" role="tabpanel"
 							aria-labelledby="measurements-tab">
 							<div class="row px-5">
     							<?php
-                                        $measurements = $exptFolder . '/measurements.html';
-                                        include ($measurements);
-                                 ?>
+        $measurements = $exptFolder . '/measurements.html';
+        include ($measurements);
+        ?>
     							</div>
 						</div>
 						<div class="tab-pane" id="equipment" role="tabpanel"
 							aria-labelledby="equipment-tab">
 							    <?php
 
-							    $equipmentpage = $exptFolder . '/equipment.html';
-							    include ($equipmentpage);
+        $equipmentpage = $exptFolder . '/equipment.html';
+        include ($equipmentpage);
         ?>
 							</div>
 						<?php if ($hasDatasets) {?>
@@ -158,13 +158,20 @@ echo title_case($experiment['administrative']['name']);
                 		<?php }?>
 						<div class="tab-pane" id="images" role="tabpanel"
 							aria-labelledby="images-tab">
-							<?php //include '_images.php';?>
+							<p class="text-warning">
+								<b>In Progress - removed when ready to be published</b>
+							</p> <?php
+
+    // include '_images.php'; ?>
 							</div>
-						<div class="tab-pane" id="documents" role="tabpanel"
-							aria-labelledby="documents-tab">
+						<div class="tab-pane" id="monthly" role="tabpanel"
+							aria-labelledby="monthly-tab">
 							<div class="row px-5">
+								<p class="text-warning">
+									<b>In Progress - removed when ready to be published</b>
+								</p>
 							<?php
-    $fileMonthly = $exptFolder . '/' . 'monthly.php';
+    $fileMonthly = $exptFolder . '/' . 'monthly.html';
     $hasMonthly = file_exists($fileMonthly);
     if ($hasMonthly) {
         include ($fileMonthly);
@@ -174,6 +181,9 @@ echo title_case($experiment['administrative']['name']);
 						</div>
 						<div class="tab-pane" id="keyrefs" role="tabpanel"
 							aria-labelledby="keyrefs-tab">
+							<p class="text-warning">
+								<b>TODO: when NCB is at RRES</b>
+							</p>
     							<?php if ($dev == 'norton') {} else  {include '_keyrefs.php';} ?>
     					</div>
 
