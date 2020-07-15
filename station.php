@@ -106,8 +106,7 @@ echo title_case($experiment['administrative']['name']);
 						<li class="nav-item"><a class="nav-link active show"
 							id="summary-tab" data-toggle="tab" href="#summary">Overview</a></li>
 
-						<li class="nav-item"><a class="nav-link" id="equipment-tab"
-							data-toggle="tab" href="#equipment">Equipment</a></li>
+					
 
 						<li class="nav-item"><a class="nav-link" id="measurements-tab"
 							data-toggle="tab" href="#measurements">Measurements</a></li>
@@ -142,14 +141,7 @@ echo title_case($experiment['administrative']['name']);
         ?>
     							</div>
 						</div>
-						<div class="tab-pane" id="equipment" role="tabpanel"
-							aria-labelledby="equipment-tab">
-							    <?php
-
-        $equipmentpage = $exptFolder . '/equipment.html';
-        include ($equipmentpage);
-        ?>
-							</div>
+						
 						<?php if ($hasDatasets) {?>
                 		<div class="tab-pane  pb-3" id="datasets"
 							role="tabpanel" aria-labelledby="datasets-tab">
