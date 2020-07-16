@@ -71,6 +71,13 @@
 	},
 	{
 		"Credit": "eRA curators",
+		"FileName": "equipment.html",
+		"Caption": "Measuring the weather",
+		"Type": "html",
+		"exptID": "met",
+		"isReviewed": 1
+	},{
+		"Credit": "eRA curators",
 		"FileName": "Introoriginal.php",
 		"Caption": "about the meteorological records - original",
 		"Type": "php",
