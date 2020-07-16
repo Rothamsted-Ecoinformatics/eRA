@@ -80,9 +80,9 @@
 	{
 		"Credit": "eRA curators",
 		"FileName": "derived_variables.html",
-		"Caption": "derived variables",
+		"Caption": "Derived Variables",
 		"Type": "html",
-		"exptID": "default",
+		"exptID": "met",
 		"isReviewed": 1
 	},
 	{

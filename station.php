@@ -27,6 +27,7 @@ include_once 'includes/init.inc'; // these are the settings that refer to more t
  */
 
 $pageinfo = getPageInfo($expt);
+
 $KeyRef = $pageinfo['KeyRef'];
 $exptFolder = 'metadata/' . $expt;
 
@@ -175,8 +176,11 @@ echo title_case($experiment['administrative']['name']);
 							aria-labelledby="keyrefs-tab">
 							<p class="text-warning">
 								<b>TODO: when NCB is at RRES</b>
+								
 							</p>
-    							<?php if ($dev == 'norton') {} else  {include '_keyrefs.php';} ?>
+    							<?php
+    							var_dump($pageinfo);
+    							if ($dev == 'norton') {} else  {include '_keyrefs.php';} ?>
     					</div>
 
 

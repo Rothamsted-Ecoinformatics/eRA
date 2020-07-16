@@ -67,7 +67,22 @@ if ($hasWords) {
     $words = json_decode($jwords, true);
 }
 
+/*
+ * Pagesettings associates the expt code, or station with the keyrefs, the page titles and so on. 
+ * It started with using the experiment table, but now I think we have gone beyond that and I need to check
+ * what is using this array and where it actually should be used and what variables are never used. For example, 
+ * I don't think we can use exp-ID because I cannot maintain uniqueness if it is manually maintained, 
+ */
+
 $pageSettings = array(
+    array(
+        "exp-ID" => 23,
+        "Experiment" => "Update Page Settings",
+        "ExptCode" => "000",
+        "KeyRef" => " - ",
+        "URLCode" => "",
+        "prevFolder" => ""
+    ),
     array(
         "exp-ID" => 23,
         "Experiment" => "Broom's Barn Large Scale Rotation Experiment",
@@ -86,7 +101,7 @@ $pageSettings = array(
     ),
     array(
         "exp-ID" => 24,
-        "Experiment" => "Brooms Barn Met Statio",
+        "Experiment" => "Brooms Barn Met Station",
         "ExptCode" => "bms",
         "KeyRef" => " - ",
         "URLCode" => "",
@@ -253,6 +268,14 @@ $pageSettings = array(
         "prevFolder" => ""
     ),
     array(
+        "exp-ID" => 13,
+        "Experiment" => "Rothamsted Weather Station",
+        "ExptCode" => "rms",
+        "KeyRef" => " - ",
+        "URLCode" => "",
+        "prevFolder" => ""
+    ),
+    array(
         "exp-ID" => 3,
         "Experiment" => "Parkgrass",
         "ExptCode" => "rpg5",
@@ -325,6 +348,14 @@ $pageSettings = array(
         "prevFolder" => ""
     ),
     array(
+        "exp-ID" => 14,
+        "Experiment" => "Saxmundham Weather Station",
+        "ExptCode" => "sms",
+        "KeyRef" => " - ",
+        "URLCode" => "",
+        "prevFolder" => ""
+    ),
+    array(
         "exp-ID" => 26,
         "Experiment" => "Saxmundham Rotation 1",
         "ExptCode" => "srn1",
@@ -376,6 +407,14 @@ $pageSettings = array(
         "exp-ID" => 16,
         "Experiment" => "Woburn Farm",
         "ExptCode" => "woburn",
+        "KeyRef" => " - ",
+        "URLCode" => "WoburnFarm",
+        "prevFolder" => "Woburn"
+    ),
+    array(
+        "exp-ID" => 16,
+        "Experiment" => "Woburn Weather Station",
+        "ExptCode" => "wms",
         "KeyRef" => " - ",
         "URLCode" => "WoburnFarm",
         "prevFolder" => "Woburn"
