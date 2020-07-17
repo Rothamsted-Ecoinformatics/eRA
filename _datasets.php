@@ -99,7 +99,7 @@ if (! $hasDatasets) {
         }
         $info = "<div class=\"col-sm-4 py-2\">";
         $info .= "\n	<div class=\"card  h-100 bg-light mb-3 \" >";
-        $info .= "\n	\t	<div class=\"card-header\">" . $dataset['title'] . "</div>";
+        $info .= "\n	\t	<div class=\"card-header\">" .$dataset['shortName'] . " - " .$dataset['title'] . "</div>";
         $info .= "\n	\t	<div class=\"card-body\">";
         // $info .="\n \t <h4 class=\"card-title\">Light card title</h4>";
         $info .= "\n	\t	\t		<small class=\"card-muted\">" . $subDescription . " </small>";
