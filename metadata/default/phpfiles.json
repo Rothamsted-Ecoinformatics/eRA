@@ -166,9 +166,17 @@
 	},
 	{
 		"Credit": "eRA curators",
-		"FileName": "schools.php",
+		"FileName": "schools.html",
 		"Caption": "Weather data for schools",
-		"Type": "php",
+		"Type": "html",
+		"exptID": "met",
+		"isReviewed": 1
+	},	
+	{
+		"Credit": "eRA curators",
+		"FileName": "public.html",
+		"Caption": "Weather data for schools",
+		"Type": "html",
 		"exptID": "met",
 		"isReviewed": 1
 	},
