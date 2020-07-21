@@ -72,8 +72,11 @@ if ($hasDatasets) {
     $datasets = json_decode($jdatasets, true);
 }
 
-$fileMonthly = $exptFolder . '/' . 'monthly.php';
+$fileMonthly = $exptFolder . '/' . 'monthly.html';
 $hasMonthly = file_exists($fileMonthly);
+
+$doclist = $exptFolder . '/doclist.html';
+$hasdocs = file_exists($doclist);
 
 ?>
 <!DOCTYPE html>
@@ -107,7 +110,7 @@ echo title_case($experiment['administrative']['name']);
 						<li class="nav-item"><a class="nav-link active show"
 							id="summary-tab" data-toggle="tab" href="#summary">Overview</a></li>
 
-					
+
 
 						<li class="nav-item"><a class="nav-link" id="measurements-tab"
 							data-toggle="tab" href="#measurements">Measurements</a></li>
@@ -119,12 +122,20 @@ echo title_case($experiment['administrative']['name']);
 						
 						<li class="nav-item"><a class="nav-link" id="images-tab"
 							data-toggle="tab" href="#images">Images</a></li>
+							<?php if ($hasMonthly) {?>
 						<li class="nav-item"><a class="nav-link" id="monthly-tab"
 							data-toggle="tab" href="#monthly">Summaries</a></li>
-
+<?php }?>
+	<?php if ($hasdocs) {?>
+						<li class="nav-item"><a class="nav-link" id="documents-tab"
+							data-toggle="tab" href="#documents">Information</a></li>
+<?php }?>
 						<li class="nav-item"><a class="nav-link" id="keyrefs-tab"
 							data-toggle="tab" href="#keyrefs">Bibliography</a></li>
 					</ul>
+					
+					
+					
 					<div class="tab-content mh-100" id="idExptTabs">
 						<div class="tab-pane active show" id="summary" role="tabpanel"
 							aria-labelledby="summary-tab">
@@ -161,7 +172,7 @@ echo title_case($experiment['administrative']['name']);
 							aria-labelledby="monthly-tab">
 							<div class="row px-5">
 								<p class="text-warning">
-									<b>In Progress - removed when ready to be published</b>
+									<b>In Progress - remove when ready for review</b>
 								</p>
 							<?php
     $fileMonthly = $exptFolder . '/' . 'monthly.html';
@@ -172,15 +183,46 @@ echo title_case($experiment['administrative']['name']);
     ?>
                          	</div>
 						</div>
+						<div class="tab-pane  pb-3" id="documents" role="tabpanel"
+							aria-labelledby="documents-tab">
+							<div class="row equal mx-3">
+								
+							<?php
+
+    
+    include $doclist;
+
+    if (isset($sub)) {
+        $docpage = $exptFolder . '/' . $sub . '.html';
+        echo ('<br />');
+
+        include $docpage;
+    }
+
+    if (isset($ref)) {
+        $KeyRef = $ref;
+    }
+    if ($dev == 'norton') {
+        echo $KeyRef;
+    } else {
+        include '_keyrefs.php';
+    }
+
+    ?>
+							</div>
+						</div>
 						<div class="tab-pane" id="keyrefs" role="tabpanel"
 							aria-labelledby="keyrefs-tab">
 							<p class="text-warning">
 								<b>TODO: when NCB is at RRES</b>
-								
+
 							</p>
     							<?php
-    							var_dump($pageinfo);
-    							if ($dev == 'norton') {} else  {include '_keyrefs.php';} ?>
+        var_dump($pageinfo);
+        if ($dev == 'norton') {} else {
+            include '_keyrefs.php';
+        }
+        ?>
     					</div>
 
 
