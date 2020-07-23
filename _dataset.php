@@ -64,6 +64,10 @@ if ($hasDataset) {
     } else {
         $dateUpdate = "N/A";
     }
+    if ($datePublication != "N/A") {$year = '('.substr($datePublication, 0, 4).')';}
+    elseif ($dateCreation != "N/A")  {$year = '('.substr($dateCreation, 0, 4).')';}
+    else  {$year = "";}
+    
     if (is_array($dsinfo['distribution'])) {
         $zipfile = $exptFolder . "/" . $datasetFolder . "/" . $dataset . ".zip";
         $distribution = "<ul>";
@@ -311,7 +315,7 @@ if (isset($arrDescription['Other'])) {
 						<h5 class="mb-0">
 							<button class="btn btn-link collapsed" data-toggle="collapse"
 								data-target="#collapseAccess" aria-expanded="false"
-								aria-controls="collapseAccess">Access Use and Conditions</button>
+								aria-controls="collapseAccess">Dataset Access and Conditions</button>
 						</h5>
 					</div>
 					<div id="collapseAccess" class="collapse" aria-labelledby="Access"
@@ -332,17 +336,14 @@ if (isset($arrDescription['Other'])) {
 							</p>
 							<h5>Cite this Dataset</h5>
 							<p>
-								<strong>YOU MUST CITE AS: </strong>Rothamsted Research (<?php echo $datePublication;?>).
+								<strong>YOU MUST CITE AS: </strong>Rothamsted Research <?php echo $year;?>.
 								<?php echo $dsinfo['name'];?> <em>Electronic Rothamsted Archive</em>
 								<a target="_blank"
 									href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
 
 							</p>
 							<h5>Conditions of use</h5>
-							<p>
-								Please review the <a href="">Conditions of use</a> before
-								downloading
-							</p>
+						
 							<p>Rothamsted relies on the integrity of users to ensure that
 								Rothamsted Research receives suitable acknowledgment as being
 								the originators of these data. This enables us to monitor the

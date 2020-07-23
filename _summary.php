@@ -130,29 +130,10 @@ function getPersonInfo($personDetails)
         ?> 
 							  
             
-    <h3 class="my-3 mt-5">Data Access</h3>
-       	<?php
-        $list = listAttributes2($experiment['dataAccess']);
-        // echo $list;
-        ?>
-      
-       	<ul class="list-group mx-3">
-		<li class="list-group-item " style="white-space: pre-wrap;"><b>Type:</b> creativeWork</li>
-		<li class="list-group-item " style="white-space: pre-wrap;"><b>Condition of Access:</b> Waiting for Boiler plate text</li>
-
-	</ul>
 
 
-	<h3 class="my-3 mt-5">License</h3>
-            <?php
-            $list = listAttributes2($experiment['license']);
-            // echo $list;
-            ?>
- 	<ul class="list-group mx-3">
-		<li class="list-group-item " style="white-space: pre-wrap;"><b>Type: </b>CreativeWork</li>
-		<li class="list-group-item " style="white-space: pre-wrap;"><b>Title: </b>CC0</li>
-		<li class="list-group-item " style="white-space: pre-wrap;"><b>License: </b><a target=\"_blank\" href="https://creativecommons.org/share-your-work/public-domain/cc0/"><img src="images/logos/cc0.png"></a></li>
-	</ul>
+
+	
 <?php
 if (count($person['contributors']) > 0) {
 
