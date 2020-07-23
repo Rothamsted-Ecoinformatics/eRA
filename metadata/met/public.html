@@ -1,5 +1,24 @@
 <h2 class="mx-3">Weather data for the Public</h2>
-<div class="row">
+
+
+<div class="text-warning">
+	<p class="text-warning">
+		<b>Curation Progress: </b>
+	</p>
+
+	<ul class="list-group">
+		<li class="list-group-item">Draft made by Nath - 21/07/2020</li>
+		<li></li>
+		<li></li>
+
+	</ul>
+	<p>
+		<b>Comment the div when good enough.</b>
+	</p>
+</div>
+
+
+<div class="row m-3">
 	<div class="col-10">
 		<p>We hope that the data here will be used by anyone with an
 			interest in local weather. There is also lots of background
@@ -13,7 +32,7 @@
 			class="btn btn-info" target="DET">Extract Data</a>
 	</div>
 </div>
-<div class="row">
+<div class="m-3">
 
 	<p>A simple set of daily Rothamsted weather data, from 1918 to the
 		current date, was set up for the 2018 Festival of Ideas and is freely
@@ -37,28 +56,28 @@
 			target="_blank">How to extract birthday weather data from e-RA</a>'.
 	</p>
 </div>
-<div class="row">
-	<div class="col-4">
+<div class="row m-3">
+	<div class="col-4 p-3">
 		<img src="images/metadata/met/Rothamsted-windy-day.jpg"
-			title="Windy day at Rothamsted" 
-			class="img-fluid image thumbnail"/>
+			title="Windy day at Rothamsted"
+			class="img-fluid image thumbnail border border-info rounded" />
 	</div>
-	<div class="col-4">
+	<div class="col-4 p-3">
 		<img src="images/metadata/met/Rothamsted-sunny-day.jpg"
-			title="Sunny day at Rothamsted" 
-			class="img-fluid image thumbnail" />
+			title="Sunny day at Rothamsted"
+			class="img-fluid image thumbnail border border-info rounded" />
 	</div>
-	<div class="col-4">
+	<div class="col-4 p-3">
 		<img src="images/metadata/met/Rothamsted-snowy-day.jpg"
 			title="Snowy day at Rothamsted"
-			class="img-fluid image thumbnail" />
+			class="img-fluid image thumbnail border border-info rounded" />
 	</div>
 
 </div>
 
 
 
-<div class="row">
+<div class="m-3">
 	<h3>Background</h3>
 	<p>
 		<b>History of weather measurements at Rothamsted:</b>
@@ -83,31 +102,52 @@
 		range of sensors attached to an automatic data logger, linked directly
 		to a computer.</p>
 </div>
-<div class="row">
-	<div class="col-4">
-		<a href="metadata/met/wind-speed-video.AVI"
-			title="click to see video of wind speed recorder"><img
-			src="images/metadata/met/wind-speed.png"
-			title="Wind speed - click for video" width="230" height="152"
-			border="0" alt="" />Wind speed recorder <br /> <em><strong>-
-					click for video</strong></em><strong></strong></a>
+<div class="row m-3">
+	<div class="col-4 p-3">
+		<div class="card">
+			<img class="card-img-top" src="images/metadata/met/wind-speed.png"
+				alt="Wind speed - click for video" style="width: 100%">
+			<div class="card-body">
+
+				<p class="card-text">Wind speed recorder</p>
+				<a href="metadata/met/wind-speed-video.AVI" class="btn btn-primary">Video</a>
+			</div>
+		</div>
+
 	</div>
-	<div class="col-4">
-		<img src="images/metadata/met/Daily-weather-recording.jpg"
-			title="Recording precipitation at Rothamsted" width="230"
-			height="152" border="0" alt="" />Recording the precipitation daily -
-		whatever the weather!
+	<div class="col-4 p-3">
+
+		<div class="card">
+			<img class="card-img-top"
+				src="images/metadata/met/Daily-weather-recording.jpg"
+				alt="Recording precipitation at Rothamsted" style="width: 100%">
+			<div class="card-body">
+
+				<p class="card-text">Recording precipitation at Rothamsted -
+					whatever the weather!</p>
+
+			</div>
+		</div>
+
 	</div>
-	<div class="col-4">
-		<a href="metadata/met/wind-direction-video.AVI"><img
-			src="images/metadata/met/wind-direction.png"
-			title="Wind direction - click for video" width="230" height="152"
-			border="0" alt="" />Wind direction recorder <br /> <em><strong>-
-					click for video</strong></em></a>
+	<div class="col-4 p-3">
+		<div class="card">
+			<img class="card-img-top"
+				src="images/metadata/met/wind-direction.png"
+				alt="Wind direction - click for video" style="width: 100%">
+			<div class="card-body">
+
+				<p class="card-text">Wind direction recorder <</p>
+				<a href="metadata/met/wind-direction-video.AVI"
+					class="btn btn-primary">Video</a>
+			</div>
+		</div>
+
 	</div>
 
 </div>
-<div class="row">
+<div class="m-3">
+
 	<p>
 		<b>Location of the weather station:</b>
 	</p>
@@ -127,81 +167,108 @@
 		weather data have been made specifically available for schools.</p>
 
 </div>
-<div class="row">
+<div class="m-3">
 	<h2>
 		<strong>Description of the Rothamsted weather data variables
 			(met data)</strong>
 	</h2>
-	<br clear="all" /> <img class="intext"
-		src="images/metadata/met/RES-rain_gauge.jpg"
-		title="Rothamsted rain gauge" width="110" height="146" align="left"
-		hspace="5" vspace="5" alt="" />
-	<p>
-		<b>Rainfall (RAIN):</b> This is total rainfall over 24 hours, measured
-		in mm. It includes rain, snow, mist and fog (together called
-		precipitation). Originally the rain was collected in a copper funnel
-		rain gauge, and the water measured manually in a graduated cylinder.
-		Since 2004, rain is measured using an electronic tipping bucket rain
-		gauge, calibrated to tip at 0.2mm. This means that since 2004, the
-		minimum amount of rain that can be recorded is 0.2mm. These rain
-		gauges are surrounded by a 1.5m radius turf wall, 30cm deep, to reduce
-		wind eddies blowing the rain out of the gauges.
-	</p>
-	<br clear="all" /> <img class="intext"
-		src="images/metadata/met/RES sun recorder.jpg"
-		title="Rothamsted pyranometer" width="110" height="163" align="left"
-		hspace="5" vspace="5" alt="" />
-	<td></td>
-	<p>
-		<b>Sunshine (SUNHOURS):</b> The total amount of time when the sun
-		shines during each day. This is measured in hours, for example, 10.5
-		hours means 10 hours and 30 minutes. Hours of sunshine were originally
-		measured by a Campbell-Stokes sunshine recorder. The sun's rays were
-		focused onto a card (treated to prevent it from catching fire) and the
-		brown scorch mark on the card was then measured. The longer the scorch
-		mark, the longer the hours of sun. The cards were of varying lengths
-		applicable to the time of year (winter, equinox, and summer). Since
-		2004 sunshine has been calculated using the Campbell-Stokes equation
-		from solar radiation measured using a thermopile pyranometer.
-	</p>
-	<br clear="all" /> <img class="intext"
-		src="images/metadata/met/RES thermometers.jpg"
-		title="Rothamsted thermometers" width="110" height="163" hspace="5"
-		vspace="5" align="left" alt="" />
-	<p>
-		<b>Temperature (TMAX and TMIN):</b> The maximum and minimum air
-		temperatures during the day, measured in &deg;C. TMIN should be less
-		than or equal to TMAX. The daily temperature is the mean of TMAX and
-		TMIN ((TMAX + TMIN)/2). Temperature used to be measured with a maximum
-		and minimum mercury thermometer. Since 2004, electronic temperature
-		probes have been used, which are linked to the automatic data logger.
-		The thermometers are housed in a unit called a Stephenson Screen to
-		ensure shade from sun - ventilation is provided by slits in the sides.
-	</p>
-	<br clear="all" /> <img class="intext"
-		src="images/metadata/met/RES wind_tower.jpg"
-		title="Rothamsted wind tower" width="110" height="173" hspace="5"
-		vspace="5" align="left" alt="" />
+	<div class="row">
+		<div class="col-2 p-3">
+			<img src="images/metadata/met/RES-rain-gauge.jpg"
+				title="Rothamsted rain gauge"
+				class="img-fluid image thumbnail border border-info rounded" />
+		</div>
+		<div class="col-10">
+			<p>
+				<b>Rainfall (RAIN):</b> This is total rainfall over 24 hours,
+				measured in mm. It includes rain, snow, mist and fog (together
+				called precipitation). Originally the rain was collected in a copper
+				funnel rain gauge, and the water measured manually in a graduated
+				cylinder. Since 2004, rain is measured using an electronic tipping
+				bucket rain gauge, calibrated to tip at 0.2mm. This means that since
+				2004, the minimum amount of rain that can be recorded is 0.2mm.
+				These rain gauges are surrounded by a 1.5m radius turf wall, 30cm
+				deep, to reduce wind eddies blowing the rain out of the gauges.
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-2 p-3">
+			<img src="images/metadata/met/RES-sun-recorder.jpg"
+				title="Rothamsted pyranometer"
+				class="img-fluid image thumbnail border border-info rounded" />
 
+		</div>
 
-	<p>
-		<b>Wind (WDIR):</b> Wind direction, measured at 09.00 GMT each
-		morning. This is shown as an angle, going clockwise from the North.
-		360 = North, 90 = East, 180 = South, 270 = West. The reading is in
-		degrees. 0 degrees means that there is no wind. Wind direction was
-		originally measured by a wind vane linked to a Munro roll chart
-		recorder. From 2004 an electronic wind vane linked to the automatic
-		data logger has been used. See video of wind direction recorder
-		(above) to show this in action.<b> Wind run (WINDRUN):</b> The total
-		amount of wind in a day, measured as a distance (km). Wind run is
-		measured by a cup anemometer, which is blown around by the wind, and
-		the distance it turns around is recorded, in km. This is on a pole 2m
-		high. Since 2004, an electronic cup anemometer has been used, which is
-		linked to the automatic data logger. See video of wind speed recorder
-		(above) to show this in action.
-	</p>
+		<div class="col-10  p-3">
+			<b>Sunshine (SUNHOURS):</b> The total amount of time when the sun
+			shines during each day. This is measured in hours, for example, 10.5
+			hours means 10 hours and 30 minutes. Hours of sunshine were
+			originally measured by a Campbell-Stokes sunshine recorder. The sun's
+			rays were focused onto a card (treated to prevent it from catching
+			fire) and the brown scorch mark on the card was then measured. The
+			longer the scorch mark, the longer the hours of sun. The cards were
+			of varying lengths applicable to the time of year (winter, equinox,
+			and summer). Since 2004 sunshine has been calculated using the
+			Campbell-Stokes equation from solar radiation measured using a
+			thermopile pyranometer.
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-2 p-3">
+			<img src="images/metadata/met/RES-thermometers.jpg"
+				title="Rothamsted thermometers"
+				class="img-fluid image thumbnail border border-info rounded" />
+		</div>
+
+		<div class="col-10 p-3">
+			<p>
+				<b>Temperature (TMAX and TMIN):</b> The maximum and minimum air
+				temperatures during the day, measured in &deg;C. TMIN should be less
+				than or equal to TMAX. The daily temperature is the mean of TMAX and
+				TMIN ((TMAX + TMIN)/2). Temperature used to be measured with a
+				maximum and minimum mercury thermometer. Since 2004, electronic
+				temperature probes have been used, which are linked to the automatic
+				data logger. The thermometers are housed in a unit called a
+				Stephenson Screen to ensure shade from sun - ventilation is provided
+				by slits in the sides.
+			</p>
+		</div>
+
+	</div>
+	<div class="row">
+		<div class="col-2 p-3">
+			<img src="images/metadata/met/RES-wind-tower.jpg"
+				title="Rothamsted wind tower"
+				class="img-fluid image thumbnail border border-info rounded" />
+
+		</div>
+
+		<div class="col-10 p-3">
+			<p>
+				<b>Wind (WDIR):</b> Wind direction, measured at 09.00 GMT each
+				morning. This is shown as an angle, going clockwise from the North.
+				360 = North, 90 = East, 180 = South, 270 = West. The reading is in
+				degrees. 0 degrees means that there is no wind. Wind direction was
+				originally measured by a wind vane linked to a Munro roll chart
+				recorder. From 2004 an electronic wind vane linked to the automatic
+				data logger has been used. See video of wind direction recorder
+				(above) to show this in action.
+			</p>
+			<p>
+				<b> Wind run (WINDRUN):</b> The total amount of wind in a day,
+				measured as a distance (km). Wind run is measured by a cup
+				anemometer, which is blown around by the wind, and the distance it
+				turns around is recorded, in km. This is on a pole 2m high. Since
+				2004, an electronic cup anemometer has been used, which is linked to
+				the automatic data logger. See video of wind speed recorder (above)
+				to show this in action.
+			</p>
+		</div>
+	</div>
 </div>
-<div class="row">
+<div class="m-3">
 	<h2>Data available</h2>
 	<p>
 		<b>A. SUBSETS OF e-RA DATA AS EXCEL FILES:</b>
@@ -266,7 +333,7 @@
 			temperature (&deg;C)</li>
 	</ul>
 </div>
-<div class="row">
+<div class="m-3">
 	<h2>Long-term weather</h2>
 	<p>The long-term weather records at Rothamsted have been invaluable
 		in aiding understanding of the effects of climate on crop growth,
@@ -301,7 +368,7 @@
 			target="_blank">ECN Rothamsted (2014)</a>. <a NAME="SEC6"></a>
 	</p>
 </div>
-<div class="row">
+<div class="m-3">
 	<h2>
 		Website <b>Links</b>
 	</h2>
@@ -312,7 +379,8 @@
 		</li>
 		<li>Weather data from other UK locations is available from <a
 			href="http://www.metoffice.gov.uk/education/teachers/past-weather-data"
-			target="_blank">Met Office Education</a></li>
+			target="_blank">Met Office Education</a>
+		</li>
 		<li>Rothamsted Research is committed to its work in collaboration
 			with local schools and helps local schools to develop links with our
 			scientists. For information see the <a
@@ -326,20 +394,23 @@
 		</li>
 	</ul>
 </div>
-<div class="row">
-	<div class="col-4">
+<div class=" row m-3">
+	<div class="col-4 p-3">
 		<img src="images/metadata/met/rainbow.jpg"
 			title="Rainbow - sun and rain" 
+			class="img-fluid image thumbnail border border-info rounded" 
 			alt="" />
 	</div>
-	<div class="col-4">
-		<img src="images/metadata/met/Rothamsted misty day.jpg"
+	<div class="col-4 p-3">
+		<img src="images/metadata/met/Rothamsted-misty-day.jpg"
 			title="Foggy day at Rothamsted" 
+			class="img-fluid image thumbnail border border-info rounded"
 			alt="" />
 	</div>
-	<div class="col-4">
-		<img src="images/metadata/met/rainy day at Rothamsted2.PNG"
+	<div class="col-4 p-3">
+		<img src="images/metadata/met/rainy-day-at-Rothamsted2.PNG"
 			title="Rainy day at Rothamsted" 
+			class="img-fluid image thumbnail border border-info rounded"
 			alt="" />
 	</div>
 </div>
