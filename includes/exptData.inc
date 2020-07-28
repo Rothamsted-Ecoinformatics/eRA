@@ -458,7 +458,7 @@ function processCell($item)
                     break;
                 case 'FileName':
                     
-                    $pCell= '<a href="topic.php?expt='.$expt.'&FileName=' . $cell . '">'.$cell.'</a>';                 
+                    $pCell= '<a href="info.php?expt='.$expt.'&FileName=' . $cell . '">'.$cell.'</a>';                 
                     break;
                 case 'Caption':
                     $caption = $cell;

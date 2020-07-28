@@ -1,6 +1,6 @@
 <?php
 /**
- * @file topic.php
+ * @file info.php
  *
  * @brief A topic page.
  *
