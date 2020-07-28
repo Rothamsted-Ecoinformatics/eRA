@@ -49,7 +49,7 @@
 		"Credit": "eRA curators",
 		"FileName": "CF",
 		"Caption": "Conversion Factors",
-		"Type": "php",
+		"Type": "html",
 		"exptID": "default",
 		"isReviewed": 0
 	},
