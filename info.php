@@ -5,7 +5,7 @@
  * @brief A topic page.
  *
  * This will include a  page for any information, without tab stuff at the top.
- * the included files are either html, php or txt... there will be a field that says that in the phpfiles.json 
+ * the included files are either html, php or txt... there will be a field that says that in the infofiles.json 
  * @author Nathalie Castells-Brooke.
  *
  * @version 1.00
@@ -63,7 +63,7 @@ include_once 'includes/init.inc'; // these are the settings that refer to more t
  * @var String $page_title
  */
 
-$url = 'metadata/default/phpfiles.json';
+$url = 'metadata/default/infofiles.json';
 if (is_file($url)) {
     $jdata = file_get_contents($url);
     $data = json_decode($jdata, true);
@@ -73,13 +73,10 @@ if (is_file($url)) {
     );
 
     $page = multiSearch($data, $pairs);
-    /*
-     * echo '<pre>';
-     * var_dump($page);
-     * echo '</pre>';
-     */
+
     $h1Title = $page[0]['Caption'];
     $page_title .= ': ' . $page[0]['Caption'];
+    $ext = $page[0]['Type'];
     // $KeyRef = $page[0]['KeyRef'];
 } else {
     $h1Title = $pageinfo['ExperimentName'];
@@ -117,8 +114,7 @@ include 'includes/header.html'; // all the menus at the top
 
 <?php 
 // -- start dependant content ---------------------------------------------------------
-include_once 'metadata/' . $expt . '/' . $FileName;
-
+include_once 'metadata/' . $expt . '/' . $FileName.'.'.$ext;
 // -- start footers -----------------------------
 
 include_once 'includes/footer.html'; // this has the green bar and bottom

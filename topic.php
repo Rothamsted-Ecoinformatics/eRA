@@ -60,7 +60,7 @@ $metadata = "images/metadata/" . $expt . '/'; // where the images are if needed
  * @var String $page_title
  */
 $exptFolder = 'metadata/' . $expt;
-$url = 'metadata/default/phpfiles.json';
+$url = 'metadata/default/infofiles.json';
 if (is_file($url)) {
     $jdata = file_get_contents($url);
     $data = json_decode($jdata, true);
