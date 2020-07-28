@@ -4,7 +4,7 @@
  *
  * @brief A topic page.
  *
- * This will include a php page for any information, without tab stuff at the top.
+ * This will include a  page for any information, without tab stuff at the top.
  * the included files are either html, php or txt... there will be a field that says that in the phpfiles.json 
  * @author Nathalie Castells-Brooke.
  *
@@ -12,17 +12,20 @@
  *
  *
  * @version 0.2 added space for the page dependant scripts. at the bottom.
+ * 
+ * 
  */
 
-// /This will be used to pass the FileName : it will just include the file as is. 
+// /This will be used to pass the FileName : it will just include the file as is.
 $FileName = 'index.php';
 if (isset($_POST['FileName'])) {
     $FileName = $_POST['FileName'];
 }
 
-/* this is to pass filename as page.extension where extension is in the phpfile.json 
- *  
- *  At the moment, we use FileName
+/*
+ * this is to pass filename as page.extension where extension is in the phpfile.json
+ *
+ * At the moment, we use FileName
  */
 $page = 'index';
 if (isset($_POST['page'])) {
@@ -54,7 +57,6 @@ include_once 'includes/init.inc'; // these are the settings that refer to more t
  * @var array $pageinfo
  */
 
-
 /**
  * We need the caption of the file.
  *
@@ -69,16 +71,16 @@ if (is_file($url)) {
         'FileName' => $FileName,
         'exptID' => $expt
     );
-    
+
     $page = multiSearch($data, $pairs);
     /*
-     echo '<pre>';
-     var_dump($page);
-     echo '</pre>';
+     * echo '<pre>';
+     * var_dump($page);
+     * echo '</pre>';
      */
     $h1Title = $page[0]['Caption'];
     $page_title .= ': ' . $page[0]['Caption'];
-    //$KeyRef = $page[0]['KeyRef'];
+    // $KeyRef = $page[0]['KeyRef'];
 } else {
     $h1Title = $pageinfo['ExperimentName'];
     $page_title .= $page_title .= ': ' . $pageinfo['ExperimentName'];
@@ -99,7 +101,6 @@ include 'includes/head.html'; // that is the <head tags>
 
 include 'includes/header.html'; // all the menus at the top
 
-
 ?>
 
 
@@ -107,12 +108,17 @@ include 'includes/header.html'; // all the menus at the top
 
 
 <div id="idExpt" class="p-0 mb-0">
+			<div id="greenTitle"
+				class="d-flex  mb-3 py-3 p3-3 bg-info text-white mt-0 ">
 
-<?php // -- start dependant content ---------------------------------------------------------
+				<h1 class="mx-3"> <?php echo $h1Title;?></h1>
+			
+			</div>
+
+<?php 
+// -- start dependant content ---------------------------------------------------------
 include_once 'metadata/' . $expt . '/' . $FileName;
 
-
-						
 // -- start footers -----------------------------
 
 include_once 'includes/footer.html'; // this has the green bar and bottom
@@ -125,6 +131,7 @@ include_once 'includes/finish.inc'; // this has the common js scripts
 
 ?>
 <!--  include here the page dependant scripts -->
+
 </body>
 
 </html>
