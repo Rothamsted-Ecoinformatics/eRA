@@ -29,6 +29,7 @@ if ($hasDataset) {
     $jdataset8 = utf8_encode($jdataset);
     $dsinfo = json_decode($jdataset8, true);
 }
+$page_description = $dsinfo['description'][0]['description'];
 ?>
 <!DOCTYPE html>
 <html class="no-js" lang="en">

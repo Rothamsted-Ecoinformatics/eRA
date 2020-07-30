@@ -32,7 +32,7 @@ if ($hasDatacite) {
     $datacite = utf8_encode($datacite);
     $experiment = json_decode($datacite, true);
 }
-
+$page_description = $experiment['administrative']['description']; 
 $fileTimeline = $exptFolder . '/' . 'timeline.json';
 $hasTimeline = file_exists($fileTimeline);
 if ($hasTimeline) {

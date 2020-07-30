@@ -41,6 +41,7 @@ if ($hasDatacite) {
     $experiment = json_decode($datacite, true);
 }
 
+$page_description = $experiment['administrative']['description'];
 $fileTimeline = $exptFolder . '/' . 'timeline.json';
 $hasTimeline = file_exists($fileTimeline);
 if ($hasTimeline) {
@@ -77,7 +78,7 @@ $hasMonthly = file_exists($fileMonthly);
 
 $doclist = $exptFolder . '/doclist.html';
 $hasdocs = file_exists($doclist);
-
+ 
 ?>
 <!DOCTYPE html>
 <html class="no-js" lang="en">

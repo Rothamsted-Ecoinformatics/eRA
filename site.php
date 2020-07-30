@@ -32,7 +32,7 @@ if ($hasDatacite) {
 }
 
 $pageinfo = getPageInfo($farm);
-
+$page_description = $summary['administrative']['description'];
 $KeyRef = $pageinfo['KeyRef']; // this is the variable that is used to pull out the bibliography from the database
 
 $page_title .=  $pageinfo['Experiment'];
