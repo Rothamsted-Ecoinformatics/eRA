@@ -1,9 +1,26 @@
+<!-- 
 
+defaults 
+$page_title = "e-RA";
+$page_description = "e-RA provides a permanent managed database for secure storage of data from Rothamsted's Long-term Experiments, the oldest, continuous agronomic experiments in the world. Together with the accompanying meteorological records, associated documentation and sample archive, it is a unique historical record of experiments that have been measured continuously for over 170 years.";
+$page_keywords = "experiments, long term experiments, agriculture, datasets, research, fields, yields, weather";		
+
+But each page recalculate them depending on context
+ -->
 <title><?php echo $page_title;?>
 </title>
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description"
+	content="<?php echo $page_description;?>">
+<meta name="keywords"
+	content="<?php echo $page_keywords;?>">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="English">
+<meta name="revisit-after" content="7 days">
+<meta name="author" content="Rothamsted Research">
 <!--[if IE]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -14,7 +31,10 @@
 <link rel="stylesheet"
 	href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css"
 	title="timeline-styles">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous">
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
 <!--  for the image gallery in images2.php 15/10/2018 -->
