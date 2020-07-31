@@ -1,6 +1,6 @@
 {
     "administrative": {
-        "type": "article",
+        "type": "Station",
         "identifier": "BMS",
         "localIdentifier": "BMS",
         "name": "Broom's Barn Meteorological Station",
