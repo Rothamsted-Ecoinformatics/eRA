@@ -5,8 +5,8 @@
         "localIdentifier": "SMS",
         "name": "Saxmundham Meteorological Station",
         "url": null,
-        "description": "Please describe",
-        "disambiguatingDescription": "Please Describe"
+        "description": "Monthly meteorological data is available, 1966-1985, based on daily manual recording",
+        "disambiguatingDescription": "Daily Data not curently available"
     },
     "dataAccess": {
         "type": "creativeWork",
@@ -23,9 +23,9 @@
         "license": "http://creativecommons.org/licenses/by/4.0"
     },
     "temporalCoverage": "",
-    "dateStart": 1843,
-    "dateEPEnd": 1951,
-    "dateEnd": null,
-    "funder": "NOT in GLTEN",
+    "dateStart": 1966,
+    "dateEPEnd": null,
+    "dateEnd": 1985,
+    "funder": "The e-RA Database, is part of the National Capabilities , which also includes the Long-Term Experiments , the Sample Archive and the Environmental Change Network. The Rothamsted Long-term Experiments National Capability is supported by the Lawes Agricultural Trust and the Biotechnology and Biological Sciences Research Council (Grants BBS/E/C/00005189) (2012-2017) and BBS/E/C/000J0300 ) (2017-2022)).",
     "citation": []
 }
