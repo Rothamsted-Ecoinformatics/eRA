@@ -5,8 +5,8 @@
         "localIdentifier": "BMS",
         "name": "Broom's Barn Meteorological Station",
         "url": null,
-        "description": "Please describe",
-        "disambiguatingDescription": "Please Describe"
+        "description": "Meteorological data was first collected in Broom's Barn in 1963, though only data from 1982 is currently available in e-RA. Fewer variables are measured than at Rothamsted and Woburn. Most manual observations ceased in 1996, and meteorological records are now measured by a range of sensors attached to an automatic data logger. ",
+        "disambiguatingDescription": "Real-time hourly, daily and yearly weather charts for Brooms Barn are available on-line over 28 days or 365 days via the ECN"
     },
     "dataAccess": {
         "type": "creativeWork",
@@ -22,10 +22,10 @@
         "name": "CC-by-4",
         "license": "http://creativecommons.org/licenses/by/4.0"
     },
-    "temporalCoverage": "",
-    "dateStart": 1843,
-    "dateEPEnd": 1951,
-    "dateEnd": null,
-    "funder": "NOT in GLTEN",
+    "temporalCoverage": "1982 - now",
+    "dateStart": 1982,
+    "dateEPEnd": null,
+    "dateEnd": "Current Date",
+    "funder": "The e-RA Database, is part of the National Capabilities , which also includes the Long-Term Experiments , the Sample Archive and the Environmental Change Network. The Rothamsted Long-term Experiments National Capability is supported by the Lawes Agricultural Trust and the Biotechnology and Biological Sciences Research Council (Grants BBS/E/C/00005189) (2012-2017) and BBS/E/C/000J0300 ) (2017-2022)).",
     "citation": []
 }
