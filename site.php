@@ -25,17 +25,18 @@ $exptFolder = 'metadata/' . $farm;
 $summary = '';
 $filedatacite = $exptFolder . '/' . 'summary.json';
 $hasDatacite = file_exists($filedatacite);
+$page_description = '';
 if ($hasDatacite) {
     $datacite = file_get_contents($filedatacite);
     $datacite = utf8_encode($datacite);
     $summary = json_decode($datacite, true);
+    $page_description = $summary['administrative']['description'];
 }
 
 $pageinfo = getPageInfo($farm);
-$page_description = $summary['administrative']['description'];
-$KeyRef = $pageinfo['KeyRef']; // this is the variable that is used to pull out the bibliography from the database
 
-$page_title .=  $pageinfo['Experiment'];
+$KeyRef = ''.$pageinfo['KeyRef']; // this is the variable that is used to pull out the bibliography from the database
+$page_title .=  ''.$pageinfo['Experiment'];
 
 /*
  * filedatacite contains schema information So we may want one
