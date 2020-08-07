@@ -1,6 +1,6 @@
 <?php
 /** 
- * @file expt.php
+ * @file site.php
  * @brief Experiment File. 
  * 
  * @author Nathalie Castells-Brooke

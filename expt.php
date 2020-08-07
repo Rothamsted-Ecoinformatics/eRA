@@ -184,7 +184,7 @@ echo title_case($experiment['administrative']['name']);
 
     if (isset($ref)) {
         $KeyRef = $ref;
-    }
+    } 
     if ($dev == 'norton') {
         echo $KeyRef;
     } else {

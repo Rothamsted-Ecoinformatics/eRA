@@ -454,7 +454,7 @@ function processCell($item)
                     $pCell = '<a href="' . $cell . '">' . $cell . '</a>';
                     break;
                 case 'Experiment':
-                    $pCell = '<a href="expt.php?expt=' . $cell . '">' . $cell . '</a>';
+                    $pCell = '<a href="experiment/' . $cell . '">' . $cell . '</a>';
                     break;
                 case 'FileName':
                     

@@ -104,7 +104,7 @@ if (! $hasDatasets) {
         // $info .="\n \t <h4 class=\"card-title\">Light card title</h4>";
         $info .= "\n	\t	\t		<small class=\"card-muted\">" . $subDescription . " </small>";
         $info .= "\n	\t		</div>";
-        $info .= "\n	\t	<div class=\"card-footer\"> <a class=\"btn btn-primary stretched-link\" href=\"dataset.php?expt=" . $expt . "&amp;dataset=" . $dataset['UID'] . "\"> More ...</a></div>";
+        $info .= "\n	\t	<div class=\"card-footer\"> <a class=\"btn btn-primary stretched-link\" href=\"dataset/" . $expt . "/" . $dataset['UID'] . "\"> More ...</a></div>";
 
         $info .= "\n	\t	</div>";
         $info .= "\n	\t	</div>";
