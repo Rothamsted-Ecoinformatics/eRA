@@ -44,14 +44,25 @@ RewriteCond %{REQUEST_FILENAME} !-d
  RewriteRule ^RRN2$ expt.php?expt=rpg5&sub=$1#documents [NE]
  RewriteRule ^RRN2/([a-zA-Z-0-9_\/]*)$ expt.php?expt=rpg5&sub=$1#documents [NE]
 
- RewriteRule ^WoburnFarm$ index.php?area=home&page=index&dataset=14
- RewriteRule ^WoburnFarm/([a-zA-Z-0-9_\/]*)$ index.php?area=home&page=index&dataset=14&sub=$1#documents [NE] 
- RewriteRule ^Saxmundham$ index.php?area=home&page=index&dataset=18
- RewriteRule ^Saxmundham/([a-zA-Z-0-9_\/]*)$ index.php?area=home&page=index&dataset=18&sub=$1#documents [NE] 
+ RewriteRule ^WoburnFarm$ site.php?farm=woburn
+ RewriteRule ^WoburnFarm/([a-zA-Z-0-9_\/]*)$ site.php?farm=woburn [NE] 
+ RewriteRule ^Saxmundham$ site.php?farm=saxmundham
+ RewriteRule ^Saxmundham/([a-zA-Z-0-9_\/]*)$ site.php?farm=saxmundham 
  
 # special
  RewriteRule ^DET$ index.php?area=home&page=index&dataset=13
  RewriteRule ^DET/([a-zA-Z-0-9_\/]*)$ index.php?area=home&page=index&dataset=13&sub=$1#documents [NE]
+
+# New URLs
+	RewriteRule ^site/([^/]+)/([^/]+)$ site.php?farm=$1&sub=$2 [L]
+	RewriteRule ^site/([^/]+)$ site.php?farm=$1 [L]
+	RewriteRule ^experiment/([^/]+)/([^/]+)$ expt.php?expt=$1&sub=$2 [L]
+	RewriteRule ^experiment/([^/]+)$ expt.php?expt=$1 [L]
+
+	RewriteRule ^dataset/([^/]+)$ dataset.php?dataset=$1 [L]
+	RewriteRule ^station/([^/]+)/([^/]+)$ station.php?expt=$1&sub=$2 [L]
+	RewriteRule ^station/([^/]+)$ station.php?expt=$1 [L]
+
 
 
  RewriteRule ^home - [L]
