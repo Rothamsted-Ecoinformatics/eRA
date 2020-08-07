@@ -59,7 +59,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 	RewriteRule ^experiment/([^/]+)/([^/]+)$ expt.php?expt=$1&sub=$2 [L]
 	RewriteRule ^experiment/([^/]+)$ expt.php?expt=$1 [L]
 
-	RewriteRule ^dataset/([^/]+)$ dataset.php?dataset=$1 [L]
+	RewriteRule ^dataset/([^/]+)/([^/]+)$ dataset.php?expt=$1&dataset=$2 [L]
 	RewriteRule ^station/([^/]+)/([^/]+)$ station.php?expt=$1&sub=$2 [L]
 	RewriteRule ^station/([^/]+)$ station.php?expt=$1 [L]
 

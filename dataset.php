@@ -15,7 +15,7 @@ include_once 'includes/init.inc'; // these are the settings that refer to more t
 $pageinfo = getPageInfo($expt);
 $KeyRef = $pageinfo['KeyRef'];
 $exptFolder = 'metadata/' . $expt;
-$page_title .= ' dataset' . $dataset;
+$page_title .= ' dataset: ' . $dataset;
 $datasetParts = explode("-", $dataset);
 $pageinfo = getPageInfo($expt);
 $KeyRef = $pageinfo['KeyRef'];
