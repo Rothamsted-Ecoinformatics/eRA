@@ -189,7 +189,7 @@ IF(`eraPapers`.Year IS NULL or `eraPapers`.Year='', 1, 0)AS yearnull ,
 					<?php
         // echo $query;
         $link = LogAsGuest();
-        echo ($query);
+        //echo ($query);
         $resultk2 = mysqli_query($link,$query);
         if (! $resultk2) {
             print("query failed");
