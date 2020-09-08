@@ -14,9 +14,9 @@ function GetKeyRefs($KeyRef)
     order by `yearnull` desc, `Year`  Desc";
     
     // echo $query; //Change that with Listing Unreviewed poster in a separate category.
-    LogAsGuest();
+    $link = LogAsGuest();
     
-    $resultk2 = mysqli_query($query);
+    $resultk2 = mysqli_query($link, $query);
     $num_rowsk2 = mysqli_num_rows($resultk2);
     
     if (! $resultk2) {
@@ -57,16 +57,16 @@ function GetKeyRefs($KeyRef)
                     $ReferenceLine = $ReferenceLine . ", $rowk2[Pages]";
                 }
                 if ($rowk2[GRID]) {
-                    $ReferenceLine = $ReferenceLine . "<br /> <b><A HREF=\"\" target=\"popup\" onClick=\"NewWindow('http://www.era.rothamsted.ac.uk/eradoc/article/$rowk2[GRID]', 'popup', 850, 700, 'center'); return false; window.name('Main');\">Get Paper from eRAdoc</a></b>";
+                    $ReferenceLine = $ReferenceLine . "<br /> <b><a target=\"_blank\" href=\"http://www.era.rothamsted.ac.uk/eradoc/article/".$rowk2[GRID]."\">Get from eRAdoc: ".$rowk2[GRID]."</a></b>";
                 }
                 
                 if ($rowk2[DOI]) {
-                    $ReferenceLine = $ReferenceLine . "<br /> <b><A HREF=\"\" target=\"popup\" onClick=\"NewWindow('http://dx.doi.org/$rowk2[DOI]', 'popup', 850, 700, 'center'); return false; window.name('Main');\">Get Paper</a></b>";
+                    $ReferenceLine = $ReferenceLine . "<br /> <b><a target=\"_blank\" href=\"http://dx.doi.org/".$rowk2[DOI]."\">DOI: ".$rowk2[DOI]."</a></b>";
                 } elseif ($rowk2[URL]) {
                     if (substr_count($rowk2[URL], "<GO") > 0) {
                         ;
                     } else {
-                        $ReferenceLine = $ReferenceLine . "<br /> <b><A HREF=\"\" target=\"popup\" onClick=\"NewWindow('http://dx.doi.org/$rowk2[DOI]', 'popup', 850, 700, 'center'); return false; window.name('Main');\">Get Paper</a></b>";
+                        $ReferenceLine = $ReferenceLine . "<br /> <b><A  target=\"_blank\" href=\"http://dx.doi.org/".$rowk2[DOI]."\">Get Paper</a></b>";
                     }
                 } else {}
                 
@@ -94,9 +94,9 @@ function GetKeyRefs($KeyRef)
  */
 function outputTAB($query)
 { // prepare a file called export.txt in index directory to export Library as TAB
-LogAsGuest();
+$link = LogAsGuest();
 
-$resultk2 = mysqli_query($query);
+$resultk2 = mysqli_query($link , $query);
 if (! $resultk2) {
     print("query failed");
 } else {
@@ -130,9 +130,9 @@ fclose($fh);
 
 function outputEN($query)
 {
-    LogAsGuest();
+    $link = LogAsGuest();
     
-    $resultk2 = mysqli_query($query);
+    $resultk2 = mysqli_query($link , $query);
     if (! $resultk2) {
         print("query failed");
     } else {

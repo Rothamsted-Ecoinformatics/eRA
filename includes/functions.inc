@@ -163,7 +163,7 @@ function LogAsGuest()
     mysqli_select_db($link, $ltwogd1yr) or exit(); // select rrr database
     if ($link)
         $debug .= "Connected";
-    echo $debug;
+    //echo $debug;
     return $link;
 }
 
