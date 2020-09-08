@@ -9,17 +9,18 @@
  * @date 9/27/2018
  */
 ?>
-<a name="tools" id ="tools"></a>
+<a name="tools" id="tools"></a>
 <div class="row p-3 m-3">
 
-<h1>e-RA tools</h1>
+	<h1>e-RA tools</h1>
 
 </div>
 <div id="rowCards" class="row mx-0 p-2">
+	<!-- 
 	<div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 mb-3">
-
+		
 		<div class="card  h-100">
-
+			
 			<div class="card-body">
 				<h5 class="card-title">e-RAsearch</h5>
 				<p class="card-text small">Find out which datasets are most suited
@@ -31,8 +32,10 @@
 				</a>
 			</div>
 		</div>
+		
 	</div>
-	<div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 mb-3">
+	-->
+	<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-3">
 		<div class="card h-100">
 
 			<div class="card-body">
@@ -48,7 +51,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 mb-3">
+	<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-3">
 		<div class="card h-100">
 
 			<div class="card-body">
@@ -66,7 +69,7 @@
 		</div>
 	</div>
 
-	<div class="col-sm-12 col-md-6 col-lg-6 col-xl-3 mb-3">
+	<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-3">
 		<div class="card h-100">
 
 			<div class="card-body">
