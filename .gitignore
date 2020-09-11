@@ -15,3 +15,5 @@ metadata/.settings/org.eclipse.wst.jsdt.ui.superType.container
 metadata/.settings/org.eclipse.wst.jsdt.ui.superType.name
 metadata/rbk1/FISHER1921/FISHER1921.json.old
 .project
+.vscode/settings.json
+test.php
