@@ -9,9 +9,15 @@
 	<h2 class="d-block">Meteorological data available in WOBMET</h2>
 	</div>
 	<div class="row">
-	<p class="clearfix">Daily meteorological data recorded at Woburn, Bedfordshire available since 1928. Manual observations ceased on 1st July 1999, 
-and meteorological records are now measured by a range of sensors attached to an automatic data logger. Hourly data from 2004 is available from the <a
+	<p class="clearfix">Daily meteorological data recorded at Woburn, Bedfordshire available since 1928. 
+	Manual observations ceased on 1st July 1999, and meteorological records are now measured by a range of sensors 
+	attached to an automatic data logger. The datalogger was upgraded from a CR10X to a CR1000X on Sept 10th 2020. Hourly data from 2004 is available from the <a
 			href="register.php"> e-RA Curators.</a> </p>
+			<p>Since 2009 occasional missing data, due to equipment failure, has been supplied as raw data from the Met. Office weather station at the same site. 
+				This is indicated in the descriptions below. 
+				Please ensure you cite this.  
+				Met. Office raw data was used for all variables 18/07/2013-26/07/2013 and 09/10/2013-11/10/2013.
+				&copy Crown Copyright 2013 Published by the Met. Office. </p> </div>
 	<div class="table-responsive-sm">
 		<table
 			class="table  table-responsive-sm table-sm table-bordered"
@@ -66,8 +72,7 @@ and meteorological records are now measured by a range of sensors attached to an
 	
 					<p>Discontinued on 1st December 2009 and replaced by a Relative Humidity Sensor
 					to measure  <b>RELH</b> and from which <b>VAP</b> and <b>DEWP</b> are now
-						calculated after the method of <a href="https://doi.org/10.1175/1520-0450(1977)016<0100:AAPFTC>2.0.CO;2">Lowe
-							(1977).</a></p>
+						calculated.</a></p>
 					<p></p>
 						</td>
 				</tr>
@@ -89,8 +94,10 @@ and meteorological records are now measured by a range of sensors attached to an
 					<td><p>Recorded at 0900GMT.</p>
 					<p>Derived from <b>DRYB</b> and <b>RELH</b> since December 1st 2009, calculated after the method of 
 					<a href="https://doi.org/10.1175/1520-0450(1977)016<0100:AAPFTC>2.0.CO;2">Lowe
-							(1977).</a> 
-					Previously derived from <b>DRYB</b> and <b>WETB</b>, calculated by the datalogger 
+							(1977)</a>. From 10th September 2020 calculated after the method of <a
+									href="https://doi.org/10.1175/1520-0450(1981)020<1527:NEFCVP>2.0.CO;2">Buck
+									(1981)</a>, within the datalogger. </a> 
+					Previously derived from <b>DRYB</b> and <b>WETB</b>, calculated within the datalogger 
 					(see <a href="info.php?FileName=derived_variables&expt=met"> derived variables<a>).
 					Before 1999 calculated from hygrometric tables. 
 					There were problems with <B>WETB</b> drying out and there is no data 16/06/2009-08/10/2009.</p>
@@ -191,10 +198,11 @@ and meteorological records are now measured by a range of sensors attached to an
 					<td>Rainfall</td>
 					<td>1928-current date</td>
 					<td><p>Recorded at 0900GMT, for the total rainfall over the previous 24 hours, </p> 
-					<p>Since 1999, rainfall has been measured by an
+					<p>Since Sept 10th 2020 recorded with an SBS500  tipping bucket rain gauge, funnel diameter 25.2cm and calibrated to tip at 
+					0.2mm, manufactured by 
+					 Environmental Measurements Ltd (EML), supplied and calibrated by Campbell Scientific. From 1999 until Sept 2020, rainfall was measured by an
 					electronic tipping bucket rain gauge of 25.4cm (10 inch) diameter,
-					calibrated to tip at 0.2mm, ARG100 (manufactured by Environmental Measurements Ltd (EML), 
-							supplied and calibrated by Campbell Scientific). It was originally measured manually using
+					calibrated to tip at 0.2mm, ARG100 (manufactured by EML, supplied and calibrated by Campbell Scientific). It was originally measured manually using
 					a 12.7cm (5 inch) copper cylindrical rain gauge. </p>
 
 				<p>EML state that the "ARG100 rain gauge typically captures over 5% more rainfall than most 
@@ -204,7 +212,10 @@ and meteorological records are now measured by a range of sensors attached to an
 					
 					<p>"Missing values" There are some instances before 1968 when no data is shown for <b>RAIN</b> (rather than zero). 
 					This is because a 'trace' of rain, snow, mist, dew or fog was manually recorded. A 'trace' is less than 0.05mm. 
-					For most purposes a missing value can be assumed to be zero. </p></td>
+					For most purposes a missing value can be assumed to be zero. </p>
+					<p>Missing data was supplied by the Met. Office for the following dates: 01/07/2009-08/10/2009; 
+					18/07/2013-26/07/2013; 09/10/2013-11/10/2013; 20/06/2015-28/06/2015; 16/06/2016-20/07/2016. &copy Crown Copyright 2009; 2013; 2015; 2016. 
+					Published by the Met. Office. </p></td>
 				</tr>
 				<!--  tr>
 					<td>RDUR</td>
@@ -242,7 +253,10 @@ and meteorological records are now measured by a range of sensors attached to an
 					<td><p>Total (global) solar radiation in previous 24 hours, 0000GMT to 2400GMT.</p>
 					<p>Since July 1999 solar radiation has been recorded automatically using a Kipp and Zonen thermopile pyranometer,  
 					model CM5, then model CM6B until 2016, currently model CMP6.  
-					Previously it was recorded manually. No data was recorded 1/12/1998-28/6/1999. </p> </td>
+					Previously it was recorded manually. No data was recorded 1/12/1998-28/6/1999. </p> 
+					<p>Missing data was supplied by the Met. Office for the following dates: 
+					18/07/2013-26/07/2013; 09/10/2013-11/10/2013; 07/06/2015-20/07/2016.
+					&copy Crown Copyright 2013, 2015, 2016	Published by the Met. Office. </p>					</td>
 				</tr>
 				<tr name="title_row">
 					<td colspan="5"><h3>Cloud</h3></td>
@@ -441,8 +455,11 @@ and meteorological records are now measured by a range of sensors attached to an
 					<td>1928-1978; 1988-current date</td>
 					<td><p>Recorded at 0900GMT</p>
 					<p>From December 2009 onwards calculated within the datalogger from <b>RELH</b> and <b>DRYB</b> after the method of 
-					<a href="https://doi.org/10.1175/1520-0450(1977)016<0100:AAPFTC>2.0.CO;2">Lowe (1977).</a>. 
-					Before December 2009 calculated within the datalogger from <b>WETB</b> and <b>DRYB</b>, (see <a href="info.php?FileName=derived_variables&expt=met"> derived variables<a>). 
+					<a href="https://doi.org/10.1175/1520-0450(1977)016<0100:AAPFTC>2.0.CO;2">Lowe (1977)</a>. 
+					From 10th September 2020 calculated after the method of <a
+									href="https://doi.org/10.1175/1520-0450(1981)020<1527:NEFCVP>2.0.CO;2">Buck
+									(1981)</a>, within the datalogger. </a> <p>
+					</p>Before December 2009 calculated within the datalogger from <b>WETB</b> and <b>DRYB</b>, (see <a href="info.php?FileName=derived_variables&expt=met"> derived variables<a>). 
 					There were problems with <B>WETB</b> drying out and there is no data 16/06/2009-08/10/2009. Before 1999 calculated from hygrometric tables.
 					</p>
 					</td>
