@@ -1,24 +1,7 @@
-﻿<!-- h2 class="mx-3">Derived variables</h2> -->
-
-<div class="text-warning">
-	<p class="text-warning">
-		<b>Curation Progress: </b>
-	</p>
-
-	<ul class="list-group">
-		<li class="list-group-item">Draft made by Nath - 22/07/2020</li>
-
-	</ul>
-	<p>
-		<b>Comment the div when good enough.</b>
-	</p>
-</div>
 
 
-
-<div class="row mx-3">
-	<div class="col-4 border-right border-info ">
-		<h1>Derived meteorological variables</h1>
+<div class="mx-3">
+	
 		<p>The following derived variables are available when extracting meteorological 
 			data from the e-RA Data Extraction Tool, from ROTHMET, WOBMET and BROOMET. </p>
 			<P>All the 
@@ -28,6 +11,11 @@
 			above or below a base temperature. If this is not set, 0 degrees C is set as the default base temperature. </p>
 			<p>To get the full benefit of this calculated variables feature use either 
 				Google CHROME or FrontMotion Firefox. </p>
+</div>
+
+<div class="row mx-3">
+	<div class="col-4 border-right border-info ">
+		
 		<ul class="list-group">
 
 			<li class="list-group-item"><a href="#DDA"><b>DDA</b></a>: Day
@@ -132,7 +120,7 @@
 		</p>
 	</div>
 </div>
-<div class="m-3  border-top border-info">
+<div class="m-3">
 
 	<a name="DDB"></a>
 
@@ -232,16 +220,16 @@
 		</p>
 
 		<p>
-			SVAP=6.107799961+DRYB*(4.436518521*10<sup>-1</sup>+DRYB*(1.428945805*10<sup>-2</sup>+DRYB*(2.650648471*10<sup>-4</sup>+DRYB*(3.031240396*10<sup>-6</sup>+DRYB*(2.034080948*10<sup>-8</sup>+6.136820929*10<sup>-11</sup>*DRYB)))))
+			<b>SVAP</b>=6.107799961+DRYB*(4.436518521*10<sup>-1</sup>+DRYB*(1.428945805*10<sup>-2</sup>+DRYB*(2.650648471*10<sup>-4</sup>+DRYB*(3.031240396*10<sup>-6</sup>+DRYB*(2.034080948*10<sup>-8</sup>+6.136820929*10<sup>-11</sup>*DRYB)))))
 		</p>
-		<p>VAP = RELH * SVAP/100</p>
-		<p>SVAP = Saturated vapour pressure for the air temperature range
-			of -50°C to +50°C</p>
+		<p><b>VAP</b> = RELH * SVAP/100</p>
+		<p><b>SVAP</b> = Saturated vapour pressure for the air temperature range
+			of -50&deg;C to +50&deg;C</p>
 	</div>
 </div>
 <a name="DEWP"></a>
 
-<div class="mt-5 mx-3  border-top border-info">
+<div class="mt-5 mx-3">
 	<h4>Calculation of dew point (DEWP)</h4>
 
 
@@ -265,14 +253,10 @@
 
 
 	<div class="m-3">
-		<p>SVAP = Saturated vapour pressure</p>
-		<p>VAP = Actual vapour pressure (see above)</p>
-		<p>SVAP = 6.1375*EXP(17.502*DRYB/(240.97+DRYB)) (Buck, 1981)</p>
-		<p>RELH = 100 * (VAP/SVAP)</p>
-
-
-
-
+		<p><b>SVAP</b> = Saturated vapour pressure</p>
+		<p><b>VAP</b> = Actual vapour pressure (see above)</p>
+		<p><b>SVAP</b> = 6.1375*EXP(17.502*DRYB/(240.97+DRYB)) (Buck, 1981)</p>
+		<p><b>RELH</b> = 100 * (VAP/SVAP)</p>
 	</div>
 </div>
 <div class="mt-5 mx-3  border-top border-info">
@@ -282,14 +266,15 @@
 
 	<div class="m-3">
 
+		
 		<p>Cos, sin and tan have the usual trigonometric meanings</p>
 		<p>Sqrt the square root function</p>
 		<p>nday_val is the day number (Julian date) of the record in
 			question e.g. 1st Feb. = 32</p>
 		<p>days_in_year ordinarily is 365, but 366 in a leap year</p>
 		<p>stn_latitude is the latitude of the station in question:
-			Rothamsted = 51.81ºN</p>
-		<p>Woburn = 52.017 ºN Brooms Barn = 52.267 ºN.</p>
+			Rothamsted = 51.81&deg;N</p>
+		<p>Woburn = 52.017 &deg;N Brooms Barn = 52.267 &deg;N.</p>
 		<p>hrday is the maximum amount of sunshine in hours, that a
 			latitude can receive. (i.e. cloudless all day)</p>
 		<p>sunfr is the sun fraction, the ratio of recorded hours of sun

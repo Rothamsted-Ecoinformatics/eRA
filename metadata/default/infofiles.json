@@ -87,7 +87,7 @@
 	{
 		"Credit": "eRA curators",
 		"FileName": "derived_variables",
-		"Caption": "Derived Variables",
+		"Caption": "Derived Meterological Variables",
 		"Type": "html",
 		"exptID": "met",
 		"isReviewed": 1

@@ -101,30 +101,18 @@ include 'includes/header.html'; // all the menus at the top
 ?>
 
 
-
-
-
 <div id="idExpt" class="p-0 mb-0">
 			<div id="greenTitle"
 				class="d-flex  mb-3 py-3 p3-3 bg-info text-white mt-0 ">
-
 				<h1 class="mx-3"> <?php echo $h1Title;?></h1>
-			
 			</div>
-
-<?php 
-// -- start dependant content ---------------------------------------------------------
+<?php
 include_once 'metadata/' . $expt . '/' . $FileName.'.'.$ext;
-// -- start footers -----------------------------
-
 include_once 'includes/footer.html'; // this has the green bar and bottom
-
 ?>
  </div>
 <?php
-
 include_once 'includes/finish.inc'; // this has the common js scripts
-
 ?>
 <!--  include here the page dependant scripts -->
 
