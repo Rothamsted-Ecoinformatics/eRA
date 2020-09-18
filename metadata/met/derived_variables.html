@@ -90,14 +90,14 @@
 	<h4>Calculation of Temperature derived Items:</h4>
 
 	<div class="m-3">
-		<a name="TRANGE"></a>
+		<a id="TRANGE"></a>
 
 		<p>TRANGE = TMAX - TMIN : Range (&deg;C)</p>
 
-		<a name="AVTEMP"></a>
+		<a id="AVTEMP"></a>
 		<p>AVTEMP = (TMAX+TMIN)/2 : Average temperature (&deg;C)</p>
 
-		<a name="TLIM"></a> <a name="DDA"></a>
+		<a id="TLIM"></a> <a id="DDA"></a>
 	</div>
 </div>
 <div class="m-3">
@@ -109,7 +109,7 @@
 			If TMIN >= TLIM then <b>DDA</b> = AVTEMP - TLIM
 		</p>
 		<p>
-			If TMAX< = TLIM then <b>DDA</b> = 0
+			If TMAX &lt;= TLIM then <b>DDA</b> = 0
 		</p>
 		<p>
 			If (TMAX - TLIM) >= (TLIM - TMIN) then <b>DDA</b> = (TMAX - TLIM)/2 -
@@ -122,7 +122,7 @@
 </div>
 <div class="m-3">
 
-	<a name="DDB"></a>
+	<a id="DDB"></a>
 
 
 </div>
@@ -131,10 +131,10 @@
 
 	<div class="m-3">
 		<p>
-			If TMIN > = TLIM then <b>DDB</b> = 0 in (&deg;C)
+			If TMIN >= TLIM then <b>DDB</b> = 0 in (&deg;C)
 		</p>
 		<p>
-			If TMAX <= TLIM then <b>DDB</b> = TLIM - AVTEMP
+			If TMAX &lt;=  TLIM then <b>DDB</b> = TLIM - AVTEMP
 		</p>
 		<p>
 			If (TMAX - TLIM) >= (TLIM - TMIN) then <b>DDB</b> = (TLIM - TMIN)/4
@@ -143,9 +143,9 @@
 			If none of these then <b>DDB</b> = (TLIM - TMIN)/2 - (TMAX - TLIM)/4
 		</p>
 
-		<a name="ACDDA"></a> <a name="ACDDB"></a>
+		<a id="ACDDA"></a> <a id="ACDDB"></a>
 		<p>
-			<b>ACCDDA & ACCDDB</b>
+			<b>ACCDDA &amp; ACCDDB</b>
 		</p>
 
 		<p>Accumulated day degree data: this is a running total, and an
@@ -156,7 +156,7 @@
 			in the Energy Efficiency Office (1985).
 		</p>
 
-		<a name="WINDRUN"></a>
+		<a id="WINDRUN"></a>
 	</div>
 </div>
 <div class="mt-5 mx-3  border-top border-info">
@@ -191,7 +191,7 @@
 			equations of Buck (1981) werre used alongside those of the Met Office
 			(1964) and Allen et al (2006), as shown below for Rothamsted.
 		</p>
-		<a name="VAP"></a>
+		<a id="VAP"></a>
 	</div>
 </div>
 <div class="m-3">
@@ -210,7 +210,7 @@
 		</p>
 
 		<p>
-			If WETB <=0, <b>VAP</b>=6.1389*EXP(22.452*WETB/(272.55+WETB))-0.720*(DRYB-WETB)
+			If WETB &lt;= 0, <b>VAP</b>=6.1389*EXP(22.452*WETB/(272.55+WETB))-0.720*(DRYB-WETB)
 		</p>
 
 		<p>
@@ -227,7 +227,7 @@
 			of -50&deg;C to +50&deg;C</p>
 	</div>
 </div>
-<a name="DEWP"></a>
+<a id="DEWP"></a>
 
 <div class="mt-5 mx-3">
 	<h4>Calculation of dew point (DEWP)</h4>
@@ -243,8 +243,8 @@
 
 		<p>
 			At <b>Woburn</b>, DEWP has been calculated within the datalogger from
-			DRYB and WETB and RELH after Lowe (1977). <a name="RELH"></a> <a
-				name="RELH"></a>
+			DRYB and WETB and RELH after Lowe (1977). <a id="RELH"></a> <a
+				id="RELH"></a>
 		</p>
 	</div>
 </div>
@@ -296,7 +296,7 @@
 		<p>snl = sin((stn_latitude*3.14159)/180)</p>
 		<p>cshass = (-0.014544 - (snl*sndecl))/(csl*csdecl)</p>
 		<p>snhass = sqrt(1 - cshass*cshass)</p>
-		<p>hass = atan(snhass/cshass) if hass < 0 then hass = hass +
+		<p>hass = atan(snhass/cshass) if hass &lt; 0 then hass = hass +
 			3.14159</p>
 		<p>hrday = hass*24/3.14159</p>
 		<p>sunfr = SUN/ hrday</p>
@@ -347,7 +347,7 @@
 
 
 
-		<a name="RAD"></a>
+		<a id="RAD"></a>
 	</div>
 </div>
 <div class="m-3">
@@ -371,7 +371,7 @@
 		<p>NB: The calculated value for radiation should be divided by
 			1,000,000 to express MJ rather than joules of energy.</p>
 
-		<a name="EVAPG"></a>
+		<a id="EVAPG"></a>
 	</div>
 </div>
 
@@ -385,7 +385,7 @@
 			AVTEMP)) - (VAP)* (d1g + (WINDRUN* .0062137)))</p>
 
 
-		<p>if EA_GRASS < 0 then EA_GRASS = 0</p>
+		<p>if EA_GRASS &lt; 0 then EA_GRASS = 0</p>
 
 		<p>hj_g = d0g * (1000000 * RAD) - fnt2</p>
 
@@ -395,7 +395,7 @@
 
 		<p>HMM = (hj_g * ev1)/ 0.66</p>
 
-		<a name="EVAPW"></a>
+		<a id="EVAPW"></a>
 	</div>
 </div>
 <div class="m-3">
@@ -405,7 +405,7 @@
 		<p>EA_WATER = 0.2625 * ((6.1078 * exp((17.269 * AVTEMP)/(237.3 +
 			AVTEMP)) - (VAP)*(d1w + (WINDRUN * 0.0062137)))</p>
 
-		<p>if EA_WATER < 0 then EA_WATER = 0;</p>
+		<p>if EA_WATER &lt; 0 then EA_WATER = 0;</p>
 
 		<p>hj_w = d0w * (1000000 * RAD) fnt2</p>
 
@@ -418,7 +418,7 @@
 			detail in Berry (1964).</p>
 
 
-		<a name="SMD"></a>
+		<a id="SMD"></a>
 	</div>
 </div>
 <div class="mt-5 mx-3  border-top border-info">
@@ -426,7 +426,7 @@
 
 
 	<div class="m-3">
-		<a name="APSMD"></a>
+		<a id="APSMD"></a>
 		<p>
 			<b>PSMD = PSMD + EVAPG - RAIN (Not negative)</b>
 		</p>
