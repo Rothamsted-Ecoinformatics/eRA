@@ -10,7 +10,7 @@
  */
 include_once 'includes/init.inc'; // these are the settings that refer to more than one page
 
-$page_title .= "- eRApubs";
+$page_title .= " - eRApubs";
 
 
 

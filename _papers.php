@@ -28,7 +28,7 @@
 				<hr />
 				<div class="form-group">
 					<label for="expt[]" multiple="multiple">Experiment:</label> <select
-						class="form-control" multiple id="expt[]" name="expt[]" onclick="document.paperForm.submit()">
+						class="form-control" multiple id="expt[]" name="expt[]" >
 						<option value="Broadbalk">Broadbalk</option>
 						<option value="Park Grass">Park Grass</option>
 						<option value="Hoosfield">Hoosfield</option>
@@ -93,7 +93,6 @@
 					<?php
     }
     if ($submit == "Search") {
-        
         // ------------year-----------------
         
         if ($stopyear == "") {
@@ -107,10 +106,11 @@
             $stringYear = "";
         }
         
-        if (isset($expt)) {
+        if (isset($_GET['expt'])) {
             // -----keywords-------------------
             $stringKeywords = "AND (";
-            
+            $expt = $_GET['expt'];
+            //pretty($expt);
             foreach ($expt as $value) {
                 // echo "keyword <b> $value </b>is SELECTED <br />";
                 $stringKeywords = $stringKeywords . "`Keywords` LIKE '%$value%'  OR ";
@@ -125,7 +125,7 @@
         $stringTitle = "";
         if ($SearchTitle) {
             $stringTitle = "AND (`Title` LIKE '%$SearchTitle%' OR `Keywords` LIKE '%$SearchTitle%' ";
-            echo ("With  <b>$SearchTitle  </b>in the title <br />");
+            //echo ("With  <b>$SearchTitle  </b>in the title <br />");
             if ($SearchSum) {
                 $stringTitle = $stringTitle . "OR `Comment` LIKE '%$SearchTitle%' ";
             }
@@ -135,7 +135,7 @@
         $StringNameSearch = "AND (";
         if ($SearchAuthor) {
             $StringNameSearch .= "`Authors` LIKE '%$SearchAuthor%' AND ";
-            // echo ("With <b>$SearchAuthor </b> in the Author's list <br />");
+             //echo ("With <b>$SearchAuthor </b> in the Author's list <br />");
         }
         $StringNameSearch .= "`RefType` IS NOT NULL)";
         // echo $StringNameSearch;
@@ -244,13 +244,13 @@ IF(`eraPapers`.Year IS NULL or `eraPapers`.Year='', 1, 0)AS yearnull ,
                 }
                 $link = 0;
                 if (strlen(trim($rowk2[eradocDOI])) > 1) {
-                    $ReferenceLine = $ReferenceLine . "<br /> <b>DOI: <A HREF=\"$rowk2[eradocDOI]\" >$rowk2[eradocDOI]</a></b>";
+                    $ReferenceLine = $ReferenceLine . "<br /> <b>DOI: <a target = \"_blank\" href=\"$rowk2[eradocDOI]\" >$rowk2[eradocDOI]</a></b>";
                     $link = 1;
                 } else if (strlen(trim($rowk2[eRAGRID])) > 1) {
-                    $ReferenceLine = $ReferenceLine . "<br /> <b>eRAdocID: <A HREF=\"http://www.era.rothamsted.ac.uk/eradoc/article/$rowk2[eRAGRID]\" >$rowk2[eRAGRID]</a></b>";
+                    $ReferenceLine = $ReferenceLine . "<br /> <b>eRAdocID: <a target = \"_blank\" href=\"http://www.era.rothamsted.ac.uk/eradoc/article/$rowk2[eRAGRID]\" >$rowk2[eRAGRID]</a></b>";
                     $link = 1;
                 } else if (strlen(trim($rowk2[PaperDOI])) > 1) {
-                    $ReferenceLine = $ReferenceLine . "<br /> <b>DOI: <A HREF=\"http://dx.doi.org/$rowk2[PaperDOI]\" >$rowk2[PaperDOI]</a></b>";
+                    $ReferenceLine = $ReferenceLine . "<br /> <b>DOI: <a target = \"_blank\" href=\"http://dx.doi.org/$rowk2[PaperDOI]\" >$rowk2[PaperDOI]</a></b>";
                     $link = 1;
                 } else if (strlen(trim($rowk2[URL])) > 1 && ! strstr(trim($rowk2[URL]), '<')) {
                     
