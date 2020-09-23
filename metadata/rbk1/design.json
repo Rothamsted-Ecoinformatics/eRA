@@ -22,7 +22,7 @@
         },
         "crops": [
             {
-                "id": 6736,
+                "id": 6901,
                 "name": "winter wheat",
                 "dateStart": null,
                 "dateEnd": null
@@ -31,19 +31,19 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 3531,
+                "id": 3796,
                 "name": "nitrogen fertilizer exposure",
                 "description": "Inorganic nitrogen fertilizer in various forms and amounts applied annually",
                 "effect": "",
                 "plotApplication": "nitrogen fertilizer exposure",
                 "level": [
                     {
-                        "id": 10808,
+                        "id": 11506,
                         "name": "N1",
                         "amount": "48",
                         "unitCode": "kgN/ha",
                         "unitText": "kg nitrogen per hectare",
-                        "appliedToCrop": 6736,
+                        "appliedToCrop": 6901,
                         "dateStart": 1852,
                         "dateEnd": 1925,
                         "frequency": null,
@@ -52,12 +52,12 @@
                         "notes": "All applied in autumn, 1852-1877, all applied in spring 1878-1883; 24 kgN applied in autumn, remainder applied in spring 1884-1925"
                     },
                     {
-                        "id": 10809,
+                        "id": 11507,
                         "name": "N1*",
                         "amount": "48",
                         "unitCode": "kgN/ha",
                         "unitText": "kg nitrogen per hectare",
-                        "appliedToCrop": 6736,
+                        "appliedToCrop": 6901,
                         "dateStart": 1852,
                         "dateEnd": 1925,
                         "frequency": null,
@@ -66,12 +66,12 @@
                         "notes": "All applied in spring, as one application until 1898, as two equal amounts 1899-1925"
                     },
                     {
-                        "id": 10810,
+                        "id": 11508,
                         "name": "N1.5",
                         "amount": "72",
                         "unitCode": "kgN/ha",
                         "unitText": "kg nitrogen per hectare",
-                        "appliedToCrop": 6736,
+                        "appliedToCrop": 6901,
                         "dateStart": 1852,
                         "dateEnd": 1878,
                         "frequency": null,
@@ -80,12 +80,12 @@
                         "notes": "Applied to Plot 19 with rape cake, All applied in autumn"
                     },
                     {
-                        "id": 10811,
+                        "id": 11509,
                         "name": "N2",
                         "amount": "96",
                         "unitCode": "kgN/ha",
                         "unitText": "kg nitrogen per hectare",
-                        "appliedToCrop": 6736,
+                        "appliedToCrop": 6901,
                         "dateStart": 1852,
                         "dateEnd": 1925,
                         "frequency": null,
@@ -94,12 +94,12 @@
                         "notes": "All applied in autumn, 1852-1877, all applied in spring 1878-1883; 24 kgN applied in autumn, remainder applied in spring 1884-1925, except to strip 15. Strip 15 N applied in spring 1873-77, N applied in autumn 1878-1925."
                     },
                     {
-                        "id": 10812,
+                        "id": 11510,
                         "name": "N2*",
                         "amount": "96",
                         "unitCode": "kgN/ha",
                         "unitText": "kg nitrogen per hectare",
-                        "appliedToCrop": 6736,
+                        "appliedToCrop": 6901,
                         "dateStart": 1852,
                         "dateEnd": 1925,
                         "frequency": null,
@@ -108,12 +108,12 @@
                         "notes": "All applied in spring, as one application until 1898, as two equal amounts 1899-1925"
                     },
                     {
-                        "id": 10813,
+                        "id": 11511,
                         "name": "N3",
                         "amount": "144",
                         "unitCode": "kgN/ha",
                         "unitText": "kg nitrogen per hectare",
-                        "appliedToCrop": 6736,
+                        "appliedToCrop": 6901,
                         "dateStart": 1852,
                         "dateEnd": 1925,
                         "frequency": null,
@@ -122,12 +122,12 @@
                         "notes": "All applied in autumn, 1852-1877, all applied in spring 1878-1883; 24 kgN applied in autumn, remainder applied in spring 1884-1925"
                     },
                     {
-                        "id": 10814,
+                        "id": 11512,
                         "name": "N4",
                         "amount": "192",
                         "unitCode": "kgN/ha",
                         "unitText": "kg nitrogen per hectare",
-                        "appliedToCrop": 6736,
+                        "appliedToCrop": 6901,
                         "dateStart": 1852,
                         "dateEnd": 1864,
                         "frequency": null,
@@ -138,19 +138,19 @@
                 ]
             },
             {
-                "id": 3532,
+                "id": 3797,
                 "name": null,
                 "description": "FYM from cattle",
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 10815,
+                        "id": 11513,
                         "name": "farmyard manure",
                         "amount": "35",
                         "unitCode": "t/ha",
                         "unitText": "tonnes per hectare",
-                        "appliedToCrop": 6736,
+                        "appliedToCrop": 6901,
                         "dateStart": 1843,
                         "dateEnd": 1925,
                         "frequency": "Annual",
@@ -161,19 +161,19 @@
                 ]
             },
             {
-                "id": 3533,
+                "id": 3798,
                 "name": "phosphate fertilizer exposure",
                 "description": "phosphate fertilizer",
                 "effect": "",
                 "plotApplication": "phosphate fertilizer exposure",
                 "level": [
                     {
-                        "id": 10816,
+                        "id": 11514,
                         "name": "P",
                         "amount": "35",
                         "unitCode": "kg/ha",
                         "unitText": "kilogram per hectare",
-                        "appliedToCrop": 6736,
+                        "appliedToCrop": 6901,
                         "dateStart": 1843,
                         "dateEnd": 1925,
                         "frequency": "annually",
@@ -184,19 +184,19 @@
                 ]
             },
             {
-                "id": 3534,
+                "id": 3799,
                 "name": "potassium fertilizer exposure",
                 "description": "Potassium fertilizer application",
                 "effect": "",
                 "plotApplication": "potassium fertilizer exposure",
                 "level": [
                     {
-                        "id": 10817,
+                        "id": 11515,
                         "name": "K",
                         "amount": "90",
                         "unitCode": "kg/ha",
                         "unitText": "kilogram per hectare",
-                        "appliedToCrop": 6736,
+                        "appliedToCrop": 6901,
                         "dateStart": 1843,
                         "dateEnd": 1925,
                         "frequency": "annually",
@@ -207,19 +207,19 @@
                 ]
             },
             {
-                "id": 3535,
+                "id": 3800,
                 "name": "sodium nutrient exposure",
                 "description": "sodium fertilizer application",
                 "effect": "",
                 "plotApplication": "sodium nutrient exposure",
                 "level": [
                     {
-                        "id": 10818,
+                        "id": 11516,
                         "name": "Na",
                         "amount": "16",
                         "unitCode": "kg/ha",
                         "unitText": "kilogram per hectare",
-                        "appliedToCrop": 6736,
+                        "appliedToCrop": 6901,
                         "dateStart": 1843,
                         "dateEnd": 1925,
                         "frequency": "annually",
@@ -230,19 +230,19 @@
                 ]
             },
             {
-                "id": 3536,
+                "id": 3801,
                 "name": "magnesium nutrient exposure",
                 "description": "Magnesium fertilizer application",
                 "effect": "",
                 "plotApplication": "magnesium nutrient exposure",
                 "level": [
                     {
-                        "id": 10819,
+                        "id": 11517,
                         "name": "Mg",
                         "amount": "11",
                         "unitCode": "kg/ha",
                         "unitText": "kilogram per hectare",
-                        "appliedToCrop": 6736,
+                        "appliedToCrop": 6901,
                         "dateStart": 1843,
                         "dateEnd": 1925,
                         "frequency": "annually",
@@ -253,19 +253,19 @@
                 ]
             },
             {
-                "id": 3537,
+                "id": 3802,
                 "name": "rapeseed cake exposure",
                 "description": "Organic manure supplying approx 96 kgN",
                 "effect": "",
                 "plotApplication": "rapeseed cake exposure",
                 "level": [
                     {
-                        "id": 10820,
+                        "id": 11518,
                         "name": "C",
                         "amount": null,
                         "unitCode": null,
                         "unitText": null,
-                        "appliedToCrop": 6736,
+                        "appliedToCrop": 6901,
                         "dateStart": 1852,
                         "dateEnd": 1926,
                         "frequency": "annually",
@@ -612,7 +612,7 @@
                 "scale": null,
                 "material": "SpecifiedCrop",
                 "description": "Grain and straw yields at field moisture content. Actual dry matter not measured, assumed to be approximately 85% dry matter.",
-                "crop": 6736
+                "crop": 6901
             },
             {
                 "variable": "weight per bushel dressed corn",
@@ -622,7 +622,7 @@
                 "scale": null,
                 "material": "SpecifiedCrop",
                 "description": "Bushel weights can be used to derive Hectolitre weights (HLWT),a measure of grain quality.",
-                "crop": 6736
+                "crop": 6901
             },
             {
                 "variable": "soil organic carbon",
@@ -673,6 +673,16 @@
                 "material": "Soil",
                 "description": "A single mean value for all plots which do not receive FYM and estimated values for plots which receive FYM, based on measurements made in 1865, 1881, 1893 (Dyer, 1902), 1914 (unpublished) and 2000 (Watts et al, 2006).",
                 "crop": null
+            },
+            {
+                "variable": "harvest date",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": "annually",
+                "scale": null,
+                "material": "SpecifiedCrop",
+                "description": "Includes both cutting and carting date, ie dates crop cut and then removed from the field.",
+                "crop": 6901
             }
         ]
     },
@@ -699,13 +709,13 @@
         },
         "crops": [
             {
-                "id": 6737,
+                "id": 6902,
                 "name": "winter wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 6738,
+                "id": 6903,
                 "name": "fallow",
                 "dateStart": null,
                 "dateEnd": null
@@ -714,19 +724,19 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 3538,
+                "id": 3803,
                 "name": "nitrogen fertilizer exposure",
                 "description": "Inorganic nitrogen fertilizer in various forms and amounts applied annually",
                 "effect": "",
                 "plotApplication": "nitrogen fertilizer exposure",
                 "level": [
                     {
-                        "id": 10821,
+                        "id": 11519,
                         "name": "N1",
                         "amount": "48",
                         "unitCode": "kg/ha",
                         "unitText": "kilogram per hectare",
-                        "appliedToCrop": 6737,
+                        "appliedToCrop": 6902,
                         "dateStart": 1926,
                         "dateEnd": 1967,
                         "frequency": "twice",
@@ -735,12 +745,12 @@
                         "notes": "24kgN applied in autumn, remainder in spring"
                     },
                     {
-                        "id": 10822,
+                        "id": 11520,
                         "name": "N2",
                         "amount": "96",
                         "unitCode": "kg/ha",
                         "unitText": "kilogram per hectare",
-                        "appliedToCrop": 6737,
+                        "appliedToCrop": 6902,
                         "dateStart": 1926,
                         "dateEnd": 1967,
                         "frequency": "twice",
@@ -749,12 +759,12 @@
                         "notes": "24kgN applied in autumn, remainder in spring"
                     },
                     {
-                        "id": 10823,
+                        "id": 11521,
                         "name": "N3",
                         "amount": "144",
                         "unitCode": "kg/ha",
                         "unitText": "kilogram per hectare",
-                        "appliedToCrop": 6737,
+                        "appliedToCrop": 6902,
                         "dateStart": 1926,
                         "dateEnd": 1967,
                         "frequency": "twice",
@@ -763,12 +773,12 @@
                         "notes": "24kgN applied in autumn, remainder in spring"
                     },
                     {
-                        "id": 10824,
+                        "id": 11522,
                         "name": "N1*",
                         "amount": "48",
                         "unitCode": "kg/ha",
                         "unitText": "kilogram per hectare",
-                        "appliedToCrop": 6737,
+                        "appliedToCrop": 6902,
                         "dateStart": 1926,
                         "dateEnd": 1967,
                         "frequency": "twice",
@@ -777,12 +787,12 @@
                         "notes": "Applied in spring as two equal amounts"
                     },
                     {
-                        "id": 10825,
+                        "id": 11523,
                         "name": "N2*",
                         "amount": "96",
                         "unitCode": "kg/ha",
                         "unitText": "kilogram per hectare",
-                        "appliedToCrop": 6737,
+                        "appliedToCrop": 6902,
                         "dateStart": 1926,
                         "dateEnd": 1967,
                         "frequency": "twice",
@@ -793,19 +803,19 @@
                 ]
             },
             {
-                "id": 3539,
+                "id": 3804,
                 "name": null,
                 "description": "FYM from cattle",
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 10826,
+                        "id": 11524,
                         "name": "farmyard manure",
                         "amount": "35",
                         "unitCode": "t/ha",
                         "unitText": "tonnes per hectare",
-                        "appliedToCrop": 6737,
+                        "appliedToCrop": 6902,
                         "dateStart": 1926,
                         "dateEnd": 1967,
                         "frequency": "Once a year",
@@ -841,7 +851,7 @@
                 "scale": null,
                 "material": "SpecifiedCrop",
                 "description": "Grain and straw yields at field moisture content, approximately 85% dry matter.",
-                "crop": 6737
+                "crop": 6902
             },
             {
                 "variable": "weight per bushel dressed corn",
@@ -851,7 +861,7 @@
                 "scale": null,
                 "material": "SpecifiedCrop",
                 "description": "Bushel weights can be used to derive hectolitre weights (HLWT), a measure of grain quality",
-                "crop": 6737
+                "crop": 6902
             },
             {
                 "variable": "soil organic carbon",
@@ -902,6 +912,26 @@
                 "material": "Soil",
                 "description": "Topsoil (0-23cm) from soil sampled in 1936, 1944 and 1966.  Calculated from % SOC and soil bulk density; adjusted for changes in bulk density in strips given FYM",
                 "crop": null
+            },
+            {
+                "variable": "weed species richness",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": "Species occurence, selected plots and selected years for all sections (before herbicides were applied)",
+                "crop": null
+            },
+            {
+                "variable": "harvest date",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": "annually",
+                "scale": null,
+                "material": "SpecifiedCrop",
+                "description": "Both cutting date and carting date (ie date crop removed from field)",
+                "crop": 6902
             }
         ]
     },
@@ -928,43 +958,43 @@
         },
         "crops": [
             {
-                "id": 6739,
+                "id": 6904,
                 "name": "winter wheat",
                 "dateStart": 1968,
                 "dateEnd": null
             },
             {
-                "id": 6740,
+                "id": 6905,
                 "name": "oats",
                 "dateStart": 1996,
                 "dateEnd": null
             },
             {
-                "id": 6741,
+                "id": 6906,
                 "name": "beans",
                 "dateStart": 1968,
                 "dateEnd": 1978
             },
             {
-                "id": 6742,
+                "id": 6907,
                 "name": "potatoes",
                 "dateStart": 1968,
                 "dateEnd": 1996
             },
             {
-                "id": 6743,
+                "id": 6908,
                 "name": "beans",
                 "dateStart": 2018,
                 "dateEnd": null
             },
             {
-                "id": 6744,
+                "id": 6909,
                 "name": "fallow",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 6745,
+                "id": 6910,
                 "name": "maize",
                 "dateStart": 1997,
                 "dateEnd": 2017
@@ -980,7 +1010,7 @@
                 "rotationPhases": [
                     {
                         "samePhase": false,
-                        "crop": 6739,
+                        "crop": 6904,
                         "description": null
                     }
                 ]
@@ -994,17 +1024,17 @@
                 "rotationPhases": [
                     {
                         "samePhase": false,
-                        "crop": 6742,
+                        "crop": 6907,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 6741,
+                        "crop": 6906,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 6739,
+                        "crop": 6904,
                         "description": null
                     }
                 ]
@@ -1018,17 +1048,17 @@
                 "rotationPhases": [
                     {
                         "samePhase": false,
-                        "crop": 6744,
+                        "crop": 6909,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 6739,
+                        "crop": 6904,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 6739,
+                        "crop": 6904,
                         "description": null
                     }
                 ]
@@ -1042,17 +1072,17 @@
                 "rotationPhases": [
                     {
                         "samePhase": false,
-                        "crop": 6744,
+                        "crop": 6909,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 6742,
+                        "crop": 6907,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 6739,
+                        "crop": 6904,
                         "description": null
                     }
                 ]
@@ -1066,27 +1096,27 @@
                 "rotationPhases": [
                     {
                         "samePhase": false,
-                        "crop": 6744,
+                        "crop": 6909,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 6742,
+                        "crop": 6907,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 6739,
+                        "crop": 6904,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 6739,
+                        "crop": 6904,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 6739,
+                        "crop": 6904,
                         "description": null
                     }
                 ]
@@ -1100,27 +1130,27 @@
                 "rotationPhases": [
                     {
                         "samePhase": false,
-                        "crop": 6740,
+                        "crop": 6905,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 6745,
+                        "crop": 6910,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 6739,
+                        "crop": 6904,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 6739,
+                        "crop": 6904,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 6739,
+                        "crop": 6904,
                         "description": null
                     }
                 ]
@@ -1134,27 +1164,27 @@
                 "rotationPhases": [
                     {
                         "samePhase": false,
-                        "crop": 6739,
+                        "crop": 6904,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 6739,
+                        "crop": 6904,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 6740,
+                        "crop": 6905,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 6739,
+                        "crop": 6904,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 6741,
+                        "crop": 6906,
                         "description": null
                     }
                 ]
@@ -1162,14 +1192,14 @@
         ],
         "factor": [
             {
-                "id": 3540,
+                "id": 3805,
                 "name": "nitrogen fertilizer exposure",
                 "description": "N was applied as calcium ammonium nitrate (Nitro-chalk) between 1968 and 1985. Between 1968-1996 N was applied at the same rate to beans and potatoes. Between 1996-2017 oats did not receive N. Since 2018 Oats receive N at half the normal rate. Between 1997-2017 split N treatments were applied twice to the seedbed and post-emergence.",
                 "effect": "Direct",
                 "plotApplication": "nitrogen fertilizer exposure",
                 "level": [
                     {
-                        "id": 10827,
+                        "id": 11525,
                         "name": "N1",
                         "amount": "48",
                         "unitCode": "kgN/ha",
@@ -1183,7 +1213,7 @@
                         "notes": null
                     },
                     {
-                        "id": 10828,
+                        "id": 11526,
                         "name": "N2",
                         "amount": "96",
                         "unitCode": "kgN/ha",
@@ -1197,7 +1227,7 @@
                         "notes": null
                     },
                     {
-                        "id": 10829,
+                        "id": 11527,
                         "name": "N3",
                         "amount": "144",
                         "unitCode": "kgN/ha",
@@ -1211,12 +1241,12 @@
                         "notes": null
                     },
                     {
-                        "id": 10830,
+                        "id": 11528,
                         "name": "N4",
                         "amount": "192",
                         "unitCode": "kgN/ha",
                         "unitText": "kg nitrogen per hectare",
-                        "appliedToCrop": 6739,
+                        "appliedToCrop": 6904,
                         "dateStart": 1986,
                         "dateEnd": null,
                         "frequency": null,
@@ -1225,7 +1255,7 @@
                         "notes": null
                     },
                     {
-                        "id": 10831,
+                        "id": 11529,
                         "name": "N5",
                         "amount": "240",
                         "unitCode": "kgN/ha",
@@ -1239,7 +1269,7 @@
                         "notes": null
                     },
                     {
-                        "id": 10832,
+                        "id": 11530,
                         "name": "N6",
                         "amount": "288",
                         "unitCode": "kgN/ha",
@@ -1253,7 +1283,7 @@
                         "notes": null
                     },
                     {
-                        "id": 10833,
+                        "id": 11531,
                         "name": "N1+1+1",
                         "amount": "144",
                         "unitCode": "kgN/ha",
@@ -1267,7 +1297,7 @@
                         "notes": "N2+1 for maize"
                     },
                     {
-                        "id": 10834,
+                        "id": 11532,
                         "name": "N1+2+1",
                         "amount": "192",
                         "unitCode": "kgN/ha",
@@ -1281,12 +1311,12 @@
                         "notes": "N2+2 for maize"
                     },
                     {
-                        "id": 10835,
+                        "id": 11533,
                         "name": "N1+3+1",
                         "amount": "240",
                         "unitCode": "kgN/ha",
                         "unitText": "kg nitrogen per hectare",
-                        "appliedToCrop": 6739,
+                        "appliedToCrop": 6904,
                         "dateStart": 2001,
                         "dateEnd": null,
                         "frequency": "mid-March, mid-April, Mid-May",
@@ -1295,12 +1325,12 @@
                         "notes": "N2+3 for maize"
                     },
                     {
-                        "id": 10836,
+                        "id": 11534,
                         "name": "N1+4+1",
                         "amount": "288",
                         "unitCode": "kgN/ha",
                         "unitText": "kg nitrogen per hectare",
-                        "appliedToCrop": 6739,
+                        "appliedToCrop": 6904,
                         "dateStart": 2001,
                         "dateEnd": null,
                         "frequency": "mid-March, mid-April, Mid-May",
@@ -1311,14 +1341,14 @@
                 ]
             },
             {
-                "id": 3541,
+                "id": 3806,
                 "name": "potassium fertilizer exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "potassium fertilizer exposure",
                 "level": [
                     {
-                        "id": 10837,
+                        "id": 11535,
                         "name": "K",
                         "amount": "90",
                         "unitCode": "kgK/ha",
@@ -1332,7 +1362,7 @@
                         "notes": null
                     },
                     {
-                        "id": 10838,
+                        "id": 11536,
                         "name": "K2",
                         "amount": "180",
                         "unitCode": "kgK/ha",
@@ -1346,7 +1376,7 @@
                         "notes": null
                     },
                     {
-                        "id": 10839,
+                        "id": 11537,
                         "name": "K*",
                         "amount": "90",
                         "unitCode": "kgK/ha",
@@ -1362,14 +1392,14 @@
                 ]
             },
             {
-                "id": 3542,
+                "id": 3807,
                 "name": "phosphate fertilizer exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "phosphate fertilizer exposure",
                 "level": [
                     {
-                        "id": 10840,
+                        "id": 11538,
                         "name": "P",
                         "amount": "35",
                         "unitCode": "kgP/ha",
@@ -1385,14 +1415,14 @@
                 ]
             },
             {
-                "id": 3543,
+                "id": 3808,
                 "name": "sodium nutrient exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "sodium nutrient exposure",
                 "level": [
                     {
-                        "id": 10841,
+                        "id": 11539,
                         "name": "Na1",
                         "amount": "16",
                         "unitCode": "kgNa/ha",
@@ -1406,7 +1436,7 @@
                         "notes": null
                     },
                     {
-                        "id": 10842,
+                        "id": 11540,
                         "name": "Na2",
                         "amount": "55",
                         "unitCode": "kgNa/ha",
@@ -1422,14 +1452,14 @@
                 ]
             },
             {
-                "id": 3544,
+                "id": 3809,
                 "name": "magnesium nutrient exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "magnesium nutrient exposure",
                 "level": [
                     {
-                        "id": 10843,
+                        "id": 11541,
                         "name": "Mg",
                         "amount": "12",
                         "unitCode": "kgMg/ha",
@@ -1443,7 +1473,7 @@
                         "notes": "11kgMg until 1973. 35 kgMg every 3rd year 1974-2000."
                     },
                     {
-                        "id": 10844,
+                        "id": 11542,
                         "name": "Mg2",
                         "amount": "24",
                         "unitCode": "kgMg/ha",
@@ -1457,7 +1487,7 @@
                         "notes": "Plus 60 kg Mg in autumn 2000 only"
                     },
                     {
-                        "id": 10845,
+                        "id": 11543,
                         "name": "Mg*",
                         "amount": "30",
                         "unitCode": "kgMg/ha",
@@ -1473,14 +1503,14 @@
                 ]
             },
             {
-                "id": 3545,
+                "id": 3810,
                 "name": "farmyard manure exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "farmyard manure exposure",
                 "level": [
                     {
-                        "id": 10846,
+                        "id": 11544,
                         "name": "FYM",
                         "amount": "35",
                         "unitCode": "t/ha",
@@ -1494,7 +1524,7 @@
                         "notes": "Derived from cattle"
                     },
                     {
-                        "id": 10847,
+                        "id": 11545,
                         "name": "Residual FYM",
                         "amount": null,
                         "unitCode": null,
@@ -1510,14 +1540,14 @@
                 ]
             },
             {
-                "id": 3546,
+                "id": 3811,
                 "name": "castor meal exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "castor meal exposure",
                 "level": [
                     {
-                        "id": 10848,
+                        "id": 11546,
                         "name": "C",
                         "amount": "96",
                         "unitCode": "kgN/ha",
@@ -1531,7 +1561,7 @@
                         "notes": null
                     },
                     {
-                        "id": 10849,
+                        "id": 11547,
                         "name": "Residual C",
                         "amount": null,
                         "unitCode": null,
@@ -2461,7 +2491,7 @@
                 "scale": null,
                 "material": "SpecifiedCrop",
                 "description": "Since 1999 selected plots only",
-                "crop": 6739
+                "crop": 6904
             },
             {
                 "variable": "thousand grain weight",
@@ -2470,8 +2500,8 @@
                 "collectionFrequency": "annually",
                 "scale": null,
                 "material": "SpecifiedCrop",
-                "description": "Sine 1974 selected plots only",
-                "crop": 6739
+                "description": "Since 1974 selected plots only",
+                "crop": 6904
             },
             {
                 "variable": "weed species richness",
@@ -2521,6 +2551,46 @@
                 "scale": null,
                 "material": "Soil",
                 "description": "A single mean value for all plots which do not receive FYM and estimated values for plots which receive FYM, based on measurements made in 1865, 1881, 1893 (Dyer, 1902), 1914 (unpublished) and 2000 (Watts et al, 2006).",
+                "crop": null
+            },
+            {
+                "variable": "nutrient content",
+                "unitCode": null,
+                "unitText": "percent",
+                "collectionFrequency": "annually",
+                "scale": null,
+                "material": "AllCrops",
+                "description": "Selected plots since 1968 % N, P, K, Ca, Mg, Na and S. Grain and straw.",
+                "crop": null
+            },
+            {
+                "variable": "take-all disease incidence",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": "annually",
+                "scale": null,
+                "material": "SpecifiedCrop",
+                "description": "Selected plots since 1968. Also eyespot, sharp eyespot and brown foot rot.",
+                "crop": 6904
+            },
+            {
+                "variable": "harvest date",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": "annually",
+                "scale": null,
+                "material": "AllCrops",
+                "description": "Sowing and harvest dates of all crops",
+                "crop": null
+            },
+            {
+                "variable": "earthworm abundance",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": "occasional",
+                "scale": null,
+                "material": null,
+                "description": "Selected plots, occasional years.",
                 "crop": null
             }
         ]

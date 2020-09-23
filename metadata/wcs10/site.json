@@ -1,0 +1,163 @@
+{
+    "administrative": {
+        "name": "Stackyard Field Section 3",
+        "identifier": "W/CS/10",
+        "type": "research station field",
+        "doi": null,
+        "visitsAllowed": "No",
+        "visitingArrangements": null,
+        "description": "The site is an old arable site, which had not grown beans for many years. The soil was acidic and deficient in P and K. The intial pH ranged between  5.6 and 6.3. The experiment was started in 1962 and cropped until 1996. In 1997 the experiment was discontinued.",
+        "management": "From 1962-1996 the site was managed according to conventional practices. In most years N fertilizer was applied to crops at a rate appropriate for the crop and site, and a range of conventional pesticides were used to control weeds, pests and diseases."
+    },
+    "location": {
+        "addressLocality": "Woburn",
+        "addressRegion": "Bedfordshire",
+        "addressCountry": "United Kingdom",
+        "geoLocationPoint": {
+            "pointLongitude": -0.6149,
+            "pointLatitude": 52.0003
+        },
+        "geoLocationPlace": "United Kingdom",
+        "polygon": "NOT IN GLTEN",
+        "elevation": 89.0,
+        "elevationUnit": "Metres",
+        "slope": null,
+        "slopeAspect": null
+    },
+    "soil": {
+        "soilTypeLabel": "arenosol",
+        "soilDescription": "Sandy loam, Cottenham series. Brown sand on Lower Greensand Brown sands (Soil Survey England & Wales) Udipsamments; Udalfs or Udults (Arenic) (US Soil Taxonomy) Cambic and Luvic Arenosols (FAO)"
+    },
+    "soilProperty": [
+        {
+            "variableMeasured": null,
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 50.0,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 23.0,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": 1974,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": null,
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 27.0,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 23.0,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": 1974,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": null,
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 7.0,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 23.0,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": null,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": null,
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 11.0,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 23.0,
+            "unitCode": null,
+            "unitText": null,
+            "refYear": 1974,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "soil total carbon",
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 0.82,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 23.0,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": null,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "total soil nitrogen",
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 0.08,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 23.0,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": 1974,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": null,
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 3400.0,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 23.0,
+            "unitCode": "t/ha",
+            "unitText": "tonnes per hectare",
+            "refYear": 1934,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": null,
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": null,
+            "minValue": 5.03,
+            "maxValue": 7.53,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 23.0,
+            "unitCode": null,
+            "unitText": null,
+            "refYear": 1967,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        }
+    ],
+    "climate": {
+        "name": "temperate oceanic climate",
+        "description": "Sandy loam, Cottenham series. Brown sand on Lower Greensand Brown sands (Soil Survey England & Wales) Udipsamments; Udalfs or Udults (Arenic) (US Soil Taxonomy) Cambic and Luvic Arenosols (FAO)",
+        "weatherStation": {
+            "weatherStationID": "NOT IN GLTEN",
+            "name": "NOT IN GLTEN",
+            "distance": "NOT IN GLTEN",
+            "direction": "NOT IN GLTEN"
+        }
+    }
+}

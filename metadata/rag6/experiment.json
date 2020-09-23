@@ -1,0 +1,56 @@
+{
+    "administrative": {
+        "type": "ScholarlyArticle",
+        "identifier": "Agdell",
+        "localIdentifier": "R/AG/6",
+        "name": "Agdell",
+        "url": null,
+        "description": "Agdell was the only Rothamsted Classical Experiment in which crops were originally grown in rotation. From 1848 to 1951, three different manurial combinations (none, PKNaMg and NPKNaMg plus rape cake, castor meal) were applied to the root crops of two four-course rotations. The rotations differed only in their third course - roots, barley, fallow or legume, wheat. There were only six plots and only one course of the rotation was present each year. The root crop was turnips or swedes, the legume clover or beans. \n\nFrom 1920, club-root (Plasmodiophora brassicae) became progressively more damaging to the root crop, especially on the NPKNaMg plots as a result of increasing soil acidity. By 1948 the produce was too small to weigh, and the four-course rotation ceased in 1951.\n\nSoil acidity was corrected and the plots were then used to evaluate the P and K reserves accumulated up to 1951. During this period the original six plots were halved and two levels of soil organic matter were established by growing leys on one half. Subsequently, the plots were further sub-divided to build up different amounts of P and K in the soil. Crop yields were then related to the reserves of P and K in the soil and the effect of adding fresh P and K. The experiment ended in 1990, only archived crop and soil samples are now available.",
+        "disambiguatingDescription": "From 1848- 1951 to study the effects of fertilizers and organic manures on four-course rotations (cereal, root, legume, fallow). Then to study the residual values of phosphorus and potassium applied in the period 1848-1951 and further applications since 1964."
+    },
+    "dataAccess": {
+        "type": "creativeWork",
+        "conditionsOfAccess": "Other",
+        "isAccessibleForFree": "YesOffline",
+        "publishingPrinciples": null,
+        "actionableFeedbackPolicy": "From 1848- 1951 to study the effects of fertilizers and organic manures on four-course rotations (cereal, root, legume, fallow). Then to study the residual values of phosphorus and potassium applied in the period 1848-1951 and further applications since 1964.",
+        "correctionsPolicy": "From 1848- 1951 to study the effects of fertilizers and organic manures on four-course rotations (cereal, root, legume, fallow). Then to study the residual values of phosphorus and potassium applied in the period 1848-1951 and further applications since 1964.",
+        "unnamedSourcesPolicy": null
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "CC0",
+        "license": "https://creativecommons.org/share-your-work/public-domain/cc0/"
+    },
+    "temporalCoverage": "1953/1970 from schema",
+    "dateStart": 1848,
+    "dateEPEnd": null,
+    "dateEnd": 1990,
+    "funder": "NOT in GLTEN",
+    "citation": [
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/ERADOC-1-37287",
+            "sameAs": "https://doi.org/10.23637/ERADOC-1-37287",
+            "citation": "Johnson and Penny, 1972, The Agdell experiment 1848-1970",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "http://www.era.rothamsted.ac.uk/eradoc/book/192",
+            "sameAs": "http://www.era.rothamsted.ac.uk/eradoc/book/192",
+            "citation": "Rothamsted Experimental Station 1970, Agdell, four-course rotations 1848-1951, residual effects 1952-67.",
+            "inLanguage": null,
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1111/j.1475-2743.2012.00449.x",
+            "sameAs": "https://doi.org/10.1111/j.1475-2743.2012.00449.x",
+            "citation": "Johnston et al, 2013. Plant-available soil phosphorus. Part II: the response of arable crops to Olsen P on a sandy clay loam and a silty clay loam",
+            "inLanguage": null,
+            "relationType": "isCitedBy"
+        }
+    ]
+}

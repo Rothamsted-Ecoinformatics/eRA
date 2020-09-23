@@ -1,0 +1,325 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "doi.org/10.23637/rms-RMAAtempanomaly-1",
+    "name": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019",
+    "shortName": "RMAAtempanom",
+    "url": "www.era.rothamsted.ac.uk/Met/met_open_access_res_matempanomaly",
+    "description": [
+        {
+            "inLanguage": "en",
+            "descriptionType": "Abstract",
+            "description": "Rothamsted has one of the longest running continuous sets of daily meteorological recordings in the world. Temperature has been measured since 1878. The figure above shows the temperature anomaly in annual mean air temperature (black circles), for years 1878 to 2019, relative to the 1878 to 1920 long-term average, which represents the pre-industrial era. Variation in annual temperature is smoothed using an 11-year (132 month) moving average (red line, which removes solar variability and shorter-term variability such as the Southern Oscillation (Hansen et. al., 2010)). The figure shows that air temperatures have risen sharply since 1987 (Scott, 2015) with annual temperatures, over the last decade, estimated to be between 1.3\u00b0C and 1.6\u00b0C higher than the pre-industrial period (Hansen. et. al., 2016). Much of the rise is due to increases in temperature during the autumn and winter months, and at night-time."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Methods",
+            "description": "The mean daily temperature is measured over a 24 hour period 0900 to 0900 GMT and calculated from the daily maximum (Tmax) and minimum temperatures (Tmin); the mean daily tamperature = (Tmax = Tmin)/2. For each month the mean air temperature is determined from daily data, also the annual mean air temperature for each year (1878 to 2019). The long-term monthly average and annual average for 1878 to 1920 is also determined. The annual mean temperature anomaly and 132 month (11 year) moving average is determined from these annual and monthly air temperature data using Excel functions."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TechnicalInfo",
+            "description": "First recorded in 1878, Tmax was then measured using a mercury column thermometer and Tmin using a spirit-in-glass with indicator bar minimum thermometer. Since 2004, temperatures have been recorded automatically by thermistors (electronic temperature probes, Campbell Scientific, Type 107)."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Other",
+            "description": "For further information about the measurement of temperature at Rothamsted see 'Temperature'. For further information about extreme temperature records at Rothamsted see 'Extremes'."
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "The Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "datePublished": null,
+    "dateCreated": "2020-07-31",
+    "dateModified": null,
+    "inLanguage": "en",
+    "version": "1",
+    "keywords": [
+        "meteorological station",
+        "Rothamsted Research",
+        "weather",
+        "weather data",
+        "temperature",
+        "air temperature",
+        "thermometer",
+        "climate",
+        "climate change"
+    ],
+    "creator": [
+        {
+            "type": "Person",
+            "Name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Tony Scott",
+            "givenName": "Tony",
+            "familyName": "Scott",
+            "sameAs": "https://orcid.org/0000-0002-6631-0672",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "organization",
+            "name": "The Electronic Rothamsted Archive, Rothamsted Research"
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Tony Scott",
+            "givenName": "Tony",
+            "familyName": "Scott",
+            "sameAs": "https://orcid.org/0000-0002-6631-0672",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Chris Hall",
+            "givenName": "Chris",
+            "familyName": "Hall",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectLeader",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectManager",
+            "name": "Andrew Macdonald",
+            "givenName": "Andrew",
+            "familyName": "Macdonald",
+            "sameAs": "https://orcid.org/0000-0002-1785-4892",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectMember",
+            "name": "Nathalie Castells-Brooke",
+            "givenName": "Nathalie",
+            "familyName": "Castells-Brooke",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "The Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License"
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.360086,
+            "latitude": 51.806757
+        },
+        "name": "Rothamsted Met Station"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "doi.org/10.23637/rms-RMAAtemp-02",
+            "relatedIdentifierType": "DOI",
+            "name": "Annual Mean Air Temperature at Rothamsted 1878-2019",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsDerivedFrom",
+            "rt_id": 28,
+            "relationTypeValue": "is derived from"
+        },
+        {
+            "relatedIdentifier": "10.23637/rms-RMAAtemp-02",
+            "relatedIdentifierType": "DOI",
+            "name": "Annual Mean Air Temperature at Rothamsted 1878-2019",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "References",
+            "rt_id": 18,
+            "relationTypeValue": "references"
+        }
+    ],
+    "funder": [
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/000J0300 - The Rothamsted Long - Term Experiments - National Capability",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F000J0300"
+        },
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/00005189 - The Rothamsted Long-Term Experiments including Sample Archive and e-RA database",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F00005189"
+        }
+    ],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019",
+            "URL": "Rothamsted_Temperature_Anomaly_1878-2019_data",
+            "encodingFormat": "Rothamsted_Temperature_Anomaly_1878-2019_data",
+            "fileSize": "867 KB"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Long-term Temperature Anomaly for Rothamsted, Harpenden, 1878-2019",
+            "URL": "Rothamsted_Temperature_Anomaly_1878-2019_chart",
+            "encodingFormat": "Rothamsted_Temperature_Anomaly_1878-2019_chart",
+            "fileSize": "80 KB"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Long-term Temperature Anomaly for Rothamsted, Harpenden, 1878-2019",
+            "URL": "Rothamsted_Temperature_Anomaly_1878-2019_chart",
+            "encodingFormat": "Rothamsted_Temperature_Anomaly_1878-2019_chart",
+            "fileSize": "62 KB"
+        }
+    ],
+    "grade": 1
+}

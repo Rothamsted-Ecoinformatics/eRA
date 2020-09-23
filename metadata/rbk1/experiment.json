@@ -27,5 +27,62 @@
     "dateEPEnd": 1851,
     "dateEnd": null,
     "funder": "NOT in GLTEN",
-    "citation": []
+    "citation": [
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/KeyRefOABKyields.",
+            "sameAs": "https://doi.org/10.23637/KeyRefOABKyields.",
+            "citation": "Broadbalk mean long-term winter wheat grain yields, selected treatments",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/KeyRefOABKsoc",
+            "sameAs": "https://doi.org/10.23637/KeyRefOABKsoc",
+            "citation": "Long-term changes in Broadbalk soil organic carbon content, selected treatments",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/bk-oadata-soiln-01",
+            "sameAs": "https://doi.org/10.23637/bk-oadata-soiln-01",
+            "citation": "Long-term changes in Broadbalk soil total nitrogen content, selected treatments",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/KeyRefOABKolsenP",
+            "sameAs": "https://doi.org/10.23637/KeyRefOABKolsenP",
+            "citation": "Long-term changes in Broadbalk Olsen P in topsoil, selected treatments.",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/rbk1-data-fisher-1921-01",
+            "sameAs": "https://doi.org/10.23637/rbk1-data-fisher-1921-01",
+            "citation": "Fisher 1921 Broadbalk wheat grain yields 1852-1918.",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/bbk-2078416917-01",
+            "sameAs": "https://doi.org/10.23637/bbk-2078416917-01",
+            "citation": "Cirsium arvense frequency on Broadbalk Section 8 1991-2018.",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "http://www.era.rothamsted.ac.uk/Broadbalk",
+            "sameAs": "http://www.era.rothamsted.ac.uk/Broadbalk",
+            "citation": "Broadbalk experiment web page",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        }
+    ]
 }

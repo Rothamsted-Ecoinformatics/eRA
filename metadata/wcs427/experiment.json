@@ -1,0 +1,72 @@
+{
+    "administrative": {
+        "type": "ScholarlyArticle",
+        "identifier": "Contaminated sludge cake experiment",
+        "localIdentifier": "W/CS/427",
+        "name": "Contaminated sludge cake experiment",
+        "url": null,
+        "description": "Enables the comparison of different sewage sludge processing (digested versus undigested), metal concentrations (zinc, copper and cadmium) at four rates up to EU limits and period of application (short term versus long-term). All had the same amount of organic matter added. \nSamples of the sludge used and periodic soil and plant samples are available in the Rothamsted Sample Archive. \nThis experiment is part of a network of 9 sites across the UK and can also be compared with related Metal Amended Liquid Sludge Experiment and Metal Salts Experiment, also at Woburn.",
+        "disambiguatingDescription": "To test the effect of zinc, copper and cadmium enriched sewage sludges on soil microbial activity and agricultural productivity."
+    },
+    "dataAccess": {
+        "type": "creativeWork",
+        "conditionsOfAccess": "Available to any researcher on request",
+        "isAccessibleForFree": "YesOffline",
+        "publishingPrinciples": null,
+        "actionableFeedbackPolicy": "To test the effect of zinc, copper and cadmium enriched sewage sludges on soil microbial activity and agricultural productivity.",
+        "correctionsPolicy": "To test the effect of zinc, copper and cadmium enriched sewage sludges on soil microbial activity and agricultural productivity.",
+        "unnamedSourcesPolicy": null
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "CC0",
+        "license": "https://creativecommons.org/share-your-work/public-domain/cc0/"
+    },
+    "temporalCoverage": "1953/1970 from schema",
+    "dateStart": 1994,
+    "dateEPEnd": null,
+    "dateEnd": null,
+    "funder": "NOT in GLTEN",
+    "citation": [
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1111/j.1475-2743.2006.00003.x",
+            "sameAs": "https://doi.org/10.1111/j.1475-2743.2006.00003.x",
+            "citation": "Gibbs, P. A. , Chambers, B. J. , Chaudri, A. M. , McGrath, S. P. , Carlton-Smith, C. H. , Bacon, J. R. , Campbell, C. D. and Aitken, M. N. (2006) \"Initial results from a long-term, multi-site field study of the effects on soil fertility and microbial activity of sludge cakes containing heavy metals\", Soil Use and Management, 22, 11-21",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.2134/jeq2015.12.0590",
+            "sameAs": "https://doi.org/10.2134/jeq2015.12.0590",
+            "citation": "Charlton, A. , Sakrabani, R. , McGrath, S. P. and Campbell, C. D. (2016) \"Long-term Impact of Sewage Sludge Application on Rhizobium leguminosarum biovar trifolii: An Evaluation Using Meta-Analysis\", Journal of Environmental Quality, 45, 1572-1587",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "httpsL//doi.org/10.1007/s11104-012-1381-6",
+            "sameAs": "httpsL//doi.org/10.1007/s11104-012-1381-6",
+            "citation": "McGrath, S. P. , Chambers, B. J. , Taylor, M. J. and Carlton-Smith, C. H. (2012) \"Biofortification of zinc in wheat grain by the application of sewage sludge\", Plant and Soil, 361, 97-108",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1016/j.soilbio.2011.01.004",
+            "sameAs": "https://doi.org/10.1016/j.soilbio.2011.01.004",
+            "citation": "Macdonald, C. A. , Clark, I. M. , Zhao, F.-J. , Hirsch, P. R. , Singh, B. K. and McGrath, S. P. (2011) \"Long-term impacts of zinc and copper enriched sewage sludge additions on bacterial, archaeal and fungal communities in arable and grassland soils\", Soil Biology & Biochemistry, 43, 932-941",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1016/j.soilbio.2008.01.026",
+            "sameAs": "https://doi.org/10.1016/j.soilbio.2008.01.026",
+            "citation": "Chaudri, A. , McGrath, S. , Gibbs, P. , Chambers, B. , Carlton-Smith, C. , Bacon, J. , Campbell, C. and Aitken, M. (2008) \"Population size of indigenous Rhizobium leguminosarum biovar trifolii in long-term field experiments with sewage sludge cake, metal-amended liquid sludge or metal salts: Effects of zinc, copper and cadmium\", Soil Biology & Biochemistry, 40, 1670-1680",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        }
+    ]
+}

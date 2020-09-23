@@ -1,0 +1,31 @@
+{
+    "administrative": {
+        "type": "ScholarlyArticle",
+        "identifier": "Woburn Organic Manuring",
+        "localIdentifier": "W/RN/12",
+        "name": "Woburn Organic Manuring",
+        "url": null,
+        "description": "Started in 1964 on the sandy loam soil at Woburn to test the effects of different types of organic matter inputs on soil organic matter (SOM) and crop yields. Initially six organic treatments (FYM, peat, straw, green manures and two grass leys) were compared with two fertilizer-only treatments. Arable crops were grown in rotation with an eight-level N test 1973-1980 to assess the effects of the increased levels of SOM achieved by the organic amendments. During this period, no organic manures were applied. There was another treatment phase from 1981-1986, when further organic manures were applied. Again, SOM increased with the organic treatments and the grass leys but continued to decline slowly where only fertilizers were applied. This treatment phase was followed by another test phase, 1987-1994, when six rates of N were tested on arable crops, and no further organic manures were applied. From 1995-2002 arable test cropping continued but only two rates of N were tested. In 2003 another treatment phase started. All plots, except for the permanent grass-clover leys (and beans when grown) were split to test six rates of N on arable crops grown in rotation.",
+        "disambiguatingDescription": "To test the effects of different types of organic matter inputs on crop yields and soil organic matter on a light and poorly structured soil."
+    },
+    "dataAccess": {
+        "type": "creativeWork",
+        "conditionsOfAccess": "Available to any researcher on request",
+        "isAccessibleForFree": "YesOffline",
+        "publishingPrinciples": null,
+        "actionableFeedbackPolicy": "To test the effects of different types of organic matter inputs on crop yields and soil organic matter on a light and poorly structured soil.",
+        "correctionsPolicy": "To test the effects of different types of organic matter inputs on crop yields and soil organic matter on a light and poorly structured soil.",
+        "unnamedSourcesPolicy": null
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "CC0",
+        "license": "https://creativecommons.org/share-your-work/public-domain/cc0/"
+    },
+    "temporalCoverage": "1953/1970 from schema",
+    "dateStart": 1964,
+    "dateEPEnd": null,
+    "dateEnd": null,
+    "funder": "NOT in GLTEN",
+    "citation": []
+}

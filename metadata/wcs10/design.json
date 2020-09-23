@@ -1,0 +1,665 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Period 1",
+            "localIdentifier": "Period 1",
+            "name": "Period 1",
+            "url": "Period 1",
+            "description": "Four lime treatments with and without P and K (4 x 2 x 2 factorial with two replicates, 32 plots) within randomised blocks and with plot sizes of 6 m x 8 m. The experiment was fallow in 1969, 1979 and 1980.  In 1962 columns of 4 plots were split for uninoculated v inoculated seed. In 1964 plots receiving both P and K were subdivided for a comparison of method of application, broadcast versus drilled. In 1974-1978 a comparison of with and without Magnesium was applied to the 64 sub-plots."
+        },
+        "design": {
+            "dateStart": 1962,
+            "dateEnd": 1980,
+            "description": "Four lime treatments with and without P and K. Magnesium was tested on split plots 1974-1978.",
+            "studyDesign": "Period 1",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": 32,
+            "numberOfReplicates": 2,
+            "numberOfSubplots": 64,
+            "numberOfHarvests": 1
+        },
+        "crops": [
+            {
+                "id": 8201,
+                "name": null,
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 8202,
+                "name": null,
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 8203,
+                "name": "potatoes",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 8204,
+                "name": null,
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 8205,
+                "name": null,
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 8206,
+                "name": null,
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 8207,
+                "name": null,
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 8208,
+                "name": "linseed",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 8209,
+                "name": null,
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 8210,
+                "name": null,
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 8211,
+                "name": "winter wheat",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": [
+            {
+                "id": 4267,
+                "name": "liming exposure",
+                "description": "four rates of lime: control, low, medium and high. Applied in 1962/63 and again in 1978. Amounts given are the total amounts applied, see comments for splits.",
+                "effect": "",
+                "plotApplication": "liming exposure",
+                "level": [
+                    {
+                        "id": 12716,
+                        "name": "control exposure",
+                        "amount": "0",
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": 1962,
+                        "dateEnd": 1980,
+                        "frequency": "twice",
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 12717,
+                        "name": "lime low",
+                        "amount": "6",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1962,
+                        "dateEnd": 1980,
+                        "frequency": "twice",
+                        "method": null,
+                        "chemicalForm": "ground chalk",
+                        "notes": "5 t/ha in 1962, 1 t/ha in 1978"
+                    },
+                    {
+                        "id": 12718,
+                        "name": "lime medium",
+                        "amount": "14",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1962,
+                        "dateEnd": 1980,
+                        "frequency": "twice",
+                        "method": null,
+                        "chemicalForm": "ground chalk",
+                        "notes": "12 t/ha in 1962, 2 t/ha in 1978"
+                    },
+                    {
+                        "id": 12719,
+                        "name": "lime high",
+                        "amount": "23",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1962,
+                        "dateEnd": 1980,
+                        "frequency": "twice",
+                        "method": null,
+                        "chemicalForm": "ground chalk",
+                        "notes": "19 t/ha in 1962, 4 t/ha in 1978"
+                    }
+                ]
+            },
+            {
+                "id": 4268,
+                "name": "phosphate fertilizer exposure",
+                "description": "Two superphosphate fertilizer treatments, nil and P.",
+                "effect": "",
+                "plotApplication": "phosphate fertilizer exposure",
+                "level": [
+                    {
+                        "id": 12720,
+                        "name": "control exposure",
+                        "amount": "0",
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": 1962,
+                        "dateEnd": 1980,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 12721,
+                        "name": "superphosphate P",
+                        "amount": "27.5",
+                        "unitCode": "kgP/ha",
+                        "unitText": "kg phosphorous per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1962,
+                        "dateEnd": 1978,
+                        "frequency": "annually",
+                        "method": null,
+                        "chemicalForm": "triple superphosphate",
+                        "notes": "55 kgP/ha applied to potatoes and 0 applied in fallow years 1969, 1979, 1980"
+                    }
+                ]
+            },
+            {
+                "id": 4269,
+                "name": "potassium fertilizer exposure",
+                "description": "Two muriate of potash treatments, nil and K",
+                "effect": "",
+                "plotApplication": "potassium fertilizer exposure",
+                "level": [
+                    {
+                        "id": 12722,
+                        "name": "control exposure",
+                        "amount": "0",
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": 1962,
+                        "dateEnd": 1980,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 12723,
+                        "name": "potassium K",
+                        "amount": "104",
+                        "unitCode": "kgK/ha",
+                        "unitText": "kg potassium per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1962,
+                        "dateEnd": 1978,
+                        "frequency": "annually",
+                        "method": null,
+                        "chemicalForm": "muriate of potash",
+                        "notes": "In 1968 and 1974, 156 kgK applied to potatoes. Not applied to fallow years, 1969, 1979, 1980."
+                    }
+                ]
+            },
+            {
+                "id": 4270,
+                "name": "magnesium nutrient exposure",
+                "description": "Two magnesium as Epsom salts treatments applied to sub-plots 1974-1978, nil and Mg",
+                "effect": "",
+                "plotApplication": "magnesium nutrient exposure",
+                "level": [
+                    {
+                        "id": 12724,
+                        "name": "control exposure",
+                        "amount": "0",
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": 1974,
+                        "dateEnd": 1978,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 12725,
+                        "name": "magnesium",
+                        "amount": "112",
+                        "unitCode": "kgMg/ha",
+                        "unitText": "kg magnesium per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1974,
+                        "dateEnd": 1978,
+                        "frequency": "Annually in spring",
+                        "method": null,
+                        "chemicalForm": "magnesium sulphate",
+                        "notes": "Not applied in 1975. Applied as Epsom salts 1974-1977 and as Kieserite in 1978."
+                    }
+                ]
+            },
+            {
+                "id": 4271,
+                "name": null,
+                "description": "Spring beans seed inoculated with Rhizobium",
+                "effect": "",
+                "plotApplication": null,
+                "level": [
+                    {
+                        "id": 12726,
+                        "name": "control exposure",
+                        "amount": "0",
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": 8201,
+                        "dateStart": 1962,
+                        "dateEnd": 1962,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 12727,
+                        "name": "Inoculated",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": 8201,
+                        "dateStart": 1962,
+                        "dateEnd": 1962,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "yield components",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "annually",
+                "scale": null,
+                "material": "AllCrops",
+                "description": "Crop grain yields at 85% dry matter for cereals, 90% dry matter for oilseeds and fresh weight for potatoes. No straw data.",
+                "crop": null
+            },
+            {
+                "variable": "soil pH",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": "every few years",
+                "scale": null,
+                "material": "Soil",
+                "description": "pH in water 1:2.5 soil: water suspension from topsoil (0-23cm). Sampled in autumn/winter after harvest and before sowing the next crop.",
+                "crop": null
+            },
+            {
+                "variable": "plant available phosphorous",
+                "unitCode": "ppm",
+                "unitText": "parts per million",
+                "collectionFrequency": "every few years",
+                "scale": null,
+                "material": "Soil",
+                "description": "Olsen P (plant-available P) in soil, ppm in soil.",
+                "crop": null
+            }
+        ]
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Period 2",
+            "localIdentifier": "Period 2",
+            "name": "Period 2",
+            "url": "Period 2",
+            "description": "The experiment was modified in 1981 with 4 lime treatments and 4 P levels, but again only two replicates. One of the lime and one P treatment continued as \u201czeros\u201d."
+        },
+        "design": {
+            "dateStart": 1981,
+            "dateEnd": 1995,
+            "description": "Since 1981 the effects of four rates of P and four rates of lime, with effects of K residues.  Manganese was tested on spit plots, 1987-1990; sulphur was tested on spilt plots, 1991-1996.",
+            "studyDesign": "Period 2",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": 32,
+            "numberOfReplicates": 2,
+            "numberOfSubplots": 62,
+            "numberOfHarvests": 1
+        },
+        "crops": [
+            {
+                "id": 8212,
+                "name": null,
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 8213,
+                "name": "potatoes",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 8214,
+                "name": null,
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 8215,
+                "name": null,
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 8216,
+                "name": null,
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 8217,
+                "name": "linseed",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 8218,
+                "name": null,
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 8219,
+                "name": null,
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 8220,
+                "name": null,
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 8221,
+                "name": "winter wheat",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": [
+            {
+                "id": 4272,
+                "name": "phosphate fertilizer exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "phosphate fertilizer exposure",
+                "level": [
+                    {
+                        "id": 12728,
+                        "name": "control exposure",
+                        "amount": "0",
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": 1981,
+                        "dateEnd": 1996,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "P0"
+                    },
+                    {
+                        "id": 12729,
+                        "name": "P1",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": 1981,
+                        "dateEnd": 1996,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "Superphosphate at 25, 25 & 50 kgP/ha applied in 1981, 1982 & 1983 and 25 kgP/ha applied 1988"
+                    },
+                    {
+                        "id": 12730,
+                        "name": "P2",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": 1981,
+                        "dateEnd": 1996,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "triple superphosphate",
+                        "notes": "Superphosphate at 25, 0 & 50 kgP/ha applied in 1981, 1982 & 1983 and 25 kgP/ha applied 1988"
+                    },
+                    {
+                        "id": 12731,
+                        "name": "P3",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": 1981,
+                        "dateEnd": 1996,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "triple superphosphate",
+                        "notes": "Superphosphate at 75, 25 & 100 kgP/ha applied in 1981, 1982 & 1983 and 75 kg/ha applied 1988"
+                    }
+                ]
+            },
+            {
+                "id": 4273,
+                "name": "liming exposure",
+                "description": "Continuation of 4 treatments in Period 1 Further applications made after period 1. Applied in 1981, 1982 and 1986. Amounts given are the total amounts applied, see comments for splits.",
+                "effect": "",
+                "plotApplication": "liming exposure",
+                "level": [
+                    {
+                        "id": 12732,
+                        "name": "control exposure",
+                        "amount": "0",
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": 1981,
+                        "dateEnd": 1996,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 12733,
+                        "name": "Lime low",
+                        "amount": "3",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1981,
+                        "dateEnd": 1996,
+                        "frequency": "3 times",
+                        "method": null,
+                        "chemicalForm": "ground chalk",
+                        "notes": "Total application over the whole experiment = 9 t/ha. Total amount applied to plots previously receiving 6 t/ha chalk between 1962 and 1978. Chalk was applied at 2, 0 and 1 t/ha in 1981, 1982 and 1986 respectively."
+                    },
+                    {
+                        "id": 12734,
+                        "name": "Lime medium",
+                        "amount": "11.5",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1981,
+                        "dateEnd": 1996,
+                        "frequency": "3 times",
+                        "method": null,
+                        "chemicalForm": "ground chalk",
+                        "notes": "Total application over the whole experiment = 24.5 t/ha. Total amount applied to plots previously receiving 14 t/ha chalk between 1962 and 1978. Chalk was applied at 5, 5 and 1.5 t/ha in 1981, 1982 and 1986 respectively."
+                    },
+                    {
+                        "id": 12735,
+                        "name": "lime high",
+                        "amount": "22.5",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1981,
+                        "dateEnd": 1996,
+                        "frequency": "3 times",
+                        "method": null,
+                        "chemicalForm": "ground chalk",
+                        "notes": "Total application over the whole experiment = 52.5 t/ha. Total amount applied to plots previously receiving 23 t/ha chalk between 1962 and 1978. Chalk was applied at 10, 10 and 2.5 t/ha in 1981, 1982 and 1986 respectively."
+                    }
+                ]
+            },
+            {
+                "id": 4274,
+                "name": "manganese nutrient exposure",
+                "description": "Manganese fertilizer applied to split plots 1987-1990 only",
+                "effect": "",
+                "plotApplication": "manganese nutrient exposure",
+                "level": [
+                    {
+                        "id": 12736,
+                        "name": "control exposure",
+                        "amount": "0",
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": 1987,
+                        "dateEnd": 1990,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "Manganese applied to split plots"
+                    },
+                    {
+                        "id": 12737,
+                        "name": "manganese",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": 1987,
+                        "dateEnd": 1990,
+                        "frequency": null,
+                        "method": "manganese sprays",
+                        "chemicalForm": null,
+                        "notes": "Not clear how much was applied"
+                    }
+                ]
+            },
+            {
+                "id": 4275,
+                "name": null,
+                "description": "Sulphur applied to split plots",
+                "effect": "",
+                "plotApplication": null,
+                "level": [
+                    {
+                        "id": 12738,
+                        "name": "control exposure",
+                        "amount": "0",
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": 1991,
+                        "dateEnd": 1996,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 12739,
+                        "name": "sulphur",
+                        "amount": "30",
+                        "unitCode": null,
+                        "unitText": "kg  Sulpher per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1991,
+                        "dateEnd": 1996,
+                        "frequency": "annually",
+                        "method": null,
+                        "chemicalForm": "calcium sulfate",
+                        "notes": null
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "yield components",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "annually",
+                "scale": null,
+                "material": "AllCrops",
+                "description": "Crop grain yields at 85% dry matter for cereals, 90% dry matter for oilseeds and fresh weight for potatoes. No straw data.",
+                "crop": null
+            },
+            {
+                "variable": "soil pH",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": "every few years",
+                "scale": null,
+                "material": "Soil",
+                "description": "pH in water 1:2.5 soil: water suspension from topsoil (0-23cm). Sampled in autumn/winter after harvest and before sowing the next crop.",
+                "crop": null
+            },
+            {
+                "variable": "plant available phosphorous",
+                "unitCode": "ppm",
+                "unitText": "parts per million",
+                "collectionFrequency": "every few years",
+                "scale": null,
+                "material": "Soil",
+                "description": "Olsen P (plant-available P) in soil, ppm in soil.",
+                "crop": null
+            }
+        ]
+    }
+]

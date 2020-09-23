@@ -12,8 +12,9 @@
         "experiment_name": "Saxmundham Rotation 2",
         "experiment_code": "S/RN/2",
         "grade": 3,
-        "version": "01",
+        "dstype": "N/A",
+        "version": "1",
         "shortName": "SaxMEt1966",
-        "UID": "SaxMEt1966-01"
+        "UID": "SaxMEt1966-1"
     }
 ]

@@ -82,11 +82,53 @@
     "contributor": [
         {
             "type": "Person",
-            "jobTitle": "ProjectManager",
-            "name": "Andrew Macdonald",
-            "givenName": "Andrew",
-            "familyName": "Macdonald",
-            "sameAs": "https://orcid.org/0000-0002-1785-4892",
+            "jobTitle": "DataManager",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Tony Scott",
+            "givenName": "Tony",
+            "familyName": "Scott",
+            "sameAs": "https://orcid.org/0000-0002-6631-0672",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Chris Hall",
+            "givenName": "Chris",
+            "familyName": "Hall",
+            "sameAs": null,
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
@@ -108,27 +150,6 @@
             "givenName": "Margaret",
             "familyName": "Glendining",
             "sameAs": "https://orcid.org/0000-0002-6466-4629",
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
-                "addressLocality": "Harpenden",
-                "addressRegion": "Hertfordshire",
-                "postalCode": "AL5 2JQ",
-                "addressCountry": "United Kingdom"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Computational and Analytical Sciences, Rothamsted Research",
-                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
-            }
-        },
-        {
-            "type": "Person",
-            "jobTitle": "DataManager",
-            "name": "Sarah Perryman",
-            "givenName": "Sarah",
-            "familyName": "Perryman",
-            "sameAs": "https://orcid.org/0000-0002-0056-2754",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
@@ -187,32 +208,11 @@
         },
         {
             "type": "Person",
-            "jobTitle": "DataCollector",
-            "name": "Tony Scott",
-            "givenName": "Tony",
-            "familyName": "Scott",
-            "sameAs": "https://orcid.org/0000-0002-6631-0672",
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
-                "addressLocality": "Harpenden",
-                "addressRegion": "Hertfordshire",
-                "postalCode": "AL5 2JQ",
-                "addressCountry": "United Kingdom"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
-                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
-            }
-        },
-        {
-            "type": "Person",
-            "jobTitle": "DataCollector",
-            "name": "Chris Hall",
-            "givenName": "Chris",
-            "familyName": "Hall",
-            "sameAs": null,
+            "jobTitle": "ProjectManager",
+            "name": "Andrew Macdonald",
+            "givenName": "Andrew",
+            "familyName": "Macdonald",
+            "sameAs": "https://orcid.org/0000-0002-1785-4892",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
@@ -267,5 +267,5 @@
             "fileSize": "13 KB"
         }
     ],
-    "grade": 2
+    "grade": 3
 }

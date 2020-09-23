@@ -12,8 +12,9 @@
         "experiment_name": "Fosters Ley Arable",
         "experiment_code": "R/RN/2",
         "grade": 3,
-        "version": "01",
+        "dstype": "OA",
+        "version": "1",
         "shortName": "SOC4808",
-        "UID": "SOC4808-01"
+        "UID": "SOC4808-1"
     }
 ]

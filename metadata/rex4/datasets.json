@@ -11,9 +11,10 @@
         "fieldname": "Hoosfield",
         "experiment_name": "Exhaustion Land",
         "experiment_code": "R/EX/4",
-        "grade": 3,
-        "version": "01",
+        "grade": 1,
+        "dstype": "OA",
+        "version": "1",
         "shortName": "ExLand2016",
-        "UID": "ExLand2016-01"
+        "UID": "ExLand2016-1"
     }
 ]

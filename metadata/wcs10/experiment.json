@@ -1,0 +1,40 @@
+{
+    "administrative": {
+        "type": "ScholarlyArticle",
+        "identifier": "Woburn long-term liming experiment",
+        "localIdentifier": "W/CS/10",
+        "name": "Woburn long-term liming experiment",
+        "url": null,
+        "description": "Yields of various crops were recorded from 1962-1996 and papers published (Bolton, 1971, 1977 a,b; McEwen et al, 1990; Holland et al, 2019). The experiment is now discontinued.",
+        "disambiguatingDescription": "To study the effects of different amounts of lime (and thus soil pH), P and K on the yields of a sequence of arable crops."
+    },
+    "dataAccess": {
+        "type": "creativeWork",
+        "conditionsOfAccess": "Available to any researcher on request",
+        "isAccessibleForFree": "YesOffline",
+        "publishingPrinciples": "http://www.era.rothamsted.ac.uk/Other#SEC18",
+        "actionableFeedbackPolicy": "To study the effects of different amounts of lime (and thus soil pH), P and K on the yields of a sequence of arable crops.",
+        "correctionsPolicy": "To study the effects of different amounts of lime (and thus soil pH), P and K on the yields of a sequence of arable crops.",
+        "unnamedSourcesPolicy": null
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "CC0",
+        "license": "https://creativecommons.org/share-your-work/public-domain/cc0/"
+    },
+    "temporalCoverage": "1953/1970 from schema",
+    "dateStart": 1962,
+    "dateEPEnd": null,
+    "dateEnd": 1996,
+    "funder": "NOT in GLTEN",
+    "citation": [
+        {
+            "type": "creativeWork",
+            "identifier": "http://www.era.rothamsted.ac.uk/Other/liming",
+            "sameAs": "http://www.era.rothamsted.ac.uk/Other/liming",
+            "citation": "Long-term Liming Experiments at Rothamsted and Woburn",
+            "inLanguage": null,
+            "relationType": "isCitedBy"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "type": "Organization",
+        "name": "Rothamsted Research",
+        "legalName": "Rothamsted Research",
+        "identifier": "NA",
+        "role": "research organisation",
+        "contactPoint": "NA"
+    },
+    {
+        "type": "Organization",
+        "name": "Woburn Experimental Farm",
+        "legalName": "Woburn Experimental Farm",
+        "identifier": "NA",
+        "role": "experimental research station",
+        "contactPoint": "NA"
+    }
+]

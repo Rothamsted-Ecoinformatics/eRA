@@ -1,0 +1,42 @@
+{
+    "administrative": {
+        "name": "Stackyard B",
+        "identifier": null,
+        "type": "research station field",
+        "doi": null,
+        "visitsAllowed": "Yes",
+        "visitingArrangements": "By arrangement.",
+        "description": "From 1930 to 1960 the field was cropped in a six-course rotation of sugar beet, barley, clover, wheat potatoes and rye. Winter wheat was grown on all plots in 1962 and spring wheat in 1963",
+        "management": null
+    },
+    "location": {
+        "addressLocality": "Husborne Crawley",
+        "addressRegion": "Bedfordshire",
+        "addressCountry": "United Kingdom",
+        "geoLocationPoint": {
+            "pointLongitude": -0.616036,
+            "pointLatitude": 51.999805
+        },
+        "geoLocationPlace": "United Kingdom",
+        "polygon": "NOT IN GLTEN",
+        "elevation": 100.0,
+        "elevationUnit": "Metres",
+        "slope": null,
+        "slopeAspect": null
+    },
+    "soil": {
+        "soilTypeLabel": "arenosol",
+        "soilDescription": "Cambic and Luvic Arenosols, sandy to loam sand"
+    },
+    "soilProperty": [],
+    "climate": {
+        "name": "temperate oceanic climate",
+        "description": "Cambic and Luvic Arenosols, sandy to loam sand",
+        "weatherStation": {
+            "weatherStationID": "NOT IN GLTEN",
+            "name": "NOT IN GLTEN",
+            "distance": "NOT IN GLTEN",
+            "direction": "NOT IN GLTEN"
+        }
+    }
+}

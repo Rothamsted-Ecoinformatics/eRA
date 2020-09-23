@@ -1,7 +1,7 @@
 [
     {
         "md_id": 1534342858,
-        "title": "Broadbalk plan 1852-1925 - test",
+        "title": "Broadbalk plan 1852-1925",
         "URL": "http://www.era.rothamsted.ac.uk/metadata/broad/Broadbalkplan1852-1925.pdf",
         "identifier": "10.23637/rbk1-sup-1534342858-01",
         "identifier_type": "DOI",
@@ -11,8 +11,9 @@
         "fieldname": "Broadbalk",
         "experiment_name": "Broadbalk",
         "experiment_code": "R/BK/1",
-        "grade": 2,
-        "version": "01",
+        "grade": 3,
+        "dstype": null,
+        "version": "1",
         "shortName": 1534342858,
         "UID": 1534342858
     }
