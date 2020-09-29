@@ -35,8 +35,10 @@
 						<option value="Alternate Wheat and Fallow">Alternate Wheat and
 							Fallow</option>
 						<option value="Exhaustion Land">Exhaustion Land</option>
+						<option value="Met data">Met data</option>
 						<option value="Agdell">Agdell</option>
 						<option value="Barnfield">Barnfield</option>
+						<option value="Brooms Barn">Brooms Barn</option>
 						<option value="Garden Clover">Garden Clover</option>
 						<option value="Broadbalk Wilderness">Broadbalk Wilderness</option>
 						<option value="Geescroft Wilderness">Geescroft Wilderness</option>
@@ -45,8 +47,8 @@
 						<option value="Highfield bare fallow">Highfield bare fallow</option>
 						<option value="Saxmundham Rotations">Saxmundham Rotations</option>
 						<option value="Woburn">Woburn</option>
-						<option value="North Wyke">North Wyke</option>
-						<option value="Met data">Met data</option>
+						
+						
 					</select>
 				</div>
 				<hr />
