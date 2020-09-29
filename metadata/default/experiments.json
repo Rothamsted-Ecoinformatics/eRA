@@ -5,11 +5,6 @@
         "station": "r"
     },
     {
-        "exptID": "rag6",
-        "Title": "Agdell",
-        "station": "r"
-    },
-    {
         "exptID": "rwf3",
         "Title": "Alternate Wheat and Fallow",
         "station": "r"
@@ -103,20 +98,5 @@
         "exptID": "srn2",
         "Title": "Saxmundham Rotation 2",
         "station": "s"
-    },
-    {
-        "exptID": "wcs427",
-        "Title": "Sewage Cake Experiment",
-        "station": "w"
-    },
-    {
-        "exptID": "wcs10",
-        "Title": "Woburn Long-term Liming",
-        "station": "w"
-    },
-    {
-        "exptID": "wrn12",
-        "Title": "Woburn Organic Manuring",
-        "station": "w"
     }
 ]

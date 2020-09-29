@@ -98,11 +98,11 @@
         },
         {
             "type": "Person",
-            "jobTitle": "ProjectMember",
-            "name": "Nathalie Castells-Brooke",
-            "givenName": "Nathalie",
-            "familyName": "Castells-Brooke",
-            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "jobTitle": "ProjectManager",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
@@ -119,11 +119,11 @@
         },
         {
             "type": "Person",
-            "jobTitle": "ProjectManager",
-            "name": "Richard Ostler",
-            "givenName": "Richard",
-            "familyName": "Ostler",
-            "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "jobTitle": "ProjectMember",
+            "name": "Nathalie Castells-Brooke",
+            "givenName": "Nathalie",
+            "familyName": "Castells-Brooke",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
@@ -201,6 +201,5 @@
             "encodingFormat": "xlsx",
             "fileSize": "13 KB"
         }
-    ],
-    "grade": 1
+    ]
 }

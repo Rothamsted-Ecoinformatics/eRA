@@ -25,7 +25,7 @@
     "dateCreated": "2018-01-08",
     "dateModified": null,
     "inLanguage": "en",
-    "version": "01",
+    "version": "1",
     "keywords": [
         "nitrogen",
         "Park grass long-term experiment",
@@ -79,6 +79,5 @@
             "encodingFormat": "",
             "fileSize": "11 pages"
         }
-    ],
-    "grade": 3
+    ]
 }

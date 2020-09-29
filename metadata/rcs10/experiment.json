@@ -1,40 +1,31 @@
 {
     "administrative": {
-        "type": "ScholarlyArticle",
+        "type": "Experiment",
         "identifier": "Rothamsted Long-term Liming Experiment",
         "localIdentifier": "R/CS/10",
         "name": "Rothamsted Long-term Liming Experiment",
         "url": null,
-        "description": "Yields of various crops were recorded from 1962-1996 and papers published (Bolton, 1971, 1977 a,b; McEwen et al, 1990; Holland et al, 2019). Soil samples have been used for experiments determining the effects of pH on the bioavailability of heavy metals (Sanders et al, 1986). Lime was applied in one year (1962) and then in small doses between 1982-1987. The plots were also used as part of a dataset to produce the Rothamsted Lime Model (RothLime; Goulding et al, 1989) which was used from 1982 onwards to apply small amounts of lime to keep the plots at the target pHs (1:2.5 soil:water) of 4.5, 5.5, 6.5 and 7.5. Since 1997 the Rothamsted plots have been in grass.",
-        "disambiguatingDescription": "To study the effects of different amounts of lime (and thus soil pH), P and K on the yields of a sequence of arable crops."
+        "description": "Yields of various crops were recorded from 1962-1996 and papers published (Bolton, 1971, 1977 a,b; McEwen et al, 1990; Holland et al, 2019). Soil samples have been used for experiments determining the effects of pH on the bioavailability of heavy metals (Sanders et al, 1986). Lime was applied in one year (1962) and then in small doses between 1982-1987. The plots were also used as part of a dataset to produce the Rothamsted Lime Model (RothLime; Goulding et al, 1989) which was used from 1982 onwards to apply small amounts of lime to keep the plots at the target pHs (1:2.5 soil:water) of 4.5, 5.5, 6.5 and 7.5. Since 1997 the Rothamsted plots have been in grass",
+        "disambiguatingDescription": "The effect of lime on the yield and composition of crops and on the status of P and K in soils."
     },
     "dataAccess": {
         "type": "creativeWork",
         "conditionsOfAccess": "Available to any researcher on request",
         "isAccessibleForFree": "YesOffline",
-        "publishingPrinciples": "http://www.era.rothamsted.ac.uk/Other/liming",
-        "actionableFeedbackPolicy": "To study the effects of different amounts of lime (and thus soil pH), P and K on the yields of a sequence of arable crops.",
-        "correctionsPolicy": "To study the effects of different amounts of lime (and thus soil pH), P and K on the yields of a sequence of arable crops.",
+        "publishingPrinciples": "http://www.era.rothamsted.ac.uk/Other#SEC17",
+        "actionableFeedbackPolicy": "The effect of lime on the yield and composition of crops and on the status of P and K in soils.",
+        "correctionsPolicy": "The effect of lime on the yield and composition of crops and on the status of P and K in soils.",
         "unnamedSourcesPolicy": null
     },
     "license": {
         "type": "CreativeWork",
-        "name": "CC0",
-        "license": "https://creativecommons.org/share-your-work/public-domain/cc0/"
+        "name": "CC-by-4",
+        "license": "http://creativecommons.org/licenses/by/4.0"
     },
     "temporalCoverage": "1953/1970 from schema",
     "dateStart": 1962,
     "dateEPEnd": null,
-    "dateEnd": 1996,
+    "dateEnd": 1997,
     "funder": "NOT in GLTEN",
-    "citation": [
-        {
-            "type": "creativeWork",
-            "identifier": "http://www.era.rothamsted.ac.uk/Other/liming",
-            "sameAs": "http://www.era.rothamsted.ac.uk/Other/liming",
-            "citation": "Long-term Liming Experiments at Rothamsted and Woburn",
-            "inLanguage": "English",
-            "relationType": "isCitedBy"
-        }
-    ]
+    "citation": []
 }

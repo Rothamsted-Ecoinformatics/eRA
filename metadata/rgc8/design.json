@@ -17,12 +17,10 @@
             "numberOdBlocks": null,
             "numberOfPlots": 1,
             "numberOfReplicates": null,
-            "numberOfSubplots": null,
-            "numberOfHarvests": null
+            "numberOfSubplots": null
         },
         "crops": [
             {
-                "id": 1554,
                 "name": "red clover",
                 "dateStart": null,
                 "dateEnd": null
@@ -51,8 +49,7 @@
             "numberOdBlocks": null,
             "numberOfPlots": null,
             "numberOfReplicates": null,
-            "numberOfSubplots": null,
-            "numberOfHarvests": null
+            "numberOfSubplots": null
         },
         "crops": "NA",
         "cropRotations": "NA",
@@ -78,12 +75,10 @@
             "numberOdBlocks": null,
             "numberOfPlots": 4,
             "numberOfReplicates": null,
-            "numberOfSubplots": null,
-            "numberOfHarvests": null
+            "numberOfSubplots": null
         },
         "crops": [
             {
-                "id": 1555,
                 "name": "red clover",
                 "dateStart": null,
                 "dateEnd": null
@@ -187,8 +182,7 @@
             "numberOdBlocks": null,
             "numberOfPlots": 4,
             "numberOfReplicates": null,
-            "numberOfSubplots": null,
-            "numberOfHarvests": null
+            "numberOfSubplots": null
         },
         "crops": "NA",
         "cropRotations": "NA",
@@ -252,12 +246,10 @@
             "numberOdBlocks": null,
             "numberOfPlots": 4,
             "numberOfReplicates": null,
-            "numberOfSubplots": null,
-            "numberOfHarvests": null
+            "numberOfSubplots": null
         },
         "crops": [
             {
-                "id": 1556,
                 "name": "red clover",
                 "dateStart": null,
                 "dateEnd": null

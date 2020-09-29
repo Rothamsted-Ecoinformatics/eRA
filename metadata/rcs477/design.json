@@ -17,18 +17,15 @@
             "numberOdBlocks": 3,
             "numberOfPlots": 18,
             "numberOfReplicates": 3,
-            "numberOfSubplots": null,
-            "numberOfHarvests": 1
+            "numberOfSubplots": null
         },
         "crops": [
             {
-                "id": 2226,
                 "name": "maize",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 2227,
                 "name": "barley",
                 "dateStart": null,
                 "dateEnd": null

@@ -17,18 +17,15 @@
             "numberOdBlocks": 3,
             "numberOfPlots": 33,
             "numberOfReplicates": null,
-            "numberOfSubplots": null,
-            "numberOfHarvests": 1
+            "numberOfSubplots": null
         },
         "crops": [
             {
-                "id": 3376,
                 "name": "rye grass",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 3377,
                 "name": "spring wheat",
                 "dateStart": null,
                 "dateEnd": null

@@ -1,6 +1,6 @@
 {
     "administrative": {
-        "type": "ScholarlyArticle",
+        "type": "Experiment",
         "identifier": "Acid Strip",
         "localIdentifier": "R/RS/9",
         "name": "Acid Strip",
@@ -19,8 +19,8 @@
     },
     "license": {
         "type": "CreativeWork",
-        "name": "CC0",
-        "license": "https://creativecommons.org/share-your-work/public-domain/cc0/"
+        "name": "CC-by-4",
+        "license": "http://creativecommons.org/licenses/by/4.0"
     },
     "temporalCoverage": "1953/1970 from schema",
     "dateStart": 1850,

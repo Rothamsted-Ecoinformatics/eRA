@@ -43,48 +43,6 @@
     "contributor": [
         {
             "type": "Person",
-            "jobTitle": "ProjectLeader",
-            "name": "Andrew Macdonald",
-            "givenName": "Andrew",
-            "familyName": "Macdonald",
-            "sameAs": "https://orcid.org/0000-0002-1785-4892",
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
-                "addressLocality": "Harpenden",
-                "addressRegion": "Hertfordshire",
-                "postalCode": "AL5 2JQ",
-                "addressCountry": "United Kingdom"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
-                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
-            }
-        },
-        {
-            "type": "Person",
-            "jobTitle": "Researcher",
-            "name": "Paul Poulton",
-            "givenName": "Paul",
-            "familyName": "Poulton",
-            "sameAs": null,
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
-                "addressLocality": "Harpenden",
-                "addressRegion": "Hertfordshire",
-                "postalCode": "AL5 2JQ",
-                "addressCountry": "United Kingdom"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
-                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
-            }
-        },
-        {
-            "type": "Person",
             "jobTitle": "DataCurator",
             "name": "Margaret Glendining",
             "givenName": "Margaret",
@@ -122,6 +80,48 @@
             "affiliation": {
                 "type": "Organization",
                 "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectLeader",
+            "name": "Andrew Macdonald",
+            "givenName": "Andrew",
+            "familyName": "Macdonald",
+            "sameAs": "https://orcid.org/0000-0002-1785-4892",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
         }
@@ -182,6 +182,15 @@
             "relationType": "IsCitedBy",
             "rt_id": 1,
             "relationTypeValue": "is cited by"
+        },
+        {
+            "relatedIdentifier": "10.23637/testTitleGoogle",
+            "relatedIdentifierType": "DOI",
+            "name": "Test Title",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsReferencedBy",
+            "rt_id": 17,
+            "relationTypeValue": "is referenced by"
         }
     ],
     "funder": [
@@ -208,6 +217,5 @@
             "encodingFormat": "pdf",
             "fileSize": "95 KB"
         }
-    ],
-    "grade": 2
+    ]
 }

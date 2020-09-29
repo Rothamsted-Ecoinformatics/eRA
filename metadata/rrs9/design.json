@@ -17,12 +17,10 @@
             "numberOdBlocks": null,
             "numberOfPlots": null,
             "numberOfReplicates": null,
-            "numberOfSubplots": null,
-            "numberOfHarvests": null
+            "numberOfSubplots": null
         },
         "crops": [
             {
-                "id": 3785,
                 "name": "winter wheat",
                 "dateStart": null,
                 "dateEnd": null

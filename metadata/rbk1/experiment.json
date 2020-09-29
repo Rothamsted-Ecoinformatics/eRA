@@ -1,16 +1,16 @@
 {
     "administrative": {
-        "type": "ScholarlyArticle",
+        "type": "Experiment",
         "identifier": "Broadbalk",
         "localIdentifier": "R/BK/1",
         "name": "Broadbalk",
         "url": null,
-        "description": "Started in 1843, Broadbalk is one of the oldest continuous agronomic experiments in the world. Wheat is grown every year on all or part of the experiment. Established to test the effects of various combinations of inorganic fertilizers (N, P, K, Na and Mg) and organic manures on the yield of winter wheat, many of these treatments continue today. A control strip has received no fertilizer or organic manures since 1843. It was started by Lawes and Gilbert in autumn 1843, and the first crop was harvested in summer 1844.",
+        "description": "The Broadbalk experiment is one of the oldest continuous agronomic experiments in the world. Started by Lawes and Gilbert in the autumn of 1843, winter wheat has been sown and harvested on all or part of the field every year since then. The original aim of the experiment was to test the effects of various combinations of inorganic fertilizers (supplying the elements N, P, K, Na and Mg) and different organic manures on the yield of winter wheat; a control strip has received no fertilizer or organic manures since 1843. For the first few years these treatments varied a little, but in 1852 a scheme was established that has continued, with some modifications, until today.",
         "disambiguatingDescription": "The aim of the experiment was to test the effect of different organic manures and inorganic fertilizers on the yield of winter wheat."
     },
     "dataAccess": {
         "type": "creativeWork",
-        "conditionsOfAccess": "Available online with registration",
+        "conditionsOfAccess": null,
         "isAccessibleForFree": "YesOffline",
         "publishingPrinciples": null,
         "actionableFeedbackPolicy": "The aim of the experiment was to test the effect of different organic manures and inorganic fertilizers on the yield of winter wheat.",
@@ -19,70 +19,13 @@
     },
     "license": {
         "type": "CreativeWork",
-        "name": "CC0",
-        "license": "https://creativecommons.org/share-your-work/public-domain/cc0/"
+        "name": "CC-by-4",
+        "license": "http://creativecommons.org/licenses/by/4.0"
     },
     "temporalCoverage": "1953/1970 from schema",
     "dateStart": 1843,
-    "dateEPEnd": 1851,
+    "dateEPEnd": 1951,
     "dateEnd": null,
     "funder": "NOT in GLTEN",
-    "citation": [
-        {
-            "type": "creativeWork",
-            "identifier": "https://doi.org/10.23637/KeyRefOABKyields.",
-            "sameAs": "https://doi.org/10.23637/KeyRefOABKyields.",
-            "citation": "Broadbalk mean long-term winter wheat grain yields, selected treatments",
-            "inLanguage": "English",
-            "relationType": "isCitedBy"
-        },
-        {
-            "type": "creativeWork",
-            "identifier": "https://doi.org/10.23637/KeyRefOABKsoc",
-            "sameAs": "https://doi.org/10.23637/KeyRefOABKsoc",
-            "citation": "Long-term changes in Broadbalk soil organic carbon content, selected treatments",
-            "inLanguage": "English",
-            "relationType": "isCitedBy"
-        },
-        {
-            "type": "creativeWork",
-            "identifier": "https://doi.org/10.23637/bk-oadata-soiln-01",
-            "sameAs": "https://doi.org/10.23637/bk-oadata-soiln-01",
-            "citation": "Long-term changes in Broadbalk soil total nitrogen content, selected treatments",
-            "inLanguage": "English",
-            "relationType": "isCitedBy"
-        },
-        {
-            "type": "creativeWork",
-            "identifier": "https://doi.org/10.23637/KeyRefOABKolsenP",
-            "sameAs": "https://doi.org/10.23637/KeyRefOABKolsenP",
-            "citation": "Long-term changes in Broadbalk Olsen P in topsoil, selected treatments.",
-            "inLanguage": "English",
-            "relationType": "isCitedBy"
-        },
-        {
-            "type": "creativeWork",
-            "identifier": "https://doi.org/10.23637/rbk1-data-fisher-1921-01",
-            "sameAs": "https://doi.org/10.23637/rbk1-data-fisher-1921-01",
-            "citation": "Fisher 1921 Broadbalk wheat grain yields 1852-1918.",
-            "inLanguage": "English",
-            "relationType": "isCitedBy"
-        },
-        {
-            "type": "creativeWork",
-            "identifier": "https://doi.org/10.23637/bbk-2078416917-01",
-            "sameAs": "https://doi.org/10.23637/bbk-2078416917-01",
-            "citation": "Cirsium arvense frequency on Broadbalk Section 8 1991-2018.",
-            "inLanguage": "English",
-            "relationType": "isCitedBy"
-        },
-        {
-            "type": "creativeWork",
-            "identifier": "http://www.era.rothamsted.ac.uk/Broadbalk",
-            "sameAs": "http://www.era.rothamsted.ac.uk/Broadbalk",
-            "citation": "Broadbalk experiment web page",
-            "inLanguage": "English",
-            "relationType": "isCitedBy"
-        }
-    ]
+    "citation": []
 }

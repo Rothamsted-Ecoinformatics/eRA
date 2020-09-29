@@ -17,30 +17,25 @@
             "numberOdBlocks": 4,
             "numberOfPlots": null,
             "numberOfReplicates": null,
-            "numberOfSubplots": null,
-            "numberOfHarvests": null
+            "numberOfSubplots": null
         },
         "crops": [
             {
-                "id": 321,
                 "name": "wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 322,
                 "name": "root vegetables",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 323,
                 "name": "barley",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 324,
                 "name": "feed legumes",
                 "dateStart": null,
                 "dateEnd": null

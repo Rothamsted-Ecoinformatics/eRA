@@ -67,7 +67,6 @@
     "streetAddress": "Address",
     "studyDesign": "Study Design or Design Type",
     "temporalCoverage": "Temporal Coverage",
-    "type": "Type",
     "unitCode": "Unit",
     "unitText": "Unit (full text)",
     "unnamedSourcesPolicy": "unnamedSourcesPolicy",
