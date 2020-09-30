@@ -1,0 +1,19 @@
+******************************************************************
+
+           Hoos Barley (None) 
+
+******************************************************************
+
+
+
+
+DESCRIPTION
+    None
+    The aim was to test the effects of different inorganic fertilizers (supplying the elements N, P, K Mg and sodium silicate) and farmyard manure (FYM) on the yield of spring barley.
+
+    Experiment start = 1852
+
+    Experiment end = None
+
+CONDITION OF ACCESS 
+EXPERIMENT DESIGN 

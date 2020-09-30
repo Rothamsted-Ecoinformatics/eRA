@@ -17,15 +17,18 @@
             "numberOdBlocks": null,
             "numberOfPlots": 2,
             "numberOfReplicates": null,
-            "numberOfSubplots": null
+            "numberOfSubplots": null,
+            "numberOfHarvests": 1
         },
         "crops": [
             {
+                "id": 216,
                 "name": "wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
+                "id": 217,
                 "name": "fallow",
                 "dateStart": null,
                 "dateEnd": null
@@ -95,15 +98,18 @@
             "numberOdBlocks": null,
             "numberOfPlots": 8,
             "numberOfReplicates": null,
-            "numberOfSubplots": null
+            "numberOfSubplots": null,
+            "numberOfHarvests": 1
         },
         "crops": [
             {
+                "id": 218,
                 "name": "wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
+                "id": 219,
                 "name": "fallow",
                 "dateStart": null,
                 "dateEnd": null
@@ -204,7 +210,7 @@
                 "crop": 218
             },
             {
-                "variable": null,
+                "variable": "fallow years",
                 "unitCode": null,
                 "unitText": null,
                 "collectionFrequency": null,
@@ -233,15 +239,18 @@
             "numberOdBlocks": null,
             "numberOfPlots": 2,
             "numberOfReplicates": null,
-            "numberOfSubplots": null
+            "numberOfSubplots": null,
+            "numberOfHarvests": 1
         },
         "crops": [
             {
+                "id": 220,
                 "name": "wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
+                "id": 221,
                 "name": "fallow",
                 "dateStart": null,
                 "dateEnd": null
@@ -311,10 +320,12 @@
             "numberOdBlocks": null,
             "numberOfPlots": 1,
             "numberOfReplicates": null,
-            "numberOfSubplots": null
+            "numberOfSubplots": null,
+            "numberOfHarvests": 1
         },
         "crops": [
             {
+                "id": 222,
                 "name": "wheat",
                 "dateStart": null,
                 "dateEnd": null

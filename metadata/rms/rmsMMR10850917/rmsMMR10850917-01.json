@@ -261,15 +261,15 @@
         {
             "type": "dataDownload",
             "name": "Mean monthly rainfall at Rothamsted October 1985-September 2017",
-            "URL": "rmsMMR10850917-data",
-            "encodingFormat": "rmsMMR10850917-data",
+            "URL": "rmsMMR10850917-data.xlsx",
+            "encodingFormat": "xlsx",
             "fileSize": "12 KB"
         },
         {
             "type": "dataDownload",
             "name": "Supporting information: Rothamsted rain updates and errors 1985-2017",
-            "URL": "RMMRAIN8618-sup-v1",
-            "encodingFormat": "RMMRAIN8618-sup-v1",
+            "URL": "RMMRAIN8618-sup-v1.xlsx",
+            "encodingFormat": "xlsx",
             "fileSize": "14 KB"
         }
     ],

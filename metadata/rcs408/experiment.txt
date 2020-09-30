@@ -1,0 +1,19 @@
+******************************************************************************************************************************************************************************************
+
+                               Long-term Miscanthus Experiment (R/CS/408) 
+
+******************************************************************************************************************************************************************************************
+
+
+
+
+DESCRIPTION
+    Miscanthus was transplanted on 25th May 1993. The Rothamsted crop has remained productive since with no sign of yield decline and is now believed to be one of the oldest stands in the world. The experiment is now maintained to determine how long a single planting may remain productive and to monitor for pests and diseases that may threaten productivity
+    To quantify the biomass yield potential of Miscanthus sinensis giganteus
+
+    Experiment start = 1993
+
+    Experiment end = None
+
+CONDITION OF ACCESS 
+EXPERIMENT DESIGN 

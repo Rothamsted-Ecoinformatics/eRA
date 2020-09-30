@@ -1,0 +1,27 @@
+******************************************************************************
+
+             Garden Clover (R/GC/8) 
+
+******************************************************************************
+
+
+
+
+DESCRIPTION
+    The smallest and simplest of the Rothamsted Classical experiments, with (until 1956) only one, unmanured plot measuring 3m by 2.1m. Yields were very large for the first 10 years averaging about 10 t dry matter ha-1, probably because the soil was rich in nutrients and the soil-borne pests and diseases of clover were absent. Reasonable yields were obtained over the next 30 years but thereafter yields showed a marked decline and there were several complete failures.
+
+Between 1956 and 1972 the plot was sub-divided and a sequence of tests made of K, molybdenum (Mo), formalin, N and Mg, but the the crop was usually severely damaged during the winter by clover rot (Sclerotinia trifoliorum) and was resown each spring. Since 1973 basal N, P, K, Mg and chalk have been applied.
+
+Between 1976 and 1978 aldicarb was tested as a control for clover cyst nematode, Heterodera trifolii, which was known to be present, and the cultivar Hungaropoly, believed resistant to clover-rot, was compared with the standard susceptible variety S.123.
+
+The plot then grew Hungaropoly only, with basal aldicarb (until 1988), and tested the fungicide benomyl from 1980-90. The cultivar was changed to Merviot in 1996. Between 1979 and 2006 the experiment has been resown seven times. A mean yield of 13t ha-1 has been achieved in this period, with up to 20 t ha-1 in some years. In 2013 the clover variety was changed to Milvus
+
+Other than Park Grass, with its mixed herbage, this is the only Classical experiment where a non-graminaceous crop has been grown continuously. In terms of microbial diversity, its soil provides a potentially valuable contrast with those of Broadbalk and Hoosfield.
+    To test whether red clover could be grown continuously on a rich garden soil.
+
+    Experiment start = 1854
+
+    Experiment end = None
+
+CONDITION OF ACCESS 
+EXPERIMENT DESIGN 

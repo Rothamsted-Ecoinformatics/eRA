@@ -1,0 +1,19 @@
+************************************************************************************************************************************************************************************************************
+
+                                  Woburn long-term liming experiment (W/CS/10) 
+
+************************************************************************************************************************************************************************************************************
+
+
+
+
+DESCRIPTION
+    Yields of various crops were recorded from 1962-1996 and papers published (Bolton, 1971, 1977 a,b; McEwen et al, 1990; Holland et al, 2019). The experiment is now discontinued.
+    To study the effects of different amounts of lime (and thus soil pH), P and K on the yields of a sequence of arable crops.
+
+    Experiment start = 1962
+
+    Experiment end = 1996
+
+CONDITION OF ACCESS 
+EXPERIMENT DESIGN 

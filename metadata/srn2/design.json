@@ -17,25 +17,30 @@
             "numberOdBlocks": 4,
             "numberOfPlots": 8,
             "numberOfReplicates": 4,
-            "numberOfSubplots": 5
+            "numberOfSubplots": 5,
+            "numberOfHarvests": 1
         },
         "crops": [
             {
+                "id": 3552,
                 "name": "potatoes",
                 "dateStart": 1969,
                 "dateEnd": 1974
             },
             {
+                "id": 3553,
                 "name": "sugarbeet",
                 "dateStart": 1969,
                 "dateEnd": 1974
             },
             {
+                "id": 3554,
                 "name": "winter wheat",
                 "dateStart": 1977,
                 "dateEnd": 1986
             },
             {
+                "id": 3555,
                 "name": "barley",
                 "dateStart": 1970,
                 "dateEnd": 1979
@@ -75,7 +80,8 @@
             "numberOdBlocks": 4,
             "numberOfPlots": 10,
             "numberOfReplicates": 4,
-            "numberOfSubplots": null
+            "numberOfSubplots": null,
+            "numberOfHarvests": 1
         },
         "crops": "NA",
         "cropRotations": "NA",
@@ -101,7 +107,8 @@
             "numberOdBlocks": null,
             "numberOfPlots": 8,
             "numberOfReplicates": null,
-            "numberOfSubplots": null
+            "numberOfSubplots": null,
+            "numberOfHarvests": 1
         },
         "crops": "NA",
         "cropRotations": "NA",

@@ -1,0 +1,21 @@
+******************************************************************************************************************************************************************
+
+                           Rothamsted Continuous Maize (R/CS/477) 
+
+******************************************************************************************************************************************************************
+
+
+
+
+DESCRIPTION
+    Continuous maize and barley plots with different amounts of maize tops incorporated. The experiment is duplicated at Woburn on a contrasting sandy loam soil.
+
+Maize and spring barley were chosen as crops with contrasting delta 13C enrichment in their residues. This can be used to follow the fate of the C incorporated in the crop residues. The experiments were established initially for use in SOM fractionation studies, but staff and analytical funds are no longer available to support this work, so the experiment was discontinued in 2015.
+    To monitor the fate of organic carbon in the soil organic matter.
+
+    Experiment start = 1997
+
+    Experiment end = 2015
+
+CONDITION OF ACCESS 
+EXPERIMENT DESIGN 

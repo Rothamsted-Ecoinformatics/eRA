@@ -17,10 +17,12 @@
             "numberOdBlocks": 3,
             "numberOfPlots": 9,
             "numberOfReplicates": null,
-            "numberOfSubplots": null
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
         },
         "crops": [
             {
+                "id": 296,
                 "name": "Miscanthus sinensis",
                 "dateStart": null,
                 "dateEnd": null

@@ -17,25 +17,30 @@
             "numberOdBlocks": null,
             "numberOfPlots": null,
             "numberOfReplicates": null,
-            "numberOfSubplots": null
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
         },
         "crops": [
             {
+                "id": 3738,
                 "name": "faba beans",
                 "dateStart": 1847,
                 "dateEnd": 1878
             },
             {
+                "id": 3739,
                 "name": null,
                 "dateStart": 1879,
                 "dateEnd": 1883
             },
             {
+                "id": 3740,
                 "name": "clover",
                 "dateStart": 1883,
                 "dateEnd": 1885
             },
             {
+                "id": 3741,
                 "name": null,
                 "dateStart": 1886,
                 "dateEnd": null

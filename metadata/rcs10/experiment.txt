@@ -1,0 +1,19 @@
+************************************************************************************************************************************************************************************************************************************
+
+                                      Rothamsted Long-term Liming Experiment (R/CS/10) 
+
+************************************************************************************************************************************************************************************************************************************
+
+
+
+
+DESCRIPTION
+    Yields of various crops were recorded from 1962-1996 and papers published (Bolton, 1971, 1977 a,b; McEwen et al, 1990; Holland et al, 2019). Soil samples have been used for experiments determining the effects of pH on the bioavailability of heavy metals (Sanders et al, 1986). Lime was applied in one year (1962) and then in small doses between 1982-1987. The plots were also used as part of a dataset to produce the Rothamsted Lime Model (RothLime; Goulding et al, 1989) which was used from 1982 onwards to apply small amounts of lime to keep the plots at the target pHs (1:2.5 soil:water) of 4.5, 5.5, 6.5 and 7.5. Since 1997 the Rothamsted plots have been in grass.
+    To study the effects of different amounts of lime (and thus soil pH), P and K on the yields of a sequence of arable crops.
+
+    Experiment start = 1962
+
+    Experiment end = 1996
+
+CONDITION OF ACCESS 
+EXPERIMENT DESIGN 

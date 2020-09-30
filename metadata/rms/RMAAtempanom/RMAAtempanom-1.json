@@ -1,7 +1,7 @@
 {
     "@context": "https://schema.org/",
     "@type": "Dataset",
-    "identifier": "doi.org/10.23637/rms-RMAAtempanomaly-1",
+    "identifier": "10.23637/rms-RMAAtempanomaly-1",
     "name": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019",
     "shortName": "RMAAtempanom",
     "url": "www.era.rothamsted.ac.uk/Met/met_open_access_res_matempanomaly",
@@ -302,22 +302,22 @@
         {
             "type": "dataDownload",
             "name": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019",
-            "URL": "Rothamsted_Temperature_Anomaly_1878-2019_data",
-            "encodingFormat": "Rothamsted_Temperature_Anomaly_1878-2019_data",
+            "URL": "01-Rothamsted_Temperature_Anomaly_1878-2019_data.xlsx",
+            "encodingFormat": "xlsx",
             "fileSize": "867 KB"
         },
         {
             "type": "dataDownload",
             "name": "Long-term Temperature Anomaly for Rothamsted, Harpenden, 1878-2019",
-            "URL": "Rothamsted_Temperature_Anomaly_1878-2019_chart",
-            "encodingFormat": "Rothamsted_Temperature_Anomaly_1878-2019_chart",
+            "URL": "01-Rothamsted_Temperature_Anomaly_1878-2019_chart.pdf",
+            "encodingFormat": "pdf",
             "fileSize": "80 KB"
         },
         {
             "type": "dataDownload",
             "name": "Long-term Temperature Anomaly for Rothamsted, Harpenden, 1878-2019",
-            "URL": "Rothamsted_Temperature_Anomaly_1878-2019_chart",
-            "encodingFormat": "Rothamsted_Temperature_Anomaly_1878-2019_chart",
+            "URL": "01-Rothamsted_Temperature_Anomaly_1878-2019_chart.png",
+            "encodingFormat": "png",
             "fileSize": "62 KB"
         }
     ],

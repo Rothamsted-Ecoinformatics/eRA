@@ -17,15 +17,18 @@
             "numberOdBlocks": null,
             "numberOfPlots": null,
             "numberOfReplicates": null,
-            "numberOfSubplots": null
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
         },
         "crops": [
             {
+                "id": 2184,
                 "name": "wheat",
                 "dateStart": 1856,
                 "dateEnd": 1875
             },
             {
+                "id": 2185,
                 "name": "potatoes",
                 "dateStart": 1876,
                 "dateEnd": 1901
@@ -407,7 +410,8 @@
             "numberOdBlocks": null,
             "numberOfPlots": 10,
             "numberOfReplicates": null,
-            "numberOfSubplots": null
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
         },
         "crops": "NA",
         "cropRotations": "NA",
@@ -433,10 +437,12 @@
             "numberOdBlocks": null,
             "numberOfPlots": 10,
             "numberOfReplicates": null,
-            "numberOfSubplots": 40
+            "numberOfSubplots": 40,
+            "numberOfHarvests": 1
         },
         "crops": [
             {
+                "id": 2186,
                 "name": "barley",
                 "dateStart": 1940,
                 "dateEnd": 1985
@@ -573,15 +579,18 @@
             "numberOdBlocks": null,
             "numberOfPlots": null,
             "numberOfReplicates": null,
-            "numberOfSubplots": null
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
         },
         "crops": [
             {
+                "id": 2187,
                 "name": "barley",
                 "dateStart": 1986,
                 "dateEnd": 1991
             },
             {
+                "id": 2188,
                 "name": "wheat",
                 "dateStart": 1992,
                 "dateEnd": 2006
@@ -741,7 +750,8 @@
             "numberOdBlocks": null,
             "numberOfPlots": null,
             "numberOfReplicates": null,
-            "numberOfSubplots": null
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
         },
         "crops": "NA",
         "cropRotations": "NA",

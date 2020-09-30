@@ -17,20 +17,24 @@
             "numberOdBlocks": 3,
             "numberOfPlots": 27,
             "numberOfReplicates": null,
-            "numberOfSubplots": null
+            "numberOfSubplots": null,
+            "numberOfHarvests": 1
         },
         "crops": [
             {
+                "id": 2200,
                 "name": "fallow",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
+                "id": 2201,
                 "name": "grass",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
+                "id": 2202,
                 "name": "wheat",
                 "dateStart": null,
                 "dateEnd": null

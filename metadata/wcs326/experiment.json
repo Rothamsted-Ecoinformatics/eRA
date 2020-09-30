@@ -1,6 +1,6 @@
 {
     "administrative": {
-        "type": "Experiment",
+        "type": "ScholarlyArticle",
         "identifier": "Woburn Amounts of Straw",
         "localIdentifier": "W/CS/326",
         "name": "Woburn Amounts of Straw",
@@ -19,8 +19,8 @@
     },
     "license": {
         "type": "CreativeWork",
-        "name": "CC-by-4",
-        "license": "http://creativecommons.org/licenses/by/4.0"
+        "name": "CC0",
+        "license": "https://creativecommons.org/share-your-work/public-domain/cc0/"
     },
     "temporalCoverage": "1953/1970 from schema",
     "dateStart": 1987,

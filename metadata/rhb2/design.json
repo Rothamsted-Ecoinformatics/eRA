@@ -17,10 +17,12 @@
             "numberOdBlocks": null,
             "numberOfPlots": null,
             "numberOfReplicates": null,
-            "numberOfSubplots": null
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
         },
         "crops": [
             {
+                "id": 131,
                 "name": "barley",
                 "dateStart": 1852,
                 "dateEnd": null

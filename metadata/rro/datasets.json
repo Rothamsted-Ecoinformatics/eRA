@@ -11,7 +11,11 @@
         "fieldname": "Pastures",
         "experiment_name": "Fumigation",
         "experiment_code": "R/RO",
-        "shortName": "Fumi35"
+        "grade": 1,
+        "dstype": "OA",
+        "version": "1",
+        "shortName": "Fumi35",
+        "UID": "Fumi35-1"
     },
     {
         "md_id": 1971713025,
@@ -25,6 +29,10 @@
         "fieldname": "Pastures",
         "experiment_name": "Fumigation",
         "experiment_code": "R/RO",
-        "shortName": "Fumi36"
+        "grade": 1,
+        "dstype": "OA",
+        "version": "1",
+        "shortName": "Fumi36",
+        "UID": "Fumi36-1"
     }
 ]

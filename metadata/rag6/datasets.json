@@ -11,6 +11,10 @@
         "fieldname": "Agdell",
         "experiment_name": "Agdell",
         "experiment_code": "R/AG/6",
-        "shortName": "test"
+        "grade": 1,
+        "dstype": "N/A",
+        "version": "1",
+        "shortName": "test",
+        "UID": "test-1"
     }
 ]

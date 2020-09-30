@@ -1,0 +1,21 @@
+******************************************************************************************************************************************************************************************************************
+
+                                   Contaminated sludge cake experiment (W/CS/427) 
+
+******************************************************************************************************************************************************************************************************************
+
+
+
+
+DESCRIPTION
+    Enables the comparison of different sewage sludge processing (digested versus undigested), metal concentrations (zinc, copper and cadmium) at four rates up to EU limits and period of application (short term versus long-term). All had the same amount of organic matter added. 
+Samples of the sludge used and periodic soil and plant samples are available in the Rothamsted Sample Archive. 
+This experiment is part of a network of 9 sites across the UK and can also be compared with related Metal Amended Liquid Sludge Experiment and Metal Salts Experiment, also at Woburn.
+    To test the effect of zinc, copper and cadmium enriched sewage sludges on soil microbial activity and agricultural productivity.
+
+    Experiment start = 1994
+
+    Experiment end = None
+
+CONDITION OF ACCESS 
+EXPERIMENT DESIGN 
