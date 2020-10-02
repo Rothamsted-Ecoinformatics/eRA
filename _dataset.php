@@ -47,6 +47,8 @@ $relDatasets = 'List of Related Datasets';
 $relDocuments = 'List of Related Documents';
 if ($hasDataset) {
     $datasetFolder = $dsinfo["shortName"];
+    $dstype = $dsinfo["dstype"];
+    $modal = "#modalClickTrough".$dstype;
     if ($dsinfo["datePublished"]) {
         $datePublication = $dsinfo["datePublished"];
     } else {
@@ -174,22 +176,15 @@ if ($hasDataset) {
 		<div class="col-sm-4">
 			<div class="card card-summary">
 				<div class="card-body">
+				 
 					<button type="button" class="btn btn-primary" data-toggle="modal"
-						data-target="#modalClickTrough">Download</button>
+						data-target="<?php echo $modal;?>">Download</button>
 					<ul class="list-group list-group-flush">
 						<li class="list-group-item"><b>DOI: </b><?php echo $dsinfo['identifier'];?>
 						</li>
 						<li class="list-group-item"><b>Experiment: </b> <a
 							href="experiment/<?php echo $expt;?>#datasets"><?php echo $pageinfo['Experiment']; ?></a></li>
-						<li class="list-group-item"><b>Files: </b> <?php echo $distribution; ?>
-						
-						
-						
-						
-						
-						
-						
-						
+						<li class="list-group-item"><b>Files: </b> <?php echo $distribution; ?>					
 						<li class="list-group-item"><b>Version: </b> <?php echo $dsinfo['version']; ?></li>
 						<li class="list-group-item"><b>Creation Date: </b> <?php echo $dateCreation; ?></li>
 						<li class="list-group-item"><b>Publication Date: </b> <?php echo $datePublication; ?></li>
@@ -207,7 +202,7 @@ if ($hasDataset) {
 						<li class="list-group-item"><b>Publisher: </b>Rothamsted Research</li>
 					</ul>
 					<button type="button" class="btn btn-primary" data-toggle="modal"
-						data-target="#modalClickTrough">Download</button>
+						data-target="<?php echo $modal;?>">Download</button>
 				</div>
 
 			</div>
@@ -363,14 +358,122 @@ if (isset($arrDescription['Other'])) {
 
 
 
-<!-- Modal -->
-<div class="modal fade" id="modalClickTrough" tabindex="-1"
+<!-- Modal OA-->
+<div class="modal fade" id="modalClickTroughOA" tabindex="-1"
 	role="dialog" aria-labelledby="exampleModalCenterTitle"
 	aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLongTitle">End User Agreement</h5>
+				<h5 class="modal-title" id="exampleModalLongTitle">OA End User Agreement</h5>
+				<button type="button" class="close" data-dismiss="modal"
+					aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>
+					<a rel="license" target="_blank"
+						href="http://creativecommons.org/licenses/by/4.0/" target="out"><img
+						style="width: 50px;" alt="Creative Commons License"
+						src="images/logos/cc4.png" align="middle" /></a> This work is
+					licensed under a <a rel="license"
+						href="http://creativecommons.org/licenses/by/4.0/">Creative
+						Commons Attribution 4.0 International License</a>.
+				</p>
+				<p>
+					<strong>YOU MUST CITE AS: </strong>Rothamsted Research (<?php echo $datePublication;?>).
+								<?php echo $dsinfo['name'];?> <em>Electronic Rothamsted Archive</em>
+					<a target="_blank"
+						href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
+
+				</p>
+				<p>Rothamsted relies on the integrity of users to ensure that
+					Rothamsted Research receives suitable acknowledgment as being the
+					originators of these data. This enables us to monitor the use of
+					each dataset and to demonstrate their value.</p>
+
+				<p>
+					If you have not done so, please <a
+						href="https://forms.office.com/Pages/ResponsePage.aspx?id=JTaItkGJQkOw43uMyDkvZDZRGOUcKblFt0gV54i_OxNUMTVYSEZKU0NDRENRSElCNVRCMjdSV0dRMSQlQCN0PWcu">fill
+						in this form</a> and if possible, inform us of any publication
+					that uses this Rothamsted data.
+				</p>
+
+
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				<a type="button" download class="btn btn-primary"
+					href="<?php echo $zipfile; ?>">Agree and Download</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Modal Other-->
+<div class="modal fade" id="modalClickTroughOther" tabindex="-1"
+	role="dialog" aria-labelledby="exampleModalCenterTitle"
+	aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLongTitle">Other End User Agreement</h5>
+				<button type="button" class="close" data-dismiss="modal"
+					aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>
+					<a rel="license" target="_blank"
+						href="http://creativecommons.org/licenses/by/4.0/" target="out"><img
+						style="width: 50px;" alt="Creative Commons License"
+						src="images/logos/cc4.png" align="middle" /></a> This work is
+					licensed under a <a rel="license"
+						href="http://creativecommons.org/licenses/by/4.0/">Creative
+						Commons Attribution 4.0 International License</a>.
+				</p>
+				<p>
+					<strong>YOU MUST CITE AS: </strong>Rothamsted Research (<?php echo $datePublication;?>).
+								<?php echo $dsinfo['name'];?> <em>Electronic Rothamsted Archive</em>
+					<a target="_blank"
+						href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
+
+				</p>
+				<p>Rothamsted relies on the integrity of users to ensure that
+					Rothamsted Research receives suitable acknowledgment as being the
+					originators of these data. This enables us to monitor the use of
+					each dataset and to demonstrate their value.</p>
+
+				<p>
+					If you have not done so, please <a
+						href="https://forms.office.com/Pages/ResponsePage.aspx?id=JTaItkGJQkOw43uMyDkvZDZRGOUcKblFt0gV54i_OxNUMTVYSEZKU0NDRENRSElCNVRCMjdSV0dRMSQlQCN0PWcu">fill
+						in this form</a> and if possible, inform us of any publication
+					that uses this Rothamsted data.
+				</p>
+
+
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				<a type="button" download class="btn btn-primary"
+					href="<?php echo $zipfile; ?>">Agree and Download</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Modal N/A-->
+<div class="modal fade" id="modalClickTroughN/A" tabindex="-1"
+	role="dialog" aria-labelledby="exampleModalCenterTitle"
+	aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLongTitle">N/A End User Agreement</h5>
 				<button type="button" class="close" data-dismiss="modal"
 					aria-label="Close">
 					<span aria-hidden="true">&times;</span>

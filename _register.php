@@ -13,9 +13,10 @@
 	<div class="row">
 
 		<div class="col-xl-8 offset-xl-2 py-5">
-
+			<h1>Login / Logout / Register</h1>
+			<?php  echo $strRegister;?> 
 			<h1>
-				Request Data Access
+				Request Specific Data Access
 			</h1>
 <p>Please select the appropriate form for your request:</p>
 			<ul  class="list-group mx-5">

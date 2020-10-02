@@ -73,6 +73,7 @@ include_once 'includes/settings.inc'; //project default constants
 include_once 'includes/functions.inc' ; //project php function 
 include_once 'includes/exptData.inc'; //experiment data process functions
 include_once 'includes/biblio.inc'; //functions for the bibliography
+include_once 'includes/user.php';
 
 
 
