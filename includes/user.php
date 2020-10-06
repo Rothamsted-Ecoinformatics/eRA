@@ -1,4 +1,5 @@
 <?php
+
 /*
  * file: user.php
  * created 2/10/2020
@@ -14,18 +15,58 @@
  *
  * Because this may set cookies, it is read before any header are sent.
  *
- * $strRegister is either a form to send the email address or the email that is logged in folloed by sign out. 
+ * $strRegister is either a form to send the email address or the email that is logged in folloed by sign out.
+ * $strRegister = $formIN ;
+ * $registeredUser = $email;
+ * $registered = 'yes'
  */
-
-
+function checkUser($info)
+{
+    
+    $link = LogAsGuest();
+    $info = cleanQuery($info);
+    $query = "Select * from `newmarkers` where `position` LIKE '$info'";
+    $results = mysqli_query($link, $query);
+    
+    if (!$results) {
+        print("query failed");
+        echo $query;
+    } else {
+        $i = 0;
+        $nbResults = mysqli_num_rows($results);
+       if ($nbResults == 1) {
+        
+            while ($row = mysqli_fetch_array($results))
+                if ($row['doorbell']== 'ringing') {
+                         $user['response'] = 'Please complete your registration process - Check your inbox';
+                        $user['loggedin'] = 'no';
+                } else {
+                    $user['response'] = 'User registered and Verified';
+                    $user['loggedin'] = 'yes';           
+                }
+       } else {
+           $user['response'] = 'Login failed ! '.$query;
+           $user['loggedin'] = 'no';
+       }
+    }
+    
+    return $user;
+}
+$registeredUser = "Login / Register";
+$strRegister = $formOUT;
+$registered = 'no';
+$loggedIn = 'no';
 
 if (!isset($_COOKIE['email'])) {
-    // there is no cookie, therefore I check that there is a form set and set the cookie
+    // there is no cookie, therefore I check that there is a form set and set the cookie if the email is in the database
 
     if (isset($_POST['email'])) {
         $cookie_email_lbl = "email";
         $cookie_email_value = $_POST['email'];
-        setcookie($cookie_email_lbl, $cookie_email_value, time() + (86400 * 30), "/"); // 86400 = 1 day
+        $user = checkUser($cookie_email_value);
+        if ($user['loggedin'] == 'yes') {
+            setcookie($cookie_email_lbl, $cookie_email_value, time() + (86400 * 30), "/"); // 86400 = 1 day
+        } else {;}
     }
 } else {
 
@@ -38,27 +79,31 @@ if (!isset($_COOKIE['email'])) {
         }
     }
 }
-$registeredUser = "Login";
-$strRegister =  $formOUT;
-$registered = 'no';
-if(isset($_COOKIE['email'])) {$email = $_COOKIE['email']; $registered = 'yes';}
-if(isset($_POST['email'])) {$email = $_POST['email']; $registered = 'yes';}
 
+
+if (isset($_COOKIE['email'])) {
+    $email = $_COOKIE['email'];
+    $registered = 'yes';
+    $loggedIn = 'yes' ;
+}
+if (isset($_POST['email'])) {
+    $email = $_POST['email'];
+    $user = checkUser($email);
+    $loggedIn = $user['loggedin'];
+}
 
 $formIN = "<div class=\"mt-3\">
-<form  action=\"".$_SERVER['PHP_SELF']."\" method=\"post\">
+<form  action=\"" . $_SERVER['PHP_SELF'] . "\" method=\"post\">
 <div class=\"form-group\">
         <input type=\"hidden\" name=\"email\" value=\"delete\">
         <input type=\"hidden\" name=\"delete\" value=\"delete\"> You are logged is as: 
-		".$email."  <input type=\"submit\"value=\"Log Out!\">
+		" . $email . "  <input type=\"submit\"value=\"Log Out!\">
 	</div>
     </form>
     </div>";
 
-
-
 $formOUT = "<div class=\"mt-3\">
-<form  action=\"".$_SERVER['PHP_SELF']."\" method=\"post\">
+<form  action=\"" . $_SERVER['PHP_SELF'] . "\" method=\"post\">
 <div class=\"form-group\">
 <input type=\"text\" class=\"form-control\" id=\"email\" name=\"email\"
     placeholder=\"Enter email\"><input type=\"submit\" Value=\"Log in!\">
@@ -66,19 +111,19 @@ $formOUT = "<div class=\"mt-3\">
     </form>
     </div>
 	";
-$registeredUser = "Login/Register";
-$strRegister =  $formOUT;
+$registeredUser = "Login / Register";
+$strRegister = $formOUT;
 
-if ($registered == 'yes' && $email != 'delete') {
-  
-    $strRegister =  $formIN;
+if ($loggedIn == 'yes' && $email != 'delete') {
+
+    $strRegister = $formIN ;
+    $strMessage = $user['response'];
     $registeredUser = $email;
-
 } else {
-    $strRegister =  $formOUT;
+    $strRegister = $formOUT ;
+    $strMessage = $user['response'];
     $registeredUser = "Login/Register";
 }
-
 
 ?>
 

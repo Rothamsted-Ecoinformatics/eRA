@@ -35,12 +35,13 @@ function check_input($value)
  */
 function cleanQuery($string)
 {
+    $link = LogAsGuest();
     if (get_magic_quotes_gpc()) // prevents duplicate backslashes
     {
         $string = stripslashes($string);
     }
     if (phpversion() >= '4.3.0') {
-        $string = mysqli_real_escape_string($string);
+        $string = mysqli_real_escape_string($link, $string);
     } else {
         $string = mysql_escape_string($string);
     }

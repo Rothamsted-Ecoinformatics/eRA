@@ -13,6 +13,8 @@
  * @date 9/27/2018
  * @date 11/28/2019
  */
+
+
 function getVocab($localword)
 {
     GLOBAL $words;
@@ -49,6 +51,30 @@ if ($hasDataset) {
     $datasetFolder = $dsinfo["shortName"];
     $dstype = $dsinfo["dstype"];
     $modal = "#modalClickTrough".$dstype;
+    $butDownload = "<button type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\"
+    data-target=\"". $modal."\">Download</button>";
+    $butLogin = "<a class=\"btn btn-info mx-1\"
+				href=\"register.php\"> <i class=\"fa fa-user\"></i> Login to download dataset
+			</a>";
+    
+    if ($dstype == 'OA') {
+        $strDownload =  $butDownload;
+        
+    } else 
+    {
+        if ($loggedIn == 'yes' && $email != 'delete') {
+            
+            $strDownload =  $butDownload;
+            
+            
+            
+        } else {
+            
+            $strDownload=  $butLogin;
+            
+        }
+    }
+    
     if ($dsinfo["datePublished"]) {
         $datePublication = $dsinfo["datePublished"];
     } else {
@@ -177,8 +203,7 @@ if ($hasDataset) {
 			<div class="card card-summary">
 				<div class="card-body">
 				 
-					<button type="button" class="btn btn-primary" data-toggle="modal"
-						data-target="<?php echo $modal;?>">Download</button>
+					<?php echo    $strDownload;?>
 					<ul class="list-group list-group-flush">
 						<li class="list-group-item"><b>DOI: </b><?php echo $dsinfo['identifier'];?>
 						</li>
@@ -201,8 +226,7 @@ if ($hasDataset) {
 							Sarah Perryman</li>
 						<li class="list-group-item"><b>Publisher: </b>Rothamsted Research</li>
 					</ul>
-					<button type="button" class="btn btn-primary" data-toggle="modal"
-						data-target="<?php echo $modal;?>">Download</button>
+					<?php echo    $strDownload;?>
 				</div>
 
 			</div>
