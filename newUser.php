@@ -1,19 +1,21 @@
 <?php
 /**
- * @file register.php
+ * @file newUser.php
  * 
- * @brief For to register for a username in the database .
+ * @brief Form to register a new user to access prepared datasets and processing
  *
  * @author Nathalie Castells-Brooke.
  * 
- * @version 1.00 : just a contact form (see Bootstrapious)
  * 
- * @version 0.1
  *  
  */
 
 
 include_once 'includes/init.inc'; // these are the settings that refer to more than one page
+
+/**
+ * Anything to do with Cookies or sessions must happen before this line.. 
+ */
 
 ?>
 <!DOCTYPE html>
@@ -37,12 +39,8 @@ include 'includes/header.html'; // all the menus at the top
 <div id="idRegister">
 <?php 
 
-if ($_POST['process'] == 'process') {
 include_once '_registerProcess.php';
-} else 
-{
-    include_once '_register.php';
-}
+
 ?>
 </div>
 					

@@ -13,7 +13,7 @@
  * flush out injection and prepare the variables.
  *
  */
-
+session_start();
 
 foreach ( $_GET as $sk => $sv ) {
     // stop injection
@@ -68,12 +68,12 @@ $image = '';
 $hasDatacite = 0;
 
 
-include_once 'includes/config.inc'; //project local constants
-include_once 'includes/settings.inc'; //project default constants
-include_once 'includes/functions.inc' ; //project php function 
-include_once 'includes/exptData.inc'; //experiment data process functions
-include_once 'includes/biblio.inc'; //functions for the bibliography
-include_once 'includes/user.php';
+include_once 'includes/config.inc'; //constants - project local constants
+include_once 'includes/settings.inc'; //constants - project default constants
+include_once 'includes/functions.inc' ; //functions - project php function 
+include_once 'includes/exptData.inc'; //functions - experiment data process functions
+include_once 'includes/biblio.inc'; //functions - functions for the bibliography
+include_once 'includes/user.php'; //functions and processing User 
 
 
 
