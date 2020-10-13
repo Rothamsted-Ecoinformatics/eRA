@@ -30,6 +30,29 @@ if ($hasDataset) {
     $dsinfo = json_decode($jdataset8, true);
 }
 $page_description = $dsinfo['description'][0]['description'];
+
+
+
+if (isset($_SESSION['visitedPages']))
+{
+    $_SESSION['visitedPages'][] = array(
+        "dataset"   =>      $dataset,
+        "expt"      =>      $expt
+    );
+}
+else { 
+    $_SESSION['visitedPages'] = array();
+    $_SESSION['visitedPages'][] = array(
+    "dataset"   =>      $dataset,
+    "expt"      =>      $expt
+);
+    
+}
+$_SESSION['page'] = 'dataset/'.$expt.'/'.$dataset;
+$_SESSION['dataset'] = $dataset;
+$_SESSION['expt'] = $expt;
+
+
 ?>
 <!DOCTYPE html>
 <html class="no-js" lang="en">
@@ -54,6 +77,8 @@ $page_description = $dsinfo['description'][0]['description'];
     //--  start dependent content ---------------------------------------------------------
     
     include '_dataset.php';
+    
+
     	
     //-- start footers  -----------------------------
     

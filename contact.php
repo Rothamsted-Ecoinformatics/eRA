@@ -2,6 +2,7 @@
 include_once 'includes/init.inc'; // these are the settings that refer to more than one page
 
 $page_title .= "About e-RA";
+$_SESSION['page'] = 'about.php';
 
 ?>
 <!DOCTYPE html>

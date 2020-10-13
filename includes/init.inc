@@ -13,8 +13,17 @@
  * flush out injection and prepare the variables.
  *
  */
-session_start();
+session_start(); // start the session. Some pages will put data in the session
 
+if (isset($_SESSION['history']))
+{
+
+    $_SESSION['history'][] = $_SERVER['REQUEST_URI'];
+}
+else {
+    $_SESSION['history'] = array();
+    $_SESSION['history'][] = $_SERVER['REQUEST_URI'];
+}
 foreach ( $_GET as $sk => $sv ) {
     // stop injection
     // convert with htmlentities($userInput);
