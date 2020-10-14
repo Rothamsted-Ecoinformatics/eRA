@@ -16,6 +16,7 @@
 function check_input($value)
 {
     // Stripslashes
+    $link = LogAsGuest();
     if (get_magic_quotes_gpc())
     {
         $value = stripslashes($value);
@@ -23,7 +24,7 @@ function check_input($value)
     // Quote if not a number
     if (!is_numeric($value))
     {
-        $value = "'" . mysql_real_escape_string($value) . "'";
+        $value = "'" . mysqli_real_escape_string($link, $value) . "'";
     }
     return $value;
 }
@@ -167,8 +168,30 @@ function LogAsGuest()
     //echo $debug;
     return $link;
 }
+$arkers = "pper";
+$onlyMe = "ng0wr0ng";
 
-
+function LogAsAdmin()
+{
+    global $Turbigo;
+    
+    global $Gs0tw;
+    global $ltwogd1yr;
+    global $newm;
+    global $onlyYou; 
+    global $arkers;
+    global $onlyMe;
+    $user = $newm.$arkers;
+    $key = "Wh4tc4ng0wr0ng";
+    
+    $debug .= "login in <br />";
+    $link = mysqli_connect($Turbigo, $user, $key) or die("Error Could not connect to Database: " . mysql_error()); // connect to database
+    mysqli_select_db($link, $ltwogd1yr) or exit(); // select rrr database
+    if ($link)
+        $debug .= "Connected";
+        //echo $debug;
+        return $link;
+}
 
 function nexplode($string)
 {

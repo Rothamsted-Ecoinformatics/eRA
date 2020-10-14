@@ -15,6 +15,8 @@
  */
 session_start(); // start the session. Some pages will put data in the session
 
+
+
 if (isset($_SESSION['history']))
 {
 

@@ -49,10 +49,7 @@ include_once '_registerProcess.php';
 
 include_once 'includes/footer.html'; // this has the green bar and bottome stu
 
-?>
- 
-	</div>
-<?php
+
 
 include_once 'includes/finish.inc'; // this has the common js scripts
 
