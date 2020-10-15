@@ -13,6 +13,8 @@
 
 include_once 'includes/init.inc'; // these are the settings that refer to more than one page
 
+
+
 /**
  * Anything to do with Cookies or sessions must happen before this line.. 
  */

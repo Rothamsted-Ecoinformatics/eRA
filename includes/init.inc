@@ -26,6 +26,8 @@ else {
     $_SESSION['history'] = array();
     $_SESSION['history'][] = $_SERVER['REQUEST_URI'];
 }
+
+
 foreach ( $_GET as $sk => $sv ) {
     // stop injection
     // convert with htmlentities($userInput);
@@ -37,8 +39,6 @@ foreach ( $_GET as $sk => $sv ) {
         } else {
             // echo("<p>ftp found in parameter</p>");
             $_GET [$sk] = "";
-            $area = "home";
-            $page = "index";
         }
     } elseif (is_array ( $sv )) {
         

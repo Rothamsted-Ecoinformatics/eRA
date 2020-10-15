@@ -22,12 +22,12 @@ After cutting the crop was bound  into sheaves which were &lsquo;stooked&rsquo; 
 days. Thus the earlier datasets BBKYIELD and BBKYIELD_F include the dates of  both cutting and carting the crop. From 1957 the plots have been 
 harvested by a  small plot combine harvester; only the central strip of each plot is taken for  yield and samples. Before 1957 the plots were 
 usually cut in early August,  since 1957 combining has been in August or early September. Sowing and harvest dates are available 
-from the <a href="<?=$Era_Curator[Email]?>">e-RA Curators</a>.</p>
+from the <a href="<?=$eRA['curator'][Email]?>">e-RA Curators</a>.</p>
 <p><strong>Yields from Section 8 (no herbicides):</strong><br />
 Section 8 has never received herbicides, and many weed species are present. Many weed seeds and other weed debris are included in the 'grain' yield at harvest. The 'straw' 
 will also include weed material. The FYM plots and plots given the higher N rates generally have more weed contamination than the other plots. A sub-sample of grain is cleaned 
 (weed seeds and debris removed) after harvest, and an estimate of the cleaned grain yield made. Data currently in e-RA is of the uncleaned grain. It is not possible to correct 
-the straw yield for weed contamination. For further details, and the cleaned grain data, please contact the <a href= "<?=$Era_Curator[Email]?>"> e-RA Curators </a> 
+the straw yield for weed contamination. For further details, and the cleaned grain data, please contact the <a href= "<?=$eRA['curator'][Email]?>"> e-RA Curators </a> 
 </p>
 <p><strong>Units:</strong><br />
 Since 1954 dry matter (DM) content of the grain and straw  has been measured at harvest, and all yields have been converted to 85% DM  
@@ -43,7 +43,7 @@ The harvested area is shown in most  of the datasets.
 <p><strong>Corrections:</strong><br />
 <b>2013 plot 17 Section 3</b>, no straw yield was recorded. An estimated value has been used, based on the straw/grain ratio of plot 16, Section 3 (a plot with similar grain yield):  (5.44/8.01) * 7.95 = 5.39 t/ha. </p>
 <p>
-Further details can be obtained from the <a href= "<?=$Era_Curator[Email]?>"> e-RA Curators </a> </p>
+Further details can be obtained from the <a href= "<?=$eRA['curator'][Email]?>"> e-RA Curators </a> </p>
 
 
 <p>For more information, refer to the  

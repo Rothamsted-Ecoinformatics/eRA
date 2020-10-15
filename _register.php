@@ -14,11 +14,9 @@
 
 		<div class="col-xl-8 offset-xl-2 py-5">
 			<h1 class="mt-5">Login / Logout</h1>
-			<?php  echo $strRegister . $strMessage ;?> 
+			<?php  echo $strRegister . $strMessage ?> 
 			
-			<?php if ($loggedIn == 'yes' && $email != 'delete') {;} else {?>
-			 <a  class="btn btn-primary" href="newUser.php">Register</a>
-			<?php } ?>
+			
 			
 			
 			<h1 class="mt-5">Request Access to raw datasets</h1>

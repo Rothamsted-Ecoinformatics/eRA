@@ -61,6 +61,12 @@ function getInput()
     }
     return $details;
 }
+
+
+
+
+
+/** ******************************************** **/
 /**
  *
  * @var string $vprocess : tells the application where the process is:
@@ -70,156 +76,16 @@ function getInput()
  */
 $vprocess = "question";
 if (isset($_POST['process'])) {
-    $vprocess = $_POST['process'];
+    $vprocess = "post - :". $_POST['process'];
+}
+if (isset($_GET['process'])) {
+    $vprocess = "get - ". $_GET['process'];
+}
+if (isset($_REQUEST['process'])) {
+    $vprocess = $_REQUEST['process'];
 }
 
-function buildemail($answers = array())
-{
-    global $Web_base;
-    $to = $answers['email'];
-    $subject = "TEST-Confirm your login!";
-    
-    $message = "
-<html>
-<head>
-<link rel=\"stylesheet\"
-	href=\"https://fonts.googleapis.com/css?family=Raleway:400,800\">
-<link rel='stylesheet'
-	href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\">
-        
-<link rel=\"stylesheet\"
-	href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\"
-	integrity=\"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T\"
-	crossorigin=\"anonymous\">
-        
-<link rel=\"stylesheet\" href=\"".$Web_base."css/bootstrap.css\">
-<link rel=\"stylesheet\" href=\"".$Web_base."css/style.css\">
-    
-<title>Login or register email</title>
-</head>
-<body>
-<P>Dear " . $answers['fname'] . " <br />
-    
-<br />
-You, or someone pretending to be you has requested login into eRA
-<br />
-Confirm by  following the link, </p>
-    
-<p> Link not working.. </p>
-    
-<a class=\"btn btn-info mx-1\"
-				href=\"".$Web_base."newUser.php?process=confirm&VC="
-				. $answers['vericode'] . "&TC="
-				. $answers['timecode'] . "&VC2="
-				. $answers['vericode2'] . "\"> <i class=\"fa fa-user\"></i> Confirm !
-			</a></li>
-				    
-				    
-				    
-<p></p>
-</body>
-</html>
-";
-				
-				$answers['vericode'] = $randString;
-				$answers['timecode'] = $timecode;
-				
-				// Always set content-type when sending HTML email
-				$headers = "MIME-Version: 1.0" . "\r\n";
-				$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-				
-				// More headers
-				$headers .= 'From: <nathalie.castells@rothamsted.ac.uk>' . "\r\n";
-				$headers .= 'Cc: nathalie.castells@rothamsted.ac.uk' . "\r\n";
-				
-				if (mail($to, $subject, $message, $headers)) {
-				    
-				    
-				    return "Please Check your mailbox for validation";
-				} else { return "Unable to send mail" ; }
-}
-
-
-/**
- * generated any length random string
- * @param number $length
- * @return string
- */
-function generateRandomString($length = 10)
-{
-    return substr(str_shuffle(str_repeat($x = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ', ceil($length / strlen($x)))), 1, $length);
-}
-
-/**
- * returns timestamp
- *
- * @return mixed
- */
-function makeCode()
-{
-    $time = gettimeofday();
-    $code = $time['sec'];
-    return $code;
-}
-/**
- * Sends the preliminary parameters to the db
- *
- * position: the email address
- * vericode: code to match with the cookie to identify machine
- * doorbell: ringing if waiting for registration - and
- * fname:
- * lname:
- * institution: research group, name of institution or N/A
- * information: information about the research
- * allowEmails
- *
- * checks that the emails is not already in the database (just in case) if it is not, it preregisters the user. If it is, it does nothing
- * @param Array $answer
- * @return String (the query...)
- *
- */
-function reg2db($answer) {
-    $link = LogAsAdmin();
-    $consentEmail = 0;
-    if (isset($answer['consentEmail'])) {
-        if ($answer['consentEmail'] == 'on') {
-            $consentEmail = 1;
-        }
-    }
-    
-    $queryCheck = "SELECT * from newmarkers where position LIKE '".$answer['email']."'";
-    
-    
-    
-    $results = mysqli_query($link, $queryCheck);
-    
-    if (!$results) {
-        print("query failed - ".$queryCheck);
-        
-        
-    } else {
-        $i = 0;
-        $nbResults = mysqli_num_rows($results);
-        if ($nbResults >= 1) {
-            $queryReturn = $queryCheck;
-        } else {
-            $queryReturn = "INSERT INTO newmarkers
-            (`position`, vericode, doorbell, fname, lname, institution, information, allowEmails, country)
-            VALUES('".$answer['email']."', '"
-                .$answer['vericode']."', 'Ringing', '"
-                    .$answer['fname']."', '"
-                        .$answer['lname']."', '"
-                            .$answer['institution']."', '"
-                                .$answer['information']."', "
-                                    .$consentEmail.", '"
-                                        .$answer['country']."');";
-                                        
-                                        $results = mysqli_query($link, $queryReturn);
-        }
-    }
-    
-    return $queryReturn;
-}
+echo $vprocess;
 
 if ($vprocess == "question") {
     ?>
@@ -310,7 +176,15 @@ if ($vprocess == "question") {
     echo $output;
     echo ("<p>".$emailsent."</p>");
     echo ("<p>".$dbanswer."</p>");
+    
+    echo ("TODO: ");
+    echo ("put email, timecode and vericodes in cookies");
+    echo ("because this is a cookie thing, it has to be done before the headers are sent. ");
 
+} else if ($vprocess == "confirm") {
+    echo "I am in: when the user comes back to this page, : ";
+    echo "<br />TODO: ";
+    echo "<br /> compare what comes in with cookie";
 }
 ?>
 

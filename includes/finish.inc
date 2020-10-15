@@ -1,4 +1,5 @@
 <?php
+testvar();
 include "_bottom.php";
 ?>
 </div>
