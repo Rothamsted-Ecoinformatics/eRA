@@ -21,6 +21,8 @@
  * $registeredUser = $email;
  * $registered = 'yes'
  */
+
+$redirect = "no";
 function checkUser($info) {    
     $link = LogAsGuest();
     $info = cleanQuery($info);
@@ -385,6 +387,10 @@ if (isset($_REQUEST['process']) && $_REQUEST['process'] == 'confirm' ) {
     
     $output .= $emailsent;
     $output .= $dbanswer;
+    
+    $nb= count($_SESSION['history']) - 1;
+    $location = "Location: ".$_SESSION['history'][$nb];
+    header($location);
 }
 
 

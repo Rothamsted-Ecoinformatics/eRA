@@ -17,15 +17,6 @@ session_start(); // start the session. Some pages will put data in the session
 
 $output = ""; //debug output
 
-if (isset($_SESSION['history']))
-{
-
-    $_SESSION['history'][] = $_SERVER['REQUEST_URI'];
-}
-else {
-    $_SESSION['history'] = array();
-    $_SESSION['history'][] = $_SERVER['REQUEST_URI'];
-}
 
 
 foreach ( $_GET as $sk => $sv ) {
@@ -85,6 +76,7 @@ include_once 'includes/functions.inc' ; //functions - project php function
 include_once 'includes/exptData.inc'; //functions - experiment data process functions
 include_once 'includes/biblio.inc'; //functions - functions for the bibliography
 include_once 'includes/user.php'; //functions and processing User 
+include_once 'includes/session.php'; //sort out what is going in the session variables. 
 
 
 /**
