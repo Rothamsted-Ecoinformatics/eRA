@@ -15,7 +15,7 @@
  */
 session_start(); // start the session. Some pages will put data in the session
 
-
+$output = ""; //debug output
 
 if (isset($_SESSION['history']))
 {
@@ -87,4 +87,9 @@ include_once 'includes/biblio.inc'; //functions - functions for the bibliography
 include_once 'includes/user.php'; //functions and processing User 
 
 
+/**
+echo ("------- debug stuff --------<br />");
+echo ($output);
 
+echo ("------- end of debug stuff --------<br />");
+**/

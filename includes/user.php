@@ -35,7 +35,7 @@ function checkUser($info) {
         $nbResults = mysqli_num_rows($results);
        if ($nbResults == 1) {
            while ($row = mysqli_fetch_array($results)) {
-                                   
+                    $user['email'] = $row['position'];             
                     $user['dbresponse'] = 'yes';
                     $user['vericode'] = $row['vericode'];
                     $user['fname'] = $row['fname'];
@@ -50,6 +50,49 @@ function checkUser($info) {
     
     return $user;
 }
+
+function getInput()
+{
+    $details = array(
+        "email" => "nathalie.brooke@gmail.com",
+        "fname" => "Nathalie",
+        "lname" => "Brooke",
+        "institution" => "RRES",
+        "information" => "Some text that will need cleaning",
+        "country" => "United Kingdom",
+        "consentData" => 1,
+        "consentEmail" => 1
+    );
+    if (isset($_POST['InputFirstName'])) {
+        $details['fname'] = cleanQuery($_POST['InputFirstName']);
+    }
+    
+    if (isset($_POST['InputLastName'])) {
+        $details['lname'] = cleanQuery($_POST['InputLastName']);
+    }
+    if (isset($_POST['InputEmail'])) {
+        $details['email'] = cleanQuery($_POST['InputEmail']);
+    }
+    if (isset($_POST['InputInstitute'])) {
+        $details['institution'] = cleanQuery($_POST['InputInstitute']);
+    }
+    if (isset($_POST['information'])) {
+        $details['information'] = cleanQuery($_POST['information']);
+    }
+    if (isset($_POST['consentCheck'])) {
+        
+        $details['consentEmail'] = cleanQuery($_POST['consentCheck']);
+    }
+    if (isset($_POST['understandCheck'])) {
+        $details['consentData'] = cleanQuery($_POST['understandCheck']);
+    }
+    
+    if (isset($_POST['inputCountry'])) {
+        $details['country'] = cleanQuery($_POST['inputCountry']);
+    }
+    return $details;
+}
+
 /**
  * Sends the preliminary parameters to the db
  *
@@ -159,7 +202,7 @@ function buildemail($answers = array())
 <P>Dear " . $answers['fname'] . " <br />
     
 <br />
-You, or someone pretending to be you has requested login into eRA
+You, or someone pretending to be you has requested login or registration into eRA
 <br />
 Confirm by  following the link, </p>
     
@@ -178,9 +221,7 @@ Confirm by  following the link, </p>
 </body>
 </html>
 ";
-				            
-				    
-				            
+		            
 				            // Always set content-type when sending HTML email
 				            $headers = "MIME-Version: 1.0" . "\r\n";
 				            $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
@@ -207,13 +248,15 @@ $loggedIn = 'no';
 if (!isset($_COOKIE['email'])) {
     // there is no cookie, therefore I check that there is a form set and set the cookie if the email is in the database
 
-    if (isset($_POST['email'])) {
+    if (isset($_POST['email']) || isset($_POST['InputEmail'])) {
         $cookie_email_lbl = "email";
         $cookie_email_value = $_POST['email'];
+        
         $user = checkUser($cookie_email_value);
         $time = makecode();
         if ($user['dbresponse'] == 'yes') {
             setcookie('email', $cookie_email_value, time() + (86400 * 30), "/"); // 86400 = 1 day
+            setcookie('newemail', $_POST['InputEmail'], time() + (86400 * 30), "/"); // 86400 = 1 day
             setcookie('doorbell', 'ringing', time() + (86400 * 30), "/"); // 86400 = 1 day
             setcookie('time', $time, time() + (86400 * 30), "/"); // 86400 = 1 day
         } else {;}
@@ -254,7 +297,7 @@ if (isset($_COOKIE['email'])) {
  * 
  */
 if (isset($_POST['email']) ) {
-    
+
     $email = $_POST['email'];
     if ($email != 'delete') {
     $user = checkUser($email);
@@ -263,36 +306,87 @@ if (isset($_POST['email']) ) {
     $answers['vericode2'] = generateRandomString(72);
     $answers['timecode'] = makeCode();
     $answers['email'] = $email;
-    
+    $output .= $email;
     $emailsent = buildemail($answers);
     
-    $output = '<ul>';
+    $output .= '<ul>';
     foreach ($answers as $key => $value) {
         $output .= "<li>" . $key . " : " . $value . "</li>";
     }
     $output .= '</ul>';
+    $output .= $emailsent;
     if ($answers['dbresponse']=='yes') {
     $registered = 'yes';
     $strMessage = "An email has been sent to ".$answers['email'].". Please check your mail box to confirm your login.";
     }
     else {$strMessage = "This email is not recognised. Try again or register";}
     }
+    $output .= $strMessage;
 $loggedIn = 'no';
 }
-/** 
+/**
  * this is if we are coming from an email Link.
  */
-if (isset($_REQUEST['process'])) {
-    $answer['email'] = $_COOKIE['email'];
-    $answer = checkUser($answer['email']);
-    $answer['vericode']  = $user['vericode'];
+if (isset($_POST['process']) && $_POST['process'] == 'process' ) {
+   
+    
+    $answers = getInput();
+    $email = $answers['email']; 
+ 
+    $answers['vericode']  = generateRandomString(10);
+    $answers['vericode2'] = generateRandomString(72);
+    $answers['timecode'] = makeCode();
+    
+    setcookie('email', $email, time() + (86400 * 30), "/"); // 86400 = 1 day
+    setcookie('doorbell', 'ringing', time() + (86400 * 30), "/"); // 86400 = 1 day
+    setcookie('time', $time, time() + (86400 * 30), "/"); // 86400 = 1 day
+    
+    $emailsent = buildemail($answers);
+    
+    $dbanswer = reg2db($answers);
+    
+    $output .= '<ul>';
+    foreach ($answers as $key => $value) {
+        $output .= "<li>" . $key . " : " . $value . "</li>";
+    }
+    $output .= '</ul>';
+
+    $loggedIn = 'no';
+
+    $output .= $emailsent;
+    $output .= $dbanswer;
+    
+}
+
+/** 
+ * this is if we are coming from an email Link usually to confirm login or registration.
+ */
+if (isset($_REQUEST['process']) && $_REQUEST['process'] == 'confirm' ) {
+    //there should be a cookie with the eamil
+    $email = $_COOKIE['email'];
+    $registeredUser = $email;
+    $answer = checkUser($email);
+    $output .= '<ul>';
+    foreach ($answer as $key => $value) {
+        $output .= "<li>" . $key . " : " . $value . "</li>";
+    }
+    $output .= '</ul>';
     $answer['vericode2'] = $_REQUEST['VC2'];
     $dbanswer = reg2db($answer);
+    
     $loggedIn = 'yes';
-    $email = $answer['email'];
-    $registeredUser = $email;
     setcookie('doorbell', $_REQUEST['VC2'], time() + (86400 * 30), "/"); // 86400 = 1 day
+    
+    $output .= '<ul>';
+    foreach ($answer as $key => $value) {
+        $output .= "<li>" . $key . " : " . $value . "</li>";
+    }
+    $output .= '</ul>';
+    
+    $output .= $emailsent;
+    $output .= $dbanswer;
 }
+
 
 $formIN = "<div class=\"mt-3\">
 <form  action=\"" . $_SERVER['PHP_SELF'] . "\" method=\"post\">

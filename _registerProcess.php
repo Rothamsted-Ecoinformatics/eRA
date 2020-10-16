@@ -20,47 +20,6 @@ $fromEmail = 'nathalie.castells@rothamsted.ac.uk';
  *
  * @var array $details : will contain all the variables we need to feed the function
  */
-function getInput()
-{
-    $details = array(
-        "email" => "nathalie.brooke@gmail.com",
-        "fname" => "Nathalie",
-        "lname" => "Brooke",
-        "institution" => "RRES",
-        "information" => "Some text that will need cleaning",
-        "country" => "United Kingdom",
-        "consentData" => 1,
-        "consentEmail" => 1
-    );
-    if (isset($_POST['InputFirstName'])) {
-        $details['fname'] = cleanQuery($_POST['InputFirstName']);
-    }
-    
-    if (isset($_POST['InputLastName'])) {
-        $details['lname'] = cleanQuery($_POST['InputLastName']);
-    }
-    if (isset($_POST['InputEmail'])) {
-        $details['email'] = cleanQuery($_POST['InputEmail']);
-    }
-    if (isset($_POST['InputInstitute'])) {
-        $details['institution'] = cleanQuery($_POST['InputInstitute']);
-    }
-    if (isset($_POST['information'])) {
-        $details['information'] = cleanQuery($_POST['information']);
-    }
-    if (isset($_POST['consentCheck'])) {
-        
-        $details['consentEmail'] = cleanQuery($_POST['consentCheck']);
-    }
-    if (isset($_POST['understandCheck'])) {
-        $details['consentData'] = cleanQuery($_POST['understandCheck']);
-    }
-    
-    if (isset($_POST['inputCountry'])) {
-        $details['country'] = cleanQuery($_POST['inputCountry']);
-    }
-    return $details;
-}
 
 
 
@@ -157,34 +116,20 @@ if ($vprocess == "question") {
 <?php
 } else if ($vprocess == "process") {
 
-    $answers = getInput();
-
-    $answers['vericode']  = generateRandomString(10);
-    $answers['vericode2'] = generateRandomString(72);
-    $answers['timecode'] = makeCode();
-    
-    $emailsent = buildemail($answers);
-    
-    $dbanswer = reg2db($answers);
-    
-    $output = '<ul>';
-    foreach ($answers as $key => $value) {
-        $output .= "<li>" . $key . " : " . $value . "</li>";
-    }
-    $output .= '</ul>';
-
-    echo $output;
-    echo ("<p>".$emailsent."</p>");
-    echo ("<p>".$dbanswer."</p>");
-    
-    echo ("TODO: ");
-    echo ("put email, timecode and vericodes in cookies");
-    echo ("because this is a cookie thing, it has to be done before the headers are sent. ");
+    ?>
+    <h1 class="mt-5">Registration Process</h1>
+<div class="m-5">
+   
+   <p>Thank you for your registration. </p><!--  -->
+   <p>An email has been sent to <?php echo $answers['email']; ?>. Please check and complete your registration.
+   </p>
+</div>
+    <?php 
 
 } else if ($vprocess == "confirm") {
-    echo "I am in: when the user comes back to this page, : ";
-    echo "<br />TODO: ";
-    echo "<br /> compare what comes in with cookie";
+    echo ("that should not be necessary as the email writes a link that goes to index... ");
+    echo "I am in: when the user comes back to this page, ";
+
 }
 ?>
 
