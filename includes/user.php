@@ -227,7 +227,13 @@ if (!isset($_COOKIE['email'])) {
             $cookie_email_value = $_POST['email'];
             setcookie('email', "", time() - (86400 * 30), "/"); 
             setcookie('doorbell', "", time() - (86400 * 30), "/"); 
-            setcookie('time', "", time() - (86400 * 30), "/"); 
+            setcookie('time', "", time() - (86400 * 30), "/");
+            session_start();
+            session_unset();
+            session_destroy();
+            session_write_close();
+            setcookie(session_name(),'',0,'/');
+            session_regenerate_id(true);
         }
     }
     
@@ -248,6 +254,7 @@ if (isset($_COOKIE['email'])) {
  * 
  */
 if (isset($_POST['email']) ) {
+    
     $email = $_POST['email'];
     if ($email != 'delete') {
     $user = checkUser($email);
