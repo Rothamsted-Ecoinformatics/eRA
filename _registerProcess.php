@@ -120,15 +120,15 @@ if ($vprocess == "question") {
 				class="form-text text-muted">Please provide the name of your
 				institution or N/A if this is for your private use</small>
 		</div>
+		
 		<div class="form-group">
+		
 			<label for="inputCountry">Country</label> <select
-				class="form-control" id="inputCountry" name="inputCountry" required>
-				<option>United Kingdom</option>
-				<option>Tattouine</option>
-				<option>Genovia</option>
-				<option>Ank Morport</option>
+				class="form-control selectpicker countrypicker" data-flag="true" data-default="GB" id="inputCountry" name="inputCountry" required>
+
 			</select>
 		</div>
+		
 		<div class="form-group">
 			<label for="information">Data Use</label>
 			<textarea class="form-control" id="information" name="information"
