@@ -42,6 +42,10 @@ function checkUser($info) {
                     $user['vericode'] = $row['vericode'];
                     $user['fname'] = $row['fname'];
                     $user['lname'] = $row['lname'];
+                    $user['institution']= $row['institution'];
+                    $user['information']= $row['information'];
+                    $user['allowEmails']= $row['allowEmails'];
+                    $user['country']= $row['country'];
                     
            }
        } else {
@@ -191,13 +195,19 @@ function buildemail($answers = array())
 {
     global $Web_base;
     $to = $answers['email'];
-    $subject = "TEST - Confirm your login!";
+    $process = $answers['process'];
+    $subject = '[eRA]';
+    if ($process == 'login') {
+        $subject .= " Confirm your login!";
+    }
+    if ($process == 'register') {
+        $subject .= " Finish your registration";
+    }
+    
     
     $message = "
 <html>
-<head>
-        
-        
+<head>     
 <title>Confirmation email</title>
 </head>
 <body>
@@ -206,20 +216,38 @@ function buildemail($answers = array())
 <br />
 You, or someone pretending to be you has requested login or registration into eRA
 <br />
+";
+    if ($process == 'register') {
+        $message .= "
+    
+<ul> 
+<li>Name :  " . $answers['fname'] . " " . $answers['lname'] . "</li>
+<li>Institution: " . $answers['institution'] . "</li>
+<li>Country: " . $answers['country'] . "</li>
+<li>Why access Data: " . $answers['information'] . "</li>
+</ul>
+
+";
+    }
+    
+    $message .= "
 Confirm by  following the link, </p>
     
 
     
-<a class=\"btn btn-info mx-1\"
-				href=\"".$Web_base."index.php?process=confirm&VC="
+<a href=\"".$Web_base."index.php?process=confirm&VC="
 				    . $answers['vericode'] . "&TC="
 				        . $answers['timecode'] . "&VC2="
 				            . $answers['vericode2'] . "\"> <i class=\"fa fa-user\"></i> Confirm !
-			</a></li>
+			</a>
+
 				                
+			                
 				                
-				                
-<p></p>
+<p>".$Web_base."index.php?process=confirm&VC="
+				    . $answers['vericode'] . "&TC="
+				        . $answers['timecode'] . "&VC2="
+				            . $answers['vericode2'] . "</p>
 </body>
 </html>
 ";
@@ -229,9 +257,10 @@ Confirm by  following the link, </p>
 				            $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 				            
 				            // More headers
-				            $headers .= 'From: <nathalie.castells@rothamsted.ac.uk>' . "\r\n";
+				            $headers .= 'From: <era@rothamsted.ac.uk>' . "\r\n";
+				            if ($process == 'register') {
 				            $headers .= 'Cc: nathalie.castells@rothamsted.ac.uk' . "\r\n";
-				            
+				            }
 				            if (mail($to, $subject, $message, $headers)) {
 				                
 				                
@@ -290,6 +319,8 @@ if (isset($_COOKIE['email'])) {
     $registered = 'yes'; // to see if I need the register button or not
     if ($doorbell == 'ringing') {
     $loggedIn = 'no' ;
+    $strMessage = "<span class=\"badge badge-success\">An email has been sent to ".$email.". Please check your mail box to confirm your login.</span>";
+    
     } else {
         $loggedIn = 'yes' ;
     }
@@ -308,6 +339,7 @@ if (isset($_POST['email']) ) {
     $answers['vericode2'] = generateRandomString(72);
     $answers['timecode'] = makeCode();
     $answers['email'] = $email;
+    $answers['process'] = 'login';
     $output .= $email;
     $emailsent = buildemail($answers);
     
@@ -319,15 +351,15 @@ if (isset($_POST['email']) ) {
     $output .= $emailsent;
     if ($answers['dbresponse']=='yes') {
     $registered = 'yes';
-    $strMessage = "An email has been sent to ".$answers['email'].". Please check your mail box to confirm your login.";
+    $strMessage = "<span class=\"badge badge-success\">An email has been sent to ".$email.". Please check your mail box to confirm your login.</span>";
     }
     else {$strMessage = "This email is not recognised. Try again or register";}
     }
     $output .= $strMessage;
-$loggedIn = 'no';
+    $loggedIn = 'no';
 }
 /**
- * this is if we are coming from an email Link.
+ * this is if we are from registration form.
  */
 if (isset($_POST['process']) && $_POST['process'] == 'process' ) {
    
@@ -338,6 +370,8 @@ if (isset($_POST['process']) && $_POST['process'] == 'process' ) {
     $answers['vericode']  = generateRandomString(10);
     $answers['vericode2'] = generateRandomString(72);
     $answers['timecode'] = makeCode();
+    
+    $answers['process'] = 'register';
     
     setcookie('email', $email, time() + (86400 * 30), "/"); // 86400 = 1 day
     setcookie('doorbell', 'ringing', time() + (86400 * 30), "/"); // 86400 = 1 day
@@ -416,7 +450,24 @@ $formOUT = "<div class=\"mt-3\">
 
 </div>
 
-    <button type=\"submit\" class=\"btn btn-primary\" >Log in</button>
+    <button type=\"submit\" class=\"btn btn-primary \" >Log in</button>
+    <a  class=\"btn btn-secondary\" href=\"newUser.php\">Register</a>
+</form>
+</div>
+	";
+
+$formWaiting = "<div class=\"mt-3\">
+<form novalidate class=\"needs-validation\" action=\"" . $_SERVER['PHP_SELF'] . "\" method=\"post\">
+    
+<div class=\"form-group\">
+        <input type=\"email\" class=\"form-control\" id=\"email\" name=\"email\"
+        placeholder=\"Enter email\" aria-describedby=\"emailHelp\"  required>
+        <small id=\"emailHelp\" class=\"form-text text-muted\">We'll never share your email with anyone else.</small>
+    <div class=\"invalid-feedback\">Please enter a valid email address.</div>
+    
+</div>
+    
+    <button type=\"submit\" class=\"btn btn-primary \" >Log in</button>
     <a  class=\"btn btn-secondary\" href=\"newUser.php\">Register</a>
 </form>
 </div>
