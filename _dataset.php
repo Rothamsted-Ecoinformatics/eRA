@@ -51,9 +51,13 @@ if ($hasDataset) {
     $datasetFolder = $dsinfo["shortName"];
     $dstype = $dsinfo["dstype"];
     $modal = "#modalClickTrough".$dstype;
+
     $butDownload = "<button type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\"
     data-target=\"". $modal."\">Download</button>";
-    $butLogin = "<a class=\"btn btn-info mx-1\"
+    
+    $butLogin = "<button type=\"button\" class=\"btn btn-info\" data-toggle=\"modal\"
+        data-target=\"#modalLogin\">". $registeredUser."</button>";
+    $butLoginprev = "<a class=\"btn btn-info mx-1\"
 				href=\"register.php\"> <i class=\"fa fa-user\"></i> Login to download dataset
 			</a>";
     

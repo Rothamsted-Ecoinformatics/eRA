@@ -23,6 +23,10 @@
  */
 
 $redirect = "no";
+$strMessage = '';
+$nb= count($_SESSION['history']) - 1;
+$location = "Location: ".$_SESSION['history'][$nb];
+
 function checkUser($info) {    
     $link = LogAsGuest();
     $info = cleanQuery($info);
@@ -301,13 +305,15 @@ if (!isset($_COOKIE['email'])) {
             $cookie_email_value = $_POST['email'];
             setcookie('email', "", time() - (86400 * 30), "/"); 
             setcookie('doorbell', "", time() - (86400 * 30), "/"); 
-            setcookie('time', "", time() - (86400 * 30), "/");
+            setcookie('time', "", time() - (86400 * 30), "/");            
             session_start();
             session_unset();
             session_destroy();
             session_write_close();
             setcookie(session_name(),'',0,'/');
             session_regenerate_id(true);
+            session_start();
+            header($location);
         }
     }
     
@@ -319,7 +325,7 @@ if (isset($_COOKIE['email'])) {
     $registered = 'yes'; // to see if I need the register button or not
     if ($doorbell == 'ringing') {
     $loggedIn = 'no' ;
-    $strMessage = "<span class=\"badge badge-success\">An email has been sent to ".$email.". Please check your mail box to confirm your login.</span>";
+    $strMessage = "<span class=\"badge badge-success mr-1 \">An email has been sent to ".$email." <br /> Please check your mail box to confirm your login.</span> ";
     
     } else {
         $loggedIn = 'yes' ;
@@ -351,12 +357,13 @@ if (isset($_POST['email']) ) {
     $output .= $emailsent;
     if ($answers['dbresponse']=='yes') {
     $registered = 'yes';
-    $strMessage = "<span class=\"badge badge-success\">An email has been sent to ".$email.". Please check your mail box to confirm your login.</span>";
+    $strMessage = "<span class=\"badge badge-success\">An email has been sent to ".$email.".<br /> Please check your mail box to confirm your login.</span>";
     }
     else {$strMessage = "This email is not recognised. Try again or register";}
     }
     $output .= $strMessage;
     $loggedIn = 'no';
+    header($location);
 }
 /**
  * this is if we are from registration form.
@@ -388,7 +395,7 @@ if (isset($_POST['process']) && $_POST['process'] == 'process' ) {
     $output .= '</ul>';
 
     $loggedIn = 'no';
-
+    header($location);
     $output .= $emailsent;
     $output .= $dbanswer;
     
@@ -421,10 +428,11 @@ if (isset($_REQUEST['process']) && $_REQUEST['process'] == 'confirm' ) {
     
     $output .= $emailsent;
     $output .= $dbanswer;
-    
+    $strMessage = '';
     $nb= count($_SESSION['history']) - 1;
     $location = "Location: ".$_SESSION['history'][$nb];
     header($location);
+    
 }
 
 
@@ -433,13 +441,14 @@ $formIN = "<div class=\"mt-3\">
 <div class=\"form-group\">
         <input type=\"hidden\" name=\"email\" value=\"delete\">
         <input type=\"hidden\" name=\"delete\" value=\"delete\"> You are logged in as: 
-		" . $email . "  </div>
-<button type=\"submit\" class=\"btn btn-primary\" >Log out!</button>
+		" . $email . "  
+<br /></div>
+<button type=\"submit\"  class=\"btn btn-primary\" >Log out!</button>
 	
     </form>
     </div>";
 
-$formOUT = "<div class=\"mt-3\">
+$formOUT = "<div class=\"my-3\">
 <form novalidate class=\"needs-validation\" action=\"" . $_SERVER['PHP_SELF'] . "\" method=\"post\">
 
 <div class=\"form-group\">
@@ -456,22 +465,22 @@ $formOUT = "<div class=\"mt-3\">
 </div>
 	";
 
-$formWaiting = "<div class=\"mt-3\">
-<form novalidate class=\"needs-validation\" action=\"" . $_SERVER['PHP_SELF'] . "\" method=\"post\">
+// $formWaiting = "<div class=\"m-3\">
+// <form novalidate class=\"needs-validation\" action=\"" . $_SERVER['PHP_SELF'] . "\" method=\"post\">
     
-<div class=\"form-group\">
-        <input type=\"email\" class=\"form-control\" id=\"email\" name=\"email\"
-        placeholder=\"Enter email\" aria-describedby=\"emailHelp\"  required>
-        <small id=\"emailHelp\" class=\"form-text text-muted\">We'll never share your email with anyone else.</small>
-    <div class=\"invalid-feedback\">Please enter a valid email address.</div>
+// <div class=\"form-group\">
+//         <input type=\"email\" class=\"form-control\" id=\"email\" name=\"email\"
+//         placeholder=\"Enter email\" aria-describedby=\"emailHelp\"  required>
+//         <small id=\"emailHelp\" class=\"form-text text-muted\">We'll never share your email with anyone else.</small>
+//     <div class=\"invalid-feedback\">Please enter a valid email address.</div>
     
-</div>
+// </div>
     
-    <button type=\"submit\" class=\"btn btn-primary \" >Log in</button>
-    <a  class=\"btn btn-secondary\" href=\"newUser.php\">Register</a>
-</form>
-</div>
-	";
+//     <button type=\"submit\" class=\"btn btn-primary \" >Log in</button>
+//     <a  class=\"btn btn-secondary\" href=\"newUser.php\">Register</a>
+// </form>
+// </div>
+// 	";
 $registeredUser = "Login / Register";
 $strRegister = $formOUT;
 
@@ -485,7 +494,7 @@ if ($loggedIn == 'yes' && $email != 'delete') {
 } else {
     
     $strRegister = $formOUT;
-    
+
     $registeredUser = "Login/Register";  
     
     

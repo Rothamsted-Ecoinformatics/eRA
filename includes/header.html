@@ -7,11 +7,10 @@
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		
 		<ul class="navbar-nav ml-auto">
-			<button type="button" class="btn btn-primary" data-toggle="modal"
-    data-target="#modalLogin"><i>test popup</i> <?php echo $registeredUser; ?></button>
-			<li class="nav-item"><a class="btn btn-info mx-1"
-				href="register.php"> <i class="fa fa-user"></i> <?php echo $registeredUser; ?>
-			</a></li>
+		    <?php echo ($strMessage . " ");?> 
+			<button type="button" class="btn btn-info" data-toggle="modal"
+    data-target="#modalLogin"><?php echo $registeredUser; ?></button>
+			
 			<li class="nav-item"><a class="btn btn-info mx-1"
 				href="e-RApubs.php"> <i class="fa fa-mortar-board"></i> e-RApubs
 			</a></li>

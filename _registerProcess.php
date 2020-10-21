@@ -44,8 +44,6 @@ if (isset($_REQUEST['process'])) {
     $vprocess = $_REQUEST['process'];
 }
 
-echo $vprocess;
-
 if ($vprocess == "question") {
     ?>
 <h1 class="mt-5">Register for prepared datasets</h1>
@@ -121,7 +119,7 @@ if ($vprocess == "question") {
 <div class="m-5">
    
    <p>Thank you for your registration. </p><!--  -->
-   <p>An email has been sent to <?php echo $answers['email']; ?>. Please check and complete your registration.
+   <p><span class="badge badge-success">An email has been sent to <?php echo $answers['email']; ?>. Please check and complete your registration.</span>
    </p>
 </div>
     <?php 
