@@ -32,7 +32,7 @@ if ($hasDatacite) {
     $datacite = utf8_encode($datacite);
     $experiment = json_decode($datacite, true);
 }
-$page_description = $experiment['administrative']['description']; 
+$page_description = $experiment['administrative']['description'];
 $fileTimeline = $exptFolder . '/' . 'timeline.json';
 $hasTimeline = file_exists($fileTimeline);
 if ($hasTimeline) {
@@ -96,16 +96,16 @@ $hasDocs = file_exists($fileDocs);
 <body>
 	<div class="container bg-white px-0">
         
-                <?php
-                include 'includes/header.html'; // all the menus at the top
+             <?php
+            include 'includes/header.html'; // all the menus at the top
 
-                // -- start dependant content ---------------------------------------------------------
-                ?>
-                <div id="idExpt" class="p-0 mb-0">
+            // -- start dependant content ---------------------------------------------------------
+            ?>
+		<div id="idExpt" class="p-0 mb-0">
 			<h1 class="mx-3"><?php
-// /experimentname is found in the datadescription file.
-echo title_case($experiment['administrative']['name']);
-?></h1>
+            // /experimentname is found in the datadescription file.
+        echo title_case($experiment['administrative']['name']);
+        ?></h1>
 			<div class="row">
 				<div class="col-12 pt-3">
 					<ul class="nav nav-tabs nav-fill text-body ">
@@ -127,8 +127,7 @@ echo title_case($experiment['administrative']['name']);
 						<li class="nav-item"><a class="nav-link" id="documents-tab"
 							data-toggle="tab" href="#documents">Documents</a></li>
 							<?php
-
-}
+    }
     ?>
 						<li class="nav-item"><a class="nav-link" id="keyrefs-tab"
 							data-toggle="tab" href="#keyrefs">Bibliography</a></li>
@@ -179,12 +178,11 @@ echo title_case($experiment['administrative']['name']);
         echo ('<hr>\n');
 
         include $docpage;
-       
     }
 
     if (isset($ref)) {
         $KeyRef = $ref;
-    } 
+    }
     if ($dev == 'norton') {
         echo $KeyRef;
     } else {

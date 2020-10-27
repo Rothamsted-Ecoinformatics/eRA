@@ -42,7 +42,7 @@ function getContent($period)
     if ($period['administrative']['description']) {
         $content .= "\n<h3 class=\"mx-3\">Description</h3>";
 
-        $content .= "\n\t        <ul class=\"list-group mx-3\">";
+        $content .= "\n\t        <ul class=\"list-group mx-3 mb-3\">";
         if ($period['administrative']['description']) {
             $content .= "\n<li class=\"list-group-item \" style=\"white-space: pre-wrap;\">" . $period['administrative']['description'] . "</li>";
         }
@@ -52,7 +52,7 @@ function getContent($period)
         $hasData = False;
         $data = "\n<h3 class=\"mx-3\">Design</h3>";
 
-        $data .= "\n\t <ul class=\"list-group mx-3\">";
+        $data .= "\n\t <ul class=\"list-group mx-3 mb-3\">";
 
         // $part = listItem($value, $label);
         if ($period['design']['dateStart']) {
@@ -97,15 +97,15 @@ function getContent($period)
     }
     if (is_array($period['crops']) and count($period['crops']) > 0) {
 
-        $content .= "\n<h3 class=\"mx-3\">Crops</h3>";
+        $content .= "\n<h3 class=\"mx-3 \">Crops</h3>";
 
-        $content .= "\n<div class=\"table-responsive-sm bg-white m-5 p-3\">";
-        $content .= "\n\n<table class = \"table  table-responsive-sm table-sm  table-hover\">";
+        $content .= "\n<div class=\"table-responsive-sm bg-white mx-3 rounded p-3 mb-3\">";
+        $content .= "\n\n<table class = \"table  table-responsive-sxm table-sm  table-bordered table-hover\">";
         $content .= "\n<thead class=\"thead-light\">\n\t<tr>\n\t\t<th scope=\"col\">Crop</th>\n\t\t<th scope=\"col\">Planted</th>\n\t</tr>\n</thead>\n<tbody>";
         foreach ($period['crops'] as $crop) {
             $id = $crop['id'];
             $arrCrop[$id] = $crop['name'];
-            $content .= "\n\t<tr><th scope=\"row\">" . $crop['name'] . "</td><td>";
+            $content .= "\n\t<tr><td>" . title_case($crop['name'] ). "</td><td>";
             if ($crop['dateStart']) {
 
                 $content .= $crop['dateStart'];
@@ -123,6 +123,7 @@ function getContent($period)
     if (is_array($period['cropRotations'])) {
         $info = "\n<div class=\"row equal m-3\">";
         $content .= "\n<h3 class=\"mx-3\">Crop Rotations</h3>";
+        $content .= "\n<div class=\" bg-white mx-3 rounded  p-3 mb-3\">";
         foreach ($period['cropRotations'] as $rotation) {
 
             $info .= "\n    \t<div class=\"col-sm-4 py-2\">";
@@ -130,12 +131,13 @@ function getContent($period)
             $info .= "\n    \t      \t      \t<li class=\"list-group-item bg-light border-bottom\">" . $rotation['name'] . " <i>(" . $rotation['dateStart'] . " - " . $rotation['dateEnd'] . ")</i> " . "</li>";
             foreach ($rotation['rotationPhases'] as $crop) {
 
-                $info .= "\n    \t      \t      \t <li class=\"list-group-item\">" . $arrCrop[$crop['crop']] . "</li>";
+                $info .= "\n    \t      \t      \t <li class=\"list-group-item\">" . title_case($arrCrop[$crop['crop']]) . "</li>";
             }
             $info .= "\n    \t      \t </ul>";
             $info .= "\n    \t</div>";
         }
 
+        $info .= "\n</div>";
         $info .= "\n</div>";
         $content .= $info;
     }
@@ -143,15 +145,18 @@ function getContent($period)
         $arrFactors = array();
         $arrLevels = array();
         $info = "";
-        $info .= "\n<h3 class=\"mx-3\">Factors</h3><p class=\"mx-3\">Factors are the interventions or treatments which vary across the experiment.</p>";
+        $info .= "\n<h3 class=\"mx-3\">Factors</h3>";
+        $info .= "\n<div class=\" bg-white mx-3 rounded  p-3 mb-3\">";
+        
+        $info .= "<p class=\"mx-3\">Factors are the interventions or treatments which vary across the experiment.</p>";
         foreach ($period['factor'] as $factor) {
             $arrFactors[$factor['id']] = $factor['name'];
-            $info .= "\n<h4 class=\"mx-3\">" . $factor['name'] . "</h3>";
+            $info .= "\n<h4 class=\"mx-3\">" . title_case($factor['name']) . "</h4>";
             if ($factor['description']) {
                 $info .= "<p class=\"ml-5\"><b>Description:</b> " . $factor['description'] . "</p>";
             }
             if ($factor['plotApplication']) {
-                $info .= "<p class=\"ml-5\"><b>Application:</b> " . $factor['plotApplication'] . "</p>";
+                $info .= "<p class=\"ml-5\"><b>Application:</b> " . title_case($factor['plotApplication']) . "</p>";
             }
             
             
@@ -164,7 +169,7 @@ function getContent($period)
                     $info .= "\n    \t<div class=\"col-sm-4 py-2\">";
                     $info .= "\n    \t     \t <ul class=\"list-group border rounded\">";
                     $info .= "\n    \t      \t      \t<li class=\"list-group-item bg-light border-bottom\"><b>";
-                    $info .= $level['name'] . " </b></li>";
+                    $info .= title_case($level['name']) . " </b></li>";
                     $info .= "\n    \t      \t      \t <li class=\"list-group-item\"><b>Amount: </b>".$level['amount']. " ".$level['unitCode']."</li>";       
                     $info .= "\n    \t      \t      \t <li class=\"list-group-item\"><b>Years: </b>".$level['dateStart'];
                     if ($level['dateEnd']) {
@@ -194,42 +199,21 @@ function getContent($period)
                 $info .= "\n    \t</div>";
             }
         }
+        $info .= "\n    \t</div>";
 
         $content .= $info;
     }
-//     if (is_array($period['factorCombinations'])){
-//         $info = "";
-//         $info .= "\n<h3 class=\"mx-3\">Factor Combinations</h3><p class=\"mx-3\">Factor Combinations are the combination of factors applied to different plots on the experiment.</p>";
-//         $info .= "\n<div class=\"row equal m-3\">";
-//         foreach ($period['factorCombinations']  as $fr) {
-            
-//             $info .= "\n    \t<div class=\"col-sm-4 py-2\">";
-//             $info .= "\n    \t     \t <ul class=\"list-group border rounded\">";
-//             $info .= "\n    \t      \t      \t<li class=\"list-group-item bg-light border-bottom\"><b>";
-//             $info .= $fr['name'] . " (";
-//             $info .= $fr['dateStart'];
-//             if ($fr['dateEnd']) {
-//                 $info .= " - ".$fr['dateEnd'];
-//                 }
-                
-//             $info .= ")</b></li>";
-//             if ($fr['description']) {
-//                 $info .= "\n    \t      \t      \t <li class=\"list-group-item\"><i>".$fr['description']."</i></li>";
-                
-//             }
-            
-//             $info .= "\n    \t      \t </ul>";
-//             $info .= "\n    \t</div>";
-//         }
-//         $info .= "\n    \t</div>";
-        
-//         $content .= $info;
-//     }
+
     
     if (is_array($period['factorCombinations'])){
         $info = "";
-        $info .= "\n<h3 class=\"mx-3\">Factor Combinations</h3><p class=\"mx-3\">Factor Combinations are the combination of factors applied to different plots on the experiment.</p>";
-        $info .= "\n<div class=\"table-responsive-sm \"><table class = \"table  table-responsive-sm table-sm  table-hover\"><thead  class=\"thead-light\"><tr>";
+        $info .= "\n<h3 class=\"mx-3\">Factor Combinations</h3>";
+        $info .= "\n<div class=\" bg-white mx-3 rounded  p-3 mb-3\">";
+        $info .= "<p>Factor Combinations are the combination of factors applied to different plots on the experiment.</p>";
+        
+       
+        
+        $info .= "\n<div class=\"table-responsive-sm \"><table class = \"table  table-responsive-sm table-sm table-bordered table-hover\"><thead  class=\"thead-light\"><tr>";
         $info .= "\n<th scope=\"col\">Factor Combination</th>";
         $info .= "\n<th scope=\"col\">Time Coverage</th>";
         $info .= "\n<th scope=\"col\">Notes</th>";
@@ -248,14 +232,15 @@ function getContent($period)
             $info .= "</tr>";
         }
         $info .= "\n    \t</table></div>";
-        
+        $info .= "\n    \t</div>";
         $content .= $info;
     }
     if (is_array($period['measurements']) and count($period['measurements']) > 0) {
 
         $content .= "\n<h3 class=\"mx-3\">Measurements</h3>";
-        $content .= "\n<div class=\"table-responsive-sm \">";
-        $content .= "\n \t<table class = \"table  table-responsive-sm table-sm  table-hover table-condensed\">";
+        $content .= "\n<div class=\" bg-white mx-3 rounded  p-3 mb-3\">";
+        $content .= "\n<div class=\"table-responsive-sm bg-white\">";
+        $content .= "\n \t<table class = \"table  table-responsive-sm table-sm table-bordered table-hover table-condensed\">";
         $content .= "\n  \t     \t   <thead  class=\"thead-light\">";
         $content .= "\n  \t     \t   \t   <tr>";
         $content .= "\n  \t     \t   \t   \t   <th scope=\"col\">Variable</th>";
@@ -286,16 +271,16 @@ function getContent($period)
         }
 
         $content .= "\n</tbody>";
-        $content .= "\n</table></div>";
+        $content .= "\n</table></div></div>";
     }
     return $content;
 }
 $strTab = "<div class=\"row\">";
 $strTab .= "\n<div class=\"col-12\">";
-$strTab .= "\n\t<h3 class=\"mx-3\"> Experimental Design</h3>";
+$strTab .= "\n\t<h3 class=\"mx-3\">Experimental Design</h3>";
 $strTab .= "\n</div>";
-$strTab .= "\n" . "<div class=\"col-10 mx-auto\"> ";
-$strTab .= "\n\t<div  class=\"accordion\" id=\"accordionDesign\"> \n";
+$strTab .= "\n" . "<div class=\"col-12 mx-auto\"> ";
+$strTab .= "\n\t<div class=\"mt-3 mx-3\" id=\"accordionDesign\"> \n";
 $i = 0;
 foreach ($design as $period) {
 
@@ -319,34 +304,17 @@ foreach ($design as $period) {
     }
     if ($period['design']['dateEnd']) {
         $Title .= " - " . $period['design']['dateEnd'];
-    }
-    $strTab .= "\n\t<div class=\"card \">";
-    $strTab .= "\n\t\t<div class=\"card-header\" id=\"" . $tabID . ">";
+    } 
+    $strTab .= "\n\t<div class=\"card  bg-light\">";
+    $strTab .= "\n\t\t<div class=\"card-header \" id=\"heading" . $tabID . "\">";
 
     $strTab .= "\n\t\t<h2 class=\"mb-0\">";
-    $strTab .= "\n\t\t\t<button class=\"btn btn-link btn-block text-left\" type=\"button\" data-toggle=\"collapse\" data-target=\"#" . $tabID . "\" aria-expanded=\"" . $expanded . "\" aria-controls=\"" . $tabID . "\">";
-    $strTab .= "\n\t\t\t\t	<i class=\"fa fa-angle-double-right mr-3\"></i>" . $Title;
+    $strTab .= "\n\t\t\t<button class=\"btn btn-link\"  data-toggle=\"collapse\" data-target=\"#collapse" . $tabID . "\" aria-expanded=\"" . $expanded . "\" aria-controls=\"" . $tabID . "\">";
+    $strTab .= "\n\t\t\t\t	" . $Title;
     $strTab .= "\n\t\t\t						</button>";
     $strTab .= "\n\t\t\t						</h2>";
     $strTab .= "\n\t</div>";
-
-    /*
-     * $strTab .= "\n\t\t\t<h2 class=\"card-title\">";
-     * $strTab .= "\n\t\t\t<a data-toggle=\"collapse\" data-parent=\"#accordionDesign\"";
-     * $strTab .= " href=\"#" . $tabID . "\"> " . $Title . "</a>";
-     * $strTab .= "\n\t</h2>";
-     * $strTab .= "\n\t</div>";
-     */
-
-    /*
-     *
-     * <div id="collapseOne" class="collapse show fade" aria-labelledby="headingOne" data-parent="#accordionExample">
-     * <div class="card-body">
-     * Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.<a href="https://www.fiverr.com/sunlimetech/fix-your-bootstrap-html-and-css3-issues" class="ml-3" target="_blank"><strong>View More designs <i class="fa fa-angle-double-right"></i></strong></a>
-     * </div>
-     * </div>
-     */
-    $strTab .= "\n\t<div id=\"" . $tabID . "\" class=\"collapse " . $collapse . " fade \"  data-parent=\"#accordionDesign\"\">";
+    $strTab .= "\n\t<div id=\"collapse" . $tabID . "\" class=\"collapse " . $collapse . " fade bg-light\" aria-labelledby=\"heading" . $tabID . "\" data-parent=\"#accordionDesign\">";
     $strTab .= "\n\t<div class=\"card-body\">" . $content . "</div>";
     $strTab .= "\n\t</div>";
     $strTab .= "\n\t</div>";
