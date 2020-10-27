@@ -162,7 +162,7 @@ $hasDocs = file_exists($fileDocs);
                 							
                 						<div class="tab-pane" id="images" role="tabpanel"
 							aria-labelledby="images-tab">
-                							<?php //include '_images.php';?>
+                							<?php include '_images.php';?>
                 							</div>
 						<div class="tab-pane  pb-3" id="documents" role="tabpanel"
 							aria-labelledby="documents-tab">

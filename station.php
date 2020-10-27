@@ -202,27 +202,22 @@ echo title_case($experiment['administrative']['name']);
 
     if (isset($ref)) {
         $KeyRef = $ref;
-    }
-    if ($dev == 'norton') {
-        echo $KeyRef;
-    } else {
         include '_keyrefs.php';
     }
+    
+       
+    
 
     ?>
 							</div>
 						</div>
 						<div class="tab-pane" id="keyrefs" role="tabpanel"
 							aria-labelledby="keyrefs-tab">
-							<p class="text-warning">
-								<b>TODO: when NCB is at RRES</b>
-
-							</p>
+						
     							<?php
-        var_dump($pageinfo);
-        if ($dev == 'norton') {} else {
+  
             include '_keyrefs.php';
-        }
+        
         ?>
     					</div>
 
