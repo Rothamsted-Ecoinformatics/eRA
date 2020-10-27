@@ -282,7 +282,7 @@ $loggedIn = 'no';
 
 if (!isset($_COOKIE['email'])) {
     // there is no cookie, therefore I check that there is a form set and set the cookie if the email is in the database
-
+    // the cookie will only be here for one hour until it is made more persitent (2 weeks)
     if (isset($_POST['email']) || isset($_POST['InputEmail'])) {
         $cookie_email_lbl = "email";
         $cookie_email_value = $_POST['email'];
@@ -290,10 +290,10 @@ if (!isset($_COOKIE['email'])) {
         $user = checkUser($cookie_email_value);
         $time = makecode();
         if ($user['dbresponse'] == 'yes') {
-            setcookie('email', $cookie_email_value, time() + (86400 * 30), "/"); // 86400 = 1 day
-            setcookie('newemail', $_POST['InputEmail'], time() + (86400 * 30), "/"); // 86400 = 1 day
-            setcookie('doorbell', 'ringing', time() + (86400 * 30), "/"); // 86400 = 1 day
-            setcookie('time', $time, time() + (86400 * 30), "/"); // 86400 = 1 day
+            setcookie('email', $cookie_email_value, time() + (3600), "/"); // 86400 = 1 day
+            setcookie('newemail', $_POST['InputEmail'], time() + (3600), "/"); // 86400 = 1 day
+            setcookie('doorbell', 'ringing', time() + (3600), "/"); // 86400 = 1 day
+            setcookie('time', $time, time() + (3600), "/"); // 86400 = 1 day
         } else {;}
     }
 } else {
@@ -380,9 +380,9 @@ if (isset($_POST['process']) && $_POST['process'] == 'process' ) {
     
     $answers['process'] = 'register';
     
-    setcookie('email', $email, time() + (86400 * 30), "/"); // 86400 = 1 day
-    setcookie('doorbell', 'ringing', time() + (86400 * 30), "/"); // 86400 = 1 day
-    setcookie('time', $time, time() + (86400 * 30), "/"); // 86400 = 1 day
+    setcookie('email', $email, time() + (86400 * 15), "/"); // 86400 = 1 day
+    setcookie('doorbell', 'ringing', time() + (86400 * 15), "/"); // 86400 = 1 day
+    setcookie('time', $time, time() + (86400 * 15), "/"); // 86400 = 1 day
     
     $emailsent = buildemail($answers);
     
