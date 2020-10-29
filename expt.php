@@ -63,7 +63,7 @@ if ($hasDesign) {
     $jdata = utf8_encode($jdata);
     $design = json_decode($jdata, true);
     $showDesign = FALSE;
-    if ($design[0]['identifier'] != null) {
+    if ($design[0]['administrative']['identifier'] != null) {
         $showDesign = TRUE;
     }
 }
