@@ -78,8 +78,9 @@ include_once 'includes/biblio.inc'; //functions - functions for the bibliography
 include_once 'includes/user.php'; //functions and processing User 
 include_once 'includes/session.php'; //sort out what is going in the session variables. 
 
-
 /**
+ * 
+ 
 echo ("------- debug stuff --------<br />");
 echo ($output);
 

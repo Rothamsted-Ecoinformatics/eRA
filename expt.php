@@ -53,6 +53,7 @@ if ($hasSite) {
     $jdata = file_get_contents($fileSite);
     $jdata = utf8_encode($jdata);
     $site = json_decode($jdata, true);
+    
 }
 
 $fileDesign = $exptFolder . '/design.json';
@@ -61,6 +62,10 @@ if ($hasDesign) {
     $jdata = file_get_contents($fileDesign);
     $jdata = utf8_encode($jdata);
     $design = json_decode($jdata, true);
+    $showDesign = FALSE;
+    if ($design[0]['identifier'] != null) {
+        $showDesign = TRUE;
+    }
 }
 
 $fileDataset = $exptFolder . '/' . 'datasets.json';
@@ -113,9 +118,10 @@ $hasDocs = file_exists($fileDocs);
 							id="summary-tab" data-toggle="tab" href="#summary">Overview</a></li>
 						<li class="nav-item"><a class="nav-link" id="site-tab"
 							data-toggle="tab" href="#site">Site</a></li>
+							<?php if ($showDesign == TRUE) {?>
 						<li class="nav-item"><a class="nav-link" id="design-tab"
 							data-toggle="tab" href="#design">Design</a></li>
-                						
+                		<?php }?>		
                 						
                 		<?php if ($hasDatasets) {?>
                 						<li class="nav-item"><a class="nav-link"

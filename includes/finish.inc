@@ -14,3 +14,4 @@ include "_bottom.php";
 
 <!--  script for country select -->
 <script src="js/bootstrap-select-country.min.js"></script>
+<?php  testvar();?>

@@ -42,6 +42,8 @@ include 'includes/header.html'; // all the menus at the top
 // -- start dependant content ---------------------------------------------------------
 ?>
 <div id="idPHPinfo">
+
+
 <?php 
 
 echo ("<p>Visited Pages</p><ul>");

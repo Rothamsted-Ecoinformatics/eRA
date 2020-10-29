@@ -27,6 +27,12 @@ $strMessage = '';
 $nb= count($_SESSION['history']) - 1;
 $location = "Location: ".$_SESSION['history'][$nb];
 
+/**
+ * function checkUser($info) 
+ * retrieves information about user from the database
+ *
+ */
+ 
 function checkUser($info) {    
     $link = LogAsGuest();
     $info = cleanQuery($info);
@@ -61,6 +67,11 @@ function checkUser($info) {
     return $user;
 }
 
+/**
+ * 
+ *function to get input from the registration form
+ *
+ */
 function getInput()
 {
     $details = array(
@@ -239,7 +250,7 @@ Confirm by  following the link, </p>
     
 
     
-<a href=\"".$Web_base."index.php?process=confirm&VC="
+<a  target =\"eRAApp\" href=\"".$Web_base."index.php?process=confirm&VC="
 				    . $answers['vericode'] . "&TC="
 				        . $answers['timecode'] . "&VC2="
 				            . $answers['vericode2'] . "\"> <i class=\"fa fa-user\"></i> Confirm !
@@ -281,21 +292,7 @@ $loggedIn = 'no';
 
 
 if (!isset($_COOKIE['email'])) {
-    // there is no cookie, therefore I check that there is a form set and set the cookie if the email is in the database
-    // the cookie will only be here for one hour until it is made more persitent (2 weeks)
-    if (isset($_POST['email']) || isset($_POST['InputEmail'])) {
-        $cookie_email_lbl = "email";
-        $cookie_email_value = $_POST['email'];
-        
-        $user = checkUser($cookie_email_value);
-        $time = makecode();
-        if ($user['dbresponse'] == 'yes') {
-            setcookie('email', $cookie_email_value, time() + (3600), "/"); // 86400 = 1 day
-            setcookie('newemail', $_POST['InputEmail'], time() + (3600), "/"); // 86400 = 1 day
-            setcookie('doorbell', 'ringing', time() + (3600), "/"); // 86400 = 1 day
-            setcookie('time', $time, time() + (3600), "/"); // 86400 = 1 day
-        } else {;}
-    }
+;
 } else {
 
     // there is a cookie so I check if I want it deleted.
@@ -324,10 +321,17 @@ if (isset($_COOKIE['email'])) {
     $doorbell = $_COOKIE['doorbell'];
     $registered = 'yes'; // to see if I need the register button or not
     if ($doorbell == 'ringing') {
-    $loggedIn = 'no' ;
-    $strMessage = "<span class=\"badge badge-success mr-1 \">An email has been sent to ".$email." <br /> Please check your mail box to confirm your login.</span> ";
+       
+        $loggedIn = 'no' ;
+        $strMessage = "<span class=\"badge badge-success mr-1 \">An email has been sent to ".$email." <br /> Please check your mail box to confirm your login.</span> ";
     
-    } else {
+    } 
+    else if ($doorbell == 'out') {
+        $strMessage = "<span class=\"badge badge-warning\">".$email." is not recognised. Please try again or register</span>";
+        
+        $loggedIn = 'no' ;
+    }
+    else {
         $loggedIn = 'yes' ;
     }
 }
@@ -335,9 +339,20 @@ if (isset($_COOKIE['email'])) {
  * this is if we are coming from the login form: we should send the email and wait for it: so result is always
  * 
  */
-if (isset($_POST['email']) ) {
 
+// there is no cookie, therefore I check that there is a form set and set the cookie if the email is in the database
+// the cookie will only be here for one hour until it is made more persitent (2 weeks)
+
+    
+ if (isset($_POST['email']) || isset($_POST['InputEmail']) ) {
+     if ( isset($_POST['email']) ) {
+ 
     $email = $_POST['email'];
+     } else if   ( isset($_POST['InputEmail']) ) {
+         
+         $email = $_POST['InputEmail'];
+     }
+     
     if ($email != 'delete') {
     $user = checkUser($email);
     $answers = checkUser($email);
@@ -346,24 +361,30 @@ if (isset($_POST['email']) ) {
     $answers['timecode'] = makeCode();
     $answers['email'] = $email;
     $answers['process'] = 'login';
-    $output .= $email;
-    $emailsent = buildemail($answers);
-    
-    $output .= '<ul>';
-    foreach ($answers as $key => $value) {
-        $output .= "<li>" . $key . " : " . $value . "</li>";
-    }
-    $output .= '</ul>';
-    $output .= $emailsent;
+
+  
     if ($answers['dbresponse']=='yes') {
-    $registered = 'yes';
-    $strMessage = "<span class=\"badge badge-success\">An email has been sent to ".$email.".<br /> Please check your mail box to confirm your login.</span>";
+        setcookie('email', $email, time() + (3600), "/"); // 86400 = 1 day
+        setcookie('newemail', $_POST['InputEmail'], time() + (3600), "/"); // 86400 = 1 day
+        setcookie('doorbell', 'ringing', time() + (3600), "/"); // 86400 = 1 day
+        setcookie('time', $time, time() + (3600), "/"); // 86400 = 1 day
+    
+        $emailsent = buildemail($answers);
+        $output .= $emailsent;
+        $registered = 'yes';
+        $strMessage = "<span class=\"badge badge-success\">An email has been sent to ".$email.".<br /> Please check your mail box to confirm your login.</span>";
+        
     }
-    else {$strMessage = "This email is not recognised. Try again or register";}
+    if ($answers['dbresponse']=='no')   {
+        setcookie('email', $email, time() + (3600), "/"); // 86400 = 1 day
+        setcookie('doorbell', 'out', time() + (3600), "/"); // 86400 = 1 day
+        $registered = 'no';
+        $strMessage = "<span class=\"badge badge-warning\">This email is not recognised. Please try again or register</span>";
     }
-    $output .= $strMessage;
+    
     $loggedIn = 'no';
     header($location);
+}
 }
 /**
  * this is if we are from registration form.
@@ -460,6 +481,7 @@ $formOUT = "<div class=\"my-3\">
 </div>
 
     <button type=\"submit\" class=\"btn btn-primary \" >Log in</button>
+    
     <a  class=\"btn btn-secondary\" href=\"newUser.php\">Register</a>
 </form>
 </div>

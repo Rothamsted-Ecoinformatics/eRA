@@ -1,4 +1,9 @@
 //function that has to do with the display of images
+$( "form" ).submit(function( event ) {
+	window.name = "eRAApp";
+  	event.preventDefault();
+});
+
 $(document).ready(function() {
     var $lightbox = $('#lightbox');
     
