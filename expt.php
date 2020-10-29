@@ -114,7 +114,7 @@ $hasDocs = file_exists($fileDocs);
 			<div class="row">
 				<div class="col-12 pt-3">
 					<ul class="nav nav-tabs nav-fill text-body ">
-						<li class="nav-item"><a class="nav-link active show"
+						<li class="nav-item  active"><a class="nav-link active show"
 							id="summary-tab" data-toggle="tab" href="#summary">Overview</a></li>
 						<li class="nav-item"><a class="nav-link" id="site-tab"
 							data-toggle="tab" href="#site">Site</a></li>

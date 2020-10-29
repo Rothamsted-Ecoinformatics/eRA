@@ -237,6 +237,7 @@ You, or someone pretending to be you has requested login or registration into eR
     
 <ul> 
 <li>Name :  " . $answers['fname'] . " " . $answers['lname'] . "</li>
+<li>Email address: " . $answers['email'] . "</li>
 <li>Institution: " . $answers['institution'] . "</li>
 <li>Country: " . $answers['country'] . "</li>
 <li>Why access Data: " . $answers['information'] . "</li>
