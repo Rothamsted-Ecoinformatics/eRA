@@ -6,16 +6,16 @@
         "identifier": "10.23637/KeyRefOABKyields",
         "identifier_type": "DOI",
         "dataset_type": "Crop  yield data",
-        "extension": "xls",
-        "description": "This summary data shows the mean long-term winter wheat yields from selected treatments on Broadbalk 1852-2016, excluding spring wheat in 2015. These changes in mean long-term winter wheat yields reflect the improved treatments and agronomic practices introduced on Broadbalk such as modern cultivars, better control of pests, diseases and weeds, especially since the 1960s.",
+        "extension": "xlsx",
+        "description": "This summary figure shows the mean long-term winter wheat yields from selected treatments on Broadbalk 1852-2016. These changes in mean long-term winter wheat yields reflect the improved treatments and agronomic practices introduced on Broadbalk such as modern cultivars, better control of pests, diseases and weeds, especially since the 1960s. To control weeds, the experiment was divided into five sections in the 1920s and one section bare fallowed each year. The introduction of herbicides removed the need for fallowing. Yields of continuous wheat given no fertilizer or manure have remained at around 1 t ha-1. In 1968 a rotation was introduced on part of the experiment, so that it is now possible to compare the yields of wheat grown continuously and as the first wheat after a two-year break. Since 1979 summer fungicides have been used, which has allowed us to exploit the greater grain yield potential of modern cultivars. From 1985, two higher N rates have been tested, 240 and 288 kg N ha -1. The highest yields are now from the first wheat crop in rotation, with the greatest yields from fertilizer alone exceeding those from FYM alone, and the combination of FYM + 96 kgN ha-1 (144 kgN ha-1 since 2005) often exceeding both. The largest annual wheat yields on Broadbalk (>13 t ha-1) were recorded in 2014, following the change in variety from Hereward to Crusoe. The greatest yields were not always achieved with the highest N rate. The figure shows the mean greatest first wheat yields achieved from the NPK treatments, receiving up to a maximum of 288 kg N ha-1 (a maximum of 192 kg N ha-1 from 1968-1984).",
         "fieldname": "Broadbalk",
         "experiment_name": "Broadbalk",
         "experiment_code": "R/BK/1",
         "grade": 3,
         "dstype": "OA",
-        "version": "1",
+        "version": "01",
         "shortName": "OAWWYields",
-        "UID": "OAWWYields-1"
+        "UID": "01-OAWWYields"
     },
     {
         "md_id": -1140916605,
@@ -31,9 +31,9 @@
         "experiment_code": "R/BK/1",
         "grade": 3,
         "dstype": "OA",
-        "version": "1",
+        "version": "01",
         "shortName": "Nitro1843",
-        "UID": "Nitro1843-1"
+        "UID": "01-Nitro1843"
     },
     {
         "md_id": 1796346264,
@@ -49,9 +49,9 @@
         "experiment_code": "R/BK/1",
         "grade": 2,
         "dstype": "Other",
-        "version": "1",
+        "version": "01",
         "shortName": "YIELD844925",
-        "UID": "YIELD844925-1"
+        "UID": "01-YIELD844925"
     },
     {
         "md_id": 935928566,
@@ -67,27 +67,27 @@
         "experiment_code": "R/BK/1",
         "grade": 2,
         "dstype": "OA",
-        "version": "1",
+        "version": "01",
         "shortName": "OAOlsenP1844",
-        "UID": "OAOlsenP1844-1"
+        "UID": "01-OAOlsenP1844"
     },
     {
         "md_id": -2078416917,
-        "title": "Cirsium arvense frequency on Broadbalk Section 8 1991-2018",
+        "title": "<em>Cirsium arvense<em> frequency on Broadbalk Section 8 1991-2018",
         "URL": "http://www.era.rothamsted.ac.uk/Broadbalk/Cirsiumarvense1991-2018",
         "identifier": "10.23637/bbk-2078416917-01",
         "identifier_type": "DOI",
         "dataset_type": "Species observation data",
         "extension": "xlsx",
-        "description": "This dataset consists of the relative frequencies of Cirsium arvense (Creeping thistle) of the Family Asteraceae recorded on Section 8 plots of the Broadbalk Wheat Experiment, 1991-2018. Section 8 has not received any herbicides in its history.\r\n\r\nThe collective weed fauna, and frequency of each species such as C. arvense, vary in response to fertiliser treatments which vary with each plot (see Supporting Information below).",
+        "description": "This dataset consists of the relative frequencies of <em>Cirsium arvense<em> (Creeping thistle) of the Family Asteraceae recorded on Section 8 plots of the Broadbalk Wheat Experiment, 1991-2018. Section 8 has not received any herbicides in its history.\r\n\r\nThe collective weed fauna, and frequency of each species such as <em>C. arvense<em>, differ in response to fertiliser treatments which vary with each plot (see Related Documents below).",
         "fieldname": "Broadbalk",
         "experiment_name": "Broadbalk",
         "experiment_code": "R/BK/1",
         "grade": 1,
         "dstype": "Other",
-        "version": "1",
+        "version": "01",
         "shortName": "Circum1991",
-        "UID": "Circum1991-1"
+        "UID": "01-Circum1991"
     },
     {
         "md_id": -1004390306,
@@ -103,8 +103,26 @@
         "experiment_code": "R/BK/1",
         "grade": 1,
         "dstype": "Other",
-        "version": "1",
+        "version": "01",
         "shortName": "FISHER1921",
-        "UID": "FISHER1921-1"
+        "UID": "01-FISHER1921"
+    },
+    {
+        "md_id": -1553748648,
+        "title": "Broadbalk complete soils data",
+        "URL": "NOT READY",
+        "identifier": "10.23637/rbk1-bksoils-01",
+        "identifier_type": "DOI",
+        "dataset_type": "Soil data",
+        "extension": "pdf",
+        "description": null,
+        "fieldname": "Broadbalk",
+        "experiment_name": "Broadbalk",
+        "experiment_code": "R/BK/1",
+        "grade": 1,
+        "dstype": "Other",
+        "version": "01",
+        "shortName": "BKSOILS",
+        "UID": "01-BKSOILS"
     }
 ]

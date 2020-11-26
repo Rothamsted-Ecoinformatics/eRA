@@ -455,38 +455,16 @@ if (isset($arrDescription['Other'])) {
 			</div>
 			<div class="modal-body">
 				<p>
-					<a rel="license" target="_blank"
-						href="http://creativecommons.org/licenses/by/4.0/" target="out"><img
-						style="width: 50px;" alt="Creative Commons License"
-						src="images/logos/cc4.png" align="middle" /></a> This work is
-					licensed under a <a rel="license"
-						href="http://creativecommons.org/licenses/by/4.0/">Creative
-						Commons Attribution 4.0 International License</a>.
-				</p>
-				<p>
-					<strong>YOU MUST CITE AS: </strong>Rothamsted Research (<?php echo $datePublication;?>).
-								<?php echo $dsinfo['name'];?> <em>Electronic Rothamsted Archive</em>
-					<a target="_blank"
-						href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
+					The package you are downloading contains all the information you will need to use the dataset, including information on how to properly quote it in all publication 
+					
+					</p>
 
-				</p>
-				<p>Rothamsted relies on the integrity of users to ensure that
-					Rothamsted Research receives suitable acknowledgment as being the
-					originators of these data. This enables us to monitor the use of
-					each dataset and to demonstrate their value.</p>
-
-				<p>
-					If you have not done so, please <a
-						href="https://forms.office.com/Pages/ResponsePage.aspx?id=JTaItkGJQkOw43uMyDkvZDZRGOUcKblFt0gV54i_OxNUMTVYSEZKU0NDRENRSElCNVRCMjdSV0dRMSQlQCN0PWcu">fill
-						in this form</a> and if possible, inform us of any publication
-					that uses this Rothamsted data.
-				</p>
 
 
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				<a type="button" download class="btn btn-primary"
+				<a type="button" download class="btn btn-primary" 
 					href="<?php echo $zipfile; ?>">Agree and Download</a>
 			</div>
 		</div>

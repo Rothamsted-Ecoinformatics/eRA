@@ -1,0 +1,505 @@
+id,year,plot,wheat variety,fertiliser treatment,Numbers of Cirsium arvense
+1,1991,2.1,Apollo,FYM N2,2
+2,1991,2.2,Apollo,FYM,0
+3,1991,3,Apollo,Nil,1
+4,1991,5,Apollo,PK Mg,0
+5,1991,6,Apollo,N1 PKMg,0
+6,1991,7,Apollo,N2 PKMg,0
+7,1991,8,Apollo,N3PKMg,2
+8,1991,9,Apollo,N4 PKMg,0
+9,1991,10,Apollo,N2,7
+10,1991,11,Apollo,N2 P,0
+11,1991,12,Apollo,N2 P Na,1
+12,1991,13,Apollo,N2 PK ,0
+13,1991,14,Apollo,N2 PKMg*,1
+14,1991,15,Apollo,N5 PKMg,1
+15,1991,16,Apollo,N6 PKMg,0
+16,1991,17,Apollo,N0+N3 1/2[PKMg](A),0
+17,1991,18,Apollo,N1+N3 1/2[PKMg](A),0
+18,1991,19,Apollo,( C),2
+19,1992,2.1,Apollo,FYM N2,1
+20,1992,2.2,Apollo,FYM,1
+21,1992,3,Apollo,Nil,2
+22,1992,5,Apollo,PK Mg,1
+23,1992,6,Apollo,N1 PKMg,4
+24,1992,7,Apollo,N2 PKMg,1
+25,1992,8,Apollo,N3PKMg,1
+26,1992,9,Apollo,N4 PKMg,6
+27,1992,10,Apollo,N2,9
+28,1992,11,Apollo,N2 P,3
+29,1992,12,Apollo,N2 P Na,5
+30,1992,13,Apollo,N2 PK ,0
+31,1992,14,Apollo,N2 PKMg*,0
+32,1992,15,Apollo,N5 PKMg,2
+33,1992,16,Apollo,N6 PKMg,3
+34,1992,17,Apollo,N1+N3 1/2[PKMg](A),0
+35,1992,18,Apollo,N0+N3 1/2[PKMg](A),0
+36,1992,19,Apollo,( C),2
+37,1993,2.1,Apollo,FYM N2,8
+38,1993,2.2,Apollo,FYM,4
+39,1993,3,Apollo,Nil,1
+40,1993,5,Apollo,PK Mg,7
+41,1993,6,Apollo,N1 PKMg,12
+42,1993,7,Apollo,N2 PKMg,13
+43,1993,8,Apollo,N3PKMg,15
+44,1993,9,Apollo,N4 PKMg,21
+45,1993,10,Apollo,N2,18
+46,1993,11,Apollo,N2 P,5
+47,1993,12,Apollo,N2 P Na,8
+48,1993,13,Apollo,N2 PK ,9
+49,1993,14,Apollo,N2 PKMg*,5
+50,1993,15,Apollo,N5 PKMg,2
+51,1993,16,Apollo,N6 PKMg,3
+52,1993,17,Apollo,N0+N3 1/2[PKMg](A),5
+53,1993,18,Apollo,N1+N3 1/2[PKMg](A),1
+54,1993,19,Apollo,( C),1
+55,1994,2.1,Apollo,FYM N2,NA
+56,1994,2.2,Apollo,FYM,NA
+57,1994,3,Apollo,Nil,NA
+58,1994,5,Apollo,PK Mg,NA
+59,1994,6,Apollo,N1 PKMg,NA
+60,1994,7,Apollo,N2 PKMg,NA
+61,1994,8,Apollo,N3PKMg,NA
+62,1994,9,Apollo,N4 PKMg,NA
+63,1994,10,Apollo,N2,NA
+64,1994,11,Apollo,N2 P,NA
+65,1994,12,Apollo,N2 P Na,NA
+66,1994,13,Apollo,N2 PK ,NA
+67,1994,14,Apollo,N2 PKMg*,NA
+68,1994,15,Apollo,N5 PKMg,NA
+69,1994,16,Apollo,N6 PKMg,NA
+70,1994,17,Apollo,N1+N3 1/2[PKMg](A),NA
+71,1994,18,Apollo,N0+N3 1/2[PKMg](A),NA
+72,1994,19,Apollo,( C),NA
+73,1995,2.1,Apollo,FYM N2,11
+74,1995,2.2,Apollo,FYM,14
+75,1995,3,Apollo,Nil,0
+76,1995,5,Apollo,PK Mg,11
+77,1995,6,Apollo,N1 PKMg,15
+78,1995,7,Apollo,N2 PKMg,18
+79,1995,8,Apollo,N3PKMg,21
+80,1995,9,Apollo,N4 PKMg,25
+81,1995,10,Apollo,N2,23
+82,1995,11,Apollo,N2 P,7
+83,1995,12,Apollo,N2 P Na,15
+84,1995,13,Apollo,N2 PK ,10
+85,1995,14,Apollo,N2 PKMg*,9
+86,1995,15,Apollo,N5 PKMg,15
+87,1995,16,Apollo,N6 PKMg,18
+88,1995,17,Apollo,N0+N3 1/2[PKMg](A),12
+89,1995,18,Apollo,N1+N3 1/2[PKMg](A),3
+90,1995,19,Apollo,( C),2
+91,1996,2.1,Hereward,FYM N2,6
+92,1996,2.2,Hereward,FYM,14
+93,1996,3,Hereward,Nil,0
+94,1996,5,Hereward,PK Mg,15
+95,1996,6,Hereward,N1 PKMg,20
+96,1996,7,Hereward,N2 PKMg,17
+97,1996,8,Hereward,N3PKMg,16
+98,1996,9,Hereward,N4 PKMg,17
+99,1996,10,Hereward,N2,19
+100,1996,11,Hereward,N2 P,8
+101,1996,12,Hereward,N2 P Na,8
+102,1996,13,Hereward,N2 PK ,8
+103,1996,14,Hereward,N2 PKMg*,10
+104,1996,15,Hereward,N5 PKMg,13
+105,1996,16,Hereward,N6 PKMg,14
+106,1996,17,Hereward,N1+N3 1/2[PKMg](A),8
+107,1996,18,Hereward,N0+N3 1/2[PKMg](A),2
+108,1996,19,Hereward,( C),2
+109,1997,2.1,Hereward,FYM N2,10
+110,1997,2.2,Hereward,FYM,11
+111,1997,3,Hereward,Nil,4
+112,1997,5,Hereward,PK Mg,10
+113,1997,6,Hereward,N1 PKMg,17
+114,1997,7,Hereward,N2 PKMg,13
+115,1997,8,Hereward,N3PKMg,17
+116,1997,9,Hereward,N4 PKMg,17
+117,1997,10,Hereward,N2,24
+118,1997,11,Hereward,N2 P,13
+119,1997,12,Hereward,N2 P Na,12
+120,1997,13,Hereward,N2 PK ,11
+121,1997,14,Hereward,N2 PKMg*,7
+122,1997,15,Hereward,N5 PKMg,6
+123,1997,16,Hereward,N6 PKMg,4
+124,1997,17,Hereward,N0+N3 1/2[PKMg](A),5
+125,1997,18,Hereward,N1+N3 1/2[PKMg](A),0
+126,1997,19,Hereward,( C),4
+127,1998,2.1,Hereward,FYM N2,1
+128,1998,2.2,Hereward,FYM,4
+129,1998,3,Hereward,Nil,3
+130,1998,5,Hereward,PK Mg,6
+131,1998,6,Hereward,N1 PKMg,17
+132,1998,7,Hereward,N2 PKMg,8
+133,1998,8,Hereward,N3PKMg,6
+134,1998,9,Hereward,N4 PKMg,8
+135,1998,10,Hereward,N2,22
+136,1998,11,Hereward,N2 P,12
+137,1998,12,Hereward,N2 P Na,19
+138,1998,13,Hereward,N2 PK ,11
+139,1998,14,Hereward,N2 PKMg*,9
+140,1998,15,Hereward,N5 PKMg,3
+141,1998,16,Hereward,N6 PKMg,0
+142,1998,17,Hereward,N1+N3 1/2[PKMg](A),3
+143,1998,18,Hereward,N0+N3 1/2[PKMg](A),2
+144,1998,19,Hereward,( C),0
+145,1999,2.1,Hereward,FYM N2,16
+146,1999,2.2,Hereward,FYM,14
+147,1999,3,Hereward,Nil,5
+148,1999,5,Hereward,PK Mg,12
+149,1999,6,Hereward,N1 PKMg,11
+150,1999,7,Hereward,N2 PKMg,10
+151,1999,8,Hereward,N3PKMg,6
+152,1999,9,Hereward,N4 PKMg,15
+153,1999,10,Hereward,N2,22
+154,1999,11,Hereward,N2 P,22
+155,1999,12,Hereward,N2 P Na,19
+156,1999,13,Hereward,N2 PK ,13
+157,1999,14,Hereward,N2 PKMg*,11
+158,1999,15,Hereward,N5 PKMg,1
+159,1999,16,Hereward,N6 PKMg,1
+160,1999,17,Hereward,N0+N3 1/2[PKMg](A),3
+161,1999,18,Hereward,N1+N3 1/2[PKMg](A),6
+162,1999,19,Hereward,( C),14
+163,2000,2.1,Hereward,FYM N2,11
+164,2000,2.2,Hereward,FYM,17
+165,2000,3,Hereward,Nil,12
+166,2000,5,Hereward,PK Mg,13
+167,2000,6,Hereward,N1 PKMg,15
+168,2000,7,Hereward,N2 PKMg,18
+169,2000,8,Hereward,N3PKMg,18
+170,2000,9,Hereward,N4 PKMg,17
+171,2000,10,Hereward,N2,20
+172,2000,11,Hereward,N2 P,22
+173,2000,12,Hereward,N2 P Na,24
+174,2000,13,Hereward,N2 PK ,15
+175,2000,14,Hereward,N2 PKMg*,10
+176,2000,15,Hereward,N5 PKMg,12
+177,2000,16,Hereward,N6 PKMg,13
+178,2000,17,Hereward,N1+N3 1/2[PKMg](A),10
+179,2000,18,Hereward,N0+N3 1/2[PKMg](A),13
+180,2000,19,Hereward,( C),12
+181,2001,2.1,Hereward,FYM N2,NA
+182,2001,2.2,Hereward,FYM,NA
+183,2001,3,Hereward,Nil,NA
+184,2001,5,Hereward,(P)KMg,NA
+185,2001,6,Hereward,N1 (P)KMg,NA
+186,2001,7,Hereward,N2 (P)KMg,NA
+187,2001,8,Hereward,N3(P)KMg,NA
+188,2001,9,Hereward,N4 (P)KMg,NA
+189,2001,10,Hereward,N4,NA
+190,2001,11,Hereward,N4 P Mg,NA
+191,2001,12,Hereward,N2 P Na,NA
+192,2001,13,Hereward,N4 PK ,NA
+193,2001,14,Hereward,N4 PK*(Mg*),NA
+194,2001,15,Hereward,N5 (P)KMg,NA
+195,2001,16,Hereward,N6 (P)KMg,NA
+196,2001,17,Hereward,N1+4+1 PKMg,NA
+197,2001,18,Hereward,N1+2+1 PKMg,NA
+198,2001,19,Hereward,N1+1+1 KMg,NA
+199,2002,2.1,Hereward,FYM N2,7
+200,2002,2.2,Hereward,FYM,8
+201,2002,3,Hereward,Nil,6
+202,2002,5,Hereward,(P)KMg,7
+203,2002,6,Hereward,N1 (P)KMg,5
+204,2002,7,Hereward,N2 (P)KMg,11
+205,2002,8,Hereward,N3(P)KMg,3
+206,2002,9,Hereward,N4 (P)KMg,14
+207,2002,10,Hereward,N4,1
+208,2002,11,Hereward,N4 P Mg,1
+209,2002,12,Hereward,N1+3+1(P)K2Mg2,2
+210,2002,13,Hereward,N4 PK ,0
+211,2002,14,Hereward,N4 PK*(Mg*),2
+212,2002,15,Hereward,N5 (P)KMg,5
+213,2002,16,Hereward,N6 (P)KMg,7
+214,2002,17,Hereward,N1+4+1 PKMg,3
+215,2002,18,Hereward,N1+2+1 PKMg,0
+216,2002,19,Hereward,N1+1+1 KMg,0
+217,2003,2.1,Hereward,FYM N2,9
+218,2003,2.2,Hereward,FYM,14
+219,2003,3,Hereward,Nil,7
+220,2003,5,Hereward,(P)KMg,7
+221,2003,6,Hereward,N1 (P)KMg,8
+222,2003,7,Hereward,N2 (P)KMg,3
+223,2003,8,Hereward,N3(P)KMg,2
+224,2003,9,Hereward,N4 (P)KMg,21
+225,2003,10,Hereward,N4,0
+226,2003,11,Hereward,N4 P Mg,1
+227,2003,12,Hereward,N1+3+1(P)K2Mg2,0
+228,2003,13,Hereward,N4 PK ,3
+229,2003,14,Hereward,N4 PK*(Mg*),4
+230,2003,15,Hereward,N5 (P)KMg,13
+231,2003,16,Hereward,N6 (P)KMg,13
+232,2003,17,Hereward,N1+4+1 PKMg,1
+233,2003,18,Hereward,N1+2+1 PKMg,0
+234,2003,19,Hereward,N1+1+1 KMg,0
+235,2004,2.1,Hereward,FYM N2,4
+236,2004,2.2,Hereward,FYM,3
+237,2004,3,Hereward,Nil,2
+238,2004,5,Hereward,(P)KMg,5
+239,2004,6,Hereward,N1 (P)KMg,4
+240,2004,7,Hereward,N2 (P)KMg,4
+241,2004,8,Hereward,N3(P)KMg,2
+242,2004,9,Hereward,N4 (P)KMg,9
+243,2004,10,Hereward,N4,0
+244,2004,11,Hereward,N4 P Mg,0
+245,2004,12,Hereward,N1+3+1(P)K2Mg2,1
+246,2004,13,Hereward,N4 PK ,1
+247,2004,14,Hereward,N4 PK*(Mg*),3
+248,2004,15,Hereward,N5 (P)KMg,5
+249,2004,16,Hereward,N6 (P)KMg,4
+250,2004,17,Hereward,N1+4+1 PKMg,1
+251,2004,18,Hereward,N1+2+1 PKMg,1
+252,2004,19,Hereward,N1+1+1 KMg,0
+253,2005,2.1,Hereward,FYM N3,12
+254,2005,2.2,Hereward,FYM,8
+255,2005,3,Hereward,Nil,0
+256,2005,5,Hereward,(P)KMg,12
+257,2005,6,Hereward,N1 (P)KMg,14
+258,2005,7,Hereward,N2 (P)KMg,19
+259,2005,8,Hereward,N3(P)KMg,10
+260,2005,9,Hereward,N4 (P)KMg,11
+261,2005,10,Hereward,N4,7
+262,2005,11,Hereward,N4 P Mg,1
+263,2005,12,Hereward,N1+3+1(P)K2Mg2,0
+264,2005,13,Hereward,N4 PK ,7
+265,2005,14,Hereward,N4 PK*(Mg*),14
+266,2005,15,Hereward,N5 (P)KMg,15
+267,2005,16,Hereward,N6 (P)KMg,10
+268,2005,17,Hereward,N1+4+1 PKMg,5
+269,2005,18,Hereward,N1+2+1 PKMg,0
+270,2005,19,Hereward,N1+1+1 KMg,0
+271,2006,2.1,Hereward,FYM N3,7
+272,2006,2.2,Hereward,FYM,3
+273,2006,3,Hereward,Nil,5
+274,2006,5,Hereward,(P)KMg,11
+275,2006,6,Hereward,N1 (P)KMg,18
+276,2006,7,Hereward,N2 (P)KMg,21
+277,2006,8,Hereward,N3(P)KMg,7
+278,2006,9,Hereward,N4 (P)KMg,3
+279,2006,10,Hereward,N4,8
+280,2006,11,Hereward,N4 P Mg,3
+281,2006,12,Hereward,N1+3+1(P)KMg,1
+282,2006,13,Hereward,N4 PK ,6
+283,2006,14,Hereward,N4 PK*(Mg*),15
+284,2006,15,Hereward,N5 (P)KMg,8
+285,2006,16,Hereward,N6 (P)KMg,0
+286,2006,17,Hereward,N1+4+1 PKMg,3
+287,2006,18,Hereward,N1+2+1 PKMg,0
+288,2006,19,Hereward,N1+1+1 KMg,0
+289,2007,2.1,Hereward,FYM N3,14
+290,2007,2.2,Hereward,FYM,9
+291,2007,3,Hereward,Nil,9
+292,2007,5,Hereward,(P)KMg,14
+293,2007,6,Hereward,N1 (P)KMg,14
+294,2007,7,Hereward,N2 (P)KMg,17
+295,2007,8,Hereward,N3(P)KMg,9
+296,2007,9,Hereward,N4 (P)KMg,4
+297,2007,10,Hereward,N4,12
+298,2007,11,Hereward,N4 P Mg,6
+299,2007,12,Hereward,N1+3+1(P)KMg,2
+300,2007,13,Hereward,N4 PK ,11
+301,2007,14,Hereward,N4 PK*(Mg*),21
+302,2007,15,Hereward,N5 (P)KMg,8
+303,2007,16,Hereward,N6 (P)KMg,6
+304,2007,17,Hereward,N1+4+1 PKMg,9
+305,2007,18,Hereward,N1+2+1 PKMg,0
+306,2007,19,Hereward,N1+1+1 KMg,2
+307,2008,2.1,Hereward,FYM N3,NA
+308,2008,2.2,Hereward,FYM,NA
+309,2008,3,Hereward,Nil,NA
+310,2008,5,Hereward,(P)KMg,NA
+311,2008,6,Hereward,N1 (P)KMg,NA
+312,2008,7,Hereward,N2 (P)KMg,NA
+313,2008,8,Hereward,N3(P)KMg,NA
+314,2008,9,Hereward,N4 (P)KMg,NA
+315,2008,10,Hereward,N4,NA
+316,2008,11,Hereward,N4 P Mg,NA
+317,2008,12,Hereward,N1+3+1(P)KMg,NA
+318,2008,13,Hereward,N4 PK ,NA
+319,2008,14,Hereward,N4 PK*(Mg*),NA
+320,2008,15,Hereward,N5 (P)KMg,NA
+321,2008,16,Hereward,N6 (P)KMg,NA
+322,2008,17,Hereward,N1+4+1 PKMg,NA
+323,2008,18,Hereward,N1+2+1 PKMg,NA
+324,2008,19,Hereward,N1+1+1 KMg,NA
+325,2009,2.1,Hereward,FYM N3,10
+326,2009,2.2,Hereward,FYM,7
+327,2009,3,Hereward,Nil,1
+328,2009,5,Hereward,(P)KMg,0
+329,2009,6,Hereward,N1 (P)KMg,1
+330,2009,7,Hereward,N2 (P)KMg,1
+331,2009,8,Hereward,N3(P)KMg,0
+332,2009,9,Hereward,N4 (P)KMg,3
+333,2009,10,Hereward,N4,0
+334,2009,11,Hereward,N4 P Mg,0
+335,2009,12,Hereward,N1+3+1(P)KMg,2
+336,2009,13,Hereward,N4 PK ,1
+337,2009,14,Hereward,N4 PK*(Mg*),1
+338,2009,15,Hereward,N5 (P)KMg,4
+339,2009,16,Hereward,N6 (P)KMg,1
+340,2009,17,Hereward,N1+4+1 PKMg,1
+341,2009,18,Hereward,N1+2+1 PKMg,0
+342,2009,19,Hereward,N1+1+1 KMg,0
+343,2010,2.1,Hereward,FYM N3,6
+344,2010,2.2,Hereward,FYM,8
+345,2010,3,Hereward,Nil,0
+346,2010,5,Hereward,(P)KMg,1
+347,2010,6,Hereward,N1 (P)KMg,1
+348,2010,7,Hereward,N2 (P)KMg,0
+349,2010,8,Hereward,N3(P)KMg,5
+350,2010,9,Hereward,N4 (P)KMg,3
+351,2010,10,Hereward,N4,0
+352,2010,11,Hereward,N4 P Mg,0
+353,2010,12,Hereward,N1+3+1(P)KMg,0
+354,2010,13,Hereward,N4 PK ,3
+355,2010,14,Hereward,N4 PK*(Mg*),6
+356,2010,15,Hereward,N5 (P)KMg,1
+357,2010,16,Hereward,N6 (P)KMg,2
+358,2010,17,Hereward,N1+4+1 PKMg,2
+359,2010,18,Hereward,N1+2+1 PKMg,2
+360,2010,19,Hereward,N1+1+1 KMg,0
+361,2011,2.1,Hereward,FYM N3,7
+362,2011,2.2,Hereward,FYM,10
+363,2011,3,Hereward,Nil,0
+364,2011,5,Hereward,(P)KMg,0
+365,2011,6,Hereward,N1 (P)KMg,0
+366,2011,7,Hereward,N2 (P)KMg,2
+367,2011,8,Hereward,N3(P)KMg,4
+368,2011,9,Hereward,N4 (P)KMg,6
+369,2011,10,Hereward,N4,0
+370,2011,11,Hereward,N4 P Mg,1
+371,2011,12,Hereward,N1+3+1(P)KMg,1
+372,2011,13,Hereward,N4 PK ,3
+373,2011,14,Hereward,N4 PK*(Mg*),1
+374,2011,15,Hereward,N5 (P)KMg,4
+375,2011,16,Hereward,N6 (P)KMg,0
+376,2011,17,Hereward,N1+4+1 PKMg,5
+377,2011,18,Hereward,N1+2+1 PKMg,2
+378,2011,19,Hereward,N1+1+1 KMg,0
+379,2012,2.1,Hereward,FYM N3,1
+380,2012,2.2,Hereward,FYM,0
+381,2012,3,Hereward,Nil,1
+382,2012,5,Hereward,(P)KMg,0
+383,2012,6,Hereward,N1 (P)KMg,1
+384,2012,7,Hereward,N2 (P)KMg,3
+385,2012,8,Hereward,N3(P)KMg,0
+386,2012,9,Hereward,N4 (P)KMg,4
+387,2012,10,Hereward,N4,2
+388,2012,11,Hereward,N4 P Mg,0
+389,2012,12,Hereward,N1+3+1(P)KMg,1
+390,2012,13,Hereward,N4 PK ,1
+391,2012,14,Hereward,N4 PK*(Mg*),3
+392,2012,15,Hereward,N5 (P)KMg,2
+393,2012,16,Hereward,N6 (P)KMg,0
+394,2012,17,Hereward,N1+4+1 PKMg,1
+395,2012,18,Hereward,N1+2+1 PKMg,0
+396,2012,19,Hereward,N1+1+1 KMg,0
+397,2013,2.1,Crusoe,FYM N3,13
+398,2013,2.2,Crusoe,FYM,16
+399,2013,3,Crusoe,Nil,5
+400,2013,5,Crusoe,(P)KMg,5
+401,2013,6,Crusoe,N1 (P)KMg,3
+402,2013,7,Crusoe,N2 (P)KMg,8
+403,2013,8,Crusoe,N3(P)KMg,11
+404,2013,9,Crusoe,N4 (P)KMg,19
+405,2013,10,Crusoe,N4,11
+406,2013,11,Crusoe,N4 P Mg,0
+407,2013,12,Crusoe,N1+3+1(P)KMg,7
+408,2013,13,Crusoe,N4 PK ,5
+409,2013,14,Crusoe,N4 PK*(Mg*),8
+410,2013,15,Crusoe,N5 (P)KMg,6
+411,2013,16,Crusoe,N6 (P)KMg,3
+412,2013,17,Crusoe,N1+4+1 PKMg,4
+413,2013,18,Crusoe,N1+2+1 PKMg,0
+414,2013,19,Crusoe,N1+1+1 KMg,0
+415,2014,2.1,Crusoe,FYM N3,11
+416,2014,2.2,Crusoe,FYM,16
+417,2014,3,Crusoe,Nil,12
+418,2014,5,Crusoe,(P)KMg,7
+419,2014,6,Crusoe,N1 (P)KMg,7
+420,2014,7,Crusoe,N2 (P)KMg,8
+421,2014,8,Crusoe,N3(P)KMg,10
+422,2014,9,Crusoe,N4 (P)KMg,14
+423,2014,10,Crusoe,N4,11
+424,2014,11,Crusoe,N4 P Mg,1
+425,2014,12,Crusoe,N1+3+1(P)KMg,7
+426,2014,13,Crusoe,N4 PK ,2
+427,2014,14,Crusoe,N4 PK*(Mg*),5
+428,2014,15,Crusoe,N5 (P)KMg,8
+429,2014,16,Crusoe,N6 (P)KMg,2
+430,2014,17,Crusoe,N1+4+1 PKMg,2
+431,2014,18,Crusoe,N1+2+1 PKMg,1
+432,2014,19,Crusoe,N1+1+1 KMg,0
+433,2015,2.1,Crusoe,FYM N3,NA
+434,2015,2.2,Crusoe,FYM,NA
+435,2015,3,Crusoe,Nil,NA
+436,2015,5,Crusoe,(P)KMg,NA
+437,2015,6,Crusoe,N1 (P)KMg,NA
+438,2015,7,Crusoe,N2 (P)KMg,NA
+439,2015,8,Crusoe,N3(P)KMg,NA
+440,2015,9,Crusoe,N4 (P)KMg,NA
+441,2015,10,Crusoe,N4,NA
+442,2015,11,Crusoe,N4 P Mg,NA
+443,2015,12,Crusoe,N1+3+1(P)KMg,NA
+444,2015,13,Crusoe,N4 PK ,NA
+445,2015,14,Crusoe,N4 PK*(Mg*),NA
+446,2015,15,Crusoe,N5 (P)KMg,NA
+447,2015,16,Crusoe,N6 (P)KMg,NA
+448,2015,17,Crusoe,N1+4+1 PKMg,NA
+449,2015,18,Crusoe,N1+2+1 PKMg,NA
+450,2015,19,Crusoe,N1+1+1 KMg,NA
+451,2016,2.1,Crusoe,FYM N3,NA
+452,2016,2.2,Crusoe,FYM,NA
+453,2016,3,Crusoe,Nil,NA
+454,2016,5,Crusoe,(P)KMg,NA
+455,2016,6,Crusoe,N1 (P)KMg,NA
+456,2016,7,Crusoe,N2 (P)KMg,NA
+457,2016,8,Crusoe,N3(P)KMg,NA
+458,2016,9,Crusoe,N4 (P)KMg,NA
+459,2016,10,Crusoe,N4,NA
+460,2016,11,Crusoe,N4 P Mg,NA
+461,2016,12,Crusoe,N1+3+1(P)KMg,NA
+462,2016,13,Crusoe,N4 PK ,NA
+463,2016,14,Crusoe,N4 PK*(Mg*),NA
+464,2016,15,Crusoe,N5 (P)KMg,NA
+465,2016,16,Crusoe,N6 (P)KMg,NA
+466,2016,17,Crusoe,N1+4+1 PKMg,NA
+467,2016,18,Crusoe,N1+2+1 PKMg,NA
+468,2016,19,Crusoe,N1+1+1 KMg,NA
+469,2017,2.1,Crusoe,FYM N3,0
+470,2017,2.2,Crusoe,FYM,0
+471,2017,3,Crusoe,Nil,0
+472,2017,5,Crusoe,(P)KMg,0
+473,2017,6,Crusoe,N1 (P)KMg,0
+474,2017,7,Crusoe,N2 (P)KMg,0
+475,2017,8,Crusoe,N3(P)KMg,0
+476,2017,9,Crusoe,N4 (P)KMg,1
+477,2017,10,Crusoe,N4,0
+478,2017,11,Crusoe,N4 P Mg,0
+479,2017,12,Crusoe,N1+3+1(P)KMg,0
+480,2017,13,Crusoe,N4 PK ,1
+481,2017,14,Crusoe,N4 PK*(Mg*),0
+482,2017,15,Crusoe,N5 (P)KMg,0
+483,2017,16,Crusoe,N6 (P)KMg,0
+484,2017,17,Crusoe,N1+4+1 PKMg,0
+485,2017,18,Crusoe,N1+2+1 PKMg,0
+486,2017,19,Crusoe,N1+1+1 KMg,0
+487,2018,2.1,Crusoe,FYM N3,0
+488,2018,2.2,Crusoe,FYM,0
+489,2018,3,Crusoe,Nil,0
+490,2018,5,Crusoe,(P)KMg,0
+491,2018,6,Crusoe,N1 (P)KMg,1
+492,2018,7,Crusoe,N2 (P)KMg,0
+493,2018,8,Crusoe,N3(P)KMg,1
+494,2018,9,Crusoe,N4 (P)KMg,1
+495,2018,10,Crusoe,N4,0
+496,2018,11,Crusoe,N4 P Mg,0
+497,2018,12,Crusoe,N1+3+1(P)KMg,1
+498,2018,13,Crusoe,N4 PK ,1
+499,2018,14,Crusoe,N4 PK*(Mg*),0
+500,2018,15,Crusoe,N5 (P)KMg,0
+501,2018,16,Crusoe,N6 (P)KMg,0
+502,2018,17,Crusoe,N1+4+1 PKMg,0
+503,2018,18,Crusoe,N1+2+1 PKMg,0
+504,2018,19,Crusoe,N1+1+1 KMg,0

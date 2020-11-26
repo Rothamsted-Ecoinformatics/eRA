@@ -1,241 +1,126 @@
 [
     {
-        "Experiment": "Acid Strip",
-        "KeyRefCode": "KeyRefAcidStrip",
-        "type": null,
         "exptID": "rrs9",
-        "expt_Code": "R/RS/9",
-        "ExptFolder": "rrs9",
         "Title": "Acid Strip",
         "station": "r"
     },
     {
-        "Experiment": "Agdell",
-        "KeyRefCode": "KeyRefAG",
-        "type": null,
         "exptID": "rag6",
-        "expt_Code": "R/AG/6",
-        "ExptFolder": "rag6",
         "Title": "Agdell",
         "station": "r"
     },
     {
-        "Experiment": "Alternate Wheat and Fallow",
-        "KeyRefCode": "KeyRefWheatFallow",
-        "type": null,
         "exptID": "rwf3",
-        "expt_Code": "R/WF/3",
-        "ExptFolder": "rwf3",
         "Title": "Alternate Wheat and Fallow",
         "station": "r"
     },
     {
-        "Experiment": "Amounts of Straw - Rothamsted",
-        "KeyRefCode": "KeyRefStraw",
-        "type": null,
         "exptID": "rcs326",
-        "expt_Code": "R/CS/326",
-        "ExptFolder": "rcs326",
         "Title": "Amounts of Straw - Rothamsted",
         "station": "r"
     },
     {
-        "Experiment": "Amounts of Straw - Woburn",
-        "KeyRefCode": null,
-        "type": null,
         "exptID": "wcs326",
-        "expt_Code": "W/CS/326",
-        "ExptFolder": "wcs326",
         "Title": "Amounts of Straw - Woburn",
         "station": "w"
     },
     {
-        "Experiment": "Broadbalk",
-        "KeyRefCode": "KeyRefBroadbalk",
-        "type": null,
         "exptID": "rbk1",
-        "expt_Code": "R/BK/1",
-        "ExptFolder": "rbk1",
         "Title": "Broadbalk",
         "station": "r"
     },
     {
-        "Experiment": "Continuous Maize - Rothamsted",
-        "KeyRefCode": null,
-        "type": null,
+        "exptID": "rbk1w",
+        "Title": "Broadbalk Wilderness",
+        "station": "r"
+    },
+    {
         "exptID": "rcs477",
-        "expt_Code": "R/CS/477",
-        "ExptFolder": "rcs477",
         "Title": "Continuous Maize - Rothamsted",
         "station": "r"
     },
     {
-        "Experiment": "Continuous Maize - Woburn",
-        "KeyRefCode": null,
-        "type": null,
         "exptID": "wcs478",
-        "expt_Code": "W/CS/478",
-        "ExptFolder": "wcs478",
         "Title": "Continuous Maize - Woburn",
         "station": "w"
     },
     {
-        "Experiment": "Exhaustion Land",
-        "KeyRefCode": null,
-        "type": null,
         "exptID": "rex4",
-        "expt_Code": "R/EX/4",
-        "ExptFolder": "rex4",
         "Title": "Exhaustion Land",
         "station": "r"
     },
     {
-        "Experiment": "Garden Clover",
-        "KeyRefCode": "KeyRefGC",
-        "type": null,
         "exptID": "rgc8",
-        "expt_Code": "R/GC/8",
-        "ExptFolder": "rgc8",
         "Title": "Garden Clover",
         "station": "r"
     },
     {
-        "Experiment": "Geescroft Wilderness",
-        "KeyRefCode": "KeyRefWilderness",
-        "type": null,
         "exptID": "rge9",
-        "expt_Code": "R/GE/9",
-        "ExptFolder": "rge9",
         "Title": "Geescroft Wilderness",
         "station": "r"
     },
     {
-        "Experiment": "Highfield Bare Fallow",
-        "KeyRefCode": "KeyRefHBF",
-        "type": null,
         "exptID": "rrs1",
-        "expt_Code": "R/RS/1",
-        "ExptFolder": "rrs1",
         "Title": "Highfield Bare Fallow",
         "station": "r"
     },
     {
-        "Experiment": "Highfield Conversion",
-        "KeyRefCode": "KeyRefHR",
-        "type": null,
         "exptID": "rcs767",
-        "expt_Code": "R/CS/767",
-        "ExptFolder": "rcs767",
         "Title": "Highfield Conversion",
         "station": "r"
     },
     {
-        "Experiment": "Hoosfield Spring Barley",
-        "KeyRefCode": null,
-        "type": null,
         "exptID": "rhb2",
-        "expt_Code": "R/HB/2",
-        "ExptFolder": "rhb2",
         "Title": "Hoosfield Spring Barley",
         "station": "r"
     },
     {
-        "Experiment": "Liquid Sludge Experiment",
-        "KeyRefCode": "KeyRefWobLTS",
-        "type": null,
         "exptID": "wcs428",
-        "expt_Code": "W/CS/428",
-        "ExptFolder": "wcs428",
         "Title": "Liquid Sludge Experiment",
         "station": "w"
     },
     {
-        "Experiment": "Metal Salts Experiment",
-        "KeyRefCode": "KeyRefWobLTS",
-        "type": null,
         "exptID": "wcs439",
-        "expt_Code": "W/CS/439",
-        "ExptFolder": "wcs439",
         "Title": "Metal Salts Experiment",
         "station": "w"
     },
     {
-        "Experiment": "Miscanthus sinensis giganteus study",
-        "KeyRefCode": null,
-        "type": null,
         "exptID": "rcs408",
-        "expt_Code": "R/CS/408",
-        "ExptFolder": "rcs408",
         "Title": "Miscanthus sinensis giganteus study",
         "station": "r"
     },
     {
-        "Experiment": "Park Grass",
-        "KeyRefCode": "KeyRefParkGrass",
-        "type": null,
         "exptID": "rpg5",
-        "expt_Code": "R/PG/5",
-        "ExptFolder": "rpg5",
         "Title": "Park Grass",
         "station": "r"
     },
     {
-        "Experiment": "Rothamsted Long-term Liming",
-        "KeyRefCode": "KeyRefliming",
-        "type": null,
         "exptID": "rcs10",
-        "expt_Code": "R/CS/10",
-        "ExptFolder": "rcs10",
         "Title": "Rothamsted Long-term Liming",
         "station": "r"
     },
     {
-        "Experiment": "Saxmundham Rotation 1",
-        "KeyRefCode": "KeyRefSaxRN",
-        "type": null,
         "exptID": "srn1",
-        "expt_Code": "S/RN/1",
-        "ExptFolder": "srn1",
         "Title": "Saxmundham Rotation 1",
         "station": "s"
     },
     {
-        "Experiment": "Saxmundham Rotation 2",
-        "KeyRefCode": "KeyRefSaxRN",
-        "type": null,
         "exptID": "srn2",
-        "expt_Code": "S/RN/2",
-        "ExptFolder": "srn2",
         "Title": "Saxmundham Rotation 2",
         "station": "s"
     },
     {
-        "Experiment": "Sewage Cake Experiment",
-        "KeyRefCode": "KeyRefWobLTS",
-        "type": null,
         "exptID": "wcs427",
-        "expt_Code": "W/CS/427",
-        "ExptFolder": "wcs427",
         "Title": "Sewage Cake Experiment",
         "station": "w"
     },
     {
-        "Experiment": "Woburn Long-term Liming",
-        "KeyRefCode": "KeyRefliming",
-        "type": null,
         "exptID": "wcs10",
-        "expt_Code": "W/CS/10",
-        "ExptFolder": "wcs10",
         "Title": "Woburn Long-term Liming",
         "station": "w"
     },
     {
-        "Experiment": "Woburn Organic Manuring",
-        "KeyRefCode": null,
-        "type": null,
         "exptID": "wrn12",
-        "expt_Code": "W/RN/12",
-        "ExptFolder": "wrn12",
         "Title": "Woburn Organic Manuring",
         "station": "w"
     }

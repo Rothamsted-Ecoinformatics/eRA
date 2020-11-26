@@ -1,0 +1,79 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Text",
+    "identifier": "10.23637/rbk1-sup-1534342858-01",
+    "name": "Broadbalk plan 1852-1925",
+    "shortName": null,
+    "url": "http://www.era.rothamsted.ac.uk/metadata/broad/Broadbalkplan1852-1925.pdf",
+    "description": [
+        {
+            "inLanguage": "en",
+            "descriptionType": "Abstract",
+            "description": "Plan of the Broadbalk long-term experiment 1852-1925 showing annual treatments."
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "The Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "datePublished": null,
+    "dateCreated": null,
+    "dateModified": null,
+    "inLanguage": "en",
+    "version": "1",
+    "keywords": [
+        "barley",
+        "cropping system",
+        "ecological succession",
+        "soil pH",
+        "climate change"
+    ],
+    "creator": [
+        {
+            "type": "organization",
+            "name": "Rothamsted Research"
+        }
+    ],
+    "contributor": [],
+    "encodingFormat": "application/pdf",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "The Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License"
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.37301,
+            "latitude": 51.80946
+        },
+        "name": "Broadbalk"
+    },
+    "relatedIdentifier": [],
+    "funder": [],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": null,
+            "URL": null,
+            "encodingFormat": "",
+            "fileSize": "2 pages"
+        },
+        {
+            "type": "dataDownload",
+            "name": null,
+            "URL": null,
+            "encodingFormat": "",
+            "fileSize": "62 KB"
+        }
+    ],
+    "image": [],
+    "grade": 3,
+    "dstype": "N/A"
+}

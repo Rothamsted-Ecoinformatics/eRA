@@ -27,7 +27,7 @@ include_once 'includes/init.inc'; // these are the settings that refer to more t
         include 'includes/meta.html'; // that is the <meta and link tags> superseeds head.html
         
         ?>  
-        <script> 
+        <style> 
 /*
 Make bootstrap-select work with bootstrap 4 see:
 https://github.com/silviomoreto/bootstrap-select/issues/1135
@@ -82,7 +82,7 @@ https://github.com/silviomoreto/bootstrap-select/issues/1135
 .bootstrap-select.btn-group .dropdown-toggle .filter-option {
   display: inline !important;
 }
-</script>
+</style>
     </head>
 
 <body>

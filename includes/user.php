@@ -336,6 +336,7 @@ if (isset($_COOKIE['email'])) {
         $loggedIn = 'yes' ;
     }
 }
+
 /** 
  * this is if we are coming from the login form: we should send the email and wait for it: so result is always
  * 
@@ -471,11 +472,11 @@ $formIN = "<div class=\"mt-3\">
     </div>";
 
 $formOUT = "<div class=\"my-3\">
-<form novalidate class=\"needs-validation\" action=\"" . $_SERVER['PHP_SELF'] . "\" method=\"post\">
+<form  action=\"" . $_SERVER['PHP_SELF'] . "\" method=\"post\">
 
 <div class=\"form-group\">
         <input type=\"email\" class=\"form-control\" id=\"email\" name=\"email\"
-        placeholder=\"Enter email\" aria-describedby=\"emailHelp\"  required>
+        placeholder=\"Enter email\" aria-describedby=\"emailHelp\">
         <small id=\"emailHelp\" class=\"form-text text-muted\">We'll never share your email with anyone else.</small>
     <div class=\"invalid-feedback\">Please enter a valid email address.</div>
 

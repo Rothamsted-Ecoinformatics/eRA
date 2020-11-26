@@ -1,0 +1,264 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/Sax-1928223556-01",
+    "name": "Saxmundham monthly meteorological summaries 1966-1985",
+    "shortName": "SaxMEt1966",
+    "url": "http://www.era.rothamsted.ac.uk/Met/SaxMet1966",
+    "description": [
+        {
+            "inLanguage": "en",
+            "descriptionType": "Abstract",
+            "description": "This dataset consists of monthly summaries of meteorological data measured at Saxmundham Experimental Station in East Suffolk, UK, from January 1966 until December 1985, and is derived from daily measurements taken at the site."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Methods",
+            "description": "The monthly summary data contained in this spreadsheet are derived from daily data measured at Saxmundham Experimental Station Meteorological Station, Saxmundham, Suffolk, UK. The 1966 and 1967 summaries were published in the Rothamsted Annual Reports for those years; subsequent years were also published in the 'Numerical Results' or 'Yields of the Fields Experiments' for 1968-1985. as well as the Rothamsted Annual Reports for each year. Summary data were converted from paper copies to electronic files using code to extract and compile summary data into a single dataset, July 2019."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TechnicalInfo",
+            "description": "Measurements:\r\n-Mean monthly air temperature: the mean of the maximum and minimum air temperature (degrees C);\r\n-Mean monthly dew point: derived from wet and dry bulb temperature, measured at 0900 GMT (degrees C);\r\n-Mean monthly soil temperature: the soil temperature in ground under bare soil at 30cm depth, measured at 0900 GMT (degrees C);\r\n-Total monthly ground frosts: the number of nights when the grass minimum temperature was below 0 degrees C (days per month);\r\n-Total monthly rainfall: including all precipitation (snow, rain, mist and fog) captured in a 12.7 cm rain gauge (mm per month);\r\n-Total monthly rain days: the number of days rainfall was 0.2mm or more (days per month);\r\n-Mean monthly wind speed: measured at 2 metres above ground level, average over 24 hours (km per hour);\r\n-Mean daily solar radiation: measured with a Kipp Solarimeter (MJ m-2 day-1 );\r\n-Total monthly evaporation over open water: mean of two open water tanks installed in the spring of each year (mm per month)."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Provenance",
+            "description": "The 1966 and 1967 summaries were published in the Rothamsted Annual Reports for those years; subsequent years were also published in the 'Numerical Results' or 'Yields of the Fields Experiments' for 1968-1985. as well as the Rothamsted Annual Reports for each year."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Quality",
+            "description": "Verification of daily data includes checks for instrument errors, for missing data and outliers."
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "The Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "datePublished": null,
+    "dateCreated": "2019-08-29",
+    "dateModified": "2019-08-29",
+    "inLanguage": "en",
+    "version": "1",
+    "keywords": [
+        "meteorological station",
+        "weather data",
+        "weather",
+        "climate change",
+        "climate",
+        "rain",
+        "soil temperature",
+        "meteorological factors",
+        "air temperature",
+        "wind speed",
+        "precipitation",
+        "air temperature"
+    ],
+    "creator": [
+        {
+            "type": "Person",
+            "Name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "organization",
+            "name": "Rothamsted Research"
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Tony Scott",
+            "givenName": "Tony",
+            "familyName": "Scott",
+            "sameAs": "https://orcid.org/0000-0002-6631-0672",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Lilybelle Cowland-Kellock",
+            "givenName": "Lilybelle",
+            "familyName": "Cowland-Kellock",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "RelatedPerson",
+            "name": "Nathalie Castells-Brooke",
+            "givenName": "Nathalie",
+            "familyName": "Castells-Brooke",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "The Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License"
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": 1.467294,
+            "latitude": 52.221911
+        },
+        "name": "Harwood's Field"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/open_access",
+            "relatedIdentifierType": "URL",
+            "name": "Not in the Database",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsCitedBy",
+            "rt_id": 1,
+            "relationTypeValue": "is cited by"
+        }
+    ],
+    "funder": [
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/000J0300 - The Rothamsted Long - Term Experiments - National Capability",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F000J0300"
+        }
+    ],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": null,
+            "URL": null,
+            "encodingFormat": "",
+            "fileSize": "13 KB"
+        }
+    ],
+    "image": [],
+    "grade": 3,
+    "dstype": "N/A"
+}

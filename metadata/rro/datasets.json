@@ -13,9 +13,9 @@
         "experiment_code": "R/RO",
         "grade": 1,
         "dstype": "OA",
-        "version": "1",
+        "version": "01",
         "shortName": "Fumi35",
-        "UID": "Fumi35-1"
+        "UID": "01-Fumi35"
     },
     {
         "md_id": 1971713025,
@@ -31,8 +31,8 @@
         "experiment_code": "R/RO",
         "grade": 1,
         "dstype": "OA",
-        "version": "1",
+        "version": "01",
         "shortName": "Fumi36",
-        "UID": "Fumi36-1"
+        "UID": "01-Fumi36"
     }
 ]

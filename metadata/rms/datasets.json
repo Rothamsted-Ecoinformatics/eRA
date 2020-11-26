@@ -13,9 +13,9 @@
         "experiment_code": "RMS",
         "grade": 3,
         "dstype": "N/A",
-        "version": "2",
+        "version": "02",
         "shortName": "RMAAtemp",
-        "UID": "RMAAtemp-2"
+        "UID": "02-RMAAtemp"
     },
     {
         "md_id": 1535448515,
@@ -31,9 +31,9 @@
         "experiment_code": "RMS",
         "grade": 3,
         "dstype": "N/A",
-        "version": "1",
+        "version": "01",
         "shortName": "RMMRAINS5318",
-        "UID": "RMMRAINS5318-1"
+        "UID": "01-RMMRAINS5318"
     },
     {
         "md_id": -604972603,
@@ -51,7 +51,7 @@
         "dstype": "N/A",
         "version": "01",
         "shortName": "rmsMMT10850917",
-        "UID": "rmsMMT10850917-01"
+        "UID": "01-rmsMMT10850917"
     },
     {
         "md_id": -666638375,
@@ -67,9 +67,9 @@
         "experiment_code": "RMS",
         "grade": 3,
         "dstype": "OA",
-        "version": "1",
+        "version": "01",
         "shortName": "R30YrMeans6190",
-        "UID": "R30YrMeans6190-1"
+        "UID": "01-R30YrMeans6190"
     },
     {
         "md_id": 977701674,
@@ -85,9 +85,9 @@
         "experiment_code": "RMS",
         "grade": 3,
         "dstype": "OA",
-        "version": "1",
+        "version": "01",
         "shortName": "R30YrMeans7100",
-        "UID": "R30YrMeans7100-1"
+        "UID": "01-R30YrMeans7100"
     },
     {
         "md_id": 1139325298,
@@ -103,9 +103,9 @@
         "experiment_code": "RMS",
         "grade": 3,
         "dstype": "OA",
-        "version": "1",
+        "version": "01",
         "shortName": "R30YrMeans8110",
-        "UID": "R30YrMeans8110-1"
+        "UID": "01-R30YrMeans8110"
     },
     {
         "md_id": -1996381318,
@@ -121,9 +121,9 @@
         "experiment_code": "RMS",
         "grade": 2,
         "dstype": "OA",
-        "version": "1",
+        "version": "01",
         "shortName": "RMAAtemp",
-        "UID": "RMAAtemp-1"
+        "UID": "01-RMAAtemp"
     },
     {
         "md_id": -728549132,
@@ -141,12 +141,12 @@
         "dstype": "N/A",
         "version": "01",
         "shortName": "rmsMMR10850917",
-        "UID": "rmsMMR10850917-01"
+        "UID": "01-rmsMMR10850917"
     },
     {
         "md_id": -2109807338,
         "title": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019",
-        "URL": "www.era.rothamsted.ac.uk/Met/met_open_access_res_matempanomaly",
+        "URL": "http://www.era.rothamsted.ac.uk/Met/met_open_access_res_matempanomaly",
         "identifier": "10.23637/rms-RMAAtempanomaly-1",
         "identifier_type": "DOI",
         "dataset_type": "Meteorological dataset",
@@ -157,8 +157,8 @@
         "experiment_code": "RMS",
         "grade": 1,
         "dstype": "OA",
-        "version": "1",
+        "version": "01",
         "shortName": "RMAAtempanom",
-        "UID": "RMAAtempanom-1"
+        "UID": "01-RMAAtempanom"
     }
 ]

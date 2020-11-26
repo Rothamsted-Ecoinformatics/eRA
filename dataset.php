@@ -21,7 +21,7 @@ $pageinfo = getPageInfo($expt);
 $KeyRef = $pageinfo['KeyRef'];
 $exptFolder = 'metadata/' . $expt;
 
-$fileDataset = $exptFolder . '/' . $datasetParts[0] .'/' . $dataset .'.json';
+$fileDataset = $exptFolder . '/' . $datasetParts[1] .'/' . $dataset .'.json';
 
 $hasDataset = file_exists($fileDataset);
 if ($hasDataset) {
@@ -75,7 +75,7 @@ $_SESSION['expt'] = $expt;
     <?php include 'includes/header.html';   // all the menus at the top 
     
     //--  start dependent content ---------------------------------------------------------
-    
+   
     include '_dataset.php';
     
 

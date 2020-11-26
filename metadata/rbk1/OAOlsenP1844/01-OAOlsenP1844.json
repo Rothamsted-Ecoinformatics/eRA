@@ -1,0 +1,224 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/keyrefoabkolsenp",
+    "name": "Broadbalk changes in Olsen P in top soil, 1844-2010",
+    "shortName": "OAOlsenP1844",
+    "url": "http://www.era.rothamsted.ac.uk/Broadbalk/bbk_open_access_olsenp",
+    "description": [
+        {
+            "inLanguage": "en",
+            "descriptionType": "Abstract",
+            "description": "Summary data showing changes in plant-available phosphorus (Olsen P) in the topsoil (0-23cm) of selected plots of the Broadbalk Wheat experiment, 1844-2010."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Methods",
+            "description": "The figure shows changes in plant-available phosphorus (Olsen P) in the topsoil (0-23cm) of selected plots of the Broadbalk Wheat experiment. Olsen P, which is commonly used to assess plant-available P, is measured by extracting soil with a solution of 0.5M NaHCO3, buffered at pH 8.5. Until 2000, most of the Broadbalk plots had received superphosphate P (35 kg P ha-1) each year since 1852. Since 2001, applications of P have been withheld on some plots. The accumulation of available P was greatest on the FYM plot, reflecting the larger total P inputs in FYM (approx 45 kg P ha-1) compared to that applied as inorganic fertilizer or where no P was applied. The greater Olsen P concentrations on plot 5 (PKMg) compared to plot 8 (N3PKMg), despite their similar P inputs, were a result of the higher yields and greater P offtakes in the crop on plot 8, due to the applied N. Plot 18 (N4 1/2PKMg) received P at half the standard rate between 1852 and 2001, resulting in relatively low Olsen P concentrations. Since 2001 fertilizer P has been applied at the full rate on this plot, and there has been a corresponding increase in Olsen P. Olsen P concentrations were least on plots receiving no (or very little) P inputs in fertilizer (plot 3, given no fertilizer or manure). Since 2001, fertilizer P has not been applied to plots 5 and 8 (and others not shown), due to the high reserves of plant-available P in the soil. This is reviewed each year."
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "The Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "datePublished": null,
+    "dateCreated": "2016-08-22",
+    "dateModified": "2016-08-22",
+    "inLanguage": "en",
+    "version": "1",
+    "keywords": [
+        "long term experiments",
+        "Broadbalk long-term experiment",
+        "soil",
+        "phosphorous",
+        "fertilizer",
+        "farmyard manure"
+    ],
+    "creator": [
+        {
+            "type": "organization",
+            "name": "Rothamsted Research"
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectLeader",
+            "name": "Andrew Macdonald",
+            "givenName": "Andrew",
+            "familyName": "Macdonald",
+            "sameAs": "https://orcid.org/0000-0002-1785-4892",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "application/vnd.ms-excel",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "The Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License"
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.37301,
+            "latitude": 51.80946
+        },
+        "name": "Broadbalk"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/ROTHAMSTED-LONG-TERM-EXPERIMENTS-GUIDE-2006",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted Guide to the Classical Experiments (2006)",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-2",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted Experimental Station Report for 1968 Part 2",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rbk1-1796346264-1",
+            "relatedIdentifierType": "DOI",
+            "name": "BKYIELD: Broadbalk wheat grain and straw yields 1844-1925",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsDerivedFrom",
+            "rt_id": 28,
+            "relationTypeValue": "is derived from"
+        },
+        {
+            "relatedIdentifier": "10.23637/KeyRefOARESmatemp",
+            "relatedIdentifierType": "DOI",
+            "name": "Annual Mean Air Temperature at Rothamsted 1878-2013",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsCitedBy",
+            "rt_id": 1,
+            "relationTypeValue": "is cited by"
+        },
+        {
+            "relatedIdentifier": "10.23637/testTitleGoogle",
+            "relatedIdentifierType": "DOI",
+            "name": "Test Title",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsReferencedBy",
+            "rt_id": 17,
+            "relationTypeValue": "is referenced by"
+        }
+    ],
+    "funder": [
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/00005189 - The Rothamsted Long-Term Experiments including Sample Archive and e-RA database",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F00005189"
+        }
+    ],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Olsen P data and treatments",
+            "URL": "01-data-and-treatments.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "15 KB"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Open Access BK Olsen P",
+            "URL": "01-fig-olsenP.pdf",
+            "encodingFormat": "pdf",
+            "fileSize": "95 KB"
+        }
+    ],
+    "image": [],
+    "grade": 2,
+    "dstype": "OA"
+}

@@ -1,0 +1,19 @@
+************************************************************************************************************************
+
+                    Broadbalk Wilderness (R/BK/1) 
+
+************************************************************************************************************************
+
+
+
+
+DESCRIPTION
+    Part of the Broadbalk wheat experiment was fenced off and allowed to naturally revert to woodland in 1882. In 1900 it was divided into two halves, one remained as regenerating woodland, in the other half all woody species were removed ('stubbed') each year, to allow open ground vegetation to develop. In 1957 the stubbed section was divided into two, one half remained stubbed, the other was mown for three years, then grazed by sheep from 1960-2000, and since 2001 has been mown each year (herbage is not removed).
+    To see the effects on the soil and vegetation of abandoning arable cropping
+
+    Experiment start = 1882
+
+    Experiment end = None
+
+CONDITION OF ACCESS 
+EXPERIMENT DESIGN 

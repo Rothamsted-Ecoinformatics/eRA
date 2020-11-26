@@ -1,0 +1,69 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Broadbalk Wilderness",
+            "localIdentifier": "Broadbalk Wilderness",
+            "name": "Broadbalk Wilderness",
+            "url": "Broadbalk Wilderness",
+            "description": "Small site (0.2ha). One half is naturally regenerating woodland. The other half is divided into two, one half  native permanent grassland mown each year, the other is 'stubbed' (all woody plants are removed)."
+        },
+        "design": {
+            "dateStart": 1882,
+            "dateEnd": null,
+            "description": "Small site (0.2ha). One half is naturally regenerating woodland. The other half is divided into two, one half  native permanent grassland mown each year, the other is 'stubbed' (all woody plants are removed).",
+            "studyDesign": "Broadbalk Wilderness",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": 3,
+            "numberOfReplicates": 1,
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
+        },
+        "crops": [
+            {
+                "id": 6930,
+                "name": null,
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 6931,
+                "name": null,
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 6932,
+                "name": null,
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": "NA",
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "soil organic carbon",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "very infrequently",
+                "scale": null,
+                "material": "Soil",
+                "description": "Measured in 1881, 1904, 1964 and 1999.",
+                "crop": null
+            },
+            {
+                "variable": "plant biomass",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "very infrequently",
+                "scale": null,
+                "material": "SpecifiedCrop",
+                "description": "Measured in 1881, 1904, 1964 and 1999.",
+                "crop": 6930
+            }
+        ]
+    }
+]

@@ -33,7 +33,31 @@
             "identifier": "http://www.era.rothamsted.ac.uk/Other/liming",
             "sameAs": "http://www.era.rothamsted.ac.uk/Other/liming",
             "citation": "Long-term Liming Experiments at Rothamsted and Woburn",
-            "inLanguage": null,
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/ERADOC-1-34802",
+            "sameAs": "https://doi.org/10.23637/ERADOC-1-34802",
+            "citation": "Bolton 1971",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1017/S0021859600027222",
+            "sameAs": "https://doi.org/10.1017/S0021859600027222",
+            "citation": "Bolton 1977",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1016/j.eja.2019.02.016",
+            "sameAs": "https://doi.org/10.1016/j.eja.2019.02.016",
+            "citation": "Holland et al 2019",
+            "inLanguage": "English",
             "relationType": "isCitedBy"
         }
     ]

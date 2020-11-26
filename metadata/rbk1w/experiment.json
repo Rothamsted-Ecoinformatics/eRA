@@ -1,0 +1,56 @@
+{
+    "administrative": {
+        "type": "ScholarlyArticle",
+        "identifier": "Broadbalk Wilderness",
+        "localIdentifier": "R/BK/1",
+        "name": "Broadbalk Wilderness",
+        "url": null,
+        "description": "Part of the Broadbalk wheat experiment was fenced off and allowed to naturally revert to woodland in 1882. In 1900 it was divided into two halves, one remained as regenerating woodland, in the other half all woody species were removed ('stubbed') each year, to allow open ground vegetation to develop. In 1957 the stubbed section was divided into two, one half remained stubbed, the other was mown for three years, then grazed by sheep from 1960-2000, and since 2001 has been mown each year (herbage is not removed).",
+        "disambiguatingDescription": "To see the effects on the soil and vegetation of abandoning arable cropping"
+    },
+    "dataAccess": {
+        "type": "creativeWork",
+        "conditionsOfAccess": "Available online with registration",
+        "isAccessibleForFree": "YesOffline",
+        "publishingPrinciples": "Electronic Rothamsted Archive https://doi.org/10.23637/KeyRefOABKWoc.",
+        "actionableFeedbackPolicy": "To see the effects on the soil and vegetation of abandoning arable cropping",
+        "correctionsPolicy": "To see the effects on the soil and vegetation of abandoning arable cropping",
+        "unnamedSourcesPolicy": null
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "CC0",
+        "license": "https://creativecommons.org/share-your-work/public-domain/cc0/"
+    },
+    "temporalCoverage": "1953/1970 from schema",
+    "dateStart": 1882,
+    "dateEPEnd": null,
+    "dateEnd": null,
+    "funder": "NOT in GLTEN",
+    "citation": [
+        {
+            "type": "creativeWork",
+            "identifier": "doi.org/10.1046/j.1365-2486.2003.00633.x",
+            "sameAs": "doi.org/10.1046/j.1365-2486.2003.00633.x",
+            "citation": "Accumulation of carbon and nitrogen by old arable land reverting to woodland",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "doi.org/10.1023/A:1015731530498",
+            "sameAs": "doi.org/10.1023/A:1015731530498",
+            "citation": "Effects of atmospheric deposition, soil pH and acidification on heavy metal contents in soils and vegetation of semi-natural ecosystems at Rothamsted Experimental Station, UK\"",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "http://www.era.rothamsted.ac.uk/Wilderness/wilderness_open_access_broadbalk_oc",
+            "sameAs": "http://www.era.rothamsted.ac.uk/Wilderness/wilderness_open_access_broadbalk_oc",
+            "citation": "Broadbalk wilderness accumulation of organic carbon.",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        }
+    ]
+}

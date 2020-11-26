@@ -12,6 +12,5 @@ include "_bottom.php";
 <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script> 
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<!--  script for country select -->
-<script src="js/bootstrap-select-country.min.js"></script>
-<?php  testvar();?>
+<!--  script for country select 
+<script src="js/bootstrap-select-country.min.js"></script>-->
