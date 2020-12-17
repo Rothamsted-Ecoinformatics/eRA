@@ -63,16 +63,17 @@ function getPersonInfo($personDetails)
         $line .= $experiment['administrative']['localIdentifier'];
         $line .= "</li>";
     }
+    if ($experiment['administrative']['disambiguatingDescription']) {
+        $line .= "<li class=\"list-group-item\"  style=\"white-space: pre-wrap;\" ><b>Objectives: </b>";
+        $line .= $experiment['administrative']['disambiguatingDescription'];
+        $line .= "</li>";
+    }
     if ($experiment['administrative']['description']) {
         $line .= "<li class=\"list-group-item\"  style=\"white-space: pre-wrap;\" ><b>Description: </b>";
         $line .= $experiment['administrative']['description'];
         $line .= "</li>";
     }
-    if ($experiment['administrative']['disambiguatingDescription']) {
-        $line .= "<li class=\"list-group-item\"  style=\"white-space: pre-wrap;\" ><b>Goals: </b>";
-        $line .= $experiment['administrative']['disambiguatingDescription'];
-        $line .= "</li>";
-    }
+   
     echo $line;
     ?>
 					

@@ -24,12 +24,14 @@
             {
                 "id": 2222,
                 "name": "maize",
+                "sameAs": "maize",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 2223,
                 "name": "barley",
+                "sameAs": "barley",
                 "dateStart": null,
                 "dateEnd": null
             }
@@ -41,7 +43,7 @@
                 "name": "crop residue management exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "crop residue management exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 2974,

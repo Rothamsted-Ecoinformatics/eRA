@@ -24,12 +24,14 @@
             {
                 "id": 216,
                 "name": "wheat",
+                "sameAs": "wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 217,
                 "name": "fallow",
+                "sameAs": "fallow",
                 "dateStart": null,
                 "dateEnd": null
             }
@@ -105,12 +107,14 @@
             {
                 "id": 218,
                 "name": "wheat",
+                "sameAs": "wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 219,
                 "name": "fallow",
+                "sameAs": "fallow",
                 "dateStart": null,
                 "dateEnd": null
             }
@@ -246,12 +250,14 @@
             {
                 "id": 220,
                 "name": "wheat",
+                "sameAs": "wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 221,
                 "name": "fallow",
+                "sameAs": "fallow",
                 "dateStart": null,
                 "dateEnd": null
             }
@@ -327,6 +333,7 @@
             {
                 "id": 222,
                 "name": "wheat",
+                "sameAs": "wheat",
                 "dateStart": null,
                 "dateEnd": null
             }

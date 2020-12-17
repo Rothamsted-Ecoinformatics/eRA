@@ -24,24 +24,28 @@
             {
                 "id": 321,
                 "name": "wheat",
+                "sameAs": "wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 322,
                 "name": "root vegetables",
+                "sameAs": "root vegetables",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 323,
                 "name": "barley",
+                "sameAs": "barley",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 324,
                 "name": "feed legumes",
+                "sameAs": "feed legumes",
                 "dateStart": null,
                 "dateEnd": null
             }
@@ -83,7 +87,7 @@
                 "name": "fertilizer exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "fertilizer exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 453,

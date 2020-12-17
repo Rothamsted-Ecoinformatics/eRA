@@ -96,9 +96,11 @@ if ($hasDataset) {
     } else {
         $dateUpdate = "N/A";
     }
-    if ($datePublication != "N/A") {$year = '('.substr($datePublication, 0, 4).')';}
-    elseif ($dateCreation != "N/A")  {$year = '('.substr($dateCreation, 0, 4).')';}
-    else  {$year = "";}
+  /*   if ($datePublication != "N/A")   {$year = '('.substr($datePublication, 0, 4).')';}
+    elseif ($dateCreation != "N/A")  {$year = '('.substr($dateCreation,    0, 4).')';}
+    else                             {$year = "";} */
+    
+    $year = "".$dsinfo["publication_year"];
     
     if (is_array($dsinfo['distribution'])) {
         $zipfile = $exptFolder . "/" . $datasetFolder . "/" . $dataset . ".zip";
@@ -107,11 +109,25 @@ if ($hasDataset) {
 
             $distribution .= "<li>";
             // $distribution .="<a href=\"" . $exptFolder . "/" . $datasetFolder . "/" . $filedownloads['URL'] . "\">";
-            $distribution .= $filedownloads['name'];
+            $distribution .= $filedownloads['name'] . " (".$filedownloads['encodingFormat'].")";
             // $distribution .= "</a>";
             $distribution .= "</li>";
         }
         $distribution .= "</ul>";
+    }
+    
+    if (is_array($dsinfo['image'])) {
+        
+        $illustration = "";
+        foreach ($dsinfo['image'] as $imgsrc) {
+            
+            $illustration .= "<img src=\"";
+            // $distribution .="<a href=\"" . $exptFolder . "/" . $datasetFolder . "/" . $filedownloads['URL'] . "\">";
+            $illustration .=  $exptFolder . "/" . $datasetFolder . "/" .$imgsrc['URL'] . " \" class=\"img-fluid\" alt=\"".$imgsrc['Caption']."\">";
+            // $distribution .= "</a>";
+            
+        }
+      
     }
 
     if (is_array($dsinfo['relatedIdentifier'])) {
@@ -145,11 +161,11 @@ if ($hasDataset) {
             if ($ris['relatedIdentifierGeneralType'] == "text") {
 
                 $hasDocuments = 1;
-                $relDocuments .= "<li>" . $ris['relationTypeValue'] . " : <a target = \_blank\" href=\"http://doi.org/" . $ris['relatedIdentifier'] . "\">" . $ris['relatedIdentifier'] . "</a> <sup><i class=\"fa fa-external-link\" aria-hidden=\"true\"></i></sup>: " . $ris['name'] . "</li>";
+                $relDocuments .= "<li>" . $ris['relationTypeValue'] . " : <a target = \_blank\" href=\"https://doi.org/" . $ris['relatedIdentifier'] . "\">" . $ris['relatedIdentifier'] . "</a> <sup><i class=\"fa fa-external-link\" aria-hidden=\"true\"></i></sup>: " . $ris['name'] . "</li>";
             } elseif ($ris['relatedIdentifierGeneralType'] == "Dataset") {
                 $hasDatasets = 1;
 
-                $relDatasets .= "<li>" . $ris['relationTypeValue'] . " :<a href=\"http://doi.org/" . $ris['relatedIdentifier'] . "\">" . $ris['relatedIdentifier'] . "</a>: " . $ris['name'] . "</li>";
+                $relDatasets .= "<li>" . $ris['relationTypeValue'] . " :<a href=\"https://doi.org/" . $ris['relatedIdentifier'] . "\">" . $ris['relatedIdentifier'] . "</a>: " . $ris['name'] . "</li>";
             } else {}
         }
         $relDatasets .= "
@@ -236,16 +252,17 @@ if ($hasDataset) {
 			</div>
 		</div>
 		<div class="col-sm-8">
-
+ <h2>Summary</h2>
 			<p><?php echo $arrDescription['Abstract']; ?></p>
 			<?php
-
+			echo         $illustration;
 if (isset($arrDescription['Methods'])) {
     ?>
 			    <h2>Methods</h2>
-			<p style="white-space: pre-wrap;"><?php echo $arrDescription['Methods']; ?></p>
+			<p style="white-space: pre-wrap; " ><?php echo $arrDescription['Methods']; ?></p>
 			    <?php
 }
+
 if (isset($arrDescription['TableOfContents'])) {
     ?>
 			    <h2>Table Of Contents</h2>
@@ -359,7 +376,7 @@ if (isset($arrDescription['Other'])) {
 							</p>
 							<h5>Cite this Dataset</h5>
 							<p>
-								<strong>YOU MUST CITE AS: </strong>Rothamsted Research <?php echo $year;?>.
+								<strong>YOU MUST CITE AS: </strong>Rothamsted Research (<?php echo $year;?>).
 								<?php echo $dsinfo['name'];?> <em>Electronic Rothamsted Archive</em>
 								<a target="_blank"
 									href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
@@ -410,7 +427,7 @@ if (isset($arrDescription['Other'])) {
 						Commons Attribution 4.0 International License</a>.
 				</p>
 				<p>
-					<strong>YOU MUST CITE AS: </strong>Rothamsted Research (<?php echo $datePublication;?>).
+					<strong>YOU MUST CITE AS: </strong>Rothamsted Research (<?php echo $year;?>).
 								<?php echo $dsinfo['name'];?> <em>Electronic Rothamsted Archive</em>
 					<a target="_blank"
 						href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
@@ -496,7 +513,7 @@ if (isset($arrDescription['Other'])) {
 						Commons Attribution 4.0 International License</a>.
 				</p>
 				<p>
-					<strong>YOU MUST CITE AS: </strong>Rothamsted Research (<?php echo $datePublication;?>).
+					<strong>YOU MUST CITE AS: </strong>Rothamsted Research (<?php echo $year;?>).
 								<?php echo $dsinfo['name'];?> <em>Electronic Rothamsted Archive</em>
 					<a target="_blank"
 						href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>

@@ -1,0 +1,249 @@
+{
+    "id": 1060,
+    "experiment_type_term": null,
+    "experiment_id": 75,
+    "people": [
+        {
+            "id": 1252,
+            "contacts": [],
+            "role_term": "principal investigator",
+            "title": "Dr",
+            "name": "Andy Macdonald",
+            "affiliation": "Rothamsted Research",
+            "department": "Sustainable Agricultural Systems",
+            "orcid": null,
+            "is_contact": false,
+            "role_label": "principal investigator"
+        },
+        {
+            "id": 1253,
+            "contacts": [],
+            "role_term": "principal investigator",
+            "title": null,
+            "name": "Paul Poulton",
+            "affiliation": "Rothamsted Research",
+            "department": "SAS",
+            "orcid": null,
+            "is_contact": false,
+            "role_label": "principal investigator"
+        },
+        {
+            "id": 1254,
+            "contacts": [],
+            "role_term": "data manager",
+            "title": "Dr",
+            "name": "Margaret Glendining",
+            "affiliation": "Rothamsted Research",
+            "department": "Computational and Analytical Sciences",
+            "orcid": "https://orcid.org/0000-0002-6466-4629",
+            "is_contact": false,
+            "role_label": "data manager"
+        }
+    ],
+    "organizations": [
+        {
+            "id": 1047,
+            "contacts": [],
+            "role_term": "research organisation",
+            "name": "Rothamsted Research",
+            "name_uri": null,
+            "abbreviation": null,
+            "role_label": "research organisation"
+        }
+    ],
+    "periods": [
+        {
+            "id": 1537,
+            "design_type_term": null,
+            "crops": [
+                {
+                    "id": 3552,
+                    "crop_term": "potatoes",
+                    "crop_label": "potatoes",
+                    "start_year": 1969,
+                    "end_year": 1974
+                },
+                {
+                    "id": 3553,
+                    "crop_term": "sugarbeet",
+                    "crop_label": "sugarbeet",
+                    "start_year": 1969,
+                    "end_year": 1974
+                },
+                {
+                    "id": 3554,
+                    "crop_term": "winter wheat",
+                    "crop_label": "winter wheat",
+                    "start_year": 1977,
+                    "end_year": 1986
+                },
+                {
+                    "id": 3555,
+                    "crop_term": "barley",
+                    "crop_label": "barley",
+                    "start_year": 1970,
+                    "end_year": 1979
+                }
+            ],
+            "rotations": [],
+            "factors": [],
+            "factor_combinations": [],
+            "measurements": [
+                {
+                    "material": "Soil",
+                    "crop_id": null,
+                    "comment": "Olsen P",
+                    "collection_frequency": "Annual",
+                    "variable_label": "plant available phosphorous",
+                    "variable_term": "plant available phosphorous",
+                    "unit_label": "mg/kg",
+                    "unit_term": null,
+                    "scale": "0-23cm"
+                }
+            ],
+            "start_year": 1969,
+            "end_year": 1986,
+            "ongoing": false,
+            "name": "Final period",
+            "design_type_label": null,
+            "number_of_blocks": 4,
+            "number_of_plots": 8,
+            "number_of_subplots": 5,
+            "number_of_replicates": 4,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": 1,
+            "design_description": null,
+            "description": "4 blocks (A, B, C, D) each containing 8 main strips (1-8), each divided into 5 micro-plots (01-20).",
+            "factorial": false
+        },
+        {
+            "id": 1538,
+            "design_type_term": null,
+            "crops": [],
+            "rotations": [],
+            "factors": [],
+            "factor_combinations": [],
+            "measurements": [],
+            "start_year": 1899,
+            "end_year": 1964,
+            "ongoing": false,
+            "name": "Early period",
+            "design_type_label": null,
+            "number_of_blocks": 4,
+            "number_of_plots": 10,
+            "number_of_subplots": null,
+            "number_of_replicates": 4,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": 1,
+            "design_description": "Four large blocks each comprising 10 treatment strips. The treatments were applied once every four years. In 1952 two-thirds of the experiment was stopped, although one strip on two blocks we re-incorporated into the experiment later.",
+            "description": "Started by the Education Committee of East Suffolk County Council, to determine how farmyard manure (FYM) and/or inorganic fertilizer (N and P) could best be distributed to crops in a four-course rotation.",
+            "factorial": true
+        },
+        {
+            "id": 1539,
+            "design_type_term": null,
+            "crops": [],
+            "rotations": [],
+            "factors": [],
+            "factor_combinations": [],
+            "measurements": [],
+            "start_year": 1965,
+            "end_year": 1968,
+            "ongoing": false,
+            "name": "Middle period",
+            "design_type_label": null,
+            "number_of_blocks": null,
+            "number_of_plots": 8,
+            "number_of_subplots": null,
+            "number_of_replicates": null,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": 1,
+            "design_description": null,
+            "description": "Rothamsted took over the site in 1964 and modified the experiment. Additional FYM and P was applied to extend the range of P residues prior to testing the value of fresh and residual P on sub-plots within the main treatment strips. Strip 8, which had not received any treatment since 1952 was re-incorporated into the experiment.",
+            "factorial": false
+        }
+    ],
+    "data_statement_term": null,
+    "data_license_term": "CC BY",
+    "site_type_term": "research station field",
+    "site_perimeter": [],
+    "site_soil_type_term": null,
+    "site_soil_properties": [],
+    "site_climatic_type_term": null,
+    "site_climate_properties": [],
+    "literature": [
+        {
+            "doi": "http://dx.doi.org/10.1111/j.1475-2743.2012.00449.x",
+            "title": "Plant-available soil phosphorus. Part II: the response of arable crops to Olsen P on a sandy clay loam and a silty clay loam",
+            "language": "English"
+        },
+        {
+            "doi": "https://doi.org/10.23637/ERADOC-1-34865",
+            "title": "The residual value of farmyard manure and superphosphate in the Saxmundham Rotation II Experiment",
+            "language": "English"
+        },
+        {
+            "doi": "https://doi.org/10.1017/S0021859600063632",
+            "title": "The Saxmundham Rotation Experiments: Rotation II, 1899-1952",
+            "language": "English"
+        },
+        {
+            "doi": "https://doi.org/10.23637/ERADOC-1-4",
+            "title": "The residual value of farmyard manure and superphosphate in the Saxmundham Rotation II Experiment",
+            "language": "English"
+        },
+        {
+            "doi": "https://doi.org/10.1017/S0021859600061864",
+            "title": "Effects of soil and fertilizer P on yields of potatoes, sugar beet, barley and winter wheat on a sandy clay loam soil at Saxmundham, Suffolk",
+            "language": "English"
+        },
+        {
+            "doi": "https://doi.org/10.23637/ERADOC-1-27",
+            "title": "Saxmundham Experimental Station 1899-1986. A review of the achievements during 1965-1986",
+            "language": "English"
+        }
+    ],
+    "saved_time": "2019-10-04T15:32:01.467229Z",
+    "name": "Saxmundham II",
+    "local_identifier": "S/RN/2",
+    "experiment_type_label": null,
+    "url": null,
+    "start_year": 1899,
+    "end_year": 1986,
+    "ongoing": false,
+    "establishment_period_end": 1968,
+    "objective": "To investigate the effects of soil P and fresh fertilizer P on the yields of arable crops at a range of soil P values.",
+    "description": "The experiment consists of 8 Main Strips (originally 10). Between 1899 and 1968 various combinations of FYM and P fertilizer applied to these Main Strips resulted a wide range of Olsen P values (4 \u2013 65 mg/kg Olsen P). By 1969 the eight strips were divided into four blocks (A, B, C and D) with 20 micro-plots in each strip. On each set of micro-plots within each Strip/Block five amounts of P fertilizer were tested on potatoes, sugar beet, spring barley and winter wheat). Yields and P uptake were measured and Soil Olsen P content.",
+    "site_name": "Saxmundham II",
+    "site_local_code": null,
+    "site_geonames_id": null,
+    "site_doi": null,
+    "site_type_label": "research station field",
+    "site_locality": "Saxmundham",
+    "site_region": "Suffolk",
+    "site_country": "UK",
+    "site_centroid_latitude": 52.221,
+    "site_centroid_longitude": 1.466,
+    "site_elevation": 37.0,
+    "site_elevation_unit": "Metres",
+    "site_slope": null,
+    "site_slope_aspect": null,
+    "site_visits_allowed": false,
+    "site_visiting_arrangements": "None",
+    "site_history": "Rothamsted relinquished the site in 2010",
+    "site_management": "The site is no longer managed as an experimental site.",
+    "site_soil_type_label": "Eutric Gleysol",
+    "site_soil_description": "Sandy clay loam developed in drift over Chalky boulder clay, Beccles Series",
+    "site_climatic_type_label": null,
+    "site_climate_description": null,
+    "data_statement_label": null,
+    "data_url": null,
+    "data_policy_status": "YesOffline",
+    "data_policy_url": null,
+    "data_license_label": "CC BY",
+    "data_contact": null,
+    "farm_operations_data": true,
+    "sample_archive": true,
+    "samples_available": true,
+    "data_access_statement": null
+}

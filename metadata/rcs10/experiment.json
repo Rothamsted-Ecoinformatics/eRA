@@ -59,6 +59,14 @@
             "citation": "Holland et al 2019",
             "inLanguage": "English",
             "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/rcs10-Plans",
+            "sameAs": "https://doi.org/10.23637/rcs10-Plans",
+            "citation": "Rothamsted Long-term Liming Experiment Plans 1962-1996",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
         }
     ]
 }

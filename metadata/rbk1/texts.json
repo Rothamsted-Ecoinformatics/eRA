@@ -13,8 +13,28 @@
         "experiment_code": "R/BK/1",
         "grade": 3,
         "dstype": "N/A",
+        "publication_year": 2018,
         "version": "01",
         "shortName": 1534342858,
         "UID": 1534342858
+    },
+    {
+        "md_id": 1052973682,
+        "title": "Broadbalk Fertiliser Treatments",
+        "URL": "http://www.era.rothamsted.ac.uk/metadata/rbk1/BroadbalkFertilizerTreatments.pdf",
+        "identifier": "10.23637/rbk1-FertTreats",
+        "identifier_type": "DOI",
+        "dataset_type": "Manual",
+        "extension": "pdf",
+        "description": "Broadbalk Fertiliser and organic manure treatments",
+        "fieldname": "Broadbalk",
+        "experiment_name": "Broadbalk",
+        "experiment_code": "R/BK/1",
+        "grade": 1,
+        "dstype": "OA",
+        "publication_year": 2020,
+        "version": "01",
+        "shortName": 1052973682,
+        "UID": 1052973682
     }
 ]

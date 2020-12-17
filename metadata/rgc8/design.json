@@ -24,6 +24,7 @@
             {
                 "id": 1554,
                 "name": "red clover",
+                "sameAs": "red clover",
                 "dateStart": null,
                 "dateEnd": null
             }
@@ -85,6 +86,7 @@
             {
                 "id": 1555,
                 "name": "red clover",
+                "sameAs": "red clover",
                 "dateStart": null,
                 "dateEnd": null
             }
@@ -93,10 +95,10 @@
         "factor": [
             {
                 "id": 827,
-                "name": null,
+                "name": "variety",
                 "description": null,
                 "effect": "",
-                "plotApplication": null,
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 2089,
@@ -133,7 +135,7 @@
                 "name": "fungicide exposure",
                 "description": null,
                 "effect": "Direct",
-                "plotApplication": "fungicide exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 2091,
@@ -198,7 +200,7 @@
                 "name": "fungicide exposure",
                 "description": null,
                 "effect": "Direct",
-                "plotApplication": "fungicide exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 2093,
@@ -259,6 +261,7 @@
             {
                 "id": 1556,
                 "name": "red clover",
+                "sameAs": "red clover",
                 "dateStart": null,
                 "dateEnd": null
             }
@@ -270,7 +273,7 @@
                 "name": "fungicide exposure",
                 "description": null,
                 "effect": "Residual",
-                "plotApplication": "fungicide exposure",
+                "plotApplication": "Whole plot",
                 "level": []
             }
         ],

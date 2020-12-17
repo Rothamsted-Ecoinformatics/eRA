@@ -24,6 +24,7 @@
             {
                 "id": 3168,
                 "name": "wheat",
+                "sameAs": "wheat",
                 "dateStart": null,
                 "dateEnd": null
             }
@@ -35,7 +36,7 @@
                 "name": "crop residue management exposure",
                 "description": "Chopped wheat straw applied annually before sowing.",
                 "effect": "",
-                "plotApplication": "crop residue management exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 4760,

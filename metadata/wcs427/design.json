@@ -24,6 +24,7 @@
             {
                 "id": 3382,
                 "name": "wheat",
+                "sameAs": "wheat",
                 "dateStart": null,
                 "dateEnd": null
             }
@@ -35,7 +36,7 @@
                 "name": "zinc nutrient exposure",
                 "description": "Applied with digested sludge",
                 "effect": "",
-                "plotApplication": "zinc nutrient exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 5495,
@@ -114,7 +115,7 @@
                 "name": "copper nutrient exposure",
                 "description": "Applied with undigested sludge",
                 "effect": "",
-                "plotApplication": "copper nutrient exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 5500,
@@ -193,7 +194,7 @@
                 "name": "cadmium exposure",
                 "description": "applied with digested sludge",
                 "effect": "",
-                "plotApplication": "cadmium exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 5505,

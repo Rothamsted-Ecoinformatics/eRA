@@ -1,0 +1,21 @@
+[
+    {
+        "md_id": 1025119308,
+        "title": "Rothamsted long-term liming experiment crop yields",
+        "URL": "http://www.era.rothamsted.ac.uk/rcs10/RLTLYIELD",
+        "identifier": "10.23637/rcs10-rltlyields-01",
+        "identifier_type": "DOI",
+        "dataset_type": "Crop  yield data",
+        "extension": "xlsx",
+        "description": "The experiment tests the effects of different amounts of lime (and thus soil pH), P and K on the yields of a sequence of arable crops, on a silty clay loam soil at Rothamsted Experimental Farm, from 1962-1996. Mg, Mn and S were tested on split plots at different times. Target soil pH was 4.5, 5.5, 6.5 and 7.5. There is a parallel experiment at Woburn Experimental Farm. Since 1997 the experiment has been in grass.",
+        "fieldname": "Sawyers I",
+        "experiment_name": "Rothamsted Long-term Liming",
+        "experiment_code": "R/CS/10",
+        "grade": 1,
+        "dstype": "N/A",
+        "publication_year": 2020,
+        "version": "01",
+        "shortName": "RLTLYIELDS",
+        "UID": "01-RLTLYIELDS"
+    }
+]

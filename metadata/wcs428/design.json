@@ -24,6 +24,7 @@
             {
                 "id": 3383,
                 "name": "rye grass",
+                "sameAs": "rye grass",
                 "dateStart": null,
                 "dateEnd": null
             }
@@ -35,7 +36,7 @@
                 "name": "zinc nutrient exposure",
                 "description": "Applied as liquid sludge",
                 "effect": "",
-                "plotApplication": "zinc nutrient exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 5510,
@@ -86,7 +87,7 @@
                 "name": "copper nutrient exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "copper nutrient exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 5513,
@@ -137,7 +138,7 @@
                 "name": "cadmium exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "cadmium exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 5516,

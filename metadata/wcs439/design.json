@@ -24,12 +24,14 @@
             {
                 "id": 3376,
                 "name": "rye grass",
+                "sameAs": "rye grass",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 3377,
                 "name": "spring wheat",
+                "sameAs": "spring wheat",
                 "dateStart": null,
                 "dateEnd": null
             }
@@ -41,7 +43,7 @@
                 "name": "zinc nutrient exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "zinc nutrient exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 5432,
@@ -92,7 +94,7 @@
                 "name": "copper nutrient exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "copper nutrient exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 5435,
@@ -143,7 +145,7 @@
                 "name": "cadmium exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "cadmium exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 5438,

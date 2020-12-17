@@ -1,0 +1,21 @@
+[
+    {
+        "md_id": -691415717,
+        "title": "Woburn long-term liming experiment crop yields",
+        "URL": "http://www.era.rothamsted.ac.uk/wcs10/WLTLYIELDS",
+        "identifier": "10.23637/wcs10-wltlyields-01",
+        "identifier_type": "DOI",
+        "dataset_type": "Crop  yield data",
+        "extension": "xlsx",
+        "description": "The experiment tests the effects of different amounts of lime (and thus soil pH), P and K on the yields of a sequence of arable crops, on a sandy loam soil at Woburn Experimental Farm, from 1962-1996. Mg, Mn and S were tested on split plots at different times. Target soil pH was 4.5, 5.5, 6.5 and 7.5. There was a parallel experiment at Rothamsted Experimental Farm. The experiment was discontinued in 1997.",
+        "fieldname": "Stackyard",
+        "experiment_name": "Woburn Long-term Liming",
+        "experiment_code": "W/CS/10",
+        "grade": 1,
+        "dstype": "Other",
+        "publication_year": 2020,
+        "version": "01",
+        "shortName": "WLTLYIELDS",
+        "UID": "01-WLTLYIELDS"
+    }
+]

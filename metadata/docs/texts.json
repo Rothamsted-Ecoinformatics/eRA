@@ -1,0 +1,21 @@
+[
+    {
+        "md_id": -44278938,
+        "title": "deprecated",
+        "URL": "http://www.era.rothamsted.ac.uk/",
+        "identifier": "10.23637/",
+        "identifier_type": "DOI",
+        "dataset_type": "Treatment details",
+        "extension": "pdf",
+        "description": "Details of the lime applications, fertilizer treatments and basal fertilizer applied to the Long-term Liming Experiments at Rothamsted and Woburn, 1962-1996.",
+        "fieldname": "Admin Buildings",
+        "experiment_name": "Documents for more than one experiments",
+        "experiment_code": "DOCS",
+        "grade": 1,
+        "dstype": "OA",
+        "publication_year": 2020,
+        "version": "01",
+        "shortName": -44278938,
+        "UID": -44278938
+    }
+]

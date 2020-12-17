@@ -48,7 +48,7 @@ function getProperties($site)
                 $isBas = "NO";
             }
             $content .= "\n<tr>";
-            $content .= "\n<td>" . title_case($measurement['variableMeasured']) . "</td>";
+            $content .= "\n<td>" . htmlentities(ucfirst($measurement['variableMeasured'] )). "</td>";
             $content .= "\n<td>" . $measurement['valueReference'] . $measurement['unitCode'] . " (" . $measurement['unitText'] . ") </td>";
             // $content .= "\n<td> Depth (TODO) </td>";
             $content .= "\n<td>" . $measurement['refYear'] . "</td>";
@@ -82,7 +82,7 @@ function getProperties($site)
 
     if ($site['administrative']['visitsAllowed']) {
 
-        $line .= "\n<li class=\"list-group-item \"><b>Visit Permitted?:</b> Yes </li>";
+        $line .= "\n<li class=\"list-group-item \"><b>Visit Permitted?:</b> ".$site['administrative']['visitsAllowed']." </li>";
 
         if ($site['administrative']['visitingArrangements']) {
             $line .= "\n<li class=\"list-group-item \" style=\"white-space: pre-wrap;\" ><b>Visiting Arrangments:</b> " . $site['administrative']['visitingArrangements'] . "</li>";
@@ -99,7 +99,8 @@ function getProperties($site)
     }
 
     if (is_array($site['location']['geoLocationPoint'])) {
-        $line .= "\n<li class=\"list-group-item \"><b>Geolocation:</b> " . $site['location']['geoLocationPoint']['pointLongitude'] . " - " . $site['location']['geoLocationPoint']['pointLatitude'] . "</li>";
+        /*https://maps.google.com/?q=<lat>,<lng>*/
+        $line .= "\n<li class=\"list-group-item \"><b>Geolocation:</b> <a target=\"out\" href=\"https://maps.google.com/?q=". $site['location']['geoLocationPoint']['pointLatitude'] ."," . $site['location']['geoLocationPoint']['pointLongitude'] . "\"> <i class=\"fas fa-map-marker\"></i> &nbsp;&nbsp; ".  $site['location']['geoLocationPoint']['pointLatitude'] .", " . $site['location']['geoLocationPoint']['pointLongitude'] .  "</a></li>";
     }
 
     $line .= "\n</ul>";

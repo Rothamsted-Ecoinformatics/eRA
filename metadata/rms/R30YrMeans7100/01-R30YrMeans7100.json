@@ -41,9 +41,10 @@
         "type": "organization",
         "name": "The Electronic Rothamsted Archive, Rothamsted Research"
     },
-    "datePublished": null,
+    "publication_year": 2019,
     "dateCreated": "2019-10-07",
     "dateModified": null,
+    "datePublished": null,
     "inLanguage": "en",
     "version": "1",
     "keywords": [

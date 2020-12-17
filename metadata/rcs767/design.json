@@ -24,18 +24,21 @@
             {
                 "id": 2200,
                 "name": "fallow",
+                "sameAs": "fallow",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 2201,
                 "name": "grass",
+                "sameAs": "grass",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 2202,
                 "name": "wheat",
+                "sameAs": "wheat",
                 "dateStart": null,
                 "dateEnd": null
             }
@@ -47,7 +50,7 @@
                 "name": "cropping system",
                 "description": null,
                 "effect": "",
-                "plotApplication": "cropping system",
+                "plotApplication": "Sub plot",
                 "level": [
                     {
                         "id": 2904,

@@ -24,6 +24,7 @@
             {
                 "id": 3785,
                 "name": "winter wheat",
+                "sameAs": "winter wheat",
                 "dateStart": null,
                 "dateEnd": null
             }
@@ -35,7 +36,7 @@
                 "name": "liming exposure",
                 "description": "Small amounts of chalk applied in 19th century",
                 "effect": "",
-                "plotApplication": "liming exposure",
+                "plotApplication": null,
                 "level": []
             }
         ],

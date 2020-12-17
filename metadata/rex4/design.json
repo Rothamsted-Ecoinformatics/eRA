@@ -24,12 +24,14 @@
             {
                 "id": 2184,
                 "name": "wheat",
+                "sameAs": "wheat",
                 "dateStart": 1856,
                 "dateEnd": 1875
             },
             {
                 "id": 2185,
                 "name": "potatoes",
+                "sameAs": "potatoes",
                 "dateStart": 1876,
                 "dateEnd": 1901
             }
@@ -41,7 +43,7 @@
                 "name": "phosphate fertilizer exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "phosphate fertilizer exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 2841,
@@ -78,7 +80,7 @@
                 "name": "potassium fertilizer exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "potassium fertilizer exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 2843,
@@ -115,7 +117,7 @@
                 "name": "farmyard manure exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "farmyard manure exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 2845,
@@ -138,7 +140,7 @@
                 "name": "nitrogen fertilizer exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "nitrogen fertilizer exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 2846,
@@ -175,7 +177,7 @@
                 "name": "sodium nutrient exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "sodium nutrient exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 2848,
@@ -198,7 +200,7 @@
                 "name": "magnesium nutrient exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "magnesium nutrient exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 2849,
@@ -444,6 +446,7 @@
             {
                 "id": 2186,
                 "name": "barley",
+                "sameAs": "barley",
                 "dateStart": 1940,
                 "dateEnd": 1985
             }
@@ -455,7 +458,7 @@
                 "name": "nitrogen fertilizer exposure",
                 "description": "Single rate applied to all plots until 1976 when 4 different N rates were applied but rotate in the sequence N0>N3>N2>N1, eg N0 1976, N3 1977, N2 1978, N1 1979, N0 1980. the cumulative N rate for each plot is therefore equal.",
                 "effect": "",
-                "plotApplication": "nitrogen fertilizer exposure",
+                "plotApplication": null,
                 "level": [
                     {
                         "id": 2850,
@@ -586,12 +589,14 @@
             {
                 "id": 2187,
                 "name": "barley",
+                "sameAs": "barley",
                 "dateStart": 1986,
                 "dateEnd": 1991
             },
             {
                 "id": 2188,
                 "name": "wheat",
+                "sameAs": "wheat",
                 "dateStart": 1992,
                 "dateEnd": 2006
             }
@@ -603,7 +608,7 @@
                 "name": "phosphate fertilizer exposure",
                 "description": "Applied to \"P\" test sub-plots. These plots received basal manuring rates of 144 kg N/ha and 83 kg K/ha",
                 "effect": "",
-                "plotApplication": "phosphate fertilizer exposure",
+                "plotApplication": "Sub plot",
                 "level": [
                     {
                         "id": 2857,
@@ -668,7 +673,7 @@
                 "name": "nitrogen fertilizer exposure",
                 "description": "Applied to \"N\" Tests sub plots. N rates rotate each year N0>N3>N2>N1, eg N0 1986, N3 1987, N2 1988, N1 1989, N0 1990",
                 "effect": "",
-                "plotApplication": "nitrogen fertilizer exposure",
+                "plotApplication": "Sub plot",
                 "level": [
                     {
                         "id": 2861,

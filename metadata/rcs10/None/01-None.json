@@ -1,0 +1,150 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/rcs10-Treatments-01",
+    "name": "Rothamsted long-term liming experiments lime and fertilizer treatments 1962-1996",
+    "shortName": null,
+    "url": "http://www.era.rothamsted.ac.uk/metadata/rcs10-treatments.pdf",
+    "description": [
+        {
+            "inLanguage": "en",
+            "descriptionType": "Abstract",
+            "description": "Details of the lime applications, fertilizer treatments and basal fertilizer applied to the Long-term Liming Experiment at Rothamsted 1962-1996."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Methods",
+            "description": "The Long-term Liming Experiments studied the effects of soil pH, P and other fertilizer treatments on the yields of a sequence of arable crops at two sites, Rothamsted and Woburn, with contrasting soil types."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TableOfContents",
+            "description": "1) Lime application dates and amounts applied, 1962-1996  2) Fertilizer treatments (P, K, Mg, Mn and S) application amounts, dates and forms, 1962-1996. 3) Basal fertilizer (N, K and Mg) application amounts and forms, 1962-1996."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Provenance",
+            "description": "Prepared from experimental plans and Rothamsted Research annual Yields Books."
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Rothamsted Research"
+    },
+    "publication_year": 2020,
+    "dateCreated": null,
+    "dateModified": null,
+    "datePublished": null,
+    "inLanguage": "en",
+    "version": "1",
+    "keywords": [
+        "long term experiments",
+        "fertilizer",
+        "liming",
+        "Rothamsted Research",
+        "arable farming"
+    ],
+    "creator": [
+        {
+            "type": "organization",
+            "name": "Rothamsted Research"
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectManager",
+            "name": "Nathalie Castells-Brooke",
+            "givenName": "Nathalie",
+            "familyName": "Castells-Brooke",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "application/pdf",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License"
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": 0.0,
+            "latitude": 0.0
+        },
+        "name": "Sawyers I"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/rcs10-Plans",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted long-term liming experiment plans 1962-1996",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rcs10-rltlyields-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted long-term liming experiment crop yields 1962-1996",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
+        }
+    ],
+    "funder": [
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/000J0300 - The Rothamsted Long - Term Experiments - National Capability",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F000J0300"
+        }
+    ],
+    "distribution": [],
+    "image": [],
+    "grade": 1,
+    "dstype": "OA"
+}

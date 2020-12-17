@@ -1,0 +1,340 @@
+{
+    "id": 990,
+    "experiment_type_term": null,
+    "experiment_id": 70,
+    "people": [
+        {
+            "id": 1153,
+            "contacts": [
+                {
+                    "contact_type": "Email",
+                    "value": "steve.mcgrath@rothamsted.ac.uk"
+                }
+            ],
+            "role_term": "principal investigator",
+            "title": "Prof.",
+            "name": "Steve McGrath",
+            "affiliation": "Rothamsted Research",
+            "department": "Sustainable Agricultural Sciences",
+            "orcid": null,
+            "is_contact": true,
+            "role_label": "principal investigator"
+        }
+    ],
+    "organizations": [
+        {
+            "id": 970,
+            "contacts": [
+                {
+                    "contact_type": "URL",
+                    "value": "http://www.rothamsted.ac.uk"
+                }
+            ],
+            "role_term": "research organisation",
+            "name": "Rothamsted Research",
+            "name_uri": null,
+            "abbreviation": null,
+            "role_label": "research organisation"
+        },
+        {
+            "id": 971,
+            "contacts": [],
+            "role_term": "experimental research station",
+            "name": "Woburn Experimental Farm",
+            "name_uri": null,
+            "abbreviation": null,
+            "role_label": "experimental research station"
+        }
+    ],
+    "periods": [
+        {
+            "id": 1456,
+            "design_type_term": "Randomized complete block design",
+            "crops": [
+                {
+                    "id": 3376,
+                    "crop_term": "rye grass",
+                    "crop_label": "rye grass",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 3377,
+                    "crop_term": "spring wheat",
+                    "crop_label": "spring wheat",
+                    "start_year": null,
+                    "end_year": null
+                }
+            ],
+            "rotations": [],
+            "factors": [
+                {
+                    "id": 1652,
+                    "factor_term": "zinc nutrient exposure",
+                    "levels": [
+                        {
+                            "id": 5432,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "Rate 1",
+                            "amount": "399",
+                            "amount_unit_term": "kg/ha",
+                            "amount_unit_label": "kilogram per hectare",
+                            "start_year": 1995,
+                            "end_year": 1997,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": "annually",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 5433,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "Rate 2",
+                            "amount": "845",
+                            "amount_unit_term": "kg/ha",
+                            "amount_unit_label": "kilogram per hectare",
+                            "start_year": 1995,
+                            "end_year": 1997,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": "annually",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 5434,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "Rate 3",
+                            "amount": "1303",
+                            "amount_unit_term": "kg/ha",
+                            "amount_unit_label": "kilogram per hectare",
+                            "start_year": 1995,
+                            "end_year": 1997,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": "annually",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        }
+                    ],
+                    "factor_label": "zinc nutrient exposure",
+                    "description": null,
+                    "plot_application": "Whole plot",
+                    "effect": ""
+                },
+                {
+                    "id": 1653,
+                    "factor_term": "copper nutrient exposure",
+                    "levels": [
+                        {
+                            "id": 5435,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "Rate 1",
+                            "amount": "205",
+                            "amount_unit_term": "kg/ha",
+                            "amount_unit_label": "kilogram per hectare",
+                            "start_year": 1995,
+                            "end_year": 1997,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": "annually",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 5436,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "Rate 2",
+                            "amount": "424",
+                            "amount_unit_term": "kg/ha",
+                            "amount_unit_label": "kilogram per hectare",
+                            "start_year": 1995,
+                            "end_year": 1997,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": "annually",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 5437,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "Rate 3",
+                            "amount": "593",
+                            "amount_unit_term": "kg/ha",
+                            "amount_unit_label": "kilogram per hectare",
+                            "start_year": 1995,
+                            "end_year": 1997,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": "annually",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        }
+                    ],
+                    "factor_label": "copper nutrient exposure",
+                    "description": null,
+                    "plot_application": "Whole plot",
+                    "effect": ""
+                },
+                {
+                    "id": 1654,
+                    "factor_term": "cadmium exposure",
+                    "levels": [
+                        {
+                            "id": 5438,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "Rate 1",
+                            "amount": "6",
+                            "amount_unit_term": "kg/ha",
+                            "amount_unit_label": "kilogram per hectare",
+                            "start_year": 1995,
+                            "end_year": 1997,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": "annually",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 5439,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "Rate 2",
+                            "amount": "9.87",
+                            "amount_unit_term": "kg/ha",
+                            "amount_unit_label": "kilogram per hectare",
+                            "start_year": 1995,
+                            "end_year": 1997,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": "annually",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 5440,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "Rate 3",
+                            "amount": "13.01",
+                            "amount_unit_term": "kg/ha",
+                            "amount_unit_label": "kilogram per hectare",
+                            "start_year": 1995,
+                            "end_year": 1997,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": "annually",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        }
+                    ],
+                    "factor_label": "cadmium exposure",
+                    "description": null,
+                    "plot_application": "Whole plot",
+                    "effect": ""
+                }
+            ],
+            "factor_combinations": [],
+            "measurements": [],
+            "start_year": 1995,
+            "end_year": null,
+            "ongoing": false,
+            "name": null,
+            "design_type_label": "Randomized complete block design",
+            "number_of_blocks": 3,
+            "number_of_plots": 33,
+            "number_of_subplots": null,
+            "number_of_replicates": null,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": 1,
+            "design_description": "Each plot received only one of the three metal amendments for 3 years between 1995 and 1997. In addition to the 9 treated plots there were two untreated control plots.",
+            "description": "Plots measure 1.5 x 3.5m",
+            "factorial": false
+        }
+    ],
+    "data_statement_term": "Available to any researcher on request",
+    "data_license_term": "CC BY",
+    "site_type_term": "research station field",
+    "site_perimeter": [],
+    "site_soil_type_term": "arenosol",
+    "site_soil_properties": [],
+    "site_climatic_type_term": "temperate oceanic climate",
+    "site_climate_properties": [],
+    "literature": [
+        {
+            "doi": "https://doi.org/10.1016/j.soilbio.2008.01.026",
+            "title": "Chaudri, A. , McGrath, S. , Gibbs, P. , Chambers, B. , Carlton-Smith, C. , Bacon, J. , Campbell, C. and Aitken, M. (2008) \"Population size of indigenous Rhizobium leguminosarum biovar trifolii in long-term field experiments with sewage sludge cake, metal-amended liquid sludge or metal salts: Effects of zinc, copper and cadmium\", Soil Biology & Biochemistry, 40, 1670-1680",
+            "language": "English"
+        }
+    ],
+    "saved_time": "2019-10-02T19:41:41.738095Z",
+    "name": "Metal Salts Experiment",
+    "local_identifier": "W/CS/439",
+    "experiment_type_label": null,
+    "url": null,
+    "start_year": 1995,
+    "end_year": null,
+    "ongoing": false,
+    "establishment_period_end": null,
+    "objective": "To study the effects of zinc, copper and cadmium as metal salts on soil microbial activity",
+    "description": "Enables the comparison of metal concentrations (zinc, copper and cadmium) at 3 rates applied as metal salts and with no additional organic matter. \nPeriodic soil and plant samples are available in the Rothamsted Sample Archive. \nThis experiment is part of a network of 3 sites across the UK and can also be compared with related Contaminated Sludge Cake Experiment and Metal Amended Liquid Sludge Experiment, also at Woburn.",
+    "site_name": "Butt Close West",
+    "site_local_code": null,
+    "site_geonames_id": null,
+    "site_doi": null,
+    "site_type_label": "research station field",
+    "site_locality": "Husborne Crawley",
+    "site_region": "Hertfordshire",
+    "site_country": "United Kingdom",
+    "site_centroid_latitude": 52.01195,
+    "site_centroid_longitude": -0.597963,
+    "site_elevation": 96.0,
+    "site_elevation_unit": "Metres",
+    "site_slope": null,
+    "site_slope_aspect": null,
+    "site_visits_allowed": false,
+    "site_visiting_arrangements": null,
+    "site_history": null,
+    "site_management": "Cultivations were carried out annually to ensure that the metal salts were evenly incorporated in the top 0-25cm and to encourage organic matter breakdown of the sludge cakes. The soil pH was maintained at 6.5.",
+    "site_soil_type_label": "arenosol",
+    "site_soil_description": null,
+    "site_climatic_type_label": "temperate oceanic climate",
+    "site_climate_description": null,
+    "data_statement_label": "Available to any researcher on request",
+    "data_url": null,
+    "data_policy_status": "YesOffline",
+    "data_policy_url": null,
+    "data_license_label": "CC BY",
+    "data_contact": null,
+    "farm_operations_data": true,
+    "sample_archive": true,
+    "samples_available": true,
+    "data_access_statement": null
+}

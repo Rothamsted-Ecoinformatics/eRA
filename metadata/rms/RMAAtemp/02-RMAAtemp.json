@@ -26,9 +26,10 @@
         "type": "organization",
         "name": "The Electronic Rothamsted Archive, Rothamsted Research"
     },
-    "datePublished": null,
+    "publication_year": 2020,
     "dateCreated": "2020-02-12",
     "dateModified": null,
+    "datePublished": null,
     "inLanguage": "en",
     "version": "2",
     "keywords": [
@@ -189,7 +190,7 @@
             "relationTypeValue": "is new version of"
         },
         {
-            "relatedIdentifier": "doi.org/10.23637/rms-RMAAtempanomaly-1",
+            "relatedIdentifier": "10.23637/rms-RMAAtempanomaly-1",
             "relatedIdentifierType": "DOI",
             "name": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019",
             "relatedIdentifierGeneralType": "text",

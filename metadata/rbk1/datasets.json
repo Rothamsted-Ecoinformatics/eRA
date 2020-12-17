@@ -13,6 +13,7 @@
         "experiment_code": "R/BK/1",
         "grade": 3,
         "dstype": "OA",
+        "publication_year": 2017,
         "version": "01",
         "shortName": "OAWWYields",
         "UID": "01-OAWWYields"
@@ -31,6 +32,7 @@
         "experiment_code": "R/BK/1",
         "grade": 3,
         "dstype": "OA",
+        "publication_year": 2018,
         "version": "01",
         "shortName": "Nitro1843",
         "UID": "01-Nitro1843"
@@ -49,6 +51,7 @@
         "experiment_code": "R/BK/1",
         "grade": 2,
         "dstype": "Other",
+        "publication_year": 1999,
         "version": "01",
         "shortName": "YIELD844925",
         "UID": "01-YIELD844925"
@@ -67,27 +70,29 @@
         "experiment_code": "R/BK/1",
         "grade": 2,
         "dstype": "OA",
+        "publication_year": 2016,
         "version": "01",
         "shortName": "OAOlsenP1844",
         "UID": "01-OAOlsenP1844"
     },
     {
         "md_id": -2078416917,
-        "title": "<em>Cirsium arvense<em> frequency on Broadbalk Section 8 1991-2018",
+        "title": "<i>Cirsium arvense</i> frequency on Broadbalk Section 8 1991-2018",
         "URL": "http://www.era.rothamsted.ac.uk/Broadbalk/Cirsiumarvense1991-2018",
         "identifier": "10.23637/bbk-2078416917-01",
         "identifier_type": "DOI",
         "dataset_type": "Species observation data",
         "extension": "xlsx",
-        "description": "This dataset consists of the relative frequencies of <em>Cirsium arvense<em> (Creeping thistle) of the Family Asteraceae recorded on Section 8 plots of the Broadbalk Wheat Experiment, 1991-2018. Section 8 has not received any herbicides in its history.\r\n\r\nThe collective weed fauna, and frequency of each species such as <em>C. arvense<em>, differ in response to fertiliser treatments which vary with each plot (see Related Documents below).",
+        "description": "This dataset consists of the relative frequencies of <i>Cirsium arvense</i> (Creeping thistle) of the Family Asteraceae recorded on Section 8 plots of the Broadbalk Wheat Experiment, 1991-2018. Section 8 has not received any herbicides in its history.\r\n\r\nThe collective weed fauna, and frequency of each species such as <em>C. arvense<em>, differ in response to fertiliser treatments which vary with each plot (see Related Documents below).",
         "fieldname": "Broadbalk",
         "experiment_name": "Broadbalk",
         "experiment_code": "R/BK/1",
         "grade": 1,
         "dstype": "Other",
+        "publication_year": 2019,
         "version": "01",
-        "shortName": "Circum1991",
-        "UID": "01-Circum1991"
+        "shortName": "CIRSIUM1991",
+        "UID": "01-CIRSIUM1991"
     },
     {
         "md_id": -1004390306,
@@ -103,6 +108,7 @@
         "experiment_code": "R/BK/1",
         "grade": 1,
         "dstype": "Other",
+        "publication_year": 2018,
         "version": "01",
         "shortName": "FISHER1921",
         "UID": "01-FISHER1921"
@@ -121,6 +127,7 @@
         "experiment_code": "R/BK/1",
         "grade": 1,
         "dstype": "Other",
+        "publication_year": 2020,
         "version": "01",
         "shortName": "BKSOILS",
         "UID": "01-BKSOILS"

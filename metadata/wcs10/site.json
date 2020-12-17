@@ -30,7 +30,7 @@
     },
     "soilProperty": [
         {
-            "variableMeasured": null,
+            "variableMeasured": "coarse sand content (2-0.2mm)",
             "isEstimated": false,
             "isBaseline": false,
             "valueReference": 50.0,
@@ -45,7 +45,7 @@
             "description": "NOT IN GLTN"
         },
         {
-            "variableMeasured": null,
+            "variableMeasured": "fine sand content (0.2-0.02mm)",
             "isEstimated": false,
             "isBaseline": false,
             "valueReference": 27.0,
@@ -60,7 +60,7 @@
             "description": "NOT IN GLTN"
         },
         {
-            "variableMeasured": null,
+            "variableMeasured": "silt content (0.02-0.002mm)",
             "isEstimated": false,
             "isBaseline": false,
             "valueReference": 7.0,
@@ -75,7 +75,7 @@
             "description": "NOT IN GLTN"
         },
         {
-            "variableMeasured": null,
+            "variableMeasured": "clay content",
             "isEstimated": false,
             "isBaseline": false,
             "valueReference": 11.0,
@@ -120,7 +120,7 @@
             "description": "NOT IN GLTN"
         },
         {
-            "variableMeasured": null,
+            "variableMeasured": "soil weight",
             "isEstimated": false,
             "isBaseline": false,
             "valueReference": 3400.0,
@@ -135,7 +135,7 @@
             "description": "NOT IN GLTN"
         },
         {
-            "variableMeasured": null,
+            "variableMeasured": "soil pH",
             "isEstimated": false,
             "isBaseline": false,
             "valueReference": null,

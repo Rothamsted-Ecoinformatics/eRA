@@ -1,0 +1,40 @@
+[
+    {
+        "md_id": -998034807,
+        "title": "Rothamsted long-term liming experiment plans 1962-1996",
+        "URL": "http://www.era.rothamsted.ac.uk/metadata/rcs10/RothLTliming-Plans.pdf",
+        "identifier": "10.23637/rcs10-Plans",
+        "identifier_type": "DOI",
+        "dataset_type": "Field plot map",
+        "extension": "pdf",
+        "description": "Standard experimental plans for Rothamsted long-term liming experiment, 1962-1996 showing plot numbers, layout and lime and fertilizer treatments.",
+        "fieldname": "Sawyers I",
+        "experiment_name": "Rothamsted Long-term Liming",
+        "experiment_code": "R/CS/10",
+        "grade": 1,
+        "dstype": "OA",
+        "publication_year": 2020,
+        "version": "01",
+        "shortName": -998034807,
+        "UID": -998034807
+    },
+    {
+        "md_id": 247167962,
+        "title": "Rothamsted long-term liming experiments lime and fertilizer treatments 1962-1996",
+        "URL": "http://www.era.rothamsted.ac.uk/metadata/rcs10/RothLTliming-Treatments.pdf",
+        "identifier": "10.23637/rcs10-Treatments-01",
+        "identifier_type": "DOI",
+        "dataset_type": "Treatment details",
+        "extension": "pdf",
+        "description": "Details of the lime applications, fertilizer treatments and basal fertilizer applied to the Long-term Liming Experiment at Rothamsted 1962-1996.",
+        "fieldname": "Sawyers I",
+        "experiment_name": "Rothamsted Long-term Liming",
+        "experiment_code": "R/CS/10",
+        "grade": 1,
+        "dstype": "OA",
+        "publication_year": 2020,
+        "version": "01",
+        "shortName": 247167962,
+        "UID": 247167962
+    }
+]

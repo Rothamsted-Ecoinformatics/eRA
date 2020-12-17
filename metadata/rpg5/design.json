@@ -24,6 +24,7 @@
             {
                 "id": 6858,
                 "name": "grass",
+                "sameAs": "grass",
                 "dateStart": null,
                 "dateEnd": null
             }
@@ -35,7 +36,7 @@
                 "name": "nitrogen fertilizer exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "nitrogen fertilizer exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 11327,
@@ -114,7 +115,7 @@
                 "name": "natural fertilizer exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "natural fertilizer exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 11332,
@@ -151,7 +152,7 @@
                 "name": "superphosphate exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "superphosphate exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 11334,
@@ -174,7 +175,7 @@
                 "name": "potassium fertilizer exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "potassium fertilizer exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 11335,
@@ -197,7 +198,7 @@
                 "name": "sodium nutrient exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "sodium nutrient exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 11336,
@@ -220,7 +221,7 @@
                 "name": "magnesium nutrient exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "magnesium nutrient exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 11337,
@@ -267,6 +268,7 @@
             {
                 "id": 6859,
                 "name": "grass",
+                "sameAs": "grass",
                 "dateStart": null,
                 "dateEnd": null
             }
@@ -300,7 +302,8 @@
         "crops": [
             {
                 "id": 6860,
-                "name": null,
+                "name": "grass",
+                "sameAs": "grass",
                 "dateStart": null,
                 "dateEnd": null
             }

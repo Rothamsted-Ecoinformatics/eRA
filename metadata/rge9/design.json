@@ -24,24 +24,28 @@
             {
                 "id": 3738,
                 "name": "faba beans",
+                "sameAs": "field beans",
                 "dateStart": 1847,
                 "dateEnd": 1878
             },
             {
                 "id": 3739,
-                "name": null,
+                "name": "bare fallow",
+                "sameAs": "bare fallow",
                 "dateStart": 1879,
                 "dateEnd": 1883
             },
             {
                 "id": 3740,
                 "name": "clover",
+                "sameAs": "clover",
                 "dateStart": 1883,
                 "dateEnd": 1885
             },
             {
                 "id": 3741,
-                "name": null,
+                "name": "regeneration to woodland",
+                "sameAs": "regeneration to woodland",
                 "dateStart": 1886,
                 "dateEnd": null
             }
@@ -53,7 +57,7 @@
                 "name": "liming exposure",
                 "description": "Small amounts of chalk were applied in the 1840s-1880s, and the soil is now acidic (pH fell from 7.1 in 1883 to 4.4 in 1999).",
                 "effect": "",
-                "plotApplication": "liming exposure",
+                "plotApplication": "Whole plot",
                 "level": []
             }
         ],

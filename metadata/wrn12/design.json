@@ -24,48 +24,56 @@
             {
                 "id": 2951,
                 "name": "grass leys",
+                "sameAs": "grass leys",
                 "dateStart": 1966,
                 "dateEnd": 1972
             },
             {
                 "id": 2952,
                 "name": "grass clover leys",
+                "sameAs": "grass clover leys",
                 "dateStart": 1966,
                 "dateEnd": 1972
             },
             {
                 "id": 2953,
                 "name": "barley",
+                "sameAs": "barley",
                 "dateStart": 1966,
                 "dateEnd": null
             },
             {
                 "id": 2954,
                 "name": "potatoes",
+                "sameAs": "potatoes",
                 "dateStart": 1967,
                 "dateEnd": null
             },
             {
                 "id": 2955,
                 "name": "wheat",
+                "sameAs": "wheat",
                 "dateStart": 1968,
                 "dateEnd": null
             },
             {
                 "id": 2956,
                 "name": "sugarbeet",
+                "sameAs": "sugarbeet",
                 "dateStart": 1969,
                 "dateEnd": null
             },
             {
                 "id": 2957,
                 "name": "beans",
+                "sameAs": "beans",
                 "dateStart": 1970,
                 "dateEnd": null
             },
             {
                 "id": 2958,
                 "name": "rye",
+                "sameAs": "rye",
                 "dateStart": 1971,
                 "dateEnd": 1972
             }
@@ -77,7 +85,7 @@
                 "name": "natural fertilizer exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "natural fertilizer exposure",
+                "plotApplication": null,
                 "level": [
                     {
                         "id": 4150,
@@ -198,7 +206,7 @@
                 "name": "nitrogen fertilizer exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "nitrogen fertilizer exposure",
+                "plotApplication": "Sub plot",
                 "level": [
                     {
                         "id": 4158,
@@ -287,24 +295,28 @@
             {
                 "id": 2959,
                 "name": "potatoes",
+                "sameAs": "potatoes",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 2960,
                 "name": "winter wheat",
+                "sameAs": "winter wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 2961,
                 "name": "sugarbeet",
+                "sameAs": "sugarbeet",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 2962,
                 "name": "barley",
+                "sameAs": "barley",
                 "dateStart": null,
                 "dateEnd": null
             }
@@ -346,7 +358,7 @@
                 "name": "nitrogen fertilizer exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "nitrogen fertilizer exposure",
+                "plotApplication": "Sub plot",
                 "level": [
                     {
                         "id": 4162,
@@ -491,36 +503,42 @@
             {
                 "id": 2963,
                 "name": "beans",
+                "sameAs": "beans",
                 "dateStart": 1981,
                 "dateEnd": 1982
             },
             {
                 "id": 2964,
                 "name": "grass clover leys",
+                "sameAs": "grass clover leys",
                 "dateStart": 1981,
                 "dateEnd": 1986
             },
             {
                 "id": 2965,
                 "name": "winter wheat",
+                "sameAs": "winter wheat",
                 "dateStart": 1982,
                 "dateEnd": 1983
             },
             {
                 "id": 2966,
                 "name": "sugarbeet",
+                "sameAs": "sugarbeet",
                 "dateStart": 1983,
                 "dateEnd": 1984
             },
             {
                 "id": 2967,
-                "name": null,
+                "name": "oats",
+                "sameAs": "oats",
                 "dateStart": 1984,
                 "dateEnd": 1986
             },
             {
                 "id": 2968,
-                "name": null,
+                "name": "rye",
+                "sameAs": "rye",
                 "dateStart": 1985,
                 "dateEnd": 1986
             }
@@ -532,7 +550,7 @@
                 "name": "natural fertilizer exposure",
                 "description": "Applied to arable crops, cumulative to the same treatments in the preliminary period",
                 "effect": "",
-                "plotApplication": "natural fertilizer exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 4170,
@@ -621,30 +639,35 @@
             {
                 "id": 2969,
                 "name": "wheat",
+                "sameAs": "wheat",
                 "dateStart": 1987,
                 "dateEnd": 2002
             },
             {
                 "id": 2970,
                 "name": "oats",
+                "sameAs": "oats",
                 "dateStart": 1987,
                 "dateEnd": 1987
             },
             {
                 "id": 2971,
                 "name": "potatoes",
+                "sameAs": "potatoes",
                 "dateStart": 1988,
                 "dateEnd": 1989
             },
             {
                 "id": 2972,
                 "name": "beans",
+                "sameAs": "beans",
                 "dateStart": 1990,
                 "dateEnd": 1991
             },
             {
                 "id": 2973,
                 "name": "rye",
+                "sameAs": "rye",
                 "dateStart": 1997,
                 "dateEnd": 1997
             }
@@ -656,7 +679,7 @@
                 "name": "natural fertilizer exposure",
                 "description": null,
                 "effect": "Residual",
-                "plotApplication": "natural fertilizer exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 4174,
@@ -777,7 +800,7 @@
                 "name": "nitrogen fertilizer exposure",
                 "description": "No N applied in 1992",
                 "effect": "Direct",
-                "plotApplication": "nitrogen fertilizer exposure",
+                "plotApplication": "Sub plot",
                 "level": [
                     {
                         "id": 4182,
@@ -894,36 +917,42 @@
             {
                 "id": 2974,
                 "name": "rye",
+                "sameAs": "rye",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 2975,
                 "name": "barley",
+                "sameAs": "barley",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 2976,
                 "name": "beans",
+                "sameAs": "beans",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 2977,
                 "name": "winter wheat",
+                "sameAs": "winter wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 2978,
                 "name": "maize",
+                "sameAs": "maize",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 2979,
                 "name": "grass clover leys",
+                "sameAs": "grass clover leys",
                 "dateStart": null,
                 "dateEnd": null
             }
@@ -970,7 +999,7 @@
                 "name": "natural fertilizer exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "natural fertilizer exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 4188,
@@ -1077,7 +1106,7 @@
                 "name": "nitrogen fertilizer exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "nitrogen fertilizer exposure",
+                "plotApplication": "Sub plot",
                 "level": [
                     {
                         "id": 4195,

@@ -100,12 +100,12 @@ function getContent($period)
         $content .= "\n<h3 class=\"mx-3 \">Crops</h3>";
 
         $content .= "\n<div class=\"table-responsive-sm bg-white mx-3 rounded p-3 mb-3\">";
-        $content .= "\n\n<table class = \"table  table-responsive-sxm table-sm  table-bordered table-hover\">";
+        $content .= "\n\n<table class = \"table  table-responsive-sxm table-sm  table-bordered table-hover  table-condensed\">";
         $content .= "\n<thead class=\"thead-light\">\n\t<tr>\n\t\t<th scope=\"col\">Crop</th>\n\t\t<th scope=\"col\">Planted</th>\n\t</tr>\n</thead>\n<tbody>";
         foreach ($period['crops'] as $crop) {
             $id = $crop['id'];
             $arrCrop[$id] = $crop['name'];
-            $content .= "\n\t<tr><td>" . title_case($crop['name'] ). "</td><td>";
+            $content .= "\n\t<tr><td class=\"pr-4 \"><small>" . title_case($crop['name']) . "</td><td class=\"pr-4 \"><small>";
             if ($crop['dateStart']) {
 
                 $content .= $crop['dateStart'];
@@ -123,22 +123,26 @@ function getContent($period)
     if (is_array($period['cropRotations'])) {
         $info = "\n<div class=\"row equal m-3\">";
         $content .= "\n<h3 class=\"mx-3\">Crop Rotations</h3>";
-        $content .= "\n<div class=\" bg-white mx-3 rounded  p-3 mb-3\">";
+        $content .= "\n<div class=\"table-responsive-sm bg-white mx-3 rounded p-3 mb-3\">";
+        $content .= "\n\n<table class = \"table  table-responsive-sxm table-sm  table-bordered table-hover  table-condensed\">";
+        $content .= "\n<thead class=\"thead-light\">\n\t<tr>\n\t\t<th scope=\"col\">Rotation</th>\n\t\t<th scope=\"col\">Crops</th>\n\t</tr>\n</thead>\n<tbody>";
+
         foreach ($period['cropRotations'] as $rotation) {
 
-            $info .= "\n    \t<div class=\"col-sm-4 py-2\">";
-            $info .= "\n    \t     \t <ul class=\"list-group border rounded\">";
-            $info .= "\n    \t      \t      \t<li class=\"list-group-item bg-light border-bottom\">" . $rotation['name'] . " <i>(" . $rotation['dateStart'] . " - " . $rotation['dateEnd'] . ")</i> " . "</li>";
+            $info .= "\n    \t<tr>";
+            $info .= "\n    \t     \t <td class=\"pr-4 \"><small>" . $rotation['name'] . " <i>(" . $rotation['dateStart'] . " - " . $rotation['dateEnd'] . ")</i> " . "</td><td class=\"pr-4 \"><small>";
+            $comma = " ";
             foreach ($rotation['rotationPhases'] as $crop) {
 
-                $info .= "\n    \t      \t      \t <li class=\"list-group-item\">" . title_case($arrCrop[$crop['crop']]) . "</li>";
+                $info .= $comma . title_case($arrCrop[$crop['crop']]);
+                $comma = " >  ";
             }
-            $info .= "\n    \t      \t </ul>";
-            $info .= "\n    \t</div>";
+            $info .= " </td>";
+            $info .= "\n    \t</tr>";
         }
 
-        $info .= "\n</div>";
-        $info .= "\n</div>";
+        $info .= "\n</tbody>";
+        $info .= "\n</table></div>";
         $content .= $info;
     }
     if (is_array($period['factor'])) {
@@ -147,7 +151,7 @@ function getContent($period)
         $info = "";
         $info .= "\n<h3 class=\"mx-3\">Factors</h3>";
         $info .= "\n<div class=\" bg-white mx-3 rounded  p-3 mb-3\">";
-        
+
         $info .= "<p class=\"mx-3\">Factors are the interventions or treatments which vary across the experiment.</p>";
         foreach ($period['factor'] as $factor) {
             $arrFactors[$factor['id']] = $factor['name'];
@@ -158,77 +162,129 @@ function getContent($period)
             if ($factor['plotApplication']) {
                 $info .= "<p class=\"ml-5\"><b>Application:</b> " . title_case($factor['plotApplication']) . "</p>";
             }
-            
-            
+
             if (is_array($factor['level'])) {
                 $info .= "\n<h5 class=\"mx-5\">Levels</h5>";
-                $info .= "\n<div class=\"row equal m-3\">";
-                
+
+                $info .= "\n<div class=\"table-responsive-sm mx-5 \"><table class = \"table  table-responsive-sm table-sm table-bordered table-hover  table-condensed\"><thead  class=\"thead-light\"><tr>";
+                $info .= "\n<th scope=\"col\">Level Name</th>";
+                $info .= "\n<th scope=\"col\">Amount</th>";
+
+                $info .= "\n<th scope=\"col\">Years</th>";
+                $hasFrequency = 0;
+                $hasMethod = 0;
+                $hasChem = 0;
+                $hasCrop = 0;
+
                 foreach ($factor['level'] as $level) {
-                    $arrLevels[$level['id']] = $level['name'];
-                    $info .= "\n    \t<div class=\"col-sm-4 py-2\">";
-                    $info .= "\n    \t     \t <ul class=\"list-group border rounded\">";
-                    $info .= "\n    \t      \t      \t<li class=\"list-group-item bg-light border-bottom\"><b>";
-                    $info .= title_case($level['name']) . " </b></li>";
-                    $info .= "\n    \t      \t      \t <li class=\"list-group-item\"><b>Amount: </b>".$level['amount']. " ".$level['unitCode']."</li>";       
-                    $info .= "\n    \t      \t      \t <li class=\"list-group-item\"><b>Years: </b>".$level['dateStart'];
-                    if ($level['dateEnd']) {
-                        $info .= " - ".$level['dateEnd'];
-                    }
-                    $info .= "</li>";
                     if ($level['frequency']) {
-                    $info .= "\n    \t      \t      \t <li class=\"list-group-item\"><b>Frequency: </b>". $level['frequency']."</li>";
+                        $hasFrequency = 1;
                     }
                     if ($level['appliedToCrop']) {
-                    $info .= "\n    \t      \t      \t <li class=\"list-group-item\"><b>Applied to Crop: </b>". $arrCrop[$level['appliedToCrop']]."</li>";
-                    
+                        $hasCrop = 1;
                     }
                     if ($level['method']) {
-                    $info .= "\n    \t      \t      \t <li class=\"list-group-item\"><b>Method: </b>". $level['method']."</li>";
+                        $hasMethod = 1;
                     }
                     if ($level['chemicalForm']) {
-                    $info .= "\n    \t      \t      \t <li class=\"list-group-item\"><b>Chemical Form: </b>". $level['chemicalForm']."</li>";
+                        $hasChem = 1;
                     }
-                    if ($level['notes']) {
-                    $info .= "\n    \t      \t      \t <li class=\"list-group-item\"><i> ". $level['notes']."</i></li>";
-                    }
-                    
-                    $info .= "\n    \t      \t </ul>";
-                    $info .= "\n    \t</div>";
                 }
-                $info .= "\n    \t</div>";
+                if ($hasFrequency == 1) {
+                    $info .= "\n<th scope=\"col\">Frequency</th>";
+                }
+                if ($hasCrop == 1) {
+                    $info .= "\n<th scope=\"col\">Crop</th>";
+                }
+                if ($hasMethod == 1) {
+                    $info .= "\n<th scope=\"col\">Method</th>";
+                }
+                if ($hasChem == 1) {
+                    $info .= "\n<th scope=\"col\">Chemical Form</th>";
+                }
+                $info .= "\n<th scope=\"col\">Notes</th>";
+
+                $info .= "\n</tr></thead>\n<tbody>";
+                foreach ($factor['level'] as $level) {
+                    $arrLevels[$level['id']] = $level['name'];
+                    $info .= "\n    \t<tr>";
+
+                    $info .= "\n    \t<td class=\"pr-4 \"><small><b>" . title_case($level['name']) . " </b></td>";
+                    $info .= "\n    \t      \t      \t <td class=\"pr-4 \"><small>" . $level['amount'] . " " . $level['unitCode'] . "</td>";
+                    $info .= "\n    \t      \t      \t <td class=\"pr-4 \"><small>" . $level['dateStart'];
+
+                    if ($level['dateEnd']) {
+                        $info .= " - " . $level['dateEnd'];
+                    }
+                    $info .= "</td>";
+                    if ($hasFrequency == 1) {
+                        if ($level['frequency']) {
+                            $frequency = $level['frequency'];
+                        } else {
+                            $frequency = "";
+                        }
+
+                        $info .= "\n    \t      \t      \t <td class=\"pr-4 \"><small>" . $frequency . "</td>";
+                    }
+                    $appliedToCrop = "";
+                    if ($hasCrop == 1) {
+                        if ($level['appliedToCrop']) {
+                            $appliedToCrop = $arrCrop[$level['appliedToCrop']];
+                        }
+                        $info .= "\n    \t      \t      \t <td class=\"pr-4 \"><small>" . $appliedToCrop . "</td>";
+                    }
+                    $method = "";
+                    if ($hasMethod == 1) {
+                        if ($level['method']) {
+                            $method = $level['method'];
+                        }
+                        $info .= "\n    \t      \t      \t<td class=\"pr-4 \"><small>" . $method . "</td>";
+                    }
+                    $chemicalForm = "";
+                    if ($hasMethod == 1) {
+                        if ($level['chemicalForm']) {
+                            $chemicalForm = $level['chemicalForm'];
+                        }
+                        $info .= "\n    \t      \t      \t <td class=\"pr-4 \"><small>" . $chemicalForm . "</td>";
+                    }
+                    $notes = "";
+                    if ($level['notes']) {
+                        $notes = $level['notes'];
+                    }
+                    $info .= "\n    \t      \t      \t <td class=\"pr-4 \"><small><i> " . $notes . "</i></td>";
+
+                    $info .= "\n    \t      \t </tr>";
+                }
+                $info .= "\n    \t</tbody></table></div>";
             }
         }
-        $info .= "\n    \t</div>";
 
+        $info .= "\n    \t</div>";
         $content .= $info;
     }
 
-    
-    if (is_array($period['factorCombinations'])){
+    if (is_array($period['factorCombinations'])) {
         $info = "";
         $info .= "\n<h3 class=\"mx-3\">Factor Combinations</h3>";
         $info .= "\n<div class=\" bg-white mx-3 rounded  p-3 mb-3\">";
         $info .= "<p>Factor Combinations are the combination of factors applied to different plots on the experiment.</p>";
-        
-       
-        
-        $info .= "\n<div class=\"table-responsive-sm \"><table class = \"table  table-responsive-sm table-sm table-bordered table-hover\"><thead  class=\"thead-light\"><tr>";
+
+        $info .= "\n<div class=\"table-responsive-sm \"><table class = \"table  table-responsive-sm table-sm table-bordered table-hover  table-condensed\"><thead  class=\"thead-light\"><tr>";
         $info .= "\n<th scope=\"col\">Factor Combination</th>";
         $info .= "\n<th scope=\"col\">Time Coverage</th>";
         $info .= "\n<th scope=\"col\">Notes</th>";
         $info .= "\n</tr></thead>\n<tbody>";
-        
-        foreach ($period['factorCombinations']  as $fr) {
+
+        foreach ($period['factorCombinations'] as $fr) {
             $info .= "\n<tr>";
-            $info .= "\n<td><b>" . $fr['name']  . "</b></td>";
-            $info .= "\n<td>" . $fr['dateStart'];
+            $info .= "\n<td class=\"pr-4 \"><small><b>" . $fr['name'] . "</b></td>";
+            $info .= "\n<td class=\"pr-4 \"><small>" . $fr['dateStart'];
             if ($fr['dateEnd']) {
-                $info .= " - ".$fr['dateEnd'];
+                $info .= " - " . $fr['dateEnd'];
             }
-            
+
             $info .= "</td>";
-            $info .= "\n<td><i>".$fr['description']."</i></td>";
+            $info .= "\n<td class=\"pr-4 \"><small><i>" . $fr['description'] . "</i></td>";
             $info .= "</tr>";
         }
         $info .= "\n    \t</table></div>";
@@ -246,7 +302,7 @@ function getContent($period)
         $content .= "\n  \t     \t   \t   \t   <th scope=\"col\">Variable</th>";
         $content .= "\n  \t     \t   \t   \t   <th scope=\"col\">Unit</th>";
         $content .= "\n  \t     \t   \t   \t   <th scope=\"col\">Collection <br />Frequency</th>";
-      
+
         $content .= "\n  \t     \t   \t   \t   <th scope=\"col\">Material</th>";
         $content .= "\n  \t     \t   \t   \t   <th scope=\"col\"  class=\" w-25\">Description</th>";
         $content .= "\n  \t     \t   \t   \t   <th scope=\"col\">Crop</th>";
@@ -263,7 +319,7 @@ function getContent($period)
             $content .= "\n<td class=\"pr-4 \"><small>" . $measurement['unitCode'] . "</small></td>";
             $content .= "\n<td class=\"pr-4 \"><small>" . $measurement['collectionFrequency'] . "</small></td>";
             $content .= "\n<td class=\"pr-4 \"><small>" . $measurement['material'] . "</small></td>";
-            #$content .= "\n<td>" . $measurement['scale'] . "</td>";
+            # $content .= "\n<td class=\"pr-4 \"><small>" . $measurement['scale'] . "</td>";
             $content .= "\n<td class=\"pr-4 w-25\"><small>" . $measurement['description'] . "</small></td>";
             $content .= "\n<td class=\"pr-4 \"><small>" . $vcrop . "</small></td>";
 
@@ -275,12 +331,13 @@ function getContent($period)
     }
     return $content;
 }
+
 $strTab = "<div class=\"row\">";
-$strTab .= "\n<div class=\"col-12\">";
-$strTab .= "\n\t<h3 class=\"mx-3\">Experimental Design</h3>";
-$strTab .= "\n</div>";
-$strTab .= "\n" . "<div class=\"col-12 mx-auto\"> ";
-$strTab .= "\n\t<div class=\"mt-3 mx-3\" id=\"accordionDesign\"> \n";
+$strTab .= "\n\t  <div class=\"col-12\">";
+$strTab .= "\n\t \t   <h3 class=\"mx-3\">Experimental Design</h3>";
+$strTab .= "\n\t  </div>";
+$strTab .= "\n \t <div class=\"col-12 mx-auto\"> ";
+$strTab .= "\n \t\t    <div class=\"mt-3 mx-3\" id=\"accordionDesign\"> \n";
 $i = 0;
 foreach ($design as $period) {
 
@@ -304,7 +361,7 @@ foreach ($design as $period) {
     }
     if ($period['design']['dateEnd']) {
         $Title .= " - " . $period['design']['dateEnd'];
-    } 
+    }
     $strTab .= "\n\t<div class=\"card  bg-light\">";
     $strTab .= "\n\t\t<div class=\"card-header \" id=\"heading" . $tabID . "\">";
 
@@ -319,9 +376,9 @@ foreach ($design as $period) {
     $strTab .= "\n\t</div>";
     $strTab .= "\n\t</div>";
 }
-$strTab .= "\n\t\t\t</div>";
 $strTab .= "\n\t\t</div>";
 $strTab .= "\n\t</div>";
+$strTab .= "\n</div>";
 
 echo $strTab;
 ?>

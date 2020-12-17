@@ -24,54 +24,63 @@
             {
                 "id": 7074,
                 "name": "turnips",
+                "sameAs": "turnips",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 7075,
                 "name": "red clover",
+                "sameAs": "red clover",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 7076,
                 "name": "beans",
+                "sameAs": "beans",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 7077,
                 "name": "barley",
+                "sameAs": "barley",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 7078,
                 "name": "wheat",
+                "sameAs": "wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 7079,
                 "name": "fallow",
+                "sameAs": "fallow",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 7080,
                 "name": "root vegetables",
+                "sameAs": "root vegetables",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 7081,
                 "name": "swedes",
+                "sameAs": "swedes",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 7082,
                 "name": "feed legumes",
+                "sameAs": "feed legumes",
                 "dateStart": null,
                 "dateEnd": null
             }
@@ -142,7 +151,7 @@
                 "name": "fertilizer exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "fertilizer exposure",
+                "plotApplication": null,
                 "level": [
                     {
                         "id": 11709,
@@ -388,55 +397,64 @@
         "crops": [
             {
                 "id": 7083,
-                "name": null,
+                "name": "Spring barley",
+                "sameAs": "Spring barley",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 7084,
                 "name": "spring wheat",
+                "sameAs": "spring wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 7085,
-                "name": null,
+                "name": "winter field beans, (Vicia faba)",
+                "sameAs": "winter field beans, (Vicia faba)",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 7086,
                 "name": "grass",
+                "sameAs": "grass",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 7087,
                 "name": "fallow",
+                "sameAs": "fallow",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 7088,
-                "name": null,
+                "name": "sugar beet",
+                "sameAs": "sugar beet",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 7089,
                 "name": "potatoes",
+                "sameAs": "potatoes",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 7090,
                 "name": "oats",
+                "sameAs": "oats",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 7091,
                 "name": "winter wheat",
+                "sameAs": "winter wheat",
                 "dateStart": null,
                 "dateEnd": null
             }
@@ -473,7 +491,7 @@
                 "name": "phosphate fertilizer exposure",
                 "description": "Effects of different amounts of soil P were tested",
                 "effect": "",
-                "plotApplication": "phosphate fertilizer exposure",
+                "plotApplication": null,
                 "level": []
             },
             {
@@ -481,7 +499,7 @@
                 "name": "potassium fertilizer exposure",
                 "description": "Effects of different amounts of soil K were tested",
                 "effect": "",
-                "plotApplication": "potassium fertilizer exposure",
+                "plotApplication": null,
                 "level": []
             }
         ],

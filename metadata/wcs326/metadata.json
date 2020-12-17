@@ -1,0 +1,251 @@
+{
+    "id": 816,
+    "experiment_type_term": null,
+    "experiment_id": 49,
+    "people": [
+        {
+            "id": 968,
+            "contacts": [
+                {
+                    "contact_type": "Email",
+                    "value": "res.e-ra@rothamsted.ac.uk"
+                }
+            ],
+            "role_term": "data manager",
+            "title": "Dr",
+            "name": "Margaret Glendining",
+            "affiliation": "Rothamsted Research",
+            "department": "Computational and Analytical Sciences",
+            "orcid": "https://orcid.org/0000-0002-6466-4629",
+            "is_contact": true,
+            "role_label": "data manager"
+        }
+    ],
+    "organizations": [
+        {
+            "id": 751,
+            "contacts": [
+                {
+                    "contact_type": "URL",
+                    "value": "http://www.rothamsted.ac.uk"
+                }
+            ],
+            "role_term": "research organisation",
+            "name": "Rothamsted Research",
+            "name_uri": null,
+            "abbreviation": null,
+            "role_label": "research organisation"
+        },
+        {
+            "id": 752,
+            "contacts": [],
+            "role_term": "experimental research station",
+            "name": "Woburn Experimental Farm",
+            "name_uri": null,
+            "abbreviation": null,
+            "role_label": "experimental research station"
+        }
+    ],
+    "periods": [
+        {
+            "id": 1077,
+            "design_type_term": "Randomized complete block design",
+            "crops": [
+                {
+                    "id": 2217,
+                    "crop_term": "wheat",
+                    "crop_label": "wheat",
+                    "start_year": null,
+                    "end_year": null
+                }
+            ],
+            "rotations": [],
+            "factors": [
+                {
+                    "id": 1085,
+                    "factor_term": "crop residue management exposure",
+                    "levels": [
+                        {
+                            "id": 2958,
+                            "factor_variant_term": "control exposure",
+                            "factor_variant_label": "control exposure",
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null,
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": "All crop residues were removed.",
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 2959,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "normal",
+                            "amount": "5",
+                            "amount_unit_term": "t/ha",
+                            "amount_unit_label": "tonnes per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 2960,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "2 x normal",
+                            "amount": "20",
+                            "amount_unit_term": "t/ha",
+                            "amount_unit_label": "tonnes per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 2961,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "4 x normal",
+                            "amount": "20",
+                            "amount_unit_term": "t/ha",
+                            "amount_unit_label": "tonnes per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        }
+                    ],
+                    "factor_label": "crop residue management exposure",
+                    "description": "Chopped wheat straw applied annually before sowing.",
+                    "plot_application": "Whole plot",
+                    "effect": ""
+                }
+            ],
+            "factor_combinations": [],
+            "measurements": [
+                {
+                    "material": "SpecifiedCrop",
+                    "crop_id": 2217,
+                    "comment": null,
+                    "collection_frequency": "annually",
+                    "variable_label": "grain yield trait",
+                    "variable_term": "grain yield trait",
+                    "unit_label": "tonnes per hectare",
+                    "unit_term": "t/ha",
+                    "scale": "plot"
+                },
+                {
+                    "material": "SpecifiedCrop",
+                    "crop_id": 2217,
+                    "comment": null,
+                    "collection_frequency": "annually",
+                    "variable_label": "forage yield",
+                    "variable_term": "forage yield",
+                    "unit_label": "tonnes per hectare",
+                    "unit_term": "t/ha",
+                    "scale": "plot"
+                }
+            ],
+            "start_year": 1987,
+            "end_year": 2017,
+            "ongoing": false,
+            "name": null,
+            "design_type_label": "Randomized complete block design",
+            "number_of_blocks": 3,
+            "number_of_plots": 12,
+            "number_of_subplots": null,
+            "number_of_replicates": 3,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": 1,
+            "design_description": "Wheat straw was incorporated annually at a rate of none, once, twice, and four times the yield of straw the previous year (approximately 0, 5, 10 and 20 t/ha)",
+            "description": "Plots were 3m x 14.5m. Soil was sampled from all treatments after 7, 11 and 22 years of contrasting straw treatments",
+            "factorial": false
+        }
+    ],
+    "data_statement_term": "Available to any researcher on request",
+    "data_license_term": "CC BY",
+    "site_type_term": "research farm",
+    "site_perimeter": [],
+    "site_soil_type_term": "cambisol",
+    "site_soil_properties": [],
+    "site_climatic_type_term": "temperate oceanic climate",
+    "site_climate_properties": [],
+    "literature": [
+        {
+            "doi": "https://doi.org/10.1016/j.apsoil.2016.12.006",
+            "title": "Sizmur, T. , Martin, E. , Wagner, K. , Parmentier, E. , Watts, C. and Whitmore, A. P. (2017) \"Milled cereal straw accelerates earthworm (Lumbricus terrestris) growth more than selected organic amendments\", Applied Soil Ecology, 113, 166-177",
+            "language": "English"
+        },
+        {
+            "doi": "https://doi.org/10.1017/S0021859600008558",
+            "title": "Jenkyn, J. F. , Christian, D. G. , Bacon, E. T. G. , Gutteridge, R. J. and Todd, A. D. (2001) \"Effects of incorporating different amounts of straw on growth, diseases and yield of consecutive crops of winter wheat grown on contrasting soil types\", Journal of Agricultural Science, 136, 1-14",
+            "language": "English"
+        }
+    ],
+    "saved_time": "2019-09-27T16:50:17.211194Z",
+    "name": "Woburn Amounts of Straw",
+    "local_identifier": "W/CS/326",
+    "experiment_type_label": null,
+    "url": null,
+    "start_year": 1987,
+    "end_year": 2017,
+    "ongoing": false,
+    "establishment_period_end": null,
+    "objective": "To study the effects of a range of amounts of straw incorporated into the soil on winter wheat",
+    "description": "This experiment, along with the Rothamsted Amounts of Straw experiment provides a comparison of soil organic matter dynamics in contrasting soil types, at Rothamsted (a silty clay loam) and at Woburn (a sandy loam). The experiments have been used to study soil structure and earthworm activity. \nThe experiment was discontinued after the 2017 harvest. No yields were recorded in 2016 and 2017.",
+    "site_name": "Far Field I",
+    "site_local_code": null,
+    "site_geonames_id": null,
+    "site_doi": null,
+    "site_type_label": "research farm",
+    "site_locality": "Husborne Crawley",
+    "site_region": "Bedfordshire",
+    "site_country": "United Kingdom",
+    "site_centroid_latitude": 52.008415,
+    "site_centroid_longitude": -0.619397,
+    "site_elevation": 102.0,
+    "site_elevation_unit": "Metres",
+    "site_slope": null,
+    "site_slope_aspect": null,
+    "site_visits_allowed": false,
+    "site_visiting_arrangements": null,
+    "site_history": "Winter wheat was grown for the 3 years prior to the experiment starting",
+    "site_management": "Site followed standard farm management practice for cultivation and pest control.",
+    "site_soil_type_label": "cambisol",
+    "site_soil_description": "Well drained sandy loam soil of the Lowlands Series.",
+    "site_climatic_type_label": "temperate oceanic climate",
+    "site_climate_description": null,
+    "data_statement_label": "Available to any researcher on request",
+    "data_url": null,
+    "data_policy_status": "YesOffline",
+    "data_policy_url": null,
+    "data_license_label": "CC BY",
+    "data_contact": null,
+    "farm_operations_data": true,
+    "sample_archive": false,
+    "samples_available": false,
+    "data_access_statement": null
+}

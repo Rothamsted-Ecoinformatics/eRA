@@ -30,7 +30,7 @@
     },
     "soilProperty": [
         {
-            "variableMeasured": null,
+            "variableMeasured": "Coarse sand content (2-0.2 mm)",
             "isEstimated": false,
             "isBaseline": false,
             "valueReference": 14.0,
@@ -45,7 +45,7 @@
             "description": "NOT IN GLTN"
         },
         {
-            "variableMeasured": null,
+            "variableMeasured": "Fine sand content (0.2- 0.02 mm)",
             "isEstimated": false,
             "isBaseline": false,
             "valueReference": 40.0,
@@ -60,7 +60,7 @@
             "description": "NOT IN GLTN"
         },
         {
-            "variableMeasured": null,
+            "variableMeasured": "Silt content (0.02-0.002 mm)",
             "isEstimated": false,
             "isBaseline": false,
             "valueReference": 23.0,
@@ -75,7 +75,7 @@
             "description": "NOT IN GLTN"
         },
         {
-            "variableMeasured": null,
+            "variableMeasured": "clay content < 2 \u00b5m",
             "isEstimated": false,
             "isBaseline": false,
             "valueReference": 21.0,
@@ -137,15 +137,15 @@
         {
             "variableMeasured": "soil pH",
             "isEstimated": false,
-            "isBaseline": false,
-            "valueReference": null,
-            "minValue": 4.91,
-            "maxValue": 7.59,
+            "isBaseline": true,
+            "valueReference": 5.1,
+            "minValue": 4.8,
+            "maxValue": 5.6,
             "minSampleDepth": 0.0,
             "maxSampleDepth": 23.0,
             "unitCode": null,
             "unitText": "pH",
-            "refYear": 1967,
+            "refYear": 1962,
             "measurementTechnique": "NOT IN GLTN",
             "description": "NOT IN GLTN"
         }

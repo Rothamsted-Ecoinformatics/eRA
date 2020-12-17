@@ -41,9 +41,10 @@
         "type": "organization",
         "name": "The Electronic Rothamsted Archive, Rothamsted Research"
     },
-    "datePublished": null,
+    "publication_year": 2020,
     "dateCreated": "2020-03-11",
     "dateModified": null,
+    "datePublished": null,
     "inLanguage": "en",
     "version": "01",
     "keywords": [
@@ -247,7 +248,17 @@
         },
         "name": "Rothamsted Met Station"
     },
-    "relatedIdentifier": [],
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/wcs10-wltlyields-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Woburn Long-term Liming Yields",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "Describes",
+            "rt_id": 8,
+            "relationTypeValue": "describes"
+        }
+    ],
     "funder": [
         {
             "type": "organization",

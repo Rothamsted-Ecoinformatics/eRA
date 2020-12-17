@@ -1,0 +1,286 @@
+{
+    "id": 1145,
+    "experiment_type_term": null,
+    "experiment_id": 72,
+    "people": [],
+    "organizations": [
+        {
+            "id": 1135,
+            "contacts": [
+                {
+                    "contact_type": "URL",
+                    "value": "http://www.rothamsted.ac.uk"
+                }
+            ],
+            "role_term": "research organisation",
+            "name": "Rothamsted Research",
+            "name_uri": null,
+            "abbreviation": null,
+            "role_label": "research organisation"
+        },
+        {
+            "id": 1136,
+            "contacts": [],
+            "role_term": "research organisation",
+            "name": "Environmental change Network",
+            "name_uri": null,
+            "abbreviation": "ECN",
+            "role_label": "research organisation"
+        }
+    ],
+    "periods": [
+        {
+            "id": 1651,
+            "design_type_term": null,
+            "crops": [
+                {
+                    "id": 3738,
+                    "crop_term": "faba beans",
+                    "crop_label": "field beans",
+                    "start_year": 1847,
+                    "end_year": 1878
+                },
+                {
+                    "id": 3739,
+                    "crop_term": null,
+                    "crop_label": "bare fallow",
+                    "start_year": 1879,
+                    "end_year": 1883
+                },
+                {
+                    "id": 3740,
+                    "crop_term": "clover",
+                    "crop_label": "clover",
+                    "start_year": 1883,
+                    "end_year": 1885
+                },
+                {
+                    "id": 3741,
+                    "crop_term": null,
+                    "crop_label": "regeneration to woodland",
+                    "start_year": 1886,
+                    "end_year": null
+                }
+            ],
+            "rotations": [],
+            "factors": [
+                {
+                    "id": 1759,
+                    "factor_term": "liming exposure",
+                    "levels": [],
+                    "factor_label": "liming exposure",
+                    "description": "Small amounts of chalk were applied in the 1840s-1880s, and the soil is now acidic (pH fell from 7.1 in 1883 to 4.4 in 1999).",
+                    "plot_application": "Whole plot",
+                    "effect": ""
+                }
+            ],
+            "factor_combinations": [],
+            "measurements": [
+                {
+                    "material": "Soil",
+                    "crop_id": null,
+                    "comment": "Sample data for 1883, 1904, 1965, 1999 (comprising 8, 2, 4, 8 separate samples respectively). Other physical samples available in sample archive (1963, 1964, 1969, 1990, 1991, 1992)",
+                    "collection_frequency": "infrequent",
+                    "variable_label": "soil organic carbon",
+                    "variable_term": "soil organic carbon",
+                    "unit_label": "tonnes per hectare",
+                    "unit_term": "t/ha",
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "Sample data = organic carbon from  1883, 1904, 1965, 1999 for trees/shrubs, litter and roots.",
+                    "collection_frequency": "infrequent",
+                    "variable_label": "plant biomass",
+                    "variable_term": "plant biomass",
+                    "unit_label": "tonnes per hectare",
+                    "unit_term": "t/ha",
+                    "scale": null
+                }
+            ],
+            "start_year": 1847,
+            "end_year": null,
+            "ongoing": true,
+            "name": "Whole period",
+            "design_type_label": null,
+            "number_of_blocks": null,
+            "number_of_plots": null,
+            "number_of_subplots": null,
+            "number_of_replicates": null,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": null,
+            "design_description": null,
+            "description": "This acidic site, Geescroft Wilderness, is now a deciduous wood dominated by oak (Quercus robur), with an understory of holly (Ilex aquafolium). Because the soil is so acidic, there are few ground cover species, and there is a permanent litter layer (in contrast to the Broadbalk Wilderness, where each year's litter decomposes).",
+            "factorial": false
+        }
+    ],
+    "data_statement_term": "Available to any researcher on request",
+    "data_license_term": "CC BY",
+    "site_type_term": "research station field",
+    "site_perimeter": [],
+    "site_soil_type_term": null,
+    "site_soil_properties": [
+        {
+            "id": 1235,
+            "variable_term": "soil pH",
+            "unit_term": null,
+            "variable_label": "soil pH",
+            "min_depth": null,
+            "max_depth": null,
+            "depth_unit": null,
+            "is_estimated": false,
+            "is_baseline": false,
+            "reference_year": 1999,
+            "typical_value": 4.4,
+            "max_value": null,
+            "min_value": null,
+            "unit_label": null
+        },
+        {
+            "id": 1236,
+            "variable_term": "soil pH",
+            "unit_term": null,
+            "variable_label": "soil pH",
+            "min_depth": null,
+            "max_depth": null,
+            "depth_unit": null,
+            "is_estimated": false,
+            "is_baseline": false,
+            "reference_year": 1183,
+            "typical_value": 7.1,
+            "max_value": null,
+            "min_value": null,
+            "unit_label": null
+        },
+        {
+            "id": 1237,
+            "variable_term": "clay content",
+            "unit_term": "%",
+            "variable_label": "clay content",
+            "min_depth": 0.0,
+            "max_depth": 23.0,
+            "depth_unit": "Centimetres",
+            "is_estimated": false,
+            "is_baseline": false,
+            "reference_year": null,
+            "typical_value": 22.5,
+            "max_value": 25.0,
+            "min_value": 20.0,
+            "unit_label": "Percent"
+        },
+        {
+            "id": 1238,
+            "variable_term": "clay content",
+            "unit_term": "%",
+            "variable_label": "clay content",
+            "min_depth": null,
+            "max_depth": 1.0,
+            "depth_unit": "Metres",
+            "is_estimated": false,
+            "is_baseline": false,
+            "reference_year": null,
+            "typical_value": 55.0,
+            "max_value": 60.0,
+            "min_value": 50.0,
+            "unit_label": "Percent"
+        }
+    ],
+    "site_climatic_type_term": null,
+    "site_climate_properties": [],
+    "literature": [
+        {
+            "doi": null,
+            "title": "Jenkinson, D. S. (1971). The accumulation of organic matter in soil left uncultivated. Rothamsted Experimental Station Report for 1970 , Part 2, 113-137",
+            "language": "English"
+        },
+        {
+            "doi": null,
+            "title": "Poulton, P. R. (1996) \"Geescroft Wilderness, 1883-1995\", NATO Advanced Research Workshop, Evaluation of soil organic matter models using existing long-term datasets, NATO ASI Series I: Global Environmental Change, (Powlson D. S. , Smith P. and Smith J.U. (eds)), Vol 38, 385-389",
+            "language": "English"
+        },
+        {
+            "doi": "https://doi.org/10.1046/j.1365-2389.1999.00253.x",
+            "title": "\u2022 Blake, L. , Goulding, K. W. T. , Johnston, A. E. and Mott, C. J. B. (1999) \"Changes in soil chemistry accompanying acidification over more than 100 years under woodland and grass at Rothamsted Experimental Station, UK\", European Journal of Soil Science, 50, 401-412",
+            "language": "English"
+        },
+        {
+            "doi": "https://doi.org/10.1016/S0006-3207(01)00072-6",
+            "title": "Harmer, R. , Peterken, G. , Kerr, G. and Poulton, P. (2001) \"Vegetation changes during 100 years of development of two secondary woodlands on abandoned arable land\", Biological Conservation, 101, 291-304",
+            "language": "English"
+        },
+        {
+            "doi": null,
+            "title": "Pye, E. (2002) \"Investigation of woodland regeneration within two Wilderness areas. PhD thesis\", University of Hertfordshire.",
+            "language": "English"
+        },
+        {
+            "doi": null,
+            "title": "\u2022 Blake, L. and Goulding, K. W. T. (2002) \"Effects of atmospheric deposition, soil pH and acidification on heavy metal contents in soils and vegetation of semi-natural ecosystems at Rothamsted Experimental Station, UK\", Plant and Soil, 240, 235-251",
+            "language": "English"
+        },
+        {
+            "doi": "https://doi.org/10.1046/j.1365-2486.2003.00633.x",
+            "title": "Poulton, P. R. , Pye, E. , Hargreaves, P. R. and Jenkinson, D. S. (2003) \"Accumulation of carbon and nitrogen by old arable land reverting to woodland\", Global Change Biology, 9, 942-955",
+            "language": "English"
+        },
+        {
+            "doi": "https://doi.org/10.1111/j.1365-2389.2008.01025.x",
+            "title": "Jenkinson, D. S. , Poulton, P. R. and Bryant, C. (2008) \"The turnover of organic carbon in subsoils. Part 1. Natural and bomb radiocarbon in soil profiles from the Rothamsted long-term field experiments\", European Journal of Soil Science, 59, 391-399",
+            "language": "English"
+        },
+        {
+            "doi": "https://doi.org/10.1016/bs.aecr.2016.08.002",
+            "title": "J. Storkey , A.J. Macdonald , J.R. Bell , I.M. Clark , A.S. Gregory , N.J. Hawkins , P.R. Hirsch , L.C. Todman and Whitmore, A. P. (2016) \"The Unique Contribution of Rothamsted to Ecological Research at Large Temporal Scales.\", Advances in Ecological Research (eds: A.J. Dumbrell , R.L. Kordas and G. Woodward), Vol 55, Chapter 1, pp. 3-42",
+            "language": "English"
+        },
+        {
+            "doi": "https://doi.org/10.23637/KeyRefOAGEWoc.",
+            "title": "Open Access data: Geescroft wilderness accumulation of organic carbon",
+            "language": "English"
+        }
+    ],
+    "saved_time": "2019-10-17T18:14:58.920723Z",
+    "name": "Geescroft Wilderness",
+    "local_identifier": "R/GE/9",
+    "experiment_type_label": null,
+    "url": null,
+    "start_year": 1883,
+    "end_year": null,
+    "ongoing": true,
+    "establishment_period_end": null,
+    "objective": "To study the establishment of plants after abandonment of arable cropping and subsequently the accumulation of organic carbon above and below ground.",
+    "description": "The Geescroft Wildernesses site at Rothamsted was 'fenced off' in the 1880's and left to revert naturally to woodland. The site had previously been arable for centuries.  It is an acidic site (in contrast to the calcareous Broadbalk Wilderness). Although not an experiment in the usual sense, it is of great value, especially for looking at long-term changes in soil and regeneration of woodland vegetation. \n\nGeescroft Wilderness is an ECN (Environmental Change Network) site and is surveyed every 3 years.",
+    "site_name": "Geescroft Wilderness",
+    "site_local_code": null,
+    "site_geonames_id": null,
+    "site_doi": null,
+    "site_type_label": "research station field",
+    "site_locality": "Harpenden",
+    "site_region": "Hertfordshire",
+    "site_country": "United Kingdom",
+    "site_centroid_latitude": 51.802193,
+    "site_centroid_longitude": -0.36036,
+    "site_elevation": 133.0,
+    "site_elevation_unit": "Metres",
+    "site_slope": null,
+    "site_slope_aspect": null,
+    "site_visits_allowed": false,
+    "site_visiting_arrangements": "By arrangement with Dr Andy Macdonald",
+    "site_history": "The Geescroft Wilderness at Rothamsted was fenced off in the 1880s and left to revert naturally to woodland. The site had previously been arable for centuries. It is an area of 1.3 ha.",
+    "site_management": "Small amounts of chalk were applied in the 1840s-1880s, and the soil is now acidic (pH fell from 7.1 in 1883 to 4.4 in 1999).",
+    "site_soil_type_label": "Chromic Luvisol",
+    "site_soil_description": "Batcombe soil series, silty clay loam surface overlying clay-with-flints, overlying chalk at a depth of several meters.",
+    "site_climatic_type_label": null,
+    "site_climate_description": null,
+    "data_statement_label": "Available to any researcher on request",
+    "data_url": "www.era.rothamsted.ac.uk/Wilderness",
+    "data_policy_status": "YesOffline",
+    "data_policy_url": null,
+    "data_license_label": "CC BY",
+    "data_contact": null,
+    "farm_operations_data": false,
+    "sample_archive": true,
+    "samples_available": true,
+    "data_access_statement": null
+}

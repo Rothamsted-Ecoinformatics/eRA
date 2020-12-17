@@ -24,6 +24,7 @@
             {
                 "id": 296,
                 "name": "Miscanthus sinensis",
+                "sameAs": "Miscanthus sinensis",
                 "dateStart": null,
                 "dateEnd": null
             }
@@ -35,7 +36,7 @@
                 "name": "nitrogen fertilizer exposure",
                 "description": null,
                 "effect": "Cumulative",
-                "plotApplication": "nitrogen fertilizer exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 434,

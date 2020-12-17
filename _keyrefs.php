@@ -15,7 +15,7 @@ if ($KeyRef != " - ") {
         // keyref : keyword to look for in eRAbib. usually a keyref keyword
     
      $papers = GetKeyRefs($KeyRef);
-        echo $papers;
+        //echo $papers;
         echo "</div>";
 } else {echo $KeyRef;}
 

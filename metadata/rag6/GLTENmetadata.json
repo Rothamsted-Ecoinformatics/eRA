@@ -1,0 +1,764 @@
+{
+    "id": 1841,
+    "experiment_type_term": null,
+    "experiment_id": 55,
+    "people": [
+        {
+            "id": 2458,
+            "contacts": [
+                {
+                    "contact_type": "Email",
+                    "value": "res.e-ra@rothamsted.ac.uk"
+                }
+            ],
+            "role_term": "data manager",
+            "title": "Dr",
+            "name": "Margaret Glendining",
+            "affiliation": "Rothamsted Research",
+            "department": "Computational and Analytical Sciences",
+            "orcid": "https://orcid.org/0000-0002-6466-4629",
+            "is_contact": true,
+            "role_label": "data manager"
+        },
+        {
+            "id": 2459,
+            "contacts": [],
+            "role_term": "principal investigator",
+            "title": "Dr",
+            "name": "Andy Macdonald",
+            "affiliation": "Rothamsted Research",
+            "department": "Sustainable Agricultural Systems",
+            "orcid": null,
+            "is_contact": false,
+            "role_label": "principal investigator"
+        },
+        {
+            "id": 2460,
+            "contacts": [],
+            "role_term": "data manager",
+            "title": "Dr",
+            "name": "Sarah Perryman",
+            "affiliation": "Rothamsted Research",
+            "department": "Computational and Analytical Sciences",
+            "orcid": null,
+            "is_contact": true,
+            "role_label": "data manager"
+        }
+    ],
+    "organizations": [
+        {
+            "id": 1916,
+            "contacts": [],
+            "role_term": "research organisation",
+            "name": "Rothamsted Research",
+            "name_uri": null,
+            "abbreviation": null,
+            "role_label": "research organisation"
+        }
+    ],
+    "periods": [
+        {
+            "id": 2691,
+            "design_type_term": "Demonstration strip design",
+            "crops": [
+                {
+                    "id": 7074,
+                    "crop_term": "turnips",
+                    "crop_label": "turnips",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 7075,
+                    "crop_term": "red clover",
+                    "crop_label": "red clover",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 7076,
+                    "crop_term": "beans",
+                    "crop_label": "beans",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 7077,
+                    "crop_term": "barley",
+                    "crop_label": "barley",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 7078,
+                    "crop_term": "wheat",
+                    "crop_label": "wheat",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 7079,
+                    "crop_term": "fallow",
+                    "crop_label": "fallow",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 7080,
+                    "crop_term": "root vegetables",
+                    "crop_label": "root vegetables",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 7081,
+                    "crop_term": "swedes",
+                    "crop_label": "swedes",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 7082,
+                    "crop_term": "feed legumes",
+                    "crop_label": "feed legumes",
+                    "start_year": null,
+                    "end_year": null
+                }
+            ],
+            "rotations": [
+                {
+                    "id": 1691,
+                    "phases": [
+                        {
+                            "crop_id": 7080,
+                            "notes": "turnips or swedes",
+                            "same_phase": false
+                        },
+                        {
+                            "crop_id": 7077,
+                            "notes": "undersown",
+                            "same_phase": false
+                        },
+                        {
+                            "crop_id": 7082,
+                            "notes": "red clover or beans",
+                            "same_phase": false
+                        },
+                        {
+                            "crop_id": 7078,
+                            "notes": null,
+                            "same_phase": false
+                        }
+                    ],
+                    "name": "Legumes",
+                    "phasing": "Incomplete",
+                    "start_year": null,
+                    "end_year": null,
+                    "is_treatment": true
+                },
+                {
+                    "id": 1692,
+                    "phases": [
+                        {
+                            "crop_id": 7080,
+                            "notes": "turnips or swedes",
+                            "same_phase": false
+                        },
+                        {
+                            "crop_id": 7077,
+                            "notes": null,
+                            "same_phase": false
+                        },
+                        {
+                            "crop_id": 7079,
+                            "notes": "bare fallowed",
+                            "same_phase": false
+                        },
+                        {
+                            "crop_id": 7078,
+                            "notes": null,
+                            "same_phase": false
+                        }
+                    ],
+                    "name": "Fallow",
+                    "phasing": "Incomplete",
+                    "start_year": null,
+                    "end_year": null,
+                    "is_treatment": true
+                }
+            ],
+            "factors": [
+                {
+                    "id": 3861,
+                    "factor_term": "fertilizer exposure",
+                    "levels": [
+                        {
+                            "id": 11709,
+                            "factor_variant_term": "nitrogen",
+                            "factor_variant_label": "nitrogen",
+                            "amount": "48",
+                            "amount_unit_term": "kgN/ha",
+                            "amount_unit_label": "kg nitrogen per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": 7080,
+                            "all_crops": false,
+                            "note": "Until 1912 a mixture of  ammonium chloride and ammonium sulphate",
+                            "application_frequency": "Every 4 years",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "ammonium sulfate",
+                            "chemical_form_label": "ammonium sulfate"
+                        },
+                        {
+                            "id": 11710,
+                            "factor_variant_term": "phosphorous",
+                            "factor_variant_label": "phosphorous",
+                            "amount": "41.5",
+                            "amount_unit_term": "kgP/ha",
+                            "amount_unit_label": "kg phosphorous per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": 7080,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": "Every 4 years",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 11711,
+                            "factor_variant_term": "potassium",
+                            "factor_variant_label": "potassium",
+                            "amount": "224",
+                            "amount_unit_term": "kgK/ha",
+                            "amount_unit_label": "kg potassium per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": 7080,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": "Every 4 years",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "potassium chloride",
+                            "chemical_form_label": "potassium chloride"
+                        },
+                        {
+                            "id": 11712,
+                            "factor_variant_term": "sodium",
+                            "factor_variant_label": "sodium",
+                            "amount": "16",
+                            "amount_unit_term": "kgNa/ha",
+                            "amount_unit_label": "kg sodium per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": 7080,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": "Every 4 years",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "sodium sulphate",
+                            "chemical_form_label": "sodium sulphate"
+                        },
+                        {
+                            "id": 11713,
+                            "factor_variant_term": "magnesium",
+                            "factor_variant_label": "magnesium",
+                            "amount": "11",
+                            "amount_unit_term": "kgMg/ha",
+                            "amount_unit_label": "kg magnesium per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": 7080,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": "Every 4 years",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "magnesium sulphate",
+                            "chemical_form_label": "magnesium sulphate"
+                        },
+                        {
+                            "id": 11714,
+                            "factor_variant_term": "castor meal",
+                            "factor_variant_label": "castor meal",
+                            "amount": "2242",
+                            "amount_unit_term": "kg/ha",
+                            "amount_unit_label": "kilogram per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": 7080,
+                            "all_crops": false,
+                            "note": "Supplied approximately 121 kgN/ha. Until 1936 rapeseed cake was used.",
+                            "application_frequency": "Every 4 years",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 11715,
+                            "factor_variant_term": "control exposure",
+                            "factor_variant_label": "control exposure",
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null,
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        }
+                    ],
+                    "factor_label": "fertilizer exposure",
+                    "description": null,
+                    "plot_application": null,
+                    "effect": ""
+                }
+            ],
+            "factor_combinations": [
+                {
+                    "members": [
+                        {
+                            "factor_id": 3861,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 11709,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        },
+                        {
+                            "factor_id": 3861,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 11710,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        },
+                        {
+                            "factor_id": 3861,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 11711,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        },
+                        {
+                            "factor_id": 3861,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 11712,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        },
+                        {
+                            "factor_id": 3861,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 11714,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        }
+                    ],
+                    "name": "NPKNaMgR",
+                    "description": "Applied to plot 1 (fallow rotation) and plot 2 (clover/beans rotation)",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "members": [
+                        {
+                            "factor_id": 3861,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 11710,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        },
+                        {
+                            "factor_id": 3861,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 11711,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        },
+                        {
+                            "factor_id": 3861,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 11712,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        },
+                        {
+                            "factor_id": 3861,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 11713,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        }
+                    ],
+                    "name": "PKNaMg",
+                    "description": "Applied to plot 3 (fallow rotation) and plot 4 (clover/beans rotation) (no nitrogen)",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "members": [
+                        {
+                            "factor_id": 3861,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 11715,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        }
+                    ],
+                    "name": "None",
+                    "description": "No manures applied to plot 5 (fallow rotation) and plot 6 (clover/beans rotation)",
+                    "start_year": null,
+                    "end_year": null
+                }
+            ],
+            "measurements": [
+                {
+                    "material": "AllCrops",
+                    "crop_id": null,
+                    "comment": "Data presented in publications as means, Rothamsted Experimental Station 1970.",
+                    "collection_frequency": "annually",
+                    "variable_label": "yield components",
+                    "variable_term": "yield components",
+                    "unit_label": "hundredweight",
+                    "unit_term": "cwt",
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "Phosphorus in crop and soil, published by Johnson and Penny 1972",
+                    "collection_frequency": null,
+                    "variable_label": "phosphorous content",
+                    "variable_term": "phosphorous content",
+                    "unit_label": "Pounds per acre",
+                    "unit_term": "lb/acre",
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "Potassium in crop and soil, published by Johnson and Penny 1972",
+                    "collection_frequency": null,
+                    "variable_label": "potassium content",
+                    "variable_term": "potassium content",
+                    "unit_label": "Pounds per acre",
+                    "unit_term": "lb/acre",
+                    "scale": null
+                }
+            ],
+            "start_year": 1848,
+            "end_year": 1951,
+            "ongoing": false,
+            "name": "4-course rotations",
+            "design_type_label": "Demonstration strip design",
+            "number_of_blocks": null,
+            "number_of_plots": 6,
+            "number_of_subplots": null,
+            "number_of_replicates": 1,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": 1,
+            "design_description": "6 plots, 2 each for three fertilizer treatments, in either the legune or fallow rotation. Only  one phase of the rotation each year.",
+            "description": "The experiment tested two four course rotations in combination with different manuring treatments applied to the root break crop\nFrom 1848 to 1951, three different manurial combinations (none, PKNaMg and NPKNaMg plus rape cake, castor meal) were applied to the root crops of two four-course rotations. The rotations differed only in their third course - roots, barley, fallow or legume, wheat. There were only six plots and only one course of the rotation was present each year. The root crop was turnips or swedes, the legume clover or beans. From 1920, club-root (Plasmodiophora brassicae) became progressively more damaging to the root crop, especially on the NPKNaMg plots as a result of increasing soil acidity. By 1948 the produce was too small to weigh, and the four-course rotation ceased in 1951.",
+            "factorial": false
+        },
+        {
+            "id": 2692,
+            "design_type_term": "Other",
+            "crops": [
+                {
+                    "id": 7083,
+                    "crop_term": null,
+                    "crop_label": "Spring barley",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 7084,
+                    "crop_term": "spring wheat",
+                    "crop_label": "spring wheat",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 7085,
+                    "crop_term": null,
+                    "crop_label": "winter field beans, (Vicia faba)",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 7086,
+                    "crop_term": "grass",
+                    "crop_label": "grass",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 7087,
+                    "crop_term": "fallow",
+                    "crop_label": "fallow",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 7088,
+                    "crop_term": null,
+                    "crop_label": "sugar beet",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 7089,
+                    "crop_term": "potatoes",
+                    "crop_label": "potatoes",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 7090,
+                    "crop_term": "oats",
+                    "crop_label": "oats",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 7091,
+                    "crop_term": "winter wheat",
+                    "crop_label": "winter wheat",
+                    "start_year": null,
+                    "end_year": null
+                }
+            ],
+            "rotations": [
+                {
+                    "id": 1693,
+                    "phases": [
+                        {
+                            "crop_id": 7088,
+                            "notes": null,
+                            "same_phase": false
+                        },
+                        {
+                            "crop_id": 7083,
+                            "notes": null,
+                            "same_phase": false
+                        },
+                        {
+                            "crop_id": 7089,
+                            "notes": null,
+                            "same_phase": false
+                        }
+                    ],
+                    "name": "Three-course rotation",
+                    "phasing": "Complete",
+                    "start_year": 1970,
+                    "end_year": 1975,
+                    "is_treatment": false
+                }
+            ],
+            "factors": [
+                {
+                    "id": 3862,
+                    "factor_term": "phosphate fertilizer exposure",
+                    "levels": [],
+                    "factor_label": "phosphate fertilizer exposure",
+                    "description": "Effects of different amounts of soil P were tested",
+                    "plot_application": null,
+                    "effect": ""
+                },
+                {
+                    "id": 3863,
+                    "factor_term": "potassium fertilizer exposure",
+                    "levels": [],
+                    "factor_label": "potassium fertilizer exposure",
+                    "description": "Effects of different amounts of soil K were tested",
+                    "plot_application": null,
+                    "effect": ""
+                }
+            ],
+            "factor_combinations": [],
+            "measurements": [
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "Phosphorus in crop and soil, published by Johnson and Penny 1972",
+                    "collection_frequency": null,
+                    "variable_label": "phosphorous content",
+                    "variable_term": "phosphorous content",
+                    "unit_label": "Pounds per acre",
+                    "unit_term": "lb/acre",
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "Potassium in crop and soil, published by Johnson and Penny, 1972 and Johnson and Mitchell, 1974.",
+                    "collection_frequency": null,
+                    "variable_label": "potassium content",
+                    "variable_term": "potassium content",
+                    "unit_label": "Pounds per acre",
+                    "unit_term": "lb/acre",
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "Published in Johnston et al, 2013, for selected years and plots only",
+                    "collection_frequency": "annually",
+                    "variable_label": "yield components",
+                    "variable_term": "yield components",
+                    "unit_label": "tonnes per hectare",
+                    "unit_term": "t/ha",
+                    "scale": null
+                }
+            ],
+            "start_year": 1952,
+            "end_year": 1990,
+            "ongoing": false,
+            "name": "Residual Effects",
+            "design_type_label": "Other",
+            "number_of_blocks": null,
+            "number_of_plots": 6,
+            "number_of_subplots": 8,
+            "number_of_replicates": 1,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": 1,
+            "design_description": "In 1958 the six original plots were divided, one half sown to ryegrass the other bare fallowed. From 1959 plots were further divided into 3 for a test of phosphorous; basal N and K were applied. The 1958 fallow plots were sown with potatoes, sugarbeet and barley, each crop testing the 3 rates of P.",
+            "description": "From 1920, club-root (Plasmodiophora brassicae) became progressively more damaging to the root crop, especially on the NPKNaMg plots as a result of increasing soil acidity. By 1948 the produce was too small to weigh, and the four-course rotation ceased in 1951. Between 1952 and 1957 uniform dressings of nitrogen were applied and no potassium or phosphorous was applied. Cropping continued until 1990 to measure the residual effects of the phosphorus and potassium applied to the root crops since 1848.",
+            "factorial": false
+        }
+    ],
+    "data_statement_term": "Other",
+    "data_license_term": "CC BY",
+    "site_type_term": "research station field",
+    "site_perimeter": [],
+    "site_soil_type_term": "luvisol",
+    "site_soil_properties": [],
+    "site_climatic_type_term": "temperate oceanic climate",
+    "site_climate_properties": [
+        {
+            "id": 1274,
+            "variable_term": null,
+            "unit_term": "mm",
+            "variable_label": "mean total precipitation",
+            "year_from": 1981,
+            "year_to": 2010,
+            "mean_value": 733.0,
+            "max_value": 973.0,
+            "min_value": 515.0,
+            "unit_label": "millimeter"
+        },
+        {
+            "id": 1275,
+            "variable_term": null,
+            "unit_term": "degC",
+            "variable_label": "mean annual air temperature",
+            "year_from": 1981,
+            "year_to": 2010,
+            "mean_value": 9.8,
+            "max_value": null,
+            "min_value": null,
+            "unit_label": "degree Celsius"
+        }
+    ],
+    "literature": [
+        {
+            "doi": "https://doi.org/10.23637/ERADOC-1-37287",
+            "title": "Johnson and Penny, 1972, The Agdell experiment 1848-1970",
+            "language": "English"
+        },
+        {
+            "doi": "http://www.era.rothamsted.ac.uk/eradoc/book/192",
+            "title": "Rothamsted Experimental Station 1970, Agdell, four-course rotations 1848-1951, residual effects 1952-67.",
+            "language": null
+        },
+        {
+            "doi": "https://doi.org/10.1111/j.1475-2743.2012.00449.x",
+            "title": "Johnston et al, 2013. Plant-available soil phosphorus. Part II: the response of arable crops to Olsen P on a sandy clay loam and a silty clay loam",
+            "language": null
+        }
+    ],
+    "saved_time": "2020-06-08T14:14:51.465977Z",
+    "name": "Agdell",
+    "local_identifier": "R/AG/6",
+    "experiment_type_label": null,
+    "url": null,
+    "start_year": 1848,
+    "end_year": 1990,
+    "ongoing": false,
+    "establishment_period_end": null,
+    "objective": "From 1848- 1951 to study the effects of fertilizers and organic manures on four-course rotations (cereal, root, legume, fallow). Then to study the residual values of phosphorus and potassium applied in the period 1848-1951 and further applications since 1964.",
+    "description": "Agdell was the only Rothamsted Classical Experiment in which crops were originally grown in rotation. From 1848 to 1951, three different manurial combinations (none, PKNaMg and NPKNaMg plus rape cake, castor meal) were applied to the root crops of two four-course rotations. The rotations differed only in their third course - roots, barley, fallow or legume, wheat. There were only six plots and only one course of the rotation was present each year. The root crop was turnips or swedes, the legume clover or beans. \n\nFrom 1920, club-root (Plasmodiophora brassicae) became progressively more damaging to the root crop, especially on the NPKNaMg plots as a result of increasing soil acidity. By 1948 the produce was too small to weigh, and the four-course rotation ceased in 1951.\n\nSoil acidity was corrected and the plots were then used to evaluate the P and K reserves accumulated up to 1951. During this period the original six plots were halved and two levels of soil organic matter were established by growing leys on one half. Subsequently, the plots were further sub-divided to build up different amounts of P and K in the soil. Crop yields were then related to the reserves of P and K in the soil and the effect of adding fresh P and K. The experiment ended in 1990, only archived crop and soil samples are now available.",
+    "site_name": "Agdell Field",
+    "site_local_code": "R/AG/6",
+    "site_geonames_id": null,
+    "site_doi": null,
+    "site_type_label": "research station field",
+    "site_locality": "Harpenden",
+    "site_region": "Hertfordshire",
+    "site_country": "United Kingdom",
+    "site_centroid_latitude": 51.806242,
+    "site_centroid_longitude": -0.357553,
+    "site_elevation": 123.0,
+    "site_elevation_unit": "Metres",
+    "site_slope": null,
+    "site_slope_aspect": null,
+    "site_visits_allowed": false,
+    "site_visiting_arrangements": null,
+    "site_history": null,
+    "site_management": null,
+    "site_soil_type_label": "luvisol",
+    "site_soil_description": "Shallow Batcombe series, shallow flinty clay loam or very flinty loam over Clay-with-flints.",
+    "site_climatic_type_label": "temperate oceanic climate",
+    "site_climate_description": null,
+    "data_statement_label": "Other",
+    "data_url": null,
+    "data_policy_status": "YesOffline",
+    "data_policy_url": null,
+    "data_license_label": "CC BY",
+    "data_contact": null,
+    "farm_operations_data": true,
+    "sample_archive": true,
+    "samples_available": true,
+    "data_access_statement": null
+}

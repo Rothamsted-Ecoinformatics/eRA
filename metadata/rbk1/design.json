@@ -24,6 +24,7 @@
             {
                 "id": 6901,
                 "name": "winter wheat",
+                "sameAs": "winter wheat",
                 "dateStart": null,
                 "dateEnd": null
             }
@@ -35,7 +36,7 @@
                 "name": "nitrogen fertilizer exposure",
                 "description": "Inorganic nitrogen fertilizer in various forms and amounts applied annually",
                 "effect": "",
-                "plotApplication": "nitrogen fertilizer exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 11506,
@@ -139,7 +140,7 @@
             },
             {
                 "id": 3797,
-                "name": null,
+                "name": "FYM exposure",
                 "description": "FYM from cattle",
                 "effect": "",
                 "plotApplication": null,
@@ -165,7 +166,7 @@
                 "name": "phosphate fertilizer exposure",
                 "description": "phosphate fertilizer",
                 "effect": "",
-                "plotApplication": "phosphate fertilizer exposure",
+                "plotApplication": null,
                 "level": [
                     {
                         "id": 11514,
@@ -188,7 +189,7 @@
                 "name": "potassium fertilizer exposure",
                 "description": "Potassium fertilizer application",
                 "effect": "",
-                "plotApplication": "potassium fertilizer exposure",
+                "plotApplication": null,
                 "level": [
                     {
                         "id": 11515,
@@ -211,7 +212,7 @@
                 "name": "sodium nutrient exposure",
                 "description": "sodium fertilizer application",
                 "effect": "",
-                "plotApplication": "sodium nutrient exposure",
+                "plotApplication": null,
                 "level": [
                     {
                         "id": 11516,
@@ -234,7 +235,7 @@
                 "name": "magnesium nutrient exposure",
                 "description": "Magnesium fertilizer application",
                 "effect": "",
-                "plotApplication": "magnesium nutrient exposure",
+                "plotApplication": null,
                 "level": [
                     {
                         "id": 11517,
@@ -257,7 +258,7 @@
                 "name": "rapeseed cake exposure",
                 "description": "Organic manure supplying approx 96 kgN",
                 "effect": "",
-                "plotApplication": "rapeseed cake exposure",
+                "plotApplication": null,
                 "level": [
                     {
                         "id": 11518,
@@ -711,12 +712,14 @@
             {
                 "id": 6902,
                 "name": "winter wheat",
+                "sameAs": "winter wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 6903,
                 "name": "fallow",
+                "sameAs": "fallow",
                 "dateStart": null,
                 "dateEnd": null
             }
@@ -728,7 +731,7 @@
                 "name": "nitrogen fertilizer exposure",
                 "description": "Inorganic nitrogen fertilizer in various forms and amounts applied annually",
                 "effect": "",
-                "plotApplication": "nitrogen fertilizer exposure",
+                "plotApplication": null,
                 "level": [
                     {
                         "id": 11519,
@@ -804,7 +807,7 @@
             },
             {
                 "id": 3804,
-                "name": null,
+                "name": "FYM exposure",
                 "description": "FYM from cattle",
                 "effect": "",
                 "plotApplication": null,
@@ -834,7 +837,7 @@
                 "description": "",
                 "factor": [
                     {
-                        "Factor": "NONE",
+                        "Factor": "FYM exposure",
                         "levelCode": "farmyard manure",
                         "levelText": "farmyard manure",
                         "Comment": null
@@ -960,42 +963,49 @@
             {
                 "id": 6904,
                 "name": "winter wheat",
+                "sameAs": "winter wheat",
                 "dateStart": 1968,
                 "dateEnd": null
             },
             {
                 "id": 6905,
                 "name": "oats",
+                "sameAs": "oats",
                 "dateStart": 1996,
                 "dateEnd": null
             },
             {
                 "id": 6906,
                 "name": "beans",
+                "sameAs": "beans",
                 "dateStart": 1968,
                 "dateEnd": 1978
             },
             {
                 "id": 6907,
                 "name": "potatoes",
+                "sameAs": "potatoes",
                 "dateStart": 1968,
                 "dateEnd": 1996
             },
             {
                 "id": 6908,
                 "name": "beans",
+                "sameAs": "beans",
                 "dateStart": 2018,
                 "dateEnd": null
             },
             {
                 "id": 6909,
                 "name": "fallow",
+                "sameAs": "fallow",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 6910,
                 "name": "maize",
+                "sameAs": "maize",
                 "dateStart": 1997,
                 "dateEnd": 2017
             }
@@ -1196,7 +1206,7 @@
                 "name": "nitrogen fertilizer exposure",
                 "description": "N was applied as calcium ammonium nitrate (Nitro-chalk) between 1968 and 1985. Between 1968-1996 N was applied at the same rate to beans and potatoes. Between 1996-2017 oats did not receive N. Since 2018 Oats receive N at half the normal rate. Between 1997-2017 split N treatments were applied twice to the seedbed and post-emergence.",
                 "effect": "Direct",
-                "plotApplication": "nitrogen fertilizer exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 11525,
@@ -1345,7 +1355,7 @@
                 "name": "potassium fertilizer exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "potassium fertilizer exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 11535,
@@ -1396,7 +1406,7 @@
                 "name": "phosphate fertilizer exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "phosphate fertilizer exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 11538,
@@ -1419,7 +1429,7 @@
                 "name": "sodium nutrient exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "sodium nutrient exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 11539,
@@ -1456,7 +1466,7 @@
                 "name": "magnesium nutrient exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "magnesium nutrient exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 11541,
@@ -1507,7 +1517,7 @@
                 "name": "farmyard manure exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "farmyard manure exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 11544,
@@ -1544,7 +1554,7 @@
                 "name": "castor meal exposure",
                 "description": null,
                 "effect": "",
-                "plotApplication": "castor meal exposure",
+                "plotApplication": "Whole plot",
                 "level": [
                     {
                         "id": 11546,

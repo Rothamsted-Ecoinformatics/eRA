@@ -24,24 +24,28 @@
             {
                 "id": 3552,
                 "name": "potatoes",
+                "sameAs": "potatoes",
                 "dateStart": 1969,
                 "dateEnd": 1974
             },
             {
                 "id": 3553,
                 "name": "sugarbeet",
+                "sameAs": "sugarbeet",
                 "dateStart": 1969,
                 "dateEnd": 1974
             },
             {
                 "id": 3554,
                 "name": "winter wheat",
+                "sameAs": "winter wheat",
                 "dateStart": 1977,
                 "dateEnd": 1986
             },
             {
                 "id": 3555,
                 "name": "barley",
+                "sameAs": "barley",
                 "dateStart": 1970,
                 "dateEnd": 1979
             }

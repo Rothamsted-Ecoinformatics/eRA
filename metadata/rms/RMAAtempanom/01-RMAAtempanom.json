@@ -9,7 +9,7 @@
         {
             "inLanguage": "en",
             "descriptionType": "Abstract",
-            "description": "Rothamsted has one of the longest running continuous sets of daily meteorological recordings in the world. Temperature has been measured since 1878. The figure above shows the temperature anomaly in annual mean air temperature (black circles), for years 1878 to 2019, relative to the 1878 to 1920 long-term average, which represents the pre-industrial era. Variation in annual temperature is smoothed using an 11-year (132 month) moving average (red line, which removes solar variability and shorter-term variability such as the Southern Oscillation (Hansen et. al., 2010)). The figure shows that air temperatures have risen sharply since 1987 (Scott, 2015) with annual temperatures, over the last decade, estimated to be between 1.3\u00b0C and 1.6\u00b0C higher than the pre-industrial period (Hansen. et. al., 2016). Much of the rise is due to increases in temperature during the autumn and winter months, and at night-time."
+            "description": "Rothamsted has one of the longest running continuous sets of daily meteorological recordings in the world. Temperature has been measured since 1878. The figure above shows the temperature anomaly in annual mean air temperature (black circles), for years 1878 to 2019, relative to the 1878 to 1920 long-term average, which represents the pre-industrial era. Variation in annual temperature is smoothed using an 11-year (132 month) moving average (red line, which removes solar variability and shorter-term variability such as the Southern Oscillation (Hansen et. al., 2010)). The figure shows that air temperatures have risen sharply since 1987 (Scott, 2015) with annual temperatures, over the last decade, estimated to be between 1.3&deg;C and 1.6&deg;C higher than the pre-industrial period (Hansen. Et. Al., 2016). Much of the rise is due to increases in temperature during the autumn and winter months, and at night-time."
         },
         {
             "inLanguage": "en",
@@ -19,7 +19,7 @@
         {
             "inLanguage": "en",
             "descriptionType": "TechnicalInfo",
-            "description": "First recorded in 1878, Tmax was originally recorded using a mercur-in-glass with indicator bar minimum thermometer and Tmin using a spirit-in-glass with indicator bar minimum thermometer, both housed in a naturally aspiring temperature screen. Since 2004, temperatures have been recorded automatically by thermistors (electronic temperature probes, Campbell Scientific, Type 107)."
+            "description": "First recorded in 1878, TMAX was originally recorded using a mercury-in-glass with indicator bar minimum thermometer and TMIN using a spirit-in-glass with indicator bar minimum thermometer, both housed in a naturally aspiring temperature screen. Since 2004, temperatures have been recorded automatically by thermistors (electronic temperature probes, Campbell Scientific, Type 107)."
         },
         {
             "inLanguage": "en",
@@ -31,9 +31,10 @@
         "type": "organization",
         "name": "The Electronic Rothamsted Archive, Rothamsted Research"
     },
-    "datePublished": null,
+    "publication_year": 2020,
     "dateCreated": "2020-07-31",
     "dateModified": null,
+    "datePublished": null,
     "inLanguage": "en",
     "version": "1",
     "keywords": [
@@ -201,7 +202,7 @@
         },
         {
             "type": "Person",
-            "jobTitle": "ProjectMember",
+            "jobTitle": "DataManager",
             "name": "Nathalie Castells-Brooke",
             "givenName": "Nathalie",
             "familyName": "Castells-Brooke",
@@ -263,15 +264,6 @@
         "name": "Rothamsted Met Station"
     },
     "relatedIdentifier": [
-        {
-            "relatedIdentifier": "doi.org/10.23637/rms-RMAAtemp-02",
-            "relatedIdentifierType": "DOI",
-            "name": "Annual Mean Air Temperature at Rothamsted 1878-2019",
-            "relatedIdentifierGeneralType": "text",
-            "relationType": "IsDerivedFrom",
-            "rt_id": 28,
-            "relationTypeValue": "is derived from"
-        },
         {
             "relatedIdentifier": "10.23637/rms-RMAAtemp-02",
             "relatedIdentifierType": "DOI",
