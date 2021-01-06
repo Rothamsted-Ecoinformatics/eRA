@@ -47,6 +47,8 @@ function printVocab($localwords)
 
 $relDatasets = 'List of Related Datasets';
 $relDocuments = 'List of Related Documents';
+
+
 if ($hasDataset) {
     $datasetFolder = $dsinfo["shortName"];
     $dstype = $dsinfo["dstype"];
@@ -96,6 +98,12 @@ if ($hasDataset) {
     } else {
         $dateUpdate = "N/A";
     }
+    
+    $getAuthors; 
+    $getContributors; 
+    $getPublisher; 
+    
+    
   /*   if ($datePublication != "N/A")   {$year = '('.substr($datePublication, 0, 4).')';}
     elseif ($dateCreation != "N/A")  {$year = '('.substr($dateCreation,    0, 4).')';}
     else                             {$year = "";} */
@@ -242,9 +250,9 @@ if ($hasDataset) {
     echo printVocab($localwords);
 
     ?></li>
-						<li class="list-group-item"><b>Authors: </b> Margaret Glendining,
-							Sarah Perryman</li>
-						<li class="list-group-item"><b>Publisher: </b>Rothamsted Research</li>
+						<li class="list-group-item"><b>Author(s): </b> <?php echo $getAuthors; ?></li>
+						<li class="list-group-item"><b>Contributors: </b> <?php echo $getContributors; ?></li>
+						<li class="list-group-item"><b>Publisher: </b><?php echo $getPublisher; ?></li>
 					</ul>
 					<?php echo    $strDownload;?>
 				</div>
