@@ -54,10 +54,10 @@ if ($hasDataset) {
     $dstype = $dsinfo["dstype"];
     $modal = "#modalClickTrough".$dstype;
 
-    $butDownload = "<button type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\"
+    $butDownload = "<button type=\"button\" class=\"btn btn-primary my-3\" data-toggle=\"modal\"
     data-target=\"". $modal."\">Download</button>";
     
-    $butLogin = "<button type=\"button\" class=\"btn btn-info\" data-toggle=\"modal\"
+    $butLogin = "<button type=\"button\" class=\"btn btn-info my-3\" data-toggle=\"modal\"
         data-target=\"#modalLogin\">". $registeredUser."</button>";
     $butLoginprev = "<a class=\"btn btn-info mx-1\"
 				href=\"register.php\"> <i class=\"fa fa-user\"></i> Login to download dataset
@@ -70,9 +70,7 @@ if ($hasDataset) {
     {
         if ($loggedIn == 'yes' && $email != 'delete') {
             
-            $strDownload =  $butDownload;
-            
-            
+            $strDownload =  $butDownload;                    
             
         } else {
             
@@ -99,9 +97,48 @@ if ($hasDataset) {
         $dateUpdate = "N/A";
     }
     
-    $getAuthors; 
-    $getContributors; 
-    $getPublisher; 
+    $getAuthors = ""; 
+    $getAuthorOrganisation = "";
+    $getContributors = "";
+    $getPublisher = "";
+    $isAuthor = 0;
+    $refAuthor = "DEFAULT";
+    if (is_array($dsinfo['creator'])) {
+        foreach ($dsinfo['creator'] as $creator) {
+            if ( $creator['type'] == 'organization' ) {
+                $getAuthorOrganisation .= $creator['name'].", ";
+                
+            }
+            if ( $creator['type'] == 'Person' ) {
+                $getAuthors .= $creator['Name'].", ";
+                $isAuthor = 1;
+            }
+        }
+    }
+    
+
+    if (is_array($dsinfo['contributor'])) {
+        foreach ($dsinfo['contributor'] as $contributor) {
+
+            if ( $contributor['type'] == 'Person' ) {
+                $getContributors .= $contributor['name'].", ";
+                
+            }
+        }
+    }
+    $getAuthorOrganisation = rtrim ($getAuthorOrganisation, ', ');
+    $getAuthors = rtrim ($getAuthors, ', ');
+    $getContributors = rtrim ($getContributors, ', ');
+    
+    if (is_array($dsinfo['publisher'])) {
+        $getPublisher = $dsinfo['publisher']['name'];
+    }
+    
+    $refAuthor = $getAuthorOrganisation;
+    if ($isAuthor >0) {
+        $refAuthor = $getAuthors ;
+    } else  { }
+    
     
     
   /*   if ($datePublication != "N/A")   {$year = '('.substr($datePublication, 0, 4).')';}
@@ -232,7 +269,7 @@ if ($hasDataset) {
 				<div class="card-body">
 				 
 					<?php echo    $strDownload;?>
-					<ul class="list-group list-group-flush">
+					<ul class="list-group list-group-flush ">
 						<li class="list-group-item"><b>DOI: </b><?php echo $dsinfo['identifier'];?>
 						</li>
 						<li class="list-group-item"><b>Experiment: </b> <a
@@ -250,7 +287,7 @@ if ($hasDataset) {
     echo printVocab($localwords);
 
     ?></li>
-						<li class="list-group-item"><b>Author(s): </b> <?php echo $getAuthors; ?></li>
+						<li class="list-group-item"><b>Author(s): </b> <?php echo $refAuthor; ?></li>
 						<li class="list-group-item"><b>Contributors: </b> <?php echo $getContributors; ?></li>
 						<li class="list-group-item"><b>Publisher: </b><?php echo $getPublisher; ?></li>
 					</ul>
@@ -384,8 +421,8 @@ if (isset($arrDescription['Other'])) {
 							</p>
 							<h5>Cite this Dataset</h5>
 							<p>
-								<strong>YOU MUST CITE AS: </strong>Rothamsted Research (<?php echo $year;?>).
-								<?php echo $dsinfo['name'];?> <em>Electronic Rothamsted Archive</em>
+								<strong>YOU MUST CITE AS: </strong><?php echo $refAuthor; ?> (<?php echo $year;?>).
+								<?php echo $dsinfo['name'];?> <em><?php echo $getPublisher; ?></em>
 								<a target="_blank"
 									href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
 
@@ -435,12 +472,12 @@ if (isset($arrDescription['Other'])) {
 						Commons Attribution 4.0 International License</a>.
 				</p>
 				<p>
-					<strong>YOU MUST CITE AS: </strong>Rothamsted Research (<?php echo $year;?>).
-								<?php echo $dsinfo['name'];?> <em>Electronic Rothamsted Archive</em>
-					<a target="_blank"
-						href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
+								<strong>YOU MUST CITE AS: </strong><?php echo $refAuthor; ?> (<?php echo $year;?>).
+								<?php echo $dsinfo['name'];?> <em><?php echo $getPublisher; ?></em>
+								<a target="_blank"
+									href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
 
-				</p>
+							</p>
 				<p>Rothamsted relies on the integrity of users to ensure that
 					Rothamsted Research receives suitable acknowledgment as being the
 					originators of these data. This enables us to monitor the use of
@@ -521,12 +558,12 @@ if (isset($arrDescription['Other'])) {
 						Commons Attribution 4.0 International License</a>.
 				</p>
 				<p>
-					<strong>YOU MUST CITE AS: </strong>Rothamsted Research (<?php echo $year;?>).
-								<?php echo $dsinfo['name'];?> <em>Electronic Rothamsted Archive</em>
-					<a target="_blank"
-						href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
+								<strong>YOU MUST CITE AS: </strong><?php echo $refAuthor; ?> (<?php echo $year;?>).
+								<?php echo $dsinfo['name'];?> <em><?php echo $getPublisher; ?></em>
+								<a target="_blank"
+									href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
 
-				</p>
+							</p>
 				<p>Rothamsted relies on the integrity of users to ensure that
 					Rothamsted Research receives suitable acknowledgment as being the
 					originators of these data. This enables us to monitor the use of
