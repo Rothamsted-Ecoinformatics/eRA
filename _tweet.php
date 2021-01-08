@@ -1,22 +1,22 @@
 
 <?php
 ?>
-
-
-<div class="card bg-light mb-2 d-inline-block" style="max-width: 18rem;">
-	<div class="card-header">
-		<i class="fa fa-twitter-square" aria-hidden="true"></i> eRA_Curator
-		Live
-	</div>
-	<div class="card-body">
-		<a class="twitter-timeline" 
-		data-width="100%" 
-		data-height="900" 
-		data-tweet-limit="3"
-		target="_blank" 
-		href="https://twitter.com/eRA_Curator">Tweets by eRA_Curator</a>
+<h1 class="mx-3">Updates</h1>
+<p class="mx-3">Updates to the site, the datasets and anything relevant to eRA are posted on Twitter: make you you are subscribed. Major updates are als emailed to our subscribers</p>
+<div class="container">
+	<div class="row">
+		<div class="col-1"></div>
+		<div class="col-10">
+			<a class="twitter-timeline" data-width="900"
+				href="https://twitter.com/eRA_Curator?ref_src=twsrc%5Etfw">Tweets by
+				eRA_Curator</a>
+			<script async src="https://platform.twitter.com/widgets.js"
+				charset="utf-8"></script>
+		</div>
+		<div class="col-1"></div>
 	</div>
 </div>
+
 
 
 

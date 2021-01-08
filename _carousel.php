@@ -14,41 +14,42 @@
 			<a href="updates.php"> <img class="d-block w-100"
 				src="images/banners/overview.jpg" alt="latest"></a>
 			<div class="carousel-caption d-none d-md-block">
-				<h2>News and Updates</h2>
+				<h2><a class="text-light" href="updates.php">News and Updates</a></h2>
 				<p>The latest in eRA and the Long Term experiments</p>
 			</div>
 		</div>
 		<div class="carousel-item">
-			<a href="expt.php?expt=rbk1"> <img class="d-block w-100"
+			<a href="experiment/rbk1"> <img class="d-block w-100"
 				src="images/banners/Broadbalk-02.jpg" alt="Second slide"></a>
 			<div class="carousel-caption d-none d-md-block">
-				<h2>Broadbalk</h2>
+				<h2><a class="text-light" href="experiment/rbk1">Broadbalk</a></h2>
 				<p>More than 175 years of data on 
 			</div>
 		</div>
 		<div class="carousel-item">
-		<a href="expt.php?expt=rpg5"> 
+		<a href="experiment/rpg5"> 
 			<img class="d-block w-100" src="images/banners/Park-Grass.jpg"
 				alt="All about Park Grass"></a>
 			<div class="carousel-caption d-none d-md-block">
-				<h2>Park Grass</h2>
+				<h2><a class="text-light" href="experiment/rpg5">Park Grass</a></h2>
 				<p>150 years of ecological studies</p>
 			</div>
 		</div>
 		<div class="carousel-item">
-			<a href="expt.php?expt=rhb2"><img class="d-block w-100" src="images/banners/hoosfield.jpg"
+			<a href="experiment/rhb2"><img class="d-block w-100" src="images/banners/hoosfield.jpg"
 				alt="Hoosfield"></a>
 			<div class="carousel-caption d-none d-md-block">
-				<h2>Hoosfield</h2>
+				<h2><a class="text-light" href="experiment/rhb2">Hoosfield</a></h2>
 				<p>Experiments on Barley</p>
 			</div>
 		</div>
 		<div class="carousel-item">
-			<a href="expt.php?expt=rgc8">
+			<a href="experiment/rge9">
 			<img class="d-block w-100" src="images/banners/Gees-Croft.jpg"
 				alt="Gees-Croft"></a>
 			<div class="carousel-caption d-none d-md-block">
-				<h2>Gees-Croft</h2>
+				<h2><a class="text-light" href="experiment/rge9">Gees-Croft</a></h2>
+				<p>A wilderness experiment</p>
 			</div>
 		</div>
 

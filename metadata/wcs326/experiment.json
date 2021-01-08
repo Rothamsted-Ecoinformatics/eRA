@@ -43,6 +43,14 @@
             "citation": "Jenkyn, J. F. , Christian, D. G. , Bacon, E. T. G. , Gutteridge, R. J. and Todd, A. D. (2001) \"Effects of incorporating different amounts of straw on growth, diseases and yield of consecutive crops of winter wheat grown on contrasting soil types\", Journal of Agricultural Science, 136, 1-14",
             "inLanguage": "English",
             "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.3389/fmicb.2020.599233",
+            "sameAs": "https://doi.org/10.3389/fmicb.2020.599233",
+            "citation": "The Multi-Fungicide Resistance Status of Aspergillus fumigatus populations in Arable Soils and the Wider European Environment",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
         }
     ]
 }

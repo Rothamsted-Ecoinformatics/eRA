@@ -1,10 +1,10 @@
 {
-    "id": 816,
+    "id": 2500,
     "experiment_type_term": null,
     "experiment_id": 49,
     "people": [
         {
-            "id": 968,
+            "id": 3485,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -23,7 +23,7 @@
     ],
     "organizations": [
         {
-            "id": 751,
+            "id": 2536,
             "contacts": [
                 {
                     "contact_type": "URL",
@@ -37,7 +37,7 @@
             "role_label": "research organisation"
         },
         {
-            "id": 752,
+            "id": 2537,
             "contacts": [],
             "role_term": "experimental research station",
             "name": "Woburn Experimental Farm",
@@ -48,11 +48,11 @@
     ],
     "periods": [
         {
-            "id": 1077,
+            "id": 3712,
             "design_type_term": "Randomized complete block design",
             "crops": [
                 {
-                    "id": 2217,
+                    "id": 10375,
                     "crop_term": "wheat",
                     "crop_label": "wheat",
                     "start_year": null,
@@ -62,11 +62,11 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 1085,
+                    "id": 5875,
                     "factor_term": "crop residue management exposure",
                     "levels": [
                         {
-                            "id": 2958,
+                            "id": 16153,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": null,
@@ -84,7 +84,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 2959,
+                            "id": 16154,
                             "factor_variant_term": null,
                             "factor_variant_label": "normal",
                             "amount": "5",
@@ -102,7 +102,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 2960,
+                            "id": 16155,
                             "factor_variant_term": null,
                             "factor_variant_label": "2 x normal",
                             "amount": "20",
@@ -120,7 +120,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 2961,
+                            "id": 16156,
                             "factor_variant_term": null,
                             "factor_variant_label": "4 x normal",
                             "amount": "20",
@@ -148,7 +148,7 @@
             "measurements": [
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 2217,
+                    "crop_id": 10375,
                     "comment": null,
                     "collection_frequency": "annually",
                     "variable_label": "grain yield trait",
@@ -159,7 +159,7 @@
                 },
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 2217,
+                    "crop_id": 10375,
                     "comment": null,
                     "collection_frequency": "annually",
                     "variable_label": "forage yield",
@@ -192,7 +192,32 @@
     "site_soil_type_term": "cambisol",
     "site_soil_properties": [],
     "site_climatic_type_term": "temperate oceanic climate",
-    "site_climate_properties": [],
+    "site_climate_properties": [
+        {
+            "id": 1717,
+            "variable_term": "precipitation",
+            "unit_term": "mm",
+            "variable_label": "precipitation",
+            "year_from": 1981,
+            "year_to": 2010,
+            "mean_value": 652.0,
+            "max_value": 870.4,
+            "min_value": 460.5,
+            "unit_label": "millimeter"
+        },
+        {
+            "id": 1718,
+            "variable_term": "air temperature",
+            "unit_term": "degC",
+            "variable_label": "air temperature",
+            "year_from": null,
+            "year_to": null,
+            "mean_value": 9.9,
+            "max_value": 10.9,
+            "min_value": 8.7,
+            "unit_label": "degree Celsius"
+        }
+    ],
     "literature": [
         {
             "doi": "https://doi.org/10.1016/j.apsoil.2016.12.006",
@@ -203,9 +228,14 @@
             "doi": "https://doi.org/10.1017/S0021859600008558",
             "title": "Jenkyn, J. F. , Christian, D. G. , Bacon, E. T. G. , Gutteridge, R. J. and Todd, A. D. (2001) \"Effects of incorporating different amounts of straw on growth, diseases and yield of consecutive crops of winter wheat grown on contrasting soil types\", Journal of Agricultural Science, 136, 1-14",
             "language": "English"
+        },
+        {
+            "doi": "https://doi.org/10.3389/fmicb.2020.599233",
+            "title": "The Multi-Fungicide Resistance Status of Aspergillus fumigatus populations in Arable Soils and the Wider European Environment",
+            "language": "English"
         }
     ],
-    "saved_time": "2019-09-27T16:50:17.211194Z",
+    "saved_time": "2020-12-22T16:30:32.257752Z",
     "name": "Woburn Amounts of Straw",
     "local_identifier": "W/CS/326",
     "experiment_type_label": null,

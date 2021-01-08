@@ -1,37 +1,32 @@
 {
     "@context": "https://schema.org/",
-    "@type": "Text",
-    "identifier": "10.23637/wcs10-Treatments-01",
-    "name": "Woburn long-term liming experiments lime and fertilizer treatments 1962-1996",
-    "shortName": null,
-    "url": "http://www.era.rothamsted.ac.uk/metadata/wcs10/WobLTliming-Treatments.pdf",
+    "@type": "Dataset",
+    "identifier": "10.23637/rcs10-rltlgrain-01",
+    "name": "Rothamsted long-term liming experiment grain nutrient data",
+    "shortName": "RLTLGRAIN",
+    "url": "http://www.era.rothamsted.ac.uk/RCS10/RLTLRGAIN",
     "description": [
         {
             "inLanguage": "en",
             "descriptionType": "Abstract",
-            "description": "Details of the lime applications, fertilizer treatments and basal fertilizer applied to the Long-term Liming Experiment at Woburn 1962-1996."
+            "description": "The experiment tests the effects of different amounts of lime (and thus soil pH), P and K on the yields of a sequence of arable crops, on a silty clay loam soil at Rothamsted Experimental Farm, from 1962-1996. This data set provides details of the grain nutrient content (Ca, Mg, K, Na, S, P etc) measured several times during the experiment. There was a parallel experiment on a sandy loam soil at Woburn Experimental Farm."
         },
         {
             "inLanguage": "en",
             "descriptionType": "Methods",
-            "description": "The Long-term Liming Experiments studied the effects of soil pH, P and other fertilizer treatments on the yields of a sequence of arable crops at two sites, Rothamsted and Woburn, with contrasting soil types."
+            "description": "Period 1 (1962-1980): four lime levels with and without fertilizer P and K. Magnesium was tested on split plots 1974-1978. Period 2 (1981-1996): four lime levels with four P levels. Manganese was tested on split plots 1987-1990; Sulphur was tested on split plots 1991-1996. 2 replicates."
         },
         {
             "inLanguage": "en",
             "descriptionType": "TableOfContents",
-            "description": "1) Lime application dates and amounts applied, 1962-1996  2) Fertilizer treatments (P, K, Mg, Mn and S) application amounts, dates and forms, 1962-1996. 3) Basal fertilizer (N, K and Mg) application amounts and forms, 1962-1996."
-        },
-        {
-            "inLanguage": "en",
-            "descriptionType": "Provenance",
-            "description": "Prepared from experimental plans and Rothamsted Research annual Yields Books."
+            "description": "The dataset contains grain nutrient content (Mg, Na etc), for individual plots, measured in 1978,  and 1994. It includes details  of all treatments applied (lime, P&K fertilizer treatments, Mg, Mn and S treatments)."
         }
     ],
     "publisher": {
         "type": "organization",
         "name": "Electronic Rothamsted Archive, Rothamsted Research"
     },
-    "publication_year": 2020,
+    "publication_year": 0,
     "dateCreated": null,
     "dateModified": null,
     "datePublished": null,
@@ -39,10 +34,9 @@
     "version": "1",
     "keywords": [
         "Rothamsted Research",
+        "arable farming",
         "long term experiments",
-        "fertilizer",
-        "liming",
-        "arable farming"
+        "liming"
     ],
     "creator": [
         {
@@ -66,21 +60,14 @@
             }
         },
         {
-            "type": "organization",
-            "name": "Rothamsted Research"
-        }
-    ],
-    "contributor": [
-        {
             "type": "Person",
-            "jobTitle": "DataCurator",
-            "name": "Margaret Glendining",
-            "givenName": "Margaret",
-            "familyName": "Glendining",
-            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "Name": "Steve McGrath",
+            "givenName": "Steve",
+            "familyName": "McGrath",
+            "sameAs": "https://orcid.org/0000-0003-0952-8947",
             "address": {
                 "type": "PostalAddress",
-                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
                 "addressLocality": "Harpenden",
                 "addressRegion": "Hertfordshire",
                 "postalCode": "AL5 2JQ",
@@ -88,10 +75,32 @@
             },
             "affiliation": {
                 "type": "Organization",
-                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
         },
+        {
+            "type": "Person",
+            "Name": "Keith Goulding",
+            "givenName": "Keith",
+            "familyName": "Goulding",
+            "sameAs": "https://orcid.org/0000-0002-6465-1465",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "contributor": [
         {
             "type": "Person",
             "jobTitle": "DataManager",
@@ -115,14 +124,14 @@
         },
         {
             "type": "Person",
-            "jobTitle": "DataCollector",
-            "name": "Steve McGrath",
-            "givenName": "Steve",
-            "familyName": "McGrath",
-            "sameAs": "https://orcid.org/0000-0003-0952-8947",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
             "address": {
                 "type": "PostalAddress",
-                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
                 "addressLocality": "Harpenden",
                 "addressRegion": "Hertfordshire",
                 "postalCode": "AL5 2JQ",
@@ -130,28 +139,7 @@
             },
             "affiliation": {
                 "type": "Organization",
-                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
-                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
-            }
-        },
-        {
-            "type": "Person",
-            "jobTitle": "DataCollector",
-            "name": "Keith Goulding",
-            "givenName": "Keith",
-            "familyName": "Goulding",
-            "sameAs": "https://orcid.org/0000-0002-6465-1465",
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
-                "addressLocality": "Harpenden",
-                "addressRegion": "Hertfordshire",
-                "postalCode": "AL5 2JQ",
-                "addressCountry": "United Kingdom"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
         },
@@ -178,6 +166,48 @@
         },
         {
             "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Keith Goulding",
+            "givenName": "Keith",
+            "familyName": "Goulding",
+            "sameAs": "https://orcid.org/0000-0002-6465-1465",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Steve McGrath",
+            "givenName": "Steve",
+            "familyName": "McGrath",
+            "sameAs": "https://orcid.org/0000-0003-0952-8947",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
             "jobTitle": "ProjectManager",
             "name": "Richard Ostler",
             "givenName": "Richard",
@@ -198,7 +228,7 @@
             }
         }
     ],
-    "encodingFormat": "application/pdf",
+    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
     "copyrightHolder": {
         "type": "organization",
         "name": "Electronic Rothamsted Archive, Rothamsted Research"
@@ -213,50 +243,25 @@
         "type": "place",
         "geo": {
             "type": "GeoCoordinates",
-            "longitude": -0.616165,
-            "latitude": 51.999857
+            "longitude": 0.0,
+            "latitude": 0.0
         },
-        "name": "Stackyard"
+        "name": "Sawyers I"
     },
     "relatedIdentifier": [
         {
-            "relatedIdentifier": "10.23637/wcs10-Plans",
+            "relatedIdentifier": "10.1016/j.eja.2019.02.016",
             "relatedIdentifierType": "DOI",
-            "name": "Woburn long-term liming experiment plans 1962-1996",
+            "name": "Holland et al, 2019. Paper describing yield response of all crops 1962-1996.",
             "relatedIdentifierGeneralType": "text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
             "relationTypeValue": "is described by"
-        },
-        {
-            "relatedIdentifier": "10.23637/wcs10-wltlyields-01",
-            "relatedIdentifierType": "DOI",
-            "name": "Woburn long-term liming experiment crop yields 1962-1996",
-            "relatedIdentifierGeneralType": "text",
-            "relationType": "IsSupplementTo",
-            "rt_id": 3,
-            "relationTypeValue": "is supplement to"
         }
     ],
-    "funder": [
-        {
-            "type": "organization",
-            "name": "Biotechnology and Biological Sciences Research Council",
-            "sameAs": "http://dx.doi.org/10.13039/501100000268",
-            "award": "BBS/E/C/000J0300 - The Rothamsted Long - Term Experiments - National Capability",
-            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F000J0300"
-        }
-    ],
-    "distribution": [
-        {
-            "type": "dataDownload",
-            "name": "Woburn long-term liming experiments lime and fertilizer treatments 1962-1996",
-            "URL": "WobLTliming-Treatments",
-            "encodingFormat": "WobLTliming-Treatments",
-            "fileSize": "565 KB"
-        }
-    ],
+    "funder": [],
+    "distribution": [],
     "image": [],
     "grade": 1,
-    "dstype": "OA"
+    "dstype": "Other"
 }

@@ -24,7 +24,7 @@
     ],
     "publisher": {
         "type": "organization",
-        "name": "The Electronic Rothamsted Archive, Rothamsted Research"
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
     },
     "publication_year": 2017,
     "dateCreated": "2020-02-12",
@@ -117,7 +117,7 @@
     "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
     "copyrightHolder": {
         "type": "organization",
-        "name": "The Electronic Rothamsted Archive, Rothamsted Research"
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
     },
     "license": {
         "type": "CreativeWork",

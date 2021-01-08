@@ -14,7 +14,7 @@
     ],
     "publisher": {
         "type": "organization",
-        "name": "The Electronic Rothamsted Archive, Rothamsted Research"
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
     },
     "publication_year": 1999,
     "dateCreated": "2020-01-17",
@@ -103,7 +103,7 @@
     "encodingFormat": "text/html",
     "copyrightHolder": {
         "type": "organization",
-        "name": "The Electronic Rothamsted Archive, Rothamsted Research"
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
     },
     "license": {
         "type": "CreativeWork",

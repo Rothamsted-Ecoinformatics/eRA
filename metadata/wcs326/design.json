@@ -22,7 +22,7 @@
         },
         "crops": [
             {
-                "id": 2217,
+                "id": 10375,
                 "name": "wheat",
                 "sameAs": "wheat",
                 "dateStart": null,
@@ -32,14 +32,14 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 1085,
+                "id": 5875,
                 "name": "crop residue management exposure",
                 "description": "Chopped wheat straw applied annually before sowing.",
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 2958,
+                        "id": 16153,
                         "name": "control exposure",
                         "amount": null,
                         "unitCode": null,
@@ -53,7 +53,7 @@
                         "notes": "All crop residues were removed."
                     },
                     {
-                        "id": 2959,
+                        "id": 16154,
                         "name": "normal",
                         "amount": "5",
                         "unitCode": "t/ha",
@@ -67,7 +67,7 @@
                         "notes": null
                     },
                     {
-                        "id": 2960,
+                        "id": 16155,
                         "name": "2 x normal",
                         "amount": "20",
                         "unitCode": "t/ha",
@@ -81,7 +81,7 @@
                         "notes": null
                     },
                     {
-                        "id": 2961,
+                        "id": 16156,
                         "name": "4 x normal",
                         "amount": "20",
                         "unitCode": "t/ha",
@@ -107,7 +107,7 @@
                 "scale": "plot",
                 "material": "SpecifiedCrop",
                 "description": null,
-                "crop": 2217
+                "crop": 10375
             },
             {
                 "variable": "forage yield",
@@ -117,7 +117,7 @@
                 "scale": "plot",
                 "material": "SpecifiedCrop",
                 "description": null,
-                "crop": 2217
+                "crop": 10375
             }
         ]
     }

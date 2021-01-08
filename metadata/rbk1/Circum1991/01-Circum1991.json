@@ -2,14 +2,14 @@
     "@context": "https://schema.org/",
     "@type": "Dataset",
     "identifier": "10.23637/bbk-2078416917-01",
-    "name": "<i>Cirsium arvense</i> frequency on Broadbalk Section 8 1991-2018",
-    "shortName": "CIRSIUM1991",
+    "name": "<em>Cirsium arvense<em> frequency on Broadbalk Section 8 1991-2018",
+    "shortName": "Circum1991",
     "url": "http://www.era.rothamsted.ac.uk/Broadbalk/Cirsiumarvense1991-2018",
     "description": [
         {
             "inLanguage": "en",
             "descriptionType": "Abstract",
-            "description": "This dataset consists of the relative frequencies of <i>Cirsium arvense</i> (Creeping thistle) of the Family Asteraceae recorded on Section 8 plots of the Broadbalk Wheat Experiment, 1991-2018. Section 8 has not received any herbicides in its history.\r\n\r\nThe collective weed fauna, and frequency of each species such as <em>C. arvense<em>, differ in response to fertiliser treatments which vary with each plot (see Related Documents below)."
+            "description": "This dataset consists of the relative frequencies of <em>Cirsium arvense<em> (Creeping thistle) of the Family Asteraceae recorded on Section 8 plots of the Broadbalk Wheat Experiment, 1991-2018. Section 8 has not received any herbicides in its history.\r\n\r\nThe collective weed fauna, and frequency of each species such as <em>C. arvense<em>, differ in response to fertiliser treatments which vary with each plot (see Related Documents below)."
         },
         {
             "inLanguage": "en",
@@ -19,27 +19,26 @@
         {
             "inLanguage": "en",
             "descriptionType": "TechnicalInfo",
-            "description": "Data are presented as relative frequencies of <i>Cirsium arvense</i> from Section 8 the Broadbalk Wheat Experiment, Rothamsted Research, Harpenden, Herts, AL5 2JQ, UK. Data is given for all plots (2.1, 2.2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 17, 18 and 19), from 1991-2018 (with the exception of 1994, 2001, 2008 2015 and 2016 when the section was fallowed). The maximum frequency per plot is 25."
+            "description": "Data are presented as relative frequencies of <em>Cirsium arvense<em> from Section 8 the Broadbalk Wheat Experiment, Rothamsted Research, Harpenden, Herts, AL5 2JQ, UK. Data is given for all plots (2.1, 2.2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 17, 18 and 19), from 1991-2018 (with the exception of 1994, 2001, 2008 2015 and 2016 when the section was fallowed). The maximum frequency per plot is 25."
         },
         {
             "inLanguage": "en",
             "descriptionType": "Provenance",
-            "description": "This subset of data of this single species, <i>C. arvense</i>, are derived from the e-RA database dataset BKWEEDS_PLOT. This complete dataset consists of records of all species of weeds recorded in section 8."
+            "description": "This subset of data of this single species, <em>C. arvense<em>, are derived from the e-RA database dataset BKWEEDS_PLOT. This complete dataset consists of records of all species of weeds recorded in section 8."
         },
         {
             "inLanguage": "en",
             "descriptionType": "Quality",
-            "description": " This data is recorded & provided by staff of the Weed Ecology Group, Rothamsted Research; Richard Hull, Stephen Moss, Jon Storkey who apply all appropriate quality assurance checks."
+            "description": " This data is recorded & provided by staff of the Weed Ecology Group, Rothamsted Research; Richard Hull, Stephen Moss, Jon Storkey who apply all appropirate quality assurance checks."
         }
     ],
     "publisher": {
         "type": "organization",
-        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+        "name": "The Electronic Rothamsted Archive, Rothamsted Research"
     },
-    "publication_year": 2019,
-    "dateCreated": null,
-    "dateModified": "2020-11-27",
     "datePublished": "2019-10-16",
+    "dateCreated": null,
+    "dateModified": null,
     "inLanguage": "en",
     "version": "1",
     "keywords": [
@@ -121,7 +120,7 @@
         },
         {
             "type": "Person",
-            "jobTitle": "DataManager",
+            "jobTitle": "RelatedPerson",
             "name": "Nathalie Castells-Brooke",
             "givenName": "Nathalie",
             "familyName": "Castells-Brooke",
@@ -165,7 +164,7 @@
     "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
     "copyrightHolder": {
         "type": "organization",
-        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+        "name": "The Electronic Rothamsted Archive, Rothamsted Research"
     },
     "license": {
         "type": "CreativeWork",
@@ -193,17 +192,17 @@
             "relationTypeValue": "is described by"
         },
         {
-            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Broadbalk/bbkweeds",
-            "relatedIdentifierType": "URL",
-            "name": "Broadbalk Weeds",
+            "relatedIdentifier": "10.23637/rbk1-today2018-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk Plan Today",
             "relatedIdentifierGeneralType": "text",
             "relationType": "Cites",
             "rt_id": 2,
             "relationTypeValue": "cites"
         },
         {
-            "relatedIdentifier": "10.23637/rbk1-FertTreats",
-            "relatedIdentifierType": "DOI",
+            "relatedIdentifier": "www.era.rothamsted.ac.uk/metadata/broad/BroadbalkFertilizerTreatments.pdf",
+            "relatedIdentifierType": "URL",
             "name": "Broadbalk Fertiliser Treatments",
             "relatedIdentifierGeneralType": "text",
             "relationType": "Cites",
@@ -211,9 +210,9 @@
             "relationTypeValue": "cites"
         },
         {
-            "relatedIdentifier": "10.23637/rbk1-today2018-01",
-            "relatedIdentifierType": "DOI",
-            "name": "Broadbalk Today revised 2018",
+            "relatedIdentifier": "www.era.rothamsted.ac.uk/Broadbalk/bbkweeds",
+            "relatedIdentifierType": "URL",
+            "name": "Broadbalk Weeds",
             "relatedIdentifierGeneralType": "text",
             "relationType": "Cites",
             "rt_id": 2,

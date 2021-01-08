@@ -442,6 +442,7 @@ if (isset($_REQUEST['process']) && $_REQUEST['process'] == 'confirm' ) {
     
     $loggedIn = 'yes';
     setcookie('doorbell', $_REQUEST['VC2'], time() + (86400 * 30), "/"); // 86400 = 1 day
+    setcookie('email', $email, time() + (86400 * 30), "/"); // 86400 = 1 day
     
     $output .= '<ul>';
     foreach ($answer as $key => $value) {

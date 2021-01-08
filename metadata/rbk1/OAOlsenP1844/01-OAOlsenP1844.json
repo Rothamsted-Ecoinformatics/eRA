@@ -19,7 +19,7 @@
     ],
     "publisher": {
         "type": "organization",
-        "name": "The Electronic Rothamsted Archive, Rothamsted Research"
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
     },
     "publication_year": 2016,
     "dateCreated": "2016-08-22",
@@ -111,7 +111,7 @@
             "name": "Paul Poulton",
             "givenName": "Paul",
             "familyName": "Poulton",
-            "sameAs": null,
+            "sameAs": "https://orcid.org/0000-0002-5720-064X",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
@@ -130,7 +130,7 @@
     "encodingFormat": "application/vnd.ms-excel",
     "copyrightHolder": {
         "type": "organization",
-        "name": "The Electronic Rothamsted Archive, Rothamsted Research"
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
     },
     "license": {
         "type": "CreativeWork",

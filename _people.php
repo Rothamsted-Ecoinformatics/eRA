@@ -214,33 +214,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
-			<div class="card mt-3 text-center border-0 ">
-				<div class="h-100 zoom ">
-					<picture>
-					<source media="(min-width: 576px)"
-						srcset="images/people/Pages/steve-freeman.jpg">
-					<source media="(min-width: 1200 px)"
-						srcset="images/people/Thumbs/steve-freeman.jpg">
-					<a target="_blank" href="https://www.rothamsted.ac.uk/our-people/steve-freeman"><img
-						class="card-img-top rounded-circle"
-						src="images/people/FullSize/steve-freeman.jpg" alt="Steve Freeman"
-						style="width: 100%"> </a></picture>
 
-				</div>
-				<div class="card-body text-top">
-					<h6 class="card-title">
-						<a class="text-warning"
-							target="_blank" href="https://www.rothamsted.ac.uk/our-people/steve-freeman">Steve
-							Freeman</a>
-					</h6>
-					<p class="card-text small">Ecology technician</p>
-
-				</div>
-
-			</div>
-
-		</div>
 		<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
 			<div class="card mt-3 text-center border-0">
 				<div class="h-100 zoom ">

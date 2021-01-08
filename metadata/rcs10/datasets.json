@@ -1,8 +1,8 @@
 [
     {
         "md_id": 1025119308,
-        "title": "Rothamsted long-term liming experiment crop yields",
-        "URL": "http://www.era.rothamsted.ac.uk/rcs10/RLTLYIELD",
+        "title": "Rothamsted long-term liming experiment crop yields 1962-1996",
+        "URL": "http://www.era.rothamsted.ac.uk/RCS10/RLTLYIELDS",
         "identifier": "10.23637/rcs10-rltlyields-01",
         "identifier_type": "DOI",
         "dataset_type": "Crop  yield data",
@@ -12,10 +12,29 @@
         "experiment_name": "Rothamsted Long-term Liming",
         "experiment_code": "R/CS/10",
         "grade": 1,
-        "dstype": "N/A",
+        "dstype": "Other",
         "publication_year": 2020,
         "version": "01",
         "shortName": "RLTLYIELDS",
         "UID": "01-RLTLYIELDS"
+    },
+    {
+        "md_id": -695085989,
+        "title": "Rothamsted long-term liming experiment grain nutrient data",
+        "URL": "http://www.era.rothamsted.ac.uk/RCS10/RLTLRGAIN",
+        "identifier": "10.23637/rcs10-rltlgrain-01",
+        "identifier_type": "DOI",
+        "dataset_type": "Crop nutrient data",
+        "extension": "xlsx",
+        "description": "The experiment tests the effects of different amounts of lime (and thus soil pH), P and K on the yields of a sequence of arable crops, on a silty clay loam soil at Rothamsted Experimental Farm, from 1962-1996. This data set provides details of the grain nutrient content (Ca, Mg, K, Na, S, P etc) measured several times during the experiment. There was a parallel experiment on a sandy loam soil at Woburn Experimental Farm.",
+        "fieldname": "Sawyers I",
+        "experiment_name": "Rothamsted Long-term Liming",
+        "experiment_code": "R/CS/10",
+        "grade": 1,
+        "dstype": "Other",
+        "publication_year": 0,
+        "version": "01",
+        "shortName": "RLTLGRAIN",
+        "UID": "01-RLTLGRAIN"
     }
 ]
