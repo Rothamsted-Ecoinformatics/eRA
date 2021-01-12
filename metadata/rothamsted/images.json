@@ -1,0 +1,50 @@
+[
+    {
+        "MediaID": 208,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rothamsted/1623-map.jpg",
+        "Caption": "1623 map",
+        "Type": "Other",
+        "exptID": "rothamsted",
+        "width": 750,
+        "height": 985,
+        "orientation": "Portrait",
+        "fileLocation": "metadata/rothamsted/1623-map.jpg"
+    },
+    {
+        "MediaID": 209,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rothamsted/1954-Harpenden-and-farm-maps.jpg",
+        "Caption": "1954 Harpenden and farm maps",
+        "Type": "Other",
+        "exptID": "rothamsted",
+        "width": 1954,
+        "height": 1264,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/rothamsted/1954-Harpenden-and-farm-maps.jpg"
+    },
+    {
+        "MediaID": 210,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rothamsted/archives-1.jpg",
+        "Caption": "Sample Archive",
+        "Type": "Other",
+        "exptID": "rothamsted",
+        "width": 750,
+        "height": 1143,
+        "orientation": "Portrait",
+        "fileLocation": "metadata/rothamsted/archives-1.jpg"
+    },
+    {
+        "MediaID": 801,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rothamsted/1954-Harpenden-and-farm-maps-RothamstedFarm.jpg",
+        "Caption": "1954 Harpenden and farm maps RothamstedFarm",
+        "Type": "Other",
+        "exptID": "rothamsted",
+        "width": 1954,
+        "height": 1264,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/rothamsted/1954-Harpenden-and-farm-maps-RothamstedFarm.jpg"
+    }
+]

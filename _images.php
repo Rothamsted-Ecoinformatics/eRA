@@ -25,7 +25,7 @@ if (!$expt) {$expt = $farm;}
 <h2 class="mx-3">Picture Gallery</h2>
 
 <?php
-$imageurl = 'metadata/default/images.json';
+$imageurl =  $exptFolder . '/' . 'images.json';
 if (is_file($imageurl)) {
     $idata = file_get_contents($imageurl);
     $data = json_decode($idata, true);

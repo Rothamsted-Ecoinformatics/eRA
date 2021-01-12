@@ -1,0 +1,74 @@
+[
+    {
+        "MediaID": 177,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/1623-map.jpg",
+        "Caption": "1623 map",
+        "Type": "Other",
+        "exptID": "rex4",
+        "width": 750,
+        "height": 985,
+        "orientation": "Portrait",
+        "fileLocation": "metadata/rex4/1623-map.jpg"
+    },
+    {
+        "MediaID": 178,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/Classical-Experiments-aerial-layout.jpg",
+        "Caption": "Classical Experiments aerial layout",
+        "Type": "Other",
+        "exptID": "rex4",
+        "width": 750,
+        "height": 536,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/rex4/Classical-Experiments-aerial-layout.jpg"
+    },
+    {
+        "MediaID": 179,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/Exhaustion-Land-fig-6-of-guide.jpg",
+        "Caption": "Exhaustion Land fig 6 of guide",
+        "Type": "Other",
+        "exptID": "rex4",
+        "width": 806,
+        "height": 423,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/rex4/Exhaustion-Land-fig-6-of-guide.jpg"
+    },
+    {
+        "MediaID": 180,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/Hoosfield-LTEs.jpg",
+        "Caption": "Hoosfield LTEs",
+        "Type": "Other",
+        "exptID": "rex4",
+        "width": 729,
+        "height": 547,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/rex4/Hoosfield-LTEs.jpg"
+    },
+    {
+        "MediaID": 181,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/Hoosfield.jpg",
+        "Caption": "Hoosfield",
+        "Type": "Other",
+        "exptID": "rex4",
+        "width": 625,
+        "height": 176,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/rex4/Hoosfield.jpg"
+    },
+    {
+        "MediaID": 761,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rex4/Classical-Experiments-aerial-layout.jpg",
+        "Caption": "Classical Experiments aerial layout 750",
+        "Type": "Other",
+        "exptID": "rex4",
+        "width": 750,
+        "height": 536,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/rex4/Classical-Experiments-aerial-layout.jpg"
+    }
+]

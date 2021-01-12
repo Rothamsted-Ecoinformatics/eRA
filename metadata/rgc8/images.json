@@ -1,0 +1,50 @@
+[
+    {
+        "MediaID": 182,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rgc8/1921-Garden-Clover-750.jpg",
+        "Caption": "1921 Garden Clover 750",
+        "Type": "Other",
+        "exptID": "rgc8",
+        "width": 750,
+        "height": 576,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/rgc8/1921-Garden-Clover-750.jpg"
+    },
+    {
+        "MediaID": 183,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rgc8/Garden-Clover-RGC8-2008-Cut-1A-750.jpg",
+        "Caption": "Garden Clover RGC8 2008 Cut 1A 750",
+        "Type": "Other",
+        "exptID": "rgc8",
+        "width": 750,
+        "height": 502,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/rgc8/Garden-Clover-RGC8-2008-Cut-1A-750.jpg"
+    },
+    {
+        "MediaID": 184,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rgc8/Garden-Clover-RGC8-2012-Resown-750.jpg",
+        "Caption": "Garden Clover RGC8 2012 Resown 750",
+        "Type": "Other",
+        "exptID": "rgc8",
+        "width": 750,
+        "height": 562,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/rgc8/Garden-Clover-RGC8-2012-Resown-750.jpg"
+    },
+    {
+        "MediaID": 185,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rgc8/Garden-clover-120508-Cut-1B-750.jpg",
+        "Caption": "Garden clover 120508 Cut 1B 750",
+        "Type": "Other",
+        "exptID": "rgc8",
+        "width": 750,
+        "height": 1120,
+        "orientation": "Portrait",
+        "fileLocation": "metadata/rgc8/Garden-clover-120508-Cut-1B-750.jpg"
+    }
+]

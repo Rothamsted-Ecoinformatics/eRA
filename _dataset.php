@@ -427,7 +427,7 @@ if (isset($arrDescription['Other'])) {
 									href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
 
 							</p>
-							<h5>Conditions of use</h5>
+							<h5>Conditions of Use</h5>
 						
 							<p>Rothamsted relies on the integrity of users to ensure that
 								Rothamsted Research receives suitable acknowledgment as being
