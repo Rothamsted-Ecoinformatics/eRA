@@ -25,20 +25,16 @@
 	<div class="row p-3 m-3">
 		<h3>You can browse the e-RA site using the menus above:</h3>
 		<ul>
-			<li><b>Experiments:</b> lists the main long term experiments, grouped
-				by station. Each experiment is described extensively and has a list
-				of all the datasets available for it, documnets, history and images.
+			<li><b>Experiments:</b> lists the main long-term experiments, grouped
+				by research farm. Each experiment is described extensively and has a list
+				of all the datasets available for it, supporting documentation, site details and history and images.
 			</li>
 			<li><b>Weather Data:</b> Daily meteorological data is recorded at
-				three of the Rothamsted Research sites, Rothamsted, Woburn and
-				Brooms Barn. We provide here all the information on how it is
-				recorded, the actual data (available through e-RAdata), some more
-				technical sheets concerning the variables available, and even some
-				interesting exercises you can do using the simple datasets we
-				provide for the public and schools.
-			
+				three of the Rothamsted Research sites: Rothamsted, Woburn and
+				Brooms Barn. This section provides information on the available data plus data collection and processing methods. 
+				We also provide educational datasets for schools.
 			<li><b>About:</b> has information on the e-RA project, who to
-				contact, how to give credit, help files.</li>
+				contact, how to give credit and help.</li>
 		</ul>
 
 		<h3>
