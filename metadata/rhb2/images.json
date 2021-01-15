@@ -132,6 +132,30 @@
         "fileLocation": "metadata/rhb2/hfn.jpg"
     },
     {
+        "MediaID": 202,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hoosfield.jpg",
+        "Caption": "hoosfield",
+        "Type": "Other",
+        "exptID": "rhb2",
+        "width": 750,
+        "height": 526,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/rhb2/hoosfield.jpg"
+    },
+    {
+        "MediaID": 201,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hoosfield-today.gif",
+        "Caption": "hoosfield today",
+        "Type": "Other",
+        "exptID": "rhb2",
+        "width": 770,
+        "height": 1080,
+        "orientation": "Portrait",
+        "fileLocation": "metadata/rhb2/hoosfield-today.gif"
+    },
+    {
         "MediaID": 197,
         "Credit": "eRA curators",
         "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hoos-field-yield-openaccess.jpg",
@@ -156,18 +180,6 @@
         "fileLocation": "metadata/rhb2/hoos-original.png"
     },
     {
-        "MediaID": 199,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hoos-small-80.png",
-        "Caption": "hoos small 80",
-        "Type": "Other",
-        "exptID": "rhb2",
-        "width": 615,
-        "height": 399,
-        "orientation": "Landscape",
-        "fileLocation": "metadata/rhb2/hoos-small-80.png"
-    },
-    {
         "MediaID": 200,
         "Credit": "eRA curators",
         "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hoos-small.png",
@@ -180,40 +192,16 @@
         "fileLocation": "metadata/rhb2/hoos-small.png"
     },
     {
-        "MediaID": 201,
+        "MediaID": 199,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hoosfield-today.gif",
-        "Caption": "hoosfield today",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hoos-small-80.png",
+        "Caption": "hoos small 80",
         "Type": "Other",
         "exptID": "rhb2",
-        "width": 770,
-        "height": 1080,
-        "orientation": "Portrait",
-        "fileLocation": "metadata/rhb2/hoosfield-today.gif"
-    },
-    {
-        "MediaID": 202,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/hoosfield.jpg",
-        "Caption": "hoosfield",
-        "Type": "Other",
-        "exptID": "rhb2",
-        "width": 750,
-        "height": 526,
+        "width": 615,
+        "height": 399,
         "orientation": "Landscape",
-        "fileLocation": "metadata/rhb2/hoosfield.jpg"
-    },
-    {
-        "MediaID": 203,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/icp-oes.jpg",
-        "Caption": "icp oes",
-        "Type": "Other",
-        "exptID": "rhb2",
-        "width": 750,
-        "height": 499,
-        "orientation": "Landscape",
-        "fileLocation": "metadata/rhb2/icp-oes.jpg"
+        "fileLocation": "metadata/rhb2/hoos-small-80.png"
     },
     {
         "MediaID": 204,
@@ -226,6 +214,18 @@
         "height": 499,
         "orientation": "Landscape",
         "fileLocation": "metadata/rhb2/icp.jpg"
+    },
+    {
+        "MediaID": 203,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/icp-oes.jpg",
+        "Caption": "icp oes",
+        "Type": "Other",
+        "exptID": "rhb2",
+        "width": 750,
+        "height": 499,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/rhb2/icp-oes.jpg"
     },
     {
         "MediaID": 205,
@@ -262,17 +262,5 @@
         "height": 524,
         "orientation": "Landscape",
         "fileLocation": "metadata/rhb2/solar.jpg"
-    },
-    {
-        "MediaID": 773,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rhb2/1623-map.jpg",
-        "Caption": "1623 map",
-        "Type": "Other",
-        "exptID": "rhb2",
-        "width": 750,
-        "height": 985,
-        "orientation": "Portrait",
-        "fileLocation": "metadata/rhb2/1623-map.jpg"
     }
 ]

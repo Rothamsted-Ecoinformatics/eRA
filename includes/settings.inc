@@ -273,7 +273,7 @@ $pageSettings = array(
         "exp-ID" => 13,
         "Experiment" => "Rothamsted Weather Station",
         "ExptCode" => "rms",
-        "KeyRef" => " - ",
+        "KeyRef" => "KeyRefRMS",
         "URLCode" => "",
         "prevFolder" => ""
     ),

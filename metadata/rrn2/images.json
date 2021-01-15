@@ -1,1 +1,38 @@
-[]
+[
+    {
+        "MediaID": 58,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/2013-Fosters.jpg",
+        "Caption": "Fosters - 2013",
+        "Type": "Other",
+        "exptID": "rrn2",
+        "width": 750,
+        "height": 500,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/others/2013-Fosters.jpg"
+    },
+    {
+        "MediaID": 63,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/2015-Fosters.jpg",
+        "Caption": "Fosters (2015)",
+        "Type": "Other",
+        "exptID": "rrn2",
+        "width": 750,
+        "height": 500,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/others/2015-Fosters.jpg"
+    },
+    {
+        "MediaID": 62,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/2015-Fosters-Ley-Arable.jpg",
+        "Caption": "Fosters Ley Arable - 2015",
+        "Type": "Other",
+        "exptID": "rrn2",
+        "width": 675,
+        "height": 217,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/others/2015-Fosters-Ley-Arable.jpg"
+    }
+]

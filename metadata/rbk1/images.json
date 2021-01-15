@@ -27,7 +27,7 @@
         "MediaID": 84,
         "Credit": "eRA curators",
         "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/1623-map.jpg",
-        "Caption": "1623 map",
+        "Caption": "Rothamsted estate in 1623",
         "Type": "Other",
         "exptID": "rbk1",
         "width": 750,
@@ -39,7 +39,7 @@
         "MediaID": 85,
         "Credit": "eRA curators",
         "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/1880-Broadbalk-harvest-1880.jpg",
-        "Caption": "1880 Broadbalk harvest 1880",
+        "Caption": "Broadbalk harvest 1880",
         "Type": "Other",
         "exptID": "rbk1",
         "width": 750,
@@ -48,22 +48,10 @@
         "fileLocation": "metadata/rbk1/1880-Broadbalk-harvest-1880.jpg"
     },
     {
-        "MediaID": 86,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/1935-Tractor-plough.jpg",
-        "Caption": "1935 Tractor plough",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 750,
-        "height": 480,
-        "orientation": "Landscape",
-        "fileLocation": "metadata/rbk1/1935-Tractor-plough.jpg"
-    },
-    {
         "MediaID": 87,
         "Credit": "eRA curators",
         "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/1935-horse-harvest.jpg",
-        "Caption": "1935 horse harvest",
+        "Caption": "Horse harvest 1935",
         "Type": "Other",
         "exptID": "rbk1",
         "width": 750,
@@ -75,7 +63,7 @@
         "MediaID": 88,
         "Credit": "eRA curators",
         "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/1935-tractor-harvest.jpg",
-        "Caption": "1935 tractor harvest",
+        "Caption": "Tractor harvest - 1935",
         "Type": "Other",
         "exptID": "rbk1",
         "width": 750,
@@ -84,10 +72,22 @@
         "fileLocation": "metadata/rbk1/1935-tractor-harvest.jpg"
     },
     {
+        "MediaID": 86,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/1935-Tractor-plough.jpg",
+        "Caption": "Tractor plough - 1935",
+        "Type": "Other",
+        "exptID": "rbk1",
+        "width": 750,
+        "height": 480,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/rbk1/1935-Tractor-plough.jpg"
+    },
+    {
         "MediaID": 89,
         "Credit": "eRA curators",
         "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/1943-Broadbalk-sampling.jpg",
-        "Caption": "1943 Broadbalk sampling",
+        "Caption": "Broadbalk sampling - 1945",
         "Type": "Other",
         "exptID": "rbk1",
         "width": 750,
@@ -99,7 +99,7 @@
         "MediaID": 90,
         "Credit": "eRA curators",
         "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/1949-Broadbalk-plan.jpg",
-        "Caption": "1949 Broadbalk plan",
+        "Caption": "Broadbalk plan - 1949",
         "Type": "Other",
         "exptID": "rbk1",
         "width": 750,
@@ -111,7 +111,7 @@
         "MediaID": 91,
         "Credit": "eRA curators",
         "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/1954-Broadbalk-Section5.jpg",
-        "Caption": "1954 Broadbalk Section5",
+        "Caption": "Broadbalk Section5 1954",
         "Type": "Other",
         "exptID": "rbk1",
         "width": 751,
@@ -123,7 +123,7 @@
         "MediaID": 92,
         "Credit": "eRA curators",
         "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/2012-AJ-12-10.jpg",
-        "Caption": "2012 AJ 12 10",
+        "Caption": "Broadboalk, 2012",
         "Type": "Other",
         "exptID": "rbk1",
         "width": 4256,
@@ -135,7 +135,7 @@
         "MediaID": 93,
         "Credit": "eRA curators",
         "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/2015-Rothamsted-Farm-Broadbalk.jpg",
-        "Caption": "2015 Rothamsted Farm Broadbalk",
+        "Caption": "Rothamsted Farm Broadbalk 2015",
         "Type": "Other",
         "exptID": "rbk1",
         "width": 5472,
@@ -156,16 +156,40 @@
         "fileLocation": "metadata/rbk1/2016-Broadbalk-03.jpg"
     },
     {
-        "MediaID": 95,
+        "MediaID": 148,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Aerial-pic-3.34.jpg",
-        "Caption": "Aerial pic 3",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/acid-ind.jpg",
+        "Caption": "Acid",
         "Type": "Other",
         "exptID": "rbk1",
-        "width": 1024,
-        "height": 617,
+        "width": 750,
+        "height": 499,
         "orientation": "Landscape",
-        "fileLocation": "metadata/rbk1/Aerial-pic-3.34.jpg"
+        "fileLocation": "metadata/rbk1/acid-ind.jpg"
+    },
+    {
+        "MediaID": 149,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/archives-1.jpg",
+        "Caption": "Rothamsted Samples Archive",
+        "Type": "Other",
+        "exptID": "rbk1",
+        "width": 750,
+        "height": 1143,
+        "orientation": "Portrait",
+        "fileLocation": "metadata/rbk1/archives-1.jpg"
+    },
+    {
+        "MediaID": 150,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/archives-2.jpg",
+        "Caption": "Rothamsted Samples Archive",
+        "Type": "Other",
+        "exptID": "rbk1",
+        "width": 750,
+        "height": 489,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/rbk1/archives-2.jpg"
     },
     {
         "MediaID": 96,
@@ -178,6 +202,30 @@
         "height": 993,
         "orientation": "Portrait",
         "fileLocation": "metadata/rbk1/BFR-Microdochium.jpg"
+    },
+    {
+        "MediaID": 151,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/bk-grain-1945.jpg",
+        "Caption": "Broadbalk grain 1945",
+        "Type": "Other",
+        "exptID": "rbk1",
+        "width": 750,
+        "height": 1300,
+        "orientation": "Portrait",
+        "fileLocation": "metadata/rbk1/bk-grain-1945.jpg"
+    },
+    {
+        "MediaID": 99,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Blackgrass.jpg",
+        "Caption": "Blackgrass",
+        "Type": "Other",
+        "exptID": "rbk1",
+        "width": 750,
+        "height": 1066,
+        "orientation": "Portrait",
+        "fileLocation": "metadata/rbk1/Blackgrass.jpg"
     },
     {
         "MediaID": 97,
@@ -204,76 +252,28 @@
         "fileLocation": "metadata/rbk1/Black-nightshade.jpg"
     },
     {
-        "MediaID": 99,
+        "MediaID": 152,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Blackgrass.jpg",
-        "Caption": "Blackgrass",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/broadbalk-2003.jpg",
+        "Caption": "Broadbalk 2003",
         "Type": "Other",
         "exptID": "rbk1",
         "width": 750,
-        "height": 1066,
-        "orientation": "Portrait",
-        "fileLocation": "metadata/rbk1/Blackgrass.jpg"
-    },
-    {
-        "MediaID": 100,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-20-August.gif",
-        "Caption": "Broadbalk 20 August",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 1024,
-        "height": 743,
+        "height": 588,
         "orientation": "Landscape",
-        "fileLocation": "metadata/rbk1/Broadbalk-20-August.gif"
+        "fileLocation": "metadata/rbk1/broadbalk-2003.jpg"
     },
     {
         "MediaID": 101,
         "Credit": "eRA curators",
         "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-20-August.jpg",
-        "Caption": "Broadbalk 20 August",
+        "Caption": "Broadbalk August 1920",
         "Type": "Other",
         "exptID": "rbk1",
         "width": 750,
         "height": 544,
         "orientation": "Landscape",
         "fileLocation": "metadata/rbk1/Broadbalk-20-August.jpg"
-    },
-    {
-        "MediaID": 102,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-Mean-Yields-2016.png",
-        "Caption": "Broadbalk Mean Yields 2016",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 725,
-        "height": 422,
-        "orientation": "Landscape",
-        "fileLocation": "metadata/rbk1/Broadbalk-Mean-Yields-2016.png"
-    },
-    {
-        "MediaID": 103,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-Yield-Fig-June-2017.png",
-        "Caption": "Broadbalk Yield Fig June 2017",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 1161,
-        "height": 717,
-        "orientation": "Landscape",
-        "fileLocation": "metadata/rbk1/Broadbalk-Yield-Fig-June-2017.png"
-    },
-    {
-        "MediaID": 104,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-original.png",
-        "Caption": "Broadbalk original",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 981,
-        "height": 646,
-        "orientation": "Landscape",
-        "fileLocation": "metadata/rbk1/Broadbalk-original.png"
     },
     {
         "MediaID": 105,
@@ -315,25 +315,13 @@
         "MediaID": 108,
         "Credit": "eRA curators",
         "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Broadbalk-wheat-elevated-view-750-8553.jpg",
-        "Caption": "Broadbalk wheat elevated view 750 8553",
+        "Caption": "Broadbalk wheat elevated view",
         "Type": "Other",
         "exptID": "rbk1",
         "width": 750,
         "height": 476,
         "orientation": "Landscape",
         "fileLocation": "metadata/rbk1/Broadbalk-wheat-elevated-view-750-8553.jpg"
-    },
-    {
-        "MediaID": 109,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/BroadbalkOrgC.png",
-        "Caption": "BroadbalkOrgC",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 727,
-        "height": 474,
-        "orientation": "Landscape",
-        "fileLocation": "metadata/rbk1/BroadbalkOrgC.png"
     },
     {
         "MediaID": 110,
@@ -348,16 +336,16 @@
         "fileLocation": "metadata/rbk1/Canadian-fleabane.jpg"
     },
     {
-        "MediaID": 111,
+        "MediaID": 113,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Changes-in-Olsen-P.png",
-        "Caption": "Changes in Olsen P",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Chickweed.jpg",
+        "Caption": "Chickweed",
         "Type": "Other",
         "exptID": "rbk1",
-        "width": 1207,
-        "height": 835,
-        "orientation": "Landscape",
-        "fileLocation": "metadata/rbk1/Changes-in-Olsen-P.png"
+        "width": 750,
+        "height": 1140,
+        "orientation": "Portrait",
+        "fileLocation": "metadata/rbk1/Chickweed.jpg"
     },
     {
         "MediaID": 112,
@@ -372,18 +360,6 @@
         "fileLocation": "metadata/rbk1/Chickweed-macro.jpg"
     },
     {
-        "MediaID": 113,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Chickweed.jpg",
-        "Caption": "Chickweed",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 750,
-        "height": 1140,
-        "orientation": "Portrait",
-        "fileLocation": "metadata/rbk1/Chickweed.jpg"
-    },
-    {
         "MediaID": 114,
         "Credit": "eRA curators",
         "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Cleavers.jpg",
@@ -394,6 +370,18 @@
         "height": 1170,
         "orientation": "Portrait",
         "fileLocation": "metadata/rbk1/Cleavers.jpg"
+    },
+    {
+        "MediaID": 155,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/colour-analyser.jpg",
+        "Caption": "colour analyser",
+        "Type": "Other",
+        "exptID": "rbk1",
+        "width": 750,
+        "height": 499,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/rbk1/colour-analyser.jpg"
     },
     {
         "MediaID": 115,
@@ -420,6 +408,30 @@
         "fileLocation": "metadata/rbk1/Common-vetch.jpg"
     },
     {
+        "MediaID": 156,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/condrometer-half-litre.jpg",
+        "Caption": "condrometer half litre",
+        "Type": "Other",
+        "exptID": "rbk1",
+        "width": 750,
+        "height": 498,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/rbk1/condrometer-half-litre.jpg"
+    },
+    {
+        "MediaID": 157,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/condrometer-litre.jpg",
+        "Caption": "condrometer litre",
+        "Type": "Other",
+        "exptID": "rbk1",
+        "width": 750,
+        "height": 528,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/rbk1/condrometer-litre.jpg"
+    },
+    {
         "MediaID": 117,
         "Credit": "eRA curators",
         "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Corn-buttercup.jpg",
@@ -432,18 +444,6 @@
         "fileLocation": "metadata/rbk1/Corn-buttercup.jpg"
     },
     {
-        "MediaID": 118,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Corn-marigold.jpg",
-        "Caption": "Corn marigold",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 4605,
-        "height": 2716,
-        "orientation": "Landscape",
-        "fileLocation": "metadata/rbk1/Corn-marigold.jpg"
-    },
-    {
         "MediaID": 119,
         "Credit": "eRA curators",
         "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Cornflower.jpg",
@@ -454,6 +454,18 @@
         "height": 3069,
         "orientation": "Landscape",
         "fileLocation": "metadata/rbk1/Cornflower.jpg"
+    },
+    {
+        "MediaID": 118,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Corn-marigold.jpg",
+        "Caption": "Corn marigold",
+        "Type": "Other",
+        "exptID": "rbk1",
+        "width": 4605,
+        "height": 2716,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/rbk1/Corn-marigold.jpg"
     },
     {
         "MediaID": 120,
@@ -576,6 +588,54 @@
         "fileLocation": "metadata/rbk1/Fools-parsley.jpg"
     },
     {
+        "MediaID": 158,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/galium-tricornutum.png",
+        "Caption": "galium tricornutum",
+        "Type": "Other",
+        "exptID": "rbk1",
+        "width": 750,
+        "height": 678,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/rbk1/galium-tricornutum.png"
+    },
+    {
+        "MediaID": 159,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/grain-counter.jpg",
+        "Caption": "grain counter",
+        "Type": "Other",
+        "exptID": "rbk1",
+        "width": 750,
+        "height": 498,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/rbk1/grain-counter.jpg"
+    },
+    {
+        "MediaID": 160,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/groundsel.jpg",
+        "Caption": "groundsel",
+        "Type": "Other",
+        "exptID": "rbk1",
+        "width": 750,
+        "height": 480,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/rbk1/groundsel.jpg"
+    },
+    {
+        "MediaID": 161,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/hfn.jpg",
+        "Caption": "hfn",
+        "Type": "Other",
+        "exptID": "rbk1",
+        "width": 750,
+        "height": 498,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/rbk1/hfn.jpg"
+    },
+    {
         "MediaID": 130,
         "Credit": "eRA curators",
         "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Horsetails.jpg",
@@ -586,6 +646,30 @@
         "height": 562,
         "orientation": "Landscape",
         "fileLocation": "metadata/rbk1/Horsetails.jpg"
+    },
+    {
+        "MediaID": 163,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/icp.jpg",
+        "Caption": "icp",
+        "Type": "Other",
+        "exptID": "rbk1",
+        "width": 750,
+        "height": 499,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/rbk1/icp.jpg"
+    },
+    {
+        "MediaID": 162,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/icp-oes.jpg",
+        "Caption": "icp oes",
+        "Type": "Other",
+        "exptID": "rbk1",
+        "width": 750,
+        "height": 499,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/rbk1/icp-oes.jpg"
     },
     {
         "MediaID": 131,
@@ -600,6 +684,30 @@
         "fileLocation": "metadata/rbk1/Large-TA-patches.jpg"
     },
     {
+        "MediaID": 164,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/leco.jpg",
+        "Caption": "leco",
+        "Type": "Other",
+        "exptID": "rbk1",
+        "width": 750,
+        "height": 499,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/rbk1/leco.jpg"
+    },
+    {
+        "MediaID": 165,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/mass-spec.jpg",
+        "Caption": "mass spec",
+        "Type": "Other",
+        "exptID": "rbk1",
+        "width": 750,
+        "height": 499,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/rbk1/mass-spec.jpg"
+    },
+    {
         "MediaID": 132,
         "Credit": "eRA curators",
         "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Meadow-vetchling.jpg",
@@ -610,6 +718,18 @@
         "height": 480,
         "orientation": "Landscape",
         "fileLocation": "metadata/rbk1/Meadow-vetchling.jpg"
+    },
+    {
+        "MediaID": 166,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/narrow-fruited-cornsalad.jpg",
+        "Caption": "narrow fruited cornsalad",
+        "Type": "Other",
+        "exptID": "rbk1",
+        "width": 750,
+        "height": 1170,
+        "orientation": "Portrait",
+        "fileLocation": "metadata/rbk1/narrow-fruited-cornsalad.jpg"
     },
     {
         "MediaID": 133,
@@ -660,16 +780,16 @@
         "fileLocation": "metadata/rbk1/Red-bartsia.jpg"
     },
     {
-        "MediaID": 137,
+        "MediaID": 139,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/SES-April.jpg",
-        "Caption": "SES April",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Section-8.jpg",
+        "Caption": "Section 8",
         "Type": "Other",
         "exptID": "rbk1",
-        "width": 604,
-        "height": 842,
-        "orientation": "Portrait",
-        "fileLocation": "metadata/rbk1/SES-April.jpg"
+        "width": 750,
+        "height": 489,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/rbk1/Section-8.jpg"
     },
     {
         "MediaID": 138,
@@ -684,16 +804,16 @@
         "fileLocation": "metadata/rbk1/Section-8-sign.jpg"
     },
     {
-        "MediaID": 139,
+        "MediaID": 137,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Section-8.jpg",
-        "Caption": "Section 8",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/SES-April.jpg",
+        "Caption": "SES April",
         "Type": "Other",
         "exptID": "rbk1",
-        "width": 750,
-        "height": 489,
-        "orientation": "Landscape",
-        "fileLocation": "metadata/rbk1/Section-8.jpg"
+        "width": 604,
+        "height": 842,
+        "orientation": "Portrait",
+        "fileLocation": "metadata/rbk1/SES-April.jpg"
     },
     {
         "MediaID": 140,
@@ -756,18 +876,6 @@
         "fileLocation": "metadata/rbk1/Shepherd-needle.jpg"
     },
     {
-        "MediaID": 145,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Sterile-brome-2.jpg",
-        "Caption": "Sterile brome 2",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 2952,
-        "height": 4606,
-        "orientation": "Portrait",
-        "fileLocation": "metadata/rbk1/Sterile-brome-2.jpg"
-    },
-    {
         "MediaID": 146,
         "Credit": "eRA curators",
         "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Sterile-brome.jpg",
@@ -780,280 +888,28 @@
         "fileLocation": "metadata/rbk1/Sterile-brome.jpg"
     },
     {
-        "MediaID": 147,
+        "MediaID": 145,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Venus-looking-glass.jpg",
-        "Caption": "Venus looking glass",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Sterile-brome-2.jpg",
+        "Caption": "Sterile brome 2",
         "Type": "Other",
         "exptID": "rbk1",
-        "width": 4606,
-        "height": 2952,
-        "orientation": "Landscape",
-        "fileLocation": "metadata/rbk1/Venus-looking-glass.jpg"
-    },
-    {
-        "MediaID": 148,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/acid-ind.jpg",
-        "Caption": "acid ind",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 750,
-        "height": 499,
-        "orientation": "Landscape",
-        "fileLocation": "metadata/rbk1/acid-ind.jpg"
-    },
-    {
-        "MediaID": 149,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/archives-1.jpg",
-        "Caption": "archives 1",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 750,
-        "height": 1143,
+        "width": 2952,
+        "height": 4606,
         "orientation": "Portrait",
-        "fileLocation": "metadata/rbk1/archives-1.jpg"
+        "fileLocation": "metadata/rbk1/Sterile-brome-2.jpg"
     },
     {
-        "MediaID": 150,
+        "MediaID": 171,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/archives-2.jpg",
-        "Caption": "archives 2",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/straw.jpg",
+        "Caption": "raw",
         "Type": "Other",
         "exptID": "rbk1",
-        "width": 750,
-        "height": 489,
-        "orientation": "Landscape",
-        "fileLocation": "metadata/rbk1/archives-2.jpg"
-    },
-    {
-        "MediaID": 151,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/bk-grain-1945.jpg",
-        "Caption": "bk grain 1945",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 750,
-        "height": 1300,
+        "width": 1024,
+        "height": 1541,
         "orientation": "Portrait",
-        "fileLocation": "metadata/rbk1/bk-grain-1945.jpg"
-    },
-    {
-        "MediaID": 152,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/broadbalk-2003.jpg",
-        "Caption": "broadbalk 2003",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 750,
-        "height": 588,
-        "orientation": "Landscape",
-        "fileLocation": "metadata/rbk1/broadbalk-2003.jpg"
-    },
-    {
-        "MediaID": 153,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/broadbalk-plan-today.jpg",
-        "Caption": "broadbalk plan today",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 750,
-        "height": 1087,
-        "orientation": "Portrait",
-        "fileLocation": "metadata/rbk1/broadbalk-plan-today.jpg"
-    },
-    {
-        "MediaID": 154,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/broadbalk.gif",
-        "Caption": "broadbalk",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 574,
-        "height": 749,
-        "orientation": "Portrait",
-        "fileLocation": "metadata/rbk1/broadbalk.gif"
-    },
-    {
-        "MediaID": 155,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/colour-analyser.jpg",
-        "Caption": "colour analyser",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 750,
-        "height": 499,
-        "orientation": "Landscape",
-        "fileLocation": "metadata/rbk1/colour-analyser.jpg"
-    },
-    {
-        "MediaID": 156,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/condrometer-half-litre.jpg",
-        "Caption": "condrometer half litre",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 750,
-        "height": 498,
-        "orientation": "Landscape",
-        "fileLocation": "metadata/rbk1/condrometer-half-litre.jpg"
-    },
-    {
-        "MediaID": 157,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/condrometer-litre.jpg",
-        "Caption": "condrometer litre",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 750,
-        "height": 528,
-        "orientation": "Landscape",
-        "fileLocation": "metadata/rbk1/condrometer-litre.jpg"
-    },
-    {
-        "MediaID": 158,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/galium-tricornutum.png",
-        "Caption": "galium tricornutum",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 750,
-        "height": 678,
-        "orientation": "Landscape",
-        "fileLocation": "metadata/rbk1/galium-tricornutum.png"
-    },
-    {
-        "MediaID": 159,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/grain-counter.jpg",
-        "Caption": "grain counter",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 750,
-        "height": 498,
-        "orientation": "Landscape",
-        "fileLocation": "metadata/rbk1/grain-counter.jpg"
-    },
-    {
-        "MediaID": 160,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/groundsel.jpg",
-        "Caption": "groundsel",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 750,
-        "height": 480,
-        "orientation": "Landscape",
-        "fileLocation": "metadata/rbk1/groundsel.jpg"
-    },
-    {
-        "MediaID": 161,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/hfn.jpg",
-        "Caption": "hfn",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 750,
-        "height": 498,
-        "orientation": "Landscape",
-        "fileLocation": "metadata/rbk1/hfn.jpg"
-    },
-    {
-        "MediaID": 162,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/icp-oes.jpg",
-        "Caption": "icp oes",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 750,
-        "height": 499,
-        "orientation": "Landscape",
-        "fileLocation": "metadata/rbk1/icp-oes.jpg"
-    },
-    {
-        "MediaID": 163,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/icp.jpg",
-        "Caption": "icp",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 750,
-        "height": 499,
-        "orientation": "Landscape",
-        "fileLocation": "metadata/rbk1/icp.jpg"
-    },
-    {
-        "MediaID": 164,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/leco.jpg",
-        "Caption": "leco",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 750,
-        "height": 499,
-        "orientation": "Landscape",
-        "fileLocation": "metadata/rbk1/leco.jpg"
-    },
-    {
-        "MediaID": 165,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/mass-spec.jpg",
-        "Caption": "mass spec",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 750,
-        "height": 499,
-        "orientation": "Landscape",
-        "fileLocation": "metadata/rbk1/mass-spec.jpg"
-    },
-    {
-        "MediaID": 166,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/narrow-fruited-cornsalad.jpg",
-        "Caption": "narrow fruited cornsalad",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 750,
-        "height": 1170,
-        "orientation": "Portrait",
-        "fileLocation": "metadata/rbk1/narrow-fruited-cornsalad.jpg"
-    },
-    {
-        "MediaID": 167,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/posterMacDonald.jpg",
-        "Caption": "posterMacDonald",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 993,
-        "height": 1403,
-        "orientation": "Portrait",
-        "fileLocation": "metadata/rbk1/posterMacDonald.jpg"
-    },
-    {
-        "MediaID": 168,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/rothamsted-farm-plan.jpg",
-        "Caption": "rothamsted farm plan",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 750,
-        "height": 484,
-        "orientation": "Landscape",
-        "fileLocation": "metadata/rbk1/rothamsted-farm-plan.jpg"
-    },
-    {
-        "MediaID": 169,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/soils-map.png",
-        "Caption": "oils map",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 570,
-        "height": 605,
-        "orientation": "Portrait",
-        "fileLocation": "metadata/rbk1/soils-map.png"
+        "fileLocation": "metadata/rbk1/straw.jpg"
     },
     {
         "MediaID": 170,
@@ -1068,16 +924,16 @@
         "fileLocation": "metadata/rbk1/straw-cut.jpg"
     },
     {
-        "MediaID": 171,
+        "MediaID": 147,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/straw.jpg",
-        "Caption": "raw",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/Venus-looking-glass.jpg",
+        "Caption": "Venus looking glass",
         "Type": "Other",
         "exptID": "rbk1",
-        "width": 1024,
-        "height": 1541,
-        "orientation": "Portrait",
-        "fileLocation": "metadata/rbk1/straw.jpg"
+        "width": 4606,
+        "height": 2952,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/rbk1/Venus-looking-glass.jpg"
     },
     {
         "MediaID": 172,
@@ -1114,18 +970,6 @@
         "height": 1125,
         "orientation": "Portrait",
         "fileLocation": "metadata/rbk1/wheat-ripe.jpg"
-    },
-    {
-        "MediaID": 175,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rbk1/wheat-seeds.jpg",
-        "Caption": "wheat seeds",
-        "Type": "Other",
-        "exptID": "rbk1",
-        "width": 750,
-        "height": 498,
-        "orientation": "Landscape",
-        "fileLocation": "metadata/rbk1/wheat-seeds.jpg"
     },
     {
         "MediaID": 176,

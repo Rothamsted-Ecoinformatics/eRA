@@ -48,7 +48,7 @@
 			<img class="d-block w-100" src="images/banners/Gees-Croft.jpg"
 				alt="Gees-Croft"></a>
 			<div class="carousel-caption d-none d-md-block">
-				<h2><a class="text-light" href="experiment/rge9">Gees-Croft</a></h2>
+				<h2><a class="text-light" href="experiment/rge9">Geescroft</a></h2>
 				<p>A wilderness experiment</p>
 			</div>
 		</div>

@@ -229,41 +229,38 @@ function buildemail($answers = array())
 <P>Dear " . $answers['fname'] . " <br />
     
 <br />
-You, or someone pretending to be you has requested login or registration into eRA
+You, or someone pretending to be you has requested login or registration into eRA. 
 <br />
 ";
     if ($process == 'register') {
         $message .= "
-    
+    <p>The following information was entered</p>
 <ul> 
 <li>Name :  " . $answers['fname'] . " " . $answers['lname'] . "</li>
 <li>Email address: " . $answers['email'] . "</li>
 <li>Institution: " . $answers['institution'] . "</li>
 <li>Country: " . $answers['country'] . "</li>
-<li>Why access Data: " . $answers['information'] . "</li>
+<li>Comment: " . $answers['information'] . "</li>
 </ul>
 
 ";
     }
     
     $message .= "
-Confirm by  following the link, </p>
+<p> </p>
     
 
     
 <a  target =\"eRAApp\" href=\"".$Web_base."index.php?process=confirm&VC="
 				    . $answers['vericode'] . "&TC="
 				        . $answers['timecode'] . "&VC2="
-				            . $answers['vericode2'] . "\"> <i class=\"fa fa-user\"></i> Confirm !
+				            . $answers['vericode2'] . "\"> <b> Click to finish your login !</b>
 			</a>
 
 				                
 			                
 				                
-<p>".$Web_base."index.php?process=confirm&VC="
-				    . $answers['vericode'] . "&TC="
-				        . $answers['timecode'] . "&VC2="
-				            . $answers['vericode2'] . "</p>
+
 </body>
 </html>
 ";

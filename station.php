@@ -8,6 +8,13 @@
  * This page describe the weather stations. It is a frame in which one can add modules
  * In this development stage, some variables are encoded here but will eventually come from database or URL.
  * 
+ * in .htaccess: the following rules: 
+ * RewriteRule ^station/([^/]+)/([^/]+)/([^/]+)$ station.php?expt=$1&ref=$3&sub=$2#document [L]
+	RewriteRule ^station/([^/]+)/([^/]+)$ station.php?expt=$1&sub=$2#document [L]
+	RewriteRule ^station/([^/]+)$ station.php?expt=$1 [L]
+	
+ * this shows that ref and sub come from the URL: not a very user friendly idea... 
+ * 
  */
 include_once 'includes/init.inc'; // these are the settings that refer to more than one page
 
@@ -141,7 +148,7 @@ echo title_case($experiment['administrative']['name']);
 						<div class="tab-pane active show" id="summary" role="tabpanel"
 							aria-labelledby="summary-tab">
     							<?php
-        $summarypage = $exptFolder . '/summary.html';
+        $summarypage = $exptFolder . '/overview.html';
         include ($summarypage);
         ?>					
     					</div>
@@ -163,18 +170,14 @@ echo title_case($experiment['administrative']['name']);
                 		<?php }?>
 						<div class="tab-pane" id="images" role="tabpanel"
 							aria-labelledby="images-tab">
-							<p class="text-warning">
-								<b>In Progress - removed when ready to be published</b>
-							</p> <?php
+							 <?php
 
     // include '_images.php'; ?>
 							</div>
 						<div class="tab-pane" id="monthly" role="tabpanel"
 							aria-labelledby="monthly-tab">
 							<div class="row px-5">
-								<p class="text-warning">
-									<b>In Progress - remove when ready for review</b>
-								</p>
+								
 							<?php
     $fileMonthly = $exptFolder . '/' . 'monthly.html';
     $hasMonthly = file_exists($fileMonthly);

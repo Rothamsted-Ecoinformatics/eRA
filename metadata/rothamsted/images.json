@@ -1,5 +1,17 @@
 [
     {
+        "MediaID": 65,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/others/Classical-Experiments-aerial-layout.jpg",
+        "Caption": "Classical Experiments aerial layout",
+        "Type": "Other",
+        "exptID": "rothamsted",
+        "width": 750,
+        "height": 536,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/others/Classical-Experiments-aerial-layout.jpg"
+    },
+    {
         "MediaID": 208,
         "Credit": "eRA curators",
         "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rothamsted/1623-map.jpg",
@@ -34,17 +46,5 @@
         "height": 1143,
         "orientation": "Portrait",
         "fileLocation": "metadata/rothamsted/archives-1.jpg"
-    },
-    {
-        "MediaID": 801,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rothamsted/1954-Harpenden-and-farm-maps-RothamstedFarm.jpg",
-        "Caption": "1954 Harpenden and farm maps RothamstedFarm",
-        "Type": "Other",
-        "exptID": "rothamsted",
-        "width": 1954,
-        "height": 1264,
-        "orientation": "Landscape",
-        "fileLocation": "metadata/rothamsted/1954-Harpenden-and-farm-maps-RothamstedFarm.jpg"
     }
 ]
