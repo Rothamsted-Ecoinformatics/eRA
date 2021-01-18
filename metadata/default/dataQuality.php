@@ -1,57 +1,69 @@
-
-<div id="instrument" class="p-0 mb-0">
+<div id="quality" class="p-0 mb-0">
 	
 
 	<p>
-		The data in e-RA are subject to rigorous quality control procedures
-		from the point of collection in the field to entry into the database.
+		In accordance with the Joint Code of Practice for Research at Rothamsted, data processing in e-RA follow rigorous 
+		standard operating procedures to ensure the quality and correctness of data collected in the field through to depositing in the e-RA database.
 		Full details of the Standard Operating Procedures (SOPs) followed to
-		ensure data quality control can be obtained from the e-RA Curators <a
-			href="mailto:era@rothamsted.ac.uk"> e-RA Curators</a>.
+		ensure data quality control can be obtained from the <a href="mailto:era@rothamsted.ac.uk"> e-RA Curators</a>.
 	</p>
 
 	<h1>Sample collection procedures</h1>
 
 	<p>
-		Standard procedures are followed for sample collection by combine
-		harvester<sup>1</sup>, sample processing<sup>2</sup>, dealing with
-		harvest samples and preparing them for analysis<sup>3</sup>, and
+		Standard Operating Procedures are followed for sample collection by combine
+		harvester, sample processing, dealing with
+		harvest samples and preparing them for analysis, and
 		details of additional samples from the Classical Experiments to be
-		kept for archiving<sup>4</sup>.
+		kept for archiving.
 	</p>
 
-	<h1>Downloading met data</h1>
+	
+
+	<h1>Data checking procedures</h1>
 
 	<p>
-		A Standard Operating Procedure is followed for downloading the
-		meteorological data from Rothamsted and Woburn automatic weather
-		stations<sup>5</sup>. The calculations of the derived variables for
-		the meteorological data are done by standard formulae, embedded in
-		excel spreadsheets.
-	</p>
-
-	<h1>Data checking procedure</h1>
-
-	<p>
-		To ensure quality control during data inputting, the data sets are
+		Until 2019, to ensure quality control during data inputting, the data sets were
 		typed on two separate occasions (double data entry). During the second
-		typing (known as verification) the data values are compared with those
-		typed on the earlier occasion, and any discrepancies are resolved
-		before verification continues. This procedure also sets out how to
-		handle situations where the written records are illegible or
-		ambiguous. This procedure avoids visual checking of data, which can be
-		very inaccurate. Once the data are entered into e-RA, they are
-		independently back-checked against the original data sheets<sup>6</sup>.
-	</P>
+		typing (verification) the data values were compared with those
+		typed on the earlier occasion, and any discrepancies were resolved
+		before verification continued. This procedure also set out how to
+		handle situations where the written records were illegible or
+		ambiguous. This procedure avoided visual checking of data, which can be
+		very inaccurate. Once the data are entered into e-RA, they were
+		independently back-checked against the original data sheets. They are also subject to consistency checks embedded within e-RA.</P>
 
+		<p>Since 2020, there is no longer any routine manual data entry, as most records are now in electronic form. 
+		New datasets, and annual updates to existing datasets, are independently back-checked with the original data source. 
+		They are also subject to consistency checks embedded within e-RA.</p>
+
+		<h1>Downloading meteorological data</h1>
+
+	<p>
+		Standard Operating Procedures are followed for downloading the
+		meteorological data from Rothamsted, Woburn and Brooms Barn automatic weather
+		stations. The calculations of the derived variables are by standard formulae, embedded in e-RA 
+		(see <a href="info.php?FileName=derived_variables&expt=met"> derived variables<a>).
+		There is also a SOP to follow for measurement of precipitation at times of snowfall (turf wall enclosure), as heavy snowfall can block the ARG100 rain guage. 
+	</p>	
+
+
+
+	<h1>Quality control of meteorological data</h1>
+	<p>All equipment, including the datalogger, is checked, serviced and calibrated annually at 
+	Rothamsted, Woburn and Brooms Barn by Campbell Scientific Ltd. 
+	The Test Equipment used in the Campbell Scientific calibration/maintenance process are registered 
+	on an in-house Calibration/Maintenance database. The Test Equipment is either calibrated to 
+	National Standards by a UKAS accredited laboratory, or are calibrated in-house using instruments 
+	which have themselves been calibrated by a UKAS accredited laboratory. Hence, all equipment calibrated/maintained 
+	by Campbell Scientific Ltd is traceable to these standards. </p>
+	<p>The data are also subject to consistency checks embedded within e-RA.
+ 
+<!--
 	<p>
 		See <a target="pdf"
 			href="docs/Rothamsted-Research-Quality-Statement-2014.pdf">
 			Rothamsted Research Quality Statement (2014). </A>
 	</p>
-
+-->
 </div>
-
-
-
-
