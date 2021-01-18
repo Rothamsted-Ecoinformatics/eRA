@@ -425,13 +425,13 @@ if (isset($arrDescription['Other'])) {
 								<?php echo $dsinfo['name'];?> <em><?php echo $getPublisher; ?></em>
 								<a target="_blank"
 									href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
-								<p>Please review our <a href="info.php?FileName=howtocredit">How to Credit Datasets</a> guidance for more information.
+								<p>Please review our <a href="howtocredit.php">How to Credit Datasets</a> guidance for more information.
 							</p>
 							<h5>Conditions of Use</h5>
 						
 							<p>Rothamsted relies on the integrity of users to ensure that datasets 
 							are used appropriately and Rothamsted Research receives suitable acknowledgment as being
-								the originators of these data. Please review the <a href="info.php?FileName=conditions">Conditions of Use</a> before downloading.</p>
+								the originators of these data. Please review the <a href="conditions.php">Conditions of Use</a> before downloading.</p>
 
 						</div>
 					</div>

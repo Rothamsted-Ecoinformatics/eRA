@@ -40,9 +40,7 @@
 
 			<div class="card-body">
 				<h5 class="card-title">e-RAdata</h5>
-				<p class="card-text small">The data from the Long term experiments
-					is available for you to use. With e-RAdata, extract data from the
-					datasets.</p>
+				<p class="card-text small">Access the e-RA database using the Data Extraction Tool. Contact the <a href="mailto:era@rothamsted.ac.uk" target="_blank">e-RA Data Curators</a> for access.</p>
 
 			</div>
 			<div class="card-footer border-top-0">
@@ -56,10 +54,7 @@
 
 			<div class="card-body">
 				<h5 class="card-title">e-RApubs</h5>
-				<p class="card-text small">Rothamsted Long Term experiments results
-					have been used in numerous studies which led to the publication of
-					research papers. e-RApubs is our dedicated tool to search this
-					resource.</p>
+				<p class="card-text small">Search e-RA publications database for publications which have used the Rothamsted Long-term Experiments.</p>
 
 			</div>
 			<div class="card-footer border-top-0">
@@ -74,9 +69,8 @@
 
 			<div class="card-body">
 				<h5 class="card-title">e-RAdoc</h5>
-				<p class="card-text small">e-RAdoc is the repository for all the now
-					digitalised reports, books and documents relating to the Long-Term
-					Experiments and printed at Rothamsted since the 19th century.</p>
+				<p class="card-text small">Access the e-RA scanned document archive, including annual reports, annual yield books, maps and other documents relating to the Long-Term
+					Experiments.</p>
 
 			</div>
 			<div class="card-footer border-top-0">
