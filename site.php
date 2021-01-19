@@ -96,7 +96,7 @@ $page_title .=  ''.$pageinfo['Experiment'];
             					<div class="tab-content mh-100" id="idExptTabs">
             						<div class="tab-pane active" id="summary" role="tabpanel"
             							aria-labelledby="summary-tab">
-            								<?php include ($exptFolder.'/summary.html');?>
+            								<?php include ($exptFolder.'/overview.html');?>
             							</div>
             
             						<div class="tab-pane" id="site" role="tabpanel"
