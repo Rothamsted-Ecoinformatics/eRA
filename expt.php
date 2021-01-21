@@ -131,7 +131,7 @@ $hasDocs = file_exists($fileDocs);
 							id="images-tab" data-toggle="tab" href="#images">Images</a></li>
 						<?php if ($hasDocs) {?>	
 						<li class="nav-item"><a class="nav-link" id="documents-tab"
-							data-toggle="tab" href="#documents">Documents</a></li>
+							data-toggle="tab" href="#documents">More...</a></li>
 							<?php
     }
     ?>

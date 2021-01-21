@@ -23,7 +23,7 @@
 				src="images/banners/Broadbalk-02.jpg" alt="Second slide"></a>
 			<div class="carousel-caption d-none d-md-block">
 				<h2><a class="text-light" href="experiment/rbk1">Broadbalk</a></h2>
-				<p>More than 175 years of data on 
+				<p>More than 175 years of data on Winter Wheat
 			</div>
 		</div>
 		<div class="carousel-item">

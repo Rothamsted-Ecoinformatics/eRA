@@ -206,11 +206,11 @@ if ($hasDataset) {
             if ($ris['relatedIdentifierGeneralType'] == "text") {
 
                 $hasDocuments = 1;
-                $relDocuments .= "<li>" . $ris['relationTypeValue'] . " : <a target = \_blank\" href=\"https://doi.org/" . $ris['relatedIdentifier'] . "\">" . $ris['relatedIdentifier'] . "</a> <sup><i class=\"fa fa-external-link\" aria-hidden=\"true\"></i></sup>: " . $ris['name'] . "</li>";
+                $relDocuments .= "<li>  <a target = \_blank\" href=\"https://doi.org/" . $ris['relatedIdentifier'] . "\">  " . $ris['name'] . "</a> <sup><i class=\"fa fa-external-link\" aria-hidden=\"true\"></i></sup>: </li>";
             } elseif ($ris['relatedIdentifierGeneralType'] == "Dataset") {
                 $hasDatasets = 1;
 
-                $relDatasets .= "<li>" . $ris['relationTypeValue'] . " :<a href=\"https://doi.org/" . $ris['relatedIdentifier'] . "\">" . $ris['relatedIdentifier'] . "</a>: " . $ris['name'] . "</li>";
+                $relDatasets .= "<li>  <a  href=\"https://doi.org/" . $ris['relatedIdentifier'] . "\">  " . $ris['name'] . "</a></li>";
             } else {}
         }
         $relDatasets .= "
@@ -274,7 +274,7 @@ if ($hasDataset) {
 						</li>
 						<li class="list-group-item"><b>Experiment: </b> <a
 							href="experiment/<?php echo $expt;?>#datasets"><?php echo $pageinfo['Experiment']; ?></a></li>
-						<li class="list-group-item"><b>Files: </b> <?php echo $distribution; ?>					
+						<li class="list-group-item"><b>Files included in the download: </b> <?php echo $distribution; ?>					
 						<li class="list-group-item"><b>Version: </b> <?php echo $dsinfo['version']; ?></li>
 						<li class="list-group-item"><b>Creation Date: </b> <?php echo $dateCreation; ?></li>
 						<li class="list-group-item"><b>Publication Date: </b> <?php echo $datePublication; ?></li>
@@ -481,12 +481,6 @@ if (isset($arrDescription['Other'])) {
 					originators of these data. This enables us to monitor the use of
 					each dataset and to demonstrate their value.</p>
 
-				<p>
-					If you have not done so, please <a
-						href="https://forms.office.com/Pages/ResponsePage.aspx?id=JTaItkGJQkOw43uMyDkvZDZRGOUcKblFt0gV54i_OxNUMTVYSEZKU0NDRENRSElCNVRCMjdSV0dRMSQlQCN0PWcu">fill
-						in this form</a> and if possible, inform us of any publication
-					that uses this Rothamsted data.
-				</p>
 
 
 			</div>
@@ -515,10 +509,25 @@ if (isset($arrDescription['Other'])) {
 			</div>
 			<div class="modal-body">
 				<p>
-					The package you are downloading contains all the information you will need to use the dataset, including information on how to properly quote it in all publication 
-					
-					</p>
+					<a rel="license" target="_blank"
+						href="http://creativecommons.org/licenses/by/4.0/" target="out"><img
+						style="width: 50px;" alt="Creative Commons License"
+						src="images/logos/cc4.png" align="middle" /></a> This work is
+					licensed under a <a rel="license"
+						href="http://creativecommons.org/licenses/by/4.0/">Creative
+						Commons Attribution 4.0 International License</a>.
+				</p>
+				<p>
+								<strong>YOU MUST CITE AS: </strong><?php echo $refAuthor; ?> (<?php echo $year;?>).
+								<?php echo $dsinfo['name'];?> <em><?php echo $getPublisher; ?></em>
+								<a target="_blank"
+									href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
 
+							</p>
+				<p>Rothamsted relies on the integrity of users to ensure that
+					Rothamsted Research receives suitable acknowledgment as being the
+					originators of these data. This enables us to monitor the use of
+					each dataset and to demonstrate their value.</p>
 
 
 			</div>
@@ -566,13 +575,6 @@ if (isset($arrDescription['Other'])) {
 					Rothamsted Research receives suitable acknowledgment as being the
 					originators of these data. This enables us to monitor the use of
 					each dataset and to demonstrate their value.</p>
-
-				<p>
-					If you have not done so, please <a
-						href="https://forms.office.com/Pages/ResponsePage.aspx?id=JTaItkGJQkOw43uMyDkvZDZRGOUcKblFt0gV54i_OxNUMTVYSEZKU0NDRENRSElCNVRCMjdSV0dRMSQlQCN0PWcu">fill
-						in this form</a> and if possible, inform us of any publication
-					that uses this Rothamsted data.
-				</p>
 
 
 			</div>

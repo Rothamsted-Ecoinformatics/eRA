@@ -136,7 +136,7 @@ echo title_case($experiment['administrative']['name']);
 <?php }?>
 	<?php if ($hasdocs) {?>
 						<li class="nav-item"><a class="nav-link" id="documents-tab"
-							data-toggle="tab" href="#documents">Information</a></li>
+							data-toggle="tab" href="#documents">More...</a></li>
 <?php }?>
 						<li class="nav-item"><a class="nav-link" id="keyrefs-tab"
 							data-toggle="tab" href="#keyrefs">Bibliography</a></li>
