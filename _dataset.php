@@ -254,6 +254,17 @@ if ($hasDataset) {
     }
 } else {}
 
+
+/*
+ * we check that the is downloading a file. 
+ * From the environment: we have everything we need about the file being downloaded and also the username of the user 
+ * On donload: 
+ *  1: make a SQL that writed in the usermanagment table that the user is downloading that dataset at that time 
+ */
+if (isset($isDownload)) {
+    $strUserArea = "Datasets Downloaded on..";
+    $sqlDownload = "";
+}
 ?>
 
 <div id="idExpt">
@@ -586,3 +597,4 @@ if (isset($arrDescription['Other'])) {
 		</div>
 	</div>
 </div>
+
