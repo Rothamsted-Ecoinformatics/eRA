@@ -97,7 +97,7 @@
     {
         "md_id": 1139325298,
         "title": "Rothamsted 30-year mean meteorological data 1981-2010",
-        "URL": "http://www.era.rothamsted.ac.uk/Met/R30YrMeans8110",
+        "URL": "http://www.era.rothamsted.ac.uk/Met/R30YrMeans8180",
         "identifier": "10.23637/OARES30YrMeans8180",
         "identifier_type": "DOI",
         "dataset_type": "Meteorological dataset",
@@ -169,5 +169,24 @@
         "version": "01",
         "shortName": "RMAAtempanom",
         "UID": "01-RMAAtempanom"
+    },
+    {
+        "md_id": 738768185,
+        "title": "Rothamsted 30-year mean meteorological data 1991-2020",
+        "URL": "http://www.era.rothamsted.ac.uk/Met/R30YrMeans9120",
+        "identifier": "10.23637/OARES30YrMeans9120",
+        "identifier_type": "DOI",
+        "dataset_type": "Meteorological dataset",
+        "extension": "xlsx",
+        "description": "This dataset consists of the 30-year monthly mean meteorological data measured at Rothamsted Research, Harpenden, UK, from January 1991 until December 2020.",
+        "fieldname": "Rothamsted Met Station",
+        "experiment_name": "Rothamsted Meteorological Station",
+        "experiment_code": "RMS",
+        "grade": 1,
+        "dstype": "OA",
+        "publication_year": 2021,
+        "version": "01",
+        "shortName": "R30YrMeans9120",
+        "UID": "01-R30YrMeans9120"
     }
 ]

@@ -1,37 +1,75 @@
 {
     "@context": "https://schema.org/",
     "@type": "Dataset",
-    "identifier": "10.23637/BK-oadata-soilN-01",
-    "name": "Broadbalk Soil Total % Nitrogen Content, 1843-2010",
-    "shortName": "Nitro1843",
-    "url": "http://www.era.rothamsted.ac.uk/Broadbalk/bbk_open_access_soilN",
+    "identifier": "10.23637/wcs10-wltlgrain-01",
+    "name": "Woburn long-term liming experiment grain mineral composition",
+    "shortName": "WLTLGRAIN",
+    "url": "http://www.era.rothamsted.ac.uk/WCS10/WLTLGRAIN",
     "description": [
         {
             "inLanguage": "en",
             "descriptionType": "Abstract",
-            "description": "Long-term changes in total % nitrogen concentration in the topsoil (0-23 cm) in selected treatments of the Broadbalk experiment, where winter wheat has been grown most years since 1843 (\"continuous wheat\")."
+            "description": "The experiment tests the effects of four different amounts of lime (creating a soil pH range for approximately 4.5 to 7.5) with and without fertilizer P, on the grain mineral compostion of three arable crops. The site is a sandy loam soil at Woburn Experimental Farm, from 1962-1996. There was a parallel experiment on a silty clay loam soil at Rothamsted Experimental Farm."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Methods",
+            "description": "Grain mineral composition was determined, in 2019 and 2020, on archived ground samples grown in 1978 (barley), 1981 (oats) and 1995 (wheat). Macro-nutrients (Ca, K, Mg, Na, P, S) and Al, Fe and Ti were determined by open tube digestion with HNO3/HClO4 and measured with ICP-OES. Micro-nutrients and trace elements (As, Cd, Co, Cr, Cu, Mn, Mo, Ni, Pb, Se, and Zn) were determined with microwave digestion with HNO3/H2O2, then measured with ICP-MS."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TableOfContents",
+            "description": "The dataset contains grain mineral compostion for 20 different minerals (mg/kg dry soil), for individual plots, measured in 1978, 1981  and 1995. It includes details  of the lime and fertilizer treatments, and crop yield."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Provenance",
+            "description": "The original archived grain samples were stored in the Rothamsted Sample Archive. The chemical analysis was carried out in the Analytical Unit of Rothamsted Research in 2019 and 2020."
         }
     ],
     "publisher": {
         "type": "organization",
         "name": "Electronic Rothamsted Archive, Rothamsted Research"
     },
-    "publication_year": 2018,
-    "dateCreated": "2018-12-17",
+    "publication_year": 2021,
+    "dateCreated": null,
     "dateModified": null,
-    "datePublished": "2018-12-18",
+    "datePublished": null,
     "inLanguage": "en",
     "version": "1",
     "keywords": [
-        "Broadbalk long-term experiment",
-        "soil",
         "long term experiments",
-        "nitrogen",
-        "nitrogen fertilizers",
-        "farmyard manure",
-        "soil fertility"
+        "Rothamsted Research",
+        "liming",
+        "phosphorous",
+        "soil pH",
+        "mineral content",
+        "trace elements",
+        "wheat",
+        "barley",
+        "oats"
     ],
     "creator": [
+        {
+            "type": "Person",
+            "Name": "Steve McGrath",
+            "givenName": "Steve",
+            "familyName": "McGrath",
+            "sameAs": "https://orcid.org/0000-0003-0952-8947",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
         {
             "type": "Person",
             "Name": "Margaret Glendining",
@@ -54,10 +92,10 @@
         },
         {
             "type": "Person",
-            "Name": "Andrew Macdonald",
-            "givenName": "Andrew",
-            "familyName": "Macdonald",
-            "sameAs": "https://orcid.org/0000-0002-1785-4892",
+            "Name": "Cathy Thomas",
+            "givenName": "Cathy",
+            "familyName": "Thomas",
+            "sameAs": "https://orcid.org/0000-0002-6320-9923",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
@@ -74,10 +112,10 @@
         },
         {
             "type": "Person",
-            "Name": "Paul Poulton",
-            "givenName": "Paul",
-            "familyName": "Poulton",
-            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "Name": "Stephan Haefele",
+            "givenName": "Stephan",
+            "familyName": "Haefele",
+            "sameAs": "https://orcid.org/0000-0003-0389-8373",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
@@ -91,10 +129,6 @@
                 "name": "Sustainable Agricultural Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
-        },
-        {
-            "type": "organization",
-            "name": "Rothamsted Research"
         }
     ],
     "contributor": [
@@ -105,6 +139,48 @@
             "givenName": "Margaret",
             "familyName": "Glendining",
             "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Cathy Thomas",
+            "givenName": "Cathy",
+            "familyName": "Thomas",
+            "sameAs": "https://orcid.org/0000-0002-6320-9923",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells-Brooke",
+            "givenName": "Nathalie",
+            "familyName": "Castells-Brooke",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
@@ -142,11 +218,11 @@
         },
         {
             "type": "Person",
-            "jobTitle": "DataManager",
-            "name": "Nathalie Castells-Brooke",
-            "givenName": "Nathalie",
-            "familyName": "Castells-Brooke",
-            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "jobTitle": "ProjectManager",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
@@ -163,11 +239,11 @@
         },
         {
             "type": "Person",
-            "jobTitle": "Researcher",
-            "name": "Andrew Macdonald",
-            "givenName": "Andrew",
-            "familyName": "Macdonald",
-            "sameAs": "https://orcid.org/0000-0002-1785-4892",
+            "jobTitle": "ProjectManager",
+            "name": "Steve McGrath",
+            "givenName": "Steve",
+            "familyName": "McGrath",
+            "sameAs": "https://orcid.org/0000-0003-0952-8947",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
@@ -184,11 +260,11 @@
         },
         {
             "type": "Person",
-            "jobTitle": "Researcher",
-            "name": "Paul Poulton",
-            "givenName": "Paul",
-            "familyName": "Poulton",
-            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "jobTitle": "ProjectManager",
+            "name": "Stephan Haefele",
+            "givenName": "Stephan",
+            "familyName": "Haefele",
+            "sameAs": "https://orcid.org/0000-0003-0389-8373",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
@@ -219,12 +295,49 @@
         "type": "place",
         "geo": {
             "type": "GeoCoordinates",
-            "longitude": -0.37301,
-            "latitude": 51.80946
+            "longitude": -0.616165,
+            "latitude": 51.999857
         },
-        "name": "Broadbalk"
+        "name": "Stackyard"
     },
-    "relatedIdentifier": [],
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.1016/j.eja.2019.02.016",
+            "relatedIdentifierType": "DOI",
+            "name": "Holland et al, 2019. Paper describing yield response of all crops 1962-1996.",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/wcs10-Plans",
+            "relatedIdentifierType": "DOI",
+            "name": "Woburn long-term liming experiment plans 1962-1996",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/wcs10-Treatments-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Woburn long-term liming experiments lime and fertilizer treatments 1962-1996",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/wcs10-wltlyields-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Woburn long-term liming experiment crop yields 1962-1996",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        }
+    ],
     "funder": [
         {
             "type": "organization",
@@ -237,13 +350,13 @@
     "distribution": [
         {
             "type": "dataDownload",
-            "name": null,
-            "URL": null,
-            "encodingFormat": "",
-            "fileSize": "14 KB"
+            "name": "Woburn long-term liming experiment grain mineral composition",
+            "URL": "01-WobLTliming-grain.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "132 KB"
         }
     ],
     "image": [],
-    "grade": 3,
-    "dstype": "OA"
+    "grade": 1,
+    "dstype": "Other"
 }

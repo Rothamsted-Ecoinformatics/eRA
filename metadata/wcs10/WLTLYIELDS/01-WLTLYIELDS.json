@@ -301,6 +301,15 @@
             "relationType": "IsSupplementTo",
             "rt_id": 3,
             "relationTypeValue": "is supplement to"
+        },
+        {
+            "relatedIdentifier": "10.23637/wcs10-wltlyields-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Woburn long-term liming experiment crop yields 1962-1996",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
         }
     ],
     "funder": [

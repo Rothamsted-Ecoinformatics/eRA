@@ -1,43 +1,73 @@
 {
     "@context": "https://schema.org/",
     "@type": "Dataset",
-    "identifier": "10.23637/BK-oadata-soilN-01",
-    "name": "Broadbalk Soil Total % Nitrogen Content, 1843-2010",
-    "shortName": "Nitro1843",
-    "url": "http://www.era.rothamsted.ac.uk/Broadbalk/bbk_open_access_soilN",
+    "identifier": "10.23637/OARES30YrMeans9120",
+    "name": "Rothamsted 30-year mean meteorological data 1991-2020",
+    "shortName": "R30YrMeans9120",
+    "url": "http://www.era.rothamsted.ac.uk/Met/R30YrMeans9120",
     "description": [
         {
             "inLanguage": "en",
             "descriptionType": "Abstract",
-            "description": "Long-term changes in total % nitrogen concentration in the topsoil (0-23 cm) in selected treatments of the Broadbalk experiment, where winter wheat has been grown most years since 1843 (\"continuous wheat\")."
+            "description": "This dataset consists of the 30-year monthly mean meteorological data measured at Rothamsted Research, Harpenden, UK, from January 1991 until December 2020."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Methods",
+            "description": "Daily measurements are taken at the site. Mean monthly data are determined from daily data using Genstat 19th Edition."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TableOfContents",
+            "description": "Rain, sun hours, mean, maximum and minimum temperatures, soil temperatures under grass (30cm and 100cm delpth), wind speed, evaporation, radiation."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TechnicalInfo",
+            "description": "MEASUREMENTS\r\n\r\nRain: The mean total monthly rainfall including all precipitation (snow, rain, mist and fog) captured in a 5 inch rain gauge (mm per month)\r\nSunshine: The mean total hours of sunshine (hours per month)\r\nMaximum temperature: The mean maximum monthly air temperature (&deg;C)\r\nMinimum temperature: The mean minumum monthly air temperature (&deg;C)\r\nAverage temperature: The mean of the maximum and minimum air temperature (&deg;C)\r\nSoil temperature under grass 30cm: The mean monthly soil temperature under grass at 30cm depth, measured at 0900 GMT (&deg;C)\r\nSoil temperature under grass 100cm: The mean monthly soil temperature under grass at 100cm depth, measured at 0900 GMT (degrees C)\r\nWind: The mean monthly wind speed measured at 2 metres above ground level, averaged over 24 hours (km per hour)\r\nEvaporation: The mean total monthly evaporation over two open water tanks installed in the spring of each year (mm per month)\r\nRadiation: The mean daily solar radiation measured with a Kipp Solarimeter (J/cm2)"
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Provenance",
+            "description": "This 30-year mean meteorological data contained in this spreadsheet are derived from daily data measured at Rothamsted Research, Harpenden, Herts, UK."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Quality",
+            "description": "Verification of daily data includes checks for instrument errors, for missing data and outliers."
         }
     ],
     "publisher": {
         "type": "organization",
         "name": "Electronic Rothamsted Archive, Rothamsted Research"
     },
-    "publication_year": 2018,
-    "dateCreated": "2018-12-17",
+    "publication_year": 2021,
+    "dateCreated": "2021-01-21",
     "dateModified": null,
-    "datePublished": "2018-12-18",
+    "datePublished": null,
     "inLanguage": "en",
     "version": "1",
     "keywords": [
-        "Broadbalk long-term experiment",
-        "soil",
-        "long term experiments",
-        "nitrogen",
-        "nitrogen fertilizers",
-        "farmyard manure",
-        "soil fertility"
+        "air temperature",
+        "climate",
+        "climate change",
+        "meteorological station",
+        "precipitation",
+        "rain",
+        "rainfall patterns",
+        "soil temperature",
+        "temperature",
+        "weather",
+        "weather data",
+        "wind speed"
     ],
     "creator": [
         {
             "type": "Person",
-            "Name": "Margaret Glendining",
-            "givenName": "Margaret",
-            "familyName": "Glendining",
-            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "Name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
@@ -54,10 +84,10 @@
         },
         {
             "type": "Person",
-            "Name": "Andrew Macdonald",
-            "givenName": "Andrew",
-            "familyName": "Macdonald",
-            "sameAs": "https://orcid.org/0000-0002-1785-4892",
+            "Name": "Tony Scott",
+            "givenName": "Tony",
+            "familyName": "Scott",
+            "sameAs": "https://orcid.org/0000-0002-6631-0672",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
@@ -71,54 +101,9 @@
                 "name": "Sustainable Agricultural Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
-        },
-        {
-            "type": "Person",
-            "Name": "Paul Poulton",
-            "givenName": "Paul",
-            "familyName": "Poulton",
-            "sameAs": "https://orcid.org/0000-0002-5720-064X",
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
-                "addressLocality": "Harpenden",
-                "addressRegion": "Hertfordshire",
-                "postalCode": "AL5 2JQ",
-                "addressCountry": "United Kingdom"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
-                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
-            }
-        },
-        {
-            "type": "organization",
-            "name": "Rothamsted Research"
         }
     ],
     "contributor": [
-        {
-            "type": "Person",
-            "jobTitle": "DataCurator",
-            "name": "Margaret Glendining",
-            "givenName": "Margaret",
-            "familyName": "Glendining",
-            "sameAs": "https://orcid.org/0000-0002-6466-4629",
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
-                "addressLocality": "Harpenden",
-                "addressRegion": "Hertfordshire",
-                "postalCode": "AL5 2JQ",
-                "addressCountry": "United Kingdom"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Computational and Analytical Sciences, Rothamsted Research",
-                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
-            }
-        },
         {
             "type": "Person",
             "jobTitle": "DataCurator",
@@ -126,6 +111,69 @@
             "givenName": "Sarah",
             "familyName": "Perryman",
             "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Tony Scott",
+            "givenName": "Tony",
+            "familyName": "Scott",
+            "sameAs": "https://orcid.org/0000-0002-6631-0672",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Chris Hall",
+            "givenName": "Chris",
+            "familyName": "Hall",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
@@ -163,7 +211,7 @@
         },
         {
             "type": "Person",
-            "jobTitle": "Researcher",
+            "jobTitle": "ProjectManager",
             "name": "Andrew Macdonald",
             "givenName": "Andrew",
             "familyName": "Macdonald",
@@ -184,14 +232,14 @@
         },
         {
             "type": "Person",
-            "jobTitle": "Researcher",
-            "name": "Paul Poulton",
-            "givenName": "Paul",
-            "familyName": "Poulton",
-            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "jobTitle": "ProjectLeader",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
             "address": {
                 "type": "PostalAddress",
-                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
                 "addressLocality": "Harpenden",
                 "addressRegion": "Hertfordshire",
                 "postalCode": "AL5 2JQ",
@@ -199,7 +247,7 @@
             },
             "affiliation": {
                 "type": "Organization",
-                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
         }
@@ -219,12 +267,22 @@
         "type": "place",
         "geo": {
             "type": "GeoCoordinates",
-            "longitude": -0.37301,
-            "latitude": 51.80946
+            "longitude": -0.360086,
+            "latitude": 51.806757
         },
-        "name": "Broadbalk"
+        "name": "Rothamsted Met Station"
     },
-    "relatedIdentifier": [],
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "doi.org/10.23637/OARES30YrMeans8180",
+            "relatedIdentifierType": "DOI",
+            "name": "Not in the Database",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "Continues",
+            "rt_id": 6,
+            "relationTypeValue": "continues"
+        }
+    ],
     "funder": [
         {
             "type": "organization",
@@ -237,13 +295,28 @@
     "distribution": [
         {
             "type": "dataDownload",
-            "name": null,
-            "URL": null,
-            "encodingFormat": "",
-            "fileSize": "14 KB"
+            "name": "Rothamsted 30 year mean weather data 1991-2020",
+            "URL": "Rothamsted_30-year_mean_weather_data_1991-2020",
+            "encodingFormat": "Rothamsted_30-year_mean_weather_data_1991-2020",
+            "fileSize": "16 KB"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Rothamsted 30 year mean weather data 1991-2020",
+            "URL": "Rothamsted_30-year_mean_weather_data_1991-2020",
+            "encodingFormat": "Rothamsted_30-year_mean_weather_data_1991-2020",
+            "fileSize": "2 KB"
         }
     ],
-    "image": [],
-    "grade": 3,
+    "image": [
+        {
+            "type": "imageObject",
+            "caption": "Rothamsted 30-year mean meteorological data 1991-2020",
+            "URL": "Table_91-20_750.png",
+            "encodingFormat": "png",
+            "fileSize": "67 KB"
+        }
+    ],
+    "grade": 1,
     "dstype": "OA"
 }

@@ -83,7 +83,7 @@
         "identifier_type": "DOI",
         "dataset_type": "Species observation data",
         "extension": "xlsx",
-        "description": "This dataset consists of the relative frequencies of <i>Cirsium arvense</i> (Creeping thistle) of the Family Asteraceae recorded on Section 8 plots of the Broadbalk Wheat Experiment, 1991-2018. Section 8 has not received any herbicides in its history.\r\n\r\nThe collective weed fauna, and frequency of each species such as <em>C. arvense<em>, differ in response to fertiliser treatments which vary with each plot (see Related Documents below).",
+        "description": "This dataset consists of the relative frequencies of <i>Cirsium arvense</i> (Creeping thistle) of the Family Asteraceae recorded on Section 8 plots of the Broadbalk Wheat Experiment, 1991-2018. Section 8 has not received any herbicides in its history. \r\n\r\n<br />The collective weed fauna, and frequency of each species such as <i>C. arvense</i>, differ in response to fertiliser treatments which vary with each plot (see Related Documents below).",
         "fieldname": "Broadbalk",
         "experiment_name": "Broadbalk",
         "experiment_code": "R/BK/1",
