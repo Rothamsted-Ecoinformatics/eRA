@@ -14,7 +14,21 @@ include_once 'includes/init.inc'; // these are the settings that refer to more t
 if (! isset($expt)) {
     $expt = 'rbk1';
 }
-
+$exptFirst = $expt[0];
+switch ($exptFirst) {
+    case "r":
+        $stationName = 'Rothamsted';
+        break;
+    case "s":
+        $stationName = 'Saxmundham';
+        break;
+    case "b":
+        $stationName = "Broom's Barn";
+        break;
+    case "w":
+        $stationName = "Woburn";
+        break;
+}
 // default experiment arbitrarily broadbalk. We could be more clever? random experiment?
 $exptFolder = 'metadata/' . $expt;
 $pageinfo = getPageInfo($expt);

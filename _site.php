@@ -64,12 +64,14 @@ function getProperties($site)
     return $content;
 }
 ?>
-<h2 class="mx-3">Site: <?php echo $site['administrative']['name'];?></h2>
+<h2 class="mx-3">Site: <?php echo $site['administrative']['name']. " - ". $stationName;?></h2>
 <div class="mx-5">
     <?php
 
     $line = "<ul class=\"list-group m-5\">";
-
+    $line .= "<li class=\"list-group-item \" ><b>Experiment Site: </b>";
+    $line .= "<a href=\"site/".strtolower($stationName)."\">".$stationName."</a>";
+    $line .= "</li>";
     if ($site['administrative']['doi']) {
         $line .= "\n<li class=\"list-group-item \"><b>DOI:</b> <a href=\"http://doi.org/" . $site['administrative']['doi'] . "\">" . $site['administrative']['doi'] . "</li>";
     }

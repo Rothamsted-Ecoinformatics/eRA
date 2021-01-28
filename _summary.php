@@ -63,6 +63,11 @@ function getPersonInfo($personDetails)
         $line .= $experiment['administrative']['localIdentifier'];
         $line .= "</li>";
     }
+
+        $line .= "<li class=\"list-group-item \" ><b>Experiment Site: </b>";
+        $line .= "<a href=\"site/".strtolower($stationName)."\">".$stationName."</a>";
+        $line .= "</li>";
+   
     if ($experiment['administrative']['disambiguatingDescription']) {
         $line .= "<li class=\"list-group-item\"  style=\"white-space: pre-wrap;\" ><b>Objectives: </b>";
         $line .= $experiment['administrative']['disambiguatingDescription'];
