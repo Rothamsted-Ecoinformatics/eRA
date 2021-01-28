@@ -164,7 +164,7 @@ function LogAsGuest()
     $link = mysqli_connect($Turbigo, $Dfdniwie, $Gs0tw) or die("Error Could not connect to Database: " . mysql_error()); // connect to database
     mysqli_select_db($link, $ltwogd1yr) or exit(); // select rrr database
     if ($link)
-        $debug .= "Connected";
+        $debug .= "Connected with LogAsGuest";
     //echo $debug;
     return $link;
 }
@@ -188,7 +188,41 @@ function LogAsAdmin()
     $link = mysqli_connect($Turbigo, $user, $key) or die("Error Could not connect to Database: " . mysql_error()); // connect to database
     mysqli_select_db($link, $ltwogd1yr) or exit(); // select rrr database
     if ($link)
-        $debug .= "Connected";
+        $debug .= "Connected with LogAsAdmin <br />";
+        //echo $debug;
+        return $link;
+}
+
+function LogMangaAd()
+{
+    global $Turbigo;
+    global $nhtyuj; # "eRAManga";
+    global $rdjf; # "restauranteur";
+    global $dsogjb; # "3mu";   
+    $weiusjdkf = $dsogjb . "S3tsqu4r3";
+    $debug .= $nhtyuj." - ".$rdjf." - ". $weiusjdkf. "<br />";
+    $link = mysqli_connect($Turbigo, $rdjf, $weiusjdkf) or die("Could not connect " . $debug . mysql_error()); // connect to database
+    mysqli_select_db($link, $nhtyuj) or exit(); // select rrr database
+    if ($link) {
+        $debug .= "Connected with LogMangaAd <br />";}
+    echo $debug;
+    return $link;
+}
+
+function LogMangaGuest()
+{
+    global $Turbigo;
+    global $nhtyuj; # "eRAmanga";
+    global $lkk ; #= "tetramere";
+    global $sdfghj; # = "Qu4rt3rS3s4m3S3s4m3";
+    
+    $dhjds = $sdfghj."S3s4m3";
+    
+    $debug .= "login in <br />";
+    $link = mysqli_connect($Turbigo, $lkk, $dhjds) or die("Error Could not connect to Database: " . mysql_error()); // connect to database
+    mysqli_select_db($link, $nhtyuj) or exit(); // select rrr database
+    if ($link)
+        $debug .= "Connected with LogMangaGuest ";
         //echo $debug;
         return $link;
 }

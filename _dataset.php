@@ -53,7 +53,7 @@ if ($hasDataset) {
     $datasetFolder = $dsinfo["shortName"];
     $dstype = $dsinfo["dstype"];
     $modal = "#modalClickTrough".$dstype;
-
+    $DOI = $dsinfo["identifier"];
     $butDownload = "<button type=\"button\" class=\"btn btn-primary my-3\" data-toggle=\"modal\"
     data-target=\"". $modal."\">Download</button>";
     
@@ -252,19 +252,30 @@ if ($hasDataset) {
             }
         }
     }
+    /*
+     * we check that the is downloading a file.
+     * From the environment: we have everything we need about the file being downloaded and also the username of the user
+     * On donload:
+     *  1: make a SQL that writed in the usermanagment table that the user is downloading that dataset at that time
+     */
+    
+    $strUserArea = "Datasets Downloaded on..";
+    if (isset($_REQUEST['dlform'])) {
+        $strUserArea .= "received values REQUEST";  
+        $today = date('d-m-Y');
+        $sqlDownload = "INSERT INTO eradoc.eRAdownloads (`position`, DOI, `dl-date`) VALUES(' ".$_COOKIE['email']."', '".$DOI."', '".$today."')";
+        
+        $strUserArea .=  $sqlDownload;
+    }
+    
+    
+    
 } else {}
 
 
-/*
- * we check that the is downloading a file. 
- * From the environment: we have everything we need about the file being downloaded and also the username of the user 
- * On donload: 
- *  1: make a SQL that writed in the usermanagment table that the user is downloading that dataset at that time 
- */
-if (isset($isDownload)) {
-    $strUserArea = "Datasets Downloaded on..";
-    $sqlDownload = "";
-}
+
+
+
 ?>
 
 <div id="idExpt">
@@ -305,7 +316,14 @@ if (isset($isDownload)) {
 					<?php echo    $strDownload;?>
 				</div>
 
+			</div><div class="card card-summary">
+				<div class="card-body">
+				 
+					<?php echo  $strUserArea;?>
+				</div>
+
 			</div>
+			
 		</div>
 		<div class="col-sm-8">
  <h3>Summary</h3>
@@ -543,9 +561,12 @@ if (isset($arrDescription['Other'])) {
 
 			</div>
 			<div class="modal-footer">
+			<form method="POST">
+			
 				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				<a type="button" download class="btn btn-primary" 
+				<a type="button" download class="btn btn-primary"
 					href="<?php echo $zipfile; ?>">Agree and Download</a>
+			<button type="submit" class="btn btn-warning"  name="dlform" value="isDownload">Test Download</button>
 			</div>
 		</div>
 	</div>
@@ -590,11 +611,15 @@ if (isset($arrDescription['Other'])) {
 
 			</div>
 			<div class="modal-footer">
+			<form>
+			<input type="hidden" name="isDownload" value="isDownload">
 				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 				<a type="button" download class="btn btn-primary"
 					href="<?php echo $zipfile; ?>">Agree and Download</a>
+					<button type="submit" class="btn btn-warning" name="dlform">Test Download</button>
 			</div>
 		</div>
 	</div>
 </div>
 
+<?php testvar();?>

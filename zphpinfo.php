@@ -38,11 +38,30 @@ include 'includes/header.html'; // all the menus at the top
 ?>
 <div id="idPHPinfo">
 <?php 
+$con = LogMangaAd();
+
+
+//$con = LogMangaGuest();
+
+$sql = "select * from newmarkers";
+echo $sql ."<br />";
+$results = mysqli_query($con, $sql);
+while ($row = mysqli_fetch_array($results)) {
+    echo ("<br />");
+    foreach ($row as $value) {
+        echo $value." - ";
+    }
+}
+mysqli_close($con);
+
 
 testvar();
 
 phpinfo();
 
+
+
+echo $debug;
 ?>
 </div>
 					

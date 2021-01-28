@@ -131,6 +131,7 @@ function getInput()
  */
 function reg2db($answer)
 {
+   
     $link = LogAsAdmin();
     $consentEmail = 0;
     if (isset($answer['consentEmail'])) {
@@ -279,7 +280,7 @@ if (! isset($_COOKIE['email'])) {
 } else {
 
     // there is a cookie so I check if I want it deleted.
-    if (isset($_POST['delete'])) {
+    if (isset($_POST['delete'])&& isset($_POST['UserForms'])) {
         if ($_POST['delete'] == 'delete') {
             $cookie_email_lbl = "email";
             $cookie_email_value = $_POST['email'];
@@ -323,7 +324,7 @@ if (isset($_COOKIE['email'])) {
 // the cookie will only be here for one hour until it is made more persitent (2 weeks)
 
 if (isset($_POST['email']) || isset($_POST['InputEmail'])) {
-    if (isset($_POST['email'])) {
+    if (isset($_POST['email'])&& isset($_POST['UserForms'])) {
 
         $email = $_POST['email'];
     } else if (isset($_POST['InputEmail'])) {
@@ -331,7 +332,7 @@ if (isset($_POST['email']) || isset($_POST['InputEmail'])) {
         $email = $_POST['InputEmail'];
     }
 
-    if ($email != 'delete') {
+    if ($email != 'delete' && isset($_POST['UserForms'])) {
         $user = checkUser($email);
         $answers = checkUser($email);
 
@@ -437,7 +438,7 @@ $formIN = "<div class=\"mt-3\">
         <input type=\"hidden\" name=\"delete\" value=\"delete\"> You are logged in as:
 		" . $email . "
 <br /></div>
-<button type=\"submit\"  class=\"btn btn-primary\" >Log out!</button>
+<button type=\"submit\"  class=\"btn btn-primary\" name=\"UserForms\">Log out!</button>
 		    
     </form>
     </div>";
@@ -453,7 +454,7 @@ $formOUT = "<div class=\"my-3\">
     
 </div>
     
-    <button type=\"submit\" class=\"btn btn-primary \" >Log in</button>
+    <button type=\"submit\" class=\"btn btn-primary \"  name=\"UserForms\">Log in</button>
     
     <a  class=\"btn btn-secondary\" href=\"newUser.php\">Register</a>
 </form>

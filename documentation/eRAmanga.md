@@ -42,16 +42,30 @@ CREATE TABLE `newmarkers` (
 
 Table for Handling downloads: Connect users to the datasets downloaded 
 
-CREATE TABLE `downloads` (
+CREATE TABLE `eRAdownloads` (
   `dl-id` int(11) NOT NULL AUTO_INCREMENT,     
-  `nm-id` int(11) NOT NULL COMMENT 'newmarker id', (could be position too as position should be unique
+  `position` varchar(100) NOT NULL COMMENT 'email address',
   `DOI` varchar(100) NOT NULL COMMENT 'dataset downloaded, identified by its DOI',
   `dl-date` DATE DEFAULT NULL COMMENT 'when downloaded',
   PRIMARY KEY (`dl-id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=55 DEFAULT CHARSET=ascii COMMENT='Table logging the downloads of Datasets'
 
 When a user downloads a file: 
-INSERT into downloads : nm-id (or position) , date. 
+INSERT INTO eradoc.eRAdownloads
+(`position`, DOI, `dl-date`)
+VALUES('', '', '');
+
+<form  action="" . $_SERVER['PHP_SELF'] . "" method="post\">
+    
+<div class="form-group">
+        
+        
+ 
+    
+    <button type=\"submit\" class=\"btn btn-primary \" >Log in</button>
+    
+    <a  class=\"btn btn-secondary\" href=\"newUser.php\">Register</a>
+</form>
 
 
 
