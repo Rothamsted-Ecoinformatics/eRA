@@ -244,7 +244,8 @@ if ($hasDataset) {
      * On donload:
      * 1: make a SQL that writed in the usermanagment table that the user is downloading that dataset at that time
      */
- $strUserArea = "<h3>My eRA Downloads</h3><ul>";
+ $strUserArea = "<div class=\"card card-summary \">
+				<div class=\"card-body\"><h3>My eRA Downloads</h3><ul>";
     if (isset($_REQUEST['dlform'])) {
         $strUserArea .= "received values REQUEST";
         $today = date('d-m-Y');
@@ -252,6 +253,8 @@ if ($hasDataset) {
 
         $strUserArea .= $sqlDownload;
     }
+    $strUserArea .= "</ul></div>";
+        
 } else {}
 
 ?>
@@ -309,13 +312,13 @@ if ($hasDataset) {
 				</div>
 
 			</div>
-			<div class="card card-summary">
-				<div class="card-body">
+			
 				 
-					<?php echo  $strUserArea;?>
-				</div>
+			<?php
+			if ($registeredUser != "Login/Register") {echo  $strUserArea;}?>
+				
 
-			</div>
+			
 
 		</div>
 		<div class="col-sm-8">
