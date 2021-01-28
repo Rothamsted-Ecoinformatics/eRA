@@ -13,8 +13,6 @@
  * @date 9/27/2018
  * @date 11/28/2019
  */
-
-
 function getVocab($localword)
 {
     GLOBAL $words;
@@ -48,37 +46,32 @@ function printVocab($localwords)
 $relDatasets = 'List of Related Datasets';
 $relDocuments = 'List of Related Documents';
 
-
 if ($hasDataset) {
     $datasetFolder = $dsinfo["shortName"];
     $dstype = $dsinfo["dstype"];
-    $modal = "#modalClickTrough".$dstype;
+    $modal = "#modalClickTrough" . $dstype;
     $DOI = $dsinfo["identifier"];
     $butDownload = "<button type=\"button\" class=\"btn btn-primary my-3\" data-toggle=\"modal\"
-    data-target=\"". $modal."\">Download</button>";
-    
+    data-target=\"" . $modal . "\">Download</button>";
+
     $butLogin = "<button type=\"button\" class=\"btn btn-info my-3\" data-toggle=\"modal\"
-        data-target=\"#modalLogin\">". $registeredUser."</button>";
+        data-target=\"#modalLogin\">" . $registeredUser . "</button>";
     $butLoginprev = "<a class=\"btn btn-info mx-1\"
 				href=\"register.php\"> <i class=\"fa fa-user\"></i> Login to download dataset
 			</a>";
-    
+
     if ($dstype == 'OA') {
-        $strDownload =  $butDownload;
-        
-    } else 
-    {
+        $strDownload = $butDownload;
+    } else {
         if ($loggedIn == 'yes' && $email != 'delete') {
-            
-            $strDownload =  $butDownload;                    
-            
+
+            $strDownload = $butDownload;
         } else {
-            
-            $strDownload=  $butLogin;
-            
+
+            $strDownload = $butLogin;
         }
     }
-    
+
     if ($dsinfo["datePublished"]) {
         $datePublication = $dsinfo["datePublished"];
     } else {
@@ -96,8 +89,8 @@ if ($hasDataset) {
     } else {
         $dateUpdate = "N/A";
     }
-    
-    $getAuthors = ""; 
+
+    $getAuthors = "";
     $getAuthorOrganisation = "";
     $getContributors = "";
     $getPublisher = "";
@@ -105,48 +98,45 @@ if ($hasDataset) {
     $refAuthor = "DEFAULT";
     if (is_array($dsinfo['creator'])) {
         foreach ($dsinfo['creator'] as $creator) {
-            if ( $creator['type'] == 'organization' ) {
-                $getAuthorOrganisation .= $creator['name'].", ";
-                
+            if ($creator['type'] == 'organization') {
+                $getAuthorOrganisation .= $creator['name'] . ", ";
             }
-            if ( $creator['type'] == 'Person' ) {
-                $getAuthors .= $creator['Name'].", ";
+            if ($creator['type'] == 'Person') {
+                $getAuthors .= $creator['Name'] . ", ";
                 $isAuthor = 1;
             }
         }
     }
-    
 
     if (is_array($dsinfo['contributor'])) {
         foreach ($dsinfo['contributor'] as $contributor) {
 
-            if ( $contributor['type'] == 'Person' ) {
-                $getContributors .= $contributor['name'].", ";
-                
+            if ($contributor['type'] == 'Person') {
+                $getContributors .= $contributor['name'] . ", ";
             }
         }
     }
-    $getAuthorOrganisation = rtrim ($getAuthorOrganisation, ', ');
-    $getAuthors = rtrim ($getAuthors, ', ');
-    $getContributors = rtrim ($getContributors, ', ');
-    
+    $getAuthorOrganisation = rtrim($getAuthorOrganisation, ', ');
+    $getAuthors = rtrim($getAuthors, ', ');
+    $getContributors = rtrim($getContributors, ', ');
+
     if (is_array($dsinfo['publisher'])) {
         $getPublisher = $dsinfo['publisher']['name'];
     }
-    
+
     $refAuthor = $getAuthorOrganisation;
-    if ($isAuthor >0) {
-        $refAuthor = $getAuthors ;
-    } else  { }
-    
-    
-    
-  /*   if ($datePublication != "N/A")   {$year = '('.substr($datePublication, 0, 4).')';}
-    elseif ($dateCreation != "N/A")  {$year = '('.substr($dateCreation,    0, 4).')';}
-    else                             {$year = "";} */
-    
-    $year = "".$dsinfo["publication_year"];
-    
+    if ($isAuthor > 0) {
+        $refAuthor = $getAuthors;
+    } else {}
+
+    /*
+     * if ($datePublication != "N/A") {$year = '('.substr($datePublication, 0, 4).')';}
+     * elseif ($dateCreation != "N/A") {$year = '('.substr($dateCreation, 0, 4).')';}
+     * else {$year = "";}
+     */
+
+    $year = "" . $dsinfo["publication_year"];
+
     if (is_array($dsinfo['distribution'])) {
         $zipfile = $exptFolder . "/" . $datasetFolder . "/" . $dataset . ".zip";
         $distribution = "<ul>";
@@ -154,31 +144,29 @@ if ($hasDataset) {
 
             $distribution .= "<li>";
             // $distribution .="<a href=\"" . $exptFolder . "/" . $datasetFolder . "/" . $filedownloads['URL'] . "\">";
-            $distribution .= $filedownloads['name'] . " (".$filedownloads['encodingFormat'].")";
+            $distribution .= $filedownloads['name'] . " (" . $filedownloads['encodingFormat'] . ")";
             // $distribution .= "</a>";
             $distribution .= "</li>";
         }
         $distribution .= "</ul>";
     }
-    
+
     if (is_array($dsinfo['image'])) {
-        
+
         $illustration = "";
         foreach ($dsinfo['image'] as $imgsrc) {
-            
+
             $illustration .= "<img src=\"";
             // $distribution .="<a href=\"" . $exptFolder . "/" . $datasetFolder . "/" . $filedownloads['URL'] . "\">";
-            $illustration .=  $exptFolder . "/" . $datasetFolder . "/" .$imgsrc['URL'] . " \" class=\"img-fluid\" alt=\"".$imgsrc['Caption']."\">";
+            $illustration .= $exptFolder . "/" . $datasetFolder . "/" . $imgsrc['URL'] . " \" class=\"img-fluid\" alt=\"" . $imgsrc['Caption'] . "\">";
             // $distribution .= "</a>";
-            
         }
-      
     }
 
     if (is_array($dsinfo['relatedIdentifier'])) {
         $hasDatasets = 0;
         $hasDocuments = 0;
-        $relDatasets = "				<div class=\"card\">
+        $relDatasets_prev = "				<div class=\"card\">
 					<div class=\"card-header\" id=\"Related\">
 						<h5 class=\"mb-0\">
 							<button class=\"btn btn-link collapsed\" data-toggle=\"collapse\"
@@ -190,7 +178,9 @@ if ($hasDataset) {
 						data-parent=\"#accordion\">
 						<div class=\"card-body\">";
 
-        $relDocuments = "<div class=\"card\">
+        $relDatasets = "				<h3>Related Datasets</h3> <ul>";
+
+        $relDocuments_prev = "<div class=\"card\">
 					<div class=\"card-header\" id=\"Supporting\">
 						<h5 class=\"mb-0\">
 							<button class=\"btn btn-link collapsed\" data-toggle=\"collapse\"
@@ -201,6 +191,8 @@ if ($hasDataset) {
 					<div id=\"collapseSupporting\" class=\"collapse\"
 						aria-labelledby=\"Supporting\" data-parent=\"#accordion\">
 						<div class=\"card-body\">";
+
+        $relDocuments = "<h3>Related Documents</h3> <ul>";
 
         foreach ($dsinfo['relatedIdentifier'] as $n => $ris) {
             if ($ris['relatedIdentifierGeneralType'] == "text") {
@@ -213,14 +205,8 @@ if ($hasDataset) {
                 $relDatasets .= "<li>  <a  href=\"https://doi.org/" . $ris['relatedIdentifier'] . "\">  " . $ris['name'] . "</a></li>";
             } else {}
         }
-        $relDatasets .= "
-
-						</div>
-					</div>
-				</div>";
-        $relDocuments .= "</div>
-					</div>
-				</div>";
+        $relDatasets .= "</ul>";
+        $relDocuments .= "</ul>";
     }
     if (is_array($dsinfo['description'])) {
         $arrDescription = array();
@@ -256,25 +242,18 @@ if ($hasDataset) {
      * we check that the is downloading a file.
      * From the environment: we have everything we need about the file being downloaded and also the username of the user
      * On donload:
-     *  1: make a SQL that writed in the usermanagment table that the user is downloading that dataset at that time
+     * 1: make a SQL that writed in the usermanagment table that the user is downloading that dataset at that time
      */
-    
+
     $strUserArea = "Datasets Downloaded on..";
     if (isset($_REQUEST['dlform'])) {
-        $strUserArea .= "received values REQUEST";  
+        $strUserArea .= "received values REQUEST";
         $today = date('d-m-Y');
-        $sqlDownload = "INSERT INTO eradoc.eRAdownloads (`position`, DOI, `dl-date`) VALUES(' ".$_COOKIE['email']."', '".$DOI."', '".$today."')";
-        
-        $strUserArea .=  $sqlDownload;
+        $sqlDownload = "INSERT INTO eradoc.eRAdownloads (`position`, DOI, `dl-date`) VALUES(' " . $_COOKIE['email'] . "', '" . $DOI . "', '" . $today . "')";
+
+        $strUserArea .= $sqlDownload;
     }
-    
-    
-    
 } else {}
-
-
-
-
 
 ?>
 
@@ -297,6 +276,20 @@ if ($hasDataset) {
 						<li class="list-group-item"><b>Experiment: </b> <a
 							href="experiment/<?php echo $expt;?>#datasets"><?php echo $pageinfo['Experiment']; ?></a></li>
 						<li class="list-group-item"><b>Files included in the download: </b> <?php echo $distribution; ?>					
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
 						<li class="list-group-item"><b>Version: </b> <?php echo $dsinfo['version']; ?></li>
 						<li class="list-group-item"><b>Creation Date: </b> <?php echo $dateCreation; ?></li>
 						<li class="list-group-item"><b>Publication Date: </b> <?php echo $datePublication; ?></li>
@@ -316,74 +309,202 @@ if ($hasDataset) {
 					<?php echo    $strDownload;?>
 				</div>
 
-			</div><div class="card card-summary">
+			</div>
+			<div class="card card-summary">
 				<div class="card-body">
 				 
 					<?php echo  $strUserArea;?>
 				</div>
 
 			</div>
-			
+
 		</div>
 		<div class="col-sm-8">
- <h3>Summary</h3>
+			<h3>Summary</h3>
 			<p><?php echo $arrDescription['Abstract']; ?></p>
-			<?php
-			echo         $illustration;
+					   <?php echo         $illustration; // if it is available ?>
+			
+		<?php
 if (isset($arrDescription['Methods'])) {
-    ?>
-			    <h3>Methods</h3>
-			<p style="white-space: pre-wrap; " ><?php echo $arrDescription['Methods']; ?></p>
-			    <?php
+    ?> 
+		   <h3>Methods</h3>
+			<p><?php echo $arrDescription['Methods']; ?></p>
+		   <?php
 }
 
-if (isset($arrDescription['TableOfContents'])) {
-    ?>
-			    <h3>Table Of Contents</h3>
-			<p style="white-space: pre-wrap;"><?php echo $arrDescription['TableOfContents']; ?></p>
-			    <?php
-}
 if (isset($arrDescription['TechnicalInfo'])) {
-    ?>
-			    <h3>Technical Information</h3>
-			<p style="white-space: pre-wrap;"><?php echo $arrDescription['TechnicalInfo']; ?></p>
-			    <?php
+
+    ?> 
+		    <h3>Technical Information</h3>
+			<p><?php echo $arrDescription['TechnicalInfo']; ?></p>
+		   <?php
 }
-if (isset($arrDescription['Provenance'])) {
-    ?>
-			    <h3>Provenance</h3>
-			<p style="white-space: pre-wrap;"><?php echo $arrDescription['Provenance']; ?></p>
-			    <?php
-}
-if (isset($arrDescription['Quality'])) {
-    ?>
-			    <h3>Quality</h3>
-			<p style="white-space: pre-wrap;"><?php echo $arrDescription['Quality']; ?></p>
-			    <?php
-}
-if (isset($arrDescription['Other'])) {
-    ?>
-			    <h3>Extra</h3>
-			<p style="white-space: pre-wrap;"><?php echo $arrDescription['Other']; ?></p>
-			    <?php
+if ($hasDocuments == 1) {
+    echo $relDocuments;
 }
 
-?>
+if ($hasDatasets == 1) {
+    echo $relDatasets;
+}
+?>	
+			<h3>Dataset Access and Conditions</h3>
+			<h5>Rights Holder</h5>
+			<p>Rothamsted Research</p>
+
+			<h5>License</h5>
+			<p>
+				<a rel="license" target="_blank"
+					href="http://creativecommons.org/licenses/by/4.0/" target="out"><img
+					style="width: 50px;" alt="Creative Commons License"
+					src="images/logos/cc4.png" align="middle" /></a> This dataset is
+				available under a <a rel="license"
+					href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+					Attribution Licence (4.0)</a>.
+			</p>
+			<h5>Cite this Dataset</h5>
+			<p>
+				<strong>YOU MUST CITE AS: </strong><?php echo $refAuthor; ?> (<?php echo $year;?>).
+								<?php echo $dsinfo['name'];?> <em><?php echo $getPublisher; ?></em>
+				<a target="_blank"
+					href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
+			
+			
+			<p>
+				Please review our <a href="howtocredit.php">How to Credit Datasets</a>
+				guidance for more information.
+			</p>
+			<h5>Conditions of Use</h5>
+
+			<p>
+				Rothamsted relies on the integrity of users to ensure that datasets
+				are used appropriately and Rothamsted Research receives suitable
+				acknowledgment as being the originators of these data. Please review
+				the <a href="conditions.php">Conditions of Use</a> before
+				downloading.
+			</p>
 			<div id="accordion">
+			<?php
 
-				
-				<?php
+// if (isset($arrDescription['Methods'])) {
+// ?>
+<!-- 			<div class="card"> -->
+				<!-- 					<div class="card-header" id="methods"> -->
+				<!-- 						<h5 class="mb-0"> -->
+				<!-- 							<button class="btn btn-link collapsed" data-toggle="collapse" -->
+				<!-- 								data-target="#collapseFive" aria-expanded="false" -->
+				<!-- 								aria-controls="collapseFive">Methods</button> -->
+				<!-- 						</h5> -->
+				<!-- 					</div> -->
+				<!-- 					<div id="collapseFive" class="collapse" aria-labelledby="methods" -->
+				<!-- 						data-parent="#accordion"> -->
+				<!-- 						<div class="card-body"> -->
+				<p><?php echo $arrDescription['Methods']; ?></p>
+				<!-- 						</div> -->
+				<!-- 					</div> -->
+				<!-- 				</div> -->
+			    <?php
+    // }
 
-    if ($hasDocuments == 1) {
-        echo $relDocuments;
+    if (isset($arrDescription['TableOfContents'])) {
+        ?>
+				<div class="card">
+					<div class="card-header" id="TableOfContents">
+						<h5 class="mb-0">
+							<button class="btn btn-link collapsed" data-toggle="collapse"
+								data-target="#collapseOne" aria-expanded="false"
+								aria-controls="collapseOne">Table Of Contents</button>
+						</h5>
+					</div>
+					<div id="collapseOne" class="collapse"
+						aria-labelledby="TableOfContents" data-parent="#accordion">
+						<div class="card-body">
+							<h3>Table Of Contents</h3>
+							<p><?php echo $arrDescription['TableOfContents']; ?></p>
+						</div>
+					</div>
+				</div>			    <?php
     }
+    // if (isset($arrDescription['TechnicalInfo'])) {
+    // ?>
+<!-- 			    <div class="card"> -->
+				<!-- 					<div class="card-header" id="TechnicalInfo"> -->
+				<!-- 						<h5 class="mb-0"> -->
+				<!-- 							<button class="btn btn-link collapsed" data-toggle="collapse" -->
+				<!-- 								data-target="#collapseTwo" aria-expanded="false" -->
+				<!-- 								aria-controls="collapseTwo">Technical Information</button> -->
+				<!-- 						</h5> -->
+				<!-- 					</div> -->
+				<!-- 					<div id="collapseTwo" class="collapse" -->
+				<!-- 						aria-labelledby="TechnicalInfo" data-parent="#accordion"> -->
+				<!-- 						<div class="card-body"> -->
 
-    if ($hasDatasets == 1) {
-        echo $relDatasets;
+				<p><?php echo $arrDescription['TechnicalInfo']; ?></p>
+				<!-- 						</div> -->
+				<!-- 					</div> -->
+				<!-- 				</div> -->
+			    <?php
+    // }
+    if (isset($arrDescription['Provenance'])) {
+        ?>
+			     <div class="card">
+					<div class="card-header" id="Provenance">
+						<h5 class="mb-0">
+							<button class="btn btn-link collapsed" data-toggle="collapse"
+								data-target="#collapseThree" aria-expanded="false"
+								aria-controls="collapseThree">Provenance</button>
+						</h5>
+					</div>
+					<div id="collapseThree" class="collapse"
+						aria-labelledby="Provenance" data-parent="#accordion">
+						<div class="card-body">
+
+							<p><?php echo $arrDescription['Provenance']; ?></p>
+						</div>
+					</div>
+				</div>
+			    <?php
+    }
+    if (isset($arrDescription['Quality'])) {
+        ?>
+			    <div class="card">
+					<div class="card-header" id="Quality">
+						<h5 class="mb-0">
+							<button class="btn btn-link collapsed" data-toggle="collapse"
+								data-target="#collapseFour" aria-expanded="false"
+								aria-controls="collapseFour">Quality</button>
+						</h5>
+					</div>
+					<div id="collapseFour" class="collapse" aria-labelledby="Quality"
+						data-parent="#accordion">
+						<div class="card-body">
+
+
+							<p><?php echo $arrDescription['Quality']; ?></p>
+						</div>
+					</div>
+				</div>
+			    <?php
+    }
+    if (isset($arrDescription['Other'])) {
+        ?>
+			    <div class="card">
+					<div class="card-header" id="Other">
+						<h5 class="mb-0">
+							<button class="btn btn-link collapsed" data-toggle="collapse"
+								data-target="#collapseSix" aria-expanded="false"
+								aria-controls="collapseSix">Miscellaneous</button>
+						</h5>
+					</div>
+					<div id="collapseSix" class="collapse" aria-labelledby="Other"
+						data-parent="#accordion">
+						<div class="card-body">
+							<p><?php echo $arrDescription['Other']; ?></p>
+						</div>
+					</div>
+				</div>
+			    <?php
     }
     ?>
-
-							
 				<div class="card">
 					<div class="card-header" id="Funding">
 						<h5 class="mb-0">
@@ -424,49 +545,7 @@ if (isset($arrDescription['Other'])) {
 						</div>
 					</div>
 				</div>
-				<div class="card">
-					<div class="card-header" id="Access">
-						<h5 class="mb-0">
-							<button class="btn btn-link collapsed" data-toggle="collapse"
-								data-target="#collapseAccess" aria-expanded="false"
-								aria-controls="collapseAccess">Dataset Access and Conditions</button>
-						</h5>
-					</div>
-					<div id="collapseAccess" class="collapse" aria-labelledby="Access"
-						data-parent="#accordion">
-						<div class="card-body">
-							<h5>Rights Holder</h5>
-							<p>Rothamsted Research</p>
-
-							<h5>License</h5>
-							<p>
-								<a rel="license" target="_blank"
-									href="http://creativecommons.org/licenses/by/4.0/" target="out"><img
-									style="width: 50px;" alt="Creative Commons License"
-									src="images/logos/cc4.png" align="middle" /></a> This dataset
-								is available under a <a rel="license"
-									href="http://creativecommons.org/licenses/by/4.0/">Creative
-									Commons Attribution Licence (4.0)</a>.
-							</p>
-							<h5>Cite this Dataset</h5>
-							<p>
-								<strong>YOU MUST CITE AS: </strong><?php echo $refAuthor; ?> (<?php echo $year;?>).
-								<?php echo $dsinfo['name'];?> <em><?php echo $getPublisher; ?></em>
-								<a target="_blank"
-									href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
-								<p>Please review our <a href="howtocredit.php">How to Credit Datasets</a> guidance for more information.
-							</p>
-							<h5>Conditions of Use</h5>
-						
-							<p>Rothamsted relies on the integrity of users to ensure that datasets 
-							are used appropriately and Rothamsted Research receives suitable acknowledgment as being
-								the originators of these data. Please review the <a href="conditions.php">Conditions of Use</a> before downloading.</p>
-
-						</div>
-					</div>
-				</div>
 			</div>
-
 		</div>
 	</div>
 </div>
@@ -482,7 +561,8 @@ if (isset($arrDescription['Other'])) {
 	<div class="modal-dialog modal-dialog-centered" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLongTitle">OA End User Agreement</h5>
+				<h5 class="modal-title" id="exampleModalLongTitle">OA End User
+					Agreement</h5>
 				<button type="button" class="close" data-dismiss="modal"
 					aria-label="Close">
 					<span aria-hidden="true">&times;</span>
@@ -499,12 +579,12 @@ if (isset($arrDescription['Other'])) {
 						Commons Attribution 4.0 International License</a>.
 				</p>
 				<p>
-								<strong>YOU MUST CITE AS: </strong><?php echo $refAuthor; ?> (<?php echo $year;?>).
+					<strong>YOU MUST CITE AS: </strong><?php echo $refAuthor; ?> (<?php echo $year;?>).
 								<?php echo $dsinfo['name'];?> <em><?php echo $getPublisher; ?></em>
-								<a target="_blank"
-									href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
+					<a target="_blank"
+						href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
 
-							</p>
+				</p>
 				<p>Rothamsted relies on the integrity of users to ensure that
 					Rothamsted Research receives suitable acknowledgment as being the
 					originators of these data. This enables us to monitor the use of
@@ -530,7 +610,8 @@ if (isset($arrDescription['Other'])) {
 	<div class="modal-dialog modal-dialog-centered" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLongTitle">Other End User Agreement</h5>
+				<h5 class="modal-title" id="exampleModalLongTitle">Other End User
+					Agreement</h5>
 				<button type="button" class="close" data-dismiss="modal"
 					aria-label="Close">
 					<span aria-hidden="true">&times;</span>
@@ -547,12 +628,12 @@ if (isset($arrDescription['Other'])) {
 						Commons Attribution 4.0 International License</a>.
 				</p>
 				<p>
-								<strong>YOU MUST CITE AS: </strong><?php echo $refAuthor; ?> (<?php echo $year;?>).
+					<strong>YOU MUST CITE AS: </strong><?php echo $refAuthor; ?> (<?php echo $year;?>).
 								<?php echo $dsinfo['name'];?> <em><?php echo $getPublisher; ?></em>
-								<a target="_blank"
-									href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
+					<a target="_blank"
+						href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
 
-							</p>
+				</p>
 				<p>Rothamsted relies on the integrity of users to ensure that
 					Rothamsted Research receives suitable acknowledgment as being the
 					originators of these data. This enables us to monitor the use of
@@ -561,12 +642,15 @@ if (isset($arrDescription['Other'])) {
 
 			</div>
 			<div class="modal-footer">
-			<form method="POST">
+				<form method="POST">
+
+					<button type="button" class="btn btn-secondary"
+						data-dismiss="modal">Close</button>
+					<a type="button" download class="btn btn-primary"
+						href="<?php echo $zipfile; ?>">Agree and Download</a>
+					<button type="submit" class="btn btn-warning" name="dlform"
+						value="isDownload">Test Download</button>
 			
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				<a type="button" download class="btn btn-primary"
-					href="<?php echo $zipfile; ?>">Agree and Download</a>
-			<button type="submit" class="btn btn-warning"  name="dlform" value="isDownload">Test Download</button>
 			</div>
 		</div>
 	</div>
@@ -580,7 +664,8 @@ if (isset($arrDescription['Other'])) {
 	<div class="modal-dialog modal-dialog-centered" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLongTitle">N/A End User Agreement</h5>
+				<h5 class="modal-title" id="exampleModalLongTitle">N/A End User
+					Agreement</h5>
 				<button type="button" class="close" data-dismiss="modal"
 					aria-label="Close">
 					<span aria-hidden="true">&times;</span>
@@ -597,12 +682,12 @@ if (isset($arrDescription['Other'])) {
 						Commons Attribution 4.0 International License</a>.
 				</p>
 				<p>
-								<strong>YOU MUST CITE AS: </strong><?php echo $refAuthor; ?> (<?php echo $year;?>).
+					<strong>YOU MUST CITE AS: </strong><?php echo $refAuthor; ?> (<?php echo $year;?>).
 								<?php echo $dsinfo['name'];?> <em><?php echo $getPublisher; ?></em>
-								<a target="_blank"
-									href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
+					<a target="_blank"
+						href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
 
-							</p>
+				</p>
 				<p>Rothamsted relies on the integrity of users to ensure that
 					Rothamsted Research receives suitable acknowledgment as being the
 					originators of these data. This enables us to monitor the use of
@@ -611,15 +696,18 @@ if (isset($arrDescription['Other'])) {
 
 			</div>
 			<div class="modal-footer">
-			<form>
-			<input type="hidden" name="isDownload" value="isDownload">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				<a type="button" download class="btn btn-primary"
-					href="<?php echo $zipfile; ?>">Agree and Download</a>
-					<button type="submit" class="btn btn-warning" name="dlform">Test Download</button>
+				<form>
+					<input type="hidden" name="isDownload" value="isDownload">
+					<button type="button" class="btn btn-secondary"
+						data-dismiss="modal">Close</button>
+					<a type="button" download class="btn btn-primary"
+						href="<?php echo $zipfile; ?>">Agree and Download</a>
+					<button type="submit" class="btn btn-warning" name="dlform">Test
+						Download</button>
+			
 			</div>
 		</div>
 	</div>
 </div>
 
-<?php testvar();?>
+<?php //testvar();?>
