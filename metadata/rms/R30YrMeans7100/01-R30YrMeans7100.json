@@ -275,10 +275,10 @@
     },
     "relatedIdentifier": [
         {
-            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Met/R30YrMeans6190",
-            "relatedIdentifierType": "URL",
-            "name": "Not in the Database",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifier": "10.23637/OARES30YrMeans6190",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted 30-year mean meteorological data 1961-1990",
+            "relatedIdentifierGeneralType": "Dataset",
             "relationType": "Continues",
             "rt_id": 6,
             "relationTypeValue": "continues"

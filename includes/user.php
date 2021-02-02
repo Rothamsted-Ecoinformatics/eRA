@@ -35,7 +35,7 @@ $location = "Location: " . $_SESSION['history'][$nb];
  */
 function checkUser($info)
 {
-    $link = LogAsGuest();
+    $link = LogMangaGuest();
     $info = cleanQuery($info);
     $query = "Select * from `newmarkers` where `position` LIKE '$info'";
     $results = mysqli_query($link, $query);
@@ -132,7 +132,7 @@ function getInput()
 function reg2db($answer)
 {
    
-    $link = LogAsAdmin();
+    $link = LogMangaAd();
     $consentEmail = 0;
     if (isset($answer['consentEmail'])) {
         if ($answer['consentEmail'] == 'on') {

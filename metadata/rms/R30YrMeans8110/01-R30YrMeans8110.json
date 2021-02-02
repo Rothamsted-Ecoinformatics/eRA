@@ -4,7 +4,7 @@
     "identifier": "10.23637/OARES30YrMeans8180",
     "name": "Rothamsted 30-year mean meteorological data 1981-2010",
     "shortName": "R30YrMeans8110",
-    "url": "http://www.era.rothamsted.ac.uk/Met/R30YrMeans8180",
+    "url": "http://www.era.rothamsted.ac.uk/Met/R30YrMeans8110",
     "description": [
         {
             "inLanguage": "en",
@@ -24,7 +24,7 @@
         {
             "inLanguage": "en",
             "descriptionType": "TechnicalInfo",
-            "description": "MEASUREMENTS\r\n\u2022Rain: The mean total monthly rainfall including all precipitation (snow, rain, mist and fog) captured in a 5 inch rain gauge (mm per month)\r\n\r\n\u2022Sunshine: The mean total hours of sunshine (hours per month)\r\n\r\n\u2022Maximum temperature: The mean maximum monthly air temperature (degrees C)\r\n\u2022Minimum temperature: The mean minumum monthly air temperature (degrees C)\r\n\u2022Average temperature: The mean of the maximum and minimum air temperature (degrees C)\r\n\u2022Soil temperature under grass 30cm: The mean monthly soil temperature under grass at 30cm depth, measured at 0900 GMT (degrees C) \r\n\u2022Soil temperature under grass 100cm: The mean monthly soil temperature under grass at 100cm depth, measured at 0900 GMT (degrees C)\r\n\u2022Wind: The mean monthly wind speed measured at 2 metres above ground level, averaged over 24 hours (km per hour)\r\n\u2022Evaporation: The mean total monthly evaporation over two open water tanks installed in the spring of each year (mm per month) \r\n\u2022Radiation: The mean daily solar radiation measured with a Kipp Solarimeter (J/cm2)"
+            "description": "MEASUREMENTS\r\n- Rain: The mean total monthly rainfall including all precipitation (snow, rain, mist and fog) captured in a 5 inch rain gauge (mm per month)\r\n\r\n- Sunshine: The mean total hours of sunshine (hours per month)\r\n\r\n- Maximum temperature: The mean maximum monthly air temperature (&deg;C)\r\n- Minimum temperature: The mean minumum monthly air temperature (&deg;C)\r\n- Average temperature: The mean of the maximum and minimum air temperature (&deg;C)\r\n- Soil temperature under grass 30cm: The mean monthly soil temperature under grass at 30cm depth, measured at 0900 GMT (&deg;C) \r\n- Soil temperature under grass 100cm: The mean monthly soil temperature under grass at 100cm depth, measured at 0900 GMT (&deg;C)\r\n- Wind: The mean monthly wind speed measured at 2 metres above ground level, averaged over 24 hours (km per hour)\r\n- Evaporation: The mean total monthly evaporation over two open water tanks installed in the spring of each year (mm per month) \r\n- Radiation: The mean daily solar radiation measured with a Kipp Solarimeter (J/cm2)"
         },
         {
             "inLanguage": "en",
@@ -194,7 +194,7 @@
         },
         {
             "type": "Person",
-            "jobTitle": "RelatedPerson",
+            "jobTitle": "DataManager",
             "name": "Nathalie Castells-Brooke",
             "givenName": "Nathalie",
             "familyName": "Castells-Brooke",
@@ -278,19 +278,19 @@
     },
     "relatedIdentifier": [
         {
-            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Met/R30YrMeans7100",
-            "relatedIdentifierType": "URL",
-            "name": "Not in the Database",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifier": "10.23637/OARES30YrMeans7100",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted 30-year mean meteorological data 1971-2000",
+            "relatedIdentifierGeneralType": "Dataset",
             "relationType": "Continues",
             "rt_id": 6,
             "relationTypeValue": "continues"
         },
         {
-            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Met/R30YrMeans6190",
-            "relatedIdentifierType": "URL",
-            "name": "Not in the Database",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifier": "10.23637/OARES30YrMeans6190",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted 30-year mean meteorological data 1961-1990",
+            "relatedIdentifierGeneralType": "Dataset",
             "relationType": "Continues",
             "rt_id": 6,
             "relationTypeValue": "continues"
@@ -308,13 +308,28 @@
     "distribution": [
         {
             "type": "dataDownload",
-            "name": null,
-            "URL": null,
-            "encodingFormat": "",
-            "fileSize": "8 KB"
+            "name": "Rothamsted 30-year mean weather data 1981-2010 (CSV)",
+            "URL": "Rothamsted_30-year_mean_weather_data_1981-2010_CSV.csv",
+            "encodingFormat": "csv",
+            "fileSize": "2 KB"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Rothamsted 30-year mean weather data 1981-2010 (XLSX)",
+            "URL": "Rothamsted_30-year_mean_weather_data_1981-2010_XLXS.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "14 KB"
         }
     ],
-    "image": [],
+    "image": [
+        {
+            "type": "imageObject",
+            "caption": "Summary Table",
+            "URL": "Table_81-10_snip_750.PNG",
+            "encodingFormat": "PNG",
+            "fileSize": "97 KB"
+        }
+    ],
     "grade": 3,
     "dstype": "OA"
 }

@@ -13,6 +13,7 @@
  * @date 9/27/2018
  * @date 11/28/2019
  */
+include ('includes/Parsedown.php');
 function getVocab($localword)
 {
     GLOBAL $words;
@@ -277,26 +278,11 @@ if ($hasDataset) {
 						</li>
 						<li class="list-group-item"><b>Experiment: </b> <a
 							href="experiment/<?php echo $expt;?>#datasets"><?php echo $pageinfo['Experiment']; ?></a></li>
-						<li class="list-group-item"><b>Files included in the download: </b> <?php echo $distribution; ?>					
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
+						<li class="list-group-item"><b>Files included in the download: </b> <?php echo $distribution; ?>
 						<li class="list-group-item"><b>Version: </b> <?php echo $dsinfo['version']; ?></li>
 						<li class="list-group-item"><b>Creation Date: </b> <?php echo $dateCreation; ?></li>
 						<li class="list-group-item"><b>Publication Date: </b> <?php echo $datePublication; ?></li>
 						<li class="list-group-item"><b>Last updated: </b> <?php echo $dateUpdate; ?></li>
-
 						<li class="list-group-item"><b>Keywords: </b> 
 						<?php
     $localwords = $dsinfo['keywords'];
@@ -338,7 +324,12 @@ if (isset($arrDescription['TechnicalInfo'])) {
 
     ?> 
 		    <h3>Technical Information</h3>
-			<p><?php echo $arrDescription['TechnicalInfo']; ?></p>
+		    <?php $Parsedown = new Parsedown();
+
+		    echo $Parsedown->text($arrDescription['TechnicalInfo']);
+			
+			?>
+			
 		   <?php
 }
 if ($hasDocuments == 1) {
@@ -400,7 +391,7 @@ if ($hasDatasets == 1) {
 				<!-- 					<div id="collapseFive" class="collapse" aria-labelledby="methods" -->
 				<!-- 						data-parent="#accordion"> -->
 				<!-- 						<div class="card-body"> -->
-				<p><?php echo $arrDescription['Methods']; ?></p>
+				<!-- <p><?php echo $arrDescription['Methods']; ?></p> -->
 				<!-- 						</div> -->
 				<!-- 					</div> -->
 				<!-- 				</div> -->
@@ -440,7 +431,7 @@ if ($hasDatasets == 1) {
 				<!-- 						aria-labelledby="TechnicalInfo" data-parent="#accordion"> -->
 				<!-- 						<div class="card-body"> -->
 
-				<p><?php echo $arrDescription['TechnicalInfo']; ?></p>
+				<!--  <p><?php echo $arrDescription['TechnicalInfo']; ?></p> -->
 				<!-- 						</div> -->
 				<!-- 					</div> -->
 				<!-- 				</div> -->

@@ -274,10 +274,10 @@
     },
     "relatedIdentifier": [
         {
-            "relatedIdentifier": "doi.org/10.23637/OARES30YrMeans8180",
+            "relatedIdentifier": "10.23637/OARES30YrMeans8180",
             "relatedIdentifierType": "DOI",
-            "name": "Not in the Database",
-            "relatedIdentifierGeneralType": "text",
+            "name": "Rothamsted 30-year mean meteorological data 1981-2010",
+            "relatedIdentifierGeneralType": "Dataset",
             "relationType": "Continues",
             "rt_id": 6,
             "relationTypeValue": "continues"
@@ -296,15 +296,15 @@
         {
             "type": "dataDownload",
             "name": "Rothamsted 30 year mean weather data 1991-2020",
-            "URL": "Rothamsted_30-year_mean_weather_data_1991-2020",
-            "encodingFormat": "Rothamsted_30-year_mean_weather_data_1991-2020",
+            "URL": "01-Rothamsted_30-year_mean_weather_data_1991-2020",
+            "encodingFormat": "01-Rothamsted_30-year_mean_weather_data_1991-2020",
             "fileSize": "16 KB"
         },
         {
             "type": "dataDownload",
             "name": "Rothamsted 30 year mean weather data 1991-2020",
-            "URL": "Rothamsted_30-year_mean_weather_data_1991-2020",
-            "encodingFormat": "Rothamsted_30-year_mean_weather_data_1991-2020",
+            "URL": "01-Rothamsted_30-year_mean_weather_data_1991-2020",
+            "encodingFormat": "01-Rothamsted_30-year_mean_weather_data_1991-2020",
             "fileSize": "2 KB"
         }
     ],

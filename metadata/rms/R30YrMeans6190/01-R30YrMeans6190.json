@@ -276,7 +276,17 @@
         },
         "name": "Rothamsted Met Station"
     },
-    "relatedIdentifier": [],
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/OARES30YrMeans7100",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted 30-year mean meteorological data 1971-2000",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsContinuedBy",
+            "rt_id": 5,
+            "relationTypeValue": "is continued by"
+        }
+    ],
     "funder": [
         {
             "type": "organization",

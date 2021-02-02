@@ -345,7 +345,7 @@ $pageSettings = array(
         "exp-ID" => 14,
         "Experiment" => "Saxmundham",
         "ExptCode" => "saxmundham",
-        "KeyRef" => " - ",
+        "KeyRef" => "KeyRefSax",
         "URLCode" => "",
         "prevFolder" => ""
     ),

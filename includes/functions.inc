@@ -199,13 +199,13 @@ function LogMangaAd()
     global $nhtyuj; # "eRAManga";
     global $rdjf; # "restauranteur";
     global $dsogjb; # "3mu";   
-    $weiusjdkf = $dsogjb . "S3tsqu4r3";
+    $weiusjdkf = $dsogjb . "S3tsqu4r3s";
     $debug .= $nhtyuj." - ".$rdjf." - ". $weiusjdkf. "<br />";
     $link = mysqli_connect($Turbigo, $rdjf, $weiusjdkf) or die("Could not connect " . $debug . mysql_error()); // connect to database
     mysqli_select_db($link, $nhtyuj) or exit(); // select rrr database
     if ($link) {
         $debug .= "Connected with LogMangaAd <br />";}
-    echo $debug;
+    //echo $debug;
     return $link;
 }
 
