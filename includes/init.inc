@@ -77,7 +77,7 @@ include_once 'includes/exptData.inc'; //functions - experiment data process func
 include_once 'includes/biblio.inc'; //functions - functions for the bibliography
 include_once 'includes/user.php'; //functions and processing User 
 include_once 'includes/session.php'; //sort out what is going in the session variables. 
-
+include_once 'includes/Parsedown.php'; //Tool to transform MarkDown into HTML
 /**
  * 
  

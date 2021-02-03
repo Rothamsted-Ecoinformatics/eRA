@@ -99,27 +99,29 @@ function getPersonInfo($personDetails)
             $line = '';
             if (is_array($site['location']['geoLocationPoint'])) {
                 $line .= "\n<div id=\"mapid\" style=\"width: 500px; height: 400px;\"></div>";
-                $coords = $site['location']['geoLocationPoint']['pointLatitude'] . " , " . $site['location']['geoLocationPoint']['pointLongitude'];
+                $coords ="[". $site['location']['geoLocationPoint']['pointLongitude'] . " , " . $site['location']['geoLocationPoint']['pointLatitude']."]";
             }
             echo $line;
 
             ?>
+                  
             <script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiZXJhZGV2bmF0aCIsImEiOiJja2twZHN4MWYwYnVoMm9zMTZjeW9mMDF2In0.f-XLtnBSQXAFI1XBruy3uQ';
+var map = new mapboxgl.Map({
+container: 'mapid', // container id
+//style: 'mapbox://styles/mapbox/streets-v11', // style URL
+style: 'mapbox://styles/mapbox/satellite-v9',  // style statellite
+center: <?php echo $coords;?>, // starting position [lng, lat]
+zoom: 15 // starting zoom
+});
 
-	var mymap = L.map('mapid').setView([<?php echo $coords;?>], 14);
-
-	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-		maxZoom: 18,
-		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
-			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-			'Imagery � <a href="https://www.mapbox.com/">Mapbox</a>',
-		id: 'mapbox.streets'
-	}).addTo(mymap);
-	L.marker([<?php echo $coords;?>]).addTo(mymap)
-	.bindPopup("<b><?php echo $site['administrative']['name'];?></b><br />").openPopup();
-
-
+var marker = new mapboxgl.Marker()
+.setLngLat(<?php echo $coords;?>)
+.setPopup(new mapboxgl.Popup().setHTML("<b><?php echo $site['administrative']['name'];?></b>")) // add popup
+.addTo(map);
+marker.togglePopup();
 </script>
+
 			</div>
 		</div>
 

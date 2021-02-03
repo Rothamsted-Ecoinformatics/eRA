@@ -17,3 +17,5 @@ metadata/rbk1/FISHER1921/FISHER1921.json.old
 .project
 .vscode/settings.json
 test.php
+zmap2.php
+zmap.php
