@@ -8,14 +8,14 @@
         "dataset_type": "Meteorological dataset",
         "extension": "xlsx",
         "description": "This dataset consists of monthly summaries of meteorological data measured at Saxmundham Experimental Station in East Suffolk, UK, from January 1966 until December 1985, and is derived from daily measurements taken at the site.",
-        "fieldname": "Harwood's Field",
-        "experiment_name": "Saxmundham Rotation 2",
-        "experiment_code": "S/RN/2",
+        "fieldname": "Saxmundham Met Station",
+        "experiment_name": "Saxmundham Meteorological Station",
+        "experiment_code": "SMS",
         "grade": 3,
-        "dstype": "N/A",
+        "dstype": "OA",
         "publication_year": 2019,
         "version": "01",
-        "shortName": "SaxMEt1966",
-        "UID": "01-SaxMEt1966"
+        "shortName": "SaxMet1966",
+        "UID": "01-SaxMet1966"
     }
 ]

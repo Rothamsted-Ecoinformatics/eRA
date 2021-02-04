@@ -1,10 +1,10 @@
 {
-    "id": 268,
+    "id": 2565,
     "experiment_type_term": null,
     "experiment_id": 51,
     "people": [
         {
-            "id": 162,
+            "id": 3648,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -19,11 +19,35 @@
             "orcid": null,
             "is_contact": true,
             "role_label": "data manager"
+        },
+        {
+            "id": 3649,
+            "contacts": [],
+            "role_term": "principal investigator",
+            "title": "Dr",
+            "name": "Andy Macdonald",
+            "affiliation": "Rothamsted Research",
+            "department": "SAS",
+            "orcid": null,
+            "is_contact": false,
+            "role_label": "principal investigator"
+        },
+        {
+            "id": 3650,
+            "contacts": [],
+            "role_term": "principal investigator",
+            "title": "Dr",
+            "name": "Ian Shield",
+            "affiliation": "Rothamsted Research",
+            "department": null,
+            "orcid": null,
+            "is_contact": false,
+            "role_label": "principal investigator"
         }
     ],
     "organizations": [
         {
-            "id": 126,
+            "id": 2605,
             "contacts": [],
             "role_term": "research organisation",
             "name": "Rothamsted Research",
@@ -34,11 +58,11 @@
     ],
     "periods": [
         {
-            "id": 329,
+            "id": 3846,
             "design_type_term": "Randomized complete block design",
             "crops": [
                 {
-                    "id": 296,
+                    "id": 10808,
                     "crop_term": "Miscanthus sinensis",
                     "crop_label": "Miscanthus sinensis",
                     "start_year": null,
@@ -48,11 +72,11 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 200,
+                    "id": 6053,
                     "factor_term": "nitrogen fertilizer exposure",
                     "levels": [
                         {
-                            "id": 434,
+                            "id": 16463,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": "0",
@@ -70,7 +94,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 435,
+                            "id": 16464,
                             "factor_variant_term": null,
                             "factor_variant_label": "N1",
                             "amount": "60",
@@ -88,7 +112,7 @@
                             "chemical_form_label": "ammonium nitrate"
                         },
                         {
-                            "id": 436,
+                            "id": 16465,
                             "factor_variant_term": null,
                             "factor_variant_label": "N2",
                             "amount": "120",
@@ -150,7 +174,7 @@
             ],
             "start_year": 1993,
             "end_year": null,
-            "ongoing": false,
+            "ongoing": true,
             "name": "Main period",
             "design_type_label": "Randomized complete block design",
             "number_of_blocks": 3,
@@ -170,10 +194,35 @@
     "site_perimeter": [],
     "site_soil_type_term": null,
     "site_soil_properties": [],
-    "site_climatic_type_term": null,
-    "site_climate_properties": [],
+    "site_climatic_type_term": "temperate oceanic climate",
+    "site_climate_properties": [
+        {
+            "id": 1811,
+            "variable_term": "precipitation",
+            "unit_term": "mm",
+            "variable_label": "precipitation",
+            "year_from": 1981,
+            "year_to": 2010,
+            "mean_value": 733.0,
+            "max_value": 973.5,
+            "min_value": 515.5,
+            "unit_label": "millimeter"
+        },
+        {
+            "id": 1812,
+            "variable_term": "air temperature",
+            "unit_term": "degC",
+            "variable_label": "air temperature",
+            "year_from": 1981,
+            "year_to": 2010,
+            "mean_value": 9.8,
+            "max_value": 10.89,
+            "min_value": 8.51,
+            "unit_label": "degree Celsius"
+        }
+    ],
     "literature": [],
-    "saved_time": "2019-08-27T20:18:11.155530Z",
+    "saved_time": "2021-02-02T21:21:36.723867Z",
     "name": "Long-term Miscanthus Experiment",
     "local_identifier": "R/CS/408",
     "experiment_type_label": null,
@@ -183,7 +232,7 @@
     "ongoing": true,
     "establishment_period_end": 1995,
     "objective": "To quantify the biomass yield potential of Miscanthus sinensis giganteus",
-    "description": "Miscanthus was transplanted on 25th May 1993. The Rothamsted crop has remained productive since with no sign of yield decline and is now believed to be one of the oldest stands in the world. The experiment is now maintained to determine how long a single planting may remain productive and to monitor for pests and diseases that may threaten productivity",
+    "description": "Miscanthus was transplanted on 25th May 1993. The Rothamsted crop has remained productive since with no sign of yield decline and is now believed to be one of the oldest stands in the world. The experiment is now maintained to determine how long a single planting may remain productive and to monitor for pests and diseases that may threaten productivity.",
     "site_name": "Road Piece West",
     "site_local_code": null,
     "site_geonames_id": null,
@@ -204,7 +253,7 @@
     "site_management": "Fertilizers and pesticides are applied as necessary. The crop is hand harvested.",
     "site_soil_type_label": null,
     "site_soil_description": null,
-    "site_climatic_type_label": null,
+    "site_climatic_type_label": "temperate oceanic climate",
     "site_climate_description": null,
     "data_statement_label": "Available to any researcher on request",
     "data_url": null,

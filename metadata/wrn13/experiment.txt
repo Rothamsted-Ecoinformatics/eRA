@@ -1,0 +1,19 @@
+************************************************************************************************************************************************
+
+                        Woburn Intensive cereals (W/RN/13) 
+
+************************************************************************************************************************************************
+
+
+
+
+DESCRIPTION
+    These experiments are almost identical to the Broadbalk and Hoosfield Barley experiments at Rothamsted, but at Woburn. They are also known as the Woburn Continuous Wheat and Barley experiments. They started in 1876 on Woburn Stackyard, and where carried out by the Royal Agricultural Society of England but with input from Lawes. They were under continuous wheat and barley, mirroring the Broadbalk and Hoosfield Experiments, until 1926. According to Voelcker (1929), after 1926 it was decided to fallow the plots, which had become infested with weeds.
+    To study the effects of intensive cereal cropping on yield, incidence of soil-borne pathogens and organic matter in the soil.
+
+    Experiment start = 1876
+
+    Experiment end = 1990
+
+CONDITION OF ACCESS 
+EXPERIMENT DESIGN 

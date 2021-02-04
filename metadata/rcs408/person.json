@@ -12,6 +12,32 @@
                 "name": "Rothamsted Research",
                 "address": "West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "principal investigator",
+            "name": "Andy Macdonald",
+            "givenName": "Andy",
+            "familyName": "Macdonald",
+            "sameAs": null,
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": "West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "principal investigator",
+            "name": "Ian Shield",
+            "givenName": "Ian",
+            "familyName": "Shield",
+            "sameAs": null,
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": "West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
         }
     ]
 }

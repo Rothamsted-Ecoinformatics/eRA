@@ -310,6 +310,15 @@
             "relationType": "IsSupplementTo",
             "rt_id": 3,
             "relationTypeValue": "is supplement to"
+        },
+        {
+            "relatedIdentifier": "10.23637/rcs10-Treatments-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted long-term liming experiments lime and fertilizer treatments 1962-1996",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
         }
     ],
     "funder": [],
@@ -319,7 +328,7 @@
             "name": "Rothamsted long-term liming experiment crop yields",
             "URL": "01-RothLTliming-yield.xlxs",
             "encodingFormat": "xlxs",
-            "fileSize": "213 KB"
+            "fileSize": "242 KB"
         }
     ],
     "image": [],

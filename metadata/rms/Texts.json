@@ -1,0 +1,21 @@
+[
+    {
+        "md_id": -812406317,
+        "title": "Rothamsted Met Data Monthly and Annual Summary 2007",
+        "URL": "http://www.era.rothamsted.ac.uk/metadata/met/Weather-Summary-2007.pdf",
+        "identifier": "10.23637/rms-MonAnnSum-2007",
+        "identifier_type": "DOI",
+        "dataset_type": "Report",
+        "extension": "pdf",
+        "description": "This report consists of the monthly and annual summaries of meteorological data measured at Rothamsted Research, Harpenden, UK, from January 2007 until December 2007.",
+        "fieldname": "Rothamsted Met Station",
+        "experiment_name": "Rothamsted Meteorological Station",
+        "experiment_code": "RMS",
+        "grade": 1,
+        "dstype": "OA",
+        "publication_year": 2017,
+        "version": "01",
+        "shortName": -812406317,
+        "UID": -812406317
+    }
+]

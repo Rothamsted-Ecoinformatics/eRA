@@ -30,9 +30,9 @@
     "citation": [
         {
             "type": "creativeWork",
-            "identifier": "http://www.era.rothamsted.ac.uk/Other/liming",
-            "sameAs": "http://www.era.rothamsted.ac.uk/Other/liming",
-            "citation": "Long-term Liming Experiments at Rothamsted and Woburn",
+            "identifier": "http://www.era.rothamsted.ac.uk/RCS10",
+            "sameAs": "http://www.era.rothamsted.ac.uk/RCS10",
+            "citation": "Rothamsted long-term liming experiment",
             "inLanguage": "English",
             "relationType": "isCitedBy"
         },
@@ -65,6 +65,14 @@
             "identifier": "https://doi.org/10.23637/rcs10-Plans",
             "sameAs": "https://doi.org/10.23637/rcs10-Plans",
             "citation": "Rothamsted Long-term Liming Experiment Plans 1962-1996",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/rcs10-Treatments-01",
+            "sameAs": "https://doi.org/10.23637/rcs10-Treatments-01",
+            "citation": "Rothamsted long-term liming experiment lime and fertilizer treatments 1962-1996",
             "inLanguage": "English",
             "relationType": "isCitedBy"
         }

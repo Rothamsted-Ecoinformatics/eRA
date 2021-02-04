@@ -1,0 +1,767 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "First Period",
+            "localIdentifier": "First Period",
+            "name": "First Period",
+            "url": "First Period",
+            "description": "The experiment had two series, each growing a separate phase of a two year rotation. Each series was split into 4 blocks of 10 plots."
+        },
+        "design": {
+            "dateStart": 1942,
+            "dateEnd": 1950,
+            "description": null,
+            "studyDesign": "First Period",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": 8,
+            "numberOfPlots": 80,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null,
+            "numberOfHarvests": 2
+        },
+        "crops": [
+            {
+                "id": 10934,
+                "name": "cabbages",
+                "sameAs": "cabbages",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 10935,
+                "name": "peas",
+                "sameAs": "peas",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 10936,
+                "name": "leeks",
+                "sameAs": "leeks",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 10937,
+                "name": "beetroot",
+                "sameAs": "beetroot",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": [
+            {
+                "name": "",
+                "dateStart": null,
+                "dateEnd": null,
+                "phasing": "Complete",
+                "isTreatment": false,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 10937,
+                        "description": null
+                    },
+                    {
+                        "samePhase": true,
+                        "crop": 10934,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 10935,
+                        "description": null
+                    },
+                    {
+                        "samePhase": true,
+                        "crop": 10936,
+                        "description": null
+                    }
+                ]
+            }
+        ],
+        "factor": [
+            {
+                "id": 6097,
+                "name": "natural fertilizer exposure",
+                "description": "Amendments were applied in winter before beetroot and peas",
+                "effect": "",
+                "plotApplication": "Whole plot",
+                "level": [
+                    {
+                        "id": 16610,
+                        "name": "farmyard manure",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 16611,
+                        "name": "sewage sludge",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 16612,
+                        "name": "straw compost",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "Made with sewage sludge and straw"
+                    },
+                    {
+                        "id": 16613,
+                        "name": "vegetable compost",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "Made with farm waste and farmyard manure"
+                    }
+                ]
+            },
+            {
+                "id": 6098,
+                "name": "nitrogen fertilizer exposure",
+                "description": "N0 and N1 applied both with and without the organics and N2 and N3 applied without organics only. The N rate refers to the total applied over the two year rotation period.",
+                "effect": "",
+                "plotApplication": "Whole plot",
+                "level": [
+                    {
+                        "id": 16614,
+                        "name": "N0",
+                        "amount": "0",
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 16615,
+                        "name": "N1",
+                        "amount": "75",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": "annually in spring",
+                        "method": "broadcast application method",
+                        "chemicalForm": "ammonium sulfate",
+                        "notes": null
+                    },
+                    {
+                        "id": 16616,
+                        "name": "N2",
+                        "amount": "150",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "ammonium sulfate",
+                        "notes": null
+                    },
+                    {
+                        "id": 16617,
+                        "name": "N3",
+                        "amount": "225",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "ammonium sulfate",
+                        "notes": null
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Second Period",
+            "localIdentifier": "Second Period",
+            "name": "Second Period",
+            "url": "Second Period",
+            "description": "Potatoes were introduced as a result of repeated crop failures in spring cabbages."
+        },
+        "design": {
+            "dateStart": 1951,
+            "dateEnd": 1961,
+            "description": "Potatoes were introduced as a result of repeated crop failures in spring cabbages.",
+            "studyDesign": "Second Period",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": null,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
+        },
+        "crops": [
+            {
+                "id": 10938,
+                "name": "beetroot",
+                "sameAs": "beetroot",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 10939,
+                "name": "cabbages",
+                "sameAs": "cabbages",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 10940,
+                "name": "leeks",
+                "sameAs": "leeks",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 10941,
+                "name": "potatoes",
+                "sameAs": "potatoes",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": [
+            {
+                "name": "Bt-Ca-Le",
+                "dateStart": 1951,
+                "dateEnd": 1955,
+                "phasing": "Complete",
+                "isTreatment": false,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 10938,
+                        "description": null
+                    },
+                    {
+                        "samePhase": true,
+                        "crop": 10939,
+                        "description": "spring cabbage"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 10940,
+                        "description": null
+                    }
+                ]
+            },
+            {
+                "name": "Bt-P-Le",
+                "dateStart": 1956,
+                "dateEnd": 1961,
+                "phasing": "Complete",
+                "isTreatment": false,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 10938,
+                        "description": null
+                    },
+                    {
+                        "samePhase": true,
+                        "crop": 10941,
+                        "description": "early potatoes"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 10940,
+                        "description": null
+                    }
+                ]
+            }
+        ],
+        "factor": [
+            {
+                "id": 6099,
+                "name": "natural fertilizer exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "Whole plot",
+                "level": [
+                    {
+                        "id": 16618,
+                        "name": "farmyard manure",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 16619,
+                        "name": "sewage sludge",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 16620,
+                        "name": "straw compost",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "Made with sewage sludge and straw"
+                    },
+                    {
+                        "id": 16621,
+                        "name": "vegetable compost",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "Made with farm waste and farmyard manure"
+                    }
+                ]
+            },
+            {
+                "id": 6100,
+                "name": "nitrogen fertilizer exposure",
+                "description": "N0 and N1 applied both with and without the organics and N2 and N3 applied without organics only. The N rate refers to the total applied over the two year rotation period.",
+                "effect": "",
+                "plotApplication": "Whole plot",
+                "level": [
+                    {
+                        "id": 16622,
+                        "name": "N0",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 16623,
+                        "name": "N1",
+                        "amount": "37",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "calcium ammonium nitrate",
+                        "notes": null
+                    },
+                    {
+                        "id": 16624,
+                        "name": "N2",
+                        "amount": "75",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "calcium ammonium nitrate",
+                        "notes": null
+                    },
+                    {
+                        "id": 16625,
+                        "name": "N3",
+                        "amount": "113",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "calcium ammonium nitrate",
+                        "notes": null
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Third Period",
+            "localIdentifier": "Third Period",
+            "name": "Third Period",
+            "url": "Third Period",
+            "description": "The Experiment continued with comparisons of Nitrogen rates and organic manuring with various crops grown, although application of sewage sludges was discontinued."
+        },
+        "design": {
+            "dateStart": 1962,
+            "dateEnd": 1973,
+            "description": "The Experiment continued with comparisons of Nitrogen rates and organic manuring with various crops grown, although application of sewage sludges was discontinued.",
+            "studyDesign": "Third Period",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": null,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
+        },
+        "crops": [
+            {
+                "id": 10942,
+                "name": "leeks",
+                "sameAs": "leeks",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 10943,
+                "name": "beetroot",
+                "sameAs": "beetroot",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 10944,
+                "name": "potatoes",
+                "sameAs": "potatoes",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 10945,
+                "name": "carrots",
+                "sameAs": "carrots",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 10946,
+                "name": "rye",
+                "sameAs": "rye",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 10947,
+                "name": "beans",
+                "sameAs": "beans",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 10948,
+                "name": "grass leys",
+                "sameAs": "grass leys",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 10949,
+                "name": "grass clover leys",
+                "sameAs": "grass clover leys",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": [
+            {
+                "id": 6101,
+                "name": "nitrogen fertilizer exposure",
+                "description": "N applied at various rates. Rates depend on the crop.",
+                "effect": "",
+                "plotApplication": null,
+                "level": []
+            },
+            {
+                "id": 6102,
+                "name": "natural fertilizer exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": null,
+                "level": [
+                    {
+                        "id": 16626,
+                        "name": "grass-clover ley",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 16627,
+                        "name": "grass ley",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 16628,
+                        "name": "straw",
+                        "amount": "7.5",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "As chopped barley straw"
+                    },
+                    {
+                        "id": 16629,
+                        "name": "peat",
+                        "amount": "7.5",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "As sedge peat"
+                    },
+                    {
+                        "id": 16630,
+                        "name": "green manure",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "As practicable depending on the arable crop grown"
+                    },
+                    {
+                        "id": 16631,
+                        "name": "None",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 16632,
+                        "name": "farmyard manure",
+                        "amount": "50",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "Replaced vegetable compost. 25 t/ha in 1967 and 1970"
+                    },
+                    {
+                        "id": 16633,
+                        "name": "PKMg Equivalent",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "No organic manure but P, K and Mg applied at equivalent rates to that in the farmyard manure treatment"
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Grass period",
+            "localIdentifier": "Grass period",
+            "name": "Grass period",
+            "url": "Grass period",
+            "description": "To study the residual effects of fertilisers and organic manures. No yields were taken and no new treatments were applied during this period."
+        },
+        "design": {
+            "dateStart": 1974,
+            "dateEnd": 1982,
+            "description": "To study the residual effects of fertilisers and organic manures. No yields were taken and no new treatments were applied during this period.",
+            "studyDesign": "Grass period",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": null,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
+        },
+        "crops": [
+            {
+                "id": 10950,
+                "name": "fallow",
+                "sameAs": "fallow",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 10951,
+                "name": "rye grass",
+                "sameAs": "rye grass",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": "NA",
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Reactivated Period",
+            "localIdentifier": "Reactivated Period",
+            "name": "Reactivated Period",
+            "url": "Reactivated Period",
+            "description": "The experiment was reactivated to determine the fate of metals applied in the sewage sludge between 1942 and 1961. No new treatments were applied. Since 2006 the experiment has been in grass"
+        },
+        "design": {
+            "dateStart": 1983,
+            "dateEnd": 2005,
+            "description": "The experiment was reactivated to determine the fate of metals applied in the sewage sludge between 1942 and 1961. No new treatments were applied. Since 2006 the experiment has been in grass",
+            "studyDesign": "Reactivated Period",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": 8,
+            "numberOfPlots": 80,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
+        },
+        "crops": [
+            {
+                "id": 10952,
+                "name": "beetroot",
+                "sameAs": "beetroot",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 10953,
+                "name": "carrots",
+                "sameAs": "carrots",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 10954,
+                "name": "barley",
+                "sameAs": "barley",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 10955,
+                "name": "white clover",
+                "sameAs": "white clover",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": "NA",
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    }
+]

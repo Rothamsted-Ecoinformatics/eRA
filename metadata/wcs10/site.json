@@ -83,8 +83,8 @@
             "maxValue": null,
             "minSampleDepth": 0.0,
             "maxSampleDepth": 23.0,
-            "unitCode": null,
-            "unitText": null,
+            "unitCode": "%",
+            "unitText": "Percent",
             "refYear": 1974,
             "measurementTechnique": "NOT IN GLTN",
             "description": "NOT IN GLTN"
@@ -137,15 +137,15 @@
         {
             "variableMeasured": "soil pH",
             "isEstimated": false,
-            "isBaseline": false,
-            "valueReference": null,
-            "minValue": 5.03,
-            "maxValue": 7.53,
+            "isBaseline": true,
+            "valueReference": 6.0,
+            "minValue": null,
+            "maxValue": null,
             "minSampleDepth": 0.0,
             "maxSampleDepth": 23.0,
             "unitCode": null,
-            "unitText": null,
-            "refYear": 1967,
+            "unitText": "pH",
+            "refYear": 1962,
             "measurementTechnique": "NOT IN GLTN",
             "description": "NOT IN GLTN"
         }

@@ -5,16 +5,16 @@
         "localIdentifier": "S/RN/1",
         "name": "Saxmundham Rotation I",
         "url": null,
-        "description": "Two rotation experiments were started at Saxmundham in 1899 by East Suffolk County Council. The experiments consisted of four blocks so that a fully phased typical Norfolk 4-course rotation could be grown. The Rotation I experiment had a factorial test of nitrogen, phosphorous, potassium plus bone meal and farmyard manure.\n\nRothamsted assumed control of the experiments in 1965 and reviewed and modified the experiments. Rothamsted relinquished the site in 2010.\n\nThe Rotation I experiment has been used to look at crop responses to both P and K and their interactions with N, particularly where much fertiliser N was applied in later years to high yielding cultivars of wheat with the aim of achieving bread making quality.",
-        "disambiguatingDescription": null
+        "description": "Two rotation experiments were started at Saxmundham in 1899 by East Suffolk County Council. The experiments consisted of four blocks so that a fully phased typical Norfolk 4-course rotation could be grown. The Rotation I experiment had a factorial test of nitrogen, phosphorous, potassium plus bone meal and farmyard manure. Rothamsted assumed control of the experiments in 1965 and reviewed and modified the experiments. Rothamsted relinquished the site in 2010.",
+        "disambiguatingDescription": "To test N, P, K and manure treatments on crop rotations on a heavy sandy clay loam site. More recently to look at crop responses to P and K, and their interactions with N on high-yielding wheat cultivars."
     },
     "dataAccess": {
         "type": "creativeWork",
         "conditionsOfAccess": "Available to any researcher on request",
         "isAccessibleForFree": "YesOffline",
         "publishingPrinciples": null,
-        "actionableFeedbackPolicy": null,
-        "correctionsPolicy": null,
+        "actionableFeedbackPolicy": "To test N, P, K and manure treatments on crop rotations on a heavy sandy clay loam site. More recently to look at crop responses to P and K, and their interactions with N on high-yielding wheat cultivars.",
+        "correctionsPolicy": "To test N, P, K and manure treatments on crop rotations on a heavy sandy clay loam site. More recently to look at crop responses to P and K, and their interactions with N on high-yielding wheat cultivars.",
         "unnamedSourcesPolicy": null
     },
     "license": {
@@ -27,5 +27,22 @@
     "dateEPEnd": null,
     "dateEnd": 2010,
     "funder": "NOT in GLTEN",
-    "citation": []
+    "citation": [
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/ERADOC-1-27",
+            "sameAs": "https://doi.org/10.23637/ERADOC-1-27",
+            "citation": "Saxmundham Experimental Station 1989-1986 A review of the achievements during 1965-1986. Johnston, 1987",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/ERADOC-1-34801",
+            "sameAs": "https://doi.org/10.23637/ERADOC-1-34801",
+            "citation": "Williams, R. J. B. and Cooke, G. W. (1971) \"Results of the Rotation I experiment at Saxmundham",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        }
+    ]
 }

@@ -1,7 +1,7 @@
 {
     "administrative": {
         "name": "Saxmundham II",
-        "identifier": null,
+        "identifier": "S/RN/2",
         "type": "research station field",
         "doi": null,
         "visitsAllowed": "No",
@@ -30,7 +30,7 @@
     },
     "soilProperty": [],
     "climate": {
-        "name": null,
+        "name": "temperate oceanic climate",
         "description": "Sandy clay loam developed in drift over Chalky boulder clay, Beccles Series",
         "weatherStation": {
             "weatherStationID": "NOT IN GLTEN",

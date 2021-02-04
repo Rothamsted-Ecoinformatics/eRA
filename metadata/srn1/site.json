@@ -1,13 +1,13 @@
 {
     "administrative": {
         "name": "Harwood's Piece",
-        "identifier": null,
+        "identifier": "S/RN/1",
         "type": "research station field",
         "doi": null,
         "visitsAllowed": "No",
-        "visitingArrangements": null,
+        "visitingArrangements": "None",
         "description": null,
-        "management": null
+        "management": "The site is no longer managed by Rothamsted Research."
     },
     "location": {
         "addressLocality": "Saxmundham",
@@ -25,13 +25,13 @@
         "slopeAspect": null
     },
     "soil": {
-        "soilTypeLabel": null,
-        "soilDescription": null
+        "soilTypeLabel": "Eutric gleysol",
+        "soilDescription": "Sandy clay loam developed over drift over Chalky Boulder Clay, Beccles Series."
     },
     "soilProperty": [],
     "climate": {
-        "name": null,
-        "description": null,
+        "name": "temperate oceanic climate",
+        "description": "Sandy clay loam developed over drift over Chalky Boulder Clay, Beccles Series.",
         "weatherStation": {
             "weatherStationID": "NOT IN GLTEN",
             "name": "NOT IN GLTEN",

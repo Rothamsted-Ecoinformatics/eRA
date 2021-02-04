@@ -1,0 +1,18 @@
+[
+    {
+        "type": "Organization",
+        "name": "Rothamsted Research",
+        "legalName": "Rothamsted Research",
+        "identifier": "NA",
+        "role": "research organisation",
+        "contactPoint": "NA"
+    },
+    {
+        "type": "Organization",
+        "name": "BBSRC",
+        "legalName": "BBSRC",
+        "identifier": "NA",
+        "role": "funding agency",
+        "contactPoint": "NA"
+    }
+]

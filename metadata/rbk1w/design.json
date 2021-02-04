@@ -22,21 +22,21 @@
         },
         "crops": [
             {
-                "id": 6930,
+                "id": 10802,
                 "name": "Naturally regenerating woodland",
                 "sameAs": "Naturally regenerating woodland",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 6931,
+                "id": 10803,
                 "name": "permanent native grassland mown once a year",
                 "sameAs": "permanent native grassland mown once a year",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 6932,
+                "id": 10804,
                 "name": "native open ground vegetation, no woody species (stubbed)",
                 "sameAs": "native open ground vegetation, no woody species (stubbed)",
                 "dateStart": null,
@@ -65,7 +65,7 @@
                 "scale": null,
                 "material": "SpecifiedCrop",
                 "description": "Measured in 1881, 1904, 1964 and 1999.",
-                "crop": 6930
+                "crop": 10802
             }
         ]
     }

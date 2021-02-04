@@ -10,7 +10,7 @@
     },
     "dataAccess": {
         "type": "creativeWork",
-        "conditionsOfAccess": null,
+        "conditionsOfAccess": "Available to any researcher on request",
         "isAccessibleForFree": "YesOffline",
         "publishingPrinciples": null,
         "actionableFeedbackPolicy": "To investigate the effects of soil P and fresh fertilizer P on the yields of arable crops at a range of soil P values.",
@@ -25,14 +25,14 @@
     "temporalCoverage": "1953/1970 from schema",
     "dateStart": 1899,
     "dateEPEnd": 1968,
-    "dateEnd": 1986,
+    "dateEnd": 2010,
     "funder": "NOT in GLTEN",
     "citation": [
         {
             "type": "creativeWork",
             "identifier": "http://dx.doi.org/10.1111/j.1475-2743.2012.00449.x",
             "sameAs": "http://dx.doi.org/10.1111/j.1475-2743.2012.00449.x",
-            "citation": "Plant-available soil phosphorus. Part II: the response of arable crops to Olsen P on a sandy clay loam and a silty clay loam",
+            "citation": "Johnston et al (2013) Plant-available soil phosphorus. Part II: the response of arable crops to Olsen P on a sandy clay loam and a silty clay loam",
             "inLanguage": "English",
             "relationType": "isCitedBy"
         },
@@ -40,7 +40,7 @@
             "type": "creativeWork",
             "identifier": "https://doi.org/10.23637/ERADOC-1-34865",
             "sameAs": "https://doi.org/10.23637/ERADOC-1-34865",
-            "citation": "The residual value of farmyard manure and superphosphate in the Saxmundham Rotation II Experiment",
+            "citation": "Mattingly et al (1970) The residual value of farmyard manure and superphosphate in the Saxmundham Rotation II Experiment",
             "inLanguage": "English",
             "relationType": "isCitedBy"
         },
@@ -48,15 +48,7 @@
             "type": "creativeWork",
             "identifier": "https://doi.org/10.1017/S0021859600063632",
             "sameAs": "https://doi.org/10.1017/S0021859600063632",
-            "citation": "The Saxmundham Rotation Experiments: Rotation II, 1899-1952",
-            "inLanguage": "English",
-            "relationType": "isCitedBy"
-        },
-        {
-            "type": "creativeWork",
-            "identifier": "https://doi.org/10.23637/ERADOC-1-4",
-            "sameAs": "https://doi.org/10.23637/ERADOC-1-4",
-            "citation": "The residual value of farmyard manure and superphosphate in the Saxmundham Rotation II Experiment",
+            "citation": "Boyd and Trist (1966) The Saxmundham Rotation Experiments: Rotation II, 1899-1952",
             "inLanguage": "English",
             "relationType": "isCitedBy"
         },
@@ -64,7 +56,7 @@
             "type": "creativeWork",
             "identifier": "https://doi.org/10.1017/S0021859600061864",
             "sameAs": "https://doi.org/10.1017/S0021859600061864",
-            "citation": "Effects of soil and fertilizer P on yields of potatoes, sugar beet, barley and winter wheat on a sandy clay loam soil at Saxmundham, Suffolk",
+            "citation": "Johnston et al, 2009 Effects of soil and fertilizer P on yields of potatoes, sugar beet, barley and winter wheat on a sandy clay loam soil at Saxmundham, Suffolk",
             "inLanguage": "English",
             "relationType": "isCitedBy"
         },
@@ -72,7 +64,7 @@
             "type": "creativeWork",
             "identifier": "https://doi.org/10.23637/ERADOC-1-27",
             "sameAs": "https://doi.org/10.23637/ERADOC-1-27",
-            "citation": "Saxmundham Experimental Station 1899-1986. A review of the achievements during 1965-1986",
+            "citation": "Johnston (1987) Saxmundham Experimental Station 1899-1986. A review of the achievements during 1965-1986",
             "inLanguage": "English",
             "relationType": "isCitedBy"
         }

@@ -80,6 +80,11 @@
         "station": "w"
     },
     {
+        "exptID": "wrn4",
+        "Title": "Market Garden",
+        "station": "w"
+    },
+    {
         "exptID": "wcs439",
         "Title": "Metal Salts Experiment",
         "station": "w"
@@ -112,6 +117,16 @@
     {
         "exptID": "wcs427",
         "Title": "Sewage Cake Experiment",
+        "station": "w"
+    },
+    {
+        "exptID": "wrn13",
+        "Title": "Woburn Intensive Cereals",
+        "station": "w"
+    },
+    {
+        "exptID": "wrn3",
+        "Title": "Woburn Ley Arable",
         "station": "w"
     },
     {

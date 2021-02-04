@@ -3,7 +3,7 @@
     "@type": "Dataset",
     "identifier": "10.23637/Sax-1928223556-01",
     "name": "Saxmundham monthly meteorological summaries 1966-1985",
-    "shortName": "SaxMEt1966",
+    "shortName": "SaxMet1966",
     "url": "http://www.era.rothamsted.ac.uk/Met/SaxMet1966",
     "description": [
         {
@@ -34,11 +34,12 @@
     ],
     "publisher": {
         "type": "organization",
-        "name": "The Electronic Rothamsted Archive, Rothamsted Research"
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
     },
-    "datePublished": null,
+    "publication_year": 2019,
     "dateCreated": "2019-08-29",
     "dateModified": "2019-08-29",
+    "datePublished": null,
     "inLanguage": "en",
     "version": "1",
     "keywords": [
@@ -189,7 +190,7 @@
         },
         {
             "type": "Person",
-            "jobTitle": "RelatedPerson",
+            "jobTitle": "DataManager",
             "name": "Nathalie Castells-Brooke",
             "givenName": "Nathalie",
             "familyName": "Castells-Brooke",
@@ -212,7 +213,7 @@
     "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
     "copyrightHolder": {
         "type": "organization",
-        "name": "The Electronic Rothamsted Archive, Rothamsted Research"
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
     },
     "license": {
         "type": "CreativeWork",
@@ -224,10 +225,10 @@
         "type": "place",
         "geo": {
             "type": "GeoCoordinates",
-            "longitude": 1.467294,
-            "latitude": 52.221911
+            "longitude": 1.466,
+            "latitude": 52.221
         },
-        "name": "Harwood's Field"
+        "name": "Saxmundham Met Station"
     },
     "relatedIdentifier": [
         {
@@ -252,10 +253,27 @@
     "distribution": [
         {
             "type": "dataDownload",
-            "name": null,
-            "URL": null,
-            "encodingFormat": "",
-            "fileSize": "13 KB"
+            "name": "Sax meteorological summaries 1966-1985 as xlsx",
+            "URL": "01-SaxMetDatamonthly1966.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "35 KB"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Sax meteorological summaries 1966-1985 as csv",
+            "URL": "01-SaxMetDatamonthly1966.csv",
+            "encodingFormat": "csv",
+            "fileSize": "11 KB"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Supplementary information",
+            "URL": "01-SaxMetDatamonthly1966-sup.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "20 KB"
         }
-    ]
+    ],
+    "image": [],
+    "grade": 3,
+    "dstype": "OA"
 }

@@ -6,12 +6,12 @@
             "localIdentifier": "Final period",
             "name": "Final period",
             "url": "Final period",
-            "description": "4 blocks (A, B, C, D) each containing 8 main strips (1-8), each divided into 5 micro-plots (01-20)."
+            "description": "4 blocks (A, B, C, D) each containing 8 main strips (1-8), each divided into 5 micro-plots (01-20) (each 5.49 x 3.56 m). Cropping and treatments to the micro-plots were phased-in, with Blocks A and B starting in 1969 and Blocks C and D the following year. \nOn each set of micro-plots within each Strip/Block, five amounts of P fertilizer were tested, P0, P0, P1, P2, P3 (0, 0, 27.4, 54.8, 82.2 kg P/ha). These were applied every second year (see '(a)' on plan). Between 1973-1975 on Blocks A & B (1974-1976 on blocks C & D) one of the P0 micro-plots remained as P0, two micro-plots received a total of 82.2 kg P/ha as 3 annual dressings each of 27.4 kg P/ha and two micro-plots received a total of 82.2 kg P/ha as one dressing only in 1973 (or 1974) (see '(b)' on plan). From autumn 1977 (or 1978) a 'maintenance' dressing of 52.4 kg P/ha was applied every second year to two of the micro-plots; no P was applied to the others (see 'c' on the plan).\n\nSome microplots received no further applications of manure or fertilizer P after 1968 by which time a wide range of Olsen P values had been established. The decline in Olsen P in each of the eight main treatment strips was measured and, by shifting the eight decay curves horizontally, a common decay curve could be fitted to the data (Johnston et al., 1986). The half-life, i.e. the time taken for Olsen P to decline by half from any given value to an asymptote (the lowest Olsen P value measured on the experiment), could be calculated (Johnston et al., 2016 and other papers). Data from the Rotation II experiment at Saxmundham has been included in a paper published in a special issue of the Journal of Environmental Quality to mark the 350th Anniversary of the discovery of phosphorus (Johnston & Poulton, 2019)."
         },
         "design": {
             "dateStart": 1969,
-            "dateEnd": 1986,
-            "description": "4 blocks (A, B, C, D) each containing 8 main strips (1-8), each divided into 5 micro-plots (01-20).",
+            "dateEnd": 2010,
+            "description": "Following the previous treatments, a wide range of Olsen P values (4-65 mg P/kg) had been established.  The purpose of the revised experiment was to investigate the effects of soil P and fresh fertilizer P on the yields of arable crops at a range of soil P values (Johnston et al. 1986).",
             "studyDesign": "Final period",
             "factorCombinationNumber": "NA",
             "numberOdBlocks": 4,
@@ -22,36 +22,52 @@
         },
         "crops": [
             {
-                "id": 3552,
+                "id": 10737,
                 "name": "potatoes",
                 "sameAs": "potatoes",
                 "dateStart": 1969,
                 "dateEnd": 1974
             },
             {
-                "id": 3553,
+                "id": 10738,
                 "name": "sugarbeet",
                 "sameAs": "sugarbeet",
                 "dateStart": 1969,
                 "dateEnd": 1974
             },
             {
-                "id": 3554,
+                "id": 10739,
                 "name": "winter wheat",
                 "sameAs": "winter wheat",
                 "dateStart": 1977,
                 "dateEnd": 1986
             },
             {
-                "id": 3555,
+                "id": 10740,
                 "name": "barley",
                 "sameAs": "barley",
                 "dateStart": 1970,
                 "dateEnd": 1979
+            },
+            {
+                "id": 10741,
+                "name": "faba beans",
+                "sameAs": "faba beans",
+                "dateStart": null,
+                "dateEnd": null
             }
         ],
         "cropRotations": "NA",
-        "factor": "NA",
+        "factor": [
+            {
+                "id": 6020,
+                "name": "phosphate fertilizer exposure",
+                "description": "Five amounts of P were tested, P0, P0, P1, P2 and P3. (0, 0, 27.4, 54.8 and 82.2 kg P /ha) applied to a range of existing soil P levels (4-65 mgP/ha).",
+                "effect": "",
+                "plotApplication": null,
+                "level": []
+            }
+        ],
         "factorCombinations": "NA",
         "measurements": [
             {
@@ -61,8 +77,78 @@
                 "collectionFrequency": "Annual",
                 "scale": "0-23cm",
                 "material": "Soil",
-                "description": "Olsen P",
+                "description": "Olsen P in soil 0-23cm, 1969-1984",
                 "crop": null
+            },
+            {
+                "variable": "yield components",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "annually",
+                "scale": null,
+                "material": "AllCrops",
+                "description": "Cereal grain and straw yields, sugar yields from sugar beet and tuber yields from potatoes, 1970-1986",
+                "crop": null
+            },
+            {
+                "variable": "phosphorous content",
+                "unitCode": "kgP/ha",
+                "unitText": "kg phosphorous per hectare",
+                "collectionFrequency": "annually",
+                "scale": null,
+                "material": "AllCrops",
+                "description": "P uptake from cereal grain and straw, potato tubers, sugar from sugar beet. P uptake by beans (1980-1985) estimated.",
+                "crop": null
+            },
+            {
+                "variable": "total soil nitrogen",
+                "unitCode": null,
+                "unitText": "%",
+                "collectionFrequency": "occasionally",
+                "scale": null,
+                "material": "Soil",
+                "description": "Selected years",
+                "crop": null
+            },
+            {
+                "variable": "soil organic carbon",
+                "unitCode": null,
+                "unitText": "%",
+                "collectionFrequency": "occasionally",
+                "scale": null,
+                "material": "Soil",
+                "description": "Selected years",
+                "crop": null
+            },
+            {
+                "variable": "soil pH",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": "occasionally",
+                "scale": null,
+                "material": "Soil",
+                "description": "Selected years",
+                "crop": null
+            },
+            {
+                "variable": "Fertilizer N applied",
+                "unitCode": "kgN/ha",
+                "unitText": "kg nitrogen per hectare",
+                "collectionFrequency": "annually",
+                "scale": null,
+                "material": null,
+                "description": "Fertilizer N applied to crops 1969-1986",
+                "crop": null
+            },
+            {
+                "variable": "fertilizer 15N recovery",
+                "unitCode": "kgN/ha",
+                "unitText": "kg nitrogen per hectare",
+                "collectionFrequency": "annually",
+                "scale": null,
+                "material": "SpecifiedCrop",
+                "description": "Nitrogen (N) fertilizer labelled with the heavy isotope 15N was applied to some of the winter wheat plots in the early 1980s, to determine the recovery of fertilizer N in the crop and soil. See Powlson et al (1992) for the recovery of fertilizer N applied in the autumn; Hart et al (1993) for the fate of the residues; Macdonald et al (1989) for the recovery of unused fertilizer N in the soil. The data was also used to partition losses between denitrification and leaching (Addiscott & Powlson, 1992) and to model the fate of N in crop and soil (Bradbury et al, 1993).",
+                "crop": 10739
             }
         ]
     },
@@ -73,12 +159,12 @@
             "localIdentifier": "Early period",
             "name": "Early period",
             "url": "Early period",
-            "description": "Four large blocks each comprising 10 treatment strips. The treatments were applied once every four years. In 1952 two-thirds of the experiment was stopped, although one strip on two blocks we re-incorporated into the experiment later."
+            "description": "Four large blocks each comprising 10 treatment strips. The treatments were applied once every four years. In 1952 two-thirds of the experiment was stopped, although one strip on two blocks we re-incorporated into the experiment later. See Boyd and Trist (1966) for results for this period."
         },
         "design": {
             "dateStart": 1899,
             "dateEnd": 1964,
-            "description": "Started by the Education Committee of East Suffolk County Council, to determine how farmyard manure (FYM) and/or inorganic fertilizer (N and P) could best be distributed to crops in a four-course rotation.",
+            "description": "Started by the Education Committee of East Suffolk County Council, the Rotation II experiment looked at how limited amounts of FYM, sodium nitrate and superphosphate could best be used over a typical four-course rotation of cereals, root crops and legumes.",
             "studyDesign": "Early period",
             "factorCombinationNumber": "NA",
             "numberOdBlocks": 4,
@@ -87,9 +173,63 @@
             "numberOfSubplots": null,
             "numberOfHarvests": 1
         },
-        "crops": "NA",
+        "crops": [
+            {
+                "id": 10742,
+                "name": "winter wheat",
+                "sameAs": "winter wheat",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 10743,
+                "name": "root crops",
+                "sameAs": "root crops",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 10744,
+                "name": "barley",
+                "sameAs": "barley",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 10745,
+                "name": "legumes",
+                "sameAs": "legumes",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
         "cropRotations": "NA",
-        "factor": "NA",
+        "factor": [
+            {
+                "id": 6021,
+                "name": "farmyard manure exposure",
+                "description": "25.1 t/ha of FYM",
+                "effect": "",
+                "plotApplication": null,
+                "level": []
+            },
+            {
+                "id": 6022,
+                "name": "nitrogen fertilizer exposure",
+                "description": "Sodium nitrate",
+                "effect": "",
+                "plotApplication": null,
+                "level": []
+            },
+            {
+                "id": 6023,
+                "name": "superphosphate exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": null,
+                "level": []
+            }
+        ],
         "factorCombinations": "NA",
         "measurements": "NA"
     },
@@ -100,23 +240,69 @@
             "localIdentifier": "Middle period",
             "name": "Middle period",
             "url": "Middle period",
-            "description": "Rothamsted took over the site in 1964 and modified the experiment. Additional FYM and P was applied to extend the range of P residues prior to testing the value of fresh and residual P on sub-plots within the main treatment strips. Strip 8, which had not received any treatment since 1952 was re-incorporated into the experiment."
+            "description": "4 large blocks with 8 treatment plots. Barley was grown in 1965, potatoes in 1966 and white turnips and sugar beet in 1967 and barley in 1968."
         },
         "design": {
             "dateStart": 1965,
             "dateEnd": 1968,
-            "description": "Rothamsted took over the site in 1964 and modified the experiment. Additional FYM and P was applied to extend the range of P residues prior to testing the value of fresh and residual P on sub-plots within the main treatment strips. Strip 8, which had not received any treatment since 1952 was re-incorporated into the experiment.",
+            "description": "The FYM and P fertilizers which had been applied to strips 1-7 had resulted in a range of phosphate residues in the soil. Additional FYM and P was applied to some strips to extend the range of P residues prior to testing the value of fresh and residual P on sub-plots within the main treatment strips. Strip 8, which had not received any treatment since 1952 was re-incorporated into the experiment.",
             "studyDesign": "Middle period",
             "factorCombinationNumber": "NA",
             "numberOdBlocks": null,
             "numberOfPlots": 8,
-            "numberOfReplicates": null,
+            "numberOfReplicates": 4,
             "numberOfSubplots": null,
             "numberOfHarvests": 1
         },
-        "crops": "NA",
+        "crops": [
+            {
+                "id": 10746,
+                "name": "barley",
+                "sameAs": "barley",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 10747,
+                "name": "potatoes",
+                "sameAs": "potatoes",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 10748,
+                "name": "turnips",
+                "sameAs": "turnips",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 10749,
+                "name": "sugarbeet",
+                "sameAs": "sugarbeet",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
         "cropRotations": "NA",
-        "factor": "NA",
+        "factor": [
+            {
+                "id": 6024,
+                "name": "farmyard manure exposure",
+                "description": "Applied to plots 4 and 5 in 1966 and 1967, a total of 100.4t/ha .",
+                "effect": "",
+                "plotApplication": null,
+                "level": []
+            },
+            {
+                "id": 6025,
+                "name": "phosphate fertilizer exposure",
+                "description": "Applied to plots 5,6 (total of 246.6 kgP/ha) and 7 (total of 493.2kgP/ha) 1965-69",
+                "effect": "",
+                "plotApplication": null,
+                "level": []
+            }
+        ],
         "factorCombinations": "NA",
         "measurements": "NA"
     }

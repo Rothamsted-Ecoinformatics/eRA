@@ -1,0 +1,214 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Continuous wheat experiment",
+            "localIdentifier": "Continuous wheat experiment",
+            "name": "Continuous wheat experiment",
+            "url": "Continuous wheat experiment",
+            "description": "Continuous winter wheat grown, to mirror the Broadbalk wheat experiment at Rothamsted. A range of fertilizer and manure treatments similar to those on Broadbalk, including unmanured, 1876-1926. From 1927-1940 no fertilizer or manure was applied. The experiment was fallowed in 1927, 1928, 1934 and 1935 to control weeds. A new scheme as started in 1943. The experiment finished in 1990."
+        },
+        "design": {
+            "dateStart": 1876,
+            "dateEnd": 1990,
+            "description": "Continuous winter wheat grown, to mirror the Broadbalk wheat experiment at Rothamsted. A range of fertilizer and manure treatments similar to those on Broadbalk, including unmanured, 1876-1926. From 1927-1940 no fertilizer or manure was applied. The experiment was fallowed in 1927, 1928, 1934 and 1935 to control weeds. A new scheme as started in 1943. The experiment finished in 1990.",
+            "studyDesign": "Continuous wheat experiment",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": 22,
+            "numberOfReplicates": 1,
+            "numberOfSubplots": null,
+            "numberOfHarvests": 1
+        },
+        "crops": [
+            {
+                "id": 10445,
+                "name": "winter wheat",
+                "sameAs": "winter wheat",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": "NA",
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "yield components",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "annually",
+                "scale": null,
+                "material": "AllCrops",
+                "description": "Grain and straw yields at field moisture content, approximately 85% dry matter.",
+                "crop": null
+            },
+            {
+                "variable": "grain nitrogen content",
+                "unitCode": "%",
+                "unitText": "Percent",
+                "collectionFrequency": "annually",
+                "scale": null,
+                "material": null,
+                "description": "1883 onwards",
+                "crop": null
+            },
+            {
+                "variable": "soil pH",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": "occasionally",
+                "scale": null,
+                "material": "Soil",
+                "description": "Measured 5 times, in 1876, 1888, 1898, 1927 and 1932. Topsoil (0-23cm). Subsoil (23-46cm) measured in 192.",
+                "crop": null
+            },
+            {
+                "variable": "total soil nitrogen",
+                "unitCode": "%",
+                "unitText": "Percent",
+                "collectionFrequency": "occasionally",
+                "scale": null,
+                "material": "Soil",
+                "description": "Measured 5 times, in 1876, 1888, 1898, 1927 and 1932. Topsoil (0-23cm).",
+                "crop": null
+            },
+            {
+                "variable": "soil total carbon",
+                "unitCode": "%",
+                "unitText": "Percent",
+                "collectionFrequency": "occasionally",
+                "scale": null,
+                "material": "Soil",
+                "description": "Measured 5 times, in 1876, 1888, 1898, 1927 and 1932. Topsoil (0-23cm).",
+                "crop": null
+            },
+            {
+                "variable": "exchangeable cations",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": "occasionally",
+                "scale": null,
+                "material": "Soil",
+                "description": "Measured 3 times, in 1888, 1898 and 1927. Topsoil (0-23cm). Ca, Mg, Na and K.",
+                "crop": null
+            },
+            {
+                "variable": "crop variety",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": "annually",
+                "scale": null,
+                "material": null,
+                "description": "Also sowing and harvest dates",
+                "crop": null
+            }
+        ]
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Continuous barley experiment",
+            "localIdentifier": "Continuous barley experiment",
+            "name": "Continuous barley experiment",
+            "url": "Continuous barley experiment",
+            "description": "Continuous barley grown, to mirror the Hoosfield barley experiment at Rothamsted. A range of fertilizer and manure treatments similar to those on Hoosfield, including unmanured, 1876-1926. From 1927-1940 no fertilizer or manure was applied. The experiment was fallowed in 1927, 1928, 1934 and 1935 to control weeds. A new scheme as started in 1943. The experiment finished in 1990."
+        },
+        "design": {
+            "dateStart": 1876,
+            "dateEnd": 1926,
+            "description": "Continuous barley grown, to mirror the Hoosfield barley experiment at Rothamsted. A range of fertilizer and manure treatments similar to those on Hoosfield, including unmanured, 1876-1926. From 1927-1940 no fertilizer or manure was applied. The experiment was fallowed in 1927, 1928, 1934 and 1935 to control weeds. A new scheme as started in 1943. The experiment finished in 1990.",
+            "studyDesign": "Continuous barley experiment",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": 26,
+            "numberOfReplicates": 1,
+            "numberOfSubplots": null,
+            "numberOfHarvests": 1
+        },
+        "crops": [
+            {
+                "id": 10446,
+                "name": "barley",
+                "sameAs": "barley",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": "NA",
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "yield components",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "annually",
+                "scale": null,
+                "material": "SpecifiedCrop",
+                "description": "Grain and straw yields at field moisture content, approximately 85% dry matter.",
+                "crop": 10446
+            },
+            {
+                "variable": "grain nitrogen content",
+                "unitCode": "%",
+                "unitText": "Percent",
+                "collectionFrequency": "annually",
+                "scale": null,
+                "material": "SpecifiedCrop",
+                "description": "Since 1883",
+                "crop": 10446
+            },
+            {
+                "variable": "soil pH",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": "occasionally",
+                "scale": null,
+                "material": "Soil",
+                "description": "Measured five times in topsoil, 0-23cm  (1876, 1888, 1898, 1927 and 1932) and subsoil (23-46cm) in 1927.",
+                "crop": null
+            },
+            {
+                "variable": "total soil nitrogen",
+                "unitCode": "%",
+                "unitText": "Percent",
+                "collectionFrequency": "occasionally",
+                "scale": null,
+                "material": "Soil",
+                "description": "Measured five times in topsoil, 0-23cm  (1876, 1888, 1898, 1927 and 1932)",
+                "crop": null
+            },
+            {
+                "variable": "soil total carbon",
+                "unitCode": "%",
+                "unitText": "Percent",
+                "collectionFrequency": "occasionally",
+                "scale": null,
+                "material": "Soil",
+                "description": "Measured five times in topsoil, 0-23cm  (1876, 1888, 1898, 1927 and 1932)",
+                "crop": null
+            },
+            {
+                "variable": "Exchangeable cations",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": "occasionally",
+                "scale": null,
+                "material": "Soil",
+                "description": "Exchangeable cations Ca, Mg, Na, and K 1888, 1898 and 1927.",
+                "crop": null
+            },
+            {
+                "variable": "crop variety",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": "annually",
+                "scale": null,
+                "material": "SpecifiedCrop",
+                "description": "Also sowing and harvest dates.",
+                "crop": 10446
+            }
+        ]
+    }
+]

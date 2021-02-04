@@ -1,10 +1,10 @@
 {
-    "id": 279,
+    "id": 2543,
     "experiment_type_term": null,
     "experiment_id": 52,
     "people": [
         {
-            "id": 171,
+            "id": 3583,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -19,11 +19,35 @@
             "orcid": null,
             "is_contact": true,
             "role_label": "data manager"
+        },
+        {
+            "id": 3584,
+            "contacts": [],
+            "role_term": "principal investigator",
+            "title": "Dr",
+            "name": "Andy Macdonald",
+            "affiliation": "Rothamsted Research",
+            "department": "Sustainable Agricultural Sciences",
+            "orcid": null,
+            "is_contact": false,
+            "role_label": "principal investigator"
+        },
+        {
+            "id": 3585,
+            "contacts": [],
+            "role_term": "data manager",
+            "title": "Dr",
+            "name": "Margaret Glendining",
+            "affiliation": "Rothamsted Research",
+            "department": "Computational and Analytical Sciences",
+            "orcid": "0000-0002-6466-4629",
+            "is_contact": false,
+            "role_label": "data manager"
         }
     ],
     "organizations": [
         {
-            "id": 135,
+            "id": 2583,
             "contacts": [],
             "role_term": "research organisation",
             "name": "Rothamsted Research",
@@ -34,32 +58,32 @@
     ],
     "periods": [
         {
-            "id": 340,
-            "design_type_term": null,
+            "id": 3789,
+            "design_type_term": "Randomized complete block design",
             "crops": [
                 {
-                    "id": 321,
+                    "id": 10608,
                     "crop_term": "wheat",
                     "crop_label": "wheat",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 322,
+                    "id": 10609,
                     "crop_term": "root vegetables",
                     "crop_label": "root vegetables",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 323,
+                    "id": 10610,
                     "crop_term": "barley",
                     "crop_label": "barley",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 324,
+                    "id": 10611,
                     "crop_term": "feed legumes",
                     "crop_label": "feed legumes",
                     "start_year": null,
@@ -68,25 +92,25 @@
             ],
             "rotations": [
                 {
-                    "id": 53,
+                    "id": 1928,
                     "phases": [
                         {
-                            "crop_id": 321,
+                            "crop_id": 10608,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 322,
+                            "crop_id": 10609,
                             "notes": "Swedes or turnips in the early years, then mangolds or beetroot",
                             "same_phase": false
                         },
                         {
-                            "crop_id": 323,
+                            "crop_id": 10610,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 324,
+                            "crop_id": 10611,
                             "notes": "Normally beans but sometimes clover or peas",
                             "same_phase": false
                         }
@@ -94,17 +118,17 @@
                     "name": "Norfolk Rotation",
                     "phasing": "Complete",
                     "start_year": 1899,
-                    "end_year": 1969,
+                    "end_year": 1962,
                     "is_treatment": false
                 }
             ],
             "factors": [
                 {
-                    "id": 205,
+                    "id": 5973,
                     "factor_term": "fertilizer exposure",
                     "levels": [
                         {
-                            "id": 453,
+                            "id": 16449,
                             "factor_variant_term": "farmyard manure",
                             "factor_variant_label": "farmyard manure",
                             "amount": "15",
@@ -122,7 +146,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 454,
+                            "id": 16450,
                             "factor_variant_term": "bone meal",
                             "factor_variant_label": "bone meal",
                             "amount": "0.5",
@@ -140,7 +164,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 455,
+                            "id": 16451,
                             "factor_variant_term": "nitrogen",
                             "factor_variant_label": "nitrogen",
                             "amount": "100",
@@ -158,7 +182,7 @@
                             "chemical_form_label": "sodium nitrate"
                         },
                         {
-                            "id": 456,
+                            "id": 16452,
                             "factor_variant_term": "phosphorous",
                             "factor_variant_label": "phosphorous",
                             "amount": "40",
@@ -176,7 +200,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 457,
+                            "id": 16453,
                             "factor_variant_term": "potassium",
                             "factor_variant_label": "potassium",
                             "amount": "63",
@@ -204,10 +228,10 @@
                 {
                     "members": [
                         {
-                            "factor_id": 205,
+                            "factor_id": 5973,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 453,
+                            "factor_level_id": 16449,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -222,10 +246,10 @@
                 {
                     "members": [
                         {
-                            "factor_id": 205,
+                            "factor_id": 5973,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 454,
+                            "factor_level_id": 16450,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -240,10 +264,10 @@
                 {
                     "members": [
                         {
-                            "factor_id": 205,
+                            "factor_id": 5973,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 455,
+                            "factor_level_id": 16451,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -258,10 +282,10 @@
                 {
                     "members": [
                         {
-                            "factor_id": 205,
+                            "factor_id": 5973,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 456,
+                            "factor_level_id": 16452,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -276,10 +300,10 @@
                 {
                     "members": [
                         {
-                            "factor_id": 205,
+                            "factor_id": 5973,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 457,
+                            "factor_level_id": 16453,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -301,20 +325,20 @@
                 {
                     "members": [
                         {
-                            "factor_id": 205,
+                            "factor_id": 5973,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 456,
+                            "factor_level_id": 16452,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 205,
+                            "factor_id": 5973,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 457,
+                            "factor_level_id": 16453,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -329,20 +353,20 @@
                 {
                     "members": [
                         {
-                            "factor_id": 205,
+                            "factor_id": 5973,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 455,
+                            "factor_level_id": 16451,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 205,
+                            "factor_id": 5973,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 457,
+                            "factor_level_id": 16453,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -357,20 +381,20 @@
                 {
                     "members": [
                         {
-                            "factor_id": 205,
+                            "factor_id": 5973,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 455,
+                            "factor_level_id": 16451,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 205,
+                            "factor_id": 5973,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 456,
+                            "factor_level_id": 16452,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -385,30 +409,30 @@
                 {
                     "members": [
                         {
-                            "factor_id": 205,
+                            "factor_id": 5973,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 455,
+                            "factor_level_id": 16451,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 205,
+                            "factor_id": 5973,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 456,
+                            "factor_level_id": 16452,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 205,
+                            "factor_id": 5973,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 457,
+                            "factor_level_id": 16453,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -426,16 +450,82 @@
             "end_year": 1965,
             "ongoing": false,
             "name": "First Period",
-            "design_type_label": null,
+            "design_type_label": "Randomized complete block design",
             "number_of_blocks": 4,
-            "number_of_plots": null,
+            "number_of_plots": 40,
             "number_of_subplots": null,
-            "number_of_replicates": null,
+            "number_of_replicates": 4,
             "number_of_factor_combinations": null,
             "number_of_harvests_per_year": null,
-            "design_description": null,
-            "description": null,
+            "design_description": "Four blocks of ten plots each, with a four-course rotation, with different crops grown in each block each year. Originally the crops of a typical Norfolk four-course rotation (roots, spring barley, legume and winter wheat. Different fertilizer and manure treatments in the 10 plots.",
+            "description": "A factorial test of N, P and K plus bone meal and FYM treatments on a four crop rotation.",
             "factorial": true
+        },
+        {
+            "id": 3790,
+            "design_type_term": "Randomized complete block design",
+            "crops": [
+                {
+                    "id": 10612,
+                    "crop_term": "Medicago sativa",
+                    "crop_label": "Medicago sativa",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 10613,
+                    "crop_term": "winter wheat",
+                    "crop_label": "winter wheat",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 10614,
+                    "crop_term": "barley",
+                    "crop_label": "barley",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 10615,
+                    "crop_term": "faba beans",
+                    "crop_label": "faba beans",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 10616,
+                    "crop_term": null,
+                    "crop_label": "sugar beet",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 10617,
+                    "crop_term": "grass leys",
+                    "crop_label": "grass leys",
+                    "start_year": null,
+                    "end_year": null
+                }
+            ],
+            "rotations": [],
+            "factors": [],
+            "factor_combinations": [],
+            "measurements": [],
+            "start_year": 1966,
+            "end_year": 2010,
+            "ongoing": false,
+            "name": "Second period",
+            "design_type_label": "Randomized complete block design",
+            "number_of_blocks": null,
+            "number_of_plots": 10,
+            "number_of_subplots": null,
+            "number_of_replicates": 4,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": 1,
+            "design_description": "The four-course rotation of wheat, sugar beet, barley and beans was continued until the 1969 harvest. In 1970 the northern half of each plot was sown to lucerne and the southern to a grass ley mixture.",
+            "description": "The response of various crops to fresh and residual P and their interactions with N, particularly with high rates of N applied to high yielding wheat cultivars of bread making quality.",
+            "factorial": false
         }
     ],
     "data_statement_term": "Available to any researcher on request",
@@ -444,10 +534,46 @@
     "site_perimeter": [],
     "site_soil_type_term": null,
     "site_soil_properties": [],
-    "site_climatic_type_term": null,
-    "site_climate_properties": [],
-    "literature": [],
-    "saved_time": "2019-08-27T21:36:08.484004Z",
+    "site_climatic_type_term": "temperate oceanic climate",
+    "site_climate_properties": [
+        {
+            "id": 1767,
+            "variable_term": "precipitation",
+            "unit_term": "mm",
+            "variable_label": "precipitation",
+            "year_from": 1968,
+            "year_to": 1984,
+            "mean_value": 611.0,
+            "max_value": null,
+            "min_value": null,
+            "unit_label": "millimeter"
+        },
+        {
+            "id": 1768,
+            "variable_term": "air temperature",
+            "unit_term": "degC",
+            "variable_label": "air temperature",
+            "year_from": 1969,
+            "year_to": 1984,
+            "mean_value": 9.6,
+            "max_value": null,
+            "min_value": null,
+            "unit_label": "degree Celsius"
+        }
+    ],
+    "literature": [
+        {
+            "doi": "https://doi.org/10.23637/ERADOC-1-27",
+            "title": "Saxmundham Experimental Station 1989-1986 A review of the achievements during 1965-1986. Johnston, 1987",
+            "language": "English"
+        },
+        {
+            "doi": "https://doi.org/10.23637/ERADOC-1-34801",
+            "title": "Williams, R. J. B. and Cooke, G. W. (1971) \"Results of the Rotation I experiment at Saxmundham",
+            "language": "English"
+        }
+    ],
+    "saved_time": "2021-02-01T12:20:42.044563Z",
     "name": "Saxmundham Rotation I",
     "local_identifier": "S/RN/1",
     "experiment_type_label": null,
@@ -456,10 +582,10 @@
     "end_year": 2010,
     "ongoing": false,
     "establishment_period_end": null,
-    "objective": null,
-    "description": "Two rotation experiments were started at Saxmundham in 1899 by East Suffolk County Council. The experiments consisted of four blocks so that a fully phased typical Norfolk 4-course rotation could be grown. The Rotation I experiment had a factorial test of nitrogen, phosphorous, potassium plus bone meal and farmyard manure.\n\nRothamsted assumed control of the experiments in 1965 and reviewed and modified the experiments. Rothamsted relinquished the site in 2010.\n\nThe Rotation I experiment has been used to look at crop responses to both P and K and their interactions with N, particularly where much fertiliser N was applied in later years to high yielding cultivars of wheat with the aim of achieving bread making quality.",
+    "objective": "To test N, P, K and manure treatments on crop rotations on a heavy sandy clay loam site. More recently to look at crop responses to P and K, and their interactions with N on high-yielding wheat cultivars.",
+    "description": "Two rotation experiments were started at Saxmundham in 1899 by East Suffolk County Council. The experiments consisted of four blocks so that a fully phased typical Norfolk 4-course rotation could be grown. The Rotation I experiment had a factorial test of nitrogen, phosphorous, potassium plus bone meal and farmyard manure. Rothamsted assumed control of the experiments in 1965 and reviewed and modified the experiments. Rothamsted relinquished the site in 2010.",
     "site_name": "Harwood's Piece",
-    "site_local_code": null,
+    "site_local_code": "S/RN/1",
     "site_geonames_id": null,
     "site_doi": null,
     "site_type_label": "research station field",
@@ -473,12 +599,12 @@
     "site_slope": null,
     "site_slope_aspect": null,
     "site_visits_allowed": false,
-    "site_visiting_arrangements": null,
+    "site_visiting_arrangements": "None",
     "site_history": null,
-    "site_management": null,
-    "site_soil_type_label": null,
-    "site_soil_description": null,
-    "site_climatic_type_label": null,
+    "site_management": "The site is no longer managed by Rothamsted Research.",
+    "site_soil_type_label": "Eutric gleysol",
+    "site_soil_description": "Sandy clay loam developed over drift over Chalky Boulder Clay, Beccles Series.",
+    "site_climatic_type_label": "temperate oceanic climate",
     "site_climate_description": null,
     "data_statement_label": "Available to any researcher on request",
     "data_url": null,
@@ -489,5 +615,5 @@
     "farm_operations_data": true,
     "sample_archive": false,
     "samples_available": false,
-    "data_access_statement": null
+    "data_access_statement": "Contact e-RA curators: era@rothamsted.ac.uk"
 }

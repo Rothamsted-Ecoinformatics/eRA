@@ -1,0 +1,72 @@
+{
+    "administrative": {
+        "type": "ScholarlyArticle",
+        "identifier": "Woburn Intensive cereals",
+        "localIdentifier": "W/RN/13",
+        "name": "Woburn Intensive cereals",
+        "url": null,
+        "description": "These experiments are almost identical to the Broadbalk and Hoosfield Barley experiments at Rothamsted, but at Woburn. They are also known as the Woburn Continuous Wheat and Barley experiments. They started in 1876 on Woburn Stackyard, and where carried out by the Royal Agricultural Society of England but with input from Lawes. They were under continuous wheat and barley, mirroring the Broadbalk and Hoosfield Experiments, until 1926. According to Voelcker (1929), after 1926 it was decided to fallow the plots, which had become infested with weeds.",
+        "disambiguatingDescription": "To study the effects of intensive cereal cropping on yield, incidence of soil-borne pathogens and organic matter in the soil."
+    },
+    "dataAccess": {
+        "type": "creativeWork",
+        "conditionsOfAccess": "Available online with registration",
+        "isAccessibleForFree": "YesOffline",
+        "publishingPrinciples": null,
+        "actionableFeedbackPolicy": "To study the effects of intensive cereal cropping on yield, incidence of soil-borne pathogens and organic matter in the soil.",
+        "correctionsPolicy": "To study the effects of intensive cereal cropping on yield, incidence of soil-borne pathogens and organic matter in the soil.",
+        "unnamedSourcesPolicy": null
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "CC0",
+        "license": "https://creativecommons.org/share-your-work/public-domain/cc0/"
+    },
+    "temporalCoverage": "1953/1970 from schema",
+    "dateStart": 1876,
+    "dateEPEnd": null,
+    "dateEnd": 1990,
+    "funder": "NOT in GLTEN",
+    "citation": [
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/ERADOC-1-9",
+            "sameAs": "https://doi.org/10.23637/ERADOC-1-9",
+            "citation": "Experiments made on Stackyard Field, Woburn, 1876-1974. 1. History of the Field, Details of the Cropping and Manuring and the Yields in the Continuous Wheat and Barley Experiments",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/ERADOC-1-9",
+            "sameAs": "https://doi.org/10.23637/ERADOC-1-9",
+            "citation": "Experiments made on Stackyard Field, Woburn,1876-1974. III. Effects of NPK Fertilizers and Farmyard Manure on Soil Carbon, Nitrogen and Organic Phosphorus",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/ERADOC-1-9",
+            "sameAs": "https://doi.org/10.23637/ERADOC-1-9",
+            "citation": "Experiments made on Stackyard Field, Woburn,1876-1974. II Effects of Treatments on Soil pH, P and K in the Continuous Wheat and Barley Experiments",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1023/A:1025544817872",
+            "sameAs": "https://doi.org/10.1023/A:1025544817872",
+            "citation": "Changes in soil phosphorus fractions following positive and negative phosphorus balances for long periods.",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/ERADOC-1-85",
+            "sameAs": "https://doi.org/10.23637/ERADOC-1-85",
+            "citation": "Woburn Experimental Farm. Reports for 1926-7 and 1927-8. 1: Continuous growing of wheat and barley (Stackyard field).",
+            "inLanguage": null,
+            "relationType": "isCitedBy"
+        }
+    ]
+}

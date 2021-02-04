@@ -30,7 +30,7 @@
     },
     "soilProperty": [],
     "climate": {
-        "name": null,
+        "name": "temperate oceanic climate",
         "description": null,
         "weatherStation": {
             "weatherStationID": "NOT IN GLTEN",

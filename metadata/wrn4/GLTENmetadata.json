@@ -1,0 +1,971 @@
+{
+    "id": 2573,
+    "experiment_type_term": null,
+    "experiment_id": 47,
+    "people": [
+        {
+            "id": 3665,
+            "contacts": [],
+            "role_term": "principal investigator",
+            "title": "Dr",
+            "name": "Steve McGrath",
+            "affiliation": "Rothamsted Research",
+            "department": "Sustainable Agricultural Systems",
+            "orcid": null,
+            "is_contact": false,
+            "role_label": "principal investigator"
+        },
+        {
+            "id": 3666,
+            "contacts": [
+                {
+                    "contact_type": "Email",
+                    "value": "res.e-ra@rothamsted.ac.uk"
+                }
+            ],
+            "role_term": "data manager",
+            "title": "Dr",
+            "name": "Sarah Perryman",
+            "affiliation": "Rothamsted Research",
+            "department": "Computational and Analytical Sciences",
+            "orcid": null,
+            "is_contact": true,
+            "role_label": "data manager"
+        }
+    ],
+    "organizations": [
+        {
+            "id": 2620,
+            "contacts": [],
+            "role_term": "research organisation",
+            "name": "Rothamsted Research",
+            "name_uri": null,
+            "abbreviation": null,
+            "role_label": "research organisation"
+        },
+        {
+            "id": 2621,
+            "contacts": [],
+            "role_term": "funding agency",
+            "name": "BBSRC",
+            "name_uri": null,
+            "abbreviation": null,
+            "role_label": "funding agency"
+        }
+    ],
+    "periods": [
+        {
+            "id": 3882,
+            "design_type_term": null,
+            "crops": [
+                {
+                    "id": 10934,
+                    "crop_term": "cabbages",
+                    "crop_label": "cabbages",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 10935,
+                    "crop_term": "peas",
+                    "crop_label": "peas",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 10936,
+                    "crop_term": "leeks",
+                    "crop_label": "leeks",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 10937,
+                    "crop_term": "beetroot",
+                    "crop_label": "beetroot",
+                    "start_year": null,
+                    "end_year": null
+                }
+            ],
+            "rotations": [
+                {
+                    "id": 1950,
+                    "phases": [
+                        {
+                            "crop_id": 10937,
+                            "notes": null,
+                            "same_phase": false
+                        },
+                        {
+                            "crop_id": 10934,
+                            "notes": null,
+                            "same_phase": true
+                        },
+                        {
+                            "crop_id": 10935,
+                            "notes": null,
+                            "same_phase": false
+                        },
+                        {
+                            "crop_id": 10936,
+                            "notes": null,
+                            "same_phase": true
+                        }
+                    ],
+                    "name": "",
+                    "phasing": "Complete",
+                    "start_year": null,
+                    "end_year": null,
+                    "is_treatment": false
+                }
+            ],
+            "factors": [
+                {
+                    "id": 6097,
+                    "factor_term": "natural fertilizer exposure",
+                    "levels": [
+                        {
+                            "id": 16610,
+                            "factor_variant_term": "farmyard manure",
+                            "factor_variant_label": "farmyard manure",
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null,
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 16611,
+                            "factor_variant_term": "sewage sludge",
+                            "factor_variant_label": "sewage sludge",
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null,
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 16612,
+                            "factor_variant_term": "straw compost",
+                            "factor_variant_label": "straw compost",
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null,
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": "Made with sewage sludge and straw",
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 16613,
+                            "factor_variant_term": "vegetable compost",
+                            "factor_variant_label": "vegetable compost",
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null,
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": "Made with farm waste and farmyard manure",
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        }
+                    ],
+                    "factor_label": "natural fertilizer exposure",
+                    "description": "Amendments were applied in winter before beetroot and peas",
+                    "plot_application": "Whole plot",
+                    "effect": ""
+                },
+                {
+                    "id": 6098,
+                    "factor_term": "nitrogen fertilizer exposure",
+                    "levels": [
+                        {
+                            "id": 16614,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "N0",
+                            "amount": "0",
+                            "amount_unit_term": null,
+                            "amount_unit_label": null,
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 16615,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "N1",
+                            "amount": "75",
+                            "amount_unit_term": "kgN/ha",
+                            "amount_unit_label": "kg nitrogen per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": true,
+                            "note": null,
+                            "application_frequency": "annually in spring",
+                            "application_method_term": "broadcast application method",
+                            "application_method_label": "broadcast application method",
+                            "chemical_form_term": "ammonium sulfate",
+                            "chemical_form_label": "ammonium sulfate"
+                        },
+                        {
+                            "id": 16616,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "N2",
+                            "amount": "150",
+                            "amount_unit_term": "kgN/ha",
+                            "amount_unit_label": "kg nitrogen per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "ammonium sulfate",
+                            "chemical_form_label": "ammonium sulfate"
+                        },
+                        {
+                            "id": 16617,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "N3",
+                            "amount": "225",
+                            "amount_unit_term": "kgN/ha",
+                            "amount_unit_label": "kg nitrogen per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "ammonium sulfate",
+                            "chemical_form_label": "ammonium sulfate"
+                        }
+                    ],
+                    "factor_label": "nitrogen fertilizer exposure",
+                    "description": "N0 and N1 applied both with and without the organics and N2 and N3 applied without organics only. The N rate refers to the total applied over the two year rotation period.",
+                    "plot_application": "Whole plot",
+                    "effect": ""
+                }
+            ],
+            "factor_combinations": [],
+            "measurements": [],
+            "start_year": 1942,
+            "end_year": 1950,
+            "ongoing": false,
+            "name": "First Period",
+            "design_type_label": null,
+            "number_of_blocks": 8,
+            "number_of_plots": 80,
+            "number_of_subplots": null,
+            "number_of_replicates": null,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": 2,
+            "design_description": "The experiment had two series, each growing a separate phase of a two year rotation. Each series was split into 4 blocks of 10 plots.",
+            "description": null,
+            "factorial": true
+        },
+        {
+            "id": 3883,
+            "design_type_term": null,
+            "crops": [
+                {
+                    "id": 10938,
+                    "crop_term": "beetroot",
+                    "crop_label": "beetroot",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 10939,
+                    "crop_term": "cabbages",
+                    "crop_label": "cabbages",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 10940,
+                    "crop_term": "leeks",
+                    "crop_label": "leeks",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 10941,
+                    "crop_term": "potatoes",
+                    "crop_label": "potatoes",
+                    "start_year": null,
+                    "end_year": null
+                }
+            ],
+            "rotations": [
+                {
+                    "id": 1951,
+                    "phases": [
+                        {
+                            "crop_id": 10938,
+                            "notes": null,
+                            "same_phase": false
+                        },
+                        {
+                            "crop_id": 10939,
+                            "notes": "spring cabbage",
+                            "same_phase": true
+                        },
+                        {
+                            "crop_id": 10940,
+                            "notes": null,
+                            "same_phase": false
+                        }
+                    ],
+                    "name": "Bt-Ca-Le",
+                    "phasing": "Complete",
+                    "start_year": 1951,
+                    "end_year": 1955,
+                    "is_treatment": false
+                },
+                {
+                    "id": 1952,
+                    "phases": [
+                        {
+                            "crop_id": 10938,
+                            "notes": null,
+                            "same_phase": false
+                        },
+                        {
+                            "crop_id": 10941,
+                            "notes": "early potatoes",
+                            "same_phase": true
+                        },
+                        {
+                            "crop_id": 10940,
+                            "notes": null,
+                            "same_phase": false
+                        }
+                    ],
+                    "name": "Bt-P-Le",
+                    "phasing": "Complete",
+                    "start_year": 1956,
+                    "end_year": 1961,
+                    "is_treatment": false
+                }
+            ],
+            "factors": [
+                {
+                    "id": 6099,
+                    "factor_term": "natural fertilizer exposure",
+                    "levels": [
+                        {
+                            "id": 16618,
+                            "factor_variant_term": "farmyard manure",
+                            "factor_variant_label": "farmyard manure",
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null,
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 16619,
+                            "factor_variant_term": "sewage sludge",
+                            "factor_variant_label": "sewage sludge",
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null,
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 16620,
+                            "factor_variant_term": "straw compost",
+                            "factor_variant_label": "straw compost",
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null,
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": "Made with sewage sludge and straw",
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 16621,
+                            "factor_variant_term": "vegetable compost",
+                            "factor_variant_label": "vegetable compost",
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null,
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": "Made with farm waste and farmyard manure",
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        }
+                    ],
+                    "factor_label": "natural fertilizer exposure",
+                    "description": null,
+                    "plot_application": "Whole plot",
+                    "effect": ""
+                },
+                {
+                    "id": 6100,
+                    "factor_term": "nitrogen fertilizer exposure",
+                    "levels": [
+                        {
+                            "id": 16622,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "N0",
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null,
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 16623,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "N1",
+                            "amount": "37",
+                            "amount_unit_term": "kgN/ha",
+                            "amount_unit_label": "kg nitrogen per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "calcium ammonium nitrate",
+                            "chemical_form_label": "calcium ammonium nitrate"
+                        },
+                        {
+                            "id": 16624,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "N2",
+                            "amount": "75",
+                            "amount_unit_term": "kgN/ha",
+                            "amount_unit_label": "kg nitrogen per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "calcium ammonium nitrate",
+                            "chemical_form_label": "calcium ammonium nitrate"
+                        },
+                        {
+                            "id": 16625,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "N3",
+                            "amount": "113",
+                            "amount_unit_term": "kgN/ha",
+                            "amount_unit_label": "kg nitrogen per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "calcium ammonium nitrate",
+                            "chemical_form_label": "calcium ammonium nitrate"
+                        }
+                    ],
+                    "factor_label": "nitrogen fertilizer exposure",
+                    "description": "N0 and N1 applied both with and without the organics and N2 and N3 applied without organics only. The N rate refers to the total applied over the two year rotation period.",
+                    "plot_application": "Whole plot",
+                    "effect": ""
+                }
+            ],
+            "factor_combinations": [],
+            "measurements": [],
+            "start_year": 1951,
+            "end_year": 1961,
+            "ongoing": false,
+            "name": "Second Period",
+            "design_type_label": null,
+            "number_of_blocks": null,
+            "number_of_plots": null,
+            "number_of_subplots": null,
+            "number_of_replicates": null,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": null,
+            "design_description": null,
+            "description": "Potatoes were introduced as a result of repeated crop failures in spring cabbages.",
+            "factorial": false
+        },
+        {
+            "id": 3884,
+            "design_type_term": null,
+            "crops": [
+                {
+                    "id": 10942,
+                    "crop_term": "leeks",
+                    "crop_label": "leeks",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 10943,
+                    "crop_term": "beetroot",
+                    "crop_label": "beetroot",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 10944,
+                    "crop_term": "potatoes",
+                    "crop_label": "potatoes",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 10945,
+                    "crop_term": "carrots",
+                    "crop_label": "carrots",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 10946,
+                    "crop_term": "rye",
+                    "crop_label": "rye",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 10947,
+                    "crop_term": "beans",
+                    "crop_label": "beans",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 10948,
+                    "crop_term": "grass leys",
+                    "crop_label": "grass leys",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 10949,
+                    "crop_term": "grass clover leys",
+                    "crop_label": "grass clover leys",
+                    "start_year": null,
+                    "end_year": null
+                }
+            ],
+            "rotations": [],
+            "factors": [
+                {
+                    "id": 6101,
+                    "factor_term": "nitrogen fertilizer exposure",
+                    "levels": [],
+                    "factor_label": "nitrogen fertilizer exposure",
+                    "description": "N applied at various rates. Rates depend on the crop.",
+                    "plot_application": null,
+                    "effect": ""
+                },
+                {
+                    "id": 6102,
+                    "factor_term": "natural fertilizer exposure",
+                    "levels": [
+                        {
+                            "id": 16626,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "grass-clover ley",
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null,
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 16627,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "grass ley",
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null,
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 16628,
+                            "factor_variant_term": "straw",
+                            "factor_variant_label": "straw",
+                            "amount": "7.5",
+                            "amount_unit_term": "t/ha",
+                            "amount_unit_label": "tonnes per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": "As chopped barley straw",
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 16629,
+                            "factor_variant_term": "peat",
+                            "factor_variant_label": "peat",
+                            "amount": "7.5",
+                            "amount_unit_term": "t/ha",
+                            "amount_unit_label": "tonnes per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": "As sedge peat",
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 16630,
+                            "factor_variant_term": "green manure",
+                            "factor_variant_label": "green manure",
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null,
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": "As practicable depending on the arable crop grown",
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 16631,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "None",
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null,
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 16632,
+                            "factor_variant_term": "farmyard manure",
+                            "factor_variant_label": "farmyard manure",
+                            "amount": "50",
+                            "amount_unit_term": "t/ha",
+                            "amount_unit_label": "tonnes per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": "Replaced vegetable compost. 25 t/ha in 1967 and 1970",
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 16633,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "PKMg Equivalent",
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null,
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": "No organic manure but P, K and Mg applied at equivalent rates to that in the farmyard manure treatment",
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        }
+                    ],
+                    "factor_label": "natural fertilizer exposure",
+                    "description": null,
+                    "plot_application": null,
+                    "effect": ""
+                }
+            ],
+            "factor_combinations": [],
+            "measurements": [],
+            "start_year": 1962,
+            "end_year": 1973,
+            "ongoing": false,
+            "name": "Third Period",
+            "design_type_label": null,
+            "number_of_blocks": null,
+            "number_of_plots": null,
+            "number_of_subplots": null,
+            "number_of_replicates": null,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": null,
+            "design_description": null,
+            "description": "The Experiment continued with comparisons of Nitrogen rates and organic manuring with various crops grown, although application of sewage sludges was discontinued.",
+            "factorial": false
+        },
+        {
+            "id": 3885,
+            "design_type_term": null,
+            "crops": [
+                {
+                    "id": 10950,
+                    "crop_term": "fallow",
+                    "crop_label": "fallow",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 10951,
+                    "crop_term": "rye grass",
+                    "crop_label": "rye grass",
+                    "start_year": null,
+                    "end_year": null
+                }
+            ],
+            "rotations": [],
+            "factors": [],
+            "factor_combinations": [],
+            "measurements": [],
+            "start_year": 1974,
+            "end_year": 1982,
+            "ongoing": false,
+            "name": "Grass period",
+            "design_type_label": null,
+            "number_of_blocks": null,
+            "number_of_plots": null,
+            "number_of_subplots": null,
+            "number_of_replicates": null,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": null,
+            "design_description": null,
+            "description": "To study the residual effects of fertilisers and organic manures. No yields were taken and no new treatments were applied during this period.",
+            "factorial": false
+        },
+        {
+            "id": 3886,
+            "design_type_term": null,
+            "crops": [
+                {
+                    "id": 10952,
+                    "crop_term": "beetroot",
+                    "crop_label": "beetroot",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 10953,
+                    "crop_term": "carrots",
+                    "crop_label": "carrots",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 10954,
+                    "crop_term": "barley",
+                    "crop_label": "barley",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 10955,
+                    "crop_term": "white clover",
+                    "crop_label": "white clover",
+                    "start_year": null,
+                    "end_year": null
+                }
+            ],
+            "rotations": [],
+            "factors": [],
+            "factor_combinations": [],
+            "measurements": [],
+            "start_year": 1983,
+            "end_year": 2005,
+            "ongoing": false,
+            "name": "Reactivated Period",
+            "design_type_label": null,
+            "number_of_blocks": 8,
+            "number_of_plots": 80,
+            "number_of_subplots": null,
+            "number_of_replicates": null,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": null,
+            "design_description": null,
+            "description": "The experiment was reactivated to determine the fate of metals applied in the sewage sludge between 1942 and 1961. No new treatments were applied. Since 2006 the experiment has been in grass",
+            "factorial": false
+        }
+    ],
+    "data_statement_term": "Available to any researcher on request",
+    "data_license_term": "CC BY",
+    "site_type_term": "research farm",
+    "site_perimeter": [],
+    "site_soil_type_term": null,
+    "site_soil_properties": [],
+    "site_climatic_type_term": "temperate oceanic climate",
+    "site_climate_properties": [],
+    "literature": [
+        {
+            "doi": "https://doi.org/10.1111/j.1365-2389.2004.00648.x",
+            "title": "Abaye, D. A. , Lawlor, K. , Hirsch, P. R. and Brookes, P. C. (2005) \"Changes in the microbial community of an arable soil caused by long-term metal contamination\", European Journal of Soil Science, 56, 93-102",
+            "language": "English"
+        },
+        {
+            "doi": "https://doi.org/10.23637/ROTHAMSTED-LONG-TERM-EXPERIMENTS-GUIDE-2018",
+            "title": "Guide to the Classical and Other Long-term Experiments 2018",
+            "language": null
+        }
+    ],
+    "saved_time": "2021-02-03T06:55:38.300528Z",
+    "name": "Woburn Market Garden",
+    "local_identifier": "W/RN/4",
+    "experiment_type_label": null,
+    "url": null,
+    "start_year": 1942,
+    "end_year": 2006,
+    "ongoing": false,
+    "establishment_period_end": null,
+    "objective": "To study the effects of bulky organic manures, farmyard manure, sewage sludge and two types of compost in building up an agricultural soil for the growth of Market Garden crops. Certain plots were treated with fertilisers alone to provide controls for the organic treatments.",
+    "description": "The experiment was grass from 1974 to 1982. When concerns were expressed in the late 1970s about the heavy metal content of sewage sludges being applied to agricultural land, the experiment was \u201creactivated\u201d to examine the fate of metals that had been applied in the sewage sludge between 1942 and 1961. More recently, the experiment has been used to evaluate the effectiveness of hyperaccumulator plants, i.e. plants that can naturally accumulate large amounts of metals from soils and which, potentially, could be used to \u201cclean up\u201d soils contaminated with heavy metals. Part of the experiment was physically moved in 2005 and in 2006 the whole experiment was sown to grass.",
+    "site_name": "Lansome I",
+    "site_local_code": null,
+    "site_geonames_id": null,
+    "site_doi": null,
+    "site_type_label": "research farm",
+    "site_locality": "Husborne Crawley",
+    "site_region": "Bedfordshire",
+    "site_country": "United Kingdom",
+    "site_centroid_latitude": 52.013017,
+    "site_centroid_longitude": -0.599183,
+    "site_elevation": 92.0,
+    "site_elevation_unit": "Metres",
+    "site_slope": null,
+    "site_slope_aspect": null,
+    "site_visits_allowed": true,
+    "site_visiting_arrangements": "By arrangement with Dr Andy Macdonald",
+    "site_history": null,
+    "site_management": null,
+    "site_soil_type_label": null,
+    "site_soil_description": null,
+    "site_climatic_type_label": "temperate oceanic climate",
+    "site_climate_description": null,
+    "data_statement_label": "Available to any researcher on request",
+    "data_url": null,
+    "data_policy_status": "YesOffline",
+    "data_policy_url": null,
+    "data_license_label": "CC BY",
+    "data_contact": null,
+    "farm_operations_data": true,
+    "sample_archive": true,
+    "samples_available": true,
+    "data_access_statement": null
+}

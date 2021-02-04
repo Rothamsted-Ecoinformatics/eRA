@@ -6,44 +6,44 @@
             "localIdentifier": "First Period",
             "name": "First Period",
             "url": "First Period",
-            "description": ""
+            "description": "Four blocks of ten plots each, with a four-course rotation, with different crops grown in each block each year. Originally the crops of a typical Norfolk four-course rotation (roots, spring barley, legume and winter wheat. Different fertilizer and manure treatments in the 10 plots."
         },
         "design": {
             "dateStart": 1899,
             "dateEnd": 1965,
-            "description": null,
+            "description": "A factorial test of N, P and K plus bone meal and FYM treatments on a four crop rotation.",
             "studyDesign": "First Period",
             "factorCombinationNumber": "NA",
             "numberOdBlocks": 4,
-            "numberOfPlots": null,
-            "numberOfReplicates": null,
+            "numberOfPlots": 40,
+            "numberOfReplicates": 4,
             "numberOfSubplots": null,
             "numberOfHarvests": null
         },
         "crops": [
             {
-                "id": 321,
+                "id": 10608,
                 "name": "wheat",
                 "sameAs": "wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 322,
+                "id": 10609,
                 "name": "root vegetables",
                 "sameAs": "root vegetables",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 323,
+                "id": 10610,
                 "name": "barley",
                 "sameAs": "barley",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 324,
+                "id": 10611,
                 "name": "feed legumes",
                 "sameAs": "feed legumes",
                 "dateStart": null,
@@ -54,28 +54,28 @@
             {
                 "name": "Norfolk Rotation",
                 "dateStart": 1899,
-                "dateEnd": 1969,
+                "dateEnd": 1962,
                 "phasing": "Complete",
                 "isTreatment": false,
                 "rotationPhases": [
                     {
                         "samePhase": false,
-                        "crop": 321,
+                        "crop": 10608,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 322,
+                        "crop": 10609,
                         "description": "Swedes or turnips in the early years, then mangolds or beetroot"
                     },
                     {
                         "samePhase": false,
-                        "crop": 323,
+                        "crop": 10610,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 324,
+                        "crop": 10611,
                         "description": "Normally beans but sometimes clover or peas"
                     }
                 ]
@@ -83,14 +83,14 @@
         ],
         "factor": [
             {
-                "id": 205,
+                "id": 5973,
                 "name": "fertilizer exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 453,
+                        "id": 16449,
                         "name": "farmyard manure",
                         "amount": "15",
                         "unitCode": "t/ha",
@@ -104,7 +104,7 @@
                         "notes": null
                     },
                     {
-                        "id": 454,
+                        "id": 16450,
                         "name": "bone meal",
                         "amount": "0.5",
                         "unitCode": "t/ha",
@@ -118,7 +118,7 @@
                         "notes": null
                     },
                     {
-                        "id": 455,
+                        "id": 16451,
                         "name": "nitrogen",
                         "amount": "100",
                         "unitCode": "kgN/ha",
@@ -132,7 +132,7 @@
                         "notes": null
                     },
                     {
-                        "id": 456,
+                        "id": 16452,
                         "name": "phosphorous",
                         "amount": "40",
                         "unitCode": "kgP/ha",
@@ -146,7 +146,7 @@
                         "notes": null
                     },
                     {
-                        "id": 457,
+                        "id": 16453,
                         "name": "potassium",
                         "amount": "63",
                         "unitCode": "kgK/ha",
@@ -327,6 +327,76 @@
                 ]
             }
         ],
+        "measurements": "NA"
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Second period",
+            "localIdentifier": "Second period",
+            "name": "Second period",
+            "url": "Second period",
+            "description": "The four-course rotation of wheat, sugar beet, barley and beans was continued until the 1969 harvest. In 1970 the northern half of each plot was sown to lucerne and the southern to a grass ley mixture."
+        },
+        "design": {
+            "dateStart": 1966,
+            "dateEnd": 2010,
+            "description": "The response of various crops to fresh and residual P and their interactions with N, particularly with high rates of N applied to high yielding wheat cultivars of bread making quality.",
+            "studyDesign": "Second period",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": 10,
+            "numberOfReplicates": 4,
+            "numberOfSubplots": null,
+            "numberOfHarvests": 1
+        },
+        "crops": [
+            {
+                "id": 10612,
+                "name": "Medicago sativa",
+                "sameAs": "Medicago sativa",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 10613,
+                "name": "winter wheat",
+                "sameAs": "winter wheat",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 10614,
+                "name": "barley",
+                "sameAs": "barley",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 10615,
+                "name": "faba beans",
+                "sameAs": "faba beans",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 10616,
+                "name": "sugar beet",
+                "sameAs": "sugar beet",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 10617,
+                "name": "grass leys",
+                "sameAs": "grass leys",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": "NA",
+        "factorCombinations": "NA",
         "measurements": "NA"
     }
 ]

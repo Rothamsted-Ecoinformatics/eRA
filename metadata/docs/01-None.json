@@ -1,37 +1,27 @@
 {
     "@context": "https://schema.org/",
     "@type": "Text",
-    "identifier": "10.23637/",
-    "name": "deprecated",
+    "identifier": "10.23637/ws-soil-maps-01",
+    "name": "Woburn Experimental Farm Soil and Field Maps",
     "shortName": null,
-    "url": "http://www.era.rothamsted.ac.uk/",
+    "url": "http://www.era.rothamsted.ac.uk/metadata/docs/wob-maps.pdf",
     "description": [
         {
             "inLanguage": "en",
             "descriptionType": "Abstract",
-            "description": "Details of the lime applications, fertilizer treatments and basal fertilizer applied to the Long-term Liming Experiments at Rothamsted and Woburn, 1962-1996."
-        },
-        {
-            "inLanguage": "en",
-            "descriptionType": "Methods",
-            "description": "The Long-term Liming Experiments studied the effects of soil pH, P and other fertilizer treatments on the yields of a sequence of arable crops at two sites, Rothamsted and Woburn, with contrasting soil types."
+            "description": "A collection of maps and plans for the Woburn Experimental Station."
         },
         {
             "inLanguage": "en",
             "descriptionType": "TableOfContents",
-            "description": "1) Lime application dates and amounts applied, 1962-1996  2) Fertilizer treatments (P, K, Mg, Mn and S) application amounts, dates and forms, 1962-1996. 3) Basal fertilizer (N, K and Mg) application amounts and forms, 1962-1996."
-        },
-        {
-            "inLanguage": "en",
-            "descriptionType": "Provenance",
-            "description": "Prepared from experimental plans and Rothamsted Research annual Yields Books."
+            "description": "- Woburn Experimental Farm Soil Texture\r\n- Woburn Experimental Farm Soil Series\r\n- Complete Legend to Soil Series Revised 2017\r\n- Woburn Farm Field Map\r\n- Woburn Farm OS map, including Stackyard"
         }
     ],
     "publisher": {
         "type": "organization",
         "name": "Rothamsted Research"
     },
-    "publication_year": 2020,
+    "publication_year": 2017,
     "dateCreated": null,
     "dateModified": null,
     "datePublished": null,
@@ -39,13 +29,73 @@
     "version": "1",
     "keywords": [
         "long term experiments",
-        "liming",
-        "Rothamsted Research",
         "arable farming",
-        "soil pH",
-        "fertilizer"
+        "crop yield",
+        "soil fertility",
+        "soil organic carbon",
+        "liming"
     ],
     "creator": [
+        {
+            "type": "Person",
+            "Name": "Chris Watts",
+            "givenName": "Chris",
+            "familyName": "Watts",
+            "sameAs": "https://orcid.org/0000-0002-7223-1444",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Nathalie Castells-Brooke",
+            "givenName": "Nathalie",
+            "familyName": "Castells-Brooke",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
         {
             "type": "organization",
             "name": "Rothamsted Research"
@@ -114,6 +164,27 @@
                 "name": "Computational and Analytical Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Chris Watts",
+            "givenName": "Chris",
+            "familyName": "Watts",
+            "sameAs": "https://orcid.org/0000-0002-7223-1444",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
         }
     ],
     "encodingFormat": "application/pdf",
@@ -136,44 +207,7 @@
         },
         "name": "Admin Buildings"
     },
-    "relatedIdentifier": [
-        {
-            "relatedIdentifier": "10.23637/rcs10-Plans",
-            "relatedIdentifierType": "DOI",
-            "name": "Rothamsted long-term liming experiment plans",
-            "relatedIdentifierGeneralType": "text",
-            "relationType": "Describes",
-            "rt_id": 8,
-            "relationTypeValue": "describes"
-        },
-        {
-            "relatedIdentifier": "10.23637/wcs10-Plans",
-            "relatedIdentifierType": "DOI",
-            "name": "Woburn long-term liming experiment plans",
-            "relatedIdentifierGeneralType": "text",
-            "relationType": "Describes",
-            "rt_id": 8,
-            "relationTypeValue": "describes"
-        },
-        {
-            "relatedIdentifier": "10.23637/rcs10-rltlyields-01",
-            "relatedIdentifierType": "DOI",
-            "name": "Rothamsted long-term liming experiment crop yields",
-            "relatedIdentifierGeneralType": "text",
-            "relationType": "IsSupplementTo",
-            "rt_id": 3,
-            "relationTypeValue": "is supplement to"
-        },
-        {
-            "relatedIdentifier": "10.23637/wcs10-wltlyields-01",
-            "relatedIdentifierType": "DOI",
-            "name": "Woburn long-term liming experiment crop yields",
-            "relatedIdentifierGeneralType": "text",
-            "relationType": "IsSupplementTo",
-            "rt_id": 3,
-            "relationTypeValue": "is supplement to"
-        }
-    ],
+    "relatedIdentifier": [],
     "funder": [
         {
             "type": "organization",

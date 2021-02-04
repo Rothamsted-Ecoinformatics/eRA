@@ -43,6 +43,30 @@
             "citation": "Jenkyn, J. F. , Christian, D. G. , Bacon, E. T. G. , Gutteridge, R. J. and Todd, A. D. (2001) \"Effects of incorporating different amounts of straw on growth, diseases and yield of consecutive crops of winter wheat grown on contrasting soil types\", Journal of Agricultural Science, 136, 1-14",
             "inLanguage": "English",
             "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.2134/agronj2010.0146s",
+            "sameAs": "https://doi.org/10.2134/agronj2010.0146s",
+            "citation": "Powlson, D. S. , Glendining, M. J. , Coleman, K. and Whitmore, A. P. (2011) \"Implications for Soil Properties of Removing Cereal Straw: Results from Long-Term Studies\", Agronomy Journal, 103, 279-287",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1016/j.apsoil.2018.10.013",
+            "sameAs": "https://doi.org/10.1016/j.apsoil.2018.10.013",
+            "citation": "Sizmur, T. , Martin, E. , Wagner, K. , Parmentier, E. , Watts, C. W. and Whitmore, A. P. (2019) \"Corrigendum to \u201cMilled cereal straw accelerates earthworm (Lumbricus terrestris) growth more than selected organic amendments\u201d [Appl. Soil Ecol. 113 (2017) 116\u2013177]\", Applied Soil Ecology, 142, 199-200",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.3389/fmicb.2020.599233",
+            "sameAs": "https://doi.org/10.3389/fmicb.2020.599233",
+            "citation": "Fraaije, B. , Atkins, S. , Hanley, S. , Macdonald, A. and Lucas, J. (2020) \"The Multi-Fungicide Resistance Status of Aspergillus fumigatus populations in Arable Soils and the Wider European Environment\", Frontiers in Microbiology, 11, 599233",
+            "inLanguage": null,
+            "relationType": "isCitedBy"
         }
     ]
 }

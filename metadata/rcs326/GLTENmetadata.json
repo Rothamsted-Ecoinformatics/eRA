@@ -1,10 +1,10 @@
 {
-    "id": 904,
+    "id": 2531,
     "experiment_type_term": null,
     "experiment_id": 48,
     "people": [
         {
-            "id": 1070,
+            "id": 3550,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -23,7 +23,7 @@
     ],
     "organizations": [
         {
-            "id": 889,
+            "id": 2571,
             "contacts": [
                 {
                     "contact_type": "URL",
@@ -39,11 +39,11 @@
     ],
     "periods": [
         {
-            "id": 1336,
+            "id": 3766,
             "design_type_term": "Randomized complete block design",
             "crops": [
                 {
-                    "id": 3168,
+                    "id": 10550,
                     "crop_term": "wheat",
                     "crop_label": "wheat",
                     "start_year": null,
@@ -53,11 +53,11 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 1459,
+                    "id": 5963,
                     "factor_term": "crop residue management exposure",
                     "levels": [
                         {
-                            "id": 4760,
+                            "id": 16400,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": "0",
@@ -75,7 +75,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 4761,
+                            "id": 16401,
                             "factor_variant_term": null,
                             "factor_variant_label": "Normal",
                             "amount": "5",
@@ -93,7 +93,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 4762,
+                            "id": 16402,
                             "factor_variant_term": null,
                             "factor_variant_label": "2 x normal",
                             "amount": "10",
@@ -111,7 +111,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 4763,
+                            "id": 16403,
                             "factor_variant_term": null,
                             "factor_variant_label": "4 x normal",
                             "amount": "20",
@@ -139,7 +139,7 @@
             "measurements": [
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 3168,
+                    "crop_id": 10550,
                     "comment": null,
                     "collection_frequency": "annual",
                     "variable_label": "grain yield trait",
@@ -150,7 +150,7 @@
                 },
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 3168,
+                    "crop_id": 10550,
                     "comment": null,
                     "collection_frequency": "annual",
                     "variable_label": "forage yield",
@@ -183,7 +183,32 @@
     "site_soil_type_term": "luvisol",
     "site_soil_properties": [],
     "site_climatic_type_term": "temperate oceanic climate",
-    "site_climate_properties": [],
+    "site_climate_properties": [
+        {
+            "id": 1743,
+            "variable_term": "precipitation",
+            "unit_term": "mm",
+            "variable_label": "precipitation",
+            "year_from": 1981,
+            "year_to": 2010,
+            "mean_value": 733.0,
+            "max_value": 973.5,
+            "min_value": 515.5,
+            "unit_label": "millimeter"
+        },
+        {
+            "id": 1744,
+            "variable_term": "air temperature",
+            "unit_term": "degC",
+            "variable_label": "air temperature",
+            "year_from": 1981,
+            "year_to": 2010,
+            "mean_value": 9.8,
+            "max_value": 10.89,
+            "min_value": 8.51,
+            "unit_label": "degree Celsius"
+        }
+    ],
     "literature": [
         {
             "doi": "https://doi.org/10.1016/j.apsoil.2016.12.006",
@@ -194,9 +219,24 @@
             "doi": "https://doi.org/10.1017/S0021859600008558",
             "title": "Jenkyn, J. F. , Christian, D. G. , Bacon, E. T. G. , Gutteridge, R. J. and Todd, A. D. (2001) \"Effects of incorporating different amounts of straw on growth, diseases and yield of consecutive crops of winter wheat grown on contrasting soil types\", Journal of Agricultural Science, 136, 1-14",
             "language": "English"
+        },
+        {
+            "doi": "https://doi.org/10.2134/agronj2010.0146s",
+            "title": "Powlson, D. S. , Glendining, M. J. , Coleman, K. and Whitmore, A. P. (2011) \"Implications for Soil Properties of Removing Cereal Straw: Results from Long-Term Studies\", Agronomy Journal, 103, 279-287",
+            "language": "English"
+        },
+        {
+            "doi": "https://doi.org/10.1016/j.apsoil.2018.10.013",
+            "title": "Sizmur, T. , Martin, E. , Wagner, K. , Parmentier, E. , Watts, C. W. and Whitmore, A. P. (2019) \"Corrigendum to \u201cMilled cereal straw accelerates earthworm (Lumbricus terrestris) growth more than selected organic amendments\u201d [Appl. Soil Ecol. 113 (2017) 116\u2013177]\", Applied Soil Ecology, 142, 199-200",
+            "language": "English"
+        },
+        {
+            "doi": "https://doi.org/10.3389/fmicb.2020.599233",
+            "title": "Fraaije, B. , Atkins, S. , Hanley, S. , Macdonald, A. and Lucas, J. (2020) \"The Multi-Fungicide Resistance Status of Aspergillus fumigatus populations in Arable Soils and the Wider European Environment\", Frontiers in Microbiology, 11, 599233",
+            "language": null
         }
     ],
-    "saved_time": "2019-09-30T13:25:38.347415Z",
+    "saved_time": "2021-01-27T11:22:46.784567Z",
     "name": "Rothamsted Amounts of Straw",
     "local_identifier": "R/CS/326",
     "experiment_type_label": null,
@@ -238,5 +278,5 @@
     "farm_operations_data": true,
     "sample_archive": false,
     "samples_available": false,
-    "data_access_statement": null
+    "data_access_statement": "Contact the e-RA curators: era@rothamsted.ac.uk"
 }

@@ -6,15 +6,15 @@
         "name": "Woburn long-term liming experiment",
         "url": null,
         "description": "Yields of various crops were recorded from 1962-1996 and papers published (Bolton, 1971, 1977 a,b; McEwen et al, 1990; Holland et al, 2019). The experiment is now discontinued.",
-        "disambiguatingDescription": "To study the effects of different amounts of lime (and thus soil pH), P and K on the yields of a sequence of arable crops."
+        "disambiguatingDescription": "To study the effects of different amounts of lime (and thus soil pH), P and K on the yields of a sequence of arable crops. Mg, Mn and S treatments were also applied."
     },
     "dataAccess": {
         "type": "creativeWork",
         "conditionsOfAccess": "Available to any researcher on request",
         "isAccessibleForFree": "YesOffline",
         "publishingPrinciples": "http://www.era.rothamsted.ac.uk/Other#SEC18",
-        "actionableFeedbackPolicy": "To study the effects of different amounts of lime (and thus soil pH), P and K on the yields of a sequence of arable crops.",
-        "correctionsPolicy": "To study the effects of different amounts of lime (and thus soil pH), P and K on the yields of a sequence of arable crops.",
+        "actionableFeedbackPolicy": "To study the effects of different amounts of lime (and thus soil pH), P and K on the yields of a sequence of arable crops. Mg, Mn and S treatments were also applied.",
+        "correctionsPolicy": "To study the effects of different amounts of lime (and thus soil pH), P and K on the yields of a sequence of arable crops. Mg, Mn and S treatments were also applied.",
         "unnamedSourcesPolicy": null
     },
     "license": {
@@ -30,9 +30,9 @@
     "citation": [
         {
             "type": "creativeWork",
-            "identifier": "http://www.era.rothamsted.ac.uk/Other/liming",
-            "sameAs": "http://www.era.rothamsted.ac.uk/Other/liming",
-            "citation": "Long-term Liming Experiments at Rothamsted and Woburn",
+            "identifier": "http://www.era.rothamsted.ac.uk/WCS10",
+            "sameAs": "http://www.era.rothamsted.ac.uk/WCS10",
+            "citation": "Woburn long-term liming experiment",
             "inLanguage": "English",
             "relationType": "isCitedBy"
         },
@@ -57,6 +57,22 @@
             "identifier": "https://doi.org/10.1016/j.eja.2019.02.016",
             "sameAs": "https://doi.org/10.1016/j.eja.2019.02.016",
             "citation": "Holland et al 2019",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/wcs10-Plans",
+            "sameAs": "https://doi.org/10.23637/wcs10-Plans",
+            "citation": "Woburn long-term liming experiment plans 1962-1996",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/wcs10-Treatments-01",
+            "sameAs": "https://doi.org/10.23637/wcs10-Treatments-01",
+            "citation": "Woburn long-term liming experiment lime and fertilizer treatments 1962-1996",
             "inLanguage": "English",
             "relationType": "isCitedBy"
         }
