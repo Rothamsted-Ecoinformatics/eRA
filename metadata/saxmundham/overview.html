@@ -23,10 +23,65 @@ zoom: 15 // starting zoom
 });
 
 var marker = new mapboxgl.Marker()
-.setLngLat([1.466 , 52.221])
+.setLngLat([1.4668572, 52.2220751])
 .setPopup(new mapboxgl.Popup().setHTML("<b>Saxmundham</b>")) // add popup
 .addTo(map);
 marker.togglePopup();
+
+map.on('load', function () {
+	map.addSource('saxmundham', {
+		'type': 'geojson',
+		'data': {
+		'type': 'Feature',
+		'geometry': {
+		'type': 'Polygon',
+		'coordinates':  [
+		    [
+		        [
+		          1.4656448,
+		          52.2227061
+		        ],
+		        [
+		          1.4656019,
+		          52.2226995
+		        ],
+		        [
+		          1.4649475,
+		          52.2206883
+		        ],
+		        [
+		          1.4671147,
+		          52.2203597
+		        ],
+		        [
+		          1.4675975,
+		          52.2220028
+		        ],
+		        [
+		          1.4656448,
+		          52.2227061
+		        ]
+		      ]
+		    ]
+	}
+	}
+	});
+	map.addLayer({
+	'id': 'saxmundham',
+	'type': 'line',
+	'source': 'saxmundham',
+	'layout': {
+	'line-join': 'round',
+	'line-cap': 'round'
+	},
+	'paint': {
+	'line-color': '#ff9933',
+	'line-width': 3
+	}
+	});
+});
+
+
 </script>
 		
 	</div>
