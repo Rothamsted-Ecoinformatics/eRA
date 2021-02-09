@@ -3,26 +3,405 @@
 
 <div class="row p-3">
 	<div class="col-6">
+	
+
 		<p>
 		Rothamsted Research is a world-leading, non-profit research centre that focuses on strategic agricultural science to the benefit of farmers and society worldwide. </p>
 		<P>It was founded in Harpenden, south-east England, in 1843 by Sir John Bennet Lawes. Between 1843 and 1856, Lawes and Sir Henry Gilbert established several long-term field experiments. Some failed or were discontinued because of poor soil structure and/or crop diseases. When Lawes died in 1900, the remaining experiments continued more or less as originally planned and are now known as the Classical Experiments. They are the oldest, continuous agronomic experiments in the world and therefore rightfully and uniquely famous. We carefully make management changes every 5-10 years to ensure that these experiments remain relevant. By asking new questions and applying new methods we gain novel insights.  </p>
 		<p>There are several other long-term experiments at Rothamsted (Harpenden), and also at two other sites, Woburn (in Bedfordshire) and Saxmundham (in Suffolk) on contrasting soil types.  We make the data and samples collected from the Classical and other long-term experiments available to researchers worldwide. </p>
 	</div>
 	<div class="col-6">
-		<div id="mapid" style="width: 500px; height: 400px;"></div>
-		<script>
-var mymap = L.map('mapid').setView([51.8063927 , -0.3761851], 14);
+	
+	<div id="mapid" style="width: 500px; height: 400px;"></div>                  
+            <script>
+            mapboxgl.accessToken = 'pk.eyJ1IjoiZXJhZGV2bmF0aCIsImEiOiJja2twZHN4MWYwYnVoMm9zMTZjeW9mMDF2In0.f-XLtnBSQXAFI1XBruy3uQ';
+            var map = new mapboxgl.Map({
+            container: 'mapid', // container id
+            //style: 'mapbox://styles/mapbox/streets-v11', // style URL
+            style: 'mapbox://styles/mapbox/satellite-v9',  // style statellite
+            center: [ -0.3749943, 51.8089862], // starting position [lng, lat]
+            zoom: 12.5 // starting zoom
+            });
 
-L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-    maxZoom: 18,
-    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
-    '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-    'Imagery � <a href="https://www.mapbox.com/">Mapbox</a>',
-    id: 'mapbox.streets'
-}).addTo(mymap);
-L.marker([51.8063927 , -0.3761851]).addTo(mymap)
-.bindPopup("<b>Rothamsted Experimental Station</b><br />").openPopup();
+            var marker = new mapboxgl.Marker()
+            .setLngLat([ -0.3571844, 51.8102068])
+            .setPopup(new mapboxgl.Popup().setHTML("<b>Rothamsted</b>")) // add popup
+            .addTo(map);
+            marker.togglePopup();
+
+
+
+map.on('load', function () {
+	map.addSource('rothamsted', {
+		'type': 'geojson',
+		'data': {
+		'type': 'Feature',
+		'geometry': {
+		'type': 'Polygon',
+		'coordinates': [
+		    [
+		        [
+		          -0.3544164,
+		          51.809968
+		        ],
+		        [
+		          -0.3564763,
+		          51.810167
+		        ],
+		        [
+		          -0.3564334,
+		          51.8108834
+		        ],
+		        [
+		          -0.3603601,
+		          51.8102864
+		        ],
+		        [
+		          -0.3619909,
+		          51.8104721
+		        ],
+		        [
+		          -0.3626347,
+		          51.8109762
+		        ],
+		        [
+		          -0.3663683,
+		          51.810963
+		        ],
+		        [
+		          -0.3681922,
+		          51.8130192
+		        ],
+		        [
+		          -0.3691792,
+		          51.8131121
+		        ],
+		        [
+		          -0.3705311,
+		          51.8125151
+		        ],
+		        [
+		          -0.3712177,
+		          51.8132182
+		        ],
+		        [
+		          -0.3713894,
+		          51.8137355
+		        ],
+		        [
+		          -0.3715181,
+		          51.8140672
+		        ],
+		        [
+		          -0.3714752,
+		          51.814558
+		        ],
+		        [
+		          -0.3707671,
+		          51.8147968
+		        ],
+		        [
+		          -0.3728271,
+		          51.816561
+		        ],
+		        [
+		          -0.37184,
+		          51.8174498
+		        ],
+		        [
+		          -0.3731704,
+		          51.8182721
+		        ],
+		        [
+		          -0.3747582,
+		          51.8172773
+		        ],
+		        [
+		          -0.3761744,
+		          51.8167202
+		        ],
+		        [
+		          -0.3774405,
+		          51.816959
+		        ],
+		        [
+		          -0.3750372,
+		          51.8179936
+		        ],
+		        [
+		          -0.3755736,
+		          51.8188425
+		        ],
+		        [
+		          -0.376668,
+		          51.8186037
+		        ],
+		        [
+		          -0.3777194,
+		          51.818418
+		        ],
+		        [
+		          -0.3782129,
+		          51.8175559
+		        ],
+		        [
+		          -0.3811312,
+		          51.817463
+		        ],
+		        [
+		          -0.382998,
+		          51.816508
+		        ],
+		        [
+		          -0.3838134,
+		          51.815858
+		        ],
+		        [
+		          -0.3825474,
+		          51.8151682
+		        ],
+		        [
+		          -0.3828049,
+		          51.8140009
+		        ],
+		        [
+		          -0.3825045,
+		          51.8138019
+		        ],
+		        [
+		          -0.3845644,
+		          51.8113344
+		        ],
+		        [
+		          -0.385251,
+		          51.8085882
+		        ],
+		        [
+		          -0.388062,
+		          51.8078453
+		        ],
+		        [
+		          -0.3887057,
+		          51.8089995
+		        ],
+		        [
+		          -0.3902078,
+		          51.8091587
+		        ],
+		        [
+		          -0.3917098,
+		          51.8088934
+		        ],
+		        [
+		          -0.393362,
+		          51.808628
+		        ],
+		        [
+		          -0.3941345,
+		          51.8088005
+		        ],
+		        [
+		          -0.3958082,
+		          51.8084157
+		        ],
+		        [
+		          -0.3959155,
+		          51.8082831
+		        ],
+		        [
+		          -0.396924,
+		          51.8074605
+		        ],
+		        [
+		          -0.3978896,
+		          51.8077258
+		        ],
+		        [
+		          -0.3992844,
+		          51.8068635
+		        ],
+		        [
+		          -0.3993273,
+		          51.8066379
+		        ],
+		        [
+		          -0.4009151,
+		          51.8063991
+		        ],
+		        [
+		          -0.3990698,
+		          51.8037985
+		        ],
+		        [
+		          -0.3979969,
+		          51.8025115
+		        ],
+		        [
+		          -0.3970957,
+		          51.8028167
+		        ],
+		        [
+		          -0.3954005,
+		          51.8006936
+		        ],
+		        [
+		          -0.3922462,
+		          51.8021267
+		        ],
+		        [
+		          -0.3881907,
+		          51.8026309
+		        ],
+		        [
+		          -0.3869677,
+		          51.8027636
+		        ],
+		        [
+		          -0.3827834,
+		          51.8024584
+		        ],
+		        [
+		          -0.380702,
+		          51.8020205
+		        ],
+		        [
+		          -0.3773546,
+		          51.8029494
+		        ],
+		        [
+		          -0.3758097,
+		          51.803082
+		        ],
+		        [
+		          -0.3744578,
+		          51.8031351
+		        ],
+		        [
+		          -0.3723764,
+		          51.8027105
+		        ],
+		        [
+		          -0.3711104,
+		          51.8022992
+		        ],
+		        [
+		          -0.369823,
+		          51.8021532
+		        ],
+		        [
+		          -0.3679776,
+		          51.8018215
+		        ],
+		        [
+		          -0.3668189,
+		          51.8012642
+		        ],
+		        [
+		          -0.3655314,
+		          51.8007865
+		        ],
+		        [
+		          -0.3640938,
+		          51.8006273
+		        ],
+		        [
+		          -0.3628492,
+		          51.80076
+		        ],
+		        [
+		          -0.3613901,
+		          51.8013571
+		        ],
+		        [
+		          -0.3599739,
+		          51.8018215
+		        ],
+		        [
+		          -0.3599739,
+		          51.8020205
+		        ],
+		        [
+		          -0.3598666,
+		          51.8022992
+		        ],
+		        [
+		          -0.3599739,
+		          51.802538
+		        ],
+		        [
+		          -0.3595877,
+		          51.8029494
+		        ],
+		        [
+		          -0.3613901,
+		          51.8036924
+		        ],
+		        [
+		          -0.3608966,
+		          51.8044222
+		        ],
+		        [
+		          -0.3596306,
+		          51.8043027
+		        ],
+		        [
+		          -0.3589439,
+		          51.8048202
+		        ],
+		        [
+		          -0.357399,
+		          51.8045018
+		        ],
+		        [
+		          -0.3559828,
+		          51.8071288
+		        ],
+		        [
+		          -0.3554034,
+		          51.807487
+		        ],
+		        [
+		          -0.3552961,
+		          51.8081902
+		        ],
+		        [
+		          -0.3548455,
+		          51.8088005
+		        ],
+		        [
+		          -0.3546095,
+		          51.8090526
+		        ],
+		        [
+		          -0.3543735,
+		          51.8099945
+		        ],
+		        [
+		          -0.3544164,
+		          51.809968
+		        ]
+		      ]
+		    ]
+	}
+	}
+	});
+	map.addLayer({
+	'id': 'rothamsted',
+	'type': 'line',
+	'source': 'rothamsted',
+	'layout': {
+	'line-join': 'round',
+	'line-cap': 'round'
+	},
+	'paint': {
+	'line-color': '#ff9933',
+	'line-width': 3
+	}
+	});
+});
+
 </script>
+	
 	</div>
 
 </div>
