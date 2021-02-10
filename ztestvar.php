@@ -40,7 +40,10 @@ include 'includes/header.html'; // all the menus at the top
 <?php 
 
 
-phpinfo();
+
+
+
+testvar();
 
 
 

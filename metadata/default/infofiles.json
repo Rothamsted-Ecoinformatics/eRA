@@ -38,6 +38,27 @@
 		"isReviewed": 0
 	},	{
 		"Credit": "eRA curators",
+		"FileName": "howtoaccessdata",
+		"Caption": "How to access data",
+		"Type": "html",
+		"exptID": "default",
+		"isReviewed": 0
+	},{
+		"Credit": "eRA curators",
+		"FileName": "conditions",
+		"Caption": "Conditions of Use",
+		"Type": "html",
+		"exptID": "default",
+		"isReviewed": 0
+	},{
+		"Credit": "eRA curators",
+		"FileName": "howtocredit",
+		"Caption": "How to credit materials",
+		"Type": "html",
+		"exptID": "default",
+		"isReviewed": 0
+	},{
+		"Credit": "eRA curators",
 		"FileName": "dataQuality",
 		"Caption": "Data Quality in e-RA",
 		"Type": "php",

@@ -36,16 +36,16 @@
 		<span class="navbar-toggler-icon"></span>
 	</button>
 	<a class="navbar-brand" href="index.php"> <img
-		src="images/logos/eRALogoSmall.gif" class="rounded"
+		src="images/logos/eRALogoSmall.gif" 
 		alt="The
 		        electronic Rothamsted Archive"> The
 		electronic Rothamsted Archive
 	</a>
-	<div class="collapse navbar-collapse" id="navbarera">
+	<div class="collapse navbar-collapse mr-0" id="navbarera">
 		<ul class="nav navbar-nav">
 
 			<!-- *******************   SITES  *********************   -->
-			<li class="dropdown menu-large nav-item"><a href="#"
+			<li class="dropdown menu-large nav-item mx-3 "><a href="#"
 				class="dropdown-toggle nav-link" data-toggle="dropdown">SITES </a>
 				<ul class="dropdown-menu megamenu">
 					<div class="row">
@@ -79,7 +79,7 @@
 				</ul></li>
 
 			<!-- *******************   EXPERIMENTS  *********************   -->
-			<li class="dropdown menu-large nav-item"><a href="#"
+			<li class="dropdown menu-large nav-item mx-3"><a href="#"
 				class="dropdown-toggle nav-link" data-toggle="dropdown">EXPERIMENTS
 			</a>
 				<ul class="dropdown-menu megamenu">
@@ -133,16 +133,16 @@
 
 			<!-- *******************   DATA  *********************   -->
 
-			<li class="dropdown menu-large nav-item"><a href="#"
+			<li class="dropdown menu-large nav-item mx-3"><a href="#"
 				class="dropdown-toggle nav-link" data-toggle="dropdown">DATA </a>
 				<ul class="dropdown-menu megamenu">
 					<div class="row">
 						<li class="col-md-3 dropdown-item">
 							<ul>
 								<li class="dropdown-header">Documentation</li>
-								<li><a href="howtoaccessdata.php">How to Access
+								<li><a href="info.php?FileName=howtoaccessdata">How to Access
 										Datasets</a></li>
-								<li><a href="howtocredit.php">How to Credit Datasets</a></li>
+								<li><a href="info.php?FileName=howtocredit">How to Credit Datasets</a></li>
 								<li><a href="conditions.php">Conditions for Using
 										Datasets</a></li>
 								<li><a href="info.php?FileName=dataQuality">Data
@@ -185,7 +185,7 @@
 				</ul></li>
 
 			<!-- *******************   WEATHER DATA  *********************   -->
-			<li class="dropdown menu-large nav-item"><a href="#"
+			<li class="dropdown menu-large nav-item mx-3"><a href="#"
 				class="dropdown-toggle nav-link" data-toggle="dropdown">WEATHER
 					DATA </a>
 				<ul class="dropdown-menu megamenu">
@@ -218,7 +218,7 @@
 				</ul></li>
 
 			<!-- *******************   ABOUT  *********************   -->
-			<li class="dropdown menu-large nav-item"><a href="#"
+			<li class="dropdown menu-large nav-item mx-3"><a href="#"
 				class="dropdown-toggle nav-link" data-toggle="dropdown">ABOUT </a>
 				<ul class="dropdown-menu megamenu">
 					<div class="row">
@@ -242,30 +242,25 @@
 
 							</ul>
 						</li>
-					</div>
-				</ul></li>
-			<!-- *******************   DEV   *********************   -->
-			<li class="dropdown menu-large nav-item"><a href="#"
-				class="dropdown-toggle nav-link" data-toggle="dropdown">DEV</a>
-				<ul class="dropdown-menu megamenu">
-					<div class="row">
-						<li class="col-md-12 dropdown-item">
+						<li class="col-md-4 dropdown-item">
 							<ul>
-								<li><a
+								<li>
+								
+								<li class="dropdown-header"><a href="about.php">Curation</a></li>
+								<li>
+								<a
 									href="http://local-info.rothamsted.ac.uk/eRA/era2018-doxy/html/index.html">Documentation</a></li>
-								<li><a href="zdevHTK.html">devdevHTK.html: Bootstrap 4
-										Kitchen Sink</a></li>
-								<li><a href="zdevTemplate.html">zdevTemplate.html: an
-										early stage templage</a></li>
-								<li><a href="zdevBlank.php">devBlank: Blank template
-										page (generic)</a>
+								
+								<li><a href="zphpinfo.php">phpinfo</a>
+<li><a href="ztestuser.php">List registered User</a>
+<li><a href="ztestvar.php">TestVar</a>
 								<li><a href="zreset.php">reset session</a></li>
 								<li><a href="history.php">Session History</a></li>
 							</ul>
 						</li>
-
 					</div>
-				</ul>
+				</ul></li>
+			
 		</ul>
 	</div>
 </nav>

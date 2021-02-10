@@ -265,7 +265,7 @@ $pageSettings = array(
         "exp-ID" => 13,
         "Experiment" => "Rothamsted Research Station",
         "ExptCode" => "rothamsted",
-        "KeyRef" => " - ",
+        "KeyRef" => "KeyRefRothFarm",
         "URLCode" => "",
         "prevFolder" => ""
     ),
@@ -289,7 +289,7 @@ $pageSettings = array(
         "exp-ID" => 21,
         "Experiment" => "Rothamsted Ley Arable",
         "ExptCode" => "rrn",
-        "KeyRef" => " - ",
+        "KeyRef" => "KeyRefRLA",
         "URLCode" => "RRN",
         "prevFolder" => "rrn"
     ),
