@@ -26,6 +26,9 @@
 	</div>
 	<div class="row mx-3">
 		<div class="col-sm-4">
+			<?php
+			if ($registeredUser != "Login/Register") {echo  $strUserArea;}?>
+				
 			<div class="card card-summary">
 				<div class="card-body">
 				 
@@ -57,9 +60,7 @@
 			</div>
 			
 				 
-			<?php
-			if ($registeredUser != "Login/Register") {echo  $strUserArea;}?>
-				
+		
 
 			
 
@@ -454,7 +455,7 @@ if ($hasDatasets == 1) {
 						href="<?php echo $zipfile; ?>">Agree and Download</a>
 					<button type="submit" class="btn btn-warning" name="dlform">Test
 						Download</button>
-			
+			</form>
 			</div>
 		</div>
 	</div>

@@ -285,56 +285,76 @@ if ($hasDataset) {
      * 1: make a SQL that writed in the usermanagment table that the user is downloading that dataset at that time
      */
     $strUserArea = "<div class=\"card card-summary \">
-				<div class=\"card-body\"><h3>My eRA Downloads</h3><ul>";
+				<div class=\"card-body\">Your Latest Downloads<ul>";
+    $today = date('Y/m/d');
+    $link = LogMangaAd();
+    if ($registeredUser != "Login/Register") {
+        $positionValue = $_COOKIE['email'] ;
+        $sqlLast = "SELECT `dl-id`, `position`, DOI, `dl-date`, `result` FROM eRAmanga.eRAdownloads where DOI LIKE '%" . $DOI . "%' and  `position` LIKE '%".$_COOKIE['email']."%' order by `dl-date` DESC LIMIT 1";
+        
+        
+        if ($results = mysqli_query($link, $sqlLast))
+        {
+            while ($row = mysqli_fetch_assoc($results)   ) {
+                $strUserArea .= "<li>Last Downloaded : ".$row['dl-date']. "</li>";
+            }
+            
+        }
+        if (count($results) == 0) {
+            $strUserArea .= "<li>Never Downloaded</li>";
+        }
+    }
+    else {
+        $positionValue = 'Anonymous';
+    }
+    
+    
     if (isset($_REQUEST['dlform'])) {
         
-        $strUserArea .= "received values REQUEST <br />";
-        $today = date('Y/m/d');
-        $link = LogMangaAd();
-        $sqlDownload = "INSERT INTO eRAdownloads (`position`, DOI, `dl-date`) VALUES(' " . $_COOKIE['email'] . "', '" . $DOI . "', '" . $today . "')";
         
-        $strUserArea .= $sqlDownload."<br />";
-        if ($results = mysqli_query($link, $sqlDownload))
-        {
-            $strUserArea .= "Inserted 1 row <br /> trying to save file";
-        }
-        mysqli_close($link);
+       
+            
+        
                //Check the file exists or not
+        $strMeta = "";
          if(file_exists($zipfile)) {
              
-             $strUserArea .= '<script>window.open(\''.$zipfile.'\');</script>';
+             $sqlDownload = "INSERT INTO eRAdownloads (`position`, DOI, `dl-date`) VALUES(' " . $positionValue. "', '" . $DOI . "', '" . $today . "')";
+             
+             
+             if ($results = mysqli_query($link, $sqlDownload))
+             {
+       
+                 $strUserArea .= "<li>Downloaded today</li>";
+             }
+             
+             $strMeta .= " <meta
+             http-equiv=\"refresh\"
+                 content=\"1; URL=/eRA/era2018-new/".$zipfile."\">";
+             
+         }
+         else 
+         {
+             $sqlError = "INSERT INTO eRAdownloads (`position`, DOI, `dl-date`,`result`) VALUES(' " . $positionValue . "', '" . $DOI . "', '" . $today . "', 'NO FILE')";
+             if ($results = mysqli_query($link, $sqlError))
+             {
+                 
+                 $strUserArea .= "<li>File Not Found - Team notified </li>";
+             }
          }
             
-//             //Define header information
-//             header('Content-Description: File Transfer');
-//             header('Content-Type: application/octet-stream');
-//             header("Cache-Control: no-cache, must-revalidate");
-//             header("Expires: 0");
-//             header('Content-Disposition: attachment; filename="'.basename($zipfile).'"');
-//             header('Content-Length: ' . filesize($zipfile));
-//             header('Pragma: public');
-            
-//             //Clear system output buffer
-//             flush();
-            
-//             //Read the size of the file
-//             readfile($zipfile);
-            
-//             //Terminate from the script
-//             die();
-//         }
     }
     $strUserArea .= "</ul></div></div>";
-    
+    mysqli_close($link);
 } else {}
 
 ?>
 
-?>
 <!DOCTYPE html>
 <html class="no-js" lang="en">
     <head>  
         <?php
+        echo $strMeta; 
         include 'includes/meta.html'; // that is the <meta and link tags> superseeds head.html
  // that is the <head tags>
  
@@ -365,6 +385,7 @@ if ($hasDataset) {
     ?>
      
     	</div>
+ 
     </body>
     
 </html>
