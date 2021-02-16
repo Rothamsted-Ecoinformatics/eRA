@@ -227,6 +227,20 @@ function LogMangaGuest()
         return $link;
 }
 
+
+function getIp() {
+    $ip = $_SERVER['REMOTE_ADDR'];
+    
+    if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
+        $ip = $_SERVER['HTTP_CLIENT_IP'];
+    } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+        $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+    }
+    
+    return $ip;
+}
+
+
 function nexplode($string)
 {
     // takes a\ string and returns and array that has all the parts or the string in the right order.

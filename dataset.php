@@ -88,29 +88,22 @@ $relDocuments = 'List of Related Documents';
 
 if ($hasDataset) {
     $datasetFolder = $dsinfo["shortName"];
-    $dstype = $dsinfo["dstype"];
-    $modal = "#modalClickTrough" . $dstype;
+    
     $DOI = $dsinfo["identifier"];
+    //this decide what modal we give depending on the type of dataset: the OA at the moment, does not record the download. 
+    
+    $dstype = $dsinfo["dstype"];
+    
+    $modal = "#modalClickTrough" . $dstype;
     $butDownload = "<button type=\"button\" class=\"btn btn-primary my-3\" data-toggle=\"modal\"
     data-target=\"" . $modal . "\">Download</button>";
     
     $butLogin = "<button type=\"button\" class=\"btn btn-info my-3\" data-toggle=\"modal\"
         data-target=\"#modalLogin\">" . $registeredUser . "</button>";
-    $butLoginprev = "<a class=\"btn btn-info mx-1\"
-				href=\"register.php\"> <i class=\"fa fa-user\"></i> Login to download dataset
-			</a>";
     
-    if ($dstype == 'OA') {
-        $strDownload = $butDownload;
-    } else {
-        if ($loggedIn == 'yes' && $email != 'delete') {
-            
-            $strDownload = $butDownload;
-        } else {
-            
-            $strDownload = $butLogin;
-        }
-    }
+ 
+    
+  
     
     if ($dsinfo["datePublished"]) {
         $datePublication = $dsinfo["datePublished"];
@@ -177,8 +170,13 @@ if ($hasDataset) {
     
     $year = "" . $dsinfo["publication_year"];
     
+    
+    
+    
     if (is_array($dsinfo['distribution'])) {
         $zipfile = $exptFolder . "/" . $datasetFolder . "/" . $dataset . ".zip";
+        
+        if(file_exists($zipfile)) {
         $distribution = "<ul>";
         foreach ($dsinfo['distribution'] as $filedownloads) {
             
@@ -189,6 +187,11 @@ if ($hasDataset) {
             $distribution .= "</li>";
         }
         $distribution .= "</ul>";
+        }
+        else {
+            $strDownload = "";
+            $distribution = "In preparation";
+        }
     }
     
     if (is_array($dsinfo['image'])) {
@@ -284,8 +287,7 @@ if ($hasDataset) {
      * On donload:
      * 1: make a SQL that writed in the usermanagment table that the user is downloading that dataset at that time
      */
-    $strUserArea = "<div class=\"card card-summary \">
-				<div class=\"card-body\">Your Latest Downloads<ul>";
+    $strUserArea = "";
     $today = date('Y/m/d');
     $link = LogMangaAd();
     if ($registeredUser != "Login/Register") {
@@ -296,7 +298,7 @@ if ($hasDataset) {
         if ($results = mysqli_query($link, $sqlLast))
         {
             while ($row = mysqli_fetch_assoc($results)   ) {
-                $strUserArea .= "<li>Last Downloaded : ".$row['dl-date']. "</li>";
+                $strUserArea .= "<li class=\"list-group-item text-warning \"><b>Last Downloaded : </b>".$row['dl-date']. "</li>";
             }
             
         }
@@ -305,7 +307,8 @@ if ($hasDataset) {
         }
     }
     else {
-        $positionValue = 'Anonymous';
+        $strUserArea = "";
+        $positionValue = getIp();
     }
     
     
@@ -325,7 +328,7 @@ if ($hasDataset) {
              if ($results = mysqli_query($link, $sqlDownload))
              {
        
-                 $strUserArea .= "<li>Downloaded today</li>";
+                 $strUserArea .= "<li class=\"list-group-item text-info \">Downloaded today</li>";
              }
              
              $strMeta .= " <meta
@@ -344,8 +347,21 @@ if ($hasDataset) {
          }
             
     }
-    $strUserArea .= "</ul></div></div>";
+    $strUserArea .= "";
     mysqli_close($link);
+    
+    if ($dstype == 'OA') {
+        //$strUserArea = "";
+        $strDownload = $butDownload;
+    } else {
+        if ($loggedIn == 'yes' && $email != 'delete') {
+            
+            $strDownload = $butDownload;
+        } else {
+            
+            $strDownload = $butLogin;
+        }
+    }
 } else {}
 
 ?>

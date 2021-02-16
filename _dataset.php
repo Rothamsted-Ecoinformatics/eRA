@@ -26,14 +26,16 @@
 	</div>
 	<div class="row mx-3">
 		<div class="col-sm-4">
-			<?php
-			if ($registeredUser != "Login/Register") {echo  $strUserArea;}?>
+			
 				
 			<div class="card card-summary">
 				<div class="card-body">
 				 
 					<?php echo    $strDownload;?>
+					
 					<ul class="list-group list-group-flush ">
+					<?php
+			if ($registeredUser != "Login/Register") {echo  $strUserArea;}?>
 						<li class="list-group-item"><b>DOI: </b><?php echo $dsinfo['identifier'];?>
 						</li>
 						<li class="list-group-item"><b>Experiment: </b> <a
@@ -312,8 +314,8 @@ if ($hasDatasets == 1) {
 	<div class="modal-dialog modal-dialog-centered" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLongTitle">OA End User
-					Agreement</h5>
+				<h5 class="modal-title" id="exampleModalLongTitle">End User
+					Agreement (Open Access)</h5>
 				<button type="button" class="close" data-dismiss="modal"
 					aria-label="Close">
 					<span aria-hidden="true">&times;</span>
@@ -345,10 +347,18 @@ if ($hasDatasets == 1) {
 
 			</div>
 			<div class="modal-footer">
+				<form method="POST">
+					<button type="button" class="btn btn-secondary"
+						data-dismiss="modal">Close</button>
+					<button type="submit" class="btn btn-primary" name="dlform"
+						value="isDownload">Agree and Download</button>
+			
+			</div>
+			<!-- div class="modal-footer">
 				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 				<a type="button" download class="btn btn-primary"
-					href="<?php echo $zipfile; ?>">Agree and Download</a>
-			</div>
+					href="<?php // echo $zipfile; ?>">Agree and Download</a>
+			</div> -->
 		</div>
 	</div>
 </div>
@@ -361,7 +371,7 @@ if ($hasDatasets == 1) {
 	<div class="modal-dialog modal-dialog-centered" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLongTitle">Other End User
+				<h5 class="modal-title" id="exampleModalLongTitle">End User
 					Agreement</h5>
 				<button type="button" class="close" data-dismiss="modal"
 					aria-label="Close">
@@ -394,13 +404,10 @@ if ($hasDatasets == 1) {
 			</div>
 			<div class="modal-footer">
 				<form method="POST">
-
 					<button type="button" class="btn btn-secondary"
 						data-dismiss="modal">Close</button>
-					<a type="button" download class="btn btn-primary"
-						href="<?php echo $zipfile; ?>">Agree and Download</a>
-					<button type="submit" class="btn btn-warning" name="dlform"
-						value="isDownload">Test Download</button>
+					<button type="submit" class="btn btn-primary" name="dlform"
+						value="isDownload">Agree and Download</button>
 			
 			</div>
 		</div>
@@ -447,15 +454,12 @@ if ($hasDatasets == 1) {
 
 			</div>
 			<div class="modal-footer">
-				<form>
-					<input type="hidden" name="isDownload" value="isDownload">
+				<form method="POST">
 					<button type="button" class="btn btn-secondary"
 						data-dismiss="modal">Close</button>
-					<a type="button" download class="btn btn-primary"
-						href="<?php echo $zipfile; ?>">Agree and Download</a>
-					<button type="submit" class="btn btn-warning" name="dlform">Test
-						Download</button>
-			</form>
+					<button type="submit" class="btn btn-primary" name="dlform"
+						value="isDownload">Agree and Download</button>
+			
 			</div>
 		</div>
 	</div>
