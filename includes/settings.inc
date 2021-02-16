@@ -105,7 +105,7 @@ $pageSettings = array(
         "exp-ID" => 24,
         "Experiment" => "Brooms Barn Met Station",
         "ExptCode" => "bms",
-        "KeyRef" => " - ",
+        "KeyRef" => "KeyRefBMS",
         "URLCode" => "",
         "prevFolder" => ""
     ),
@@ -113,7 +113,7 @@ $pageSettings = array(
         "exp-ID" => 7,
         "Experiment" => "Broom's Barn",
         "ExptCode" => "broomsbarn",
-        "KeyRef" => " - ",
+        "KeyRef" => "KeyRefBB",
         "URLCode" => "",
         "prevFolder" => ""
     ),
@@ -136,7 +136,7 @@ $pageSettings = array(
     array(
         "exp-ID" => 40,
         "Experiment" => "Acid strip experiment",
-        "ExptCode" => "KeyRefAcidStrip",
+        "ExptCode" => "rrs9",
         "KeyRef" => "KeyRefAcidStrip",
         "URLCode" => "",
         "prevFolder" => ""
@@ -297,7 +297,7 @@ $pageSettings = array(
         "exp-ID" => 19,
         "Experiment" => "Rothamsted Ley Arable: Highfield",
         "ExptCode" => "rrn1",
-        "KeyRef" => " - ",
+        "KeyRef" => "KeyRefRLA",
         "URLCode" => "RRN1",
         "prevFolder" => "rrn1"
     ),
@@ -305,7 +305,7 @@ $pageSettings = array(
         "exp-ID" => 20,
         "Experiment" => "Rothamsted Ley Arable: Fosters",
         "ExptCode" => "rrn2",
-        "KeyRef" => " - ",
+        "KeyRef" => "KeyRefRLA",
         "URLCode" => "RRN2",
         "prevFolder" => "rrn2"
     ),
@@ -353,7 +353,7 @@ $pageSettings = array(
         "exp-ID" => 14,
         "Experiment" => "Saxmundham Weather Station",
         "ExptCode" => "sms",
-        "KeyRef" => " - ",
+        "KeyRef" => "KeyRefSMS",
         "URLCode" => "",
         "prevFolder" => ""
     ),
@@ -417,7 +417,7 @@ $pageSettings = array(
         "exp-ID" => 16,
         "Experiment" => "Woburn Weather Station",
         "ExptCode" => "wms",
-        "KeyRef" => " - ",
+        "KeyRef" => "KeyRefWMS",
         "URLCode" => "WoburnFarm",
         "prevFolder" => "Woburn"
     ),
@@ -429,11 +429,20 @@ $pageSettings = array(
         "URLCode" => "",
         "prevFolder" => ""
     ),
+    
+    array(
+        "exp-ID" => 18,
+        "Experiment" => "Woburn Intensive Cereals",
+        "ExptCode" => "wrn13",
+        "KeyRef" => "KeyRefIntCereals",
+        "URLCode" => "",
+        "prevFolder" => ""
+    ),
     array(
         "exp-ID" => 17,
         "Experiment" => "Woburn Ley Arable",
         "ExptCode" => "wrn3",
-        "KeyRef" => " - ",
+        "KeyRef" => "KeyRefWLA",
         "URLCode" => "WoburnLA",
         "prevFolder" => "woburnLA"
     ),

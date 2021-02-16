@@ -113,7 +113,7 @@ $hasdocs = file_exists($doclist);
 echo title_case($experiment['administrative']['name']);
 ?></h1>
 			<div class="row">
-				<div class="col-12 py-3">
+				<div class="col-12 pt-3">
 					<ul class="nav nav-tabs nav-fill text-body ">
 						<li class="nav-item"><a class="nav-link active show"
 							id="summary-tab" data-toggle="tab" href="#summary">Overview</a></li>
