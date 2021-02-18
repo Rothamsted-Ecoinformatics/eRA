@@ -195,7 +195,7 @@ $hasDocs = file_exists($fileDocs);
 
     if (isset($sub)) {
         $docpage = $exptFolder . '/' . $sub . '.html';
-        echo ('<hr>\n');
+        
 
         include $docpage;
     }

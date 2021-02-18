@@ -24,18 +24,19 @@
 		<h2 class="mx-3">Dataset:  <?php echo $dsinfo['name'];?></h1>
 	
 	</div>
-	<div class="row mx-3">
+	<div class="row mx-0 mb-3">
 		<div class="col-sm-4">
 			
 				
-			<div class="card card-summary">
+			<div class="card card-summary ">
 				<div class="card-body">
 				 
-					<?php echo    $strDownload;?>
+					<?php if(file_exists($zipfile)) { echo    $strDownload;}?>
 					
 					<ul class="list-group list-group-flush ">
 					<?php
 			if ($registeredUser != "Login/Register") {echo  $strUserArea;}?>
+						<li class="list-group-item"><b>Data access: </b><?php echo $dstypeStr;?></li>
 						<li class="list-group-item"><b>DOI: </b><?php echo $dsinfo['identifier'];?>
 						</li>
 						<li class="list-group-item"><b>Experiment: </b> <a

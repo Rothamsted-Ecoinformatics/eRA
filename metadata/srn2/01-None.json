@@ -1,0 +1,177 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Text",
+    "identifier": "10.23637/srn2-details1969-01",
+    "name": "Saxmundham Rotation II experimental details, 1969-1986",
+    "shortName": null,
+    "url": "http://www.era.rothamsted.ac.uk/metadata/srn2/srn2-details1969-01.pdf",
+    "description": [
+        {
+            "inLanguage": "en",
+            "descriptionType": "Abstract",
+            "description": "Experimental details of Saxmundham Rotation II experiment, including plans, fertilizer treatments, cropping, and soil properties, 1968-1986"
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Methods",
+            "description": "The experiment was started in 1899 to investigate the effects of various combinations of FYM and P fertilizer on arable crop yield in a  four course rotation. In 1969 the experiment was modified to investigate the effects of soil P and fresh fertilizer P on the yields of arable crops at a range of soil P values."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TableOfContents",
+            "description": "Page 1: Cover page\r\nPages 2-3: Experimental plan, P treatments and crop sequence, 1969-1986\r\nPages 4-5: Fertilizer N applications, 1969-1986\r\nPage 6: %SOC, soi pH and soil exchangeable K, 1968-1982"
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Provenance",
+            "description": "Prepared from experimental plans and Rothamsted Research Annual Reports"
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "publication_year": 2019,
+    "dateCreated": null,
+    "dateModified": null,
+    "datePublished": null,
+    "inLanguage": "en",
+    "version": "1",
+    "keywords": [
+        "arable farming",
+        "experimental design",
+        "fertilizer",
+        "long term experiments",
+        "phosphorous",
+        "nitrogen fertilizers",
+        "soil pH"
+    ],
+    "creator": [
+        {
+            "type": "Person",
+            "Name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "ProjectManager",
+            "name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "application/pdf",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License"
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": 1.467294,
+            "latitude": 52.221911
+        },
+        "name": "Harwood's Field"
+    },
+    "relatedIdentifier": [],
+    "funder": [
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/000J0300 - The Rothamsted Long - Term Experiments - National Capability",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F000J0300"
+        }
+    ],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Saxmundham Rotation II experimental details, 1969-1986",
+            "URL": "srn2-details1969-01",
+            "encodingFormat": "srn2-details1969-01",
+            "fileSize": "607 KB"
+        }
+    ],
+    "image": [],
+    "grade": 1,
+    "dstype": "OA"
+}

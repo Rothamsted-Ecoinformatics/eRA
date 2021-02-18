@@ -2,7 +2,7 @@
     "@context": "https://schema.org/",
     "@type": "Dataset",
     "identifier": "10.23637/rcs10-rltlyields-01",
-    "name": "Rothamsted long-term liming experiment crop yields 1962-1996",
+    "name": "Rothamsted long-term liming experiment crop yield 1962-1996",
     "shortName": "RLTLYIELDS",
     "url": "http://www.era.rothamsted.ac.uk/RCS10/RLTLYIELDS",
     "description": [

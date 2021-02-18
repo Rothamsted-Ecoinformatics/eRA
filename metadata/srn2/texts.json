@@ -1,0 +1,21 @@
+[
+    {
+        "md_id": 1316196262,
+        "title": "Saxmundham Rotation II experimental details, 1969-1986",
+        "URL": "http://www.era.rothamsted.ac.uk/metadata/srn2/srn2-details1969-01.pdf",
+        "identifier": "10.23637/srn2-details1969-01",
+        "identifier_type": "DOI",
+        "dataset_type": "Experiment details",
+        "extension": "pdf",
+        "description": "Experimental details of Saxmundham Rotation II experiment, including plans, fertilizer treatments, cropping, and soil properties, 1968-1986",
+        "fieldname": "Harwood's Field",
+        "experiment_name": "Saxmundham Rotation 2",
+        "experiment_code": "S/RN/2",
+        "grade": 1,
+        "dstype": "OA",
+        "publication_year": 2019,
+        "version": "01",
+        "shortName": 1316196262,
+        "UID": 1316196262
+    }
+]

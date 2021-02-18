@@ -93,12 +93,16 @@ if ($hasDataset) {
     //this decide what modal we give depending on the type of dataset: the OA at the moment, does not record the download. 
     
     $dstype = $dsinfo["dstype"];
+    $dstypeStr = "<a href=\"info.php?FileName=howtoaccessdata#OA\" \" target=\"out\">Open</a>";
+    if ($dsinfo["dstype"]!= 'OA') {
+        $dstypeStr = "<a href=\"info.php?FileName=howtoaccessdata#Other\" \" target=\"out\">Registration</a>";
+    }
     
     $modal = "#modalClickTrough" . $dstype;
-    $butDownload = "<button type=\"button\" class=\"btn btn-primary my-3\" data-toggle=\"modal\"
+    $butDownload = "<button type=\"button\" class=\"btn btn-primary my-1 mx-3\" data-toggle=\"modal\"
     data-target=\"" . $modal . "\">Download</button>";
     
-    $butLogin = "<button type=\"button\" class=\"btn btn-info my-3\" data-toggle=\"modal\"
+    $butLogin = "<button type=\"button\" class=\"btn btn-info my-1 mx-3 \" data-toggle=\"modal\"
         data-target=\"#modalLogin\">" . $registeredUser . "</button>";
     
  
@@ -350,6 +354,7 @@ if ($hasDataset) {
     $strUserArea .= "";
     mysqli_close($link);
     
+    if(file_exists($zipfile)) {
     if ($dstype == 'OA') {
         //$strUserArea = "";
         $strDownload = $butDownload;
@@ -362,6 +367,10 @@ if ($hasDataset) {
             $strDownload = $butLogin;
         }
     }
+    } else {
+        $strDownload = "";
+    }
+    
 } else {}
 
 ?>

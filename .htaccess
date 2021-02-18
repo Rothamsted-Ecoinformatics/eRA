@@ -64,10 +64,12 @@ RewriteCond %{REQUEST_FILENAME} !-d
 	RewriteRule ^station/([^/]+)/([^/]+)/([^/]+)$ station.php?expt=$1&ref=$3&sub=$2#document [L]
 	RewriteRule ^station/([^/]+)/([^/]+)$ station.php?expt=$1&sub=$2#document [L]
 	RewriteRule ^station/([^/]+)$ station.php?expt=$1 [L]
+	
+	RewriteRule ^info/([^/]+)/([^/]+)$ info.php?FileName=$1#$2 [L]
+	RewriteRule ^info/([^/]+)$ info.php?FileName=$1 [L]
 
 
-
- RewriteRule ^home - [L]
+RewriteRule ^home - [L]
 RewriteRule ^news - [L]
 RewriteRule ^metadata - [L]
 RewriteRule ^eradoc - [L]

@@ -18,11 +18,6 @@
         },
         {
             "inLanguage": "en",
-            "descriptionType": "TechnicalInfo",
-            "description": "option"
-        },
-        {
-            "inLanguage": "en",
             "descriptionType": "Provenance",
             "description": "This subset of data of this single species, <i>C. arvense</i>, are derived from the e-RA database dataset BKWEEDS_PLOT. This complete dataset consists of records of all species of weeds recorded in section 8."
         },
