@@ -14,7 +14,7 @@
         {
             "inLanguage": "en",
             "descriptionType": "Methods",
-            "description": "Data is derived from daily measurements taken at the site. Mean monthly data is determined from daily data using Genstat 19th Edition."
+            "description": "Data is derived from daily measurements taken at the site. Mean monthly data is determined from daily data using Excel."
         },
         {
             "inLanguage": "en",
@@ -70,26 +70,6 @@
             "givenName": "Sarah",
             "familyName": "Perryman",
             "sameAs": "https://orcid.org/0000-0002-0056-2754",
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
-                "addressLocality": "Harpenden",
-                "addressRegion": "Hertfordshire",
-                "postalCode": "AL5 2JQ",
-                "addressCountry": "United Kingdom"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Computational and Analytical Sciences, Rothamsted Research",
-                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
-            }
-        },
-        {
-            "type": "Person",
-            "Name": "Margaret Glendining",
-            "givenName": "Margaret",
-            "familyName": "Glendining",
-            "sameAs": "https://orcid.org/0000-0002-6466-4629",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
@@ -236,7 +216,7 @@
         },
         {
             "type": "Person",
-            "jobTitle": "RelatedPerson",
+            "jobTitle": "DataManager",
             "name": "Nathalie Castells-Brooke",
             "givenName": "Nathalie",
             "familyName": "Castells-Brooke",
@@ -252,6 +232,48 @@
             "affiliation": {
                 "type": "Organization",
                 "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectLeader",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectManager",
+            "name": "Andrew Macdonald",
+            "givenName": "Andrew",
+            "familyName": "Macdonald",
+            "sameAs": "https://orcid.org/0000-0002-1785-4892",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
         }
@@ -299,13 +321,28 @@
     "distribution": [
         {
             "type": "dataDownload",
-            "name": null,
-            "URL": null,
-            "encodingFormat": "",
-            "fileSize": "8 KB"
+            "name": "Rothamsted 30-year mean weather data 1961-1990",
+            "URL": "Rothamsted_30-year_mean_weather_data_1961-1990_XLXS.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "20 KB"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Rothamsted 30-year mean weather data 1961-1990",
+            "URL": "Rothamsted_30-year_mean_weather_data_1961-1990_CSV.csv",
+            "encodingFormat": "csv",
+            "fileSize": "2 KB"
         }
     ],
-    "image": [],
+    "image": [
+        {
+            "type": "imageObject",
+            "caption": "Summary of the data",
+            "URL": "Table_61-90_snip_750.png",
+            "encodingFormat": "png",
+            "fileSize": "12 KB"
+        }
+    ],
     "grade": 3,
     "dstype": "OA"
 }

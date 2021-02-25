@@ -14,7 +14,7 @@
         {
             "inLanguage": "en",
             "descriptionType": "Methods",
-            "description": "Daily measurements are taken at the site. Mean monthly data are determined from daily data using Genstat 19th Edition."
+            "description": "Daily measurements are taken at the site. Mean monthly data are determined from daily data using Excel."
         },
         {
             "inLanguage": "en",
@@ -317,6 +317,6 @@
             "fileSize": "67 KB"
         }
     ],
-    "grade": 1,
+    "grade": 3,
     "dstype": "OA"
 }

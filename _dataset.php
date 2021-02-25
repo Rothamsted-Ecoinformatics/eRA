@@ -14,7 +14,7 @@
  * @date 9/27/2018
  * @date 11/28/2019
  */
-
+$Parsedown = new Parsedown();
 ?>
 
 <div id="idExpt">
@@ -70,28 +70,25 @@
 		</div>
 		<div class="col-sm-8">
 			<h3>Summary</h3>
-			<p><?php echo $arrDescription['Abstract']; ?></p>
-					   <?php echo         $illustration; // if it is available ?>
+			<?php echo $Parsedown->text($arrDescription['Abstract']) ; 
+			 echo         $illustration; // if it is available 
 			
-		<?php
+		
 if (isset($arrDescription['Methods'])) {
     ?> 
 		   <h3>Methods</h3>
-			<p><?php echo $arrDescription['Methods']; ?></p>
-		   <?php
+			<?php echo $Parsedown->text( $arrDescription['Methods']); 
 }
 
 if (isset($arrDescription['TechnicalInfo'])) {
 
     ?> 
 		    <h3>Technical Information</h3>
-		    <?php $Parsedown = new Parsedown();
+		    <?php 
 
 		    echo $Parsedown->text($arrDescription['TechnicalInfo']);
 			
-			?>
 			
-		   <?php
 }
 if ($hasDocuments == 1) {
     echo $relDocuments;
@@ -152,7 +149,7 @@ if ($hasDatasets == 1) {
 				<!-- 					<div id="collapseFive" class="collapse" aria-labelledby="methods" -->
 				<!-- 						data-parent="#accordion"> -->
 				<!-- 						<div class="card-body"> -->
-				<!-- <p><?php echo $arrDescription['Methods']; ?></p> -->
+				<!-- <p><?php// echo $Parsedown->text( $arrDescription['Methods'];) ?></p> -->
 				<!-- 						</div> -->
 				<!-- 					</div> -->
 				<!-- 				</div> -->
@@ -173,7 +170,7 @@ if ($hasDatasets == 1) {
 						aria-labelledby="TableOfContents" data-parent="#accordion">
 						<div class="card-body">
 							<h3>Table Of Contents</h3>
-							<p><?php echo $arrDescription['TableOfContents']; ?></p>
+							<p><?php echo $Parsedown->text($arrDescription['TableOfContents']); ?></p>
 						</div>
 					</div>
 				</div>			    <?php
@@ -192,7 +189,7 @@ if ($hasDatasets == 1) {
 				<!-- 						aria-labelledby="TechnicalInfo" data-parent="#accordion"> -->
 				<!-- 						<div class="card-body"> -->
 
-				<!--  <p><?php echo $arrDescription['TechnicalInfo']; ?></p> -->
+				<!--  <p><?php //echo $arrDescription['TechnicalInfo']; ?></p> -->
 				<!-- 						</div> -->
 				<!-- 					</div> -->
 				<!-- 				</div> -->
@@ -212,7 +209,7 @@ if ($hasDatasets == 1) {
 						aria-labelledby="Provenance" data-parent="#accordion">
 						<div class="card-body">
 
-							<p><?php echo $arrDescription['Provenance']; ?></p>
+							<p><?php echo $Parsedown->text( $arrDescription['Provenance']); ?></p>
 						</div>
 					</div>
 				</div>
@@ -233,7 +230,7 @@ if ($hasDatasets == 1) {
 						<div class="card-body">
 
 
-							<p><?php echo $arrDescription['Quality']; ?></p>
+							<p><?php echo $Parsedown->text($arrDescription['Quality']); ?></p>
 						</div>
 					</div>
 				</div>
@@ -252,7 +249,7 @@ if ($hasDatasets == 1) {
 					<div id="collapseSix" class="collapse" aria-labelledby="Other"
 						data-parent="#accordion">
 						<div class="card-body">
-							<p><?php echo $arrDescription['Other']; ?></p>
+							<p><?php echo $Parsedown->text($arrDescription['Other']); ?></p>
 						</div>
 					</div>
 				</div>

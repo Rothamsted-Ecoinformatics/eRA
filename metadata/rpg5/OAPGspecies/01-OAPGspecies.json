@@ -1,0 +1,377 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/KeyRefOAPGspecies",
+    "name": "Park Grass Changes in Mean Species Numbers 1864-2011",
+    "shortName": "OAPGspecies",
+    "url": "http://www.era.rothamsted.ac.uk/Park/pg_open_access_species",
+    "description": [
+        {
+            "inLanguage": "en",
+            "descriptionType": "Abstract",
+            "description": "The Figure shows the impact of selected treatments on the number of species comprising 1% or more of the biomass. Applying N as sodium nitrate (orange line N*) or ammonium sulphate (blue line N) quickly decreased species numbers relative to the unfertilised control.  The continued application of ammonium decreases species numbers further because of its acidifying effect on the soil (pH 3.6 in 2011, solid blue line), reducing the number of species to one or two, Holcus lanatus (Yorkshire Fog) and Anthoxanthum odoratum (Sweet Vernal Grass). However, even on the nil plot (solid green line) the number of species has decreased. This may be due to changes in atmospheric inputs and/or changes in sward management.\r\n\r\nApplying chalk (dotted lines) increased soil pH (pH 6.2 in 2011, dotted blue line) and helped some of the species return to the original numbers. Recent work (Storkey et al 2015) showed that on some plots withholding N helped increase species diversity as did decreased atmospheric N deposition, as evident in the species numbers of the nil plot (solid green line)."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Methods",
+            "description": "The botanical composition of the plots was studied by visual surveys and by looking at the percentage contribution of the various species to the hay harvested. The most recent comprehensive surveys of botanical composition made just before the first cut, were done annually between 1991 and 2000 (see Crawley et al, 2005). From 1991 to 2000, six randomly located quadrats measuring 50cm x 25cm were located within each of the plots in early June, immediately before the first cut. The herbage was cut with scissors to ground level and plant material taken back to the laboratory where it was sorted into species. Samples were oven-dried at 80 \u00b0C for 24 hours, after which dry mass was determined for each species. A survey of plant diversity carried out by transects in 1993 and May 1994, before the first cut of each year. In each surveyed transect the number of reproductive plants of each species was recorded (Kunin, 1998). \r\nEarlier surveys of the botanical composition of Park Grass were carried out from 1862 to 1976.  Between 1920 and 1990 visual surveys were made twice a year, before the hay was cut in June and again in the autumn, but no analyses were carried out between 1949 and 1972. Further full botanical analyses were carried out on limited plots between 1973 and 1976 (Williams 1978). Samples of plant material were taken from each plot, separated into the different species and weighed. This open access summary data is derived from annual plot data for the relevant selected plots and treatments."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TableOfContents",
+            "description": "Summary data of the number of species comprising 1% or more of the biomass, in relation to six treatments  on Park Grass: No fertiliser cotrol; nitrogen fertilser as sodium nitrate; nitrogen as ammonium sulphate (each with and without chalk)."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TechnicalInfo",
+            "description": "Fertiliser treatments since 1856;\r\nNo fertiliser - Plot 3: No fertilizer or manure\r\nN*2PKNaMg - Plot 14: 96kgN as sodium nitrate plus P, K, Na and Mg\r\nN2PKNaMg - Plot 9: 96kgN as ammonium sulphate plus P, K, Na and Mg\r\n\r\nChalk: Ground chalk (CaCO3) applied approximately every four years 1903 - 1964 then as required to maintain pH at around 6."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Other",
+            "description": "See Park Grass Botanical Information and of the 'Park Grass Plots at Rothamsted 1856 - 1976' for further details on methods utilised."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Provenance",
+            "description": "Older historical information is taken from original raw data sheets and analysis files, held in the archives at Rothamsted Research, and the Annual Rothamsted Yield Books. Data since 1991 is souced from current Rothamsted scientists. All raw data is stored in the e-RA database DET."
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Rothamsted Research"
+    },
+    "publication_year": 2016,
+    "dateCreated": null,
+    "dateModified": null,
+    "datePublished": null,
+    "inLanguage": "en",
+    "version": "01",
+    "keywords": [
+        "Park grass long-term experiment",
+        "permanent grassland",
+        "long term experiments",
+        "species diversity"
+    ],
+    "creator": [
+        {
+            "type": "Person",
+            "Name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "organization",
+            "name": "Rothamsted Research"
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells-Brooke",
+            "givenName": "Nathalie",
+            "familyName": "Castells-Brooke",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectLeader",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Andrew Macdonald",
+            "givenName": "Andrew",
+            "familyName": "Macdonald",
+            "sameAs": "https://orcid.org/0000-0002-1785-4892",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Jonathan Storkey",
+            "givenName": "Jonathan",
+            "familyName": "Storkey",
+            "sameAs": "https://orcid.org/0000-0003-1094-8914",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License"
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.37262,
+            "latitude": 51.80398
+        },
+        "name": "Park Grass"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.1038/nature16444",
+            "relatedIdentifierType": "DOI",
+            "name": "Grassland biodiversity bounces back from long-term nitrogen addition",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsReferencedBy",
+            "rt_id": 17,
+            "relationTypeValue": "is referenced by"
+        },
+        {
+            "relatedIdentifier": "10.1111/mec.13007",
+            "relatedIdentifierType": "DOI",
+            "name": "The Park Grass Experiment and next-generation approaches\u2026",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsReferencedBy",
+            "rt_id": 17,
+            "relationTypeValue": "is referenced by"
+        },
+        {
+            "relatedIdentifier": "10.1111/j.1365-2745.2006.01145.x",
+            "relatedIdentifierType": "DOI",
+            "name": "The Park Grass Experiment 1856\u20132006: its contribution to ecology",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsReferencedBy",
+            "rt_id": 17,
+            "relationTypeValue": "is referenced by"
+        },
+        {
+            "relatedIdentifier": "10.1086/427270",
+            "relatedIdentifierType": "DOI",
+            "name": "Determinants of Species Richness in the Park Grass Experiment",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsReferencedBy",
+            "rt_id": 17,
+            "relationTypeValue": "is referenced by"
+        },
+        {
+            "relatedIdentifier": "10.1023/A:1015731530498",
+            "relatedIdentifierType": "DOI",
+            "name": "Effects of atmospheric deposition, soil pH and acidification on heavy metal contents\u2026",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsReferencedBy",
+            "rt_id": 17,
+            "relationTypeValue": "is referenced by"
+        },
+        {
+            "relatedIdentifier": "10.1046/j.1365-2389.1999.00253.x",
+            "relatedIdentifierType": "DOI",
+            "name": "Changes in soil chemistry accompanying acidification \u2026..",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsReferencedBy",
+            "rt_id": 17,
+            "relationTypeValue": "is referenced by"
+        },
+        {
+            "relatedIdentifier": "10.1073/pnas.95.1.207",
+            "relatedIdentifierType": "DOI",
+            "name": "Biodiversity at the edge: A test of the importance of spatial \u201cmass effects\u201d in RPG\u2026",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsReferencedBy",
+            "rt_id": 17,
+            "relationTypeValue": "is referenced by"
+        },
+        {
+            "relatedIdentifier": "10.2307/2261566",
+            "relatedIdentifierType": "DOI",
+            "name": "Community Stability: A 60-Year Record of Trends and Outbreaks in the Occurrence of Species in RPG",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsReferencedBy",
+            "rt_id": 17,
+            "relationTypeValue": "is referenced by"
+        },
+        {
+            "relatedIdentifier": "10.1017/S0021859600067290",
+            "relatedIdentifierType": "DOI",
+            "name": "Trends in herbage yields over the last century on the Rothamsted Long-term Continuous Hay Experimen",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsReferencedBy",
+            "rt_id": 17,
+            "relationTypeValue": "is referenced by"
+        },
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-156",
+            "relatedIdentifierType": "DOI",
+            "name": "Botanical Composition of the Park Grass Plots at Rothamsted 1856 - 1976",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsReferencedBy",
+            "rt_id": 17,
+            "relationTypeValue": "is referenced by"
+        },
+        {
+            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Park/pgcomposition1",
+            "relatedIdentifierType": "URL",
+            "name": "Park Grass Botanical Compostion",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "https://www.youtube.com/watch?v=-3-Pm5JUQZ4&feature=player_embedded",
+            "relatedIdentifierType": "URL",
+            "name": "The Park Grass Experiment - video",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Park/",
+            "relatedIdentifierType": "URL",
+            "name": "Park Grass Experiment - background",
+            "relatedIdentifierGeneralType": "text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        }
+    ],
+    "funder": [],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Species data and treatments",
+            "URL": "Park_Grass_Species_data_2016.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "18 KB"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Park Grass Species Chart",
+            "URL": "Park_Grass_Species_Chart_2016.pdf",
+            "encodingFormat": "pdf",
+            "fileSize": "92 KB"
+        }
+    ],
+    "image": [
+        {
+            "type": "imageObject",
+            "caption": "Park Grass Species Chart",
+            "URL": "Park_Grass_Species_Chart_2016.png",
+            "encodingFormat": "png",
+            "fileSize": "201 KB"
+        }
+    ],
+    "grade": 1,
+    "dstype": "OA"
+}

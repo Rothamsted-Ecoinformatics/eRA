@@ -75,13 +75,20 @@
     "distribution": [
         {
             "type": "dataDownload",
-            "name": null,
-            "URL": null,
-            "encodingFormat": "",
-            "fileSize": "11 pages"
+            "name": "Total monthly rainfall as exel",
+            "URL": "RMMRAIN5318-data-v3.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "33 KB"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Total monthly rainfall ascsv",
+            "URL": "RMMRAIN5318-data-v2.csv",
+            "encodingFormat": "csv",
+            "fileSize": "12 KB"
         }
     ],
     "image": [],
     "grade": 3,
-    "dstype": "N/A"
+    "dstype": "Other"
 }

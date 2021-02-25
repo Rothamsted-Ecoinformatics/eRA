@@ -1,0 +1,651 @@
+{
+    "id": 2631,
+    "experiment_type_term": null,
+    "experiment_id": 44,
+    "people": [
+        {
+            "id": 3753,
+            "contacts": [
+                {
+                    "contact_type": "Email",
+                    "value": "andy.macdonald@rothamsted.ac.uk"
+                }
+            ],
+            "role_term": "experiment manager",
+            "title": "Dr",
+            "name": "Andy MacDonald",
+            "affiliation": "Rothamsted REsearch",
+            "department": "Sustainable Agricultural Systems",
+            "orcid": null,
+            "is_contact": false,
+            "role_label": "experiment manager"
+        },
+        {
+            "id": 3754,
+            "contacts": [
+                {
+                    "contact_type": "Email",
+                    "value": "sarah.perryman@rothamsted.ac.uk"
+                }
+            ],
+            "role_term": "data manager",
+            "title": "Dr",
+            "name": "Sarah Perryman",
+            "affiliation": "Rothamsted Research",
+            "department": "Computational and Analytical Sciences",
+            "orcid": null,
+            "is_contact": true,
+            "role_label": "data manager"
+        },
+        {
+            "id": 3755,
+            "contacts": [
+                {
+                    "contact_type": "Email",
+                    "value": "margaret.glendining@rothamsted.ac.uk"
+                }
+            ],
+            "role_term": "data manager",
+            "title": "Dr",
+            "name": "Margaret Glendining",
+            "affiliation": "Rothamsted Research",
+            "department": "Computational and Analytical Sciences",
+            "orcid": "0000-0002-6466-4629",
+            "is_contact": false,
+            "role_label": "data manager"
+        }
+    ],
+    "organizations": [
+        {
+            "id": 2650,
+            "contacts": [],
+            "role_term": "research organisation",
+            "name": "Rothamsted Research",
+            "name_uri": null,
+            "abbreviation": "RRes",
+            "role_label": "research organisation"
+        }
+    ],
+    "periods": [
+        {
+            "id": 4014,
+            "design_type_term": "Replicated control design",
+            "crops": [
+                {
+                    "id": 11387,
+                    "crop_term": null,
+                    "crop_label": "lucerne",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 11388,
+                    "crop_term": "grass leys",
+                    "crop_label": "grass leys",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 11389,
+                    "crop_term": "wheat",
+                    "crop_label": "wheat",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 11390,
+                    "crop_term": "potatoes",
+                    "crop_label": "potatoes",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 11391,
+                    "crop_term": "barley",
+                    "crop_label": "barley",
+                    "start_year": null,
+                    "end_year": null
+                }
+            ],
+            "rotations": [
+                {
+                    "id": 2060,
+                    "phases": [
+                        {
+                            "crop_id": null,
+                            "notes": null,
+                            "same_phase": false
+                        }
+                    ],
+                    "name": "Lucerne",
+                    "phasing": null,
+                    "start_year": null,
+                    "end_year": null,
+                    "is_treatment": false
+                },
+                {
+                    "id": 2061,
+                    "phases": [
+                        {
+                            "crop_id": null,
+                            "notes": null,
+                            "same_phase": false
+                        }
+                    ],
+                    "name": "Grazed ley",
+                    "phasing": null,
+                    "start_year": null,
+                    "end_year": null,
+                    "is_treatment": false
+                },
+                {
+                    "id": 2062,
+                    "phases": [
+                        {
+                            "crop_id": null,
+                            "notes": null,
+                            "same_phase": false
+                        }
+                    ],
+                    "name": "Cut grass",
+                    "phasing": null,
+                    "start_year": null,
+                    "end_year": null,
+                    "is_treatment": false
+                },
+                {
+                    "id": 2063,
+                    "phases": [
+                        {
+                            "crop_id": null,
+                            "notes": null,
+                            "same_phase": false
+                        }
+                    ],
+                    "name": "Arable with hay",
+                    "phasing": null,
+                    "start_year": null,
+                    "end_year": null,
+                    "is_treatment": false
+                }
+            ],
+            "factors": [],
+            "factor_combinations": [],
+            "measurements": [
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": null,
+                    "collection_frequency": null,
+                    "variable_label": "soil total carbon",
+                    "variable_term": "soil total carbon",
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": null,
+                    "collection_frequency": null,
+                    "variable_label": "plant available phosphorous",
+                    "variable_term": "plant available phosphorous",
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": null,
+                    "collection_frequency": null,
+                    "variable_label": "plant available potassium",
+                    "variable_term": null,
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": null,
+                    "collection_frequency": null,
+                    "variable_label": "yield components",
+                    "variable_term": "yield components",
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                }
+            ],
+            "start_year": 1949,
+            "end_year": 1954,
+            "ongoing": false,
+            "name": "First period, 1949-1954",
+            "design_type_label": "Replicated control design",
+            "number_of_blocks": null,
+            "number_of_plots": null,
+            "number_of_subplots": null,
+            "number_of_replicates": null,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": null,
+            "design_description": null,
+            "description": "Plots of four rotations with reseeded grass and permanent grass were laid down in randomised blocks of five or six plots each. There were 12 blocks, two in each phase of a six-year cycle. The whole experiment was started over three seasons 1949, 1950 and 1951 and blocks due to start in 1952, 1953 and 1954 started three years earlier with 'dummy' test crops. Each plot was 0.088 acre.",
+            "factorial": false
+        },
+        {
+            "id": 4015,
+            "design_type_term": "Replicated control design",
+            "crops": [
+                {
+                    "id": 11392,
+                    "crop_term": null,
+                    "crop_label": "lucerne",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 11393,
+                    "crop_term": "grass leys",
+                    "crop_label": "grass leys",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 11394,
+                    "crop_term": "wheat",
+                    "crop_label": "wheat",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 11395,
+                    "crop_term": "potatoes",
+                    "crop_label": "potatoes",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 11396,
+                    "crop_term": "oats",
+                    "crop_label": "oats",
+                    "start_year": null,
+                    "end_year": null
+                }
+            ],
+            "rotations": [],
+            "factors": [],
+            "factor_combinations": [],
+            "measurements": [
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": null,
+                    "collection_frequency": null,
+                    "variable_label": "soil total carbon",
+                    "variable_term": "soil total carbon",
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": null,
+                    "collection_frequency": null,
+                    "variable_label": "plant available phosphorous",
+                    "variable_term": "plant available phosphorous",
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": null,
+                    "collection_frequency": null,
+                    "variable_label": "plant available potassium",
+                    "variable_term": null,
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": null,
+                    "collection_frequency": null,
+                    "variable_label": "yield components",
+                    "variable_term": "yield components",
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                }
+            ],
+            "start_year": 1955,
+            "end_year": 1960,
+            "ongoing": false,
+            "name": "Second period, 1955-1960",
+            "design_type_label": "Replicated control design",
+            "number_of_blocks": null,
+            "number_of_plots": null,
+            "number_of_subplots": null,
+            "number_of_replicates": null,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": null,
+            "design_description": null,
+            "description": "Various changes were made in this period;\nSpring oats were introduced instead of barley as the third treatment crop of the 'arable with hay' rotation in order to lessen risk of infection of wheat by take-all or eyespot diseases.\nDressings of fertiliser K were applied before the first treatment crops were sown and to the R and G plots. This was because soil and plant analyses had shown plots growing hay, cut grass and lucerne lost more K than grazed plots, which would affect the yield of test crops.\nPlots were further split to measure potash and phosphate responses in test-crop potatoes that followed different leys.\nFrom 1958, the standard applications of P and K were revised and corrective dressing applied",
+            "factorial": false
+        },
+        {
+            "id": 4016,
+            "design_type_term": null,
+            "crops": [
+                {
+                    "id": 11397,
+                    "crop_term": "grass leys",
+                    "crop_label": "grass leys",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 11398,
+                    "crop_term": null,
+                    "crop_label": "grass clover leys",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 11399,
+                    "crop_term": "wheat",
+                    "crop_label": "wheat",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 11400,
+                    "crop_term": "sugarbeet",
+                    "crop_label": "sugarbeet",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 11401,
+                    "crop_term": "oats",
+                    "crop_label": "oats",
+                    "start_year": null,
+                    "end_year": null
+                }
+            ],
+            "rotations": [],
+            "factors": [],
+            "factor_combinations": [],
+            "measurements": [
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": null,
+                    "collection_frequency": null,
+                    "variable_label": "soil total carbon",
+                    "variable_term": "soil total carbon",
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": null,
+                    "collection_frequency": null,
+                    "variable_label": "plant available phosphorous",
+                    "variable_term": "plant available phosphorous",
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": null,
+                    "collection_frequency": null,
+                    "variable_label": "plant available potassium",
+                    "variable_term": null,
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": null,
+                    "collection_frequency": null,
+                    "variable_label": "yield components",
+                    "variable_term": "yield components",
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                }
+            ],
+            "start_year": 1961,
+            "end_year": 1967,
+            "ongoing": false,
+            "name": "Third period, 1961-1967",
+            "design_type_label": null,
+            "number_of_blocks": null,
+            "number_of_plots": null,
+            "number_of_subplots": null,
+            "number_of_replicates": null,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": null,
+            "design_description": null,
+            "description": "Various changes were made during this period;\nSugar beet replaced potatoes as the second treatment crop of the 'arable with hay' rotation.\nThe test of FYM to second treatment crop was omitted from 1961 (to minimise soil born pathogens such as cyst-nematodes).\nAll sub-plot tests of manures to treatment crops were discontinued to allow more elaborate tests on the test-crops; wheat and barley received N at four rates.\nFrom 1962, no more plots were sown to 'grazed ley' or 'cut grass'. Instead two new three-year rotations were introduced: i. All-grass receiving fertiliser ii. Clover-grass receiving no fertiliser. \nFrom 1962 FYM was ploughed in (previously applied in furrows before planting).\nFrom 1962 potatoes were planted by machine.\nFrom 1963 certain plots of reseeded grass were ploughed up and put into test-crop sequence and then into 'arable with hay' treatm",
+            "factorial": false
+        },
+        {
+            "id": 4017,
+            "design_type_term": "Replicated control design",
+            "crops": [
+                {
+                    "id": 11402,
+                    "crop_term": null,
+                    "crop_label": "lucerne",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 11403,
+                    "crop_term": "grass leys",
+                    "crop_label": "grass leys",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 11404,
+                    "crop_term": "grass clover leys",
+                    "crop_label": "grass clover leys",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 11405,
+                    "crop_term": null,
+                    "crop_label": "reseeded grass",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 11406,
+                    "crop_term": "wheat",
+                    "crop_label": "wheat",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 11407,
+                    "crop_term": "sugarbeet",
+                    "crop_label": "sugarbeet",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 11408,
+                    "crop_term": "oats",
+                    "crop_label": "oats",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 11409,
+                    "crop_term": "potatoes",
+                    "crop_label": "potatoes",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 11410,
+                    "crop_term": "barley",
+                    "crop_label": "barley",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 11411,
+                    "crop_term": null,
+                    "crop_label": "hay",
+                    "start_year": null,
+                    "end_year": null
+                }
+            ],
+            "rotations": [],
+            "factors": [],
+            "factor_combinations": [],
+            "measurements": [
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": null,
+                    "collection_frequency": null,
+                    "variable_label": "soil total carbon",
+                    "variable_term": "soil total carbon",
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": null,
+                    "collection_frequency": null,
+                    "variable_label": "plant available phosphorous",
+                    "variable_term": "plant available phosphorous",
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": null,
+                    "collection_frequency": null,
+                    "variable_label": "plant available potassium",
+                    "variable_term": null,
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": null,
+                    "collection_frequency": null,
+                    "variable_label": "yield components",
+                    "variable_term": "yield components",
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                }
+            ],
+            "start_year": 1968,
+            "end_year": null,
+            "ongoing": true,
+            "name": "Fourth period, 1968-",
+            "design_type_label": "Replicated control design",
+            "number_of_blocks": null,
+            "number_of_plots": null,
+            "number_of_subplots": null,
+            "number_of_replicates": null,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": null,
+            "design_description": null,
+            "description": "Two phases were maintained to study the effects of treatments on changes in soil organic matter. In one of these, the reseeded plots ploughed up in 1964 were sown down again in 1973 to restore the original pattern. The other four phases the normal test crop sequence was followed by continuous wheat cropping to study soil-borne diseases.",
+            "factorial": false
+        }
+    ],
+    "data_statement_term": "Available to any researcher on request",
+    "data_license_term": "CC BY",
+    "site_type_term": "research station field",
+    "site_perimeter": [],
+    "site_soil_type_term": null,
+    "site_soil_properties": [],
+    "site_climatic_type_term": "temperate oceanic climate",
+    "site_climate_properties": [],
+    "literature": [
+        {
+            "doi": "10.23637/KeyRefOARLAsoc",
+            "title": "Rothamsted Ley Arable soil organic carbon 1948-2008",
+            "language": null
+        },
+        {
+            "doi": "10.23637/ERADOC-1-70",
+            "title": "Johnston, A. E. (1973) \"The effects of ley and arable cropping systems on the amounts of soil organic matter in the Rothamsted and Woburn ley-arable experiment\", Rothamsted Experimental Station, Report for 1972, Part 2, 131-159",
+            "language": null
+        },
+        {
+            "doi": "10.23637/ERADOC-1-34692",
+            "title": "Johnston, A. E. (1973) \"The effects of ley and arable cropping systems on the amounts of soil organic matter in the Rothamsted and Woburn ley-arable experiment\", Rothamsted Experimental Station, Report for 1972, Part 2, 131-159",
+            "language": null
+        }
+    ],
+    "saved_time": "2021-02-11T15:43:53.976490Z",
+    "name": "Fosters Ley Arable",
+    "local_identifier": "R/RN/2",
+    "experiment_type_label": null,
+    "url": null,
+    "start_year": 1948,
+    "end_year": null,
+    "ongoing": true,
+    "establishment_period_end": null,
+    "objective": "To study the effects of various three-year leys on the fertility of the soil as measured by a sequence of three arable test crops on a site that was previously long-term grassland.",
+    "description": "The site was originally long-term arable (>100 years). Some plots stayed in permanent grass, others went into continuous arable cropping and some alternated between leys and arable. \n\nYields are no longer measured (since 1990) but SOM continues to be measured. Available P and K in soil have been measured periodically. \n\nThe main comparisons have been of four rotations, each of six years duration. The arable with lay rotation includes a one-year ley cut for hay. The other three have had three-year leys of different species and different management, followed by three arable crops and are referred to as 'test crops'.\n\nFosters Ley Arable runs in contrast to Highfield Ley Arable which has the same soil type but a different cropping history (having been in permanent grass for 100+ years) bot have similar treatments. It also provides a comparison to the Woburn Ley Arable experiment which has a different soil type.",
+    "site_name": "Fosters Ley Arable",
+    "site_local_code": "R/RN/2",
+    "site_geonames_id": null,
+    "site_doi": null,
+    "site_type_label": "research station field",
+    "site_locality": "Harpenden",
+    "site_region": "Hertfordshire",
+    "site_country": null,
+    "site_centroid_latitude": 51.812922,
+    "site_centroid_longitude": -0.379079,
+    "site_elevation": 130.0,
+    "site_elevation_unit": "Metres",
+    "site_slope": null,
+    "site_slope_aspect": null,
+    "site_visits_allowed": true,
+    "site_visiting_arrangements": "By arrangement with Dr Andy Macdonald, LTE Manager.",
+    "site_history": "The field had been under arable cropping for centuries.",
+    "site_management": "Fosters is thought to have been in arable crops for several centuries. Cropping would have included wheat/barley/oats/field beans/root crops with occasional one-year hay crops. It would have had some farmyard manure but little fertilizer.",
+    "site_soil_type_label": "luvisol",
+    "site_soil_description": "Batcombe series flinty silt or loam over clay-with-flints.",
+    "site_climatic_type_label": "temperate oceanic climate",
+    "site_climate_description": null,
+    "data_statement_label": "Available to any researcher on request",
+    "data_url": null,
+    "data_policy_status": "NotKnown",
+    "data_policy_url": null,
+    "data_license_label": "CC BY",
+    "data_contact": null,
+    "farm_operations_data": false,
+    "sample_archive": true,
+    "samples_available": true,
+    "data_access_statement": "Request data from e-RA curator. Will be released online in near future."
+}

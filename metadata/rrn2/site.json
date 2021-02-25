@@ -1,0 +1,42 @@
+{
+    "administrative": {
+        "name": "Fosters Ley Arable",
+        "identifier": "R/RN/2",
+        "type": "research station field",
+        "doi": null,
+        "visitsAllowed": "Yes",
+        "visitingArrangements": "By arrangement with Dr Andy Macdonald, LTE Manager.",
+        "description": "The field had been under arable cropping for centuries.",
+        "management": "Fosters is thought to have been in arable crops for several centuries. Cropping would have included wheat/barley/oats/field beans/root crops with occasional one-year hay crops. It would have had some farmyard manure but little fertilizer."
+    },
+    "location": {
+        "addressLocality": "Harpenden",
+        "addressRegion": "Hertfordshire",
+        "addressCountry": null,
+        "geoLocationPoint": {
+            "pointLongitude": -0.379079,
+            "pointLatitude": 51.812922
+        },
+        "geoLocationPlace": null,
+        "polygon": "NOT IN GLTEN",
+        "elevation": 130.0,
+        "elevationUnit": "Metres",
+        "slope": null,
+        "slopeAspect": null
+    },
+    "soil": {
+        "soilTypeLabel": "luvisol",
+        "soilDescription": "Batcombe series flinty silt or loam over clay-with-flints."
+    },
+    "soilProperty": [],
+    "climate": {
+        "name": "temperate oceanic climate",
+        "description": "Batcombe series flinty silt or loam over clay-with-flints.",
+        "weatherStation": {
+            "weatherStationID": "NOT IN GLTEN",
+            "name": "NOT IN GLTEN",
+            "distance": "NOT IN GLTEN",
+            "direction": "NOT IN GLTEN"
+        }
+    }
+}

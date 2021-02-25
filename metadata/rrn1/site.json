@@ -1,0 +1,42 @@
+{
+    "administrative": {
+        "name": "Highfield Ley Arable",
+        "identifier": "R/RN/1",
+        "type": "research station field",
+        "doi": null,
+        "visitsAllowed": "Yes",
+        "visitingArrangements": "By arrangement with Dr Andy Macdonald, LTE Manager.",
+        "description": "The site was originally permanent grassland since 1838 (>100 years).",
+        "management": "Ploughing: At the start of the experiment ploughing was shallow, not more than 15cm deep but the depth was gradually increased to 23 cm as more powerful tractors were introduced.\nLiming: Lime has been applied as required since 1958.\nLey management - permanent and re-seeded grass: Two-years sheep grazing followed by one-years hay 1949-57. Since 1958 grazing discontinued, cut repeatedly at early silage stage. Since 1991 grass leys were cut for hay in mid-summer; the hay was baled and removed."
+    },
+    "location": {
+        "addressLocality": "Harpenden",
+        "addressRegion": "Hertfordshire",
+        "addressCountry": "United Kingdom",
+        "geoLocationPoint": {
+            "pointLongitude": -0.366025,
+            "pointLatitude": 51.802777
+        },
+        "geoLocationPlace": "United Kingdom",
+        "polygon": "NOT IN GLTEN",
+        "elevation": 130.0,
+        "elevationUnit": "Metres",
+        "slope": null,
+        "slopeAspect": null
+    },
+    "soil": {
+        "soilTypeLabel": "luvisol",
+        "soilDescription": "Batcombe series flinty silt or loam over clay-with-flints."
+    },
+    "soilProperty": [],
+    "climate": {
+        "name": "Temperate oceanic climate",
+        "description": "Batcombe series flinty silt or loam over clay-with-flints.",
+        "weatherStation": {
+            "weatherStationID": "NOT IN GLTEN",
+            "name": "NOT IN GLTEN",
+            "distance": "NOT IN GLTEN",
+            "direction": "NOT IN GLTEN"
+        }
+    }
+}

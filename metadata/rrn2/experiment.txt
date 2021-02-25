@@ -1,0 +1,25 @@
+************************************************************************************************************
+
+                  Fosters Ley Arable (R/RN/2) 
+
+************************************************************************************************************
+
+
+
+
+DESCRIPTION
+    The site was originally long-term arable (>100 years). Some plots stayed in permanent grass, others went into continuous arable cropping and some alternated between leys and arable. 
+
+Yields are no longer measured (since 1990) but SOM continues to be measured. Available P and K in soil have been measured periodically. 
+
+The main comparisons have been of four rotations, each of six years duration. The arable with lay rotation includes a one-year ley cut for hay. The other three have had three-year leys of different species and different management, followed by three arable crops and are referred to as 'test crops'.
+
+Fosters Ley Arable runs in contrast to Highfield Ley Arable which has the same soil type but a different cropping history (having been in permanent grass for 100+ years) bot have similar treatments. It also provides a comparison to the Woburn Ley Arable experiment which has a different soil type.
+    To study the effects of various three-year leys on the fertility of the soil as measured by a sequence of three arable test crops on a site that was previously long-term grassland.
+
+    Experiment start = 1948
+
+    Experiment end = None
+
+CONDITION OF ACCESS 
+EXPERIMENT DESIGN 

@@ -26,7 +26,7 @@
         "identifier_type": "DOI",
         "dataset_type": "Soil data",
         "extension": "xlsx",
-        "description": "Long-term changes in total % nitrogen concentration in the topsoil (0-23 cm) in selected treatments of the Broadbalk experiment, where winter wheat has been grown most years since 1843 (\"continuous wheat\").",
+        "description": "Long-term changes in total % nitrogen concentration in the topsoil (0-23 cm) in selected treatments of the Broadbalk experiment, where winter wheat has been grown most years since 1843 (continuous wheat).",
         "fieldname": "Broadbalk",
         "experiment_name": "Broadbalk",
         "experiment_code": "R/BK/1",
@@ -76,6 +76,25 @@
         "UID": "01-OAOlsenP1844"
     },
     {
+        "md_id": -1553748648,
+        "title": "Broadbalk complete soils data",
+        "URL": "NOT READY",
+        "identifier": "10.23637/rbk1-bksoils-01",
+        "identifier_type": "DOI",
+        "dataset_type": "Soil data",
+        "extension": "pdf",
+        "description": null,
+        "fieldname": "Broadbalk",
+        "experiment_name": "Broadbalk",
+        "experiment_code": "R/BK/1",
+        "grade": 2,
+        "dstype": "Other",
+        "publication_year": 2020,
+        "version": "01",
+        "shortName": "BKSOILS",
+        "UID": "01-BKSOILS"
+    },
+    {
         "md_id": -2078416917,
         "title": "<i>Cirsium arvense</i> frequency on Broadbalk Section 8 1991-2018",
         "URL": "http://www.era.rothamsted.ac.uk/Broadbalk/Cirsiumarvense1991-2018",
@@ -112,24 +131,5 @@
         "version": "01",
         "shortName": "FISHER1921",
         "UID": "01-FISHER1921"
-    },
-    {
-        "md_id": -1553748648,
-        "title": "Broadbalk complete soils data",
-        "URL": "NOT READY",
-        "identifier": "10.23637/rbk1-bksoils-01",
-        "identifier_type": "DOI",
-        "dataset_type": "Soil data",
-        "extension": "pdf",
-        "description": null,
-        "fieldname": "Broadbalk",
-        "experiment_name": "Broadbalk",
-        "experiment_code": "R/BK/1",
-        "grade": 1,
-        "dstype": "Other",
-        "publication_year": 2020,
-        "version": "01",
-        "shortName": "BKSOILS",
-        "UID": "01-BKSOILS"
     }
 ]

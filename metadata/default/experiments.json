@@ -25,6 +25,11 @@
         "station": "w"
     },
     {
+        "exptID": "rbn7",
+        "Title": "Barnfield",
+        "station": "r"
+    },
+    {
         "exptID": "rbk1",
         "Title": "Broadbalk",
         "station": "r"
@@ -50,6 +55,11 @@
         "station": "r"
     },
     {
+        "exptID": "rrn2",
+        "Title": "Fosters Ley Arable",
+        "station": "r"
+    },
+    {
         "exptID": "rgc8",
         "Title": "Garden Clover",
         "station": "r"
@@ -67,6 +77,11 @@
     {
         "exptID": "rcs767",
         "Title": "Highfield Conversion",
+        "station": "r"
+    },
+    {
+        "exptID": "rrn1",
+        "Title": "Highfield Ley Arable",
         "station": "r"
     },
     {

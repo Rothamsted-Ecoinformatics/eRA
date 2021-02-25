@@ -9,7 +9,37 @@
         {
             "inLanguage": "en",
             "descriptionType": "Abstract",
-            "description": "Long-term changes in total % nitrogen concentration in the topsoil (0-23 cm) in selected treatments of the Broadbalk experiment, where winter wheat has been grown most years since 1843 (\"continuous wheat\")."
+            "description": "Long-term changes in total % nitrogen concentration in the topsoil (0-23 cm) in selected treatments of the Broadbalk experiment, where winter wheat has been grown most years since 1843 (continuous wheat)."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Methods",
+            "description": "Soil total N % has been measured at intervals since 1865. Data is mean of sections 1, 6 and 9, continuous winter wheat (except for occasional fallow), from six selected plots (3, 5, 8, 2,1, 2,2 and 1). The starting values in 1843 and the later FYM treatments have been estimated."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TableOfContents",
+            "description": "Soil %N from the following plots:\r\nPlot 3 - nil, no fertilizer or manure since 1852\r\nPlot 5 - PKMg applied since 1852 \r\nPlot 8 - PKMg + 144 kg N/ha since 1852 \r\nPlot 2.2 - 35 t/ha since 1843\r\nPlot 2.1 - 35t/ha since 1885 + 96 kgN/ha since 1968\r\nPlot 1 -"
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TechnicalInfo",
+            "description": "Soil samples taken in 1881, 1893, 1914, 1936 and 1944 were re-analysed in 2001-4 for Total N by combustion (LECO). Data in 1865 are the original Soda Lime analyses from Dyer (1902), corrected to be equivalent to LECO. Data for 1966 and 1987 are by Kjeldahl analysis for Total N. Data for 1992, 1997, 2000, 2005 and 2010 are by combustion (LECO)."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Other",
+            "description": "Broadbalk has also been used to investigate the fate of 15N-labelled fertilizer applied to wheat (Powlson et al, 1986; Shen et al, 1989), the long-term effects of N fertilizer on soil N (Glendining et al, 1996) and nitrate leaching (Goulding et al 2000)."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Provenance",
+            "description": "This  data is derived from measurements made at Rothamsted Research, Harpenden. The data presented is mean data from selected plots and sections only. The complete data set, including the raw data used to derive the mean values, is available from the e-RA curators."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Quality",
+            "description": "Most of the chemical analysis was carried out by the Rothamsted Research Analytical Unit, which has rigorous systems of standards and checking of samples to ensure quality control."
         }
     ],
     "publisher": {
@@ -18,7 +48,7 @@
     },
     "publication_year": 2018,
     "dateCreated": "2018-12-17",
-    "dateModified": null,
+    "dateModified": "2021-02-23",
     "datePublished": "2018-12-18",
     "inLanguage": "en",
     "version": "1",
@@ -234,15 +264,7 @@
             "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F000J0300"
         }
     ],
-    "distribution": [
-        {
-            "type": "dataDownload",
-            "name": null,
-            "URL": null,
-            "encodingFormat": "",
-            "fileSize": "14 KB"
-        }
-    ],
+    "distribution": [],
     "image": [],
     "grade": 3,
     "dstype": "OA"

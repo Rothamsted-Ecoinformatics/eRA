@@ -88,10 +88,10 @@
         },
         {
             "type": "Person",
-            "Name": "Chris Hall",
-            "givenName": "Chris",
-            "familyName": "Hall",
-            "sameAs": null,
+            "Name": "Tony Scott",
+            "givenName": "Tony",
+            "familyName": "Scott",
+            "sameAs": "https://orcid.org/0000-0002-6631-0672",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
@@ -326,13 +326,20 @@
     "distribution": [
         {
             "type": "dataDownload",
-            "name": "Weather Reports 2020",
-            "URL": "Weather-Reports-2020.pdf",
-            "encodingFormat": "pdf",
+            "name": "Weather Summary 2020",
+            "URL": "Weather-Summary-2020",
+            "encodingFormat": "Weather-Summary-2020",
             "fileSize": "504 KB"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Cover Page Weather Summary 2020",
+            "URL": "PDFcoverpageWeatherSummary2020",
+            "encodingFormat": "PDFcoverpageWeatherSummary2020",
+            "fileSize": "193 KB"
         }
     ],
     "image": [],
-    "grade": 1,
+    "grade": 3,
     "dstype": "OA"
 }

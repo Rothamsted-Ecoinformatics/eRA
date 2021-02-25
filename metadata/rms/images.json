@@ -2,7 +2,7 @@
     {
         "MediaID": 11,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/2011-new-thousand-acre-gauge-23-03-2011.jpg",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/met/2011-new-thousand-acre-gauge-23-03-2011.jpg",
         "Caption": "New thousand acre gauge - 2011",
         "Type": "Other",
         "exptID": "rms",
@@ -14,7 +14,7 @@
     {
         "MediaID": 33,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/met.jpg",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/met/met.jpg",
         "Caption": "Met Station",
         "Type": "Other",
         "exptID": "rms",
@@ -26,7 +26,7 @@
     {
         "MediaID": 34,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/met2.jpg",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/met/met2.jpg",
         "Caption": "met2",
         "Type": "Other",
         "exptID": "rms",

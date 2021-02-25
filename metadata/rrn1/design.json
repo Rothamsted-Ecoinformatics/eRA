@@ -1,0 +1,510 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "First period, 1949-1954",
+            "localIdentifier": "First period, 1949-1954",
+            "name": "First period, 1949-1954",
+            "url": "First period, 1949-1954",
+            "description": "Plots of four rotations with reseeded grass and permanent grass were laid down in randomised blocks of five or six plots each. There were 12 blocks, two in each phase of a six-year cycle. The whole experiment was started over three seasons 1949, 1950 and 1951 and blocks due to start in 1952, 1953 and 1954 started three years earlier with 'dummy' test crops. Each plot was 0.088 acre."
+        },
+        "design": {
+            "dateStart": 1949,
+            "dateEnd": 1954,
+            "description": "Plots of four rotations with reseeded grass and permanent grass were laid down in randomised blocks of five or six plots each. There were 12 blocks, two in each phase of a six-year cycle. The whole experiment was started over three seasons 1949, 1950 and 1951 and blocks due to start in 1952, 1953 and 1954 started three years earlier with 'dummy' test crops. Each plot was 0.088 acre.",
+            "studyDesign": "First period, 1949-1954",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": null,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
+        },
+        "crops": [
+            {
+                "id": 11362,
+                "name": "lucerne",
+                "sameAs": "lucerne",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 11363,
+                "name": "grass leys",
+                "sameAs": "grass leys",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 11364,
+                "name": "wheat",
+                "sameAs": "wheat",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 11365,
+                "name": "potatoes",
+                "sameAs": "potatoes",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 11366,
+                "name": "barley",
+                "sameAs": "barley",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": [
+            {
+                "name": "Lucerne",
+                "dateStart": null,
+                "dateEnd": null,
+                "phasing": null,
+                "isTreatment": false,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": null,
+                        "description": null
+                    }
+                ]
+            },
+            {
+                "name": "Grazed ley",
+                "dateStart": null,
+                "dateEnd": null,
+                "phasing": null,
+                "isTreatment": false,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": null,
+                        "description": null
+                    }
+                ]
+            },
+            {
+                "name": "Cut grass",
+                "dateStart": null,
+                "dateEnd": null,
+                "phasing": null,
+                "isTreatment": false,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": null,
+                        "description": null
+                    }
+                ]
+            },
+            {
+                "name": "Arable with hay",
+                "dateStart": null,
+                "dateEnd": null,
+                "phasing": null,
+                "isTreatment": false,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": null,
+                        "description": null
+                    }
+                ]
+            }
+        ],
+        "factor": "NA",
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "soil total carbon",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": null,
+                "crop": null
+            },
+            {
+                "variable": "plant available phosphorous",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": null,
+                "crop": null
+            },
+            {
+                "variable": "plant available potassium",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": null,
+                "crop": null
+            },
+            {
+                "variable": "yield components",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": null,
+                "crop": null
+            }
+        ]
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Second period, 1955-1960",
+            "localIdentifier": "Second period, 1955-1960",
+            "name": "Second period, 1955-1960",
+            "url": "Second period, 1955-1960",
+            "description": "Various changes were made in this period;\nSpring oats were introduced instead of barley as the third treatment crop of the 'arable with hay' rotation in order to lessen risk of infection of wheat by take-all or eyespot diseases.\nDressings of fertiliser K were applied before the first treatment crops were sown and to the R and G plots. This was because soil and plant analyses had shown plots growing hay, cut grass and lucerne lost more K than grazed plots, which would affect the yield of test crops.\nPlots were further split to measure potash and phosphate responses in test-crop potatoes that followed different leys.\nFrom 1958, the standard applications of P and K were revised and corrective dressing applied."
+        },
+        "design": {
+            "dateStart": 1955,
+            "dateEnd": 1960,
+            "description": "Various changes were made in this period;\nSpring oats were introduced instead of barley as the third treatment crop of the 'arable with hay' rotation in order to lessen risk of infection of wheat by take-all or eyespot diseases.\nDressings of fertiliser K were applied before the first treatment crops were sown and to the R and G plots. This was because soil and plant analyses had shown plots growing hay, cut grass and lucerne lost more K than grazed plots, which would affect the yield of test crops.\nPlots were further split to measure potash and phosphate responses in test-crop potatoes that followed different leys.\nFrom 1958, the standard applications of P and K were revised and corrective dressing applied.",
+            "studyDesign": "Second period, 1955-1960",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": null,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
+        },
+        "crops": [
+            {
+                "id": 11367,
+                "name": "lucerne",
+                "sameAs": "lucerne",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 11368,
+                "name": "grass leys",
+                "sameAs": "grass leys",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 11369,
+                "name": "wheat",
+                "sameAs": "wheat",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 11370,
+                "name": "potatoes",
+                "sameAs": "potatoes",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 11371,
+                "name": "oats",
+                "sameAs": "oats",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": "NA",
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "soil total carbon",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": null,
+                "crop": null
+            },
+            {
+                "variable": "plant available phosphorous",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": null,
+                "crop": null
+            },
+            {
+                "variable": "plant available potassium",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": null,
+                "crop": null
+            },
+            {
+                "variable": "yield components",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": null,
+                "crop": null
+            }
+        ]
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Third period, 1961-1967",
+            "localIdentifier": "Third period, 1961-1967",
+            "name": "Third period, 1961-1967",
+            "url": "Third period, 1961-1967",
+            "description": "Various changes were made during this period;\nSugar beet replaced potatoes as the second treatment crop of the 'arable with hay' rotation.\nThe test of FYM to second treatment crop was omitted from 1961 (to minimise soil born pathogens such as cyst-nematodes).\nAll sub-plot tests of manures to treatment crops were discontinued to allow more elaborate tests on the test-crops; wheat and barley received N at four rates.\nFrom 1962, no more plots were sown to 'grazed ley' or 'cut grass'. Instead two new three-year rotations were introduced: i. All-grass receiving fertiliser ii. Clover-grass receiving no fertiliser. \nFrom 1962 FYM was ploughed in (previously applied in furrows before planting).\nFrom 1962 potatoes were planted by machine.\nFrom 1963 certain plots of reseeded grass were ploughed up and put into test-crop sequence and then into 'arable with hay' treatment-crops."
+        },
+        "design": {
+            "dateStart": 1961,
+            "dateEnd": 1967,
+            "description": "Various changes were made during this period;\nSugar beet replaced potatoes as the second treatment crop of the 'arable with hay' rotation.\nThe test of FYM to second treatment crop was omitted from 1961 (to minimise soil born pathogens such as cyst-nematodes).\nAll sub-plot tests of manures to treatment crops were discontinued to allow more elaborate tests on the test-crops; wheat and barley received N at four rates.\nFrom 1962, no more plots were sown to 'grazed ley' or 'cut grass'. Instead two new three-year rotations were introduced: i. All-grass receiving fertiliser ii. Clover-grass receiving no fertiliser. \nFrom 1962 FYM was ploughed in (previously applied in furrows before planting).\nFrom 1962 potatoes were planted by machine.\nFrom 1963 certain plots of reseeded grass were ploughed up and put into test-crop sequence and then into 'arable with hay' treatment-crops.",
+            "studyDesign": "Third period, 1961-1967",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": null,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
+        },
+        "crops": [
+            {
+                "id": 11372,
+                "name": "grass leys",
+                "sameAs": "grass leys",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 11373,
+                "name": "grass clover leys",
+                "sameAs": "grass clover leys",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 11374,
+                "name": "wheat",
+                "sameAs": "wheat",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 11375,
+                "name": "sugarbeet",
+                "sameAs": "sugarbeet",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 11376,
+                "name": "oats",
+                "sameAs": "oats",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": "NA",
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "soil total carbon",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": null,
+                "crop": null
+            },
+            {
+                "variable": "plant available phosphorous",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": null,
+                "crop": null
+            },
+            {
+                "variable": null,
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": "plant available potassium",
+                "crop": null
+            },
+            {
+                "variable": "yield components",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": null,
+                "crop": null
+            }
+        ]
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Fourth period, 1968-",
+            "localIdentifier": "Fourth period, 1968-",
+            "name": "Fourth period, 1968-",
+            "url": "Fourth period, 1968-",
+            "description": "Two phases were maintained to study the effects of treatments on changes in soil organic matter. In one of these, the reseeded plots ploughed up in 1964 were sown down again in 1973 to restore the original pattern. The other four phases the normal test crop sequence was followed by continuous wheat cropping to study soil-borne diseases."
+        },
+        "design": {
+            "dateStart": 1968,
+            "dateEnd": null,
+            "description": "Two phases were maintained to study the effects of treatments on changes in soil organic matter. In one of these, the reseeded plots ploughed up in 1964 were sown down again in 1973 to restore the original pattern. The other four phases the normal test crop sequence was followed by continuous wheat cropping to study soil-borne diseases.",
+            "studyDesign": "Fourth period, 1968-",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": null,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
+        },
+        "crops": [
+            {
+                "id": 11377,
+                "name": "lucerne",
+                "sameAs": "lucerne",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 11378,
+                "name": "grass leys",
+                "sameAs": "grass leys",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 11379,
+                "name": "grass clover leys",
+                "sameAs": "grass clover leys",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 11380,
+                "name": "reseeded grass",
+                "sameAs": "reseeded grass",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 11381,
+                "name": "wheat",
+                "sameAs": "wheat",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 11382,
+                "name": "sugarbeet",
+                "sameAs": "sugarbeet",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 11383,
+                "name": "oats",
+                "sameAs": "oats",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 11384,
+                "name": "potatoes",
+                "sameAs": "potatoes",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 11385,
+                "name": "barley",
+                "sameAs": "barley",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 11386,
+                "name": "hay",
+                "sameAs": "hay",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": "NA",
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "soil total carbon",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": null,
+                "crop": null
+            },
+            {
+                "variable": "plant available phosphorous",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": null,
+                "crop": null
+            },
+            {
+                "variable": "plant available potassium",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": null,
+                "crop": null
+            },
+            {
+                "variable": "yield components",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": null,
+                "crop": null
+            }
+        ]
+    }
+]
