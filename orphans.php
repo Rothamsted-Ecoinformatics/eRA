@@ -129,6 +129,7 @@ $hasDocs = file_exists($fileDocs);
 			</div>
 			<div class="row">
 				<div class="col-12 pt-3">
+				<p>These datasets have been produced by the eRA team out of data from an experiment that has not yet got a Long-term experiment status</p>
 							
       	<?php if ($hasDatasets) { include '_datasets.php'; }?>
                 							

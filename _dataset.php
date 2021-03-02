@@ -39,9 +39,15 @@ $Parsedown = new Parsedown();
 						<li class="list-group-item"><b>Data access: </b><?php echo $dstypeStr;?></li>
 						<li class="list-group-item"><b>DOI: </b><?php echo $dsinfo['identifier'];?>
 						</li>
+						<?php if ($expt == "rro") { ?><li class="list-group-item"><b>Experiment: </b> <a
+							href="orphans.php">Other</a></li>
+						
+						<?php } else {?>
 						<li class="list-group-item"><b>Experiment: </b> <a
 							href="experiment/<?php echo $expt;?>#datasets"><?php echo $pageinfo['Experiment']; ?></a></li>
-						<li class="list-group-item"><b>Files included in the download: </b> <?php echo $distribution; ?>
+						
+						<?php }
+						?><li class="list-group-item"><b>Files included in the download: </b> <?php echo $distribution; ?>
 						<li class="list-group-item"><b>Version: </b> <?php echo $dsinfo['version']; ?></li>
 						<li class="list-group-item"><b>Creation Date: </b> <?php echo $dateCreation; ?></li>
 						<li class="list-group-item"><b>Publication Date: </b> <?php echo $datePublication; ?></li>
