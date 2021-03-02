@@ -8,6 +8,29 @@
  * @date 9/27/2018
  */
 
+
+/**
+ * Function that groups an array of associative arrays by some key.
+ *
+ * @param {String} $key Property to sort by.
+ * @param {Array} $data Array that stores multiple associative arrays.
+ * https://ourcodeworld.com/articles/read/762/how-to-group-an-array-of-associative-arrays-by-key-in-php
+ * 
+ */
+function group_by($key, $data) {
+    $result = array();
+    
+    foreach($data as $val) {
+        if(array_key_exists($key, $val)){
+            $result[$val[$key]][] = $val;
+        }else{
+            $result[""][] = $val;
+        }
+    }
+    ksort($result);
+    return $result;
+}
+
 /**
  * @brief check the input that comes from forms 
  * @param string $value : the string coming from a form or URL that needs checking

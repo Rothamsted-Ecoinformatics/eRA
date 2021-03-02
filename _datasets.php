@@ -35,32 +35,32 @@ function niceChop($text, $length)
     $next = '';
     $j = 0;
     for ($i = 0; $i < count($prestr); $i ++) {
-        
+
         $isInitial = 0;
         $sentLen = strlen($prestr[$i]);
         /* testing for single letters last word */
         if ($sentLen > 2) {
             if ($prestr[$i][$sentLen - 2] == ' ') {
                 $isInitial = 1;
-            } 
+            }
         } else {
             $isInitial = 1;
         }
 
         if ($isInitial == 1) {
-            $sents[$j] .= '. '.$prestr[$i];
+            $sents[$j] .= '. ' . $prestr[$i];
         } else {
-            $sents[$j] .= '. '.$prestr[$i];
-            $next = $desc  . $sents[$j];
+            $sents[$j] .= '. ' . $prestr[$i];
+            $next = $desc . $sents[$j];
             $j ++;
             $sents[$j] = '';
         }
 
         if (strlen($desc) > $length) {
-            
+
             break;
         } else {
-            $desc = $next ;
+            $desc = $next;
         }
         $desc = ltrim($desc, '.');
         $desc = str_replace('..', '.', $desc);
@@ -75,51 +75,58 @@ if (! $hasDatasets) {
     $list = "";
     $prefix = "10.23637/";
 
-    foreach ($datasets as $dataset) {
-        if ($dataset['UID']) {
-        $fileDataset = $exptFolder . '/' . $dataset['shortName'] . '/' . $dataset['UID'] . '.json';
-        
-        }
-        else 
-        {
-            $fileDataset = $exptFolder . '/' . $dataset['shortName'] . '/' . $dataset['shortname'] . '.json';
-            
-        }
-        $subDescription = '';
-
-        $subDescription = niceChop($dataset['description'], 200);
-
-        $id = str_replace($prefix, '', $dataset['identifier']);
-        $shortname = $dataset['shortName'];
-        $countVersions = array_count_values(array_column($datasets, 'shortName'))[$shortname];
-        if ($countVersions<10) {
-            $strCount = "0".strval($countVersions);
-        } else {
-            $strCount = strval($countVersion);
-        }
-        $info = "<div class=\"col-sm-4 py-2\">";
-        $info .= "\n	<div class=\"card  h-100 bg-light mb-3 \" >";
-        $info .= "\n	\t	<div class=\"card-header\">".$dataset['title'] . "</div>";
-        $info .= "\n	\t	<div class=\"card-body\">";
-        // $info .="\n \t <h4 class=\"card-title\">Light card title</h4>";
-        $info .= "\n	\t	\t		<small class=\"card-muted\">" . $subDescription . " <br /> " .$dataset['shortName'] . " </small>";
-        $info .= "\n	\t		</div>";
-        $info .= "\n	\t	<div class=\"card-footer\"> <a class=\"btn btn-primary stretched-link\" href=\"dataset/" . $expt . "/" . $dataset['UID'] . "\"> More ...</a></div>";
-
-        $info .= "\n	\t	</div>";
-        $info .= "\n	\t	</div>";
-        /*
-         * now if the dataset has a next version, then do not show
-         */
-
-        if ($strCount == $dataset['version'] ) {
-            $list .= $info;
-        }
-    }
+    $gpDS = group_by('dataset_type', $datasets);
+   
     
-    echo $list;
+   
+    foreach ($gpDS as $groupName => $groupedDatasets) {
+        $list .= "<div class=\"row mx-3 mb-3\"><h4>".$groupName."</h4></div>";
+        $list .= "<div class=\"row\">";
+        
+        foreach ($groupedDatasets as $dataset) {
+            if ($dataset['UID']) {
+                $fileDataset = $exptFolder . '/' . $dataset['shortName'] . '/' . $dataset['UID'] . '.json';
+            } else {
+                $fileDataset = $exptFolder . '/' . $dataset['shortName'] . '/' . $dataset['shortname'] . '.json';
+            }
+            $subDescription = '';
+
+            $subDescription = niceChop($dataset['description'], 200);
+
+            $id = str_replace($prefix, '', $dataset['identifier']);
+            $shortname = $dataset['shortName'];
+            $countVersions = array_count_values(array_column($datasets, 'shortName'))[$shortname];
+            if ($countVersions < 10) {
+                $strCount = "0" . strval($countVersions);
+            } else {
+                $strCount = strval($countVersion);
+            }
+            $info = "<div class=\"col-sm-4 py-2\">";
+            $info .= "\n	<div class=\"card  h-100 bg-light mb-3 \" >";
+            $info .= "\n	\t	<div class=\"card-header\">" . $dataset['title'] . "</div>";
+            $info .= "\n	\t	<div class=\"card-body\">";
+            // $info .="\n \t <h4 class=\"card-title\">Light card title</h4>";
+            $info .= "\n	\t	\t		<small class=\"card-muted\">" . $dataset['dataset_type'].$subDescription . " <br /> " . $dataset['shortName'] . " </small>";
+            $info .= "\n	\t		</div>";
+            $info .= "\n	\t	<div class=\"card-footer\"> <a class=\"btn btn-primary stretched-link\" href=\"dataset/" . $expt . "/" . $dataset['UID'] . "\"> More ...</a></div>";
+
+            $info .= "\n	\t	</div>";
+            $info .= "\n	\t	</div>";
+            /*
+             * now if the dataset has a next version, then do not show
+             */
+
+            if ($strCount == $dataset['version']) {
+                $list .= $info;
+            }
+        }
+        $list .= "</div>";
+    }
+
+    echo  $list;
 }
 
 ?>
+
 
 </div>
