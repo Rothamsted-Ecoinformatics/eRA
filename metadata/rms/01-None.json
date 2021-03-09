@@ -4,7 +4,7 @@
     "identifier": "10.23637/rms-MonAnnSum-2020",
     "name": "Rothamsted Met Data Monthly and Annual Summary 2020",
     "shortName": null,
-    "url": "http://www.era.rothamsted.ac.uk/metadata/met/Weather-Summary-2020.pdf",
+    "url": "http://www.era.rothamsted.ac.uk/metadata/rms/Weather-Summary-2020.pdf",
     "description": [
         {
             "inLanguage": "en",
@@ -281,7 +281,7 @@
             "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Met/monthly",
             "relatedIdentifierType": "URL",
             "name": "Rothamsted Met Data Monthly and Annual Summaries",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsCitedBy",
             "rt_id": 1,
             "relationTypeValue": "is cited by"
@@ -290,7 +290,7 @@
             "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Met/rothmet",
             "relatedIdentifierType": "URL",
             "name": "Rothamsted Met Data",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsCitedBy",
             "rt_id": 1,
             "relationTypeValue": "is cited by"
@@ -299,7 +299,7 @@
             "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Met/instrumentdescription",
             "relatedIdentifierType": "URL",
             "name": "Measurement of variables",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "Cites",
             "rt_id": 2,
             "relationTypeValue": "cites"
@@ -308,7 +308,7 @@
             "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Met/R30YrMeans8110",
             "relatedIdentifierType": "URL",
             "name": "Rothamsted 30-year means 1981-2010",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "Cites",
             "rt_id": 2,
             "relationTypeValue": "cites"
@@ -330,13 +330,6 @@
             "URL": "Weather-Summary-2020",
             "encodingFormat": "Weather-Summary-2020",
             "fileSize": "504 KB"
-        },
-        {
-            "type": "dataDownload",
-            "name": "Cover Page Weather Summary 2020",
-            "URL": "PDFcoverpageWeatherSummary2020",
-            "encodingFormat": "PDFcoverpageWeatherSummary2020",
-            "fileSize": "193 KB"
         }
     ],
     "image": [],

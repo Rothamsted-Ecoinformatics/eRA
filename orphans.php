@@ -125,11 +125,11 @@ $hasDocs = file_exists($fileDocs);
 <div id="idExpt" class="p-0 mb-0">
 			<div id="greenTitle"
 				class="d-flex  mb-3 py-3 p3-3 bg-info text-white mt-0 ">
-				<h1 class="mx-3">Extra Datasets</h1>
+				<h1 class="mx-3">Other Datasets</h1>
 			</div>
 			<div class="row">
 				<div class="col-12 pt-3">
-				<p>These datasets have been produced by the eRA team out of data from an experiment that has not yet got a Long-term experiment status</p>
+				<p>Datasets derived from other field experiments at Rothamsted (not Classical or long-term experiments)</p>
 							
       	<?php if ($hasDatasets) { include '_datasets.php'; }?>
                 							

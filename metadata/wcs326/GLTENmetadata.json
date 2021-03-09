@@ -1,10 +1,10 @@
 {
-    "id": 2529,
+    "id": 2641,
     "experiment_type_term": null,
     "experiment_id": 49,
     "people": [
         {
-            "id": 3548,
+            "id": 3772,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -19,11 +19,23 @@
             "orcid": "https://orcid.org/0000-0002-6466-4629",
             "is_contact": true,
             "role_label": "data manager"
+        },
+        {
+            "id": 3773,
+            "contacts": [],
+            "role_term": "experiment manager",
+            "title": "Dr",
+            "name": "Andy Macdonald",
+            "affiliation": "Rothamsted Research",
+            "department": "Sustainable Agricultural Sciences",
+            "orcid": null,
+            "is_contact": false,
+            "role_label": "experiment manager"
         }
     ],
     "organizations": [
         {
-            "id": 2568,
+            "id": 2663,
             "contacts": [
                 {
                     "contact_type": "URL",
@@ -37,7 +49,7 @@
             "role_label": "research organisation"
         },
         {
-            "id": 2569,
+            "id": 2664,
             "contacts": [],
             "role_term": "experimental research station",
             "name": "Woburn Experimental Farm",
@@ -48,11 +60,11 @@
     ],
     "periods": [
         {
-            "id": 3764,
+            "id": 4031,
             "design_type_term": "Randomized complete block design",
             "crops": [
                 {
-                    "id": 10548,
+                    "id": 11445,
                     "crop_term": "wheat",
                     "crop_label": "wheat",
                     "start_year": null,
@@ -62,11 +74,11 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 5961,
+                    "id": 6138,
                     "factor_term": "crop residue management exposure",
                     "levels": [
                         {
-                            "id": 16392,
+                            "id": 16710,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": null,
@@ -84,7 +96,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16393,
+                            "id": 16711,
                             "factor_variant_term": null,
                             "factor_variant_label": "normal",
                             "amount": "5",
@@ -102,7 +114,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16394,
+                            "id": 16712,
                             "factor_variant_term": null,
                             "factor_variant_label": "2 x normal",
                             "amount": "20",
@@ -120,7 +132,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16395,
+                            "id": 16713,
                             "factor_variant_term": null,
                             "factor_variant_label": "4 x normal",
                             "amount": "20",
@@ -148,7 +160,7 @@
             "measurements": [
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 10548,
+                    "crop_id": 11445,
                     "comment": null,
                     "collection_frequency": "annually",
                     "variable_label": "grain yield trait",
@@ -158,15 +170,26 @@
                     "scale": "plot"
                 },
                 {
-                    "material": "SpecifiedCrop",
-                    "crop_id": 10548,
-                    "comment": null,
-                    "collection_frequency": "annually",
-                    "variable_label": "forage yield",
-                    "variable_term": "forage yield",
-                    "unit_label": "tonnes per hectare",
-                    "unit_term": "t/ha",
+                    "material": "Soil",
+                    "crop_id": null,
+                    "comment": "Measured by LECO combustion",
+                    "collection_frequency": "occasionally",
+                    "variable_label": "total soil nitrogen",
+                    "variable_term": "total soil nitrogen",
+                    "unit_label": "Percent",
+                    "unit_term": "%",
                     "scale": "plot"
+                },
+                {
+                    "material": "Soil",
+                    "crop_id": null,
+                    "comment": "Total C by LECO combustion minus CaCO3",
+                    "collection_frequency": "occasionally",
+                    "variable_label": "soil organic carbon",
+                    "variable_term": "soil organic carbon",
+                    "unit_label": "Percent",
+                    "unit_term": "%",
+                    "scale": null
                 }
             ],
             "start_year": 1987,
@@ -190,11 +213,44 @@
     "site_type_term": "research farm",
     "site_perimeter": [],
     "site_soil_type_term": "cambisol",
-    "site_soil_properties": [],
+    "site_soil_properties": [
+        {
+            "id": 3843,
+            "variable_term": "clay content",
+            "unit_term": "%",
+            "variable_label": "clay content",
+            "min_depth": 0.0,
+            "max_depth": 23.0,
+            "depth_unit": "Centimetres",
+            "is_estimated": false,
+            "is_baseline": true,
+            "reference_year": null,
+            "typical_value": 8.0,
+            "max_value": null,
+            "min_value": null,
+            "unit_label": "Percent"
+        },
+        {
+            "id": 3844,
+            "variable_term": "soil pH",
+            "unit_term": null,
+            "variable_label": "soil pH",
+            "min_depth": 0.0,
+            "max_depth": 23.0,
+            "depth_unit": "Centimetres",
+            "is_estimated": false,
+            "is_baseline": false,
+            "reference_year": 2008,
+            "typical_value": 7.0,
+            "max_value": 6.8,
+            "min_value": 7.1,
+            "unit_label": null
+        }
+    ],
     "site_climatic_type_term": "temperate oceanic climate",
     "site_climate_properties": [
         {
-            "id": 1739,
+            "id": 1833,
             "variable_term": "precipitation",
             "unit_term": "mm",
             "variable_label": "precipitation",
@@ -206,7 +262,7 @@
             "unit_label": "millimeter"
         },
         {
-            "id": 1740,
+            "id": 1834,
             "variable_term": "air temperature",
             "unit_term": "degC",
             "variable_label": "air temperature",
@@ -240,7 +296,7 @@
             "language": "English"
         }
     ],
-    "saved_time": "2021-01-27T11:19:05.974210Z",
+    "saved_time": "2021-03-01T14:52:23.003639Z",
     "name": "Woburn Amounts of Straw",
     "local_identifier": "W/CS/326",
     "experiment_type_label": null,
@@ -266,7 +322,7 @@
     "site_slope": null,
     "site_slope_aspect": null,
     "site_visits_allowed": false,
-    "site_visiting_arrangements": null,
+    "site_visiting_arrangements": "The experiment finished in 2017 so site visits are no longer possible",
     "site_history": "Winter wheat was grown for the 3 years prior to the experiment starting",
     "site_management": "Site followed standard farm management practice for cultivation and pest control.",
     "site_soil_type_label": "cambisol",
@@ -280,7 +336,7 @@
     "data_license_label": "CC BY",
     "data_contact": null,
     "farm_operations_data": true,
-    "sample_archive": false,
-    "samples_available": false,
+    "sample_archive": true,
+    "samples_available": true,
     "data_access_statement": "Contact the e-RA curators: era@rothamsted.ac.uk"
 }

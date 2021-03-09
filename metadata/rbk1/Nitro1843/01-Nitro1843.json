@@ -14,32 +14,32 @@
         {
             "inLanguage": "en",
             "descriptionType": "Methods",
-            "description": "Soil total N % has been measured at intervals since 1865. Data is mean of sections 1, 6 and 9, continuous winter wheat (except for occasional fallow), from six selected plots (3, 5, 8, 2,1, 2,2 and 1). The starting values in 1843 and the later FYM treatments have been estimated."
+            "description": "Soil total N % has been measured at intervals since 1865. Data is mean of sections 1, 6 and 9, continuous winter wheat (except for occasional fallow), from six selected plots (3, 5, 8, 2.1, 2.2 and 1). The starting values in 1843 and the later FYM treatments have been estimated. The sections were regularly fallowed from 1926 to 1967, FYM was not applied in fallow years (shown as dashes in the figure).  Lime (chalk) has been applied since the 1950s to maintain soil pH at a level which does not limit yield. Herbicides were introduced in 1964; previously weeds were controlled by cultivation or fallowing. Modern high-yielding cultivars have been used since 1968. Spring and summer fungicides have been applied as necessary since 1978."
         },
         {
             "inLanguage": "en",
             "descriptionType": "TableOfContents",
-            "description": "Soil %N from the following plots:\r\nPlot 3 - nil, no fertilizer or manure since 1852\r\nPlot 5 - PKMg applied since 1852 \r\nPlot 8 - PKMg + 144 kg N/ha since 1852 \r\nPlot 2.2 - 35 t/ha since 1843\r\nPlot 2.1 - 35t/ha since 1885 + 96 kgN/ha since 1968\r\nPlot 1 -"
+            "description": "Soil %N from the following plots:\r\n- **Plot 3:** no fertilizer or manure since 1852\r\n- **Plot 5:** PKMg since 1852 \r\n- **Plot 8:** PKMg + 144 kg N since 1852 \r\n- **Plot 2.2:** 35t FYM since 1843\r\n- **Plot 2.1:** 35t FYM since 1885 + 96 kgN since 1968\r\n- **Plot 1:**  35t FYM +NPK 1968-2000; 192kgN only since 2001"
         },
         {
             "inLanguage": "en",
             "descriptionType": "TechnicalInfo",
-            "description": "Soil samples taken in 1881, 1893, 1914, 1936 and 1944 were re-analysed in 2001-4 for Total N by combustion (LECO). Data in 1865 are the original Soda Lime analyses from Dyer (1902), corrected to be equivalent to LECO. Data for 1966 and 1987 are by Kjeldahl analysis for Total N. Data for 1992, 1997, 2000, 2005 and 2010 are by combustion (LECO)."
+            "description": "Soil samples taken in 1881, 1893, 1914, 1936 and 1944 were re-analysed in 2001-4 for Total N by combustion (LECO). Data in 1865 are the original Soda Lime analyses from Dyer (1902), corrected to be equivalent to LECO. Data for 1966 and 1987 are by Kjeldahl analysis for Total N. Data for 1992 onwards are Total N  by combustion (LECO)."
         },
         {
             "inLanguage": "en",
             "descriptionType": "Other",
-            "description": "Broadbalk has also been used to investigate the fate of 15N-labelled fertilizer applied to wheat (Powlson et al, 1986; Shen et al, 1989), the long-term effects of N fertilizer on soil N (Glendining et al, 1996) and nitrate leaching (Goulding et al 2000)."
+            "description": "Broadbalk has also been used to investigate the fate of 15N-labelled fertilizer applied to wheat (Powlson et al, 1986; Shen et al, 1989), the long-term effects of N fertilizer on soil N (Glendining et al, 1996),  nitrate leaching (Goulding et al 2000) and the turnover of C and N in the soil (Jenkinson, 1990), see Key References."
         },
         {
             "inLanguage": "en",
             "descriptionType": "Provenance",
-            "description": "This  data is derived from measurements made at Rothamsted Research, Harpenden. The data presented is mean data from selected plots and sections only. The complete data set, including the raw data used to derive the mean values, is available from the e-RA curators."
+            "description": "This  dataset is derived from measurements made by the Analytical Chemistry Unit, Rothamsted Research, Harpenden. The data presented is mean data from selected plots and sections only. The complete data set, including the raw data used to derive the mean values, is available from the e-RA curators."
         },
         {
             "inLanguage": "en",
             "descriptionType": "Quality",
-            "description": "Most of the chemical analysis was carried out by the Rothamsted Research Analytical Unit, which has rigorous systems of standards and checking of samples to ensure quality control."
+            "description": "The Analytical Chemistry Unit follows the Joint Code of Practice (JCoPR) and participates in European Quality Assurance programmes. All performance is strictly monitored using certified external standards alongside in-house standard materials. Standards and check samples are monitored and recorded."
         }
     ],
     "publisher": {
@@ -63,66 +63,6 @@
     ],
     "creator": [
         {
-            "type": "Person",
-            "Name": "Margaret Glendining",
-            "givenName": "Margaret",
-            "familyName": "Glendining",
-            "sameAs": "https://orcid.org/0000-0002-6466-4629",
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
-                "addressLocality": "Harpenden",
-                "addressRegion": "Hertfordshire",
-                "postalCode": "AL5 2JQ",
-                "addressCountry": "United Kingdom"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Computational and Analytical Sciences, Rothamsted Research",
-                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
-            }
-        },
-        {
-            "type": "Person",
-            "Name": "Andrew Macdonald",
-            "givenName": "Andrew",
-            "familyName": "Macdonald",
-            "sameAs": "https://orcid.org/0000-0002-1785-4892",
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
-                "addressLocality": "Harpenden",
-                "addressRegion": "Hertfordshire",
-                "postalCode": "AL5 2JQ",
-                "addressCountry": "United Kingdom"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
-                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
-            }
-        },
-        {
-            "type": "Person",
-            "Name": "Paul Poulton",
-            "givenName": "Paul",
-            "familyName": "Poulton",
-            "sameAs": "https://orcid.org/0000-0002-5720-064X",
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
-                "addressLocality": "Harpenden",
-                "addressRegion": "Hertfordshire",
-                "postalCode": "AL5 2JQ",
-                "addressCountry": "United Kingdom"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
-                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
-            }
-        },
-        {
             "type": "organization",
             "name": "Rothamsted Research"
         }
@@ -135,48 +75,6 @@
             "givenName": "Margaret",
             "familyName": "Glendining",
             "sameAs": "https://orcid.org/0000-0002-6466-4629",
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
-                "addressLocality": "Harpenden",
-                "addressRegion": "Hertfordshire",
-                "postalCode": "AL5 2JQ",
-                "addressCountry": "United Kingdom"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Computational and Analytical Sciences, Rothamsted Research",
-                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
-            }
-        },
-        {
-            "type": "Person",
-            "jobTitle": "DataCurator",
-            "name": "Sarah Perryman",
-            "givenName": "Sarah",
-            "familyName": "Perryman",
-            "sameAs": "https://orcid.org/0000-0002-0056-2754",
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
-                "addressLocality": "Harpenden",
-                "addressRegion": "Hertfordshire",
-                "postalCode": "AL5 2JQ",
-                "addressCountry": "United Kingdom"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Computational and Analytical Sciences, Rothamsted Research",
-                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
-            }
-        },
-        {
-            "type": "Person",
-            "jobTitle": "DataManager",
-            "name": "Nathalie Castells-Brooke",
-            "givenName": "Nathalie",
-            "familyName": "Castells-Brooke",
-            "sameAs": "https://orcid.org/0000-0003-0168-6254",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
@@ -232,6 +130,69 @@
                 "name": "Sustainable Agricultural Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells-Brooke",
+            "givenName": "Nathalie",
+            "familyName": "Castells-Brooke",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Ruth Skilton",
+            "givenName": "Ruth",
+            "familyName": "Skilton",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
         }
     ],
     "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
@@ -254,7 +215,17 @@
         },
         "name": "Broadbalk"
     },
-    "relatedIdentifier": [],
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "https://doi.org/10.23637/KeyRefOABKsoc.",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk soil organic carbon content.",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        }
+    ],
     "funder": [
         {
             "type": "organization",
@@ -264,8 +235,38 @@
             "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F000J0300"
         }
     ],
-    "distribution": [],
-    "image": [],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Long-term changes in soil nitrogen concentration figure",
+            "URL": "BroadbalkSoilNFig.pdf",
+            "encodingFormat": "pdf",
+            "fileSize": "189 KB"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Broadbalk Soil total N data",
+            "URL": "BroadbalkSoilNdata.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "28 KB"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Broadbalk Soil total N treatment details",
+            "URL": "BroadbalkSoilNtreatments.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "27 KB"
+        }
+    ],
+    "image": [
+        {
+            "type": "imageObject",
+            "caption": "Long-term changes in soil nitrogen concentration figure",
+            "URL": "BroadbalkSoilN.png",
+            "encodingFormat": "png",
+            "fileSize": "73 KB"
+        }
+    ],
     "grade": 3,
     "dstype": "OA"
 }

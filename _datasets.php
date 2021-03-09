@@ -74,12 +74,14 @@ if (! $hasDatasets) {
 } else {
     $list = "";
     $prefix = "10.23637/";
-
+    /* 
+     * 
+     * the function group_by then also sort them
+     */
     $gpDS = group_by('dataset_type', $datasets);
-   
-    
-   
+     
     foreach ($gpDS as $groupName => $groupedDatasets) {
+        
         $list .= "<div class=\"row mx-3 mb-3\"><h4>".$groupName."</h4></div>";
         $list .= "<div class=\"row\">";
         

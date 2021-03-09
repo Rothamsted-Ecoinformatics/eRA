@@ -234,8 +234,8 @@
         {
             "relatedIdentifier": "http://www.era.rothamsted.ac.uk/open_access",
             "relatedIdentifierType": "URL",
-            "name": "Not in the Database",
-            "relatedIdentifierGeneralType": "text",
+            "name": null,
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsCitedBy",
             "rt_id": 1,
             "relationTypeValue": "is cited by"

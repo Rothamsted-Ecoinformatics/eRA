@@ -5,9 +5,9 @@
         "type": "research station field",
         "doi": null,
         "visitsAllowed": "No",
-        "visitingArrangements": null,
+        "visitingArrangements": "The experiment was finished in 2017, so it is no longer possible to visit the site.",
         "description": "Winter wheat was grown for the 3 years prior to the experiment starting",
-        "management": null
+        "management": "Fertiliser, lime and pest control according to standard farm practice."
     },
     "location": {
         "addressLocality": "Harpenden",
@@ -26,12 +26,43 @@
     },
     "soil": {
         "soilTypeLabel": "luvisol",
-        "soilDescription": "Moderately well-drained flinty silty clay loam of the Batcombe and related series."
+        "soilDescription": "Moderately well-drained flinty silty clay loam of the Batcombe and related series. Aquic Paleudalf in the USDA classification."
     },
-    "soilProperty": [],
+    "soilProperty": [
+        {
+            "variableMeasured": "clay content",
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": null,
+            "minValue": 22.0,
+            "maxValue": 24.0,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 23.0,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": null,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "soil pH",
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 7.63,
+            "minValue": 7.34,
+            "maxValue": 7.83,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 23.0,
+            "unitCode": null,
+            "unitText": null,
+            "refYear": 2008,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        }
+    ],
     "climate": {
         "name": "temperate oceanic climate",
-        "description": "Moderately well-drained flinty silty clay loam of the Batcombe and related series.",
+        "description": "Moderately well-drained flinty silty clay loam of the Batcombe and related series. Aquic Paleudalf in the USDA classification.",
         "weatherStation": {
             "weatherStationID": "NOT IN GLTEN",
             "name": "NOT IN GLTEN",

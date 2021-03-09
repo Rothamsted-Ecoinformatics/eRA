@@ -50,6 +50,26 @@
     ],
     "creator": [
         {
+            "type": "Person",
+            "Name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
             "type": "organization",
             "name": "Rothamsted Research"
         }
@@ -99,7 +119,7 @@
         },
         {
             "type": "Person",
-            "jobTitle": "ProjectManager",
+            "jobTitle": "ProjectLeader",
             "name": "Richard Ostler",
             "givenName": "Richard",
             "familyName": "Ostler",
@@ -120,7 +140,7 @@
         },
         {
             "type": "Person",
-            "jobTitle": "ProjectMember",
+            "jobTitle": "DataManager",
             "name": "Nathalie Castells-Brooke",
             "givenName": "Nathalie",
             "familyName": "Castells-Brooke",
@@ -165,7 +185,7 @@
             "relatedIdentifier": "10.23637/ERADOC-1-68",
             "relatedIdentifierType": "DOI",
             "name": "Soil Fumigation \u2026 in Rothamsted Report for 1936 - p 211",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
             "relationTypeValue": "is described by"

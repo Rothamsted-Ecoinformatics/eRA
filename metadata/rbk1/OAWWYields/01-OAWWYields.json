@@ -9,7 +9,7 @@
         {
             "inLanguage": "en",
             "descriptionType": "Abstract",
-            "description": "This summary figure shows the mean long-term winter wheat yields from selected treatments on Broadbalk 1852-2016. These changes in mean long-term winter wheat yields reflect the improved treatments and agronomic practices introduced on Broadbalk such as modern cultivars, better control of pests, diseases and weeds, especially since the 1960s. To control weeds, the experiment was divided into five sections in the 1920s and one section bare fallowed each year. The introduction of herbicides removed the need for fallowing. Yields of continuous wheat given no fertilizer or manure have remained at around 1 t ha-1. In 1968 a rotation was introduced on part of the experiment, so that it is now possible to compare the yields of wheat grown continuously and as the first wheat after a two-year break. Since 1979 summer fungicides have been used, which has allowed us to exploit the greater grain yield potential of modern cultivars. From 1985, two higher N rates have been tested, 240 and 288 kg N ha -1. The highest yields are now from the first wheat crop in rotation, with the greatest yields from fertilizer alone exceeding those from FYM alone, and the combination of FYM + 96 kgN ha-1 (144 kgN ha-1 since 2005) often exceeding both. The largest annual wheat yields on Broadbalk (>13 t ha-1) were recorded in 2014, following the change in variety from Hereward to Crusoe. The greatest yields were not always achieved with the highest N rate. The figure shows the mean greatest first wheat yields achieved from the NPK treatments, receiving up to a maximum of 288 kg N ha-1 (a maximum of 192 kg N ha-1 from 1968-1984)."
+            "description": "Mean long-term winter wheat yields from selected treatments on Broadbalk 1852-2016, reflecting the improved treatments and agronomic practices introduced on Broadbalk such as modern cultivars, better control of pests, diseases and weeds, especially since the 1960s. To control weeds, the experiment was divided into five sections in the 1920s and one section bare fallowed each year. The introduction of herbicides removed the need for fallowing. Yields of continuous wheat given no fertilizer or manure have remained at around 1 t ha-1. In 1968 a rotation was introduced on part of the experiment, so that it is now possible to compare the yields of wheat grown continuously and as the first wheat after a two-year break. Since 1979 summer fungicides have been used, which has allowed us to exploit the greater grain yield potential of modern cultivars. From 1985, two higher N rates have been tested, 240 and 288 kg N ha -1. The highest yields are now from the first wheat crop in rotation, with the greatest yields from fertilizer alone exceeding those from FYM alone, and the combination of FYM + 96 kgN ha-1 (144 kgN ha-1 since 2005) often exceeding both. The largest annual wheat yields on Broadbalk (>13 t ha-1) were recorded in 2014, following the change in variety from Hereward to Crusoe. The greatest yields were not always achieved with the highest N rate. The figure shows the mean greatest first wheat yields achieved from the NPK treatments, receiving up to a maximum of 288 kg N ha-1 (a maximum of 192 kg N ha-1 from 1968-1984)."
         },
         {
             "inLanguage": "en",
@@ -113,7 +113,7 @@
         },
         {
             "type": "Person",
-            "jobTitle": "RelatedPerson",
+            "jobTitle": "DataManager",
             "name": "Nathalie Castells-Brooke",
             "givenName": "Nathalie",
             "familyName": "Castells-Brooke",
@@ -129,6 +129,48 @@
             "affiliation": {
                 "type": "Organization",
                 "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectLeader",
+            "name": "Andrew Macdonald",
+            "givenName": "Andrew",
+            "familyName": "Macdonald",
+            "sameAs": "https://orcid.org/0000-0002-1785-4892",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
         }
@@ -158,7 +200,7 @@
             "relatedIdentifier": "10.23637/rbk1-1796346264-1",
             "relatedIdentifierType": "DOI",
             "name": "BKYIELD: Broadbalk wheat grain and straw yields 1844-1925",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Dataset",
             "relationType": "IsDerivedFrom",
             "rt_id": 28,
             "relationTypeValue": "is derived from"

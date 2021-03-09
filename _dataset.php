@@ -103,7 +103,17 @@ if ($hasDocuments == 1) {
 if ($hasDatasets == 1) {
     echo $relDatasets;
 }
+
+if ($hasVersion == 1) {
+    echo $otherVersions;
+}
+
+if ($hasCT == 1) {
+    echo  $tblContributors ;
+}
 ?>	
+			
+			
 			<h3>Dataset Access and Conditions</h3>
 			<h5>Rights Holder</h5>
 			<p>Rothamsted Research</p>

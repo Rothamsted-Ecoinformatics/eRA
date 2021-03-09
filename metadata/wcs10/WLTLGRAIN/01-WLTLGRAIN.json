@@ -305,7 +305,7 @@
             "relatedIdentifier": "10.1016/j.eja.2019.02.016",
             "relatedIdentifierType": "DOI",
             "name": "Holland et al, 2019. Paper describing yield response of all crops 1962-1996.",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
             "relationTypeValue": "is described by"
@@ -314,7 +314,7 @@
             "relatedIdentifier": "10.23637/wcs10-Plans",
             "relatedIdentifierType": "DOI",
             "name": "Woburn long-term liming experiment plans 1962-1996",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
             "relationTypeValue": "is described by"
@@ -323,7 +323,7 @@
             "relatedIdentifier": "10.23637/wcs10-Treatments-01",
             "relatedIdentifierType": "DOI",
             "name": "Woburn long-term liming experiments lime and fertilizer treatments 1962-1996",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
             "relationTypeValue": "is described by"
@@ -332,7 +332,7 @@
             "relatedIdentifier": "10.23637/wcs10-wltlyields-01",
             "relatedIdentifierType": "DOI",
             "name": "Woburn long-term liming experiment crop yields 1962-1996",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Dataset",
             "relationType": "IsSupplementedBy",
             "rt_id": 4,
             "relationTypeValue": "is supplemented by"

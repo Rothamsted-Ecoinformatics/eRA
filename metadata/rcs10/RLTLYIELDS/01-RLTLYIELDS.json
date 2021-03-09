@@ -260,8 +260,8 @@
         {
             "relatedIdentifier": "10.23637/rcs10-Plans",
             "relatedIdentifierType": "DOI",
-            "name": "Rothamsted long-term liming experiment plans",
-            "relatedIdentifierGeneralType": "text",
+            "name": "Rothamsted long-term liming experiment plans 1962-1996",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
             "relationTypeValue": "is described by"
@@ -270,7 +270,7 @@
             "relatedIdentifier": "10.23637/ERADOC-1-34802",
             "relatedIdentifierType": "DOI",
             "name": "Bolton, 1971. Paper describing setting up the experiment",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
             "relationTypeValue": "is described by"
@@ -279,7 +279,7 @@
             "relatedIdentifier": "10.1017/S0021859600027222",
             "relatedIdentifierType": "DOI",
             "name": "Bolton, 1977. Paper describing early results",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
             "relationTypeValue": "is described by"
@@ -288,7 +288,7 @@
             "relatedIdentifier": "10.1016/j.eja.2019.02.016",
             "relatedIdentifierType": "DOI",
             "name": "Holland et al, 2019. Paper describing yield response of all crops 1962-1996.",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
             "relationTypeValue": "is described by"
@@ -296,8 +296,8 @@
         {
             "relatedIdentifier": "10.23637/wcs10-wltlyields-01",
             "relatedIdentifierType": "DOI",
-            "name": "Woburn long-term liming experiment yields",
-            "relatedIdentifierGeneralType": "text",
+            "name": "Woburn long-term liming experiment crop yields 1962-1996",
+            "relatedIdentifierGeneralType": "Dataset",
             "relationType": "IsSupplementedBy",
             "rt_id": 4,
             "relationTypeValue": "is supplemented by"
@@ -305,8 +305,8 @@
         {
             "relatedIdentifier": "10.23637/rcs10-rltlyields-01",
             "relatedIdentifierType": "DOI",
-            "name": "Rothamsted long-term liming experiment crop yields 1962-1996",
-            "relatedIdentifierGeneralType": "text",
+            "name": "Rothamsted long-term liming experiment crop yield 1962-1996",
+            "relatedIdentifierGeneralType": "Dataset",
             "relationType": "IsSupplementTo",
             "rt_id": 3,
             "relationTypeValue": "is supplement to"
@@ -315,7 +315,7 @@
             "relatedIdentifier": "10.23637/rcs10-Treatments-01",
             "relatedIdentifierType": "DOI",
             "name": "Rothamsted long-term liming experiments lime and fertilizer treatments 1962-1996",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
             "relationTypeValue": "is described by"

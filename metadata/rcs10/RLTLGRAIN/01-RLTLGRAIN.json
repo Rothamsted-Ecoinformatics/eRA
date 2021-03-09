@@ -278,6 +278,69 @@
                 "name": "Sustainable Agricultural Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Mark Durenkamp",
+            "givenName": "Mark",
+            "familyName": "Durenkamp",
+            "sameAs": "https://orcid.org/0000-0002-2195-1855",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Chloe Garwood",
+            "givenName": "Chloe",
+            "familyName": "Garwood",
+            "sameAs": "https://orcid.org/0000-0002-2831-6854",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Ruth Skilton",
+            "givenName": "Ruth",
+            "familyName": "Skilton",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
         }
     ],
     "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
@@ -305,7 +368,7 @@
             "relatedIdentifier": "10.1016/j.eja.2019.02.016",
             "relatedIdentifierType": "DOI",
             "name": "Holland et al, 2019. Paper describing yield response of all crops 1962-1996.",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
             "relationTypeValue": "is described by"
@@ -314,7 +377,7 @@
             "relatedIdentifier": "10.23637/rcs10-Plans",
             "relatedIdentifierType": "DOI",
             "name": "Rothamsted long-term liming experiment plans 1962-1996",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
             "relationTypeValue": "is described by"
@@ -323,7 +386,7 @@
             "relatedIdentifier": "10.23637/rcs10-Treatments-01",
             "relatedIdentifierType": "DOI",
             "name": "Rothamsted long-term liming experiments lime and fertilizer treatments 1962-1996",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
             "relationTypeValue": "is described by"

@@ -22,7 +22,7 @@
         },
         "crops": [
             {
-                "id": 6858,
+                "id": 11482,
                 "name": "grass",
                 "sameAs": "grass",
                 "dateStart": null,
@@ -32,14 +32,14 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 3726,
+                "id": 6278,
                 "name": "nitrogen fertilizer exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 11327,
+                        "id": 17000,
                         "name": "N1",
                         "amount": "52",
                         "unitCode": "kgN/ha",
@@ -53,7 +53,7 @@
                         "notes": null
                     },
                     {
-                        "id": 11328,
+                        "id": 17001,
                         "name": "N2",
                         "amount": "104",
                         "unitCode": "kgN/ha",
@@ -67,7 +67,7 @@
                         "notes": null
                     },
                     {
-                        "id": 11329,
+                        "id": 17002,
                         "name": "N3",
                         "amount": "156",
                         "unitCode": "kgN/ha",
@@ -81,7 +81,7 @@
                         "notes": null
                     },
                     {
-                        "id": 11330,
+                        "id": 17003,
                         "name": "N1*",
                         "amount": "52",
                         "unitCode": "kgN/ha",
@@ -95,7 +95,7 @@
                         "notes": null
                     },
                     {
-                        "id": 11331,
+                        "id": 17004,
                         "name": "N2*",
                         "amount": "104",
                         "unitCode": "kgN/ha",
@@ -111,14 +111,14 @@
                 ]
             },
             {
-                "id": 3727,
+                "id": 6279,
                 "name": "natural fertilizer exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 11332,
+                        "id": 17005,
                         "name": "farmyard manure",
                         "amount": null,
                         "unitCode": null,
@@ -132,7 +132,7 @@
                         "notes": null
                     },
                     {
-                        "id": 11333,
+                        "id": 17006,
                         "name": "fish meal",
                         "amount": null,
                         "unitCode": null,
@@ -148,14 +148,14 @@
                 ]
             },
             {
-                "id": 3728,
+                "id": 6280,
                 "name": "superphosphate exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 11334,
+                        "id": 17007,
                         "name": "P",
                         "amount": "36",
                         "unitCode": "kgP/ha",
@@ -171,14 +171,14 @@
                 ]
             },
             {
-                "id": 3729,
+                "id": 6281,
                 "name": "potassium fertilizer exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 11335,
+                        "id": 17008,
                         "name": "K",
                         "amount": "242",
                         "unitCode": "kgK/ha",
@@ -194,14 +194,14 @@
                 ]
             },
             {
-                "id": 3730,
+                "id": 6282,
                 "name": "sodium nutrient exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 11336,
+                        "id": 17009,
                         "name": "Na",
                         "amount": "17",
                         "unitCode": "kgNa/ha",
@@ -217,14 +217,14 @@
                 ]
             },
             {
-                "id": 3731,
+                "id": 6283,
                 "name": "magnesium nutrient exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 11337,
+                        "id": 17010,
                         "name": "Mg",
                         "amount": "12",
                         "unitCode": "kgMg/ha",
@@ -266,7 +266,7 @@
         },
         "crops": [
             {
-                "id": 6859,
+                "id": 11483,
                 "name": "grass",
                 "sameAs": "grass",
                 "dateStart": null,
@@ -301,7 +301,7 @@
         },
         "crops": [
             {
-                "id": 6860,
+                "id": 11484,
                 "name": "grass",
                 "sameAs": "grass",
                 "dateStart": null,
@@ -309,8 +309,356 @@
             }
         ],
         "cropRotations": "NA",
-        "factor": "NA",
+        "factor": [
+            {
+                "id": 6284,
+                "name": "nitrogen fertilizer exposure",
+                "description": "applied in spring",
+                "effect": "",
+                "plotApplication": null,
+                "level": [
+                    {
+                        "id": 17011,
+                        "name": "N1",
+                        "amount": "48",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "ammonium sulfate",
+                        "notes": null
+                    },
+                    {
+                        "id": 17012,
+                        "name": "N2",
+                        "amount": "96",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "ammonium sulfate",
+                        "notes": null
+                    },
+                    {
+                        "id": 17013,
+                        "name": "N3",
+                        "amount": "144",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "ammonium sulfate",
+                        "notes": null
+                    },
+                    {
+                        "id": 17014,
+                        "name": "N*1",
+                        "amount": "48",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "ammonium nitrate",
+                        "notes": null
+                    },
+                    {
+                        "id": 17015,
+                        "name": "N*2",
+                        "amount": "96",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "ammonium nitrate",
+                        "notes": null
+                    },
+                    {
+                        "id": 17016,
+                        "name": "N*3",
+                        "amount": "144",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "ammonium nitrate",
+                        "notes": null
+                    },
+                    {
+                        "id": 17017,
+                        "name": "(N2)",
+                        "amount": "96",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": 1989,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "ammonium sulfate",
+                        "notes": null
+                    },
+                    {
+                        "id": 17018,
+                        "name": "(N*2)",
+                        "amount": "96",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": 1989,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "ammonium nitrate",
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 6285,
+                "name": "natural fertilizer exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": null,
+                "level": [
+                    {
+                        "id": 17019,
+                        "name": "farmyard manure",
+                        "amount": "35",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": "applied every fourth year",
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "supplies c.240 kg N"
+                    },
+                    {
+                        "id": 17020,
+                        "name": "pelleted poultry manure",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "replaced fish meal in 2003; supplies c.65 kg N"
+                    }
+                ]
+            },
+            {
+                "id": 6286,
+                "name": "superphosphate exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": null,
+                "level": [
+                    {
+                        "id": 17021,
+                        "name": "P",
+                        "amount": "17",
+                        "unitCode": "kgP/ha",
+                        "unitText": "kg phosphorous per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": "applied in winter",
+                        "method": null,
+                        "chemicalForm": "triple superphosphate",
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 6287,
+                "name": "potassium fertilizer exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": null,
+                "level": [
+                    {
+                        "id": 17022,
+                        "name": "P",
+                        "amount": "17",
+                        "unitCode": "kgK/ha",
+                        "unitText": "kg potassium per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": "applied in winter",
+                        "method": null,
+                        "chemicalForm": "potassium sulphate",
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 6288,
+                "name": "sodium nutrient exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": null,
+                "level": [
+                    {
+                        "id": 17023,
+                        "name": "Na",
+                        "amount": "15",
+                        "unitCode": "kgNa/ha",
+                        "unitText": "kg sodium per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": "applied in winter",
+                        "method": null,
+                        "chemicalForm": "sodium sulphate",
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 6289,
+                "name": "magnesium nutrient exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": null,
+                "level": [
+                    {
+                        "id": 17024,
+                        "name": "Mg",
+                        "amount": "10",
+                        "unitCode": "kgMg/ha",
+                        "unitText": "kg magnesium per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": "applied in winter",
+                        "method": null,
+                        "chemicalForm": "magnesium sulphate",
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 6290,
+                "name": "silicon nutrient exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": null,
+                "level": [
+                    {
+                        "id": 17025,
+                        "name": "Si",
+                        "amount": "450",
+                        "unitCode": null,
+                        "unitText": "kg",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": "applied in winter",
+                        "method": null,
+                        "chemicalForm": "sodium silicate",
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 6291,
+                "name": "liming exposure",
+                "description": "ground chalk applied as necessary to maintain soil at pH 7,6 and 5 on sub plots a, b and c",
+                "effect": "",
+                "plotApplication": null,
+                "level": [
+                    {
+                        "id": 17026,
+                        "name": "lime",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": "applied every third year",
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "sub-plot d does not receive any chalk"
+                    }
+                ]
+            }
+        ],
         "factorCombinations": "NA",
-        "measurements": "NA"
+        "measurements": [
+            {
+                "variable": "yield components",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": "two cuts per year",
+                "scale": null,
+                "material": "SpecifiedCrop",
+                "description": "every year from 1856 - present",
+                "crop": 11484
+            },
+            {
+                "variable": "botanical composition",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": "variable",
+                "scale": null,
+                "material": null,
+                "description": "complete separations of hay selected years 1862-1976; partial separations of hay 1862-1976; complete species botanical surveys 1991-2000",
+                "crop": null
+            },
+            {
+                "variable": "soil total carbon",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": "variable",
+                "scale": null,
+                "material": null,
+                "description": "data available for 1876, 1886, 1932, 1959, 1966, 1985, 1991",
+                "crop": null
+            },
+            {
+                "variable": "total soil nitrogen",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": "variable",
+                "scale": null,
+                "material": null,
+                "description": "data available for 1876, 1886, 1913, 1932, 1959, 1966, 1985, 1991",
+                "crop": null
+            },
+            {
+                "variable": "soil pH",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": "variable",
+                "scale": null,
+                "material": null,
+                "description": "data available for 1876, 1923, 1959, 1967, 1970, 1971, 1974, 1975, 1977, 1979, 1984, 1991, 1995, 1998, 2002, 2005, 2008, 2011, 2014",
+                "crop": null
+            }
+        ]
     }
 ]

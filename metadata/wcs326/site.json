@@ -5,7 +5,7 @@
         "type": "research farm",
         "doi": null,
         "visitsAllowed": "No",
-        "visitingArrangements": null,
+        "visitingArrangements": "The experiment finished in 2017 so site visits are no longer possible",
         "description": "Winter wheat was grown for the 3 years prior to the experiment starting",
         "management": "Site followed standard farm management practice for cultivation and pest control."
     },
@@ -28,7 +28,38 @@
         "soilTypeLabel": "cambisol",
         "soilDescription": "Well drained sandy loam soil of the Lowlands Series."
     },
-    "soilProperty": [],
+    "soilProperty": [
+        {
+            "variableMeasured": "clay content",
+            "isEstimated": false,
+            "isBaseline": true,
+            "valueReference": 8.0,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 23.0,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": null,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "soil pH",
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 7.0,
+            "minValue": 7.1,
+            "maxValue": 6.8,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 23.0,
+            "unitCode": null,
+            "unitText": null,
+            "refYear": 2008,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        }
+    ],
     "climate": {
         "name": "temperate oceanic climate",
         "description": "Well drained sandy loam soil of the Lowlands Series.",

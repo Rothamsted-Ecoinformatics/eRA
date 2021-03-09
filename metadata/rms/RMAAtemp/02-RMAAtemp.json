@@ -103,16 +103,12 @@
                 "name": "Sustainable Agricultural Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
-        },
-        {
-            "type": "organization",
-            "name": "Rothamsted Research"
         }
     ],
     "contributor": [
         {
             "type": "Person",
-            "jobTitle": "DataManager",
+            "jobTitle": "DataCurator",
             "name": "Sarah Perryman",
             "givenName": "Sarah",
             "familyName": "Perryman",
@@ -283,7 +279,7 @@
             "relatedIdentifier": "10.23637/ROTHAMSTED-LONG-TERM-EXPERIMENTS-GUIDE-2018",
             "relatedIdentifierType": "DOI",
             "name": "Macdonald, A. Guide to the Classical and Other Long-term Experiments (2018)",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
             "relationTypeValue": "is described by"
@@ -292,7 +288,7 @@
             "relatedIdentifier": "10.23637/ecn-rothamsted-booklet-2015",
             "relatedIdentifierType": "DOI",
             "name": "Scott, T. The U.K. Environmental Change Network Rothamsted. The First 20 Years (2015)",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
             "relationTypeValue": "is described by"
@@ -301,7 +297,7 @@
             "relatedIdentifier": "10.1016/j.biocon.2009.07.004",
             "relatedIdentifierType": "DOI",
             "name": "Morecroft, M.D. et al. The UK Environmental Change Network: Emerging Trends (2009)",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
             "relationTypeValue": "is referenced by"
@@ -310,7 +306,7 @@
             "relatedIdentifier": "10.23637/ERADOC-1-8",
             "relatedIdentifierType": "DOI",
             "name": "Penman, H. L. Rothamsted Weather (1974)",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
             "relationTypeValue": "is referenced by"
@@ -319,7 +315,7 @@
             "relatedIdentifier": "10.23637/ERADOC-1-2",
             "relatedIdentifierType": "DOI",
             "name": "Yates, F. The Broadbalk Yields: Investigations into the Effects of Weather on Yields (1969)",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
             "relationTypeValue": "is referenced by"
@@ -328,7 +324,7 @@
             "relatedIdentifier": "10.23637/KeyRefOARESmatemp",
             "relatedIdentifierType": "DOI",
             "name": "Annual Mean Air Temperature at Rothamsted 1878-2013",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Dataset",
             "relationType": "IsNewVersionOf",
             "rt_id": 13,
             "relationTypeValue": "is new version of"
@@ -337,7 +333,7 @@
             "relatedIdentifier": "10.23637/rms-RMAAtempanomaly-1",
             "relatedIdentifierType": "DOI",
             "name": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Dataset",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
             "relationTypeValue": "is referenced by"

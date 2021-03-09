@@ -1,0 +1,123 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/KeyRefOABKWoc",
+    "name": "Broadbalk Wilderness accumulation of organic carbon",
+    "shortName": "BKWoc",
+    "url": "http://www.era.rothamsted.ac.uk/Wilderness/wilderness_open_access_broadbalk_oc",
+    "description": [
+        {
+            "inLanguage": "en",
+            "descriptionType": "Abstract",
+            "description": "This selected data is from work published in Poulton et al. (2003). \r\nThe accumulation of organic carbon in soil and tree biomass has been measured on two contrasting sites at Rothamsted that were fenced off in the 1880s and left to revert naturally to woodland. Broadbalk, on calcareous soil, and Geescroft Wilderness, on acidic soil. Previously, both sites had been in arable cultivation for centuries.\r\n\r\nThe Broadbalk site was part of the Broadbalk wheat experiment, and had grown unmanured winter wheat since autumn 1843. Large amounts of chalk had been applied to the soil in the late 18th - early 19th centuries, and the surface soil pH is still neutral (pH 7.7 in 1999). The site is small (0.2ha). It was previously a long-term arable site, and was allowed to naturally regenerate to deciduous woodland following abandonment of arable cropping. The last wheat crop was sown in autumn 1881, but not harvested. In 1882, the site was then fenced off, left uncultivated and unharvested. No fertilizer or manure were applied. In 1900 it was divided into two halves: one half remained untouched (regenerating woodland). The other half had all woody species removed annually (stubbed), to allow open ground vegetation to develop. In 1957 the stubbed section was divided into two, one half remains as 'stubbed', the other half was mown for three years, grazed by sheep each year from 1960-2000, mown since 2001 (herbage not removed). Data for 'stubbed' and grassland areas is not shown, but is available on request from the e-RA curators.\r\n\r\nBroadbalk Wilderness is now dominated by ash (Fraxinus excelsior), with sycamore (Acer pseudoplatanus) and hawthorn (Craetagus monogyna); in contrast, the acidic Geescroft Wilderness is now a deciduous wood dominated by oak (Quercus robur).\r\n\r\nThe figure shows the accumulation of organic carbon in the soil and in tree root and above-ground biomass in the Broadbalk Wilderness, 1881-1999. The soil has been sampled to an equivalent depth of 69cm (see Poulton et al, 2003 for further details). The site has gained 3.39 t C/ha/year over the 120 year period (0.54 t in the soil plus an estimated 2.85 t in trees and roots). Unlike the Geescroft wilderness site, the amount of C in the litter layer is negligible, as the litter decomposes each year. Data on the accumulation of nitrogen is also available from the e-RA curators.\r\n\r\nThe figure shows the accumulation of organic carbon in the soil and in tree root and above-ground biomass in the Broadbalk Wilderness, 1881-1999."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Methods",
+            "description": "The accumulation of organic carbon in soil and tree biomass has been measured on two contrasting sites at Rothamsted that were fenced off in the 1880s and left to revert naturally to woodland. Broadbalk, on calcareous soil, and Geescroft Wilderness, on acidic soil. Previously, both sites had been in arable cultivation for centuries.\r\n\r\nThe Broadbalk site was part of the Broadbalk wheat experiment, and had grown unmanured winter wheat since autumn 1843. Large amounts of chalk had been applied to the soil in the late 18th - early 19th centuries, and the surface soil pH is still neutral (pH 7.7 in 1999). The site is small (0.2ha). It was previously a long-term arable site, and was allowed to naturally regenerate to deciduous woodland following abandonment of arable cropping. The last wheat crop was sown in autumn 1881, but not harvested. In 1882, the site was then fenced off, left uncultivated and unharvested. No fertilizer or manure were applied. In 1900 it was divided into two halves: one half remained untouched (regenerating woodland). The other half had all woody species removed annually (stubbed), to allow open ground vegetation to develop. In 1957 the stubbed section was divided into two, one half remains as 'stubbed', the other half was mown for three years, grazed by sheep each year from 1960-2000, mown since 2001 (herbage not removed). Data for 'stubbed' and grassland areas is not shown, but is available on request from the e-RA curators.\r\n\r\nBroadbalk Wilderness is now dominated by ash (*Fraxinus excelsior*), with sycamore (*Acer pseudoplatanus*) and hawthorn (*Craetagus monogyna*); in contrast, the acidic Geescroft Wilderness is now a deciduous wood dominated by oak (*Quercus robur*).\r\n\r\n The soil has been sampled to an equivalent depth of 69cm (see Poulton et al, 2003 for further details). The site has gained 3.39 t C/ha/year over the 120 year period (0.54 t in the soil plus an estimated 2.85 t in trees and roots). Unlike the Geescroft wilderness site, the amount of C in the litter layer is negligible, as the litter decomposes each year. Data on the accumulation of nitrogen is also available from the e-RA curators."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TechnicalInfo",
+            "description": "#### TREATMENTS\r\n\r\n- No fertilizer or manure has been applied since 1843.\r\n- No chalk has been applied since 1843 (see above)\r\n- Continuous winter wheat 1843-1881, since 1882 uncultivated and unharvested\r\n- Regenerating natural woodland since 1882 (unplanted)"
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Provenance",
+            "description": "#### SOIL SAMPLES\r\n\r\n- **1881:**  6 separate samples from the arable area (unfertilized and no manure since 1843)\r\n- **1904: ** 2 separate samples\r\n- **1964:**  4 separate samples\r\n- **1999:**  4 separate samples"
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "publication_year": 2015,
+    "dateCreated": null,
+    "dateModified": "2021-03-04",
+    "datePublished": null,
+    "inLanguage": "en",
+    "version": "1",
+    "keywords": [
+        "Broadbalk long-term experiment",
+        "woodland",
+        "soil organic carbon",
+        "Rothamsted Research",
+        "ecological succession"
+    ],
+    "creator": [
+        {
+            "type": "organization",
+            "name": "Rothamsted Research"
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "application/vnd.ms-excel",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License"
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.37301,
+            "latitude": 51.80946
+        },
+        "name": "Broadbalk"
+    },
+    "relatedIdentifier": [],
+    "funder": [],
+    "distribution": [],
+    "image": [],
+    "grade": 1,
+    "dstype": "OA"
+}

@@ -18,6 +18,11 @@
         },
         {
             "inLanguage": "en",
+            "descriptionType": "TableOfContents",
+            "description": ""
+        },
+        {
+            "inLanguage": "en",
             "descriptionType": "TechnicalInfo",
             "description": "First recorded in 1878, TMAX was originally recorded using a mercury-in-glass with indicator bar minimum thermometer and TMIN using a spirit-in-glass with indicator bar minimum thermometer, both housed in a naturally aspiring temperature screen. Since 2004, temperatures have been recorded automatically by thermistors (electronic temperature probes, Campbell Scientific, Type 107)."
         },
@@ -90,8 +95,24 @@
             }
         },
         {
-            "type": "organization",
-            "name": "Electronic Rothamsted Archive, Rothamsted Research"
+            "type": "Person",
+            "Name": "Chris Hall",
+            "givenName": "Chris",
+            "familyName": "Hall",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
         }
     ],
     "contributor": [
@@ -268,7 +289,7 @@
             "relatedIdentifier": "10.23637/rms-RMAAtemp-02",
             "relatedIdentifierType": "DOI",
             "name": "Annual Mean Air Temperature at Rothamsted 1878-2019",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Dataset",
             "relationType": "References",
             "rt_id": 18,
             "relationTypeValue": "references"
@@ -277,7 +298,7 @@
             "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Met/instrumentdescription",
             "relatedIdentifierType": "URL",
             "name": "Measurements",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "Cites",
             "rt_id": 2,
             "relationTypeValue": "cites"
@@ -286,7 +307,7 @@
             "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Met/extremes",
             "relatedIdentifierType": "URL",
             "name": "Extremes",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "Cites",
             "rt_id": 2,
             "relationTypeValue": "cites"

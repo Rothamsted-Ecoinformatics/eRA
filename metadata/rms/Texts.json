@@ -2,7 +2,7 @@
     {
         "md_id": -812406317,
         "title": "Rothamsted Met Data Monthly and Annual Summary 2007",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/met/Weather-Summary-2007.pdf",
+        "URL": "http://www.era.rothamsted.ac.uk/metadata/rms/Weather-Summary-2007.pdf",
         "identifier": "10.23637/rms-MonAnnSum-2007",
         "identifier_type": "DOI",
         "dataset_type": "Report",
@@ -21,7 +21,7 @@
     {
         "md_id": 1043980642,
         "title": "Rothamsted Met Data Monthly and Annual Summary 2008",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/met/Weather-Summary-2008.pdf",
+        "URL": "http://www.era.rothamsted.ac.uk/metadata/rms/Weather-Summary-2008.pdf",
         "identifier": "10.23637/rms-MonAnnSum-2008",
         "identifier_type": "DOI",
         "dataset_type": "Report",
@@ -40,7 +40,7 @@
     {
         "md_id": 1627769984,
         "title": "Rothamsted Met Data Monthly and Annual Summary 2009",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/met/Weather-Summary-2009.pdf",
+        "URL": "http://www.era.rothamsted.ac.uk/metadata/rms/Weather-Summary-2009.pdf",
         "identifier": "10.23637/rms-MonAnnSum-2009",
         "identifier_type": "DOI",
         "dataset_type": "Report",
@@ -59,7 +59,7 @@
     {
         "md_id": 1894449056,
         "title": "Rothamsted Met Data Monthly and Annual Summary 2010",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/met/Weather-Summary-2010.pdf",
+        "URL": "http://www.era.rothamsted.ac.uk/metadata/rms/Weather-Summary-2010.pdf",
         "identifier": "10.23637/rms-MonAnnSum-2010",
         "identifier_type": "DOI",
         "dataset_type": "Report",
@@ -78,7 +78,7 @@
     {
         "md_id": 2108033688,
         "title": "Rothamsted Met Data Monthly and Annual Summary 2011",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/met/Weather-Summary-2011.pdf",
+        "URL": "http://www.era.rothamsted.ac.uk/metadata/rms/Weather-Summary-2011.pdf",
         "identifier": "10.23637/rms-MonAnnSum-2011",
         "identifier_type": "DOI",
         "dataset_type": "Report",
@@ -97,7 +97,7 @@
     {
         "md_id": 162135586,
         "title": "Rothamsted Met Data Monthly and Annual Summary 2012",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/met/Weather-Summary-2012.pdf",
+        "URL": "http://www.era.rothamsted.ac.uk/metadata/rms/Weather-Summary-2012.pdf",
         "identifier": "10.23637/rms-MonAnnSum-2012",
         "identifier_type": "DOI",
         "dataset_type": "Report",
@@ -116,7 +116,7 @@
     {
         "md_id": 1337172181,
         "title": "Rothamsted Met Data Monthly and Annual Summary 2013",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/met/Weather-Summary-2013.pdf",
+        "URL": "http://www.era.rothamsted.ac.uk/metadata/rms/Weather-Summary-2013.pdf",
         "identifier": "10.23637/rms-MonAnnSum-2013",
         "identifier_type": "DOI",
         "dataset_type": "Report",
@@ -135,7 +135,7 @@
     {
         "md_id": 24557776,
         "title": "Rothamsted Met Data Monthly and Annual Summary 2014",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/met/Weather-Summary-2014.pdf",
+        "URL": "http://www.era.rothamsted.ac.uk/metadata/rms/Weather-Summary-2014.pdf",
         "identifier": "10.23637/rms-MonAnnSum-2014",
         "identifier_type": "DOI",
         "dataset_type": "Report",
@@ -154,7 +154,7 @@
     {
         "md_id": 704625260,
         "title": "Rothamsted Met Data Monthly and Annual Summary 2015",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/met/Weather-Summary-2015.pdf",
+        "URL": "http://www.era.rothamsted.ac.uk/metadata/rms/Weather-Summary-2015.pdf",
         "identifier": "10.23637/rms-MonAnnSum-2015",
         "identifier_type": "DOI",
         "dataset_type": "Report",
@@ -173,7 +173,7 @@
     {
         "md_id": 1593715510,
         "title": "Rothamsted Met Data Monthly and Annual Summary 2016",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/met/Weather-Summary-2016.pdf",
+        "URL": "http://www.era.rothamsted.ac.uk/metadata/rms/Weather-Summary-2016.pdf",
         "identifier": "10.23637/rms-MonAnnSum-2016",
         "identifier_type": "DOI",
         "dataset_type": "Report",
@@ -192,7 +192,7 @@
     {
         "md_id": 986810252,
         "title": "Rothamsted Met Data Monthly and Annual Summary 2017",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/met/Weather-Summary-2017.pdf",
+        "URL": "http://www.era.rothamsted.ac.uk/metadata/rms/Weather-Summary-2017.pdf",
         "identifier": "10.23637/rms-MonAnnSum-2017",
         "identifier_type": "DOI",
         "dataset_type": "Report",
@@ -211,7 +211,7 @@
     {
         "md_id": 1131284682,
         "title": "Rothamsted Met Data Monthly and Annual Summary 2018",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/met/Weather-Summary-2018.pdf",
+        "URL": "http://www.era.rothamsted.ac.uk/metadata/rms/Weather-Summary-2018.pdf",
         "identifier": "10.23637/rms-MonAnnSum-2018",
         "identifier_type": "DOI",
         "dataset_type": "Report",
@@ -230,7 +230,7 @@
     {
         "md_id": 728216053,
         "title": "Rothamsted Met Data Monthly and Annual Summary 2019",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/met/Weather-Summary-2019.pdf",
+        "URL": "http://www.era.rothamsted.ac.uk/metadata/rms/Weather-Summary-2019.pdf",
         "identifier": "10.23637/rms-MonAnnSum-2019",
         "identifier_type": "DOI",
         "dataset_type": "Report",
@@ -249,7 +249,7 @@
     {
         "md_id": 594921106,
         "title": "Rothamsted Met Data Monthly and Annual Summary 2020",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/met/Weather-Summary-2020.pdf",
+        "URL": "http://www.era.rothamsted.ac.uk/metadata/rms/Weather-Summary-2020.pdf",
         "identifier": "10.23637/rms-MonAnnSum-2020",
         "identifier_type": "DOI",
         "dataset_type": "Report",

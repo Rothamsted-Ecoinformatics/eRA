@@ -6,7 +6,7 @@
             "localIdentifier": "Final period",
             "name": "Final period",
             "url": "Final period",
-            "description": "4 blocks (A, B, C, D) each containing 8 main strips (1-8), each divided into 5 micro-plots (01-20) (each 5.49 x 3.56 m). Cropping and treatments to the micro-plots were phased-in, with Blocks A and B starting in 1969 and Blocks C and D the following year. \nOn each set of micro-plots within each Strip/Block, five amounts of P fertilizer were tested, P0, P0, P1, P2, P3 (0, 0, 27.4, 54.8, 82.2 kg P/ha). These were applied every second year (see '(a)' on plan). Between 1973-1975 on Blocks A & B (1974-1976 on blocks C & D) one of the P0 micro-plots remained as P0, two micro-plots received a total of 82.2 kg P/ha as 3 annual dressings each of 27.4 kg P/ha and two micro-plots received a total of 82.2 kg P/ha as one dressing only in 1973 (or 1974) (see '(b)' on plan). From autumn 1977 (or 1978) a 'maintenance' dressing of 52.4 kg P/ha was applied every second year to two of the micro-plots; no P was applied to the others (see 'c' on the plan).\n\nSome microplots received no further applications of manure or fertilizer P after 1968 by which time a wide range of Olsen P values had been established. The decline in Olsen P in each of the eight main treatment strips was measured and, by shifting the eight decay curves horizontally, a common decay curve could be fitted to the data (Johnston et al., 1986). The half-life, i.e. the time taken for Olsen P to decline by half from any given value to an asymptote (the lowest Olsen P value measured on the experiment), could be calculated (Johnston et al., 2016 and other papers). Data from the Rotation II experiment at Saxmundham has been included in a paper published in a special issue of the Journal of Environmental Quality to mark the 350th Anniversary of the discovery of phosphorus (Johnston & Poulton, 2019)."
+            "description": "4 blocks (A, B, C, D) each containing 8 main strips (1-8), each divided into 5 micro-plots (01-20) (each 5.49 x 3.56 m). Cropping and treatments to the micro-plots were phased-in, with Blocks A and B starting in 1969 and Blocks C and D in 1970. On each set of micro-plots within each strip/Block five amounts of P fertilizer were tested.  \nOn each set of micro-plots within each Strip/Block, five amounts of P fertilizer were tested, P0, P0, P1, P2, P3 (0, 0, 27.4, 54.8, 82.2 kg P/ha). These were applied every second year (see '(a)' on plan). Between 1973-1975 on Blocks A & B (1974-1976 on blocks C & D) one of the P0 micro-plots remained as P0, two micro-plots received a total of 82.2 kg P/ha as 3 annual dressings each of 27.4 kg P/ha and two micro-plots received a total of 82.2 kg P/ha as one dressing only in 1973 (or 1974) (see '(b)' on plan). From autumn 1977 (or 1978) a 'maintenance' dressing of 52.4 kg P/ha was applied every second year to two of the micro-plots; no P was applied to the others (see 'c' on the plan).\n\nSome microplots received no further applications of manure or fertilizer P after 1968 by which time a wide range of Olsen P values had been established. The decline in Olsen P in each of the eight main treatment strips was measured and, by shifting the eight decay curves horizontally, a common decay curve could be fitted to the data (Johnston et al., 1986). The half-life, i.e. the time taken for Olsen P to decline by half from any given value to an asymptote (the lowest Olsen P value measured on the experiment), could be calculated (Johnston et al., 2016 and other papers). Data from the Rotation II experiment at Saxmundham has been included in a paper published in a special issue of the Journal of Environmental Quality to mark the 350th Anniversary of the discovery of phosphorus (Johnston & Poulton, 2019)."
         },
         "design": {
             "dateStart": 1969,
@@ -22,35 +22,35 @@
         },
         "crops": [
             {
-                "id": 10737,
+                "id": 11425,
                 "name": "potatoes",
                 "sameAs": "potatoes",
                 "dateStart": 1969,
                 "dateEnd": 1974
             },
             {
-                "id": 10738,
+                "id": 11426,
                 "name": "sugarbeet",
                 "sameAs": "sugarbeet",
                 "dateStart": 1969,
                 "dateEnd": 1974
             },
             {
-                "id": 10739,
+                "id": 11427,
                 "name": "winter wheat",
                 "sameAs": "winter wheat",
                 "dateStart": 1977,
                 "dateEnd": 1986
             },
             {
-                "id": 10740,
+                "id": 11428,
                 "name": "barley",
                 "sameAs": "barley",
                 "dateStart": 1970,
                 "dateEnd": 1979
             },
             {
-                "id": 10741,
+                "id": 11429,
                 "name": "faba beans",
                 "sameAs": "faba beans",
                 "dateStart": null,
@@ -60,9 +60,9 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 6020,
+                "id": 6125,
                 "name": "phosphate fertilizer exposure",
-                "description": "Five amounts of P were tested, P0, P0, P1, P2 and P3. (0, 0, 27.4, 54.8 and 82.2 kg P /ha) applied to a range of existing soil P levels (4-65 mgP/ha).",
+                "description": "Five amounts of P were tested, P0, P0, P1, P2 and P3. (0, 0, 27.4, 54.8 and 82.2 kg P /ha) applied to a range of existing soil P levels (4-65 mgP/ha). These were applied every two years.",
                 "effect": "",
                 "plotApplication": null,
                 "level": []
@@ -101,23 +101,13 @@
                 "crop": null
             },
             {
-                "variable": "total soil nitrogen",
-                "unitCode": null,
-                "unitText": "%",
-                "collectionFrequency": "occasionally",
-                "scale": null,
-                "material": "Soil",
-                "description": "Selected years",
-                "crop": null
-            },
-            {
                 "variable": "soil organic carbon",
                 "unitCode": null,
                 "unitText": "%",
                 "collectionFrequency": "occasionally",
                 "scale": null,
                 "material": "Soil",
-                "description": "Selected years",
+                "description": "1969, 1977/78 and 1981/2. Measured by Tinsley, 0-23cm.",
                 "crop": null
             },
             {
@@ -127,7 +117,7 @@
                 "collectionFrequency": "occasionally",
                 "scale": null,
                 "material": "Soil",
-                "description": "Selected years",
+                "description": "1969, 1977/78 and 1981/2. pH in 0.01 M CaCl2, 0-23cm",
                 "crop": null
             },
             {
@@ -148,7 +138,17 @@
                 "scale": null,
                 "material": "SpecifiedCrop",
                 "description": "Nitrogen (N) fertilizer labelled with the heavy isotope 15N was applied to some of the winter wheat plots in the early 1980s, to determine the recovery of fertilizer N in the crop and soil. See Powlson et al (1992) for the recovery of fertilizer N applied in the autumn; Hart et al (1993) for the fate of the residues; Macdonald et al (1989) for the recovery of unused fertilizer N in the soil. The data was also used to partition losses between denitrification and leaching (Addiscott & Powlson, 1992) and to model the fate of N in crop and soil (Bradbury et al, 1993).",
-                "crop": 10739
+                "crop": 11427
+            },
+            {
+                "variable": "Exchangeable K",
+                "unitCode": "mg/kg",
+                "unitText": "milligram per kilogram",
+                "collectionFrequency": "occasionally",
+                "scale": null,
+                "material": "Soil",
+                "description": "1970/71 and 1977/78. 0-23cm.",
+                "crop": null
             }
         ]
     },
@@ -175,28 +175,28 @@
         },
         "crops": [
             {
-                "id": 10742,
+                "id": 11430,
                 "name": "winter wheat",
                 "sameAs": "winter wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10743,
+                "id": 11431,
                 "name": "root crops",
                 "sameAs": "root crops",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10744,
+                "id": 11432,
                 "name": "barley",
                 "sameAs": "barley",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10745,
+                "id": 11433,
                 "name": "legumes",
                 "sameAs": "legumes",
                 "dateStart": null,
@@ -206,7 +206,7 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 6021,
+                "id": 6126,
                 "name": "farmyard manure exposure",
                 "description": "25.1 t/ha of FYM",
                 "effect": "",
@@ -214,7 +214,7 @@
                 "level": []
             },
             {
-                "id": 6022,
+                "id": 6127,
                 "name": "nitrogen fertilizer exposure",
                 "description": "Sodium nitrate",
                 "effect": "",
@@ -222,7 +222,7 @@
                 "level": []
             },
             {
-                "id": 6023,
+                "id": 6128,
                 "name": "superphosphate exposure",
                 "description": null,
                 "effect": "",
@@ -256,28 +256,28 @@
         },
         "crops": [
             {
-                "id": 10746,
+                "id": 11434,
                 "name": "barley",
                 "sameAs": "barley",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10747,
+                "id": 11435,
                 "name": "potatoes",
                 "sameAs": "potatoes",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10748,
+                "id": 11436,
                 "name": "turnips",
                 "sameAs": "turnips",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10749,
+                "id": 11437,
                 "name": "sugarbeet",
                 "sameAs": "sugarbeet",
                 "dateStart": null,
@@ -287,7 +287,7 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 6024,
+                "id": 6129,
                 "name": "farmyard manure exposure",
                 "description": "Applied to plots 4 and 5 in 1966 and 1967, a total of 100.4t/ha .",
                 "effect": "",
@@ -295,7 +295,7 @@
                 "level": []
             },
             {
-                "id": 6025,
+                "id": 6130,
                 "name": "phosphate fertilizer exposure",
                 "description": "Applied to plots 5,6 (total of 246.6 kgP/ha) and 7 (total of 493.2kgP/ha) 1965-69",
                 "effect": "",

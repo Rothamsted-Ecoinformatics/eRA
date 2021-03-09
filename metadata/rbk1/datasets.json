@@ -7,7 +7,7 @@
         "identifier_type": "DOI",
         "dataset_type": "Crop  yield data",
         "extension": "xlsx",
-        "description": "This summary figure shows the mean long-term winter wheat yields from selected treatments on Broadbalk 1852-2016. These changes in mean long-term winter wheat yields reflect the improved treatments and agronomic practices introduced on Broadbalk such as modern cultivars, better control of pests, diseases and weeds, especially since the 1960s. To control weeds, the experiment was divided into five sections in the 1920s and one section bare fallowed each year. The introduction of herbicides removed the need for fallowing. Yields of continuous wheat given no fertilizer or manure have remained at around 1 t ha-1. In 1968 a rotation was introduced on part of the experiment, so that it is now possible to compare the yields of wheat grown continuously and as the first wheat after a two-year break. Since 1979 summer fungicides have been used, which has allowed us to exploit the greater grain yield potential of modern cultivars. From 1985, two higher N rates have been tested, 240 and 288 kg N ha -1. The highest yields are now from the first wheat crop in rotation, with the greatest yields from fertilizer alone exceeding those from FYM alone, and the combination of FYM + 96 kgN ha-1 (144 kgN ha-1 since 2005) often exceeding both. The largest annual wheat yields on Broadbalk (>13 t ha-1) were recorded in 2014, following the change in variety from Hereward to Crusoe. The greatest yields were not always achieved with the highest N rate. The figure shows the mean greatest first wheat yields achieved from the NPK treatments, receiving up to a maximum of 288 kg N ha-1 (a maximum of 192 kg N ha-1 from 1968-1984).",
+        "description": "Mean long-term winter wheat yields from selected treatments on Broadbalk 1852-2016, reflecting the improved treatments and agronomic practices introduced on Broadbalk such as modern cultivars, better control of pests, diseases and weeds, especially since the 1960s. To control weeds, the experiment was divided into five sections in the 1920s and one section bare fallowed each year. The introduction of herbicides removed the need for fallowing. Yields of continuous wheat given no fertilizer or manure have remained at around 1 t ha-1. In 1968 a rotation was introduced on part of the experiment, so that it is now possible to compare the yields of wheat grown continuously and as the first wheat after a two-year break. Since 1979 summer fungicides have been used, which has allowed us to exploit the greater grain yield potential of modern cultivars. From 1985, two higher N rates have been tested, 240 and 288 kg N ha -1. The highest yields are now from the first wheat crop in rotation, with the greatest yields from fertilizer alone exceeding those from FYM alone, and the combination of FYM + 96 kgN ha-1 (144 kgN ha-1 since 2005) often exceeding both. The largest annual wheat yields on Broadbalk (>13 t ha-1) were recorded in 2014, following the change in variety from Hereward to Crusoe. The greatest yields were not always achieved with the highest N rate. The figure shows the mean greatest first wheat yields achieved from the NPK treatments, receiving up to a maximum of 288 kg N ha-1 (a maximum of 192 kg N ha-1 from 1968-1984).",
         "fieldname": "Broadbalk",
         "experiment_name": "Broadbalk",
         "experiment_code": "R/BK/1",
@@ -62,7 +62,7 @@
         "URL": "http://www.era.rothamsted.ac.uk/Broadbalk/bbk_open_access_olsenp",
         "identifier": "10.23637/keyrefoabkolsenp",
         "identifier_type": "DOI",
-        "dataset_type": "Crop nutrient data",
+        "dataset_type": "Soil data",
         "extension": "xls",
         "description": "Summary data showing changes in plant-available phosphorus (Olsen P) in the topsoil (0-23cm) of selected plots of the Broadbalk Wheat experiment, 1844-2010.",
         "fieldname": "Broadbalk",
@@ -131,5 +131,24 @@
         "version": "01",
         "shortName": "FISHER1921",
         "UID": "01-FISHER1921"
+    },
+    {
+        "md_id": 759423885,
+        "title": "Broadbalk soil organic carbon content 1843-2010",
+        "URL": "http://www.era.rothamsted.ac.uk/Broadbalk/bbk_open_access_soc",
+        "identifier": "10.23637/KeyRefOABKsoc",
+        "identifier_type": "DOI",
+        "dataset_type": "Soil data",
+        "extension": "xlsx",
+        "description": "Long-term changes in soil organic carbon content (t/ha) in selected treatments of the Broadbalk experiment, where winter wheat has been grown every year since autumn 1843. SOC in t/ha, calculated from %SOC and soil weights, adjusted for changes in soil bulk density in FYM treatments.",
+        "fieldname": "Broadbalk",
+        "experiment_name": "Broadbalk",
+        "experiment_code": "R/BK/1",
+        "grade": 1,
+        "dstype": "OA",
+        "publication_year": 2014,
+        "version": "01",
+        "shortName": "BKSOC1843",
+        "UID": "01-BKSOC1843"
     }
 ]

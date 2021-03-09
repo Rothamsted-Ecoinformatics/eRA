@@ -18,13 +18,28 @@
         },
         {
             "inLanguage": "en",
+            "descriptionType": "TableOfContents",
+            "description": ""
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TechnicalInfo",
+            "description": ""
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Other",
+            "description": ""
+        },
+        {
+            "inLanguage": "en",
             "descriptionType": "Provenance",
             "description": "This subset of data of this single species, <i>C. arvense</i>, are derived from the e-RA database dataset BKWEEDS_PLOT. This complete dataset consists of records of all species of weeds recorded in section 8."
         },
         {
             "inLanguage": "en",
             "descriptionType": "Quality",
-            "description": " This data is recorded & provided by staff of the Weed Ecology Group, Rothamsted Research; Richard Hull, Stephen Moss, Jon Storkey who apply all appropriate quality assurance checks."
+            "description": " This data is recorded & provided by staff of the Weed Ecology Group, Rothamsted Research; Richard Hull, Stephen Moss, Jon Storkey who apply all appropriate quality assurance checks.  "
         }
     ],
     "publisher": {
@@ -182,7 +197,7 @@
             "relatedIdentifier": "10.23637/ROTHAMSTED-LONG-TERM-EXPERIMENTS-GUIDE-2018",
             "relatedIdentifierType": "DOI",
             "name": "Guide to the Long Term Experiments",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
             "relationTypeValue": "is described by"
@@ -191,7 +206,7 @@
             "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Broadbalk/bbkweeds",
             "relatedIdentifierType": "URL",
             "name": "Broadbalk Weeds",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "Cites",
             "rt_id": 2,
             "relationTypeValue": "cites"
@@ -200,7 +215,7 @@
             "relatedIdentifier": "10.23637/rbk1-FertTreats",
             "relatedIdentifierType": "DOI",
             "name": "Broadbalk Fertiliser Treatments",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "Cites",
             "rt_id": 2,
             "relationTypeValue": "cites"
@@ -209,7 +224,7 @@
             "relatedIdentifier": "10.23637/rbk1-today2018-01",
             "relatedIdentifierType": "DOI",
             "name": "Broadbalk Today revised 2018",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Image",
             "relationType": "Cites",
             "rt_id": 2,
             "relationTypeValue": "cites"

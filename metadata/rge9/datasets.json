@@ -1,0 +1,21 @@
+[
+    {
+        "md_id": 1234899766,
+        "title": "Geescroft wilderness accumulation of organic carbon",
+        "URL": "http://www.era.rothamsted.ac.uk/Wilderness/wilderness_open_access_geescroft_oc",
+        "identifier": "10.23637/KeyRefOAGEWoc",
+        "identifier_type": "DOI",
+        "dataset_type": "Soil data",
+        "extension": "xlsx",
+        "description": "The accumulation of organic carbon in soil and tree biomass has been measured on two contrasting sites at Rothamsted that were fenced off in the 1880s and left to revert naturally to woodland. Geescroft, on acidic soil and Broadbalk Wilderness, on calcareous soil. Previously, both sites had been in arable cultivation for centuries.\r\n\r\nThe figure shows the accumulation of organic carbon in the soil, and tree root, litter and above-ground biomass in the Geescroft Wilderness, 1883-1999. \r\nThis selected data is from work published in Poulton et al. (2003).",
+        "fieldname": "Geescroft",
+        "experiment_name": "Geescroft Wilderness",
+        "experiment_code": "R/GE/9",
+        "grade": 1,
+        "dstype": "OA",
+        "publication_year": 2015,
+        "version": "01",
+        "shortName": "GEWoc",
+        "UID": "01-GEWoc"
+    }
+]

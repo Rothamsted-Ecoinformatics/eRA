@@ -219,7 +219,7 @@
             "relatedIdentifier": "10.23637/rcs10-Plans",
             "relatedIdentifierType": "DOI",
             "name": "Rothamsted long-term liming experiment plans 1962-1996",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
             "relationTypeValue": "is described by"
@@ -227,8 +227,8 @@
         {
             "relatedIdentifier": "10.23637/rcs10-rltlyields-01",
             "relatedIdentifierType": "DOI",
-            "name": "Rothamsted long-term liming experiment crop yields 1962-1996",
-            "relatedIdentifierGeneralType": "text",
+            "name": "Rothamsted long-term liming experiment crop yield 1962-1996",
+            "relatedIdentifierGeneralType": "Dataset",
             "relationType": "Describes",
             "rt_id": 8,
             "relationTypeValue": "describes"

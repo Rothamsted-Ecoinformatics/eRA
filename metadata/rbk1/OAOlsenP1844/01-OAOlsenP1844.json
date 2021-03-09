@@ -152,7 +152,7 @@
             "relatedIdentifier": "10.23637/ROTHAMSTED-LONG-TERM-EXPERIMENTS-GUIDE-2006",
             "relatedIdentifierType": "DOI",
             "name": "Rothamsted Guide to the Classical Experiments (2006)",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
             "relationTypeValue": "is described by"
@@ -161,7 +161,7 @@
             "relatedIdentifier": "10.23637/ERADOC-1-2",
             "relatedIdentifierType": "DOI",
             "name": "Rothamsted Experimental Station Report for 1968 Part 2",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
             "relationTypeValue": "is described by"
@@ -170,7 +170,7 @@
             "relatedIdentifier": "10.23637/rbk1-1796346264-1",
             "relatedIdentifierType": "DOI",
             "name": "BKYIELD: Broadbalk wheat grain and straw yields 1844-1925",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Dataset",
             "relationType": "IsDerivedFrom",
             "rt_id": 28,
             "relationTypeValue": "is derived from"
@@ -179,19 +179,10 @@
             "relatedIdentifier": "10.23637/KeyRefOARESmatemp",
             "relatedIdentifierType": "DOI",
             "name": "Annual Mean Air Temperature at Rothamsted 1878-2013",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Dataset",
             "relationType": "IsCitedBy",
             "rt_id": 1,
             "relationTypeValue": "is cited by"
-        },
-        {
-            "relatedIdentifier": "10.23637/testTitleGoogle",
-            "relatedIdentifierType": "DOI",
-            "name": "Test Title",
-            "relatedIdentifierGeneralType": "text",
-            "relationType": "IsReferencedBy",
-            "rt_id": 17,
-            "relationTypeValue": "is referenced by"
         }
     ],
     "funder": [
@@ -219,7 +210,15 @@
             "fileSize": "95 KB"
         }
     ],
-    "image": [],
+    "image": [
+        {
+            "type": "imageObject",
+            "caption": "Open Access BK Olsen POpen Access BK Olsen P",
+            "URL": "OlsenP.png",
+            "encodingFormat": "png",
+            "fileSize": "56 KB"
+        }
+    ],
     "grade": 2,
     "dstype": "OA"
 }

@@ -18,6 +18,11 @@
         },
         {
             "inLanguage": "en",
+            "descriptionType": "TableOfContents",
+            "description": ""
+        },
+        {
+            "inLanguage": "en",
             "descriptionType": "TechnicalInfo",
             "description": "Since first recorded in 1878, maximum temperature (TMAX) was measured using a mercury column thermometer and mimimum temperature (TMIN) using a spirit-in-glass with indicator bar minimum thermometer. \r\n Since 2004, temperatures have been recorded automatically by thermistors (electronic temperature probes, Campbell Scientific, Type 107)."
         }
@@ -45,14 +50,70 @@
     ],
     "creator": [
         {
-            "type": "organization",
-            "name": "Rothamsted Research"
+            "type": "Person",
+            "Name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Tony Scott",
+            "givenName": "Tony",
+            "familyName": "Scott",
+            "sameAs": "https://orcid.org/0000-0002-6631-0672",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Chris Hall",
+            "givenName": "Chris",
+            "familyName": "Hall",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
         }
     ],
     "contributor": [
         {
             "type": "Person",
-            "jobTitle": "DataManager",
+            "jobTitle": "DataCurator",
             "name": "Sarah Perryman",
             "givenName": "Sarah",
             "familyName": "Perryman",
@@ -112,6 +173,90 @@
                 "name": "Sustainable Agricultural Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells-Brooke",
+            "givenName": "Nathalie",
+            "familyName": "Castells-Brooke",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectLeader",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectManager",
+            "name": "Andrew Macdonald",
+            "givenName": "Andrew",
+            "familyName": "Macdonald",
+            "sameAs": "https://orcid.org/0000-0002-1785-4892",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
         }
     ],
     "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
@@ -139,7 +284,7 @@
             "relatedIdentifier": "10.23637/rms-RMAAtemp-02",
             "relatedIdentifierType": "DOI",
             "name": "Annual Mean Air Temperature at Rothamsted 1878-2019",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Dataset",
             "relationType": "IsPreviousVersionOf",
             "rt_id": 14,
             "relationTypeValue": "is previous version of"
@@ -148,7 +293,7 @@
             "relatedIdentifier": "10.23637/ecn-rothamsted-booklet-2015",
             "relatedIdentifierType": "DOI",
             "name": "The U.K. Environmental Change Network Rothamsted. The first 20 Years (2015)",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
             "relationTypeValue": "is described by"
@@ -157,7 +302,7 @@
             "relatedIdentifier": "10.1016/j.biocon.2009.07.004",
             "relatedIdentifierType": "DOI",
             "name": "Morecroft, M.D. et al. The UK Environmental Change Network: Emerging Trends (2009)",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
             "relationTypeValue": "is referenced by"
@@ -166,7 +311,7 @@
             "relatedIdentifier": "10.23637/ERADOC-1-8",
             "relatedIdentifierType": "DOI",
             "name": "Penman, H. L. Rothamsted Weather (1974)",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
             "relationTypeValue": "is referenced by"
@@ -175,7 +320,7 @@
             "relatedIdentifier": "10.23637/ERADOC-1-2",
             "relatedIdentifierType": "DOI",
             "name": "Yates, F. The Broadbalk Yields: Investigations into the Effects of Weather on Yields (1969)",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
             "relationTypeValue": "is referenced by"
@@ -184,7 +329,7 @@
             "relatedIdentifier": "http://www.era.rothamsted.ac.uk/eradoc/book/216",
             "relatedIdentifierType": "URL",
             "name": "Guide to the Classical and Other Long-term Experiments, Datasets and Sample Archive (2018)",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
             "relationTypeValue": "is described by"
@@ -193,7 +338,7 @@
             "relatedIdentifier": "10.23637/keyrefoabkolsenp",
             "relatedIdentifierType": "DOI",
             "name": "Broadbalk changes in Olsen P in top soil, 1844-2010",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Dataset",
             "relationType": "Cites",
             "rt_id": 2,
             "relationTypeValue": "cites"

@@ -125,7 +125,7 @@
             "relatedIdentifier": "10.23637/ERADOC-1-2",
             "relatedIdentifierType": "DOI",
             "name": "Rothamsted Report 1968 Part 2 (has several relevant articles)",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
             "relationTypeValue": "is described by"
@@ -143,7 +143,7 @@
             "relatedIdentifier": "10.23637/ERADOC-1-34920",
             "relatedIdentifierType": "DOI",
             "name": "The Soils of Broadbalk",
-            "relatedIdentifierGeneralType": "Dataset",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
             "relationTypeValue": "is described by"

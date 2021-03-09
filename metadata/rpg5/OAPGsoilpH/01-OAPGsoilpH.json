@@ -2,7 +2,7 @@
     "@context": "https://schema.org/",
     "@type": "Dataset",
     "identifier": "10.23637/KeyRefOAPGsoilpH",
-    "name": "Park Grass soil pH",
+    "name": "Park Grass Soil pH 1856-2011",
     "shortName": "OAPGsoilpH",
     "url": "http://www.era.rothamsted.ac.uk/Park/pg_open_access_soilph",
     "description": [
@@ -14,7 +14,32 @@
         {
             "inLanguage": "en",
             "descriptionType": "Methods",
-            "description": "#### AGRONOMIC PRACTICES\r\n\r\n- Fertiliser treatments since 1856;\r\n- **No fertiliser - Plot 3:** No fertilizer or manure\r\n- **N*2PKNaMg - Plot 14:** 96kgN as sodium nitrate plus P,K,Na and Mg\r\n- **N2PKNaMg - Plot 9:** 96kgN as ammonium sulphate plus P, K, Na and Mg\r\n\r\n- **Chalk: ** Ground chalk (CaCO3) applied approximately every four years 1903 - 1964 then as required to maintain pH at an appropriate level."
+            "description": "In 1965 most plots were divided into four sub-plots. Three subplots receive different amounts of lime as required to maintain pH at 7, 6 and 5 (sub-plots a, b and c, respectively). Sub-plot d receives no lime and pH of these ranges from 3.5 to 5.7, depending on the fertilizer treatment.\r\n\r\npH was first measured in 1876 by glass electrode method (1:2.5 soil:water; in the topsoil (0-23cm) and subsoil (23-46cm)), then  by Crowther in 1923 using the hydrogen electrode method and a 1:5 soil:water suspension. The next measurements were made on samples from 1959, using a glass electrode and a 1:2.5 soil:water suspension (Warren and Johnston, 1964). The different soil:water ratios had little effect on measured pH (see Warren and Johnston 1963, p 244-245). Further samples were taken in 1976 (0-23cm only) and 1984 and the pH of these soils, together with stored soils from 1876, was determined by the same method as used in 1959."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TableOfContents",
+            "description": "Summary data of the soil pH in water, in relation to six treatments  on Park Grass: No fertiliser cotrol; nitrogen fertilser as sodium nitrate; nitrogen as ammonium sulphate (each with and without chalk)."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TechnicalInfo",
+            "description": "Fertiliser treatments since 1856;\r\nNo fertiliser - Plot 3: No fertilizer or manure\r\nN*2PKNaMg - Plot 14: 96kgN as sodium nitrate plus P, K, Na and Mg\r\nN2PKNaMg - Plot 9: 96kgN as ammonium sulphate plus P, K, Na and Mg\r\n\r\nChalk: Ground chalk (CaCO3) applied approximately every four years 1903 - 1964 then as required to maintain pH at around 6.\r\n\r\nSoil details:\r\nFAO Classification: Chromic Luvisol (or Alisol); Silty clay loam over clay-with-flints overlying chalk."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Other",
+            "description": "Johnston et al (1986) predict a pH of 5.6 \u2013 5.8 in 1856. AS the site had been grassland many years previous it had not received chalk applications. Some areas have a acidic surface 'mat' due to biological activity being hindered."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Provenance",
+            "description": "Older historical information is taken from original raw data sheets and analysis files, held in the archives at Rothamsted Research, and the Annual Rothamsted Yield Books. Data since 1991 is souced from current Rothamsted Analytical Chemistry Unit. All raw data is stored in the e-RA database DET."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Quality",
+            "description": "The data in e-RA are subject to rigorous quality control procedures from the point of collection in the field to entry into the database. All measurements are strictly monitored using certified standards alongside.\r\n\r\nThe Analytical Chemistry Unit follows the Joint Code of Practice (JCoPR) and participates in European Quality Assurance programmes. All performance is strictly monitored using certified external standards alongside in-house standard materials. Standards and check samples are monitored and recorded.\r\n\r\nThe Analytical Chemistry Unit follows the Joint Code of Practice (JCoPR) and participates in European Quality Assurance programmes. All performance is strictly monitored using certified external standards alongside in-house standard materials. Standards and check samples are monitored and recorded."
         }
     ],
     "publisher": {
@@ -35,6 +60,26 @@
         "fertilizer"
     ],
     "creator": [
+        {
+            "type": "Person",
+            "Name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
         {
             "type": "organization",
             "name": "Rothamsted Research"
@@ -124,6 +169,48 @@
                 "name": "Sustainable Agricultural Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Melanie Brookman",
+            "givenName": "Melanie",
+            "familyName": "Brookman",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectLeader",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
         }
     ],
     "encodingFormat": "application/vnd.ms-excel",
@@ -151,7 +238,7 @@
             "relatedIdentifier": "10.1038/nature16444",
             "relatedIdentifierType": "DOI",
             "name": "Grassland biodiversity bounces back from long-term nitrogen addition.",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
             "relationTypeValue": "is referenced by"
@@ -160,7 +247,7 @@
             "relatedIdentifier": "10.1007/s00248-014-0530-2",
             "relatedIdentifierType": "DOI",
             "name": "Soil pH Determines Microbial Diversity and Composition in the Park Grass Experiment.",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
             "relationTypeValue": "is referenced by"
@@ -169,7 +256,7 @@
             "relatedIdentifier": "10.1046/j.1365-2389.1999.00253.x",
             "relatedIdentifierType": "DOI",
             "name": "Changes in soil chemistry accompanying acidification over more than 100 years",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
             "relationTypeValue": "is referenced by"
@@ -177,8 +264,8 @@
         {
             "relatedIdentifier": "10.1016/S0146-6380(98)00188-0",
             "relatedIdentifierType": "DOI",
-            "name": "Organic geochemical studies of soils from the Rothamsted Classical Experiments\u2014IV.",
-            "relatedIdentifierGeneralType": "text",
+            "name": "Organic geochemical studies of soils from the Rothamsted Classical Experiments - IV.",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
             "relationTypeValue": "is referenced by"
@@ -187,7 +274,7 @@
             "relatedIdentifier": "10.1111/j.1365-2389.1977.tb02234.x",
             "relatedIdentifierType": "DOI",
             "name": "EFFECT OF SOIL pH AND ORGANIC MATTER ON LABILE ALUMINIUM IN SOILS UNDER PERMANENT GRASS",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
             "relationTypeValue": "is referenced by"
@@ -196,10 +283,46 @@
             "relatedIdentifier": " https://repository.rothamsted.ac.uk/item/8vw2w/liming-and-interaction-of-soil-ph-with-responses-to-p-k-and-mg-fertilizers",
             "relatedIdentifierType": "PURL",
             "name": "LIMING AND INTERACTION OF SOIL-PH WITH RESPONSES TO P, K AND MG FERTILIZERS",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
             "relationTypeValue": "is referenced by"
+        },
+        {
+            "relatedIdentifier": "https://www.youtube.com/watch?v=-3-Pm5JUQZ4&feature=player_embedded",
+            "relatedIdentifierType": "URL",
+            "name": "The Park Grass Experiment Video",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Park/",
+            "relatedIdentifierType": "URL",
+            "name": "The Park Grass Experiment Background",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Park/pgsoils",
+            "relatedIdentifierType": "URL",
+            "name": "Park Grass Soils",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/KeyRefOAPGspecies.",
+            "relatedIdentifierType": "DOI",
+            "name": "Park Grass Mean Species Changes 1864-2011",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
         }
     ],
     "funder": [
@@ -232,6 +355,13 @@
             "URL": "Park_Grass_pH_2016_data.xls",
             "encodingFormat": "xls",
             "fileSize": "48 KB"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Park Grass",
+            "URL": "Park_Grass_Plan_2019.pdf",
+            "encodingFormat": "pdf",
+            "fileSize": "72 KB"
         }
     ],
     "image": [

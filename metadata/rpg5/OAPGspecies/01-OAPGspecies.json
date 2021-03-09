@@ -35,6 +35,11 @@
             "inLanguage": "en",
             "descriptionType": "Provenance",
             "description": "Older historical information is taken from original raw data sheets and analysis files, held in the archives at Rothamsted Research, and the Annual Rothamsted Yield Books. Data since 1991 is souced from current Rothamsted scientists. All raw data is stored in the e-RA database DET."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Quality",
+            "description": "The data in e-RA are subject to rigorous quality control procedures from the point of collection in the field to entry into the database."
         }
     ],
     "publisher": {
@@ -205,6 +210,27 @@
                 "name": "Sustainable Agricultural Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Chris Hall",
+            "givenName": "Chris",
+            "familyName": "Hall",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
         }
     ],
     "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
@@ -232,7 +258,7 @@
             "relatedIdentifier": "10.1038/nature16444",
             "relatedIdentifierType": "DOI",
             "name": "Grassland biodiversity bounces back from long-term nitrogen addition",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
             "relationTypeValue": "is referenced by"
@@ -240,8 +266,8 @@
         {
             "relatedIdentifier": "10.1111/mec.13007",
             "relatedIdentifierType": "DOI",
-            "name": "The Park Grass Experiment and next-generation approaches\u2026",
-            "relatedIdentifierGeneralType": "text",
+            "name": "The Park Grass Experiment and next-generation approaches . . .",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
             "relationTypeValue": "is referenced by"
@@ -249,8 +275,8 @@
         {
             "relatedIdentifier": "10.1111/j.1365-2745.2006.01145.x",
             "relatedIdentifierType": "DOI",
-            "name": "The Park Grass Experiment 1856\u20132006: its contribution to ecology",
-            "relatedIdentifierGeneralType": "text",
+            "name": "The Park Grass Experiment 1856 - 2006: its contribution to ecology",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
             "relationTypeValue": "is referenced by"
@@ -259,7 +285,7 @@
             "relatedIdentifier": "10.1086/427270",
             "relatedIdentifierType": "DOI",
             "name": "Determinants of Species Richness in the Park Grass Experiment",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
             "relationTypeValue": "is referenced by"
@@ -267,8 +293,8 @@
         {
             "relatedIdentifier": "10.1023/A:1015731530498",
             "relatedIdentifierType": "DOI",
-            "name": "Effects of atmospheric deposition, soil pH and acidification on heavy metal contents\u2026",
-            "relatedIdentifierGeneralType": "text",
+            "name": "Effects of atmospheric deposition, soil pH and acidification on heavy metal contents . . .",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
             "relationTypeValue": "is referenced by"
@@ -276,8 +302,8 @@
         {
             "relatedIdentifier": "10.1046/j.1365-2389.1999.00253.x",
             "relatedIdentifierType": "DOI",
-            "name": "Changes in soil chemistry accompanying acidification \u2026..",
-            "relatedIdentifierGeneralType": "text",
+            "name": "Changes in soil chemistry accompanying acidification . . .",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
             "relationTypeValue": "is referenced by"
@@ -285,8 +311,8 @@
         {
             "relatedIdentifier": "10.1073/pnas.95.1.207",
             "relatedIdentifierType": "DOI",
-            "name": "Biodiversity at the edge: A test of the importance of spatial \u201cmass effects\u201d in RPG\u2026",
-            "relatedIdentifierGeneralType": "text",
+            "name": "Biodiversity at the edge: A test of the importance of spatial 'mass effects' in RPG . . .",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
             "relationTypeValue": "is referenced by"
@@ -295,7 +321,7 @@
             "relatedIdentifier": "10.2307/2261566",
             "relatedIdentifierType": "DOI",
             "name": "Community Stability: A 60-Year Record of Trends and Outbreaks in the Occurrence of Species in RPG",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
             "relationTypeValue": "is referenced by"
@@ -303,8 +329,8 @@
         {
             "relatedIdentifier": "10.1017/S0021859600067290",
             "relatedIdentifierType": "DOI",
-            "name": "Trends in herbage yields over the last century on the Rothamsted Long-term Continuous Hay Experimen",
-            "relatedIdentifierGeneralType": "text",
+            "name": "Trends in herbage yields over the last century on the Rothamsted Long-term Continuous Hay Experiment",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
             "relationTypeValue": "is referenced by"
@@ -313,7 +339,7 @@
             "relatedIdentifier": "10.23637/ERADOC-1-156",
             "relatedIdentifierType": "DOI",
             "name": "Botanical Composition of the Park Grass Plots at Rothamsted 1856 - 1976",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
             "relationTypeValue": "is referenced by"
@@ -322,7 +348,7 @@
             "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Park/pgcomposition1",
             "relatedIdentifierType": "URL",
             "name": "Park Grass Botanical Compostion",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsSupplementedBy",
             "rt_id": 4,
             "relationTypeValue": "is supplemented by"
@@ -331,7 +357,7 @@
             "relatedIdentifier": "https://www.youtube.com/watch?v=-3-Pm5JUQZ4&feature=player_embedded",
             "relatedIdentifierType": "URL",
             "name": "The Park Grass Experiment - video",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsSupplementedBy",
             "rt_id": 4,
             "relationTypeValue": "is supplemented by"
@@ -340,7 +366,16 @@
             "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Park/",
             "relatedIdentifierType": "URL",
             "name": "Park Grass Experiment - background",
-            "relatedIdentifierGeneralType": "text",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/KeyRefOAPGsoilpH.",
+            "relatedIdentifierType": "DOI",
+            "name": "Park Grass pH in water 1856-2011",
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsSupplementedBy",
             "rt_id": 4,
             "relationTypeValue": "is supplemented by"
@@ -361,6 +396,13 @@
             "URL": "Park_Grass_Species_Chart_2016.pdf",
             "encodingFormat": "pdf",
             "fileSize": "92 KB"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Park Grass Plan 2019",
+            "URL": "Park_Grass_Plan_2019.pdf",
+            "encodingFormat": "pdf",
+            "fileSize": "72 KB"
         }
     ],
     "image": [

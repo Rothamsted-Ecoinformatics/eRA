@@ -8,7 +8,7 @@
 
 
 DESCRIPTION
-    The experiment consists of 8 Main Strips (originally 10). Between 1899 and 1968 various combinations of FYM and P fertilizer applied to these Main Strips resulted a wide range of Olsen P values (4 – 65 mg/kg Olsen P). By 1969 the eight strips were divided into four blocks (A, B, C and D) with 20 micro-plots in each strip. On each set of micro-plots within each Strip/Block five amounts of P fertilizer were tested on potatoes, sugar beet, spring barley and winter wheat). Yields and P uptake were measured and Soil Olsen P content.
+    The experiment consists of 8 Main Strips (originally 10). Between 1899 and 1968 various combinations of FYM and P fertilizer applied to these Main Strips resulted a wide range of Olsen P values (4-65 mg/kg Olsen P). By 1969 the eight strips were divided into four blocks (A, B, C and D)  with 20 micro-plots in each strip. On each set of micro-plots within each Strip/Block five amounts of P fertilizer were tested on potatoes, sugar beet, spring barley and winter wheat). Yields and P uptake were measured and Soil Olsen P content.
     To investigate the effects of soil P and fresh fertilizer P on the yields of arable crops at a range of soil P values.
 
     Experiment start = 1899

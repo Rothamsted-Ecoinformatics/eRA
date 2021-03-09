@@ -1,0 +1,123 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/KeyRefOAGEWoc",
+    "name": "Geescroft wilderness accumulation of organic carbon",
+    "shortName": "GEWoc",
+    "url": "http://www.era.rothamsted.ac.uk/Wilderness/wilderness_open_access_geescroft_oc",
+    "description": [
+        {
+            "inLanguage": "en",
+            "descriptionType": "Abstract",
+            "description": "The accumulation of organic carbon in soil and tree biomass has been measured on two contrasting sites at Rothamsted that were fenced off in the 1880s and left to revert naturally to woodland. Geescroft, on acidic soil and Broadbalk Wilderness, on calcareous soil. Previously, both sites had been in arable cultivation for centuries.\r\n\r\nThe figure shows the accumulation of organic carbon in the soil, and tree root, litter and above-ground biomass in the Geescroft Wilderness, 1883-1999. \r\nThis selected data is from work published in Poulton et al. (2003)."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Methods",
+            "description": "#### TREATMENTS\r\n\r\n- No fertilizer or manure has been applied since 1878.\r\n- Received small applications of chalk 1840s-1880s\r\n- Regenerating natural woodland site since 1883 (unplanted) - previously long-term arable (field beans, Vicia faba, 1847-1878; bare fallow 1879-1882).\r\n\r\n#### SOIL SAMPLES\r\n\r\n- **1883: ** 8 separate samples from the long-term arable site\r\n- **1904: ** 2 separate samples\r\n- **1965: **  4 separate samples\r\n- **1999: **  8 separate samples"
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TechnicalInfo",
+            "description": "The Geescroft site was previously a long-term arable site, with natural regeneration of deciduous woodland following abandonment of arable cropping. It was originally part of an experimental field that grew beans (Vicia faba) from 1847-1878, with frequent breaks due to crop failure. This was followed by four years of bare fallowing 1879-1882. Clover was then grown 1883-1885, and last cultivated in spring 1883. In January 1886 the Wilderness area was fenced off and left uncultivated. Reversion is presumed to have started in spring 1883, after the last cultivation. The Wilderness covers part of the previous experiment on beans which included phosphorus treatments. Where possible, data has been given for soils taken from areas which had received no P fertilizer, although Jenkinson (1971) found no effect of P on the build up of organic C or N.\r\n\r\nThe acidic Geescroft Wilderness is now a deciduous wood dominated by oak (Quercus robur). In contrast, Broadbalk Wilderness is now dominated by ash (Fraxinus excelsior), with sycamore (Acer pseudoplatanus) and hawthorn (Craetagus monogyna).\r\n\r\nThe soil has been sampled to an equivalent depth of 69cm (see Poulton et al, 2003 for further details). Because the soil has become acidic, it is now covered by a permanent litter layer, in contrast to Broadbalk Wilderness, where each year's litter fall decomposes before the next arrives. This site has gained 2.00 t C ha-1 year over the 118 year period (0.38 t in litter and soil, plus an estimated 1.62 t in trees and their roots). Data on the accumulation of nitrogen is also available from the e-RA curators."
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "publication_year": 2015,
+    "dateCreated": null,
+    "dateModified": "2021-03-04",
+    "datePublished": null,
+    "inLanguage": "en",
+    "version": "01",
+    "keywords": [
+        "Geescroft Wilderness experiment",
+        "Rothamsted Research",
+        "long term experiments",
+        "soil organic carbon",
+        "woodland",
+        "ecological succession"
+    ],
+    "creator": [
+        {
+            "type": "organization",
+            "name": "Rothamsted Research"
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells-Brooke",
+            "givenName": "Nathalie",
+            "familyName": "Castells-Brooke",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License"
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.361044,
+            "latitude": 51.80273
+        },
+        "name": "Geescroft"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.1046/j.1365-2486.2003.00633.x",
+            "relatedIdentifierType": "DOI",
+            "name": "Accumulation of carbon and nitrogen by old arable land reverting to woodland",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        }
+    ],
+    "funder": [
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/000J0300 - The Rothamsted Long - Term Experiments - National Capability",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F000J0300"
+        },
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/00005189 - The Rothamsted Long-Term Experiments including Sample Archive and e-RA database",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F00005189"
+        }
+    ],
+    "distribution": [],
+    "image": [],
+    "grade": 1,
+    "dstype": "OA"
+}

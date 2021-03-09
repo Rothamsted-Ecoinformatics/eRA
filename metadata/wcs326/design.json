@@ -22,7 +22,7 @@
         },
         "crops": [
             {
-                "id": 10548,
+                "id": 11445,
                 "name": "wheat",
                 "sameAs": "wheat",
                 "dateStart": null,
@@ -32,14 +32,14 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 5961,
+                "id": 6138,
                 "name": "crop residue management exposure",
                 "description": "Chopped wheat straw applied annually before sowing.",
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 16392,
+                        "id": 16710,
                         "name": "control exposure",
                         "amount": null,
                         "unitCode": null,
@@ -53,7 +53,7 @@
                         "notes": "All crop residues were removed."
                     },
                     {
-                        "id": 16393,
+                        "id": 16711,
                         "name": "normal",
                         "amount": "5",
                         "unitCode": "t/ha",
@@ -67,7 +67,7 @@
                         "notes": null
                     },
                     {
-                        "id": 16394,
+                        "id": 16712,
                         "name": "2 x normal",
                         "amount": "20",
                         "unitCode": "t/ha",
@@ -81,7 +81,7 @@
                         "notes": null
                     },
                     {
-                        "id": 16395,
+                        "id": 16713,
                         "name": "4 x normal",
                         "amount": "20",
                         "unitCode": "t/ha",
@@ -107,17 +107,27 @@
                 "scale": "plot",
                 "material": "SpecifiedCrop",
                 "description": null,
-                "crop": 10548
+                "crop": 11445
             },
             {
-                "variable": "forage yield",
-                "unitCode": "t/ha",
-                "unitText": "tonnes per hectare",
-                "collectionFrequency": "annually",
+                "variable": "total soil nitrogen",
+                "unitCode": "%",
+                "unitText": "Percent",
+                "collectionFrequency": "occasionally",
                 "scale": "plot",
-                "material": "SpecifiedCrop",
-                "description": null,
-                "crop": 10548
+                "material": "Soil",
+                "description": "Measured by LECO combustion",
+                "crop": null
+            },
+            {
+                "variable": "soil organic carbon",
+                "unitCode": "%",
+                "unitText": "Percent",
+                "collectionFrequency": "occasionally",
+                "scale": null,
+                "material": "Soil",
+                "description": "Total C by LECO combustion minus CaCO3",
+                "crop": null
             }
         ]
     }

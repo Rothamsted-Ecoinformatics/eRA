@@ -115,8 +115,8 @@
         {
             "relatedIdentifier": "10.23637/ROTHAMSTED-LONG-TERM-EXPERIMENTS-GUIDE-2018",
             "relatedIdentifierType": "DOI",
-            "name": "Not in the Database",
-            "relatedIdentifierGeneralType": "text",
+            "name": null,
+            "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
             "relationTypeValue": "is described by"

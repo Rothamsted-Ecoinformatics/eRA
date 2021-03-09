@@ -7,6 +7,8 @@
  *
  * @author Nathalie Castells-Brooke
  * @date 9/27/2018
+ * 
+ * TODO: add contributors
  */
 include_once 'includes/init.inc'; // these are the settings that refer to more than one page
 
@@ -118,6 +120,7 @@ if ($hasDataset) {
     $getAuthors = "";
     $getAuthorOrganisation = "";
     $getContributors = "";
+    $hasCT = 0;
     $getPublisher = "";
     $isAuthor = 0;
     $refAuthor = "DEFAULT";
@@ -134,13 +137,22 @@ if ($hasDataset) {
     }
 
     if (is_array($dsinfo['contributor'])) {
+        $tblContributors = "        <h3>Contributors</h3><ul>";
         foreach ($dsinfo['contributor'] as $contributor) {
-
+            $hasCT = 1;
             if ($contributor['type'] == 'Person') {
                 $getContributors .= $contributor['name'] . ", ";
+                $strRole = preg_replace('/([a-z])([A-Z])/', '${1} ${2}', $contributor['jobTitle']);
+                $strRole = strtolower($strRole);
+                $strRole = ucfirst($strRole);
+                $tblContributors .= "<li><b>".$contributor['name'].": </b> ".$strRole;
             }
+            
         }
+        $tblContributors .= "</ul>";
+        
     }
+    
     $getAuthorOrganisation = rtrim($getAuthorOrganisation, ', ');
     $getAuthors = rtrim($getAuthors, ', ');
     $getContributors = rtrim($getContributors, ', ');
@@ -197,6 +209,7 @@ if ($hasDataset) {
     if (is_array($dsinfo['relatedIdentifier'])) {
         $hasDatasets = 0;
         $hasDocuments = 0;
+        $hasVersion = 0;
         $relDatasets_prev = "				<div class=\"card\">
 					<div class=\"card-header\" id=\"Related\">
 						<h5 class=\"mb-0\">
@@ -210,7 +223,7 @@ if ($hasDataset) {
 						<div class=\"card-body\">";
 
         $relDatasets = "				<h3>Related Datasets</h3> <ul>";
-
+        $otherVersions = "				<h3>Other Versions</h3> <ul>";
         $relDocuments_prev = "<div class=\"card\">
 					<div class=\"card-header\" id=\"Supporting\">
 						<h5 class=\"mb-0\">
@@ -243,19 +256,27 @@ if ($hasDataset) {
                     break;
                     
             }
-            if ($ris['relatedIdentifierGeneralType'] == "text") {
+            if ($ris['relatedIdentifierGeneralType'] == "Text") {
 
                 $hasDocuments = 1;
 
                 $relDocuments .= "<li>  <a target = \_blank\" href=\"".$urlPrefix. $ris['relatedIdentifier'] . "\">  " . $ris['name'] . "</a> <sup><i class=\"fa fa-external-link\" aria-hidden=\"true\"></i></sup>: </li>";
             } elseif ($ris['relatedIdentifierGeneralType'] == "Dataset") {
+                
+                if (($ris['rt_id'] == 13) or ($ris['rt_id']== 14)) 
+                {
+                   $hasVersion = 1;
+                   $otherVersions.= "<li>  <a  href=\"".$urlPrefix. $ris['relatedIdentifier'] . "\">  " . $ris['name'] . "</a></li>";
+                } else {
                 $hasDatasets = 1;
 
                 $relDatasets .= "<li>  <a  href=\"".$urlPrefix. $ris['relatedIdentifier'] . "\">  " . $ris['name'] . "</a></li>";
+                }
             } else {}
         }
-        $relDatasets .= "</ul>";
+        $relDatasets .=  "</ul>";
         $relDocuments .= "</ul>";
+        $otherVersions.= "</ul>";
     }
     if (is_array($dsinfo['description'])) {
         $arrDescription = array();
