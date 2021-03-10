@@ -145,7 +145,7 @@ marker.togglePopup();
 <?php
 if (count($person['contributors']) > 0) {
 
-    $line = "<h3 class=\"my-3 mt-5\">Contributors</h3> <ul class=\"list-group  mx-3\">";
+    $line = "<h3 class=\"my-3 mt-5\">Key Contacts</h3> <ul class=\"list-group  mx-3\">";
     echo $line;
     foreach ($person['contributors'] as $personDetails) {
         $list = getPersonInfo($personDetails);
