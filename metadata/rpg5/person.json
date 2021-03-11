@@ -15,10 +15,23 @@
         },
         {
             "type": "Person",
-            "jobTitle": "principal investigator",
+            "jobTitle": "experiment manager",
             "name": "Jon Storkey",
             "givenName": "Jon",
             "familyName": "Storkey",
+            "sameAs": null,
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": "West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "principal investigator",
+            "name": "Andrew MacDonald",
+            "givenName": "Andrew",
+            "familyName": "MacDonald",
             "sameAs": null,
             "affiliation": {
                 "type": "Organization",

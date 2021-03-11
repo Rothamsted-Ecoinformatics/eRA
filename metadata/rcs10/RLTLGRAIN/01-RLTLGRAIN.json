@@ -52,6 +52,46 @@
     "creator": [
         {
             "type": "Person",
+            "Name": "Lionel Jordan_Meille",
+            "givenName": "Lionel",
+            "familyName": "Jordan_Meille",
+            "sameAs": "https://orcid.org/0000-0003-1169-7002",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Bordeaux Sciences Agro",
+                "addressLocality": null,
+                "addressRegion": "Villenave dOrnon",
+                "postalCode": "33130",
+                "addressCountry": "France"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Bordeaux Sciences Agro",
+                "address": ", UMR 1391, Villenave dOrnon, 33130, France"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Jonathan Holland",
+            "givenName": "Jonathan",
+            "familyName": "Holland",
+            "sameAs": "https://orcid.org/0000-0001-6661-0168",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "The James Hutton Institute",
+                "addressLocality": null,
+                "addressRegion": "Dundee",
+                "postalCode": "DD2 5DA",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "The James Hutton Institute",
+                "address": ", Dundee, DD2 5DA, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
             "Name": "Steve McGrath",
             "givenName": "Steve",
             "familyName": "McGrath",
@@ -239,6 +279,27 @@
         },
         {
             "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Jonathan Holland",
+            "givenName": "Jonathan",
+            "familyName": "Holland",
+            "sameAs": "https://orcid.org/0000-0001-6661-0168",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "The James Hutton Institute",
+                "addressLocality": null,
+                "addressRegion": "Dundee",
+                "postalCode": "DD2 5DA",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "The James Hutton Institute",
+                "address": ", Dundee, DD2 5DA, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
             "jobTitle": "ProjectManager",
             "name": "Richard Ostler",
             "givenName": "Richard",
@@ -277,6 +338,27 @@
                 "type": "Organization",
                 "name": "Sustainable Agricultural Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Lionel Jordan_Meille",
+            "givenName": "Lionel",
+            "familyName": "Jordan_Meille",
+            "sameAs": "https://orcid.org/0000-0003-1169-7002",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Bordeaux Sciences Agro",
+                "addressLocality": null,
+                "addressRegion": "Villenave dOrnon",
+                "postalCode": "33130",
+                "addressCountry": "France"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Bordeaux Sciences Agro",
+                "address": ", UMR 1391, Villenave dOrnon, 33130, France"
             }
         },
         {

@@ -68,6 +68,26 @@
         },
         {
             "type": "Person",
+            "Name": "Jonathan Holland",
+            "givenName": "Jonathan",
+            "familyName": "Holland",
+            "sameAs": "https://orcid.org/0000-0001-6661-0168",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "The James Hutton Institute",
+                "addressLocality": null,
+                "addressRegion": "Dundee",
+                "postalCode": "DD2 5DA",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "The James Hutton Institute",
+                "address": ", Dundee, DD2 5DA, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
             "Name": "Steve McGrath",
             "givenName": "Steve",
             "familyName": "McGrath",
@@ -127,6 +147,27 @@
                 "type": "Organization",
                 "name": "Computational and Analytical Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Jonathan Holland",
+            "givenName": "Jonathan",
+            "familyName": "Holland",
+            "sameAs": "https://orcid.org/0000-0001-6661-0168",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "The James Hutton Institute",
+                "addressLocality": null,
+                "addressRegion": "Dundee",
+                "postalCode": "DD2 5DA",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "The James Hutton Institute",
+                "address": ", Dundee, DD2 5DA, United Kingdom"
             }
         },
         {

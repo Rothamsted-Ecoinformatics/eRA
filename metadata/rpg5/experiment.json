@@ -5,16 +5,16 @@
         "localIdentifier": "R/PG/5",
         "name": "Park Grass",
         "url": null,
-        "description": "Started by Lawes and Gilbert in 1856, its original purpose was to investigate ways of improving the yield of hay by the application of inorganic fertilisers or organic manures. \nWithin 2-3 years it became clear that these treatments were having a dramatic effect on the species composition of what had been a uniform sward comprising about 50 species. Dramatically different swards have evolved as a result of the different pH and nutrient status of the soils. There are 35-45 species on the unfertilised plots but only 2 or 3 species on some of the fertilised plots. The continuing effects on species diversity and on soil function of the original treatments, together with later tests of liming and interactions with atmospheric inputs and climate change, has meant that Park Grass has become increasingly important to ecologists and soil scientist.\nThe plots are cut for hay in mid-June. The first cut for hay ensures seeds are returned each year. The management of the aftermath following the first hay cut varied in the early years, either being grazed by sheep or cut green. Since the 1890s the second crop has been cut green and removed. In some years a third cut has also been taken\nThe experiment includes a small area used for micro-plot experiments.",
-        "disambiguatingDescription": "To study the effects of organic and inorganic amendments and lime on old grass for hay"
+        "description": "Because of the earlier experiments had showed that different crops require different amounts and ratios of nitrogen (N), phosphorus (p) and potassium (K), Lawes and Gilbert extended their experiments in 1856 to include the mixed plant population of old grassland. The Park Grass experiment was established on c.2.8 ha of parkland that had been in permanent pasture for at least 100 years. Started by Lawes and Gilbert in 1856, its original purpose was to investigate ways of improving the yield of hay by the application of inorganic fertilisers or organic manures. Within 2-3 years it became clear that these treatments were having a dramatic effect on the species composition of what had been a uniform sward comprising about 50 species. Dramatically different swards have evolved as a result of the different pH and nutrient status of the soils. There are 35-45 species on the unfertilised plots but only 2 or 3 species on some of the fertilised plots. The continuing effects on species diversity and on soil function of the original treatments, together with later tests of liming and interactions with atmospheric inputs and climate change, has meant that Park Grass has become increasingly important to ecologists and soil scientists. A study published in the journal Nature shows that grassland diversity on the Park Grass experiment recovered once atmospheric nitrogen pollution reduced (Storkey et. al. 2015). \n\nThe harvesting methods have changed as farming practices have modernised (see More). The plots are cut for hay in mid-June. The first cut for hay ensures seeds are returned each year. The management of the aftermath following the first hay cut varied in the early years, either being grazed by sheep or cut green. Since the 1890s the second crop has been cut green and removed. In some years a third cut has also been taken. Studies have also been made of the botanical composition of the plots both through visual surveys and by looking at the percentage contribution to the hay made by the various species (see More). \n\nHerbage yields are recorded each year. Physical samples of crops and soils have been preserved in the Rothamsted Sample Archive. The experiment also includes a small area used for micro-plot experiments. Since January 2020 twelve sub-plots have three soil moisture probes. The experiment has had three main phases (see Design Periods).\n\nPark Grass is a \u201cGenomic Observatory\u201d - a geographic site with a rich history of environmental/ecological data collection and a long-term commitment to future studies. The Park Grass soil metagenome from the untreated control plot 3d is now publicly available (see Related Documents).\n\nPark Grass is an Environmental Change Network (ECN) data site (see Related Documents).",
+        "disambiguatingDescription": "Originally to study the effects of organic and inorganic amendments and lime on old grass for hay, latterly also for effects on botanical composition."
     },
     "dataAccess": {
         "type": "creativeWork",
         "conditionsOfAccess": "Available to any researcher on request",
         "isAccessibleForFree": "YesOffline",
         "publishingPrinciples": "http://www.era.rothamsted.ac.uk/Park",
-        "actionableFeedbackPolicy": "To study the effects of organic and inorganic amendments and lime on old grass for hay",
-        "correctionsPolicy": "To study the effects of organic and inorganic amendments and lime on old grass for hay",
+        "actionableFeedbackPolicy": "Originally to study the effects of organic and inorganic amendments and lime on old grass for hay, latterly also for effects on botanical composition.",
+        "correctionsPolicy": "Originally to study the effects of organic and inorganic amendments and lime on old grass for hay, latterly also for effects on botanical composition.",
         "unnamedSourcesPolicy": null
     },
     "license": {
@@ -49,6 +49,94 @@
             "identifier": "https://doi.org/10.1111/j.1365-2745.2006.01145.x",
             "sameAs": "https://doi.org/10.1111/j.1365-2745.2006.01145.x",
             "citation": "Silvertown, J. , Poulton, P. R. , Johnston, A., E. , Edwards, G. , Heard, M. and Biss, P. M. (2006) \"The Park Grass Experiment 1856-2006: Its contribution to ecology\", Journal of Ecology, 94, 801-814",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1111/sum.12343",
+            "sameAs": "https://doi.org/10.1111/sum.12343",
+            "citation": "Bowley, H. E. , Mathers, A. W. , Young, S. D. , Macdonald, A. J. , Ander, E. L. , Watts, M. J. , Zhao, F. J. , McGrath, S. P. , Crout, N. M. J. and Bailey, E. H. (2017) \"Historical trends in iodine and selenium in soil and herbage at the Park Grass Experiment, Rothamsted Research, UK\", Soil Use and Management, 33, 252-262",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi/10.1086/427270",
+            "sameAs": "https://doi/10.1086/427270",
+            "citation": "Crawley, M. J. , Johnston, A. E. , Silvertown, J. , Dodd, M. , de Mazancourt, C. , Heard, M. S. , Henman, D. F. and Edwards, G. R. (2005) \"Determinants of species richness in the Park Grass experiment\", American Naturalist, 165, 179-192",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1073/pnas.95.1.207",
+            "sameAs": "https://doi.org/10.1073/pnas.95.1.207",
+            "citation": "Kunin, W. E. (1998) \"Biodiversity at the edge: A test, of the importance of spatial \"mass effects\" in the Rothamsted Park Grass experiments\", Proceedings of the National Academy of Sciences of the United States of America, 95, 207-212",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1017/S0021859600067290",
+            "sameAs": "https://doi.org/10.1017/S0021859600067290",
+            "citation": "Jenkinson, D. S. , Potts, J. M. , Perry, J. N. , Barnett, V. , Coleman, K. and Johnston, A. E. (1994) \"Trends in Herbage Yields over the Last Century on the Rothamsted Long-Term Continuous Hay Experiment\", Journal of Agricultural Science, 122, 365-374",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1016/0167-8809(92)90115-R",
+            "sameAs": "https://doi.org/10.1016/0167-8809(92)90115-R",
+            "citation": "Morris, M. G. (1992) \"Responses of Auchenorhyncha (Homoptera) to Fertilizer and Liming Treatments at Park Grass, Rothamsted\", Agriculture Ecosystems & Environment, 41, 263-283",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "*****",
+            "sameAs": "*****",
+            "citation": "Thurston, J. M. , Williams, E. D. and Johnston, A. E. (1976) \"Modern developments in an experiment on permanent grassland started in 1856: effects of fertilizers and lime on botanical composition and crop and soil analyses\", Annales Agronomiques, 27, 1043-1082",
+            "inLanguage": "French",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/ERADOC-1-56",
+            "sameAs": "https://doi.org/10.23637/ERADOC-1-56",
+            "citation": "Warren, R. G. and Johnston, A. E. (1964) \"The Park Grass Experiment\", Rothamsted Experimental Station Report for 1963, 240-262",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://www.youtube.com/watch?v=-3-Pm5JUQZ4",
+            "sameAs": "https://www.youtube.com/watch?v=-3-Pm5JUQZ4",
+            "citation": "Video on Park Grass Experiment presented by Dr Jonathan Storkey",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "http://www.era.rothamsted.ac.uk/eradoc/books/4",
+            "sameAs": "http://www.era.rothamsted.ac.uk/eradoc/books/4",
+            "citation": "Details of the Classical and Long-term Experiments in eRAdoc",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "http://data.ecn.ac.uk/sites/ecnsites.asp?site=T06",
+            "sameAs": "http://data.ecn.ac.uk/sites/ecnsites.asp?site=T06",
+            "citation": "Environmental Change Network (ECN)",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "http://www.genomenviron.org/Projects/METASOIL.html",
+            "sameAs": "http://www.genomenviron.org/Projects/METASOIL.html",
+            "citation": "The Park Grass Genomic Observatory",
             "inLanguage": "English",
             "relationType": "isCitedBy"
         }

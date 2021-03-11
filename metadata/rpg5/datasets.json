@@ -19,6 +19,25 @@
         "UID": "01-OAPGspecies"
     },
     {
+        "md_id": 422547951,
+        "title": "Park Grass Hay Yields 1965-2018",
+        "URL": null,
+        "identifier": "10.23637/rpg5-Park_Grass_Yields_1965-18",
+        "identifier_type": "DOI",
+        "dataset_type": "Crop  yield data",
+        "extension": "xlsx",
+        "description": "This data is the yields of hay, 1st and 2nd cuts, harvested from Park Grass Experiment since 1965. In 1965 a new liming regime had been intiated. All/selected [delte as necessary] treatments plots and sub-plots are provided. Variations in yield reflect the various treatments and liming regimes.",
+        "fieldname": "Park Grass",
+        "experiment_name": "Park Grass",
+        "experiment_code": "R/PG/5",
+        "grade": 1,
+        "dstype": "OA",
+        "publication_year": 0,
+        "version": "01",
+        "shortName": 422547951,
+        "UID": 422547951
+    },
+    {
         "md_id": 1334494892,
         "title": "Park Grass Soil pH 1856-2011",
         "URL": "http://www.era.rothamsted.ac.uk/Park/pg_open_access_soilph",

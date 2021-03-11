@@ -323,6 +323,15 @@
             "relationType": "IsSupplementedBy",
             "rt_id": 4,
             "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/KeyRefOAPGsoilpH",
+            "relatedIdentifierType": "DOI",
+            "name": "Park Grass Soil pH 1856-2011",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
         }
     ],
     "funder": [

@@ -92,7 +92,7 @@
         {
             "relatedIdentifier": "10.23637/rbk1-sup-1534342858-01",
             "relatedIdentifierType": "DOI",
-            "name": "Broadbalk plan 1852-1925",
+            "name": "Broadbalk plan and treatments 1852-1925",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
@@ -101,7 +101,7 @@
         {
             "relatedIdentifier": "10.23637/rbk1-1796346264-1",
             "relatedIdentifierType": "DOI",
-            "name": "BKYIELD: Broadbalk wheat grain and straw yields 1844-1925",
+            "name": "BKYIELD: Broadbalk wheat grain and straw yields 1852-1925",
             "relatedIdentifierGeneralType": "Dataset",
             "relationType": "IsDerivedFrom",
             "rt_id": 28,

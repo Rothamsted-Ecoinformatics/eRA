@@ -2,7 +2,7 @@
     "@context": "https://schema.org/",
     "@type": "Dataset",
     "identifier": "10.23637/rbk1-1796346264-1",
-    "name": "BKYIELD: Broadbalk wheat grain and straw yields 1844-1925",
+    "name": "BKYIELD: Broadbalk wheat grain and straw yields 1852-1925",
     "shortName": "YIELD844925",
     "url": "http://www.era.rothamsted.ac.uk/Broadbalk/",
     "description": [
@@ -98,6 +98,48 @@
                 "name": "Computational and Analytical Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Andrew Macdonald",
+            "givenName": "Andrew",
+            "familyName": "Macdonald",
+            "sameAs": "https://orcid.org/0000-0002-1785-4892",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
         }
     ],
     "encodingFormat": "text/html",
@@ -160,7 +202,7 @@
         {
             "relatedIdentifier": "10.23637/keyrefoabkolsenp",
             "relatedIdentifierType": "DOI",
-            "name": "Broadbalk changes in Olsen P in top soil, 1844-2010",
+            "name": "Broadbalk changes in Olsen P in top soil, 1843-2010",
             "relatedIdentifierGeneralType": "Dataset",
             "relationType": "IsSourceOf",
             "rt_id": 29,

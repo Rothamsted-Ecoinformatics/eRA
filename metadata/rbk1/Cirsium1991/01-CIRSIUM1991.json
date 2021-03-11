@@ -214,7 +214,7 @@
         {
             "relatedIdentifier": "10.23637/rbk1-FertTreats",
             "relatedIdentifierType": "DOI",
-            "name": "Broadbalk Fertiliser Treatments",
+            "name": "Broadbalk Fertiliser and Manure Treatments 1852-2021",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "Cites",
             "rt_id": 2,
@@ -225,9 +225,9 @@
             "relatedIdentifierType": "DOI",
             "name": "Broadbalk Today revised 2018",
             "relatedIdentifierGeneralType": "Image",
-            "relationType": "Cites",
-            "rt_id": 2,
-            "relationTypeValue": "cites"
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
         }
     ],
     "funder": [

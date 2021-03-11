@@ -1,0 +1,107 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/rbk1-beans_crop_nutrients_68-78-1",
+    "name": "Broadbalk Crop Nutrient Content, Beans 1968-1978",
+    "shortName": null,
+    "url": "http://www.era.rothamsted.ac.uk/Broadbalk/beans_crop_nutrients_1968-1978",
+    "description": [
+        {
+            "inLanguage": "en",
+            "descriptionType": "Abstract",
+            "description": "From 1968 Broadbalk was divided into 10 sections. Grain and straw from selected sections and plots of all crops (wheat and rotational crops) were collected and stored in the Sample Archive. They were  analysed for Nitrogen (N), Phosphorus (P), Potassium (K), Calcium (Ca), Magnesium (Mg), Sodium (Na) and Sulphur (S). Data is presented here for % nutrients in beans and is the response to different fertiliser treatments and cropping."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Methods",
+            "description": "Nitrogen (N)\r\n1968-1995: nitrogen content was determined by Kjeldahl digest, the digest was then analysed colorimetrically using a Technicon segmented flow analyser. If nitrate-N was expected to be high in the sample, the salicylic acid modification was used (Bremner, 1965).\r\n1996 onwards: nitrogen content is determined by combustion analyser, based on the Dumas method. Originally a Heraeus Combustion analyser, currently a LECO combustion system is used.\r\nPhosphorus (P), Potassium (K), Calcium (Ca), Magnesium (Mg), Sodium (Na) and Sulphur (S)\r\n1968-late 1980s: dry ashing techniques, as described by Piper (1942) were used to produce an acid extract. The extracts were analysed for P colorimetrically on a Technicon Auto Analyser, or later equivalents (Alpkem continuous flow system / Skalar SanPlus segmented flow system), using the modified Murphy & Riley (1962) molybdenum blue method developed from Fogg & Wilkinson (1958). K, Ca, Mg and Na were determined using automated atomic absorption methods. The SP90 atomic absorption flame photometer was used to analyse Ca, Mg and Na; K was analysed by the EEL flame photometer until 1973, K was then analysed with Ca, Mg and Na by the SP90. S was not routinely measured until 1996.\r\n1980s onwards: since the late 1980s the open tube nitric-perchloric digestion (Zarcinas, et al, 1987) has been used to produce an acid extract. P, K, Ca, Mg and Na have been determined by ICP-OES (Inductively-coupled plasma \u2013 optical emission Spectrometer) since 1982, and S since 1996.\r\nBlank (control) values: Data for sodium is presented after the analysis blanks (controls) have been subtracted from the raw data. Sodium blank values tend to be relatively large, and can be greater than the raw data. If subtracting the blank resulted in a negative value, this is shown as zero. Thus the sodium data should be treated with some caution. Blank (control) readings for the other nutrients are very small, relative to the treatment values, and have not been subtracted."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TableOfContents",
+            "description": "Broadbalk bean nutrient data (N, P, K, Ca, Mg and Na) 1968-1978"
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Other",
+            "description": "With thanks to Andy Macdonald, Paul Poulton, Steve Freeman, Ruth Skilton and Wendy Gregory for help with compiling this information.\r\nNutrient data for other crops on Broadbalk is available as separate datasets \u2013 see Related Documents"
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Provenance",
+            "description": "This dataset is derived from measurements made by the Analytical Chemistry Unit, Rothamsted Research, Harpenden. The data presented is mean data from selected plots and sections only."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Quality",
+            "description": "The Analytical Chemistry Unit follows the Joint Code of Practice (JCoPR) and participates in European Quality Assurance programmes. All performance is strictly monitored using certified external standards alongside in-house standard materials. Standards and check samples are monitored and recorded."
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Rothamsted Research"
+    },
+    "publication_year": 0,
+    "dateCreated": null,
+    "dateModified": null,
+    "datePublished": null,
+    "inLanguage": "en",
+    "version": "1",
+    "keywords": [
+        "Broadbalk long-term experiment",
+        "long term experiments",
+        "mineral content",
+        "phosphorous",
+        "potassium",
+        "nitrogen"
+    ],
+    "creator": [
+        {
+            "type": "Person",
+            "Name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "contributor": [],
+    "encodingFormat": "application/vnd.ms-excel",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License"
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.37301,
+            "latitude": 51.80946
+        },
+        "name": "Broadbalk"
+    },
+    "relatedIdentifier": [],
+    "funder": [],
+    "distribution": [],
+    "image": [],
+    "grade": 1,
+    "dstype": "OA"
+}

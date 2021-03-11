@@ -212,9 +212,18 @@
     },
     "relatedIdentifier": [
         {
-            "relatedIdentifier": "10.23637/bk-oadata-soiln-01.",
+            "relatedIdentifier": "10.23637/BK-oadata-soilN-01",
             "relatedIdentifierType": "DOI",
-            "name": "Broadbalk soil total % Nitrogen content, 1843-2010",
+            "name": "Broadbalk Soil Total % Nitrogen Content, 1843-2010",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
+        },
+        {
+            "relatedIdentifier": "https://doi.org/10.23637/KeyRefOABKyields",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk mean long-term winter wheat grain yields",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsSupplementedBy",
             "rt_id": 4,

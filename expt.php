@@ -204,12 +204,9 @@ $hasDocs = file_exists($fileDocs);
 
     if (isset($ref)) {
         $KeyRef = $ref;
-    }
-    if ($dev == 'norton') {
-        echo $KeyRef;
-    } else {
         include '_keyrefs.php';
     }
+    
 
     ?>
 							</div>

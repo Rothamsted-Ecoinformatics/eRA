@@ -8,11 +8,16 @@
 
 
 DESCRIPTION
-    Started by Lawes and Gilbert in 1856, its original purpose was to investigate ways of improving the yield of hay by the application of inorganic fertilisers or organic manures. 
-Within 2-3 years it became clear that these treatments were having a dramatic effect on the species composition of what had been a uniform sward comprising about 50 species. Dramatically different swards have evolved as a result of the different pH and nutrient status of the soils. There are 35-45 species on the unfertilised plots but only 2 or 3 species on some of the fertilised plots. The continuing effects on species diversity and on soil function of the original treatments, together with later tests of liming and interactions with atmospheric inputs and climate change, has meant that Park Grass has become increasingly important to ecologists and soil scientist.
-The plots are cut for hay in mid-June. The first cut for hay ensures seeds are returned each year. The management of the aftermath following the first hay cut varied in the early years, either being grazed by sheep or cut green. Since the 1890s the second crop has been cut green and removed. In some years a third cut has also been taken
-The experiment includes a small area used for micro-plot experiments.
-    To study the effects of organic and inorganic amendments and lime on old grass for hay
+    Because of the earlier experiments had showed that different crops require different amounts and ratios of nitrogen (N), phosphorus (p) and potassium (K), Lawes and Gilbert extended their experiments in 1856 to include the mixed plant population of old grassland. The Park Grass experiment was established on c.2.8 ha of parkland that had been in permanent pasture for at least 100 years. Started by Lawes and Gilbert in 1856, its original purpose was to investigate ways of improving the yield of hay by the application of inorganic fertilisers or organic manures. Within 2-3 years it became clear that these treatments were having a dramatic effect on the species composition of what had been a uniform sward comprising about 50 species. Dramatically different swards have evolved as a result of the different pH and nutrient status of the soils. There are 35-45 species on the unfertilised plots but only 2 or 3 species on some of the fertilised plots. The continuing effects on species diversity and on soil function of the original treatments, together with later tests of liming and interactions with atmospheric inputs and climate change, has meant that Park Grass has become increasingly important to ecologists and soil scientists. A study published in the journal Nature shows that grassland diversity on the Park Grass experiment recovered once atmospheric nitrogen pollution reduced (Storkey et. al. 2015). 
+
+The harvesting methods have changed as farming practices have modernised (see More). The plots are cut for hay in mid-June. The first cut for hay ensures seeds are returned each year. The management of the aftermath following the first hay cut varied in the early years, either being grazed by sheep or cut green. Since the 1890s the second crop has been cut green and removed. In some years a third cut has also been taken. Studies have also been made of the botanical composition of the plots both through visual surveys and by looking at the percentage contribution to the hay made by the various species (see More). 
+
+Herbage yields are recorded each year. Physical samples of crops and soils have been preserved in the Rothamsted Sample Archive. The experiment also includes a small area used for micro-plot experiments. Since January 2020 twelve sub-plots have three soil moisture probes. The experiment has had three main phases (see Design Periods).
+
+Park Grass is a “Genomic Observatory” - a geographic site with a rich history of environmental/ecological data collection and a long-term commitment to future studies. The Park Grass soil metagenome from the untreated control plot 3d is now publicly available (see Related Documents).
+
+Park Grass is an Environmental Change Network (ECN) data site (see Related Documents).
+    Originally to study the effects of organic and inorganic amendments and lime on old grass for hay, latterly also for effects on botanical composition.
 
     Experiment start = 1856
 

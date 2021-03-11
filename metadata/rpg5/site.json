@@ -1,7 +1,7 @@
 {
     "administrative": {
         "name": "Park Grass",
-        "identifier": null,
+        "identifier": "rpg5",
         "type": "research station field",
         "doi": null,
         "visitsAllowed": "Yes",

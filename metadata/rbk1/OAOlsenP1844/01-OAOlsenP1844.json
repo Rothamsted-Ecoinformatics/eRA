@@ -2,19 +2,39 @@
     "@context": "https://schema.org/",
     "@type": "Dataset",
     "identifier": "10.23637/keyrefoabkolsenp",
-    "name": "Broadbalk changes in Olsen P in top soil, 1844-2010",
+    "name": "Broadbalk changes in Olsen P in top soil, 1843-2010",
     "shortName": "OAOlsenP1844",
     "url": "http://www.era.rothamsted.ac.uk/Broadbalk/bbk_open_access_olsenp",
     "description": [
         {
             "inLanguage": "en",
             "descriptionType": "Abstract",
-            "description": "Summary data showing changes in plant-available phosphorus (Olsen P) in the topsoil (0-23cm) of selected plots of the Broadbalk Wheat experiment, 1844-2010."
+            "description": "Summary data showing changes in plant-available phosphorus (Olsen P) in the topsoil (0-23cm) of selected plots of the Broadbalk Wheat experiment, 1843-2010."
         },
         {
             "inLanguage": "en",
             "descriptionType": "Methods",
-            "description": "The figure shows changes in plant-available phosphorus (Olsen P) in the topsoil (0-23cm) of selected plots of the Broadbalk Wheat experiment. Olsen P, which is commonly used to assess plant-available P, is measured by extracting soil with a solution of 0.5M NaHCO3, buffered at pH 8.5. Until 2000, most of the Broadbalk plots had received superphosphate P (35 kg P ha-1) each year since 1852. Since 2001, applications of P have been withheld on some plots. The accumulation of available P was greatest on the FYM plot, reflecting the larger total P inputs in FYM (approx 45 kg P ha-1) compared to that applied as inorganic fertilizer or where no P was applied. The greater Olsen P concentrations on plot 5 (PKMg) compared to plot 8 (N3PKMg), despite their similar P inputs, were a result of the higher yields and greater P offtakes in the crop on plot 8, due to the applied N. Plot 18 (N4 1/2PKMg) received P at half the standard rate between 1852 and 2001, resulting in relatively low Olsen P concentrations. Since 2001 fertilizer P has been applied at the full rate on this plot, and there has been a corresponding increase in Olsen P. Olsen P concentrations were least on plots receiving no (or very little) P inputs in fertilizer (plot 3, given no fertilizer or manure). Since 2001, fertilizer P has not been applied to plots 5 and 8 (and others not shown), due to the high reserves of plant-available P in the soil. This is reviewed each year."
+            "description": "Until 2000, most of the Broadbalk plots had received superphosphate P (35 kg P ha-1) each year since 1852. Since 2001, applications of P have been withheld on some plots. The accumulation of available P was greatest on the FYM plot, reflecting the larger total P inputs in FYM (approx 45 kg P ha-1) compared to that applied as inorganic fertilizer or where no P was applied. The greater Olsen P concentrations on plot 5 (PKMg) compared to plot 8 (N3PKMg), despite their similar P inputs, were a result of the higher yields and greater P offtakes in the crop on plot 8, due to the applied N. Plot 18 (N4 1/2PKMg) received P at half the standard rate between 1852 and 2000, resulting in relatively low Olsen P concentrations. Since 2001 fertilizer P has been applied at the full rate on this plot, and there has been a corresponding increase in Olsen P. Olsen P concentrations were least on plots receiving no (or very little) P inputs in fertilizer (plot 3, given no fertilizer or manure). Since 2001, fertilizer P has not been applied to plots 5 and 8 (and others not shown), due to the high reserves of plant-available P in the soil. This is reviewed each year."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TableOfContents",
+            "description": "Soil Olsen P from the following plots:\r\n- **Plot 3:** no fertilizer or manure since 1852\r\n- **Plot 5:** PKMg 1852-2000; no P since 2001 \r\n- **Plot 8:** PKMg + 144 kg N 1852-2000; no P since 2001 \r\n- **Plot 2.2:** 35t FYM since 1843 \r\n- **Plot 10** 96 kg N 1852-2000, 192 kg N since 2001. No PKMg\r\n- **Plot 18**  96 kg N 1852-2000 + half normal PKMg until 2000; 192 kg N + PKMg since 2001"
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TechnicalInfo",
+            "description": "Plant-available phosphorus (Olsen P) is measured by extracting soil with a solution of 0.5M NaHCO3, buffered at pH 8.5. The values for 1843 were estimated, although it is unlikely that all treatment strips would have started at the same value. Soils sampled before 1966 were analysed in 2001-4. Data is mean of all sections, both continuous wheat and wheat in rotation."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Provenance",
+            "description": "This  dataset is derived from measurements made by the Analytical Chemistry Unit, Rothamsted Research, Harpenden. The data presented is mean data from selected plots only. The complete data set, including the raw data used to derive the mean values, is available from the e-RA curators."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Quality",
+            "description": "The Analytical Chemistry Unit follows the Joint Code of Practice (JCoPR) and participates in European Quality Assurance programmes. All performance is strictly monitored using certified external standards alongside in-house standard materials. Standards and check samples are monitored and recorded."
         }
     ],
     "publisher": {
@@ -125,6 +145,27 @@
                 "name": "Sustainable Agricultural Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Wendy Wilmer",
+            "givenName": "Wendy",
+            "familyName": "Wilmer",
+            "sameAs": "https://orcid.org/0000-0002-6463-6636",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
         }
     ],
     "encodingFormat": "application/vnd.ms-excel",
@@ -149,9 +190,9 @@
     },
     "relatedIdentifier": [
         {
-            "relatedIdentifier": "10.23637/ROTHAMSTED-LONG-TERM-EXPERIMENTS-GUIDE-2006",
+            "relatedIdentifier": "10.23637/ROTHAMSTED-LONG-TERM-EXPERIMENTS-GUIDE-2018",
             "relatedIdentifierType": "DOI",
-            "name": "Rothamsted Guide to the Classical Experiments (2006)",
+            "name": "Rothamsted long-term experiments guide 2018",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
@@ -167,22 +208,13 @@
             "relationTypeValue": "is described by"
         },
         {
-            "relatedIdentifier": "10.23637/rbk1-1796346264-1",
+            "relatedIdentifier": "10.23637/KeyRefOABKyields",
             "relatedIdentifierType": "DOI",
-            "name": "BKYIELD: Broadbalk wheat grain and straw yields 1844-1925",
+            "name": "Broadbalk mean long-term winter wheat yields",
             "relatedIdentifierGeneralType": "Dataset",
-            "relationType": "IsDerivedFrom",
-            "rt_id": 28,
-            "relationTypeValue": "is derived from"
-        },
-        {
-            "relatedIdentifier": "10.23637/KeyRefOARESmatemp",
-            "relatedIdentifierType": "DOI",
-            "name": "Annual Mean Air Temperature at Rothamsted 1878-2013",
-            "relatedIdentifierGeneralType": "Dataset",
-            "relationType": "IsCitedBy",
-            "rt_id": 1,
-            "relationTypeValue": "is cited by"
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
         }
     ],
     "funder": [
@@ -190,8 +222,8 @@
             "type": "organization",
             "name": "Biotechnology and Biological Sciences Research Council",
             "sameAs": "http://dx.doi.org/10.13039/501100000268",
-            "award": "BBS/E/C/00005189 - The Rothamsted Long-Term Experiments including Sample Archive and e-RA database",
-            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F00005189"
+            "award": "BBS/E/C/000J0300 - The Rothamsted Long - Term Experiments - National Capability",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F000J0300"
         }
     ],
     "distribution": [
@@ -204,7 +236,7 @@
         },
         {
             "type": "dataDownload",
-            "name": "Open Access BK Olsen P",
+            "name": "Open Access BK Olsen P figure",
             "URL": "01-fig-olsenP.pdf",
             "encodingFormat": "pdf",
             "fileSize": "95 KB"
@@ -213,7 +245,7 @@
     "image": [
         {
             "type": "imageObject",
-            "caption": "Open Access BK Olsen POpen Access BK Olsen P",
+            "caption": "Open Access BK Olsen P",
             "URL": "OlsenP.png",
             "encodingFormat": "png",
             "fileSize": "56 KB"

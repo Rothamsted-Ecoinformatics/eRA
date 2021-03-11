@@ -6,23 +6,23 @@
             "localIdentifier": "First period",
             "name": "First period",
             "url": "First period",
-            "description": ""
+            "description": "There were originally 20 plots, some split (see Plan 1865). Plot nomenclature in 1856-1902 is complex. Yields are given for the whole plot, eg plot 3, 1856-1885. From 1881-1902, yields from the small area chalked in 1881 are referred to as 'C' eg 3C, and from the much larger unchalked area as 'UC' eg 3UC. Separate yields were not recorded for the limed and unlimed Western and Eastern halves in 1883 and 1887, but in some years, eg 1887 and 1889, yields are shown for the Western (W) and Eastern (E) parts of the areas chalked (C) and unchalked (UC) in 1881, eg Plots 3EU, 3WC. Plots areas are shown in e-RA, which helps with understanding which parts of the plots are referred to."
         },
         "design": {
             "dateStart": 1856,
             "dateEnd": 1902,
-            "description": null,
+            "description": "The uniformity of the site was assessed in the five years prior to 1856. Park Grass probably never received the large applications of chalk that were often applied to arable fields in this part of England. The soil (0-23cm) probably had a pH (in water) of about 5.5 when the experiment began. At the beginning of the experiment there were three main groups of fertiliser treatments; no N, N as ammonium salts at 3 rates and N as sodium nitrate at 2 rates, supplying the same amounts of N as the 2 smaller rates of ammonium salts. Within the 3 groups there were comparisons of O and P with and without K Na Mg for some of the rates of N. All fertilisers were applied each year. Another group of treatments also applied each year, tested farmyard manure (FYM), FYM f fertiliser \\ chaffed straw * N P K Na Mg and sawdust. The sawdust was applied to some of the plots in two of the groups of fertiliser treatments, no N and ammonium salts. The object was to increase the carbon dioxide content of the soil water by the decomposition of the sawdust (Warren & Johnston, 1963). FYM (farm yard manure) was applied to two plots but was discontinued after eight years because, when applied annually to the surface in large amounts, it had adverse effects on the sward. For 19 years the re-growth was grazed by sheep penned on individual plots but since 1875 a second harvest has been cut and removed immediately. Neither straw nor sawdust had any effect on yield of hay during the first few years, and the sawdust treatment was stopped. Applications of straw, however, were continued for about 40 years, but the added organic matter accumulated as a peaty layer and began to injure the growth of the\nherbage, and in 1897 this treatment was also stopped.\n\n\nSmall amounts of chalk and lime were applied to all plots in the 1880s and 1890s. The Park Grass plan of 1881 shows the chalk application in 1881 to a small part of the Northern end of the plots. In 1883 and 1887 the plots were divided into Western and Eastern halves, with lime applied to the Western half in 1883 and the Eastern half in 1887.",
             "studyDesign": "First period",
             "factorCombinationNumber": "NA",
             "numberOdBlocks": null,
-            "numberOfPlots": null,
+            "numberOfPlots": 20,
             "numberOfReplicates": null,
-            "numberOfSubplots": null,
+            "numberOfSubplots": 4,
             "numberOfHarvests": null
         },
         "crops": [
             {
-                "id": 11482,
+                "id": 11614,
                 "name": "grass",
                 "sameAs": "grass",
                 "dateStart": null,
@@ -32,14 +32,14 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 6278,
+                "id": 6940,
                 "name": "nitrogen fertilizer exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 17000,
+                        "id": 18225,
                         "name": "N1",
                         "amount": "52",
                         "unitCode": "kgN/ha",
@@ -53,7 +53,7 @@
                         "notes": null
                     },
                     {
-                        "id": 17001,
+                        "id": 18226,
                         "name": "N2",
                         "amount": "104",
                         "unitCode": "kgN/ha",
@@ -67,7 +67,7 @@
                         "notes": null
                     },
                     {
-                        "id": 17002,
+                        "id": 18227,
                         "name": "N3",
                         "amount": "156",
                         "unitCode": "kgN/ha",
@@ -81,7 +81,7 @@
                         "notes": null
                     },
                     {
-                        "id": 17003,
+                        "id": 18228,
                         "name": "N1*",
                         "amount": "52",
                         "unitCode": "kgN/ha",
@@ -95,7 +95,7 @@
                         "notes": null
                     },
                     {
-                        "id": 17004,
+                        "id": 18229,
                         "name": "N2*",
                         "amount": "104",
                         "unitCode": "kgN/ha",
@@ -111,14 +111,14 @@
                 ]
             },
             {
-                "id": 6279,
+                "id": 6941,
                 "name": "natural fertilizer exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 17005,
+                        "id": 18230,
                         "name": "farmyard manure",
                         "amount": null,
                         "unitCode": null,
@@ -132,7 +132,7 @@
                         "notes": null
                     },
                     {
-                        "id": 17006,
+                        "id": 18231,
                         "name": "fish meal",
                         "amount": null,
                         "unitCode": null,
@@ -148,14 +148,14 @@
                 ]
             },
             {
-                "id": 6280,
+                "id": 6942,
                 "name": "superphosphate exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 17007,
+                        "id": 18232,
                         "name": "P",
                         "amount": "36",
                         "unitCode": "kgP/ha",
@@ -171,14 +171,14 @@
                 ]
             },
             {
-                "id": 6281,
+                "id": 6943,
                 "name": "potassium fertilizer exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 17008,
+                        "id": 18233,
                         "name": "K",
                         "amount": "242",
                         "unitCode": "kgK/ha",
@@ -194,14 +194,14 @@
                 ]
             },
             {
-                "id": 6282,
+                "id": 6944,
                 "name": "sodium nutrient exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 17009,
+                        "id": 18234,
                         "name": "Na",
                         "amount": "17",
                         "unitCode": "kgNa/ha",
@@ -217,14 +217,14 @@
                 ]
             },
             {
-                "id": 6283,
+                "id": 6945,
                 "name": "magnesium nutrient exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 17010,
+                        "id": 18235,
                         "name": "Mg",
                         "amount": "12",
                         "unitCode": "kgMg/ha",
@@ -238,10 +238,142 @@
                         "notes": null
                     }
                 ]
+            },
+            {
+                "id": 6946,
+                "name": "silicon nutrient exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": null,
+                "level": [
+                    {
+                        "id": 18236,
+                        "name": "Si",
+                        "amount": "28",
+                        "unitCode": null,
+                        "unitText": "kg silicon per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "silicate of soda",
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 6947,
+                "name": "Sawdust",
+                "description": null,
+                "effect": "",
+                "plotApplication": null,
+                "level": []
             }
         ],
         "factorCombinations": "NA",
-        "measurements": "NA"
+        "measurements": [
+            {
+                "variable": "yield components",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "Biannual",
+                "scale": null,
+                "material": "SpecifiedCrop",
+                "description": "1st and 2nd cuts, available from 1856-present.",
+                "crop": 11614
+            },
+            {
+                "variable": "Partial botanical separation data",
+                "unitCode": null,
+                "unitText": "%",
+                "collectionFrequency": "Selected years. Biannual.",
+                "scale": null,
+                "material": null,
+                "description": "Percentage composition of gramineae, leguminosae and other orders. Complete Botanical Separation Data. Selected years 1862-1976.",
+                "crop": null
+            },
+            {
+                "variable": "Complete Botanical Separation Data",
+                "unitCode": null,
+                "unitText": "%",
+                "collectionFrequency": "Selected years. Biannual.",
+                "scale": null,
+                "material": null,
+                "description": "Percentage composition of species on plot. Selected years 1862-1976.",
+                "crop": null
+            },
+            {
+                "variable": "soil total carbon",
+                "unitCode": null,
+                "unitText": "g/100g",
+                "collectionFrequency": "variable",
+                "scale": null,
+                "material": null,
+                "description": "data available for 1876, 1886, (1932, 1959, 1966, 1985, 1991)",
+                "crop": null
+            },
+            {
+                "variable": "total soil nitrogen",
+                "unitCode": null,
+                "unitText": "g/100g",
+                "collectionFrequency": "variable",
+                "scale": null,
+                "material": null,
+                "description": "data available for 1876, 1886, (1913, 1932, 1959, 1966, 1985, 1991)",
+                "crop": null
+            },
+            {
+                "variable": "soil pH",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": "variable",
+                "scale": null,
+                "material": null,
+                "description": "data available for 1876, (1923, 1959, 1967, 1970, 1971, 1974, 1975, 1977, 1979, 1984, 1991, 1995, 1998, 2002, 2005, 2008, 2011, 2014)",
+                "crop": null
+            },
+            {
+                "variable": "Olsen P",
+                "unitCode": "mg/kg",
+                "unitText": "milligram per kilogram",
+                "collectionFrequency": "variable",
+                "scale": null,
+                "material": null,
+                "description": "From 1876 -",
+                "crop": null
+            },
+            {
+                "variable": "Total P",
+                "unitCode": "mg/kg",
+                "unitText": "milligram per kilogram",
+                "collectionFrequency": "variable",
+                "scale": null,
+                "material": null,
+                "description": null,
+                "crop": null
+            },
+            {
+                "variable": "Soil weight",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "variable",
+                "scale": null,
+                "material": null,
+                "description": "From 1870 -",
+                "crop": null
+            },
+            {
+                "variable": "Root mass",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "variable",
+                "scale": null,
+                "material": null,
+                "description": "From 1870 -",
+                "crop": null
+            }
+        ]
     },
     {
         "administrative": {
@@ -250,12 +382,12 @@
             "localIdentifier": "Second period",
             "name": "Second period",
             "url": "Second period",
-            "description": "In 1903 plots 1-13, (except 5/1, 5/2, 6 and 12) and 16 were halved and the effects of regular applications of lime (as CaCO3) were tested. FYM, applied every four years, was re-introduced on three plots (13, 19 and 20) in 1905. In 1920, three more plots (14, 15 and 17), were halved and plots 18, 19 and 20 were divided into 3 subplots to test lime."
+            "description": "Plots were divided into two in 1903 to test the effects of regular applications of lime."
         },
         "design": {
             "dateStart": 1903,
             "dateEnd": 1964,
-            "description": null,
+            "description": "In 1903, a regular liming scheme was started on the south halves of the plots 1 to 4-2, to 11-2, 13, 16*. The dressing was ground lime and repeated in 1907 and 1915. In 1920 plots 14, 15 and 17 came into this scheme. Also, in 1920 plots 18, 19 and 20** were each divided into three sections, one being left unlimed and the other two limed every four years. Lime was then applied every fourth year from 1924 to southern halves of plots* and plots ** received dressings as in 1920. FYM, applied every four years, was re-introduced on three plots (13, 19 and 20) in 1905.\n\nYields, having originally been estimated by weighing the produce from the whole plot, were since 1960,  estimated from strips cut with a forage harvester as yields of dry matter (see More; Harvesting Methods).",
             "studyDesign": "Second period",
             "factorCombinationNumber": "NA",
             "numberOdBlocks": null,
@@ -266,7 +398,7 @@
         },
         "crops": [
             {
-                "id": 11483,
+                "id": 11615,
                 "name": "grass",
                 "sameAs": "grass",
                 "dateStart": null,
@@ -276,7 +408,108 @@
         "cropRotations": "NA",
         "factor": "NA",
         "factorCombinations": "NA",
-        "measurements": "NA"
+        "measurements": [
+            {
+                "variable": "yield components",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "Biannual.",
+                "scale": null,
+                "material": null,
+                "description": "1st and 2nd cuts, available from 1856-present.",
+                "crop": null
+            },
+            {
+                "variable": "Partial botanical separation data",
+                "unitCode": null,
+                "unitText": "%",
+                "collectionFrequency": "Selected years. Biannual.",
+                "scale": null,
+                "material": null,
+                "description": "Percentage composition of gramineae, leguminosae and other orders. Complete Botanical Separation Data. Selected years 1862-1976.",
+                "crop": null
+            },
+            {
+                "variable": "Complete Botanical Separation Data",
+                "unitCode": null,
+                "unitText": "%",
+                "collectionFrequency": "Selected years. Biannual.",
+                "scale": null,
+                "material": null,
+                "description": "Percentage composition of species on plot. Selected years 1862-1976.",
+                "crop": null
+            },
+            {
+                "variable": "soil total carbon",
+                "unitCode": null,
+                "unitText": "g/110g",
+                "collectionFrequency": "variable",
+                "scale": null,
+                "material": null,
+                "description": "data available for 1876, 1886, 1932, 1959, 1966, 1985, 1991",
+                "crop": null
+            },
+            {
+                "variable": "total soil nitrogen",
+                "unitCode": null,
+                "unitText": "g/100g",
+                "collectionFrequency": "variable",
+                "scale": null,
+                "material": null,
+                "description": "data available for (1876, 1886), 1913, 1932, 1959, (1966, 1985, 1991)",
+                "crop": null
+            },
+            {
+                "variable": "soil pH",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": "variable",
+                "scale": null,
+                "material": null,
+                "description": "data available for (1876), 1923, 1959, (1967, 1970, 1971, 1974, 1975, 1977, 1979, 1984, 1991, 1995, 1998, 2002, 2005, 2008, 2011, 2014)",
+                "crop": null
+            },
+            {
+                "variable": "Olsen P",
+                "unitCode": "mg/kg",
+                "unitText": "milligram per kilogram",
+                "collectionFrequency": "variable",
+                "scale": null,
+                "material": null,
+                "description": "From 1876 -",
+                "crop": null
+            },
+            {
+                "variable": "Total P",
+                "unitCode": "mg/kg",
+                "unitText": "milligram per kilogram",
+                "collectionFrequency": "variable",
+                "scale": null,
+                "material": null,
+                "description": "From 1876 -",
+                "crop": null
+            },
+            {
+                "variable": "Soil weight",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "variable",
+                "scale": null,
+                "material": null,
+                "description": "From 1870 -",
+                "crop": null
+            },
+            {
+                "variable": "Root mass",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "variable",
+                "scale": null,
+                "material": null,
+                "description": "From 1870 -",
+                "crop": null
+            }
+        ]
     },
     {
         "administrative": {
@@ -285,12 +518,12 @@
             "localIdentifier": "Third period",
             "name": "Third period",
             "url": "Third period",
-            "description": "In 1965 most plots were divided into four sub-plots, three of which receive chalk to maintain pHs of 7, 6 and 5 (sub-plots a, b and c respectively). The fourth sub-plot (sub-plot d) receives no chalk and the pH of these ranges from 3.5 to 5.7 depending on the fertilizer treatment.\nFrom 1965 plots 5/1, 5/2 and 6 were used for microplot experiments. Plots 6a and 6b were re-included in the main experiment in 1972 but the other half of plot 6 (6c and 6d) and plots 5/1 and 5/2 have remained outside the main experiment. Since 1990, nitrogen fertilizer has been withheld from half of all sub-plots formerly receiving 96 kg N ha-1 (plots 9 and 14) as either ammonium sulphate or sodium nitrate to study processes controlling soil acidification, heavy-metal mobilisation and botanical changes. Since 1995, plot 13 has been split into 13/1 and 13/2 and FYM/Fishmeal withheld from plot 13/1. Since 1996 plot 2 has been split into 2/1 and 2/2 with plot 2/1 receiving K as potassium sulphate.\nIn 2013 plot 7 (PKNaMg) was divided into two equal sized plots, 7/1 and 7/2. This was to test whether P fertilizer was still required, because large reserves of P have built up in the soil. No P fertilizer was applied to Plot 7/1, but K, Na and Mg applications continued. Plot 7/2 continued as before (i.e. it received PKNaMg). In addition, N applications began on plot 15; 144kg N/ha as sodium nitrate to provide a comparison with plot 11/1 which receives the same amount of N as ammonium sulphate together with P, K, Na & Mg.\nFrom autumn 2016 all plots previously receiving 35 kg P ha-1 as triple superphosphate will receive 17 kg P ha-1 (until further notice) because of the high levels of available soil P from past P inputs. The P application to plot 20 will remain unchanged. Current K, Mg and Na rates on Park Grass remain unchanged."
+            "description": "In 1965 most plots were divided into four sub-plots, three of which receive chalk to maintain pHs of 7, 6 and 5 (sub-plots a, b and c respectively). The fourth sub-plot (sub-plot d) receives no chalk and the pH of these ranges from 3.5 to 5.7 depending on the fertilizer treatment.\nFrom 1965 plots 5/1, 5/2 and 6 were used for microplot experiments. Plots 6a and 6b were re-included in the main experiment in 1972 but the other half of plot 6 (6c and 6d) and plots 5/1 and 5/2 have remained outside the main experiment. Since 1990, nitrogen fertilizer has been withheld from half of all sub-plots formerly receiving 96 kg N ha-1 (plots 9 and 14) as either ammonium sulphate or sodium nitrate to study processes controlling soil acidification, heavy-metal mobilisation and botanical changes. Since 1995, plot 13 has been split into 13/1 and 13/2 and FYM/Fishmeal withheld from plot 13/1. Since 1996 plot 2 has been split into 2/1 and 2/2 with plot 2/1 receiving K as potassium sulphate.\nIn 2013 plot 7 (PKNaMg) was divided into two equal sized plots, 7/1 and 7/2. This was to test whether P fertilizer was still required, because large reserves of P have built up in the soil. No P fertilizer was applied to Plot 7/1, but K, Na and Mg applications continued. Plot 7/2 continued as before (i.e. it received PKNaMg). In addition, N applications began on plot 15; 144kg N/ha as sodium nitrate to provide a comparison with plot 11/1 which receives the same amount of N as ammonium sulphate together with P, K, Na & Mg.\nFrom autumn 2016 all plots previously receiving 35 kg P ha-1 as triple superphosphate will receive 17 kg P ha-1 (until further notice) because of the high levels of available soil P from past P inputs. The P application to plot 20 will remain unchanged. Current K, Mg and Na rates on Park Grass remain unchanged. Yields are given for the four sub-plots, eg 3a, 3b, 3c and 3d."
         },
         "design": {
             "dateStart": 1965,
             "dateEnd": null,
-            "description": "The botanical composition of the plots has been studied by visual surveys and by looking at the percentage contribution of the various species to the hay harvested. Chemical analyses of the crops and soils have been made and physical samples of the crops and soils preserved.",
+            "description": "In 1965 a new liming scheme was introduced to establish four levels of pH on most of the plots which were divided into four sub-plots, given different amounts of lime to maintain soil pH at 7, 6, 5 and an un-limed sub-plot. Plots previously limed, other than 5, 6, 12, 15, 18, 19, 20, were divided into four sublots, see Design Description. \n\nThe botanical composition of the plots has been studied by visual surveys and by looking at the percentage contribution of the various species to the hay harvested. Chemical analyses of the crops and soils have been made and physical samples of the crops and soils preserved. \n\nHarvesting method had changed in 1960 to forage harvester. Since when, yields of both cuts have been estimated from two or four cuts; at the first cut, by forage harvester, the remainder is cut by mower and made into hay on the plot, to maintain continuity of husbandry, but the second cutting the whole produce is is cut by forage harvester and carried green. The positions of the sample cuts vary year to year.",
             "studyDesign": "Third period",
             "factorCombinationNumber": "NA",
             "numberOdBlocks": null,
@@ -301,7 +534,7 @@
         },
         "crops": [
             {
-                "id": 11484,
+                "id": 11616,
                 "name": "grass",
                 "sameAs": "grass",
                 "dateStart": null,
@@ -311,14 +544,14 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 6284,
+                "id": 6948,
                 "name": "nitrogen fertilizer exposure",
                 "description": "applied in spring",
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 17011,
+                        "id": 18237,
                         "name": "N1",
                         "amount": "48",
                         "unitCode": "kgN/ha",
@@ -332,7 +565,7 @@
                         "notes": null
                     },
                     {
-                        "id": 17012,
+                        "id": 18238,
                         "name": "N2",
                         "amount": "96",
                         "unitCode": "kgN/ha",
@@ -346,7 +579,7 @@
                         "notes": null
                     },
                     {
-                        "id": 17013,
+                        "id": 18239,
                         "name": "N3",
                         "amount": "144",
                         "unitCode": "kgN/ha",
@@ -360,7 +593,7 @@
                         "notes": null
                     },
                     {
-                        "id": 17014,
+                        "id": 18240,
                         "name": "N*1",
                         "amount": "48",
                         "unitCode": "kgN/ha",
@@ -374,7 +607,7 @@
                         "notes": null
                     },
                     {
-                        "id": 17015,
+                        "id": 18241,
                         "name": "N*2",
                         "amount": "96",
                         "unitCode": "kgN/ha",
@@ -388,7 +621,7 @@
                         "notes": null
                     },
                     {
-                        "id": 17016,
+                        "id": 18242,
                         "name": "N*3",
                         "amount": "144",
                         "unitCode": "kgN/ha",
@@ -402,7 +635,7 @@
                         "notes": null
                     },
                     {
-                        "id": 17017,
+                        "id": 18243,
                         "name": "(N2)",
                         "amount": "96",
                         "unitCode": "kgN/ha",
@@ -416,7 +649,7 @@
                         "notes": null
                     },
                     {
-                        "id": 17018,
+                        "id": 18244,
                         "name": "(N*2)",
                         "amount": "96",
                         "unitCode": "kgN/ha",
@@ -432,14 +665,14 @@
                 ]
             },
             {
-                "id": 6285,
+                "id": 6949,
                 "name": "natural fertilizer exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 17019,
+                        "id": 18245,
                         "name": "farmyard manure",
                         "amount": "35",
                         "unitCode": "t/ha",
@@ -453,7 +686,7 @@
                         "notes": "supplies c.240 kg N"
                     },
                     {
-                        "id": 17020,
+                        "id": 18246,
                         "name": "pelleted poultry manure",
                         "amount": null,
                         "unitCode": null,
@@ -469,14 +702,14 @@
                 ]
             },
             {
-                "id": 6286,
+                "id": 6950,
                 "name": "superphosphate exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 17021,
+                        "id": 18247,
                         "name": "P",
                         "amount": "17",
                         "unitCode": "kgP/ha",
@@ -492,15 +725,15 @@
                 ]
             },
             {
-                "id": 6287,
+                "id": 6951,
                 "name": "potassium fertilizer exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 17022,
-                        "name": "P",
+                        "id": 18248,
+                        "name": "K",
                         "amount": "17",
                         "unitCode": "kgK/ha",
                         "unitText": "kg potassium per hectare",
@@ -515,14 +748,14 @@
                 ]
             },
             {
-                "id": 6288,
+                "id": 6952,
                 "name": "sodium nutrient exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 17023,
+                        "id": 18249,
                         "name": "Na",
                         "amount": "15",
                         "unitCode": "kgNa/ha",
@@ -538,14 +771,14 @@
                 ]
             },
             {
-                "id": 6289,
+                "id": 6953,
                 "name": "magnesium nutrient exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 17024,
+                        "id": 18250,
                         "name": "Mg",
                         "amount": "10",
                         "unitCode": "kgMg/ha",
@@ -561,14 +794,14 @@
                 ]
             },
             {
-                "id": 6290,
+                "id": 6954,
                 "name": "silicon nutrient exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 17025,
+                        "id": 18251,
                         "name": "Si",
                         "amount": "450",
                         "unitCode": null,
@@ -584,14 +817,14 @@
                 ]
             },
             {
-                "id": 6291,
+                "id": 6955,
                 "name": "liming exposure",
                 "description": "ground chalk applied as necessary to maintain soil at pH 7,6 and 5 on sub plots a, b and c",
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 17026,
+                        "id": 18252,
                         "name": "lime",
                         "amount": null,
                         "unitCode": null,
@@ -599,9 +832,9 @@
                         "appliedToCrop": null,
                         "dateStart": null,
                         "dateEnd": null,
-                        "frequency": "applied every third year",
+                        "frequency": "applied every third year since 1995, every 4 years before then",
                         "method": null,
-                        "chemicalForm": null,
+                        "chemicalForm": "calcium carbonate",
                         "notes": "sub-plot d does not receive any chalk"
                     }
                 ]
@@ -617,7 +850,7 @@
                 "scale": null,
                 "material": "SpecifiedCrop",
                 "description": "every year from 1856 - present",
-                "crop": 11484
+                "crop": 11616
             },
             {
                 "variable": "botanical composition",
@@ -626,13 +859,13 @@
                 "collectionFrequency": "variable",
                 "scale": null,
                 "material": null,
-                "description": "complete separations of hay selected years 1862-1976; partial separations of hay 1862-1976; complete species botanical surveys 1991-2000",
+                "description": "complete separations of hay selected years 1862-1976; partial separations of hay 1862-1976; complete species botanical surveys 1991-2000*below",
                 "crop": null
             },
             {
                 "variable": "soil total carbon",
                 "unitCode": null,
-                "unitText": null,
+                "unitText": "g/100g",
                 "collectionFrequency": "variable",
                 "scale": null,
                 "material": null,
@@ -642,11 +875,11 @@
             {
                 "variable": "total soil nitrogen",
                 "unitCode": null,
-                "unitText": null,
+                "unitText": "g/100g",
                 "collectionFrequency": "variable",
                 "scale": null,
                 "material": null,
-                "description": "data available for 1876, 1886, 1913, 1932, 1959, 1966, 1985, 1991",
+                "description": "data available for (1876, 1886, 1913, 1932, 1959) 1966, 1985, 1991",
                 "crop": null
             },
             {
@@ -656,7 +889,117 @@
                 "collectionFrequency": "variable",
                 "scale": null,
                 "material": null,
-                "description": "data available for 1876, 1923, 1959, 1967, 1970, 1971, 1974, 1975, 1977, 1979, 1984, 1991, 1995, 1998, 2002, 2005, 2008, 2011, 2014",
+                "description": "data available for (1876, 1923, 1959) 1967, 1970, 1971, 1974, 1975, 1977, 1979, 1984, 1991, 1995, 1998, 2002, 2005, 2008, 2011, 2014",
+                "crop": null
+            },
+            {
+                "variable": "Olsen P",
+                "unitCode": "mg/kg",
+                "unitText": "milligram per kilogram",
+                "collectionFrequency": "variable",
+                "scale": null,
+                "material": null,
+                "description": null,
+                "crop": null
+            },
+            {
+                "variable": "Total P",
+                "unitCode": null,
+                "unitText": "milligram per kilogram",
+                "collectionFrequency": "variable",
+                "scale": null,
+                "material": null,
+                "description": "From 1876",
+                "crop": null
+            },
+            {
+                "variable": "Soil weight",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "variable",
+                "scale": null,
+                "material": null,
+                "description": "From 1870",
+                "crop": null
+            },
+            {
+                "variable": "Root mass",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "variable",
+                "scale": null,
+                "material": null,
+                "description": "From 1870",
+                "crop": null
+            },
+            {
+                "variable": "Exchangeable cations",
+                "unitCode": "mg/kg",
+                "unitText": "milligram per kilogram",
+                "collectionFrequency": "variable",
+                "scale": null,
+                "material": null,
+                "description": "K, Mg, Ca, Na in air-dried soil. From 1991-2011.",
+                "crop": null
+            },
+            {
+                "variable": "*Botanical Survey Data",
+                "unitCode": null,
+                "unitText": "% species",
+                "collectionFrequency": "Annual",
+                "scale": null,
+                "material": null,
+                "description": "1991-2000 by Imperial College. Weight of species in replicates > % compostition",
+                "crop": null
+            },
+            {
+                "variable": "Botanical Survey data",
+                "unitCode": null,
+                "unitText": "Number of plants",
+                "collectionFrequency": "2 years",
+                "scale": null,
+                "material": null,
+                "description": "1993-1994. Mass effects study by Imperial college, as described by Kunin, 1998",
+                "crop": null
+            },
+            {
+                "variable": "Leafhoppers",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": "2 years",
+                "scale": null,
+                "material": null,
+                "description": "Leafhoppers (Auchenorhyncha) on 13 plots sampled five time in the summers of 1977 and 1978, as described by Morris, 1992",
+                "crop": null
+            },
+            {
+                "variable": "Soil moisture",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": "Since January 2020",
+                "crop": null
+            },
+            {
+                "variable": "Atmospheric chemistry",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": "Dry deposition of NO2 (Atmospheric Chemistry, AN) measured on Park Grass by, and available through, the Environmental Change Network (ECN)",
+                "crop": null
+            },
+            {
+                "variable": "Precipitation chemistry",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": "Wet deposition (precipitation chemistry, PC) measured on Park Grass by, and available through, the Environmental Change Network (ECN)",
                 "crop": null
             }
         ]

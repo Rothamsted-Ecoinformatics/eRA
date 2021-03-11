@@ -217,9 +217,18 @@
     },
     "relatedIdentifier": [
         {
-            "relatedIdentifier": "https://doi.org/10.23637/KeyRefOABKsoc.",
+            "relatedIdentifier": "10.23637/KeyRefOABKsoc",
             "relatedIdentifierType": "DOI",
-            "name": "Broadbalk soil organic carbon content.",
+            "name": "Broadbalk soil organic carbon content 1843-2010",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "https://doi.org/10.23637/KeyRefOABKyields",
+            "relatedIdentifierType": "DOI",
+            "name": "Mean long-term winter wheat yields from selected treatments on Broadbalk",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsSupplementedBy",
             "rt_id": 4,

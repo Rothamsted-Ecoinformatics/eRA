@@ -19,7 +19,22 @@
         {
             "inLanguage": "en",
             "descriptionType": "TechnicalInfo",
-            "description": "The Geescroft site was previously a long-term arable site, with natural regeneration of deciduous woodland following abandonment of arable cropping. It was originally part of an experimental field that grew beans (Vicia faba) from 1847-1878, with frequent breaks due to crop failure. This was followed by four years of bare fallowing 1879-1882. Clover was then grown 1883-1885, and last cultivated in spring 1883. In January 1886 the Wilderness area was fenced off and left uncultivated. Reversion is presumed to have started in spring 1883, after the last cultivation. The Wilderness covers part of the previous experiment on beans which included phosphorus treatments. Where possible, data has been given for soils taken from areas which had received no P fertilizer, although Jenkinson (1971) found no effect of P on the build up of organic C or N.\r\n\r\nThe acidic Geescroft Wilderness is now a deciduous wood dominated by oak (Quercus robur). In contrast, Broadbalk Wilderness is now dominated by ash (Fraxinus excelsior), with sycamore (Acer pseudoplatanus) and hawthorn (Craetagus monogyna).\r\n\r\nThe soil has been sampled to an equivalent depth of 69cm (see Poulton et al, 2003 for further details). Because the soil has become acidic, it is now covered by a permanent litter layer, in contrast to Broadbalk Wilderness, where each year's litter fall decomposes before the next arrives. This site has gained 2.00 t C ha-1 year over the 118 year period (0.38 t in litter and soil, plus an estimated 1.62 t in trees and their roots). Data on the accumulation of nitrogen is also available from the e-RA curators."
+            "description": "The Geescroft site was previously a long-term arable site, with natural regeneration of deciduous woodland following abandonment of arable cropping. It was originally part of an experimental field that grew beans (<i>Vicia faba</i>) from 1847-1878, with frequent breaks due to crop failure. This was followed by four years of bare fallowing 1879-1882. Clover was then grown 1883-1885, and last cultivated in spring 1883. In January 1886 the Wilderness area was fenced off and left uncultivated. Reversion is presumed to have started in spring 1883, after the last cultivation. The Wilderness covers part of the previous experiment on beans which included phosphorus treatments. Where possible, data has been given for soils taken from areas which had received no P fertilizer, although Jenkinson (1971) found no effect of P on the build up of organic C or N.\r\n\r\nThe acidic Geescroft Wilderness is now a deciduous wood dominated by oak (<i>Quercus robur</i>). In contrast, Broadbalk Wilderness is now dominated by ash (<i>Fraxinus excelsior</i>), with sycamore (<i>Acer pseudoplatanus</i>) and hawthorn (<i>Craetagus monogyna</i>).\r\n\r\nThe soil has been sampled to an equivalent depth of 69cm (see Poulton et al, 2003 for further details). Because the soil has become acidic, it is now covered by a permanent litter layer, in contrast to Broadbalk Wilderness, where each year's litter fall decomposes before the next arrives. This site has gained 2.00 t C ha-1 year over the 118 year period (0.38 t in litter and soil, plus an estimated 1.62 t in trees and their roots). Data on the accumulation of nitrogen is also available from the e-RA curators."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Other",
+            "description": "Site size\r\nArea: 1.3 ha\r\n\r\nSoil detail\r\nSilty clay loam surface overlying clay-with-flints, over chalk at a depth of several metres.\r\nTopsoil (0-23cm) contains 20-25% clay, rising to 50-60% at depths of 1 metre.\r\nStagnogleyic palaeo-argillic brown earth (Soil Survey of England and Wales classification).\r\nAquic Paleudalf (USDA classification).\r\nChromic Luvisol (FAO classification).\r\nSoil comparisons are made on an equivalent depth basis, to allow for changes in soil bulk density, see Poulton et al, 2003 for further details.\r\nThe soil is now acid - the pH fell from 7.1 in 1883 to 4.4 in 1999. Geescroft never contained free CaCO3, although it occasionally received small amounts of chalk before the 1880s.\r\n\r\nSee key references in Related Documents for further information, particularly Poulton (1996)."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Provenance",
+            "description": "This dataset is derived from measurements made by the Analytical Chemistry Unit, Rothamsted Research, Harpenden. The data presented is mean data from selected plots and sections only. The complete data set, including the raw data used to derive the mean values, is available from the e-RA curators."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Quality",
+            "description": "The Analytical Chemistry Unit follows the Joint Code of Practice (JCoPR) and participates in European Quality Assurance programmes. All performance is strictly monitored using certified external standards alongside in-house standard materials. Standards and check samples are monitored and recorded."
         }
     ],
     "publisher": {
@@ -41,6 +56,26 @@
         "ecological succession"
     ],
     "creator": [
+        {
+            "type": "Person",
+            "Name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
         {
             "type": "organization",
             "name": "Rothamsted Research"
@@ -65,6 +100,132 @@
             "affiliation": {
                 "type": "Organization",
                 "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Ruth Skilton",
+            "givenName": "Ruth",
+            "familyName": "Skilton",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectLeader",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectManager",
+            "name": "Andrew Macdonald",
+            "givenName": "Andrew",
+            "familyName": "Macdonald",
+            "sameAs": "https://orcid.org/0000-0002-1785-4892",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
         }
@@ -98,6 +259,60 @@
             "relationType": "IsDescribedBy",
             "rt_id": 7,
             "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.1023/A:1015731530498",
+            "relatedIdentifierType": "DOI",
+            "name": "Effects of atmospheric deposition, soil pH and acidification on heavy metal contents . . .",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.1016/S0006-3207(01)00072-6",
+            "relatedIdentifierType": "DOI",
+            "name": "Vegetation changes during 100 years of development of two secondary woodlands . . .",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.1046/j.1365-2389.1999.00253.x",
+            "relatedIdentifierType": "DOI",
+            "name": "Changes in soil chemistry accompanying acidification over more than 100 years . . .",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.1007/978-3-642-61094-3_36",
+            "relatedIdentifierType": "DOI",
+            "name": "Geescroft Wilderness, 1883\u20131995 Poulton (1996)",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-34803",
+            "relatedIdentifierType": "DOI",
+            "name": "The accumulation of organic matter in soil left uncultivated",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/KeyRefOABKWoc",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk Wilderness accumulation of organic carbon",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
         }
     ],
     "funder": [
@@ -116,8 +331,31 @@
             "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F00005189"
         }
     ],
-    "distribution": [],
-    "image": [],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Geescroft Wilderness Carbon Chart",
+            "URL": "Geescroft_Wilderness_Carbon_Chart.pdf",
+            "encodingFormat": "pdf",
+            "fileSize": "97 KB"
+        },
+        {
+            "type": "dataDownload",
+            "name": "rge9 open access data",
+            "URL": "Geescroft Wilderness Open Access.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "22 KB"
+        }
+    ],
+    "image": [
+        {
+            "type": "imageObject",
+            "caption": "Geescroft Wilderness Carbon Chart",
+            "URL": "Geescroft_Wilderness_Carbon_Open_Access_Chart.png",
+            "encodingFormat": "png",
+            "fileSize": "21 KB"
+        }
+    ],
     "grade": 1,
     "dstype": "OA"
 }
