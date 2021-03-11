@@ -60,7 +60,7 @@ $Parsedown = new Parsedown();
 
     ?></li>
 						<li class="list-group-item"><b>Author(s): </b> <?php echo $refAuthor; ?></li>
-						<li class="list-group-item"><b>Contributors: </b> <?php echo $getContributors; ?></li>
+						
 						<li class="list-group-item"><b>Publisher: </b><?php echo $getPublisher; ?></li>
 					</ul>
 					<?php echo    $strDownload;?>
