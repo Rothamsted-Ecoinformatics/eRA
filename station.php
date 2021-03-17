@@ -10,9 +10,9 @@
  * 
  * in .htaccess: the following rules: 
  * RewriteRule ^station/([^/]+)/([^/]+)/([^/]+)$ station.php?expt=$1&ref=$3&sub=$2#document [L]
-	RewriteRule ^station/([^/]+)/([^/]+)$ station.php?expt=$1&sub=$2#document [L]
-	RewriteRule ^station/([^/]+)$ station.php?expt=$1 [L]
-	
+ RewriteRule ^station/([^/]+)/([^/]+)$ station.php?expt=$1&sub=$2#document [L]
+ RewriteRule ^station/([^/]+)$ station.php?expt=$1 [L]
+
  * this shows that ref and sub come from the URL: not a very user friendly idea... 
  * 
  */
@@ -85,7 +85,7 @@ $hasMonthly = file_exists($fileMonthly);
 
 $doclist = $exptFolder . '/doclist.html';
 $hasdocs = file_exists($doclist);
- 
+
 ?>
 <!DOCTYPE html>
 <html class="no-js" lang="en">
@@ -141,9 +141,9 @@ echo title_case($experiment['administrative']['name']);
 						<li class="nav-item"><a class="nav-link" id="keyrefs-tab"
 							data-toggle="tab" href="#keyrefs">Bibliography</a></li>
 					</ul>
-					
-					
-					
+
+
+
 					<div class="tab-content mh-100" id="idExptTabs">
 						<div class="tab-pane active show" id="summary" role="tabpanel"
 							aria-labelledby="summary-tab">
@@ -154,7 +154,7 @@ echo title_case($experiment['administrative']['name']);
     					</div>
 						<div class="tab-pane" id="measurements" role="tabpanel"
 							aria-labelledby="measurements-tab">
-							<div class="row px-5">
+							<div class="row px-3">
     							<?php
         $measurements = $exptFolder . '/measurements.html';
         include ($measurements);
@@ -168,32 +168,36 @@ echo title_case($experiment['administrative']['name']);
                 			<?php include '_datasets.php';?>
                 		</div>
                 		<?php }?>
+                		
 						<div class="tab-pane" id="images" role="tabpanel"
 							aria-labelledby="images-tab">
-							 <?php
-
-    // include '_images.php'; ?>
-							</div>
-						<div class="tab-pane" id="monthly" role="tabpanel"
-							aria-labelledby="monthly-tab">
-							<div class="row px-5">
-								
-							<?php
+							 <?php include '_images.php';?>
+						</div>
+						<?php
     $fileMonthly = $exptFolder . '/' . 'monthly.html';
     $hasMonthly = file_exists($fileMonthly);
     if ($hasMonthly) {
+        ?>
+        <div class="tab-pane" id="monthly" role="tabpanel"
+							aria-labelledby="monthly-tab">
+							<div class="row px-3">
+							<?php
         include ($fileMonthly);
+        ?>
+        </div>
+						</div><?php
     }
     ?>
-                         	</div>
-						</div>
+						
+								
+							
+                         	
 						<div class="tab-pane  pb-3" id="documents" role="tabpanel"
 							aria-labelledby="documents-tab">
-							<div class="row equal mx-3">
+							<div class="row px-3">
 								
 							<?php
 
-    
     include $doclist;
 
     if (isset($sub)) {
@@ -207,9 +211,6 @@ echo title_case($experiment['administrative']['name']);
         $KeyRef = $ref;
         include '_keyrefs.php';
     }
-    
-       
-    
 
     ?>
 							</div>
@@ -218,9 +219,9 @@ echo title_case($experiment['administrative']['name']);
 							aria-labelledby="keyrefs-tab">
 						
     							<?php
-  
-            include '_keyrefs.php';
-        
+
+        include '_keyrefs.php';
+
         ?>
     					</div>
 

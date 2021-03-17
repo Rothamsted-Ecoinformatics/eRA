@@ -74,58 +74,61 @@ if (! $hasDatasets) {
 } else {
     $list = "";
     $prefix = "10.23637/";
-    /* 
-     * 
+    /*
+     *
      * the function group_by then also sort them
      */
     $gpDS = group_by('dataset_type', $datasets);
-     
+
     foreach ($gpDS as $groupName => $groupedDatasets) {
-        
-        $list .= "<div class=\"row mx-3 mb-3\"><h4>".$groupName."</h4></div>";
+
+        $list .= "<div class=\"row mx-3 mb-3\"><h4>" . $groupName . "</h4></div>";
         $list .= "<div class=\"row\">";
-        
+
         foreach ($groupedDatasets as $dataset) {
-            if ($dataset['UID']) {
-                $fileDataset = $exptFolder . '/' . $dataset['shortName'] . '/' . $dataset['UID'] . '.json';
-            } else {
-                $fileDataset = $exptFolder . '/' . $dataset['shortName'] . '/' . $dataset['shortname'] . '.json';
-            }
-            $subDescription = '';
+            // this filters the datasets that have metadata are ready to be online to www (2) compared to being only on test site (1) or not ready to view at all (0)
+            if ($dataset['isReady'] == 2) {
+                if ($dataset['UID']) {
+                    $fileDataset = $exptFolder . '/' . $dataset['shortName'] . '/' . $dataset['UID'] . '.json';
+                } else {
+                    $fileDataset = $exptFolder . '/' . $dataset['shortName'] . '/' . $dataset['shortname'] . '.json';
+                }
+                $subDescription = '';
 
-            $subDescription = niceChop($dataset['description'], 200);
+                $subDescription = niceChop($dataset['description'], 200);
 
-            $id = str_replace($prefix, '', $dataset['identifier']);
-            $shortname = $dataset['shortName'];
-            $countVersions = array_count_values(array_column($datasets, 'shortName'))[$shortname];
-            if ($countVersions < 10) {
-                $strCount = "0" . strval($countVersions);
-            } else {
-                $strCount = strval($countVersion);
-            }
-            $info = "<div class=\"col-sm-4 py-2\">";
-            $info .= "\n	<div class=\"card  h-100 bg-light mb-3 \" >";
-            $info .= "\n	\t	<div class=\"card-header\">" . $dataset['title'] . "</div>";
-            $info .= "\n	\t	<div class=\"card-body\">";
-            // $info .="\n \t <h4 class=\"card-title\">Light card title</h4>";
-            $info .= "\n	\t	\t		<small class=\"card-muted\">" . $dataset['dataset_type'].$subDescription . " <br /> " . $dataset['shortName'] . " </small>";
-            $info .= "\n	\t		</div>";
-            $info .= "\n	\t	<div class=\"card-footer\"> <a class=\"btn btn-primary stretched-link\" href=\"dataset/" . $expt . "/" . $dataset['UID'] . "\"> More ...</a></div>";
+                $id = str_replace($prefix, '', $dataset['identifier']);
+                $shortname = $dataset['shortName'];
+                $countVersions = array_count_values(array_column($datasets, 'shortName'))[$shortname];
+                if ($countVersions < 10) {
+                    $strCount = "0" . strval($countVersions);
+                } else {
+                    $strCount = strval($countVersion);
+                }
+                $info = "<div class=\"col-sm-4 py-2\">";
+                $info .= "\n	<div class=\"card  h-100 bg-light mb-3 \" >";
+                $info .= "\n	\t	<div class=\"card-header\">" . $dataset['title'] . "</div>";
+                $info .= "\n	\t	<div class=\"card-body\">";
+                // $info .="\n \t <h4 class=\"card-title\">Light card title</h4>";
+                $info .= "\n	\t	\t		<small class=\"card-muted\">" . $dataset['dataset_type'] . $subDescription . " <br /> " . $dataset['shortName'] . " </small>";
+                $info .= "\n	\t		</div>";
+                $info .= "\n	\t	<div class=\"card-footer\"> <a class=\"btn btn-primary stretched-link\" href=\"dataset/" . $expt . "/" . $dataset['UID'] . "\"> More ...</a></div>";
 
-            $info .= "\n	\t	</div>";
-            $info .= "\n	\t	</div>";
-            /*
-             * now if the dataset has a next version, then do not show
-             */
+                $info .= "\n	\t	</div>";
+                $info .= "\n	\t	</div>";
+                /*
+                 * now if the dataset has a next version, then do not show
+                 */
 
-            if ($strCount == $dataset['version']) {
-                $list .= $info;
+                if ($strCount == $dataset['version']) {
+                    $list .= $info;
+                }
             }
         }
         $list .= "</div>";
     }
 
-    echo  $list;
+    echo $list;
 }
 
 ?>

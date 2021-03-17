@@ -22,42 +22,42 @@
         },
         "crops": [
             {
-                "id": 10497,
+                "id": 11732,
                 "name": "spring beans",
                 "sameAs": "spring beans",
                 "dateStart": 1962,
                 "dateEnd": 1964
             },
             {
-                "id": 10498,
+                "id": 11733,
                 "name": "spring barley",
                 "sameAs": "spring barley",
                 "dateStart": 1965,
                 "dateEnd": 1967
             },
             {
-                "id": 10499,
+                "id": 11734,
                 "name": "potatoes",
                 "sameAs": "potatoes",
                 "dateStart": 1968,
                 "dateEnd": null
             },
             {
-                "id": 10500,
+                "id": 11735,
                 "name": "fallow",
                 "sameAs": "fallow",
                 "dateStart": 1969,
                 "dateEnd": null
             },
             {
-                "id": 10501,
+                "id": 11736,
                 "name": "spring oats",
                 "sameAs": "spring oats",
                 "dateStart": 1975,
                 "dateEnd": null
             },
             {
-                "id": 10502,
+                "id": 11737,
                 "name": "spring oilseed rape",
                 "sameAs": "spring oilseed rape",
                 "dateStart": 1976,
@@ -67,14 +67,14 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 5933,
+                "id": 7110,
                 "name": "liming exposure",
                 "description": "Four rates of lime: control, low, medium and high. Applied  in 1962, 1963 and 1978. Amounts given are the total amounts applied, see comments for splits.",
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 16316,
+                        "id": 18575,
                         "name": "control exposure",
                         "amount": "0",
                         "unitCode": "t/ha",
@@ -88,7 +88,7 @@
                         "notes": null
                     },
                     {
-                        "id": 16317,
+                        "id": 18576,
                         "name": "lime low",
                         "amount": "7",
                         "unitCode": "t/ha",
@@ -102,7 +102,7 @@
                         "notes": "5 t/ha in 1962, 2 t/ha in 1978"
                     },
                     {
-                        "id": 16318,
+                        "id": 18577,
                         "name": "lime medium",
                         "amount": "15",
                         "unitCode": "t/ha",
@@ -116,7 +116,7 @@
                         "notes": "10 t/ha in 1962, 5 t/ha in 1978"
                     },
                     {
-                        "id": 16319,
+                        "id": 18578,
                         "name": "lime high",
                         "amount": "30",
                         "unitCode": "t/ha",
@@ -132,18 +132,18 @@
                 ]
             },
             {
-                "id": 5934,
-                "name": "phosphate fertilizer exposure",
+                "id": 7111,
+                "name": "Phosphorus (P) fertilizer exposure",
                 "description": "P either applied or not applied to plots. Treatments not applied in fallow years.",
                 "effect": "Cumulative",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 16320,
+                        "id": 18579,
                         "name": "control exposure",
                         "amount": "0",
-                        "unitCode": null,
-                        "unitText": null,
+                        "unitCode": "kgP/ha",
+                        "unitText": "kg phosphorous per hectare",
                         "appliedToCrop": null,
                         "dateStart": 1962,
                         "dateEnd": 1980,
@@ -153,11 +153,11 @@
                         "notes": null
                     },
                     {
-                        "id": 16321,
-                        "name": "superphosphate P",
+                        "id": 18580,
+                        "name": "P fertilizer exposure",
                         "amount": "27.5",
-                        "unitCode": null,
-                        "unitText": "kg P/ha/year",
+                        "unitCode": "kgP/ha",
+                        "unitText": "kg phosphorous per hectare",
                         "appliedToCrop": null,
                         "dateStart": 1962,
                         "dateEnd": 1980,
@@ -169,18 +169,18 @@
                 ]
             },
             {
-                "id": 5935,
-                "name": "potassium fertilizer exposure",
+                "id": 7112,
+                "name": "Potassium (K) fertilizer exposure",
                 "description": "K either applied or not applied to plots. Treatments not applied in fallow years.",
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 16322,
+                        "id": 18581,
                         "name": "control exposure",
                         "amount": "104",
-                        "unitCode": null,
-                        "unitText": "kg K/ha/year",
+                        "unitCode": "kgK/ha",
+                        "unitText": "kg potassium per hectare",
                         "appliedToCrop": null,
                         "dateStart": 1962,
                         "dateEnd": 1980,
@@ -190,11 +190,11 @@
                         "notes": "In 1968 and 1974, 156 kgK/ha was applied to potatoes. Not applied in fallow years 1969, 1979 or 1980."
                     },
                     {
-                        "id": 16323,
+                        "id": 18582,
                         "name": "potassium K",
                         "amount": "104",
-                        "unitCode": null,
-                        "unitText": "kg K/ha/year",
+                        "unitCode": "kgK/ha",
+                        "unitText": "kg potassium per hectare",
                         "appliedToCrop": null,
                         "dateStart": 1962,
                         "dateEnd": 1980,
@@ -206,19 +206,19 @@
                 ]
             },
             {
-                "id": 5936,
+                "id": 7113,
                 "name": "Rhizobium leguminosarum exposure",
                 "description": "Spring beans seed inoculated with Rhizobium",
                 "effect": "",
                 "plotApplication": "Sub plot",
                 "level": [
                     {
-                        "id": 16324,
+                        "id": 18583,
                         "name": "control exposure",
                         "amount": "0",
                         "unitCode": null,
                         "unitText": null,
-                        "appliedToCrop": 10497,
+                        "appliedToCrop": 11732,
                         "dateStart": 1962,
                         "dateEnd": 1962,
                         "frequency": null,
@@ -227,12 +227,12 @@
                         "notes": null
                     },
                     {
-                        "id": 16325,
+                        "id": 18584,
                         "name": "Inoculated",
                         "amount": null,
                         "unitCode": null,
                         "unitText": null,
-                        "appliedToCrop": 10497,
+                        "appliedToCrop": 11732,
                         "dateStart": 1962,
                         "dateEnd": 1962,
                         "frequency": null,
@@ -243,18 +243,18 @@
                 ]
             },
             {
-                "id": 5937,
-                "name": "magnesium fertilizer exposure",
+                "id": 7114,
+                "name": "Magnesium (Mg) fertilizer exposure",
                 "description": "Magnesium either applied or not applied to sub-plots",
                 "effect": "",
                 "plotApplication": "Sub plot",
                 "level": [
                     {
-                        "id": 16326,
+                        "id": 18585,
                         "name": "control exposure",
                         "amount": "0",
-                        "unitCode": null,
-                        "unitText": null,
+                        "unitCode": "kgMg/ha",
+                        "unitText": "kg magnesium per hectare",
                         "appliedToCrop": null,
                         "dateStart": 1974,
                         "dateEnd": 1978,
@@ -264,11 +264,11 @@
                         "notes": null
                     },
                     {
-                        "id": 16327,
+                        "id": 18586,
                         "name": "magnesium Mg",
                         "amount": "112",
-                        "unitCode": null,
-                        "unitText": "kg Mg/ha/year",
+                        "unitCode": "kgMg/ha",
+                        "unitText": "kg magnesium per hectare",
                         "appliedToCrop": null,
                         "dateStart": 1974,
                         "dateEnd": 1978,
@@ -337,70 +337,70 @@
         },
         "crops": [
             {
-                "id": 10503,
+                "id": 11738,
                 "name": "oats",
                 "sameAs": "oats",
                 "dateStart": 1981,
                 "dateEnd": 1982
             },
             {
-                "id": 10504,
+                "id": 11739,
                 "name": "potatoes",
                 "sameAs": "potatoes",
                 "dateStart": 1983,
                 "dateEnd": null
             },
             {
-                "id": 10505,
+                "id": 11740,
                 "name": "fallow",
                 "sameAs": "fallow",
                 "dateStart": 1984,
                 "dateEnd": null
             },
             {
-                "id": 10506,
+                "id": 11741,
                 "name": "barley",
                 "sameAs": "barley",
                 "dateStart": 1985,
                 "dateEnd": null
             },
             {
-                "id": 10507,
+                "id": 11742,
                 "name": "triticales",
                 "sameAs": "triticales",
                 "dateStart": 1986,
                 "dateEnd": null
             },
             {
-                "id": 10508,
+                "id": 11743,
                 "name": "lupins",
                 "sameAs": "lupins",
                 "dateStart": 1987,
                 "dateEnd": null
             },
             {
-                "id": 10509,
+                "id": 11744,
                 "name": "beans",
                 "sameAs": "beans",
                 "dateStart": 1989,
                 "dateEnd": 1990
             },
             {
-                "id": 10510,
+                "id": 11745,
                 "name": "rapeseed",
                 "sameAs": "rapeseed",
                 "dateStart": 1991,
                 "dateEnd": 1992
             },
             {
-                "id": 10511,
+                "id": 11746,
                 "name": "lupins",
                 "sameAs": "lupins",
                 "dateStart": 1993,
                 "dateEnd": 1994
             },
             {
-                "id": 10512,
+                "id": 11747,
                 "name": "wheat",
                 "sameAs": "wheat",
                 "dateStart": 1995,
@@ -410,18 +410,18 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 5938,
-                "name": "phosphate fertilizer exposure",
+                "id": 7115,
+                "name": "Phosphorus (P) fertilizer exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 16328,
+                        "id": 18587,
                         "name": "control exposure",
                         "amount": "0",
-                        "unitCode": null,
-                        "unitText": null,
+                        "unitCode": "kgP/ha",
+                        "unitText": "kg phosphorous per hectare",
                         "appliedToCrop": null,
                         "dateStart": 1981,
                         "dateEnd": 1996,
@@ -431,7 +431,7 @@
                         "notes": "Control treatment 1962-1980, no fertilizer P applied."
                     },
                     {
-                        "id": 16329,
+                        "id": 18588,
                         "name": "P1",
                         "amount": null,
                         "unitCode": "kgP/ha",
@@ -445,7 +445,7 @@
                         "notes": "25 kgP/ha applied in 1981, 1982 and 1988. Received K treatment 1962-1980, no fertilizer P applied."
                     },
                     {
-                        "id": 16330,
+                        "id": 18589,
                         "name": "P2",
                         "amount": null,
                         "unitCode": "kgP/ha",
@@ -459,7 +459,7 @@
                         "notes": "25, 50 & 25 kgP/ha applied in 1981, 1983 and 1988 respectively. Received P treatment 1962-1980, a total of 495kgP/ha."
                     },
                     {
-                        "id": 16331,
+                        "id": 18590,
                         "name": "P3",
                         "amount": null,
                         "unitCode": "kgP/ha",
@@ -475,14 +475,14 @@
                 ]
             },
             {
-                "id": 5939,
+                "id": 7116,
                 "name": "liming exposure",
                 "description": "Continuation of 4 treatments in Period 1. Further applications in 1981, 1982 and 1986. Amounts given are the total amounts applied, see comments for splits.",
                 "effect": "Residual",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 16332,
+                        "id": 18591,
                         "name": "control exposure",
                         "amount": "0",
                         "unitCode": "t/ha",
@@ -496,7 +496,7 @@
                         "notes": null
                     },
                     {
-                        "id": 16333,
+                        "id": 18592,
                         "name": "lime low",
                         "amount": "8.0",
                         "unitCode": "t/ha",
@@ -510,7 +510,7 @@
                         "notes": "2, 5 and 1 t/ha chalk applied 1982, 1983 and 1987 respectively. Total application 1962-1987 = 15 t/ha."
                     },
                     {
-                        "id": 16334,
+                        "id": 18593,
                         "name": "lime medium",
                         "amount": "9.5",
                         "unitCode": "t/ha",
@@ -524,7 +524,7 @@
                         "notes": "5, 3 and 1.5 t/ha chalk applied 1982, 1983 and 1987 respectively. Total application 1962-1987 = 24.5 t/ha."
                     },
                     {
-                        "id": 16335,
+                        "id": 18594,
                         "name": "lime high",
                         "amount": "22.5",
                         "unitCode": "t/ha",
@@ -540,18 +540,18 @@
                 ]
             },
             {
-                "id": 5940,
+                "id": 7117,
                 "name": "Manganese exposure",
                 "description": "Manganese fertilizer applied to split plots",
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 16336,
+                        "id": 18595,
                         "name": "control exposure",
                         "amount": "0",
-                        "unitCode": null,
-                        "unitText": null,
+                        "unitCode": "kg/ha",
+                        "unitText": "kilogram per hectare",
                         "appliedToCrop": null,
                         "dateStart": 1987,
                         "dateEnd": 1990,
@@ -561,34 +561,34 @@
                         "notes": null
                     },
                     {
-                        "id": 16337,
+                        "id": 18596,
                         "name": "manganese",
-                        "amount": null,
-                        "unitCode": null,
-                        "unitText": null,
+                        "amount": "0.3",
+                        "unitCode": "kg/ha",
+                        "unitText": "kilogram per hectare",
                         "appliedToCrop": null,
                         "dateStart": 1987,
                         "dateEnd": 1990,
-                        "frequency": null,
+                        "frequency": "annually",
                         "method": "manganese sprays",
                         "chemicalForm": null,
-                        "notes": "Foliar spray, not clear how much was applied"
+                        "notes": "Foliar spray applied twice a year"
                     }
                 ]
             },
             {
-                "id": 5941,
+                "id": 7118,
                 "name": "Sulphur fertilizer exposure",
                 "description": "Sulphur fertilizer applied to split plots",
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 16338,
+                        "id": 18597,
                         "name": "control exposure",
                         "amount": "0",
-                        "unitCode": null,
-                        "unitText": null,
+                        "unitCode": "kg/ha",
+                        "unitText": "kilogram per hectare",
                         "appliedToCrop": null,
                         "dateStart": 1991,
                         "dateEnd": 1996,
@@ -598,7 +598,7 @@
                         "notes": null
                     },
                     {
-                        "id": 16339,
+                        "id": 18598,
                         "name": "sulphur",
                         "amount": "30",
                         "unitCode": null,

@@ -1,10 +1,10 @@
 {
-    "id": 2525,
+    "id": 2713,
     "experiment_type_term": null,
     "experiment_id": 53,
     "people": [
         {
-            "id": 3538,
+            "id": 3965,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -21,7 +21,7 @@
             "role_label": "data manager"
         },
         {
-            "id": 3539,
+            "id": 3966,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -38,7 +38,7 @@
             "role_label": "data manager"
         },
         {
-            "id": 3540,
+            "id": 3967,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -57,7 +57,7 @@
     ],
     "organizations": [
         {
-            "id": 2563,
+            "id": 2799,
             "contacts": [],
             "role_term": "research organisation",
             "name": "Rothamsted Research",
@@ -68,46 +68,46 @@
     ],
     "periods": [
         {
-            "id": 3757,
+            "id": 4235,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 10497,
+                    "id": 11732,
                     "crop_term": null,
                     "crop_label": "spring beans",
                     "start_year": 1962,
                     "end_year": 1964
                 },
                 {
-                    "id": 10498,
+                    "id": 11733,
                     "crop_term": null,
                     "crop_label": "spring barley",
                     "start_year": 1965,
                     "end_year": 1967
                 },
                 {
-                    "id": 10499,
+                    "id": 11734,
                     "crop_term": "potatoes",
                     "crop_label": "potatoes",
                     "start_year": 1968,
                     "end_year": null
                 },
                 {
-                    "id": 10500,
+                    "id": 11735,
                     "crop_term": "fallow",
                     "crop_label": "fallow",
                     "start_year": 1969,
                     "end_year": null
                 },
                 {
-                    "id": 10501,
+                    "id": 11736,
                     "crop_term": null,
                     "crop_label": "spring oats",
                     "start_year": 1975,
                     "end_year": null
                 },
                 {
-                    "id": 10502,
+                    "id": 11737,
                     "crop_term": null,
                     "crop_label": "spring oilseed rape",
                     "start_year": 1976,
@@ -117,11 +117,11 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 5933,
+                    "id": 7110,
                     "factor_term": "liming exposure",
                     "levels": [
                         {
-                            "id": 16316,
+                            "id": 18575,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": "0",
@@ -139,7 +139,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16317,
+                            "id": 18576,
                             "factor_variant_term": null,
                             "factor_variant_label": "lime low",
                             "amount": "7",
@@ -157,7 +157,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16318,
+                            "id": 18577,
                             "factor_variant_term": null,
                             "factor_variant_label": "lime medium",
                             "amount": "15",
@@ -175,7 +175,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16319,
+                            "id": 18578,
                             "factor_variant_term": null,
                             "factor_variant_label": "lime high",
                             "amount": "30",
@@ -199,16 +199,16 @@
                     "effect": ""
                 },
                 {
-                    "id": 5934,
-                    "factor_term": "phosphate fertilizer exposure",
+                    "id": 7111,
+                    "factor_term": null,
                     "levels": [
                         {
-                            "id": 16320,
+                            "id": 18579,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": "0",
-                            "amount_unit_term": null,
-                            "amount_unit_label": null,
+                            "amount_unit_term": "kgP/ha",
+                            "amount_unit_label": "kg phosphorous per hectare",
                             "start_year": 1962,
                             "end_year": 1980,
                             "crop_id": null,
@@ -221,12 +221,12 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16321,
+                            "id": 18580,
                             "factor_variant_term": null,
-                            "factor_variant_label": "superphosphate P",
+                            "factor_variant_label": "P fertilizer exposure",
                             "amount": "27.5",
-                            "amount_unit_term": null,
-                            "amount_unit_label": "kg P/ha/year",
+                            "amount_unit_term": "kgP/ha",
+                            "amount_unit_label": "kg phosphorous per hectare",
                             "start_year": 1962,
                             "end_year": 1980,
                             "crop_id": null,
@@ -239,22 +239,22 @@
                             "chemical_form_label": "triple superphosphate"
                         }
                     ],
-                    "factor_label": "phosphate fertilizer exposure",
+                    "factor_label": "Phosphorus (P) fertilizer exposure",
                     "description": "P either applied or not applied to plots. Treatments not applied in fallow years.",
                     "plot_application": "Whole plot",
                     "effect": "Cumulative"
                 },
                 {
-                    "id": 5935,
-                    "factor_term": "potassium fertilizer exposure",
+                    "id": 7112,
+                    "factor_term": null,
                     "levels": [
                         {
-                            "id": 16322,
+                            "id": 18581,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": "104",
-                            "amount_unit_term": null,
-                            "amount_unit_label": "kg K/ha/year",
+                            "amount_unit_term": "kgK/ha",
+                            "amount_unit_label": "kg potassium per hectare",
                             "start_year": 1962,
                             "end_year": 1980,
                             "crop_id": null,
@@ -267,12 +267,12 @@
                             "chemical_form_label": "muriate of potash"
                         },
                         {
-                            "id": 16323,
+                            "id": 18582,
                             "factor_variant_term": null,
                             "factor_variant_label": "potassium K",
                             "amount": "104",
-                            "amount_unit_term": null,
-                            "amount_unit_label": "kg K/ha/year",
+                            "amount_unit_term": "kgK/ha",
+                            "amount_unit_label": "kg potassium per hectare",
                             "start_year": 1962,
                             "end_year": 1980,
                             "crop_id": null,
@@ -285,17 +285,17 @@
                             "chemical_form_label": "muriate of potash"
                         }
                     ],
-                    "factor_label": "potassium fertilizer exposure",
+                    "factor_label": "Potassium (K) fertilizer exposure",
                     "description": "K either applied or not applied to plots. Treatments not applied in fallow years.",
                     "plot_application": "Whole plot",
                     "effect": ""
                 },
                 {
-                    "id": 5936,
+                    "id": 7113,
                     "factor_term": "Rhizobium leguminosarum exposure",
                     "levels": [
                         {
-                            "id": 16324,
+                            "id": 18583,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": "0",
@@ -303,7 +303,7 @@
                             "amount_unit_label": null,
                             "start_year": 1962,
                             "end_year": 1962,
-                            "crop_id": 10497,
+                            "crop_id": 11732,
                             "all_crops": false,
                             "note": null,
                             "application_frequency": null,
@@ -313,7 +313,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16325,
+                            "id": 18584,
                             "factor_variant_term": null,
                             "factor_variant_label": "Inoculated",
                             "amount": null,
@@ -321,7 +321,7 @@
                             "amount_unit_label": null,
                             "start_year": 1962,
                             "end_year": 1962,
-                            "crop_id": 10497,
+                            "crop_id": 11732,
                             "all_crops": false,
                             "note": null,
                             "application_frequency": null,
@@ -337,16 +337,16 @@
                     "effect": ""
                 },
                 {
-                    "id": 5937,
+                    "id": 7114,
                     "factor_term": null,
                     "levels": [
                         {
-                            "id": 16326,
+                            "id": 18585,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": "0",
-                            "amount_unit_term": null,
-                            "amount_unit_label": null,
+                            "amount_unit_term": "kgMg/ha",
+                            "amount_unit_label": "kg magnesium per hectare",
                             "start_year": 1974,
                             "end_year": 1978,
                             "crop_id": null,
@@ -359,12 +359,12 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16327,
+                            "id": 18586,
                             "factor_variant_term": null,
                             "factor_variant_label": "magnesium Mg",
                             "amount": "112",
-                            "amount_unit_term": null,
-                            "amount_unit_label": "kg Mg/ha/year",
+                            "amount_unit_term": "kgMg/ha",
+                            "amount_unit_label": "kg magnesium per hectare",
                             "start_year": 1974,
                             "end_year": 1978,
                             "crop_id": null,
@@ -377,7 +377,7 @@
                             "chemical_form_label": "magnesium sulphate"
                         }
                     ],
-                    "factor_label": "magnesium fertilizer exposure",
+                    "factor_label": "Magnesium (Mg) fertilizer exposure",
                     "description": "Magnesium either applied or not applied to sub-plots",
                     "plot_application": "Sub plot",
                     "effect": ""
@@ -435,74 +435,74 @@
             "factorial": true
         },
         {
-            "id": 3758,
+            "id": 4236,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 10503,
+                    "id": 11738,
                     "crop_term": "oats",
                     "crop_label": "oats",
                     "start_year": 1981,
                     "end_year": 1982
                 },
                 {
-                    "id": 10504,
+                    "id": 11739,
                     "crop_term": "potatoes",
                     "crop_label": "potatoes",
                     "start_year": 1983,
                     "end_year": null
                 },
                 {
-                    "id": 10505,
+                    "id": 11740,
                     "crop_term": "fallow",
                     "crop_label": "fallow",
                     "start_year": 1984,
                     "end_year": null
                 },
                 {
-                    "id": 10506,
+                    "id": 11741,
                     "crop_term": "barley",
                     "crop_label": "barley",
                     "start_year": 1985,
                     "end_year": null
                 },
                 {
-                    "id": 10507,
+                    "id": 11742,
                     "crop_term": "triticales",
                     "crop_label": "triticales",
                     "start_year": 1986,
                     "end_year": null
                 },
                 {
-                    "id": 10508,
+                    "id": 11743,
                     "crop_term": "lupins",
                     "crop_label": "lupins",
                     "start_year": 1987,
                     "end_year": null
                 },
                 {
-                    "id": 10509,
+                    "id": 11744,
                     "crop_term": "beans",
                     "crop_label": "beans",
                     "start_year": 1989,
                     "end_year": 1990
                 },
                 {
-                    "id": 10510,
+                    "id": 11745,
                     "crop_term": "rapeseed",
                     "crop_label": "rapeseed",
                     "start_year": 1991,
                     "end_year": 1992
                 },
                 {
-                    "id": 10511,
+                    "id": 11746,
                     "crop_term": "lupins",
                     "crop_label": "lupins",
                     "start_year": 1993,
                     "end_year": 1994
                 },
                 {
-                    "id": 10512,
+                    "id": 11747,
                     "crop_term": "wheat",
                     "crop_label": "wheat",
                     "start_year": 1995,
@@ -512,16 +512,16 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 5938,
-                    "factor_term": "phosphate fertilizer exposure",
+                    "id": 7115,
+                    "factor_term": null,
                     "levels": [
                         {
-                            "id": 16328,
+                            "id": 18587,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": "0",
-                            "amount_unit_term": null,
-                            "amount_unit_label": null,
+                            "amount_unit_term": "kgP/ha",
+                            "amount_unit_label": "kg phosphorous per hectare",
                             "start_year": 1981,
                             "end_year": 1996,
                             "crop_id": null,
@@ -534,7 +534,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16329,
+                            "id": 18588,
                             "factor_variant_term": null,
                             "factor_variant_label": "P1",
                             "amount": null,
@@ -552,7 +552,7 @@
                             "chemical_form_label": "triple superphosphate"
                         },
                         {
-                            "id": 16330,
+                            "id": 18589,
                             "factor_variant_term": null,
                             "factor_variant_label": "P2",
                             "amount": null,
@@ -570,7 +570,7 @@
                             "chemical_form_label": "triple superphosphate"
                         },
                         {
-                            "id": 16331,
+                            "id": 18590,
                             "factor_variant_term": null,
                             "factor_variant_label": "P3",
                             "amount": null,
@@ -588,17 +588,17 @@
                             "chemical_form_label": "triple superphosphate"
                         }
                     ],
-                    "factor_label": "phosphate fertilizer exposure",
+                    "factor_label": "Phosphorus (P) fertilizer exposure",
                     "description": null,
                     "plot_application": "Whole plot",
                     "effect": ""
                 },
                 {
-                    "id": 5939,
+                    "id": 7116,
                     "factor_term": "liming exposure",
                     "levels": [
                         {
-                            "id": 16332,
+                            "id": 18591,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": "0",
@@ -616,7 +616,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16333,
+                            "id": 18592,
                             "factor_variant_term": null,
                             "factor_variant_label": "lime low",
                             "amount": "8.0",
@@ -634,7 +634,7 @@
                             "chemical_form_label": "ground chalk"
                         },
                         {
-                            "id": 16334,
+                            "id": 18593,
                             "factor_variant_term": null,
                             "factor_variant_label": "lime medium",
                             "amount": "9.5",
@@ -652,7 +652,7 @@
                             "chemical_form_label": "ground chalk"
                         },
                         {
-                            "id": 16335,
+                            "id": 18594,
                             "factor_variant_term": null,
                             "factor_variant_label": "lime high",
                             "amount": "22.5",
@@ -676,16 +676,16 @@
                     "effect": "Residual"
                 },
                 {
-                    "id": 5940,
+                    "id": 7117,
                     "factor_term": null,
                     "levels": [
                         {
-                            "id": 16336,
+                            "id": 18595,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": "0",
-                            "amount_unit_term": null,
-                            "amount_unit_label": null,
+                            "amount_unit_term": "kg/ha",
+                            "amount_unit_label": "kilogram per hectare",
                             "start_year": 1987,
                             "end_year": 1990,
                             "crop_id": null,
@@ -698,18 +698,18 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16337,
+                            "id": 18596,
                             "factor_variant_term": "manganese",
                             "factor_variant_label": "manganese",
-                            "amount": null,
-                            "amount_unit_term": null,
-                            "amount_unit_label": null,
+                            "amount": "0.3",
+                            "amount_unit_term": "kg/ha",
+                            "amount_unit_label": "kilogram per hectare",
                             "start_year": 1987,
                             "end_year": 1990,
                             "crop_id": null,
                             "all_crops": false,
-                            "note": "Foliar spray, not clear how much was applied",
-                            "application_frequency": null,
+                            "note": "Foliar spray applied twice a year",
+                            "application_frequency": "annually",
                             "application_method_term": null,
                             "application_method_label": "manganese sprays",
                             "chemical_form_term": null,
@@ -722,16 +722,16 @@
                     "effect": ""
                 },
                 {
-                    "id": 5941,
+                    "id": 7118,
                     "factor_term": null,
                     "levels": [
                         {
-                            "id": 16338,
+                            "id": 18597,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": "0",
-                            "amount_unit_term": null,
-                            "amount_unit_label": null,
+                            "amount_unit_term": "kg/ha",
+                            "amount_unit_label": "kilogram per hectare",
                             "start_year": 1991,
                             "end_year": 1996,
                             "crop_id": null,
@@ -744,7 +744,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16339,
+                            "id": 18598,
                             "factor_variant_term": "sulphur",
                             "factor_variant_label": "sulphur",
                             "amount": "30",
@@ -827,7 +827,7 @@
     "site_soil_type_term": "luvisol",
     "site_soil_properties": [
         {
-            "id": 3803,
+            "id": 4163,
             "variable_term": null,
             "unit_term": "%",
             "variable_label": "Coarse sand content (2-0.2 mm)",
@@ -843,7 +843,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 3804,
+            "id": 4164,
             "variable_term": null,
             "unit_term": "%",
             "variable_label": "Fine sand content (0.2- 0.02 mm)",
@@ -859,7 +859,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 3805,
+            "id": 4165,
             "variable_term": null,
             "unit_term": "%",
             "variable_label": "Silt content (0.02-0.002 mm)",
@@ -875,7 +875,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 3806,
+            "id": 4166,
             "variable_term": null,
             "unit_term": "%",
             "variable_label": "clay content < 2 \u00b5m",
@@ -891,7 +891,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 3807,
+            "id": 4167,
             "variable_term": "soil total carbon",
             "unit_term": "%",
             "variable_label": "soil total carbon",
@@ -907,7 +907,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 3808,
+            "id": 4168,
             "variable_term": "total soil nitrogen",
             "unit_term": "%",
             "variable_label": "total soil nitrogen",
@@ -923,7 +923,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 3809,
+            "id": 4169,
             "variable_term": "soil density",
             "unit_term": "t/ha",
             "variable_label": "soil density",
@@ -939,7 +939,7 @@
             "unit_label": "tonnes per hectare"
         },
         {
-            "id": 3810,
+            "id": 4170,
             "variable_term": "soil pH",
             "unit_term": null,
             "variable_label": "soil pH",
@@ -958,7 +958,7 @@
     "site_climatic_type_term": "temperate oceanic climate",
     "site_climate_properties": [
         {
-            "id": 1731,
+            "id": 1855,
             "variable_term": null,
             "unit_term": null,
             "variable_label": "annual total precipitation",
@@ -970,7 +970,7 @@
             "unit_label": "mm"
         },
         {
-            "id": 1732,
+            "id": 1856,
             "variable_term": null,
             "unit_term": "degC",
             "variable_label": "annual mean air temperature",
@@ -1014,7 +1014,7 @@
             "language": "English"
         }
     ],
-    "saved_time": "2021-01-27T11:00:07.443552Z",
+    "saved_time": "2021-03-16T12:01:55.018872Z",
     "name": "Rothamsted Long-term Liming Experiment",
     "local_identifier": "R/CS/10",
     "experiment_type_label": null,

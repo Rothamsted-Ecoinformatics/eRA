@@ -1,5 +1,17 @@
 [
     {
+        "MediaID": 10,
+        "Credit": "eRA curators",
+        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/met/1623-map.jpg",
+        "Caption": "Map of Rothamsted Estate - 1923",
+        "Type": "Other",
+        "exptID": "met",
+        "width": 750,
+        "height": 985,
+        "orientation": "Portrait",
+        "fileLocation": "metadata/met/1623-map.jpg"
+    },
+    {
         "MediaID": 32,
         "Credit": "eRA curators",
         "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/met/anemometer.gif",
@@ -327,7 +339,7 @@
         "MediaID": 46,
         "Credit": "eRA curators",
         "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/met/stevenson2.jpg",
-        "Caption": "Stevenson2",
+        "Caption": "Stevenson",
         "Type": "Other",
         "exptID": "met",
         "width": 750,
@@ -351,7 +363,7 @@
         "MediaID": 49,
         "Credit": "eRA curators",
         "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/met/sunny-day-at-rothamsted-2.jpg",
-        "Caption": "Sunny day at rothamsted 2",
+        "Caption": "Sunny day at Rothamsted",
         "Type": "Other",
         "exptID": "met",
         "width": 3548,
@@ -483,24 +495,12 @@
         "MediaID": 56,
         "Credit": "eRA curators",
         "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/met/windy-day-2.jpg",
-        "Caption": "A windy day at Roth",
+        "Caption": "A windy day at Rothamsted",
         "Type": "Other",
         "exptID": "met",
         "width": 2760,
         "height": 2036,
         "orientation": "Landscape",
         "fileLocation": "metadata/met/windy-day-2.jpg"
-    },
-    {
-        "MediaID": 10,
-        "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rothamstead/1623-map.jpg",
-        "Caption": "Map of Rothamsted Estate, 1923",
-        "Type": "Other",
-        "exptID": "met",
-        "width": 750,
-        "height": 985,
-        "orientation": "Portrait",
-        "fileLocation": "metadata/rothamstead/1623-map.jpg"
     }
 ]

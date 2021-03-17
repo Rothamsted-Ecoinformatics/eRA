@@ -138,10 +138,10 @@ function makeCSV($array, $recursive = false, $null = '&nbsp;')
     
     //
     foreach ($array as $folders) {
-        $commands = "Credit,URL,Caption,Type,Extension,exptID,isReviewed,width,height,orientation<br />";
+        $commands = "Credit,fileLocation,URL,Caption,Type,extension,exptID,isReviewed,width,height,orientation<br />";
         $i = 1;
         foreach ($folders as $foldername => $folder) {
-            $base = "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/banners/";
+            $base = "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/";
             if (! is_array($folder)) {
                 if (is_string($folder)) {
                     $title = trim($folder, 'ts');
@@ -154,7 +154,7 @@ function makeCSV($array, $recursive = false, $null = '&nbsp;')
                     } else {
                         $type = "Other";
                     }
-                    $path = 'images/banners/' . $folder ;
+                    $path = 'images/metadata/' . $folder ;
                     list ($width, $height, $type, $attr) = getimagesize($path);
                     if (($width > $height)) {
                         $orientation = 'Landscape';
@@ -163,7 +163,7 @@ function makeCSV($array, $recursive = false, $null = '&nbsp;')
                     }
                     
                     if (strstr($folder, '.jpg') || strstr($folder, '.gif') || strstr($folder, '.png')) { // we are looking at the php and html files documents
-                        $commands .=  "eRA curators," . $base . "" . $folder.  "," . $stitle . ",Banner," . $ext . "," . $foldername . ",0," . $width . "," . $height . "," . $orientation . "<br />";
+                        $commands .=  "eRA curators," . $base . "" . $folder.  ",'" . $stitle . "',".$type."," . $ext . "," . $foldername . ",0," . $width . "," . $height . "," . $orientation . "<br />";
                         $i = $i + 1;
                     }
                 } else {
@@ -173,8 +173,8 @@ function makeCSV($array, $recursive = false, $null = '&nbsp;')
             } else {
                 foreach ($folder as $key => $filename) {
                     if (is_string($filename)) {
-                        $title = trim($filename, 'ts');
-                        $title = str_replace('-', ' ', $title);
+                        //$title = trim($filename, 'ts');
+                        $title = str_replace('-', ' ', $filename);
                         $title = trim($title);
                         list ($stitle, $ext) = explode('.', $title);
                         
@@ -192,7 +192,7 @@ function makeCSV($array, $recursive = false, $null = '&nbsp;')
                         }
                         
                         if (strstr($filename, '.jpg') || strstr($filename, '.gif') || strstr($filename, '.png')) { // we are looking at the php and html files documents
-                            $commands .= $i . ",eRA curators," . $base . "" . $foldername . '/' . $filename . "," . $stitle . ",Other," . $ext . "," . $foldername . ",0," . $width . "," . $height . "," . $orientation . "<br />";
+                            $commands .=  "eRA curators,metadata/"  . "" . $foldername . '/' . $filename . ", ". $base . "" . $foldername . '/' . $filename . "," . $stitle . ",Other," . $ext . "," . $foldername . ",0," . $width . "," . $height . "," . $orientation . "<br />";
                             $i = $i + 1;
                         }
                     } else {
@@ -206,7 +206,7 @@ function makeCSV($array, $recursive = false, $null = '&nbsp;')
     return $commands;
 }
 
-$dir = 'images/banners';
+$dir = 'images/metadata/';
 $files = dirToArray($dir);
 echo "<pre>";
 print_r($files);

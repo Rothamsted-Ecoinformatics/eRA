@@ -1,55 +1,81 @@
 {
     "@context": "https://schema.org/",
     "@type": "Text",
-    "identifier": "10.23637/rbk1-FertTreats",
-    "name": "Broadbalk Fertiliser and Manure Treatments 1852-2021",
+    "identifier": "10.23637/rbk1-plan1926-67-02",
+    "name": "Broadbalk plan 1926-1967",
     "shortName": null,
-    "url": "http://www.era.rothamsted.ac.uk/metadata/rbk1/01-rbk1-FertTreats.pdf",
+    "url": "http://www.era.rothamsted.ac.uk/metadata/rbk1/01-rbk1-plan1926-1967.pdf",
     "description": [
         {
             "inLanguage": "en",
             "descriptionType": "Abstract",
-            "description": "Description of Broadbalk fertiliser and organic manure treatments, 1852-2021. Annual treatments per hectare."
+            "description": "Experiment plan for the Broadbalk wheat experiment, 1926-1967, with details of fertilizer and manure treatments"
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TableOfContents",
+            "description": "-**Page 1:** Cover page\r\n-**Pages 2-3:** Broadbalk experiment plan 1926-1967, showing plot layout and treatment codes, with full details of fertilizer and manure treatments applied."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TechnicalInfo",
+            "description": "Standardised experimental plan (not to scale)"
         },
         {
             "inLanguage": "en",
             "descriptionType": "Provenance",
-            "description": "Updated from Macdonald et al, 2018."
+            "description": "Derived from Johnston and Garner (1969) and Rothamsted Experiments Station (1970), Details of the Classical and Long-term field experiments up to 1967."
         }
     ],
     "publisher": {
         "type": "organization",
         "name": "Electronic Rothamsted Archive, Rothamsted Research"
     },
-    "publication_year": 2018,
-    "dateCreated": "2018-09-15",
-    "dateModified": "2021-03-08",
-    "datePublished": "2018-09-15",
+    "publication_year": 2021,
+    "dateCreated": "2017-10-11",
+    "dateModified": "2021-03-16",
+    "datePublished": null,
     "inLanguage": "en",
     "version": "1",
     "keywords": [
-        "fertilizer",
         "Broadbalk long-term experiment",
-        "farmyard manure",
-        "nitrogen",
-        "phosphorous",
         "Rothamsted Research",
-        "wheat"
+        "wheat",
+        "long term experiments",
+        "fertilizer",
+        "farmyard manure",
+        "experimental design"
     ],
     "creator": [
         {
-            "type": "organization",
-            "name": "Rothamsted Research"
+            "type": "Person",
+            "Name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
         }
     ],
     "contributor": [
         {
             "type": "Person",
-            "jobTitle": "DataManager",
-            "name": "Nathalie Castells-Brooke",
-            "givenName": "Nathalie",
-            "familyName": "Castells-Brooke",
-            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
@@ -66,11 +92,53 @@
         },
         {
             "type": "Person",
-            "jobTitle": "DataCurator",
-            "name": "Margaret Glendining",
-            "givenName": "Margaret",
-            "familyName": "Glendining",
-            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "jobTitle": "Researcher",
+            "name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectLeader",
+            "name": "Andrew Macdonald",
+            "givenName": "Andrew",
+            "familyName": "Macdonald",
+            "sameAs": "https://orcid.org/0000-0002-1785-4892",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells-Brooke",
+            "givenName": "Nathalie",
+            "familyName": "Castells-Brooke",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
@@ -105,48 +173,6 @@
                 "name": "Computational and Analytical Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
-        },
-        {
-            "type": "Person",
-            "jobTitle": "Researcher",
-            "name": "Andrew Macdonald",
-            "givenName": "Andrew",
-            "familyName": "Macdonald",
-            "sameAs": "https://orcid.org/0000-0002-1785-4892",
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
-                "addressLocality": "Harpenden",
-                "addressRegion": "Hertfordshire",
-                "postalCode": "AL5 2JQ",
-                "addressCountry": "United Kingdom"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
-                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
-            }
-        },
-        {
-            "type": "Person",
-            "jobTitle": "Researcher",
-            "name": "Paul Poulton",
-            "givenName": "Paul",
-            "familyName": "Poulton",
-            "sameAs": "https://orcid.org/0000-0002-5720-064X",
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
-                "addressLocality": "Harpenden",
-                "addressRegion": "Hertfordshire",
-                "postalCode": "AL5 2JQ",
-                "addressCountry": "United Kingdom"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
-                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
-            }
         }
     ],
     "encodingFormat": "application/pdf",
@@ -171,52 +197,62 @@
     },
     "relatedIdentifier": [
         {
-            "relatedIdentifier": "10.23637/bbk-2078416917-01",
+            "relatedIdentifier": "10.23637/ERADOC-1-34916",
             "relatedIdentifierType": "DOI",
-            "name": "<i>Cirsium arvense</i> frequency on Broadbalk Section 8 1991-2018",
-            "relatedIdentifierGeneralType": "Dataset",
-            "relationType": "IsCitedBy",
-            "rt_id": 1,
-            "relationTypeValue": "is cited by"
+            "name": "Johnston and Garner, 1969. Broadbalk: A historical introduction",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDerivedFrom",
+            "rt_id": 28,
+            "relationTypeValue": "is derived from"
+        },
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-192",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted Experimental Station (1970) Details of the Classical and Long-term field experiments",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDerivedFrom",
+            "rt_id": 28,
+            "relationTypeValue": "is derived from"
+        },
+        {
+            "relatedIdentifier": "10.23637/rbk1-FertTreats",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk Fertiliser and Manure Treatments 1852-2021",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsContinuedBy",
+            "rt_id": 5,
+            "relationTypeValue": "is continued by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rbk1-FertTreats",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk Fertiliser and Manure Treatments 1852-2021",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
         },
         {
             "relatedIdentifier": "10.23637/rbk1-sup-1534342858-01",
             "relatedIdentifierType": "DOI",
-            "name": "Broadbalk plan and treatments 1852-1925",
+            "name": "Broadbalk plan 1852-1925",
             "relatedIdentifierGeneralType": "Text",
-            "relationType": "IsSupplementTo",
-            "rt_id": 3,
-            "relationTypeValue": "is supplement to"
-        },
-        {
-            "relatedIdentifier": "10.23637/ROTHAMSTED-LONG-TERM-EXPERIMENTS-GUIDE-2018",
-            "relatedIdentifierType": "DOI",
-            "name": "Rothamsted long-term experiements guide, Macdonald et al, 2018.",
-            "relatedIdentifierGeneralType": "Text",
-            "relationType": "IsDescribedBy",
-            "rt_id": 7,
-            "relationTypeValue": "is described by"
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
         }
     ],
-    "funder": [
-        {
-            "type": "organization",
-            "name": "Biotechnology and Biological Sciences Research Council",
-            "sameAs": "http://dx.doi.org/10.13039/501100000268",
-            "award": "BBS/E/C/000J0300 - The Rothamsted Long - Term Experiments - National Capability",
-            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F000J0300"
-        }
-    ],
+    "funder": [],
     "distribution": [
         {
             "type": "dataDownload",
-            "name": "Broadbalk Fertilizer and Manure Treatments 1852-2021",
-            "URL": "01-rbk1-FertTreats.pdf",
+            "name": "Broadbalk wheat experiment plan 1926-1967",
+            "URL": "01-rbk1-plan1926-1967.pdf",
             "encodingFormat": "pdf",
-            "fileSize": "333 KB"
+            "fileSize": "235 KB"
         }
     ],
     "image": [],
-    "grade": 2,
+    "grade": 1,
     "dstype": "OA"
 }

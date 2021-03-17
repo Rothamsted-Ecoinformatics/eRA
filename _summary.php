@@ -49,8 +49,8 @@ function getPersonInfo($personDetails)
 ?>
 
 
-<h2 class="mx-3">Overview</h2>
-<div class="mx-5">
+
+<div class="mx-3">
 
 	<div class="container">
 		<div class="row">
