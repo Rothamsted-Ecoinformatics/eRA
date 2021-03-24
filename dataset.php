@@ -137,7 +137,7 @@ if ($hasDataset) {
     }
 
     if (is_array($dsinfo['contributor'])) {
-        $tblContributors = "        <h3>Contributors</h3><ul>";
+        $tblContributors = "     \n   <h3>Contributors</h3><ul>";
         foreach ($dsinfo['contributor'] as $contributor) {
             $hasCT = 1;
             if ($contributor['type'] == 'Person') {
@@ -145,14 +145,12 @@ if ($hasDataset) {
                 $strRole = preg_replace('/([a-z])([A-Z])/', '${1} ${2}', $contributor['jobTitle']);
                 $strRole = strtolower($strRole);
                 $strRole = ucfirst($strRole);
-                $tblContributors .= "<li><b>".$contributor['name'].": </b> ".$strRole;
+                $tblContributors .= "\n\t<li><b>" . $contributor['name'] . ": </b> " . $strRole."</li>";
             }
-            
         }
         $tblContributors .= "</ul>";
-        
     }
-    
+
     $getAuthorOrganisation = rtrim($getAuthorOrganisation, ', ');
     $getAuthors = rtrim($getAuthors, ', ');
     $getContributors = rtrim($getContributors, ', ');
@@ -209,7 +207,8 @@ if ($hasDataset) {
     if (is_array($dsinfo['relatedIdentifier'])) {
         $hasDatasets = 0;
         $hasDocuments = 0;
-        $hasVersion = 0;
+        $hasPVersion = 0;
+        $hasNVersion = 0;
         $relDatasets_prev = "				<div class=\"card\">
 					<div class=\"card-header\" id=\"Related\">
 						<h5 class=\"mb-0\">
@@ -223,20 +222,22 @@ if ($hasDataset) {
 						<div class=\"card-body\">";
 
         $relDatasets = "				<h3>Related Datasets</h3> <ul>";
-        $otherVersions = "				<h3>Other Versions</h3> <ul>";
-        $relDocuments_prev = "<div class=\"card\">
-					<div class=\"card-header\" id=\"Supporting\">
-						<h5 class=\"mb-0\">
-							<button class=\"btn btn-link collapsed\" data-toggle=\"collapse\"
+        $prevVersions = "				<h3>Previous Versions</h3> <ul>";
+        $newVersions = "				<h3>Newer Versions</h3> <ul>";
+        $newVersionShort ="<ul>";
+        $relDocuments_prev = "\n<div class=\"card\">
+					\n<div class=\"card-header\" id=\"Supporting\">
+						\n\t<h5 class=\"mb-0\">
+						\n\t	<button class=\"btn btn-link collapsed\" data-toggle=\"collapse\"
 								data-target=\"#collapseSupporting\" aria-expanded=\"false\"
 								aria-controls=\"collapseSupporting\">Related Documents</button>
-						</h5>
-					</div>
-					<div id=\"collapseSupporting\" class=\"collapse\"
+						\n\t</h5>
+					\n\t</div>
+				\n\t<div id=\"collapseSupporting\" class=\"collapse\"
 						aria-labelledby=\"Supporting\" data-parent=\"#accordion\">
-						<div class=\"card-body\">";
+						\n\t<div class=\"card-body\">";
 
-        $relDocuments = "<h3>Related Documents</h3> <ul>";
+        $relDocuments = "\n<h3>Related Documents</h3> <ul>";
 
         foreach ($dsinfo['relatedIdentifier'] as $n => $ris) {
             switch ($ris['relatedIdentifierType']) {
@@ -250,33 +251,38 @@ if ($hasDataset) {
                 case "PURL":
                     $urlPrefix = "";
                     break;
-                case "ISBN": 
+                case "ISBN":
                     $ris['relatedIdentifier'] = str_replace("-", "", $ris['relatedIdentifier']);
                     $urlPrefix = "https://isbnsearch.org/isbn/";
                     break;
-                    
             }
             if ($ris['relatedIdentifierGeneralType'] == "Text") {
 
                 $hasDocuments = 1;
 
-                $relDocuments .= "<li>  <a target = \_blank\" href=\"".$urlPrefix. $ris['relatedIdentifier'] . "\">  " . $ris['name'] . "</a> <sup><i class=\"fa fa-external-link\" aria-hidden=\"true\"></i></sup>: </li>";
+                $relDocuments .= "<li>  <a target = \"_blank\" href=\"" . $urlPrefix . $ris['relatedIdentifier'] . "\">  " . $ris['name'] . "</a> <sup><i class=\"fa fa-external-link\" aria-hidden=\"true\"></i></sup>: </li>";
             } elseif ($ris['relatedIdentifierGeneralType'] == "Dataset") {
-                
-                if (($ris['rt_id'] == 13) or ($ris['rt_id']== 14)) 
-                {
-                   $hasVersion = 1;
-                   $otherVersions.= "<li>  <a  href=\"".$urlPrefix. $ris['relatedIdentifier'] . "\">  " . $ris['name'] . "</a></li>";
-                } else {
-                $hasDatasets = 1;
 
-                $relDatasets .= "<li>  <a  href=\"".$urlPrefix. $ris['relatedIdentifier'] . "\">  " . $ris['name'] . "</a></li>";
+                if ($ris['rt_id'] == 13) {
+                    $hasPVersion = 1;
+                    $prevVersions       .= "\n<li> " . $ris['relationTypeValue'] . ": <a  href=\"" . $urlPrefix . $ris['relatedIdentifier'] . "\">  " . $ris['name'] . "</a></li>";
+                } elseif ($ris['rt_id'] == 14) {
+                    $hasNVersion = 1;
+                    $newVersions        .= "\n<li>  <a  href=\"" . $urlPrefix . $ris['relatedIdentifier'] . "\">  " . $ris['name'] . "</a></li>";
+                    $newVersionShort    .= "\n<li><a  href=\"" . $urlPrefix . $ris['relatedIdentifier'] . "\">  " . $ris['name'] . "</a></li>";
+                } else {
+                    $hasDatasets = 1;
+
+                    $relDatasets        .= "\n<li>  <a  href=\"" . $urlPrefix . $ris['relatedIdentifier'] . "\">  " . $ris['name'] . "</a></li>";
                 }
             } else {}
         }
-        $relDatasets .=  "</ul>";
-        $relDocuments .= "</ul>";
-        $otherVersions.= "</ul>";
+        $relDatasets        .= "\n</ul>";
+        $relDocuments       .= "\n</ul>";
+        $otherVersions      .= "\n</ul>";
+        $prevVersions       .= "\n</ul>";
+        $newVersions        .= "\n</ul>";
+        $newVersionShort    .= "\n</ul>";
     }
     if (is_array($dsinfo['description'])) {
         $arrDescription = array();
@@ -402,7 +408,7 @@ if ($hasDataset) {
     
     <?php
 
-include 'includes/header.html'; // all the menus at the top
+    include 'includes/header.html'; // all the menus at the top
 
     // -- start dependent content ---------------------------------------------------------
 

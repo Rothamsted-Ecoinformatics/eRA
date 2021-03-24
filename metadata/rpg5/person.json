@@ -38,6 +38,19 @@
                 "name": "Rothamsted Research",
                 "address": "West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
+        },
+        {
+            "type": "Person",
+            "jobTitle": null,
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": null,
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": "West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
         }
     ]
 }

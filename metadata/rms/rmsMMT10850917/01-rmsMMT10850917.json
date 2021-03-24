@@ -289,7 +289,17 @@
         },
         "name": "Rothamsted Met Station"
     },
-    "relatedIdentifier": [],
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/rmsMMRain10850917",
+            "relatedIdentifierType": "DOI",
+            "name": "Mean monthly rainfall at Rothamsted October 1985-September 2017",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "Cites",
+            "rt_id": 2,
+            "relationTypeValue": "cites"
+        }
+    ],
     "funder": [
         {
             "type": "organization",

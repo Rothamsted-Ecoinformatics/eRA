@@ -3,7 +3,7 @@
     "@type": "Text",
     "identifier": "10.23637/ws-soil-maps-01",
     "name": "Woburn Experimental Farm Soil and Field Maps",
-    "shortName": null,
+    "shortName": "",
     "url": "http://www.era.rothamsted.ac.uk/metadata/docs/wob-maps.pdf",
     "description": [
         {
@@ -19,7 +19,7 @@
     ],
     "publisher": {
         "type": "organization",
-        "name": "Rothamsted Research"
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
     },
     "publication_year": 2017,
     "dateCreated": null,
@@ -190,7 +190,7 @@
     "encodingFormat": "application/pdf",
     "copyrightHolder": {
         "type": "organization",
-        "name": "Rothamsted Research"
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
     },
     "license": {
         "type": "CreativeWork",

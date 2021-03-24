@@ -51,10 +51,10 @@
         {
             "type": "Person",
             "jobTitle": "DataCurator",
-            "name": "Margaret Glendining",
-            "givenName": "Margaret",
-            "familyName": "Glendining",
-            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
@@ -72,10 +72,10 @@
         {
             "type": "Person",
             "jobTitle": "DataCurator",
-            "name": "Sarah Perryman",
-            "givenName": "Sarah",
-            "familyName": "Perryman",
-            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
@@ -115,7 +115,7 @@
         {
             "relatedIdentifier": "10.23637/ROTHAMSTED-LONG-TERM-EXPERIMENTS-GUIDE-2018",
             "relatedIdentifierType": "DOI",
-            "name": null,
+            "name": "Guide to the Long term experiments",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,

@@ -372,13 +372,13 @@
             "relationTypeValue": "is supplemented by"
         },
         {
-            "relatedIdentifier": "10.23637/KeyRefOAPGsoilpH.",
+            "relatedIdentifier": "10.23637/KeyRefOAPGsoilpH",
             "relatedIdentifierType": "DOI",
             "name": "Park Grass pH in water 1856-2011",
             "relatedIdentifierGeneralType": "Text",
-            "relationType": "IsSupplementedBy",
-            "rt_id": 4,
-            "relationTypeValue": "is supplemented by"
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
         },
         {
             "relatedIdentifier": "110.23637/KeyRefOAPGspecies",

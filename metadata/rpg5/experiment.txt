@@ -14,9 +14,9 @@ The harvesting methods have changed as farming practices have modernised (see Mo
 
 Herbage yields are recorded each year. Physical samples of crops and soils have been preserved in the Rothamsted Sample Archive. The experiment also includes a small area used for micro-plot experiments. Since January 2020 twelve sub-plots have three soil moisture probes. The experiment has had three main phases (see Design Periods).
 
-Park Grass is a “Genomic Observatory” - a geographic site with a rich history of environmental/ecological data collection and a long-term commitment to future studies. The Park Grass soil metagenome from the untreated control plot 3d is now publicly available (see Related Documents).
+Park Grass is a Genomic Observatory - a geographic site with a rich history of environmental/ecological data collection and a long-term commitment to future studies. The Park Grass soil metagenome from the untreated control plot 3d is now publicly available (see Related Documents).
 
-Park Grass is an Environmental Change Network (ECN) data site (see Related Documents).
+Park Grass is both an Environmental Change Network (ECN) data site and an Ecological Continuity Trust site (see Related Documents).
     Originally to study the effects of organic and inorganic amendments and lime on old grass for hay, latterly also for effects on botanical composition.
 
     Experiment start = 1856

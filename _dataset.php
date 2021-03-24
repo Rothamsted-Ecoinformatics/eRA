@@ -39,6 +39,17 @@ $Parsedown = new Parsedown();
 						<li class="list-group-item"><b>Data access: </b><?php echo $dstypeStr;?></li>
 						<li class="list-group-item"><b>DOI: </b><?php echo $dsinfo['identifier'];?>
 						</li>
+						<?php 
+						
+						if ($hasNVersion == 1) {
+						    ?>
+						    <li class="list-group-item text-warning "><b>Newer Version: </b>
+						    <?php 
+						    echo $newVersionShort;
+						    ?>
+						    
+						    </li>
+						    <?php 						}?> 
 						<?php if ($expt == "rro") { ?><li class="list-group-item"><b>Experiment: </b> <a
 							href="orphans.php">Other</a></li>
 						
@@ -107,7 +118,12 @@ if ($hasDatasets == 1) {
 if ($hasVersion == 1) {
     echo $otherVersions;
 }
-
+if ($hasPVersion == 1) {
+    echo $prevVersions;
+}
+if ($hasNVersion == 1) {
+    echo $newVersions;
+}
 if ($hasCT == 1) {
     echo  $tblContributors ;
 }

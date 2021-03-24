@@ -290,6 +290,15 @@
     },
     "relatedIdentifier": [
         {
+            "relatedIdentifier": "10.23637/rmsmmtemp10850917",
+            "relatedIdentifierType": "DOI",
+            "name": "Mean monthly temperature at Rothamsted October 1985-September 2017",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsCitedBy",
+            "rt_id": 1,
+            "relationTypeValue": "is cited by"
+        },
+        {
             "relatedIdentifier": "10.23637/wcs10-wltlyields-01",
             "relatedIdentifierType": "DOI",
             "name": "Woburn long-term liming experiment crop yields 1962-1996",

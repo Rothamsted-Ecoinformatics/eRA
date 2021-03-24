@@ -1,15 +1,15 @@
 {
     "@context": "https://schema.org/",
     "@type": "Dataset",
-    "identifier": "10.23637/KeyRefOABKsoc",
-    "name": "Broadbalk soil organic carbon content 1843-2010",
+    "identifier": "10.23637/KeyRefOABKsoc-02",
+    "name": "Broadbalk soil organic carbon content 1843-2015",
     "shortName": "BKSOC1843",
     "url": "http://www.era.rothamsted.ac.uk/Broadbalk/bbk_open_access_soc",
     "description": [
         {
             "inLanguage": "en",
             "descriptionType": "Abstract",
-            "description": "Long-term changes in soil organic carbon content (t/ha) in selected treatments of the Broadbalk experiment, where winter wheat has been grown every year since autumn 1843. SOC in t/ha, calculated from %SOC and soil weights, adjusted for changes in soil bulk density in FYM treatments."
+            "description": "Long-term changes in soil organic carbon content (t/ha) in selected treatments of the Broadbalk experiment, where winter wheat has been grown every year since autumn 1843. SOC in t/ha, calculated from %SOC and soil weights, adjusted for changes in soil bulk density in FYM treatments.  Updated to include 2015 data and some small corrections to calculations of total SOC for plots 2.1 and 1."
         },
         {
             "inLanguage": "en",
@@ -24,7 +24,7 @@
         {
             "inLanguage": "en",
             "descriptionType": "TechnicalInfo",
-            "description": "Soil samples taken in 1881, 1893, 1914, 1936 and 1944 were re-analysed in 2001-4 for total C by combustion (LECO) and CaCO3-C by manometry. SOC is calculated as Total C minus CaCO3-C. Data in 1865 are derived from the original Soda Lime analyses (for Total N) and C:N ratios for 1893 (for organic C). Data for 1966 are corrected Walkey-Black values for organic C. Data for 1987 are Tinsley for organic C. Data for 1992 onwards are Total C  by combustion (LECO) minus CaCO3-C by manometry."
+            "description": "Soil samples taken in 1881, 1893, 1914, 1936 and 1944 were re-analysed in 2001-4 for total C by combustion (LECO) and CaCO<sub>3</sub>-C by manometry. SOC is calculated as Total C minus CaCO<sub>3</sub>-C. Data in 1865 are derived from the original Soda Lime analyses (for Total N) and C:N ratios for 1893 (for organic C). Data for 1966 are corrected Walkey-Black values for organic C. Data for 1987 are Tinsley for organic C. Data for 1992 onwards are Total C  by combustion (LECO) minus CaCO<sub>3</sub>-C by manometry."
         },
         {
             "inLanguage": "en",
@@ -41,20 +41,20 @@
         "type": "organization",
         "name": "Electronic Rothamsted Archive, Rothamsted Research"
     },
-    "publication_year": 2014,
-    "dateCreated": "2014-06-04",
-    "dateModified": "2021-03-03",
+    "publication_year": 2021,
+    "dateCreated": "2021-03-18",
+    "dateModified": "2021-03-22",
     "datePublished": null,
     "inLanguage": "en",
-    "version": "1",
+    "version": "2",
     "keywords": [
         "Broadbalk long-term experiment",
-        "soil",
-        "long term experiments",
-        "fertilizer",
+        "Rothamsted Research",
         "soil organic carbon",
+        "soil",
+        "fertilizer",
         "farmyard manure",
-        "Rothamsted Research"
+        "long term experiments"
     ],
     "creator": [
         {
@@ -65,11 +65,11 @@
     "contributor": [
         {
             "type": "Person",
-            "jobTitle": "DataManager",
-            "name": "Nathalie Castells-Brooke",
-            "givenName": "Nathalie",
-            "familyName": "Castells-Brooke",
-            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
@@ -86,11 +86,11 @@
         },
         {
             "type": "Person",
-            "jobTitle": "DataCurator",
-            "name": "Margaret Glendining",
-            "givenName": "Margaret",
-            "familyName": "Glendining",
-            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells-Brooke",
+            "givenName": "Nathalie",
+            "familyName": "Castells-Brooke",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
@@ -128,7 +128,7 @@
         },
         {
             "type": "Person",
-            "jobTitle": "ProjectLeader",
+            "jobTitle": "ProjectManager",
             "name": "Andrew Macdonald",
             "givenName": "Andrew",
             "familyName": "Macdonald",
@@ -188,6 +188,27 @@
                 "name": "Computational and Analytical Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectLeader",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
         }
     ],
     "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
@@ -212,31 +233,49 @@
     },
     "relatedIdentifier": [
         {
-            "relatedIdentifier": "10.23637/BK-oadata-soilN-01",
+            "relatedIdentifier": "10.23637/KeyRefOABKsoc",
             "relatedIdentifierType": "DOI",
-            "name": "Broadbalk Soil Total % Nitrogen Content, 1843-2010",
+            "name": "Broadbalk soil organic carbon content 1843-2010",
             "relatedIdentifierGeneralType": "Dataset",
-            "relationType": "IsSupplementTo",
-            "rt_id": 3,
-            "relationTypeValue": "is supplement to"
+            "relationType": "IsNewVersionOf",
+            "rt_id": 13,
+            "relationTypeValue": "is new version of"
         },
         {
-            "relatedIdentifier": "10.23637/KeyRefOABKyields",
+            "relatedIdentifier": "10.23637/rbk1-FertTreats",
             "relatedIdentifierType": "DOI",
-            "name": "Broadbalk mean long-term winter wheat yields",
+            "name": "Broadbalk Fertiliser and Manure Treatments 1852-2021",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rbk1-today2018-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk Today revised 2018",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/bk-oadata-soiln-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk Soil Total % Nitrogen Content, 1843-2010",
             "relatedIdentifierGeneralType": "Dataset",
             "relationType": "IsSupplementedBy",
             "rt_id": 4,
             "relationTypeValue": "is supplemented by"
         },
         {
-            "relatedIdentifier": "10.23637/KeyRefOABKsoc-02",
+            "relatedIdentifier": "10.1016/j.agee.2011.10.004",
             "relatedIdentifierType": "DOI",
-            "name": "Broadbalk soil organic carbon content 1843-2015",
-            "relatedIdentifierGeneralType": "Dataset",
-            "relationType": "IsPreviousVersionOf",
-            "rt_id": 14,
-            "relationTypeValue": "is previous version of"
+            "name": "Powlson et al, 2012",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
         }
     ],
     "funder": [
@@ -244,33 +283,33 @@
             "type": "organization",
             "name": "Biotechnology and Biological Sciences Research Council",
             "sameAs": "http://dx.doi.org/10.13039/501100000268",
-            "award": "BBS/E/C/00005189 - The Rothamsted Long-Term Experiments including Sample Archive and e-RA database",
-            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F00005189"
+            "award": "BBS/E/C/000J0300 - The Rothamsted Long - Term Experiments - National Capability",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F000J0300"
         }
     ],
     "distribution": [
         {
             "type": "dataDownload",
-            "name": "Broadbalk: Changes in soil organic carbon t/ha (0-23cm ) figure",
-            "URL": "01-BKSOC1843.pdf",
+            "name": "Broadbalk: Changes in soil organic carbon t/ha (0-23cm) figure",
+            "URL": "02-BKSOC1843.pdf",
             "encodingFormat": "pdf",
-            "fileSize": "178 KB"
+            "fileSize": "73 KB"
         },
         {
             "type": "dataDownload",
-            "name": "Changes in Broadbalk SOC data and treatments 1843-2010",
-            "URL": "01-BKSOC1843-data.xlsx",
+            "name": "Broadbalk: Changes in SOC data and treatments, 1843-2015",
+            "URL": "02-BKSOC1834-data.xlsx",
             "encodingFormat": "xlsx",
-            "fileSize": "28 KB"
+            "fileSize": "35 KB"
         }
     ],
     "image": [
         {
             "type": "imageObject",
-            "caption": "Broadbalk: Changes in soil organic carSbon t/ha (0-23cm ) figure",
-            "URL": "01-BKSOC1843.PNG",
-            "encodingFormat": "PNG",
-            "fileSize": "127 KB"
+            "caption": "Broadbalk: Changes in soil organic carbon t/ha (0-23cm) figure",
+            "URL": "02-BKSOC1843.png",
+            "encodingFormat": "png",
+            "fileSize": "56 KB"
         }
     ],
     "grade": 1,

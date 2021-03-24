@@ -1,10 +1,10 @@
 {
-    "id": 2698,
+    "id": 2718,
     "experiment_type_term": null,
     "experiment_id": 67,
     "people": [
         {
-            "id": 3920,
+            "id": 3980,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -21,7 +21,7 @@
             "role_label": "data manager"
         },
         {
-            "id": 3921,
+            "id": 3981,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -38,7 +38,7 @@
             "role_label": "experiment manager"
         },
         {
-            "id": 3922,
+            "id": 3982,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -53,11 +53,23 @@
             "orcid": null,
             "is_contact": false,
             "role_label": "principal investigator"
+        },
+        {
+            "id": 3983,
+            "contacts": [],
+            "role_term": null,
+            "title": "Dr",
+            "name": "Margaret Glendining",
+            "affiliation": "Rothamsted Research",
+            "department": "Computational and Analytical Sciences",
+            "orcid": null,
+            "is_contact": false,
+            "role_label": null
         }
     ],
     "organizations": [
         {
-            "id": 2777,
+            "id": 2804,
             "contacts": [
                 {
                     "contact_type": "URL",
@@ -71,7 +83,7 @@
             "role_label": "research organisation"
         },
         {
-            "id": 2778,
+            "id": 2805,
             "contacts": [],
             "role_term": "research organisation",
             "name": "Environmental Change Network",
@@ -82,11 +94,11 @@
     ],
     "periods": [
         {
-            "id": 4200,
+            "id": 4251,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 11614,
+                    "id": 11803,
                     "crop_term": "grass",
                     "crop_label": "grass",
                     "start_year": null,
@@ -96,11 +108,11 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 6940,
+                    "id": 7160,
                     "factor_term": "nitrogen fertilizer exposure",
                     "levels": [
                         {
-                            "id": 18225,
+                            "id": 18701,
                             "factor_variant_term": null,
                             "factor_variant_label": "N1",
                             "amount": "52",
@@ -118,7 +130,7 @@
                             "chemical_form_label": "ammonium sulfate"
                         },
                         {
-                            "id": 18226,
+                            "id": 18702,
                             "factor_variant_term": null,
                             "factor_variant_label": "N2",
                             "amount": "104",
@@ -136,7 +148,7 @@
                             "chemical_form_label": "ammonium sulfate"
                         },
                         {
-                            "id": 18227,
+                            "id": 18703,
                             "factor_variant_term": null,
                             "factor_variant_label": "N3",
                             "amount": "156",
@@ -154,7 +166,7 @@
                             "chemical_form_label": "ammonium sulfate"
                         },
                         {
-                            "id": 18228,
+                            "id": 18704,
                             "factor_variant_term": null,
                             "factor_variant_label": "N1*",
                             "amount": "52",
@@ -172,7 +184,7 @@
                             "chemical_form_label": "ammonium nitrate"
                         },
                         {
-                            "id": 18229,
+                            "id": 18705,
                             "factor_variant_term": null,
                             "factor_variant_label": "N2*",
                             "amount": "104",
@@ -196,11 +208,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 6941,
+                    "id": 7161,
                     "factor_term": "natural fertilizer exposure",
                     "levels": [
                         {
-                            "id": 18230,
+                            "id": 18706,
                             "factor_variant_term": "farmyard manure",
                             "factor_variant_label": "farmyard manure",
                             "amount": null,
@@ -218,7 +230,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 18231,
+                            "id": 18707,
                             "factor_variant_term": null,
                             "factor_variant_label": "fish meal",
                             "amount": null,
@@ -242,11 +254,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 6942,
+                    "id": 7162,
                     "factor_term": "superphosphate exposure",
                     "levels": [
                         {
-                            "id": 18232,
+                            "id": 18708,
                             "factor_variant_term": null,
                             "factor_variant_label": "P",
                             "amount": "36",
@@ -270,11 +282,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 6943,
+                    "id": 7163,
                     "factor_term": "potassium fertilizer exposure",
                     "levels": [
                         {
-                            "id": 18233,
+                            "id": 18709,
                             "factor_variant_term": null,
                             "factor_variant_label": "K",
                             "amount": "242",
@@ -298,11 +310,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 6944,
+                    "id": 7164,
                     "factor_term": "sodium nutrient exposure",
                     "levels": [
                         {
-                            "id": 18234,
+                            "id": 18710,
                             "factor_variant_term": null,
                             "factor_variant_label": "Na",
                             "amount": "17",
@@ -326,11 +338,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 6945,
+                    "id": 7165,
                     "factor_term": "magnesium nutrient exposure",
                     "levels": [
                         {
-                            "id": 18235,
+                            "id": 18711,
                             "factor_variant_term": null,
                             "factor_variant_label": "Mg",
                             "amount": "12",
@@ -354,11 +366,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 6946,
+                    "id": 7166,
                     "factor_term": "silicon nutrient exposure",
                     "levels": [
                         {
-                            "id": 18236,
+                            "id": 18712,
                             "factor_variant_term": null,
                             "factor_variant_label": "Si",
                             "amount": "28",
@@ -382,7 +394,7 @@
                     "effect": ""
                 },
                 {
-                    "id": 6947,
+                    "id": 7167,
                     "factor_term": null,
                     "levels": [],
                     "factor_label": "Sawdust",
@@ -395,7 +407,7 @@
             "measurements": [
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 11614,
+                    "crop_id": 11803,
                     "comment": "1st and 2nd cuts, available from 1856-present.",
                     "collection_frequency": "Biannual",
                     "variable_label": "yield components",
@@ -520,11 +532,11 @@
             "factorial": false
         },
         {
-            "id": 4201,
+            "id": 4252,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 11615,
+                    "id": 11804,
                     "crop_term": "grass",
                     "crop_label": "grass",
                     "start_year": null,
@@ -662,11 +674,11 @@
             "factorial": false
         },
         {
-            "id": 4202,
+            "id": 4253,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 11616,
+                    "id": 11805,
                     "crop_term": null,
                     "crop_label": "grass",
                     "start_year": null,
@@ -676,11 +688,11 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 6948,
+                    "id": 7168,
                     "factor_term": "nitrogen fertilizer exposure",
                     "levels": [
                         {
-                            "id": 18237,
+                            "id": 18713,
                             "factor_variant_term": null,
                             "factor_variant_label": "N1",
                             "amount": "48",
@@ -698,7 +710,7 @@
                             "chemical_form_label": "ammonium sulfate"
                         },
                         {
-                            "id": 18238,
+                            "id": 18714,
                             "factor_variant_term": null,
                             "factor_variant_label": "N2",
                             "amount": "96",
@@ -716,7 +728,7 @@
                             "chemical_form_label": "ammonium sulfate"
                         },
                         {
-                            "id": 18239,
+                            "id": 18715,
                             "factor_variant_term": null,
                             "factor_variant_label": "N3",
                             "amount": "144",
@@ -734,7 +746,7 @@
                             "chemical_form_label": "ammonium sulfate"
                         },
                         {
-                            "id": 18240,
+                            "id": 18716,
                             "factor_variant_term": null,
                             "factor_variant_label": "N*1",
                             "amount": "48",
@@ -752,7 +764,7 @@
                             "chemical_form_label": "ammonium nitrate"
                         },
                         {
-                            "id": 18241,
+                            "id": 18717,
                             "factor_variant_term": null,
                             "factor_variant_label": "N*2",
                             "amount": "96",
@@ -770,7 +782,7 @@
                             "chemical_form_label": "ammonium nitrate"
                         },
                         {
-                            "id": 18242,
+                            "id": 18718,
                             "factor_variant_term": null,
                             "factor_variant_label": "N*3",
                             "amount": "144",
@@ -788,7 +800,7 @@
                             "chemical_form_label": "ammonium nitrate"
                         },
                         {
-                            "id": 18243,
+                            "id": 18719,
                             "factor_variant_term": null,
                             "factor_variant_label": "(N2)",
                             "amount": "96",
@@ -806,7 +818,7 @@
                             "chemical_form_label": "ammonium sulfate"
                         },
                         {
-                            "id": 18244,
+                            "id": 18720,
                             "factor_variant_term": null,
                             "factor_variant_label": "(N*2)",
                             "amount": "96",
@@ -830,11 +842,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 6949,
+                    "id": 7169,
                     "factor_term": "natural fertilizer exposure",
                     "levels": [
                         {
-                            "id": 18245,
+                            "id": 18721,
                             "factor_variant_term": "farmyard manure",
                             "factor_variant_label": "farmyard manure",
                             "amount": "35",
@@ -852,7 +864,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 18246,
+                            "id": 18722,
                             "factor_variant_term": null,
                             "factor_variant_label": "pelleted poultry manure",
                             "amount": null,
@@ -876,11 +888,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 6950,
+                    "id": 7170,
                     "factor_term": "superphosphate exposure",
                     "levels": [
                         {
-                            "id": 18247,
+                            "id": 18723,
                             "factor_variant_term": null,
                             "factor_variant_label": "P",
                             "amount": "17",
@@ -904,11 +916,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 6951,
+                    "id": 7171,
                     "factor_term": "potassium fertilizer exposure",
                     "levels": [
                         {
-                            "id": 18248,
+                            "id": 18724,
                             "factor_variant_term": null,
                             "factor_variant_label": "K",
                             "amount": "17",
@@ -932,11 +944,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 6952,
+                    "id": 7172,
                     "factor_term": "sodium nutrient exposure",
                     "levels": [
                         {
-                            "id": 18249,
+                            "id": 18725,
                             "factor_variant_term": null,
                             "factor_variant_label": "Na",
                             "amount": "15",
@@ -960,11 +972,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 6953,
+                    "id": 7173,
                     "factor_term": "magnesium nutrient exposure",
                     "levels": [
                         {
-                            "id": 18250,
+                            "id": 18726,
                             "factor_variant_term": null,
                             "factor_variant_label": "Mg",
                             "amount": "10",
@@ -988,11 +1000,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 6954,
+                    "id": 7174,
                     "factor_term": "silicon nutrient exposure",
                     "levels": [
                         {
-                            "id": 18251,
+                            "id": 18727,
                             "factor_variant_term": null,
                             "factor_variant_label": "Si",
                             "amount": "450",
@@ -1016,11 +1028,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 6955,
+                    "id": 7175,
                     "factor_term": "liming exposure",
                     "levels": [
                         {
-                            "id": 18252,
+                            "id": 18728,
                             "factor_variant_term": null,
                             "factor_variant_label": "lime",
                             "amount": null,
@@ -1048,7 +1060,7 @@
             "measurements": [
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 11616,
+                    "crop_id": 11805,
                     "comment": "every year from 1856 - present",
                     "collection_frequency": "two cuts per year",
                     "variable_label": "yield components",
@@ -1246,7 +1258,7 @@
     "site_soil_type_term": "luvisol",
     "site_soil_properties": [
         {
-            "id": 4069,
+            "id": 4198,
             "variable_term": "sand content",
             "unit_term": "%",
             "variable_label": "sand content",
@@ -1262,7 +1274,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 4070,
+            "id": 4199,
             "variable_term": "silt content",
             "unit_term": "%",
             "variable_label": "silt content",
@@ -1278,7 +1290,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 4071,
+            "id": 4200,
             "variable_term": "clay content",
             "unit_term": "%",
             "variable_label": "clay content",
@@ -1294,7 +1306,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 4072,
+            "id": 4201,
             "variable_term": "soil density",
             "unit_term": "g/cm3",
             "variable_label": "soil density",
@@ -1382,9 +1394,14 @@
             "doi": "http://www.genomenviron.org/Projects/METASOIL.html",
             "title": "The Park Grass Genomic Observatory",
             "language": "English"
+        },
+        {
+            "doi": "https://www.ecologicalcontinuitytrust.org/parkgrass",
+            "title": "Ecological Continuity Trust; Park Grass",
+            "language": "English"
         }
     ],
-    "saved_time": "2021-03-08T17:29:23.326927Z",
+    "saved_time": "2021-03-18T09:30:30.705348Z",
     "name": "Park Grass",
     "local_identifier": "R/PG/5",
     "experiment_type_label": null,
@@ -1394,7 +1411,7 @@
     "ongoing": true,
     "establishment_period_end": null,
     "objective": "Originally to study the effects of organic and inorganic amendments and lime on old grass for hay, latterly also for effects on botanical composition.",
-    "description": "Because of the earlier experiments had showed that different crops require different amounts and ratios of nitrogen (N), phosphorus (p) and potassium (K), Lawes and Gilbert extended their experiments in 1856 to include the mixed plant population of old grassland. The Park Grass experiment was established on c.2.8 ha of parkland that had been in permanent pasture for at least 100 years. Started by Lawes and Gilbert in 1856, its original purpose was to investigate ways of improving the yield of hay by the application of inorganic fertilisers or organic manures. Within 2-3 years it became clear that these treatments were having a dramatic effect on the species composition of what had been a uniform sward comprising about 50 species. Dramatically different swards have evolved as a result of the different pH and nutrient status of the soils. There are 35-45 species on the unfertilised plots but only 2 or 3 species on some of the fertilised plots. The continuing effects on species diversity and on soil function of the original treatments, together with later tests of liming and interactions with atmospheric inputs and climate change, has meant that Park Grass has become increasingly important to ecologists and soil scientists. A study published in the journal Nature shows that grassland diversity on the Park Grass experiment recovered once atmospheric nitrogen pollution reduced (Storkey et. al. 2015). \n\nThe harvesting methods have changed as farming practices have modernised (see More). The plots are cut for hay in mid-June. The first cut for hay ensures seeds are returned each year. The management of the aftermath following the first hay cut varied in the early years, either being grazed by sheep or cut green. Since the 1890s the second crop has been cut green and removed. In some years a third cut has also been taken. Studies have also been made of the botanical composition of the plots both through visual surveys and by looking at the percentage contribution to the hay made by the various species (see More). \n\nHerbage yields are recorded each year. Physical samples of crops and soils have been preserved in the Rothamsted Sample Archive. The experiment also includes a small area used for micro-plot experiments. Since January 2020 twelve sub-plots have three soil moisture probes. The experiment has had three main phases (see Design Periods).\n\nPark Grass is a \u201cGenomic Observatory\u201d - a geographic site with a rich history of environmental/ecological data collection and a long-term commitment to future studies. The Park Grass soil metagenome from the untreated control plot 3d is now publicly available (see Related Documents).\n\nPark Grass is an Environmental Change Network (ECN) data site (see Related Documents).",
+    "description": "Because of the earlier experiments had showed that different crops require different amounts and ratios of nitrogen (N), phosphorus (p) and potassium (K), Lawes and Gilbert extended their experiments in 1856 to include the mixed plant population of old grassland. The Park Grass experiment was established on c.2.8 ha of parkland that had been in permanent pasture for at least 100 years. Started by Lawes and Gilbert in 1856, its original purpose was to investigate ways of improving the yield of hay by the application of inorganic fertilisers or organic manures. Within 2-3 years it became clear that these treatments were having a dramatic effect on the species composition of what had been a uniform sward comprising about 50 species. Dramatically different swards have evolved as a result of the different pH and nutrient status of the soils. There are 35-45 species on the unfertilised plots but only 2 or 3 species on some of the fertilised plots. The continuing effects on species diversity and on soil function of the original treatments, together with later tests of liming and interactions with atmospheric inputs and climate change, has meant that Park Grass has become increasingly important to ecologists and soil scientists. A study published in the journal Nature shows that grassland diversity on the Park Grass experiment recovered once atmospheric nitrogen pollution reduced (Storkey et. al. 2015). \n\nThe harvesting methods have changed as farming practices have modernised (see More). The plots are cut for hay in mid-June. The first cut for hay ensures seeds are returned each year. The management of the aftermath following the first hay cut varied in the early years, either being grazed by sheep or cut green. Since the 1890s the second crop has been cut green and removed. In some years a third cut has also been taken. Studies have also been made of the botanical composition of the plots both through visual surveys and by looking at the percentage contribution to the hay made by the various species (see More). \n\nHerbage yields are recorded each year. Physical samples of crops and soils have been preserved in the Rothamsted Sample Archive. The experiment also includes a small area used for micro-plot experiments. Since January 2020 twelve sub-plots have three soil moisture probes. The experiment has had three main phases (see Design Periods).\n\nPark Grass is a Genomic Observatory - a geographic site with a rich history of environmental/ecological data collection and a long-term commitment to future studies. The Park Grass soil metagenome from the untreated control plot 3d is now publicly available (see Related Documents).\n\nPark Grass is both an Environmental Change Network (ECN) data site and an Ecological Continuity Trust site (see Related Documents).",
     "site_name": "Park Grass",
     "site_local_code": "rpg5",
     "site_geonames_id": null,

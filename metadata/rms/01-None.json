@@ -3,7 +3,7 @@
     "@type": "Text",
     "identifier": "10.23637/rms-MonAnnSum-2020",
     "name": "Rothamsted Met Data Monthly and Annual Summary 2020",
-    "shortName": null,
+    "shortName": "",
     "url": "http://www.era.rothamsted.ac.uk/metadata/rms/Weather-Summary-2020.pdf",
     "description": [
         {

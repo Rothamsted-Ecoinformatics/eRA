@@ -81,22 +81,23 @@ if (! $hasDatasets) {
     $gpDS = group_by('dataset_type', $datasets);
 
     foreach ($gpDS as $groupName => $groupedDatasets) {
-
-        $list .= "<div class=\"row mx-3 mb-3\"><h4>" . $groupName . "</h4></div>";
-        $list .= "<div class=\"row\">";
-
+        
+        $notEmptyGr = 0;
+        $listGr = "<div class=\"row mx-3 mb-3\"><h4>" . $groupName . "</h4></div>";
+        $listGr .= "<div class=\"row\">";
+        
         foreach ($groupedDatasets as $dataset) {
-            // this filters the datasets that have metadata are ready to be online to www (2) compared to being only on test site (1) or not ready to view at all (0)
-            if ($dataset['isReady'] == 2) {
+            if ($dataset['isReady'] >  0) {
+                $notEmptyGr = 1;
                 if ($dataset['UID']) {
                     $fileDataset = $exptFolder . '/' . $dataset['shortName'] . '/' . $dataset['UID'] . '.json';
                 } else {
                     $fileDataset = $exptFolder . '/' . $dataset['shortName'] . '/' . $dataset['shortname'] . '.json';
                 }
                 $subDescription = '';
-
+                
                 $subDescription = niceChop($dataset['description'], 200);
-
+                
                 $id = str_replace($prefix, '', $dataset['identifier']);
                 $shortname = $dataset['shortName'];
                 $countVersions = array_count_values(array_column($datasets, 'shortName'))[$shortname];
@@ -106,28 +107,37 @@ if (! $hasDatasets) {
                     $strCount = strval($countVersion);
                 }
                 $info = "<div class=\"col-sm-4 py-2\">";
+                
+                
                 $info .= "\n	<div class=\"card  h-100 bg-light mb-3 \" >";
+                
                 $info .= "\n	\t	<div class=\"card-header\">" . $dataset['title'] . "</div>";
                 $info .= "\n	\t	<div class=\"card-body\">";
+                if ($dataset['isReady'] == 1  ) {
+                    $info.="<B>CHECK THIS ONE</B><br />";
+                }
                 // $info .="\n \t <h4 class=\"card-title\">Light card title</h4>";
                 $info .= "\n	\t	\t		<small class=\"card-muted\">" . $dataset['dataset_type'] . $subDescription . " <br /> " . $dataset['shortName'] . " </small>";
                 $info .= "\n	\t		</div>";
                 $info .= "\n	\t	<div class=\"card-footer\"> <a class=\"btn btn-primary stretched-link\" href=\"dataset/" . $expt . "/" . $dataset['UID'] . "\"> More ...</a></div>";
-
+                
                 $info .= "\n	\t	</div>";
                 $info .= "\n	\t	</div>";
                 /*
                  * now if the dataset has a next version, then do not show
                  */
-
+                
                 if ($strCount == $dataset['version']) {
-                    $list .= $info;
+                    $listGr .= $info;
+                    $notEmptyGr = 1; // shift group to
                 }
             }
         }
-        $list .= "</div>";
+        if ($notEmptyGr == 1) {
+            $list .= $listGr;
+            $list .= "</div>";
+        }
     }
-
     echo $list;
 }
 
