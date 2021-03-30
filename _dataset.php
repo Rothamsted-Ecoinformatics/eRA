@@ -304,7 +304,7 @@ if ($hasCT == 1) {
 								<li class="list-group-item ">The dataset <b><?php echo $dsinfo['name'];?></b>
 									is a published dataset from the e-RA Database. The e-RA
 									database, including the published datasets generated from it,
-									The e-RA Database, is part of the <a target="_blank"
+									 is part of the <a target="_blank"
 									href="https://www.rothamsted.ac.uk/national-capabilities">
 										National Capabilities </a>, which also includes the <a
 									href="https://www.rothamsted.ac.uk/long-term-experiments">Long-Term

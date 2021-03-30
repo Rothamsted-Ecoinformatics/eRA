@@ -40,6 +40,26 @@
         "UID": 1052973682
     },
     {
+        "md_id": -697415110,
+        "title": "Broadbalk Today revised 2018",
+        "URL": "http://www.era.rothamsted.ac.uk/metadata/rbk1/Broadbalkplan_2018.pdf",
+        "identifier": "10.23637/rbk1-today2018-01",
+        "identifier_type": "DOI",
+        "dataset_type": "Experiment details",
+        "extension": "pdf",
+        "description": "Experiment plan for the Broadbalk experiment, treatments revised 2001 and rotations revised 2018, showing fertilizer and manure treatments and crop rotations (not to scale). Also showing the Broadbalk Wilderness.",
+        "fieldname": "Broadbalk",
+        "experiment_name": "Broadbalk",
+        "experiment_code": "R/BK/1",
+        "grade": 1,
+        "dstype": "OA",
+        "publication_year": 2018,
+        "version": "01",
+        "isReady": 2,
+        "shortName": "N/A",
+        "UID": -697415110
+    },
+    {
         "md_id": 1477369090,
         "title": "Broadbalk plan 1852-1925",
         "URL": "http://www.era.rothamsted.ac.uk/metadata/rbk1/01-rbk1-plan1852-1925.pdf",

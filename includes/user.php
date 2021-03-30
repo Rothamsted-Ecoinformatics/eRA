@@ -122,6 +122,22 @@ function getInput()
  * institution: research group, name of institution or N/A
  * information: information about the research
  * allowEmails
+ * $vRGFirstName = $row['fname'];
+                $vRGLastName = $row['lname'];
+                $vRGStudent = $row['fname'];
+                $vRGunderstandCheckChecked = "checked";
+                $vRGinstitution = $row['intitution'];
+                $vRGcountry = $row['country'];
+                $vRGSector = $row['role'];
+                $vRGStudent = $row['isStudent'];
+                $vRGFunding = $row['Funding'];
+                $vRGISPG = $row['ISPG'];
+                $vRGunderstandCheck2 = $row['agreeCOU'];
+                $vRGconsentCheck = $row['allowEmails'];
+                $vRGinformation = $row['information'];
+                $vRGsupEmail = $row['supervisor_email'];
+                $vRGsup_name = $row['supervisor_name'];
+                $vRGRothColls = $row['RothColls'];
  *
  * checks that the emails is not already in the database (just in case) if it is not, it preregisters the user. If it is, it does nothing
  *

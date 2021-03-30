@@ -14,12 +14,12 @@
         {
             "inLanguage": "en",
             "descriptionType": "Methods",
-            "description": "Soil organic carbon has been measured at intervals since 1865. Data is mean of sections 1, 6 and 9, continuous winter wheat (except for occasional fallow), from six selected plots (3, 5, 8, 2.1, 2.2 and 1). The starting values in 1843 and the later FYM treatments have been estimated. The sections were regularly fallowed from 1926 to 1967, FYM was not applied in fallow years (shown as dashes in the figure).  Lime (chalk) has been applied since the 1950s to maintain soil pH at a level which does not limit yield. Herbicides were introduced in 1964; previously weeds were controlled by cultivation or fallowing. Modern high-yielding cultivars have been used since 1968. Spring and summer fungicides have been applied as necessary since 1978."
+            "description": "Soil organic carbon has been measured at intervals since 1865. Data is mean of sections 1, 6 and 9, continuous winter wheat (except for occasional fallow), from six selected plots (3, 5, 8, 2.1, 2.2 and 1). The starting values in 1843 and the later FYM treatments have been estimated. The sections were regularly fallowed from 1926 to 1967, FYM was not applied in fallow years (shown as dashes in the figure).  Lime (chalk) has been applied since the 1950s to maintain soil pH at a level which does not limit yield. Herbicides were introduced in 1964; previously weeds were controlled by cultivation or fallowing. Modern high-yielding cultivars have been used since 1968. Spring and summer fungicides have been applied as necessary since 1978, except to Section 6."
         },
         {
             "inLanguage": "en",
             "descriptionType": "TableOfContents",
-            "description": "Soil organic carbon, t/ha in topsoil (0-23cm from the following plots):\r\n- **Plot 3:** no fertilizer or manure since 1852\r\n- **Plot 5:** PKMg since 1852 \r\n- **Plot 8:** PKMg + 144 kg N since 1852 \r\n- **Plot 2.2:** 35t FYM (farmyard manure) since 1843\r\n- **Plot 2.1:** 35t FYM since 1885 + 96 kgN since 1968\r\n- **Plot 1:**  35t FYM +NPK 1968-2000; 192kgN only since 2001"
+            "description": "Soil organic carbon, t/ha in topsoil (0-23cm from the following plots):\r\n- **Plot 3:** no fertilizer or manure since 1852\r\n- **Plot 5:** PKMg since 1852 \r\n- **Plot 8:** PKMg + 144 kg N since 1852 \r\n- **Plot 2.2:** 35t FYM (farmyard manure) since 1843\r\n- **Plot 2.1:** 35t FYM since 1885 + 96 kgN since 1968; plus 144 kgN since 2005\r\n- **Plot 1:**  35t FYM +NPK 1968-2000; 192kgN only since 2001"
         },
         {
             "inLanguage": "en",
@@ -312,6 +312,6 @@
             "fileSize": "56 KB"
         }
     ],
-    "grade": 1,
+    "grade": 2,
     "dstype": "OA"
 }
