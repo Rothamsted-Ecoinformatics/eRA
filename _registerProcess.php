@@ -48,14 +48,16 @@ if (isset($_REQUEST['process'])) {
 
 if ($vprocess == "question") {
     ?>
-<h1 class="mt-5">Register for prepared datasets</h1>
+<div id="greenTitle"
+				class="d-flex  mb-3 py-3 p3-3 bg-info text-white mt-0 ">
+				<h1 class="mx-3">Register for prepared datasets</h1></div>
 <div class="m-5">
 
 	<form action="newUser.php" method="post" class="needs-validation"
 		novalidate>
 		<input type="hidden" name="process" value="process">
 		<div class="form-group">
-			<label for="InputEmail">Email address</label> <input type="email"
+			<label for="InputEmail"><h5>Email address*</h5></label> <input type="email"
 				class="form-control" id="InputEmail" name="InputEmail"
 				aria-describedby="emailHelp" placeholder="Enter email" required> <small
 				id="emailHelp" class="form-text text-muted">We'll never share your
@@ -63,17 +65,17 @@ if ($vprocess == "question") {
 			<div class="invalid-feedback">Please enter a valid email address.</div>
 		</div>
 		<div class="form-group">
-			<label for="InputFirstName">First Name</label> <input type="text"
+			<label for="InputFirstName"><h5>First Name*</h5></label> <input type="text"
 				class="form-control" id="InputFirstName" name="InputFirstName"
 				placeholder="First Name" required>
 		</div>
 		<div class="form-group">
-			<label for="InputLastName">Last Name</label> <input type="text"
+			<label for="InputLastName"><h5>Last Name*</h5></label> <input type="text"
 				class="form-control" id="InputLastName" name="InputLastName"
 				placeholder="Last Name" required>
 		</div>
 		<div class="form-group">
-			<label for="InputInstitute">Institute</label> <input type="text"
+			<label for="InputInstitute"><h5>Institute</h5></label> <input type="text"
 				class="form-control" id="InputInstitute" name="InputInstitute"
 				placeholder="Academic Institution or Industry"> <small id="instHelp"
 				class="form-text text-muted">Please provide the name of your
@@ -82,23 +84,23 @@ if ($vprocess == "question") {
 		
 		<div class="form-group">
 		
-			<label for="inputCountry">Country</label> <select
+			<label for="inputCountry"><h5>Country</h5></label> <select
 				class="form-control selectpicker countrypicker" data-flag="true" data-default="GB" id="inputCountry" name="inputCountry" required>
 
 			</select>
 		</div>
 		
 		<div class="form-group">
-			<label for="information">Data Use</label>
+			<label for="information"><h5>Data Use*</h5></label>
 			<textarea class="form-control" id="information" name="information"
 				rows="3" required></textarea>
 			<small id="infoHelp" class="form-text text-muted">Describe in a few
-				words how you will use the data.</small>
+				words what you do and/or how you will use the prepared datasets.</small>
 		</div>
 		<div class="form-check">
 			<input type="checkbox" class="form-check-input" id="understandCheck"
 				name="understandCheck"> <label class="form-check-label"
-				for="understandCheck" required>I undertand that eRA collects
+				for="understandCheck" required> * I undertand that eRA collects
 				information useful to understand how the data is used and for
 				funding purposes</label>
 		</div>
@@ -108,7 +110,7 @@ if ($vprocess == "question") {
 				for="consentCheck">I agree to receiving occasional communication
 				from the eRA team</label>
 		</div>
-		<button type="submit" class="btn btn-primary">Submit</button>
+		<button type="submit" class="btn btn-primary mt-5">Submit</button>
 	</form>
 </div>
 

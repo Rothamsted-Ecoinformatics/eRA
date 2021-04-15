@@ -84,22 +84,41 @@ function getInput()
     if (isset($_POST['InputFirstName'])) {
         $details['fname'] = cleanQuery($_POST['InputFirstName']);
     }
+    if (isset($_POST['RGfname'])) {
+        $details['fname'] = cleanQuery($_POST['RGfname']);
+    }
 
     if (isset($_POST['InputLastName'])) {
         $details['lname'] = cleanQuery($_POST['InputLastName']);
     }
+    if (isset($_POST['RGlname'])) {
+        $details['lname'] = cleanQuery($_POST['RGlname']);
+    }
     if (isset($_POST['InputEmail'])) {
         $details['email'] = cleanQuery($_POST['InputEmail']);
+    }
+    if (isset($_POST['RGposition'])) {
+        $details['email'] = cleanQuery($_POST['RGposition']);
     }
     if (isset($_POST['InputInstitute'])) {
         $details['institution'] = cleanQuery($_POST['InputInstitute']);
     }
+    if (isset($_POST['RGinstitution'])) {
+        $details['institution'] = cleanQuery($_POST['RGinstitution']);
+    }
     if (isset($_POST['information'])) {
         $details['information'] = cleanQuery($_POST['information']);
+    }
+    if (isset($_POST['RGinformation'])) {
+        $details['information'] = cleanQuery($_POST['RGinformation']);
     }
     if (isset($_POST['consentCheck'])) {
 
         $details['consentEmail'] = cleanQuery($_POST['consentCheck']);
+    }
+    if (isset($_POST['RGallowEmails'])) {
+        
+        $details['consentEmail'] = cleanQuery($_POST['RGallowEmails']);
     }
     if (isset($_POST['understandCheck'])) {
         $details['consentData'] = cleanQuery($_POST['understandCheck']);
@@ -107,6 +126,9 @@ function getInput()
 
     if (isset($_POST['inputCountry'])) {
         $details['country'] = cleanQuery($_POST['inputCountry']);
+    }
+    if (isset($_POST['RGcountry'])) {
+        $details['country'] = cleanQuery($_POST['RGcountry']);
     }
     return $details;
 }
@@ -221,10 +243,10 @@ function buildemail($answers = array())
     $process = $answers['process'];
     $subject = '[eRA]';
     if ($process == 'login') {
-        $subject .= " Confirm your login!";
+        $subject .= " Confirm your Email!";
     }
     if ($process == 'register') {
-        $subject .= " Finish your registration";
+        $subject .= " Confirm your Email";
     }
 
     $message = "
@@ -236,7 +258,7 @@ function buildemail($answers = array())
 <P>Dear " . $answers['fname'] . " <br />
     
 <br />
-You, or someone pretending to be you has requested login or registration into eRA.
+You, or someone pretending to be you has requested login or registration  into eRA.
 <br />
 ";
     if ($process == 'register') {
@@ -379,39 +401,42 @@ if (isset($_POST['email']) || isset($_POST['InputEmail'])) {
         header($location);
     }
 }
+
+
 /**
  * this is if we are from registration form.
  */
 if (isset($_POST['process']) && $_POST['process'] == 'process') {
-
+    
     $answers = getInput();
     $email = $answers['email'];
-
+    
     $answers['vericode'] = generateRandomString(10);
     $answers['vericode2'] = generateRandomString(72);
     $answers['timecode'] = makeCode();
-
+    
     $answers['process'] = 'register';
-
+    
     setcookie('email', $email, time() + (86400 * 15), "/"); // 86400 = 1 day
     setcookie('doorbell', 'ringing', time() + (86400 * 15), "/"); // 86400 = 1 day
     setcookie('time', $time, time() + (86400 * 15), "/"); // 86400 = 1 day
-
+    
     $emailsent = buildemail($answers);
-
+    
     $dbanswer = reg2db($answers);
-
+    
     $output .= '<ul>';
     foreach ($answers as $key => $value) {
         $output .= "<li>" . $key . " : " . $value . "</li>";
     }
     $output .= '</ul>';
-
+    
     $loggedIn = 'no';
     header($location);
     $output .= $emailsent;
     $output .= $dbanswer;
 }
+
 
 /**
  * this is if we are coming from an email Link usually to confirm login or registration.
@@ -510,6 +535,3 @@ if ($loggedIn == 'yes' && $email != 'delete') {
 }
 
 ?>
-
-
-

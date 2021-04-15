@@ -37,6 +37,8 @@ function formInit()
     $GLOBALS['vRGisStudent'] = 0;
     $GLOBALS['vRGisRoth'] = 0;
     $GLOBALS['vRGinstitution'] = "";
+    $GLOBALS['vRGFfunding'] = "";
+    $GLOBALS['vRGFISPG'] = "";
     $GLOBALS['vRGcountry'] = "GB";
     $GLOBALS['vRGsupName'] = "";
     $GLOBALS['vRGsupEmail'] = "";
@@ -161,6 +163,8 @@ function getData()
                 }
             }
         }
+    } else {
+        $messageNotLoggedIn = "<p>we recommand you log in before you fill in a eRAdata request</p>";
     }
 }
 
@@ -169,10 +173,10 @@ formInit();
 
 $vprocess = "Q1";
 if (isset($_POST['process'])) {
-    $vprocess = "post - :" . $_POST['process'];
+    $vprocess = $_POST['process'];
 }
 if (isset($_GET['process'])) {
-    $vprocess = "get - " . $_GET['process'];
+    $vprocess = $_GET['process'];
 }
 if (isset($_REQUEST['process'])) {
     $vprocess = $_REQUEST['process'];
@@ -183,6 +187,7 @@ if ($vprocess == "Reset") {
     formReset();
     $vprocess = "Q1";
 }
+
 getData();
 
 // we check the $REQUEST values ($RG...)
@@ -346,6 +351,66 @@ if ($RGfrom == "Q3") {
     }
 }
 
+if ($vprocess == "RGprocess") {
+
+    // this is the final stage: database input, send emails and the like - I can use the function in User.php
+    // we find the person in the database
+    // The function reg2db checks that the user is in the database and either add the user or updates the info with some
+    // of the answers. Then we just update with the rest of the information
+    if ($loggedIn == 'yes') {
+        // if the user is already logged in, there is not need to check all that and the update to the db is enough
+        ;
+    } else {
+
+        $answers = getInput();
+
+        $answers['vericode'] = generateRandomString(10);
+        $answers['vericode2'] = generateRandomString(72);
+        $answers['timecode'] = makeCode();
+        $dbanswer = reg2db($answers);
+
+        
+    }
+    
+    // at this point, we can update the info that is coming from that. 
+    
+    // Get the user nm_id: that will be useful for the rest. 
+    
+    
+    $sqlInput = "UPDATE newmarkers
+fname='$RGfname',
+lname='$RGlname',
+sector='$RGsector',
+institution='$RGinstitution',
+country='$RGcountry',
+isStudent=$RGisStudent,
+supEmail='$RGsupEmail',
+supName='$RGsupName',
+rothColls='$RGrothColls',
+information='$RGinformation',
+funding='$RGfunding',
+ISPG='$RGISPG',
+agreeCOU='$RGagreeCOU',
+allowEmails=$RGallowEmails
+WHERE `position` = '$RGposition';
+";
+    // date:  The proper format of a DATE is: YYYY-MM-DD.
+    // date(format, timestamp) 
+    // Y - A four digit representation of a year
+    // m - A numeric representation of a month (from 01 to 12)
+    // d - The day of the month (from 01 to 31)
+    
+    
+    $ur_date = date("Y-m-d");
+    $ur_ltes = "list all the LTEs and DS that were selected";
+    
+    $sqlUser = "select * from newmarkers wWHERE `position` = '$RGposition'";
+    $user_id = "54"; // find the user ID, until then it is 54
+    $sqlInsertUR = "INSERT INTO Users_Requests 
+(user_id, ur_date, ur_Q1, ur_Q2, ur_ltes) 
+VALUES($user_id, '$ur_date', '$RGur_Q1', '$RGur_Q2', '$ur_ltes');
+";
+}
 /**
  * Anything to do with Cookies or sessions must happen before this line..
  */
@@ -357,8 +422,9 @@ if ($RGfrom == "Q3") {
         <?php
         include 'includes/meta.html'; // that is the <meta and link tags> superseeds head.html
 
-        ?>  
-        <style>
+        ?>  <script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style>
 /*
 Make bootstrap-select work with bootstrap 4 see:
 https://github.com/silviomoreto/bootstrap-select/issues/1135
@@ -423,6 +489,53 @@ https://github.com/silviomoreto/bootstrap-select/issues/1135
 	display: inline !important;
 }
 </style>
+
+<script>
+        
+        $(document).ready(function(){
+        	$(".datasetsList").hide();
+             $("#RGEXPTrbk1").click(function(){
+               if ($("#RGEXPTrbk1").is( ":checked" )) {
+                    $("#dsrbk1").show();
+                    } else {
+                     $("#dsrbk1").hide();
+                     }
+        	} );
+        $("#RGEXPTrpg5").click(function(){
+               if ($("#RGEXPTrpg5").is( ":checked" )) {
+                    $("#dsrpg5").show();
+                    } else {
+                     $("#dsrpg5").hide();
+                     }
+        	} );
+
+
+        $("#RGEXPTrhb2").click(function(){
+               if ($("#RGEXPTrhb2").is( ":checked" )) {
+                    $("#dsrhb2").show();
+                    } else {
+                     $("#dsrhb2").hide();
+                     }
+        	} );
+
+        $("#RGEXPTrfw3").click(function(){
+               if ($("#RGEXPTrfw3").is( ":checked" )) {
+                    $("#dsrfw3").show();
+                    } else {
+                     $("#dsrfw3").hide();
+                     }
+        	} );
+
+
+
+        }
+
+
+            	);
+        
+        
+        
+    </script>
 </head>
 
 <body>
