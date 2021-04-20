@@ -37,7 +37,7 @@ function formInit()
     $GLOBALS['vRGisStudent'] = 0;
     $GLOBALS['vRGisRoth'] = 0;
     $GLOBALS['vRGinstitution'] = "";
-    $GLOBALS['vRGFfunding'] = "";
+    $GLOBALS['vRGfunding'] = "";
     $GLOBALS['vRGFISPG'] = "";
     $GLOBALS['vRGcountry'] = "GB";
     $GLOBALS['vRGsupName'] = "";
@@ -66,6 +66,7 @@ function formReset()
     unset($GLOBALS['RGisStudent']);
     unset($GLOBALS['RGisRoth']);
     unset($GLOBALS['RGinstitution']);
+    unset($GLOBALS['RGfunding']);
     unset($GLOBALS['RGcountry']);
     unset($GLOBALS['RGsupName']);
     unset($GLOBALS['RGsupEmail']);
@@ -368,15 +369,12 @@ if ($vprocess == "RGprocess") {
         $answers['vericode2'] = generateRandomString(72);
         $answers['timecode'] = makeCode();
         $dbanswer = reg2db($answers);
-
-        
     }
-    
-    // at this point, we can update the info that is coming from that. 
-    
-    // Get the user nm_id: that will be useful for the rest. 
-    
-    
+
+    // at this point, we can update the info that is coming from that.
+
+    // Get the user nm_id: that will be useful for the rest.
+
     $sqlInput = "UPDATE newmarkers
 fname='$RGfname',
 lname='$RGlname',
@@ -394,16 +392,15 @@ agreeCOU='$RGagreeCOU',
 allowEmails=$RGallowEmails
 WHERE `position` = '$RGposition';
 ";
-    // date:  The proper format of a DATE is: YYYY-MM-DD.
-    // date(format, timestamp) 
+    // date: The proper format of a DATE is: YYYY-MM-DD.
+    // date(format, timestamp)
     // Y - A four digit representation of a year
     // m - A numeric representation of a month (from 01 to 12)
     // d - The day of the month (from 01 to 31)
-    
-    
+
     $ur_date = date("Y-m-d");
     $ur_ltes = "list all the LTEs and DS that were selected";
-    
+
     $sqlUser = "select * from newmarkers wWHERE `position` = '$RGposition'";
     $user_id = "54"; // find the user ID, until then it is 54
     $sqlInsertUR = "INSERT INTO Users_Requests 
