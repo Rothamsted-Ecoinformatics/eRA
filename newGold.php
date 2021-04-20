@@ -38,7 +38,7 @@ function formInit()
     $GLOBALS['vRGisRoth'] = 0;
     $GLOBALS['vRGinstitution'] = "";
     $GLOBALS['vRGfunding'] = "";
-    $GLOBALS['vRGFISPG'] = "";
+    $GLOBALS['vRGISPG'] = "";
     $GLOBALS['vRGcountry'] = "GB";
     $GLOBALS['vRGsupName'] = "";
     $GLOBALS['vRGsupEmail'] = "";

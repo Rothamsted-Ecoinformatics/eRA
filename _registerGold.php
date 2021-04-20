@@ -123,7 +123,7 @@ if ($vprocess == "RGprocess") {
 
 				<div class="form-check">
 					<label class="form-check-label"> <input type="radio"
-						class="form-check-input" name="RGsector" Value="AC"
+						class="form-check-input" name="RGsector" value="AC"
 						<?php echo $vRGSecCheckAC; ?>>Research (including PhD)
 					</label>
 				</div>
@@ -242,7 +242,7 @@ if ($vprocess == "RGprocess") {
 		<?php
             } else if ($RGsector == "CO") {
                 ?>
-	    <!-- This is an academic institution, not Rothamsted. We want institution and collaborator at Roth, funding-->
+	    <!-- This is an industry , not Rothamsted. We want company name -->
 
 			<div class="form-group my-3">
 				<label for="RGinstitution"><h5>Company Name* </h5></label> <input
@@ -256,7 +256,7 @@ if ($vprocess == "RGprocess") {
 		<?php
             } else if ($RGsector == "SC") {
                 ?>
-	    <!-- This is an academic institution, not Rothamsted. We want institution and collaborator at Roth, funding-->
+	    <!-- This is an academic institution, not Rothamsted. We want institution -->
 
 			<div class="form-group my-3">
 				<label for="RGinstitution"><h5>Educational Establishment*</h5></label>
@@ -318,25 +318,25 @@ if ($vprocess == "RGprocess") {
 		<div class="form-group my-3">
 				<label for="RGfunding"><h5>Funding Source</h5></label>
 				<div class="form-check">
-					<label for=RGfunding class="form-check-label"> <input type="radio"
+					<label for="RGfunding" class="form-check-label"> <input type="radio"
 						class="form-check-input" name="RGfunding" id="FDbbsrc"
 						value="BBSRC" <?php echo $vRGfundingBBSRC; ?>>BBSRC
 					</label>
 				</div>
 				<div class="form-check">
-					<label for=RGfunding class="form-check-label"> <input type="radio"
+					<label for="RGfunding" class="form-check-label"> <input type="radio"
 						class="form-check-input" name="RGfunding" id="FDother1"
 						value="NERC" <?php echo $vRGfundingNERC; ?>>NERC
 					</label>
 				</div>
 				<div class="form-check">
-					<label for=RGfunding class="form-check-label"> <input type="radio"
+					<label for="RGfunding" class="form-check-label"> <input type="radio"
 						class="form-check-input" name="RGfunding" id="FDother2"
 						value="OTHER" <?php echo $vRGfundingOTHER; ?>>OTHER
 					</label>
 				</div>
 				<div id="RGfundingOther" style="display: none" class="mt-3">
-					<label for=RGfunding><h6>Name of funding source</h6></label> <input
+					<label for="RGfunding"><h6>Name of funding source</h6></label> <input
 						type="text" class="form-control" name="RGfunding"
 						placeholder="Other" value="<?php echo $vRGfunding?>"><small
 						id="instHelp" class="form-text text-muted">Please provide the name
