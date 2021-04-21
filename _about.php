@@ -19,9 +19,7 @@
 			sample archive, it is a unique historical record of experiments that
 			have been measured continuously since 1843.</p>
 	</div>
-	<div class="row p-3 m-3">
-		<h1>Getting Started</h1>
-	</div>
+
 	<div class="row p-3 m-3">
 		<h3>You can browse the e-RA site using the menus above:</h3>
 		<ul>

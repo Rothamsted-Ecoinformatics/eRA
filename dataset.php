@@ -59,7 +59,8 @@ function getVocab($localword)
             $hasKey = TRUE;
             $localScheme = $words[$i]['scheme'];
             $URI = $scheme[$localScheme];
-            $vocab .= "<a href=\"" . $URI . $words[$i]['URI'] . "\" target = \"out\">" . $localword . "</a>";
+            //$vocab .= "<a href=\"" . $URI . $words[$i]['URI'] . "\" target = \"out\">" . $localword . "</a>";
+            $vocab .=  $localword ;
         }
     }
     return $vocab;

@@ -13,12 +13,12 @@
 <div id="idPeople">
 	<div class="row p-3 m-3">
 		
-			<h1>The e-RA Project Team Today</h1>
+			<h2>The e-RA Project Team Today</h2>
 		
 	</div>
 	<div class="row p-3 m-3">
 
-			<h2>Project Management Team</h2>
+			<h3>Project Management Team</h3>
 
 	</div>
 	<div class="row p-3 m-3">
@@ -148,7 +148,7 @@
 							target="_blank" href="https://www.rothamsted.ac.uk/our-people/margaret-glendining">Margaret
 							Glendining</a>
 					</h6>
-					<p class="card-text small">Data manager</p>
+					<p class="card-text small">Data curator</p>
 
 				</div>
 			</div>
@@ -173,8 +173,7 @@
 							target="_blank" href="https://www.rothamsted.ac.uk/our-people/sarah-perryman">Sarah
 							Perryman</a>
 					</h6>
-					<p class="card-text small">Data manager</p>
-
+					<p class="card-text small">Data curator</p>
 				</div>
 
 			</div>
@@ -183,7 +182,7 @@
 	</div>
 <div class="row p-3 m-3">
 
-			<h2>Data Provision, Preparation and Analysis</h2>
+			<h3>Data Provision, Preparation and Analysis</h3>
 
 	</div>
 

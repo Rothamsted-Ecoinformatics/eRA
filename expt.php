@@ -188,7 +188,7 @@ $hasDocs = file_exists($fileDocs);
                 							</div>
 						<div class="tab-pane  pb-3" id="documents" role="tabpanel"
 							aria-labelledby="documents-tab">
-							<div class="row equal mx-3">
+							
 							
 							<?php
     $doclist = $exptFolder . '/doclist.html';
@@ -209,7 +209,7 @@ $hasDocs = file_exists($fileDocs);
     
 
     ?>
-							</div>
+							
 						</div>
 						<div class="tab-pane  pb-3" id="keyrefs" role="tabpanel"
 							aria-labelledby="keyrefs-tab">

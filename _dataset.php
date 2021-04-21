@@ -21,7 +21,7 @@ $Parsedown = new Parsedown();
 	<div id="greenTitle"
 		class="d-flex  mb-3 py-3 p3-3 bg-primary text-white mt-0 ">
 
-		<h2 class="mx-3">Dataset:  <?php echo $dsinfo['name'];?></h1>
+		<h1 class="mx-3">Dataset:  <?php echo $dsinfo['name'];?></h1>
 	
 	</div>
 	<div class="row mx-0 mb-3">
@@ -60,8 +60,8 @@ $Parsedown = new Parsedown();
 						<?php }
 						?><li class="list-group-item"><b>Files included in the download: </b> <?php echo $distribution; ?>
 						<li class="list-group-item"><b>Version: </b> <?php echo $dsinfo['version']; ?></li>
-						<li class="list-group-item"><b>Creation Date: </b> <?php echo $dateCreation; ?></li>
-						<li class="list-group-item"><b>Publication Date: </b> <?php echo $datePublication; ?></li>
+						<li class="list-group-item"><b>Published: </b> <?php echo $dateCreation; ?></li>
+						<!-- li class="list-group-item"><b>Publication Date: </b> <?php echo $datePublication; ?></li>  -->
 						<li class="list-group-item"><b>Last updated: </b> <?php echo $dateUpdate; ?></li>
 						<li class="list-group-item"><b>Keywords: </b> 
 						<?php
@@ -131,10 +131,10 @@ if ($hasCT == 1) {
 			
 			
 			<h3>Dataset Access and Conditions</h3>
-			<h5>Rights Holder</h5>
+			<h4>Rights Holder</h4>
 			<p>Rothamsted Research</p>
 
-			<h5>License</h5>
+			<h4>License</h4>
 			<p>
 				<a rel="license" target="_blank"
 					href="http://creativecommons.org/licenses/by/4.0/" target="out"><img
@@ -144,7 +144,7 @@ if ($hasCT == 1) {
 					href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
 					Attribution Licence (4.0)</a>.
 			</p>
-			<h5>Cite this Dataset</h5>
+			<h4>Cite this Dataset</h4>
 			<p>
 				<strong>YOU MUST CITE AS: </strong><?php echo $refAuthor; ?> (<?php echo $year;?>).
 								<?php echo $dsinfo['name'];?> <em><?php echo $getPublisher; ?></em>
@@ -192,11 +192,11 @@ if ($hasCT == 1) {
         ?>
 				<div class="card">
 					<div class="card-header" id="TableOfContents">
-						<h5 class="mb-0">
+						<h3 class="mb-0">
 							<button class="btn btn-link collapsed" data-toggle="collapse"
 								data-target="#collapseOne" aria-expanded="false"
 								aria-controls="collapseOne">Table Of Contents</button>
-						</h5>
+						</h3>
 					</div>
 					<div id="collapseOne" class="collapse"
 						aria-labelledby="TableOfContents" data-parent="#accordion">

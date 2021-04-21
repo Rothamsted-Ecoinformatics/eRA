@@ -32,23 +32,29 @@ function formInit()
     $GLOBALS['vRGSecCheckPB'] = "";
     $GLOBALS['vRGposition'] = "";
     $GLOBALS['vRGfname'] = "";
-    $GLOBALS['vRGlname'] = "";
-    $GLOBALS['vRGsector'] = "";
-    $GLOBALS['vRGisStudent'] = 0;
-    $GLOBALS['vRGisRoth'] = 0;
-    $GLOBALS['vRGinstitution'] = "";
-    $GLOBALS['vRGfunding'] = "";
-    $GLOBALS['vRGISPG'] = "";
-    $GLOBALS['vRGcountry'] = "GB";
-    $GLOBALS['vRGsupName'] = "";
-    $GLOBALS['vRGsupEmail'] = "";
-    $GLOBALS['vRGagreeCOU'] = 0;
-    $GLOBALS['vRGallowEmails'] = 0;
-    $GLOBALS['vRGStdCheckedYes'] = " ";
-    $GLOBALS['vRGStdCheckedNo'] = " ";
+    $GLOBALS['vRGlname']            = "";
+    $GLOBALS['vRGsector']           = "";
+    $GLOBALS['vRGisStudent']        = 0;
+    $GLOBALS['vRGisRoth']           = 0;
+    $GLOBALS['vRGinstitution']      = "";
+    $GLOBALS['vRGfunding']          = "";
+    $GLOBALS['vRGfundingOther']     = "";
+    $GLOBALS['vRGISPG']             = "";
+    $GLOBALS['vRGcountry']          = "GB";
+    $GLOBALS['vRGsupName']          = "";
+    $GLOBALS['vRGsupEmail']         = "";
+    $GLOBALS['vRGagreeCOU']         = 0;
+    $GLOBALS['vRGallowEmails']      = 0;
+    $GLOBALS['vRGStdCheckedYes']    = " ";
+    $GLOBALS['vRGStdCheckedNo']     = " ";
     $GLOBALS['vRGisRothCheckedYes'] = " ";
-    $GLOBALS['vRGisRothCheckedNo'] = " ";
-    $GLOBALS['vRGShowisRoth'] = 1;
+    $GLOBALS['vRGisRothCheckedNo']  = " ";
+    $GLOBALS['vRGShowisRoth']       = 1;
+    $GLOBALS['vRGISPGck']           = array();
+    $GLOBALS['vRGLTEsel']           = array();
+    $GLOBALS['vRGDSsel']            = array();
+    $GLOBALS['vRGDS']                = array();
+    $GLOBALS['vRGLTE']           = array();
 }
 
 // Reset the form : put all the REQUEST values that need to be unset
@@ -67,6 +73,7 @@ function formReset()
     unset($GLOBALS['RGisRoth']);
     unset($GLOBALS['RGinstitution']);
     unset($GLOBALS['RGfunding']);
+    unset($GLOBALS['RGfundingOther']);
     unset($GLOBALS['RGcountry']);
     unset($GLOBALS['RGsupName']);
     unset($GLOBALS['RGsupEmail']);
@@ -76,6 +83,8 @@ function formReset()
     unset($GLOBALS['RGStdCheckedNo']);
     unset($GLOBALS['RGisRothCheckedYes']);
     unset($GLOBALS['RGisRothCheckedNo']);
+    unset($GLOBALS['RGLTE']);
+    unset($GLOBALS['RGDS']);
 }
 
 // setting some default values. for the ones that are handled by check boxes or radios
@@ -245,11 +254,32 @@ if (isset($RGagreeCOU)) {
 if (isset($RGinstitution)) {
     $vRGinstitution = $RGinstitution;
 }
+
 if (isset($RGfunding)) {
     $vRGfunding = $RGfunding;
 }
+if (isset($RGfundingOther)) {
+    $vRGfundingOther = $RGfundingOther;
+}
+
 if (isset($RGISPG)) {
     $vRGISPG = $RGISPG;
+    $vRGISPGck[$vRGISPG] = " selected";
+        
+    
+}
+if (is_array($_POST['RGDS'])) {
+    $vRGDS = $_POST['RGDS'] ; 
+    foreach ($vRGDS as $valueRGDS) {
+        $vRGDSsel[$valueRGDS]  = " selected";
+    }
+}
+
+if (is_array($_POST['RGLTE'])) {
+    $vRGDLTE = $_POST['RGLTE'] ;
+    foreach ($vRGLTE as $valueRGLTE) {
+        $vRGLTEsel[$valueRGLTE]  = " selected";
+    }
 }
 if (isset($RGrothColls)) {
     $vRGrothColls = $RGrothColls;
@@ -260,9 +290,34 @@ if (isset($RGsupName)) {
 if (isset($RGsupEmail)) {
     $vRGsupEmail = $RGsupEmail;
 }
-if (isset($RG)) {
-    $vRG = $RG;
+
+switch (($RGfunding)) {
+    case 'BBSRC':
+        $vRGfundingBBSRC = " checked";
+        $vRGfundingNERC =  " ";
+        $vRGfundingOTHER = " ";
+        break;    
+        
+    case 'NERC':
+        $vRGfundingBBSRC = " ";
+        $vRGfundingNERC =  " checked";
+        $vRGfundingOTHER = " ";
+        break;  
+    case 'OTHER':
+        $vRGfundingBBSRC = " ";
+        $vRGfundingNERC =  " ";
+        $vRGfundingOTHER = " checked";
+        break;  
+    default:
+        $vRGfundingBBSRC = " ";
+        $vRGfundingNERC =  " ";
+        $vRGfundingOTHER = " ";
+        break;
+        
 }
+
+
+
 
 switch ($RGsector) {
     case 'AC':
@@ -374,7 +429,12 @@ if ($vprocess == "RGprocess") {
     // at this point, we can update the info that is coming from that.
 
     // Get the user nm_id: that will be useful for the rest.
+    if ($RGfunding == "OTHER") {      
+        $RGfunding = $RGfundingOther;
+    }
+   
 
+    
     $sqlInput = "UPDATE newmarkers
 fname='$RGfname',
 lname='$RGlname',
@@ -399,7 +459,12 @@ WHERE `position` = '$RGposition';
     // d - The day of the month (from 01 to 31)
 
     $ur_date = date("Y-m-d");
-    $ur_ltes = "list all the LTEs and DS that were selected";
+    
+    
+    $str_ltes = implode(" , ", $_POST['RGLTE']);
+    //$str_ds = implode (" , ", $_POST['RGDS']);
+    $str_ds = " DS following LTEs" ;
+    $ur_ltes = $str_ltes. " | ".$str_ds;
 
     $sqlUser = "select * from newmarkers wWHERE `position` = '$RGposition'";
     $user_id = "54"; // find the user ID, until then it is 54

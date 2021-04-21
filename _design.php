@@ -334,7 +334,7 @@ function getContent($period)
 
 $strTab = "<div class=\"row\">";
 $strTab .= "\n\t  <div class=\"col-12\">";
-$strTab .= "\n\t \t   <h3 class=\"mx-3\">Experimental Design</h3>";
+$strTab .= "\n\t \t   <h2 class=\"mx-3\">Experimental Design</h2>";
 $strTab .= "\n\t  </div>";
 $strTab .= "\n \t <div class=\"col-12 mx-auto\"> ";
 $strTab .= "\n \t\t    <div class=\"mt-3 mx-3\" id=\"accordionDesign\"> \n";

@@ -12,7 +12,7 @@
 <a name="tools" id="tools"></a>
 <div class="row p-3 m-3">
 
-	<h1>e-RA tools</h1>
+	<h2>e-RA tools</h2>
 
 </div>
 <div id="rowCards" class="row mx-0 p-2">

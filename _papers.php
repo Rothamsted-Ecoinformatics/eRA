@@ -43,6 +43,7 @@
 						<option value="Broadbalk Wilderness">Broadbalk Wilderness</option>
 						<option value="Geescroft Wilderness">Geescroft Wilderness</option>
 						<option value="Fosters ley arable">Fosters ley arable</option>
+						<option value="Long-term liming">Long-term liming</option>
 						<option value="Highfield ley arable">Highfield ley arable</option>
 						<option value="Highfield bare fallow">Highfield bare fallow</option>
 						<option value="Saxmundham Rotations">Saxmundham Rotations</option>
