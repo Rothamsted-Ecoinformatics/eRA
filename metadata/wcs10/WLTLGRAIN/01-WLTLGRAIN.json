@@ -14,7 +14,7 @@
         {
             "inLanguage": "en",
             "descriptionType": "Methods",
-            "description": "Grain mineral composition was determined, in 2019 and 2020, on archived ground samples grown in 1978 (barley), 1981 (oats) and 1995 (wheat). Macro-nutrients (Ca, K, Mg, Na, P, S) and Al, Fe and Ti were determined by open tube digestion with HNO3/HClO4 and measured with ICP-OES. Micro-nutrients and trace elements (As, Cd, Co, Cr, Cu, Mn, Mo, Ni, Pb, Se, and Zn) were determined with microwave digestion with HNO3/H2O2, then measured with ICP-MS."
+            "description": "Grain mineral composition was determined, in 2019 and 2020, on archived ground samples grown in 1978 (barley), 1981 (oats) and 1995 (wheat). Macro-nutrients (Ca, K, Mg, Na, P, S) and Al, Fe and Ti were determined by open tube digestion with HNO<sub>3</sub>/HClO<sub>4</sub> and measured with ICP-OES. Micro-nutrients and trace elements (As, Cd, Co, Cr, Cu, Mn, Mo, Ni, Pb, Se, and Zn) were determined with microwave digestion with HNO<sub>3</sub>/H<sub>2</sub>O<sub>2</sub>, then measured with ICP-MS."
         },
         {
             "inLanguage": "en",
@@ -174,6 +174,27 @@
     "contributor": [
         {
             "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Lionel Jordan_Meille",
+            "givenName": "Lionel",
+            "familyName": "Jordan_Meille",
+            "sameAs": "https://orcid.org/0000-0003-1169-7002",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Bordeaux Sciences Agro",
+                "addressLocality": null,
+                "addressRegion": "Villenave dOrnon",
+                "postalCode": "33130",
+                "addressCountry": "France"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Bordeaux Sciences Agro",
+                "address": ", UMR 1391, Villenave dOrnon, 33130, France"
+            }
+        },
+        {
+            "type": "Person",
             "jobTitle": "DataCurator",
             "name": "Margaret Glendining",
             "givenName": "Margaret",
@@ -190,27 +211,6 @@
             "affiliation": {
                 "type": "Organization",
                 "name": "Computational and Analytical Sciences, Rothamsted Research",
-                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
-            }
-        },
-        {
-            "type": "Person",
-            "jobTitle": "DataCollector",
-            "name": "Cathy Thomas",
-            "givenName": "Cathy",
-            "familyName": "Thomas",
-            "sameAs": "https://orcid.org/0000-0002-6320-9923",
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
-                "addressLocality": "Harpenden",
-                "addressRegion": "Hertfordshire",
-                "postalCode": "AL5 2JQ",
-                "addressCountry": "United Kingdom"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
         },
@@ -237,14 +237,14 @@
         },
         {
             "type": "Person",
-            "jobTitle": "DataCurator",
-            "name": "Sarah Perryman",
-            "givenName": "Sarah",
-            "familyName": "Perryman",
-            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "jobTitle": "Researcher",
+            "name": "Cathy Thomas",
+            "givenName": "Cathy",
+            "familyName": "Thomas",
+            "sameAs": "https://orcid.org/0000-0002-6320-9923",
             "address": {
                 "type": "PostalAddress",
-                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
                 "addressLocality": "Harpenden",
                 "addressRegion": "Hertfordshire",
                 "postalCode": "AL5 2JQ",
@@ -252,29 +252,8 @@
             },
             "affiliation": {
                 "type": "Organization",
-                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
-            }
-        },
-        {
-            "type": "Person",
-            "jobTitle": "Researcher",
-            "name": "Lionel Jordan_Meille",
-            "givenName": "Lionel",
-            "familyName": "Jordan_Meille",
-            "sameAs": "https://orcid.org/0000-0003-1169-7002",
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Bordeaux Sciences Agro",
-                "addressLocality": null,
-                "addressRegion": "Villenave dOrnon",
-                "postalCode": "33130",
-                "addressCountry": "France"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Bordeaux Sciences Agro",
-                "address": ", UMR 1391, Villenave dOrnon, 33130, France"
             }
         },
         {
@@ -296,27 +275,6 @@
                 "type": "Organization",
                 "name": "The James Hutton Institute",
                 "address": ", Dundee, DD2 5DA, United Kingdom"
-            }
-        },
-        {
-            "type": "Person",
-            "jobTitle": "ProjectManager",
-            "name": "Richard Ostler",
-            "givenName": "Richard",
-            "familyName": "Ostler",
-            "sameAs": "https://orcid.org/0000-0002-1434-9495",
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
-                "addressLocality": "Harpenden",
-                "addressRegion": "Hertfordshire",
-                "postalCode": "AL5 2JQ",
-                "addressCountry": "United Kingdom"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Computational and Analytical Sciences, Rothamsted Research",
-                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
         },
         {
@@ -358,6 +316,111 @@
             "affiliation": {
                 "type": "Organization",
                 "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectManager",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Mark Durenkamp",
+            "givenName": "Mark",
+            "familyName": "Durenkamp",
+            "sameAs": "https://orcid.org/0000-0002-2195-1855",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Chloe Garwood",
+            "givenName": "Chloe",
+            "familyName": "Garwood",
+            "sameAs": "https://orcid.org/0000-0002-2831-6854",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Ruth Skilton",
+            "givenName": "Ruth",
+            "familyName": "Skilton",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
         }
@@ -418,6 +481,24 @@
             "relationType": "IsSupplementedBy",
             "rt_id": 4,
             "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rcs10-rltlgrain-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted long-term liming experiment grain mineral composition",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.1016/j.eja.2021.126281",
+            "relatedIdentifierType": "DOI",
+            "name": "Jordan-Meille et al, 2021. Paper describing the grain mineral composition at Woburn and Rothamsted.",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
         }
     ],
     "funder": [

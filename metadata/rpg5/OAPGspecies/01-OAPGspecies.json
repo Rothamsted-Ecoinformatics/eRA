@@ -60,26 +60,6 @@
     ],
     "creator": [
         {
-            "type": "Person",
-            "Name": "Sarah Perryman",
-            "givenName": "Sarah",
-            "familyName": "Perryman",
-            "sameAs": "https://orcid.org/0000-0002-0056-2754",
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
-                "addressLocality": "Harpenden",
-                "addressRegion": "Hertfordshire",
-                "postalCode": "AL5 2JQ",
-                "addressCountry": "United Kingdom"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Computational and Analytical Sciences, Rothamsted Research",
-                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
-            }
-        },
-        {
             "type": "organization",
             "name": "Rothamsted Research"
         }
@@ -345,15 +325,6 @@
             "relationTypeValue": "is referenced by"
         },
         {
-            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Park/pgcomposition1",
-            "relatedIdentifierType": "URL",
-            "name": "Park Grass Botanical Compostion",
-            "relatedIdentifierGeneralType": "Text",
-            "relationType": "IsSupplementedBy",
-            "rt_id": 4,
-            "relationTypeValue": "is supplemented by"
-        },
-        {
             "relatedIdentifier": "https://www.youtube.com/watch?v=-3-Pm5JUQZ4&feature=player_embedded",
             "relatedIdentifierType": "URL",
             "name": "The Park Grass Experiment - video",
@@ -363,19 +334,10 @@
             "relationTypeValue": "is supplemented by"
         },
         {
-            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Park/",
-            "relatedIdentifierType": "URL",
-            "name": "Park Grass Experiment - background",
-            "relatedIdentifierGeneralType": "Text",
-            "relationType": "IsSupplementedBy",
-            "rt_id": 4,
-            "relationTypeValue": "is supplemented by"
-        },
-        {
             "relatedIdentifier": "10.23637/KeyRefOAPGsoilpH",
             "relatedIdentifierType": "DOI",
-            "name": "Park Grass pH in water 1856-2011",
-            "relatedIdentifierGeneralType": "Text",
+            "name": "Park Grass Soil pH 1856-2011",
+            "relatedIdentifierGeneralType": "Dataset",
             "relationType": "IsSupplementTo",
             "rt_id": 3,
             "relationTypeValue": "is supplement to"

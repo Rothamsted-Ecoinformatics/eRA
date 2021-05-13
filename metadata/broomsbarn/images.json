@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "MediaID": 924806803,
+        "Credit": "eRA curators",
+        "URL": "images/metadata/broomsbarn/1962-Brooms-Barn-Opening.jpg",
+        "Caption": "Brooms Barn Opening 1962",
+        "Type": "Other",
+        "exptID": "broomsbarn",
+        "width": 1580,
+        "height": 672,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/broomsbarn/1962-Brooms-Barn-Opening.jpg"
+    },
+    {
+        "MediaID": -207715880,
+        "Credit": "eRA curators",
+        "URL": "images/metadata/broomsbarn/Aerial-photograph-Brooms-Barn.jpg",
+        "Caption": "Broom's Barn aerial photograph",
+        "Type": "Other",
+        "exptID": "broomsbarn",
+        "width": 1024,
+        "height": 682,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/broomsbarn/Aerial-photograph-Brooms-Barn.jpg"
+    }
+]

@@ -22,7 +22,7 @@
         },
         "crops": [
             {
-                "id": 11803,
+                "id": 11828,
                 "name": "grass",
                 "sameAs": "grass",
                 "dateStart": null,
@@ -32,14 +32,14 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 7160,
+                "id": 7224,
                 "name": "nitrogen fertilizer exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 18701,
+                        "id": 18813,
                         "name": "N1",
                         "amount": "52",
                         "unitCode": "kgN/ha",
@@ -53,7 +53,7 @@
                         "notes": null
                     },
                     {
-                        "id": 18702,
+                        "id": 18814,
                         "name": "N2",
                         "amount": "104",
                         "unitCode": "kgN/ha",
@@ -67,7 +67,7 @@
                         "notes": null
                     },
                     {
-                        "id": 18703,
+                        "id": 18815,
                         "name": "N3",
                         "amount": "156",
                         "unitCode": "kgN/ha",
@@ -81,7 +81,7 @@
                         "notes": null
                     },
                     {
-                        "id": 18704,
+                        "id": 18816,
                         "name": "N1*",
                         "amount": "52",
                         "unitCode": "kgN/ha",
@@ -95,7 +95,7 @@
                         "notes": null
                     },
                     {
-                        "id": 18705,
+                        "id": 18817,
                         "name": "N2*",
                         "amount": "104",
                         "unitCode": "kgN/ha",
@@ -111,14 +111,14 @@
                 ]
             },
             {
-                "id": 7161,
+                "id": 7225,
                 "name": "natural fertilizer exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 18706,
+                        "id": 18818,
                         "name": "farmyard manure",
                         "amount": null,
                         "unitCode": null,
@@ -132,7 +132,7 @@
                         "notes": null
                     },
                     {
-                        "id": 18707,
+                        "id": 18819,
                         "name": "fish meal",
                         "amount": null,
                         "unitCode": null,
@@ -148,14 +148,14 @@
                 ]
             },
             {
-                "id": 7162,
+                "id": 7226,
                 "name": "superphosphate exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 18708,
+                        "id": 18820,
                         "name": "P",
                         "amount": "36",
                         "unitCode": "kgP/ha",
@@ -171,14 +171,14 @@
                 ]
             },
             {
-                "id": 7163,
+                "id": 7227,
                 "name": "potassium fertilizer exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 18709,
+                        "id": 18821,
                         "name": "K",
                         "amount": "242",
                         "unitCode": "kgK/ha",
@@ -194,14 +194,14 @@
                 ]
             },
             {
-                "id": 7164,
+                "id": 7228,
                 "name": "sodium nutrient exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 18710,
+                        "id": 18822,
                         "name": "Na",
                         "amount": "17",
                         "unitCode": "kgNa/ha",
@@ -217,14 +217,14 @@
                 ]
             },
             {
-                "id": 7165,
+                "id": 7229,
                 "name": "magnesium nutrient exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 18711,
+                        "id": 18823,
                         "name": "Mg",
                         "amount": "12",
                         "unitCode": "kgMg/ha",
@@ -240,14 +240,14 @@
                 ]
             },
             {
-                "id": 7166,
+                "id": 7230,
                 "name": "silicon nutrient exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 18712,
+                        "id": 18824,
                         "name": "Si",
                         "amount": "28",
                         "unitCode": null,
@@ -263,7 +263,7 @@
                 ]
             },
             {
-                "id": 7167,
+                "id": 7231,
                 "name": "Sawdust",
                 "description": null,
                 "effect": "",
@@ -281,7 +281,7 @@
                 "scale": null,
                 "material": "SpecifiedCrop",
                 "description": "1st and 2nd cuts, available from 1856-present.",
-                "crop": 11803
+                "crop": 11828
             },
             {
                 "variable": "Partial botanical separation data",
@@ -398,7 +398,7 @@
         },
         "crops": [
             {
-                "id": 11804,
+                "id": 11829,
                 "name": "grass",
                 "sameAs": "grass",
                 "dateStart": null,
@@ -534,7 +534,7 @@
         },
         "crops": [
             {
-                "id": 11805,
+                "id": 11830,
                 "name": "grass",
                 "sameAs": "grass",
                 "dateStart": null,
@@ -544,14 +544,14 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 7168,
+                "id": 7232,
                 "name": "nitrogen fertilizer exposure",
                 "description": "applied in spring",
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 18713,
+                        "id": 18825,
                         "name": "N1",
                         "amount": "48",
                         "unitCode": "kgN/ha",
@@ -565,7 +565,7 @@
                         "notes": null
                     },
                     {
-                        "id": 18714,
+                        "id": 18826,
                         "name": "N2",
                         "amount": "96",
                         "unitCode": "kgN/ha",
@@ -579,7 +579,7 @@
                         "notes": null
                     },
                     {
-                        "id": 18715,
+                        "id": 18827,
                         "name": "N3",
                         "amount": "144",
                         "unitCode": "kgN/ha",
@@ -593,7 +593,7 @@
                         "notes": null
                     },
                     {
-                        "id": 18716,
+                        "id": 18828,
                         "name": "N*1",
                         "amount": "48",
                         "unitCode": "kgN/ha",
@@ -607,7 +607,7 @@
                         "notes": null
                     },
                     {
-                        "id": 18717,
+                        "id": 18829,
                         "name": "N*2",
                         "amount": "96",
                         "unitCode": "kgN/ha",
@@ -621,7 +621,7 @@
                         "notes": null
                     },
                     {
-                        "id": 18718,
+                        "id": 18830,
                         "name": "N*3",
                         "amount": "144",
                         "unitCode": "kgN/ha",
@@ -635,7 +635,7 @@
                         "notes": null
                     },
                     {
-                        "id": 18719,
+                        "id": 18831,
                         "name": "(N2)",
                         "amount": "96",
                         "unitCode": "kgN/ha",
@@ -649,7 +649,7 @@
                         "notes": null
                     },
                     {
-                        "id": 18720,
+                        "id": 18832,
                         "name": "(N*2)",
                         "amount": "96",
                         "unitCode": "kgN/ha",
@@ -665,14 +665,14 @@
                 ]
             },
             {
-                "id": 7169,
+                "id": 7233,
                 "name": "natural fertilizer exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 18721,
+                        "id": 18833,
                         "name": "farmyard manure",
                         "amount": "35",
                         "unitCode": "t/ha",
@@ -686,7 +686,7 @@
                         "notes": "supplies c.240 kg N"
                     },
                     {
-                        "id": 18722,
+                        "id": 18834,
                         "name": "pelleted poultry manure",
                         "amount": null,
                         "unitCode": null,
@@ -702,14 +702,14 @@
                 ]
             },
             {
-                "id": 7170,
+                "id": 7234,
                 "name": "superphosphate exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 18723,
+                        "id": 18835,
                         "name": "P",
                         "amount": "17",
                         "unitCode": "kgP/ha",
@@ -725,14 +725,14 @@
                 ]
             },
             {
-                "id": 7171,
+                "id": 7235,
                 "name": "potassium fertilizer exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 18724,
+                        "id": 18836,
                         "name": "K",
                         "amount": "17",
                         "unitCode": "kgK/ha",
@@ -748,14 +748,14 @@
                 ]
             },
             {
-                "id": 7172,
+                "id": 7236,
                 "name": "sodium nutrient exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 18725,
+                        "id": 18837,
                         "name": "Na",
                         "amount": "15",
                         "unitCode": "kgNa/ha",
@@ -771,14 +771,14 @@
                 ]
             },
             {
-                "id": 7173,
+                "id": 7237,
                 "name": "magnesium nutrient exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 18726,
+                        "id": 18838,
                         "name": "Mg",
                         "amount": "10",
                         "unitCode": "kgMg/ha",
@@ -794,14 +794,14 @@
                 ]
             },
             {
-                "id": 7174,
+                "id": 7238,
                 "name": "silicon nutrient exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 18727,
+                        "id": 18839,
                         "name": "Si",
                         "amount": "450",
                         "unitCode": null,
@@ -817,14 +817,14 @@
                 ]
             },
             {
-                "id": 7175,
+                "id": 7239,
                 "name": "liming exposure",
                 "description": "ground chalk applied as necessary to maintain soil at pH 7,6 and 5 on sub plots a, b and c",
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 18728,
+                        "id": 18840,
                         "name": "lime",
                         "amount": null,
                         "unitCode": null,
@@ -850,7 +850,7 @@
                 "scale": null,
                 "material": "SpecifiedCrop",
                 "description": "every year from 1856 - present",
-                "crop": 11805
+                "crop": 11830
             },
             {
                 "variable": "botanical composition",

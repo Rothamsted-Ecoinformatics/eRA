@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "MediaID": 1620811549,
+        "Credit": "eRA curators",
+        "URL": "images/metadata/bms/2000-Brooms-Barn-met-enclosure.jpg",
+        "Caption": "Brooms Barn met enclosure 2000",
+        "Type": "Other",
+        "exptID": "bms",
+        "width": 1024,
+        "height": 652,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/bms/2000-Brooms-Barn-met-enclosure.jpg"
+    },
+    {
+        "MediaID": -1030814182,
+        "Credit": "eRA curators",
+        "URL": "images/metadata/bms/Brooms-Barn-weather-station.jpg",
+        "Caption": "Brooms Barn weather station",
+        "Type": "Other",
+        "exptID": "bms",
+        "width": 1024,
+        "height": 674,
+        "orientation": "Landscape",
+        "fileLocation": "metadata/bms/Brooms-Barn-weather-station.jpg"
+    }
+]

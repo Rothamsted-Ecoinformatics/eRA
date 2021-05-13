@@ -194,7 +194,7 @@ echo title_case($experiment['administrative']['name']);
                          	
 						<div class="tab-pane  pb-3" id="documents" role="tabpanel"
 							aria-labelledby="documents-tab">
-							<div class="row px-3">
+							
 								
 							<?php
 
@@ -213,17 +213,17 @@ echo title_case($experiment['administrative']['name']);
     }
 
     ?>
-							</div>
+							
 						</div>
 						<div class="tab-pane" id="keyrefs" role="tabpanel"
 							aria-labelledby="keyrefs-tab">
-						
+						<div class="row mx-3">
     							<?php
 
         include '_keyrefs.php';
 
         ?>
-    					</div>
+    					</div></div>
 
 
 					</div>

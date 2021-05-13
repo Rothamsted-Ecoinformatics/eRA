@@ -232,13 +232,13 @@
     },
     "relatedIdentifier": [
         {
-            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/open_access",
-            "relatedIdentifierType": "URL",
-            "name": "Open Access Datasets in eRA",
+            "relatedIdentifier": "10.23637/srn2-details1969-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Saxmundham Rotation II experimental details, 1969-1986",
             "relatedIdentifierGeneralType": "Text",
-            "relationType": "IsCitedBy",
-            "rt_id": 1,
-            "relationTypeValue": "is cited by"
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
         }
     ],
     "funder": [

@@ -1,0 +1,22 @@
+[
+    {
+        "md_id": 1257645341,
+        "title": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008: Highfield",
+        "URL": "http://www.era.rothamsted.ac.uk/RRN/rothla_open_access_soc",
+        "identifier": "10.23637/KeyRefOARLAsoc",
+        "identifier_type": "DOI",
+        "dataset_type": "Soil data",
+        "extension": "xlsx",
+        "description": "Summary data showing the effect of two contrasting farming systems, Highfield Ley Arable, which was originally permanent grassland and Fosters Ley Arable, which was originally long-term arable for several centuries, on their soil organic carbon (SOC) at Rothamsted over a 60-year time-period 1948-2008. Results are given as tonnes per hectare of organic C for 0-22.5 cm depth of soil, based on measured soil weights, and adjusted for changes in bulk density.\r\n\r\nThe figure shows the grassland contains two-thirds as much SOC as the arable at Highfield  (and twice as much at Fosters ). SOC increased with improved grassland management on Highfield while on Fosters it increased under newly sown grass but, after 60 years there was still less than in the permanent grassland soil on Highfield, possibly because, after 1991 and the change to grass/clover on the whole plot it is likely that yields would have been less and thus a smaller input from root exudates and dead roots. With arable cropping, large amounts of SOC were lost on Highfield but it took 50 years to decline to that on Fosters. The figure shows that after 60 years the soils appear to be reaching equilibrium following changes in the cropping system level for this farming system on this soil type. Thus, in soils ploughed out of permanent grass or put into permanent grass after arable cropping the SOC now appears relatively constant. On any one soil type, the equilibrium level will be larger with permanent grass than with continuous arable cropping.",
+        "fieldname": "Highfield",
+        "experiment_name": "Highfield Ley Arable",
+        "experiment_code": "R/RN/1",
+        "grade": 3,
+        "dstype": "OA",
+        "publication_year": 2018,
+        "version": "01",
+        "isReady": 2,
+        "shortName": "HSOC4808",
+        "UID": "01-HSOC4808"
+    }
+]

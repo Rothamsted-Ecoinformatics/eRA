@@ -83,11 +83,11 @@ if (! $hasDatasets) {
     foreach ($gpDS as $groupName => $groupedDatasets) {
         
         $notEmptyGr = 0;
-        $listGr = "<div class=\"row mx-3 mb-3\"><h4>" . $groupName . "</h4></div>";
+        $listGr = "<h4 class=\"mt-3\">" . $groupName . "</h4>";
         $listGr .= "<div class=\"row\">";
         
         foreach ($groupedDatasets as $dataset) {
-            if ($dataset['isReady'] >  0) {
+            if ($dataset['isReady'] >  $displayValue) {
                 $notEmptyGr = 1;
                 if ($dataset['UID']) {
                     $fileDataset = $exptFolder . '/' . $dataset['shortName'] . '/' . $dataset['UID'] . '.json';

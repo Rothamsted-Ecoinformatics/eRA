@@ -69,7 +69,6 @@ if ($hasSite) {
     $jdata = file_get_contents($fileSite);
     $jdata = utf8_encode($jdata);
     $site = json_decode($jdata, true);
-    
 }
 
 $fileDesign = $exptFolder . '/design.json';
@@ -129,14 +128,16 @@ $hasDocs = file_exists($fileDocs);
 			</div>
 			<div class="row">
 				<div class="col-12 pt-3">
-				<p>Datasets derived from other field experiments at Rothamsted (not Classical or long-term experiments)</p>
+					<p>Datasets derived from other field experiments at Rothamsted (not
+						Classical or long-term experiments)</p>
 							
       	<?php if ($hasDatasets) { include '_datasets.php'; }?>
                 							
 				</div>
 			</div>
 		</div>
-	</div>              					
+
+           					
                 <?php
                 // -- start footers ----------------------------
                 include_once 'includes/footer.html';
@@ -148,14 +149,14 @@ $hasDocs = file_exists($fileDocs);
 
                 ?>
         <script
-			src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
-		<script>
+		src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+	<script>
         	      baguetteBox.run('.compact-gallery',{animation:'slideIn',
         	    	    captions: function(element) {
         	    	        return element.getElementsByTagName('img')[0].alt;
         	    	    }});
         </script>
-		<div id="mapid"></div>
+	<div id="mapid"></div>
 	</div>
 </body>
 </html>

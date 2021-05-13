@@ -1,9 +1,8 @@
-<?php
-?>
-<div id="nameThat">
-<h1>Test Page</h1>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; url='../index.html'" />
+  </head>
+  <body> 
+  </body>
+</html>
 
-
-
-
-</div>

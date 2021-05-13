@@ -259,7 +259,7 @@ IF(`eraPapers`.Year IS NULL or `eraPapers`.Year='', 1, 0)AS yearnull ,
                     
                     $link = 1;
                     
-                    $ReferenceLine = $ReferenceLine . "<br /> <b>URL: <A HREF=\"$rowk2[URL]\" >Get Paper</a></b>";
+                    $ReferenceLine = $ReferenceLine . "<br /> <b>URL: <A HREF=\"$rowk2[URL]\" >$rowk2[URL]</a></b>";
                 }
                 if ($link == 0) {
                     $title = urlencode($rowk2[Title]);

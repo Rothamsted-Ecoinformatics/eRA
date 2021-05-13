@@ -1,0 +1,302 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/KeyRefOARLAsoc",
+    "name": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008: Highfield",
+    "shortName": "HSOC4808",
+    "url": "http://www.era.rothamsted.ac.uk/RRN/rothla_open_access_soc",
+    "description": [
+        {
+            "inLanguage": "en",
+            "descriptionType": "Abstract",
+            "description": "Summary data showing the effect of two contrasting farming systems, Highfield Ley Arable, which was originally permanent grassland and Fosters Ley Arable, which was originally long-term arable for several centuries, on their soil organic carbon (SOC) at Rothamsted over a 60-year time-period 1948-2008. Results are given as tonnes per hectare of organic C for 0-22.5 cm depth of soil, based on measured soil weights, and adjusted for changes in bulk density.\r\n\r\nThe figure shows the grassland contains two-thirds as much SOC as the arable at Highfield  (and twice as much at Fosters ). SOC increased with improved grassland management on Highfield while on Fosters it increased under newly sown grass but, after 60 years there was still less than in the permanent grassland soil on Highfield, possibly because, after 1991 and the change to grass/clover on the whole plot it is likely that yields would have been less and thus a smaller input from root exudates and dead roots. With arable cropping, large amounts of SOC were lost on Highfield but it took 50 years to decline to that on Fosters. The figure shows that after 60 years the soils appear to be reaching equilibrium following changes in the cropping system level for this farming system on this soil type. Thus, in soils ploughed out of permanent grass or put into permanent grass after arable cropping the SOC now appears relatively constant. On any one soil type, the equilibrium level will be larger with permanent grass than with continuous arable cropping."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Methods",
+            "description": "Ley-arable experiments at Rothamsted, on Highfield and Fosters fields, started in Autumn 1948 on sites previously in long-term grass (Highfield) or long-term arable (Fosters). Their purpose was to look at the effects of different cropping systems - permanent grass (now grass/clover), permanent arable and alternating ley/arable - on yield and soil organic matter (SOM). The two sites have the same soil type, a silty clay loam, but very different cropping histories: Highfield had previously been in permanent grass since at least 1838, part of a grazing experiment, and Fosters had been in arable cropping for several centuries (Lawes & Gilbert, 1885). On Highfield some plots stayed in permanent grass, some were ploughed and immediately re-seeded, others went into continuous arable cropping where 3-yr arable Test crops followed 3-yr arable Treatment crops. On Fosters some plots were sown to permanent grass whilst others stayed in continuous arable cropping (following the same 3-yr Treatment crops followed by 3-yr Test crops as on Highfield). On both sites some plots alternated between 3-yr leys as the Treatment crop and 3-yr arable Test crops. Analysis of soil organic carbon (SOC) was by the Tinsley technique except 2000 & 2008 which are by combustion (Total C by LECO minus CaCO3-C)."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TechnicalInfo",
+            "description": "Although we no longer measure yields we continue to monitor changes in soil organic carbon (SOC) Soil samples have been taken since the start of the experiments. For 1948, 1951, 1956 and 1961 soils were sampled to a depth of e.g. 0-5 and 5-10 inches or 0-6 and 6-12 inches; later soils were all sampled to 0-9 inches (0-23cm). A 0-23cm value for the earlier soils has been calculated. Using an open-ended metal box (6 x 6 x 9 inches deep) soils were sampled in 2000/1 to measure bulk density and soil weights; the soil weight for other years have been derived by extrapolation or interpolation. The soil weights have been used to convert the %C concentration into t/ha of SOC and has taken into account any changes over time in bulk density.\r\n\r\nCROPPING AND TREATMENTS\r\n\r\nHighfield ley-arable: A site which was originally permanent grassland from 1838.\r\nFosters ley-arable: A site which was originally long-term arable for several centuries with no recent history of grass leys.\r\n\r\nHighfield grass: Old permanent grassland, the original sward unploughed grass/clover with a little N, grazed by sheep. Then phased in from 1962 a split plot test of grass ley with N and grass/clover (no N). In the years when the plots were split the data shown is the mean of both halves.\r\nHighfield arable: continuous arable since 1948; 3-yr arable Treatment crops followed by 3-yr arable Test crops. Both the treatment and test crops have changed during the course of the experiment.\r\nFosters grass: Grass sown in 1948 on old arable, grass/clover with a little N, grazed by sheep. Then phased in from 1962 a split plot test of grass ley with N and grass/clover (no N). In the years when the plots were split the data shown is the mean of both halves.\r\nFosters arable: Old long-term arable; continuous arable since 1948; 3-yr arable Treatment crops followed by 3-yr arable Test crops. Both the treatment and test crops have changed during the experiment.\r\n\r\nSoil: Batcombe series flinty silt or loam over clay-with-flints.\r\n\r\nAGRONOMIC PRACTICES\r\n\r\nBoth sites have had the same management with cultivations, drilling and harvesting done on the same days.\r\n\r\nPloughing: At the start of the experiment ploughing was shallow, not more than 15cm deep but the depth was gradually increased to 23 cm as more powerful tractors were introduced.\r\nLiming: Lime has been applied as required since 1958.\r\nLey management - permanent and re-seeded grass: Two-years sheep grazing followed by one-years hay 1949-57. Since 1958 grazing discontinued, cut repeatedly at early silage stage. Since 1991 grass leys were cut for hay in mid-summer; the hay was baled and removed.\r\n\r\nSOIL ANALYSIS Analysis of soil organic carbon (SOC) was by the Tinsley technique except 2000 & 2008 which are by combustion (Total C by LECO minus CaCO3-C). Results are given as tonnes per hectare of organic C for 0-22.5 cm depth of soil, based on measured soil weights."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Other",
+            "description": "Originally, six blocks, one for each of the six phases of the rotation, were put down in duplicate, making 12 blocks in each field. From 1968, only four blocks on each site continued with original treatments. The remaining eight blocks were sown to continuous wheat at the end of the test-crop cycle to study the build-up and decline of take-all; this work finished in 1985 and the blocks were no longer included in the experiment. The remaining four blocks on each site continue although yields have not been taken since 1990. The old grass plots and re-seeded grass plots on Highfield and the newly sown grass plots on Fosters were grazed until 1961. They were then split to compare grass+N or grass/clover (clover was under-sown in the grass sward); the whole plots have been treated as grass/clover since 1991. Three types of leys were originally tested; 3-yr lucerne, 3-yr grazed ley or 3-yr cut grass. These, and the arable Treatment and Test crops have changed over the years. See Rothamsted Experimental Station, 1966; 1970; 1978 and Johnston, 1973 for details about the early years of the experiment and Yields of the Experiments, 1990 (and before) for later details. Further details are available through e-RA.\r\n\r\nThis data demonstrates that in temperate climates, SOC changes slowly and only in long-term experiments can changes be reliably monitored, explanations sought and carbon turnover models developed and validated."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Provenance",
+            "description": "This dataset is derived from measurements made by the Analytical Chemistry Unit, Rothamsted Research, Harpenden."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Quality",
+            "description": "The Analytical Chemistry Unit follows the Joint Code of Practice (JCoPR) and participates in European Quality Assurance programmes. All performance is strictly monitored using certified external standards alongside in-house standard materials. Standards and check samples are monitored and recorded."
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "publication_year": 2018,
+    "dateCreated": "2021-05-10",
+    "dateModified": "2021-05-13",
+    "datePublished": null,
+    "inLanguage": "en",
+    "version": "1",
+    "keywords": [
+        "cropping system",
+        "arable farming",
+        "arable soils",
+        "Fosters ley-arable rotation experiment",
+        "Highfield ley-arable rotation experiment",
+        "leys",
+        "sown pastures",
+        "ley farming",
+        "soil",
+        "soil organic matter",
+        "soil organic carbon",
+        "long term experiments"
+    ],
+    "creator": [
+        {
+            "type": "organization",
+            "name": "Rothamsted Research"
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Jeanne Day",
+            "givenName": "Jeanne",
+            "familyName": "Day",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Ruth Skilton",
+            "givenName": "Ruth",
+            "familyName": "Skilton",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells-Brooke",
+            "givenName": "Nathalie",
+            "familyName": "Castells-Brooke",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectManager",
+            "name": "Andrew Macdonald",
+            "givenName": "Andrew",
+            "familyName": "Macdonald",
+            "sameAs": "https://orcid.org/0000-0002-1785-4892",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectLeader",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License"
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.362941,
+            "latitude": 51.804384
+        },
+        "name": "Highfield"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/rrn2-OARFLAsoc-1",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008; Fosters",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
+        },
+        {
+            "relatedIdentifier": "10.23637/ROTHAMSTED-LONG-TERM-EXPERIMENTS-GUIDE-2018",
+            "relatedIdentifierType": "DOI",
+            "name": "Guide to the Long-term Experiments",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        }
+    ],
+    "funder": [
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/00005189 - The Rothamsted Long-Term Experiments including Sample Archive and e-RA database",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F00005189"
+        },
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/000J0300 - The Rothamsted Long - Term Experiments - National Capability",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F000J0300"
+        }
+    ],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Highfield and  Fosters Ley Arable Soil Carbon Chart",
+            "URL": "Rothamsted_LA_SOC_Highfield.pdf",
+            "encodingFormat": "pdf",
+            "fileSize": "25 KB"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Highfield and  Fosters Ley Arable Soil Carbon Data",
+            "URL": "Rothamsted_ley_arable_SOC_Highfield_data.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "112 KB"
+        }
+    ],
+    "image": [
+        {
+            "type": "imageObject",
+            "caption": "Highfield and  Fosters Ley Arable Soil Carbon Chart",
+            "URL": "Rothamsted_LA_SOC.jpg",
+            "encodingFormat": "jpg",
+            "fileSize": "89 KB"
+        }
+    ],
+    "grade": 3,
+    "dstype": "OA"
+}

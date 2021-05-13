@@ -1,7 +1,7 @@
 {
     "@context": "https://schema.org/",
     "@type": "Text",
-    "identifier": "10.23637/rbk1-plan1926-67-02",
+    "identifier": "10.23637/rbk1-plan1926-67-01",
     "name": "Broadbalk plan 1926-1967",
     "shortName": "",
     "url": "http://www.era.rothamsted.ac.uk/metadata/rbk1/01-rbk1-plan1926-1967.pdf",
@@ -215,9 +215,9 @@
             "relationTypeValue": "is derived from"
         },
         {
-            "relatedIdentifier": "10.23637/rbk1-FertTreats",
+            "relatedIdentifier": "10.23637/rbk1-plan1996-2017-01",
             "relatedIdentifierType": "DOI",
-            "name": "Broadbalk Fertiliser and Manure Treatments 1852-2021",
+            "name": "Broadbalk plan 1996-2017",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsContinuedBy",
             "rt_id": 5,
@@ -237,12 +237,29 @@
             "relatedIdentifierType": "DOI",
             "name": "Broadbalk plan 1852-1925",
             "relatedIdentifierGeneralType": "Text",
-            "relationType": "IsSupplementedBy",
-            "rt_id": 4,
-            "relationTypeValue": "is supplemented by"
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
+        },
+        {
+            "relatedIdentifier": "10.23637/rbk1-today2018-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk Today revised 2018",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsContinuedBy",
+            "rt_id": 5,
+            "relationTypeValue": "is continued by"
         }
     ],
-    "funder": [],
+    "funder": [
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/000J0300 - The Rothamsted Long - Term Experiments - National Capability",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F000J0300"
+        }
+    ],
     "distribution": [
         {
             "type": "dataDownload",

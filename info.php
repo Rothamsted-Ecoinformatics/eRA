@@ -17,7 +17,7 @@
  */
 
 // /This will be used to pass the FileName : it will just include the file as is.
-$FileName = 'index.php';
+$FileName = 'index';
 if (isset($_POST['FileName'])) {
     $FileName = $_POST['FileName'];
 }
@@ -27,6 +27,9 @@ if (isset($_POST['FileName'])) {
  *
  * At the moment, we use FileName
  */
+
+include_once 'includes/init.inc'; // these are the settings that refer to more than one page
+
 $page = 'index';
 if (isset($_POST['page'])) {
     $page = $_POST['page'];
@@ -43,7 +46,7 @@ if (isset($_GET['expt'])) {
     $expt = $_GET['expt'];
 }
 
-include_once 'includes/init.inc'; // these are the settings that refer to more than one page
+
 
 /**
  * $page info should have the following structure:
@@ -83,22 +86,33 @@ if (is_file($url)) {
     $page_title .= $page_title .= ': ' . $pageinfo['ExperimentName'];
 }
 
-$script = '';
-if (isset($datacite)) {
-    $script = "<script type=\"application/ld+json\">" . $datacite . "</script>";
-}
 
-include 'includes/head.html'; // that is the <head tags>
 ?>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
 
-<body>
-	<div class="container bg-white px-0">
+<head>
 
 <?php
 
-include 'includes/header.html'; // all the menus at the top
+include 'includes/meta.html'; // that is the <meta and link tags> superseeds head.html
 
+$script = ''; // $script is added to the header as the
+if (isset($datacite)) {
+    $script = "<script type=\"application/ld+json\">" . $datacite . "</script>";
+    echo $script;
+}
 ?>
+
+    </head>
+<body>
+	<div class="container bg-white px-0">
+        
+             <?php
+            include 'includes/header.html'; // all the menus at the top
+
+            // -- start dependant content ---------------------------------------------------------
+            ?>
 
 
 <div id="idExpt" class="p-0 mb-0">

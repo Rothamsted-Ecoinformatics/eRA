@@ -6,7 +6,7 @@
             "name": "Sarah Perryman",
             "givenName": "Sarah",
             "familyName": "Perryman",
-            "sameAs": null,
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
             "affiliation": {
                 "type": "Organization",
                 "name": "Rothamsted Research",
@@ -19,7 +19,7 @@
             "name": "Jon Storkey",
             "givenName": "Jon",
             "familyName": "Storkey",
-            "sameAs": null,
+            "sameAs": "https://orcid.org/0000-0003-1094-8914",
             "affiliation": {
                 "type": "Organization",
                 "name": "Rothamsted Research",
@@ -32,7 +32,7 @@
             "name": "Andrew MacDonald",
             "givenName": "Andrew",
             "familyName": "MacDonald",
-            "sameAs": null,
+            "sameAs": "https://orcid.org/0000-0002-1785-4892",
             "affiliation": {
                 "type": "Organization",
                 "name": "Rothamsted Research",
@@ -45,7 +45,7 @@
             "name": "Margaret Glendining",
             "givenName": "Margaret",
             "familyName": "Glendining",
-            "sameAs": null,
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
             "affiliation": {
                 "type": "Organization",
                 "name": "Rothamsted Research",

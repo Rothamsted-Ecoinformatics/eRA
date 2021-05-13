@@ -14,7 +14,7 @@
         {
             "inLanguage": "en",
             "descriptionType": "Methods",
-            "description": "#### TREATMENTS\r\n\r\n- No fertilizer or manure has been applied since 1878.\r\n- Received small applications of chalk 1840s-1880s\r\n- Regenerating natural woodland site since 1883 (unplanted) - previously long-term arable (field beans, Vicia faba, 1847-1878; bare fallow 1879-1882).\r\n\r\n#### SOIL SAMPLES\r\n\r\n- **1883: ** 8 separate samples from the long-term arable site\r\n- **1904: ** 2 separate samples\r\n- **1965: **  4 separate samples\r\n- **1999: **  8 separate samples"
+            "description": "####TREATMENTS\r\n- No fertilizer or manure has been applied since 1878.\r\n- Received small applications of chalk 1840s-1880s\r\n- Regenerating natural woodland site since 1883 (unplanted) - previously long-term arable (field beans, Vicia faba, 1847-1878; bare fallow 1879-1882).\r\n\r\n#### SOIL SAMPLES\r\n\r\n- **1883: ** 8 separate samples from the long-term arable site\r\n- **1904: ** 2 separate samples\r\n- **1965: **  4 separate samples\r\n- **1999: **  8 separate samples"
         },
         {
             "inLanguage": "en",
@@ -172,6 +172,69 @@
             "name": "Ruth Skilton",
             "givenName": "Ruth",
             "familyName": "Skilton",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Xiaoyun Zhou",
+            "givenName": "Xiaoyun",
+            "familyName": "Zhou",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Jeanne Day",
+            "givenName": "Jeanne",
+            "familyName": "Day",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Daniel Hampshire",
+            "givenName": "Daniel",
+            "familyName": "Hampshire",
             "sameAs": null,
             "address": {
                 "type": "PostalAddress",

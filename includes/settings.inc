@@ -28,7 +28,7 @@
 $DETin = "http://burdock.rothamsted.ac.uk/pgera/extract/pages/data_extraction_prototype6.html";
 $DETout = "http://www3.rothamsted.ac.uk/cdera/extract/pages/data_extraction_prototype6.html";
 $det = $DETin;
-
+$displayValue = 0; //this is a live site so displaying datasets with isReady state 2 or above
 
 
 /**
@@ -181,6 +181,15 @@ $pageSettings = array(
         "URLCode" => "Broadbalk",
         "prevFolder" => "broad"
     ),
+    
+    array(
+        "exp-ID" => 1,
+        "Experiment" => "Broadbalk Wilderness",
+        "ExptCode" => "rbk1w",
+        "KeyRef" => "KeyRefWilderness",
+        "URLCode" => "Broadbalk",
+        "prevFolder" => "broad"
+    ),
     array(
         "exp-ID" => 32,
         "Experiment" => "Barnfield",
@@ -328,7 +337,15 @@ $pageSettings = array(
     array(
         "exp-ID" => 38,
         "Experiment" => "Amounts of straw experiments",
-        "ExptCode" => "rwcs326",
+        "ExptCode" => "rcs326",
+        "KeyRef" => "KeyRefStraw",
+        "URLCode" => "",
+        "prevFolder" => ""
+    ),
+    array(
+        "exp-ID" => 38,
+        "Experiment" => "Amounts of straw experiments",
+        "ExptCode" => "wcs326",
         "KeyRef" => "KeyRefStraw",
         "URLCode" => "",
         "prevFolder" => ""

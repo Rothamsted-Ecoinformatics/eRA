@@ -18,24 +18,26 @@ function GetKeyRefs($KeyRef)
     
     $resultk2 = mysqli_query($link, $query);
     $num_rowsk2 = mysqli_num_rows($resultk2);
-    
+    $references = "";
     if (! $resultk2) {
         print("query failed");
+        $references = "NONE Error BIB001 - Query failed";
     } else {
         if ($num_rowsk2 > 0) {
             $i = 0;
+            
             while ($rowk2 = mysqli_fetch_array($resultk2)) {
                 
                 if ($rowk2[Year] != $OldYear) {
                     
                     if ($rowk2[yearnull] == "1") {
-                        echo ("\n</p> <p><b><i>In Preparation</i></b></p>\n<ul>");
+                        $references .= "\n</p> <p><b><i>In Preparation</i></b></p>\n<ul>";
                         $OldYear = $rowk2[Year];
                     } else {
                         if ($OldYear != "") {
-                            echo ("\n </ul>\n");
+                            $references .= "\n </ul>\n";
                         }
-                        echo ("\n</p> <p><b><i>$rowk2[Year]</i></b></p>\n<ul>");
+                        $references .= ("\n</p> <p><b><i>$rowk2[Year]</i></b></p>\n<ul>");
                         $OldYear = $rowk2[Year];
                     }
                 }
@@ -61,25 +63,27 @@ function GetKeyRefs($KeyRef)
                 }
                 
                 if ($rowk2[DOI]) {
-                    $ReferenceLine = $ReferenceLine . "<br /> <b><a target=\"_blank\" href=\"http://dx.doi.org/".$rowk2[DOI]."\">DOI: ".$rowk2[DOI]."</a></b>";
+                    $ReferenceLine = $ReferenceLine . "<br /> <b><a target=\"_blank\" href=\"https://doi.org/".$rowk2[DOI]."\">DOI: ".$rowk2[DOI]."</a></b>";
                 } elseif ($rowk2[URL]) {
                     if (substr_count($rowk2[URL], "<GO") > 0) {
                         ;
                     } else {
-                        $ReferenceLine = $ReferenceLine . "<br /> <b><A  target=\"_blank\" href=\"http://dx.doi.org/".$rowk2[DOI]."\">Get Paper</a></b>";
+                        $ReferenceLine = $ReferenceLine . "<br /> <A class=\"small\" target=\"_blank\" href=\"".$rowk2[URL]."\">.$rowk2[URL].</a>";
                     }
                 } else {}
                 
                 $ReferenceLine = $ReferenceLine . "</li>";
-                echo $ReferenceLine;
+                $references .= $ReferenceLine;
                 $i ++;
             }
             if ($i == 0) {
                 $ReferenceLine= "No publication was found with these criteria. Please try and widen your search.";
             }
+        } else {
+            $references = "NONE: No reference matches these criteria";
         }
     }
-    return $ReferenceLine;
+    return $references;
 }
 
 /**

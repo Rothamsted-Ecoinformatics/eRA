@@ -18,5 +18,25 @@
         "isReady": 2,
         "shortName": "OAPGspecies",
         "UID": "01-OAPGspecies"
+    },
+    {
+        "md_id": 1334494892,
+        "title": "Park Grass Soil pH 1856-2011",
+        "URL": "http://www.era.rothamsted.ac.uk/Park/pg_open_access_soilph",
+        "identifier": "10.23637/KeyRefOAPGsoilpH",
+        "identifier_type": "DOI",
+        "dataset_type": "Soil data",
+        "extension": "xls",
+        "description": "The pH of the soil (at depth 0-23cm) on Park Grass was approximately 5.5 (in water) when the experiment began. The effects of small amounts of liming with chalk were tested in the 1880s. A regular test of liming began in 1903 with chalk applied every 4 years to the southern half of most plots. From 1965, the plots were further divided: two quarters of the previously limed half receive amounts of chalk calculated to maintain pH at 7 (sub plot a) and 6 (sub plot b); one part of the formerly un-limed half receives chalk, where necessary, to maintain pH 5 (sub plot c), and the other quarter (sub plot d) remains un-limed.\r\n\r\nExcept where sodium nitrate (orange line N*) has been applied or where liming with chalk has maintained the pH (dashed lines), soil has acidified slowly through the impact of acid deposition from the atmosphere and rapidly where ammonium fertiliser (blue line N) has been applied. Soil pH (0-23cm) is c 3.5 on the plots given most ammonium sulphate and 5.0-5.3 on the un-limed, unfertilized plots. Sub plot c of most plots is nearest to the original soil pH. Soil pH has slowly recovered by about 0.5 pH units on plot 9/1d (data not shown), more than 25 years after ammonium sulphate was last applied.",
+        "fieldname": "Park Grass",
+        "experiment_name": "Park Grass",
+        "experiment_code": "R/PG/5",
+        "grade": 1,
+        "dstype": "OA",
+        "publication_year": 2016,
+        "version": "01",
+        "isReady": 2,
+        "shortName": "OAPGsoilpH",
+        "UID": "01-OAPGsoilpH"
     }
 ]

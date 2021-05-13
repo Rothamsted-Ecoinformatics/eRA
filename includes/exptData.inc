@@ -196,7 +196,7 @@ function listImages($arrdata)
                         src=\"" . $arrdata[$j]['URL'] . "\" \n
                         >";
         $list .= "<span class=\"description\">";
-        $list .= "<span class=\"description-heading\">" .title_case($arrdata[$j]['Caption'] ) . "</span> <span
+        $list .= "<span class=\"description-heading\">" .$arrdata[$j]['Caption']  . "</span> <span
         class=\"description-body\">" . $arrdata[$j]['Credit'] . "</span>
         </span>
         </a>
@@ -458,7 +458,7 @@ function processCell($item)
                     break;
                 case 'FileName':
                     
-                    $pCell= '<a href="info.php?expt='.$expt.'&FileName=' . $cell . '">'.$cell.'</a>';                 
+                    $pCell= '<a href="info/'.$expt.'/' . $cell . '">'.$cell.'</a>';                 
                     break;
                 case 'Caption':
                     $caption = $cell;

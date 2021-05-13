@@ -1,13 +1,13 @@
 [
     {
         "md_id": 52532482,
-        "title": "Rothamsted Ley Arable soil organic carbon 1948-2008",
+        "title": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008; Fosters",
         "URL": "http://www.era.rothamsted.ac.uk/RRN/rothla_open_access_soc",
-        "identifier": "10.23637/KeyRefOARLAsoc",
+        "identifier": "10.23637/rrn2-OARFLAsoc-1",
         "identifier_type": "DOI",
-        "dataset_type": "Crop nutrient data",
+        "dataset_type": "Soil data",
         "extension": "xlsx",
-        "description": "Summary data showing the effect of two contrasting farming systems (Highfield  originally permanent grassland at least from 1838 & Fosters originally long-term arable for several centuries) on SOC at Rothamsted over a 60-year time-period 1948-2008.",
+        "description": "Summary data showing the effect of two contrasting farming systems, Fosters Ley Arable, which was originally long-term arable for several centuries, and Highfield Ley Arable, which was originally permanent grassland, on their soil organic carbon (SOC) at Rothamsted over a 60-year time-period 1948-2008. Results are given as tonnes per hectare of organic C for 0-22.5 cm depth of soil, based on measured soil weights, and adjusted for changes in bulk density.\r\n\r\nThe figure shows the grassland contains two-thirds as much SOC  as the arable at Fosters (and twice as much SOC at Highfield). SOC increased on Fosters under newly sown grass and it also increased with improved grassland management on Highfield. However, after 60 years there was still less SOC in Fosters sown grass than in the permanent grassland soil on Highfield. This possibly is because, after 1991 and the change to grass/clover on the whole plot, it is likely that yields would have been less and thus a smaller input from root exudates and dead roots. With arable cropping, large amounts of SOC were lost on Highfield but it took 50 years to decline to that on Fosters. The figure shows that after 60 years the soils appear to be reaching equilibrium following changes in the cropping system level for this farming system on this soil type. Thus, in soils ploughed out of permanent grass or put into permanent grass after arable cropping the SOC now appears relatively constant. On any one soil type, the equilibrium level will be larger with permanent grass than with continuous arable cropping.",
         "fieldname": "Fosters Field",
         "experiment_name": "Fosters Ley Arable",
         "experiment_code": "R/RN/2",
@@ -16,7 +16,7 @@
         "publication_year": 2018,
         "version": "01",
         "isReady": 2,
-        "shortName": "SOC4808",
-        "UID": "01-SOC4808"
+        "shortName": "FSOC4808",
+        "UID": "01-FSOC4808"
     }
 ]

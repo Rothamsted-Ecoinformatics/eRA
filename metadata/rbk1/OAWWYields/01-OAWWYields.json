@@ -92,14 +92,14 @@
         },
         {
             "type": "Person",
-            "jobTitle": "ContactPerson",
-            "name": "Sarah Perryman",
-            "givenName": "Sarah",
-            "familyName": "Perryman",
-            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "jobTitle": "ProjectLeader",
+            "name": "Andrew Macdonald",
+            "givenName": "Andrew",
+            "familyName": "Macdonald",
+            "sameAs": "https://orcid.org/0000-0002-1785-4892",
             "address": {
                 "type": "PostalAddress",
-                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
                 "addressLocality": "Harpenden",
                 "addressRegion": "Hertfordshire",
                 "postalCode": "AL5 2JQ",
@@ -107,7 +107,7 @@
             },
             "affiliation": {
                 "type": "Organization",
-                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
         },
@@ -134,11 +134,11 @@
         },
         {
             "type": "Person",
-            "jobTitle": "ProjectLeader",
-            "name": "Andrew Macdonald",
-            "givenName": "Andrew",
-            "familyName": "Macdonald",
-            "sameAs": "https://orcid.org/0000-0002-1785-4892",
+            "jobTitle": "Researcher",
+            "name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": "https://orcid.org/0000-0002-5720-064X",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
@@ -156,13 +156,13 @@
         {
             "type": "Person",
             "jobTitle": "Researcher",
-            "name": "Paul Poulton",
-            "givenName": "Paul",
-            "familyName": "Poulton",
-            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
             "address": {
                 "type": "PostalAddress",
-                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
                 "addressLocality": "Harpenden",
                 "addressRegion": "Hertfordshire",
                 "postalCode": "AL5 2JQ",
@@ -170,7 +170,7 @@
             },
             "affiliation": {
                 "type": "Organization",
-                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
         }

@@ -2,7 +2,7 @@
     {
         "MediaID": 64,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/others/2016-ECN-plot-Park-Grass.jpg",
+        "URL": "images/metadata/others/2016-ECN-plot-Park-Grass.jpg",
         "Caption": "ECN plot Park Grass - ECN",
         "Type": "Other",
         "exptID": "rpg5",
@@ -14,8 +14,8 @@
     {
         "MediaID": 211,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/01-pg2015-2ndcut-cutting.jpg",
-        "Caption": "01 Park Grass - 2015 2nd cut cutting",
+        "URL": "images/metadata/rpg5/01-pg2015-2ndcut-cutting.jpg",
+        "Caption": "Park Grass - 2015 2nd cut cutting",
         "Type": "Other",
         "exptID": "rpg5",
         "width": 750,
@@ -26,8 +26,8 @@
     {
         "MediaID": 212,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/02-pg2015-2ndcut-raking.jpg",
-        "Caption": "02 Park Grass - 2015 2nd cut raking",
+        "URL": "images/metadata/rpg5/02-pg2015-2ndcut-raking.jpg",
+        "Caption": "Park Grass - 2015 2nd cut raking",
         "Type": "Other",
         "exptID": "rpg5",
         "width": 750,
@@ -38,8 +38,8 @@
     {
         "MediaID": 213,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/03-pg2015-2ndcut-weighing.jpg",
-        "Caption": "03 Park Grass - 2015 2nd cut weighing",
+        "URL": "images/metadata/rpg5/03-pg2015-2ndcut-weighing.jpg",
+        "Caption": "Park Grass - 2015 2nd cut weighing",
         "Type": "Other",
         "exptID": "rpg5",
         "width": 750,
@@ -50,8 +50,8 @@
     {
         "MediaID": 214,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/04-pg2015-2ndcut-scales.jpg",
-        "Caption": "04 Park Grass - 2015 2nd cut scales",
+        "URL": "images/metadata/rpg5/04-pg2015-2ndcut-scales.jpg",
+        "Caption": "Park Grass - 2015 2nd cut scales",
         "Type": "Other",
         "exptID": "rpg5",
         "width": 750,
@@ -62,8 +62,8 @@
     {
         "MediaID": 215,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/05-pg2015-2ndcut-strip.jpg",
-        "Caption": "05 Park Grass - 2015 2nd cut strip",
+        "URL": "images/metadata/rpg5/05-pg2015-2ndcut-strip.jpg",
+        "Caption": "Park Grass - 2015 2nd cut strip",
         "Type": "Other",
         "exptID": "rpg5",
         "width": 750,
@@ -74,8 +74,8 @@
     {
         "MediaID": 216,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/06-pg2015-2ndcut-processing.jpg",
-        "Caption": "06 Park Grass - 2015 2nd cut processing",
+        "URL": "images/metadata/rpg5/06-pg2015-2ndcut-processing.jpg",
+        "Caption": "Park Grass - 2015 2nd cut processing",
         "Type": "Other",
         "exptID": "rpg5",
         "width": 750,
@@ -86,8 +86,8 @@
     {
         "MediaID": 217,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/07-pg2015-2ndcut-wetweight.jpg",
-        "Caption": "07 Park Grass - 2015 2nd cut wet weight",
+        "URL": "images/metadata/rpg5/07-pg2015-2ndcut-wetweight.jpg",
+        "Caption": "Park Grass - 2015 2nd cut wet weight",
         "Type": "Other",
         "exptID": "rpg5",
         "width": 750,
@@ -98,8 +98,8 @@
     {
         "MediaID": 218,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/08-pg2015-2ndcut-sampleboxes.jpg",
-        "Caption": "08 Park Grass - 2015 2nd cut sample boxes",
+        "URL": "images/metadata/rpg5/08-pg2015-2ndcut-sampleboxes.jpg",
+        "Caption": "Park Grass - 2015 2nd cut sample boxes",
         "Type": "Other",
         "exptID": "rpg5",
         "width": 750,
@@ -110,8 +110,8 @@
     {
         "MediaID": 219,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/09-pg2015-2ndcut-driedsamples.jpg",
-        "Caption": "09 Park Grass - 2015 2nd cut dried samples",
+        "URL": "images/metadata/rpg5/09-pg2015-2ndcut-driedsamples.jpg",
+        "Caption": "Park Grass - 2015 2nd cut dried samples",
         "Type": "Other",
         "exptID": "rpg5",
         "width": 750,
@@ -122,8 +122,8 @@
     {
         "MediaID": 220,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/10-pg2015-2ndcut-labelledsampletins.jpg",
-        "Caption": "10 Park Grass - 2015 2nd cut labelled sample tins",
+        "URL": "images/metadata/rpg5/10-pg2015-2ndcut-labelledsampletins.jpg",
+        "Caption": "Park Grass - 2015 2nd cut labelled sample tins",
         "Type": "Other",
         "exptID": "rpg5",
         "width": 750,
@@ -134,8 +134,8 @@
     {
         "MediaID": 221,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/1623-map.jpg",
-        "Caption": "1623 map",
+        "URL": "images/metadata/rpg5/1623-map.jpg",
+        "Caption": "Rothamsted Map - 1623",
         "Type": "Other",
         "exptID": "rpg5",
         "width": 750,
@@ -146,7 +146,7 @@
     {
         "MediaID": 222,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/1709-Park-Grass-aerial-parkgrass.jpg",
+        "URL": "images/metadata/rpg5/1709-Park-Grass-aerial-parkgrass.jpg",
         "Caption": "Park Grass aerial",
         "Type": "Other",
         "exptID": "rpg5",
@@ -158,7 +158,7 @@
     {
         "MediaID": 223,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/23-May-2005-aerial-low.jpg",
+        "URL": "images/metadata/rpg5/23-May-2005-aerial-low.jpg",
         "Caption": "Park Grass aerial - 2005",
         "Type": "Other",
         "exptID": "rpg5",
@@ -170,7 +170,7 @@
     {
         "MediaID": 224,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/3008-Park-Grass-aerial-23-May-2005-f.jpg",
+        "URL": "images/metadata/rpg5/3008-Park-Grass-aerial-23-May-2005-f.jpg",
         "Caption": "Park Grass aerial - 2005 f",
         "Type": "Other",
         "exptID": "rpg5",
@@ -182,7 +182,7 @@
     {
         "MediaID": 225,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/3008-Park-Grass-aerial-23-May-2005-p.jpg",
+        "URL": "images/metadata/rpg5/3008-Park-Grass-aerial-23-May-2005-p.jpg",
         "Caption": "Park Grass aerial - 2005 p",
         "Type": "Other",
         "exptID": "rpg5",
@@ -194,7 +194,7 @@
     {
         "MediaID": 245,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/june16-2015-pg-aerial.jpg",
+        "URL": "images/metadata/rpg5/june16-2015-pg-aerial.jpg",
         "Caption": "Par Grass - 2015",
         "Type": "Other",
         "exptID": "rpg5",
@@ -206,7 +206,7 @@
     {
         "MediaID": 246,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/metasoil-diagram.png",
+        "URL": "images/metadata/rpg5/metasoil-diagram.png",
         "Caption": "Metasoil diagram",
         "Type": "Other",
         "exptID": "rpg5",
@@ -218,7 +218,7 @@
     {
         "MediaID": 238,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/Park-Grass-2016.png",
+        "URL": "images/metadata/rpg5/Park-Grass-2016.png",
         "Caption": "Park Grass - 2016",
         "Type": "Other",
         "exptID": "rpg5",
@@ -230,7 +230,7 @@
     {
         "MediaID": 248,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/parkgrassharvest.gif",
+        "URL": "images/metadata/rpg5/parkgrassharvest.gif",
         "Caption": "Park Grass harvest",
         "Type": "Other",
         "exptID": "rpg5",
@@ -242,7 +242,7 @@
     {
         "MediaID": 249,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/parkgrassharvest.jpg",
+        "URL": "images/metadata/rpg5/parkgrassharvest.jpg",
         "Caption": "Park Grass harvest",
         "Type": "Other",
         "exptID": "rpg5",
@@ -254,7 +254,7 @@
     {
         "MediaID": 250,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/parkgrassharvest2.jpg",
+        "URL": "images/metadata/rpg5/parkgrassharvest2.jpg",
         "Caption": "Park Grass harvest",
         "Type": "Other",
         "exptID": "rpg5",
@@ -266,7 +266,7 @@
     {
         "MediaID": 243,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/ParkGrass-med.png",
+        "URL": "images/metadata/rpg5/ParkGrass-med.png",
         "Caption": "Park Grass  med",
         "Type": "Other",
         "exptID": "rpg5",
@@ -278,7 +278,7 @@
     {
         "MediaID": 241,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/Park-Grass-pH-2016.jpg",
+        "URL": "images/metadata/rpg5/Park-Grass-pH-2016.jpg",
         "Caption": "Park Grass pH - 2016",
         "Type": "Other",
         "exptID": "rpg5",
@@ -290,7 +290,7 @@
     {
         "MediaID": 242,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/Park-Grass-pH-2016.png",
+        "URL": "images/metadata/rpg5/Park-Grass-pH-2016.png",
         "Caption": "Park Grass pH - 2016",
         "Type": "Other",
         "exptID": "rpg5",
@@ -302,7 +302,7 @@
     {
         "MediaID": 239,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/Park-Grass-Species-Chart-2016.jpg",
+        "URL": "images/metadata/rpg5/Park-Grass-Species-Chart-2016.jpg",
         "Caption": "Park Grass Species Chart - 2016",
         "Type": "Other",
         "exptID": "rpg5",
@@ -314,7 +314,7 @@
     {
         "MediaID": 240,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/Park-Grass-Species-Chart-2016.png",
+        "URL": "images/metadata/rpg5/Park-Grass-Species-Chart-2016.png",
         "Caption": "Park Grass Species Chart - 2016",
         "Type": "Other",
         "exptID": "rpg5",
@@ -326,7 +326,7 @@
     {
         "MediaID": 247,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/park-grass-today.jpg",
+        "URL": "images/metadata/rpg5/park-grass-today.jpg",
         "Caption": "Park Grass today",
         "Type": "Other",
         "exptID": "rpg5",
@@ -338,7 +338,7 @@
     {
         "MediaID": 226,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/PG11-2dand12d09JUNE05j.jpg",
+        "URL": "images/metadata/rpg5/PG11-2dand12d09JUNE05j.jpg",
         "Caption": "Park Grass 2d and 12d - 09 JUNE 2005",
         "Type": "Other",
         "exptID": "rpg5",
@@ -350,7 +350,7 @@
     {
         "MediaID": 227,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/PG1865.jpg",
+        "URL": "images/metadata/rpg5/PG1865.jpg",
         "Caption": "Park Grass - 1865",
         "Type": "Other",
         "exptID": "rpg5",
@@ -362,7 +362,7 @@
     {
         "MediaID": 228,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/PG1881.jpg",
+        "URL": "images/metadata/rpg5/PG1881.jpg",
         "Caption": "Park Grass  - 1881",
         "Type": "Other",
         "exptID": "rpg5",
@@ -374,7 +374,7 @@
     {
         "MediaID": 229,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/PG1961.jpg",
+        "URL": "images/metadata/rpg5/PG1961.jpg",
         "Caption": "Park Grass - 1961",
         "Type": "Other",
         "exptID": "rpg5",
@@ -386,7 +386,7 @@
     {
         "MediaID": 230,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/PG20June05b.jpg",
+        "URL": "images/metadata/rpg5/PG20June05b.jpg",
         "Caption": "Park Grass - 2005",
         "Type": "Other",
         "exptID": "rpg5",
@@ -398,7 +398,7 @@
     {
         "MediaID": 231,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/PG20June05g.jpg",
+        "URL": "images/metadata/rpg5/PG20June05g.jpg",
         "Caption": "Park Grass June - 2005",
         "Type": "Other",
         "exptID": "rpg5",
@@ -410,7 +410,7 @@
     {
         "MediaID": 232,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/PG20June05k.jpg",
+        "URL": "images/metadata/rpg5/PG20June05k.jpg",
         "Caption": "Park Grass June - 2005",
         "Type": "Other",
         "exptID": "rpg5",
@@ -422,7 +422,7 @@
     {
         "MediaID": 233,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/PG20June05n.jpg",
+        "URL": "images/metadata/rpg5/PG20June05n.jpg",
         "Caption": "Park Grass June - 2005",
         "Type": "Other",
         "exptID": "rpg5",
@@ -434,7 +434,7 @@
     {
         "MediaID": 234,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/PGMay1990Plot1close-up.jpg",
+        "URL": "images/metadata/rpg5/PGMay1990Plot1close-up.jpg",
         "Caption": "Park Grass May 1990 Plot 1 close up",
         "Type": "Other",
         "exptID": "rpg5",
@@ -446,7 +446,7 @@
     {
         "MediaID": 235,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/PGMay1990Plots14.2v1.jpg",
+        "URL": "images/metadata/rpg5/PGMay1990Plots14.2v1.jpg",
         "Caption": "Park Grass May 1990 Plot 14",
         "Type": "Other",
         "exptID": "rpg5",
@@ -458,7 +458,7 @@
     {
         "MediaID": 236,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/PGMay1999Plot14.1v14.2.jpg",
+        "URL": "images/metadata/rpg5/PGMay1999Plot14.1v14.2.jpg",
         "Caption": "Park Grass May 1990 Plot 14",
         "Type": "Other",
         "exptID": "rpg5",
@@ -470,7 +470,7 @@
     {
         "MediaID": 237,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/PGMay1999Plot3close-up.jpg",
+        "URL": "images/metadata/rpg5/PGMay1999Plot3close-up.jpg",
         "Caption": "Park Grass May 1990 Plot 3 close up",
         "Type": "Other",
         "exptID": "rpg5",
@@ -482,8 +482,8 @@
     {
         "MediaID": 244,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/Sorting1930s.jpg",
-        "Caption": "Sorting - 1930",
+        "URL": "images/metadata/rpg5/Sorting1930s.jpg",
+        "Caption": "Park Grass sorting - 1930",
         "Type": "Other",
         "exptID": "rpg5",
         "width": 1001,
@@ -494,8 +494,8 @@
     {
         "MediaID": 251,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/rpg5/storkeyFig4.jpg",
-        "Caption": "orkey Fig4",
+        "URL": "images/metadata/rpg5/storkeyFig4.jpg",
+        "Caption": "Storkey Fig4",
         "Type": "Other",
         "exptID": "rpg5",
         "width": 566,

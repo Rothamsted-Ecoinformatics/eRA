@@ -2,7 +2,7 @@
     {
         "MediaID": 297,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/wrn3/Woburn-Farm-map-750.jpg",
+        "URL": "images/metadata/wrn3/Woburn-Farm-map-750.jpg",
         "Caption": "Woburn Farm map",
         "Type": "Other",
         "exptID": "wrn3",
@@ -14,8 +14,8 @@
     {
         "MediaID": 298,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/wrn3/Woburn-Fields-Stackyard-750.jpg",
-        "Caption": "Woburn Fields Stackyard",
+        "URL": "images/metadata/wrn3/Woburn-Fields-Stackyard-750.jpg",
+        "Caption": "Woburn Stackyard",
         "Type": "Other",
         "exptID": "wrn3",
         "width": 750,
@@ -26,8 +26,8 @@
     {
         "MediaID": 300,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/wrn3/Woburn-ley-arable-675.jpg",
-        "Caption": "Woburn ley arable",
+        "URL": "images/metadata/wrn3/Woburn-ley-arable-675.jpg",
+        "Caption": "Woburn Ley Arable",
         "Type": "Other",
         "exptID": "wrn3",
         "width": 675,
@@ -38,7 +38,7 @@
     {
         "MediaID": 299,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/wrn3/Woburn-LTEs-750.jpg",
+        "URL": "images/metadata/wrn3/Woburn-LTEs-750.jpg",
         "Caption": "Woburn LTEs",
         "Type": "Other",
         "exptID": "wrn3",

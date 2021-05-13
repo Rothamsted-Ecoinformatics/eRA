@@ -6,19 +6,22 @@
  * @author Nathalie Castells-Brooke
  * @date 9/27/2018
  */
+?>
+<h2>Key References</h2>
+<div class="mx-3">
+	<?php
 
 if ($KeyRef != " - ") {
-    ?>
-<h2 class="mx-3">Key References</h2>
-	<div class="mx-5">
-	<?php
-        // keyref : keyword to look for in eRAbib. usually a keyref keyword
-    
-     $papers = GetKeyRefs($KeyRef);
-        //echo $papers;
-        echo "</div>";
-} else {echo $KeyRef;}
 
+    // keyref : keyword to look for in eRAbib. usually a keyref keyword
+    
+    $papers = GetKeyRefs($KeyRef);
+
+    echo $papers;
+    
+} else {
+    echo "NO KEYREF PROVIDED";
+}
 
 ?>
-
+</div>

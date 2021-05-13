@@ -11,13 +11,5 @@
                 "description": "http://www.rothamsted.ac.uk"
             }
         ]
-    },
-    {
-        "type": "Organization",
-        "name": "Environmental Change Network",
-        "legalName": "ECN",
-        "identifier": "NA",
-        "role": "research organisation",
-        "contactPoint": "NA"
     }
 ]

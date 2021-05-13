@@ -6,7 +6,8 @@
 		"Type": "php",
 		"exptID": "broomsbarn",
 		"isReviewed": 0
-	},{
+	},
+	{
 		"Credit": "eRA curators",
 		"FileName": "index",
 		"Caption": "The data extraction Tool",
@@ -21,7 +22,8 @@
 		"Type": "php",
 		"exptID": "default",
 		"isReviewed": 0
-	},{
+	},
+	{
 		"Credit": "eRA curators",
 		"FileName": "experiments",
 		"Caption": "All the experiments",
@@ -34,30 +36,42 @@
 		"FileName": "instrumentdescription",
 		"Caption": "Measuring the weather",
 		"Type": "html",
+		"exptID": "met",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "about",
+		"Caption": "About e-RA",
+		"Type": "html",
 		"exptID": "default",
 		"isReviewed": 0
-	},	{
+	},
+	{
 		"Credit": "eRA curators",
 		"FileName": "howtoaccessdata",
 		"Caption": "How to access data",
 		"Type": "html",
 		"exptID": "default",
 		"isReviewed": 0
-	},{
+	},
+	{
 		"Credit": "eRA curators",
 		"FileName": "conditions",
 		"Caption": "Conditions of Use",
 		"Type": "html",
 		"exptID": "default",
 		"isReviewed": 0
-	},{
+	},
+	{
 		"Credit": "eRA curators",
 		"FileName": "howtocredit",
 		"Caption": "How to credit materials",
 		"Type": "html",
 		"exptID": "default",
 		"isReviewed": 0
-	},{
+	},
+	{
 		"Credit": "eRA curators",
 		"FileName": "dataQuality",
 		"Caption": "Data Quality in e-RA",
@@ -65,7 +79,6 @@
 		"exptID": "default",
 		"isReviewed": 0
 	},
-	
 	{
 		"Credit": "eRA curators",
 		"FileName": "CF",
@@ -97,7 +110,8 @@
 		"Type": "html",
 		"exptID": "met",
 		"isReviewed": 1
-	},{
+	},
+	{
 		"Credit": "eRA curators",
 		"FileName": "Introoriginal",
 		"Caption": "about the meteorological records - original",
@@ -192,11 +206,11 @@
 		"Type": "html",
 		"exptID": "met",
 		"isReviewed": 1
-	},	
+	},
 	{
 		"Credit": "eRA curators",
 		"FileName": "public",
-		"Caption": "Weather data for schools",
+		"Caption": "Weather data for the public",
 		"Type": "html",
 		"exptID": "met",
 		"isReviewed": 1
@@ -217,7 +231,6 @@
 		"exptID": "met",
 		"isReviewed": 1
 	},
-
 	{
 		"Credit": "eRA curators",
 		"FileName": "index",
@@ -473,7 +486,8 @@
 		"Type": "php",
 		"exptID": "rhb2",
 		"isReviewed": 0
-	},{
+	},
+	{
 		"Credit": "eRA curators",
 		"FileName": "index",
 		"Caption": "Rothamsted Experimental Station",
@@ -600,7 +614,7 @@
 		"Type": "php",
 		"exptID": "rwf3",
 		"isReviewed": 0
-	},	
+	},
 	{
 		"Credit": "eRA curators",
 		"FileName": "index",

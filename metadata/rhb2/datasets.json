@@ -1,0 +1,42 @@
+[
+    {
+        "md_id": 90380277,
+        "title": "Hoosfield mean long-term spring barley yields 1852-2015",
+        "URL": "http://www.era.rothamsted.ac.uk/Hoos/hoos_open_access_yields",
+        "identifier": "10.23637/KeyRefOAHByields",
+        "identifier_type": "DOI",
+        "dataset_type": "Crop  yield data",
+        "extension": "xlsx",
+        "description": "This dataset shows the mean long-term spring barley yields from selected treatments on the Hoosfield experiment. Spring barley has been grown continuously since 1852. The changes in yield reflect the improved varieties, cultivations and control of weeds and diseases that have been introduced, especially since the late 1960s. To control weeds, the whole experiment was bare fallowed four times, in 1912, 1933, 1943 and 1967. Herbicides were introduced in 1945 and regular liming began in 1955. From 1852-1966 the Unfertilized and FYM plots did not receive any fertilizer N, whereas N1PKMg received 48 kg N ha<sup>-1</sup>. In 1968, the main plots were divided to test four rates of N (0, 48, 96 and 144 kg N ha<sup>-1</sup>); these have rotated each year since 1974. In 1970 modern short-strawed cultivars with greater yield potential were introduced, and, since 1978, summer fungicides have been used, which has allowed us to exploit that potential.\r\n\r\nYields of spring barley given no fertilizer or manure have remained at around 1 t ha<sup>-1</sup> throughout the experiment. Between 1852 and 1970, the highest yields were from the plot given 35 t ha<sup>-1</sup> of FYM each year. The highest yields are now from the plot given FYM with fertilizer N (a maximum of 144 kg N ha<sup>-1</sup>), exceeding those given just inorganic fertilizers. This shows the importance of soil organic matter and good soil structure for spring-sown crops, which facilitates rooting and access to water and nutrients. The comparable Broadbalk Yields graph suggests that this is not necessarily true for winter-sown crops. There is no longer a yield benefit to the spring barley on the plot given FYM for just 20 years, 1852-71.\r\nThe greatest yields were not always achieved with the highest N rate. The figure shows the greatest yields achieved each year for the NPKMg and FYM+N treatments. These are the means of the highest yields achieved each year with fertilizer N, up to a maximum of 144 kg N ha<sup>-1</sup>.\r\nFrom 1968 to 1978 three course rotations of potatoes, beans and barley were introduced on parts of the experiment, to compare the yields of spring barley grown continuously and after a two year break. The best yields in rotation were only 0.3 t ha<sup>-1</sup> more than for continuous barley, and the rotations were discontinued in 1979 (data not shown). This is in contrast to the Broadbalk Experiment, where winter wheat yields after a two-year break can be more than 2 t ha<sup>-1</sup> larger than yields of continuous wheat. Part of the reason may be that spring cropping allows more effective weed control than winter cropping, especially when herbicides are used.",
+        "fieldname": "Hoosfield",
+        "experiment_name": "Hoosfield Spring Barley",
+        "experiment_code": "R/HB/2",
+        "grade": 3,
+        "dstype": "OA",
+        "publication_year": 2017,
+        "version": "01",
+        "isReady": 2,
+        "shortName": "HBYields",
+        "UID": "01-HBYields"
+    },
+    {
+        "md_id": 181617775,
+        "title": "Hoosfield soil organic carbon content",
+        "URL": "http://www.era.rothamsted.ac.uk/Hoos/hoos_open_access_soc",
+        "identifier": "10.23637/KeyRefOAHBsoc",
+        "identifier_type": "DOI",
+        "dataset_type": "Soil data",
+        "extension": "xlsx",
+        "description": "This dataset shows changes in soil organic carbon (SOC) content (tha<sup>-1</sup>) in the topsoil (0-23cm) of selected treatments of the Hoosfield experiment, where spring barley has been grown each year since 1852.  SOC has remained almost constant in the unfertilized plot since the 1880s, at the equilibrium level for this farming system on this soil type. Annual applications of 35 t ha<sup>-1</sup> FYM increased SOC rapidly at first, then more slowly. This treatment now contains around three times as much SOC as the unfertilized plot. The third treatment, given FYM for just 20 years between 1852 and 1871, still contains over 40% more SOC than the unfertilized plot.",
+        "fieldname": "Hoosfield",
+        "experiment_name": "Hoosfield Spring Barley",
+        "experiment_code": "R/HB/2",
+        "grade": 2,
+        "dstype": "OA",
+        "publication_year": 2012,
+        "version": "01",
+        "isReady": 2,
+        "shortName": "HBSOC1852",
+        "UID": "01-HBSOC1852"
+    }
+]

@@ -10,8 +10,8 @@
 			<?php echo ($strMessage . " ");?>
 
 			<li class="nav-item"><a class="btn btn-info mx-1"
-				href="#modalLogin" data-toggle="modal" data-backdrop="static">
-					<i class="fa fa-user"></i> <?php echo $registeredUser; ?>
+				href="#modalLogin" data-toggle="modal" data-backdrop="static"> <i
+					class="fa fa-user"></i> <?php echo $registeredUser; ?>
 			</a></li>
 			<li class="nav-item"><a class="btn btn-info mx-1"
 				href="e-RApubs.php"> <i class="fa fa-mortar-board"></i> e-RApubs
@@ -36,7 +36,7 @@
 		<span class="navbar-toggler-icon"></span>
 	</button>
 	<a class="navbar-brand" href="index.php"> <img
-		src="images/logos/eRALogoSmall.gif" 
+		src="images/logos/eRALogoSmall.gif"
 		alt="The
 		        electronic Rothamsted Archive"> The
 		electronic Rothamsted Archive
@@ -92,29 +92,26 @@
 								<li><a href="experiment/rcs326">Amounts of straw</a></li>
 								<li><a href="experiment/rwf3">Alternate Wheat and
 										Fallow</a></li>
-
-								<li><a href="experiment/rbk1">Broadbalk</a></li>
-
+								<li><a href="experiment/rbk1">Broadbalk Wheat</a></li>
+								<li><a href="experiment/rbk1w">Broadbalk Wilderness</a></li>
 								<li><a href="experiment/rex4">Exhaustion Land</a></li>
+								<li><a href="experiment/rrn2">Fosters Ley-arable</a></li>
+								<li><a href="experiment/rrn1">Highfield Ley-arable</a></li>
+
+
+							</ul>
+						</li>
+
+						<li class="col-md-4 dropdown-item">
+							<ul>
+								<li class="dropdown-header">Rothamsted (cont.)</li>
 								<li><a href="experiment/rgc8">Garden Clover</a></li>
 								<li><a href="experiment/rge9">Geescroft Wilderness</a></li>
 								<li><a href="experiment/rrs1">Highfield Bare Fallow</a></li>
 								<li><a href="experiment/rcs767">Highfield Conversion</a></li>
 								<li><a href="experiment/rhb2">Hoosfield Spring Barley</a></li>
 								<li><a href="experiment/rcs10">Long-term Liming</a></li>
-								<li><a href="experiment/rcs408">Miscanthus sinensis
-										giganteus study</a></li>
 								<li><a href="experiment/rpg5">Park Grass</a></li>
-								
-							</ul>
-						</li>
-
-						<li class="col-md-4 dropdown-item">
-							<ul>
-
-								<li class="dropdown-header">Saxmundham</li>
-								<li><a href="experiment/srn1"> Rotation 1</a></li>
-								<li><a href="experiment/srn2"> Rotation 2</a></li>
 							</ul>
 						</li>
 
@@ -129,6 +126,13 @@
 
 
 							</ul>
+							<hr />
+							<ul>
+
+								<li class="dropdown-header">Saxmundham</li>
+								<li><a href="experiment/srn1"> Rotation 1</a></li>
+								<li><a href="experiment/srn2"> Rotation 2</a></li>
+							</ul>
 						</li>
 					</div>
 				</ul></li>
@@ -139,55 +143,65 @@
 				class="dropdown-toggle nav-link" data-toggle="dropdown">DATA </a>
 				<ul class="dropdown-menu megamenu">
 					<div class="row">
-						<li class="col-md-3 dropdown-item">
+						<li class="col-md-4 dropdown-item">
 							<ul>
 								<li class="dropdown-header">Documentation</li>
-								<li><a href="info.php?FileName=howtoaccessdata">How to Access
+								<li><a href="info/howtoaccessdata">How to Access
 										Datasets</a></li>
-								<li><a href="info.php?FileName=howtocredit">How to Credit Datasets</a></li>
-								<li><a href="info.php?FileName=conditions">Conditions for Using
+								<li><a href="info/howtocredit">How to Credit Datasets</a></li>
+								<li><a href="info/conditions">Conditions for Using
 										Datasets</a></li>
-								<li><a href="info.php?FileName=dataQuality">Data
-										Quality</a></li>
-								<li><a href="info.php?FileName=CF">Conversion Factors</a></li>
+								<li><a href="info/dataQuality">Data Quality</a></li>
+								<li><a href="info/CF">Conversion Factors</a></li>
 								<li><a href="register.php">Access Data</a></li>
 								<li><a href="#">Data Updates</a></li>
 							</ul>
 						</li>
-						<li class="col-md-3 dropdown-item">
+						<li class="col-md-4 dropdown-item">
 							<ul>
-								<li class="dropdown-header">Rothamsted</li>
-								<li><a href="experiment/rbk1#datasets">Broadbalk</a></li>
+								<li class="dropdown-header ">Rothamsted</li>
+								<li><a href="experiment/rbk1#datasets">Broadbalk Wheat</a></li>
+								<li><a href="experiment/rpg5#datasets">Park Grass</a></li>
+								<li><a href="experiment/rhb2#datasets">Hoosfield Barley</a></li>
+							</ul>
+							<hr />
+							<ul>
+								<li><a href="experiment/rbk1w#datasets">Broadbalk
+										Wilderness</a></li>
 								<li><a href="experiment/rex4#datasets">Exhaustion Land</a></li>
-								<li><a href="experiment/rcs10#datasets">Long-term Liming</a></li>
+								<li><a href="experiment/rrn2#datasets">Fosters 
+										Ley-arable</li>
+								<li><a href="experiment/rge9#datasets">Geescroft
+										Wilderness</a></li>
+								<li><a href="experiment/rrn1#datasets">Highfield Ley-arable</a></li>
+
+								<li><a href="experiment/rcs10#datasets">Long-term
+										Liming</a></li>
+
 							</ul>
 						</li>
-						<li class="col-md-3 dropdown-item">
-							<ul>
-								<li class="dropdown-header">Saxmundham</li>
-
-								<li><a href="experiment/srn2#datasets"> Rotation 2</a></li>
-							</ul>
-						</li>
-						<li class="col-md-3 dropdown-item">
-							<ul>
-
-								<li class="dropdown-header">Woburn</li>
-
-								<li><a href="experiment/wcs10#datasets">Long-term Liming</a></li>
-
-
-							</ul>
+						<li class="col-md-4 dropdown-item">
 							
 							<ul>
 
-								<li class="dropdown-header">Other</li>
+								<li class="dropdown-header ">Woburn</li>
+
+								<li><a href="experiment/wcs10#datasets">Long-term
+										Liming</a></li>
+
+
+							</ul>
+							<hr />
+							<ul>
+
+								<li class="dropdown-header ">Other</li>
 
 								<li><a href="orphans.php">Other Datasets</a></li>
 
 
 							</ul>
 						</li>
+						
 
 
 
@@ -201,20 +215,17 @@
 					DATA </a>
 				<ul class="dropdown-menu megamenu">
 					<div class="row">
-						<li class="col-md-4 dropdown-item">
+						<li class="col-md-6 dropdown-item">
 							<ul>
-								<li><a href="info.php?expt=met&FileName=derived_variables">Derived
+								<li><a href="info/met/derived_variables">Derived
 										Variables</a></li>
-								<li><a href="info.php?expt=met&FileName=equipment">Equipment
-										(measuring the weather)</a></li>
 
-								<li><a href="info.php?expt=met&FileName=public">For the
-										public</a></li>
-								<li><a href="info.php?expt=met&FileName=schools">For
-										the schools</a></li>
+
+								<li><a href="info/met/public">For the public</a></li>
+								<li><a href="info/met/schools">For schools</a></li>
 							</ul>
 						</li>
-						<li class="col-md-8 dropdown-item">
+						<li class="col-md-6 dropdown-item">
 							<ul>
 								<li><a href="station/rms#datasets">Records for
 										Rothamsted</a></li>
@@ -240,15 +251,16 @@
 								<li class="dropdown-header">News and Updates</li>
 								<li><a href="https://twitter.com/eRA_Curator">Twitter</a></li>
 
-								<li><a href="#">e-RA news</a>
+								<li><a href="updates.php">e-RA news</a>
 							</ul>
 						</li>
 						<li class="col-md-4 dropdown-item">
 							<ul>
-								<li class="dropdown-header"><a href="about.php">About</a></li>
-								<li><a href="#">History</a></li>
+								<li class="dropdown-header">About</li>
+								<li><a href="info/about">About e-RA</a></li>
+								<li><a target="_blank" href="https://www.rothamsted.ac.uk/national-capabilities">National Capabilities</a>
 								<li><a href="contact.php">Contact us</a></li>
-								<li><a href="#">How to Credit</a></li>
+								<li><a href="info/howtocredit">How to Credit</a></li>
 
 
 							</ul>
@@ -256,22 +268,20 @@
 						<li class="col-md-4 dropdown-item">
 							<ul>
 								<li>
-								
 								<li class="dropdown-header"><a href="about.php">Curation</a></li>
-								<li>
-								<a
+								<li><a
 									href="http://local-info.rothamsted.ac.uk/eRA/era2018-doxy/html/index.html">Documentation</a></li>
-								
+
 								<li><a href="zphpinfo.php">phpinfo</a>
-<li><a href="ztestuser.php">List registered User</a>
-<li><a href="ztestvar.php">TestVar</a>
+								<li><a href="ztestuser.php">List registered User</a>
+								<li><a href="ztestvar.php">TestVar</a>
 								<li><a href="zreset.php">reset session</a></li>
 								<li><a href="history.php">Session History</a></li>
 							</ul>
 						</li>
 					</div>
 				</ul></li>
-			
+
 		</ul>
 	</div>
 </nav>

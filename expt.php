@@ -69,7 +69,6 @@ if ($hasSite) {
     $jdata = file_get_contents($fileSite);
     $jdata = utf8_encode($jdata);
     $site = json_decode($jdata, true);
-    
 }
 
 $fileDesign = $exptFolder . '/design.json';
@@ -87,13 +86,33 @@ if ($hasDesign) {
 $fileDataset = $exptFolder . '/' . 'datasets.json';
 
 $hasDatasets = file_exists($fileDataset);
+$displayDatasets = 0;
 if ($hasDatasets) {
     $jdatasets = file_get_contents($fileDataset);
     $jdatasets = utf8_encode($jdatasets);
     $datasets = json_decode($jdatasets, true);
+    foreach ($datasets as $dataset) {
+        if ($dataset['isReady'] > $displayValue) {
+            $displayDatasets = 1;
+        }
+    }
 }
 $fileDocs = $exptFolder . '/' . 'doclist.html';
 $hasDocs = file_exists($fileDocs);
+
+$imageurl =  $exptFolder . '/' . 'images.json';
+$hasImages = file_exists($imageurl);
+if ($hasImages) {
+    $jimages = file_get_contents($imageurl);
+    $jimages = utf8_encode($jimages);
+    $images = json_decode($jimages, true);
+    $displayImages = 0;
+   
+    foreach ($images as $image) {
+        $displayImages += 1;
+    }
+   
+}
 
 ?>
 
@@ -124,9 +143,9 @@ $hasDocs = file_exists($fileDocs);
             ?>
 		<div id="idExpt" class="p-0 mb-0">
 			<h1 class="mx-3"><?php
-            // /experimentname is found in the datadescription file.
-        echo title_case($experiment['administrative']['name']);
-        ?></h1>
+// /experimentname is found in the datadescription file.
+echo title_case($experiment['administrative']['name']);
+?></h1>
 			<div class="row">
 				<div class="col-12 pt-3">
 					<ul class="nav nav-tabs nav-fill text-body ">
@@ -139,13 +158,14 @@ $hasDocs = file_exists($fileDocs);
 							data-toggle="tab" href="#design">Design</a></li>
                 		<?php }?>		
                 						
-                		<?php if ($hasDatasets) {?>
                 						<li class="nav-item"><a class="nav-link"
 							id="datasets-tab" data-toggle="tab" href="#datasets">Datasets</a></li>
-                						<?php } ?>
-                						<li class="nav-item"><a class="nav-link"
-							id="images-tab" data-toggle="tab" href="#images">Images</a></li>
-						<?php if ($hasDocs) {?>	
+<?php if ($displayImages >0) {?>
+						<li class="nav-item"><a class="nav-link" id="images-tab"
+							data-toggle="tab" href="#images">Images</a></li>
+							
+						<?php }
+						if ($hasDocs) {?>	
 						<li class="nav-item"><a class="nav-link" id="documents-tab"
 							data-toggle="tab" href="#documents">More...</a></li>
 							<?php
@@ -175,20 +195,44 @@ $hasDocs = file_exists($fileDocs);
 							aria-labelledby="site-tab">
                 							<?php include '_site.php';?>
                 							</div>
-                								<?php if ($hasDatasets) {?>
-                						<div class="tab-pane  pb-3" id="datasets"
-							role="tabpanel" aria-labelledby="datasets-tab">
-                							<?php include '_datasets.php';?>
+
+						<div class="tab-pane  pb-3" id="datasets" role="tabpanel"
+							aria-labelledby="datasets-tab">
+                							<?php
+$inDet = array(
+                            "rbk1",
+                            "rhb2",
+                            "rpg5",
+                            "rms",
+                            "wms",
+                            "bms"
+                        );
+if ($displayDatasets > 0) {
+   
+                        include '_datasets.php';
+} else if ($displayDatasets == 0) {
+						
+                        
+                        if (in_array($expt, $inDet)) {
+                            echo  "Additional data is available through eRAdata. Please <a href=\"newGold.php\" >register for access</a>.  ";
+                        } else if ($expt == "rwf3") {
+                            echo  " Datasets for Alternate Wheat and Fallow are only available through  eRAdata. Please <a href=\"newGold.php\" >register for access</a>. ";
+                        } else {
+                    
+                        echo  "There are currently no preprared datasets online for this experiment. However, there may still be data available but requiring curation. For more information please <a href=\"mailto:era@rothamsted.ac.uk\">contact the e-RA curators</a>. ";
+                        }
+                    }
+                    ?>
                 							</div>
-                							<?php }?>
-                							
-                						<div class="tab-pane" id="images" role="tabpanel"
+
+
+						<div class="tab-pane" id="images" role="tabpanel"
 							aria-labelledby="images-tab">
                 							<?php include '_images.php';?>
                 							</div>
 						<div class="tab-pane  pb-3" id="documents" role="tabpanel"
 							aria-labelledby="documents-tab">
-							
+							<div class="mx-3">
 							
 							<?php
     $doclist = $exptFolder . '/doclist.html';
@@ -197,33 +241,36 @@ $hasDocs = file_exists($fileDocs);
 
     if (isset($sub)) {
         $docpage = $exptFolder . '/' . $sub . '.html';
-        
 
         include $docpage;
     }
 
     if (isset($ref)) {
-        $KeyRef = $ref;
-        include '_keyrefs.php';
+        
+        $papers = GetKeyRefs($ref);
+        
+        if (substr($papers, 0, 4) != "NONE") {
+            
+            echo "<h2>Key References</h2> \n\t\t
+                    <div class=\"mx-3\">".$papers."\n\t</div>";
+	
+        } 
+        
     }
-    
 
     ?>
-							
+							</div>
 						</div>
 						<div class="tab-pane  pb-3" id="keyrefs" role="tabpanel"
 							aria-labelledby="keyrefs-tab">
+							<div class="mx-3">
                 							<?php
 
-                    if ($dev == 'norton') {
-                        echo $KeyRef;
-                    } else {
-                        include '_keyrefs.php';
-                    }
+                    include '_keyrefs.php';
+
                     ?>
                 							</div>
-
-
+						</div>
 					</div>
 				</div>
 			</div>

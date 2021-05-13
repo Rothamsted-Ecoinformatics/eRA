@@ -88,9 +88,9 @@ if ($hasDataset) {
     // this decide what modal we give depending on the type of dataset: the OA at the moment, does not record the download.
 
     $dstype = $dsinfo["dstype"];
-    $dstypeStr = "<a href=\"info.php?FileName=howtoaccessdata#OA\" \" target=\"out\">Open</a>";
+    $dstypeStr = "<a href=\"info/howtoaccessdata#OA\" \" target=\"out\">Open</a>";
     if ($dsinfo["dstype"] != 'OA') {
-        $dstypeStr = "<a href=\"info.php?FileName=howtoaccessdata#Other\" \" target=\"out\">Registration</a>";
+        $dstypeStr = "<a href=\"info/howtoaccessdata#Other\" \" target=\"out\">Registration</a>";
     }
 
     $modal = "#modalClickTrough" . $dstype;

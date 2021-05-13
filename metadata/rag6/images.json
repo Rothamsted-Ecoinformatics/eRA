@@ -2,13 +2,13 @@
     {
         "MediaID": 61,
         "Credit": "eRA curators",
-        "URL": "http://local-info.rothamsted.ac.uk/eRA/era2021/images/metadata/others/2015-Former-Agdell.jpg",
+        "URL": "images/metadata/rag6/2015-Former-Agdell.jpg",
         "Caption": "Former Agdell - 2015",
         "Type": "Other",
         "exptID": "rag6",
         "width": 369,
         "height": 136,
         "orientation": "Landscape",
-        "fileLocation": "metadata/others/2015-Former-Agdell.jpg"
+        "fileLocation": "metadata/rag6/2015-Former-Agdell.jpg"
     }
 ]

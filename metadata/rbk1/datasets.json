@@ -40,26 +40,6 @@
         "UID": "01-Nitro1843"
     },
     {
-        "md_id": 1796346264,
-        "title": "BKYIELD: Broadbalk wheat grain and straw yields 1852-1925",
-        "URL": "http://www.era.rothamsted.ac.uk/Broadbalk/",
-        "identifier": "10.23637/rbk1-1796346264-1",
-        "identifier_type": "DOI",
-        "dataset_type": "Crop  yield data",
-        "extension": "html",
-        "description": "Wheat grain and straw yields have been recorded every year since the experiment began, with the first harvest in 1844 (the crop was sown in autumn 1843). Dried grain and straw samples have also been kept for chemical analysis since 1844; these are preserved in the Rothamsted Sample Archive.",
-        "fieldname": "Broadbalk",
-        "experiment_name": "Broadbalk",
-        "experiment_code": "R/BK/1",
-        "grade": 2,
-        "dstype": "Other",
-        "publication_year": 1999,
-        "version": "01",
-        "isReady": 2,
-        "shortName": "YIELD844925",
-        "UID": "01-YIELD844925"
-    },
-    {
         "md_id": 935928566,
         "title": "Broadbalk changes in Olsen P in top soil, 1843-2010",
         "URL": "http://www.era.rothamsted.ac.uk/Broadbalk/bbk_open_access_olsenp",
@@ -167,7 +147,7 @@
         "identifier_type": "DOI",
         "dataset_type": "Crop nutrient data",
         "extension": "xlsx",
-        "description": "From 1968 Broadbalk was divided into 10 sections. Grain and straw from selected sections and plots were collected and stored in the Sample Archive. They were  analysed for Phosphorus (P), Potassium (K), Calcium (Ca), Magnesium (Mg), Sodium (Na) and Sulphur (S). Data is presented as % nutrient in grain and straw for what and rotational crops beans, oats, potatoes and maize and is the response to different fertiliser treatments and cropping.",
+        "description": "From 1968 Broadbalk was divided into 10 sections. Grain and straw from selected sections and plots were collected and stored in the Sample Archive. They were  analysed for nitrogen (N), phosphorus (P), potassium (K), calcium (Ca), magnesium (Mg), sodium (Na) and sulphur (S). Data is presented as % nutrient in  wheat grain and straw and is the response to different fertiliser treatments and cropping. Nitrogen is available all years and other nutrients for selected years, and for varying sections (see Table of Contents for summary and downloadable file for detail).",
         "fieldname": "Broadbalk",
         "experiment_name": "Broadbalk",
         "experiment_code": "R/BK/1",
@@ -175,7 +155,7 @@
         "dstype": "OA",
         "publication_year": 2021,
         "version": "01",
-        "isReady": 1,
+        "isReady": 2,
         "shortName": "BKNUTRW",
         "UID": "01-BKNUTRW"
     }

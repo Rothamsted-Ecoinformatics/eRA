@@ -1,0 +1,201 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Text",
+    "identifier": "10.23637/rhb2-plans1968-2000-01",
+    "name": "Hoosfield spring barley experiment plans 1968-2000",
+    "shortName": "",
+    "url": "http://www.era.rothamsted.ac.uk/metadata/rhb2/01-rhb2-plans1968-2000.pdf",
+    "description": [
+        {
+            "inLanguage": "en",
+            "descriptionType": "Abstract",
+            "description": "Standardised experiment plans for the Hoosfield spring barley experiment, 1968-2000, with details of fertilizer and manure treatments (not to scale). Includes rotation of potatoes, beans and barley (1968-1978) and silicate treatments (1979-2000)."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Provenance",
+            "description": "Derived from plans published in the Rothamsted Guides to the Classical and Field Experiments, 1977 and 1991."
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "publication_year": 2015,
+    "dateCreated": "2015-07-15",
+    "dateModified": null,
+    "datePublished": null,
+    "inLanguage": "en",
+    "version": "1",
+    "keywords": [
+        "long term experiments",
+        "Rothamsted Research",
+        "Hoosfield spring barley long-term experiment",
+        "fertilizer",
+        "farmyard manure",
+        "barley",
+        "experimental design"
+    ],
+    "creator": [
+        {
+            "type": "organization",
+            "name": "Rothamsted Research"
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectLeader",
+            "name": "Andrew Macdonald",
+            "givenName": "Andrew",
+            "familyName": "Macdonald",
+            "sameAs": "https://orcid.org/0000-0002-1785-4892",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells-Brooke",
+            "givenName": "Nathalie",
+            "familyName": "Castells-Brooke",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "application/pdf",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License"
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.37608,
+            "latitude": 51.81206
+        },
+        "name": "Hoosfield"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-189",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted - the Classical Experiments (1992)",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-193",
+            "relatedIdentifierType": "DOI",
+            "name": "Details of the Classical and Long-term experiments, 1968-1973 (1977)",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rhb2-plans1968-2000-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Hoosfield spring barley experiment plans 1968-2000",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "Describes",
+            "rt_id": 8,
+            "relationTypeValue": "describes"
+        }
+    ],
+    "funder": [
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/00005189 - The Rothamsted Long-Term Experiments including Sample Archive and e-RA database",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F00005189"
+        }
+    ],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Hoosfield plans 1968-2000",
+            "URL": "01-rhb2-plans1968-2000.pdf",
+            "encodingFormat": "pdf",
+            "fileSize": "507 KB"
+        }
+    ],
+    "image": [],
+    "grade": 1,
+    "dstype": "OA"
+}

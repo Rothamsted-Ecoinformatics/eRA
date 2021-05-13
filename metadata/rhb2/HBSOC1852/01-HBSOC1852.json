@@ -1,0 +1,344 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/KeyRefOAHBsoc",
+    "name": "Hoosfield soil organic carbon content",
+    "shortName": "HBSOC1852",
+    "url": "http://www.era.rothamsted.ac.uk/Hoos/hoos_open_access_soc",
+    "description": [
+        {
+            "inLanguage": "en",
+            "descriptionType": "Abstract",
+            "description": "This dataset shows changes in soil organic carbon (SOC) content (tha<sup>-1</sup>) in the topsoil (0-23cm) of selected treatments of the Hoosfield experiment, where spring barley has been grown each year since 1852.  SOC has remained almost constant in the unfertilized plot since the 1880s, at the equilibrium level for this farming system on this soil type. Annual applications of 35 t ha<sup>-1</sup> FYM increased SOC rapidly at first, then more slowly. This treatment now contains around three times as much SOC as the unfertilized plot. The third treatment, given FYM for just 20 years between 1852 and 1871, still contains over 40% more SOC than the unfertilized plot."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Methods",
+            "description": "Data has been calculated from measured % SOC (0-23 cm) and standard soil weights, adjusted for observed decreases in top soil bulk density of plots given FYM, by including the appropriate amount of subsoil to ensure soil weights were comparable over time. The initial starting SOC in 1852 has been estimated. Spring barley has been grown every year, except 1912, 1933, 1943 and 1967 when the whole experiment was fallowed to control weeds."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TableOfContents",
+            "description": "The dataset shows SOC (tha<sup>-1</sup> 0-23cm) between 1852 and 1998 from the following plots:\r\n- **Unfertilized:** No fertilizer or organic manure since 1852, plot 11\r\n- **FYM:** 35 t ha<sup>-1</sup> FYM each year since 1852, plot 72.\r\n- ** FYM 1852-1871:** 35 t ha<sup>-1</sup> FYM each year 1852-1871 only, plot 71."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TechnicalInfo",
+            "description": "%SOC expressed as oven-dried soil (100% dry matter), converted from air-dried to oven-dried by multipying by 1.02. All data before 1975 were from stored soil samples re-analysed in 1975. %SOC from 1882-1975 was measured as total C (determined by dry combustion) minus CaCO<sub>3</sub>-C.  Data for 1982 are % organic C measured by the method of Tinsley. Data for 1998 are are total C by combustion (LECO) minus CaCO<sub>3</sub>-C by manometry."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Provenance",
+            "description": "This dataset is derived from measurements made by the Analytical Chemistry Unit, Rothamsted Research, Harpenden. The data presented is mean data from selected plots only. The complete data set is available from the e-RA curators."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Quality",
+            "description": "The Analytical Chemistry Unit follows the Joint Code of Practice (JCoPR) and participates in European Quality Assurance programmes. All performance is strictly monitored using certified external standards alongside in-house standard materials. Standards and check samples are monitored and recorded."
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "publication_year": 2012,
+    "dateCreated": "2012-12-13",
+    "dateModified": "2021-04-26",
+    "datePublished": null,
+    "inLanguage": "en",
+    "version": "1",
+    "keywords": [
+        "Hoosfield spring barley long-term experiment",
+        "long term experiments",
+        "soil",
+        "soil organic carbon",
+        "farmyard manure",
+        "Rothamsted Research"
+    ],
+    "creator": [
+        {
+            "type": "organization",
+            "name": "Rothamsted Research"
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectLeader",
+            "name": "Andrew Macdonald",
+            "givenName": "Andrew",
+            "familyName": "Macdonald",
+            "sameAs": "https://orcid.org/0000-0002-1785-4892",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells-Brooke",
+            "givenName": "Nathalie",
+            "familyName": "Castells-Brooke",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Ruth Skilton",
+            "givenName": "Ruth",
+            "familyName": "Skilton",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Jeanne Day",
+            "givenName": "Jeanne",
+            "familyName": "Day",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Daniel Hampshire",
+            "givenName": "Daniel",
+            "familyName": "Hampshire",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License"
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.37608,
+            "latitude": 51.81206
+        },
+        "name": "Hoosfield"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/KeyRefOABKsoc-02",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk soil organic carbon content 1843-2015",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
+        },
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-34448",
+            "relatedIdentifierType": "DOI",
+            "name": "Jenkinson and Johnston, 1977",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rhb2-plan1852-1967-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Hoosfield spring barley experiment plan 1852-1967",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rhb2-plans1968-2000-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Hoosfield spring barley experiment plans 1968-2000",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rhb2-plan2001-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Hoosfield spring barley experiment plan 2001 onwards",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        }
+    ],
+    "funder": [
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/00005189 - The Rothamsted Long-Term Experiments including Sample Archive and e-RA database",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F00005189"
+        }
+    ],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Hoosfield long-term changes in SOC figure",
+            "URL": "01-HBSOC1852-fig.pdf",
+            "encodingFormat": "pdf",
+            "fileSize": "11 KB"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Hoosfield long-term changes in SOC data",
+            "URL": "01-HBSOC1852-data.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "25 KB"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Hoosfield long-term changes in SOC data",
+            "URL": "01-HBSOC1852-data.csv",
+            "encodingFormat": "csv",
+            "fileSize": "2 KB"
+        }
+    ],
+    "image": [
+        {
+            "type": "imageObject",
+            "caption": "Hoosfield long-term changes in SOC",
+            "URL": "01-HBSOC1852-fig.png",
+            "encodingFormat": "png",
+            "fileSize": "53 KB"
+        }
+    ],
+    "grade": 2,
+    "dstype": "OA"
+}

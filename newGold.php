@@ -32,29 +32,29 @@ function formInit()
     $GLOBALS['vRGSecCheckPB'] = "";
     $GLOBALS['vRGposition'] = "";
     $GLOBALS['vRGfname'] = "";
-    $GLOBALS['vRGlname']            = "";
-    $GLOBALS['vRGsector']           = "";
-    $GLOBALS['vRGisStudent']        = 0;
-    $GLOBALS['vRGisRoth']           = 0;
-    $GLOBALS['vRGinstitution']      = "";
-    $GLOBALS['vRGfunding']          = "";
-    $GLOBALS['vRGfundingOther']     = "";
-    $GLOBALS['vRGISPG']             = "";
-    $GLOBALS['vRGcountry']          = "GB";
-    $GLOBALS['vRGsupName']          = "";
-    $GLOBALS['vRGsupEmail']         = "";
-    $GLOBALS['vRGagreeCOU']         = 0;
-    $GLOBALS['vRGallowEmails']      = 0;
-    $GLOBALS['vRGStdCheckedYes']    = " ";
-    $GLOBALS['vRGStdCheckedNo']     = " ";
+    $GLOBALS['vRGlname'] = "";
+    $GLOBALS['vRGsector'] = "";
+    $GLOBALS['vRGisStudent'] = 0;
+    $GLOBALS['vRGisRoth'] = 0;
+    $GLOBALS['vRGinstitution'] = "";
+    $GLOBALS['vRGfunding'] = "";
+    $GLOBALS['vRGfundingOther'] = "";
+    $GLOBALS['vRGISPG'] = "";
+    $GLOBALS['vRGcountry'] = "GB";
+    $GLOBALS['vRGsupName'] = "";
+    $GLOBALS['vRGsupEmail'] = "";
+    $GLOBALS['vRGagreeCOU'] = 0;
+    $GLOBALS['vRGallowEmails'] = 0;
+    $GLOBALS['vRGStdCheckedYes'] = " ";
+    $GLOBALS['vRGStdCheckedNo'] = " ";
     $GLOBALS['vRGisRothCheckedYes'] = " ";
-    $GLOBALS['vRGisRothCheckedNo']  = " ";
-    $GLOBALS['vRGShowisRoth']       = 1;
-    $GLOBALS['vRGISPGck']           = array();
-    $GLOBALS['vRGLTEsel']           = array();
-    $GLOBALS['vRGDSsel']            = array();
-    $GLOBALS['vRGDS']                = array();
-    $GLOBALS['vRGLTE']           = array();
+    $GLOBALS['vRGisRothCheckedNo'] = " ";
+    $GLOBALS['vRGShowisRoth'] = 1;
+    $GLOBALS['vRGISPGck'] = array();
+    $GLOBALS['vRGLTEsel'] = array();
+    $GLOBALS['vRGDSsel'] = array();
+    $GLOBALS['vRGDS'] = array();
+    $GLOBALS['vRGLTE'] = array();
 }
 
 // Reset the form : put all the REQUEST values that need to be unset
@@ -154,11 +154,7 @@ function getData()
 
                     $GLOBALS['vRGallowEmails'] = $row['allowEmails'];
 
-                    if ($row['funding'] > 'a') {
-                        $GLOBALS['vRGfunding'] = $row['funding'];
-                    } else {
-                        $GLOBALS['vRGfunding'] = '';
-                    }
+                    $GLOBALS['vRGfunding'] = $row['funding'];
 
                     if ($row['ISPG'] > 'a') {
                         $GLOBALS['vRGISPG'] = $row['ISPG'];
@@ -174,7 +170,7 @@ function getData()
             }
         }
     } else {
-        $messageNotLoggedIn = "<p>we recommand you log in before you fill in a eRAdata request</p>";
+        $messageNotLoggedIn = "<p>We recommand you log in before you fill in a eRAdata request</p>";
     }
 }
 
@@ -207,7 +203,7 @@ if (isset($RGposition)) {
 if (strstr($vRGposition, 'rothamsted')) {
     $vRGinstitution = "Rothamsted Research (RRES)";
     $vRGisRoth = 1;
-    $vRGisRothCheckedYes = "checked";
+    $vRGisRothCheckedYes = " checked";
     $vRGsector = "AC";
 } else {
     $vRGisRoth = 0;
@@ -224,17 +220,19 @@ if (isset($RGisStudent)) {
     if ($vRGisStudent > 0) {
         $vRGStdCheckedYes = " checked";
         $vRGStdCheckedNo = "";
+        $strStudent = "Recorded as Student";
     } else {
         $vRGStdCheckedYes = "";
         $vRGStdCheckedNo = " checked";
+        $strStudent = "Not recorded as Student";
     }
 }
 
 if (isset($RGisRoth)) {
     $vRGisRoth = $RGisRoth;
-    $vRGisRothCheckedYes = "checked";
+    $vRGisRothCheckedYes = " checked";
     if ($vRGisRoth > 0) {
-        $vRGisRothCheckedYes = "checked";
+        $vRGisRothCheckedYes = " checked";
         $vRGisRothCheckedNo = "";
     } else {
         $vRGisRothCheckedYes = "";
@@ -244,11 +242,38 @@ if (isset($RGisRoth)) {
 if (isset($RGsector)) {
     $vRGsector = $RGsector;
 }
+$vRGallowEmailsChecked = " ";
 if (isset($RGallowEmails)) {
-    $vRGallowEmails = $RGallowEmails;
+
+    if ($RGallowEmails == 'on') {
+        $RGallowEmails = 1;
+        $vRGallowEmails = 1;
+        $strAllowEmails = "Yes";
+        $vRGallowEmailsChecked = " checked";
+    }
+    if ($RGallowEmails == 1) {
+        $strAllowEmails = "Yes";
+        $vRGallowEmails = 1;
+        $vRGallowEmailsChecked = " checked";
+    } else {
+        $strAllowEmails = "No";
+        $vRGallowEmailsChecked = " ";
+        $vRGallowEmails = 0;
+    }
 }
+
+if ($vRGallowEmail == 1) {
+    $vRGallowEmailsChecked = " checked";
+}
+
 if (isset($RGagreeCOU)) {
     $vRGagreeCOU = $RGagreeCOU;
+}
+$vRGagreeCOUChecked = "";
+if ($RGagreeCOU == 1) {
+    $vRGagreeCOUChecked = " checked";
+} else {
+    $vRGagreeCOUChecked = " ";
 }
 
 if (isset($RGinstitution)) {
@@ -265,20 +290,32 @@ if (isset($RGfundingOther)) {
 if (isset($RGISPG)) {
     $vRGISPG = $RGISPG;
     $vRGISPGck[$vRGISPG] = " selected";
-        
-    
 }
-if (is_array($_POST['RGDS'])) {
-    $vRGDS = $_POST['RGDS'] ; 
-    foreach ($vRGDS as $valueRGDS) {
-        $vRGDSsel[$valueRGDS]  = " selected";
+
+if (is_array($_REQUEST['RGLTE'])) {
+    $vRGDLTE = $_REQUEST['RGLTE'];
+    $vstrRGLTE = implode(" , ", $vRGDLTE);
+    foreach ($vRGLTE as $valueRGLTE) {
+        $vRGLTEsel[$valueRGLTE] = " selected";
     }
 }
 
-if (is_array($_POST['RGLTE'])) {
-    $vRGDLTE = $_POST['RGLTE'] ;
-    foreach ($vRGLTE as $valueRGLTE) {
-        $vRGLTEsel[$valueRGLTE]  = " selected";
+if (isset($_POST['strRGLTE'])) {
+    $vstrRGDLTE = "POST , " . $_POST['strRGLTE'];
+    $arrRGLTE = explode(" , ", $vstrRGDLTE);
+
+    foreach ($arrRGLTE as $valueRGLTE) {
+        $vRGLTEsel[$valueRGLTE] = " selected";
+    }
+}
+
+if (isset($_REQUEST['strRGLTE'])) {
+    $vstrRGDLTE = "REQUEST , " . $_REQUEST['strRGLTE'];
+    $arrRGLTE = explode(" , ", $vstrRGDLTE);
+    $strJQ = "";
+    foreach ($arrRGLTE as $valueRGLTE) {
+        $vRGLTEsel[$valueRGLTE] = " selected";
+        $strJQ .= "\n\$('#RGDS" . $valueRGLTE . "').prop('checked', true);";
     }
 }
 if (isset($RGrothColls)) {
@@ -291,33 +328,36 @@ if (isset($RGsupEmail)) {
     $vRGsupEmail = $RGsupEmail;
 }
 
-switch (($RGfunding)) {
-    case 'BBSRC':
-        $vRGfundingBBSRC = " checked";
-        $vRGfundingNERC =  " ";
-        $vRGfundingOTHER = " ";
-        break;    
-        
-    case 'NERC':
-        $vRGfundingBBSRC = " ";
-        $vRGfundingNERC =  " checked";
-        $vRGfundingOTHER = " ";
-        break;  
-    case 'OTHER':
-        $vRGfundingBBSRC = " ";
-        $vRGfundingNERC =  " ";
-        $vRGfundingOTHER = " checked";
-        break;  
-    default:
-        $vRGfundingBBSRC = " ";
-        $vRGfundingNERC =  " ";
-        $vRGfundingOTHER = " ";
-        break;
-        
+if (isset($RGur_Q2)) {
+    $vRGur_Q2 = $RGur_Q2;
+}
+if (isset($RGur_Q1)) {
+    $vRGur_Q1 = $RGur_Q1;
 }
 
+switch (($vRGfunding)) {
+    case 'BBSRC':
+        $vRGfundingBBSRC = " checked";
+        $vRGfundingNERC = " ";
+        $vRGfundingOTHER = " ";
+        break;
 
-
+    case 'NERC':
+        $vRGfundingBBSRC = " ";
+        $vRGfundingNERC = " checked";
+        $vRGfundingOTHER = " ";
+        break;
+    case 'OTHER':
+        $vRGfundingBBSRC = " ";
+        $vRGfundingNERC = " ";
+        $vRGfundingOTHER = " checked";
+        break;
+    default:
+        $vRGfundingBBSRC = " ";
+        $vRGfundingNERC = " ";
+        $vRGfundingOTHER = " ";
+        break;
+}
 
 switch ($RGsector) {
     case 'AC':
@@ -325,6 +365,7 @@ switch ($RGsector) {
         $vRGSecCheckCO = "";
         $vRGSecCheckSC = "";
         $vRGSecCheckPB = "";
+        $strSector = "Academic (Research Institute or University)";
 
         break;
     case 'CO':
@@ -332,6 +373,7 @@ switch ($RGsector) {
         $vRGSecCheckCO = "checked";
         $vRGSecCheckSC = "";
         $vRGSecCheckPB = "";
+        $strSector = "Industrial, Commercial or Farmer";
 
         break;
     case 'SC':
@@ -339,6 +381,7 @@ switch ($RGsector) {
         $vRGSecCheckCO = "";
         $vRGSecCheckSC = "checked";
         $vRGSecCheckPB = "";
+        $strSector = "School";
 
         break;
     case 'PB':
@@ -346,6 +389,7 @@ switch ($RGsector) {
         $vRGSecCheckCO = "";
         $vRGSecCheckSC = "";
         $vRGSecCheckPB = "checked";
+        $strSector = "Member of the general public";
 
         break;
 
@@ -354,25 +398,12 @@ switch ($RGsector) {
         $vRGSecCheckCO = "";
         $vRGSecCheckSC = "";
         $vRGSecCheckPB = "";
+        $strSector = "Academic (Research Institute or University)";
         break;
 }
 
 if ($RGisStudent == 1) {
-    $vRGStdCheckedYes = "checked";
-}
-
-$vRGagreeCOUChecked = "";
-if ($RGagreeCOU == 1) {
-    $vRGagreeCOUChecked = " checked";
-} else {
-    $vRGagreeCOUChecked = "";
-}
-
-$vRGallowEmailsChecked = "";
-if ($RGallowEmails == 1) {
-    $vRGallowEmailsChecked = " checked";
-} else {
-    $vRGallowEmailsChecked = "";
+    $vRGStdCheckedYes = " checked";
 }
 
 // this decide where to go:)
@@ -408,34 +439,33 @@ if ($RGfrom == "Q3") {
 }
 
 if ($vprocess == "RGprocess") {
+    /*
+     * This is the final stage of the form:
+     * - add information to the database
+     * - table newmarkers: only if user is logged in
+     * - table user_requests: will have all the information on the form and does not require user to be
+     * logged in. The user will receive and email to confirm that they have sent a request and that it will be actioned shortly
+     *
+     * At this stage of the development, we are only interested in getting the request sent to the eRA team
+     * and into the database.
+     * I am recording the User IP: this will be the link between a non logged in user and their email address to log what they do
+     */
 
-    // this is the final stage: database input, send emails and the like - I can use the function in User.php
-    // we find the person in the database
-    // The function reg2db checks that the user is in the database and either add the user or updates the info with some
-    // of the answers. Then we just update with the rest of the information
-    if ($loggedIn == 'yes') {
-        // if the user is already logged in, there is not need to check all that and the update to the db is enough
-        ;
-    } else {
-
-        $answers = getInput();
-
-        $answers['vericode'] = generateRandomString(10);
-        $answers['vericode2'] = generateRandomString(72);
-        $answers['timecode'] = makeCode();
-        $dbanswer = reg2db($answers);
-    }
-
-    // at this point, we can update the info that is coming from that.
-
-    // Get the user nm_id: that will be useful for the rest.
-    if ($RGfunding == "OTHER") {      
+    if ($RGfunding == "OTHER") {
         $RGfunding = $RGfundingOther;
     }
-   
 
-    
+    if ($RGallowEmails == 'on') {
+        $insertRGallowEmails = 1;
+        $strAllowEmails = "yes";
+    }
+    if ($RGallowEmails == 1) {
+        $insertRGallowEmails = 1;
+        $strAllowEmails = "yes";
+    }
+
     $sqlInput = "UPDATE newmarkers
+SET
 fname='$RGfname',
 lname='$RGlname',
 sector='$RGsector',
@@ -445,12 +475,12 @@ isStudent=$RGisStudent,
 supEmail='$RGsupEmail',
 supName='$RGsupName',
 rothColls='$RGrothColls',
-information='$RGinformation',
 funding='$RGfunding',
 ISPG='$RGISPG',
 agreeCOU='$RGagreeCOU',
-allowEmails=$RGallowEmails
-WHERE `position` = '$RGposition';
+allowEmails=$insertRGallowEmails
+WHERE 
+`position` = '$RGposition';
 ";
     // date: The proper format of a DATE is: YYYY-MM-DD.
     // date(format, timestamp)
@@ -459,19 +489,70 @@ WHERE `position` = '$RGposition';
     // d - The day of the month (from 01 to 31)
 
     $ur_date = date("Y-m-d");
-    
-    
-    $str_ltes = implode(" , ", $_POST['RGLTE']);
-    //$str_ds = implode (" , ", $_POST['RGDS']);
-    $str_ds = " DS following LTEs" ;
-    $ur_ltes = $str_ltes. " | ".$str_ds;
+    $user_IP = getIp();
+    $guestLink = LogMangaGuest();
+    if (is_array($_POST['RGLTE'])) {
+        $str_ltes = implode(" , ", $_POST['RGLTE']);
+    } else {
+        $str_ltes = "None Provided";
+    }
 
-    $sqlUser = "select * from newmarkers wWHERE `position` = '$RGposition'";
-    $user_id = "54"; // find the user ID, until then it is 54
-    $sqlInsertUR = "INSERT INTO Users_Requests 
-(user_id, ur_date, ur_Q1, ur_Q2, ur_ltes) 
-VALUES($user_id, '$ur_date', '$RGur_Q1', '$RGur_Q2', '$ur_ltes');
+    $ur_ltes = $str_ltes;
+
+    $sqlUser = "select * from newmarkers WHERE `position` = '$RGposition'";
+    $resultsUser = mysqli_query($guestLink, $sqlUser);
+
+    $hasEmail = 0;
+    $isVerified = "This email address has not been verified";
+    $nbResults = mysqli_num_rows($resultsUser);
+
+    if ($nbResults >= 1) {
+        $hasEmail = 1;
+        while ($row = mysqli_fetch_array($resultsUser)) {
+            if ($row['doorbell'] == "Ringing") {
+                $isVerified = "This email address has not been verified";
+            } else {
+                $isVerified = "This email address has been verified";
+            }
+        }
+    }
+
+    // find the user ID
+
+    $sqlInsertUR = "INSERT INTO eRAmanga.Users_Requests
+          (user_email,fname, lname,  ur_date, ur_Q1, ur_Q2, ur_ltes, sector, 
+institution, country, `role`, isStudent, 
+supEmail, supName, rothColls, funding, ISPG, agreeCOU, allowEmails, user_IP)
+    VALUES('$RGposition', '$RGfname','$RGlname', '$ur_date', '$RGur_Q1', '$RGur_Q2', '$ur_ltes', '$RGsector', 
+'$RGinstitution', '$RGcountry', '$RGrole', $RGisStudent, 
+'$RGsupEmail', '$RGsupName', '$RGrothColls', '$RGfunding', '$RGISPG', '$RGagreeCOU', $insertRGallowEmails, '$user_IP');
 ";
+    // $link = LogMangaAd();
+    $linkAd = LogMangaAd();
+    $sqlsmessages = "";
+    if ($loggedIn == 'yes') {
+        // if the user is already logged in, there is not need to check all that and the update to the db is enough
+        // that is nice and simple as we know who is sending the information (technically)
+        // we use that info to update the User's info.
+
+        $queryInput = mysqli_query($linkAd, $sqlInput); // updates the User info
+        $sqlsmessages .= "<br /> 1" . $sqlInput;
+        $queryInsertUR = mysqli_query($linkAd, $sqlInsertUR); // inserts the request
+        $sqlsmessages .= "<br /> 2" . $sqlInsertUR;
+
+        // formulate an email with the request fields and information
+        // send same email to res.era;
+    } else {
+        /*
+         * no user logged in: either the user has no username yet or they have a username and they are not logged in
+         * If the user has username, in the database, we just record a User Request and reord their IP address
+         *
+         */
+
+        $queryInsertUR = mysqli_query($linkAd, $sqlInsertUR); // inserts the request
+        $sqlsmessages .= "<br /> 3" . $sqlInsertUR;
+    }
+    $ur_insertID = mysqli_insert_id($linkAd);
 }
 /**
  * Anything to do with Cookies or sessions must happen before this line..
@@ -556,16 +637,35 @@ https://github.com/silviomoreto/bootstrap-select/issues/1135
         
         $(document).ready(function(){
         	$(".datasetsList").hide();
-             $("#RGEXPTrbk1").click(function(){
+        	<?php echo  $strJQ;?>
+        	if ($("#RGEXPTrbk1").is( ":checked" )) {
+        		$("#dsrbk1").show();              
+            } 
+        	if ($("#RGEXPTrpg5").is( ":checked" )) {
+                $("#dsrpg5").show();
+                
+                }
+        	if ($("#RGEXPTrhb2").is( ":checked" )) {
+                $("#dsrhb2").show();
+                
+                }
+            if ($("#RGEXPTrfw3").is( ":checked" )) {
+                     $("#dsrfw3").show();   
+                     }
+                
+             $("#RGLBLrbk1").click(function(){
                if ($("#RGEXPTrbk1").is( ":checked" )) {
                     $("#dsrbk1").show();
+                   
                     } else {
                      $("#dsrbk1").hide();
+                     
                      }
         	} );
         $("#RGEXPTrpg5").click(function(){
                if ($("#RGEXPTrpg5").is( ":checked" )) {
                     $("#dsrpg5").show();
+                    
                     } else {
                      $("#dsrpg5").hide();
                      }
@@ -575,6 +675,7 @@ https://github.com/silviomoreto/bootstrap-select/issues/1135
         $("#RGEXPTrhb2").click(function(){
                if ($("#RGEXPTrhb2").is( ":checked" )) {
                     $("#dsrhb2").show();
+                    
                     } else {
                      $("#dsrhb2").hide();
                      }
@@ -583,6 +684,7 @@ https://github.com/silviomoreto/bootstrap-select/issues/1135
         $("#RGEXPTrfw3").click(function(){
                if ($("#RGEXPTrfw3").is( ":checked" )) {
                     $("#dsrfw3").show();
+                   
                     } else {
                      $("#dsrfw3").hide();
                      }

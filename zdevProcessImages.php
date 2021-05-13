@@ -86,7 +86,7 @@ function renameImages($array, $recursive = false, $null = '&nbsp;')
                     
                     $newfilename = str_replace(' ', '-', $filename);
                     $newfilename = str_replace('&', '-', $newfilename);
-                    $newfilename = str_replace('_', '-', $newfilename);
+                   
                     $newfilename = str_replace(',', '-', $newfilename);
                     $newfilename = str_replace('--', '-', $newfilename);
                     $newfilename = str_replace('--', '-', $newfilename);
@@ -98,8 +98,8 @@ function renameImages($array, $recursive = false, $null = '&nbsp;')
                 $commands .= "cd ..<br />";
             } else {
                 $newfilename = str_replace(' ', '-', $folder);
+                
                 $newfilename = str_replace('&', '-', $newfilename);
-                $newfilename = str_replace('_', '-', $newfilename);
                 $newfilename = str_replace(',', '-', $newfilename);
                 $newfilename = str_replace('--', '-', $newfilename);
                 $newfilename = str_replace('--', '-', $newfilename);

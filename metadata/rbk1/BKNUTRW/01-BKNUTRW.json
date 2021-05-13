@@ -9,27 +9,27 @@
         {
             "inLanguage": "en",
             "descriptionType": "Abstract",
-            "description": "From 1968 Broadbalk was divided into 10 sections. Grain and straw from selected sections and plots were collected and stored in the Sample Archive. They were  analysed for Phosphorus (P), Potassium (K), Calcium (Ca), Magnesium (Mg), Sodium (Na) and Sulphur (S). Data is presented as % nutrient in grain and straw for what and rotational crops beans, oats, potatoes and maize and is the response to different fertiliser treatments and cropping."
+            "description": "From 1968 Broadbalk was divided into 10 sections. Grain and straw from selected sections and plots were collected and stored in the Sample Archive. They were  analysed for nitrogen (N), phosphorus (P), potassium (K), calcium (Ca), magnesium (Mg), sodium (Na) and sulphur (S). Data is presented as % nutrient in  wheat grain and straw and is the response to different fertiliser treatments and cropping. Nitrogen is available all years and other nutrients for selected years, and for varying sections (see Table of Contents for summary and downloadable file for detail)."
         },
         {
             "inLanguage": "en",
             "descriptionType": "Methods",
-            "description": "Nitrogen (N)\r\n1968-1995: nitrogen content was determined by Kjeldahl digest, the digest was then analysed colorimetrically using a Technicon segmented flow analyser. If nitrate-N was expected to be high in the sample, the salicylic acid modification was used (Bremner, 1965).\r\n\r\n1996 onwards: nitrogen content is determined by combustion analyser, based on the Dumas method. Originally a Heraeus Combustion analyser, currently a LECO combustion system is used.\r\n\r\nPhosphorus (P), Potassium (K), Calcium (Ca), Magnesium (Mg), Sodium (Na) and Sulphur (S)\r\n1968-late 1980s: dry ashing techniques, as described by Piper (1942) were used to produce an acid extract. The extracts were analysed for P colorimetrically on a Technicon Auto Analyser, or later equivalents (Alpkem continuous flow system / Skalar SanPlus segmented flow system), using the modified Murphy & Riley (1962) molybdenum blue method developed from Fogg & Wilkinson (1958). K, Ca, Mg and Na were determined using automated atomic absorption methods. The SP90 atomic absorption flame photometer was used to analyse Ca, Mg and Na; K was analysed by the EEL flame photometer until 1973, K was then analysed with Ca, Mg and Na by the SP90. S was not routinely measured until 1996.\r\n\r\n1980s onwards: since the late 1980s the open tube nitric-perchloric digestion (Zarcinas, et al, 1987) has been used to produce an acid extract. P, K, Ca, Mg and Na have been determined by ICP-OES (Inductively-coupled plasma \u2013 optical emission Spectrometer) since 1982, and S since 1996.\r\n\r\nBlank (control) values: Data for sodium is presented after the analysis blanks (controls) have been subtracted from the raw data. Sodium blank values tend to be relatively large, and can be greater than the raw data. If subtracting the blank resulted in a negative value, this is shown as zero. Thus the sodium data should be treated with some caution. Blank (control) readings for the other nutrients are very small, relative to the treatment values, and have not been subtracted."
+            "description": "Nitrogen (N)\r\n1968-1995: nitrogen content was determined by Kjeldahl digest, the digest was then analysed colorimetrically using a Technicon segmented flow analyser. If nitrate-N was expected to be high in the sample, the salicylic acid modification was used (Bremner, 1965).\r\n\r\n1996 onwards: nitrogen content is determined by combustion analyser, based on the Dumas method. Originally a Heraeus Combustion analyser, currently a LECO combustion system is used.\r\n\r\nPhosphorus (P), Potassium (K), Calcium (Ca), Magnesium (Mg), Sodium (Na) and Sulphur (S)\r\n1968-late 1980s: dry ashing techniques, as described by Piper (1942) were used to produce an acid extract. The extracts were analysed for P colorimetrically on a Technicon Auto Analyser, or later equivalents (Alpkem continuous flow system / Skalar SanPlus segmented flow system), using the modified Murphy & Riley (1962) molybdenum blue method developed from Fogg & Wilkinson (1958). K, Ca, Mg and Na were determined using automated atomic absorption methods. The SP90 atomic absorption flame photometer was used to analyse Ca, Mg and Na; K was analysed by the EEL flame photometer until 1973, K was then analysed with Ca, Mg and Na by the SP90. S was not routinely measured until 1996.\r\n\r\n1980s onwards: since the late 1980s the open tube nitric-perchloric digestion (Zarcinas, et al, 1987) has been used to produce an acid extract. P, K, Ca, Mg and Na have been determined by ICP-OES (Inductively coupled plasma optical emission Spectrometer) since 1982, and S since 1996.\r\n\r\nBlank (control) values: Data for sodium is presented after the analysis blanks (controls) have been subtracted from the raw data. Sodium blank values tend to be relatively large, and can be greater than the raw data. If subtracting the blank resulted in a negative value, this is shown as zero. Thus the sodium data should be treated with some caution. Blank (control) readings for the other nutrients are very small, relative to the treatment values, and have not been subtracted."
         },
         {
             "inLanguage": "en",
             "descriptionType": "TableOfContents",
-            "description": "Broadbalk wheat grain and straw nutrient data, 1968-2015.\r\nTable of which years and which sections nutrient data is available for; includes cultivars."
+            "description": "- Broadbalk wheat grain and straw nutrient data, 1968-2017 - data file.\r\n- Table of which years and which sections nutrient data is available for; includes cultivars, for grain - pdf.\r\n- Table of which years and which sections nutrient data is available for; includes cultivars, for straw - pdf.\r\n\r\nN is available every year whereas P, K, Ca, Mg, Na and S for some years only.  S only from 1996, N only 1976-1985. Not all sections were analysed, Section 1 and 1st wheat every year, and some other sections in other years. Straw not always available in same years that grain measured."
         },
         {
             "inLanguage": "en",
             "descriptionType": "Other",
-            "description": "With thanks to Andy Macdonald, Paul Poulton, Steve Freeman, Ruth Skilton and Wendy Gregory for help with compiling this information. \r\n\r\nNutrient data for other crops on Broadbalk is available as separate datasets \u2013 see Related Documents"
+            "description": "With thanks to Andy Macdonald, Paul Poulton, Steve Freeman, Ruth Skilton and Wendy Gregory for help with compiling this information. \r\n\r\nFor analytical techniques see following references;\r\n\r\nBremner, J. M. (1965). Total nitrogen. In Methods of Soil Analysis. Part 2 (Ed. C. A. Black), pp. 1149-1178. Madison. American Society of Agronomy.\r\nFogg, D.N. and Wilkinson, N.T. (1958). The colorimetric determination of phosphorus. Analyst, London, 83:406-414.\r\nPiper, C.S. (1942) Soil and plant analysis. The University of Adelaide, Adelaide, Australia.\r\nZarcinas, B.A., Cartwright, B., Spouncer, L.R., 1987. Nitric acid digestion and multi-element analysis of plant material by inductively coupled plasma spectrometry. Communications in Soil Science and Plant Analysis 18, 131\u2013146.\r\n\r\nNutrient data for other crops on Broadbalk is available as separate datasets, see Related Documents."
         },
         {
             "inLanguage": "en",
             "descriptionType": "Provenance",
-            "description": "This dataset is derived from measurements made by the Analytical Chemistry Unit, Rothamsted Research, Harpenden. The data presented is mean data from selected plots and sections only."
+            "description": "This dataset is derived from measurements made by the Analytical Chemistry Unit, Rothamsted Research, Harpenden."
         },
         {
             "inLanguage": "en",
@@ -64,6 +64,26 @@
             "givenName": "Sarah",
             "familyName": "Perryman",
             "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Wendy Wilmer",
+            "givenName": "Wendy",
+            "familyName": "Wilmer",
+            "sameAs": "https://orcid.org/0000-0002-6463-6636",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
@@ -272,6 +292,27 @@
                 "name": "Sustainable Agricultural Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Wendy Wilmer",
+            "givenName": "Wendy",
+            "familyName": "Wilmer",
+            "sameAs": "https://orcid.org/0000-0002-6463-6636",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
         }
     ],
     "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
@@ -298,56 +339,47 @@
         {
             "relatedIdentifier": "10.23637/ERADOC-1-2",
             "relatedIdentifierType": "DOI",
-            "name": "The plant nutrients in crops grown on Broadbalk, Johnston (1969)",
+            "name": "The plant nutrients in crops grown on Broadbalk, Johnston (1969), pp 50-62.",
             "relatedIdentifierGeneralType": "Text",
-            "relationType": "References",
-            "rt_id": 18,
-            "relationTypeValue": "references"
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
         },
         {
             "relatedIdentifier": "10.23637/ERADOC-1-22",
             "relatedIdentifierType": "DOI",
-            "name": "The Broadbalk wheat experiment 1968-78: yields and plant nutrients in crops.. Dyke et al (1983)",
+            "name": "The Broadbalk wheat experiment 1968-78: yields and plant nutrients . . . Dyke et al (1983), pp 5-44.",
             "relatedIdentifierGeneralType": "Text",
-            "relationType": "References",
-            "rt_id": 18,
-            "relationTypeValue": "references"
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
         },
         {
             "relatedIdentifier": "10.1017/S0021859600082125",
             "relatedIdentifierType": "DOI",
-            "name": "Variation between years in growth and nutrient uptake after anthesis\u2026 Thorne et al (1988)",
+            "name": "Variation between years in growth and nutrient uptake after anthesis . . . Thorne et al (1988)",
             "relatedIdentifierGeneralType": "Text",
-            "relationType": "References",
-            "rt_id": 18,
-            "relationTypeValue": "references"
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
         },
         {
             "relatedIdentifier": "10.1016/j.scitotenv.2007.08.024",
             "relatedIdentifierType": "DOI",
-            "name": "Historical changes in the concentrations of selenium in soil and wheat grain\u2026. Fan et al (2008)",
+            "name": "Historical changes in the concentrations of selenium in soil and wheat grain . . . Fan et al (2008)",
             "relatedIdentifierGeneralType": "Text",
-            "relationType": "References",
-            "rt_id": 18,
-            "relationTypeValue": "references"
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
         },
         {
             "relatedIdentifier": "10.1016/j.jtemb.2008.07.002",
             "relatedIdentifierType": "DOI",
             "name": "Evidence of decreasing mineral density in wheat grain over the last 160 years. Fan et al (2008)",
             "relatedIdentifierGeneralType": "Text",
-            "relationType": "References",
-            "rt_id": 18,
-            "relationTypeValue": "references"
-        },
-        {
-            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Broadbalk/bbknutr",
-            "relatedIdentifierType": "URL",
-            "name": "Broadbalk Nutrients",
-            "relatedIdentifierGeneralType": "Text",
-            "relationType": "References",
-            "rt_id": 18,
-            "relationTypeValue": "references"
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
         }
     ],
     "funder": [

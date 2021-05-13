@@ -19,17 +19,17 @@
         {
             "inLanguage": "en",
             "descriptionType": "TableOfContents",
-            "description": "Summary data of the soil pH in water, in relation to six treatments  on Park Grass: No fertiliser cotrol; nitrogen fertilser as sodium nitrate; nitrogen as ammonium sulphate (each with and without chalk)."
+            "description": "Summary data of the soil pH in water, in relation to six treatments  on Park Grass: No fertiliser control; nitrogen fertiliser as sodium nitrate; nitrogen as ammonium sulphate (each with and without chalk)."
         },
         {
             "inLanguage": "en",
             "descriptionType": "TechnicalInfo",
-            "description": "Fertiliser treatments since 1856;\r\nNo fertiliser - Plot 3: No fertilizer or manure\r\nN*2PKNaMg - Plot 14: 96kgN as sodium nitrate plus P, K, Na and Mg\r\nN2PKNaMg - Plot 9: 96kgN as ammonium sulphate plus P, K, Na and Mg\r\n\r\nChalk: Ground chalk (CaCO3) applied approximately every four years 1903 - 1964 then as required to maintain pH at around 6.\r\n\r\nSoil details:\r\nFAO Classification: Chromic Luvisol (or Alisol); Silty clay loam over clay-with-flints overlying chalk."
+            "description": "Fertiliser treatments since 1856;\r\nNo fertiliser - Plot 3: No fertilizer or manure\r\nN/*2PKNaMg - Plot 14: 96kgN as sodium nitrate plus P, K, Na and Mg\r\nN2PKNaMg - Plot 9: 96kgN as ammonium sulphate plus P, K, Na and Mg\r\n\r\nChalk: Ground chalk (CaCO<sub>3/<sub>) applied approximately every four years 1903 - 1964 then as required to maintain pH at around 6.\r\n\r\nSoil details:\r\nFAO Classification: Chromic Luvisol (or Alisol); Silty clay loam over clay-with-flints overlying chalk."
         },
         {
             "inLanguage": "en",
             "descriptionType": "Other",
-            "description": "Johnston et al (1986) predict a pH of 5.6 \u2013 5.8 in 1856. AS the site had been grassland many years previous it had not received chalk applications. Some areas have a acidic surface 'mat' due to biological activity being hindered."
+            "description": "Johnston et al (1986) predict a pH of 5.6 \u2013 5.8 in 1856. As the site had been grassland many years previously it had not received chalk applications. Some areas have a acidic surface 'mat' due to biological activity being hindered."
         },
         {
             "inLanguage": "en",
@@ -60,26 +60,6 @@
         "fertilizer"
     ],
     "creator": [
-        {
-            "type": "Person",
-            "Name": "Sarah Perryman",
-            "givenName": "Sarah",
-            "familyName": "Perryman",
-            "sameAs": "https://orcid.org/0000-0002-0056-2754",
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
-                "addressLocality": "Harpenden",
-                "addressRegion": "Hertfordshire",
-                "postalCode": "AL5 2JQ",
-                "addressCountry": "United Kingdom"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Computational and Analytical Sciences, Rothamsted Research",
-                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
-            }
-        },
         {
             "type": "organization",
             "name": "Rothamsted Research"
@@ -176,7 +156,7 @@
             "name": "Melanie Brookman",
             "givenName": "Melanie",
             "familyName": "Brookman",
-            "sameAs": null,
+            "sameAs": "https://orcid.org/0000-0001-6085-9288",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
@@ -198,6 +178,90 @@
             "givenName": "Richard",
             "familyName": "Ostler",
             "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Daniel Hampshire",
+            "givenName": "Daniel",
+            "familyName": "Hampshire",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Sadia Beg",
+            "givenName": "Sadia",
+            "familyName": "Beg",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Anne Duffy",
+            "givenName": "Anne",
+            "familyName": "Duffy",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Ursula Donnellan",
+            "givenName": "Ursula",
+            "familyName": "Donnellan",
+            "sameAs": null,
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
@@ -237,7 +301,7 @@
         {
             "relatedIdentifier": "10.1038/nature16444",
             "relatedIdentifierType": "DOI",
-            "name": "Grassland biodiversity bounces back from long-term nitrogen addition.",
+            "name": "Grassland Biodiversity Bounces Back from Long-term Nitrogen Addition.",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
@@ -255,7 +319,7 @@
         {
             "relatedIdentifier": "10.1046/j.1365-2389.1999.00253.x",
             "relatedIdentifierType": "DOI",
-            "name": "Changes in soil chemistry accompanying acidification over more than 100 years",
+            "name": "Changes in Soil Chemistry Accompanying Acidification Over More Than 100 Years",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
@@ -264,7 +328,7 @@
         {
             "relatedIdentifier": "10.1016/S0146-6380(98)00188-0",
             "relatedIdentifierType": "DOI",
-            "name": "Organic geochemical studies of soils from the Rothamsted Classical Experiments - IV.",
+            "name": "Organic Geochemical Studies of Soils from the Rothamsted Classical Experiments - IV.",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
@@ -273,7 +337,7 @@
         {
             "relatedIdentifier": "10.1111/j.1365-2389.1977.tb02234.x",
             "relatedIdentifierType": "DOI",
-            "name": "EFFECT OF SOIL pH AND ORGANIC MATTER ON LABILE ALUMINIUM IN SOILS UNDER PERMANENT GRASS",
+            "name": "Effect of Soil pH and Organic Matter on Labile Aluminium in Soils Under Permanent Grass",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
@@ -282,7 +346,7 @@
         {
             "relatedIdentifier": " https://repository.rothamsted.ac.uk/item/8vw2w/liming-and-interaction-of-soil-ph-with-responses-to-p-k-and-mg-fertilizers",
             "relatedIdentifierType": "PURL",
-            "name": "LIMING AND INTERACTION OF SOIL-PH WITH RESPONSES TO P, K AND MG FERTILIZERS",
+            "name": "Liming and Interaction of Soil pH with Responses to P, K and Mg Fertilisers",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
@@ -298,40 +362,40 @@
             "relationTypeValue": "is supplemented by"
         },
         {
-            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Park/",
-            "relatedIdentifierType": "URL",
-            "name": "The Park Grass Experiment Background",
-            "relatedIdentifierGeneralType": "Text",
-            "relationType": "IsSupplementedBy",
-            "rt_id": 4,
-            "relationTypeValue": "is supplemented by"
-        },
-        {
-            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Park/pgsoils",
-            "relatedIdentifierType": "URL",
-            "name": "Park Grass Soils",
-            "relatedIdentifierGeneralType": "Text",
-            "relationType": "IsSupplementedBy",
-            "rt_id": 4,
-            "relationTypeValue": "is supplemented by"
-        },
-        {
-            "relatedIdentifier": "10.23637/KeyRefOAPGspecies.",
+            "relatedIdentifier": "10.23637/KeyRefOAPGspecies",
             "relatedIdentifierType": "DOI",
-            "name": "Park Grass Mean Species Changes 1864-2011",
-            "relatedIdentifierGeneralType": "Text",
-            "relationType": "IsSupplementedBy",
-            "rt_id": 4,
-            "relationTypeValue": "is supplemented by"
-        },
-        {
-            "relatedIdentifier": "10.23637/KeyRefOAPGsoilpH",
-            "relatedIdentifierType": "DOI",
-            "name": "Park Grass Soil pH 1856-2011",
+            "name": "Park Grass Changes in Mean Species Numbers 1864-2011",
             "relatedIdentifierGeneralType": "Dataset",
-            "relationType": "IsSupplementTo",
-            "rt_id": 3,
-            "relationTypeValue": "is supplement to"
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rpg5-plan1965-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Park Grass experiment plan and treatments since 1965, updated 2018",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rpg5-plan1903-1964-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Park Grass experiment plan and fertilizer treatments 1903-1964",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rpg5-plan1856-1902-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Park Grass experiment plan and treatments 1856-1902",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
         }
     ],
     "funder": [
