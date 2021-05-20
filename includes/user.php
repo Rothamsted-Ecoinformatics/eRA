@@ -276,16 +276,15 @@ You, or someone pretending to be you has requested login or registration  into e
     }
 
     $message .= "
-<p> </p>
-        
-        
-        
+<p>
+              
 <a  target =\"eRAApp\" href=\"" . $Web_base . "index.php?process=confirm&VC=" . $answers['vericode'] . "&TC=" . $answers['timecode'] . "&VC2=" . $answers['vericode2'] . "\"> <b> Click to finish your login !</b>
 			</a>
+    </p>
+    <p>            
+  or paste the link into the browser you came from. " . $Web_base . "index.php?process=confirm&VC=" . $answers['vericode'] . "&TC=" . $answers['timecode'] . "&VC2=" . $answers['vericode2'] . "</p>              
                 
-                
-                
-                
+ </p>               
                 
 </body>
 </html>
@@ -525,7 +524,8 @@ if ($loggedIn == 'yes' && $email != 'delete') {
 
     $strRegister = $formIN;
 
-    $registeredUser = $_COOKIE['email'];
+    //$registeredUser = $_COOKIE['email'];
+    $registeredUser = "";
     $_SESSION["email"] = $email;
 } else {
 

@@ -2,7 +2,7 @@
     {
         "md_id": 90380277,
         "title": "Hoosfield mean long-term spring barley yields 1852-2015",
-        "URL": "http://www.era.rothamsted.ac.uk/Hoos/hoos_open_access_yields",
+        "URL": "http://www.era.rothamsted.ac.uk/dataset/rhb2/01-HBYields",
         "identifier": "10.23637/KeyRefOAHByields",
         "identifier_type": "DOI",
         "dataset_type": "Crop  yield data",
@@ -22,7 +22,7 @@
     {
         "md_id": 181617775,
         "title": "Hoosfield soil organic carbon content",
-        "URL": "http://www.era.rothamsted.ac.uk/Hoos/hoos_open_access_soc",
+        "URL": "http://www.era.rothamsted.ac.uk/dataset/rhb2/01-HBSOC1852",
         "identifier": "10.23637/KeyRefOAHBsoc",
         "identifier_type": "DOI",
         "dataset_type": "Soil data",

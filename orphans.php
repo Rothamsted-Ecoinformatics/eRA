@@ -131,7 +131,8 @@ $hasDocs = file_exists($fileDocs);
 					<p>Datasets derived from other field experiments at Rothamsted (not
 						Classical or long-term experiments)</p>
 							
-      	<?php if ($hasDatasets) { include '_datasets.php'; }?>
+      	<?php echo $exptFolder;
+      	if ($hasDatasets) { include '_datasets.php'; }?>
                 							
 				</div>
 			</div>

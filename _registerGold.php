@@ -23,8 +23,6 @@ if ($vprocess == "RGprocess") {
 <p> 
 
 <?php
-echo $sqlsmessages;
-var_dump($vRGDLTE);
     $strRecorded = "<p>This is the information that has been recorded.</p>";
 
 

@@ -40,12 +40,17 @@
 
 			<div class="card-body">
 				<h5 class="card-title">e-RAdata</h5>
-				<p class="card-text small">Access the e-RA database using the Data Extraction Tool. Contact the <a href="mailto:era@rothamsted.ac.uk" target="_blank">e-RA Data Curators</a> for access.</p>
+				<p class="card-text small">
+					Access the e-RA database using the Data Extraction Tool. Contact
+					the <a href="mailto:era@rothamsted.ac.uk" target="_blank">e-RA Data
+						Curators</a> for access.
+				</p>
 
 			</div>
 			<div class="card-footer border-top-0">
-				<a href="http://www3.rothamsted.ac.uk/cdera/extract2019/pages/data_extraction_prototype6.html" class="btn btn-info">eRAdata <i
-					class="fa fa-list-alt"></i></a>
+				<a
+					href="http://www3.rothamsted.ac.uk/cdera/extract2019/pages/data_extraction_prototype6.html"
+					class="btn btn-info">e-RAdata <i class="fa fa-list-alt"></i></a>
 			</div>
 		</div>
 	</div>
@@ -54,7 +59,8 @@
 
 			<div class="card-body">
 				<h5 class="card-title">e-RApubs</h5>
-				<p class="card-text small">Search e-RA publications database for publications which have used the Rothamsted Long-term Experiments.</p>
+				<p class="card-text small">Search e-RA publications database for
+					publications which have used the Rothamsted Long-term Experiments.</p>
 
 			</div>
 			<div class="card-footer border-top-0">
@@ -69,8 +75,9 @@
 
 			<div class="card-body">
 				<h5 class="card-title">e-RAdoc</h5>
-				<p class="card-text small">Access the e-RA scanned document archive, including annual reports, annual yield books, maps and other documents relating to the Long-Term
-					Experiments.</p>
+				<p class="card-text small">Access the e-RA scanned document archive,
+					including annual reports, annual yield books, maps and other
+					documents relating to the Long-Term Experiments.</p>
 
 			</div>
 			<div class="card-footer border-top-0">
@@ -81,4 +88,17 @@
 	</div>
 
 
+</div>
+
+<div class="jumbotron bg-lighter p-3 m-3">
+
+	<p class="lead">
+		For further information and assistance, please contact the e-RA
+		curators, Sarah Perryman and Margaret Glendining using the e-RA email
+		address: <a href="mailto:era@rothamsted.ac.uk">era@rothamsted.ac.uk</a>
+	</p>
+	<p class="lead">
+		<a class="btn btn-primary btn-lg" href="mailto:era@rothamsted.ac.uk"
+			role="button">Contact e-RA</a>
+	</p>
 </div>

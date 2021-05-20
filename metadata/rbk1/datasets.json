@@ -2,7 +2,7 @@
     {
         "md_id": -1004047716,
         "title": "Broadbalk mean long-term winter wheat yields",
-        "URL": "http://www.era.rothamsted.ac.uk/Broadbalk/bbk_open_access_yields",
+        "URL": "http://www.era.rothamsted.ac.uk/dataset/rbk1/01-OAWWYields",
         "identifier": "10.23637/KeyRefOABKyields",
         "identifier_type": "DOI",
         "dataset_type": "Crop  yield data",
@@ -22,7 +22,7 @@
     {
         "md_id": -1140916605,
         "title": "Broadbalk Soil Total % Nitrogen Content, 1843-2010",
-        "URL": "http://www.era.rothamsted.ac.uk/Broadbalk/bbk_open_access_soilN",
+        "URL": "http://www.era.rothamsted.ac.uk/dataset/rbk1/01-Nitro1843",
         "identifier": "10.23637/BK-oadata-soilN-01",
         "identifier_type": "DOI",
         "dataset_type": "Soil data",
@@ -42,7 +42,7 @@
     {
         "md_id": 935928566,
         "title": "Broadbalk changes in Olsen P in top soil, 1843-2010",
-        "URL": "http://www.era.rothamsted.ac.uk/Broadbalk/bbk_open_access_olsenp",
+        "URL": "http://www.era.rothamsted.ac.uk/dataset/rbk1/01-OAOlsenP1844",
         "identifier": "10.23637/keyrefoabkolsenp",
         "identifier_type": "DOI",
         "dataset_type": "Soil data",
@@ -62,7 +62,7 @@
     {
         "md_id": 759423885,
         "title": "Broadbalk soil organic carbon content 1843-2010",
-        "URL": "http://www.era.rothamsted.ac.uk/Broadbalk/bbk_open_access_soc",
+        "URL": "http://www.era.rothamsted.ac.uk/dataset/rbk1/01-BKSOC1843",
         "identifier": "10.23637/KeyRefOABKsoc",
         "identifier_type": "DOI",
         "dataset_type": "Soil data",
@@ -82,7 +82,7 @@
     {
         "md_id": 1458776456,
         "title": "Broadbalk soil organic carbon content 1843-2015",
-        "URL": "http://www.era.rothamsted.ac.uk/Broadbalk/bbk_open_access_soc",
+        "URL": "http://www.era.rothamsted.ac.uk/dataset/rbk1/02-BKSOC1843",
         "identifier": "10.23637/KeyRefOABKsoc-02",
         "identifier_type": "DOI",
         "dataset_type": "Soil data",
@@ -102,7 +102,7 @@
     {
         "md_id": -2078416917,
         "title": "<i>Cirsium arvense</i> frequency on Broadbalk Section 8 1991-2018",
-        "URL": "http://www.era.rothamsted.ac.uk/Broadbalk/Cirsiumarvense1991-2018",
+        "URL": "http://www.era.rothamsted.ac.uk/dataset/rbk1/01-CIRSIUM1991",
         "identifier": "10.23637/bbk-2078416917-01",
         "identifier_type": "DOI",
         "dataset_type": "Species observation data",
@@ -122,7 +122,7 @@
     {
         "md_id": -1004390306,
         "title": "Fisher 1921 Broadbalk wheat grain yields 1852-1918",
-        "URL": "http://www.era.rothamsted.ac.uk/Broadbalk/Fisher1921",
+        "URL": "http://www.era.rothamsted.ac.uk/dataset/rbk1/01-FISHER1921",
         "identifier": "10.23637/rbk1-data-fisher-1921-01",
         "identifier_type": "DOI",
         "dataset_type": "Crop  yield data",
@@ -142,7 +142,7 @@
     {
         "md_id": 655881765,
         "title": "Broadbalk Crop Nutrient Content, Wheat 1968-2017",
-        "URL": "http://www.era.rothamsted.ac.uk/Broadbalk/crop_nutrients_wheat_1968-2017",
+        "URL": "http://www.era.rothamsted.ac.uk/dataset/rbk1/01-BKNUTRW",
         "identifier": "10.23637/rbk1-BKNUTRW-01",
         "identifier_type": "DOI",
         "dataset_type": "Crop nutrient data",

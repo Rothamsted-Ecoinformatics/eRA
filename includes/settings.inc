@@ -10,9 +10,6 @@
  * 
  */
 
-/**
- * < base URL for the site
- */
 
 /**
  * @Brief Deciding which DET is called
@@ -25,11 +22,6 @@
  * @var string $DETout
  * @var string $det this is the one used in the site
  */
-$DETin = "http://burdock.rothamsted.ac.uk/pgera/extract/pages/data_extraction_prototype6.html";
-$DETout = "http://www3.rothamsted.ac.uk/cdera/extract/pages/data_extraction_prototype6.html";
-$det = $DETin;
-$displayValue = 0; //this is a live site so displaying datasets with isReady state 2 or above
-
 
 /**
  * default Format for today's date on the site
@@ -46,7 +38,6 @@ $scheme = array(
 
 $PictureFolfer = $base . "images/";
 
-$page_title = "e-RA: ";
 $page_description = "e-RA provides a permanent managed database for secure storage of data from Rothamsted's Long-term Experiments, the oldest, continuous agronomic experiments in the world. Together with the accompanying meteorological records, associated documentation and sample archive, it is a unique historical record of experiments that have been measured continuously for over 170 years.";
 $page_keywords = "experiments, long term experiments, agriculture, datasets, research, fields, yields, weather";		
 

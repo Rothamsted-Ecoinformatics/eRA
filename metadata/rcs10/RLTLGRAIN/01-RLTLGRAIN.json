@@ -4,7 +4,7 @@
     "identifier": "10.23637/rcs10-rltlgrain-01",
     "name": "Rothamsted long-term liming experiment grain mineral composition",
     "shortName": "RLTLGRAIN",
-    "url": "http://www.era.rothamsted.ac.uk/RCS10/RLTLGRAIN",
+    "url": "http://www.era.rothamsted.ac.uk/dataset/rcs10/01-RLTLGRAIN",
     "description": [
         {
             "inLanguage": "en",
@@ -32,7 +32,7 @@
         "name": "Electronic Rothamsted Archive, Rothamsted Research"
     },
     "publication_year": 2021,
-    "dateCreated": null,
+    "dateCreated": "2021-03-31",
     "dateModified": null,
     "datePublished": null,
     "inLanguage": "en",

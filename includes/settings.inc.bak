@@ -10,9 +10,6 @@
  * 
  */
 
-/**
- * < base URL for the site
- */
 
 /**
  * @Brief Deciding which DET is called
@@ -25,11 +22,6 @@
  * @var string $DETout
  * @var string $det this is the one used in the site
  */
-$DETin = "http://burdock.rothamsted.ac.uk/pgera/extract/pages/data_extraction_prototype6.html";
-$DETout = "http://www3.rothamsted.ac.uk/cdera/extract/pages/data_extraction_prototype6.html";
-$det = $DETin;
-
-
 
 /**
  * default Format for today's date on the site
@@ -46,7 +38,7 @@ $scheme = array(
 
 $PictureFolfer = $base . "images/";
 
-$page_title = "e-RA: ";
+
 $page_description = "e-RA provides a permanent managed database for secure storage of data from Rothamsted's Long-term Experiments, the oldest, continuous agronomic experiments in the world. Together with the accompanying meteorological records, associated documentation and sample archive, it is a unique historical record of experiments that have been measured continuously for over 170 years.";
 $page_keywords = "experiments, long term experiments, agriculture, datasets, research, fields, yields, weather";		
 
@@ -178,6 +170,15 @@ $pageSettings = array(
         "Experiment" => "Broadbalk",
         "ExptCode" => "rbk1",
         "KeyRef" => "KeyRefBroadbalk",
+        "URLCode" => "Broadbalk",
+        "prevFolder" => "broad"
+    ),
+    
+    array(
+        "exp-ID" => 1,
+        "Experiment" => "Broadbalk Wilderness",
+        "ExptCode" => "rbk1w",
+        "KeyRef" => "KeyRefWilderness",
         "URLCode" => "Broadbalk",
         "prevFolder" => "broad"
     ),
@@ -328,7 +329,15 @@ $pageSettings = array(
     array(
         "exp-ID" => 38,
         "Experiment" => "Amounts of straw experiments",
-        "ExptCode" => "rwcs326",
+        "ExptCode" => "rcs326",
+        "KeyRef" => "KeyRefStraw",
+        "URLCode" => "",
+        "prevFolder" => ""
+    ),
+    array(
+        "exp-ID" => 38,
+        "Experiment" => "Amounts of straw experiments",
+        "ExptCode" => "wcs326",
         "KeyRef" => "KeyRefStraw",
         "URLCode" => "",
         "prevFolder" => ""

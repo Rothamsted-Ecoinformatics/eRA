@@ -4,7 +4,7 @@
     "identifier": "10.23637/wcs10-wltlyields-01",
     "name": "Woburn long-term liming experiment crop yields 1962-1996",
     "shortName": "WLTLYIELDS",
-    "url": "http://www.era.rothamsted.ac.uk/wcs10/WLTLYIELDS",
+    "url": "http://www.era.rothamsted.ac.uk/dataset/wcs10/01-WLTLYIELDS",
     "description": [
         {
             "inLanguage": "en",
@@ -32,7 +32,7 @@
         "name": "Electronic Rothamsted Archive, Rothamsted Research"
     },
     "publication_year": 2020,
-    "dateCreated": null,
+    "dateCreated": "2020-11-27",
     "dateModified": null,
     "datePublished": null,
     "inLanguage": "en",

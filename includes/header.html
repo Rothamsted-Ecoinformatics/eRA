@@ -1,27 +1,35 @@
 
-<nav id="custom-top-right" class="navbar navbar-expand-lg bg-lighter">
+<nav id="custom-top-right" class="navbar navbar-expand-lg navbar-light"
+	role="navigation">
 	<button class="navbar-toggler" type="button" data-toggle="collapse"
 		data-target="#navbarSupportedContent">
 		<span class="navbar-toggler-icon"></span>
 	</button>
+	<a class="navbar-brand font-weight-bold text-primary" href="index.php">  Access to data from the Rothamsted Long-term Experiments
+	</a>
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 
 		<ul class="navbar-nav ml-auto">
 			<?php echo ($strMessage . " ");?>
-
-			<li class="nav-item"><a class="btn btn-info mx-1"
+			<?php if ($loggedIn == 'yes') {
+?>
+<li class="nav-item"><a class="btn btn-info m-1"
 				href="#modalLogin" data-toggle="modal" data-backdrop="static"> <i
 					class="fa fa-user"></i> <?php echo $registeredUser; ?>
 			</a></li>
-			<li class="nav-item"><a class="btn btn-info mx-1"
-				href="e-RApubs.php"> <i class="fa fa-mortar-board"></i> e-RApubs
-			</a></li>
-			<li class="nav-item"><a class="btn btn-info mx-1"
-				target="_BLANK"
+<?php
+
+}?>
+			
+			<li class="nav-item"><a class="btn btn-info m-1" target="_BLANK"
 				href="http://www3.rothamsted.ac.uk/cdera/extract2019/pages/data_extraction_prototype6.html"><i
 					class="fa fa-list-alt"></i> e-RAdata</a></li>
+			<li class="nav-item"><a class="btn btn-info m-1"
+				href="e-RApubs.php"> <i class="fa fa-mortar-board"></i> e-RApubs
+			</a></li>
 
-			<li class="nav-item"><a class="btn btn-info mx-1"
+
+			<li class="nav-item"><a class="btn btn-info m-1"
 				href="http://www.era.rothamsted.ac.uk/eradoc/"><i
 					class="fa fa-book"></i> e-RAdoc</a></li>
 
@@ -30,19 +38,24 @@
 		</ul>
 	</div>
 </nav>
-<nav id="custom-main-menu" class="navbar navbar-expand-lg bg-lighter">
+<nav id="custom-main-menu"
+	class="navbar navbar-expand-lg navbar-light bg-white my-1"
+	role="navigation">
+	<a class="navbar-brand" href="index.php"> <picture
+			class="embelem p-1"> <img
+			src="images/logos/eRALogoSmall.gif"
+			alt="The
+		        electronic Rothamsted Archive" class="embelem"
+			type="image/webp"> </picture>
+
+	</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse"
 		data-target="#navbarera">
 		<span class="navbar-toggler-icon"></span>
 	</button>
-	<a class="navbar-brand" href="index.php"> <img
-		src="images/logos/eRALogoSmall.gif"
-		alt="The
-		        electronic Rothamsted Archive"> The
-		electronic Rothamsted Archive
-	</a>
-	<div class="collapse navbar-collapse mr-0" id="navbarera">
-		<ul class="nav navbar-nav">
+
+	<div class="collapse navbar-collapse  mr-0" id="navbarera">
+		<ul class="navbar-nav">
 
 			<!-- *******************   SITES  *********************   -->
 			<li class="dropdown menu-large nav-item mx-3 "><a href="#"
@@ -140,7 +153,7 @@
 			<!-- *******************   DATA  *********************   -->
 
 			<li class="dropdown menu-large nav-item mx-3"><a href="#"
-				class="dropdown-toggle nav-link" data-toggle="dropdown">DATA </a>
+				class="dropdown-toggle nav-link" data-toggle="dropdown">EXPERIMENT DATA </a>
 				<ul class="dropdown-menu megamenu">
 					<div class="row">
 						<li class="col-md-4 dropdown-item">
@@ -169,11 +182,12 @@
 								<li><a href="experiment/rbk1w#datasets">Broadbalk
 										Wilderness</a></li>
 								<li><a href="experiment/rex4#datasets">Exhaustion Land</a></li>
-								<li><a href="experiment/rrn2#datasets">Fosters 
+								<li><a href="experiment/rrn2#datasets">Fosters
 										Ley-arable</li>
 								<li><a href="experiment/rge9#datasets">Geescroft
 										Wilderness</a></li>
-								<li><a href="experiment/rrn1#datasets">Highfield Ley-arable</a></li>
+								<li><a href="experiment/rrn1#datasets">Highfield
+										Ley-arable</a></li>
 
 								<li><a href="experiment/rcs10#datasets">Long-term
 										Liming</a></li>
@@ -181,7 +195,7 @@
 							</ul>
 						</li>
 						<li class="col-md-4 dropdown-item">
-							
+
 							<ul>
 
 								<li class="dropdown-header ">Woburn</li>
@@ -201,7 +215,7 @@
 
 							</ul>
 						</li>
-						
+
 
 
 
@@ -211,7 +225,7 @@
 
 			<!-- *******************   WEATHER DATA  *********************   -->
 			<li class="dropdown menu-large nav-item mx-3"><a href="#"
-				class="dropdown-toggle nav-link" data-toggle="dropdown">WEATHER
+				class="dropdown-toggle nav-link" data-toggle="dropdown">METEOROLOGICAL
 					DATA </a>
 				<ul class="dropdown-menu megamenu">
 					<div class="row">
@@ -246,7 +260,7 @@
 					<div class="row">
 
 
-						<li class="col-md-4 dropdown-item">
+						<li class="col-md-6 dropdown-item">
 							<ul>
 								<li class="dropdown-header">News and Updates</li>
 								<li><a href="https://twitter.com/eRA_Curator">Twitter</a></li>
@@ -254,31 +268,20 @@
 								<li><a href="updates.php">e-RA news</a>
 							</ul>
 						</li>
-						<li class="col-md-4 dropdown-item">
+						<li class="col-md-6 dropdown-item">
 							<ul>
 								<li class="dropdown-header">About</li>
 								<li><a href="info/about">About e-RA</a></li>
-								<li><a target="_blank" href="https://www.rothamsted.ac.uk/national-capabilities">National Capabilities</a>
+								<li><a target="_blank"
+									href="https://www.rothamsted.ac.uk/national-capabilities">National
+										Capabilities</a>
 								<li><a href="contact.php">Contact us</a></li>
 								<li><a href="info/howtocredit">How to Credit</a></li>
 
 
 							</ul>
 						</li>
-						<li class="col-md-4 dropdown-item">
-							<ul>
-								<li>
-								<li class="dropdown-header"><a href="about.php">Curation</a></li>
-								<li><a
-									href="http://local-info.rothamsted.ac.uk/eRA/era2018-doxy/html/index.html">Documentation</a></li>
-
-								<li><a href="zphpinfo.php">phpinfo</a>
-								<li><a href="ztestuser.php">List registered User</a>
-								<li><a href="ztestvar.php">TestVar</a>
-								<li><a href="zreset.php">reset session</a></li>
-								<li><a href="history.php">Session History</a></li>
-							</ul>
-						</li>
+						
 					</div>
 				</ul></li>
 

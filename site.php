@@ -118,11 +118,12 @@ $page_title .=  ''.$pageinfo['Experiment'];
             							<div class="row px-5">
             								<?php include ($exptFolder.'/experiments.html');?>
             								</div>
-            						</div>
+            						</div>						
             						<div class="tab-pane" id="images" role="tabpanel"
             							aria-labelledby="images-tab">
             								<?php include '_images.php';?>
             							</div>
+									
             						<div class="tab-pane  pb-3" id="keyrefs" role="tabpanel"
 							aria-labelledby="keyrefs-tab">
 							<?php if ($dev == 'norton') {} else  {include '_keyrefs.php';} ?>
@@ -139,10 +140,6 @@ $page_title .=  ''.$pageinfo['Experiment'];
             
             include_once 'includes/footer.html';
             
-            ?>
-     
-    	
-        <?php
         
         include_once 'includes/finish.inc'; // this has the common js scripts
         

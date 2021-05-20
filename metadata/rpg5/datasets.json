@@ -2,7 +2,7 @@
     {
         "md_id": 251368287,
         "title": "Park Grass Changes in Mean Species Numbers 1864-2011",
-        "URL": "http://www.era.rothamsted.ac.uk/Park/pg_open_access_species",
+        "URL": "http://www.era.rothamsted.ac.uk/dataset/rpg6/01-OAPGspecies",
         "identifier": "10.23637/KeyRefOAPGspecies",
         "identifier_type": "DOI",
         "dataset_type": "Species observation data",
@@ -22,7 +22,7 @@
     {
         "md_id": 1334494892,
         "title": "Park Grass Soil pH 1856-2011",
-        "URL": "http://www.era.rothamsted.ac.uk/Park/pg_open_access_soilph",
+        "URL": "http://www.era.rothamsted.ac.uk/dataset/rpg5/01-OAPGsoilpH",
         "identifier": "10.23637/KeyRefOAPGsoilpH",
         "identifier_type": "DOI",
         "dataset_type": "Soil data",

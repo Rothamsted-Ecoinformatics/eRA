@@ -13,7 +13,48 @@
 <h2 class="mx-3">Datasets available</h2>
 
 <?php
+function niceChop($text, $length)
+{
+    $prestr = explode('.', $text);
+    $sents = array();
+    $sents[0] = '';
+    $desc = '';
+    $next = '';
+    $j = 0;
+    for ($i = 0; $i < count($prestr); $i ++) {
 
+        $isInitial = 0;
+        $sentLen = strlen($prestr[$i]);
+        /* testing for single letters last word */
+        if ($sentLen > 2) {
+            if ($prestr[$i][$sentLen - 2] == ' ') {
+                $isInitial = 1;
+            }
+        } else {
+            $isInitial = 1;
+        }
+
+        if ($isInitial == 1) {
+            $sents[$j] .= '. ' . $prestr[$i];
+        } else {
+            $sents[$j] .= '. ' . $prestr[$i];
+            $next = $desc . $sents[$j];
+            $j ++;
+            $sents[$j] = '';
+        }
+
+        if (strlen($desc) > $length) {
+
+            break;
+        } else {
+            $desc = $next;
+        }
+        $desc = ltrim($desc, '.');
+        $desc = str_replace('..', '.', $desc);
+        $desc .= '.';
+    }
+    return $desc;
+}
 
 
 if (!$hasDatasets) {
@@ -21,24 +62,55 @@ if (!$hasDatasets) {
 }
 else 
 {
-$info = "";
+$list = "";
 $prefix = "10.23637/";
+$list .= "<div class=\"row mx-3\">";
+foreach ($datasets as $dataset) {if ($dataset['isReady'] == 2) {
 
-foreach ($datasets as $dataset) {
-    $fileDataset = $exptFolder . '/' . $dataset['shortName'].'/' . $dataset['shortName'].'.json';
+    if ($dataset['UID']) {
+                    $fileDataset = $exptFolder . '/' . $dataset['shortName'] . '/' . $dataset['UID'] . '.json';
+                } else {
+                    $fileDataset = $exptFolder . '/' . $dataset['shortName'] . '/' . $dataset['shortname'] . '.json';
+                }
+    $subDescription = '';
     
+    $subDescription = niceChop($dataset['description'], 200);  
     $id = str_replace($prefix, '', $dataset['identifier']);
-    $info .= "<h3 class=\"mx-3 mt-5\">".$dataset['title']."</h3>";
-    $info .=  "<ul  class=\"list-group mx-5\">";
-    $info .= "<li class=\"list-group-item \">Dataset Page on old e-RA site: <a href=\"".$dataset['URL']."\">".$dataset['identifier']."</a></li>";
-    $info .= "<li class=\"list-group-item \">Dataset Page on new e-RA site: <a href=\"dataset.php?expt=".$expt."&amp;dataset=".$dataset['shortName']."\">".$dataset['identifier']." - ".$dataset['shortName']."</a></li>";
+	$shortname = $dataset['shortName'];
+    $countVersions = array_count_values(array_column($datasets, 'shortName'));
+	if ($countVersions < 10) {
+                    $strCount = "0" . strval($countVersions);
+                } else {
+                    $strCount = strval($countVersion);
+                }
+                $info = "<div class=\"col-sm-4 py-2\">";
+  
+                
+                
+                $info .= "\n	<div class=\"card  h-100 bg-light mb-3 \" >";
+                
+                $info .= "\n	\t	<div class=\"card-header\">" . $dataset['title'] . "</div>";
+                $info .= "\n	\t	<div class=\"card-body\">";
+                // $info .="\n \t <h4 class=\"card-title\">Light card title</h4>";
+                $info .= "\n	\t	\t		<small class=\"card-muted\">" . $dataset['dataset_type'] . $subDescription . " <br /> " . $dataset['shortName'] . " </small>";
+                $info .= "\n	\t		</div>";
+                $info .= "\n	\t	<div class=\"card-footer\"> <a class=\"btn btn-primary stretched-link\" href=\"dataset/" . $expt . "/" . $dataset['UID'] . "\"> More ...</a></div>";
    
-    $info .= "<li class=\"list-group-item \"    style=\"white-space: pre-wrap;\" >".$dataset['description']."</li>";
-       $info .= "</ul>";
+                $info .= "\n	\t	</div>";
+                $info .= "\n	\t	</div>";
+				$list .= $info;
+				if ($strCount == $dataset['version']) {
+                    
+                    $notEmptyGr = 1; // shift group to
+                }
 }
 
 
-echo $info;
+	
+}
+
+ $list .= "</div>";
+echo $list;
 
 
 }

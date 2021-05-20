@@ -2,7 +2,7 @@
     {
         "md_id": -691415717,
         "title": "Woburn long-term liming experiment crop yields 1962-1996",
-        "URL": "http://www.era.rothamsted.ac.uk/wcs10/WLTLYIELDS",
+        "URL": "http://www.era.rothamsted.ac.uk/dataset/wcs10/01-WLTLYIELDS",
         "identifier": "10.23637/wcs10-wltlyields-01",
         "identifier_type": "DOI",
         "dataset_type": "Crop  yield data",
@@ -22,7 +22,7 @@
     {
         "md_id": -1039542714,
         "title": "Woburn long-term liming experiment grain mineral composition",
-        "URL": "http://www.era.rothamsted.ac.uk/WCS10/WLTLGRAIN",
+        "URL": "http://www.era.rothamsted.ac.uk/dataset/wcs10/01-WLTLGRAIN",
         "identifier": "10.23637/wcs10-wltlgrain-01",
         "identifier_type": "DOI",
         "dataset_type": "Crop nutrient data",

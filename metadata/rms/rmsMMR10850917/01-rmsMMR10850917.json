@@ -4,7 +4,7 @@
     "identifier": "10.23637/rmsMMRain10850917",
     "name": "Mean monthly rainfall at Rothamsted October 1985-September 2017",
     "shortName": "rmsMMR10850917",
-    "url": "http://www.era.rothamsted.ac.uk/Met/rmsMMR10850917",
+    "url": "http://www.era.rothamsted.ac.uk/dataset/rms/01-rmsMMR10850917",
     "description": [
         {
             "inLanguage": "en",
@@ -315,6 +315,13 @@
             "sameAs": "http://dx.doi.org/10.13039/501100000268",
             "award": "BBS/E/C/000J0300 - The Rothamsted Long - Term Experiments - National Capability",
             "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F000J0300"
+        },
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/00005189 - The Rothamsted Long-Term Experiments including Sample Archive and e-RA database",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F00005189"
         }
     ],
     "distribution": [

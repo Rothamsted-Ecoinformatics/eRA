@@ -20,14 +20,14 @@ $Parsedown = new Parsedown();
 <div id="idExpt">
 	<div id="greenTitle"
 		class="d-flex  mb-3 py-3 p3-3 bg-primary text-white mt-0 ">
-
 		<h1 class="mx-3">Dataset:  <?php echo $dsinfo['name'];?></h1>
-	
+
+
 	</div>
 	<div class="row mx-0 mb-3">
 		<div class="col-sm-4">
-			
-				
+
+
 			<div class="card card-summary ">
 				<div class="card-body">
 				 
@@ -35,34 +35,41 @@ $Parsedown = new Parsedown();
 					
 					<ul class="list-group list-group-flush ">
 					<?php
-			if ($registeredUser != "Login/Register") {echo  $strUserArea;}?>
+    if ($registeredUser != "Login/Register") {
+        echo $strUserArea;
+    }
+    ?>
 						<li class="list-group-item"><b>Data access: </b><?php echo $dstypeStr;?></li>
 						<li class="list-group-item"><b>DOI: </b><?php echo $dsinfo['identifier'];?>
 						</li>
-						<?php 
-						
-						if ($hasNVersion == 1) {
-						    ?>
+						<?php
+
+    if ($hasNVersion == 1) {
+        ?>
 						    <li class="list-group-item text-warning "><b>Newer Version: </b>
-						    <?php 
-						    echo $newVersionShort;
-						    ?>
+						    <?php
+        echo $newVersionShort;
+        ?>
 						    
 						    </li>
 						    <?php 						}?> 
-						<?php if ($expt == "rro") { ?><li class="list-group-item"><b>Experiment: </b> <a
-							href="orphans.php">Other</a></li>
+						<?php if ($expt == "rro") { ?><li class="list-group-item"><b>Experiment:
+						</b> <a href="orphans.php">Other</a></li>
 						
 						<?php } else {?>
 						<li class="list-group-item"><b>Experiment: </b> <a
 							href="experiment/<?php echo $expt;?>#datasets"><?php echo $pageinfo['Experiment']; ?></a></li>
 						
-						<?php }
-						?><li class="list-group-item"><b>Files included in the download: </b> <?php echo $distribution; ?>
+						<?php
+    }
+    ?><li class="list-group-item"><b>Files included in the download: </b> <?php echo $distribution; ?>
+						
+						
+						
+						
 						<li class="list-group-item"><b>Version: </b> <?php echo $dsinfo['version']; ?></li>
-						<li class="list-group-item"><b>Published: </b> <?php echo $dateCreation; ?></li>
-						<!-- li class="list-group-item"><b>Publication Date: </b> <?php echo $datePublication; ?></li>  -->
-						<li class="list-group-item"><b>Last updated: </b> <?php echo $dateUpdate; ?></li>
+						<?php echo $dateCreation . $datePublication .$dateUpdate;?>
+						
 						<li class="list-group-item"><b>Keywords: </b> 
 						<?php
     $localwords = $dsinfo['keywords'];
@@ -71,42 +78,54 @@ $Parsedown = new Parsedown();
 
     ?></li>
 						<li class="list-group-item"><b>Author(s): </b> <?php echo $refAuthor; ?></li>
-						
+
 						<li class="list-group-item"><b>Publisher: </b><?php echo $getPublisher; ?></li>
 					</ul>
 					<?php echo    $strDownload;?>
 				</div>
 
 			</div>
-			
-				 
-		
 
-			
+
+
+
+
 
 		</div>
 		<div class="col-sm-8">
-		 <?php echo         $illustration; // if it is available ?>
+			<p class="text-right"><a href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+				class="twitter-share-button" 
+				data-via="eRA_curator" 
+				data-size="large"
+				data-text=" <?php echo $dsinfo['name'];?> "
+				data-url="http://doi.org/<?php echo $dsinfo['identifier'];?>"
+				data-hashtags="eRAdatasets" data-related="eRA_Curator,Rothamsted"
+				data-show-count="false">Tweet this dataset</a></p>
+			<script async src="https://platform.twitter.com/widgets.js"
+				charset="utf-8"></script> 
+				
+				
+		<?php echo         $illustration; // if it is available ?>
 			<h3 class="my-3">Summary</h3>
-			<?php echo $Parsedown->text($arrDescription['Abstract']) ; 
-			
-			
-		
+			<?php
+
+echo $Parsedown->text($arrDescription['Abstract']);
+
 if (isset($arrDescription['Methods'])) {
     ?> 
 		   <h3>Methods</h3>
-			<?php echo $Parsedown->text( $arrDescription['Methods']); 
+			<?php
+
+    echo $Parsedown->text($arrDescription['Methods']);
 }
 
 if (isset($arrDescription['TechnicalInfo'])) {
 
     ?> 
 		    <h3>Technical Information</h3>
-		    <?php 
+		    <?php
 
-		    echo $Parsedown->text($arrDescription['TechnicalInfo']);
-			
-			
+    echo $Parsedown->text($arrDescription['TechnicalInfo']);
 }
 if ($hasDocuments == 1) {
     echo $relDocuments;
@@ -126,7 +145,7 @@ if ($hasNVersion == 1) {
     echo $newVersions;
 }
 if ($hasCT == 1) {
-    echo  $tblContributors ;
+    echo $tblContributors;
 }
 ?>	
 			
@@ -305,7 +324,7 @@ if ($hasCT == 1) {
 								<li class="list-group-item ">The dataset <b><?php echo $dsinfo['name'];?></b>
 									is a published dataset from the e-RA Database. The e-RA
 									database, including the published datasets generated from it,
-									 is part of the <a target="_blank"
+									is part of the <a target="_blank"
 									href="https://www.rothamsted.ac.uk/national-capabilities">
 										National Capabilities </a>, which also includes the <a
 									href="https://www.rothamsted.ac.uk/long-term-experiments">Long-Term
@@ -322,7 +341,7 @@ if ($hasCT == 1) {
 									href="https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F00005189">BBS/E/C/00005189</a>
 									(2012-2017) and <a target="_blank"
 									href="https://gtr.ukri.org/project/40CC213B-6923-433A-89AD-789CC3E8E1F5">BBS/E/C/000J0300</a>
-									 (2017-2022).
+									(2017-2022).
 								</li>
 
 							</ul>

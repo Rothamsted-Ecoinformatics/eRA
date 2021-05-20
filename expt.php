@@ -219,7 +219,7 @@ if ($displayDatasets > 0) {
                             echo  " Datasets for Alternate Wheat and Fallow are only available through  eRAdata. Please <a href=\"newGold.php\" >register for access</a>. ";
                         } else {
                     
-                        echo  "There are currently no preprared datasets online for this experiment. However, there may still be data available but requiring curation. For more information please <a href=\"mailto:era@rothamsted.ac.uk\">contact the e-RA curators</a>. ";
+                        echo  "There are currently no prepared datasets online for this experiment. However, there may still be data available but requiring curation. For more information please <a href=\"mailto:era@rothamsted.ac.uk\">contact the e-RA curators</a>. ";
                         }
                     }
                     ?>

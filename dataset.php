@@ -99,23 +99,22 @@ if ($hasDataset) {
 
     $butLogin = "<button type=\"button\" class=\"btn btn-info my-1 mx-3 \" data-toggle=\"modal\"
         data-target=\"#modalLogin\">" . $registeredUser . "</button>";
-
-    if ($dsinfo["datePublished"]) {
-        $datePublication = $dsinfo["datePublished"];
-    } else {
-        $datePublication = "N/A";
-    }
-
+    
     if ($dsinfo["dateCreated"]) {
-        $dateCreation = $dsinfo["dateCreated"];
+        $dateCreation = "<li class=\"list-group-item\"><b>Created: </b> ".$dsinfo["dateCreated"]."</li>";
     } else {
-        $dateCreation = "N/A";
+        
+    }   
+    if ($dsinfo["datePublished"]) {
+        
+        $datePublication = "<li class=\"list-group-item\"><b>Published: </b> ".$dsinfo["datePublished"]."</li>";
+    } else {
+        
     }
-
     if ($dsinfo["dateModified"]) {
-        $dateUpdate = $dsinfo["dateModified"];
+        $dateUpdate = "<li class=\"list-group-item\"><b>Updated: </b> ".$dsinfo["dateModified"]."</li>";
     } else {
-        $dateUpdate = "N/A";
+        
     }
 
     $getAuthors = "";
@@ -347,7 +346,7 @@ if ($hasDataset) {
         $strMeta = "";
         if (file_exists($zipfile)) {
 
-            $sqlDownload = "INSERT INTO eRAdownloads (`position`, DOI, `dl-date`) VALUES(' " . $positionValue . "', '" . $DOI . "', '" . $today . "')";
+            $sqlDownload = "INSERT INTO eRAdownloads (`position`, DOI, `dl-date`,`result`) VALUES(' " . $positionValue . "', '" . $DOI . "', '" . $today . "', '".$siteType ."')";
 
             if ($results = mysqli_query($link, $sqlDownload)) {
 
@@ -356,7 +355,7 @@ if ($hasDataset) {
 
             $strMeta .= " <meta
              http-equiv=\"refresh\"
-                 content=\"1; URL=/eRA/era2018-new/" . $zipfile . "\">";
+                 content=\"1; URL=".$root . $zipfile . "\">";
         } else {
             $sqlError = "INSERT INTO eRAdownloads (`position`, DOI, `dl-date`,`result`) VALUES(' " . $positionValue . "', '" . $DOI . "', '" . $today . "', 'NO FILE')";
             if ($results = mysqli_query($link, $sqlError)) {
