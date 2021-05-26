@@ -251,6 +251,7 @@ function LogMangaGuest()
 }
 
 
+
 function getIp() {
     $ip = $_SERVER['REMOTE_ADDR'];
     

@@ -49,7 +49,7 @@
 			</div>
 			<div class="card-footer border-top-0">
 				<a
-					href="http://www3.rothamsted.ac.uk/cdera/extract2019/pages/data_extraction_prototype6.html"
+					href="http://www3.rothamsted.ac.uk/cdera/extract/pages/data_extraction_prototype6.html"
 					class="btn btn-info">e-RAdata <i class="fa fa-list-alt"></i></a>
 			</div>
 		</div>

@@ -5,27 +5,27 @@
 		data-target="#navbarSupportedContent">
 		<span class="navbar-toggler-icon"></span>
 	</button>
-	<a class="navbar-brand font-weight-bold text-primary" href="index.php">  Access to data from the Rothamsted Long-term Experiments
-	</a>
+	<a class="navbar-brand font-weight-bold text-primary" href="index.php">
+		Access to data from the Rothamsted Long-term Experiments </a>
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 
 		<ul class="navbar-nav ml-auto">
 			<?php echo ($strMessage . " ");?>
 			<?php if ($loggedIn == 'yes') {
 ?>
-<li class="nav-item"><a class="btn btn-info m-1"
+			<li class="nav-item"><a class="btn btn-info m-1"
 				href="#modalLogin" data-toggle="modal" data-backdrop="static"> <i
 					class="fa fa-user"></i> <?php echo $registeredUser; ?>
 			</a></li>
-<?php
+			<?php
 
 }?>
-			
+
 			<li class="nav-item"><a class="btn btn-info m-1" target="_BLANK"
-				href="http://www3.rothamsted.ac.uk/cdera/extract2019/pages/data_extraction_prototype6.html"><i
+				href="http://www3.rothamsted.ac.uk/cdera/extract/pages/data_extraction_prototype6.html"><i
 					class="fa fa-list-alt"></i> e-RAdata</a></li>
 			<li class="nav-item"><a class="btn btn-info m-1"
-				href="e-RApubs.php"> <i class="fa fa-mortar-board"></i> e-RApubs
+				href="e-RApubs.php" target="_blank"> <i class="fa fa-mortar-board"></i> e-RApubs
 			</a></li>
 
 
@@ -44,9 +44,9 @@
 	<a class="navbar-brand" href="index.php"> <picture
 			class="embelem p-1"> <img
 			src="images/logos/eRALogoSmall.gif"
-			alt="The
-		        electronic Rothamsted Archive" class="embelem"
-			type="image/webp"> </picture>
+			alt="HOME - The
+		        electronic Rothamsted Archive"
+			title="HOME" class="embelem" type="image/webp"> </picture>
 
 	</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -153,7 +153,8 @@
 			<!-- *******************   DATA  *********************   -->
 
 			<li class="dropdown menu-large nav-item mx-3"><a href="#"
-				class="dropdown-toggle nav-link" data-toggle="dropdown">EXPERIMENT DATA </a>
+				class="dropdown-toggle nav-link" data-toggle="dropdown">EXPERIMENT
+					DATA </a>
 				<ul class="dropdown-menu megamenu">
 					<div class="row">
 						<li class="col-md-4 dropdown-item">
@@ -183,12 +184,11 @@
 										Wilderness</a></li>
 								<li><a href="experiment/rex4#datasets">Exhaustion Land</a></li>
 								<li><a href="experiment/rrn2#datasets">Fosters
-										Ley-arable</li>
+										Ley-arable</a></li>
 								<li><a href="experiment/rge9#datasets">Geescroft
 										Wilderness</a></li>
 								<li><a href="experiment/rrn1#datasets">Highfield
 										Ley-arable</a></li>
-
 								<li><a href="experiment/rcs10#datasets">Long-term
 										Liming</a></li>
 
@@ -229,22 +229,37 @@
 					DATA </a>
 				<ul class="dropdown-menu megamenu">
 					<div class="row">
-						<li class="col-md-6 dropdown-item">
+					<li class="col-md-4 dropdown-item">
 							<ul>
+								<li class="dropdown-header">Documentation</li>
+								<li><a href="info/howtoaccessdata">How to Access
+										Datasets</a></li>
+								<li><a href="info/howtocredit">How to Credit Datasets</a></li>
+								<li><a href="info/conditions">Conditions for Using
+										Datasets</a></li>
+								<li><a href="info/dataQuality">Data Quality</a></li>
+								<li><a href="info/CF">Conversion Factors</a></li>
+								<li><a href="register.php">Access Data</a></li>
+								<li><a href="#">Data Updates</a></li>
 								<li><a href="info/met/derived_variables">Derived
 										Variables</a></li>
+							</ul>
+						</li>
+						<li class="col-md-4 dropdown-item">
+							<ul>
+								<li class="dropdown-header">Outreach</li>
 
 
 								<li><a href="info/met/public">For the public</a></li>
 								<li><a href="info/met/schools">For schools</a></li>
 							</ul>
 						</li>
-						<li class="col-md-6 dropdown-item">
-							<ul>
-								<li><a href="station/rms#datasets">Records for
+						<li class="col-md-4 dropdown-item">
+							<ul><li class="dropdown-header">Data for</li>
+								<li><a href="station/rms#datasets">
 										Rothamsted</a></li>
-								<li><a href="station/wms#datasets">Records for Woburn</a></li>
-								<li><a href="station/bms#datasets">Records for Broom's
+								<li><a href="station/wms#datasets">Woburn</a></li>
+								<li><a href="station/bms#datasets">Broom's
 										Barn</a></li>
 								<li><a href="station/sms#datasets">Records for
 										Saxmundham</a></li>
@@ -271,17 +286,18 @@
 						<li class="col-md-6 dropdown-item">
 							<ul>
 								<li class="dropdown-header">About</li>
+								<li><a href="">Home</a></li>
 								<li><a href="info/about">About e-RA</a></li>
 								<li><a target="_blank"
 									href="https://www.rothamsted.ac.uk/national-capabilities">National
 										Capabilities</a>
 								<li><a href="contact.php">Contact us</a></li>
 								<li><a href="info/howtocredit">How to Credit</a></li>
-
+								<?php echo $curationPage; ?>
 
 							</ul>
 						</li>
-						
+
 					</div>
 				</ul></li>
 
