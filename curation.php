@@ -49,7 +49,7 @@ function getDownloads($con)
     printf("<ul>");
     // Associative array
     while ($row = $result->fetch_assoc()) {
-        printf("<li>%s: %s (%s)</li>\n", $row["dl-date"], $row["position"], $row["DOI"]);
+        printf("<li>%s: <a target=\_blank\" href=\"https://whatismyipaddress.com/ip/%s\">%s</a> (%s)</li>\n", $row["dl-date"], $row["position"],$row["position"], $row["DOI"]);
     }
     printf("</ul>");
 }

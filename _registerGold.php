@@ -80,7 +80,7 @@ if ($vprocess == "RGprocess") {
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
     // More headers
-    $headers .= "FROM: res.era@rothamsted.ac.uk" . "\r\n". 'CC: nathalie.castells@rothamsted.ac.uk';
+    $headers .= "FROM: res.era@rothamsted.ac.uk" . "\r\n". "CC: ".$moderationEmail;
     
     $to = $RGposition;
     $subject = "Data Request for $RGfname $RGlname - $ur_insertID";

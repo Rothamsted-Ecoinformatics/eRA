@@ -28,16 +28,15 @@
 			</li>
 			<li><b>Experiments:</b> Lists the main long-term experiments, grouped
 				by research farm. Each experiment is described extensively and has a list
-				of all the datasets currently available for it, supporting documentation, site details and history and images.
+				of all the collated datasets currently available for it, supporting documentation, site details, history and images.
 			</li>
-			<li><b>Experiment Data: </b>The data available for the long-term experiments including advice on copyright, appropriate credits, data quality and how to access the three different types of datasets. </li>
+			<li><b>Experiment Data: </b>The collated datasets currently available for the long-term experiments. Includes advice on copyright, appropriate credits, data quality and how to access the three different types of datasets. More datasets are being created and availability will be announced on Twitter.</li>
 			
 			
 			<li><b>Meteorological Data:</b> Daily meteorological data is recorded at
 				three of the Rothamsted Research sites: Rothamsted, Woburn and
-				Brooms Barn. Summary data is available for Saxmundham. This section provides information on the available data plus data collection and processing methods. 
-				We also provide educational activities and datasets for schools.
-			<li><b>About:</b> Has information on the e-RA project, who to
+				Brooms Barn. Summary data is available for Saxmundham. This section provides information on the available collated datasets plus data collection and processing methods, advice on copyright, appropriate credits, data quality and how to access the three different types of datasets. We also provide educational activities and datasets for schools.
+			<li><b>About:</b> Information on the e-RA project, who to
 				contact, how to give credit and news on Twitter.</li>
 		</ul>
 
@@ -49,18 +48,20 @@
 
 	</div>
 	<div class="row p-3 m-3">
-		<h3>Types of Datasets </h3>
+		<h3>Types of Data </h3>
 		</div>
 	<div class="row mx-3 px-3">
 		<ul>
-		<li><b>Open Access:</b> Summary datasets downloadable with accompanying metadata without registration.
+		<li><b>Open Access Datasets:</b> Summary data downloadable with accompanying metadata without registration.
 		</li>
-		<li><b>Registration:</b> Selected data, at the plot or treatment level / month or year level, downloadable with accompanying metadata requiring registration. 
+		<li><b>Registration Datasets:</b> Selected data, at the plot or treatment level / month or year level, downloadable with accompanying metadata, requires registration. 
 		</li>
-		<li><b>e-RA Data:</b> Original data downloadable from the database DET (Data Extraction Tool), no accompanying metadata, requiring registration for a password.
+		<li><b><i>e-RAdata:</i></b> Original data downloadable from the database DET (Data Extraction Tool), no accompanying metadata, requiring registration for a password.
 		</li>
 		<ul>
-		<p>Please read the complete information in our <a href="info/howtoaccessdata">  "how to access Datasets Page"</a></p>
+		</div>
+	<div class="row mx-3 px-3">
+		<p class="ml-0">Please read the complete information in our <a href="info/howtoaccessdata">  "How to Access Datasets Page"</a></p>
 		</div>
 	
 </div>

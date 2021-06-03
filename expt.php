@@ -150,7 +150,7 @@ echo title_case($experiment['administrative']['name']);
 				<div class="col-12 pt-3">
 					<ul class="nav nav-tabs nav-fill text-body ">
 						<li class="nav-item  active"><a class="nav-link active show"
-							id="summary-tab" data-toggle="tab" href="#summary">Overview</a></li>
+							id="overview-tab" data-toggle="tab" href="#overview">Overview</a></li>
 						<li class="nav-item"><a class="nav-link" id="site-tab"
 							data-toggle="tab" href="#site">Site</a></li>
 							<?php if ($showDesign == TRUE) {?>
@@ -171,16 +171,16 @@ echo title_case($experiment['administrative']['name']);
 							<?php
     }
     ?>
-						<li class="nav-item"><a class="nav-link" id="keyrefs-tab"
-							data-toggle="tab" href="#keyrefs">Bibliography</a></li>
+						<li class="nav-item"><a class="nav-link" id="bibliography-tab"
+							data-toggle="tab" href="#bibliography">Bibliography</a></li>
 
 
 					</ul>
 
 					<div class="tab-content mh-100" id="idExptTabs">
 
-						<div class="tab-pane active show pb-3" id="summary"
-							role="tabpanel" aria-labelledby="summary-tab">
+						<div class="tab-pane active show pb-3" id="overview"
+							role="tabpanel" aria-labelledby="overview-tab">
                 							<?php
                     include '_summary.php';
                     ?>						
@@ -209,17 +209,36 @@ $inDet = array(
                         );
 if ($displayDatasets > 0) {
    
-                        include '_datasets.php';
+                        //include '_datasets.php';
+						include 'wdel-datasets.php';
+                        echo  "<div class=\"mx-3\">Additional data is available through e-RAdata. Please <a href=\"newGold.php\" >register for access</a>.  </div>";
 } else if ($displayDatasets == 0) {
 						
                         
                         if (in_array($expt, $inDet)) {
-                            echo  "Additional data is available through eRAdata. Please <a href=\"newGold.php\" >register for access</a>.  ";
+                            echo  "<div class=\"mx-auto\" style=\"width: 600px;\">Additional data is available through e-RAdata. 
+Please <a href=\"newGold.php\" >register for access</a>.  </div>
+<div class=\"mx-auto\" style=\"width: 600px;\">
+  <img class=\"mx-auto\" src=\"images/600x400/DETtop2021.jpg\" alt\"Extract data\" width=\"600\" height=\"400\">
+
+</div>";
                         } else if ($expt == "rwf3") {
-                            echo  " Datasets for Alternate Wheat and Fallow are only available through  eRAdata. Please <a href=\"newGold.php\" >register for access</a>. ";
+                            echo  "<div class=\"mx-auto\" style=\"width: 600px;\"> Datasets for Alternate Wheat and Fallow 
+are only available through  eRAdata. Please <a href=\"newGold.php\" >register for access</a>. </div>
+<div class=\"mx-auto\" style=\"width: 600px;\">
+  <img class=\"mx-auto\" src=\"images/600x400/DETtop2021.jpg\" alt\"Extract data\" width=\"600\" height=\"400\">
+
+</div>
+";
                         } else {
                     
-                        echo  "There are currently no prepared datasets online for this experiment. However, there may still be data available but requiring curation. For more information please <a href=\"mailto:era@rothamsted.ac.uk\">contact the e-RA curators</a>. ";
+                        echo  "<div class=\"mx-auto\" style=\"width: 600px;\">There are currently no prepared datasets online for this experiment. However, 
+there may still be data available but requiring curation. 
+For more information please <a href=\"mailto:era@rothamsted.ac.uk\">contact the e-RA curators</a>. </div>
+<div class=\"mx-auto\" style=\"width: 600px;\">
+  <img class=\"mx-auto\" src=\"images/600x400/sortingsamples.jpg\" alt\"Working on it\" width=\"600\" height=\"400\">
+
+</div>";
                         }
                     }
                     ?>
@@ -261,8 +280,8 @@ if ($displayDatasets > 0) {
     ?>
 							</div>
 						</div>
-						<div class="tab-pane  pb-3" id="keyrefs" role="tabpanel"
-							aria-labelledby="keyrefs-tab">
+						<div class="tab-pane  pb-3" id="bibliography" role="tabpanel"
+							aria-labelledby="bibliography-tab">
 							<div class="mx-3">
                 							<?php
 

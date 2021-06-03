@@ -1,0 +1,249 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Text",
+    "identifier": "10.23637/rbk1-sup-1534342858-02",
+    "name": "Broadbalk Wheat Experiment plan and cropping 1852-1925",
+    "shortName": "",
+    "url": "http://www.era.rothamsted.ac.uk/metadata/rbk1/02-rbk1-plan1852-1925.pdf",
+    "description": [
+        {
+            "inLanguage": "en",
+            "descriptionType": "Abstract",
+            "description": "Experiment plan for the Broadbalk Wheat Experiment 1852-1925, with details of fertilizer and manure treatments (not to scale). Also cropping details 1843-1925. Revised May 2021 with addition of cropping details."
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "publication_year": 2021,
+    "dateCreated": null,
+    "dateModified": null,
+    "datePublished": null,
+    "inLanguage": "en",
+    "version": "2",
+    "keywords": [
+        "Rothamsted Research",
+        "Broadbalk long-term experiment",
+        "wheat",
+        "experimental design",
+        "long term experiments",
+        "cropping system",
+        "fertilizer",
+        "farmyard manure"
+    ],
+    "creator": [
+        {
+            "type": "Person",
+            "Name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectLeader",
+            "name": "Andrew Macdonald",
+            "givenName": "Andrew",
+            "familyName": "Macdonald",
+            "sameAs": "https://orcid.org/0000-0002-1785-4892",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells-Brooke",
+            "givenName": "Nathalie",
+            "familyName": "Castells-Brooke",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectManager",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "application/pdf",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License"
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.37301,
+            "latitude": 51.80946
+        },
+        "name": "Broadbalk"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/rbk1-sup-1534342858-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk plan 1852-1925",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsNewVersionOf",
+            "rt_id": 13,
+            "relationTypeValue": "is new version of"
+        }
+    ],
+    "funder": [],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Broadbalk Wheat Experiment plan and cropping 1852-1925",
+            "URL": "02-rbk1-plan1852-1925.pdf",
+            "encodingFormat": "pdf",
+            "fileSize": "965 KB"
+        }
+    ],
+    "image": [],
+    "grade": 1,
+    "dstype": "OA"
+}

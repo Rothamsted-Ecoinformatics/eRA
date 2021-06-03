@@ -98,5 +98,25 @@
         "isReady": 2,
         "shortName": "N/A",
         "UID": 737747172
+    },
+    {
+        "md_id": 1190264121,
+        "title": "Broadbalk Wheat Experiment plan and cropping 1852-1925",
+        "URL": "http://www.era.rothamsted.ac.uk/metadata/rbk1/02-rbk1-plan1852-1925.pdf",
+        "identifier": "10.23637/rbk1-sup-1534342858-02",
+        "identifier_type": "DOI",
+        "dataset_type": "Experiment details",
+        "extension": "pdf",
+        "description": "Experiment plan for the Broadbalk Wheat Experiment 1852-1925, with details of fertilizer and manure treatments (not to scale). Also cropping details 1843-1925. Revised May 2021 with addition of cropping details.",
+        "fieldname": "Broadbalk",
+        "experiment_name": "Broadbalk",
+        "experiment_code": "R/BK/1",
+        "grade": 1,
+        "dstype": "OA",
+        "publication_year": 2021,
+        "version": "02",
+        "isReady": 1,
+        "shortName": "N/A",
+        "UID": 1190264121
     }
 ]
