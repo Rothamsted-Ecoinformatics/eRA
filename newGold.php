@@ -714,7 +714,7 @@ include 'includes/header.html'; // all the menus at the top
 <div id="register" class="p-0 mb-0">
 			<div id="greenTitle"
 				class="d-flex  mb-3 py-3 p3-3 bg-info text-white mt-0 ">
-				<h1 class="mx-3">Request access to eRAdata</h1>
+				<h1 class="mx-3">Request access to e-RAdata</h1>
 			</div>
 <?php
 

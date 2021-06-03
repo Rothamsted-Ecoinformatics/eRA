@@ -120,7 +120,7 @@ if ($vprocess == "Q1") {
        
         
         ?>
-       
+       <p>Use this form to request access to <b>e-RAdata</b>, which  is the new name for the <b>e-RA Data Extraction Tool</b>: if you already have an account with us, you do not need to reapply. If you are not sure, you are welcome to fill this in. Thank you for your interest</p>
 		<form action="newGold.php" method="post" class="needs-validation"
 		novalidate>
 		<div class="progress" style="height: 40px;">
@@ -133,7 +133,7 @@ if ($vprocess == "Q1") {
 				<?php
 
         if ($loggedIn != 'yes') {
-            $messageNotLoggedIn = "<p>We recommand you log in before you fill in a eRAdata request</p>";
+            $messageNotLoggedIn = "";
         } else {
             $messageNotLoggedIn = "";
         }
@@ -235,7 +235,7 @@ if ($vprocess == "Q1") {
 				name="RGagreeCOU" <?php echo $vRGagreeCOUChecked; ?> required> <label
 				class="form-check-label" for="RGagreeCOU">* I have read the <a
 				target="_blank" href="info/conditions"><b>Conditions of
-						Use</b></a> of eRAdata including their policy on personal data and
+						Use</b></a> of e-RAdata including their policy on personal data and
 				I agree with them.
 			</label>
 		</div>
@@ -243,7 +243,7 @@ if ($vprocess == "Q1") {
 			<input type="checkbox" class="form-check-input" id="RGallowEmails"
 				name="RGallowEmails" value = "1" <?php echo $vRGallowEmailsChecked; ?>> <label
 				class="form-check-label" for="RGallowEmails">I agree to receiving
-				occasional communication from the eRA team <?php echo $vRGallowEmails . $vRGallowEmailsChecked ;?></label>
+				occasional communication from the e-RA team </label>
 		</div>
 
 

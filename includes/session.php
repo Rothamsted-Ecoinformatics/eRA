@@ -12,7 +12,7 @@
  *
  */
 
-$exclusion_list = array("index.php", "register.php", "about.php", "history.php", "newUser.php", "dataset.php");
+$exclusion_list = array("index.php", "register.php", "newGold.php", "about.php", "history.php", "newUser.php", "dataset.php");
 
 
 if (isset($_SESSION['history']))

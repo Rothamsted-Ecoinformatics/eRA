@@ -17,6 +17,14 @@
 	},
 	{
 		"Credit": "eRA curators",
+		"FileName": "register",
+		"Caption": "Registration Forms",
+		"Type": "php",
+		"exptID": "default",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
 		"FileName": "index",
 		"Caption": "default blank",
 		"Type": "php",
