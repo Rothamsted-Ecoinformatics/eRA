@@ -1,17 +1,27 @@
 <?php
 /**
- * @file info.php
+ * @file blog.php
  *
- * @brief A topic page.
+ * @brief A blog page.
  *
- * This will include a  page for any information, without tab stuff at the top.
- * the included files are either html, php or txt... there will be a field that says that in the infofiles.json 
+ * Styling for a blog style page  
  * @author Nathalie Castells-Brooke.
  *
  * @version 1.00
- *
- *
- * @version 0.2 added space for the page dependant scripts. at the bottom.
+ * 
+ * Use the url blog/expt/filename to put a page in this style.
+ * the page included can be php or html as long as the expension is clearly defined in the infofile.json. 
+ * 
+ * This systems enables to include any html page in various places and in various styles. The system can be expanded. 
+ * 
+ * 
+ * The filename must be listed in the metadata/default/infofile.json
+ * 
+ * To build the metadata/default/infofile.json, use the metadata/default/infofile.xls to add files, and even more fields 
+ * and run the mr data converter to make a json properties files. 
+ * 
+ * So curators just need to add a line to that spreadsheet. 
+ * I could also eventually build a tool in db2json to build that too. 
  * 
  * 
  */

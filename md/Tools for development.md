@@ -32,6 +32,6 @@ Navigate to that place, \\Codequest/html/devmonogram/bs4  in CMD, and type gulp.
 This will then 
     Display the web page style with a few pages in the web browser, 
     and each time the scss is saves, the css is recompiled and page redisplayed. 
-    As this does not work with PHP include, continue development of PHP pages and PHP code on the intranet server. Only use the Visual studio to work on teh Style./ Only copy the CSS folder accross to the development PHP site then production site. 
+    As this does not work with PHP include, continue development of PHP pages and PHP code on the intranet server. Only use the Visual studio to work on the Style./ Only copy the CSS folder accross to the development PHP site then production site. 
 
 > Written with [StackEdit](https://stackedit.io/).

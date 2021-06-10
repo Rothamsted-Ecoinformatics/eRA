@@ -59,6 +59,12 @@ $Parsedown = new Parsedown();
 						
 						
 						
+						
+						
+						
+						
+						
+						
 						<li class="list-group-item"><b>Data access: </b><?php echo $dstypeStr;?></li>
 
 						<li class="list-group-item"><b>DOI: </b><a
@@ -83,7 +89,9 @@ $Parsedown = new Parsedown();
 						
 						<?php
     }
-    ?><li class="list-group-item"><b>Files included in the download: </b> <?php echo $distribution; ?>
+    if ($dsinfo['isExternal'] == 0) {
+        ?>
+    ?><li class="list-group-item"><b>Files included in the download: </b> <?php echo $distribution; ?> </li> <?php ?>
 						
 						
 						
@@ -95,7 +103,7 @@ $Parsedown = new Parsedown();
 						
 						
 						<li class="list-group-item"><b>Version: </b> <?php echo $dsinfo['version']; ?></li>
-						<?php echo $dateCreation . $datePublication .$dateUpdate;?>
+						<?php echo $dateCreation . $datePublication .$dateUpdate; }?>
 						
 						<li class="list-group-item"><b>Keywords: </b> 
 						<?php
@@ -121,12 +129,16 @@ $Parsedown = new Parsedown();
 
 		</div>
 		<div class="col-sm-8">
+
+
+
 			<p class="text-right">
 				<a href="https://twitter.com/share?ref_src=twsrc%5Etfw"
 					class="twitter-share-button" data-via="eRA_curator"
-					data-size="large" data-text=" <?php echo $dsinfo['name'];?> "
-					data-url="http://doi.org/<?php echo $dsinfo['identifier'];?>"
-					data-hashtags="e-RAdatasets" data-related="eRA_Curator,Rothamsted"
+					data-size="large"
+					data-text=" <?php echo $dsinfo['name']; ?> <?php echo $dsinfo['identifier'];?> "
+					data-url="<?php echo $dsinfo['url'];?>" data-hashtags="eRAdatasets"
+					data-related="eRA_Curator,Rothamsted" data-related="Rothamsted"
 					data-show-count="false">Tweet this dataset</a>
 			</p>
 			<script async src="https://platform.twitter.com/widgets.js"
@@ -163,19 +175,23 @@ if ($hasDatasets == 1) {
     echo $relDatasets;
 }
 
-if ($hasVersion == 1) {
-    echo $otherVersions;
+if ($dsinfo['isExternal'] == 0) {
+    if ($hasVersion == 1) {
+        echo $otherVersions;
+    }
+    if ($hasPVersion == 1) {
+        echo $prevVersions;
+    }
+    if ($hasNVersion == 1) {
+        echo $newVersions;
+    }
+    if ($hasCT == 1) {
+        echo $tblContributors;
+    }
 }
-if ($hasPVersion == 1) {
-    echo $prevVersions;
-}
-if ($hasNVersion == 1) {
-    echo $newVersions;
-}
-if ($hasCT == 1) {
-    echo $tblContributors;
-}
-?>	
+
+if ($dsinfo['isExternal'] == 0) {
+    ?>	
 			
 			
 			<h3>Dataset Access and Conditions</h3>
@@ -213,6 +229,7 @@ if ($hasCT == 1) {
 				the <a href="conditions.php">Conditions of Use</a> before
 				downloading.
 			</p>
+			<?php }?>
 			<div id="accordion">
 			<?php
 
@@ -335,7 +352,8 @@ if ($hasCT == 1) {
 				</div>
 			    <?php
     }
-    ?>
+    if ($dsinfo['isExternal'] == 0) {
+        ?>
 				<div class="card">
 					<div class="card-header" id="Funding">
 						<h5 class="mb-0">
@@ -344,6 +362,7 @@ if ($hasCT == 1) {
 								aria-controls="collapseFunding">Funding</button>
 						</h5>
 					</div>
+
 					<div id="collapseFunding" class="collapse"
 						aria-labelledby="Funding" data-parent="#accordion">
 						<div class="card-body">
@@ -376,6 +395,7 @@ if ($hasCT == 1) {
 						</div>
 					</div>
 				</div>
+				<?php } ?>
 			</div>
 		</div>
 	</div>
