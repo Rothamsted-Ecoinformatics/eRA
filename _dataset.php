@@ -30,29 +30,50 @@ $Parsedown = new Parsedown();
 
 			<div class="card card-summary ">
 				<div class="card-body">
-				 
-					<?php if(file_exists($zipfile)) { echo    $strDownload;}?>
-					
+
 					<ul class="list-group list-group-flush ">
 					<?php
+
+    if ($dsinfo['isExternal'] == 0) {
+        if (file_exists($zipfile)) {
+            echo $strDownload;
+        }
+    } else {
+        ?>
+					
+ <li class="list-group-item"><b>Data is at: </b><a
+							href="<?php echo $dsinfo['url'];?>"><?php echo $dsinfo['identifier'];?></a>
+				
+				
+				<?php
+    }
+
     if ($registeredUser != "Login/Register") {
         echo $strUserArea;
     }
-    ?>
+    if ($dsinfo['isExternal'] == 0) {
+        ?>
+						
+						
+						
+						
+						
+						
 						<li class="list-group-item"><b>Data access: </b><?php echo $dstypeStr;?></li>
-						<li class="list-group-item"><b>DOI: </b><?php echo $dsinfo['identifier'];?>
-						</li>
-						<?php
 
-    if ($hasNVersion == 1) {
-        ?>
-						    <li class="list-group-item text-warning "><b>Newer Version: </b>
+						<li class="list-group-item"><b>DOI: </b><a
+							href="<?php echo $dsinfo['url'];?>"><?php echo $dsinfo['identifier'];?></a>
+						</li>
+						
+						<?php  if ($hasNVersion == 1) { ?>
+						<li class="list-group-item text-warning "><b>Newer Version: </b>
 						    <?php
-        echo $newVersionShort;
-        ?>
+            echo $newVersionShort;
+            ?>
 						    
 						    </li>
-						    <?php 						}?> 
+						    <?php 	}					}?> 
+						    
 						<?php if ($expt == "rro") { ?><li class="list-group-item"><b>Experiment:
 						</b> <a href="orphans.php">Other</a></li>
 						
@@ -63,6 +84,12 @@ $Parsedown = new Parsedown();
 						<?php
     }
     ?><li class="list-group-item"><b>Files included in the download: </b> <?php echo $distribution; ?>
+						
+						
+						
+						
+						
+						
 						
 						
 						
@@ -80,8 +107,9 @@ $Parsedown = new Parsedown();
 						<li class="list-group-item"><b>Author(s): </b> <?php echo $refAuthor; ?></li>
 
 						<li class="list-group-item"><b>Publisher: </b><?php echo $getPublisher; ?></li>
-					</ul>
+					
 					<?php echo    $strDownload;?>
+					</ul>
 				</div>
 
 			</div>
@@ -93,14 +121,14 @@ $Parsedown = new Parsedown();
 
 		</div>
 		<div class="col-sm-8">
-			<p class="text-right"><a href="https://twitter.com/share?ref_src=twsrc%5Etfw"
-				class="twitter-share-button" 
-				data-via="eRA_curator" 
-				data-size="large"
-				data-text=" <?php echo $dsinfo['name'];?> "
-				data-url="http://doi.org/<?php echo $dsinfo['identifier'];?>"
-				data-hashtags="eRAdatasets" data-related="eRA_Curator,Rothamsted"
-				data-show-count="false">Tweet this dataset</a></p>
+			<p class="text-right">
+				<a href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+					class="twitter-share-button" data-via="eRA_curator"
+					data-size="large" data-text=" <?php echo $dsinfo['name'];?> "
+					data-url="http://doi.org/<?php echo $dsinfo['identifier'];?>"
+					data-hashtags="e-RAdatasets" data-related="eRA_Curator,Rothamsted"
+					data-show-count="false">Tweet this dataset</a>
+			</p>
 			<script async src="https://platform.twitter.com/widgets.js"
 				charset="utf-8"></script> 
 				

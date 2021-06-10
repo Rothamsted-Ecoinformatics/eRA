@@ -25,6 +25,22 @@
 	},
 	{
 		"Credit": "eRA curators",
+		"FileName": "style",
+		"Caption": "Styles and Colors",
+		"Type": "html",
+		"exptID": "curation",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "style2",
+		"Caption": "Styles and Colors",
+		"Type": "html",
+		"exptID": "curation",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
 		"FileName": "index",
 		"Caption": "default blank",
 		"Type": "php",
@@ -195,8 +211,8 @@
 		"Credit": "eRA curators",
 		"FileName": "monthly",
 		"Caption": "Rothamsted Met Data Monthly Updates",
-		"Type": "php",
-		"exptID": "met",
+		"Type": "html",
+		"exptID": "rms",
 		"isReviewed": 1
 	},
 	{
@@ -289,40 +305,40 @@
 	},
 	{
 		"Credit": "eRA curators",
-		"FileName": "bbksoils",
-		"Caption": "bbksoils",
+		"FileName": "soils",
+		"Caption": "soils",
+		"Type": "html",
+		"exptID": "rbk1",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "soils44",
+		"Caption": "soils44",
 		"Type": "php",
 		"exptID": "rbk1",
 		"isReviewed": 0
 	},
 	{
 		"Credit": "eRA curators",
-		"FileName": "bbksoils44",
-		"Caption": "bbksoils44",
+		"FileName": "soils66",
+		"Caption": "soils66",
 		"Type": "php",
 		"exptID": "rbk1",
 		"isReviewed": 0
 	},
 	{
 		"Credit": "eRA curators",
-		"FileName": "bbksoils66",
-		"Caption": "bbksoils66",
+		"FileName": "soils87",
+		"Caption": "soils87",
 		"Type": "php",
 		"exptID": "rbk1",
 		"isReviewed": 0
 	},
 	{
 		"Credit": "eRA curators",
-		"FileName": "bbksoils87",
-		"Caption": "bbksoils87",
-		"Type": "php",
-		"exptID": "rbk1",
-		"isReviewed": 0
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "bbkweeds",
-		"Caption": "bbkweeds",
+		"FileName": "weeds",
+		"Caption": "weeds",
 		"Type": "php",
 		"exptID": "rbk1",
 		"isReviewed": 0
@@ -493,6 +509,14 @@
 		"Caption": "indexoriginal",
 		"Type": "php",
 		"exptID": "rhb2",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "metagenomic",
+		"Caption": "New data from old samples",
+		"Type": "html",
+		"exptID": "rrn1",
 		"isReviewed": 0
 	},
 	{

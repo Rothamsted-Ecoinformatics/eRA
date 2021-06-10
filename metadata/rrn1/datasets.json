@@ -2,7 +2,7 @@
     {
         "md_id": 1257645341,
         "title": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008: Highfield",
-        "URL": "http://www.era.rothamsted.ac.uk/dataset/rrn2/01-HSOC4808",
+        "URL": "http://www.era.rothamsted.ac.uk/dataset/rrn1/01-HSOC4808",
         "identifier": "10.23637/KeyRefOARLAsoc",
         "identifier_type": "DOI",
         "dataset_type": "Soil data",
@@ -16,7 +16,29 @@
         "publication_year": 2018,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "HSOC4808",
         "UID": "01-HSOC4808"
+    },
+    {
+        "md_id": 1323816625,
+        "title": "Highfield Ley Arable - Metagenomic Study",
+        "URL": "https://www.ebi.ac.uk/ena/browser/view/PRJEB43407",
+        "identifier": "Project: PRJEB43407",
+        "identifier_type": "URL",
+        "dataset_type": "Soil data",
+        "extension": "xml",
+        "description": "How soil is managed, particularly for agriculture, exerts stresses upon soil microbiomes resulting in altered community structures and functional states. Understanding how soil microbiomes respond to combined stresses is important for predicting system performance under different land use scenarios, aids in identification of the most environmentally benign managements and provides insight into how system function can be recovered in degraded soils. We use a long-established field experiment to study the effects of combined chronic (press) disturbance of the magnitude of organic carbon inputs with acute (pulse) effects of physical disturbance by tillage and chemical disturbance due to inorganic fertilization and pesticide application. We show that because of the variety of ways it can be assessed, biodiversity \u2013 here based on microbial small subunit ribosomal RNA gene phylotypes \u2013 does not provide a consistent view of community change. In contrast, aggregated traits associated with soil microbiomes indicate general loss of function, measured as a reduction of average genome lengths, associated with chronic reduction of organic inputs in arable or bare fallow soils and altered growth strategies associated with ribosomal RNA operon copy number in prokaryotes, as well as a switch to pathogenicity in fungal communities. In addition, pulse disturbance by soil tillage is associated with an increased influence of stochastic processes upon prokaryote community assembly, but fungicide used in arable soils results in niche assembly of fungal communities compared to untilled grassland. Overall, bacteria, archaea and fungi do not share a common response to land management change and estimates of biodiversity do not capture important facets of community adaptation to stresses adequately",
+        "fieldname": "Highfield",
+        "experiment_name": "Highfield Ley Arable",
+        "experiment_code": "R/RN/1",
+        "grade": 1,
+        "dstype": "OA",
+        "publication_year": 2021,
+        "version": "01",
+        "isReady": 1,
+        "isExternal": 1,
+        "shortName": "METAGEN",
+        "UID": "01-METAGEN"
     }
 ]

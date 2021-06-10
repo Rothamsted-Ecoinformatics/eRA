@@ -1,11 +1,11 @@
 {
-    "id": 617,
+    "id": 2728,
     "experiment_type_term": null,
     "experiment_id": 56,
     "people": [],
     "organizations": [
         {
-            "id": 503,
+            "id": 2821,
             "contacts": [
                 {
                     "contact_type": "URL",
@@ -21,11 +21,11 @@
     ],
     "periods": [
         {
-            "id": 818,
+            "id": 4278,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 1554,
+                    "id": 11834,
                     "crop_term": "red clover",
                     "crop_label": "red clover",
                     "start_year": null,
@@ -52,7 +52,7 @@
             "factorial": false
         },
         {
-            "id": 819,
+            "id": 4279,
             "design_type_term": null,
             "crops": [],
             "rotations": [],
@@ -75,11 +75,11 @@
             "factorial": false
         },
         {
-            "id": 820,
+            "id": 4280,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 1555,
+                    "id": 11835,
                     "crop_term": "red clover",
                     "crop_label": "red clover",
                     "start_year": null,
@@ -89,11 +89,11 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 827,
+                    "id": 7244,
                     "factor_term": null,
                     "levels": [
                         {
-                            "id": 2089,
+                            "id": 18847,
                             "factor_variant_term": null,
                             "factor_variant_label": "Hungaropoly",
                             "amount": null,
@@ -111,7 +111,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 2090,
+                            "id": 18848,
                             "factor_variant_term": null,
                             "factor_variant_label": "S.123",
                             "amount": null,
@@ -135,11 +135,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 828,
+                    "id": 7245,
                     "factor_term": "fungicide exposure",
                     "levels": [
                         {
-                            "id": 2091,
+                            "id": 18849,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": null,
@@ -157,7 +157,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 2092,
+                            "id": 18850,
                             "factor_variant_term": null,
                             "factor_variant_label": "aldicarb",
                             "amount": "10",
@@ -199,17 +199,17 @@
             "factorial": false
         },
         {
-            "id": 821,
+            "id": 4281,
             "design_type_term": null,
             "crops": [],
             "rotations": [],
             "factors": [
                 {
-                    "id": 829,
+                    "id": 7246,
                     "factor_term": "fungicide exposure",
                     "levels": [
                         {
-                            "id": 2093,
+                            "id": 18851,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": null,
@@ -227,7 +227,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 2094,
+                            "id": 18852,
                             "factor_variant_term": null,
                             "factor_variant_label": "benomyl",
                             "amount": null,
@@ -269,11 +269,11 @@
             "factorial": false
         },
         {
-            "id": 822,
+            "id": 4282,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 1556,
+                    "id": 11836,
                     "crop_term": "red clover",
                     "crop_label": "red clover",
                     "start_year": null,
@@ -283,7 +283,7 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 830,
+                    "id": 7247,
                     "factor_term": "fungicide exposure",
                     "levels": [],
                     "factor_label": "fungicide exposure",
@@ -325,7 +325,7 @@
             "language": "English"
         }
     ],
-    "saved_time": "2019-09-13T13:48:58.906706Z",
+    "saved_time": "2021-06-02T09:17:08.847909Z",
     "name": "Garden Clover",
     "local_identifier": "R/GC/8",
     "experiment_type_label": null,
@@ -336,8 +336,8 @@
     "establishment_period_end": null,
     "objective": "To test whether red clover could be grown continuously on a rich garden soil.",
     "description": "The smallest and simplest of the Rothamsted Classical experiments, with (until 1956) only one, unmanured plot measuring 3m by 2.1m. Yields were very large for the first 10 years averaging about 10 t dry matter ha-1, probably because the soil was rich in nutrients and the soil-borne pests and diseases of clover were absent. Reasonable yields were obtained over the next 30 years but thereafter yields showed a marked decline and there were several complete failures.\n\nBetween 1956 and 1972 the plot was sub-divided and a sequence of tests made of K, molybdenum (Mo), formalin, N and Mg, but the the crop was usually severely damaged during the winter by clover rot (Sclerotinia trifoliorum) and was resown each spring. Since 1973 basal N, P, K, Mg and chalk have been applied.\n\nBetween 1976 and 1978 aldicarb was tested as a control for clover cyst nematode, Heterodera trifolii, which was known to be present, and the cultivar Hungaropoly, believed resistant to clover-rot, was compared with the standard susceptible variety S.123.\n\nThe plot then grew Hungaropoly only, with basal aldicarb (until 1988), and tested the fungicide benomyl from 1980-90. The cultivar was changed to Merviot in 1996. Between 1979 and 2006 the experiment has been resown seven times. A mean yield of 13t ha-1 has been achieved in this period, with up to 20 t ha-1 in some years. In 2013 the clover variety was changed to Milvus\n\nOther than Park Grass, with its mixed herbage, this is the only Classical experiment where a non-graminaceous crop has been grown continuously. In terms of microbial diversity, its soil provides a potentially valuable contrast with those of Broadbalk and Hoosfield.",
-    "site_name": "Rothamsted Manor Kitchen Garden",
-    "site_local_code": null,
+    "site_name": "Rothamsted Manor Garden",
+    "site_local_code": "R/WF/3",
     "site_geonames_id": null,
     "site_doi": null,
     "site_type_label": "research station field",

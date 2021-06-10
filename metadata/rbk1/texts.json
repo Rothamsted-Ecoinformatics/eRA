@@ -16,6 +16,7 @@
         "publication_year": 2021,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "N/A",
         "UID": 1534342858
     },
@@ -36,6 +37,7 @@
         "publication_year": 2018,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "N/A",
         "UID": 1052973682
     },
@@ -56,6 +58,7 @@
         "publication_year": 2018,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "N/A",
         "UID": -697415110
     },
@@ -76,6 +79,7 @@
         "publication_year": 2018,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "N/A",
         "UID": 1477369090
     },
@@ -96,6 +100,7 @@
         "publication_year": 2021,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "N/A",
         "UID": 737747172
     },
@@ -116,7 +121,29 @@
         "publication_year": 2021,
         "version": "02",
         "isReady": 1,
+        "isExternal": 0,
         "shortName": "N/A",
         "UID": 1190264121
+    },
+    {
+        "md_id": 996362101,
+        "title": "Broadbalk Wheat Experiment plan and cropping 1926-1967",
+        "URL": "http://www.era.rothamsted.ac.uk/metadata/rbk1/02-rbk1-plan1926-1967.pdf",
+        "identifier": "10.23637/rbk1-plan1926-67-02",
+        "identifier_type": "DOI",
+        "dataset_type": "Experiment details",
+        "extension": "pdf",
+        "description": "Experiment plan for the Broadbalk Wheat Experiment 1926-1967, with details of fertilizer and manure treatments (not to scale). Also cropping details 1926-1967, showing wheat cultivars, wheat/fallow rotations and the different sections. Updated May 2021 with addition of cropping details.",
+        "fieldname": "Broadbalk",
+        "experiment_name": "Broadbalk",
+        "experiment_code": "R/BK/1",
+        "grade": 1,
+        "dstype": "OA",
+        "publication_year": 2021,
+        "version": "01",
+        "isReady": 1,
+        "isExternal": 0,
+        "shortName": "N/A",
+        "UID": 996362101
     }
 ]

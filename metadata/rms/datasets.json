@@ -16,6 +16,7 @@
         "publication_year": 2020,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "RMAAtempanom",
         "UID": "01-RMAAtempanom"
     },
@@ -36,6 +37,7 @@
         "publication_year": 2020,
         "version": "02",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "RMAAtemp",
         "UID": "02-RMAAtemp"
     },
@@ -56,6 +58,7 @@
         "publication_year": 2018,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "RMMRAINS5318",
         "UID": "01-RMMRAINS5318"
     },
@@ -76,6 +79,7 @@
         "publication_year": 2020,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "rmsMMT10850917",
         "UID": "01-rmsMMT10850917"
     },
@@ -96,6 +100,7 @@
         "publication_year": 2019,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "R30YrMeans6190",
         "UID": "01-R30YrMeans6190"
     },
@@ -116,6 +121,7 @@
         "publication_year": 2019,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "R30YrMeans7100",
         "UID": "01-R30YrMeans7100"
     },
@@ -136,6 +142,7 @@
         "publication_year": 2019,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "R30YrMeans8110",
         "UID": "01-R30YrMeans8110"
     },
@@ -156,6 +163,7 @@
         "publication_year": 2021,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "R30YrMeans9120",
         "UID": "01-R30YrMeans9120"
     },
@@ -176,6 +184,7 @@
         "publication_year": 2017,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "RMAAtemp",
         "UID": "01-RMAAtemp"
     },
@@ -196,6 +205,7 @@
         "publication_year": 2020,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "rmsMMR10850917",
         "UID": "01-rmsMMR10850917"
     }

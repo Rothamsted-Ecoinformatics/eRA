@@ -16,6 +16,7 @@
         "publication_year": 1935,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "Fumi35",
         "UID": "01-Fumi35"
     },
@@ -36,6 +37,7 @@
         "publication_year": 1936,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "Fumi36",
         "UID": "01-Fumi36"
     }

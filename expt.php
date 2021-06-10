@@ -210,7 +210,7 @@ $inDet = array(
 if ($displayDatasets > 0) {
    
                         //include '_datasets.php';
-						include 'wdel-datasets.php';
+						include '_datasets.php';
                         echo  "<div class=\"mx-3\">Additional data is available through e-RAdata. Please <a href=\"newGold.php\" >register for access</a>.  </div>";
 } else if ($displayDatasets == 0) {
 						
@@ -224,7 +224,7 @@ Please <a href=\"newGold.php\" >register for access</a>.  </div>
 </div>";
                         } else if ($expt == "rwf3") {
                             echo  "<div class=\"mx-auto\" style=\"width: 600px;\"> Datasets for Alternate Wheat and Fallow 
-are only available through  eRAdata. Please <a href=\"newGold.php\" >register for access</a>. </div>
+are only available through  e-RAdata. Please <a href=\"newGold.php\" >register for access</a>. </div>
 <div class=\"mx-auto\" style=\"width: 600px;\">
   <img class=\"mx-auto\" src=\"images/600x400/DETtop2021.jpg\" alt\"Extract data\" width=\"600\" height=\"400\">
 
@@ -249,14 +249,15 @@ For more information please <a href=\"mailto:era@rothamsted.ac.uk\">contact the 
 							aria-labelledby="images-tab">
                 							<?php include '_images.php';?>
                 							</div>
+                							<?php if ($hasDocs) {?>	
 						<div class="tab-pane  pb-3" id="documents" role="tabpanel"
 							aria-labelledby="documents-tab">
 							<div class="mx-3">
 							
 							<?php
-    $doclist = $exptFolder . '/doclist.html';
+    
 
-    include $doclist;
+    include $fileDocs;
 
     if (isset($sub)) {
         $docpage = $exptFolder . '/' . $sub . '.html';
@@ -280,6 +281,7 @@ For more information please <a href=\"mailto:era@rothamsted.ac.uk\">contact the 
     ?>
 							</div>
 						</div>
+						<?php }?>
 						<div class="tab-pane  pb-3" id="bibliography" role="tabpanel"
 							aria-labelledby="bibliography-tab">
 							<div class="mx-3">

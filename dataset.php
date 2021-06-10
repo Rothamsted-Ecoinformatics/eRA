@@ -383,6 +383,7 @@ if ($hasDataset) {
     } else {
         $strDownload = "";
     }
+    if ( $dsinfo["isExternal"] ) {$strDownload = "";}
 } else {}
 
 ?>

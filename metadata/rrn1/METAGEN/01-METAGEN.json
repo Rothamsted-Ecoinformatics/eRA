@@ -1,0 +1,145 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "Project: PRJEB43407",
+    "name": "Highfield Ley Arable - Metagenomic Study",
+    "shortName": "METAGEN",
+    "url": "https://www.ebi.ac.uk/ena/browser/view/PRJEB43407",
+    "description": [
+        {
+            "inLanguage": "en",
+            "descriptionType": "Abstract",
+            "description": "How soil is managed, particularly for agriculture, exerts stresses upon soil microbiomes resulting in altered community structures and functional states. Understanding how soil microbiomes respond to combined stresses is important for predicting system performance under different land use scenarios, aids in identification of the most environmentally benign managements and provides insight into how system function can be recovered in degraded soils. We use a long-established field experiment to study the effects of combined chronic (press) disturbance of the magnitude of organic carbon inputs with acute (pulse) effects of physical disturbance by tillage and chemical disturbance due to inorganic fertilization and pesticide application. We show that because of the variety of ways it can be assessed, biodiversity \u2013 here based on microbial small subunit ribosomal RNA gene phylotypes \u2013 does not provide a consistent view of community change. In contrast, aggregated traits associated with soil microbiomes indicate general loss of function, measured as a reduction of average genome lengths, associated with chronic reduction of organic inputs in arable or bare fallow soils and altered growth strategies associated with ribosomal RNA operon copy number in prokaryotes, as well as a switch to pathogenicity in fungal communities. In addition, pulse disturbance by soil tillage is associated with an increased influence of stochastic processes upon prokaryote community assembly, but fungicide used in arable soils results in niche assembly of fungal communities compared to untilled grassland. Overall, bacteria, archaea and fungi do not share a common response to land management change and estimates of biodiversity do not capture important facets of community adaptation to stresses adequately"
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "publication_year": 2021,
+    "dateCreated": null,
+    "dateModified": null,
+    "datePublished": null,
+    "inLanguage": "en",
+    "version": "1",
+    "keywords": [
+        "Rothamsted Research"
+    ],
+    "creator": [
+        {
+            "type": "Person",
+            "Name": "Andy Neal",
+            "givenName": "Andy",
+            "familyName": "Neal",
+            "sameAs": "https://orcid.org/0000-0003-4225-1396",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Andy Neal",
+            "givenName": "Andy",
+            "familyName": "Neal",
+            "sameAs": "https://orcid.org/0000-0003-4225-1396",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "text/xml",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License"
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.362941,
+            "latitude": 51.804384
+        },
+        "name": "Highfield"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "https://journals.asm.org/doi/epub/10.1128/mSystems.01056-20",
+            "relatedIdentifierType": "PURL",
+            "name": "Neal et al. (2021)  Microbiome aggregated traits and assembly. . .",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.1038/s41598-020-67631-0",
+            "relatedIdentifierType": "DOI",
+            "name": "Neal et al. (2020) Soil as an extended composite phenotype of the microbial metagenome",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.1007/s11104-017-3301-2",
+            "relatedIdentifierType": "DOI",
+            "name": "Neal et al. (2018) Phylogenetic distribution, biogeography and the effects of land management. . .",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.1111/1462-2920.13778",
+            "relatedIdentifierType": "DOI",
+            "name": "Neal et al. (2017) Land-use influences phosphatase gene microdiversity in soils",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        }
+    ],
+    "funder": [],
+    "distribution": [],
+    "image": [
+        {
+            "type": "imageObject",
+            "caption": "Aggregated traits of microbiomes associated with soil of the Highfield Ley-Arable field experiment.",
+            "URL": "msystems.01056-20-f001.gif",
+            "encodingFormat": "gif",
+            "fileSize": "397 KB"
+        }
+    ],
+    "grade": 1,
+    "isExternal": 1,
+    "dstype": "OA"
+}

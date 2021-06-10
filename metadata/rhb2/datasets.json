@@ -16,6 +16,7 @@
         "publication_year": 2017,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "HBYields",
         "UID": "01-HBYields"
     },
@@ -36,6 +37,7 @@
         "publication_year": 2012,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "HBSOC1852",
         "UID": "01-HBSOC1852"
     }

@@ -1,7 +1,7 @@
 {
     "administrative": {
-        "name": "Rothamsted Manor Kitchen Garden",
-        "identifier": null,
+        "name": "Rothamsted Manor Garden",
+        "identifier": "R/WF/3",
         "type": "research station field",
         "doi": null,
         "visitsAllowed": "Yes",

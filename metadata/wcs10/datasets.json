@@ -16,6 +16,7 @@
         "publication_year": 2020,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "WLTLYIELDS",
         "UID": "01-WLTLYIELDS"
     },
@@ -36,6 +37,7 @@
         "publication_year": 2021,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "WLTLGRAIN",
         "UID": "01-WLTLGRAIN"
     }

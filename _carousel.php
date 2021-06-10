@@ -15,7 +15,7 @@
 				src="images/banners/overview.jpg" alt="latest"></a>
 			<div class="carousel-caption d-none d-md-block">
 				<h2><a class="text-light" href="updates.php">News and Updates</a></h2>
-				<p>The latest in eRA and the Long Term experiments</p>
+				<p>The latest in e-RA and the Long Term experiments</p>
 			</div>
 		</div>
 		<div class="carousel-item">

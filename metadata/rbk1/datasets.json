@@ -16,6 +16,7 @@
         "publication_year": 2017,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "OAWWYields",
         "UID": "01-OAWWYields"
     },
@@ -36,6 +37,7 @@
         "publication_year": 2018,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "Nitro1843",
         "UID": "01-Nitro1843"
     },
@@ -56,6 +58,7 @@
         "publication_year": 2016,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "OAOlsenP1844",
         "UID": "01-OAOlsenP1844"
     },
@@ -76,6 +79,7 @@
         "publication_year": 2014,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "BKSOC1843",
         "UID": "01-BKSOC1843"
     },
@@ -96,6 +100,7 @@
         "publication_year": 2021,
         "version": "02",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "BKSOC1843",
         "UID": "02-BKSOC1843"
     },
@@ -116,6 +121,7 @@
         "publication_year": 2019,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "CIRSIUM1991",
         "UID": "01-CIRSIUM1991"
     },
@@ -136,8 +142,30 @@
         "publication_year": 2018,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "FISHER1921",
         "UID": "01-FISHER1921"
+    },
+    {
+        "md_id": 1343009915,
+        "title": "Broadbalk Crop Nutrient Content, Potatoes 1968-1996",
+        "URL": "http://www.era.rothamsted.ac.uk/dataset/rbk1/01-BKNUTRP",
+        "identifier": "10.23637/rbk1-BKNUTRP-01",
+        "identifier_type": "DOI",
+        "dataset_type": "Crop nutrient data",
+        "extension": "xls",
+        "description": "From 1968 Broadbalk was divided into 10 sections. Grain and straw from selected sections and plots of all crops (wheat and rotational crops) were collected and stored in the Sample Archive. They were  analysed for Nitrogen (N), Phosphorus (P), Potassium (K), Calcium (Ca), Magnesium (Mg), Sodium (Na) and Sulphur (S). Data is presented here for % nutrients in potato tubers and is the response to different fertiliser treatments and cropping.",
+        "fieldname": "Broadbalk",
+        "experiment_name": "Broadbalk",
+        "experiment_code": "R/BK/1",
+        "grade": 1,
+        "dstype": "OA",
+        "publication_year": 2021,
+        "version": "01",
+        "isReady": 1,
+        "isExternal": 0,
+        "shortName": "BKNUTRP",
+        "UID": "01-BKNUTRP"
     },
     {
         "md_id": 655881765,
@@ -156,6 +184,7 @@
         "publication_year": 2021,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "BKNUTRW",
         "UID": "01-BKNUTRW"
     }

@@ -302,7 +302,7 @@
             "relationTypeValue": "is supplemented by"
         },
         {
-            "relatedIdentifier": "10.23637/bk-oadata-soiln-01",
+            "relatedIdentifier": "10.23637/BK-oadata-soilN-01",
             "relatedIdentifierType": "DOI",
             "name": "Broadbalk Soil Total % Nitrogen Content, 1843-2010",
             "relatedIdentifierGeneralType": "Dataset",
@@ -364,5 +364,6 @@
         }
     ],
     "grade": 2,
+    "isExternal": 0,
     "dstype": "OA"
 }

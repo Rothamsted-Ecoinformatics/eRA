@@ -18,7 +18,7 @@ $exptFolder = 'metadata/'.$expt;
 
 // $experimentName = '' // fill that in and uncomment if there is no experimentName
 // /This is used in the head file as the title tag
-$page_title .= ': All the documents';
+$page_title .= "All the documents';
 
 // /$arrdatacite is found in $exptDescriptionFile - describes the submission to Datacite - necessary for DOI pages
 $datacite = json_encode($arrdatacite);

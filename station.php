@@ -198,7 +198,7 @@ Please <a href=\"newGold.php\" >register for access</a>.  </div>
 </div>";
                         } else if ($expt == "rwf3") {
                             echo  "<div class=\"mx-auto\" style=\"width: 600px;\"> Datasets for Alternate Wheat and Fallow 
-are only available through  eRAdata. Please <a href=\"newGold.php\" >register for access</a>. </div>
+are only available through  e-RAdata. Please <a href=\"newGold.php\" >register for access</a>. </div>
 <div class=\"mx-auto\" style=\"width: 600px;\">
   <img class=\"mx-auto\" src=\"images/600x400/DETtop2021.jpg\" alt\"Extract data\" width=\"600\" height=\"400\">
 

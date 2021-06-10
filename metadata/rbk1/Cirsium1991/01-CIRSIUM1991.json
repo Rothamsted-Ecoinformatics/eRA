@@ -203,7 +203,7 @@
             "relationTypeValue": "is described by"
         },
         {
-            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Broadbalk/bbkweeds",
+            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/experiment/rbk1/weeds#documents",
             "relatedIdentifierType": "URL",
             "name": "Broadbalk Weeds",
             "relatedIdentifierGeneralType": "Text",
@@ -271,5 +271,6 @@
     ],
     "image": [],
     "grade": 1,
+    "isExternal": 0,
     "dstype": "Other"
 }

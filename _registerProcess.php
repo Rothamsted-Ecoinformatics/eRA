@@ -12,7 +12,7 @@
  */
 /**
  *
- * @var string $fromEmail : email sending address. Could be the eRA email or a noreply?
+ * @var string $fromEmail : email sending address. Could be the e-RA email or a noreply?
  */
 $fromEmail = 'nathalie.castells@rothamsted.ac.uk';
 
@@ -100,7 +100,7 @@ if ($vprocess == "question") {
 		<div class="form-check">
 			<input type="checkbox" class="form-check-input" id="understandCheck"
 				name="understandCheck"> <label class="form-check-label"
-				for="understandCheck" required> * I undertand that eRA collects
+				for="understandCheck" required> * I undertand that e-RA collects
 				information useful to understand how the data is used and for
 				funding purposes</label>
 		</div>
@@ -108,7 +108,7 @@ if ($vprocess == "question") {
 			<input type="checkbox" class="form-check-input" id="consentCheck"
 				name="consentCheck"> <label class="form-check-label"
 				for="consentCheck">I agree to receiving occasional communication
-				from the eRA team</label>
+				from the e-RA team</label>
 		</div>
 		<button type="submit" class="btn btn-primary mt-5">Submit</button>
 	</form>

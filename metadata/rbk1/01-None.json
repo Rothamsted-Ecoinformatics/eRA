@@ -1,20 +1,20 @@
 {
     "@context": "https://schema.org/",
     "@type": "Text",
-    "identifier": "10.23637/rbk1-plan1926-67-01",
-    "name": "Broadbalk plan 1926-1967",
+    "identifier": "10.23637/rbk1-plan1926-67-02",
+    "name": "Broadbalk Wheat Experiment plan and cropping 1926-1967",
     "shortName": "",
-    "url": "http://www.era.rothamsted.ac.uk/metadata/rbk1/01-rbk1-plan1926-1967.pdf",
+    "url": "http://www.era.rothamsted.ac.uk/metadata/rbk1/02-rbk1-plan1926-1967.pdf",
     "description": [
         {
             "inLanguage": "en",
             "descriptionType": "Abstract",
-            "description": "Experiment plan for the Broadbalk wheat experiment, 1926-1967, with details of fertilizer and manure treatments"
+            "description": "Experiment plan for the Broadbalk Wheat Experiment 1926-1967, with details of fertilizer and manure treatments (not to scale). Also cropping details 1926-1967, showing wheat cultivars, wheat/fallow rotations and the different sections. Updated May 2021 with addition of cropping details."
         },
         {
             "inLanguage": "en",
             "descriptionType": "TableOfContents",
-            "description": "-**Page 1:** Cover page\r\n-**Pages 2-3:** Broadbalk experiment plan 1926-1967, showing plot layout and treatment codes, with full details of fertilizer and manure treatments applied."
+            "description": "-**Page 1:** Cover page\r\n-**Pages 2-3:** Broadbalk Wheat Experiment plan 1926-1967, showing plot layout and treatments codes, with full details of fertilizer and manure treatments applied.\r\n-**Pages 4-5:** Broadbalk Wheat Experiment cropping details 1926-1967, showing wheat cultivars, wheat/fallow rotations and the different sections."
         },
         {
             "inLanguage": "en",
@@ -24,7 +24,7 @@
         {
             "inLanguage": "en",
             "descriptionType": "Provenance",
-            "description": "Derived from Johnston and Garner (1969) and Rothamsted Experiments Station (1970), Details of the Classical and Long-term field experiments up to 1967."
+            "description": "Dervived from Johnston and Garner (1969) and Rothamsted Experimental Station (1970), Details of the Classical and Long-term field experiments up to 1967."
         }
     ],
     "publisher": {
@@ -32,8 +32,8 @@
         "name": "Electronic Rothamsted Archive, Rothamsted Research"
     },
     "publication_year": 2021,
-    "dateCreated": "2017-10-11",
-    "dateModified": "2021-03-16",
+    "dateCreated": "2021-05-25",
+    "dateModified": null,
     "datePublished": null,
     "inLanguage": "en",
     "version": "1",
@@ -42,30 +42,14 @@
         "Rothamsted Research",
         "wheat",
         "long term experiments",
-        "fertilizer",
         "farmyard manure",
+        "fertilizer",
         "experimental design"
     ],
     "creator": [
         {
-            "type": "Person",
-            "Name": "Margaret Glendining",
-            "givenName": "Margaret",
-            "familyName": "Glendining",
-            "sameAs": "https://orcid.org/0000-0002-6466-4629",
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
-                "addressLocality": "Harpenden",
-                "addressRegion": "Hertfordshire",
-                "postalCode": "AL5 2JQ",
-                "addressCountry": "United Kingdom"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Computational and Analytical Sciences, Rothamsted Research",
-                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
-            }
+            "type": "organization",
+            "name": "Rothamsted Research"
         }
     ],
     "contributor": [
@@ -173,6 +157,27 @@
                 "name": "Computational and Analytical Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectLeader",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
         }
     ],
     "encodingFormat": "application/pdf",
@@ -197,6 +202,15 @@
     },
     "relatedIdentifier": [
         {
+            "relatedIdentifier": "10.23637/rbk1-plan1926-67-02",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk Wheat Experiment plan and cropping 1926-1967",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsNewVersionOf",
+            "rt_id": 13,
+            "relationTypeValue": "is new version of"
+        },
+        {
             "relatedIdentifier": "10.23637/ERADOC-1-34916",
             "relatedIdentifierType": "DOI",
             "name": "Johnston and Garner, 1969. Broadbalk: A historical introduction",
@@ -208,20 +222,11 @@
         {
             "relatedIdentifier": "10.23637/ERADOC-1-192",
             "relatedIdentifierType": "DOI",
-            "name": "Rothamsted Experimental Station (1970) Details of the Classical and Long-term field experiments",
+            "name": "Rothamsted Experimental Station (1970), Details of the Classical and Long-term field experiments",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDerivedFrom",
             "rt_id": 28,
             "relationTypeValue": "is derived from"
-        },
-        {
-            "relatedIdentifier": "10.23637/rbk1-plan1996-2017-01",
-            "relatedIdentifierType": "DOI",
-            "name": "Broadbalk plan 1996-2017",
-            "relatedIdentifierGeneralType": "Text",
-            "relationType": "IsContinuedBy",
-            "rt_id": 5,
-            "relationTypeValue": "is continued by"
         },
         {
             "relatedIdentifier": "10.23637/rbk1-FertTreats",
@@ -233,13 +238,13 @@
             "relationTypeValue": "is supplemented by"
         },
         {
-            "relatedIdentifier": "10.23637/rbk1-sup-1534342858-01",
+            "relatedIdentifier": "10.23637/rbk1-sup-1534342858-02",
             "relatedIdentifierType": "DOI",
-            "name": "Broadbalk plan 1852-1925",
+            "name": "Broadbalk Wheat Experiment plan and cropping 1852-1925",
             "relatedIdentifierGeneralType": "Text",
-            "relationType": "IsSupplementTo",
-            "rt_id": 3,
-            "relationTypeValue": "is supplement to"
+            "relationType": "Continues",
+            "rt_id": 6,
+            "relationTypeValue": "continues"
         },
         {
             "relatedIdentifier": "10.23637/rbk1-today2018-01",
@@ -263,13 +268,14 @@
     "distribution": [
         {
             "type": "dataDownload",
-            "name": "Broadbalk wheat experiment plan 1926-1967",
-            "URL": "01-rbk1-plan1926-1967.pdf",
+            "name": "Broadbalk Wheat Experiment plan and cropping 1926-1967",
+            "URL": "02-rbk1-plan1926-1967.pdf",
             "encodingFormat": "pdf",
-            "fileSize": "235 KB"
+            "fileSize": "931 KB"
         }
     ],
     "image": [],
     "grade": 1,
+    "isExternal": 0,
     "dstype": "OA"
 }

@@ -15,9 +15,11 @@
 		<thead>
 			<tr>
 				<th scope="col"></th>
-				<th scope="col">Anonymous</th>
-				<th scope="col">Quick Pass</th>
-				<th scope="col">Moderated Pass</th>
+				<th scope="col"><a href="info/howtoaccessdata#OA">Open Access
+						Datasets</a></th>
+				<th scope="col"><a href="info/howtoaccessdata#other">Registration
+						Datasets</a></th>
+				<th scope="col"><a href="info/howtoaccessdata#det">e-RAdata*</a></th>
 			</tr>
 		</thead>
 		<tbody>
@@ -57,33 +59,22 @@
 					log into e-RAdata</td>
 			</tr>
 			<tr>
-				<th scope="row"><a href="info/howtoaccessdata#OA">Open Access
-						Datasets</a>: can be freely downloaded and provide access to data
-					that has been averaged across a number of years or plots</th>
-				<td><i class="text-success fa fa-check"></i></td>
-				<td><i class="text-success fa fa-check"></i></td>
-				<td><i class="text-success fa fa-check"></i></td>
+				<th scope="row">Description</th>
+				<td>They can be freely downloaded and provide access to data that
+					has been averaged across a number of years or plots
+				</td>
+				<td>curated datasets accompanied by detailed metadata and supporting
+					documentation to support interpretation and re-use by dataset
+					users.</td>
+				<td>Provides access to additional LTE data</td>
 			</tr>
-			<tr>
-				<th scope="row"><a href="info/howtoaccessdata#other">Registration
-						Datasets</a>: curated datasets accompanied by detailed metadata
-					and supporting documentation to support interpretation and re-use
-					by dataset users.</th>
-				<td class="text-danger"><b>X</b></td>
-				<td><i class="text-success fa fa-check"></i></td>
-				<td class="text-danger"><b>X</b></td>
-			</tr>
-			<tr>
-				<th scope="row"><a href="info/howtoaccessdata#det">e-RAdata*</a>:
-					provides access to additional LTE data</th>
-				<td class="text-danger"><b>X</b></td>
-				<td class="text-danger"><b>X</b></td>
-				<td><i class="text-success fa fa-check"></i></td>
-			</tr>
-			
+
 		</tbody>
 	</table>
-	<p>*<b>e-RAdata</b> is the new name of the <b>e-RA Data Extraction Tool</b>: if you already have an account with us, you do not need to reapply</p>
+	<p>
+		*<b>e-RAdata</b> is the new name of the <b>e-RA Data Extraction Tool</b>:
+		if you already have an account with us, you do not need to reapply
+	</p>
 </div>
 
 

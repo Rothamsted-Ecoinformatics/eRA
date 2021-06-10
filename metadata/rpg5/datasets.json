@@ -16,6 +16,7 @@
         "publication_year": 2016,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "OAPGspecies",
         "UID": "01-OAPGspecies"
     },
@@ -36,6 +37,7 @@
         "publication_year": 2016,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "OAPGsoilpH",
         "UID": "01-OAPGsoilpH"
     }

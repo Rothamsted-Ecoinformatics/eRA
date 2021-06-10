@@ -16,6 +16,7 @@
         "publication_year": 2012,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "N/A",
         "UID": 1325146391
     },
@@ -36,6 +37,7 @@
         "publication_year": 2009,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "N/A",
         "UID": 1784705107
     },
@@ -56,6 +58,7 @@
         "publication_year": 2015,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "N/A",
         "UID": 479298695
     }

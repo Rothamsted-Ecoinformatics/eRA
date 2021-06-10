@@ -17,7 +17,7 @@
         "name": "Electronic Rothamsted Archive, Rothamsted Research"
     },
     "publication_year": 2021,
-    "dateCreated": null,
+    "dateCreated": "2021-05-25",
     "dateModified": null,
     "datePublished": null,
     "inLanguage": "en",
@@ -30,7 +30,14 @@
         "long term experiments",
         "cropping system",
         "fertilizer",
-        "farmyard manure"
+        "farmyard manure",
+        "Broadbalk long-term experiment",
+        "Rothamsted Research",
+        "wheat",
+        "cropping system",
+        "fertilizer",
+        "farmyard manure",
+        "experimental design"
     ],
     "creator": [
         {
@@ -233,17 +240,26 @@
             "relationTypeValue": "is new version of"
         }
     ],
-    "funder": [],
+    "funder": [
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/000J0300 - The Rothamsted Long - Term Experiments - National Capability",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F000J0300"
+        }
+    ],
     "distribution": [
         {
             "type": "dataDownload",
             "name": "Broadbalk Wheat Experiment plan and cropping 1852-1925",
             "URL": "02-rbk1-plan1852-1925.pdf",
             "encodingFormat": "pdf",
-            "fileSize": "965 KB"
+            "fileSize": "938 KB"
         }
     ],
     "image": [],
     "grade": 1,
+    "isExternal": 0,
     "dstype": "OA"
 }

@@ -16,6 +16,7 @@
         "publication_year": 2015,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "BKWoc",
         "UID": "01-BKWoc"
     }

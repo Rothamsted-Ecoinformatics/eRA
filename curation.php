@@ -76,6 +76,7 @@ $con = mangaCon();
         ?>
         <div id="idExpt">
 			<h1 class="mx-3">Curation Interface</h1>
+			<?php include "metadata/curation/menu.html"; ?>
 			<div class="row">
 				<div class="col-12 pt-3">
 					<ul class="nav nav-tabs nav-fill text-body ">

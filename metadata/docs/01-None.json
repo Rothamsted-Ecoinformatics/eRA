@@ -220,5 +220,6 @@
     "distribution": [],
     "image": [],
     "grade": 2,
+    "isExternal": 0,
     "dstype": "OA"
 }

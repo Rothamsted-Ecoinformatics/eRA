@@ -278,7 +278,7 @@
     },
     "relatedIdentifier": [
         {
-            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Met/monthly",
+            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/station/rms#summaries",
             "relatedIdentifierType": "URL",
             "name": "Rothamsted Met Data Monthly and Annual Summaries",
             "relatedIdentifierGeneralType": "Text",
@@ -287,7 +287,7 @@
             "relationTypeValue": "is cited by"
         },
         {
-            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Met/rothmet",
+            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/station/rms#datasets",
             "relatedIdentifierType": "URL",
             "name": "Rothamsted Met Data",
             "relatedIdentifierGeneralType": "Text",
@@ -296,7 +296,7 @@
             "relationTypeValue": "is cited by"
         },
         {
-            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Met/instrumentdescription",
+            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/station/rms#measurements",
             "relatedIdentifierType": "URL",
             "name": "Measurement of variables",
             "relatedIdentifierGeneralType": "Text",
@@ -305,10 +305,10 @@
             "relationTypeValue": "cites"
         },
         {
-            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Met/R30YrMeans8110",
-            "relatedIdentifierType": "URL",
-            "name": "Rothamsted 30-year means 1981-2010",
-            "relatedIdentifierGeneralType": "Text",
+            "relatedIdentifier": "10.23637/OARES30YrMeans8180",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted 30-year mean meteorological data 1981-2010",
+            "relatedIdentifierGeneralType": "Dataset",
             "relationType": "Cites",
             "rt_id": 2,
             "relationTypeValue": "cites"
@@ -334,5 +334,6 @@
     ],
     "image": [],
     "grade": 3,
+    "isExternal": 0,
     "dstype": "OA"
 }

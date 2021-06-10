@@ -344,7 +344,7 @@
             "relationTypeValue": "is referenced by"
         },
         {
-            "relatedIdentifier": " https://repository.rothamsted.ac.uk/item/8vw2w/liming-and-interaction-of-soil-ph-with-responses-to-p-k-and-mg-fertilizers",
+            "relatedIdentifier": "https://repository.rothamsted.ac.uk/item/8vw2w/liming-and-interaction-of-soil-ph-with-responses-to-p-k-and-mg-fertilizers",
             "relatedIdentifierType": "PURL",
             "name": "Liming and Interaction of Soil pH with Responses to P, K and Mg Fertilisers",
             "relatedIdentifierGeneralType": "Text",
@@ -447,5 +447,6 @@
         }
     ],
     "grade": 1,
+    "isExternal": 0,
     "dstype": "OA"
 }

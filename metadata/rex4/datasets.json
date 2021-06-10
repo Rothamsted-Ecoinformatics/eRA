@@ -16,6 +16,7 @@
         "publication_year": 2018,
         "version": "01",
         "isReady": 2,
+        "isExternal": 0,
         "shortName": "ExLand2016",
         "UID": "01-ExLand2016"
     }

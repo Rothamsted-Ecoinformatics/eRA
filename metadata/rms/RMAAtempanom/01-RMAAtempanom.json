@@ -295,7 +295,7 @@
             "relationTypeValue": "references"
         },
         {
-            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Met/instrumentdescription",
+            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/station/rms#measurements",
             "relatedIdentifierType": "URL",
             "name": "Measurements",
             "relatedIdentifierGeneralType": "Text",
@@ -304,7 +304,7 @@
             "relationTypeValue": "cites"
         },
         {
-            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/Met/extremes",
+            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/station/rms/extreme#documents",
             "relatedIdentifierType": "URL",
             "name": "Extremes",
             "relatedIdentifierGeneralType": "Text",
@@ -355,5 +355,6 @@
         }
     ],
     "grade": 3,
+    "isExternal": 0,
     "dstype": "OA"
 }

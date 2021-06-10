@@ -4,7 +4,7 @@
     "identifier": "10.23637/KeyRefOARLAsoc",
     "name": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008: Highfield",
     "shortName": "HSOC4808",
-    "url": "http://www.era.rothamsted.ac.uk/dataset/rrn2/01-HSOC4808",
+    "url": "http://www.era.rothamsted.ac.uk/dataset/rrn1/01-HSOC4808",
     "description": [
         {
             "inLanguage": "en",
@@ -298,5 +298,6 @@
         }
     ],
     "grade": 3,
+    "isExternal": 0,
     "dstype": "OA"
 }

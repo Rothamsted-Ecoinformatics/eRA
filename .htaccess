@@ -68,6 +68,8 @@ RewriteCond %{REQUEST_FILENAME} !-d
 	
 	RewriteRule ^info/([^/]+)/([^/]+)$ info.php?expt=$1&FileName=$2 [L]
 	RewriteRule ^info/([^/]+)$ info.php?FileName=$1 [L]
+	RewriteRule ^blog/([^/]+)/([^/]+)$ blog.php?expt=$1&FileName=$2 [L]
+	RewriteRule ^blog/([^/]+)$ blog.php?FileName=$1 [L]
 
 RewriteRule ^home - [L]
 RewriteRule ^news - [L]

@@ -2,7 +2,7 @@
 <?php
 ?>
 <h1 class="mx-3">Updates</h1>
-<p class="mx-3">Updates to the site, the datasets and anything relevant to eRA are posted on Twitter:
+<p class="mx-3">Updates to the site, the datasets and anything relevant to e-RA are posted on Twitter:
  make sure you are subscribed. Major updates are emailed to our subscribers</p>
 <div class="container">
 	<div class="row">

@@ -170,7 +170,7 @@ function getData()
             }
         }
     } else {
-        $messageNotLoggedIn = "<p>We recommand you log in before you fill in a eRAdata request</p>";
+        $messageNotLoggedIn = "";
     }
 }
 
@@ -446,7 +446,7 @@ if ($vprocess == "RGprocess") {
      * - table user_requests: will have all the information on the form and does not require user to be
      * logged in. The user will receive and email to confirm that they have sent a request and that it will be actioned shortly
      *
-     * At this stage of the development, we are only interested in getting the request sent to the eRA team
+     * At this stage of the development, we are only interested in getting the request sent to the e-RA team
      * and into the database.
      * I am recording the User IP: this will be the link between a non logged in user and their email address to log what they do
      */

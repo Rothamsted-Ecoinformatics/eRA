@@ -11,7 +11,7 @@
 
 /**
  *
- * @var string $fromEmail : email sending address. Could be the eRA email or a noreply?
+ * @var string $fromEmail : email sending address. Could be the e-RA email or a noreply?
  */
 if ($vprocess == "RGprocess") {
     
