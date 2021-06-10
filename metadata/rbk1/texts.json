@@ -120,7 +120,7 @@
         "dstype": "OA",
         "publication_year": 2021,
         "version": "02",
-        "isReady": 1,
+        "isReady": 2,
         "isExternal": 0,
         "shortName": "N/A",
         "UID": 1190264121
@@ -133,7 +133,7 @@
         "identifier_type": "DOI",
         "dataset_type": "Experiment details",
         "extension": "pdf",
-        "description": "Experiment plan for the Broadbalk Wheat Experiment 1926-1967, with details of fertilizer and manure treatments (not to scale). Also cropping details 1926-1967, showing wheat cultivars, wheat/fallow rotations and the different sections. Updated May 2021 with addition of cropping details.",
+        "description": "Experiment plan for the Broadbalk Wheat Experiment 1926-1967, with details of fertilizer and manure treatments (not to scale). Also cropping details 1926-1967, showing wheat cultivars, wheat/fallow rotations and the different sections. Updated June 2021 with addition of cropping details.",
         "fieldname": "Broadbalk",
         "experiment_name": "Broadbalk",
         "experiment_code": "R/BK/1",
@@ -141,7 +141,7 @@
         "dstype": "OA",
         "publication_year": 2021,
         "version": "01",
-        "isReady": 1,
+        "isReady": 2,
         "isExternal": 0,
         "shortName": "N/A",
         "UID": 996362101

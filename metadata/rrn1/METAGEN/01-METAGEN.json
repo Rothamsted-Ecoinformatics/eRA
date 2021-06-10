@@ -1,7 +1,7 @@
 {
     "@context": "https://schema.org/",
     "@type": "Dataset",
-    "identifier": "Project: PRJEB43407",
+    "identifier": "PRJEB43407",
     "name": "Highfield Ley Arable - Metagenomic Study",
     "shortName": "METAGEN",
     "url": "https://www.ebi.ac.uk/ena/browser/view/PRJEB43407",
@@ -9,12 +9,12 @@
         {
             "inLanguage": "en",
             "descriptionType": "Abstract",
-            "description": "How soil is managed, particularly for agriculture, exerts stresses upon soil microbiomes resulting in altered community structures and functional states. Understanding how soil microbiomes respond to combined stresses is important for predicting system performance under different land use scenarios, aids in identification of the most environmentally benign managements and provides insight into how system function can be recovered in degraded soils. We use a long-established field experiment to study the effects of combined chronic (press) disturbance of the magnitude of organic carbon inputs with acute (pulse) effects of physical disturbance by tillage and chemical disturbance due to inorganic fertilization and pesticide application. We show that because of the variety of ways it can be assessed, biodiversity \u2013 here based on microbial small subunit ribosomal RNA gene phylotypes \u2013 does not provide a consistent view of community change. In contrast, aggregated traits associated with soil microbiomes indicate general loss of function, measured as a reduction of average genome lengths, associated with chronic reduction of organic inputs in arable or bare fallow soils and altered growth strategies associated with ribosomal RNA operon copy number in prokaryotes, as well as a switch to pathogenicity in fungal communities. In addition, pulse disturbance by soil tillage is associated with an increased influence of stochastic processes upon prokaryote community assembly, but fungicide used in arable soils results in niche assembly of fungal communities compared to untilled grassland. Overall, bacteria, archaea and fungi do not share a common response to land management change and estimates of biodiversity do not capture important facets of community adaptation to stresses adequately"
+            "description": "How soil is managed, particularly for agriculture, exerts stresses upon soil microbiomes resulting in altered community structures and functional states. Understanding how soil microbiomes respond to combined stresses is important for predicting system performance under different land use scenarios, aids in identification of the most environmentally benign managements and provides insight into how system function can be recovered in degraded soils. We use a long-established field experiment to study the effects of combined chronic (press) disturbance of the magnitude of organic carbon inputs with acute (pulse) effects of physical disturbance by tillage and chemical disturbance due to inorganic fertilization and pesticide application. We show that because of the variety of ways it can be assessed, biodiversity - here based on microbial small subunit ribosomal RNA gene phylotypes- does not provide a consistent view of community change. In contrast, aggregated traits associated with soil microbiomes indicate general loss of function, measured as a reduction of average genome lengths, associated with chronic reduction of organic inputs in arable or bare fallow soils and altered growth strategies associated with ribosomal RNA operon copy number in prokaryotes, as well as a switch to pathogenicity in fungal communities. In addition, pulse disturbance by soil tillage is associated with an increased influence of stochastic processes upon prokaryote community assembly, but fungicide used in arable soils results in niche assembly of fungal communities compared to untilled grassland. Overall, bacteria, archaea and fungi do not share a common response to land management change and estimates of biodiversity do not capture important facets of community adaptation to stresses adequately"
         }
     ],
     "publisher": {
         "type": "organization",
-        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+        "name": "European Nucleotide Archive"
     },
     "publication_year": 2021,
     "dateCreated": null,
@@ -23,7 +23,14 @@
     "inLanguage": "en",
     "version": "1",
     "keywords": [
-        "Rothamsted Research"
+        "Rothamsted Research",
+        "Highfield ley-arable rotation experiment",
+        "soil",
+        "arable soils",
+        "bare fallow",
+        "sown pastures",
+        "nucleotide sequence",
+        "soil microbiome"
     ],
     "creator": [
         {
@@ -73,7 +80,7 @@
     "encodingFormat": "text/xml",
     "copyrightHolder": {
         "type": "organization",
-        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+        "name": "European Nucleotide Archive"
     },
     "license": {
         "type": "CreativeWork",
