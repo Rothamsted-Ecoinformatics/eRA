@@ -16,7 +16,7 @@
 			<tr>
 				<th scope="col"></th>
 				<th scope="col"><a href="info/howtoaccessdata#OA">Open Access
-						Datasets</a></th>
+						Datasets (OAD)</a></th>
 				<th scope="col"><a href="info/howtoaccessdata#other">Registration
 						Datasets</a></th>
 				<th scope="col"><a href="info/howtoaccessdata#det">e-RAdata*</a></th>
@@ -53,8 +53,8 @@
 				<th scope="row">Login info</th>
 				<td>N/A</td>
 				<td><b>Email only:</b> You enter your registered email address, then
-					get an email with a link to comlete your login. You are then logged
-					in for at least two weeks, or until you log out.</td>
+					get an email with a link to complete your login. You are then logged
+					in for one month, or until you log out.</td>
 				<td><b>Username and Password:</b> You will receive login details to
 					log into e-RAdata</td>
 			</tr>

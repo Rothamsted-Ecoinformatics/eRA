@@ -416,9 +416,9 @@ if (isset($_POST['process']) && $_POST['process'] == 'process') {
     
     $answers['process'] = 'register';
     
-    setcookie('email', $email, time() + (86400 * 15), "/"); // 86400 = 1 day
-    setcookie('doorbell', 'ringing', time() + (86400 * 15), "/"); // 86400 = 1 day
-    setcookie('time', $time, time() + (86400 * 15), "/"); // 86400 = 1 day
+    setcookie('email', $email, time() + (86400 * 30), "/"); // 86400 = 1 day
+    setcookie('doorbell', 'ringing', time() + (86400 * 30), "/"); // 86400 = 1 day
+    setcookie('time', $time, time() + (86400 * 30), "/"); // 86400 = 1 day
     
     $emailsent = buildemail($answers);
     

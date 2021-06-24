@@ -9,7 +9,17 @@
         {
             "inLanguage": "en",
             "descriptionType": "Abstract",
-            "description": "How soil is managed, particularly for agriculture, exerts stresses upon soil microbiomes resulting in altered community structures and functional states. Understanding how soil microbiomes respond to combined stresses is important for predicting system performance under different land use scenarios, aids in identification of the most environmentally benign managements and provides insight into how system function can be recovered in degraded soils. We use a long-established field experiment to study the effects of combined chronic (press) disturbance of the magnitude of organic carbon inputs with acute (pulse) effects of physical disturbance by tillage and chemical disturbance due to inorganic fertilization and pesticide application. We show that because of the variety of ways it can be assessed, biodiversity - here based on microbial small subunit ribosomal RNA gene phylotypes- does not provide a consistent view of community change. In contrast, aggregated traits associated with soil microbiomes indicate general loss of function, measured as a reduction of average genome lengths, associated with chronic reduction of organic inputs in arable or bare fallow soils and altered growth strategies associated with ribosomal RNA operon copy number in prokaryotes, as well as a switch to pathogenicity in fungal communities. In addition, pulse disturbance by soil tillage is associated with an increased influence of stochastic processes upon prokaryote community assembly, but fungicide used in arable soils results in niche assembly of fungal communities compared to untilled grassland. Overall, bacteria, archaea and fungi do not share a common response to land management change and estimates of biodiversity do not capture important facets of community adaptation to stresses adequately"
+            "description": "The combination of longevity and the extremes of land use associated with the Highfield experiments mean that we can investigate the full extent of changes arising from management and test the limits of soil.  Applying modern techniques including shotgun metagenome sequencing, X-ray computed tomography and pore-scale hydrodynamic modelling reveals new insights into soil system behaviour, provides the knowledge base for a new theory of soil and  fundamental evidence to support farmers' decisions relating to soil management."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Methods",
+            "description": "Shotgun metagenomic sequence data from the Highfield Ley Arable and Highfield Bare Fallow experiments has been deposited with the European Nucleotide Archive.  For each of three treatments (permanent pasture, continuous winter wheat arable, and permanent bare fallow), three replicate datasets are available, each of 150 nucleotide base, paired-end read sequences generated on an Illumina sequencing platform."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TechnicalInfo",
+            "description": "Sequencing was provided by Illumina (Great Abington, U.K.) as part of the DeepSoil consortium, together with Rothamsted Research and the Pacific Northwest National Laboratory, Richland, Washington, USA."
         }
     ],
     "publisher": {
@@ -29,8 +39,16 @@
         "arable soils",
         "bare fallow",
         "sown pastures",
-        "nucleotide sequence",
-        "soil microbiome"
+        "soil organic carbon",
+        "soil microbiome",
+        "soil biology",
+        "soil microorganisms",
+        "bacterial genomes",
+        "functional genomics",
+        "microbial ecology",
+        "pathogenic fungi",
+        "ecological metagenomes",
+        "Highfield bare fallow experiment"
     ],
     "creator": [
         {
@@ -52,12 +70,52 @@
                 "name": "Sustainable Agricultural Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
+        },
+        {
+            "type": "Person",
+            "Name": "Ian Clark",
+            "givenName": "Ian",
+            "familyName": "Clark",
+            "sameAs": "https://orcid.org/0000-0002-1589-5420",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "David Hughes",
+            "givenName": "David",
+            "familyName": "Hughes",
+            "sameAs": "https://orcid.org/0000-0003-1439-5421",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
         }
     ],
     "contributor": [
         {
             "type": "Person",
-            "jobTitle": "DataCollector",
+            "jobTitle": "Researcher",
             "name": "Andy Neal",
             "givenName": "Andy",
             "familyName": "Neal",
@@ -73,6 +131,111 @@
             "affiliation": {
                 "type": "Organization",
                 "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Ian Clark",
+            "givenName": "Ian",
+            "familyName": "Clark",
+            "sameAs": "https://orcid.org/0000-0002-1589-5420",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "David Hughes",
+            "givenName": "David",
+            "familyName": "Hughes",
+            "sameAs": "https://orcid.org/0000-0003-1439-5421",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Penny Hirsch",
+            "givenName": "Penny",
+            "familyName": "Hirsch",
+            "sameAs": "https://orcid.org/0000-0002-5909-1934",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells-Brooke",
+            "givenName": "Nathalie",
+            "familyName": "Castells-Brooke",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
         }
@@ -99,8 +262,8 @@
     },
     "relatedIdentifier": [
         {
-            "relatedIdentifier": "https://journals.asm.org/doi/epub/10.1128/mSystems.01056-20",
-            "relatedIdentifierType": "PURL",
+            "relatedIdentifier": "10.1128/mSystems.01056-20",
+            "relatedIdentifierType": "DOI",
             "name": "Neal et al. (2021)  Microbiome aggregated traits and assembly. . .",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
@@ -141,9 +304,9 @@
         {
             "type": "imageObject",
             "caption": "Aggregated traits of microbiomes associated with soil of the Highfield Ley-Arable field experiment.",
-            "URL": "msystems.01056-20-f001.gif",
-            "encodingFormat": "gif",
-            "fileSize": "397 KB"
+            "URL": "metagen.png",
+            "encodingFormat": "png",
+            "fileSize": "214 KB"
         }
     ],
     "grade": 1,

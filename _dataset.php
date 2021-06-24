@@ -43,8 +43,7 @@ $Parsedown = new Parsedown();
 					
  <li class="list-group-item"><b>Data is at: </b><a
 							href="<?php echo $dsinfo['url'];?>"><?php echo $dsinfo['identifier'];?></a>
-				
-				
+								
 				<?php
     }
 
@@ -52,15 +51,7 @@ $Parsedown = new Parsedown();
         echo $strUserArea;
     }
     if ($dsinfo['isExternal'] == 0) {
-        ?>
-						
-						
-						
-						
-						
-						
-						
-						
+        ?>						
 						
 						
 						
@@ -91,17 +82,8 @@ $Parsedown = new Parsedown();
     }
     if ($dsinfo['isExternal'] == 0) {
         ?>
-    ?><li class="list-group-item"><b>Files included in the download: </b> <?php echo $distribution; ?> </li> <?php ?>
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
+    <li class="list-group-item"><b>Files included in the download: </b> <?php echo $distribution; ?> </li> <?php ?>
+															
 						<li class="list-group-item"><b>Version: </b> <?php echo $dsinfo['version']; ?></li>
 						<?php echo $dateCreation . $datePublication .$dateUpdate; }?>
 						
@@ -119,14 +101,7 @@ $Parsedown = new Parsedown();
 					<?php echo    $strDownload;?>
 					</ul>
 				</div>
-
 			</div>
-
-
-
-
-
-
 		</div>
 		<div class="col-sm-8">
 
@@ -185,9 +160,9 @@ if ($dsinfo['isExternal'] == 0) {
     if ($hasNVersion == 1) {
         echo $newVersions;
     }
-    if ($hasCT == 1) {
-        echo $tblContributors;
-    }
+}
+if ($hasCT == 1) {
+    echo $tblContributors;
 }
 
 if ($dsinfo['isExternal'] == 0) {
@@ -226,35 +201,15 @@ if ($dsinfo['isExternal'] == 0) {
 				Rothamsted relies on the integrity of users to ensure that datasets
 				are used appropriately and Rothamsted Research receives suitable
 				acknowledgment as being the originators of these data. Please review
-				the <a href="conditions.php">Conditions of Use</a> before
+				the <a href="info/conditions">Conditions of Use</a> before
 				downloading.
 			</p>
 			<?php }?>
 			<div id="accordion">
 			<?php
 
-// if (isset($arrDescription['Methods'])) {
-// ?>
-<!-- 			<div class="card"> -->
-				<!-- 					<div class="card-header" id="methods"> -->
-				<!-- 						<h5 class="mb-0"> -->
-				<!-- 							<button class="btn btn-link collapsed" data-toggle="collapse" -->
-				<!-- 								data-target="#collapseFive" aria-expanded="false" -->
-				<!-- 								aria-controls="collapseFive">Methods</button> -->
-				<!-- 						</h5> -->
-				<!-- 					</div> -->
-				<!-- 					<div id="collapseFive" class="collapse" aria-labelledby="methods" -->
-				<!-- 						data-parent="#accordion"> -->
-				<!-- 						<div class="card-body"> -->
-				<!-- <p><?php// echo $Parsedown->text( $arrDescription['Methods'];) ?></p> -->
-				<!-- 						</div> -->
-				<!-- 					</div> -->
-				<!-- 				</div> -->
-			    <?php
-    // }
-
-    if (isset($arrDescription['TableOfContents'])) {
-        ?>
+if (isset($arrDescription['TableOfContents'])) {
+    ?>
 				<div class="card">
 					<div class="card-header" id="TableOfContents">
 						<h3 class="mb-0">
@@ -271,29 +226,10 @@ if ($dsinfo['isExternal'] == 0) {
 						</div>
 					</div>
 				</div>			    <?php
-    }
-    // if (isset($arrDescription['TechnicalInfo'])) {
-    // ?>
-<!-- 			    <div class="card"> -->
-				<!-- 					<div class="card-header" id="TechnicalInfo"> -->
-				<!-- 						<h5 class="mb-0"> -->
-				<!-- 							<button class="btn btn-link collapsed" data-toggle="collapse" -->
-				<!-- 								data-target="#collapseTwo" aria-expanded="false" -->
-				<!-- 								aria-controls="collapseTwo">Technical Information</button> -->
-				<!-- 						</h5> -->
-				<!-- 					</div> -->
-				<!-- 					<div id="collapseTwo" class="collapse" -->
-				<!-- 						aria-labelledby="TechnicalInfo" data-parent="#accordion"> -->
-				<!-- 						<div class="card-body"> -->
+}
 
-				<!--  <p><?php //echo $arrDescription['TechnicalInfo']; ?></p> -->
-				<!-- 						</div> -->
-				<!-- 					</div> -->
-				<!-- 				</div> -->
-			    <?php
-    // }
-    if (isset($arrDescription['Provenance'])) {
-        ?>
+if (isset($arrDescription['Provenance'])) {
+    ?>
 			     <div class="card">
 					<div class="card-header" id="Provenance">
 						<h5 class="mb-0">
@@ -311,9 +247,9 @@ if ($dsinfo['isExternal'] == 0) {
 					</div>
 				</div>
 			    <?php
-    }
-    if (isset($arrDescription['Quality'])) {
-        ?>
+}
+if (isset($arrDescription['Quality'])) {
+    ?>
 			    <div class="card">
 					<div class="card-header" id="Quality">
 						<h5 class="mb-0">
@@ -332,9 +268,9 @@ if ($dsinfo['isExternal'] == 0) {
 					</div>
 				</div>
 			    <?php
-    }
-    if (isset($arrDescription['Other'])) {
-        ?>
+}
+if (isset($arrDescription['Other'])) {
+    ?>
 			    <div class="card">
 					<div class="card-header" id="Other">
 						<h5 class="mb-0">
@@ -351,9 +287,9 @@ if ($dsinfo['isExternal'] == 0) {
 					</div>
 				</div>
 			    <?php
-    }
-    if ($dsinfo['isExternal'] == 0) {
-        ?>
+}
+if ($dsinfo['isExternal'] == 0) {
+    ?>
 				<div class="card">
 					<div class="card-header" id="Funding">
 						<h5 class="mb-0">

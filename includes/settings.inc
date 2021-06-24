@@ -50,7 +50,7 @@ $page_keywords = "experiments, long term experiments, agriculture, datasets, res
  *      
  * @var array $pageSettings
  */
-
+/* deprecating the $words
 $fileWords = 'metadata/default/vocabulary.json';
 
 $hasWords = file_exists($fileWords);
@@ -59,6 +59,7 @@ if ($hasWords) {
     $jwords = utf8_encode($jwords);
     $words = json_decode($jwords, true);
 }
+*/
 
 /*
  * Pagesettings associates the expt code, or station with the keyrefs, the page titles and so on. 
