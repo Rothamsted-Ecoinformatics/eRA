@@ -85,7 +85,10 @@ $Parsedown = new Parsedown();
     <li class="list-group-item"><b>Files included in the download: </b> <?php echo $distribution; ?> </li> <?php ?>
 															
 						<li class="list-group-item"><b>Version: </b> <?php echo $dsinfo['version']; ?></li>
-						<?php echo $dateCreation . $datePublication .$dateUpdate; }?>
+						
+						
+						<?php }
+						echo $dateCreation . $datePublication .$dateUpdate; ?>
 						
 						<li class="list-group-item"><b>Keywords: </b> 
 						<?php

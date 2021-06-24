@@ -184,7 +184,7 @@ $inDet = array(
 if ($displayDatasets > 0) {
    
                         //include '_datasets.php';
-						include 'datasets.php';
+						include '_datasets.php';
                         echo  "<div class=\"mx-3\">Additional data is available through e-RAdata. Please <a href=\"newGold.php\" >register for access</a>.  </div>";
 } else if ($displayDatasets == 0) {
 						

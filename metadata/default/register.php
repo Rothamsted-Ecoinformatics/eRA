@@ -35,7 +35,7 @@
 				<th scope="row">Cost</th>
 				<td>Free</td>
 				<td>Free</td>
-				<td>Free</td>
+				<td>Free**</td>
 			</tr>
 			<tr>
 				<th scope="row">How long is the form?</th>
@@ -74,6 +74,9 @@
 	<p>
 		*<b>e-RAdata</b> is the new name of the <b>e-RA Data Extraction Tool</b>:
 		if you already have an account with us, you do not need to reapply
+	</p>
+	<p>
+	**For large commercial requests we charge a fee to cover staff time for preparing a dataset.
 	</p>
 </div>
 
