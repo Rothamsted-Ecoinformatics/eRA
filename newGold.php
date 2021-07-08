@@ -32,6 +32,7 @@ function formInit()
     $GLOBALS['vRGSecCheckPB'] = "";
     $GLOBALS['vRGposition'] = "";
     $GLOBALS['vRGfname'] = "";
+    $GLOBALS['vRGrefer'] = "";
     $GLOBALS['vRGlname'] = "";
     $GLOBALS['vRGsector'] = "";
     $GLOBALS['vRGisStudent'] = 0;
@@ -40,7 +41,7 @@ function formInit()
     $GLOBALS['vRGfunding'] = "";
     $GLOBALS['vRGfundingOther'] = "";
     $GLOBALS['vRGISPG'] = "";
-    $GLOBALS['vRGcountry'] = "GB";
+    $GLOBALS['vRGcountry'] = "UK";
     $GLOBALS['vRGsupName'] = "";
     $GLOBALS['vRGsupEmail'] = "";
     $GLOBALS['vRGagreeCOU'] = 0;
@@ -200,6 +201,7 @@ getData();
 if (isset($RGposition)) {
     $vRGposition = $RGposition;
 }
+
 if (strstr($vRGposition, 'rothamsted')) {
     $vRGinstitution = "Rothamsted Research (RRES)";
     $vRGisRoth = 1;
@@ -208,7 +210,9 @@ if (strstr($vRGposition, 'rothamsted')) {
 } else {
     $vRGisRoth = 0;
 }
-
+if (isset($RGcountry)) {
+    $vRGcountry = $RGcountry;
+}
 if (isset($RGfname)) {
     $vRGfname = $RGfname;
 }
@@ -242,6 +246,20 @@ if (isset($RGisRoth)) {
 if (isset($RGsector)) {
     $vRGsector = $RGsector;
 }
+//how did you hear about it?
+if (isset($RGrefer)) {
+    $vRGrefer = $RGrefer;
+}
+$vRGreferck = array();
+$vRGreferck[$vRGrefer] = "  checked";
+
+if  ($RGrefer == "OTHER") {
+    if (isset($RGreferOtherText) ) {
+        $vRGreferOtherText = $RGreferOtherText;
+    }
+    
+}
+
 $vRGallowEmailsChecked = " ";
 if (isset($RGallowEmails)) {
 
@@ -335,7 +353,7 @@ if (isset($RGur_Q1)) {
     $vRGur_Q1 = $RGur_Q1;
 }
 
-switch (($vRGfunding)) {
+switch ($vRGfunding) {
     case 'BBSRC':
         $vRGfundingBBSRC = " checked";
         $vRGfundingNERC = " ";
@@ -463,7 +481,9 @@ if ($vprocess == "RGprocess") {
         $insertRGallowEmails = 1;
         $strAllowEmails = "yes";
     }
-
+    if($vRGisRoth == 1) {
+        $vRGreferOtherText .= " - Rothamsted";
+    }
     $sqlInput = "UPDATE newmarkers
 SET
 fname='$RGfname',
@@ -522,10 +542,10 @@ WHERE
     $sqlInsertUR = "INSERT INTO eRAmanga.Users_Requests
           (user_email,fname, lname,  ur_date, ur_Q1, ur_Q2, ur_ltes, sector, 
 institution, country, `role`, isStudent, 
-supEmail, supName, rothColls, funding, ISPG, agreeCOU, allowEmails, user_IP)
+supEmail, supName, rothColls, funding, ISPG, agreeCOU, allowEmails, user_IP, refer)
     VALUES('$RGposition', '$RGfname','$RGlname', '$ur_date', '$RGur_Q1', '$RGur_Q2', '$ur_ltes', '$RGsector', 
 '$RGinstitution', '$RGcountry', '$RGrole', $RGisStudent, 
-'$RGsupEmail', '$RGsupName', '$RGrothColls', '$RGfunding', '$RGISPG', '$RGagreeCOU', $insertRGallowEmails, '$user_IP');
+'$RGsupEmail', '$RGsupName', '$RGrothColls', '$RGfunding', '$RGISPG', '$RGagreeCOU', $insertRGallowEmails, '$user_IP', '$RGrefer - $RGreferOtherText');
 ";
     // $link = LogMangaAd();
     $linkAd = LogMangaAd();

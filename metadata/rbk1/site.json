@@ -6,8 +6,8 @@
         "doi": null,
         "visitsAllowed": "Yes",
         "visitingArrangements": "Contact Dr Andy Macdonald",
-        "description": "The first experimental crop was harvested in 1844 after a rotation of turnips (dunged) 1839, barley 1840, peas 1841, wheat 1842 and oats 1843. The last four crops being entirely unmanured. The field was therefore considered to be exhausted according to contemporary practice.",
-        "management": "The site is managed using conventional tillage and pesticide applications are applied as necessary, except for herbicide and fungicide exclusion plots.\n\nThe plough layer (0-23 m) is limed when necessary to maintain a minimum soil pH of 7.0 \u2013 7.5."
+        "description": "The site has probably been occupied since Roman times, and the Rothamsted map of 1623 shows the site under arable cultivation.  The first experimental crop was harvested in 1844 after a rotation of turnips (dunged) 1839, barley 1840, peas 1841, wheat 1842 and oats 1843. The last four crops being entirely unmanured. The field was therefore considered to be exhausted according to contemporary practice.",
+        "management": "The site is managed using conventional tillage and pesticide applications are applied as necessary, except for herbicide and fungicide exclusion plots. There is no irrigation. \n\nThe plough layer (0-23 m) is limed when necessary to maintain a minimum soil pH of 7.0 \u2013 7.5."
     },
     "location": {
         "addressLocality": "Harpenden",
@@ -26,7 +26,7 @@
     },
     "soil": {
         "soilTypeLabel": "luvisol",
-        "soilDescription": "The soil is classified as a Chromic luvisol. \n\nThe soil texture is described as clay loam to silty clay loam over clay-with flints. The soils contain a large number of flints and are slightly calcareous. Below about 2m depth the soil becomes chalk. The experiment is under-drained and the site is free draining. There is considerable variation in soil texture across the site, with clay contents ranging from 19 \u2013 39%"
+        "soilDescription": "The soil is classified as a Chromic luvisol. \nThe soil texture is described as clay loam to silty clay loam over clay-with flints. The soils contain a large number of flints and are slightly calcareous. Below about 2m depth the soil becomes chalk. The experiment is under-drained and the site is free draining. There is considerable variation in soil texture across the site, with clay contents ranging from 19 \u2013 39%"
     },
     "soilProperty": [
         {
@@ -152,7 +152,7 @@
     ],
     "climate": {
         "name": "temperate oceanic climate",
-        "description": "The soil is classified as a Chromic luvisol. \n\nThe soil texture is described as clay loam to silty clay loam over clay-with flints. The soils contain a large number of flints and are slightly calcareous. Below about 2m depth the soil becomes chalk. The experiment is under-drained and the site is free draining. There is considerable variation in soil texture across the site, with clay contents ranging from 19 \u2013 39%",
+        "description": "The soil is classified as a Chromic luvisol. \nThe soil texture is described as clay loam to silty clay loam over clay-with flints. The soils contain a large number of flints and are slightly calcareous. Below about 2m depth the soil becomes chalk. The experiment is under-drained and the site is free draining. There is considerable variation in soil texture across the site, with clay contents ranging from 19 \u2013 39%",
         "weatherStation": {
             "weatherStationID": "NOT IN GLTEN",
             "name": "NOT IN GLTEN",

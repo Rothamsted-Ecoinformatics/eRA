@@ -199,7 +199,8 @@ if ($hasDataset) {
 
             $illustration .= "<img src=\"";
             // $distribution .="<a href=\"" . $exptFolder . "/" . $datasetFolder . "/" . $filedownloads['URL'] . "\">";
-            $illustration .= $exptFolder . "/" . $datasetFolder . "/" . $imgsrc['URL'] . " \" class=\"img-fluid\" alt=\"" . $imgsrc['Caption'] . "\">";
+            $illustration .= $exptFolder . "/" . $datasetFolder . "/" . $imgsrc['URL'] . " \" class=\"img-fluid\" alt=\"" . $imgsrc['caption'] . "\">";
+            $illustration .= "<p><b><i>" . $imgsrc['caption'] . "</i></b></p>";
             // $distribution .= "</a>";
         }
     }
@@ -337,16 +338,16 @@ if ($hasDataset) {
         }
     } else {
         $strUserArea = "";
-        $positionValue = getIp();
-    }
-
+        $positionValue = "Anonymous";
+    } 
+    $IpAddress = getIp();
     if (isset($_REQUEST['dlform'])) {
 
         // Check the file exists or not
         $strMeta = "";
         if (file_exists($zipfile)) {
 
-            $sqlDownload = "INSERT INTO eRAdownloads (`position`, DOI, `dl-date`,`result`) VALUES(' " . $positionValue . "', '" . $DOI . "', '" . $today . "', '".$siteType ."')";
+            $sqlDownload = "INSERT INTO eRAdownloads (`position`, `IP`,  DOI, `dl-date`,`result`) VALUES(' " . $positionValue . "', '" . $IpAddress . "', '" . $DOI . "', '" . $today . "', '".$siteType ."')";
 
             if ($results = mysqli_query($link, $sqlDownload)) {
 

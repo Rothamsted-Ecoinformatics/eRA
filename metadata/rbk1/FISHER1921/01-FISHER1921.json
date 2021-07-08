@@ -101,8 +101,8 @@
         {
             "relatedIdentifier": "10.23637/rbk1-1796346264-1",
             "relatedIdentifierType": "DOI",
-            "name": "Broadbalk Dataset",
-            "relatedIdentifierGeneralType": "Text",
+            "name": "Broadbalk Wheat Experiment mean annual grain and straw yields 1852-1925",
+            "relatedIdentifierGeneralType": "Dataset",
             "relationType": "IsDerivedFrom",
             "rt_id": 28,
             "relationTypeValue": "is derived from"

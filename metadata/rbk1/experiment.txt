@@ -9,7 +9,7 @@
 
 DESCRIPTION
     Started in 1843, Broadbalk is one of the oldest continuous agronomic experiments in the world. Wheat is grown every year on all or part of the experiment. Established to test the effects of various combinations of inorganic fertilizers (N, P, K, Na and Mg) and organic manures on the yield of winter wheat, many of these treatments continue today. A control strip has received no fertilizer or organic manures since 1843. It was started by Lawes and Gilbert in autumn 1843, and the first crop was harvested in summer 1844.
-    The aim of the experiment was to test the effect of different organic manures and inorganic fertilizers on the yield of winter wheat.
+    To test the effect of different organic manures and inorganic fertilizers on the yield of winter wheat.
 
     Experiment start = 1843
 

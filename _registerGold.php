@@ -14,7 +14,6 @@
  * @var string $fromEmail : email sending address. Could be the e-RA email or a noreply?
  */
 if ($vprocess == "RGprocess") {
-    
 
     ?>
 
@@ -25,10 +24,11 @@ if ($vprocess == "RGprocess") {
 <?php
     $strRecorded = "<p>This is the information that has been recorded.</p>";
 
-
     $strRecorded .= "<ul>";
     $strRecorded .= "\n\t<li><b>Name : </b> $RGfname $RGlname </li>";
+    
     $strRecorded .= "\n\t<li><b>Email : </b> $RGposition </li>";
+    $strRecorded .= "\n\t<li><b>How did you hear about e-RA : </b> $RGrefer - $vRGreferOtherText </li>";
     $strRecorded .= "\n\t<li><b>Sector : </b> $strSector</li>";
     $strRecorded .= "\n\t<li><b>Institution : </b> $RGinstitution </li>";
     $strRecorded .= "\n\t<li><b>Country : </b> $RGcountry </li>";
@@ -58,7 +58,6 @@ if ($vprocess == "RGprocess") {
 
     $strRecorded .= "</ul>";
 
-
     echo $strRecorded;
 
     $message = "
@@ -68,25 +67,23 @@ if ($vprocess == "RGprocess") {
 </head>
 <body>
 ";
-    $message .= "<p>Dear ".$RGfname ."</p>";
+    $message .= "<p>Dear " . $RGfname . "</p>";
     $message .= $strRecorded;
     $message .= "A member of our team will contact you shortly. Please reply to this email for correspondance. ";
     $message .= "</body></html>";
-    
-    
 
     // Always set content-type when sending HTML email
     $headers = "MIME-Version: 1.0" . "\r\n";
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
     // More headers
-    $headers .= "FROM: res.era@rothamsted.ac.uk" . "\r\n". "CC: ".$moderationEmail;
-    
+    $headers .= "FROM: res.era@rothamsted.ac.uk" . "\r\n" . "CC: " . $moderationEmail;
+
     $to = $RGposition;
     $subject = "Data Request for $RGfname $RGlname - $ur_insertID";
     $response = "<p>
 An email has  been sent to <span class=\"badge badge-success\">" . $RGposition . "</span> to confirm your request. ";
-    //echo ($to .  $subject. $message. $headers);
+    // echo ($to . $subject. $message. $headers);
     if (mail($to, $subject, $message, $headers)) {
 
         echo $response;
@@ -99,29 +96,36 @@ An email has  been sent to <span class=\"badge badge-success\">" . $RGposition .
     ?>
 
 	 
+
+
+
+
 <div class="m-3">
 			
 <?php
 
-if ($vprocess == "Q1") {
-        if ($vRGallowEmails == 1) {$vRGallowEmailsChecked = " checked";}
-        
+    if ($vprocess == "Q1") {
+        if ($vRGallowEmails == 1) {
+            $vRGallowEmailsChecked = " checked";
+        }
+
         if (is_array($_REQUEST['RGLTE'])) {
             $vRGDLTE = $_REQUEST['RGLTE'];
             $vstrRGLTE = implode(" , ", $vRGDLTE);
-            
-            
         }
         if (isset($_REQUEST['strRGLTE'])) {
             $vstrRGLTE = $_REQUEST['strRGLTE'];
-            $arrRGLTE = explode(" , ",$vstrRGLTE);
-            
+            $arrRGLTE = explode(" , ", $vstrRGLTE);
         }
-       
-        
+
         ?>
-       <p>Use this form to request access to <b>e-RAdata</b>, which  is the new name for the <b>e-RA Data Extraction Tool</b>: if you already have an account with us, you do not need to reapply. If you are not sure, you are welcome to fill this in. Thank you for your interest</p>
-		<form action="newGold.php" method="post" class="needs-validation"
+       <p>
+		Use this form to request access to <b>e-RAdata</b>, which is the new
+		name for the <b>e-RA Data Extraction Tool</b>: if you already have an
+		account with us, you do not need to reapply. If you are not sure, you
+		are welcome to fill this in. Thank you for your interest
+	</p>
+	<form action="newGold.php" method="post" class="needs-validation"
 		novalidate>
 		<div class="progress" style="height: 40px;">
 			<div class="progress-bar progress-bar-striped bg-success  text-dark"
@@ -223,6 +227,71 @@ if ($vprocess == "Q1") {
 		<?php
         }
         ?>
+        
+		<div class="form-group my-3">
+			<div id="RGreferAll">
+				<label for="RGrefer"><h5>How did you hear about e-RA</h5></label>
+				<div class="form-check">
+					<label for="RGrefer" class="form-check-label"> <input type="radio"
+						class="form-check-input" name="RGrefer" value="COL"
+						<?php echo  $vRGreferck['COL']; ?>>A colleague
+					</label>
+				</div>
+				<div class="form-check">
+					<label for="RGrefer" class="form-check-label"> <input type="radio"
+						class="form-check-input" name="RGrefer" value="SEO"
+						<?php echo  $vRGreferck['SEO']; ?>>Search Engine result
+					</label>
+				</div>
+				<div class="form-check">
+					<label for="RGrefer" class="form-check-label"> <input type="radio"
+						class="form-check-input" name="RGrefer" value="TWT"
+						<?php echo $vRGreferck['TWT']; ?>>Twitter
+					</label>
+				</div>
+				<div class="form-check">
+					<label for="RGrefer" class="form-check-label"> <input type="radio"
+						class="form-check-input" name="RGrefer" value="SNO"
+						<?php echo $vRGreferck['SNO']; ?>>Other social network
+					</label>
+				</div>
+				<div class="form-check">
+					<label for="RGrefer" class="form-check-label"> <input type="radio"
+						class="form-check-input" name="RGrefer" value="DOI"
+						<?php echo $vRGreferck['DOI']; ?>>Link in Paper (DOI)
+					</label>
+				</div>
+			</div>
+			<div class="form-check">
+				<label for="RGrefer" class="form-check-label"> <input type="radio"
+					class="form-check-input" name="RGrefer" id="RGreferother2"
+					value="OTHER" <?php echo $vRGreferck['OTHER']; ?>>OTHER
+				</label>
+			</div>
+			<div id="RGreferOtherText" style="display: none" class="mt-3">
+				<label for="RGreferOtherText"><h6>What specific OTHER source?</h6></label>
+				<input type="text" class="form-control" name="RGreferOtherText"
+					placeholder="Other" value="<?php echo $vRGreferOtherText?>">
+			</div>
+		</div>
+
+		<script>
+		RGradSel = document.getElementById('RGreferother2')
+
+        RGradSel.onclick = function() {
+            // access properties using this keyword
+            if ( this.checked ) {
+                // Returns true if checked
+                 document.getElementById("RGreferOtherText").style.display = "block";
+                
+            } else {
+                // Returns false if not checked
+            	
+                document.getElementById("RGreferOtherText").style.display = "none";
+            }
+        };
+        
+        </script>
 		<div class="form-check">
 			<input type="checkbox" class="form-check-input" id="RGconsentCheck"
 				name="RGconsentCheck" <?php echo $vRGGDPRChecked; ?> required> <label
@@ -234,16 +303,16 @@ if ($vprocess == "Q1") {
 			<input type="checkbox" class="form-check-input" id="RGagreeCOU"
 				name="RGagreeCOU" <?php echo $vRGagreeCOUChecked; ?> required> <label
 				class="form-check-label" for="RGagreeCOU">* I have read the <a
-				target="_blank" href="info/conditions"><b>Conditions of
-						Use</b></a> of e-RAdata including their policy on personal data and
-				I agree with them.
+				target="_blank" href="info/conditions"><b>Conditions of Use</b></a>
+				of e-RAdata including their policy on personal data and I agree with
+				them.
 			</label>
 		</div>
 		<div class="form-check">
 			<input type="checkbox" class="form-check-input" id="RGallowEmails"
-				name="RGallowEmails" value = "1" <?php echo $vRGallowEmailsChecked; ?>> <label
-				class="form-check-label" for="RGallowEmails">I agree to receiving
-				occasional communication from the e-RA team </label>
+				name="RGallowEmails" value="1" <?php echo $vRGallowEmailsChecked; ?>>
+			<label class="form-check-label" for="RGallowEmails">I agree to
+				receiving occasional communication from the e-RA team </label>
 		</div>
 
 
@@ -263,7 +332,7 @@ if ($vprocess == "Q1") {
 
 
 		<!--  entered in Q3 - passed for memory -->
-		
+
 		<input type="hidden" name="RGur_Q1" value="<?php echo $vRGur_Q1; ?>" />
 		<input type="hidden" name="strRGLTE" value="<?php echo $vstrRGLTE; ?>" />
 		<input type="hidden" name="RGLTE" value="<?php echo $vRGLTE; ?>" /> <input
@@ -285,15 +354,13 @@ if ($vprocess == "Q1") {
         if (is_array($_REQUEST['RGLTE'])) {
             $vRGDLTE = $_REQUEST['RGLTE'];
             $vstrRGLTE = implode(" , ", $vRGDLTE);
-            $vstrRGLTE = "FROMARRAYRGLTE , ".$vstrRGLTE;
-            
+            $vstrRGLTE = "FROMARRAYRGLTE , " . $vstrRGLTE;
         }
         if (isset($_REQUEST['strRGLTE'])) {
-            $vstrRGLTE = "REQUEST , ".$_REQUEST['strRGLTE'];
-            $arrRGLTE = explode(" , ",$vstrRGLTE);
-     
+            $vstrRGLTE = "REQUEST , " . $_REQUEST['strRGLTE'];
+            $arrRGLTE = explode(" , ", $vstrRGLTE);
         }
-      
+
         // the progress bar : none for PB as PB does not see this page.
         ?>
         
@@ -430,63 +497,62 @@ if ($vprocess == "Q1") {
 					id="instHelp" class="form-text text-muted">Please provide the name
 					of your funding source </small>
 			</div>
-			<div id="RGfundinglist" style="display: none">
-				<div class="form-group my-3">
-					<label for="RGISPG"><h5>ISPG or Project</h5></label> <select
-						class="form-control" id="RGISPG" name="RGISPG">
-						<option value="NA" <?php echo $vRGISPGck['NA'];?>>Please select
-							one</option>
-						<option value="ASSIST" <?php echo $vRGISPGck['ASSIST'];?>>ASSIST</option>
-						<option value="DFW" <?php echo $vRGISPGck['DFW'];?>>DFW</option>
-						<option value="TPM" <?php echo $vRGISPGck['TPM'];?>>TPM</option>
-						<option value="S2N" <?php echo $vRGISPGck['S2N'];?>>S2N</option>
-						<option value="SCP" <?php echo $vRGISPGck['SCP'];?>>SCP</option>
-						<option value="NC-LTE" <?php echo $vRGISPGck['NC-LTE'];?>>NC -
-							LTE</option>
-						<option value="NC-OTHER" <?php echo $vRGISPGck['NC-OTHER'];?>>NC
-							- OTHER</option>
-						<option value="OTHER" <?php echo $vRGISPGck['OTHER'];?>>OTHER</option>
-					</select><small id="instHelp" class="form-text text-muted"> Please
-						enter the ISPG or National Capability</small>
-				</div>
+		</div>
+		<div id="RGfundinglist" style="display: none">
+			<div class="form-group my-3">
+				<label for="RGISPG"><h5>ISPG or Project</h5></label> <select
+					class="form-control" id="RGISPG" name="RGISPG">
+					<option value="NA" <?php echo $vRGISPGck['NA'];?>>Please select one</option>
+					<option value="ASSIST" <?php echo $vRGISPGck['ASSIST'];?>>ASSIST</option>
+					<option value="DFW" <?php echo $vRGISPGck['DFW'];?>>DFW</option>
+					<option value="TPM" <?php echo $vRGISPGck['TPM'];?>>TPM</option>
+					<option value="S2N" <?php echo $vRGISPGck['S2N'];?>>S2N</option>
+					<option value="SCP" <?php echo $vRGISPGck['SCP'];?>>SCP</option>
+					<option value="NC-LTE" <?php echo $vRGISPGck['NC-LTE'];?>>NC - LTE</option>
+					<option value="NC-OTHER" <?php echo $vRGISPGck['NC-OTHER'];?>>NC -
+						OTHER</option>
+					<option value="OTHER" <?php echo $vRGISPGck['OTHER'];?>>OTHER</option>
+				</select><small id="instHelp" class="form-text text-muted"> Please
+					enter the ISPG or National Capability</small>
 			</div>
+		</div>
 	    <?php
         } // end AC
 
         ?>
    <!--  for all  -->
 
-			<!--  entered in Q1 - passed  -->
-			<input type="hidden" name="RGposition"
-				value="<?php echo $vRGposition;?>" /> <input type="hidden"
-				name="RGcountry" value="<?php echo $vRGcountry; ?>" /> <input
-				type="hidden" name="RGfname" value="<?php echo $vRGfname;?>" /> <input
-				type="hidden" name="RGlname" value="<?php echo $vRGlname;?>" /> <input
-				type="hidden" name="RGisStudent"
-				value="<?php echo $vRGisStudent; ?>" /> <input type="hidden"
-				name="RGisRoth" value="<?php echo $vRGisRoth;?>" /> <input
-				type="hidden" name="RGsector" value="<?php echo $vRGsector;?>" /> <input
-				type="hidden" name="RGagreeCOU" value="<?php echo $vRGagreeCOU;?>" />
-			<input type="hidden" name="RGallowEmails"
-				value="<?php echo $vRGallowEmails;?>" />
+		<!--  entered in Q1 - passed  -->
+		<input type="hidden" name="RGposition"
+			value="<?php echo $vRGposition;?>" /> <input type="hidden"
+			name="RGcountry" value="<?php echo $vRGcountry; ?>" /> <input
+			type="hidden" name="RGfname" value="<?php echo $vRGfname;?>" /> <input
+			type="hidden" name="RGlname" value="<?php echo $vRGlname;?>" /> <input
+			type="hidden" name="RGisStudent" value="<?php echo $vRGisStudent; ?>" />
+		<input type="hidden" name="RGisRoth" value="<?php echo $vRGisRoth;?>" />
+		<input type="hidden" name="RGrefer" value="<?php echo $vRGrefer;?>" />
+		<input type="hidden" name="RGreferOtherText" value="<?php echo $vRGreferOtherText;?>" />
+		<input type="hidden" name="RGsector" value="<?php echo $vRGsector;?>" />
+		<input type="hidden" name="RGagreeCOU"
+			value="<?php echo $vRGagreeCOU;?>" /> <input type="hidden"
+			name="RGallowEmails" value="<?php echo $vRGallowEmails;?>" />
 
 
 
 
 
-			<!--  entered in Q3 - passed for memory -->
-			<input type="hidden" name="RGur_Q1" value="<?php echo $vRGur_Q1; ?>" />
-			<input type="hidden" name="strRGLTE" value="<?php echo $vstrRGLTE; ?>" />
-			 <input
-				type="hidden" name="RGur_Q2" value="<?php echo $vRGur_Q2; ?>" /> <input
-				type="hidden" name="RGfrom" value="Q2" />
-			<button type="submit" class="btn mt-5 mr-1 btn-primary"
-				name="process" value="Prev">Previous</button>
-			<button type="submit" class="btn mt-5 mr-1 btn-warning"
-				name="process" value="Reset">Reset</button>
-			<button type="submit" class="btn mt-5 mr-1 btn-primary"
-				name="process" value="Next">Next</button>
-	
+		<!--  entered in Q3 - passed for memory -->
+		<input type="hidden" name="RGur_Q1" value="<?php echo $vRGur_Q1; ?>" />
+		<input type="hidden" name="strRGLTE" value="<?php echo $vstrRGLTE; ?>" />
+		<input type="hidden" name="RGur_Q2" value="<?php echo $vRGur_Q2; ?>" />
+		<input type="hidden" name="RGfrom" value="Q2" />
+		<button type="submit" class="btn mt-5 mr-1 btn-primary" name="process"
+			value="Prev">Previous</button>
+		<button type="submit" class="btn mt-5 mr-1 btn-warning" name="process"
+			value="Reset">Reset</button>
+		<button type="submit" class="btn mt-5 mr-1 btn-primary" name="process"
+			value="Next">Next</button>
+
 	</form>
 	
 
@@ -497,20 +563,18 @@ if ($vprocess == "Q1") {
         if (is_array($_REQUEST['RGLTE'])) {
             $vRGDLTE = $_REQUEST['RGLTE'];
             $vstrRGLTE = implode(" , ", $vRGDLTE);
-            $vstrRGLTE = "FROMARRAYRGLTE , ".$vstrRGLTE;
-            
+            $vstrRGLTE = "FROMARRAYRGLTE , " . $vstrRGLTE;
         }
         if (isset($_REQUEST['strRGLTE'])) {
-            $vstrRGLTE = "REQUEST , ".$_REQUEST['strRGLTE'];
-            $arrRGLTE = explode(" , ",$vstrRGLTE);
-            
-            
+            $vstrRGLTE = "REQUEST , " . $_REQUEST['strRGLTE'];
+            $arrRGLTE = explode(" , ", $vstrRGLTE);
+
             foreach ($arrRGLTE as $valueRGLTE) {
                 $vRGLTEsel[$valueRGLTE] = " checked";
-                //echo "<br />$valueRGLTE $vRGLTEsel[$valueRGLTE] ";
+                // echo "<br />$valueRGLTE $vRGLTEsel[$valueRGLTE] ";
             }
         }
-   
+
         if ($vRGsector == "PB") {
             ?>
             
@@ -578,172 +642,196 @@ if ($vprocess == "Q1") {
 			</label>
 
 			<div class="form-check">
-				<label class="form-check-label" id="RGLBLrbk1" ><input type="checkbox"
-					class="form-check-input" id="RGEXPTrbk1" name="RGLTE[]"
-					value="Broadbalk" <?php echo  $vRGLTEsel['Broadbalk'];?>> Broadbalk
-				</label>
+				<label class="form-check-label" id="RGLBLrbk1"><input
+					type="checkbox" class="form-check-input" id="RGEXPTrbk1"
+					name="RGLTE[]" value="Broadbalk"
+					<?php echo  $vRGLTEsel['Broadbalk'];?>> Broadbalk </label>
 			</div>
 			<div class="datasetsList " id="dsrbk1">
 
 				<div class="form-check ml-5">
-					<label class="form-check-label"  for="RGLTE[]"><input
+					<label class="form-check-label" for="RGLTE[]"><input
 						type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="BKYIELD" id = "RGDSBKYIELD" <?php echo $vRGDSsel['BKYIELD'];?>> BKYIELD
-						(Broadbalk wheat yields 1844-1925)</label>
+						value="BKYIELD" id="RGDSBKYIELD"
+						<?php echo $vRGDSsel['BKYIELD'];?>> BKYIELD (Broadbalk wheat
+						yields 1844-1925)</label>
 				</div>
 
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="BKYIELD_F"  id = "RGDSBKYIELD_F" <?php echo $vRGDSsel['BKYIELD_F'];?>> <label
+						value="BKYIELD_F" id="RGDSBKYIELD_F"
+						<?php echo $vRGDSsel['BKYIELD_F'];?>> <label
 						class="form-check-label" for="RGLTE[]">BKYIELD_F (Broadbalk wheat
 						yields 1926-1953)</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="BKYIELD_F85"  id = "RGDSBKYIELD_F85" <?php echo $vRGDSsel['BKYIELD_F85'];?>> <label
+						value="BKYIELD_F85" id="RGDSBKYIELD_F85"
+						<?php echo $vRGDSsel['BKYIELD_F85'];?>> <label
 						class="form-check-label" for="RGLTE[]">BKYIELD_F85 (Broadbalk
 						wheat yields 1954-1967)</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="BKYIELD_R85"  id = "RGDSBKYIELD_R85" <?php echo $vRGDSsel['BKYIELD_R85'];?>> <label
+						value="BKYIELD_R85" id="RGDSBKYIELD_R85"
+						<?php echo $vRGDSsel['BKYIELD_R85'];?>> <label
 						class="form-check-label" for="RGLTE[]">BKYIELD_R85 (Broadbalk
 						wheat yields 1968-2017)</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="BKBEANS"  id = "RGDSBKBEANS" <?php echo $vRGDSsel['BKBEANS'];?>> <label
+						value="BKBEANS" id="RGDSBKBEANS"
+						<?php echo $vRGDSsel['BKBEANS'];?>> <label
 						class="form-check-label" for="RGLTE[]">BKBEANS (Broadbalk beans
 						yields 1968-1978)</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="BKFMAIZE" id = "RGDSBKFMAIZE"  <?php echo $vRGDSsel['BKFMAIZE'];?>> <label
+						value="BKFMAIZE" id="RGDSBKFMAIZE"
+						<?php echo $vRGDSsel['BKFMAIZE'];?>> <label
 						class="form-check-label" for="RGLTE[]">BKFMAIZE (Broadbalk maize
 						yields 1997-2017)</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="BKOATS" id = "RGDSBKOATS"  <?php echo $vRGDSsel['BKOATS'];?>> <label
-						class="form-check-label" for="RGLTE[]">BKOATS (Broadbalk oats
-						yields 1996-2017)</label>
+						value="BKOATS" id="RGDSBKOATS" <?php echo $vRGDSsel['BKOATS'];?>>
+					<label class="form-check-label" for="RGLTE[]">BKOATS (Broadbalk
+						oats yields 1996-2017)</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="BKPOTATO" id = "RGDSBKPOTATO"  <?php echo $vRGDSsel['BKPOTATO'];?>> <label
+						value="BKPOTATO" id="RGDSBKPOTATO"
+						<?php echo $vRGDSsel['BKPOTATO'];?>> <label
 						class="form-check-label" for="RGLTE[]">BKPOTATO (Broadbalk potato
 						yields 1968-1996)</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="BKWHNUTRI" id = "RGDSBKWHNUTRI"  <?php echo $vRGDSsel['BKWHNUTRI'];?>> <label
+						value="BKWHNUTRI" id="RGDSBKWHNUTRI"
+						<?php echo $vRGDSsel['BKWHNUTRI'];?>> <label
 						class="form-check-label" for="RGLTE[]">BKWHNUTRI (Broadbalk wheat
 						crop nutrient data 1968-2013)</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="BKOATNUTRI" id = "RGDSBKOATNUTRI"  <?php echo $vRGDSsel['BKOATNUTRI'];?>> <label
+						value="BKOATNUTRI" id="RGDSBKOATNUTRI"
+						<?php echo $vRGDSsel['BKOATNUTRI'];?>> <label
 						class="form-check-label" for="RGLTE[]">BKOATNUTRI (Broadbalk oat
 						crop nutrient data 1996-2013)</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="BKBEANNUTRI" id = "RGDSBKBEANNUTRI"  <?php echo $vRGDSsel['BKBEANNUTRI'];?>> <label
+						value="BKBEANNUTRI" id="RGDSBKBEANNUTRI"
+						<?php echo $vRGDSsel['BKBEANNUTRI'];?>> <label
 						class="form-check-label" for="RGLTE[]">BKBEANNUTRI (Broadbalk
 						beans crop nutrient data 1968-1978)</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="BKMAIZNUTRI" id = "RGDSBKMAIZNUTRI"  <?php echo $vRGDSsel['BKMAIZNUTRI'];?>> <label
+						value="BKMAIZNUTRI" id="RGDSBKMAIZNUTRI"
+						<?php echo $vRGDSsel['BKMAIZNUTRI'];?>> <label
 						class="form-check-label" for="RGLTE[]">BKMAIZNUTRI (Broadbalk
 						maize crop nutrient data 1997-2013)</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="BKPOTSNUTRI" id = "RGDSBKPOTSNUTRI"  <?php echo $vRGDSsel['BKPOTSNUTRI'];?>> <label
+						value="BKPOTSNUTRI" id="RGDSBKPOTSNUTRI"
+						<?php echo $vRGDSsel['BKPOTSNUTRI'];?>> <label
 						class="form-check-label" for="RGLTE[]">BKPOTSNUTRI (Broadbalk
 						potato crop nutrient data 1968-96)</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="BKWEEDS_FAL" id = "RGDSBKWEEDS_FAL"  <?php echo $vRGDSsel['BKWEEDS_FAL'];?>> <label
+						value="BKWEEDS_FAL" id="RGDSBKWEEDS_FAL"
+						<?php echo $vRGDSsel['BKWEEDS_FAL'];?>> <label
 						class="form-check-label" for="RGLTE[]">BKWEEDS_FAL (Broadbalk weed
 						surveys 1933-1967)</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="BKWEEDS_ROT" id = "RGDSBKWEEDS_ROT"  <?php echo $vRGDSsel['BKWEEDS_ROT'];?>> <label
+						value="BKWEEDS_ROT" id="RGDSBKWEEDS_ROT"
+						<?php echo $vRGDSsel['BKWEEDS_ROT'];?>> <label
 						class="form-check-label" for="RGLTE[]">BKWEEDS_ROT (Broadbalk weed
 						surveys 1968-1979)</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="BKWEEDS_SUM" id = "RGDSBKWEEDS_SUM"  <?php echo $vRGDSsel['BKWEEDS_SUM'];?>> <label
+						value="BKWEEDS_SUM" id="RGDSBKWEEDS_SUM"
+						<?php echo $vRGDSsel['BKWEEDS_SUM'];?>> <label
 						class="form-check-label" for="RGLTE[]"> BKWEEDS_SUM (Broadbalk
 						weed surveys summary 1991-2014)</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="BKWEEDS_PLOT" id = "RGDSBKWEEDS_PLOT"  <?php echo $vRGDSsel['BKWEEDS_PLOT'];?>> <label
+						value="BKWEEDS_PLOT" id="RGDSBKWEEDS_PLOT"
+						<?php echo $vRGDSsel['BKWEEDS_PLOT'];?>> <label
 						class="form-check-label" for="RGLTE[]">BKWEEDS_PLOT (Broadbalk
 						weed surveys by plot 1991-2014)</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="BKDISEASE" id = "RGDSBKDISEASE"  <?php echo $vRGDSsel['BKDISEASE'];?>> <label
+						value="BKDISEASE" id="RGDSBKDISEASE"
+						<?php echo $vRGDSsel['BKDISEASE'];?>> <label
 						class="form-check-label" for="RGLTE[]">BKDISEASE (Broadbalk
 						disease data 1968-2009)</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="BKGR_QUALITY" id = "RGDSBKGR_QUALITY"  <?php echo $vRGDSsel['BKGR_QUALITY'];?>> <label
+						value="BKGR_QUALITY" id="RGDSBKGR_QUALITY"
+						<?php echo $vRGDSsel['BKGR_QUALITY'];?>> <label
 						class="form-check-label" for="RGLTE[]">BKGR_QUALITY (Broadbalk
 						Grain Quality for 1974-2016)</label>
 				</div>
 			</div>
 			<div class="form-check">
-				<label class="form-check-label"  id="RGLBLrpg5" ><input type="checkbox"
-					class="form-check-input" id="RGEXPTrpg5" name="RGLTE[]"
-					value="ParkGrass" <?php echo $vRGLTEsel['ParkGrass'];?>> Park Grass
-				</label>
+				<label class="form-check-label" id="RGLBLrpg5"><input
+					type="checkbox" class="form-check-input" id="RGEXPTrpg5"
+					name="RGLTE[]" value="ParkGrass"
+					<?php echo $vRGLTEsel['ParkGrass'];?>> Park Grass </label>
 			</div>
 			<div class="datasetsList" id="dsrpg5">
 
 				<div class="form-check  ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="PARKYIELD" id = "RGDSPARKYIELD"  <?php echo $vRGDSsel['PARKYIELD'];?>> <label
+						value="PARKYIELD" id="RGDSPARKYIELD"
+						<?php echo $vRGDSsel['PARKYIELD'];?>> <label
 						class="form-check-label" for="RGLTE[]">PARKYIELD (Park Grass
 						yields 1856-1959)</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="PGHAYEQUIV" id = "RGDSPGHAYEQUIV" <?php echo $vRGDSsel['PGHAYEQUIV'];?>> <label
+						value="PGHAYEQUIV" id="RGDSPGHAYEQUIV"
+						<?php echo $vRGDSsel['PGHAYEQUIV'];?>> <label
 						class="form-check-label" for="RGLTE[]">PGHAYEQUIV (Park Grass
 						yields 1960-2017)</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="PARKCOMP"  id = "RGDSPARKCOMP" <?php echo $vRGDSsel['PARKCOMP'];?>> <label
+						value="PARKCOMP" id="RGDSPARKCOMP"
+						<?php echo $vRGDSsel['PARKCOMP'];?>> <label
 						class="form-check-label" for="RGLTE[]">PARKCOMP (Park Grass
 						botanical surveys-complete separations of hay samples, selected
 						years 1862-1976)</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="PARKPARTCOMP" id = "RGDSPARKPARTCOMP"  <?php echo $vRGDSsel['PARKPARTCOMP'];?>> <label
+						value="PARKPARTCOMP" id="RGDSPARKPARTCOMP"
+						<?php echo $vRGDSsel['PARKPARTCOMP'];?>> <label
 						class="form-check-label" for="RGLTE[]">PARKPARTCOMP (Park Grass
 						botanical surveys-partial separations of hay samples, selected
 						years 1862-1976)</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="PARKCOMPIC" id = "RGDSPARKCOMPIC"  <?php echo $vRGDSsel['PARKCOMPIC'];?>> <label
+						value="PARKCOMPIC" id="RGDSPARKCOMPIC"
+						<?php echo $vRGDSsel['PARKCOMPIC'];?>> <label
 						class="form-check-label" for="RGLTE[]">PARKCOMPIC (Park Grass
 						botanical surveys carried out by Imperial College 1991-2000)</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="PARKINSECTS" id = "RGDSPARKINSECTS"  <?php echo $vRGDSsel['PARKINSECTS'];?>> <label
+						value="PARKINSECTS" id="RGDSPARKINSECTS"
+						<?php echo $vRGDSsel['PARKINSECTS'];?>> <label
 						class="form-check-label" for="RGLTE[]">PARKINSECTS (Park Grass
 						insect surveys 1977-1978)</label>
 				</div>
@@ -761,48 +849,56 @@ if ($vprocess == "Q1") {
 				<div class="form-check ml-5">
 					<label class="form-check-label" for="RGLTE[]"><input
 						type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="HOOSYIELD"  id = "RGDSHOOSYIELD" <?php echo $vRGDSsel['HOOSYIELD'];?>> HOOSYIELD
-						(Hoosfield barley yields 1852-1952 (fallow 1953))</label>
+						value="HOOSYIELD" id="RGDSHOOSYIELD"
+						<?php echo $vRGDSsel['HOOSYIELD'];?>> HOOSYIELD (Hoosfield barley
+						yields 1852-1952 (fallow 1953))</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="HOOSYIELD1"  id = "RGDSHOOSYIELD1" <?php echo $vRGDSsel['HOOSYIELD1'];?>> <label
+						value="HOOSYIELD1" id="RGDSHOOSYIELD1"
+						<?php echo $vRGDSsel['HOOSYIELD1'];?>> <label
 						class="form-check-label" for="RGLTE[]">HOOSYIELD1 (Hoosfield
 						barley yields 1954-1957)</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="HOOSYIELD2" id = "RGDSHOOSYIELD2"  <?php echo $vRGDSsel['HOOSYIELD2'];?>> <label
+						value="HOOSYIELD2" id="RGDSHOOSYIELD2"
+						<?php echo $vRGDSsel['HOOSYIELD2'];?>> <label
 						class="form-check-label" for="RGLTE[]">HOOSYIELD2 (Hoosfield
 						barley yields 1958-1966 (fallow 1967))</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="HOOSYIELD3"  id = "RGDSHOOSYIELD3" <?php echo $vRGDSsel['HOOSYIELD3'];?>> <label
+						value="HOOSYIELD3" id="RGDSHOOSYIELD3"
+						<?php echo $vRGDSsel['HOOSYIELD3'];?>> <label
 						class="form-check-label" for="RGLTE[]">HOOSYIELD3 (Hoosfield
 						barley yields 1968-1993)</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="HOOSYIELD4"  id = "RGDSHOOSYIELD4" <?php echo $vRGDSsel['HOOSYIELD4'];?>> <label
+						value="HOOSYIELD4" id="RGDSHOOSYIELD4"
+						<?php echo $vRGDSsel['HOOSYIELD4'];?>> <label
 						class="form-check-label" for="RGLTE[]">HOOSYIELD4 (Hoosfield
 						barley yields 1994-2002)</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="HOOSYIELD5" id = "RGDSHOOSYIELD5"  <?php echo $vRGDSsel['HOOSYIELD5'];?>> <label
+						value="HOOSYIELD5" id="RGDSHOOSYIELD5"
+						<?php echo $vRGDSsel['HOOSYIELD5'];?>> <label
 						class="form-check-label" for="RGLTE[]">HOOSYIELD5 (Hoosfield
 						barley yields 2003-2016)</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="HFBNUTRI"  id = "RGDSHFBNUTRI" <?php echo $vRGDSsel['HFBNUTRI'];?>> <label
+						value="HFBNUTRI" id="RGDSHFBNUTRI"
+						<?php echo $vRGDSsel['HFBNUTRI'];?>> <label
 						class="form-check-label" for="RGLTE[]">HFBNUTRI (Hoosfield barley
 						crop nutrient data, 1964 and 1966)</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="HFNUTRIMAIN" id = "RGDSHFNUTRIMAIN" <?php echo $vRGDSsel['HFNUTRIMAIN'];?>> <label
+						value="HFNUTRIMAIN" id="RGDSHFNUTRIMAIN"
+						<?php echo $vRGDSsel['HFNUTRIMAIN'];?>> <label
 						class="form-check-label" for="RGLTE[]">HFNUTRIMAIN (Hoosfield
 						barley crop nutrient data MAIN PLOTS, 1970 - 2010)</label>
 				</div>
@@ -818,13 +914,15 @@ if ($vprocess == "Q1") {
 
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="WHEATFAL"  id = "RGDSWHEATFAL" <?php echo $vRGDSsel['WHEATFAL'];?>> <label
+						value="WHEATFAL" id="RGDSWHEATFAL"
+						<?php echo $vRGDSsel['WHEATFAL'];?>> <label
 						class="form-check-label" for="RGLTE[]">WHEATFAL (Yields from the
 						alternate wheat/fallow experiment 1856-1956)</label>
 				</div>
 				<div class="form-check ml-5">
 					<input type="checkbox" class="form-check-input" name="RGLTE[]"
-						value="FALWHEAT"  id = "RGDSFALWHEAT" <?php echo $vRGDSsel['FALWHEAT'];?>> <label
+						value="FALWHEAT" id="RGDSFALWHEAT"
+						<?php echo $vRGDSsel['FALWHEAT'];?>> <label
 						class="form-check-label" for="RGLTE[]">FALWHEAT (Yields from the
 						alternate wheat/fallow experiment 1957-2015)</label>
 				</div>
@@ -870,7 +968,11 @@ if ($vprocess == "Q1") {
 				type="hidden" name="RGfname" value="<?php echo $vRGfname;?>" /> <input
 				type="hidden" name="RGlname" value="<?php echo $vRGlname;?>" /> <input
 				type="hidden" name="RGisStudent"
-				value="<?php echo $vRGisStudent; ?>" /> <input type="hidden"
+				value="<?php echo $vRGisStudent; ?>" /> 
+				<input type="hidden" name="RGrefer" value="<?php echo $vRGrefer;?>" />
+				<input type="hidden" name="RGreferOtherText" value="<?php echo $vRGreferOtherText;?>" />
+			
+				<input type="hidden"
 				name="RGisRoth" value="<?php echo $vRGisRoth;?>" /> <input
 				type="hidden" name="RGsector" value="<?php echo $vRGsector;?>" /> <input
 				type="hidden" name="RGagreeCOU" value="<?php echo $vRGagreeCOU;?>" />
@@ -973,4 +1075,5 @@ if ($vprocess == "Q1") {
             }
         };
 
+        
         </script>

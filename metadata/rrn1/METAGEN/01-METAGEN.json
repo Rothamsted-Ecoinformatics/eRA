@@ -9,12 +9,12 @@
         {
             "inLanguage": "en",
             "descriptionType": "Abstract",
-            "description": "The combination of longevity and the extremes of land use associated with the Highfield experiments mean that we can investigate the full extent of changes arising from management and test the limits of soil.  Applying modern techniques including shotgun metagenome sequencing, X-ray computed tomography and pore-scale hydrodynamic modelling reveals new insights into soil system behaviour, provides the knowledge base for a new theory of soil and  fundamental evidence to support farmers' decisions relating to soil management."
+            "description": "Metagenomic sequence data from the Rothamsted Highfield experiments allows us to investigate the effects of extreme changes in land use over time and test the limits of soil.  Applying modern techniques including shotgun metagenome sequencing, X-ray computed tomography and pore-scale hydrodynamic modelling reveals new insights into soil system behaviour, provides the knowledge base for a new theory of soil and  fundamental evidence to support farmers' decisions relating to soil management."
         },
         {
             "inLanguage": "en",
             "descriptionType": "Methods",
-            "description": "Shotgun metagenomic sequence data from the Highfield Ley Arable and Highfield Bare Fallow experiments has been deposited with the European Nucleotide Archive.  For each of three treatments (permanent pasture, continuous winter wheat arable, and permanent bare fallow), three replicate datasets are available, each of 150 nucleotide base, paired-end read sequences generated on an Illumina sequencing platform."
+            "description": "Shotgun metagenomic sequence data from the Highfield Ley Arable and Highfield Bare Fallow experiments has been deposited with the European Nucleotide Archive.  For each of three treatments (permanent pasture, continuous winter wheat arable, and permanent bare fallow), three replicate datasets are available, each of 150 nucleotide base, paired-end read sequences generated on an Illumina sequencing platform.\r\n\r\n### Figure Explanation:\r\n**Metagenome-derived traits reveal the extent of soil microbiome adaptation to land management**  The complexity of plant-derived organic inputs (akin to a soil's 'diet') is reflected in significant changes to the average genome length in microbiomes, assessed from shotgun metagenomes (Figure - top):  average lengths in arable soils which receive  qualitatively limited inputs from wheat and in bare fallow soils which receive extremely limited organic inputs support much shorter genomes than grassland soils which receive a qualitatively diverse range of plant inputs - the differences are equivalent to approximately 650 and 1300 fewer genes in arable and bare fallow microbiomes respectively, compared to grassland microbiomes.\r\nA variety of other important traits are also affected (Figure - bottom).  Arable and bare fallow soils have fewer, but more varied, species of fungi than grassland. However, there is also an important shift away from  mycorrhizal fungi - those that form mutual beneficial associations with plants and play important roles in plant nutrition, that are more abundant in grassland - to pathogenic fungi that survive by attacking insects, plants and lichen. These are more abundant in arable and bare fallow soils.  In addition, prokaryotes adapt to the more limited pore networks of arable and bare fallow soils (a general measure of soil structure) by relying more on exoenzyme secretion to access nutrients, have a greater number of genes associated with cell motility possibility as a strategy to avoid the greater incidence of anaerobic regions in the soils, and rely more upon anaerobic respiration of nitrogen and sulfur species.  These last three traits all represent relatively inefficient uses of nutrients and energy. Conventional assessment of biodiversity fails to pick up this level of detail."
         },
         {
             "inLanguage": "en",
@@ -28,8 +28,8 @@
     },
     "publication_year": 2021,
     "dateCreated": null,
-    "dateModified": null,
-    "datePublished": null,
+    "dateModified": "2021-06-30",
+    "datePublished": "2021-06-08",
     "inLanguage": "en",
     "version": "1",
     "keywords": [
@@ -196,48 +196,6 @@
                 "name": "Sustainable Agricultural Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
-        },
-        {
-            "type": "Person",
-            "jobTitle": "DataCurator",
-            "name": "Margaret Glendining",
-            "givenName": "Margaret",
-            "familyName": "Glendining",
-            "sameAs": "https://orcid.org/0000-0002-6466-4629",
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
-                "addressLocality": "Harpenden",
-                "addressRegion": "Hertfordshire",
-                "postalCode": "AL5 2JQ",
-                "addressCountry": "United Kingdom"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Computational and Analytical Sciences, Rothamsted Research",
-                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
-            }
-        },
-        {
-            "type": "Person",
-            "jobTitle": "DataManager",
-            "name": "Nathalie Castells-Brooke",
-            "givenName": "Nathalie",
-            "familyName": "Castells-Brooke",
-            "sameAs": "https://orcid.org/0000-0003-0168-6254",
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
-                "addressLocality": "Harpenden",
-                "addressRegion": "Hertfordshire",
-                "postalCode": "AL5 2JQ",
-                "addressCountry": "United Kingdom"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Computational and Analytical Sciences, Rothamsted Research",
-                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
-            }
         }
     ],
     "encodingFormat": "text/xml",
@@ -303,13 +261,13 @@
     "image": [
         {
             "type": "imageObject",
-            "caption": "Aggregated traits of microbiomes associated with soil of the Highfield Ley-Arable field experiment.",
-            "URL": "metagen.png",
-            "encodingFormat": "png",
-            "fileSize": "214 KB"
+            "caption": "Figure: Metagenome-derived traits reveal the extent of soil microbiome adaptation to land management",
+            "URL": "microbiome-traits-Highfield.jpg",
+            "encodingFormat": "jpg",
+            "fileSize": "43 KB"
         }
     ],
-    "grade": 1,
+    "grade": 2,
     "isExternal": 1,
     "dstype": "OA"
 }

@@ -59,7 +59,7 @@ $Parsedown = new Parsedown();
 						<li class="list-group-item"><b>Data access: </b><?php echo $dstypeStr;?></li>
 
 						<li class="list-group-item"><b>DOI: </b><a
-							href="<?php echo $dsinfo['url'];?>"><?php echo $dsinfo['identifier'];?></a>
+							href="http://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
 						</li>
 						
 						<?php  if ($hasNVersion == 1) { ?>
