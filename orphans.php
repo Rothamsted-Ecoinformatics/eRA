@@ -13,9 +13,9 @@
  */
 include_once 'includes/init.inc'; // these are the settings that refer to more than one page
 
-if (! isset($expt)) {
-    $expt = 'rro';
-}
+
+$expt = 'rro';
+
 $exptFirst = $expt[0];
 switch ($exptFirst) {
     case "r":

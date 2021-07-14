@@ -101,7 +101,7 @@ function getContent($period)
 
         $content .= "\n<div class=\"table-responsive-sm bg-white mx-3 rounded p-3 mb-3\">";
         $content .= "\n\n<table class = \"table  table-responsive-sxm table-sm  table-bordered table-hover  table-condensed\">";
-        $content .= "\n<thead class=\"thead-light\">\n\t<tr>\n\t\t<th scope=\"col\">Crop</th>\n\t\t<th scope=\"col\">Planted</th>\n\t</tr>\n</thead>\n<tbody>";
+        $content .= "\n<thead class=\"thead-light\">\n\t<tr>\n\t\t<th scope=\"col\">Crop</th>\n\t\t<th scope=\"col\">Years Grown</th>\n\t</tr>\n</thead>\n<tbody>";
         foreach ($period['crops'] as $crop) {
             $id = $crop['id'];
             $arrCrop[$id] = $crop['name'];

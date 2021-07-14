@@ -71,7 +71,7 @@ function printVocab($localwords)
     $strvocab = "";
     foreach ($localwords as $localword) {
 
-        $vocab = $localword;
+        $vocab = "<a href=\"keyword/".$localword."\">".$localword."</a>";
         $strvocab .= $vocab . " - ";
     }
     $strvocab = substr_replace($strvocab, " ", - 2); // removes the last -

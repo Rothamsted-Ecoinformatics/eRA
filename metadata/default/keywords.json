@@ -1,0 +1,2161 @@
+[
+    {
+        "keyword": "air temperature",
+        "identifier": "c_230",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/Sax-1928223556-01",
+                "title": "Saxmundham monthly meteorological summaries 1966-1985",
+                "exptID": "sms"
+            },
+            {
+                "DOI": "10.23637/Sax-1928223556-01",
+                "title": "Saxmundham monthly meteorological summaries 1966-1985",
+                "exptID": "sms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans8180",
+                "title": "Rothamsted 30-year mean meteorological data 1981-2010",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans7100",
+                "title": "Rothamsted 30-year mean meteorological data 1971-2000",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans6190",
+                "title": "Rothamsted 30-year mean meteorological data 1961-1990",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/KeyRefOARESmatemp",
+                "title": "Annual Mean Air Temperature at Rothamsted 1878-2013",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rms-RMAAtemp-02",
+                "title": "Annual Mean Air Temperature at Rothamsted 1878-2019",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsmmtemp10850917",
+                "title": "Mean monthly temperature at Rothamsted October 1985-September 2017",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rms-RMAAtempanomaly-1",
+                "title": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans9120",
+                "title": "Rothamsted 30-year mean meteorological data 1991-2020",
+                "exptID": "rms"
+            }
+        ]
+    },
+    {
+        "keyword": "arable farming",
+        "identifier": "c_36528",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/rrn2-OARFLAsoc-1",
+                "title": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008; Fosters",
+                "exptID": "rrn2"
+            },
+            {
+                "DOI": "10.23637/wcs10-wltlyields-01",
+                "title": "Woburn long-term liming experiment crop yields 1962-1996",
+                "exptID": "wcs10"
+            },
+            {
+                "DOI": "10.23637/rcs10-rltlyields-01",
+                "title": "Rothamsted long-term liming experiment crop yield 1962-1996",
+                "exptID": "rcs10"
+            },
+            {
+                "DOI": "10.23637/KeyRefOARLAsoc",
+                "title": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008: Highfield",
+                "exptID": "rrn1"
+            },
+            {
+                "DOI": "10.23637/rbk1-1796346264-1",
+                "title": "Broadbalk Wheat Experiment mean annual grain and straw yields 1852-1925",
+                "exptID": "rbk1"
+            }
+        ]
+    },
+    {
+        "keyword": "arable soils",
+        "identifier": "c_568",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/rrn2-OARFLAsoc-1",
+                "title": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008; Fosters",
+                "exptID": "rrn2"
+            },
+            {
+                "DOI": "10.23637/rcs10-rltlsoil-01",
+                "title": "Rothamsted long-term liming experiment soil properties 1962-1996",
+                "exptID": "rcs10"
+            },
+            {
+                "DOI": "10.23637/wcs10-wltlsoil-01",
+                "title": "Woburn long-term liming experiment soil properties 1962-1996",
+                "exptID": "wcs10"
+            },
+            {
+                "DOI": "10.23637/KeyRefOARLAsoc",
+                "title": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008: Highfield",
+                "exptID": "rrn1"
+            },
+            {
+                "DOI": "PRJEB43407",
+                "title": "Highfield Ley Arable - Metagenomic Study",
+                "exptID": "rrn1"
+            }
+        ]
+    },
+    {
+        "keyword": "bacterial genomes",
+        "identifier": "c_17c11d03",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "PRJEB43407",
+                "title": "Highfield Ley Arable - Metagenomic Study",
+                "exptID": "rrn1"
+            }
+        ]
+    },
+    {
+        "keyword": "bare fallow",
+        "identifier": "c_34009",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "PRJEB43407",
+                "title": "Highfield Ley Arable - Metagenomic Study",
+                "exptID": "rrn1"
+            }
+        ]
+    },
+    {
+        "keyword": "barley",
+        "identifier": "c_823",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/rcs10-rltlgrain-01",
+                "title": "Rothamsted long-term liming experiment grain mineral composition",
+                "exptID": "rcs10"
+            },
+            {
+                "DOI": "10.23637/wcs10-wltlgrain-01",
+                "title": "Woburn long-term liming experiment grain mineral composition",
+                "exptID": "wcs10"
+            },
+            {
+                "DOI": "10.23637/KeyRefOAHByields",
+                "title": "Hoosfield mean long-term spring barley yields 1852-2015",
+                "exptID": "rhb2"
+            }
+        ]
+    },
+    {
+        "keyword": "Broadbalk long-term experiment",
+        "identifier": "Q41331872",
+        "schema": "WIKIDATA",
+        "datasets": [
+            {
+                "DOI": "10.23637/BK-oadata-soilN-01",
+                "title": "Broadbalk Soil Total % Nitrogen Content, 1843-2010",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-data-fisher-1921-01",
+                "title": "Fisher 1921 Broadbalk wheat grain yields 1852-1918",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/bbk-2078416917-01",
+                "title": "<i>Cirsium arvense</i> frequency on Broadbalk Section 8 1991-2018",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-1796346264-1",
+                "title": "Broadbalk Wheat Experiment mean annual grain and straw yields 1852-1925",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/KeyRefOABKyields",
+                "title": "Broadbalk mean long-term winter wheat yields",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/keyrefoabkolsenp",
+                "title": "Broadbalk changes in Olsen P in top soil, 1843-2010",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/KeyRefOABKsoc",
+                "title": "Broadbalk soil organic carbon content 1843-2010",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/KeyRefOABKWoc",
+                "title": "Broadbalk Wilderness accumulation of organic carbon",
+                "exptID": "rbk1w"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRW-01",
+                "title": "Broadbalk Crop Nutrient Content, Wheat 1968-2017",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRB-01",
+                "title": "Broadbalk Crop Nutrient Content, Beans 1968-1978",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRP-01",
+                "title": "Broadbalk Crop Nutrient Content, Potatoes 1968-1996",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRO-01",
+                "title": "Broadbalk Crop Nutrient Content, Oats 1996-2015",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRM-01",
+                "title": "Broadbalk Crop Nutrient Content, Maize 1997-2017",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/KeyRefOABKsoc-02",
+                "title": "Broadbalk soil organic carbon content 1843-2015",
+                "exptID": "rbk1"
+            }
+        ]
+    },
+    {
+        "keyword": "climate",
+        "identifier": "c_1665",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/Sax-1928223556-01",
+                "title": "Saxmundham monthly meteorological summaries 1966-1985",
+                "exptID": "sms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans7100",
+                "title": "Rothamsted 30-year mean meteorological data 1971-2000",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans6190",
+                "title": "Rothamsted 30-year mean meteorological data 1961-1990",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/KeyRefOARESmatemp",
+                "title": "Annual Mean Air Temperature at Rothamsted 1878-2013",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rms-RMAAtemp-02",
+                "title": "Annual Mean Air Temperature at Rothamsted 1878-2019",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsmmtemp10850917",
+                "title": "Mean monthly temperature at Rothamsted October 1985-September 2017",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsMMRain10850917",
+                "title": "Mean monthly rainfall at Rothamsted October 1985-September 2017",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rms-RMAAtempanomaly-1",
+                "title": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans9120",
+                "title": "Rothamsted 30-year mean meteorological data 1991-2020",
+                "exptID": "rms"
+            }
+        ]
+    },
+    {
+        "keyword": "climate change",
+        "identifier": "c_1666",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/Sax-1928223556-01",
+                "title": "Saxmundham monthly meteorological summaries 1966-1985",
+                "exptID": "sms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans8180",
+                "title": "Rothamsted 30-year mean meteorological data 1981-2010",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans7100",
+                "title": "Rothamsted 30-year mean meteorological data 1971-2000",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans6190",
+                "title": "Rothamsted 30-year mean meteorological data 1961-1990",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/KeyRefOARESmatemp",
+                "title": "Annual Mean Air Temperature at Rothamsted 1878-2013",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rms-RMAAtemp-02",
+                "title": "Annual Mean Air Temperature at Rothamsted 1878-2019",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsmmtemp10850917",
+                "title": "Mean monthly temperature at Rothamsted October 1985-September 2017",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsMMRain10850917",
+                "title": "Mean monthly rainfall at Rothamsted October 1985-September 2017",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rms-RMAAtempanomaly-1",
+                "title": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans9120",
+                "title": "Rothamsted 30-year mean meteorological data 1991-2020",
+                "exptID": "rms"
+            }
+        ]
+    },
+    {
+        "keyword": "crop yield",
+        "identifier": "c_10176",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/rbk1-data-fisher-1921-01",
+                "title": "Fisher 1921 Broadbalk wheat grain yields 1852-1918",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/EX4-oadata-001-01",
+                "title": "Exhaustion Land yields (spring barley and winter wheat) and assorted crop & soil phosphate (P) data, 1974-2008",
+                "exptID": "rex4"
+            },
+            {
+                "DOI": "10.23637/KeyRefOABKyields",
+                "title": "Broadbalk mean long-term winter wheat yields",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/wcs10-wltlyields-01",
+                "title": "Woburn long-term liming experiment crop yields 1962-1996",
+                "exptID": "wcs10"
+            },
+            {
+                "DOI": "10.23637/rcs10-rltlyields-01",
+                "title": "Rothamsted long-term liming experiment crop yield 1962-1996",
+                "exptID": "rcs10"
+            },
+            {
+                "DOI": "10.23637/KeyRefOAHByields",
+                "title": "Hoosfield mean long-term spring barley yields 1852-2015",
+                "exptID": "rhb2"
+            }
+        ]
+    },
+    {
+        "keyword": "cropping system",
+        "identifier": "c_1971",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/rrn2-OARFLAsoc-1",
+                "title": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008; Fosters",
+                "exptID": "rrn2"
+            },
+            {
+                "DOI": "10.23637/KeyRefOABKyields",
+                "title": "Broadbalk mean long-term winter wheat yields",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/KeyRefOARLAsoc",
+                "title": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008: Highfield",
+                "exptID": "rrn1"
+            }
+        ]
+    },
+    {
+        "keyword": "ecological metagenomes",
+        "identifier": "_410657",
+        "schema": "NCBI organismal classification",
+        "datasets": [
+            {
+                "DOI": "PRJEB43407",
+                "title": "Highfield Ley Arable - Metagenomic Study",
+                "exptID": "rrn1"
+            }
+        ]
+    },
+    {
+        "keyword": "ecological succession",
+        "identifier": "c_2464",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/KeyRefOABKWoc",
+                "title": "Broadbalk Wilderness accumulation of organic carbon",
+                "exptID": "rbk1w"
+            },
+            {
+                "DOI": "10.23637/KeyRefOAGEWoc",
+                "title": "Geescroft wilderness accumulation of organic carbon",
+                "exptID": "rge9"
+            }
+        ]
+    },
+    {
+        "keyword": "Exhaustion land long-term experiment",
+        "identifier": "Q41528375",
+        "schema": "WIKIDATA",
+        "datasets": [
+            {
+                "DOI": "10.23637/EX4-oadata-001-01",
+                "title": "Exhaustion Land yields (spring barley and winter wheat) and assorted crop & soil phosphate (P) data, 1974-2008",
+                "exptID": "rex4"
+            }
+        ]
+    },
+    {
+        "keyword": "experimental design",
+        "identifier": "c_29466",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/OA-OE-1935002-1",
+                "title": "Soil Fumigation Experiment, Spring Oats, Pastures, 1935",
+                "exptID": "rro"
+            },
+            {
+                "DOI": "10.23637/OA-OE-1936004-1",
+                "title": "Soil Fumigation Experiment, Spring Oats, Pastures, Residual effects 1936",
+                "exptID": "rro"
+            }
+        ]
+    },
+    {
+        "keyword": "farmyard manure",
+        "identifier": "c_2810",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/BK-oadata-soilN-01",
+                "title": "Broadbalk Soil Total % Nitrogen Content, 1843-2010",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/KeyRefOABKyields",
+                "title": "Broadbalk mean long-term winter wheat yields",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/keyrefoabkolsenp",
+                "title": "Broadbalk changes in Olsen P in top soil, 1843-2010",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/KeyRefOABKsoc",
+                "title": "Broadbalk soil organic carbon content 1843-2010",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/KeyRefOABKsoc-02",
+                "title": "Broadbalk soil organic carbon content 1843-2015",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/KeyRefOAHByields",
+                "title": "Hoosfield mean long-term spring barley yields 1852-2015",
+                "exptID": "rhb2"
+            },
+            {
+                "DOI": "10.23637/KeyRefOAHBsoc",
+                "title": "Hoosfield soil organic carbon content",
+                "exptID": "rhb2"
+            }
+        ]
+    },
+    {
+        "keyword": "fertilizer",
+        "identifier": "c_2867",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/KeyRefOABKyields",
+                "title": "Broadbalk mean long-term winter wheat yields",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/keyrefoabkolsenp",
+                "title": "Broadbalk changes in Olsen P in top soil, 1843-2010",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/KeyRefOABKsoc",
+                "title": "Broadbalk soil organic carbon content 1843-2010",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/KeyRefOAPGsoilpH",
+                "title": "Park Grass Soil pH 1856-2011",
+                "exptID": "rpg5"
+            },
+            {
+                "DOI": "10.23637/rpg5-Park_Grass_Yields_1965-18",
+                "title": "Park Grass Hay Yields 1965-2018",
+                "exptID": "rpg5"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRP-01",
+                "title": "Broadbalk Crop Nutrient Content, Potatoes 1968-1996",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRO-01",
+                "title": "Broadbalk Crop Nutrient Content, Oats 1996-2015",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/KeyRefOABKsoc-02",
+                "title": "Broadbalk soil organic carbon content 1843-2015",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/KeyRefOAHByields",
+                "title": "Hoosfield mean long-term spring barley yields 1852-2015",
+                "exptID": "rhb2"
+            }
+        ]
+    },
+    {
+        "keyword": "Fosters ley-arable rotation experiment",
+        "identifier": "Q51911256",
+        "schema": "WIKIDATA",
+        "datasets": [
+            {
+                "DOI": "10.23637/rrn2-OARFLAsoc-1",
+                "title": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008; Fosters",
+                "exptID": "rrn2"
+            },
+            {
+                "DOI": "10.23637/KeyRefOARLAsoc",
+                "title": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008: Highfield",
+                "exptID": "rrn1"
+            }
+        ]
+    },
+    {
+        "keyword": "functional genomics",
+        "identifier": "c_4112bc6e",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "PRJEB43407",
+                "title": "Highfield Ley Arable - Metagenomic Study",
+                "exptID": "rrn1"
+            }
+        ]
+    },
+    {
+        "keyword": "Geescroft Wilderness experiment",
+        "identifier": "Q41528232",
+        "schema": "WIKIDATA",
+        "datasets": [
+            {
+                "DOI": "10.23637/KeyRefOAGEWoc",
+                "title": "Geescroft wilderness accumulation of organic carbon",
+                "exptID": "rge9"
+            }
+        ]
+    },
+    {
+        "keyword": "grain yield",
+        "identifier": "C2241",
+        "schema": "GACS",
+        "datasets": [
+            {
+                "DOI": "10.23637/rbk1-1796346264-1",
+                "title": "Broadbalk Wheat Experiment mean annual grain and straw yields 1852-1925",
+                "exptID": "rbk1"
+            }
+        ]
+    },
+    {
+        "keyword": "Highfield bare fallow experiment",
+        "identifier": "Q107250630",
+        "schema": "WIKIDATA",
+        "datasets": [
+            {
+                "DOI": "PRJEB43407",
+                "title": "Highfield Ley Arable - Metagenomic Study",
+                "exptID": "rrn1"
+            }
+        ]
+    },
+    {
+        "keyword": "Highfield ley-arable rotation experiment",
+        "identifier": "Q6672146",
+        "schema": "WIKIDATA",
+        "datasets": [
+            {
+                "DOI": "10.23637/rrn2-OARFLAsoc-1",
+                "title": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008; Fosters",
+                "exptID": "rrn2"
+            },
+            {
+                "DOI": "10.23637/KeyRefOARLAsoc",
+                "title": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008: Highfield",
+                "exptID": "rrn1"
+            },
+            {
+                "DOI": "PRJEB43407",
+                "title": "Highfield Ley Arable - Metagenomic Study",
+                "exptID": "rrn1"
+            }
+        ]
+    },
+    {
+        "keyword": "Hoosfield spring barley long-term experiment",
+        "identifier": "Q41522609",
+        "schema": "WIKIDATA",
+        "datasets": [
+            {
+                "DOI": "10.23637/KeyRefOAHByields",
+                "title": "Hoosfield mean long-term spring barley yields 1852-2015",
+                "exptID": "rhb2"
+            },
+            {
+                "DOI": "10.23637/KeyRefOAHBsoc",
+                "title": "Hoosfield soil organic carbon content",
+                "exptID": "rhb2"
+            }
+        ]
+    },
+    {
+        "keyword": "ley farming",
+        "identifier": "c_4303",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/rrn2-OARFLAsoc-1",
+                "title": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008; Fosters",
+                "exptID": "rrn2"
+            },
+            {
+                "DOI": "10.23637/KeyRefOARLAsoc",
+                "title": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008: Highfield",
+                "exptID": "rrn1"
+            }
+        ]
+    },
+    {
+        "keyword": "leys",
+        "identifier": "c_16189",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/rrn2-OARFLAsoc-1",
+                "title": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008; Fosters",
+                "exptID": "rrn2"
+            },
+            {
+                "DOI": "10.23637/KeyRefOARLAsoc",
+                "title": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008: Highfield",
+                "exptID": "rrn1"
+            }
+        ]
+    },
+    {
+        "keyword": "liming",
+        "identifier": "c_25206",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/wcs10-wltlyields-01",
+                "title": "Woburn long-term liming experiment crop yields 1962-1996",
+                "exptID": "wcs10"
+            },
+            {
+                "DOI": "10.23637/rcs10-rltlyields-01",
+                "title": "Rothamsted long-term liming experiment crop yield 1962-1996",
+                "exptID": "rcs10"
+            },
+            {
+                "DOI": "10.23637/rcs10-rltlgrain-01",
+                "title": "Rothamsted long-term liming experiment grain mineral composition",
+                "exptID": "rcs10"
+            },
+            {
+                "DOI": "10.23637/wcs10-wltlgrain-01",
+                "title": "Woburn long-term liming experiment grain mineral composition",
+                "exptID": "wcs10"
+            },
+            {
+                "DOI": "10.23637/rcs10-rltlsoil-01",
+                "title": "Rothamsted long-term liming experiment soil properties 1962-1996",
+                "exptID": "rcs10"
+            },
+            {
+                "DOI": "10.23637/wcs10-wltlsoil-01",
+                "title": "Woburn long-term liming experiment soil properties 1962-1996",
+                "exptID": "wcs10"
+            },
+            {
+                "DOI": "10.23637/rpg5-Park_Grass_Yields_1965-18",
+                "title": "Park Grass Hay Yields 1965-2018",
+                "exptID": "rpg5"
+            }
+        ]
+    },
+    {
+        "keyword": "long term experiments",
+        "identifier": "C5355",
+        "schema": "GACS",
+        "datasets": [
+            {
+                "DOI": "10.23637/rrn2-OARFLAsoc-1",
+                "title": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008; Fosters",
+                "exptID": "rrn2"
+            },
+            {
+                "DOI": "10.23637/BK-oadata-soilN-01",
+                "title": "Broadbalk Soil Total % Nitrogen Content, 1843-2010",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-data-fisher-1921-01",
+                "title": "Fisher 1921 Broadbalk wheat grain yields 1852-1918",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/EX4-oadata-001-01",
+                "title": "Exhaustion Land yields (spring barley and winter wheat) and assorted crop & soil phosphate (P) data, 1974-2008",
+                "exptID": "rex4"
+            },
+            {
+                "DOI": "10.23637/bbk-2078416917-01",
+                "title": "<i>Cirsium arvense</i> frequency on Broadbalk Section 8 1991-2018",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/KeyRefOABKyields",
+                "title": "Broadbalk mean long-term winter wheat yields",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/keyrefoabkolsenp",
+                "title": "Broadbalk changes in Olsen P in top soil, 1843-2010",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/wcs10-wltlyields-01",
+                "title": "Woburn long-term liming experiment crop yields 1962-1996",
+                "exptID": "wcs10"
+            },
+            {
+                "DOI": "10.23637/rcs10-rltlyields-01",
+                "title": "Rothamsted long-term liming experiment crop yield 1962-1996",
+                "exptID": "rcs10"
+            },
+            {
+                "DOI": "10.23637/rcs10-rltlgrain-01",
+                "title": "Rothamsted long-term liming experiment grain mineral composition",
+                "exptID": "rcs10"
+            },
+            {
+                "DOI": "10.23637/wcs10-wltlgrain-01",
+                "title": "Woburn long-term liming experiment grain mineral composition",
+                "exptID": "wcs10"
+            },
+            {
+                "DOI": "10.23637/KeyRefOABKsoc",
+                "title": "Broadbalk soil organic carbon content 1843-2010",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rcs10-rltlsoil-01",
+                "title": "Rothamsted long-term liming experiment soil properties 1962-1996",
+                "exptID": "rcs10"
+            },
+            {
+                "DOI": "10.23637/wcs10-wltlsoil-01",
+                "title": "Woburn long-term liming experiment soil properties 1962-1996",
+                "exptID": "wcs10"
+            },
+            {
+                "DOI": "10.23637/KeyRefOAPGspecies",
+                "title": "Park Grass Changes in Mean Species Numbers 1864-2011",
+                "exptID": "rpg5"
+            },
+            {
+                "DOI": "10.23637/KeyRefOAPGsoilpH",
+                "title": "Park Grass Soil pH 1856-2011",
+                "exptID": "rpg5"
+            },
+            {
+                "DOI": "10.23637/KeyRefOAGEWoc",
+                "title": "Geescroft wilderness accumulation of organic carbon",
+                "exptID": "rge9"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRW-01",
+                "title": "Broadbalk Crop Nutrient Content, Wheat 1968-2017",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rpg5-Park_Grass_Yields_1965-18",
+                "title": "Park Grass Hay Yields 1965-2018",
+                "exptID": "rpg5"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRB-01",
+                "title": "Broadbalk Crop Nutrient Content, Beans 1968-1978",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRP-01",
+                "title": "Broadbalk Crop Nutrient Content, Potatoes 1968-1996",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRO-01",
+                "title": "Broadbalk Crop Nutrient Content, Oats 1996-2015",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRM-01",
+                "title": "Broadbalk Crop Nutrient Content, Maize 1997-2017",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/KeyRefOABKsoc-02",
+                "title": "Broadbalk soil organic carbon content 1843-2015",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/KeyRefOAHByields",
+                "title": "Hoosfield mean long-term spring barley yields 1852-2015",
+                "exptID": "rhb2"
+            },
+            {
+                "DOI": "10.23637/KeyRefOAHBsoc",
+                "title": "Hoosfield soil organic carbon content",
+                "exptID": "rhb2"
+            },
+            {
+                "DOI": "10.23637/KeyRefOARLAsoc",
+                "title": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008: Highfield",
+                "exptID": "rrn1"
+            },
+            {
+                "DOI": "10.23637/rbk1-1796346264-1",
+                "title": "Broadbalk Wheat Experiment mean annual grain and straw yields 1852-1925",
+                "exptID": "rbk1"
+            }
+        ]
+    },
+    {
+        "keyword": "meteorological factors",
+        "identifier": "c_29565",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/Sax-1928223556-01",
+                "title": "Saxmundham monthly meteorological summaries 1966-1985",
+                "exptID": "sms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans8180",
+                "title": "Rothamsted 30-year mean meteorological data 1981-2010",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans7100",
+                "title": "Rothamsted 30-year mean meteorological data 1971-2000",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans6190",
+                "title": "Rothamsted 30-year mean meteorological data 1961-1990",
+                "exptID": "rms"
+            }
+        ]
+    },
+    {
+        "keyword": "meteorological station",
+        "identifier": "c_4781",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/Sax-1928223556-01",
+                "title": "Saxmundham monthly meteorological summaries 1966-1985",
+                "exptID": "sms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans8180",
+                "title": "Rothamsted 30-year mean meteorological data 1981-2010",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans7100",
+                "title": "Rothamsted 30-year mean meteorological data 1971-2000",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans6190",
+                "title": "Rothamsted 30-year mean meteorological data 1961-1990",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/KeyRefOARESmatemp",
+                "title": "Annual Mean Air Temperature at Rothamsted 1878-2013",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rms-RMAAtemp-02",
+                "title": "Annual Mean Air Temperature at Rothamsted 1878-2019",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsmmtemp10850917",
+                "title": "Mean monthly temperature at Rothamsted October 1985-September 2017",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsMMRain10850917",
+                "title": "Mean monthly rainfall at Rothamsted October 1985-September 2017",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rms-RMAAtempanomaly-1",
+                "title": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans9120",
+                "title": "Rothamsted 30-year mean meteorological data 1991-2020",
+                "exptID": "rms"
+            }
+        ]
+    },
+    {
+        "keyword": "microbial ecology",
+        "identifier": "c_24111",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "PRJEB43407",
+                "title": "Highfield Ley Arable - Metagenomic Study",
+                "exptID": "rrn1"
+            }
+        ]
+    },
+    {
+        "keyword": "mineral content",
+        "identifier": "c_4848",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/rcs10-rltlgrain-01",
+                "title": "Rothamsted long-term liming experiment grain mineral composition",
+                "exptID": "rcs10"
+            },
+            {
+                "DOI": "10.23637/wcs10-wltlgrain-01",
+                "title": "Woburn long-term liming experiment grain mineral composition",
+                "exptID": "wcs10"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRW-01",
+                "title": "Broadbalk Crop Nutrient Content, Wheat 1968-2017",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRB-01",
+                "title": "Broadbalk Crop Nutrient Content, Beans 1968-1978",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRP-01",
+                "title": "Broadbalk Crop Nutrient Content, Potatoes 1968-1996",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRO-01",
+                "title": "Broadbalk Crop Nutrient Content, Oats 1996-2015",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRM-01",
+                "title": "Broadbalk Crop Nutrient Content, Maize 1997-2017",
+                "exptID": "rbk1"
+            }
+        ]
+    },
+    {
+        "keyword": "nematoda",
+        "identifier": "c_5112",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/OA-OE-1935002-1",
+                "title": "Soil Fumigation Experiment, Spring Oats, Pastures, 1935",
+                "exptID": "rro"
+            },
+            {
+                "DOI": "10.23637/OA-OE-1936004-1",
+                "title": "Soil Fumigation Experiment, Spring Oats, Pastures, Residual effects 1936",
+                "exptID": "rro"
+            }
+        ]
+    },
+    {
+        "keyword": "nitrogen",
+        "identifier": "c_5192",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/RMMRAIN5318",
+                "title": "Mean Monthly Rainfall at Rothamsted March 1853 - July 2018",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/BK-oadata-soilN-01",
+                "title": "Broadbalk Soil Total % Nitrogen Content, 1843-2010",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRB-01",
+                "title": "Broadbalk Crop Nutrient Content, Beans 1968-1978",
+                "exptID": "rbk1"
+            }
+        ]
+    },
+    {
+        "keyword": "nitrogen fertilizers",
+        "identifier": "c_5195",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/RMMRAIN5318",
+                "title": "Mean Monthly Rainfall at Rothamsted March 1853 - July 2018",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/BK-oadata-soilN-01",
+                "title": "Broadbalk Soil Total % Nitrogen Content, 1843-2010",
+                "exptID": "rbk1"
+            }
+        ]
+    },
+    {
+        "keyword": "oats",
+        "identifier": "c_5287",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/rcs10-rltlgrain-01",
+                "title": "Rothamsted long-term liming experiment grain mineral composition",
+                "exptID": "rcs10"
+            },
+            {
+                "DOI": "10.23637/wcs10-wltlgrain-01",
+                "title": "Woburn long-term liming experiment grain mineral composition",
+                "exptID": "wcs10"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRW-01",
+                "title": "Broadbalk Crop Nutrient Content, Wheat 1968-2017",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRO-01",
+                "title": "Broadbalk Crop Nutrient Content, Oats 1996-2015",
+                "exptID": "rbk1"
+            }
+        ]
+    },
+    {
+        "keyword": "Park grass long-term experiment",
+        "identifier": "Q7137747",
+        "schema": "WIKIDATA",
+        "datasets": [
+            {
+                "DOI": "10.23637/RMMRAIN5318",
+                "title": "Mean Monthly Rainfall at Rothamsted March 1853 - July 2018",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/KeyRefOAPGspecies",
+                "title": "Park Grass Changes in Mean Species Numbers 1864-2011",
+                "exptID": "rpg5"
+            },
+            {
+                "DOI": "10.23637/KeyRefOAPGsoilpH",
+                "title": "Park Grass Soil pH 1856-2011",
+                "exptID": "rpg5"
+            },
+            {
+                "DOI": "10.23637/rpg5-Park_Grass_Yields_1965-18",
+                "title": "Park Grass Hay Yields 1965-2018",
+                "exptID": "rpg5"
+            }
+        ]
+    },
+    {
+        "keyword": "pathogenic fungi",
+        "identifier": "c_29233",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "PRJEB43407",
+                "title": "Highfield Ley Arable - Metagenomic Study",
+                "exptID": "rrn1"
+            }
+        ]
+    },
+    {
+        "keyword": "permanent grassland",
+        "identifier": "c_37403",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/KeyRefOAPGspecies",
+                "title": "Park Grass Changes in Mean Species Numbers 1864-2011",
+                "exptID": "rpg5"
+            },
+            {
+                "DOI": "10.23637/KeyRefOAPGsoilpH",
+                "title": "Park Grass Soil pH 1856-2011",
+                "exptID": "rpg5"
+            },
+            {
+                "DOI": "10.23637/rpg5-Park_Grass_Yields_1965-18",
+                "title": "Park Grass Hay Yields 1965-2018",
+                "exptID": "rpg5"
+            }
+        ]
+    },
+    {
+        "keyword": "phosphorous",
+        "identifier": "c_5804",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/EX4-oadata-001-01",
+                "title": "Exhaustion Land yields (spring barley and winter wheat) and assorted crop & soil phosphate (P) data, 1974-2008",
+                "exptID": "rex4"
+            },
+            {
+                "DOI": "10.23637/keyrefoabkolsenp",
+                "title": "Broadbalk changes in Olsen P in top soil, 1843-2010",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/wcs10-wltlyields-01",
+                "title": "Woburn long-term liming experiment crop yields 1962-1996",
+                "exptID": "wcs10"
+            },
+            {
+                "DOI": "10.23637/rcs10-rltlyields-01",
+                "title": "Rothamsted long-term liming experiment crop yield 1962-1996",
+                "exptID": "rcs10"
+            },
+            {
+                "DOI": "10.23637/rcs10-rltlgrain-01",
+                "title": "Rothamsted long-term liming experiment grain mineral composition",
+                "exptID": "rcs10"
+            },
+            {
+                "DOI": "10.23637/wcs10-wltlgrain-01",
+                "title": "Woburn long-term liming experiment grain mineral composition",
+                "exptID": "wcs10"
+            },
+            {
+                "DOI": "10.23637/rcs10-rltlsoil-01",
+                "title": "Rothamsted long-term liming experiment soil properties 1962-1996",
+                "exptID": "rcs10"
+            },
+            {
+                "DOI": "10.23637/wcs10-wltlsoil-01",
+                "title": "Woburn long-term liming experiment soil properties 1962-1996",
+                "exptID": "wcs10"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRW-01",
+                "title": "Broadbalk Crop Nutrient Content, Wheat 1968-2017",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRB-01",
+                "title": "Broadbalk Crop Nutrient Content, Beans 1968-1978",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRP-01",
+                "title": "Broadbalk Crop Nutrient Content, Potatoes 1968-1996",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRO-01",
+                "title": "Broadbalk Crop Nutrient Content, Oats 1996-2015",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRM-01",
+                "title": "Broadbalk Crop Nutrient Content, Maize 1997-2017",
+                "exptID": "rbk1"
+            }
+        ]
+    },
+    {
+        "keyword": "potassium",
+        "identifier": "c_6139",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/rbk1-BKNUTRW-01",
+                "title": "Broadbalk Crop Nutrient Content, Wheat 1968-2017",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRB-01",
+                "title": "Broadbalk Crop Nutrient Content, Beans 1968-1978",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRP-01",
+                "title": "Broadbalk Crop Nutrient Content, Potatoes 1968-1996",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRO-01",
+                "title": "Broadbalk Crop Nutrient Content, Oats 1996-2015",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRM-01",
+                "title": "Broadbalk Crop Nutrient Content, Maize 1997-2017",
+                "exptID": "rbk1"
+            }
+        ]
+    },
+    {
+        "keyword": "potatoes",
+        "identifier": "c_13551",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/rbk1-BKNUTRW-01",
+                "title": "Broadbalk Crop Nutrient Content, Wheat 1968-2017",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRP-01",
+                "title": "Broadbalk Crop Nutrient Content, Potatoes 1968-1996",
+                "exptID": "rbk1"
+            }
+        ]
+    },
+    {
+        "keyword": "precipitation",
+        "identifier": "c_6161",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/Sax-1928223556-01",
+                "title": "Saxmundham monthly meteorological summaries 1966-1985",
+                "exptID": "sms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans8180",
+                "title": "Rothamsted 30-year mean meteorological data 1981-2010",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans7100",
+                "title": "Rothamsted 30-year mean meteorological data 1971-2000",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans6190",
+                "title": "Rothamsted 30-year mean meteorological data 1961-1990",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsmmtemp10850917",
+                "title": "Mean monthly temperature at Rothamsted October 1985-September 2017",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsMMRain10850917",
+                "title": "Mean monthly rainfall at Rothamsted October 1985-September 2017",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans9120",
+                "title": "Rothamsted 30-year mean meteorological data 1991-2020",
+                "exptID": "rms"
+            }
+        ]
+    },
+    {
+        "keyword": "rain",
+        "identifier": "c_6435",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/Sax-1928223556-01",
+                "title": "Saxmundham monthly meteorological summaries 1966-1985",
+                "exptID": "sms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans8180",
+                "title": "Rothamsted 30-year mean meteorological data 1981-2010",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans7100",
+                "title": "Rothamsted 30-year mean meteorological data 1971-2000",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans6190",
+                "title": "Rothamsted 30-year mean meteorological data 1961-1990",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsMMRain10850917",
+                "title": "Mean monthly rainfall at Rothamsted October 1985-September 2017",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans9120",
+                "title": "Rothamsted 30-year mean meteorological data 1991-2020",
+                "exptID": "rms"
+            }
+        ]
+    },
+    {
+        "keyword": "rainfall patterns",
+        "identifier": "c_34890",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/OARES30YrMeans8180",
+                "title": "Rothamsted 30-year mean meteorological data 1981-2010",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans7100",
+                "title": "Rothamsted 30-year mean meteorological data 1971-2000",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans6190",
+                "title": "Rothamsted 30-year mean meteorological data 1961-1990",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans9120",
+                "title": "Rothamsted 30-year mean meteorological data 1991-2020",
+                "exptID": "rms"
+            }
+        ]
+    },
+    {
+        "keyword": "residual effects",
+        "identifier": "c_24408",
+        "schema": "AGROVOC",
+        "datasets": []
+    },
+    {
+        "keyword": "Rothamsted Research",
+        "identifier": "Q1326711",
+        "schema": "WIKIDATA",
+        "datasets": [
+            {
+                "DOI": "10.23637/bbk-2078416917-01",
+                "title": "<i>Cirsium arvense</i> frequency on Broadbalk Section 8 1991-2018",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-1796346264-1",
+                "title": "Broadbalk Wheat Experiment mean annual grain and straw yields 1852-1925",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/KeyRefOARESmatemp",
+                "title": "Annual Mean Air Temperature at Rothamsted 1878-2013",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rms-RMAAtemp-02",
+                "title": "Annual Mean Air Temperature at Rothamsted 1878-2019",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsmmtemp10850917",
+                "title": "Mean monthly temperature at Rothamsted October 1985-September 2017",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsMMRain10850917",
+                "title": "Mean monthly rainfall at Rothamsted October 1985-September 2017",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rms-RMAAtempanomaly-1",
+                "title": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/wcs10-wltlyields-01",
+                "title": "Woburn long-term liming experiment crop yields 1962-1996",
+                "exptID": "wcs10"
+            },
+            {
+                "DOI": "10.23637/rcs10-rltlyields-01",
+                "title": "Rothamsted long-term liming experiment crop yield 1962-1996",
+                "exptID": "rcs10"
+            },
+            {
+                "DOI": "10.23637/rcs10-rltlgrain-01",
+                "title": "Rothamsted long-term liming experiment grain mineral composition",
+                "exptID": "rcs10"
+            },
+            {
+                "DOI": "10.23637/wcs10-wltlgrain-01",
+                "title": "Woburn long-term liming experiment grain mineral composition",
+                "exptID": "wcs10"
+            },
+            {
+                "DOI": "10.23637/KeyRefOABKsoc",
+                "title": "Broadbalk soil organic carbon content 1843-2010",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/KeyRefOABKWoc",
+                "title": "Broadbalk Wilderness accumulation of organic carbon",
+                "exptID": "rbk1w"
+            },
+            {
+                "DOI": "10.23637/KeyRefOAGEWoc",
+                "title": "Geescroft wilderness accumulation of organic carbon",
+                "exptID": "rge9"
+            },
+            {
+                "DOI": "10.23637/KeyRefOABKsoc-02",
+                "title": "Broadbalk soil organic carbon content 1843-2015",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/KeyRefOAHByields",
+                "title": "Hoosfield mean long-term spring barley yields 1852-2015",
+                "exptID": "rhb2"
+            },
+            {
+                "DOI": "10.23637/KeyRefOAHBsoc",
+                "title": "Hoosfield soil organic carbon content",
+                "exptID": "rhb2"
+            },
+            {
+                "DOI": "PRJEB43407",
+                "title": "Highfield Ley Arable - Metagenomic Study",
+                "exptID": "rrn1"
+            }
+        ]
+    },
+    {
+        "keyword": "soil",
+        "identifier": "c_7156",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/rrn2-OARFLAsoc-1",
+                "title": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008; Fosters",
+                "exptID": "rrn2"
+            },
+            {
+                "DOI": "10.23637/BK-oadata-soilN-01",
+                "title": "Broadbalk Soil Total % Nitrogen Content, 1843-2010",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/EX4-oadata-001-01",
+                "title": "Exhaustion Land yields (spring barley and winter wheat) and assorted crop & soil phosphate (P) data, 1974-2008",
+                "exptID": "rex4"
+            },
+            {
+                "DOI": "10.23637/OA-OE-1935002-1",
+                "title": "Soil Fumigation Experiment, Spring Oats, Pastures, 1935",
+                "exptID": "rro"
+            },
+            {
+                "DOI": "10.23637/OA-OE-1936004-1",
+                "title": "Soil Fumigation Experiment, Spring Oats, Pastures, Residual effects 1936",
+                "exptID": "rro"
+            },
+            {
+                "DOI": "10.23637/keyrefoabkolsenp",
+                "title": "Broadbalk changes in Olsen P in top soil, 1843-2010",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/KeyRefOABKsoc",
+                "title": "Broadbalk soil organic carbon content 1843-2010",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/KeyRefOABKsoc-02",
+                "title": "Broadbalk soil organic carbon content 1843-2015",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/KeyRefOAHBsoc",
+                "title": "Hoosfield soil organic carbon content",
+                "exptID": "rhb2"
+            },
+            {
+                "DOI": "10.23637/KeyRefOARLAsoc",
+                "title": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008: Highfield",
+                "exptID": "rrn1"
+            },
+            {
+                "DOI": "PRJEB43407",
+                "title": "Highfield Ley Arable - Metagenomic Study",
+                "exptID": "rrn1"
+            }
+        ]
+    },
+    {
+        "keyword": "soil biology",
+        "identifier": "c_7160",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "PRJEB43407",
+                "title": "Highfield Ley Arable - Metagenomic Study",
+                "exptID": "rrn1"
+            }
+        ]
+    },
+    {
+        "keyword": "soil fertility",
+        "identifier": "c_7170",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/BK-oadata-soilN-01",
+                "title": "Broadbalk Soil Total % Nitrogen Content, 1843-2010",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/EX4-oadata-001-01",
+                "title": "Exhaustion Land yields (spring barley and winter wheat) and assorted crop & soil phosphate (P) data, 1974-2008",
+                "exptID": "rex4"
+            },
+            {
+                "DOI": "10.23637/rcs10-rltlsoil-01",
+                "title": "Rothamsted long-term liming experiment soil properties 1962-1996",
+                "exptID": "rcs10"
+            },
+            {
+                "DOI": "10.23637/wcs10-wltlsoil-01",
+                "title": "Woburn long-term liming experiment soil properties 1962-1996",
+                "exptID": "wcs10"
+            }
+        ]
+    },
+    {
+        "keyword": "soil microbiome",
+        "identifier": "_410658",
+        "schema": "NCBI organismal classification",
+        "datasets": [
+            {
+                "DOI": "PRJEB43407",
+                "title": "Highfield Ley Arable - Metagenomic Study",
+                "exptID": "rrn1"
+            }
+        ]
+    },
+    {
+        "keyword": "soil microorganisms",
+        "identifier": "c_36167",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "PRJEB43407",
+                "title": "Highfield Ley Arable - Metagenomic Study",
+                "exptID": "rrn1"
+            }
+        ]
+    },
+    {
+        "keyword": "soil organic carbon",
+        "identifier": "C4683",
+        "schema": "GACS",
+        "datasets": [
+            {
+                "DOI": "10.23637/rrn2-OARFLAsoc-1",
+                "title": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008; Fosters",
+                "exptID": "rrn2"
+            },
+            {
+                "DOI": "10.23637/KeyRefOABKsoc",
+                "title": "Broadbalk soil organic carbon content 1843-2010",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/KeyRefOABKWoc",
+                "title": "Broadbalk Wilderness accumulation of organic carbon",
+                "exptID": "rbk1w"
+            },
+            {
+                "DOI": "10.23637/KeyRefOAGEWoc",
+                "title": "Geescroft wilderness accumulation of organic carbon",
+                "exptID": "rge9"
+            },
+            {
+                "DOI": "10.23637/KeyRefOABKsoc-02",
+                "title": "Broadbalk soil organic carbon content 1843-2015",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/KeyRefOAHBsoc",
+                "title": "Hoosfield soil organic carbon content",
+                "exptID": "rhb2"
+            },
+            {
+                "DOI": "10.23637/KeyRefOARLAsoc",
+                "title": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008: Highfield",
+                "exptID": "rrn1"
+            },
+            {
+                "DOI": "PRJEB43407",
+                "title": "Highfield Ley Arable - Metagenomic Study",
+                "exptID": "rrn1"
+            }
+        ]
+    },
+    {
+        "keyword": "soil organic matter",
+        "identifier": "c_35657",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/rrn2-OARFLAsoc-1",
+                "title": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008; Fosters",
+                "exptID": "rrn2"
+            },
+            {
+                "DOI": "10.23637/KeyRefOARLAsoc",
+                "title": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008: Highfield",
+                "exptID": "rrn1"
+            }
+        ]
+    },
+    {
+        "keyword": "soil pH",
+        "identifier": "c_34901",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/wcs10-wltlyields-01",
+                "title": "Woburn long-term liming experiment crop yields 1962-1996",
+                "exptID": "wcs10"
+            },
+            {
+                "DOI": "10.23637/rcs10-rltlyields-01",
+                "title": "Rothamsted long-term liming experiment crop yield 1962-1996",
+                "exptID": "rcs10"
+            },
+            {
+                "DOI": "10.23637/rcs10-rltlgrain-01",
+                "title": "Rothamsted long-term liming experiment grain mineral composition",
+                "exptID": "rcs10"
+            },
+            {
+                "DOI": "10.23637/wcs10-wltlgrain-01",
+                "title": "Woburn long-term liming experiment grain mineral composition",
+                "exptID": "wcs10"
+            },
+            {
+                "DOI": "10.23637/rcs10-rltlsoil-01",
+                "title": "Rothamsted long-term liming experiment soil properties 1962-1996",
+                "exptID": "rcs10"
+            },
+            {
+                "DOI": "10.23637/wcs10-wltlsoil-01",
+                "title": "Woburn long-term liming experiment soil properties 1962-1996",
+                "exptID": "wcs10"
+            },
+            {
+                "DOI": "10.23637/KeyRefOAPGsoilpH",
+                "title": "Park Grass Soil pH 1856-2011",
+                "exptID": "rpg5"
+            }
+        ]
+    },
+    {
+        "keyword": "soil temperature",
+        "identifier": "c_7197",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/Sax-1928223556-01",
+                "title": "Saxmundham monthly meteorological summaries 1966-1985",
+                "exptID": "sms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans8180",
+                "title": "Rothamsted 30-year mean meteorological data 1981-2010",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans7100",
+                "title": "Rothamsted 30-year mean meteorological data 1971-2000",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans6190",
+                "title": "Rothamsted 30-year mean meteorological data 1961-1990",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans9120",
+                "title": "Rothamsted 30-year mean meteorological data 1991-2020",
+                "exptID": "rms"
+            }
+        ]
+    },
+    {
+        "keyword": "sown pastures",
+        "identifier": "c_7270",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/rrn2-OARFLAsoc-1",
+                "title": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008; Fosters",
+                "exptID": "rrn2"
+            },
+            {
+                "DOI": "10.23637/KeyRefOARLAsoc",
+                "title": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008: Highfield",
+                "exptID": "rrn1"
+            },
+            {
+                "DOI": "PRJEB43407",
+                "title": "Highfield Ley Arable - Metagenomic Study",
+                "exptID": "rrn1"
+            }
+        ]
+    },
+    {
+        "keyword": "species diversity",
+        "identifier": "c_33949",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/KeyRefOAPGspecies",
+                "title": "Park Grass Changes in Mean Species Numbers 1864-2011",
+                "exptID": "rpg5"
+            }
+        ]
+    },
+    {
+        "keyword": "statistical data",
+        "identifier": "c_35655",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/rbk1-data-fisher-1921-01",
+                "title": "Fisher 1921 Broadbalk wheat grain yields 1852-1918",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/OA-OE-1935002-1",
+                "title": "Soil Fumigation Experiment, Spring Oats, Pastures, 1935",
+                "exptID": "rro"
+            },
+            {
+                "DOI": "10.23637/OA-OE-1936004-1",
+                "title": "Soil Fumigation Experiment, Spring Oats, Pastures, Residual effects 1936",
+                "exptID": "rro"
+            },
+            {
+                "DOI": "10.23637/bbk-2078416917-01",
+                "title": "<i>Cirsium arvense</i> frequency on Broadbalk Section 8 1991-2018",
+                "exptID": "rbk1"
+            }
+        ]
+    },
+    {
+        "keyword": "statistics",
+        "identifier": "c_49978",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/bbk-2078416917-01",
+                "title": "<i>Cirsium arvense</i> frequency on Broadbalk Section 8 1991-2018",
+                "exptID": "rbk1"
+            }
+        ]
+    },
+    {
+        "keyword": "straw",
+        "identifier": "c_7441",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/rbk1-1796346264-1",
+                "title": "Broadbalk Wheat Experiment mean annual grain and straw yields 1852-1925",
+                "exptID": "rbk1"
+            }
+        ]
+    },
+    {
+        "keyword": "temperature",
+        "identifier": "c_7657",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/OARES30YrMeans8180",
+                "title": "Rothamsted 30-year mean meteorological data 1981-2010",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans7100",
+                "title": "Rothamsted 30-year mean meteorological data 1971-2000",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans6190",
+                "title": "Rothamsted 30-year mean meteorological data 1961-1990",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans6190",
+                "title": "Rothamsted 30-year mean meteorological data 1961-1990",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/KeyRefOARESmatemp",
+                "title": "Annual Mean Air Temperature at Rothamsted 1878-2013",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rms-RMAAtemp-02",
+                "title": "Annual Mean Air Temperature at Rothamsted 1878-2019",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsmmtemp10850917",
+                "title": "Mean monthly temperature at Rothamsted October 1985-September 2017",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rms-RMAAtempanomaly-1",
+                "title": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans9120",
+                "title": "Rothamsted 30-year mean meteorological data 1991-2020",
+                "exptID": "rms"
+            }
+        ]
+    },
+    {
+        "keyword": "thermometer",
+        "identifier": "c_7721",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/KeyRefOARESmatemp",
+                "title": "Annual Mean Air Temperature at Rothamsted 1878-2013",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rms-RMAAtemp-02",
+                "title": "Annual Mean Air Temperature at Rothamsted 1878-2019",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rms-RMAAtempanomaly-1",
+                "title": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019",
+                "exptID": "rms"
+            }
+        ]
+    },
+    {
+        "keyword": "trace elements",
+        "identifier": "c_7834",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/rcs10-rltlgrain-01",
+                "title": "Rothamsted long-term liming experiment grain mineral composition",
+                "exptID": "rcs10"
+            },
+            {
+                "DOI": "10.23637/wcs10-wltlgrain-01",
+                "title": "Woburn long-term liming experiment grain mineral composition",
+                "exptID": "wcs10"
+            }
+        ]
+    },
+    {
+        "keyword": "weather",
+        "identifier": "c_15292",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/RMMRAIN5318",
+                "title": "Mean Monthly Rainfall at Rothamsted March 1853 - July 2018",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/Sax-1928223556-01",
+                "title": "Saxmundham monthly meteorological summaries 1966-1985",
+                "exptID": "sms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans8180",
+                "title": "Rothamsted 30-year mean meteorological data 1981-2010",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans6190",
+                "title": "Rothamsted 30-year mean meteorological data 1961-1990",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/KeyRefOARESmatemp",
+                "title": "Annual Mean Air Temperature at Rothamsted 1878-2013",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rms-RMAAtemp-02",
+                "title": "Annual Mean Air Temperature at Rothamsted 1878-2019",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsmmtemp10850917",
+                "title": "Mean monthly temperature at Rothamsted October 1985-September 2017",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsMMRain10850917",
+                "title": "Mean monthly rainfall at Rothamsted October 1985-September 2017",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rms-RMAAtempanomaly-1",
+                "title": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans9120",
+                "title": "Rothamsted 30-year mean meteorological data 1991-2020",
+                "exptID": "rms"
+            }
+        ]
+    },
+    {
+        "keyword": "weather data",
+        "identifier": "c_29564",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/Sax-1928223556-01",
+                "title": "Saxmundham monthly meteorological summaries 1966-1985",
+                "exptID": "sms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans8180",
+                "title": "Rothamsted 30-year mean meteorological data 1981-2010",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans6190",
+                "title": "Rothamsted 30-year mean meteorological data 1961-1990",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/KeyRefOARESmatemp",
+                "title": "Annual Mean Air Temperature at Rothamsted 1878-2013",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rms-RMAAtemp-02",
+                "title": "Annual Mean Air Temperature at Rothamsted 1878-2019",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsmmtemp10850917",
+                "title": "Mean monthly temperature at Rothamsted October 1985-September 2017",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsMMRain10850917",
+                "title": "Mean monthly rainfall at Rothamsted October 1985-September 2017",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rms-RMAAtempanomaly-1",
+                "title": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans9120",
+                "title": "Rothamsted 30-year mean meteorological data 1991-2020",
+                "exptID": "rms"
+            }
+        ]
+    },
+    {
+        "keyword": "weeds",
+        "identifier": "c_8347",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/bbk-2078416917-01",
+                "title": "<i>Cirsium arvense</i> frequency on Broadbalk Section 8 1991-2018",
+                "exptID": "rbk1"
+            }
+        ]
+    },
+    {
+        "keyword": "wheat",
+        "identifier": "c_8373",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/RMMRAIN5318",
+                "title": "Mean Monthly Rainfall at Rothamsted March 1853 - July 2018",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rbk1-data-fisher-1921-01",
+                "title": "Fisher 1921 Broadbalk wheat grain yields 1852-1918",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-1796346264-1",
+                "title": "Broadbalk Wheat Experiment mean annual grain and straw yields 1852-1925",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/KeyRefOABKyields",
+                "title": "Broadbalk mean long-term winter wheat yields",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rcs10-rltlgrain-01",
+                "title": "Rothamsted long-term liming experiment grain mineral composition",
+                "exptID": "rcs10"
+            },
+            {
+                "DOI": "10.23637/wcs10-wltlgrain-01",
+                "title": "Woburn long-term liming experiment grain mineral composition",
+                "exptID": "wcs10"
+            },
+            {
+                "DOI": "10.23637/rbk1-BKNUTRW-01",
+                "title": "Broadbalk Crop Nutrient Content, Wheat 1968-2017",
+                "exptID": "rbk1"
+            }
+        ]
+    },
+    {
+        "keyword": "wind speed",
+        "identifier": "c_29582",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/Sax-1928223556-01",
+                "title": "Saxmundham monthly meteorological summaries 1966-1985",
+                "exptID": "sms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans8180",
+                "title": "Rothamsted 30-year mean meteorological data 1981-2010",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans7100",
+                "title": "Rothamsted 30-year mean meteorological data 1971-2000",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans6190",
+                "title": "Rothamsted 30-year mean meteorological data 1961-1990",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/OARES30YrMeans9120",
+                "title": "Rothamsted 30-year mean meteorological data 1991-2020",
+                "exptID": "rms"
+            }
+        ]
+    },
+    {
+        "keyword": "woodland",
+        "identifier": "c_8433",
+        "schema": "AGROVOC",
+        "datasets": [
+            {
+                "DOI": "10.23637/RMMRAIN5318",
+                "title": "Mean Monthly Rainfall at Rothamsted March 1853 - July 2018",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/KeyRefOABKWoc",
+                "title": "Broadbalk Wilderness accumulation of organic carbon",
+                "exptID": "rbk1w"
+            },
+            {
+                "DOI": "10.23637/KeyRefOAGEWoc",
+                "title": "Geescroft wilderness accumulation of organic carbon",
+                "exptID": "rge9"
+            }
+        ]
+    }
+]
