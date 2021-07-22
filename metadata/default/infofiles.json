@@ -758,5 +758,21 @@
 		"Caption": "Broadbalk Dataset for School",
 		"exptID": "rbk1",
 		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "credits",
+		"Type": "html",
+		"Caption": "Credits: past and present staff involved in eRA",
+		"exptID": "default",
+		"isReviewed": 0
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index",
+		"Type": "html",
+		"Caption": "Weather data on e-RA",
+		"exptID": "met",
+		"isReviewed": 0
 	}
 ]
