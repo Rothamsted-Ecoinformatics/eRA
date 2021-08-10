@@ -9,7 +9,7 @@
         {
             "inLanguage": "en",
             "descriptionType": "Abstract",
-            "description": "The experiment tests the effects of four different amounts of lime (creating a soil pH range for approximately 4.5 to 7.5) with and without fertilizer P, on the grain mineral compostion of three arable crops. The site is a silty clay loam soil at Rothamsted Experimental Farm, from 1962-1996. There was a parallel experiment on a sandy loam soil at Woburn Experimental Farm."
+            "description": "The experiment tests the effects of four different amounts of lime (creating a soil pH range for approximately 4.5 to 7.5) with and without fertilizer P, on the grain mineral compostion of three arable crops. The site is a silty clay loam soil at Rothamsted Experimental Farm, from 1962-1996. There was a parallel experiment on a sandy loam soil at Woburn Experimental Farm. The dataset contains grain mineral compostion for 20 different minerals (mg/kg dry soil), for individual plots, measured in 1978, 1981  and 1995. It includes details  of the lime and fertilizer treatments, and crop yield."
         },
         {
             "inLanguage": "en",
@@ -19,7 +19,7 @@
         {
             "inLanguage": "en",
             "descriptionType": "TableOfContents",
-            "description": "The dataset contains grain mineral compostion for 20 different minerals (mg/kg dry soil), for individual plots, measured in 1978, 1981  and 1995. It includes details  of the lime and fertilizer treatments, and crop yield."
+            "description": "## Description\r\n\r\n*Note* the included Excel file: _*01-RothLTliming-grain.xlsx*_ contains the same data as the below CSV files. The Excel file contains each of the below CSV files as an Excel worksheet and is provided for users who prefer Excel over CSV.\r\n### Contents\r\n\r\n|File|Dataset Name|Description|\r\n|----|------------|-----------|\r\n|README.html|Readme|File describing and explaining all details of the dataset (html)\r\n|README.txt|Readme|File describing and explaining all details of the dataset (txt)\r\n|grain_data.csv|Grain mineral data|The main data table containing grain mineral concentrations in barley, oats and wheat, 1978, 1981 and 1995. Includes treatments and crop yields. |\r\n|crop_types_data.csv|Crop types|List of crops grown with Latin names and AGROVOC concepts.|\r\n|liming_factor_data.csv|Liming treatment factor level descriptions|Describes the different liming treatment factor levels used, showing the total amounts applied over the experiment. |\r\n|p_factor_data.csv|P treatment factor level descriptions|Describes the different P treatment factor levels used: Period 1 (1962-1980) when two P rates (0 and P) were applied annually; Period 2 (1981-1996) when four P treatments (P0, P1, P2 and P3) were applied three or four times only.  |\r\n|k_factor_data.csv|K treatment factor level descriptions|Describes the different K treatment factor levels used, 1962-1978|\r\n|mn_factor_data.csv|Mn treatment factor level descriptions|Describes the different Mn treatment factor levels used, 1987-1990|\r\n|notes_data.csv|Notes|Additional explanatory notes for records in the crop_data table|"
         },
         {
             "inLanguage": "en",
@@ -33,7 +33,7 @@
     },
     "publication_year": 2021,
     "dateCreated": "2021-03-31",
-    "dateModified": null,
+    "dateModified": "2021-07-22",
     "datePublished": null,
     "inLanguage": "en",
     "version": "1",
@@ -513,10 +513,10 @@
     "distribution": [
         {
             "type": "dataDownload",
-            "name": "Rothamsted long-term liming experiment grain mineral composition",
-            "URL": "01-RothLTliming-grain.xlsx",
-            "encodingFormat": "xlsx",
-            "fileSize": "132 KB"
+            "name": "Frictionless data package containing the grain data described here",
+            "URL": "01-RothLTliming-grain.zip",
+            "encodingFormat": "zip",
+            "fileSize": "117 KB"
         }
     ],
     "image": [],

@@ -9,7 +9,7 @@
         {
             "inLanguage": "en",
             "descriptionType": "Abstract",
-            "description": "The experiment tests the effects of different amounts of lime (and thus soil pH), P and K on the yields of a sequence of arable crops, on a sandy loam soil at Woburn Experimental Farm, from 1962-1996. Mg, Mn and S were tested on split plots at different times. Target soil pH was 4.5, 5.5, 6.5 and 7.5. There was a parallel experiment at Rothamsted Experimental Farm. The experiment was discontinued in 1997."
+            "description": "The experiment tests the effects of different amounts of lime (and thus soil pH), P and K on the yields of a sequence of arable crops, on a sandy loam soil at Woburn Experimental Farm, from 1962-1996. Mg, Mn and S were tested on split plots at different times. Target soil pH was 4.5, 5.5, 6.5 and 7.5. There was a parallel experiment at Rothamsted Experimental Farm. The experiment was discontinued in 1997. The dataset contains plot and sub-plot yields for all plots and years, 1962-1996, details of all treatments applied (lime, P, K, Mg, Mn and S) and agronomic details (crop variety, sowing and harvest dates, basal fertilizer)."
         },
         {
             "inLanguage": "en",
@@ -19,7 +19,7 @@
         {
             "inLanguage": "en",
             "descriptionType": "TableOfContents",
-            "description": "Plot and sub-plot crop yields for all plots and years, 1962-1996. Details of all treatments applied (lime, P&K fertilizer treatments, Mg, Mn and S treatments). Agronomic details (crop variety, sowing and harvest date, basal fertilizer)."
+            "description": "## Description\r\n*Note* the included Excel file: _*01-WobLTliming-yield.xlsx*_ contains the same data as the CSV files below. The Excel file contains each of the CSV files as an Excel worksheet and is provided for users who prefer Excel over CSV.\r\n\r\n### Contents\r\n\r\n|File|Dataset Name|Description|\r\n|----|------------|-----------|\r\n|README.html|Readme|File describing and explaining all details of the dataset (html)|\r\n|README.txt|Readme|File describing and explaining all details of the dataset (txt)|\r\n|crop_data.csv|Crop yield data|The main data table containing crop yield data for all plots and all treatments, 1962-1996|\r\n|liming_factor_data.csv|Liming treatment factor level descriptions|Describes the different liming treatment factor levels used|\r\n|p_factor_data.csv|P treatment factor level descriptions|Describes the different P treatment factor levels used|\r\n|k_factor_data.csv|K treatment factor level descriptions|Describes the different K treatment factor levels used|\r\n|mg_factor_data.csv|Mg treatment factor level descriptions|Describes the different Mg treatment factor levels used|\r\n|mn_factor_data.csv|Mn treatment factor level descriptions|Describes the different Mn treatment factor levels used|\r\n|s_factor_data.csv|S treatment factor level descriptions|Describes the different S treatment factor levels used|\r\n|crop_types_data.csv|Crop types|List of crops grown with Latin names and AGROVOC concepts.|\r\n|notes_data.csv|Notes|Additional explanatory notes for records in the crop_data table|"
         },
         {
             "inLanguage": "en",
@@ -33,7 +33,7 @@
     },
     "publication_year": 2020,
     "dateCreated": "2020-11-27",
-    "dateModified": null,
+    "dateModified": "2021-07-22",
     "datePublished": null,
     "inLanguage": "en",
     "version": "1",
@@ -365,10 +365,10 @@
     "distribution": [
         {
             "type": "dataDownload",
-            "name": "Woburn long-term liming experiment crop yields",
-            "URL": "01-WobLTliming-yield.xlsx",
-            "encodingFormat": "xlsx",
-            "fileSize": "231 KB"
+            "name": "Frictionless data package containing the yield data described here",
+            "URL": "01-WobLTliming-yield.zip",
+            "encodingFormat": "zip",
+            "fileSize": "291 KB"
         }
     ],
     "image": [],

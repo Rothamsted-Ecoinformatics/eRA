@@ -9,17 +9,17 @@
         {
             "inLanguage": "en",
             "descriptionType": "Abstract",
-            "description": "The experiment tests the effects of different amounts of lime (and thus soil pH), P and K on the yields of a sequence of arable crops, on a silty clay loam soil at Rothamsted Experimental Farm, from 1962-1996. Mg, Mn and S were tested on split plots at different times. Target soil pH was 4.5, 5.5, 6.5 and 7.5. There is a parallel experiment at Woburn Experimental Farm. Since 1997 the experiment has been in grass."
+            "description": "The experiment tests the effects of different amounts of lime (and thus soil pH), P and K on the yields of a sequence of arable crops, on a silty clay loam soil at Rothamsted Experimental Farm, from 1962-1996. Mg, Mn and S were tested on split plots at different times. Target soil pH was 4.5, 5.5, 6.5 and 7.5. There is a parallel experiment at Woburn Experimental Farm. Since 1997 the experiment has been in grass. The dataset contains plot and sub-plot yields for all plots and years, 1962-1996, details of all treatments applied (lime, P, K, Mg, Mn and S), and agronomic details (crop variety, sowing and harvest date, basal fertilizer)."
         },
         {
             "inLanguage": "en",
             "descriptionType": "Methods",
-            "description": "Period 1 (1962-1980): four lime levels with and without fertilizer P and K. Magnesium was tested on split plots 1974-1978. Period 2 (1981-1996): four lime levels with four P levels. Manganese was tested on split plots 1987-1990; Sulphur was tested on split plots 1991-1996. 2 replicates."
+            "description": "Period 1 (1962-1980): four lime levels with and without fertilizer P and K. Magnesium was tested on split plots 1974-1978. Period 2 (1981-1996): four lime levels with four P levels. Manganese was te sted on split plots 1987-1990; Sulphur was tested on split plots 1991-1996. 2 replicates."
         },
         {
             "inLanguage": "en",
             "descriptionType": "TableOfContents",
-            "description": "Plot and sub-plot crop yields for all plots and years, 1962-1996. Details of all treatments applied (lime, P&K fertilizer treatments, Mg, Mn and S treatments). Agronomic details (crop variety, sowing and harvest date, basal fertilizer)."
+            "description": "## Description\r\n*Note* the included Excel file: _*01-RothLTliming-yield.xlsx*_ contains the same data as the CSV files below. The Excel file contains each of the CSV files as an Excel worksheet and is provided for users who prefer Excel over CSV.\r\n\r\n### Contents\r\n\r\n|File|Dataset Name|Description|\r\n|----|------------|-----------|\r\n|README.html|Read me|File describing and explaining all details of the dataset (html)\r\n|README.txt|Read me|File describing and explaining all details of the dataset (txt)\r\n|crop_data.csv|Crop yield data|The main data table containing crop yield data for all plots and all treatments, 1962-1996. Includes details of all lime and fertilizer treatments applied, basal fertilizers and agronomic dates. For lime and P treatments we provide the annual and cumulative amounts applied to each plot, as these vary from year to year. |\r\n|liming_factor_data.csv|Liming treatment factor level descriptions|Describes the different liming treatment factors, showing the total amounts applied over the experiment.  Refer to the crop_data table to see the actual amounts of lime applied to each plot and when applied, as well as the cumulative amounts.   |\r\n|p_factor_data.csv|P treatment factor level descriptions|Describes the different P treatment factors: Period 1 (1962-1980) when two P rates (0 or P) applied annually; Period 2 (1981-1996) when four P treatments (P0, P1, P2 and P3), applied three or four times only. Refer to the crop_data table for the actual amounts applied to each plot.  |\r\n|k_factor_data.csv|K treatment factor level descriptions|K treatments applied 1962-1980; this describes the K treatment factors.|\r\n|mg_factor_data.csv|Mg treatment factor level descriptions|Mg treatments applied 1974-1978; this describes the Mg treatment factors.  |\r\n|mn_factor_data.csv|Mn treatment factor level descriptions|Foliar Mn treatments applied 1987-1990; this describes the Mn treatment factors.|\r\n|s_factor_data.csv|S treatment factor level descriptions|S treatments applied 1991-1996; this describes the S treatment factors.|\r\n|crop_types_data.csv|Crop types|List of crops grown with Latin names and AGROVOC concepts.|\r\n|notes_data.csv|Notes|Additional explanatory notes for records in the crop_data table|"
         },
         {
             "inLanguage": "en",
@@ -33,7 +33,7 @@
     },
     "publication_year": 2020,
     "dateCreated": "2020-11-26",
-    "dateModified": null,
+    "dateModified": "2021-07-21",
     "datePublished": null,
     "inLanguage": "en",
     "version": "1",
@@ -366,10 +366,10 @@
     "distribution": [
         {
             "type": "dataDownload",
-            "name": "Rothamsted long-term liming experiment crop yields",
-            "URL": "01-RothLTliming-yield.xlxs",
-            "encodingFormat": "xlxs",
-            "fileSize": "242 KB"
+            "name": "Frictionless data package containing the yield data described here",
+            "URL": "01-RothLTliming-yield.zip",
+            "encodingFormat": "zip",
+            "fileSize": "296 KB"
         }
     ],
     "image": [],
