@@ -1,0 +1,387 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/rbk1-BKNUTRM-01",
+    "name": "Broadbalk Crop Nutrient Content, Maize 1997-2017",
+    "shortName": "BKNUTRM",
+    "url": "http://www.era.rothamsted.ac.uk/dataset/rbk1/01-BKNUTRM",
+    "description": [
+        {
+            "inLanguage": "en",
+            "descriptionType": "Abstract",
+            "description": "From 1968 Broadbalk was divided into 10 sections. Grain and straw from selected sections and plots of all crops (wheat and rotational crops) were collected and stored in the Sample Archive. They were  analysed for Nitrogen (N), Phosphorus (P), Potassium (K), Calcium (Ca), Magnesium (Mg), Sodium (Na) and Sulphur (S). Data is presented here for % nutrients in forage maize and is the response to different fertiliser treatments and cropping."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Methods",
+            "description": "Nitrogen (N)\r\n1968-1995: nitrogen content was determined by Kjeldahl digest, the digest was then analysed colorimetrically using a Technicon segmented flow analyser. If nitrate-N was expected to be high in the sample, the salicylic acid modification was used (Bremner, 1965).\r\n1996 onwards: nitrogen content is determined by combustion analyser, based on the Dumas method. Originally a Heraeus Combustion analyser, currently a LECO combustion system is used.\r\nPhosphorus (P), Potassium (K), Calcium (Ca), Magnesium (Mg), Sodium (Na) and Sulphur (S)\r\n1968-late 1980s: dry ashing techniques, as described by Piper (1942) were used to produce an acid extract. The extracts were analysed for P colorimetrically on a Technicon Auto Analyser, or later equivalents (Alpkem continuous flow system / Skalar SanPlus segmented flow system), using the modified Murphy & Riley (1962) molybdenum blue method developed from Fogg & Wilkinson (1958). K, Ca, Mg and Na were determined using automated atomic absorption methods. The SP90 atomic absorption flame photometer was used to analyse Ca, Mg and Na; K was analysed by the EEL flame photometer until 1973, K was then analysed with Ca, Mg and Na by the SP90. S was not routinely measured until 1996.\r\n1980s onwards: since the late 1980s the open tube nitric-perchloric digestion (Zarcinas, et al, 1987) has been used to produce an acid extract. P, K, Ca, Mg and Na have been determined by ICP-OES (Inductively-coupled plasma \u2013 optical emission Spectrometer) since 1982, and S since 1996.\r\nBlank (control) values: Data for sodium is presented after the analysis blanks (controls) have been subtracted from the raw data. Sodium blank values tend to be relatively large, and can be greater than the raw data. If subtracting the blank resulted in a negative value, this is shown as zero. Thus the sodium data should be treated with some caution. Blank (control) readings for the other nutrients are very small, relative to the treatment values, and have not been subtracted."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TableOfContents",
+            "description": "Broadbalk forage maize nutrient data (N, P, K, Ca, Mg and Na) 1997-2017. \r\nSee Broadbalk Nutrients Available Wheat.pdf for detail."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Other",
+            "description": "With thanks to Andy Macdonald, Paul Poulton, Steve Freeman, Ruth Skilton and Wendy Gregory for help with compiling this information.\r\nNutrient data for other crops on Broadbalk is available as separate datasets \u2013 see Related Documents.\r\n\r\n1968-1975 Section 1 continuous wheat + 1st wheat section \u2013 all nutrients,\r\n1976-1985 Section 1 continuous wheat + 1st wheat section \u2013 nitrogen only,\r\n1986-1995 Section 1 continuous wheat + 1st wheat in rotation section \u2013 all nutrients,\r\n1996-1997 Sections 1, 6 & 9 continuous wheat + 1st wheat in rotation section \u2013 all nutrients,\r\n1998-2003 All sections with wheat, continuous and rotational \u2013 all nutrients*$,\r\n2004 Continuous wheat sections only \u2013 all nutrients,\r\n2005 All sections with wheat \u2013 all nutrients,\r\n2006-2017 All continuous wheat sections except 6 and all first wheats in rotation^\r\n\r\n*no Na data section 3 2000; no data section 8 as fallow for weed control 2001; \r\n$section 1 2003 and 2004 no wheat as fallow for control of Equisetum;\r\n^ no wheat in section 8 2015 & 2016 as fallow for weed control."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Provenance",
+            "description": "This dataset is derived from measurements made by the Analytical Chemistry Unit, Rothamsted Research, Harpenden."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Quality",
+            "description": "The Analytical Chemistry Unit follows the Joint Code of Practice (JCoPR) and participates in European Quality Assurance programmes. All performance is strictly monitored using certified external standards alongside in-house standard materials. Standards and check samples are monitored and recorded."
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "publication_year": 0,
+    "dateCreated": "2021-03-12",
+    "dateModified": null,
+    "datePublished": null,
+    "inLanguage": "en",
+    "version": "1",
+    "keywords": [
+        "Broadbalk long-term experiment",
+        "long term experiments",
+        "mineral content",
+        "phosphorous",
+        "potassium"
+    ],
+    "creator": [
+        {
+            "type": "Person",
+            "Name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Wendy Wilmer",
+            "givenName": "Wendy",
+            "familyName": "Wilmer",
+            "sameAs": "https://orcid.org/0000-0002-6463-6636",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Ruth Skilton",
+            "givenName": "Ruth",
+            "familyName": "Skilton",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Mark Durenkamp",
+            "givenName": "Mark",
+            "familyName": "Durenkamp",
+            "sameAs": "https://orcid.org/0000-0002-2195-1855",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Chloe Garwood",
+            "givenName": "Chloe",
+            "familyName": "Garwood",
+            "sameAs": "https://orcid.org/0000-0002-2831-6854",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectLeader",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectManager",
+            "name": "Andrew Macdonald",
+            "givenName": "Andrew",
+            "familyName": "Macdonald",
+            "sameAs": "https://orcid.org/0000-0002-1785-4892",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Chris MacKay",
+            "givenName": "Chris",
+            "familyName": "MacKay",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "application/vnd.ms-excel",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License"
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.37301,
+            "latitude": 51.80946
+        },
+        "name": "Broadbalk"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "http://www.era.rothamsted.ac.uk/experiment/rbk1/nutrient#documents",
+            "relatedIdentifierType": "URL",
+            "name": "Broadbalk Crop Nutrient Content",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-2",
+            "relatedIdentifierType": "DOI",
+            "name": "The plant nutrients in crops grown on Broadbalk, Johnston (1969)",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-22",
+            "relatedIdentifierType": "DOI",
+            "name": "The Broadbalk wheat experiment 1968-78: yields and plant nutrients in crops. . . Dyke et al (1983)",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.1017/S0021859600082125",
+            "relatedIdentifierType": "DOI",
+            "name": "Variation between years in growth and nutrient uptake after anthesis. . . Thorne et al (1988)",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.1016/j.scitotenv.2007.08.024",
+            "relatedIdentifierType": "DOI",
+            "name": "Historical changes in the concentrations of selenium in soil and wheat grain. . .  Fan et al (2008)",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.1016/j.jtemb.2008.07.002",
+            "relatedIdentifierType": "DOI",
+            "name": "Evidence of decreasing mineral density in wheat grain over the last 160 years. Fan et al (2008)",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        }
+    ],
+    "funder": [
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/00005189 - The Rothamsted Long-Term Experiments including Sample Archive and e-RA database",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F00005189"
+        },
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/000J0300 - The Rothamsted Long - Term Experiments - National Capability",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F000J0300"
+        }
+    ],
+    "distribution": [],
+    "image": [],
+    "grade": 1,
+    "isExternal": 0,
+    "dstype": "OA"
+}

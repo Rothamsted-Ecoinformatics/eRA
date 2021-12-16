@@ -20,7 +20,7 @@ $Parsedown = new Parsedown();
 <div id="idExpt">
 	<div id="greenTitle"
 		class="d-flex  mb-3 py-3 p3-3 bg-primary text-white mt-0 ">
-		<h1 class="mx-3">Dataset:  <?php echo $dsinfo['name'];?></h1>
+		<h1 class="mx-3"><?php echo $datasetTitle?> </h1>
 
 
 	</div>
@@ -154,9 +154,7 @@ if ($hasDatasets == 1) {
 }
 
 if ($dsinfo['isExternal'] == 0) {
-    if ($hasVersion == 1) {
-        echo $otherVersions;
-    }
+
     if ($hasPVersion == 1) {
         echo $prevVersions;
     }
@@ -189,7 +187,7 @@ if ($dsinfo['isExternal'] == 0) {
 			<h4>Cite this Dataset</h4>
 			<p>
 				<strong>YOU MUST CITE AS: </strong><?php echo $refAuthor; ?> (<?php echo $year;?>).
-								<?php echo $dsinfo['name'];?> <em><?php echo $getPublisher; ?></em>
+								<?php echo $datasetTitle;?> <em><?php echo $getPublisher; ?></em>
 				<a target="_blank"
 					href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
 			
@@ -312,9 +310,9 @@ if ($dsinfo['isExternal'] == 0) {
 									database, including the published datasets generated from it,
 									is part of the <a target="_blank"
 									href="https://www.rothamsted.ac.uk/national-capabilities">
-										National Capabilities </a>, which also includes the <a
+										National Capabilities</a>, which also includes the <a
 									href="https://www.rothamsted.ac.uk/long-term-experiments">Long-Term
-										Experiments</a> , the <a target="_blank"
+										Experiments</a>, the <a target="_blank"
 									href="https://www.rothamsted.ac.uk/sample-archive">Sample
 										Archive</a> and the <a
 									href="https://www.rothamsted.ac.uk/environmental-change-network">Environmental

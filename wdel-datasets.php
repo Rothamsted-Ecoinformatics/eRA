@@ -79,9 +79,9 @@ foreach ($datasets as $dataset) {if ($dataset['isReady'] == 2) {
 	$shortname = $dataset['shortName'];
     $countVersions = array_count_values(array_column($datasets, 'shortName'));
 	if ($countVersions < 10) {
-                    $strCount = "0" . strval($countVersions);
+                    $strCount = "0" . strval($countVersions[$shortName]);
                 } else {
-                    $strCount = strval($countVersion);
+                    $strCount = strval($countVersions[$shortname]);
                 }
                 $info = "<div class=\"col-sm-4 py-2\">";
   

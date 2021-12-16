@@ -1,8 +1,5 @@
-
-<nav id="custom-top-right" class="navbar navbar-expand-lg navbar-light bg-light"
-	role="navigation">
-	<button class="navbar-toggler" type="button" data-toggle="collapse"
-		data-target="#navbarSupportedContent">
+<nav id="custom-top-right" class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
 		<span class="navbar-toggler-icon"></span>
 	</button>
 	<a class="navbar-brand font-weight-bold text-primary" href="index.php">
@@ -13,44 +10,36 @@
 			<?php echo ($strMessage . " ");?>
 			<?php if ($loggedIn == 'yes') {
 ?>
-			<li class="nav-item"><a class="btn btn-info m-1"
-				href="#modalLogin" data-toggle="modal" data-backdrop="static"> <i
-					class="fa fa-user"></i> <?php echo $registeredUser; ?>
-			</a></li>
+			<li class="nav-item"><a class="btn btn-info m-1" href="#modalLogin" data-toggle="modal"
+					data-backdrop="static"> <i class="fa fa-user"></i> <?php echo $registeredUser; ?>
+				</a></li>
 			<?php
 
 }?>
 
 			<li class="nav-item"><a class="btn btn-info m-1" target="_BLANK"
-				href="http://www3.rothamsted.ac.uk/cdera/extract/pages/data_extraction_prototype6.html"><i
-					class="fa fa-list-alt"></i> e-RAdata</a></li>
-			<li class="nav-item"><a class="btn btn-info m-1"
-				href="e-RApubs.php" target="_blank"> <i class="fa fa-mortar-board"></i> e-RApubs
-			</a></li>
+					href="http://www3.rothamsted.ac.uk/cdera/extract/pages/data_extraction_prototype6.html"><i
+						class="fa fa-list-alt"></i> e-RAdata</a></li>
+			<li class="nav-item"><a class="btn btn-info m-1" href="e-RApubs.php" target="_blank"> <i
+						class="fa fa-mortar-board"></i> e-RApubs
+				</a></li>
 
 
-			<li class="nav-item"><a class="btn btn-info ml-1 my-1"
-				href="http://www.era.rothamsted.ac.uk/eradoc/" target="_BLANK"><i
-					class="fa fa-book"></i> e-RAdoc</a></li>
+			<li class="nav-item"><a class="btn btn-info ml-1 my-1" href="http://www.era.rothamsted.ac.uk/eradoc/"
+					target="_BLANK"><i class="fa fa-book"></i> e-RAdoc</a></li>
 
 			<!-- li class="nav-item"><a class="btn btn-info mx-1"
 						href="e-RAsearch.php"><i class="fa fa-search"></i> e-RAsearch</a></li-->
 		</ul>
 	</div>
 </nav>
-<nav id="custom-main-menu"
-	class="navbar navbar-expand-lg navbar-light bg-white p-0 m-0 mb-1"
-	role="navigation">
-	<a class="navbar-brand" href="index.php"> <picture
-			class="embelem"> <img
-			src="images/logos/eRALogoSmall.gif"
-			alt="HOME - The
-		        electronic Rothamsted Archive"
-			title="HOME" class="embelem" type="image/webp"> </picture>
+<nav id="custom-main-menu" class="navbar navbar-expand-lg navbar-light bg-white p-0 m-0 mb-1" role="navigation">
+	<a class="navbar-brand" href="index.php">
+		<picture class="embelem"> <img src="images/logos/eRALogoSmall.gif" alt="HOME - The
+		        electronic Rothamsted Archive" title="HOME" class="embelem" type="image/webp"> </picture>
 
 	</a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse"
-		data-target="#navbarera">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarera">
 		<span class="navbar-toggler-icon"></span>
 	</button>
 
@@ -58,8 +47,8 @@
 		<ul class="navbar-nav">
 
 			<!-- *******************   SITES  *********************   -->
-			<li class="dropdown menu-large nav-item mx-3 "><a href="#"
-				class="dropdown-toggle nav-link" data-toggle="dropdown">SITES </a>
+			<li class="dropdown menu-large nav-item mx-3 "><a href="#" class="dropdown-toggle nav-link"
+					data-toggle="dropdown">SITES </a>
 				<ul class="dropdown-menu megamenu">
 					<div class="row">
 						<li class="col-md-3 dropdown-item">
@@ -89,12 +78,13 @@
 						</li>
 
 					</div>
-				</ul></li>
+				</ul>
+			</li>
 
 			<!-- *******************   EXPERIMENTS  *********************   -->
-			<li class="dropdown menu-large nav-item mx-3"><a href="#"
-				class="dropdown-toggle nav-link" data-toggle="dropdown">EXPERIMENTS
-			</a>
+			<li class="dropdown menu-large nav-item mx-3"><a href="#" class="dropdown-toggle nav-link"
+					data-toggle="dropdown">EXPERIMENTS
+				</a>
 				<ul class="dropdown-menu megamenu">
 					<div class="row">
 
@@ -148,12 +138,13 @@
 							</ul>
 						</li>
 					</div>
-				</ul></li>
+				</ul>
+			</li>
 
 			<!-- *******************   DATA  *********************   -->
 
-			<li class="dropdown menu-large nav-item mx-3"><a href="#"
-				class="dropdown-toggle nav-link" data-toggle="dropdown">EXPERIMENT
+			<li class="dropdown menu-large nav-item mx-3"><a href="#" class="dropdown-toggle nav-link"
+					data-toggle="dropdown">EXPERIMENT
 					DATA </a>
 				<ul class="dropdown-menu megamenu">
 					<div class="row">
@@ -222,6 +213,15 @@
 
 
 							</ul>
+							<hr />
+							<ul>
+
+								<li class="dropdown-header ">Search</li>
+
+								<li><a href="keyword.php">by Keyword</a></li>
+
+
+							</ul>
 						</li>
 
 
@@ -229,32 +229,34 @@
 
 
 					</div>
-				</ul></li>
+				</ul>
+			</li>
 
 			<!-- *******************   WEATHER DATA  *********************   -->
-			<li class="dropdown menu-large nav-item mx-3"><a href="#"
-				class="dropdown-toggle nav-link" data-toggle="dropdown">METEOROLOGICAL
+			<li class="dropdown menu-large nav-item mx-3"><a href="#" class="dropdown-toggle nav-link"
+					data-toggle="dropdown">METEOROLOGICAL
 					DATA </a>
 				<ul class="dropdown-menu megamenu">
 					<div class="row">
-					<li class="col-md-4 dropdown-item">
+						<li class="col-md-4 dropdown-item">
 							<ul>
 								<li class="dropdown-header">Documentation</li>
 								<li><a href="info/howtoaccessdata">How to Access
 										Datasets</a></li>
-								<li><a href="info/howtocredit">How to Credit Datasets</a></li>
-								<li><a href="info/conditions">Conditions for Using
-										Datasets</a></li>
-								<li><a href="info/dataQuality">Data Quality</a></li>
-								<li><a href="info/CF">Conversion Factors</a></li>
 								<li><a href="info/register">Registration Forms</a></li>
-								<li><a href="#">Data Updates</a></li>
-								<li><a href="info/met/derived_variables">Derived
+								<li><a href="info/howtocredit">How to Credit Materials</a></li>
+								<li><a href="info/conditions">Conditions of Use</a></li>
+								<li><a href="info/dataQuality">Data Quality in e-RA</a></li>
+								<li><a href="info/CF">Conversion Factors</a></li>
+								<li><a href="info/met/index">Weather data on eRA</a></li>
+								<li><a href="info/met/derived_variables">Derived Meteorological
 										Variables</a></li>
+
 							</ul>
 						</li>
 						<li class="col-md-4 dropdown-item">
 							<ul>
+
 								<li class="dropdown-header">Outreach</li>
 
 
@@ -263,7 +265,8 @@
 							</ul>
 						</li>
 						<li class="col-md-4 dropdown-item">
-							<ul><li class="dropdown-header">Data for</li>
+							<ul>
+								<li class="dropdown-header">Data for</li>
 								<li><a href="station/rms#datasets">
 										Rothamsted</a></li>
 								<li><a href="station/wms#datasets">Woburn</a></li>
@@ -274,11 +277,12 @@
 							</ul>
 						</li>
 					</div>
-				</ul></li>
+				</ul>
+			</li>
 
 			<!-- *******************   ABOUT  *********************   -->
-			<li class="dropdown menu-large nav-item mx-3"><a href="#"
-				class="dropdown-toggle nav-link" data-toggle="dropdown">ABOUT </a>
+			<li class="dropdown menu-large nav-item mx-3"><a href="#" class="dropdown-toggle nav-link"
+					data-toggle="dropdown">ABOUT </a>
 				<ul class="dropdown-menu megamenu">
 					<div class="row">
 
@@ -297,19 +301,19 @@
 								<li><a href="">Home</a></li>
 								<li><a href="info/about">About e-RA</a></li>
 								<li><a target="_blank"
-									href="https://www.rothamsted.ac.uk/national-capabilities">National
+										href="https://www.rothamsted.ac.uk/national-capabilities">National
 										Capabilities</a>
 								<li><a href="contact.php">Contact us</a></li>
-								<li><a href="info/howtocredit">How to Credit</a></li>
+								<li><a href="info/credits">Credits</a></li>
 								<?php echo $curationPage; ?>
 
 							</ul>
 						</li>
 
 					</div>
-				</ul></li>
+				</ul>
+			</li>
 
 		</ul>
 	</div>
 </nav>
-

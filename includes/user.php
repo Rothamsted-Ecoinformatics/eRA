@@ -282,8 +282,8 @@ You, or someone pretending to be you has requested login or registration  into e
 			</a>
     </p>
     <p>            
-  or paste the link into the browser you came from. " . $Web_base . "index.php?process=confirm&VC=" . $answers['vericode'] . "&TC=" . $answers['timecode'] . "&VC2=" . $answers['vericode2'] . "</p>              
-                
+ If the link does not work, please  paste the link into the browser you used to register . " . $Web_base . "index.php?process=confirm&VC=" . $answers['vericode'] . "&TC=" . $answers['timecode'] . "&VC2=" . $answers['vericode2'] . "</p>              
+               
  </p>               
                 
 </body>

@@ -1,5 +1,5 @@
 <?php 
-include_once 'includes/init.inc'; // these are the settings that refer to more than one page
+include_once 'includes/init.php'; // these are the settings that refer to more than one page
 
 $page_title .= "About e-RA";
 $_SESSION['page'] = 'about.php';

@@ -17,7 +17,7 @@ if (! $farm) {
 }
 
 
-include_once 'includes/init.inc'; // these are the settings that refer to more than one page
+include_once 'includes/init.php'; // these are the settings that refer to more than one page
 
 
 /**

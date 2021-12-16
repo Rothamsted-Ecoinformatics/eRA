@@ -97,6 +97,7 @@
     "funder": [],
     "distribution": [],
     "image": [],
-    "grade": 2,
+    "grade": 1,
+    "isExternal": 0,
     "dstype": "Other"
 }

@@ -67,22 +67,7 @@
             "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F00005189"
         }
     ],
-    "distribution": [
-        {
-            "type": "dataDownload",
-            "name": null,
-            "URL": null,
-            "encodingFormat": "",
-            "fileSize": "1 pages"
-        },
-        {
-            "type": "dataDownload",
-            "name": null,
-            "URL": null,
-            "encodingFormat": "",
-            "fileSize": "187 KB"
-        }
-    ],
+    "distribution": [],
     "image": [],
     "grade": 1,
     "isExternal": 0,

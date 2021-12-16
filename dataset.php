@@ -10,7 +10,7 @@
  * 
  * TODO: add contributors
  */
-include_once 'includes/init.inc'; // these are the settings that refer to more than one page
+include_once 'includes/init.php'; // these are the settings that refer to more than one page
 
 $pageinfo = getPageInfo($expt);
 $KeyRef = $pageinfo['KeyRef'];
@@ -83,7 +83,15 @@ $relDocuments = 'List of Related Documents';
 
 if ($hasDataset) {
     $datasetFolder = $dsinfo["shortName"];
-
+    $datasetTitle = $dsinfo['name'];
+    if (strstr(strtolower($datasetTitle), 'dataset')) 
+    {
+        // title remains the same
+    }
+    else 
+    {
+        $datasetTitle = 'Dataset: '. $dsinfo['name'];
+    }
     $DOI = $dsinfo["identifier"];
     // this decide what modal we give depending on the type of dataset: the OA at the moment, does not record the download.
 
@@ -99,20 +107,22 @@ if ($hasDataset) {
 
     $butLogin = "<button type=\"button\" class=\"btn btn-info my-1 mx-3 \" data-toggle=\"modal\"
         data-target=\"#modalLogin\">" . $registeredUser . "</button>";
-    
+    $dateCreation = "";
     if ($dsinfo["dateCreated"]) {
-        $dateCreation = "<li class=\"list-group-item\"><b>Created: </b> ".$dsinfo["dateCreated"]."</li>";
+        $dateCreation .= "<li class=\"list-group-item\"><b>Created: </b> ".$dsinfo["dateCreated"]."</li>";
     } else {
         
-    }   
+    } 
+    $datePublication = "";  
     if ($dsinfo["datePublished"]) {
         
-        $datePublication = "<li class=\"list-group-item\"><b>Published: </b> ".$dsinfo["datePublished"]."</li>";
+        $datePublication .= "<li class=\"list-group-item\"><b>Published: </b> ".$dsinfo["datePublished"]."</li>";
     } else {
         
     }
+    $dateUpdate = "";
     if ($dsinfo["dateModified"]) {
-        $dateUpdate = "<li class=\"list-group-item\"><b>Updated: </b> ".$dsinfo["dateModified"]."</li>";
+        $dateUpdate .= "<li class=\"list-group-item\"><b>Updated: </b> ".$dsinfo["dateModified"]."</li>";
     } else {
         
     }
@@ -280,7 +290,7 @@ if ($hasDataset) {
         }
         $relDatasets        .= "\n</ul>";
         $relDocuments       .= "\n</ul>";
-        $otherVersions      .= "\n</ul>";
+     
         $prevVersions       .= "\n</ul>";
         $newVersions        .= "\n</ul>";
         $newVersionShort    .= "\n</ul>";
@@ -333,18 +343,16 @@ if ($hasDataset) {
                 $strUserArea .= "<li class=\"list-group-item text-warning \"><b>Last Downloaded : </b>" . $row['dl-date'] . "</li>";
             }
         }
-        if (count($results) == 0) {
-            $strUserArea .= "<li>Never Downloaded</li>";
-        }
     } else {
         $strUserArea = "";
         $positionValue = "Anonymous";
     } 
     $IpAddress = getIp();
+    $strMeta = "";
     if (isset($_REQUEST['dlform'])) {
 
         // Check the file exists or not
-        $strMeta = "";
+        
         if (file_exists($zipfile)) {
 
             $sqlDownload = "INSERT INTO eRAdownloads (`position`, `IP`,  DOI, `dl-date`,`result`) VALUES(' " . $positionValue . "', '" . $IpAddress . "', '" . $DOI . "', '" . $today . "', '".$siteType ."')";

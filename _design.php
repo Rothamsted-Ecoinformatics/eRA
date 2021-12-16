@@ -185,6 +185,7 @@ function getContent($period)
 
                     $info .= "\n    \t      \t      \t <td class=\"pr-4 \"><small>" . $level['frequency'] . "</td>";
                     $appliedToCrop = "";
+                    echo ("<br />level['appliedToCrop'] = ". $level['appliedToCrop']);
                     $appliedToCrop = $arrCrop[$level['appliedToCrop']];
                     $info .= "\n    \t      \t      \t <td class=\"pr-4 \"><small>" . $appliedToCrop . "</td>";
                   
@@ -280,8 +281,9 @@ $strTab .= "\n\t  </div>";
 $strTab .= "\n \t <div class=\"col-12 mx-auto\"> ";
 $strTab .= "\n \t\t    <div class=\"mt-3 mx-3\" id=\"accordionDesign\"> \n";
 $i = 0;
+$tabID = 0;
 foreach ($design as $period) {
-
+    $tabID = $tabID +1;
     $Title = $period['administrative']['name'];
     $content = getContent($period);
     if ($i != 0) {
@@ -294,9 +296,9 @@ foreach ($design as $period) {
         $expanded = "false";
     }
 
-    $tabID = str_replace(' ', '', $Title);
-    $tabID = str_replace(':', '', $tabID);
-    $tabID = str_replace('-', '', $tabID);
+    //$tabID = str_replace(' ', '', $Title);
+    //$tabID = str_replace(':', '', $tabID);
+    //$tabID = str_replace('-', '', $tabID);
     if ($period['design']['dateStart']) {
         $Title .= " - " . $period['design']['dateStart'] . " - " . $period['design']['dateEnd'];
     }

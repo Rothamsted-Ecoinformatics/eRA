@@ -14,7 +14,7 @@
  * Setting this page's variables before the functions and headers. 
  */
 
-include_once 'includes/init.inc'; // these are the settings that refer to more than one page
+include_once 'includes/init.php'; // these are the settings that refer to more than one page
 
 if (!isset($farm)) {$farm = 'rothamsted';}
 $exptFolder = 'metadata/' . $farm;
@@ -140,7 +140,7 @@ $page_title .=  ''.$pageinfo['Experiment'];
             
             include_once 'includes/footer.html';
             
-        
+       
         include_once 'includes/finish.inc'; // this has the common js scripts
         
         ?>

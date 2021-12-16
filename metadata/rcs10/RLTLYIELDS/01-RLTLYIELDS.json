@@ -277,7 +277,7 @@
             }
         }
     ],
-    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "encodingFormat": "text/csv",
     "copyrightHolder": {
         "type": "organization",
         "name": "Electronic Rothamsted Archive, Rothamsted Research"

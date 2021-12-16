@@ -16,7 +16,7 @@
  * this shows that ref and sub come from the URL: not a very user friendly idea... 
  * 
  */
-include_once 'includes/init.inc'; // these are the settings that refer to more than one page
+include_once 'includes/init.php'; // these are the settings that refer to more than one page
 
 /**
  * pageinfo will have the values for the Title or the pages, experiment or farm keyword.
@@ -184,7 +184,7 @@ $inDet = array(
 if ($displayDatasets > 0) {
    
                         //include '_datasets.php';
-						include '_datasets.php';
+						include 'wdel-datasets.php';
                         echo  "<div class=\"mx-3\">Additional data is available through e-RAdata. Please <a href=\"newGold.php\" >register for access</a>.  </div>";
 } else if ($displayDatasets == 0) {
 						

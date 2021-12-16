@@ -7,8 +7,8 @@
  * 
  * 
  */
-include_once 'includes/init.inc'; // these are the settings that refer to more than one page
-$page_title .= ': curation interface';
+include_once 'includes/init.php'; // these are the settings that refer to more than one page
+$page_title .= 'Curation interface';
 
 // This is used in the head file as the title tag
 function mangaCon()
@@ -20,19 +20,39 @@ function mangaCon()
 
     $dhjds = $sdfghj . "S3s4m3";
     $mysqli = new mysqli($Turbigo, $lkk, $dhjds, $nhtyuj);
+
+    // Check connection
+
+    if ($mysqli->connect_error) {
+    die("Connection failed: " . $mysqli->connect_error);
+    }
+
     return $mysqli;
 }
 
 function getUsers($con)
 {
     $sqlUsers = "SELECT * from newmarkers where doorbell NOT LIKE 'ringing'";
+    echo $sqlUsers;
     $result = $con->query($sqlUsers);
     printf("<ul>");
     // Associative array
     while ($row = $result->fetch_assoc()) {
-        printf("<li>%s (%s) - %s</li>\n", $row["lname"], $row["fname"], $row["position"]);
+        printf("<li><b>%s (%s)</b> - %s <br /> <i>%s</i></li>\n", $row["lname"], $row["fname"], $row["position"], $row["information"]);
     }
     printf("</ul>");
+    
+    printf ("<h2>Users who never confirmed their login</h2>");
+    
+    $sqlUsers = "SELECT * from newmarkers where doorbell  LIKE 'ringing'";
+    $result = $con->query($sqlUsers);
+    printf("<ul>");
+    // Associative array
+    while ($row = $result->fetch_assoc()) {
+        printf("<li><b>%s (%s)</b> - %s <br /> <i>%s</i></li>\n", $row["lname"], $row["fname"], $row["position"], $row["information"]);
+    }
+    printf("</ul>");
+    
 }
 
 function getDownloads($con)

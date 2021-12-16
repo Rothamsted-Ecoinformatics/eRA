@@ -11,7 +11,7 @@
  * In this development stage, some variables are encoded here but will eventually come from database or URL.
  * @date 9/27/2018
  */
-include_once 'includes/init.inc'; // these are the settings that refer to more than one page
+include_once 'includes/init.php'; // these are the settings that refer to more than one page
 
 
 $expt = 'rro';

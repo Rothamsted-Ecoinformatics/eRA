@@ -86,7 +86,7 @@
 		<h1>e-RApubs</h1>
 		<h2>Search the Bibliography</h2>
 				<?php
-    if (! $submit) {
+    if (!isset( $submit)) {
         ?>
 					<div class="jumbotron mr-3">Our bibliography contains more than 1650
 			references of articles, reports or documents mentioning the
@@ -94,7 +94,7 @@
 			contact us if you think some references are missing.
 			</div>
 					<?php
-    }
+    } 
     if ($submit == "Search") {
         // ------------year-----------------
         
@@ -193,6 +193,7 @@ IF(`eraPapers`.Year IS NULL or `eraPapers`.Year='', 1, 0)AS yearnull ,
         // echo $query;
         $link = LogAsGuest();
         //echo ($query);
+        $OldYear = "";
         $resultk2 = mysqli_query($link,$query);
         if (! $resultk2) {
             print("query failed");
@@ -212,67 +213,67 @@ IF(`eraPapers`.Year IS NULL or `eraPapers`.Year='', 1, 0)AS yearnull ,
                  * $OldYear = "";
                  * }
                  */
-                if ($rowk2[Year] != $OldYear) {
+                if ($rowk2['Year'] != $OldYear) {
                     
-                    if ($rowk2[yearnull] == "1") {
+                    if ($rowk2['yearnull'] == "1") {
                         echo ("\n<p><b><i>In Preparation</i></b></p>\n<ul>");
-                        $OldYear = $rowk2[Year];
+                        $OldYear = $rowk2['Year'];
                     } else {
                         if ($OldYear != "") {
                             echo ("\n </ul>\n");
                         }
                         echo ("\n<p><b><i>$rowk2[Year]</i></b></p>\n<ul>");
-                        $OldYear = $rowk2[Year];
+                        $OldYear = $rowk2['Year'];
                     }
                 }
                 $ReferenceLine = "";
-                $ReferenceLine = $ReferenceLine . "\n<li class=\"nicelist\"> $rowk2[Authors] ";
-                if ($rowk2[Year]) {
-                    $ReferenceLine = $ReferenceLine . "($rowk2[Year])";
+                $ReferenceLine = $ReferenceLine . "\n<li class=\"nicelist\"> ".$rowk2['Authors'] ;
+                if ($rowk2['Year']) {
+                    $ReferenceLine = $ReferenceLine . "(".$rowk2['Year'].")";
                 }
-                if ($rowk2[Title]) {
-                    $ReferenceLine = $ReferenceLine . " \"$rowk2[Title]\"";
+                if ($rowk2['Title']) {
+                    $ReferenceLine = $ReferenceLine . " \"".$rowk2['Title']."\"";
                 }
                 if ($rowk2[Journal]) {
-                    $ReferenceLine = $ReferenceLine . ", <i>$rowk2[Journal]</i>";
+                    $ReferenceLine = $ReferenceLine . ", <i>".$rowk2['Journal']."</i>";
                 }
                 if ($rowk2[Volume]) {
-                    $ReferenceLine = $ReferenceLine . ", <b>$rowk2[Volume]</b>";
+                    $ReferenceLine = $ReferenceLine . ", <b>".$rowk2['Volume']."</b>";
                 }
                 if ($rowk2[Issue]) {
-                    $ReferenceLine = $ReferenceLine . ", ($rowk2[Issue])";
+                    $ReferenceLine = $ReferenceLine . ", (".$rowk2['Issue'].")";
                 }
                 if ($rowk2[Pages]) {
-                    $ReferenceLine = $ReferenceLine . ", $rowk2[Pages]";
+                    $ReferenceLine = $ReferenceLine . ", ".$rowk2['Pages'];
                 }
                 $link = 0;
-                if (strlen(trim($rowk2[eradocDOI])) > 1) {
-                    $ReferenceLine = $ReferenceLine . "<br /> <b>DOI: <a target = \"_blank\" href=\"$rowk2[eradocDOI]\" >$rowk2[eradocDOI]</a></b>";
+                if (strlen(trim($rowk2['eradocDOI'])) > 1) {
+                    $ReferenceLine = $ReferenceLine . "<br /> <b>DOI: <a target = \"_blank\" href=\"".$rowk2['eradocDOI']."\" >".$rowk2['eradocDOI']."</a></b>";
                     $link = 1;
-                } else if (strlen(trim($rowk2[eRAGRID])) > 1) {
-                    $ReferenceLine = $ReferenceLine . "<br /> <b>eRAdocID: <a target = \"_blank\" href=\"http://www.era.rothamsted.ac.uk/eradoc/article/$rowk2[eRAGRID]\" >$rowk2[eRAGRID]</a></b>";
+                } else if (strlen(trim($rowk2['eRAGRID'])) > 1) {
+                    $ReferenceLine = $ReferenceLine . "<br /> <b>eRAdocID: <a target = \"_blank\" href=\"http://www.era.rothamsted.ac.uk/eradoc/article/".$rowk2['eRAGRID']."\" >".$rowk2[eRAGRID]."</a></b>";
                     $link = 1;
-                } else if (strlen(trim($rowk2[PaperDOI])) > 1) {
-                    $ReferenceLine = $ReferenceLine . "<br /> <b>DOI: <a target = \"_blank\" href=\"http://dx.doi.org/$rowk2[PaperDOI]\" >$rowk2[PaperDOI]</a></b>";
+                } else if (strlen(trim($rowk2['PaperDOI'])) > 1) {
+                    $ReferenceLine = $ReferenceLine . "<br /> <b>DOI: <a target = \"_blank\" href=\"http://dx.doi.org/".$rowk2['PaperDOI']."\" >".$rowk2['PaperDOI']."</a></b>";
                     $link = 1;
-                } else if (strlen(trim($rowk2[URL])) > 1 && ! strstr(trim($rowk2[URL]), '<')) {
+                } else if (strlen(trim($rowk2['URL'])) > 1 && ! strstr(trim($rowk2['URL']), '<')) {
                     
                     $link = 1;
                     
                     $ReferenceLine = $ReferenceLine . "<br /> <b>URL: <A HREF=\"$rowk2[URL]\" >$rowk2[URL]</a></b>";
                 }
                 if ($link == 0) {
-                    $title = urlencode($rowk2[Title]);
+                    $title = urlencode($rowk2['Title']);
                     $ReferenceLine = $ReferenceLine . "<br /> <b><A HREF=\"https://scholar.google.co.uk/scholar?hl=en&q=" . $title . "\" >Search Google Scholar</a></b>";
                 }
                 
-                if ($rowk2[Comment]) {
+                if ($rowk2['Comment']) {
                     if ($Summary == "on") {
-                        $ReferenceLine = $ReferenceLine . "<br /><small> $rowk2[Comment]</small>";
+                        $ReferenceLine = $ReferenceLine . "<br /><small> ".$rowk2['Comment']."</small>";
                     }
                 }
                 
-                $ReferenceLine = $ReferenceLine . " ($rowk2[RefType]) </li>";
+                $ReferenceLine = $ReferenceLine . " (".$rowk2['RefType'].") </li>";
                 echo $ReferenceLine;
                 $i ++;
             }

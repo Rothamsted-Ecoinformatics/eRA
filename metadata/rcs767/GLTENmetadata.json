@@ -347,7 +347,7 @@
     "data_policy_url": null,
     "data_license_label": "CC BY",
     "data_contact": null,
-    "farm_operations_data": true,
+    "farm_operations_data": false,
     "sample_archive": true,
     "samples_available": true,
     "data_access_statement": null

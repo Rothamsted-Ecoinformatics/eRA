@@ -11,7 +11,7 @@
  * 
  * 
  */
-include_once 'includes/init.inc'; // these are the settings that refer to more than one page
+include_once 'includes/init.php'; // these are the settings that refer to more than one page
 
 if (! isset($expt)) {
     $expt = 'rbk1';
@@ -208,10 +208,10 @@ $inDet = array(
                             "bms"
                         );
 if ($displayDatasets > 0) {
-   
+	
                         //include '_datasets.php';
 						include '_datasets.php';
-                        echo  "<div class=\"mx-3\">Additional data is available through e-RAdata. Please <a href=\"newGold.php\" >register for access</a>.  </div>";
+						echo  "<div class=\"mx-3\">Additional data is available through e-RAdata. Please <a href=\"newGold.php\" >register for access</a>.  </div>";
 } else if ($displayDatasets == 0) {
 						
                         
@@ -255,7 +255,7 @@ For more information please <a href=\"mailto:era@rothamsted.ac.uk\">contact the 
 							<div class="mx-3">
 							
 							<?php
-    
+
 
     include $fileDocs;
 
@@ -302,7 +302,7 @@ For more information please <a href=\"mailto:era@rothamsted.ac.uk\">contact the 
                 ?>        
         	
         	        <?php
-
+                
                 include_once 'includes/finish.inc'; // this has the common js scripts
 
                 ?>

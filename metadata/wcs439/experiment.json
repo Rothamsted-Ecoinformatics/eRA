@@ -6,15 +6,15 @@
         "name": "Metal Salts Experiment",
         "url": null,
         "description": "Enables the comparison of metal concentrations (zinc, copper and cadmium) at 3 rates applied as metal salts and with no additional organic matter. \nPeriodic soil and plant samples are available in the Rothamsted Sample Archive. \nThis experiment is part of a network of 3 sites across the UK and can also be compared with related Contaminated Sludge Cake Experiment and Metal Amended Liquid Sludge Experiment, also at Woburn.",
-        "disambiguatingDescription": "To study the effects of zinc, copper and cadmium as metal salts on soil microbial activity"
+        "disambiguatingDescription": "To study the effects of zinc, copper and cadmium as metal salts on soil microbial activity."
     },
     "dataAccess": {
         "type": "creativeWork",
         "conditionsOfAccess": "Available to any researcher on request",
         "isAccessibleForFree": "YesOffline",
         "publishingPrinciples": null,
-        "actionableFeedbackPolicy": "To study the effects of zinc, copper and cadmium as metal salts on soil microbial activity",
-        "correctionsPolicy": "To study the effects of zinc, copper and cadmium as metal salts on soil microbial activity",
+        "actionableFeedbackPolicy": "To study the effects of zinc, copper and cadmium as metal salts on soil microbial activity.",
+        "correctionsPolicy": "To study the effects of zinc, copper and cadmium as metal salts on soil microbial activity.",
         "unnamedSourcesPolicy": null
     },
     "license": {

@@ -28,7 +28,7 @@ if (isset($_POST['FileName'])) {
  * At the moment, we use FileName
  */
 
-include_once 'includes/init.inc'; // these are the settings that refer to more than one page
+include_once 'includes/init.php'; // these are the settings that refer to more than one page
 
 $page = 'index';
 if (isset($_POST['page'])) {

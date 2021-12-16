@@ -15,7 +15,7 @@
 $expt = 'default';
 
 
-include_once 'includes/init.inc'; // these are the settings that refer to more than one page
+include_once 'includes/init.php'; // these are the settings that refer to more than one page
 /**
  * pageinfo will have the values for the Title or the pages, experiment or farm keyword.
  * The array is in settings.inc at the moment but we would also provide this using a json file or calling db.

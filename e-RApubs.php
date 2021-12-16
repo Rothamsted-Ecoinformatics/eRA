@@ -8,7 +8,7 @@
  * This form search the bibliography database. 
  * @date 9/27/2018
  */
-include_once 'includes/init.inc'; // these are the settings that refer to more than one page
+include_once 'includes/init.php'; // these are the settings that refer to more than one page
 
 $page_title .= " - eRApubs";
 

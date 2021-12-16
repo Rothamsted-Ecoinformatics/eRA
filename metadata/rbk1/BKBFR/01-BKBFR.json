@@ -1,0 +1,332 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/rbk1-bfr-01",
+    "name": "Broadbalk Wheat Experiment brown foot rot (Fusarium spp.) 1992-2009",
+    "shortName": "BKBFR",
+    "url": "http://www.era.rothamsted.ac.uk/dataset/rbk1/01-BKBFR",
+    "description": [
+        {
+            "inLanguage": "en",
+            "descriptionType": "Abstract",
+            "description": "This dataset contains scores of Brown Foot Rot (BFR) caused by _Fusarium_  spp., from the Broadbalk wheat experiment, with associated grain yield at harvest, 1992-2009. BFR infection varied a lot from year to year, possibly due to variation in winter and spring temperature and rainfall. Infection was greatest in 3rd wheats and continuous wheat, and least in 1st wheats. Fertilizer application rates influenced infection, with the lowest rates in plots where one or more nutrients was missing (plots 10 and 11). The plots treated with the most nitrogen (plots 15 and 21) had the highest BFR scores, as also reported for Broadbalk by Glynne (1969) and in dilution plating studies by Bateman and Coskun (1995) and Snyder and Nash (1968).  \r\n\r\nThis dataset was assembled by Amisha Pradhan in summer 2021 as part of the Nuffield Research Placements Summer Studentship scheme."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Methods",
+            "description": "The scores are percentages of straws infected with slight or severe BFR, on the day assessed. Plants were scored each summer (June or July), 1992-2009, from six contrasting plots (7, 10, 11, 13, 15 and 21) and four sections: \r\n- **Section 9:** continuous wheat each since 1843, except for occasional fallow years (no crop) to control weeds, the last in 1958\r\n- **Sections 2-5 & 7:** the first, second and third wheat crops in a five year rotation with two other crops. See Table of Contents and Broadbalk plan and cropping 1968-2017 for details."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TableOfContents",
+            "description": "BFR slight and severe scores and grain yields from 1992-2009 from the following plots, from Section 9 (continuous winter wheat) and sections 2-5 & 7 (wheat in rotation):\r\n- **Plot 7:** N2PKMg until 2000 / N2(P)KMg since 2001\r\n- **Plot 10:** N2 until 2000 /N4 since 2001 \r\n- **Plot 11:**  N2P until 2000 / N4PMg since 2001\r\n- **Plot 13:**  N2PK until 2000 / N4PK since 2001\r\n- **Plot 15:**  N5PKMg until 2000 / N5(P)KMg since 2001\r\n- **Plot 2.1:** 35t FYM since 1885 + N2 1968 until 2004 / FYM + N3 since 2005\r\nSee Broadbalk Wheat Experiment plan and cropping 1968-2017 for full details of fertilizer treatments."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TechnicalInfo",
+            "description": "Data is also available from earlier years, but not from all plots and sections, so this sub-set was selected as it contains 24 samples for each year (6 plots x 4 sections).   Grain yield is at 85% dry matter, at harvest."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Provenance",
+            "description": "- Disease data is from the dataset BKDISEASE in the e-Radatabase. \r\n- Grain yield data is from the dataset BKYIELD_R85."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Quality",
+            "description": "In accordance with the Joint Code of Practice for Research at Rothamsted, data processing in e-RA follow rigorous standard operating procedures to ensure the quality and correctness of data collected in the field through to depositing in the e-RA database. To ensure quality control during data inputting, the data sets were typed on two separate occasions (double data entry). During the second typing (verification) the data values were compared with those typed on the earlier occasion, and any discrepancies were resolved before verification continued. This procedure also set out how to handle situations where the written records were illegible or ambiguous. This procedure avoided visual checking of data, which can be very inaccurate. Once the data were entered into e-RA, they were independently back-checked against the original data sheets."
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "publication_year": 2021,
+    "dateCreated": "2021-09-10",
+    "dateModified": null,
+    "datePublished": null,
+    "inLanguage": "en",
+    "version": "1",
+    "keywords": [
+        "Broadbalk long-term experiment",
+        "long term experiments",
+        "Rothamsted Research",
+        "crop yield",
+        "cropping system",
+        "plant fungal diseases",
+        "Fusarium spp",
+        "Plant footrot"
+    ],
+    "creator": [
+        {
+            "type": "Person",
+            "Name": "Amisha Pradhan",
+            "givenName": "Amisha",
+            "familyName": "Pradhan",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Nuffield Research Placements",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Nuffield Research Placements",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Other",
+            "name": "Amisha Pradhan",
+            "givenName": "Amisha",
+            "familyName": "Pradhan",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Nuffield Research Placements",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Nuffield Research Placements",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Richard Gutteridge",
+            "givenName": "Richard",
+            "familyName": "Gutteridge",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells-Brooke",
+            "givenName": "Nathalie",
+            "familyName": "Castells-Brooke",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectManager",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License"
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.37301,
+            "latitude": 51.80946
+        },
+        "name": "Broadbalk"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/rbk1-plan1968-2017-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk Wheat Experiment plan and cropping 1968-2017",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-34924",
+            "relatedIdentifierType": "DOI",
+            "name": "Glynne (1969) Fungus diseases of wheat on Broadbalk",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.1016/S0007-1536(68)80009-9",
+            "relatedIdentifierType": "DOI",
+            "name": "Snyder & Nash (1968) Relative incidence of Fusarium in cereals in rotation plots at Rothamsted",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.1016/S0953-7562(09)81227-6",
+            "relatedIdentifierType": "DOI",
+            "name": "Bateman & Coskun (1995) Populations of Fusarium spp in soil growing continuous wheat",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        }
+    ],
+    "funder": [
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/00005189 - The Rothamsted Long-Term Experiments including Sample Archive and e-RA database",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F00005189"
+        },
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/000J0300 - The Rothamsted Long - Term Experiments - National Capability",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F000J0300"
+        }
+    ],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Broadbalk Wheat Experiment brown foot rot 1992-2009",
+            "URL": "01-BKBFR.pdf",
+            "encodingFormat": "pdf",
+            "fileSize": "68 KB"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Broadbalk Wheat Experiment brown foot rot 1992-2009 data",
+            "URL": "01-BKBFR-data.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "53 KB"
+        }
+    ],
+    "image": [
+        {
+            "type": "imageObject",
+            "caption": "Broadbalk Wheat Experiment brown foot rot 1992-2009",
+            "URL": "01-BKBFR.png",
+            "encodingFormat": "png",
+            "fileSize": "99 KB"
+        }
+    ],
+    "grade": 1,
+    "isExternal": 0,
+    "dstype": "OA"
+}

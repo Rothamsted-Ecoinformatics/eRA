@@ -1,0 +1,23 @@
+[
+    {
+        "md_id": 1975662429,
+        "title": "Highfield Bare Fallow soil organic carbon and total nitrogen content 1959-2014",
+        "URL": "http://www.era.rothamsted.ac.uk/dataset/rrs1/01-SOILCN5914",
+        "identifier": "10.23637/rrs1-soilcn1959-2014",
+        "identifier_type": "DOI",
+        "dataset_type": "Soil data",
+        "extension": "xlsx",
+        "description": "Soil organic carbon (SOC) and total nitrogen (N) sub-plot data from the Highfield Bare Fallow experiment, 1959-2014. The experiment was ploughed out of old grassland in 1959 and has been kept in bare fallow since by cultivation to suppress weeds. No crops are grown. SOC and total N as % and soil stock data.",
+        "fieldname": "Highfield",
+        "experiment_name": "Highfield Bare Fallow",
+        "experiment_code": "R/RS/1",
+        "grade": 1,
+        "dstype": "Other",
+        "publication_year": 2021,
+        "version": "01",
+        "isReady": 1,
+        "isExternal": 0,
+        "shortName": "SOILCN5914",
+        "UID": "01-SOILCN5914"
+    }
+]
