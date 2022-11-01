@@ -68,8 +68,8 @@
             "crops": [
                 {
                     "id": 11362,
-                    "crop_term": null,
-                    "crop_label": "lucerne",
+                    "crop_term": "Medicago sativa",
+                    "crop_label": "alfalfa",
                     "start_year": null,
                     "end_year": null
                 },
@@ -233,8 +233,8 @@
             "crops": [
                 {
                     "id": 11367,
-                    "crop_term": null,
-                    "crop_label": "lucerne",
+                    "crop_term": "Medicago sativa",
+                    "crop_label": "alfalfa",
                     "start_year": null,
                     "end_year": null
                 },
@@ -441,8 +441,8 @@
             "crops": [
                 {
                     "id": 11377,
-                    "crop_term": null,
-                    "crop_label": "lucerne",
+                    "crop_term": "Medicago sativa",
+                    "crop_label": "alfalfa",
                     "start_year": null,
                     "end_year": null
                 },
@@ -504,8 +504,8 @@
                 },
                 {
                     "id": 11386,
-                    "crop_term": null,
-                    "crop_label": "hay",
+                    "crop_term": "feed grasses",
+                    "crop_label": "feed grasses",
                     "start_year": null,
                     "end_year": null
                 }

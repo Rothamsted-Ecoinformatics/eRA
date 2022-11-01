@@ -12,7 +12,7 @@
 <h2 class="mx-3">Datasets available</h2>
 
 
-<div class="row equal m-3">
+
 	
 	
 
@@ -80,11 +80,25 @@ if (! $hasDatasets) {
      */
     $gpDS = group_by('dataset_type', $datasets);
 
+    $list .= "\n<div class=\"table-responsive-sm mx-3 rounded p-3 mb-3\">";
+        $list .= "\n\n<table class = \"table  table-responsive-sxm table-sm bg-white table-bordered  table-condensed\">";
+        $list .= "\n<thead class=\"thead-light\">\n\t<tr>";
+        
+        $list .= "\n\t\t<th scope=\"col\">Title <small>(hover for a longer description)</small></th>";
+        $list .= "\n\t\t<th scope=\"col\">Year of Publication</th>";
+        $list .= "\n\t\t<th scope=\"col\">Type</th>";
+        $list .= "\n\t\t<th scope=\"col\">DOI or Link</th>";
+        $list .= "\n\t\t<th scope=\"col\">Version </th>";
+        $list .= "\n\t</tr>\n</thead>\n<tbody>";
+
     foreach ($gpDS as $groupName => $groupedDatasets) {
         
         $notEmptyGr = 0;
-        $listGr = "<h4 class=\"mt-3\">" . $groupName . "</h4>";
-        $listGr .= "<div class=\"row\">";
+        
+        $listGr = "<tr>";
+        $listGr .= "\n    \t     \t <td colspan=\"4\" class=\"pr-4 \">\n\t<h3 class=\"mt-3 text-primary\">\n\t".$groupName."</h3></td>";
+        $listGr .= "</tr>";
+
         
         foreach ($groupedDatasets as $dataset) {
             if ($dataset['isReady'] >  $displayValue) {
@@ -106,9 +120,29 @@ if (! $hasDatasets) {
                 } else {
                     $strCount = strval($countVersion);
                 }
-                $info = "<div class=\"col-sm-4 py-2\">";
+
+
+
+                $info  = "\n    \t  <tr>";
                 
+                $info .= "\n    \t     \t <td class=\"px-4 \"><b>".$dataset['title']." </b><i class=\"bi bi-file-text\"  title=\"". $subDescription   ."\">
+                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-file-text\" viewBox=\"0 0 16 16\">
+                <path d=\"M5 4a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1H5z\"/>
+                <path d=\"M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z\"/>
+              </svg></i>";
+              $datasetCheckURL = "";
+              if ($dataset['isReady'] == 1  ) {
+                $info.=$checkThisOne;
+                $datasetCheckURL = "<br /><B class=\"text-warning\">DRAFT VERSION</B><br /> <a  href=\"dataset/".$expt."/". $dataset['version']."-".$dataset['shortName'] . "\">dataset/".$expt."/". $dataset['version']."-".$dataset['shortName'] . "</a>";
+            }
+                $info.="</td>";
+                $info .= "\n    \t     \t <td class=\"pr-4 \">".$dataset['publication_year']."</td>";
+                $info .= "\n    \t     \t <td class=\"pr-4 \">".$dataset['dstype']."</td>";
+                $info .= "\n    \t     \t <td class=\"pr-4 \"><a  href=\"dataset/".$expt."/". $dataset['version']."-".$dataset['shortName'] . "\">". $dataset['identifier']."</a>".$datasetCheckURL." </td>";
+                $info .= "\n    \t     \t <td class=\"pr-4 \">". $dataset['version']."</a></td>";
+                $info .= "\n    \t  </tr>";
                 
+                /*
                 $info .= "\n	<div class=\"card  h-100 bg-light mb-3 \" >";
                 
                 $info .= "\n	\t	<div class=\"card-header\">" . $dataset['title'] . "</div>";
@@ -133,15 +167,16 @@ if (! $hasDatasets) {
                 }
             }
         }
+
+        
         if ($notEmptyGr == 1) {
             $list .= $listGr;
-            $list .= "</div>";
+            
         }
+
     }
+    $list .= "</table></div>";
     echo $list;
 }
 
 ?>
-
-
-</div>

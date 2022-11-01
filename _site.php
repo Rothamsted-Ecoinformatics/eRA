@@ -72,31 +72,31 @@ function getProperties($site)
     $line .= "<li class=\"list-group-item \" ><b>Experiment Site: </b>";
     $line .= "<a href=\"site/".strtolower($stationName)."\">".$stationName."</a>";
     $line .= "</li>";
-    if ($site['administrative']['doi']) {
-        $line .= "\n<li class=\"list-group-item \"><b>DOI:</b> <a href=\"http://doi.org/" . $site['administrative']['doi'] . "\">" . $site['administrative']['doi'] . "</li>";
+    if (isset($site['administrative']['doi'])) {
+        $line .= "\n<li class=\"list-group-item \"><b>DOI:</b> <a href=\"https://doi.org/" . $site['administrative']['doi'] . "\">" . $site['administrative']['doi'] . "</li>";
     }
-    if ($site['administrative']['description']) {
+    if (isset($site['administrative']['description'])) {
         $line .= "\n<li class=\"list-group-item \" style=\"white-space: pre-wrap;\" ><b>Description:</b> " . $site['administrative']['description'] . "</li>";
     }
-    if ($site['administrative']['management']) {
+    if (isset($site['administrative']['management'])) {
         $line .= "\n<li class=\"list-group-item \" style=\"white-space: pre-wrap;\" ><b>Management:</b> " . $site['administrative']['management'] . "</li>";
     }
 
-    if ($site['administrative']['visitsAllowed']) {
+    if (isset($site['administrative']['visitsAllowed'])) {
 
         $line .= "\n<li class=\"list-group-item \"><b>Visit Permitted?:</b> ".$site['administrative']['visitsAllowed']." </li>";
 
-        if ($site['administrative']['visitingArrangements']) {
+        if (isset($site['administrative']['visitingArrangements'])) {
             $line .= "\n<li class=\"list-group-item \" style=\"white-space: pre-wrap;\" ><b>Visiting Arrangments:</b> " . $site['administrative']['visitingArrangements'] . "</li>";
         }
     }
-    if ($site['location']['elevation']) {
+    if (isset($site['location']['elevation'])) {
         $line .= "\n<li class=\"list-group-item \"><b>Elevation:</b> " . $site['location']['elevation'] . " " . $site['location']['elevationUnit'] . "</li>";
     }
-    if ($site['location']['slope']) {
+    if (isset($site['location']['slope'])) {
         $line .= "\n<li class=\"list-group-item \"><b>Slope:</b> " . $site['location']['slope'] . "</li>";
     }
-    if ($site['location']['slopeAspect']) {
+    if (isset($site['location']['slopeAspect'])) {
         $line .= "\n<li class=\"list-group-item \"><b>Slope:</b> " . $site['location']['slopeAspect'] . "</li>";
     }
 

@@ -30,8 +30,8 @@
             },
             {
                 "id": 10803,
-                "name": "permanent native grassland mown once a year",
-                "sameAs": "permanent native grassland mown once a year",
+                "name": "grass",
+                "sameAs": "grass",
                 "dateStart": null,
                 "dateEnd": null
             },

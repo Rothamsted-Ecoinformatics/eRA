@@ -6,11 +6,21 @@ $page_description = "e-RA provides a permanent managed database for secure stora
 $page_keywords = "experiments, long term experiments, agriculture, datasets, research, fields, yields, weather";		
 
 But each page recalculate them depending on context
+reCapcha as in https://www.youtube.com/watch?v=zeEtA0sFkDA 
  -->
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WD421B8GSN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WD421B8GSN');
+</script>
 <title><?php echo $page_title;?>
 </title>
 <base href="<?php echo $base;?>" />
-
+<meta charset="ISO-8859-1">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1 , shrink-to-fit=no" />
 <meta name="description"
@@ -53,5 +63,10 @@ But each page recalculate them depending on context
 <link rel="stylesheet" href="css/bootstrap-select-country.min.css" />
 <script src='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js'></script>
 <link href='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' />
-
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<script>
+	function onSubmit(token) {
+	  document.getElementById("registration-form").submit();
+	}
+</script>
 

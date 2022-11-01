@@ -22,7 +22,7 @@
 
 	</div>
 	<div class="row p-3 m-3">
-		<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+		<!-- div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
 			<div class="card mt-3 text-center border-0">
 
 
@@ -48,8 +48,8 @@
 
 				</div>
 			</div>
-		</div>
-		<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+		</div -->
+		<!-- div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
 			<div class="card mt-3 text-center border-0">
 				<div class="h-100 zoom  zoom">
 					<picture>
@@ -76,7 +76,7 @@
 				</div>
 
 			</div>
-		</div>
+		</div -->
 		<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
 			<div class="card mt-3 text-center border-0">
 				<div class="h-100 zoom ">
@@ -191,7 +191,7 @@
 	</div>
 
 	<div class="row p-3 m-3">
-		<div class="col-sm-0 col-md-0 col-lg-0 col-xl-2 mb-3"></div>
+		
 		<div class="col-sm-6 col-md-3 col-lg-3 col-xl-2 mb-3">
 			<div class="card mt-3 text-center border-0">
 				<div class="h-100 zoom ">
@@ -218,27 +218,27 @@
 				</div>
 			</div>
 		</div>
-
+		
 		<div class="col-sm-6 col-md-3 col-lg-3 col-xl-2 mb-3">
 			<div class="card mt-3 text-center border-0">
 				<div class="h-100 zoom ">
 					<picture>
 					<source media="(min-width: 576px)"
-						srcset="images/people/Pages/andy-macdonald.jpg">
+						srcset="images/people/Pages/andy-gregory.jpg">
 					<source media="(min-width: 1200 px)"
-						srcset="images/people/Thumbs/andy-macdonald.jpg">
+						srcset="images/people/Thumbs/andy-gregory.jpg">
 					<a target="_blank"
-						href="https://www.rothamsted.ac.uk/our-people/andy-macdonald"><img
+						href="https://www.rothamsted.ac.uk/our-people/andy-gregory"><img
 						class="card-img-top rounded-circle"
-						src="images/people/FullSize/andy-macdonald.jpg"
-						alt="Andy Macdonald" style="width: 100%"> </a></picture>
+						src="images/people/FullSize/andy-gregory.jpg"
+						alt="Andy Gregory" style="width: 100%"> </a></picture>
 
 				</div>
 				<div class="card-body text-top">
 					<h6 class="card-title">
 						<a class="text-warning" target="_blank"
-							href="https://www.rothamsted.ac.uk/our-people/andy-macdonald">Andy
-							Macdonald</a>
+							href="https://www.rothamsted.ac.uk/our-people/andy-gregory">Andy
+							Gregory</a>
 					</h6>
 					<p class="card-text small">Project leader</p>
 

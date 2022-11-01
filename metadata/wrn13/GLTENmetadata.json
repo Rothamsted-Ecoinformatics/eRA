@@ -1,10 +1,10 @@
 {
-    "id": 2521,
+    "id": 5252,
     "experiment_type_term": null,
     "experiment_id": 76,
     "people": [
         {
-            "id": 3527,
+            "id": 5964,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -15,27 +15,27 @@
             "title": "Dr",
             "name": "Margaret Glendining",
             "affiliation": "Rothamsted Research",
-            "department": "Computational and Analytical Sciences",
+            "department": "Research Data and Systems",
             "orcid": "https://orcid.org/0000-0002-6466-4629",
             "is_contact": true,
             "role_label": "data manager"
         },
         {
-            "id": 3528,
+            "id": 5965,
             "contacts": [],
             "role_term": null,
             "title": "Dr",
-            "name": "Andy Macdonald",
+            "name": "Andy Gregory",
             "affiliation": "Rothamsted Research",
-            "department": "Sustainable Agricultural Sciences - Harpenden",
-            "orcid": null,
+            "department": "Protecting Crops and the Environment",
+            "orcid": "https://orcid.org/0000-0001-7123-0784",
             "is_contact": false,
             "role_label": null
         }
     ],
     "organizations": [
         {
-            "id": 2559,
+            "id": 5653,
             "contacts": [],
             "role_term": "research organisation",
             "name": "Rothamsted Research",
@@ -46,25 +46,136 @@
     ],
     "periods": [
         {
-            "id": 3749,
-            "design_type_term": "Demonstration strip design",
+            "id": 7276,
+            "design_type_term": "Split-plot",
             "crops": [
                 {
-                    "id": 10445,
-                    "crop_term": null,
+                    "id": 20532,
+                    "crop_term": "spring barley",
+                    "crop_label": "spring barley",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 20533,
+                    "crop_term": "winter wheat",
                     "crop_label": "winter wheat",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 20534,
+                    "crop_term": "grass leys",
+                    "crop_label": "grass leys",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 20535,
+                    "crop_term": "potatoes",
+                    "crop_label": "potatoes",
                     "start_year": null,
                     "end_year": null
                 }
             ],
-            "rotations": [],
-            "factors": [],
+            "rotations": [
+                {
+                    "id": 5656,
+                    "phases": [
+                        {
+                            "crop_id": 20534,
+                            "notes": null,
+                            "same_phase": false
+                        },
+                        {
+                            "crop_id": 20535,
+                            "notes": null,
+                            "same_phase": false
+                        },
+                        {
+                            "crop_id": 20532,
+                            "notes": null,
+                            "same_phase": false
+                        },
+                        {
+                            "crop_id": 20532,
+                            "notes": null,
+                            "same_phase": false
+                        },
+                        {
+                            "crop_id": 20532,
+                            "notes": null,
+                            "same_phase": false
+                        }
+                    ],
+                    "name": "barley rotation",
+                    "phasing": "Complete",
+                    "start_year": 1966,
+                    "end_year": null,
+                    "is_treatment": true
+                },
+                {
+                    "id": 5657,
+                    "phases": [
+                        {
+                            "crop_id": 20534,
+                            "notes": null,
+                            "same_phase": false
+                        },
+                        {
+                            "crop_id": 20535,
+                            "notes": null,
+                            "same_phase": false
+                        },
+                        {
+                            "crop_id": 20533,
+                            "notes": null,
+                            "same_phase": false
+                        },
+                        {
+                            "crop_id": 20533,
+                            "notes": null,
+                            "same_phase": false
+                        },
+                        {
+                            "crop_id": 20533,
+                            "notes": null,
+                            "same_phase": false
+                        }
+                    ],
+                    "name": "wheat rotation",
+                    "phasing": null,
+                    "start_year": 1966,
+                    "end_year": null,
+                    "is_treatment": true
+                }
+            ],
+            "factors": [
+                {
+                    "id": 11997,
+                    "factor_term": "nitrogen fertilizer exposure",
+                    "levels": [],
+                    "factor_label": "nitrogen fertilizer exposure",
+                    "description": "4 rates of N fertilizer.  63 v 126 v 188 v 251 kgN/ha wheat. 50 v 100 v 150 v 200 kgN/ha barley.",
+                    "plot_application": null,
+                    "effect": ""
+                },
+                {
+                    "id": 11998,
+                    "factor_term": "magnesium nutrient exposure",
+                    "levels": [],
+                    "factor_label": "magnesium nutrient exposure",
+                    "description": "Magnesium as Epsom salts applied to sub-sub-plots on wheat blocks only, 1968 and 1969. 0 v 182 kg MgO.",
+                    "plot_application": null,
+                    "effect": ""
+                }
+            ],
             "factor_combinations": [],
             "measurements": [
                 {
                     "material": "AllCrops",
                     "crop_id": null,
-                    "comment": "Grain and straw yields at field moisture content, approximately 85% dry matter.",
+                    "comment": "Grain and straw yields at field moisture content, approximately 85% dry matter. Grass yields (1 year ley). Potato yields, tubers",
                     "collection_frequency": "annually",
                     "variable_label": "yield components",
                     "variable_term": "yield components",
@@ -73,172 +184,8 @@
                     "scale": null
                 },
                 {
-                    "material": null,
+                    "material": "AllCrops",
                     "crop_id": null,
-                    "comment": "1883 onwards",
-                    "collection_frequency": "annually",
-                    "variable_label": "grain nitrogen content",
-                    "variable_term": null,
-                    "unit_label": "Percent",
-                    "unit_term": "%",
-                    "scale": null
-                },
-                {
-                    "material": "Soil",
-                    "crop_id": null,
-                    "comment": "Measured 5 times, in 1876, 1888, 1898, 1927 and 1932. Topsoil (0-23cm). Subsoil (23-46cm) measured in 192.",
-                    "collection_frequency": "occasionally",
-                    "variable_label": "soil pH",
-                    "variable_term": "soil pH",
-                    "unit_label": null,
-                    "unit_term": null,
-                    "scale": null
-                },
-                {
-                    "material": "Soil",
-                    "crop_id": null,
-                    "comment": "Measured 5 times, in 1876, 1888, 1898, 1927 and 1932. Topsoil (0-23cm).",
-                    "collection_frequency": "occasionally",
-                    "variable_label": "total soil nitrogen",
-                    "variable_term": "total soil nitrogen",
-                    "unit_label": "Percent",
-                    "unit_term": "%",
-                    "scale": null
-                },
-                {
-                    "material": "Soil",
-                    "crop_id": null,
-                    "comment": "Measured 5 times, in 1876, 1888, 1898, 1927 and 1932. Topsoil (0-23cm).",
-                    "collection_frequency": "occasionally",
-                    "variable_label": "soil total carbon",
-                    "variable_term": "soil total carbon",
-                    "unit_label": "Percent",
-                    "unit_term": "%",
-                    "scale": null
-                },
-                {
-                    "material": "Soil",
-                    "crop_id": null,
-                    "comment": "Measured 3 times, in 1888, 1898 and 1927. Topsoil (0-23cm). Ca, Mg, Na and K.",
-                    "collection_frequency": "occasionally",
-                    "variable_label": "exchangeable cations",
-                    "variable_term": null,
-                    "unit_label": null,
-                    "unit_term": null,
-                    "scale": null
-                },
-                {
-                    "material": null,
-                    "crop_id": null,
-                    "comment": "Also sowing and harvest dates",
-                    "collection_frequency": "annually",
-                    "variable_label": "crop variety",
-                    "variable_term": "crop variety",
-                    "unit_label": null,
-                    "unit_term": null,
-                    "scale": null
-                }
-            ],
-            "start_year": 1876,
-            "end_year": 1990,
-            "ongoing": false,
-            "name": "Continuous wheat experiment",
-            "design_type_label": "Demonstration strip design",
-            "number_of_blocks": null,
-            "number_of_plots": 22,
-            "number_of_subplots": null,
-            "number_of_replicates": 1,
-            "number_of_factor_combinations": null,
-            "number_of_harvests_per_year": 1,
-            "design_description": null,
-            "description": "Continuous winter wheat grown, to mirror the Broadbalk wheat experiment at Rothamsted. A range of fertilizer and manure treatments similar to those on Broadbalk, including unmanured, 1876-1926. From 1927-1940 no fertilizer or manure was applied. The experiment was fallowed in 1927, 1928, 1934 and 1935 to control weeds. A new scheme as started in 1943. The experiment finished in 1990.",
-            "factorial": false
-        },
-        {
-            "id": 3750,
-            "design_type_term": "Demonstration strip design",
-            "crops": [
-                {
-                    "id": 10446,
-                    "crop_term": "barley",
-                    "crop_label": "barley",
-                    "start_year": null,
-                    "end_year": null
-                }
-            ],
-            "rotations": [],
-            "factors": [],
-            "factor_combinations": [],
-            "measurements": [
-                {
-                    "material": "SpecifiedCrop",
-                    "crop_id": 10446,
-                    "comment": "Grain and straw yields at field moisture content, approximately 85% dry matter.",
-                    "collection_frequency": "annually",
-                    "variable_label": "yield components",
-                    "variable_term": "yield components",
-                    "unit_label": "tonnes per hectare",
-                    "unit_term": "t/ha",
-                    "scale": null
-                },
-                {
-                    "material": "SpecifiedCrop",
-                    "crop_id": 10446,
-                    "comment": "Since 1883",
-                    "collection_frequency": "annually",
-                    "variable_label": "grain nitrogen content",
-                    "variable_term": null,
-                    "unit_label": "Percent",
-                    "unit_term": "%",
-                    "scale": null
-                },
-                {
-                    "material": "Soil",
-                    "crop_id": null,
-                    "comment": "Measured five times in topsoil, 0-23cm  (1876, 1888, 1898, 1927 and 1932) and subsoil (23-46cm) in 1927.",
-                    "collection_frequency": "occasionally",
-                    "variable_label": "soil pH",
-                    "variable_term": "soil pH",
-                    "unit_label": null,
-                    "unit_term": null,
-                    "scale": null
-                },
-                {
-                    "material": "Soil",
-                    "crop_id": null,
-                    "comment": "Measured five times in topsoil, 0-23cm  (1876, 1888, 1898, 1927 and 1932)",
-                    "collection_frequency": "occasionally",
-                    "variable_label": "total soil nitrogen",
-                    "variable_term": "total soil nitrogen",
-                    "unit_label": "Percent",
-                    "unit_term": "%",
-                    "scale": null
-                },
-                {
-                    "material": "Soil",
-                    "crop_id": null,
-                    "comment": "Measured five times in topsoil, 0-23cm  (1876, 1888, 1898, 1927 and 1932)",
-                    "collection_frequency": "occasionally",
-                    "variable_label": "soil total carbon",
-                    "variable_term": "soil total carbon",
-                    "unit_label": "Percent",
-                    "unit_term": "%",
-                    "scale": null
-                },
-                {
-                    "material": "Soil",
-                    "crop_id": null,
-                    "comment": "Exchangeable cations Ca, Mg, Na, and K 1888, 1898 and 1927.",
-                    "collection_frequency": "occasionally",
-                    "variable_label": "Exchangeable cations",
-                    "variable_term": null,
-                    "unit_label": null,
-                    "unit_term": null,
-                    "scale": null
-                },
-                {
-                    "material": "SpecifiedCrop",
-                    "crop_id": 10446,
                     "comment": "Also sowing and harvest dates.",
                     "collection_frequency": "annually",
                     "variable_label": "crop variety",
@@ -246,21 +193,43 @@
                     "unit_label": null,
                     "unit_term": null,
                     "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "Eyespot and Take-all assessment on wheat and barley.",
+                    "collection_frequency": null,
+                    "variable_label": "disease assessment data",
+                    "variable_term": "disease assessment data",
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": null,
+                    "collection_frequency": null,
+                    "variable_label": "soil organic carbon",
+                    "variable_term": "soil organic carbon",
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
                 }
             ],
-            "start_year": 1876,
-            "end_year": 1926,
+            "start_year": 1966,
+            "end_year": 1990,
             "ongoing": false,
-            "name": "Continuous barley experiment",
-            "design_type_label": "Demonstration strip design",
+            "name": "Woburn Intensive Cereals",
+            "design_type_label": "Split-plot",
             "number_of_blocks": null,
-            "number_of_plots": 26,
-            "number_of_subplots": null,
+            "number_of_plots": 6,
+            "number_of_subplots": 4,
             "number_of_replicates": 1,
             "number_of_factor_combinations": null,
             "number_of_harvests_per_year": 1,
-            "design_description": null,
-            "description": "Continuous barley grown, to mirror the Hoosfield barley experiment at Rothamsted. A range of fertilizer and manure treatments similar to those on Hoosfield, including unmanured, 1876-1926. From 1927-1940 no fertilizer or manure was applied. The experiment was fallowed in 1927, 1928, 1934 and 1935 to control weeds. A new scheme as started in 1943. The experiment finished in 1990.",
+            "design_description": "2 blocks of 6 whole plots each split into 4 sub-plots (8 in certain years). Wheat in one block, barley in the other. Sub-plots received 4 N rates. Sub-sub-plots received with and without MgO as Epsom salts (wheat only).",
+            "description": "Continuous wheat or barley and each phase of a five-course rotation of 1-year ley, potatoes and three years of either wheat or barley, with 4 N rates.",
             "factorial": false
         }
     ],
@@ -289,27 +258,22 @@
             "language": "English"
         },
         {
-            "doi": "https://doi.org/10.1023/A:1025544817872",
-            "title": "Changes in soil phosphorus fractions following positive and negative phosphorus balances for long periods.",
-            "language": "English"
-        },
-        {
-            "doi": "https://doi.org/10.23637/ERADOC-1-85",
-            "title": "Woburn Experimental Farm. Reports for 1926-7 and 1927-8. 1: Continuous growing of wheat and barley (Stackyard field).",
+            "doi": "https://doi.org/10.23637/ERADOC-1-193",
+            "title": "Details of the Classical and Long-term Experiments 1968-73.",
             "language": null
         }
     ],
-    "saved_time": "2021-01-27T10:51:56.663651Z",
+    "saved_time": "2022-05-24T13:56:08.352055Z",
     "name": "Woburn Intensive cereals",
     "local_identifier": "W/RN/13",
     "experiment_type_label": null,
     "url": null,
-    "start_year": 1876,
+    "start_year": 1966,
     "end_year": 1990,
     "ongoing": false,
     "establishment_period_end": null,
     "objective": "To study the effects of intensive cereal cropping on yield, incidence of soil-borne pathogens and organic matter in the soil.",
-    "description": "These experiments are almost identical to the Broadbalk and Hoosfield Barley experiments at Rothamsted, but at Woburn. They are also known as the Woburn Continuous Wheat and Barley experiments. They started in 1876 on Woburn Stackyard, and where carried out by the Royal Agricultural Society of England but with input from Lawes. They were under continuous wheat and barley, mirroring the Broadbalk and Hoosfield Experiments, until 1926. According to Voelcker (1929), after 1926 it was decided to fallow the plots, which had become infested with weeds.",
+    "description": "On Woburn Stackyard I field, on the site of the previous Woburn Continuous Wheat and Barley experiments (W/XW/6 and W/XB/6). An experiment comparing winter wheat and spring barley grown continuously and in rotation was started in 1967. A five-course rotation of 1-year grass ley, potatoes and three years of either wheat or barley.",
     "site_name": "Intensive cereals, Woburn Stackyard I",
     "site_local_code": "W/RN/13",
     "site_geonames_id": null,
@@ -317,7 +281,7 @@
     "site_type_label": "research station field",
     "site_locality": "Husborne Crawley",
     "site_region": "Bedfordshire",
-    "site_country": "UK",
+    "site_country": "United Kingdom",
     "site_centroid_latitude": 52.0003,
     "site_centroid_longitude": -0.6149,
     "site_elevation": 89.0,
@@ -326,10 +290,10 @@
     "site_slope_aspect": null,
     "site_visits_allowed": false,
     "site_visiting_arrangements": null,
-    "site_history": "The experiments started in 1876 on Woburn Stackyard, and where carried out by the Royal Agricultural Society of England but with input from John Lawes at Rothamsted. They were under continuous wheat and barley, mirroring the Broadbalk and Hoosfield Experiments, until 1926. According to Voelcker (1929), after 1926 it was decided to fallow the plots, which had become infested with weeds.",
-    "site_management": null,
+    "site_history": "Continuous wheat and barley from 1876-1961, mirroring the Broadbalk wheat and Hoosfield barley experiments. Many fallow years from 1927-1961. 1962 spring oats with basal fertiliser N. 1963 fallow. 1964 spring beans. 1965 and 1966 fallow.",
+    "site_management": "Site managed conventionally, with standard tillage across all plots.",
     "site_soil_type_label": "Eutric Rubic Arenosol",
-    "site_soil_description": "Sandy loam",
+    "site_soil_description": "Sandy loam, Stackyard series.",
     "site_climatic_type_label": "temperate oceanic climate",
     "site_climate_description": null,
     "data_statement_label": "Available online with registration",

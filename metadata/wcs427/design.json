@@ -22,7 +22,7 @@
         },
         "crops": [
             {
-                "id": 3382,
+                "id": 15525,
                 "name": "wheat",
                 "sameAs": "wheat",
                 "dateStart": null,
@@ -32,14 +32,14 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 1667,
+                "id": 9285,
                 "name": "zinc nutrient exposure",
                 "description": "Applied with digested sludge",
-                "effect": "",
+                "effect": "Residual",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 5495,
+                        "id": 23308,
                         "name": "Rate 1",
                         "amount": "254",
                         "unitCode": "kg/ha",
@@ -53,7 +53,7 @@
                         "notes": null
                     },
                     {
-                        "id": 5496,
+                        "id": 23309,
                         "name": "Rate 2",
                         "amount": "514",
                         "unitCode": "kg/ha",
@@ -67,7 +67,7 @@
                         "notes": null
                     },
                     {
-                        "id": 5497,
+                        "id": 23310,
                         "name": "Rate 3",
                         "amount": "784",
                         "unitCode": "kg/ha",
@@ -81,7 +81,7 @@
                         "notes": null
                     },
                     {
-                        "id": 5498,
+                        "id": 23311,
                         "name": "Rate 4",
                         "amount": "1065",
                         "unitCode": "kg/ha",
@@ -95,7 +95,7 @@
                         "notes": null
                     },
                     {
-                        "id": 5499,
+                        "id": 23312,
                         "name": "low rate",
                         "amount": "15",
                         "unitCode": "kg/ha",
@@ -111,14 +111,14 @@
                 ]
             },
             {
-                "id": 1668,
+                "id": 9286,
                 "name": "copper nutrient exposure",
                 "description": "Applied with undigested sludge",
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 5500,
+                        "id": 23313,
                         "name": "Rate 1",
                         "amount": "125",
                         "unitCode": "kg/ha",
@@ -132,7 +132,7 @@
                         "notes": null
                     },
                     {
-                        "id": 5501,
+                        "id": 23314,
                         "name": "Rate 2",
                         "amount": "245",
                         "unitCode": "kg/ha",
@@ -146,7 +146,7 @@
                         "notes": null
                     },
                     {
-                        "id": 5502,
+                        "id": 23315,
                         "name": "Rate 3",
                         "amount": "375",
                         "unitCode": "kg/ha",
@@ -160,7 +160,7 @@
                         "notes": null
                     },
                     {
-                        "id": 5503,
+                        "id": 23316,
                         "name": "Rate 4",
                         "amount": "500",
                         "unitCode": "kg/ha",
@@ -174,7 +174,7 @@
                         "notes": null
                     },
                     {
-                        "id": 5504,
+                        "id": 23317,
                         "name": "low rate",
                         "amount": "7.5",
                         "unitCode": "kg/ha",
@@ -190,14 +190,14 @@
                 ]
             },
             {
-                "id": 1669,
+                "id": 9287,
                 "name": "cadmium exposure",
                 "description": "applied with digested sludge",
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 5505,
+                        "id": 23318,
                         "name": "Rate 1",
                         "amount": "2.15",
                         "unitCode": "kg/ha",
@@ -211,7 +211,7 @@
                         "notes": null
                     },
                     {
-                        "id": 5506,
+                        "id": 23319,
                         "name": "Rate 2",
                         "amount": "4.64",
                         "unitCode": "kg/ha",
@@ -225,7 +225,7 @@
                         "notes": null
                     },
                     {
-                        "id": 5507,
+                        "id": 23320,
                         "name": "Rate 3",
                         "amount": "7.22",
                         "unitCode": "kg/ha",
@@ -239,7 +239,7 @@
                         "notes": null
                     },
                     {
-                        "id": 5508,
+                        "id": 23321,
                         "name": "Rate 4",
                         "amount": "9.72",
                         "unitCode": "kg/ha",
@@ -253,7 +253,7 @@
                         "notes": null
                     },
                     {
-                        "id": 5509,
+                        "id": 23322,
                         "name": "low rate",
                         "amount": "0.15",
                         "unitCode": "kg/ha",
@@ -269,7 +269,28 @@
                 ]
             }
         ],
-        "factorCombinations": "NA",
+        "factorCombinations": [
+            {
+                "name": "Cc +Cu",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "copper nutrient exposure",
+                        "levelCode": "Rate 1",
+                        "levelText": "NULL",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "cadmium exposure",
+                        "levelCode": "Rate 1",
+                        "levelText": "NULL",
+                        "Comment": null
+                    }
+                ]
+            }
+        ],
         "measurements": "NA"
     }
 ]

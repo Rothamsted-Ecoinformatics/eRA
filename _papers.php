@@ -48,6 +48,10 @@
 						<option value="Highfield bare fallow">Highfield bare fallow</option>
 						<option value="Saxmundham Rotations">Saxmundham Rotations</option>
 						<option value="Woburn">Woburn</option>
+                        <option value="Woburn Continuous Cereals">Woburn Continuous Cereals</option>
+                        <option value="Woburn Ley-Arable">Woburn Ley-Arable</option>
+                        <option value="Woburn Organic Manuring">Woburn Organic Manuring</option>
+                        
 						
 						
 					</select>
@@ -95,7 +99,7 @@
 			</div>
 					<?php
     } 
-    if ($submit == "Search") {
+    if (isset($submit) && $submit == "Search") {
         // ------------year-----------------
         
         if ($stopyear == "") {
@@ -222,7 +226,7 @@ IF(`eraPapers`.Year IS NULL or `eraPapers`.Year='', 1, 0)AS yearnull ,
                         if ($OldYear != "") {
                             echo ("\n </ul>\n");
                         }
-                        echo ("\n<p><b><i>$rowk2[Year]</i></b></p>\n<ul>");
+                        echo ("\n<p><b><i>".$rowk2['Year']."</i></b></p>\n<ul>");
                         $OldYear = $rowk2['Year'];
                     }
                 }
@@ -234,16 +238,16 @@ IF(`eraPapers`.Year IS NULL or `eraPapers`.Year='', 1, 0)AS yearnull ,
                 if ($rowk2['Title']) {
                     $ReferenceLine = $ReferenceLine . " \"".$rowk2['Title']."\"";
                 }
-                if ($rowk2[Journal]) {
+                if ($rowk2['Journal']) {
                     $ReferenceLine = $ReferenceLine . ", <i>".$rowk2['Journal']."</i>";
                 }
-                if ($rowk2[Volume]) {
+                if ($rowk2['Volume']) {
                     $ReferenceLine = $ReferenceLine . ", <b>".$rowk2['Volume']."</b>";
                 }
-                if ($rowk2[Issue]) {
+                if ($rowk2['Issue']) {
                     $ReferenceLine = $ReferenceLine . ", (".$rowk2['Issue'].")";
                 }
-                if ($rowk2[Pages]) {
+                if ($rowk2['Pages']) {
                     $ReferenceLine = $ReferenceLine . ", ".$rowk2['Pages'];
                 }
                 $link = 0;
@@ -251,10 +255,10 @@ IF(`eraPapers`.Year IS NULL or `eraPapers`.Year='', 1, 0)AS yearnull ,
                     $ReferenceLine = $ReferenceLine . "<br /> <b>DOI: <a target = \"_blank\" href=\"".$rowk2['eradocDOI']."\" >".$rowk2['eradocDOI']."</a></b>";
                     $link = 1;
                 } else if (strlen(trim($rowk2['eRAGRID'])) > 1) {
-                    $ReferenceLine = $ReferenceLine . "<br /> <b>eRAdocID: <a target = \"_blank\" href=\"http://www.era.rothamsted.ac.uk/eradoc/article/".$rowk2['eRAGRID']."\" >".$rowk2[eRAGRID]."</a></b>";
+                    $ReferenceLine = $ReferenceLine . "<br /> <b>eRAdocID: <a target = \"_blank\" href=\"https://www.era.rothamsted.ac.uk/eradoc/article/".$rowk2['eRAGRID']."\" >https://www.era.rothamsted.ac.uk/eradoc/article/".$rowk2['eRAGRID']."</a></b>";
                     $link = 1;
                 } else if (strlen(trim($rowk2['PaperDOI'])) > 1) {
-                    $ReferenceLine = $ReferenceLine . "<br /> <b>DOI: <a target = \"_blank\" href=\"http://dx.doi.org/".$rowk2['PaperDOI']."\" >".$rowk2['PaperDOI']."</a></b>";
+                    $ReferenceLine = $ReferenceLine . "<br /> <b>DOI: <a target = \"_blank\" href=\"https://doi.org/".$rowk2['PaperDOI']."\" >https://doi.org/".$rowk2['PaperDOI']."</a></b>";
                     $link = 1;
                 } else if (strlen(trim($rowk2['URL'])) > 1 && ! strstr(trim($rowk2['URL']), '<')) {
                     
@@ -268,7 +272,7 @@ IF(`eraPapers`.Year IS NULL or `eraPapers`.Year='', 1, 0)AS yearnull ,
                 }
                 
                 if ($rowk2['Comment']) {
-                    if ($Summary == "on") {
+                    if (isset($Summary) && $Summary == "on") {
                         $ReferenceLine = $ReferenceLine . "<br /><small> ".$rowk2['Comment']."</small>";
                     }
                 }

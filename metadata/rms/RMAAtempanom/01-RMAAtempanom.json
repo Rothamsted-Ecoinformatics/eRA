@@ -4,7 +4,7 @@
     "identifier": "10.23637/rms-RMAAtempanomaly-1",
     "name": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019",
     "shortName": "RMAAtempanom",
-    "url": "http://www.era.rothamsted.ac.uk/dataset/rms/01-RMAAtempanom",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rms/01-RMAAtempanom",
     "description": [
         {
             "inLanguage": "en",
@@ -297,7 +297,7 @@
         {
             "relatedIdentifier": "http://www.era.rothamsted.ac.uk/station/rms#measurements",
             "relatedIdentifierType": "URL",
-            "name": "Measurements",
+            "name": "Measurement of variables",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "Cites",
             "rt_id": 2,

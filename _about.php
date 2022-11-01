@@ -17,7 +17,11 @@
 			continuous agronomic experiments in the world. Together with the
 			accompanying meteorological records, associated documentation and
 			sample archive, it is a unique historical record of experiments that
-			have been measured continuously since 1843.</p>
+			have been measured continuously since 1843. </p>
+			<p class="lead">
+		<a class="btn btn-primary btn-lg" href="info/about"
+			role="button">More information ... </a>
+	</p>
 	</div>
 
 	<div class="row p-3 m-3">

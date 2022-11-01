@@ -4,7 +4,7 @@
     "identifier": "10.23637/KeyRefOABKWoc",
     "name": "Broadbalk Wilderness accumulation of organic carbon",
     "shortName": "BKWoc",
-    "url": "http://www.era.rothamsted.ac.uk/dataset/rbk1w/01-BKWoc",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rbk1w/01-BKWoc",
     "description": [
         {
             "inLanguage": "en",
@@ -105,7 +105,7 @@
         {
             "relatedIdentifier": "10.1046/j.1365-2486.2003.00633.x",
             "relatedIdentifierType": "DOI",
-            "name": "Accumulation of carbon and nitrogen by old arable land reverting to woodland",
+            "name": "Poulton et al. (2003) Accumulation of carbon and nitrogen by old arable land reverting to woodland",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
@@ -114,7 +114,7 @@
         {
             "relatedIdentifier": "10.1023/A:1015731530498",
             "relatedIdentifierType": "DOI",
-            "name": "Effects of atmospheric deposition, soil pH and acidification on heavy metal contents . . .",
+            "name": "Blake et al. (2002) Effects of atmospheric deposition, soil pH and acidification  . . .",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
@@ -132,7 +132,7 @@
         {
             "relatedIdentifier": "10.1046/j.1365-2389.1999.00253.x",
             "relatedIdentifierType": "DOI",
-            "name": "Changes in soil chemistry accompanying acidification over more than 100 years . . .",
+            "name": "Blake et al. (2001) Changes in soil chemistry accompanying acidification . . .",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsCitedBy",
             "rt_id": 1,

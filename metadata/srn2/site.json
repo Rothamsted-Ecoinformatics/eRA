@@ -12,12 +12,12 @@
     "location": {
         "addressLocality": "Saxmundham",
         "addressRegion": "Suffolk",
-        "addressCountry": "UK",
+        "addressCountry": "United Kingdom",
         "geoLocationPoint": {
             "pointLongitude": 1.466,
             "pointLatitude": 52.221
         },
-        "geoLocationPlace": "UK",
+        "geoLocationPlace": "United Kingdom",
         "polygon": "NOT IN GLTEN",
         "elevation": 37.0,
         "elevationUnit": "Metres",

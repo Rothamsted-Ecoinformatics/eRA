@@ -80,6 +80,7 @@ RewriteRule ^includes - [L]
 RewriteRule ^css - [L]
 RewriteRule ^help - [L]
 RewriteRule ^references - [L]
+Redirect 301 "/contact" "/"
 
 
 

@@ -1,28 +1,23 @@
 {
     "@context": "https://schema.org/",
     "@type": "Text",
-    "identifier": "10.23637/wrn3-cropping1938-2020-01",
-    "name": "Woburn Ley-arable experiment cropping sequence 1938-2020",
+    "identifier": "10.23637/wrn3-fert1938-2020-01",
+    "name": "Woburn Ley-arable experiment fertilizer and lime applications 1938-2020",
     "shortName": "",
-    "url": "http://www.era.rothamsted.ac.uk/metadata/wrn3/01-wrn3-cropping1938-2020.pdf",
+    "url": "https://www.era.rothamsted.ac.uk/metadata/wrn3/01-wrn3-fert1938-2020.pdf",
     "description": [
         {
             "inLanguage": "en",
             "descriptionType": "Abstract",
-            "description": "Cropping details for the Woburn Ley-arable experiment, 1938-2020, with details of the arable and ley rotation sequences in each of the five Blocks, and the different treatment crops."
-        },
-        {
-            "inLanguage": "en",
-            "descriptionType": "TableOfContents",
-            "description": "- Cover page\r\n- Generic plan \r\n- Cropping sequence 1938-1972\r\n- Cropping sequence 1973-2007\r\n- Cropping sequence 2008-2020"
+            "description": "Annual fertilizer and lime applications to the Woburn Ley-arable Experiment, 1938-2020"
         }
     ],
     "publisher": {
         "type": "organization",
         "name": "Electronic Rothamsted Archive, Rothamsted Research"
     },
-    "publication_year": 2021,
-    "dateCreated": "2021-12-12",
+    "publication_year": 2022,
+    "dateCreated": "2022-06-13",
     "dateModified": null,
     "datePublished": null,
     "inLanguage": "en",
@@ -32,7 +27,9 @@
         "ley farming",
         "arable farming",
         "Rothamsted Research",
-        "cropping system"
+        "cropping system",
+        "fertilizer",
+        "liming"
     ],
     "creator": [
         {
@@ -57,8 +54,8 @@
         },
         {
             "type": "Person",
-            "Name": "Johnny Johnston",
-            "givenName": "Johnny",
+            "Name": "Edward Johnston",
+            "givenName": "Edward",
             "familyName": "Johnston",
             "sameAs": null,
             "address": {
@@ -141,8 +138,8 @@
         {
             "type": "Person",
             "jobTitle": "Researcher",
-            "name": "Johnny Johnston",
-            "givenName": "Johnny",
+            "name": "Edward Johnston",
+            "givenName": "Edward",
             "familyName": "Johnston",
             "sameAs": null,
             "address": {
@@ -245,6 +242,24 @@
     },
     "relatedIdentifier": [
         {
+            "relatedIdentifier": "10.23637/wrn3-manag1938-2020-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Johnston et al (2022) The Woburn Ley-arable experiment, 1938-2020",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
+        },
+        {
+            "relatedIdentifier": "10.23637/wrn3-cropping1938-2020-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Woburn Ley-arable experiment cropping sequence 1938-2020",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
             "relatedIdentifier": "10.23637/ERADOC-1-191",
             "relatedIdentifierType": "DOI",
             "name": "Details of the Classical and Long-term experiments up to 1962",
@@ -256,7 +271,7 @@
         {
             "relatedIdentifier": "10.23637/ERADOC-1-192",
             "relatedIdentifierType": "DOI",
-            "name": "Details of the Classical and Long-term experiments up to 1967",
+            "name": "Rothamsted (1970) Details of the Classical and Long-term experiments up to 1967",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDerivedFrom",
             "rt_id": 28,
@@ -265,7 +280,7 @@
         {
             "relatedIdentifier": "10.23637/ERADOC-1-193",
             "relatedIdentifierType": "DOI",
-            "name": "Details of the Classical and Long-term experiments 1968-1973",
+            "name": "Rothamsted (1977) Details of the Classical and Long-term experiments, 1968-1973",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDerivedFrom",
             "rt_id": 28,
@@ -291,10 +306,10 @@
     "distribution": [
         {
             "type": "dataDownload",
-            "name": "Woburn Ley-arable cropping sequence 1938-2020",
-            "URL": "01-wrn3-cropping1938-2020.pdf",
+            "name": "Woburn Ley-arable experiment fertilizer and lime applications 1938-2020",
+            "URL": "01-wrn3-fert1938-2020.pdf",
             "encodingFormat": "pdf",
-            "fileSize": "1225 KB"
+            "fileSize": "1397 KB"
         }
     ],
     "image": [],

@@ -4,7 +4,7 @@
     "identifier": "10.23637/KeyRefOARLAsoc",
     "name": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008: Highfield",
     "shortName": "HSOC4808",
-    "url": "http://www.era.rothamsted.ac.uk/dataset/rrn1/01-HSOC4808",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rrn1/01-HSOC4808",
     "description": [
         {
             "inLanguage": "en",
@@ -249,7 +249,7 @@
         {
             "relatedIdentifier": "10.23637/ROTHAMSTED-LONG-TERM-EXPERIMENTS-GUIDE-2018",
             "relatedIdentifierType": "DOI",
-            "name": "Guide to the Long-term Experiments",
+            "name": "Macdonald, A. (2018)  Guide to the Classical and Other Long-term Experiments",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,

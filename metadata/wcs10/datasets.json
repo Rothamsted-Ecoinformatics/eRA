@@ -2,7 +2,7 @@
     {
         "md_id": -691415717,
         "title": "Woburn long-term liming experiment crop yields 1962-1996",
-        "URL": "http://www.era.rothamsted.ac.uk/dataset/wcs10/01-WLTLYIELDS",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/wcs10/01-WLTLYIELDS",
         "identifier": "10.23637/wcs10-wltlyields-01",
         "identifier_type": "DOI",
         "dataset_type": "Crop  yield data",
@@ -12,7 +12,7 @@
         "experiment_name": "Woburn Long-term Liming",
         "experiment_code": "W/CS/10",
         "grade": 3,
-        "dstype": "Other",
+        "dstype": "Frictionless",
         "publication_year": 2020,
         "version": "01",
         "isReady": 2,
@@ -23,7 +23,7 @@
     {
         "md_id": -1039542714,
         "title": "Woburn long-term liming experiment grain mineral composition",
-        "URL": "http://www.era.rothamsted.ac.uk/dataset/wcs10/01-WLTLGRAIN",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/wcs10/01-WLTLGRAIN",
         "identifier": "10.23637/wcs10-wltlgrain-01",
         "identifier_type": "DOI",
         "dataset_type": "Crop nutrient data",
@@ -44,7 +44,7 @@
     {
         "md_id": 630514136,
         "title": "Woburn long-term liming experiment soil properties 1962-1996",
-        "URL": "http://www.era.rothamsted.ac.uk/dataset/wcs10/01-WLTLSOIL",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/wcs10/01-WLTLSOIL",
         "identifier": "10.23637/wcs10-wltlsoil-01",
         "identifier_type": "DOI",
         "dataset_type": "Soil data",
@@ -54,10 +54,10 @@
         "experiment_name": "Woburn Long-term Liming",
         "experiment_code": "W/CS/10",
         "grade": 3,
-        "dstype": "Other",
+        "dstype": "Frictionless",
         "publication_year": 2021,
         "version": "01",
-        "isReady": 0,
+        "isReady": 1,
         "isExternal": 0,
         "shortName": "WLTLSOIL",
         "UID": "01-WLTLSOIL"

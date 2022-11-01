@@ -4,7 +4,7 @@
     "identifier": "10.23637/rrn2-OARFLAsoc-1",
     "name": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008; Fosters",
     "shortName": "FSOC4808",
-    "url": "http://www.era.rothamsted.ac.uk/dataset/rrn2/01-FSOC4808",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rrn2/01-FSOC4808",
     "description": [
         {
             "inLanguage": "en",
@@ -240,7 +240,7 @@
         {
             "relatedIdentifier": "10.23637/ROTHAMSTED-LONG-TERM-EXPERIMENTS-GUIDE-2018",
             "relatedIdentifierType": "DOI",
-            "name": "Guide to the Long-term experiments",
+            "name": "Macdonald, A. (2018)  Guide to the Classical and Other Long-term Experiments",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,

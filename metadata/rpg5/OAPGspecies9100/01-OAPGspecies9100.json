@@ -4,7 +4,7 @@
     "identifier": "10.23637/rpg5-species_1991-2000-01",
     "name": "Dataset: Park Grass Species, Fertilizer and Lime Treatments 1991-2000",
     "shortName": "OAPGspecies9100",
-    "url": "http://www.era.rothamsted.ac.uk/dataset/rpg5/01-OAPGspecies9100",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rpg5/01-OAPGspecies9100",
     "description": [
         {
             "inLanguage": "en",
@@ -46,7 +46,7 @@
     "dateModified": null,
     "datePublished": null,
     "inLanguage": "en",
-    "version": "01",
+    "version": "1",
     "keywords": [
         "botanical composition",
         "flora",
@@ -385,7 +385,7 @@
         {
             "relatedIdentifier": "10.1086/427270",
             "relatedIdentifierType": "DOI",
-            "name": "Determinants of species richness in the Park Grass experiment, Crawley et al. 2005",
+            "name": "Crawley et al. (2005) Determinants of species richness in the Park Grass experiment ",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
@@ -394,7 +394,7 @@
         {
             "relatedIdentifier": "10.1038/nature16444",
             "relatedIdentifierType": "DOI",
-            "name": "Grassland biodiversity bounces back from long-term nitrogen addition, Storkey et al. 2015",
+            "name": "Storkey et al. (2015) Grassland Biodiversity Bounces Back from Long-term Nitrogen Addition",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
@@ -403,7 +403,7 @@
         {
             "relatedIdentifier": "10.1111/j.1365-2745.2006.01145.x",
             "relatedIdentifierType": "DOI",
-            "name": "The Park Grass Experiment 1856-2006: Its contribution to ecology, Silvertown et al. 2006",
+            "name": "Silvertown et al. (2006) The Park Grass Experiment 1856 - 2006: its contribution to ecology",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
@@ -417,6 +417,24 @@
             "relationType": "IsDescribedBy",
             "rt_id": 7,
             "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rpg5-yields1903-1964-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Dataset: Park Grass Hay Yields, Fertilizer and Lime Treatments 1903-1964",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "Continues",
+            "rt_id": 6,
+            "relationTypeValue": "continues"
+        },
+        {
+            "relatedIdentifier": "10.23637/rpg5-species_1991-2000-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Dataset: Park Grass Species, Fertilizer and Lime Treatments 1991-2000",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
         }
     ],
     "funder": [
@@ -455,5 +473,5 @@
     ],
     "grade": 1,
     "isExternal": 0,
-    "dstype": "OA"
+    "dstype": "Frictionless"
 }

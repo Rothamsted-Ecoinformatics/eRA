@@ -4,7 +4,7 @@
     "identifier": "10.23637/KeyRefOAPGspecies",
     "name": "Park Grass Changes in Mean Species Numbers 1864-2011",
     "shortName": "OAPGspecies",
-    "url": "http://www.era.rothamsted.ac.uk/dataset/rpg5/01-OAPGspecies",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rpg5/01-OAPGspecies",
     "description": [
         {
             "inLanguage": "en",
@@ -51,7 +51,7 @@
     "dateModified": null,
     "datePublished": null,
     "inLanguage": "en",
-    "version": "01",
+    "version": "1",
     "keywords": [
         "Park grass long-term experiment",
         "permanent grassland",
@@ -237,7 +237,7 @@
         {
             "relatedIdentifier": "10.1038/nature16444",
             "relatedIdentifierType": "DOI",
-            "name": "Grassland biodiversity bounces back from long-term nitrogen addition",
+            "name": "Storkey et al. (2015) Grassland Biodiversity Bounces Back from Long-term Nitrogen Addition",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
@@ -246,7 +246,7 @@
         {
             "relatedIdentifier": "10.1111/mec.13007",
             "relatedIdentifierType": "DOI",
-            "name": "The Park Grass Experiment and next-generation approaches . . .",
+            "name": " Von Wettberg (2014) The Park Grass Experiment and next-generation approaches . . .",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
@@ -255,7 +255,7 @@
         {
             "relatedIdentifier": "10.1111/j.1365-2745.2006.01145.x",
             "relatedIdentifierType": "DOI",
-            "name": "The Park Grass Experiment 1856 - 2006: its contribution to ecology",
+            "name": "Silvertown et al. (2006) The Park Grass Experiment 1856 - 2006: its contribution to ecology",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
@@ -264,7 +264,7 @@
         {
             "relatedIdentifier": "10.1086/427270",
             "relatedIdentifierType": "DOI",
-            "name": "Determinants of Species Richness in the Park Grass Experiment",
+            "name": "Crawley et al. (2005) Determinants of species richness in the Park Grass experiment ",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
@@ -273,7 +273,7 @@
         {
             "relatedIdentifier": "10.1023/A:1015731530498",
             "relatedIdentifierType": "DOI",
-            "name": "Effects of atmospheric deposition, soil pH and acidification on heavy metal contents . . .",
+            "name": "Blake et al. (2002) Effects of atmospheric deposition, soil pH and acidification  . . .",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
@@ -282,7 +282,7 @@
         {
             "relatedIdentifier": "10.1046/j.1365-2389.1999.00253.x",
             "relatedIdentifierType": "DOI",
-            "name": "Changes in soil chemistry accompanying acidification . . .",
+            "name": "Blake et al. (2001) Changes in soil chemistry accompanying acidification . . .",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
@@ -291,7 +291,7 @@
         {
             "relatedIdentifier": "10.1073/pnas.95.1.207",
             "relatedIdentifierType": "DOI",
-            "name": "Biodiversity at the edge: A test of the importance of spatial 'mass effects' in RPG . . .",
+            "name": "Kunin (1968) Biodiversity at the edge: A test of the importance of spatial 'mass effects'  . . .",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
@@ -300,7 +300,7 @@
         {
             "relatedIdentifier": "10.2307/2261566",
             "relatedIdentifierType": "DOI",
-            "name": "Community Stability: A 60-Year Record of Trends and Outbreaks in the Occurrence of Species in RPG",
+            "name": "Dodd et al. (1995) Community Stability: A 60-Year Record of Trends and Outbreaks  . . . ",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
@@ -309,7 +309,7 @@
         {
             "relatedIdentifier": "10.1017/S0021859600067290",
             "relatedIdentifierType": "DOI",
-            "name": "Trends in herbage yields over the last century on the Rothamsted Long-term Continuous Hay Experiment",
+            "name": "Jenkinson et al. (1994)  Trends in herbage yields over the last century ",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
@@ -359,6 +359,15 @@
             "relationType": "IsSupplementedBy",
             "rt_id": 4,
             "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/KeyRefOAPGspecies",
+            "relatedIdentifierType": "DOI",
+            "name": "Park Grass Changes in Mean Species Numbers 1864-2011",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "Describes",
+            "rt_id": 8,
+            "relationTypeValue": "describes"
         }
     ],
     "funder": [],

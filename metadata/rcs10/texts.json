@@ -2,7 +2,7 @@
     {
         "md_id": -998034807,
         "title": "Rothamsted long-term liming experiment plans 1962-1996",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/rcs10/RothLTliming-Plans.pdf",
+        "URL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/RothLTliming-Plans.pdf",
         "identifier": "10.23637/rcs10-Plans",
         "identifier_type": "DOI",
         "dataset_type": "Field plot map",
@@ -23,7 +23,7 @@
     {
         "md_id": 247167962,
         "title": "Rothamsted long-term liming experiments lime and fertilizer treatments 1962-1996",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/rcs10/RothLTliming-Treatments.pdf",
+        "URL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/RothLTliming-Treatments.pdf",
         "identifier": "10.23637/rcs10-Treatments-01",
         "identifier_type": "DOI",
         "dataset_type": "Treatment details",

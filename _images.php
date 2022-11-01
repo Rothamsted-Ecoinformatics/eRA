@@ -16,13 +16,14 @@
  * @author Nathalie Castells-Brooke
  * @date 10/15/2018
  * 
+ * This lists images . To list other media , like videos or ppt, place a "medialist.html" page in the experiment directory with your list as a DL / DD list. See rbk1 for example. 
  */
 
-if (!$expt) {$expt = $farm;}
+if (!isset($expt)) {$expt = $farm;}
 
 ?>
 
-<h2 class="mx-3">Picture Gallery</h2>
+<h2 class="mx-3">Images</h2>
 
 <?php
 $imageurl =  $exptFolder . '/' . 'images.json';
@@ -34,12 +35,13 @@ if (is_file($imageurl)) {
     );
     
     $images = multiSearch($data, $pairs);
-    // as of PHP 5.5.0 you can use array_column() instead of the above code
+    
+    //obtain a list of columns
     $caption  = array_column($images, 'Caption');
     $orientation= array_column($images, 'orientation');
     
     // Sort the data with orientation descending, caption ascending
-    // Add $data as the last parameter, to sort by the common key
+    // Add $images as the last parameter, to sort by the common key
     array_multisort($orientation, SORT_DESC, $caption, SORT_ASC, $images);
  
     $info = listImages($images);

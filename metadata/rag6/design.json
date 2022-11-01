@@ -397,8 +397,8 @@
         "crops": [
             {
                 "id": 7083,
-                "name": "Spring barley",
-                "sameAs": "Spring barley",
+                "name": "spring barley",
+                "sameAs": "spring barley",
                 "dateStart": null,
                 "dateEnd": null
             },
@@ -411,8 +411,8 @@
             },
             {
                 "id": 7085,
-                "name": "winter field beans, (Vicia faba)",
-                "sameAs": "winter field beans, (Vicia faba)",
+                "name": "faba beans",
+                "sameAs": "faba beans",
                 "dateStart": null,
                 "dateEnd": null
             },
@@ -432,8 +432,8 @@
             },
             {
                 "id": 7088,
-                "name": "sugar beet",
-                "sameAs": "sugar beet",
+                "name": "sugarbeet",
+                "sameAs": "sugarbeet",
                 "dateStart": null,
                 "dateEnd": null
             },

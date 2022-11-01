@@ -14,6 +14,7 @@ global $data;
 function listItem($value, $label)
 {
     global $variableMapping;
+    $pcontent = "";
 
     if ($value == 'NA') {
         $pcontent .= '';
@@ -105,7 +106,7 @@ function getContent($period)
         foreach ($period['crops'] as $crop) {
             $id = $crop['id'];
             $arrCrop[$id] = $crop['name'];
-            $content .= "\n\t<tr><td class=\"pr-4 \"><small>" . title_case($crop['name']) . "</td><td class=\"pr-4 \"><small>";
+            $content .= "\n\t<tr><td class=\"pr-4 \">" . title_case($crop['name']) . "</td><td class=\"pr-4 \">";
             if ($crop['dateStart']) {
 
                 $content .= $crop['dateStart'] . " -  " . $crop['dateEnd'] . "</td>";
@@ -127,12 +128,13 @@ function getContent($period)
         foreach ($period['cropRotations'] as $rotation) {
 
             $info .= "\n    \t<tr>";
-            $info .= "\n    \t     \t <td class=\"pr-4 \"><small>" . $rotation['name'] . " <i>(" . $rotation['dateStart'] . " - " . $rotation['dateEnd'] . ")</i> " . "</td><td class=\"pr-4 \"><small>";
+            $info .= "\n    \t     \t <td class=\"pr-4 \">" . $rotation['name'] . " <i>(" . $rotation['dateStart'] . " - " . $rotation['dateEnd'] . ")</i> " . "</td><td class=\"pr-4 \">";
             $comma = " ";
             foreach ($rotation['rotationPhases'] as $crop) {
-
+                if ($crop['crop']) {
                 $info .= $comma . title_case($arrCrop[$crop['crop']]);
                 $comma = " >  ";
+                }
             }
             $info .= " </td>";
             $info .= "\n    \t</tr>";
@@ -179,24 +181,25 @@ function getContent($period)
                     $arrLevels[$level['id']] = $level['name'];
                     $info .= "\n    \t<tr>";
 
-                    $info .= "\n    \t<td class=\"pr-4 \"><small><b>" . title_case($level['name']) . " </b></td>";
-                    $info .= "\n    \t      \t      \t <td class=\"pr-4 \"><small>" . $level['amount'] . " " . $level['unitCode'] . "</td>";
-                    $info .= "\n    \t      \t      \t <td class=\"pr-4 \"><small>" . $level['dateStart'] . " - " . $level['dateEnd'] . "</td>";
+                    $info .= "\n    \t<td class=\"pr-4 \"><b>" . title_case($level['name']) . " </b></td>";
+                    $info .= "\n    \t      \t      \t <td class=\"pr-4 \">" . $level['amount'] . " " . $level['unitCode'] . "</td>";
+                    $info .= "\n    \t      \t      \t <td class=\"pr-4 \">" . $level['dateStart'] . " - " . $level['dateEnd'] . "</td>";
 
-                    $info .= "\n    \t      \t      \t <td class=\"pr-4 \"><small>" . $level['frequency'] . "</td>";
+                    $info .= "\n    \t      \t      \t <td class=\"pr-4 \">" . $level['frequency'] . "</td>";
                     $appliedToCrop = "";
-                    echo ("<br />level['appliedToCrop'] = ". $level['appliedToCrop']);
+                    if ($level['appliedToCrop']) {
                     $appliedToCrop = $arrCrop[$level['appliedToCrop']];
-                    $info .= "\n    \t      \t      \t <td class=\"pr-4 \"><small>" . $appliedToCrop . "</td>";
+                }
+                    $info .= "\n    \t      \t      \t <td class=\"pr-4 \">" . $appliedToCrop . "</td>";
                   
 
-                    $info .= "\n    \t      \t      \t<td class=\"pr-4 \"><small>" . $level['method'] . "</td>";
+                    $info .= "\n    \t      \t      \t<td class=\"pr-4 \">" . $level['method'] . "</td>";
                     
 
-                    $info .= "\n    \t      \t      \t <td class=\"pr-4 \"><small>" . $level['chemicalForm'] . "</td>";
+                    $info .= "\n    \t      \t      \t <td class=\"pr-4 \">" . $level['chemicalForm'] . "</td>";
                     
 
-                    $info .= "\n    \t      \t      \t <td class=\"pr-4 \"><small><i> " . $level['notes'] . "</i></td>";
+                    $info .= "\n    \t      \t      \t <td class=\"pr-4 \"><i> " . $level['notes'] . "</i></td>";
 
                     $info .= "\n    \t      \t </tr>";
                 }
@@ -222,11 +225,11 @@ function getContent($period)
 
         foreach ($period['factorCombinations'] as $fr) {
             $info .= "\n<tr>";
-            $info .= "\n<td class=\"pr-4 \"><small><b>" . $fr['name'] . "</b></td>";
-            $info .= "\n<td class=\"pr-4 \"><small>" . $fr['dateStart'] . " - " . $fr['dateEnd'];
+            $info .= "\n<td class=\"pr-4 \"><b>" . $fr['name'] . "</b></td>";
+            $info .= "\n<td class=\"pr-4 \">" . $fr['dateStart'] . " - " . $fr['dateEnd'];
 
             $info .= "</td>";
-            $info .= "\n<td class=\"pr-4 \"><small><i>" . $fr['description'] . "</i></td>";
+            $info .= "\n<td class=\"pr-4 \"><i>" . $fr['description'] . "</i></td>";
             $info .= "</tr>";
         }
         $info .= "\n    \t</table></div>";
@@ -257,13 +260,13 @@ function getContent($period)
                 $vcrop = $arrCrop[$measurement['crop']];
             }
             $content .= "\n<tr>";
-            $content .= "\n<td class=\"pr-4 \"><small>" . title_case($measurement['variable']) . "</small></td>";
-            $content .= "\n<td class=\"pr-4 \"><small>" . $measurement['unitCode'] . "</small></td>";
-            $content .= "\n<td class=\"pr-4 \"><small>" . $measurement['collectionFrequency'] . "</small></td>";
-            $content .= "\n<td class=\"pr-4 \"><small>" . $measurement['material'] . "</small></td>";
-            # $content .= "\n<td class=\"pr-4 \"><small>" . $measurement['scale'] . "</td>";
-            $content .= "\n<td class=\"pr-4 w-25\"><small>" . $measurement['description'] . "</small></td>";
-            $content .= "\n<td class=\"pr-4 \"><small>" . $vcrop . "</small></td>";
+            $content .= "\n<td class=\"pr-4 \">" . title_case($measurement['variable']) . "</td>";
+            $content .= "\n<td class=\"pr-4 \">" . $measurement['unitCode'] . "</td>";
+            $content .= "\n<td class=\"pr-4 \">" . $measurement['collectionFrequency'] . "</td>";
+            $content .= "\n<td class=\"pr-4 \">" . $measurement['material'] . "</td>";
+            # $content .= "\n<td class=\"pr-4 \">" . $measurement['scale'] . "</td>";
+            $content .= "\n<td class=\"pr-4 w-25\">" . $measurement['description'] . "</td>";
+            $content .= "\n<td class=\"pr-4 \">" . $vcrop . "</td>";
 
             $content .= "\n</tr>";
         }

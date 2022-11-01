@@ -101,7 +101,7 @@ function renameImages($array, $recursive = false, $null = '&nbsp;')
  * @return $command: a line that can be outputed. DOES NOT RUN THAT: just output and check, copy paste the commands.
  */
 function makeCSV($array, $recursive = false, $null = '&nbsp;')
-{
+{   $stuff = "";
     // Sanity check
     if (empty($array) || ! is_array($array)) {
         return false;
@@ -115,8 +115,8 @@ function makeCSV($array, $recursive = false, $null = '&nbsp;')
     
     //
     foreach ($array as $folders) {
-        $commands = "Credit,FileName,Caption,Type,exptID,isReviewed<br />";
-        $copyCommand = "";
+        $commands = "FileName,exptID<br />";
+        
         $i = 1;
         foreach ($folders as $foldername => $folder) {
             $base = $foldername;
@@ -136,33 +136,28 @@ function makeCSV($array, $recursive = false, $null = '&nbsp;')
                             $type = "Other";
                         }
                         
-                        if (strstr($filename, '.doc') || strstr($filename, '.pdf')) { // we are looking at the php and html files documents
-                            $commands .= "eRA curators," . $base . "/" . $filename . "," . $stitle . "," . $ext . "," . $foldername . ",0<br />";
-                            //$copyCommand .= "copy Backups\\era2018-2019-10-22\\metadata\\".$base."\\". $filename."  P:\\era2018-new\\metadata\\".$base."\\". $filename. " /Y <br />";
-                            $i = $i + 1;
+                        if (strstr($filename, '.html') || strstr($filename, '.php')) { // we are looking at the php and html files documents
+                            $commands .=  $base . "/" . $filename .  "," . $foldername . "<br />";
+                             $i = $i + 1;
                         }
                         } else {
                         $title = "array";
                     }
                 }
-                $copyCommand .= "copy Backups\\era2018-2019-10-22\\metadata\\".$base."\\documents.json   P:\\era2018-new\\metadata\\".$base."\\  /Y <br />";
-                
+               
             }
         }
     }
-    $stuff = $copyCommand . $commands;
+    $stuff =  $commands;
     return $stuff;
 }
 
 $dir = 'metadata/';
 $files = dirToArray($dir);
 echo "<pre>";
-print_r($files);
+//print_r($files);
 
-echo "<hr />";
-echo "function renameImages <br />";
-$line = renameImages($files, $recursive = true, $null = '&nbsp;');
-echo $line;
+
 
 echo "function Make CSV <br />";
 $csv = makeCSV($files);

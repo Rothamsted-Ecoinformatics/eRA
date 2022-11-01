@@ -5,7 +5,9 @@
 		"Type": "html",
 		"Caption": "Brooms Barn Met Station ",
 		"exptID": "bms",
-		"isReviewed": 1
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/bms/index",
+		"isReviewed": 0,
+		"Comments": null
 	},
 	{
 		"Credit": "eRA curators",
@@ -13,7 +15,9 @@
 		"Type": "html",
 		"Caption": "bms measurements",
 		"exptID": "bms",
-		"isReviewed": 1
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/bms/measurements",
+		"isReviewed": 1,
+		"Comments": null
 	},
 	{
 		"Credit": "eRA curators",
@@ -21,7 +25,9 @@
 		"Type": "html",
 		"Caption": "bms Overview",
 		"exptID": "bms",
-		"isReviewed": 1
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/bms/overview",
+		"isReviewed": 1,
+		"Comments": null
 	},
 	{
 		"Credit": "eRA curators",
@@ -29,7 +35,9 @@
 		"Type": "html",
 		"Caption": "Brooms Barn Experiments",
 		"exptID": "broomsbarn",
-		"isReviewed": 1
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/broomsbarn/experiments",
+		"isReviewed": 1,
+		"Comments": null
 	},
 	{
 		"Credit": "eRA curators",
@@ -37,15 +45,19 @@
 		"Type": "html",
 		"Caption": "History of Broom's Barn",
 		"exptID": "broomsbarn",
-		"isReviewed": 1
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/broomsbarn/history",
+		"isReviewed": 1,
+		"Comments": null
 	},
 	{
 		"Credit": "eRA curators",
 		"FileName": "index",
-		"Type": "php",
+		"Type": "html",
 		"Caption": "Brooms Barn",
 		"exptID": "broomsbarn",
-		"isReviewed": 0
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/broomsbarn/index",
+		"isReviewed": 0,
+		"Comments": null
 	},
 	{
 		"Credit": "eRA curators",
@@ -53,7 +65,9 @@
 		"Type": "html",
 		"Caption": "Brooms Barn: overview",
 		"exptID": "broomsbarn",
-		"isReviewed": 1
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/broomsbarn/overview",
+		"isReviewed": 1,
+		"Comments": null
 	},
 	{
 		"Credit": "eRA curators",
@@ -61,7 +75,9 @@
 		"Type": "html",
 		"Caption": "Brooms Bar site",
 		"exptID": "broomsbarn",
-		"isReviewed": 1
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/broomsbarn/site",
+		"isReviewed": 1,
+		"Comments": null
 	},
 	{
 		"Credit": "eRA curators",
@@ -69,7 +85,9 @@
 		"Type": "html",
 		"Caption": "Styles and Colors",
 		"exptID": "curation",
-		"isReviewed": 0
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/curation/style",
+		"isReviewed": 0,
+		"Comments": null
 	},
 	{
 		"Credit": "eRA curators",
@@ -77,7 +95,9 @@
 		"Type": "html",
 		"Caption": "Styles and Colors",
 		"exptID": "curation",
-		"isReviewed": 0
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/curation/style2",
+		"isReviewed": 0,
+		"Comments": null
 	},
 	{
 		"Credit": "eRA curators",
@@ -85,7 +105,9 @@
 		"Type": "html",
 		"Caption": "About e-RA",
 		"exptID": "default",
-		"isReviewed": 1
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/default/about",
+		"isReviewed": 1,
+		"Comments": null
 	},
 	{
 		"Credit": "eRA curators",
@@ -93,7 +115,9 @@
 		"Type": "html",
 		"Caption": "Conversion Factors",
 		"exptID": "default",
-		"isReviewed": 1
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/default/CF",
+		"isReviewed": 1,
+		"Comments": null
 	},
 	{
 		"Credit": "eRA curators",
@@ -101,663 +125,9 @@
 		"Type": "html",
 		"Caption": "Conditions of Use",
 		"exptID": "default",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "dataQuality",
-		"Type": "php",
-		"Caption": "Data Quality in e-RA",
-		"exptID": "default",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "error",
-		"Type": "html",
-		"Caption": "Erro4 - 404",
-		"exptID": "default",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "experiments",
-		"Type": "php",
-		"Caption": "All the experiments",
-		"exptID": "default",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "howtoaccessdata",
-		"Type": "html",
-		"Caption": "How to access data",
-		"exptID": "default",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "howtocredit",
-		"Type": "html",
-		"Caption": "How to credit materials",
-		"exptID": "default",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "index",
-		"Type": "php",
-		"Caption": "default blank",
-		"exptID": "default",
-		"isReviewed": 0
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "index",
-		"Type": "html",
-		"Caption": "index",
-		"exptID": "default",
-		"isReviewed": 0
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "instrumentdescription",
-		"Type": "html",
-		"Caption": "Description of the instruments for measuring met data",
-		"exptID": "default",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "register",
-		"Type": "php",
-		"Caption": "Registration Forms",
-		"exptID": "default",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "index",
-		"Type": "php",
-		"Caption": "The data extraction Tool",
-		"exptID": "DET",
-		"isReviewed": 0
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "derived_variables",
-		"Type": "html",
-		"Caption": "Derived Meterological Variables",
-		"exptID": "met",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "equipment",
-		"Type": "html",
-		"Caption": "Measuring the weather",
-		"exptID": "met",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "instrumentdescription",
-		"Type": "html",
-		"Caption": "Measuring the weather",
-		"exptID": "met",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "metsoils",
-		"Type": "php",
-		"Caption": "Met station site data",
-		"exptID": "met",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "public",
-		"Type": "html",
-		"Caption": "Weather data for the public",
-		"exptID": "met",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "schools",
-		"Type": "html",
-		"Caption": "Weather data for schools",
-		"exptID": "met",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "index",
-		"Type": "php",
-		"Caption": "index",
-		"exptID": "others",
-		"isReviewed": 0
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "disease",
-		"Type": "html",
-		"Caption": "",
-		"exptID": "rbk1",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "earthworms",
-		"Type": "html",
-		"Caption": "Earthworms",
-		"exptID": "rbk1",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "grainquality",
-		"Type": "html",
-		"Caption": "Grain Quality",
-		"exptID": "rbk1",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "index",
-		"Type": "php",
-		"Caption": "index",
-		"exptID": "rbk1",
-		"isReviewed": 0
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "nutrients",
-		"Type": "php",
-		"Caption": "Nutrient Data",
-		"exptID": "rbk1",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "soilchem",
-		"Type": "html",
-		"Caption": "Soil Chemistry",
-		"exptID": "rbk1",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "soilphys",
-		"Type": "html",
-		"Caption": "Soil Physical measurements",
-		"exptID": "rbk1",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "soils",
-		"Type": "html",
-		"Caption": "soils",
-		"exptID": "rbk1",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "soils44",
-		"Type": "html",
-		"Caption": "soils44",
-		"exptID": "rbk1",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "soils66",
-		"Type": "html",
-		"Caption": "soils66",
-		"exptID": "rbk1",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "soils87",
-		"Type": "html",
-		"Caption": "soils87",
-		"exptID": "rbk1",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "weeds",
-		"Type": "html",
-		"Caption": "weeds",
-		"exptID": "rbk1",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "yields",
-		"Type": "php",
-		"Caption": "Yield Data ",
-		"exptID": "rbk1",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "yields-other-crops",
-		"Type": "php",
-		"Caption": "Broadbalk other crops",
-		"exptID": "rbk1",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "exhsoils",
-		"Type": "php",
-		"Caption": "exhsoils",
-		"exptID": "rex4",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "exhsoilsold",
-		"Type": "php",
-		"Caption": "exhsoilsold",
-		"exptID": "rex4",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "index",
-		"Type": "php",
-		"Caption": "index",
-		"exptID": "rex4",
-		"isReviewed": 0
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "index",
-		"Type": "php",
-		"Caption": "index",
-		"exptID": "rgc8",
-		"isReviewed": 0
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "hfsoils",
-		"Type": "html",
-		"Caption": "Soil in Hoosfield",
-		"exptID": "rhb2",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "index",
-		"Type": "html",
-		"Caption": "index",
-		"exptID": "rhb2",
-		"isReviewed": 0
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "nutrients",
-		"Type": "html",
-		"Caption": "Hoosfields Nutrients",
-		"exptID": "rhb2",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "plans",
-		"Type": "html",
-		"Caption": "Hoosfield Plans and treatments",
-		"exptID": "rhb2",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "30yearmean",
-		"Type": "html",
-		"Caption": "30 years mean data",
-		"exptID": "rms",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "background",
-		"Type": "html",
-		"Caption": "Background information on the Rothamsted Weather Station",
-		"exptID": "rms",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "extreme",
-		"Type": "html",
-		"Caption": "Extreme weather recordings",
-		"exptID": "rms",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "history",
-		"Type": "html",
-		"Caption": "History of the Rothamsted Weather Station",
-		"exptID": "rms",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "index",
-		"Type": "html",
-		"Caption": "index",
-		"exptID": "rms",
-		"isReviewed": 0
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "measurements",
-		"Type": "php",
-		"Caption": "Data available and how it is measured",
-		"exptID": "rms",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "monthly",
-		"Type": "html",
-		"Caption": "Rothamsted Met Data Monthly Updates",
-		"exptID": "rms",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "overview",
-		"Type": "html",
-		"Caption": "Overview of the Rothamsted Weather Station",
-		"exptID": "rms",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "site",
-		"Type": "html",
-		"Caption": "The Rothamsted Weather station site",
-		"exptID": "rms",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "history",
-		"Type": "html",
-		"Caption": "History of Rothamsted Experimental station",
-		"exptID": "rothamsted",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "index",
-		"Type": "php",
-		"Caption": "Rothamsted Experimental Station",
-		"exptID": "rothamsted",
-		"isReviewed": 0
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "overview",
-		"Type": "html",
-		"Caption": "Overview of the Rothamsted experimental station",
-		"exptID": "rothamsted",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "site",
-		"Type": "html",
-		"Caption": "The Rothamsted site",
-		"exptID": "rothamsted",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "summary",
-		"Type": "html",
-		"Caption": "Summary",
-		"exptID": "rothamsted",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "harvesting",
-		"Type": "html",
-		"Caption": "Harvesting Parkgrass",
-		"exptID": "rpg5",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "index",
-		"Type": "php",
-		"Caption": "index",
-		"exptID": "rpg5",
-		"isReviewed": 0
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "links",
-		"Type": "html",
-		"Caption": "list of links for Parkgrass",
-		"exptID": "rpg5",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "parkgrass-history",
-		"Type": "php",
-		"Caption": "parkgrass history",
-		"exptID": "rpg5",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "pgcomposition1",
-		"Type": "html",
-		"Caption": "pgcomposition1",
-		"exptID": "rpg5",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "pgsoils",
-		"Type": "html",
-		"Caption": "pgsoils",
-		"exptID": "rpg5",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "plans",
-		"Type": "html",
-		"Caption": "Plans for the Parkgrass experiment",
-		"exptID": "rpg5",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "metagenomic",
-		"Type": "html",
-		"Caption": "New data from old samples",
-		"exptID": "rrn1",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "index",
-		"Type": "php",
-		"Caption": "index",
-		"exptID": "rwf3",
-		"isReviewed": 0
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "experiments",
-		"Type": "html",
-		"Caption": "Experiments done at Saxmundham",
-		"exptID": "saxmundham",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "history",
-		"Type": "html",
-		"Caption": "Hist0ry of the Saxmundham Station",
-		"exptID": "saxmundham",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "index",
-		"Type": "html",
-		"Caption": "Saxmundham Station",
-		"exptID": "saxmundham",
-		"isReviewed": 0
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "overview",
-		"Type": "html",
-		"Caption": "Overview",
-		"exptID": "saxmundham",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "site",
-		"Type": "html",
-		"Caption": "Site",
-		"exptID": "saxmundham",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "summary",
-		"Type": "html",
-		"Caption": "Summary",
-		"exptID": "saxmundham",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "index",
-		"Type": "html",
-		"Caption": "index",
-		"exptID": "sms",
-		"isReviewed": 0
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "measurements",
-		"Type": "html",
-		"Caption": "Measuring the weather",
-		"exptID": "sms",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "overview",
-		"Type": "html",
-		"Caption": "Overview of the Saxmundham Weather Station",
-		"exptID": "sms",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "index",
-		"Type": "php",
-		"Caption": "index",
-		"exptID": "wilderness",
-		"isReviewed": 0
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "experiments",
-		"Type": "html",
-		"Caption": "Experiments done at Woburn",
-		"exptID": "woburn",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "history",
-		"Type": "html",
-		"Caption": "History of the Woburm Station",
-		"exptID": "woburn",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "index",
-		"Type": "php",
-		"Caption": "Woburn Station",
-		"exptID": "woburn",
-		"isReviewed": 0
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "index",
-		"Type": "html",
-		"Caption": "Woburn Station",
-		"exptID": "woburn",
-		"isReviewed": 0
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "overview",
-		"Type": "html",
-		"Caption": "Overview",
-		"exptID": "woburn",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "site",
-		"Type": "html",
-		"Caption": "Site",
-		"exptID": "woburn",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "summary",
-		"Type": "html",
-		"Caption": "Summary",
-		"exptID": "woburn",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "data",
-		"Type": "php",
-		"Caption": "data",
-		"exptID": "wrn3",
-		"isReviewed": 1
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "index",
-		"Type": "php",
-		"Caption": "index",
-		"exptID": "wrn3",
-		"isReviewed": 0
-	},
-	{
-		"Credit": "eRA curators",
-		"FileName": "outreach",
-		"Type": "html",
-		"Caption": "Broadbalk Dataset for School",
-		"exptID": "rbk1",
-		"isReviewed": 0
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/default/conditions",
+		"isReviewed": 1,
+		"Comments": null
 	},
 	{
 		"Credit": "eRA curators",
@@ -765,7 +135,119 @@
 		"Type": "html",
 		"Caption": "Credits: past and present staff involved in eRA",
 		"exptID": "default",
-		"isReviewed": 0
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/default/credits",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "dataQuality",
+		"Type": "html",
+		"Caption": "Data Quality in e-RA",
+		"exptID": "default",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/default/dataQuality",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "error",
+		"Type": "html",
+		"Caption": "Erro4 - 404",
+		"exptID": "default",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/default/error",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "experiments",
+		"Type": "html",
+		"Caption": "All the experiments",
+		"exptID": "default",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/default/experiments",
+		"isReviewed": 0,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "howtoaccessdata",
+		"Type": "html",
+		"Caption": "How to access data",
+		"exptID": "default",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/default/howtoaccessdata",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "howtocredit",
+		"Type": "html",
+		"Caption": "How to credit materials",
+		"exptID": "default",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/default/howtocredit",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index",
+		"Type": "html",
+		"Caption": "index",
+		"exptID": "default",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/default/index",
+		"isReviewed": 0,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "instrumentdescription",
+		"Type": "html",
+		"Caption": "Description of the instruments for measuring met data",
+		"exptID": "default",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/default/instrumentdescription",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "register",
+		"Type": "html",
+		"Caption": "Registration Forms",
+		"exptID": "default",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/default/register",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index",
+		"Type": "html",
+		"Caption": "The data extraction Tool",
+		"exptID": "DET",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/DET/index",
+		"isReviewed": 0,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "derived_variables",
+		"Type": "html",
+		"Caption": "Derived Meterological Variables",
+		"exptID": "met",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/met/derived_variables",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "equipment",
+		"Type": "html",
+		"Caption": "Measuring the weather",
+		"exptID": "met",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/met/equipment",
+		"isReviewed": 1,
+		"Comments": null
 	},
 	{
 		"Credit": "eRA curators",
@@ -773,6 +255,638 @@
 		"Type": "html",
 		"Caption": "Weather data on e-RA",
 		"exptID": "met",
-		"isReviewed": 0
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/met/index",
+		"isReviewed": 0,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "instrumentdescription",
+		"Type": "html",
+		"Caption": "Measuring the weather",
+		"exptID": "met",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/met/instrumentdescription",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "public",
+		"Type": "html",
+		"Caption": "Weather data for the public",
+		"exptID": "met",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/met/public",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "schools",
+		"Type": "html",
+		"Caption": "Weather data for schools",
+		"exptID": "met",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/met/schools",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "disease",
+		"Type": "html",
+		"Caption": "Broadbalk Diseases",
+		"exptID": "rbk1",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rbk1/disease",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "earthworms",
+		"Type": "html",
+		"Caption": "Earthworms",
+		"exptID": "rbk1",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rbk1/earthworms",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "grainquality",
+		"Type": "html",
+		"Caption": "Grain Quality",
+		"exptID": "rbk1",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rbk1/grainquality",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index",
+		"Type": "html",
+		"Caption": "index",
+		"exptID": "rbk1",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rbk1/index",
+		"isReviewed": 0,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "nutrients",
+		"Type": "html",
+		"Caption": "Nutrient Data",
+		"exptID": "rbk1",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rbk1/nutrients",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "outreach",
+		"Type": "html",
+		"Caption": "Broadbalk Dataset for School",
+		"exptID": "rbk1",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rbk1/outreach",
+		"isReviewed": 0,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "soilchem",
+		"Type": "html",
+		"Caption": "Soil Chemistry",
+		"exptID": "rbk1",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rbk1/soilchem",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "soilphys",
+		"Type": "html",
+		"Caption": "Soil Physical measurements",
+		"exptID": "rbk1",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rbk1/soilphys",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "soils",
+		"Type": "html",
+		"Caption": "soils",
+		"exptID": "rbk1",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rbk1/soils",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "weeds",
+		"Type": "html",
+		"Caption": "weeds",
+		"exptID": "rbk1",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rbk1/weeds",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "yields",
+		"Type": "html",
+		"Caption": "Yield Data ",
+		"exptID": "rbk1",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rbk1/yields",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "yields_other_crops",
+		"Type": "html",
+		"Caption": "Broadbalk other crops",
+		"exptID": "rbk1",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rbk1/yields_other_crops",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index",
+		"Type": "html",
+		"Caption": "index",
+		"exptID": "rex4",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rex4/index",
+		"isReviewed": 0,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index",
+		"Type": "html",
+		"Caption": "index",
+		"exptID": "rgc8",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rgc8/index",
+		"isReviewed": 0,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "hfsoils",
+		"Type": "html",
+		"Caption": "Soil in Hoosfield",
+		"exptID": "rhb2",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rhb2/hfsoils",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index",
+		"Type": "html",
+		"Caption": "index",
+		"exptID": "rhb2",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rhb2/index",
+		"isReviewed": 0,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "nutrients",
+		"Type": "html",
+		"Caption": "Hoosfields Nutrients",
+		"exptID": "rhb2",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rhb2/nutrients",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "plans",
+		"Type": "html",
+		"Caption": "Hoosfield Plans and treatments",
+		"exptID": "rhb2",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rhb2/plans",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "30yearmean",
+		"Type": "html",
+		"Caption": "30 years mean data",
+		"exptID": "rms",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rms/30yearmean",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "background",
+		"Type": "html",
+		"Caption": "Background information on the Rothamsted Weather Station",
+		"exptID": "rms",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rms/background",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "extreme",
+		"Type": "html",
+		"Caption": "Extreme weather recordings",
+		"exptID": "rms",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rms/extreme",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "history",
+		"Type": "html",
+		"Caption": "History of the Rothamsted Weather Station",
+		"exptID": "rms",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rms/history",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index",
+		"Type": "html",
+		"Caption": "index",
+		"exptID": "rms",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rms/index",
+		"isReviewed": 0,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "measurements",
+		"Type": "html",
+		"Caption": "Data available and how it is measured",
+		"exptID": "rms",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rms/measurements",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "monthly",
+		"Type": "html",
+		"Caption": "Rothamsted Met Data Monthly Updates",
+		"exptID": "rms",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rms/monthly",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "overview",
+		"Type": "html",
+		"Caption": "Overview of the Rothamsted Weather Station",
+		"exptID": "rms",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rms/overview",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "site",
+		"Type": "html",
+		"Caption": "The Rothamsted Weather station site",
+		"exptID": "rms",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rms/site",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "history",
+		"Type": "html",
+		"Caption": "History of Rothamsted Experimental station",
+		"exptID": "rothamsted",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rothamsted/history",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index",
+		"Type": "html",
+		"Caption": "Rothamsted Experimental Station",
+		"exptID": "rothamsted",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rothamsted/index",
+		"isReviewed": 0,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "overview",
+		"Type": "html",
+		"Caption": "Overview of the Rothamsted experimental station",
+		"exptID": "rothamsted",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rothamsted/overview",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "site",
+		"Type": "html",
+		"Caption": "The Rothamsted site",
+		"exptID": "rothamsted",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rothamsted/site",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "summary",
+		"Type": "html",
+		"Caption": "Summary",
+		"exptID": "rothamsted",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rothamsted/summary",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "harvesting",
+		"Type": "html",
+		"Caption": "Harvesting Parkgrass",
+		"exptID": "rpg5",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rpg5/harvesting",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index",
+		"Type": "html",
+		"Caption": "index",
+		"exptID": "rpg5",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rpg5/index",
+		"isReviewed": 0,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "links",
+		"Type": "html",
+		"Caption": "list of links for Parkgrass",
+		"exptID": "rpg5",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rpg5/links",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "parkgrass-history",
+		"Type": "html",
+		"Caption": "parkgrass history",
+		"exptID": "rpg5",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rpg5/parkgrass-history",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "pgcomposition1",
+		"Type": "html",
+		"Caption": "pgcomposition1",
+		"exptID": "rpg5",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rpg5/pgcomposition1",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "pgsoils",
+		"Type": "html",
+		"Caption": "pgsoils",
+		"exptID": "rpg5",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rpg5/pgsoils",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "plans",
+		"Type": "html",
+		"Caption": "Plans for the Parkgrass experiment",
+		"exptID": "rpg5",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rpg5/plans",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "metagenomic",
+		"Type": "html",
+		"Caption": "New data from old samples",
+		"exptID": "rrn1",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rrn1/metagenomic",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index",
+		"Type": "html",
+		"Caption": "index",
+		"exptID": "rwf3",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rwf3/index",
+		"isReviewed": 0,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "experiments",
+		"Type": "html",
+		"Caption": "Experiments done at Saxmundham",
+		"exptID": "saxmundham",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/saxmundham/experiments",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "history",
+		"Type": "html",
+		"Caption": "Hist0ry of the Saxmundham Station",
+		"exptID": "saxmundham",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/saxmundham/history",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index",
+		"Type": "html",
+		"Caption": "Saxmundham Station",
+		"exptID": "saxmundham",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/saxmundham/index",
+		"isReviewed": 0,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "overview",
+		"Type": "html",
+		"Caption": "Overview",
+		"exptID": "saxmundham",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/saxmundham/overview",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "site",
+		"Type": "html",
+		"Caption": "Site",
+		"exptID": "saxmundham",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/saxmundham/site",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "summary",
+		"Type": "html",
+		"Caption": "Summary",
+		"exptID": "saxmundham",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/saxmundham/summary",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index",
+		"Type": "html",
+		"Caption": "index",
+		"exptID": "sms",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/sms/index",
+		"isReviewed": 0,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "measurements",
+		"Type": "html",
+		"Caption": "Measuring the weather",
+		"exptID": "sms",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/sms/measurements",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "overview",
+		"Type": "html",
+		"Caption": "Overview of the Saxmundham Weather Station",
+		"exptID": "sms",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/sms/overview",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "experiments",
+		"Type": "html",
+		"Caption": "Experiments done at Woburn",
+		"exptID": "woburn",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/woburn/experiments",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "history",
+		"Type": "html",
+		"Caption": "History of the Woburm Station",
+		"exptID": "woburn",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/woburn/history",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index",
+		"Type": "html",
+		"Caption": "Woburn Station",
+		"exptID": "woburn",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/woburn/index",
+		"isReviewed": 0,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "overview",
+		"Type": "html",
+		"Caption": "Overview",
+		"exptID": "woburn",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/woburn/overview",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "site",
+		"Type": "html",
+		"Caption": "Site",
+		"exptID": "woburn",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/woburn/site",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "summary",
+		"Type": "html",
+		"Caption": "Summary",
+		"exptID": "woburn",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/woburn/summary",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "plans",
+		"Type": "html",
+		"Caption": "Plans and treatments for WRN3",
+		"exptID": "wrn3",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/wrn3/plans",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "index",
+		"Type": "html",
+		"Caption": "index",
+		"exptID": "wrn3",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/wrn3/index",
+		"isReviewed": 0,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "datasets",
+		"Type": "php",
+		"Caption": "All the Datasets",
+		"exptID": "default",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/default/datasets",
+		"isReviewed": 1,
+		"Comments": null
+	},
+	{
+		"Credit": "eRA curators",
+		"FileName": "plot-photos",
+		"Type": "php",
+		"Caption": "Park Grass Plots",
+		"exptID": "rpg5",
+		"link": "http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rpg5/plot-photos",
+		"isReviewed": 1,
+		"Comments": null
 	}
 ]

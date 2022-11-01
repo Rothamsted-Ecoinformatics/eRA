@@ -4,7 +4,7 @@
     "identifier": "10.23637/rpg5-plan1965-01",
     "name": "Park Grass experiment plan and treatments since 1965, updated 2018",
     "shortName": "",
-    "url": "http://www.era.rothamsted.ac.uk/metadata/rpg5/01-rpg5-plan1965.pdf",
+    "url": "https://www.era.rothamsted.ac.uk/metadata/rpg5/01-rpg5-plan1965.pdf",
     "description": [
         {
             "inLanguage": "en",
@@ -21,7 +21,7 @@
     "dateModified": "2021-10-09",
     "datePublished": null,
     "inLanguage": "en",
-    "version": "01",
+    "version": "1",
     "keywords": [
         "Rothamsted Research",
         "Park grass long-term experiment",
@@ -153,6 +153,15 @@
             "relationType": "IsSupplementedBy",
             "rt_id": 4,
             "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rpg5-plan1965-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Park Grass experiment plan and treatments since 1965, updated 2018",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
         }
     ],
     "funder": [

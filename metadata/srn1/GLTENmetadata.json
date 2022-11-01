@@ -468,7 +468,7 @@
                 {
                     "id": 10612,
                     "crop_term": "Medicago sativa",
-                    "crop_label": "Medicago sativa",
+                    "crop_label": "alfalfa",
                     "start_year": null,
                     "end_year": null
                 },
@@ -495,8 +495,8 @@
                 },
                 {
                     "id": 10616,
-                    "crop_term": null,
-                    "crop_label": "sugar beet",
+                    "crop_term": "sugarbeet",
+                    "crop_label": "sugarbeet",
                     "start_year": null,
                     "end_year": null
                 },

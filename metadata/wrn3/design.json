@@ -2,50 +2,216 @@
     {
         "administrative": {
             "type": "experiment",
-            "identifier": null,
-            "localIdentifier": null,
-            "name": null,
-            "url": null,
-            "description": ""
+            "identifier": "Period 1",
+            "localIdentifier": "Period 1",
+            "name": "Period 1",
+            "url": "Period 1",
+            "description": "40 pairs of main plots in 5 blocks, phased in over a 5 year period. On half of the plots there were four 'Continuous' rotations: 3-year grass grass/clover ley (L),  a 3-year lucerne ley (Lu), a 3-year arable rotation which included a 1-yr hay crop (Ah) and a 3-year arable rotation which included root crops (Ar). The effect of these four 'treatments' was compared on the yield of two arable 'test' crops. On the other plots the ley and arable 'treatment' crops alternated (called the Alternating rotations). A test of FYM applied to the first test crop was also included on one of each pair of main plots, 1938-1966. The test crops were potatoes followed by spring barley. Sugar beet replaced potatoes in 1956. Sainfoin replaced lucerne in 1965."
         },
         "design": {
-            "dateStart": null,
-            "dateEnd": null,
-            "description": null,
-            "studyDesign": null,
+            "dateStart": 1938,
+            "dateEnd": 1972,
+            "description": "40 pairs of main plots in 5 blocks, phased in over a 5 year period. On half of the plots there were four 'Continuous' rotations: 3-year grass grass/clover ley (L),  a 3-year lucerne ley (Lu), a 3-year arable rotation which included a 1-yr hay crop (Ah) and a 3-year arable rotation which included root crops (Ar). The effect of these four 'treatments' was compared on the yield of two arable 'test' crops. On the other plots the ley and arable 'treatment' crops alternated (called the Alternating rotations). A test of FYM applied to the first test crop was also included on one of each pair of main plots, 1938-1966. The test crops were potatoes followed by spring barley. Sugar beet replaced potatoes in 1956. Sainfoin replaced lucerne in 1965.",
+            "studyDesign": "Period 1",
             "factorCombinationNumber": "NA",
             "numberOdBlocks": null,
-            "numberOfPlots": null,
-            "numberOfReplicates": null,
-            "numberOfSubplots": null,
-            "numberOfHarvests": null
+            "numberOfPlots": 8,
+            "numberOfReplicates": 5,
+            "numberOfSubplots": 2,
+            "numberOfHarvests": 1
         },
         "crops": [
             {
-                "id": 132,
-                "name": "wheat",
-                "sameAs": "wheat",
-                "dateStart": null,
-                "dateEnd": null
-            },
-            {
-                "id": 133,
-                "name": "barley",
-                "sameAs": "barley",
-                "dateStart": null,
-                "dateEnd": null
-            },
-            {
-                "id": 134,
+                "id": 17482,
                 "name": "grass clover leys",
                 "sameAs": "grass clover leys",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 135,
+                "id": 17483,
                 "name": "grass leys",
                 "sameAs": "grass leys",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 17484,
+                "name": "potatoes",
+                "sameAs": "potatoes",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 17485,
+                "name": "sugarbeet",
+                "sameAs": "sugarbeet",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 17486,
+                "name": "Medicago sativa",
+                "sameAs": "alfalfa",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 17487,
+                "name": "spring barley",
+                "sameAs": "spring barley",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": [
+            {
+                "name": "",
+                "dateStart": null,
+                "dateEnd": null,
+                "phasing": null,
+                "isTreatment": false,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": null,
+                        "description": null
+                    }
+                ]
+            }
+        ],
+        "factor": "NA",
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Period 2",
+            "localIdentifier": "Period 2",
+            "name": "Period 2",
+            "url": "Period 2",
+            "description": "Major changes made to the experiment in 1973-78. Grazed leys were replaced with cut grass or grass/clover leys. The Alternating rotations were stopped and two cycles of 8-year leys followed by the 2-yr test crops were introduced, the first cycle started in 1973, the second in 1978."
+        },
+        "design": {
+            "dateStart": 1973,
+            "dateEnd": 2006,
+            "description": "Major changes made to the experiment in 1973-78. Grazed leys were replaced with cut grass or grass/clover leys. The Alternating rotations were stopped and two cycles of 8-year leys followed by the 2-yr test crops were introduced, the first cycle started in 1973, the second in 1978.",
+            "studyDesign": "Period 2",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": 8,
+            "numberOfReplicates": 5,
+            "numberOfSubplots": 2,
+            "numberOfHarvests": 1
+        },
+        "crops": [
+            {
+                "id": 17488,
+                "name": "wheat",
+                "sameAs": "wheat",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 17489,
+                "name": "spring barley",
+                "sameAs": "spring barley",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 17490,
+                "name": "winter rye",
+                "sameAs": "winter rye",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": [
+            {
+                "name": "",
+                "dateStart": null,
+                "dateEnd": null,
+                "phasing": null,
+                "isTreatment": false,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": null,
+                        "description": null
+                    }
+                ]
+            }
+        ],
+        "factor": "NA",
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "Grain yield",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "annually",
+                "scale": null,
+                "material": "SpecifiedCrop",
+                "description": "Grain yields for test crops (wheat and spring barley)",
+                "crop": 17488
+            },
+            {
+                "variable": "soil organic carbon",
+                "unitCode": "%",
+                "unitText": "Percent",
+                "collectionFrequency": null,
+                "scale": null,
+                "material": "Soil",
+                "description": null,
+                "crop": null
+            },
+            {
+                "variable": "total soil nitrogen",
+                "unitCode": "%",
+                "unitText": "Percent",
+                "collectionFrequency": null,
+                "scale": null,
+                "material": "Soil",
+                "description": null,
+                "crop": null
+            }
+        ]
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Period 3",
+            "localIdentifier": "Period 3",
+            "name": "Period 3",
+            "url": "Period 3",
+            "description": "Major changes to the experiment in 2006/7. The 8-year leys were ended once both cycles had completed three 10-year rotations. Thus in 2008 plots previously in the 1st cycle of 8-year leys started to follow the same rotations as the two continuous arable rotation, whilst those in the second cycle went into a 3-year grass +N or 3-year grass/clover rotation, i.e. the same four rotations as the 'continuous' plots but with more SOM."
+        },
+        "design": {
+            "dateStart": 2007,
+            "dateEnd": 2020,
+            "description": "Major changes to the experiment in 2006/7. The 8-year leys were ended once both cycles had completed three 10-year rotations. Thus in 2008 plots previously in the 1st cycle of 8-year leys started to follow the same rotations as the two continuous arable rotation, whilst those in the second cycle went into a 3-year grass +N or 3-year grass/clover rotation, i.e. the same four rotations as the 'continuous' plots but with more SOM.",
+            "studyDesign": "Period 3",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": 8,
+            "numberOfReplicates": 5,
+            "numberOfSubplots": 2,
+            "numberOfHarvests": 1
+        },
+        "crops": [
+            {
+                "id": 17491,
+                "name": "winter wheat",
+                "sameAs": "winter wheat",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 17492,
+                "name": "winter rye",
+                "sameAs": "winter rye",
                 "dateStart": null,
                 "dateEnd": null
             }
@@ -53,6 +219,37 @@
         "cropRotations": "NA",
         "factor": "NA",
         "factorCombinations": "NA",
-        "measurements": "NA"
+        "measurements": [
+            {
+                "variable": "grain yield trait",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "annually",
+                "scale": null,
+                "material": "SpecifiedCrop",
+                "description": "grain yield for test crops (winter wheat and winter rye)",
+                "crop": 17491
+            },
+            {
+                "variable": "soil organic carbon",
+                "unitCode": "%",
+                "unitText": "Percent",
+                "collectionFrequency": null,
+                "scale": null,
+                "material": "Soil",
+                "description": null,
+                "crop": null
+            },
+            {
+                "variable": "total soil nitrogen",
+                "unitCode": "%",
+                "unitText": "Percent",
+                "collectionFrequency": null,
+                "scale": null,
+                "material": "Soil",
+                "description": null,
+                "crop": null
+            }
+        ]
     }
 ]

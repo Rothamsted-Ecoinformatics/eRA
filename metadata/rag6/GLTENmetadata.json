@@ -507,8 +507,8 @@
             "crops": [
                 {
                     "id": 7083,
-                    "crop_term": null,
-                    "crop_label": "Spring barley",
+                    "crop_term": "spring barley",
+                    "crop_label": "spring barley",
                     "start_year": null,
                     "end_year": null
                 },
@@ -521,8 +521,8 @@
                 },
                 {
                     "id": 7085,
-                    "crop_term": null,
-                    "crop_label": "winter field beans, (Vicia faba)",
+                    "crop_term": "faba beans",
+                    "crop_label": "faba beans",
                     "start_year": null,
                     "end_year": null
                 },
@@ -542,8 +542,8 @@
                 },
                 {
                     "id": 7088,
-                    "crop_term": null,
-                    "crop_label": "sugar beet",
+                    "crop_term": "sugarbeet",
+                    "crop_label": "sugarbeet",
                     "start_year": null,
                     "end_year": null
                 },

@@ -2,19 +2,19 @@
     "administrative": {
         "type": "ScholarlyArticle",
         "identifier": "Woburn Ley Arable",
-        "localIdentifier": null,
+        "localIdentifier": "W/RN/3",
         "name": "Woburn Ley Arable",
         "url": null,
-        "description": null,
-        "disambiguatingDescription": null
+        "description": "Started in 1938 to compare the effects of rotations with or without grass or grass-clover leys on the yield of two arable test crops. It is now an important resource for investigation long-term changes in SOM due to different cropping systems. Five year rotation of three years in arable crops or leys (short-term grassland) followed by two years of arable test crops. Total of 40 pairs of plots divided into 5 blocks,  phased-in over a five-year period, so the each year of the rotation is present each year.",
+        "disambiguatingDescription": "Effects of continuous arable and ley-arable cropping on crop production, soil organic matter dynamics and fertility in a sandy loam."
     },
     "dataAccess": {
         "type": "creativeWork",
         "conditionsOfAccess": "Available to any researcher on request",
         "isAccessibleForFree": "YesOffline",
         "publishingPrinciples": null,
-        "actionableFeedbackPolicy": null,
-        "correctionsPolicy": null,
+        "actionableFeedbackPolicy": "Effects of continuous arable and ley-arable cropping on crop production, soil organic matter dynamics and fertility in a sandy loam.",
+        "correctionsPolicy": "Effects of continuous arable and ley-arable cropping on crop production, soil organic matter dynamics and fertility in a sandy loam.",
         "unnamedSourcesPolicy": null
     },
     "license": {
@@ -27,5 +27,14 @@
     "dateEPEnd": null,
     "dateEnd": null,
     "funder": "NOT in GLTEN",
-    "citation": []
+    "citation": [
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1111/ejss.12415",
+            "sameAs": "https://doi.org/10.1111/ejss.12415",
+            "citation": "Changes in soil organic matter over 70 years in continuous arable and ley-arable rotations on a sandy loam soil in England",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        }
+    ]
 }

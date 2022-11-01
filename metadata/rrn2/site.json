@@ -12,12 +12,12 @@
     "location": {
         "addressLocality": "Harpenden",
         "addressRegion": "Hertfordshire",
-        "addressCountry": null,
+        "addressCountry": "United Kingdom",
         "geoLocationPoint": {
             "pointLongitude": -0.379079,
             "pointLatitude": 51.812922
         },
-        "geoLocationPlace": null,
+        "geoLocationPlace": "United Kingdom",
         "polygon": "NOT IN GLTEN",
         "elevation": 130.0,
         "elevationUnit": "Metres",

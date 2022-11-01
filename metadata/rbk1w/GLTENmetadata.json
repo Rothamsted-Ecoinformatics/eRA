@@ -75,8 +75,8 @@
                 },
                 {
                     "id": 10803,
-                    "crop_term": null,
-                    "crop_label": "permanent native grassland mown once a year",
+                    "crop_term": "grass",
+                    "crop_label": "grass",
                     "start_year": null,
                     "end_year": null
                 },
@@ -232,7 +232,7 @@
     "site_type_label": "research station field",
     "site_locality": "Harpenden",
     "site_region": "Hertfordshire",
-    "site_country": "UK",
+    "site_country": "United Kingdom",
     "site_centroid_latitude": 51.809835,
     "site_centroid_longitude": -0.375295,
     "site_elevation": 128.0,

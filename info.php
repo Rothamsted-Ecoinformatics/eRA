@@ -86,6 +86,20 @@ if (is_file($url)) {
     $page_title .= $page_title .= ': ' . $pageinfo['ExperimentName'];
 }
 
+$fileDataset = 'metadata/default/datasets.json';
+
+$hasDatasets = file_exists($fileDataset);
+$displayDatasets = 0;
+if ($hasDatasets) {
+    $jdatasets = file_get_contents($fileDataset);
+    $jdatasets = utf8_encode($jdatasets);
+    $datasets = json_decode($jdatasets, true);
+    foreach ($datasets as $dataset) {
+        if ($dataset['isReady'] > $displayValue) {
+            $displayDatasets = 1;
+        }
+    }
+}
 
 ?>
 <!DOCTYPE html>
@@ -121,7 +135,9 @@ if (isset($datacite)) {
 				<h1 class="mx-3"> <?php echo $h1Title;?></h1>
 			</div>
 <?php
-include_once 'metadata/' . $expt . '/' . $FileName.'.'.$ext;
+$includeFile = 'metadata/' . $expt . '/' . $FileName.'.'.$ext;
+
+include_once ($includeFile);
 include_once 'includes/footer.html'; // this has the green bar and bottom
 ?>
  </div>

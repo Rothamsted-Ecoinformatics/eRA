@@ -23,11 +23,126 @@
  *
  *
  * TODO: it would be nice if the curators only received the email when the email address is confirmed
+ * 2022-01-18: corrections to errors Undefined offset: -1 in /home/internet/newera/includes/user.php on line 32
+ * 2022-11-01: moved things about to make it clearer. 
  */
+
+ /*------------------  constants  ----------------------------------*/
 $redirect = "no";
 $strMessage = '';
-$nb = count($_SESSION['history']) - 1;
-$location = "Location: " . $_SESSION['history'][$nb];
+$output = "";
+$registeredUser = "Login / Register";
+
+$registered = 'no';
+$loggedIn = 'no';
+$formOUT = "<div class=\"my-3\">
+<form  action=\"" . $_SERVER['PHP_SELF'] . "\" method=\"post\" name=\"registration-form\">
+    
+<div class=\"form-group\">
+        <input type=\"email\" class=\"form-control\" id=\"email\" name=\"email\"
+        placeholder=\"Enter email\" aria-describedby=\"emailHelp\">
+        <small id=\"emailHelp\" class=\"form-text text-muted\">We'll never share your email with anyone else.</small>
+    <div class=\"invalid-feedback\">Please enter a valid email address.</div>
+    
+</div>
+    
+    <button type=\"submit\" class=\"btn btn-primary \"  name=\"UserForms\"
+    class=\"g-recaptcha\" 
+        data-sitekey=\"".$reCAPTCHA_site_key." \" 
+        data-callback=\'onSubmit\' 
+        data-action='login'>Log in</button>
+	</form>
+    
+    <a  class=\"btn btn-secondary\" href=\"newUser.php\">Register</a>
+</form>
+</div>
+	";
+
+$strRegister = $formOUT;
+
+
+
+/*-----------------------  Functions --------------------*/
+
+
+/**
+ * generate the confirmation email
+ *
+ * @param array $answers
+ * @return string
+ */
+function buildemail($answers = array())
+{
+    global $Web_base;
+    global $formOut;
+    $to = $answers['email'];
+    $process = $answers['process'];
+    $subject = '[eRA]';
+    if ($process == 'login') {
+        $subject .= " Confirm your Email!";
+    }
+    if ($process == 'register') {
+        $subject .= " Confirm your Email";
+    }
+
+    $message = "
+<html>
+<head>
+<title>Confirmation email</title>
+</head>
+<body>
+<P>Dear " . $answers['fname'] . " <br />
+    
+<br />
+You, or someone pretending to be you has requested login or registration  into eRA.
+<br />
+";
+    if ($process == 'register') {
+        $message .= "
+    <p>The following information was entered</p>
+<ul>
+<li>Name :  " . $answers['fname'] . " " . $answers['lname'] . "</li>
+<li>Email address: " . $answers['email'] . "</li>
+<li>Institution: " . $answers['institution'] . "</li>
+<li>Country: " . $answers['country'] . "</li>
+<li>Comment: " . $answers['information'] . "</li>
+</ul>
+    
+";
+    }
+
+    $message .= "
+<p> 
+        
+<a  href=\"" . $Web_base . "index.php?process=confirm&VC=" . $answers['vericode'] . "&TC=" . $answers['timecode'] . "&VC2=" . $answers['vericode2'] . "\"> <b> Click to finish your login !</b>
+			</a>
+    </p>
+    <p>            
+  or paste the link into the browser you came from. " . $Web_base . "index.php?process=confirm&VC=" . $answers['vericode'] . "&TC=" . $answers['timecode'] . "&VC2=" . $answers['vericode2'] . "</p>              
+                
+ </p>               
+<p><a href=\"mailto:unsubscribe.era@rothamsted.ac.uk?subject=unsubscribe\">Unsubscribe</a></p>             
+</body>
+</html>
+";
+
+    // Always set content-type when sending HTML email
+    $headers = "MIME-Version: 1.0" . "\r\n";
+    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+
+    // More headers
+    $headers .= 'From: <era@rothamsted.ac.uk>' . "\r\n";
+    $headers .= 'List-Unsubscribe: mailto:unsubscribe.era@rothamsted.ac.uk';
+    if ($process == 'register') {
+        $headers .= 'Cc: nathalie.castells@rothamsted.ac.uk' . "\r\n";
+    }
+    if (mail($to, $subject, $message, $headers)) {
+
+        return "Please Check your mailbox for validation";
+    } else {
+        return "Unable to send mail";
+    }
+}
 
 /**
  * function checkUser($info)
@@ -66,74 +181,115 @@ function checkUser($info)
     return $user;
 }
 
+
+function formIN($email) {
+    $formIN = "<div class=\"mt-3\">
+    <form  action=\"" . $_SERVER['PHP_SELF'] . "\" method=\"post\">
+    <div class=\"form-group\">
+            <input type=\"hidden\" name=\"email\" value=\"delete\">
+            <input type=\"hidden\" name=\"delete\" value=\"delete\"> You are logged in as:
+            " . $email . "
+    <br /></div>
+    <button type=\"submit\"  class=\"btn btn-primary\" name=\"UserForms\">Log out!</button>
+                
+        </form>
+        </div>";
+        return $formIN;
+    }
+
+/**
+ * generated any length random string
+ *
+ * @param number $length
+ * @return string
+ */
+function generateRandomString($length = 10)
+{
+    return substr(str_shuffle(str_repeat($x = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ', ceil($length / strlen($x)))), 1, $length);
+}
+
 /**
  * function to get input from the registration form
  */
 function getInput()
+    {
+        $details = array(
+            "email" => "nathalie.brooke@gmail.com",
+            "fname" => "Nathalie",
+            "lname" => "Brooke",
+            "institution" => "RRES",
+            "information" => "Some text that will need cleaning",
+            "country" => "United Kingdom",
+            "consentData" => 1,
+            "consentEmail" => 1
+        );
+        if (isset($_POST['InputFirstName'])) {
+            $details['fname'] = cleanQuery($_POST['InputFirstName']);
+        }
+        if (isset($_POST['RGfname'])) {
+            $details['fname'] = cleanQuery($_POST['RGfname']);
+        }
+        if (isset($_POST['InputLastName'])) {
+            $details['lname'] = cleanQuery($_POST['InputLastName']);
+        }
+        if (isset($_POST['RGlname'])) {
+            $details['lname'] = cleanQuery($_POST['RGlname']);
+        }
+        if (isset($_POST['InputEmail'])) {
+            $details['email'] = cleanQuery($_POST['InputEmail']);
+        }
+        if (isset($_POST['RGposition'])) {
+            $details['email'] = cleanQuery($_POST['RGposition']);
+        }
+        if (isset($_POST['InputInstitute'])) {
+            $details['institution'] = cleanQuery($_POST['InputInstitute']);
+        }
+        if (isset($_POST['RGinstitution'])) {
+            $details['institution'] = cleanQuery($_POST['RGinstitution']);
+        }
+        if (isset($_POST['information'])) {
+            $details['information'] = cleanQuery($_POST['information']);
+        }
+        if (isset($_POST['RGinformation'])) {
+            $details['information'] = cleanQuery($_POST['RGinformation']);
+        }
+        if (isset($_POST['consentCheck'])) {
+    
+            $details['consentEmail'] = cleanQuery($_POST['consentCheck']);
+        }
+        if (isset($_POST['RGallowEmails'])) {
+            
+            $details['consentEmail'] = cleanQuery($_POST['RGallowEmails']);
+        }
+        if (isset($_POST['understandCheck'])) {
+            $details['consentData'] = cleanQuery($_POST['understandCheck']);
+        }
+    
+        if (isset($_POST['inputCountry'])) {
+            $details['country'] = cleanQuery($_POST['inputCountry']);
+        }
+        if (isset($_POST['RGcountry'])) {
+            $details['country'] = cleanQuery($_POST['RGcountry']);
+        }
+        return $details;
+    }
+
+/**
+ * makeCode()
+ * returns timestamp
+ *
+ * @return mixed
+ */
+function makeCode()
 {
-    $details = array(
-        "email" => "nathalie.brooke@gmail.com",
-        "fname" => "Nathalie",
-        "lname" => "Brooke",
-        "institution" => "RRES",
-        "information" => "Some text that will need cleaning",
-        "country" => "United Kingdom",
-        "consentData" => 1,
-        "consentEmail" => 1
-    );
-    if (isset($_POST['InputFirstName'])) {
-        $details['fname'] = cleanQuery($_POST['InputFirstName']);
-    }
-    if (isset($_POST['RGfname'])) {
-        $details['fname'] = cleanQuery($_POST['RGfname']);
-    }
-
-    if (isset($_POST['InputLastName'])) {
-        $details['lname'] = cleanQuery($_POST['InputLastName']);
-    }
-    if (isset($_POST['RGlname'])) {
-        $details['lname'] = cleanQuery($_POST['RGlname']);
-    }
-    if (isset($_POST['InputEmail'])) {
-        $details['email'] = cleanQuery($_POST['InputEmail']);
-    }
-    if (isset($_POST['RGposition'])) {
-        $details['email'] = cleanQuery($_POST['RGposition']);
-    }
-    if (isset($_POST['InputInstitute'])) {
-        $details['institution'] = cleanQuery($_POST['InputInstitute']);
-    }
-    if (isset($_POST['RGinstitution'])) {
-        $details['institution'] = cleanQuery($_POST['RGinstitution']);
-    }
-    if (isset($_POST['information'])) {
-        $details['information'] = cleanQuery($_POST['information']);
-    }
-    if (isset($_POST['RGinformation'])) {
-        $details['information'] = cleanQuery($_POST['RGinformation']);
-    }
-    if (isset($_POST['consentCheck'])) {
-
-        $details['consentEmail'] = cleanQuery($_POST['consentCheck']);
-    }
-    if (isset($_POST['RGallowEmails'])) {
-        
-        $details['consentEmail'] = cleanQuery($_POST['RGallowEmails']);
-    }
-    if (isset($_POST['understandCheck'])) {
-        $details['consentData'] = cleanQuery($_POST['understandCheck']);
-    }
-
-    if (isset($_POST['inputCountry'])) {
-        $details['country'] = cleanQuery($_POST['inputCountry']);
-    }
-    if (isset($_POST['RGcountry'])) {
-        $details['country'] = cleanQuery($_POST['RGcountry']);
-    }
-    return $details;
+    $time = gettimeofday();
+    $code = $time['sec'];
+    return $code;
 }
 
 /**
+ * reg2db($answer)
+ * 
  * Sends the preliminary parameters to the db
  *
  * position: the email address
@@ -169,7 +325,6 @@ function getInput()
  */
 function reg2db($answer)
 {
-   
     $link = LogMangaAd();
     $consentEmail = 0;
     if (isset($answer['consentEmail'])) {
@@ -177,7 +332,6 @@ function reg2db($answer)
             $consentEmail = 1;
         }
     }
-
     $queryCheck = "SELECT * from newmarkers where position LIKE '" . $answer['email'] . "'";
 
     $results = mysqli_query($link, $queryCheck);
@@ -195,9 +349,10 @@ function reg2db($answer)
                             WHERE `position`='" . $answer['email'] . "' and vericode='" . $row['vericode'] . "' ";
             }
         } else {
+            
             $queryReturn = "INSERT INTO newmarkers
-            (`position`, vericode, doorbell, fname, lname, institution, information, allowEmails, country)
-            VALUES('" . $answer['email'] . "', '" . $answer['vericode'] . "', 'Ringing', '" . $answer['fname'] . "', '" . $answer['lname'] . "', '" . $answer['institution'] . "', '" . $answer['information'] . "', " . $consentEmail . ", '" . $answer['country'] . "');";
+            (`position`, vericode, doorbell, fname, lname, institution, information, allowEmails, country,  reg_date)
+            VALUES('" . $answer['email'] . "', '" . $answer['vericode'] . "', 'Ringing', '" . $answer['fname'] . "', '" . $answer['lname'] . "', '" . $answer['institution'] . "', '" . $answer['information'] . "', " . $consentEmail . ", '" . $answer['country'] . "', NOW());";
 
             
         }
@@ -207,110 +362,16 @@ function reg2db($answer)
     return $queryReturn;
 }
 
-/**
- * generated any length random string
- *
- * @param number $length
- * @return string
- */
-function generateRandomString($length = 10)
-{
-    return substr(str_shuffle(str_repeat($x = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ', ceil($length / strlen($x)))), 1, $length);
-}
+/*---------------------  Logic ---------------------------*/
 
-/**
- * returns timestamp
- *
- * @return mixed
- */
-function makeCode()
-{
-    $time = gettimeofday();
-    $code = $time['sec'];
-    return $code;
-}
-
-/**
- * generate the confirmation email
- *
- * @param array $answers
- * @return string
- */
-function buildemail($answers = array())
-{
-    global $Web_base;
-    $to = $answers['email'];
-    $process = $answers['process'];
-    $subject = '[eRA]';
-    if ($process == 'login') {
-        $subject .= " Confirm your Email!";
-    }
-    if ($process == 'register') {
-        $subject .= " Confirm your Email";
-    }
-
-    $message = "
-<html>
-<head>
-<title>Confirmation email</title>
-</head>
-<body>
-<P>Dear " . $answers['fname'] . " <br />
-    
-<br />
-You, or someone pretending to be you has requested login or registration  into eRA.
-<br />
-";
-    if ($process == 'register') {
-        $message .= "
-    <p>The following information was entered</p>
-<ul>
-<li>Name :  " . $answers['fname'] . " " . $answers['lname'] . "</li>
-<li>Email address: " . $answers['email'] . "</li>
-<li>Institution: " . $answers['institution'] . "</li>
-<li>Country: " . $answers['country'] . "</li>
-<li>Comment: " . $answers['information'] . "</li>
-</ul>
-    
-";
-    }
-
-    $message .= "
-<p>
-              
-<a  target =\"eRAApp\" href=\"" . $Web_base . "index.php?process=confirm&VC=" . $answers['vericode'] . "&TC=" . $answers['timecode'] . "&VC2=" . $answers['vericode2'] . "\"> <b> Click to finish your login !</b>
-			</a>
-    </p>
-    <p>            
- If the link does not work, please  paste the link into the browser you used to register . " . $Web_base . "index.php?process=confirm&VC=" . $answers['vericode'] . "&TC=" . $answers['timecode'] . "&VC2=" . $answers['vericode2'] . "</p>              
-               
- </p>               
-                
-</body>
-</html>
-";
-
-    // Always set content-type when sending HTML email
-    $headers = "MIME-Version: 1.0" . "\r\n";
-    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-
-    // More headers
-    $headers .= 'From: <era@rothamsted.ac.uk>' . "\r\n";
-    if ($process == 'register') {
-        $headers .= 'Cc: nathalie.castells@rothamsted.ac.uk' . "\r\n";
-    }
-    if (mail($to, $subject, $message, $headers)) {
-
-        return "Please Check your mailbox for validation";
-    } else {
-        return "Unable to send mail";
+if (isset($_SESSION['history'])) {
+    $nb = count($_SESSION['history']) - 1;
+    if ($nb > 0) {
+        $location = "Location: " . $_SESSION['history'][$nb];
     }
 }
+if (!isset($email)) {$email = 'none Set';}
 
-$registeredUser = "Login / Register";
-$strRegister = $formOUT;
-$registered = 'no';
-$loggedIn = 'no';
 
 if (! isset($_COOKIE['email'])) {
     ;
@@ -341,12 +402,10 @@ if (isset($_COOKIE['email'])) {
     $doorbell = $_COOKIE['doorbell'];
     $registered = 'yes'; // to see if I need the register button or not
     if ($doorbell == 'ringing') {
-
         $loggedIn = 'no';
         $strMessage = "<span class=\"badge badge-success mr-1 \">An email has been sent to " . $email . " <br /> Please check your mail box to confirm your login.</span> ";
     } else if ($doorbell == 'out') {
         $strMessage = "<span class=\"badge badge-warning\">" . $email . " is not recognised. Please try again or register</span>";
-
         $loggedIn = 'no';
     } else {
         $loggedIn = 'yes';
@@ -354,12 +413,12 @@ if (isset($_COOKIE['email'])) {
 }
 
 /**
- * this is if we are coming from the login form: we should send the email and wait for it: so result is always
- */
-
-// there is no cookie, therefore I check that there is a form set and set the cookie if the email is in the database
-// the cookie will only be here for one hour until it is made more persitent (2 weeks)
-
+ * this is if we are coming from the login form: we should send the email and wait for the user to click on the login confirmation link
+ * 
+ * 
+ *  there is no cookie, therefore I check that there is a form set and set the cookie if the email is in the database
+ *  the cookie will only be here for one hour until it is made more persitent (2 weeks)
+*/
 if (isset($_POST['email']) || isset($_POST['InputEmail'])) {
     if (isset($_POST['email'])&& isset($_POST['UserForms'])) {
 
@@ -373,7 +432,7 @@ if (isset($_POST['email']) || isset($_POST['InputEmail'])) {
         $user = checkUser($email);
         $answers = checkUser($email);
 
-        $answers['vericode2'] = generateRandomString(72);
+        $answers['vericode2'] = generateRandomString(19);
         $answers['timecode'] = makeCode();
         $answers['email'] = $email;
         $answers['process'] = 'login';
@@ -387,7 +446,7 @@ if (isset($_POST['email']) || isset($_POST['InputEmail'])) {
             $emailsent = buildemail($answers);
             $output .= $emailsent;
             $registered = 'yes';
-            $strMessage = "<span class=\"badge badge-success\">An email has been sent to " . $email . ".<br /> Please check your mail box to confirm your login.</span>";
+            $strMessage = "<span class=\"badge badge-success\">An email has been sent to " . $email . ".<br /> Please check your mail box (and spam folder) to confirm your login.</span>";
         }
         if ($answers['dbresponse'] == 'no') {
             setcookie('email', $email, time() + (3600), "/"); // 86400 = 1 day
@@ -409,11 +468,10 @@ if (isset($_POST['process']) && $_POST['process'] == 'process') {
     
     $answers = getInput();
     $email = $answers['email'];
-    
+
     $answers['vericode'] = generateRandomString(10);
-    $answers['vericode2'] = generateRandomString(72);
+    $answers['vericode2'] = generateRandomString(19);
     $answers['timecode'] = makeCode();
-    
     $answers['process'] = 'register';
     
     setcookie('email', $email, time() + (86400 * 30), "/"); // 86400 = 1 day
@@ -471,58 +529,11 @@ if (isset($_REQUEST['process']) && $_REQUEST['process'] == 'confirm') {
     header($location);
 }
 
-$formIN = "<div class=\"mt-3\">
-<form  action=\"" . $_SERVER['PHP_SELF'] . "\" method=\"post\">
-<div class=\"form-group\">
-        <input type=\"hidden\" name=\"email\" value=\"delete\">
-        <input type=\"hidden\" name=\"delete\" value=\"delete\"> You are logged in as:
-		" . $email . "
-<br /></div>
-<button type=\"submit\"  class=\"btn btn-primary\" name=\"UserForms\">Log out!</button>
-		    
-    </form>
-    </div>";
 
-$formOUT = "<div class=\"my-3\">
-<form  action=\"" . $_SERVER['PHP_SELF'] . "\" method=\"post\">
-    
-<div class=\"form-group\">
-        <input type=\"email\" class=\"form-control\" id=\"email\" name=\"email\"
-        placeholder=\"Enter email\" aria-describedby=\"emailHelp\">
-        <small id=\"emailHelp\" class=\"form-text text-muted\">We'll never share your email with anyone else.</small>
-    <div class=\"invalid-feedback\">Please enter a valid email address.</div>
-    
-</div>
-    
-    <button type=\"submit\" class=\"btn btn-primary \"  name=\"UserForms\">Log in</button>
-    
-    <a  class=\"btn btn-secondary\" href=\"newUser.php\">Register</a>
-</form>
-</div>
-	";
-
-// $formWaiting = "<div class=\"m-3\">
-// <form novalidate class=\"needs-validation\" action=\"" . $_SERVER['PHP_SELF'] . "\" method=\"post\">
-
-// <div class=\"form-group\">
-// <input type=\"email\" class=\"form-control\" id=\"email\" name=\"email\"
-// placeholder=\"Enter email\" aria-describedby=\"emailHelp\" required>
-// <small id=\"emailHelp\" class=\"form-text text-muted\">We'll never share your email with anyone else.</small>
-// <div class=\"invalid-feedback\">Please enter a valid email address.</div>
-
-// </div>
-
-// <button type=\"submit\" class=\"btn btn-primary \" >Log in</button>
-// <a class=\"btn btn-secondary\" href=\"newUser.php\">Register</a>
-// </form>
-// </div>
-// ";
-$registeredUser = "Login / Register";
-$strRegister = $formOUT;
 
 if ($loggedIn == 'yes' && $email != 'delete') {
 
-    $strRegister = $formIN;
+    $strRegister = formIN($email);
 
     //$registeredUser = $_COOKIE['email'];
     $registeredUser = "";
@@ -533,5 +544,3 @@ if ($loggedIn == 'yes' && $email != 'delete') {
 
     $registeredUser = "Login/Register";
 }
-
-?>

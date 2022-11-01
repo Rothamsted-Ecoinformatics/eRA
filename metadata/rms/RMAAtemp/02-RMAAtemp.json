@@ -4,7 +4,7 @@
     "identifier": "10.23637/rms-RMAAtemp-02",
     "name": "Annual Mean Air Temperature at Rothamsted 1878-2019",
     "shortName": "RMAAtemp",
-    "url": "http://www.era.rothamsted.ac.uk/dataset/rms/02-RMAAtemp",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rms/02-RMAAtemp",
     "description": [
         {
             "inLanguage": "en",
@@ -278,7 +278,7 @@
         {
             "relatedIdentifier": "10.23637/ROTHAMSTED-LONG-TERM-EXPERIMENTS-GUIDE-2018",
             "relatedIdentifierType": "DOI",
-            "name": "Macdonald, A. Guide to the Classical and Other Long-term Experiments (2018)",
+            "name": "Macdonald, A. (2018)  Guide to the Classical and Other Long-term Experiments",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
@@ -287,7 +287,7 @@
         {
             "relatedIdentifier": "10.23637/ecn-rothamsted-booklet-2015",
             "relatedIdentifierType": "DOI",
-            "name": "Scott, T. The U.K. Environmental Change Network Rothamsted. The First 20 Years (2015)",
+            "name": "Scott (2015)  The U.K. Environmental Change Network Rothamsted. The First 20 Years",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
@@ -296,7 +296,7 @@
         {
             "relatedIdentifier": "10.1016/j.biocon.2009.07.004",
             "relatedIdentifierType": "DOI",
-            "name": "Morecroft, M.D. et al. The UK Environmental Change Network: Emerging Trends (2009)",
+            "name": "Morecroft, M.D. et al. (2009) The UK Environmental Change Network: Emerging Trends ",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
@@ -305,7 +305,7 @@
         {
             "relatedIdentifier": "10.23637/ERADOC-1-8",
             "relatedIdentifierType": "DOI",
-            "name": "Penman, H. L. Rothamsted Weather (1974)",
+            "name": "Penman, H. L. (1974)  Rothamsted Weather ",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
@@ -314,7 +314,7 @@
         {
             "relatedIdentifier": "10.23637/ERADOC-1-2",
             "relatedIdentifierType": "DOI",
-            "name": "Yates, F. The Broadbalk Yields: Investigations into the Effects of Weather on Yields (1969)",
+            "name": "Yates, F.  (1969) The Broadbalk Yields: Investigations into the Effects of Weather on Yields",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,

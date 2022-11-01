@@ -631,14 +631,14 @@
                 },
                 {
                     "id": 2967,
-                    "crop_term": null,
+                    "crop_term": "oats",
                     "crop_label": "oats",
                     "start_year": 1984,
                     "end_year": 1986
                 },
                 {
                     "id": 2968,
-                    "crop_term": null,
+                    "crop_term": "rye",
                     "crop_label": "rye",
                     "start_year": 1985,
                     "end_year": 1986

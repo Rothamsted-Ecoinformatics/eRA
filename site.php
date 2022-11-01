@@ -32,6 +32,8 @@ if ($hasDatacite) {
     $summary = json_decode($datacite, true);
     $page_description = $summary['administrative']['description'];
 }
+$fileMedia = $exptFolder . '/' . 'medialist.html';
+$hasMedia = file_exists($fileMedia);
 
 $pageinfo = getPageInfo($farm);
 
@@ -87,7 +89,7 @@ $page_title .=  ''.$pageinfo['Experiment'];
             							data-toggle="tab" href="#experiments">Experiments</a></li>
             						
             						<li class="nav-item"><a class="nav-link" id="images-tab"
-            							data-toggle="tab" href="#images">Images</a></li>
+            							data-toggle="tab" href="#images">Media</a></li>
             							<li class="nav-item"><a class="nav-link" id="keyrefs-tab"
             							data-toggle="tab" href="#keyrefs">References</a></li>
             
@@ -121,12 +123,17 @@ $page_title .=  ''.$pageinfo['Experiment'];
             						</div>						
             						<div class="tab-pane" id="images" role="tabpanel"
             							aria-labelledby="images-tab">
+										<?php if ($hasMedia) {
+                                include $fileMedia;
+                            } ?>
             								<?php include '_images.php';?>
             							</div>
 									
             						<div class="tab-pane  pb-3" id="keyrefs" role="tabpanel"
 							aria-labelledby="keyrefs-tab">
-							<?php if ($dev == 'norton') {} else  {include '_keyrefs.php';} ?>
+							<?php
+							include '_keyrefs.php'; 
+							?>
 							</div>
             
             

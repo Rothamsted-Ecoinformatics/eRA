@@ -4,7 +4,7 @@
     "identifier": "10.23637/rcs10-rltlyields-01",
     "name": "Rothamsted long-term liming experiment crop yield 1962-1996",
     "shortName": "RLTLYIELDS",
-    "url": "http://www.era.rothamsted.ac.uk/dataset/rcs10/01-RLTLYIELDS",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rcs10/01-RLTLYIELDS",
     "description": [
         {
             "inLanguage": "en",
@@ -319,7 +319,7 @@
         {
             "relatedIdentifier": "10.1017/S0021859600027222",
             "relatedIdentifierType": "DOI",
-            "name": "Bolton, 1977. Paper describing early results",
+            "name": "Bolton (1977) paper describing early results",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
@@ -328,7 +328,7 @@
         {
             "relatedIdentifier": "10.1016/j.eja.2019.02.016",
             "relatedIdentifierType": "DOI",
-            "name": "Holland et al, 2019. Paper describing yield response of all crops 1962-1996.",
+            "name": "Holland et al. (2019) Paper describing yield response of all crops 1962-1996",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
@@ -375,5 +375,5 @@
     "image": [],
     "grade": 3,
     "isExternal": 0,
-    "dstype": "Other"
+    "dstype": "Frictionless"
 }

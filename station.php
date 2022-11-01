@@ -10,8 +10,8 @@
  * 
  * in .htaccess: the following rules: 
  * RewriteRule ^station/([^/]+)/([^/]+)/([^/]+)$ station.php?expt=$1&ref=$3&sub=$2#document [L]
- RewriteRule ^station/([^/]+)/([^/]+)$ station.php?expt=$1&sub=$2#document [L]
- RewriteRule ^station/([^/]+)$ station.php?expt=$1 [L]
+ * RewriteRule ^station/([^/]+)/([^/]+)$ station.php?expt=$1&sub=$2#document [L]
+ * RewriteRule ^station/([^/]+)$ station.php?expt=$1 [L]
 
  * this shows that ref and sub come from the URL: not a very user friendly idea... 
  * 
@@ -92,6 +92,9 @@ $hasMonthly = file_exists($fileMonthly);
 $doclist = $exptFolder . '/doclist.html';
 $hasdocs = file_exists($doclist);
 
+$fileMedia = $exptFolder . '/' . 'medialist.html';
+$hasMedia = file_exists($fileMedia);
+
 ?>
 <!DOCTYPE html>
 <html class="no-js" lang="en">
@@ -135,14 +138,14 @@ echo title_case($experiment['administrative']['name']);
 						<?php } ?>
 						
 						<li class="nav-item"><a class="nav-link" id="images-tab"
-							data-toggle="tab" href="#images">Images</a></li>
+							data-toggle="tab" href="#images">Media</a></li>
 							<?php if ($hasMonthly) {?>
 						<li class="nav-item"><a class="nav-link" id="summaries-tab"
 							data-toggle="tab" href="#summaries">Summaries</a></li>
 <?php }?>
 	<?php if ($hasdocs) {?>
 						<li class="nav-item"><a class="nav-link" id="documents-tab"
-							data-toggle="tab" href="#documents">More...</a></li>
+							data-toggle="tab" href="#documents">Related Documents</a></li>
 <?php }?>
 						<li class="nav-item"><a class="nav-link" id="bibliography-tab"
 							data-toggle="tab" href="#bibliography">Bibliography</a></li>
@@ -184,7 +187,7 @@ $inDet = array(
 if ($displayDatasets > 0) {
    
                         //include '_datasets.php';
-						include 'wdel-datasets.php';
+						include '_datasets.php';
                         echo  "<div class=\"mx-3\">Additional data is available through e-RAdata. Please <a href=\"newGold.php\" >register for access</a>.  </div>";
 } else if ($displayDatasets == 0) {
 						
@@ -222,6 +225,9 @@ For more information please <a href=\"mailto:era@rothamsted.ac.uk\">contact the 
                 		
 						<div class="tab-pane" id="images" role="tabpanel"
 							aria-labelledby="images-tab">
+                            <?php if ($hasMedia) {
+                                include $fileMedia;
+                            } ?>
 							 <?php include '_images.php';?>
 						</div>
 						<?php

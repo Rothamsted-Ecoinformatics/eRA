@@ -26,6 +26,7 @@ include_once 'includes/init.php'; // these are the settings that refer to more t
 $url = 'metadata/default/keywords.json';
 if (is_file($url)) {
     $jdata = file_get_contents($url);
+
     $data = json_decode($jdata, true);
     $pairs = array(
         'keyword' => $keyWord
@@ -84,61 +85,109 @@ include 'includes/meta.html'; // that is the <meta and link tags> superseeds hea
 			if ($sendSearch == "Search" ) {
 $datasets = $page[0]['datasets'];
 if (count($datasets)) {
-    
     echo "<li><b>Keyword: </b>".$keyWord."</li>";
     echo "<li><b>Schema:  </b>".$page[0]['schema']."</li>";
     echo "<li><b>Identifier: </b> <a href=\"".$page[0]['URL']."\">".$page[0]['identifier']."</a></li>";
- 
-   
 } else {
-    echo "Not Found";
+    
 }
 			}
 ?>
-
                     </ul>
                 </div>
 
                 <div class="col-9">
-                    <h2>eRAseek: keyword search</h2>
+                    <h2>eRAseek - keyword search: <?php echo $page[0]['keyword'];?></h2>
                     <p>Use the search field or the cloud to retrieve datasets - curated keywords</p>
                         <?php
 			if ($sendSearch == "Search" ) {
+
                         $datasets = $page[0]['datasets'];
-                        if (count($datasets)) {
-                            
-                            
-                            echo "<h4>Datasets for keyword <u>".$page[0]['keyword']."</u></h4>";
-                            echo "<ul>";
+                        $countDatasets = 0;
+                        $strDataset = '';
+                        if (is_array($datasets)) {
+                            $strDataset =  "\n<h4>Datasets for keyword <u>".$page[0]['keyword']."</u></h4>";
+                            $strDataset .=  "\n<ul>";
                             foreach ($datasets as $dataset) {
-                                echo "<li><a href=\"" . $dataset['URL'] . "\" >" . $dataset['DOI'] . "</a>: " . $dataset['title'] . " - <a href=\"experiment/" . $dataset['exptID'] . "\">" . $dataset['exptID'] . "</a></li>";
+                                $countDatasets +=1;
+                                $strDataset .=  "\n<li><a href=\"" . $dataset['URL'] . "\" >" . $dataset['DOI'] . "</a>: " . $dataset['title'] . " - <a href=\"experiment/" . $dataset['exptID'] . "\">" . $dataset['exptID'] . "</a></li>";
                             }
-                            echo "</ul>";
+                            $strDataset .=  "\n</ul>";
                         } else {
-                            echo "Not Found";
+                            $strDataset = '';
                         }
+                        if ($countDatasets >0 ) {echo $strDataset;}
+
+
                         $documents = $page[0]['documents'];
-                        if (count($documents)) {
-                            
-                            
-                            echo "<h4>documents for keyword <u>".$page[0]['keyword']."</u></h4>";
-                            echo "<ul>";
+                        $countDocs = 0;
+                        $stringDoc = '';
+
+                        if (is_array($documents)) {
+                            $stringDoc = "\n<h4>Documents for keyword <u>".$page[0]['keyword']."</u></h4>";
+                            $stringDoc .= "\n<ul>";
                             foreach ($documents as $document) {
-                                echo "<li><a href=\"" . $document['URL'] . "\" >" . $document['DOI'] . "</a>: " . $document['title'] . " - <a href=\"experiment/" . $document['exptID'] . "\">" . $document['exptID'] . "</a></li>";
+                                $countDocs += 1;
+                                $stringDoc .= "\n<li><a href=\"" . $document['URL'] . "\" >" . $document['DOI'] . "</a>: " . $document['title'] . " - <a href=\"experiment/" . $document['exptID'] . "\">" . $document['exptID'] . "</a></li>";
                             }
-                            echo "</ul>";
+                            $stringDoc .= "\n</ul>";
                         } else {
-                            echo "Not Found";
+                            $stringDoc = '';
                         }
+                        if ($countDocs > 0) {echo $stringDoc ;}
+
+
+                        $webPages = $page[0]['pages'];
+                        $countWP = 0;
+                        $strWP = '';
+                        if (is_array($webPages)) {
+                            
+                            $countWP =  count($webPages);
+                            $strWP .=  "\n<h4>Web Pages for keyword <u>".$page[0]['keyword']."</u></h4>";
+                            $strWP .=  "\n<ul>";
+                            foreach ($webPages as $webPage) {
+                                $countWP +=1;
+                                $strWP .=  "\n<li><a href=\"" . $webPage['URL'] . "\" >" . $webPage['title'] . "</a>  - <a href=\"experiment/" . $webPage['exptID'] . "\">" . $webPage['exptID'] . "</a></li>";
+                            }
+                            $strWP .=  "\n</ul>";
+                        } else {
+                            $strWP = '';
+                        }
+                        if ($countWP >0 ) {echo $strWP;}
+
+                    /*
+                     "URL": "info/rbk1/soilphys",
+                    "title": "Soil Physical measurements",
+                     "exptID": "rbk1",
+                        "sampleText": "\t<li>For information on soil organic carbon, see <a\n"
+                        */
 			} 
                 echo("<div class=\"border border-bottom border-light\"></div>");
                 echo ("<h4>Keyword Cloud</h4>");
-                echo ("<div class=\"border border-dark bg-light p-3 mb-3 rounded\">"); // attempt at making this container a cirlce
+                echo ("<div class=\"border border-dark bg-light p-3 mb-3 rounded\">"); // attempt at making this container a circle
+                $excludedKeywords = ["Rothamsted Research", 
+                "long term experiments", 
+                "Broadbalk long-term experiment", 
+                "Hoosfield spring barley long-term experiment", 
+                "Park grass long-term experiment"
+            ];
                 foreach ($data as $keywords)
                 {
-                    $countDS = count($keywords['datasets']) + count($keywords['documents']);
-                    $size = $countDS + 9;
+                    if (!in_array($keywords['keyword'], $excludedKeywords)) {
+                        if (is_array($keywords['datasets'])) {
+                            $countDatasets = count($keywords['datasets']);
+                        }
+                        if (is_array($keywords['pages'])) {
+                            $countWP = count($keywords['pages']);
+                        }
+                        if (is_array($keywords['documents'])) {
+                            $countDocs = count($keywords['documents']);
+                        }
+                    $countDS = $countDatasets + $countDocs + $countWP;
+                    $size = $countDS + 12;
+                    if ($size > 40) {$size = 40;}
                     echo  "<span  style=\"font-size:".$size."px;\" > <a href=\"keyword/".$keywords['keyword']."\">".$keywords['keyword']. "</a></span> ";
+                }
                 }
                 echo ("</div>");
 ?>
@@ -185,6 +234,8 @@ include_once 'includes/finish.inc'; // this has the common js scripts
                     var x = document.getElementsByTagName("form");
                     x[0].submit(); // Form submission
                     $("#result").html('');
+                    let word = $(this).text().trim();
+                    window.location.href = 'keyword/'+word;
                 });
 
 

@@ -168,6 +168,18 @@
         "fileLocation": "metadata/rbk1/bk-grain-1945.jpg"
     },
     {
+        "MediaID": 2073202599,
+        "Credit": "eRA curators",
+        "URL": "images/metadata/rbk1/Broadbalk1851.jpg",
+        "Caption": "Broadbalk 1851",
+        "Type": "Other",
+        "exptID": "rbk1",
+        "width": 2240,
+        "height": 2743,
+        "orientation": "Portrait",
+        "fileLocation": "metadata/rbk1/Broadbalk1851.jpg"
+    },
+    {
         "MediaID": 152,
         "Credit": "eRA curators",
         "URL": "images/metadata/rbk1/broadbalk-2003.jpg",

@@ -32,13 +32,13 @@ function mangaCon()
 
 function getUsers($con)
 {
-    $sqlUsers = "SELECT * from newmarkers where doorbell NOT LIKE 'ringing'";
+    $sqlUsers = "SELECT * from newmarkers where doorbell NOT LIKE 'ringing' order by reg_date desc";
     echo $sqlUsers;
     $result = $con->query($sqlUsers);
     printf("<ul>");
     // Associative array
     while ($row = $result->fetch_assoc()) {
-        printf("<li><b>%s (%s)</b> - %s <br /> <i>%s</i></li>\n", $row["lname"], $row["fname"], $row["position"], $row["information"]);
+        printf("<li><b>%s (%s)</b> - %s <br /> <i>%s</i> - %s</li>\n", $row["lname"], $row["fname"], $row["position"], $row["information"],  $row["reg_date"]);
     }
     printf("</ul>");
     
@@ -49,7 +49,7 @@ function getUsers($con)
     printf("<ul>");
     // Associative array
     while ($row = $result->fetch_assoc()) {
-        printf("<li><b>%s (%s)</b> - %s <br /> <i>%s</i></li>\n", $row["lname"], $row["fname"], $row["position"], $row["information"]);
+        printf("<li><b>%s (%s)</b> - %s <br /> <i>%s</i> - %s</li>\n", $row["lname"], $row["fname"], $row["position"], $row["information"],  $row["reg_date"]);
     }
     printf("</ul>");
     
@@ -101,7 +101,7 @@ function getRequests($con)
   `lname` varchar(100) DEFAULT NULL,
   `refer` varchar(5) DEFAULT NUL
      */
-    $sql = "SELECT * from Users_Requests order by user_email ";
+    $sql = "SELECT * from Users_Requests order by ur_date DESC ";
    
     $result = $con->query($sql);
     $info = "<ul>";
@@ -176,10 +176,11 @@ $con = mangaCon();
 						<div class="tab-pane active show" id="Users" role="tabpanel"
 							aria-labelledby="Users-tab">
 							<h2>Users registered for Aggregated Datasets</h2>
-							<p>We only list those who have confirmed their email adresses
+							<p>We only list those who have confirmed their email adresses. 
+                                As the registration date was added much later, for historical data, the date is date of first download. For people who never downloaded, it is 2021-03-09 (arbitrary)
 							<?php
 
-getUsers($con);
+                                    getUsers($con);
     ?>
 						</div>
 						<div class="tab-pane" id="Requests" role="tabpanel"

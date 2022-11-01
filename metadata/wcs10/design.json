@@ -51,8 +51,8 @@
             },
             {
                 "id": 11752,
-                "name": "spring oilseed rape",
-                "sameAs": "spring oilseed rape",
+                "name": "spring rapeseed",
+                "sameAs": "spring rapeseed",
                 "dateStart": null,
                 "dateEnd": null
             },
@@ -133,7 +133,7 @@
             },
             {
                 "id": 7120,
-                "name": "Phosphorus (P) fertilizer exposure",
+                "name": "phosphate fertilizer exposure",
                 "description": "Two P fertilizer treatments, nil and P.",
                 "effect": "",
                 "plotApplication": null,
@@ -170,7 +170,7 @@
             },
             {
                 "id": 7121,
-                "name": "Potassium (K) fertilizer exposure",
+                "name": "potassium fertilizer exposure",
                 "description": "Two treatments, nil and K",
                 "effect": "",
                 "plotApplication": null,
@@ -338,8 +338,8 @@
         "crops": [
             {
                 "id": 11754,
-                "name": "Spring oats",
-                "sameAs": "Spring oats",
+                "name": "spring oats",
+                "sameAs": "spring oats",
                 "dateStart": null,
                 "dateEnd": null
             },
@@ -387,8 +387,8 @@
             },
             {
                 "id": 11761,
-                "name": "winter oilseed rape",
-                "sameAs": "winter oilseed rape",
+                "name": "winter rapeseed",
+                "sameAs": "winter rapeseed",
                 "dateStart": null,
                 "dateEnd": null
             },
@@ -585,7 +585,7 @@
             },
             {
                 "id": 7127,
-                "name": "Sulphur fertilizer exposure",
+                "name": "sulfate fertiliser exposure",
                 "description": "Sulphur applied to split plots",
                 "effect": "",
                 "plotApplication": null,

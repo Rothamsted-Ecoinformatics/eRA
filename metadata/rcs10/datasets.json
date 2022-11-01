@@ -2,7 +2,7 @@
     {
         "md_id": 1025119308,
         "title": "Rothamsted long-term liming experiment crop yield 1962-1996",
-        "URL": "http://www.era.rothamsted.ac.uk/dataset/rcs10/01-RLTLYIELDS",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rcs10/01-RLTLYIELDS",
         "identifier": "10.23637/rcs10-rltlyields-01",
         "identifier_type": "DOI",
         "dataset_type": "Crop  yield data",
@@ -12,7 +12,7 @@
         "experiment_name": "Rothamsted Long-term Liming",
         "experiment_code": "R/CS/10",
         "grade": 3,
-        "dstype": "Other",
+        "dstype": "Frictionless",
         "publication_year": 2020,
         "version": "01",
         "isReady": 2,
@@ -23,7 +23,7 @@
     {
         "md_id": -695085989,
         "title": "Rothamsted long-term liming experiment grain mineral composition",
-        "URL": "http://www.era.rothamsted.ac.uk/dataset/rcs10/01-RLTLGRAIN",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rcs10/01-RLTLGRAIN",
         "identifier": "10.23637/rcs10-rltlgrain-01",
         "identifier_type": "DOI",
         "dataset_type": "Crop nutrient data",
@@ -33,7 +33,7 @@
         "experiment_name": "Rothamsted Long-term Liming",
         "experiment_code": "R/CS/10",
         "grade": 3,
-        "dstype": "Other",
+        "dstype": "Frictionless",
         "publication_year": 2021,
         "version": "01",
         "isReady": 2,
@@ -44,7 +44,7 @@
     {
         "md_id": 2139152542,
         "title": "Rothamsted long-term liming experiment soil properties 1962-1996",
-        "URL": "http://www.era.rothamsted.ac.uk/dataset/rcs10/01-RLTLSOIL",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rcs10/01-RLTLSOIL",
         "identifier": "10.23637/rcs10-rltlsoil-01",
         "identifier_type": "DOI",
         "dataset_type": "Soil data",
@@ -57,7 +57,7 @@
         "dstype": "Other",
         "publication_year": 2021,
         "version": "01",
-        "isReady": 0,
+        "isReady": 1,
         "isExternal": 0,
         "shortName": "RLTLSOIL",
         "UID": "01-RLTLSOIL"

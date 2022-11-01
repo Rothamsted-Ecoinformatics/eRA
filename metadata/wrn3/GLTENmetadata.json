@@ -1,39 +1,256 @@
 {
-    "id": 131,
+    "id": 4455,
     "experiment_type_term": null,
     "experiment_id": 37,
-    "people": [],
-    "organizations": [],
+    "people": [
+        {
+            "id": 5386,
+            "contacts": [
+                {
+                    "contact_type": "Email",
+                    "value": "andy.macdonald@rothamsted.ac.uk"
+                }
+            ],
+            "role_term": "principal investigator",
+            "title": "Dr",
+            "name": "Andy Macdonald",
+            "affiliation": "Rothamsted Research",
+            "department": "Sustainable Agricultural Science",
+            "orcid": null,
+            "is_contact": false,
+            "role_label": "principal investigator"
+        },
+        {
+            "id": 5387,
+            "contacts": [
+                {
+                    "contact_type": "Email",
+                    "value": "res.e-ra@rothamsted.ac.uk"
+                }
+            ],
+            "role_term": "data manager",
+            "title": "Dr",
+            "name": "Margaret Glendining",
+            "affiliation": "Rothamsted Research",
+            "department": "Computational and Analytical Sciences",
+            "orcid": "0000-0002-6466-4629",
+            "is_contact": true,
+            "role_label": "data manager"
+        }
+    ],
+    "organizations": [
+        {
+            "id": 4673,
+            "contacts": [],
+            "role_term": "research organisation",
+            "name": "Rothamsted Research",
+            "name_uri": null,
+            "abbreviation": null,
+            "role_label": "research organisation"
+        },
+        {
+            "id": 4674,
+            "contacts": [],
+            "role_term": "experimental research station",
+            "name": "Woburn Experimental Farm",
+            "name_uri": null,
+            "abbreviation": null,
+            "role_label": "experimental research station"
+        }
+    ],
     "periods": [
         {
-            "id": 133,
-            "design_type_term": null,
+            "id": 6398,
+            "design_type_term": "Split-plot",
             "crops": [
                 {
-                    "id": 132,
-                    "crop_term": "wheat",
-                    "crop_label": "wheat",
-                    "start_year": null,
-                    "end_year": null
-                },
-                {
-                    "id": 133,
-                    "crop_term": "barley",
-                    "crop_label": "barley",
-                    "start_year": null,
-                    "end_year": null
-                },
-                {
-                    "id": 134,
+                    "id": 17482,
                     "crop_term": "grass clover leys",
                     "crop_label": "grass clover leys",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 135,
+                    "id": 17483,
                     "crop_term": "grass leys",
                     "crop_label": "grass leys",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 17484,
+                    "crop_term": "potatoes",
+                    "crop_label": "potatoes",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 17485,
+                    "crop_term": "sugarbeet",
+                    "crop_label": "sugarbeet",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 17486,
+                    "crop_term": "Medicago sativa",
+                    "crop_label": "alfalfa",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 17487,
+                    "crop_term": "spring barley",
+                    "crop_label": "spring barley",
+                    "start_year": null,
+                    "end_year": null
+                }
+            ],
+            "rotations": [
+                {
+                    "id": 4295,
+                    "phases": [
+                        {
+                            "crop_id": null,
+                            "notes": null,
+                            "same_phase": false
+                        }
+                    ],
+                    "name": "",
+                    "phasing": null,
+                    "start_year": null,
+                    "end_year": null,
+                    "is_treatment": false
+                }
+            ],
+            "factors": [],
+            "factor_combinations": [],
+            "measurements": [],
+            "start_year": 1938,
+            "end_year": 1972,
+            "ongoing": false,
+            "name": "Period 1",
+            "design_type_label": "Split-plot",
+            "number_of_blocks": null,
+            "number_of_plots": 8,
+            "number_of_subplots": 2,
+            "number_of_replicates": 5,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": 1,
+            "design_description": null,
+            "description": "40 pairs of main plots in 5 blocks, phased in over a 5 year period. On half of the plots there were four 'Continuous' rotations: 3-year grass grass/clover ley (L),  a 3-year lucerne ley (Lu), a 3-year arable rotation which included a 1-yr hay crop (Ah) and a 3-year arable rotation which included root crops (Ar). The effect of these four 'treatments' was compared on the yield of two arable 'test' crops. On the other plots the ley and arable 'treatment' crops alternated (called the Alternating rotations). A test of FYM applied to the first test crop was also included on one of each pair of main plots, 1938-1966. The test crops were potatoes followed by spring barley. Sugar beet replaced potatoes in 1956. Sainfoin replaced lucerne in 1965.",
+            "factorial": false
+        },
+        {
+            "id": 6399,
+            "design_type_term": "Split-plot",
+            "crops": [
+                {
+                    "id": 17488,
+                    "crop_term": "wheat",
+                    "crop_label": "wheat",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 17489,
+                    "crop_term": "spring barley",
+                    "crop_label": "spring barley",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 17490,
+                    "crop_term": "winter rye",
+                    "crop_label": "winter rye",
+                    "start_year": null,
+                    "end_year": null
+                }
+            ],
+            "rotations": [
+                {
+                    "id": 4296,
+                    "phases": [
+                        {
+                            "crop_id": null,
+                            "notes": null,
+                            "same_phase": false
+                        }
+                    ],
+                    "name": "",
+                    "phasing": null,
+                    "start_year": null,
+                    "end_year": null,
+                    "is_treatment": false
+                }
+            ],
+            "factors": [],
+            "factor_combinations": [],
+            "measurements": [
+                {
+                    "material": "SpecifiedCrop",
+                    "crop_id": 17488,
+                    "comment": "Grain yields for test crops (wheat and spring barley)",
+                    "collection_frequency": "annually",
+                    "variable_label": "Grain yield",
+                    "variable_term": null,
+                    "unit_label": "tonnes per hectare",
+                    "unit_term": "t/ha",
+                    "scale": null
+                },
+                {
+                    "material": "Soil",
+                    "crop_id": null,
+                    "comment": null,
+                    "collection_frequency": null,
+                    "variable_label": "soil organic carbon",
+                    "variable_term": "soil organic carbon",
+                    "unit_label": "Percent",
+                    "unit_term": "%",
+                    "scale": null
+                },
+                {
+                    "material": "Soil",
+                    "crop_id": null,
+                    "comment": null,
+                    "collection_frequency": null,
+                    "variable_label": "total soil nitrogen",
+                    "variable_term": "total soil nitrogen",
+                    "unit_label": "Percent",
+                    "unit_term": "%",
+                    "scale": null
+                }
+            ],
+            "start_year": 1973,
+            "end_year": 2006,
+            "ongoing": false,
+            "name": "Period 2",
+            "design_type_label": "Split-plot",
+            "number_of_blocks": null,
+            "number_of_plots": 8,
+            "number_of_subplots": 2,
+            "number_of_replicates": 5,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": 1,
+            "design_description": null,
+            "description": "Major changes made to the experiment in 1973-78. Grazed leys were replaced with cut grass or grass/clover leys. The Alternating rotations were stopped and two cycles of 8-year leys followed by the 2-yr test crops were introduced, the first cycle started in 1973, the second in 1978.",
+            "factorial": false
+        },
+        {
+            "id": 6400,
+            "design_type_term": null,
+            "crops": [
+                {
+                    "id": 17491,
+                    "crop_term": "winter wheat",
+                    "crop_label": "winter wheat",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 17492,
+                    "crop_term": "winter rye",
+                    "crop_label": "winter rye",
                     "start_year": null,
                     "end_year": null
                 }
@@ -41,45 +258,98 @@
             "rotations": [],
             "factors": [],
             "factor_combinations": [],
-            "measurements": [],
-            "start_year": null,
-            "end_year": null,
+            "measurements": [
+                {
+                    "material": "SpecifiedCrop",
+                    "crop_id": 17491,
+                    "comment": "grain yield for test crops (winter wheat and winter rye)",
+                    "collection_frequency": "annually",
+                    "variable_label": "grain yield trait",
+                    "variable_term": "grain yield trait",
+                    "unit_label": "tonnes per hectare",
+                    "unit_term": "t/ha",
+                    "scale": null
+                },
+                {
+                    "material": "Soil",
+                    "crop_id": null,
+                    "comment": null,
+                    "collection_frequency": null,
+                    "variable_label": "soil organic carbon",
+                    "variable_term": "soil organic carbon",
+                    "unit_label": "Percent",
+                    "unit_term": "%",
+                    "scale": null
+                },
+                {
+                    "material": "Soil",
+                    "crop_id": null,
+                    "comment": null,
+                    "collection_frequency": null,
+                    "variable_label": "total soil nitrogen",
+                    "variable_term": "total soil nitrogen",
+                    "unit_label": "Percent",
+                    "unit_term": "%",
+                    "scale": null
+                }
+            ],
+            "start_year": 2007,
+            "end_year": 2020,
             "ongoing": false,
-            "name": null,
+            "name": "Period 3",
             "design_type_label": null,
             "number_of_blocks": null,
-            "number_of_plots": null,
-            "number_of_subplots": null,
-            "number_of_replicates": null,
+            "number_of_plots": 8,
+            "number_of_subplots": 2,
+            "number_of_replicates": 5,
             "number_of_factor_combinations": null,
-            "number_of_harvests_per_year": null,
+            "number_of_harvests_per_year": 1,
             "design_description": null,
-            "description": null,
+            "description": "Major changes to the experiment in 2006/7. The 8-year leys were ended once both cycles had completed three 10-year rotations. Thus in 2008 plots previously in the 1st cycle of 8-year leys started to follow the same rotations as the two continuous arable rotation, whilst those in the second cycle went into a 3-year grass +N or 3-year grass/clover rotation, i.e. the same four rotations as the 'continuous' plots but with more SOM.",
             "factorial": false
         }
     ],
     "data_statement_term": "Available to any researcher on request",
-    "data_license_term": null,
+    "data_license_term": "CC BY",
     "site_type_term": "research station field",
     "site_perimeter": [],
     "site_soil_type_term": null,
     "site_soil_properties": [],
-    "site_climatic_type_term": null,
-    "site_climate_properties": [],
-    "literature": [],
-    "saved_time": "2019-08-06T22:03:22.379740Z",
+    "site_climatic_type_term": "temperate oceanic climate",
+    "site_climate_properties": [
+        {
+            "id": 3354,
+            "variable_term": null,
+            "unit_term": null,
+            "variable_label": "Annual total precipitation",
+            "year_from": 1981,
+            "year_to": 2010,
+            "mean_value": 652.0,
+            "max_value": 870.4,
+            "min_value": 460.5,
+            "unit_label": "mm"
+        }
+    ],
+    "literature": [
+        {
+            "doi": "https://doi.org/10.1111/ejss.12415",
+            "title": "Changes in soil organic matter over 70 years in continuous arable and ley-arable rotations on a sandy loam soil in England",
+            "language": "English"
+        }
+    ],
+    "saved_time": "2022-01-10T14:51:32.393942Z",
     "name": "Woburn Ley Arable",
-    "local_identifier": null,
+    "local_identifier": "W/RN/3",
     "experiment_type_label": null,
     "url": null,
     "start_year": 1938,
     "end_year": null,
-    "ongoing": false,
+    "ongoing": true,
     "establishment_period_end": null,
-    "objective": null,
-    "description": null,
+    "objective": "Effects of continuous arable and ley-arable cropping on crop production, soil organic matter dynamics and fertility in a sandy loam.",
+    "description": "Started in 1938 to compare the effects of rotations with or without grass or grass-clover leys on the yield of two arable test crops. It is now an important resource for investigation long-term changes in SOM due to different cropping systems. Five year rotation of three years in arable crops or leys (short-term grassland) followed by two years of arable test crops. Total of 40 pairs of plots divided into 5 blocks,  phased-in over a five-year period, so the each year of the rotation is present each year.",
     "site_name": "Stackyard",
-    "site_local_code": null,
+    "site_local_code": "W/RN/3",
     "site_geonames_id": null,
     "site_doi": null,
     "site_type_label": "research station field",
@@ -90,24 +360,24 @@
     "site_centroid_longitude": -0.61673,
     "site_elevation": 99.0,
     "site_elevation_unit": "Metres",
-    "site_slope": null,
+    "site_slope": 2.0,
     "site_slope_aspect": null,
     "site_visits_allowed": true,
-    "site_visiting_arrangements": null,
-    "site_history": null,
-    "site_management": null,
+    "site_visiting_arrangements": "Contact Dr Andy Macdonald",
+    "site_history": "The experiment started in 1938 on a site that had grown arable crops since at least 1876 and had 0.98% SOC in the topsoil.",
+    "site_management": "Conventional management, ploughed. There is no irrigation.",
     "site_soil_type_label": null,
-    "site_soil_description": null,
-    "site_climatic_type_label": null,
+    "site_soil_description": "Sandy loam with 11-16% clay, Cambric Arenosol (FAO, 1990).",
+    "site_climatic_type_label": "temperate oceanic climate",
     "site_climate_description": null,
     "data_statement_label": "Available to any researcher on request",
     "data_url": null,
     "data_policy_status": "YesOffline",
     "data_policy_url": null,
-    "data_license_label": null,
+    "data_license_label": "CC BY",
     "data_contact": null,
     "farm_operations_data": false,
-    "sample_archive": false,
-    "samples_available": false,
-    "data_access_statement": null
+    "sample_archive": true,
+    "samples_available": true,
+    "data_access_statement": "Contact the e-RA curators: era@rothamsted.ac.uk"
 }

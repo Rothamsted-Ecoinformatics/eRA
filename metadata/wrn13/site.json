@@ -6,18 +6,18 @@
         "doi": null,
         "visitsAllowed": "No",
         "visitingArrangements": null,
-        "description": "The experiments started in 1876 on Woburn Stackyard, and where carried out by the Royal Agricultural Society of England but with input from John Lawes at Rothamsted. They were under continuous wheat and barley, mirroring the Broadbalk and Hoosfield Experiments, until 1926. According to Voelcker (1929), after 1926 it was decided to fallow the plots, which had become infested with weeds.",
-        "management": null
+        "description": "Continuous wheat and barley from 1876-1961, mirroring the Broadbalk wheat and Hoosfield barley experiments. Many fallow years from 1927-1961. 1962 spring oats with basal fertiliser N. 1963 fallow. 1964 spring beans. 1965 and 1966 fallow.",
+        "management": "Site managed conventionally, with standard tillage across all plots."
     },
     "location": {
         "addressLocality": "Husborne Crawley",
         "addressRegion": "Bedfordshire",
-        "addressCountry": "UK",
+        "addressCountry": "United Kingdom",
         "geoLocationPoint": {
             "pointLongitude": -0.6149,
             "pointLatitude": 52.0003
         },
-        "geoLocationPlace": "UK",
+        "geoLocationPlace": "United Kingdom",
         "polygon": "NOT IN GLTEN",
         "elevation": 89.0,
         "elevationUnit": "Metres",
@@ -26,12 +26,12 @@
     },
     "soil": {
         "soilTypeLabel": "Eutric Rubic Arenosol",
-        "soilDescription": "Sandy loam"
+        "soilDescription": "Sandy loam, Stackyard series."
     },
     "soilProperty": [],
     "climate": {
         "name": "temperate oceanic climate",
-        "description": "Sandy loam",
+        "description": "Sandy loam, Stackyard series.",
         "weatherStation": {
             "weatherStationID": "NOT IN GLTEN",
             "name": "NOT IN GLTEN",

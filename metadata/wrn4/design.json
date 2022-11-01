@@ -11,7 +11,7 @@
         "design": {
             "dateStart": 1942,
             "dateEnd": 1950,
-            "description": null,
+            "description": "Initial period",
             "studyDesign": "First Period",
             "factorCombinationNumber": "NA",
             "numberOdBlocks": 8,
@@ -22,28 +22,28 @@
         },
         "crops": [
             {
-                "id": 10934,
+                "id": 15529,
                 "name": "cabbages",
                 "sameAs": "cabbages",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10935,
+                "id": 15530,
                 "name": "peas",
                 "sameAs": "peas",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10936,
+                "id": 15531,
                 "name": "leeks",
                 "sameAs": "leeks",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10937,
+                "id": 15532,
                 "name": "beetroot",
                 "sameAs": "beetroot",
                 "dateStart": null,
@@ -60,22 +60,22 @@
                 "rotationPhases": [
                     {
                         "samePhase": false,
-                        "crop": 10937,
+                        "crop": 15532,
                         "description": null
                     },
                     {
                         "samePhase": true,
-                        "crop": 10934,
+                        "crop": 15529,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 10935,
+                        "crop": 15530,
                         "description": null
                     },
                     {
                         "samePhase": true,
-                        "crop": 10936,
+                        "crop": 15531,
                         "description": null
                     }
                 ]
@@ -83,14 +83,14 @@
         ],
         "factor": [
             {
-                "id": 6097,
+                "id": 9297,
                 "name": "natural fertilizer exposure",
                 "description": "Amendments were applied in winter before beetroot and peas",
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 16610,
+                        "id": 23356,
                         "name": "farmyard manure",
                         "amount": null,
                         "unitCode": null,
@@ -104,7 +104,7 @@
                         "notes": null
                     },
                     {
-                        "id": 16611,
+                        "id": 23357,
                         "name": "sewage sludge",
                         "amount": null,
                         "unitCode": null,
@@ -118,7 +118,7 @@
                         "notes": null
                     },
                     {
-                        "id": 16612,
+                        "id": 23358,
                         "name": "straw compost",
                         "amount": null,
                         "unitCode": null,
@@ -132,7 +132,7 @@
                         "notes": "Made with sewage sludge and straw"
                     },
                     {
-                        "id": 16613,
+                        "id": 23359,
                         "name": "vegetable compost",
                         "amount": null,
                         "unitCode": null,
@@ -148,14 +148,14 @@
                 ]
             },
             {
-                "id": 6098,
+                "id": 9298,
                 "name": "nitrogen fertilizer exposure",
                 "description": "N0 and N1 applied both with and without the organics and N2 and N3 applied without organics only. The N rate refers to the total applied over the two year rotation period.",
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 16614,
+                        "id": 23360,
                         "name": "N0",
                         "amount": "0",
                         "unitCode": null,
@@ -169,7 +169,7 @@
                         "notes": null
                     },
                     {
-                        "id": 16615,
+                        "id": 23361,
                         "name": "N1",
                         "amount": "75",
                         "unitCode": "kgN/ha",
@@ -183,7 +183,7 @@
                         "notes": null
                     },
                     {
-                        "id": 16616,
+                        "id": 23362,
                         "name": "N2",
                         "amount": "150",
                         "unitCode": "kgN/ha",
@@ -197,7 +197,7 @@
                         "notes": null
                     },
                     {
-                        "id": 16617,
+                        "id": 23363,
                         "name": "N3",
                         "amount": "225",
                         "unitCode": "kgN/ha",
@@ -239,28 +239,28 @@
         },
         "crops": [
             {
-                "id": 10938,
+                "id": 15533,
                 "name": "beetroot",
                 "sameAs": "beetroot",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10939,
+                "id": 15534,
                 "name": "cabbages",
                 "sameAs": "cabbages",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10940,
+                "id": 15535,
                 "name": "leeks",
                 "sameAs": "leeks",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10941,
+                "id": 15536,
                 "name": "potatoes",
                 "sameAs": "potatoes",
                 "dateStart": null,
@@ -277,17 +277,17 @@
                 "rotationPhases": [
                     {
                         "samePhase": false,
-                        "crop": 10938,
+                        "crop": 15533,
                         "description": null
                     },
                     {
                         "samePhase": true,
-                        "crop": 10939,
+                        "crop": 15534,
                         "description": "spring cabbage"
                     },
                     {
                         "samePhase": false,
-                        "crop": 10940,
+                        "crop": 15535,
                         "description": null
                     }
                 ]
@@ -301,17 +301,17 @@
                 "rotationPhases": [
                     {
                         "samePhase": false,
-                        "crop": 10938,
+                        "crop": 15533,
                         "description": null
                     },
                     {
                         "samePhase": true,
-                        "crop": 10941,
+                        "crop": 15536,
                         "description": "early potatoes"
                     },
                     {
                         "samePhase": false,
-                        "crop": 10940,
+                        "crop": 15535,
                         "description": null
                     }
                 ]
@@ -319,14 +319,14 @@
         ],
         "factor": [
             {
-                "id": 6099,
+                "id": 9299,
                 "name": "natural fertilizer exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 16618,
+                        "id": 23364,
                         "name": "farmyard manure",
                         "amount": null,
                         "unitCode": null,
@@ -340,7 +340,7 @@
                         "notes": null
                     },
                     {
-                        "id": 16619,
+                        "id": 23365,
                         "name": "sewage sludge",
                         "amount": null,
                         "unitCode": null,
@@ -354,7 +354,7 @@
                         "notes": null
                     },
                     {
-                        "id": 16620,
+                        "id": 23366,
                         "name": "straw compost",
                         "amount": null,
                         "unitCode": null,
@@ -368,7 +368,7 @@
                         "notes": "Made with sewage sludge and straw"
                     },
                     {
-                        "id": 16621,
+                        "id": 23367,
                         "name": "vegetable compost",
                         "amount": null,
                         "unitCode": null,
@@ -384,14 +384,14 @@
                 ]
             },
             {
-                "id": 6100,
+                "id": 9300,
                 "name": "nitrogen fertilizer exposure",
                 "description": "N0 and N1 applied both with and without the organics and N2 and N3 applied without organics only. The N rate refers to the total applied over the two year rotation period.",
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 16622,
+                        "id": 23368,
                         "name": "N0",
                         "amount": null,
                         "unitCode": null,
@@ -405,7 +405,7 @@
                         "notes": null
                     },
                     {
-                        "id": 16623,
+                        "id": 23369,
                         "name": "N1",
                         "amount": "37",
                         "unitCode": "kgN/ha",
@@ -419,7 +419,7 @@
                         "notes": null
                     },
                     {
-                        "id": 16624,
+                        "id": 23370,
                         "name": "N2",
                         "amount": "75",
                         "unitCode": "kgN/ha",
@@ -433,7 +433,7 @@
                         "notes": null
                     },
                     {
-                        "id": 16625,
+                        "id": 23371,
                         "name": "N3",
                         "amount": "113",
                         "unitCode": "kgN/ha",
@@ -475,56 +475,56 @@
         },
         "crops": [
             {
-                "id": 10942,
+                "id": 15537,
                 "name": "leeks",
                 "sameAs": "leeks",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10943,
+                "id": 15538,
                 "name": "beetroot",
                 "sameAs": "beetroot",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10944,
+                "id": 15539,
                 "name": "potatoes",
                 "sameAs": "potatoes",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10945,
+                "id": 15540,
                 "name": "carrots",
                 "sameAs": "carrots",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10946,
+                "id": 15541,
                 "name": "rye",
                 "sameAs": "rye",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10947,
+                "id": 15542,
                 "name": "beans",
                 "sameAs": "beans",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10948,
+                "id": 15543,
                 "name": "grass leys",
                 "sameAs": "grass leys",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10949,
+                "id": 15544,
                 "name": "grass clover leys",
                 "sameAs": "grass clover leys",
                 "dateStart": null,
@@ -534,7 +534,7 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 6101,
+                "id": 9301,
                 "name": "nitrogen fertilizer exposure",
                 "description": "N applied at various rates. Rates depend on the crop.",
                 "effect": "",
@@ -542,14 +542,14 @@
                 "level": []
             },
             {
-                "id": 6102,
+                "id": 9302,
                 "name": "natural fertilizer exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 16626,
+                        "id": 23372,
                         "name": "grass-clover ley",
                         "amount": null,
                         "unitCode": null,
@@ -563,7 +563,7 @@
                         "notes": null
                     },
                     {
-                        "id": 16627,
+                        "id": 23373,
                         "name": "grass ley",
                         "amount": null,
                         "unitCode": null,
@@ -577,7 +577,7 @@
                         "notes": null
                     },
                     {
-                        "id": 16628,
+                        "id": 23374,
                         "name": "straw",
                         "amount": "7.5",
                         "unitCode": "t/ha",
@@ -591,7 +591,7 @@
                         "notes": "As chopped barley straw"
                     },
                     {
-                        "id": 16629,
+                        "id": 23375,
                         "name": "peat",
                         "amount": "7.5",
                         "unitCode": "t/ha",
@@ -605,7 +605,7 @@
                         "notes": "As sedge peat"
                     },
                     {
-                        "id": 16630,
+                        "id": 23376,
                         "name": "green manure",
                         "amount": null,
                         "unitCode": null,
@@ -619,7 +619,7 @@
                         "notes": "As practicable depending on the arable crop grown"
                     },
                     {
-                        "id": 16631,
+                        "id": 23377,
                         "name": "None",
                         "amount": null,
                         "unitCode": null,
@@ -633,7 +633,7 @@
                         "notes": null
                     },
                     {
-                        "id": 16632,
+                        "id": 23378,
                         "name": "farmyard manure",
                         "amount": "50",
                         "unitCode": "t/ha",
@@ -647,7 +647,7 @@
                         "notes": "Replaced vegetable compost. 25 t/ha in 1967 and 1970"
                     },
                     {
-                        "id": 16633,
+                        "id": 23379,
                         "name": "PKMg Equivalent",
                         "amount": null,
                         "unitCode": null,
@@ -689,14 +689,14 @@
         },
         "crops": [
             {
-                "id": 10950,
+                "id": 15545,
                 "name": "fallow",
                 "sameAs": "fallow",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10951,
+                "id": 15546,
                 "name": "rye grass",
                 "sameAs": "rye grass",
                 "dateStart": null,
@@ -731,28 +731,28 @@
         },
         "crops": [
             {
-                "id": 10952,
+                "id": 15547,
                 "name": "beetroot",
                 "sameAs": "beetroot",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10953,
+                "id": 15548,
                 "name": "carrots",
                 "sameAs": "carrots",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10954,
+                "id": 15549,
                 "name": "barley",
                 "sameAs": "barley",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10955,
+                "id": 15550,
                 "name": "white clover",
                 "sameAs": "white clover",
                 "dateStart": null,

@@ -73,8 +73,8 @@
             "crops": [
                 {
                     "id": 11387,
-                    "crop_term": null,
-                    "crop_label": "lucerne",
+                    "crop_term": "Medicago sativa",
+                    "crop_label": "alfalfa",
                     "start_year": null,
                     "end_year": null
                 },
@@ -238,8 +238,8 @@
             "crops": [
                 {
                     "id": 11392,
-                    "crop_term": null,
-                    "crop_label": "lucerne",
+                    "crop_term": "Medicago sativa",
+                    "crop_label": "alfalfa",
                     "start_year": null,
                     "end_year": null
                 },
@@ -349,7 +349,7 @@
                 },
                 {
                     "id": 11398,
-                    "crop_term": null,
+                    "crop_term": "grass clover leys",
                     "crop_label": "grass clover leys",
                     "start_year": null,
                     "end_year": null
@@ -446,8 +446,8 @@
             "crops": [
                 {
                     "id": 11402,
-                    "crop_term": null,
-                    "crop_label": "lucerne",
+                    "crop_term": "Medicago sativa",
+                    "crop_label": "alfalfa",
                     "start_year": null,
                     "end_year": null
                 },
@@ -509,8 +509,8 @@
                 },
                 {
                     "id": 11411,
-                    "crop_term": null,
-                    "crop_label": "hay",
+                    "crop_term": "feed grasses",
+                    "crop_label": "feed grasses",
                     "start_year": null,
                     "end_year": null
                 }
@@ -623,7 +623,7 @@
     "site_type_label": "research station field",
     "site_locality": "Harpenden",
     "site_region": "Hertfordshire",
-    "site_country": null,
+    "site_country": "United Kingdom",
     "site_centroid_latitude": 51.812922,
     "site_centroid_longitude": -0.379079,
     "site_elevation": 130.0,

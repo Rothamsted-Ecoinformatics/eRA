@@ -23,8 +23,8 @@
         "crops": [
             {
                 "id": 10956,
-                "name": "Spring barley",
-                "sameAs": "Spring barley",
+                "name": "spring barley",
+                "sameAs": "spring barley",
                 "dateStart": 1852,
                 "dateEnd": null
             }
@@ -121,7 +121,7 @@
             },
             {
                 "id": 6105,
-                "name": "potassium fertilizer exposure (KNaMg)",
+                "name": "potassium fertilizer exposure",
                 "description": "inorganic potassium fertilizer applied, along with 11kgMg and 16kgNa fertilizer",
                 "effect": "",
                 "plotApplication": null,
@@ -335,8 +335,8 @@
             },
             {
                 "id": 10959,
-                "name": "field beans",
-                "sameAs": "field beans",
+                "name": "faba beans",
+                "sameAs": "faba beans",
                 "dateStart": null,
                 "dateEnd": null
             }
@@ -482,7 +482,7 @@
             },
             {
                 "id": 6111,
-                "name": "potassium fertilizer exposure (KNaMg)",
+                "name": "potassium fertilizer exposure",
                 "description": "inorganic potassium fertilizer applied annually, along with 11kgMg and 16kgNa fertilizer",
                 "effect": "",
                 "plotApplication": null,

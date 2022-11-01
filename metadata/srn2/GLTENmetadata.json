@@ -228,8 +228,8 @@
                 },
                 {
                     "id": 11431,
-                    "crop_term": null,
-                    "crop_label": "root crops",
+                    "crop_term": "root vegetables",
+                    "crop_label": "root vegetables",
                     "start_year": null,
                     "end_year": null
                 },
@@ -242,7 +242,7 @@
                 },
                 {
                     "id": 11433,
-                    "crop_term": null,
+                    "crop_term": "legumes",
                     "crop_label": "legumes",
                     "start_year": null,
                     "end_year": null
@@ -450,7 +450,7 @@
     "site_type_label": "research station field",
     "site_locality": "Saxmundham",
     "site_region": "Suffolk",
-    "site_country": "UK",
+    "site_country": "United Kingdom",
     "site_centroid_latitude": 52.221,
     "site_centroid_longitude": 1.466,
     "site_elevation": 37.0,

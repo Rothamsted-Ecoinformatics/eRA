@@ -40,7 +40,7 @@ if (is_array($pageinfo)) {
 }
 
 $page_title .= $pageinfo['Experiment']; // This is used in the head file as the title tag
-
+/*
 $filedatacite = $exptFolder . '/' . 'experiment.json';
 $hasDatacite = file_exists($filedatacite);
 if ($hasDatacite) {
@@ -82,7 +82,7 @@ if ($hasDesign) {
         $showDesign = TRUE;
     }
 }
-
+*/
 $fileDataset = $exptFolder . '/' . 'datasets.json';
 
 $hasDatasets = file_exists($fileDataset);
@@ -132,7 +132,7 @@ $hasDocs = file_exists($fileDocs);
 						Classical or long-term experiments)</p>
 							
       	<?php 
-		if ($hasDatasets) { include 'wdel-datasets.php'; }?>
+		if ($hasDatasets) { include '_datasets.php'; }?>
                 							
 				</div>
 			</div>

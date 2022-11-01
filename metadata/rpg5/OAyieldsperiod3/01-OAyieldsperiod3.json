@@ -4,7 +4,7 @@
     "identifier": "10.23637/rpg5-yields1965-2018-01",
     "name": "Dataset: Park Grass Hay Yields, Fertilizer and Lime Treatments 1965-2018",
     "shortName": "OAyieldsperiod3",
-    "url": "http://www.era.rothamsted.ac.uk/dataset/rpg5/01-OAyieldsperiod3",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rpg5/01-OAyieldsperiod3",
     "description": [
         {
             "inLanguage": "en",
@@ -318,7 +318,7 @@
         {
             "relatedIdentifier": "10.1111/j.1365-2745.2006.01145.x",
             "relatedIdentifierType": "DOI",
-            "name": "The Park Grass Experiment 1856-2006: Its Contribution to Ecology (2006) Silvertown et al.",
+            "name": "Silvertown et al. (2006) The Park Grass Experiment 1856 - 2006: its contribution to ecology",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
@@ -327,7 +327,7 @@
         {
             "relatedIdentifier": "10.1017/S0021859600067290",
             "relatedIdentifierType": "DOI",
-            "name": "Trends in herbage yields over the last century (1994) Jenkinson et al.",
+            "name": "Jenkinson et al. (1994)  Trends in herbage yields over the last century ",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
@@ -336,7 +336,7 @@
         {
             "relatedIdentifier": "10.1111/sum.12343",
             "relatedIdentifierType": "DOI",
-            "name": "Historical trends in iodine and selenium in soil and herbage at ark Grass (2017) Bowley et al.",
+            "name": "Bowley et al. (2017)  Historical trends in iodine and selenium in soil and herbage at ark Grass",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
@@ -350,6 +350,15 @@
             "relationType": "IsSupplementTo",
             "rt_id": 3,
             "relationTypeValue": "is supplement to"
+        },
+        {
+            "relatedIdentifier": "10.23637/rpg5-yields1903-1964-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Dataset: Park Grass Hay Yields, Fertilizer and Lime Treatments 1903-1964",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "Continues",
+            "rt_id": 6,
+            "relationTypeValue": "continues"
         }
     ],
     "funder": [
@@ -388,5 +397,5 @@
     ],
     "grade": 1,
     "isExternal": 0,
-    "dstype": "OA"
+    "dstype": "Frictionless"
 }

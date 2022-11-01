@@ -2,7 +2,7 @@
     {
         "md_id": -377817928,
         "title": "Woburn long-term liming experiment plans 1962-1996",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/wcs10/WobLTliming-Plans.pdf",
+        "URL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/WobLTliming-Plans.pdf",
         "identifier": "10.23637/wcs10-Plans",
         "identifier_type": "DOI",
         "dataset_type": "Field plot map",
@@ -23,7 +23,7 @@
     {
         "md_id": 219054705,
         "title": "Woburn long-term liming experiments lime and fertilizer treatments 1962-1996",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/wcs10/WobLTliming-Treatments.pdf",
+        "URL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/WobLTliming-Treatments.pdf",
         "identifier": "10.23637/wcs10-Treatments-01",
         "identifier_type": "DOI",
         "dataset_type": "Treatment details",

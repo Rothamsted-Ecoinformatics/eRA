@@ -182,6 +182,13 @@ function multiSearch(array $array, array $pairs)
  */
 function listImages($arrdata)
 {
+       //obtain a list of columns
+       $caption  = array_column($arrdata, 'Caption');
+       $orientation= array_column($arrdata, 'orientation');
+       
+       // Sort the data with orientation descending, caption ascending
+       // Add $images as the last parameter, to sort by the common key
+       array_multisort($orientation, SORT_DESC, $caption, SORT_ASC, $arrdata);
     $startUL = "<section class=\"gallery-block compact-gallery\">
 	<div class=\"container\">
 		<div class=\"row\">";

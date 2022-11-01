@@ -75,7 +75,7 @@
                 },
                 {
                     "id": 11749,
-                    "crop_term": null,
+                    "crop_term": "spring barley",
                     "crop_label": "spring barley",
                     "start_year": null,
                     "end_year": null
@@ -89,21 +89,21 @@
                 },
                 {
                     "id": 11751,
-                    "crop_term": null,
+                    "crop_term": "spring oats",
                     "crop_label": "spring oats",
                     "start_year": null,
                     "end_year": null
                 },
                 {
                     "id": 11752,
-                    "crop_term": null,
-                    "crop_label": "spring oilseed rape",
+                    "crop_term": "spring rapeseed",
+                    "crop_label": "spring rapeseed",
                     "start_year": null,
                     "end_year": null
                 },
                 {
                     "id": 11753,
-                    "crop_term": null,
+                    "crop_term": "fallow",
                     "crop_label": "fallow",
                     "start_year": null,
                     "end_year": null
@@ -195,7 +195,7 @@
                 },
                 {
                     "id": 7120,
-                    "factor_term": null,
+                    "factor_term": "phosphate fertilizer exposure",
                     "levels": [
                         {
                             "id": 18603,
@@ -234,14 +234,14 @@
                             "chemical_form_label": "triple superphosphate"
                         }
                     ],
-                    "factor_label": "Phosphorus (P) fertilizer exposure",
+                    "factor_label": "phosphate fertilizer exposure",
                     "description": "Two P fertilizer treatments, nil and P.",
                     "plot_application": null,
                     "effect": ""
                 },
                 {
                     "id": 7121,
-                    "factor_term": null,
+                    "factor_term": "potassium fertilizer exposure",
                     "levels": [
                         {
                             "id": 18605,
@@ -280,7 +280,7 @@
                             "chemical_form_label": "muriate of potash"
                         }
                     ],
-                    "factor_label": "Potassium (K) fertilizer exposure",
+                    "factor_label": "potassium fertilizer exposure",
                     "description": "Two treatments, nil and K",
                     "plot_application": null,
                     "effect": ""
@@ -435,8 +435,8 @@
             "crops": [
                 {
                     "id": 11754,
-                    "crop_term": null,
-                    "crop_label": "Spring oats",
+                    "crop_term": "spring oats",
+                    "crop_label": "spring oats",
                     "start_year": null,
                     "end_year": null
                 },
@@ -449,7 +449,7 @@
                 },
                 {
                     "id": 11756,
-                    "crop_term": null,
+                    "crop_term": "spring barley",
                     "crop_label": "spring barley",
                     "start_year": null,
                     "end_year": null
@@ -484,8 +484,8 @@
                 },
                 {
                     "id": 11761,
-                    "crop_term": null,
-                    "crop_label": "winter oilseed rape",
+                    "crop_term": "winter rapeseed",
+                    "crop_label": "winter rapeseed",
                     "start_year": null,
                     "end_year": null
                 },
@@ -725,7 +725,7 @@
                 },
                 {
                     "id": 7127,
-                    "factor_term": null,
+                    "factor_term": "sulfate fertiliser exposure",
                     "levels": [
                         {
                             "id": 18621,
@@ -764,7 +764,7 @@
                             "chemical_form_label": "calcium sulfate"
                         }
                     ],
-                    "factor_label": "Sulphur fertilizer exposure",
+                    "factor_label": "sulfate fertiliser exposure",
                     "description": "Sulphur applied to split plots",
                     "plot_application": null,
                     "effect": ""
@@ -830,9 +830,9 @@
     "site_soil_properties": [
         {
             "id": 4171,
-            "variable_term": null,
+            "variable_term": "coarse sand content",
             "unit_term": "%",
-            "variable_label": "coarse sand content (2-0.2mm)",
+            "variable_label": "coarse sand content",
             "min_depth": 0.0,
             "max_depth": 23.0,
             "depth_unit": "Centimetres",
@@ -846,9 +846,9 @@
         },
         {
             "id": 4172,
-            "variable_term": null,
+            "variable_term": "fine sand content",
             "unit_term": "%",
-            "variable_label": "fine sand content (0.2-0.02mm)",
+            "variable_label": "fine sand content",
             "min_depth": 0.0,
             "max_depth": 23.0,
             "depth_unit": "Centimetres",
@@ -862,9 +862,9 @@
         },
         {
             "id": 4173,
-            "variable_term": null,
+            "variable_term": "silt content",
             "unit_term": "%",
-            "variable_label": "silt content (0.02-0.002mm)",
+            "variable_label": "silt content",
             "min_depth": 0.0,
             "max_depth": 23.0,
             "depth_unit": "Centimetres",
@@ -878,7 +878,7 @@
         },
         {
             "id": 4174,
-            "variable_term": null,
+            "variable_term": "clay content",
             "unit_term": "%",
             "variable_label": "clay content",
             "min_depth": 0.0,
@@ -942,7 +942,7 @@
         },
         {
             "id": 4178,
-            "variable_term": null,
+            "variable_term": "soil pH",
             "unit_term": null,
             "variable_label": "soil pH",
             "min_depth": 0.0,

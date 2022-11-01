@@ -214,7 +214,7 @@
                 },
                 {
                     "id": 7393,
-                    "factor_term": null,
+                    "factor_term": "farmyard manure exposure",
                     "levels": [
                         {
                             "id": 19238,
@@ -235,7 +235,7 @@
                             "chemical_form_label": null
                         }
                     ],
-                    "factor_label": "FYM exposure",
+                    "factor_label": "farmyard manure exposure",
                     "description": "FYM from cattle",
                     "plot_application": null,
                     "effect": ""
@@ -1096,7 +1096,7 @@
                 },
                 {
                     "id": 7400,
-                    "factor_term": null,
+                    "factor_term": "farmyard manure exposure",
                     "levels": [
                         {
                             "id": 19249,
@@ -1117,7 +1117,7 @@
                             "chemical_form_label": null
                         }
                     ],
-                    "factor_label": "FYM exposure",
+                    "factor_label": "farmyard manure exposure",
                     "description": "FYM from cattle",
                     "plot_application": null,
                     "effect": ""

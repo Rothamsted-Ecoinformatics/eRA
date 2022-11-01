@@ -1,20 +1,45 @@
 {
     "@context": "https://schema.org/",
     "@type": "Dataset",
-    "identifier": "10.23637/rrs1-soilcn1959-2014",
-    "name": "Highfield Bare Fallow soil organic carbon and total nitrogen content 1959-2014",
+    "identifier": "10.23637/rrs1-SOILCN1959-2014-01",
+    "name": "Highfield Bare Fallow soil chemical properties, 1959-2014",
     "shortName": "SOILCN5914",
-    "url": "http://www.era.rothamsted.ac.uk/dataset/rrs1/01-SOILCN5914",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rrs1/01-SOILCN5914",
     "description": [
         {
             "inLanguage": "en",
             "descriptionType": "Abstract",
-            "description": "Soil organic carbon (SOC) and total nitrogen (N) sub-plot data from the Highfield Bare Fallow experiment, 1959-2014. The experiment was ploughed out of old grassland in 1959 and has been kept in bare fallow since by cultivation to suppress weeds. No crops are grown. SOC and total N as % and soil stock data."
+            "description": "Highfield Bare Fallow experiment soil organic carbon (SOC) and total nitrogen (N) sub-plot data 1959-2014. The experiment was ploughed out of old grassland (since 1838) in 1959 and has been kept in bare fallow since by cultivation to suppress weeds. No crops are grown. The data set contains SOC and total N as % and soil stock data, soil weights and soil pH in the topsoil (0-23cm)."
         },
         {
             "inLanguage": "en",
             "descriptionType": "Methods",
-            "description": "The 1959 data is from when the experiment was still under grassland. There are four sub-plots. %SOC"
+            "description": "The soil was sampled eight times between 1959 and 2014, in the summer/autumn, except in 1959 when it was sampled in December, before the grass was ploughed in.  There are four sub-plots. The stock of total soil N and SOC was calculated from %N and %SOC and the estimated soil weight, 0-23cm. %N and %SOC were  measured on air-dried soil, ground to <2mm."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TableOfContents",
+            "description": "An Excel file, 01-SOILCN5914.xlsx contains the Highfield Bare Fallow soil data, 1959-2014. Frictionless CSV files are also provided for users who prefer the CSV format."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TechnicalInfo",
+            "description": "Soil pH was measured in water, with a 1:2.5 soil:water suspension, in air-dried soil, sieved <2mm. Samples were analysed for %N by the Kjeldahl method (Bremner, 1965), 1959-1987, and by LECO combustion, based on the Dumas method, 2000-2014.  SOC was measured by the Tinsley method (Kalembasa & Jenkinson, 1973) 1959-1987, and as total C by combustion (LECO) minus CaCO<sub>3</sub>-C by manometry, 2000-2014. Soil weights were measured in 1978 and 2000 and also in 2000 from an adjacent area of grassland, to give an estimate of starting value in 1959. Stocks of SOC and total N were calculated from %SOC and %N and estimated soil weight, 0-23cm."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Other",
+            "description": "- Bremner, J. M. (1965). Total nitrogen. In Methods of Soil Analysis. Part 2 (ed. C. A. Black), pp. 1149-1178. Madison: American Society of Agronomy.\r\n- Kalembasa, S.J and Jenkinson, D.S (1973) A comparative study of titrimetric and gravimetric methods for the determination of organic carbon in soil. Journal of the Science of Food and Agriculture 24: 1085-1090."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Provenance",
+            "description": "This dataset is derived from measurements made by the Analytical Chemistry Unit, Rothamsted Research, Harpenden."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Quality",
+            "description": "The Analytical Chemistry Unit follows the Joint Code of Practice (JCoPR) and participates in European Quality Assurance programmes. All performance is strictly monitored using certified external standards alongside in-house standard materials. Standards and check samples are monitored and recorded."
         }
     ],
     "publisher": {
@@ -22,7 +47,7 @@
         "name": "Electronic Rothamsted Archive, Rothamsted Research"
     },
     "publication_year": 2021,
-    "dateCreated": "2021-11-15",
+    "dateCreated": "2022-03-10",
     "dateModified": null,
     "datePublished": null,
     "inLanguage": "en",
@@ -240,6 +265,132 @@
                 "name": "Computational and Analytical Sciences, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells-Brooke",
+            "givenName": "Nathalie",
+            "familyName": "Castells-Brooke",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Ruth Skilton",
+            "givenName": "Ruth",
+            "familyName": "Skilton",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Wendy Wilmer",
+            "givenName": "Wendy",
+            "familyName": "Wilmer",
+            "sameAs": "https://orcid.org/0000-0002-6463-6636",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Melanie Brookman",
+            "givenName": "Melanie",
+            "familyName": "Brookman",
+            "sameAs": "https://orcid.org/0000-0001-6085-9288",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Jeanne Day",
+            "givenName": "Jeanne",
+            "familyName": "Day",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
         }
     ],
     "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
@@ -262,11 +413,61 @@
         },
         "name": "Highfield"
     },
-    "relatedIdentifier": [],
-    "funder": [],
-    "distribution": [],
-    "image": [],
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.5194/bg-7-3839-2010",
+            "relatedIdentifierType": "DOI",
+            "name": "Barre et al (2010) Quantifying and isolating stable soil organic carbon using long-term . . .",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
+        },
+        {
+            "relatedIdentifier": "10.1111/ejss.12359",
+            "relatedIdentifierType": "DOI",
+            "name": "Gregory et al. (2016) Long-term management changes topsoil and subsoil . . . ",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
+        }
+    ],
+    "funder": [
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/00005189 - The Rothamsted Long-Term Experiments including Sample Archive and e-RA database",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F00005189"
+        },
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/000J0300 - The Rothamsted Long - Term Experiments - National Capability",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F000J0300"
+        }
+    ],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Highfield Bare Fallow soil chemical properties 1959-2014",
+            "URL": "01-SOILCN5914.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "46 KB"
+        }
+    ],
+    "image": [
+        {
+            "type": "imageObject",
+            "caption": "Highfield Bare Fallow %SOC 1959-2014",
+            "URL": "HBF-SOC.png",
+            "encodingFormat": "png",
+            "fileSize": "11 KB"
+        }
+    ],
     "grade": 1,
     "isExternal": 0,
-    "dstype": "Other"
+    "dstype": "Frictionless"
 }

@@ -4,7 +4,7 @@
     "identifier": "10.23637/KeyRefOAPGsoilpH",
     "name": "Park Grass Soil pH 1856-2011",
     "shortName": "OAPGsoilpH",
-    "url": "http://www.era.rothamsted.ac.uk/dataset/rpg5/01-OAPGsoilpH",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rpg5/01-OAPGsoilpH",
     "description": [
         {
             "inLanguage": "en",
@@ -51,7 +51,7 @@
     "dateModified": null,
     "datePublished": null,
     "inLanguage": "en",
-    "version": "01",
+    "version": "1",
     "keywords": [
         "Park grass long-term experiment",
         "long term experiments",
@@ -301,7 +301,7 @@
         {
             "relatedIdentifier": "10.1038/nature16444",
             "relatedIdentifierType": "DOI",
-            "name": "Grassland Biodiversity Bounces Back from Long-term Nitrogen Addition.",
+            "name": "Storkey et al. (2015) Grassland Biodiversity Bounces Back from Long-term Nitrogen Addition",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
@@ -319,7 +319,7 @@
         {
             "relatedIdentifier": "10.1046/j.1365-2389.1999.00253.x",
             "relatedIdentifierType": "DOI",
-            "name": "Changes in Soil Chemistry Accompanying Acidification Over More Than 100 Years",
+            "name": "Blake et al. (2001) Changes in soil chemistry accompanying acidification . . .",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
@@ -337,7 +337,7 @@
         {
             "relatedIdentifier": "10.1111/j.1365-2389.1977.tb02234.x",
             "relatedIdentifierType": "DOI",
-            "name": "Effect of Soil pH and Organic Matter on Labile Aluminium in Soils Under Permanent Grass",
+            "name": "Barera at al. (1977) Effect of Soil pH and Organic Matter on Labile Aluminium . . . ",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
@@ -355,7 +355,7 @@
         {
             "relatedIdentifier": "https://www.youtube.com/watch?v=-3-Pm5JUQZ4&feature=player_embedded",
             "relatedIdentifierType": "URL",
-            "name": "The Park Grass Experiment Video",
+            "name": "The Park Grass Experiment - video",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsSupplementedBy",
             "rt_id": 4,
@@ -405,6 +405,15 @@
             "relationType": "IsSupplementedBy",
             "rt_id": 4,
             "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/KeyRefOAPGsoilpH",
+            "relatedIdentifierType": "DOI",
+            "name": "Park Grass Soil pH 1856-2011",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "Describes",
+            "rt_id": 8,
+            "relationTypeValue": "describes"
         }
     ],
     "funder": [

@@ -4,7 +4,7 @@
     "identifier": "10.23637/rmsMMRain10850917",
     "name": "Mean monthly rainfall at Rothamsted October 1985-September 2017",
     "shortName": "rmsMMR10850917",
-    "url": "http://www.era.rothamsted.ac.uk/dataset/rms/01-rmsMMR10850917",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rms/01-rmsMMR10850917",
     "description": [
         {
             "inLanguage": "en",
@@ -46,7 +46,7 @@
     "dateModified": null,
     "datePublished": null,
     "inLanguage": "en",
-    "version": "01",
+    "version": "1",
     "keywords": [
         "climate",
         "climate change",

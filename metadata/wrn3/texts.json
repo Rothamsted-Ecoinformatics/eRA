@@ -2,7 +2,7 @@
     {
         "md_id": 1471334017,
         "title": "Woburn Ley-arable experiment cropping sequence 1938-2020",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/wrn3/01-wrn3-cropping1938-2020.pdf",
+        "URL": "https://www.era.rothamsted.ac.uk/metadata/wrn3/01-wrn3-cropping1938-2020.pdf",
         "identifier": "10.23637/wrn3-cropping1938-2020-01",
         "identifier_type": "DOI",
         "dataset_type": "Experiment details",
@@ -19,5 +19,26 @@
         "isExternal": 0,
         "shortName": "N/A",
         "UID": 1471334017
+    },
+    {
+        "md_id": 1304846775,
+        "title": "Woburn Ley-arable experiment fertilizer and lime applications 1938-2020",
+        "URL": "https://www.era.rothamsted.ac.uk/metadata/wrn3/01-wrn3-fert1938-2020.pdf",
+        "identifier": "10.23637/wrn3-fert1938-2020-01",
+        "identifier_type": "DOI",
+        "dataset_type": "Experiment details",
+        "extension": "pdf",
+        "description": "Annual fertilizer and lime applications to the Woburn Ley-arable Experiment, 1938-2020",
+        "fieldname": "Stackyard",
+        "experiment_name": "Woburn Ley Arable",
+        "experiment_code": "W/RN/3",
+        "grade": 1,
+        "dstype": "OA",
+        "publication_year": 2022,
+        "version": "01",
+        "isReady": 2,
+        "isExternal": 0,
+        "shortName": "N/A",
+        "UID": 1304846775
     }
 ]

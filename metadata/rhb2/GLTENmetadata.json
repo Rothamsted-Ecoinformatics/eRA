@@ -68,8 +68,8 @@
             "crops": [
                 {
                     "id": 10956,
-                    "crop_term": null,
-                    "crop_label": "Spring barley",
+                    "crop_term": "spring barley",
+                    "crop_label": "spring barley",
                     "start_year": 1852,
                     "end_year": null
                 }
@@ -188,7 +188,7 @@
                 },
                 {
                     "id": 6105,
-                    "factor_term": null,
+                    "factor_term": "potassium fertilizer exposure",
                     "levels": [
                         {
                             "id": 16639,
@@ -209,7 +209,7 @@
                             "chemical_form_label": "potassium sulphate"
                         }
                     ],
-                    "factor_label": "potassium fertilizer exposure (KNaMg)",
+                    "factor_label": "potassium fertilizer exposure",
                     "description": "inorganic potassium fertilizer applied, along with 11kgMg and 16kgNa fertilizer",
                     "plot_application": null,
                     "effect": ""
@@ -420,7 +420,7 @@
             "crops": [
                 {
                     "id": 10957,
-                    "crop_term": null,
+                    "crop_term": "spring barley",
                     "crop_label": "spring barley",
                     "start_year": null,
                     "end_year": null
@@ -434,8 +434,8 @@
                 },
                 {
                     "id": 10959,
-                    "crop_term": null,
-                    "crop_label": "field beans",
+                    "crop_term": "faba beans",
+                    "crop_label": "faba beans",
                     "start_year": null,
                     "end_year": null
                 }
@@ -605,7 +605,7 @@
                 },
                 {
                     "id": 6111,
-                    "factor_term": null,
+                    "factor_term": "potassium fertilizer exposure",
                     "levels": [
                         {
                             "id": 16651,
@@ -626,7 +626,7 @@
                             "chemical_form_label": "potassium sulphate"
                         }
                     ],
-                    "factor_label": "potassium fertilizer exposure (KNaMg)",
+                    "factor_label": "potassium fertilizer exposure",
                     "description": "inorganic potassium fertilizer applied annually, along with 11kgMg and 16kgNa fertilizer",
                     "plot_application": null,
                     "effect": ""
@@ -722,7 +722,7 @@
             "crops": [
                 {
                     "id": 10960,
-                    "crop_term": null,
+                    "crop_term": "spring barley",
                     "crop_label": "spring barley",
                     "start_year": null,
                     "end_year": null

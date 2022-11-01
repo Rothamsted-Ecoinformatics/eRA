@@ -6,8 +6,9 @@ $page_title .= "";
 ?>
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-	<head>  
-        <?php
+
+<head>
+    <?php
         include 'includes/meta.html'; // that is the <meta and link tags> superseeds head.html
 
         $script = ''; // $script is added to the header as the
@@ -15,13 +16,14 @@ $page_title .= "";
             $script = "<script type=\"application/ld+json\">" . $datacite . "</script>";
             echo $script;
         }
-        ?>  
-    </head>
+        ?>
+</head>
+
 <body>
 
-	<div class="container bg-white px-0">
+    <div class="container bg-white px-0">
 
-            <?php
+        <?php
             
             include 'includes/header.html'; // all the menus at the top
             
@@ -31,15 +33,25 @@ $page_title .= "";
             include '_about.php';
             include '_tools.php';
             include '_people.php';
-            
-            
+            ?>
+        <div id="isAbout">
+            <div class="row p-3 m-3">
+
+                <h2>More information</h2>
+
+            </div>
+
+            <?php
+            include 'metadata/default/about.html';
+     ?>
+
+            <?php   
             // -- start footers -----------------------------
            
             include_once 'includes/footer.html';
             include_once 'includes/finish.inc';
 ?>
-	</div>
+        </div>
 </body>
 
 </html>
-

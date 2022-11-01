@@ -47,8 +47,18 @@ if ($hasDatacite) {
     $datacite = file_get_contents($filedatacite);
     $datacite = utf8_encode($datacite);
     $experiment = json_decode($datacite, true);
+    $page_description = $experiment['administrative']['description'];
 }
-$page_description = $experiment['administrative']['description'];
+
+$fileExperiments = 'metadata/default/experiments.json';
+$hasExperiments = file_exists($fileExperiments);
+if ($hasExperiments) {
+    $Experiments = file_get_contents($fileExperiments);
+    $Experiments = utf8_encode($Experiments);
+    $Experiments = json_decode($Experiments, true);
+    
+}
+
 $fileTimeline = $exptFolder . '/' . 'timeline.json';
 $hasTimeline = file_exists($fileTimeline);
 if ($hasTimeline) {
@@ -100,6 +110,9 @@ if ($hasDatasets) {
 $fileDocs = $exptFolder . '/' . 'doclist.html';
 $hasDocs = file_exists($fileDocs);
 
+$fileMedia = $exptFolder . '/' . 'medialist.html';
+$hasMedia = file_exists($fileMedia);
+
 $imageurl =  $exptFolder . '/' . 'images.json';
 $hasImages = file_exists($imageurl);
 if ($hasImages) {
@@ -120,8 +133,8 @@ if ($hasImages) {
 <html class="no-js" lang="en">
 
 <head>
-    
-        <?php
+
+    <?php
 
         include 'includes/meta.html'; // that is the <meta and link tags> superseeds head.html
 
@@ -132,73 +145,73 @@ if ($hasImages) {
         }
         ?>
 
-    </head>
+</head>
+
 <body>
-	<div class="container bg-white px-0">
-        
-             <?php
+    <div class="container bg-white px-0">
+
+        <?php
             include 'includes/header.html'; // all the menus at the top
 
             // -- start dependant content ---------------------------------------------------------
             ?>
-		<div id="idExpt" class="p-0 mb-0">
-			<h1 class="mx-3"><?php
+        <div id="idExpt" class="p-0 mb-0">
+            <h1 class="mx-3"><?php
 // /experimentname is found in the datadescription file.
 echo title_case($experiment['administrative']['name']);
 ?></h1>
-			<div class="row">
-				<div class="col-12 pt-3">
-					<ul class="nav nav-tabs nav-fill text-body ">
-						<li class="nav-item  active"><a class="nav-link active show"
-							id="overview-tab" data-toggle="tab" href="#overview">Overview</a></li>
-						<li class="nav-item"><a class="nav-link" id="site-tab"
-							data-toggle="tab" href="#site">Site</a></li>
-							<?php if ($showDesign == TRUE) {?>
-						<li class="nav-item"><a class="nav-link" id="design-tab"
-							data-toggle="tab" href="#design">Design</a></li>
-                		<?php }?>		
-                						
-                						<li class="nav-item"><a class="nav-link"
-							id="datasets-tab" data-toggle="tab" href="#datasets">Datasets</a></li>
-<?php if ($displayImages >0) {?>
-						<li class="nav-item"><a class="nav-link" id="images-tab"
-							data-toggle="tab" href="#images">Images</a></li>
-							
-						<?php }
-						if ($hasDocs) {?>	
-						<li class="nav-item"><a class="nav-link" id="documents-tab"
-							data-toggle="tab" href="#documents">More...</a></li>
-							<?php
-    }
-    ?>
-						<li class="nav-item"><a class="nav-link" id="bibliography-tab"
-							data-toggle="tab" href="#bibliography">Bibliography</a></li>
+            <div class="row">
+                <div class="col-12 pt-3">
+                    <ul class="nav nav-tabs nav-fill text-body " id="Expttabs">
+
+                        <li class="nav-item">
+                            <a class="nav-link" id="overview-tab" data-toggle="tab"
+                                href="#overview">Overview</a></li>
+                        <li class="nav-item"><a class="nav-link" id="site-tab" data-toggle="tab" href="#site">Site</a>
+                        </li>
+                        <?php if ($showDesign == TRUE) {?>
+                        <li class="nav-item"><a class="nav-link" id="design-tab" data-toggle="tab"
+                                href="#design">Design</a></li>
+                        <?php }?>
+
+                        <li class="nav-item"><a class="nav-link" id="datasets-tab" data-toggle="tab"
+                                href="#datasets">Datasets</a></li>
+                        <?php if ($displayImages >0) {?>
+                        <li class="nav-item"><a class="nav-link" id="images-tab" data-toggle="tab"
+                                href="#images">Media</a></li>
+
+                        <?php }
+						if ($hasDocs) {?>
+                        <li class="nav-item"><a class="nav-link" id="documents-tab" data-toggle="tab"
+                                href="#documents">Related Documents</a></li>
+                        <?php
+                            }
+                        ?>
+                        <li class="nav-item"><a class="nav-link" id="bibliography-tab" data-toggle="tab"
+                                href="#bibliography">Bibliography</a></li>
 
 
-					</ul>
+                    </ul>
 
-					<div class="tab-content mh-100" id="idExptTabs">
+                    <div class="tab-content mh-100" id="idExptTabs">
 
-						<div class="tab-pane active show pb-3" id="overview"
-							role="tabpanel" aria-labelledby="overview-tab">
-                							<?php
+                        <div class="tab-pane active show pb-3" id="overview" role="tabpanel"
+                            aria-labelledby="overview-tab">
+                            <?php
                     include '_summary.php';
-                    ?>						
-                							</div>
+                    ?>
+                        </div>
 
-						<div class="tab-pane  pb-3" id="design" role="tabpanel"
-							aria-labelledby="design-tab">
-                							<?php include '_design.php';?>
-                							</div>
+                        <div class="tab-pane  pb-3" id="design" role="tabpanel" aria-labelledby="design-tab">
+                            <?php include '_design.php';?>
+                        </div>
 
-						<div class="tab-pane  pb-3" id="site" role="tabpanel"
-							aria-labelledby="site-tab">
-                							<?php include '_site.php';?>
-                							</div>
+                        <div class="tab-pane  pb-3" id="site" role="tabpanel" aria-labelledby="site-tab">
+                            <?php include '_site.php';?>
+                        </div>
 
-						<div class="tab-pane  pb-3" id="datasets" role="tabpanel"
-							aria-labelledby="datasets-tab">
-                							<?php
+                        <div class="tab-pane  pb-3" id="datasets" role="tabpanel" aria-labelledby="datasets-tab">
+                            <?php
 $inDet = array(
                             "rbk1",
                             "rhb2",
@@ -211,7 +224,7 @@ if ($displayDatasets > 0) {
 	
                         //include '_datasets.php';
 						include '_datasets.php';
-						echo  "<div class=\"mx-3\">Additional data is available through e-RAdata. Please <a href=\"newGold.php\" >register for access</a>.  </div>";
+						echo  "<div class=\"mx-3\"><ul><li><a href=\"info/datasets\">List all eRA datasets</a></li><li>Additional data is available through e-RAdata. Please <a href=\"newGold.php\" >register for access</a></li></ul>.  </div>";
 } else if ($displayDatasets == 0) {
 						
                         
@@ -242,19 +255,20 @@ For more information please <a href=\"mailto:era@rothamsted.ac.uk\">contact the 
                         }
                     }
                     ?>
-                							</div>
+                        </div>
 
 
-						<div class="tab-pane" id="images" role="tabpanel"
-							aria-labelledby="images-tab">
-                							<?php include '_images.php';?>
-                							</div>
-                							<?php if ($hasDocs) {?>	
-						<div class="tab-pane  pb-3" id="documents" role="tabpanel"
-							aria-labelledby="documents-tab">
-							<div class="mx-3">
-							
-							<?php
+                        <div class="tab-pane" id="images" role="tabpanel" aria-labelledby="images-tab">
+                            <?php if ($hasMedia) {
+                                include $fileMedia;
+                            } ?>
+                            <?php include '_images.php';?>
+                        </div>
+                        <?php if ($hasDocs) {?>
+                        <div class="tab-pane  pb-3" id="documents" role="tabpanel" aria-labelledby="documents-tab">
+                            <div class="mx-3">
+
+                                <?php
 
 
     include $fileDocs;
@@ -279,43 +293,60 @@ For more information please <a href=\"mailto:era@rothamsted.ac.uk\">contact the 
     }
 
     ?>
-							</div>
-						</div>
-						<?php }?>
-						<div class="tab-pane  pb-3" id="bibliography" role="tabpanel"
-							aria-labelledby="bibliography-tab">
-							<div class="mx-3">
-                							<?php
+                            </div>
+                        </div>
+                        <?php }?>
+                        <div class="tab-pane  pb-3" id="bibliography" role="tabpanel"
+                            aria-labelledby="bibliography-tab">
+                            <div class="mx-3">
+                                <?php
 
                     include '_keyrefs.php';
 
                     ?>
-                							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>              					
-                <?php
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <?php
+                
+                
                 // -- start footers ----------------------------
                 include_once 'includes/footer.html';
-                ?>        
-        	
-        	        <?php
+                ?>
+
+        <?php
                 
                 include_once 'includes/finish.inc'; // this has the common js scripts
 
                 ?>
-        <script
-			src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
-		<script>
-        	      baguetteBox.run('.compact-gallery',{animation:'slideIn',
-        	    	    captions: function(element) {
-        	    	        return element.getElementsByTagName('img')[0].alt;
-        	    	    }});
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+        <script>
+            baguetteBox.run('.compact-gallery', {
+                animation: 'slideIn',
+                captions: function (element) {
+                    return element.getElementsByTagName('img')[0].alt;
+                }
+            });
         </script>
-		<div id="mapid"></div>
-	</div>
-</body>
-</html>
+        
 
+        <script>
+            $(document).ready(
+               function () {
+
+                    $('#Expttabs li a').click(function () {
+
+                        //alert($(this).text().toLowerCase());
+                        
+
+                    });
+               }
+            );
+        </script>
+    </div>
+</body>
+
+</html>

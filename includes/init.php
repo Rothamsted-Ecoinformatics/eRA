@@ -15,9 +15,9 @@
  */
 session_start(); // start the session. Some pages will put data in the session
 
-$output = ""; //debug output
-ini_set('default_charset', 'ISO-8859-1');
 
+ini_set('default_charset', 'ISO-8859-1');
+date_default_timezone_set('Europe/London');
 
 foreach ( $_GET as $sk => $sv ) {
     // stop injection
@@ -82,7 +82,7 @@ include_once 'includes/Parsedown.php'; //Tool to transform MarkDown into HTML
  * 
  
 echo ("------- debug stuff --------<br />");
-echo ($output);
+print ($output);
 
 echo ("------- end of debug stuff --------<br />");
 **/

@@ -4,7 +4,7 @@
     "identifier": "10.23637/bbk-2078416917-01",
     "name": "<i>Cirsium arvense</i> frequency on Broadbalk Section 8 1991-2018",
     "shortName": "CIRSIUM1991",
-    "url": "http://www.era.rothamsted.ac.uk/dataset/rbk1/01-CIRSIUM1991",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-CIRSIUM1991",
     "description": [
         {
             "inLanguage": "en",
@@ -196,7 +196,7 @@
         {
             "relatedIdentifier": "10.23637/ROTHAMSTED-LONG-TERM-EXPERIMENTS-GUIDE-2018",
             "relatedIdentifierType": "DOI",
-            "name": "Guide to the Long Term Experiments",
+            "name": "Macdonald, A. (2018)  Guide to the Classical and Other Long-term Experiments",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
@@ -212,9 +212,9 @@
             "relationTypeValue": "cites"
         },
         {
-            "relatedIdentifier": "10.23637/rbk1-FertTreats",
+            "relatedIdentifier": "10.23637/rbk1-FertTreats-02",
             "relatedIdentifierType": "DOI",
-            "name": "Broadbalk Fertiliser and Manure Treatments 1852-2021",
+            "name": "Broadbalk Fertilizer and Manure Treatments 1852-2021",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "Cites",
             "rt_id": 2,

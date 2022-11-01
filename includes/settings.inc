@@ -28,6 +28,8 @@
  *
  * @var string $date
  */
+ // set the default timezone to use.
+date_default_timezone_set('Europe/London');
 $date = date("D F j, Y");
 
 $scheme = array(
@@ -40,6 +42,7 @@ $PictureFolfer = $base . "images/";
 
 $page_description = "e-RA provides a permanent managed database for secure storage of data from Rothamsted's Long-term Experiments, the oldest, continuous agronomic experiments in the world. Together with the accompanying meteorological records, associated documentation and sample archive, it is a unique historical record of experiments that have been measured continuously for over 170 years.";
 $page_keywords = "experiments, long term experiments, agriculture, datasets, research, fields, yields, weather";		
+
 
 /**
  * $pageSettings is made using the Experiments Table in timelines.accdb and converted to array.
@@ -349,6 +352,22 @@ $pageSettings = array(
         "KeyRef" => "KeyRefWheatFallow",
         "URLCode" => "Alternate",
         "prevFolder" => "wheatfallow"
+    ),
+    array(
+        "exp-ID" => 86,
+        "Experiment" => "Woburn Continuous Barley",
+        "ExptCode" => "wxb6",
+        "KeyRef" => "KeyRefWCB",
+        "URLCode" => "",
+        "prevFolder" => ""
+    ),
+       array(
+        "exp-ID" => 66,
+        "Experiment" => "Woburn Continuous Wheat",
+        "ExptCode" => "wxw6",
+        "KeyRef" => "KeyRefWCW",
+        "URLCode" => "",
+        "prevFolder" => ""
     ),
     array(
         "exp-ID" => 14,

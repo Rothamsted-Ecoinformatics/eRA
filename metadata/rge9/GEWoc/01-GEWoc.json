@@ -4,7 +4,7 @@
     "identifier": "10.23637/KeyRefOAGEWoc",
     "name": "Geescroft wilderness accumulation of organic carbon",
     "shortName": "GEWoc",
-    "url": "http://www.era.rothamsted.ac.uk/dataset/rge9/01-GEWoc",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rge9/01-GEWoc",
     "description": [
         {
             "inLanguage": "en",
@@ -46,7 +46,7 @@
     "dateModified": "2021-03-04",
     "datePublished": null,
     "inLanguage": "en",
-    "version": "01",
+    "version": "1",
     "keywords": [
         "Geescroft Wilderness experiment",
         "Rothamsted Research",
@@ -317,7 +317,7 @@
         {
             "relatedIdentifier": "10.1046/j.1365-2486.2003.00633.x",
             "relatedIdentifierType": "DOI",
-            "name": "Accumulation of carbon and nitrogen by old arable land reverting to woodland",
+            "name": "Poulton et al. (2003) Accumulation of carbon and nitrogen by old arable land reverting to woodland",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
@@ -326,7 +326,7 @@
         {
             "relatedIdentifier": "10.1023/A:1015731530498",
             "relatedIdentifierType": "DOI",
-            "name": "Effects of atmospheric deposition, soil pH and acidification on heavy metal contents . . .",
+            "name": "Blake et al. (2002) Effects of atmospheric deposition, soil pH and acidification  . . .",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
@@ -344,7 +344,7 @@
         {
             "relatedIdentifier": "10.1046/j.1365-2389.1999.00253.x",
             "relatedIdentifierType": "DOI",
-            "name": "Changes in soil chemistry accompanying acidification over more than 100 years . . .",
+            "name": "Blake et al. (2001) Changes in soil chemistry accompanying acidification . . .",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
@@ -353,7 +353,7 @@
         {
             "relatedIdentifier": "10.1007/978-3-642-61094-3_36",
             "relatedIdentifierType": "DOI",
-            "name": "Geescroft Wilderness, 1883\u20131995 Poulton (1996)",
+            "name": "Poulton (1996) Geescroft Wilderness, 1883\u20131995 ",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,

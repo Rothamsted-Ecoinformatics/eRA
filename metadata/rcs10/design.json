@@ -58,8 +58,8 @@
             },
             {
                 "id": 11737,
-                "name": "spring oilseed rape",
-                "sameAs": "spring oilseed rape",
+                "name": "spring rapeseed",
+                "sameAs": "spring rapeseed",
                 "dateStart": 1976,
                 "dateEnd": null
             }
@@ -133,7 +133,7 @@
             },
             {
                 "id": 7111,
-                "name": "Phosphorus (P) fertilizer exposure",
+                "name": "phosphate fertilizer exposure",
                 "description": "P either applied or not applied to plots. Treatments not applied in fallow years.",
                 "effect": "Cumulative",
                 "plotApplication": "Whole plot",
@@ -170,7 +170,7 @@
             },
             {
                 "id": 7112,
-                "name": "Potassium (K) fertilizer exposure",
+                "name": "potassium fertilizer exposure",
                 "description": "K either applied or not applied to plots. Treatments not applied in fallow years.",
                 "effect": "",
                 "plotApplication": "Whole plot",
@@ -244,7 +244,7 @@
             },
             {
                 "id": 7114,
-                "name": "Magnesium (Mg) fertilizer exposure",
+                "name": "magnesium nutrient exposure",
                 "description": "Magnesium either applied or not applied to sub-plots",
                 "effect": "",
                 "plotApplication": "Sub plot",
@@ -411,7 +411,7 @@
         "factor": [
             {
                 "id": 7115,
-                "name": "Phosphorus (P) fertilizer exposure",
+                "name": "phosphate fertilizer exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
@@ -541,7 +541,7 @@
             },
             {
                 "id": 7117,
-                "name": "Manganese exposure",
+                "name": "manganese nutrient exposure",
                 "description": "Manganese fertilizer applied to split plots",
                 "effect": "",
                 "plotApplication": null,
@@ -578,7 +578,7 @@
             },
             {
                 "id": 7118,
-                "name": "Sulphur fertilizer exposure",
+                "name": "sulfate fertiliser exposure",
                 "description": "Sulphur fertilizer applied to split plots",
                 "effect": "",
                 "plotApplication": null,

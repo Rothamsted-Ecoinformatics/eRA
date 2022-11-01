@@ -80,7 +80,7 @@
                 },
                 {
                     "id": 11733,
-                    "crop_term": null,
+                    "crop_term": "spring barley",
                     "crop_label": "spring barley",
                     "start_year": 1965,
                     "end_year": 1967
@@ -101,15 +101,15 @@
                 },
                 {
                     "id": 11736,
-                    "crop_term": null,
+                    "crop_term": "spring oats",
                     "crop_label": "spring oats",
                     "start_year": 1975,
                     "end_year": null
                 },
                 {
                     "id": 11737,
-                    "crop_term": null,
-                    "crop_label": "spring oilseed rape",
+                    "crop_term": "spring rapeseed",
+                    "crop_label": "spring rapeseed",
                     "start_year": 1976,
                     "end_year": null
                 }
@@ -200,7 +200,7 @@
                 },
                 {
                     "id": 7111,
-                    "factor_term": null,
+                    "factor_term": "phosphate fertilizer exposure",
                     "levels": [
                         {
                             "id": 18579,
@@ -239,14 +239,14 @@
                             "chemical_form_label": "triple superphosphate"
                         }
                     ],
-                    "factor_label": "Phosphorus (P) fertilizer exposure",
+                    "factor_label": "phosphate fertilizer exposure",
                     "description": "P either applied or not applied to plots. Treatments not applied in fallow years.",
                     "plot_application": "Whole plot",
                     "effect": "Cumulative"
                 },
                 {
                     "id": 7112,
-                    "factor_term": null,
+                    "factor_term": "potassium fertilizer exposure",
                     "levels": [
                         {
                             "id": 18581,
@@ -285,7 +285,7 @@
                             "chemical_form_label": "muriate of potash"
                         }
                     ],
-                    "factor_label": "Potassium (K) fertilizer exposure",
+                    "factor_label": "potassium fertilizer exposure",
                     "description": "K either applied or not applied to plots. Treatments not applied in fallow years.",
                     "plot_application": "Whole plot",
                     "effect": ""
@@ -338,7 +338,7 @@
                 },
                 {
                     "id": 7114,
-                    "factor_term": null,
+                    "factor_term": "magnesium nutrient exposure",
                     "levels": [
                         {
                             "id": 18585,
@@ -377,7 +377,7 @@
                             "chemical_form_label": "magnesium sulphate"
                         }
                     ],
-                    "factor_label": "Magnesium (Mg) fertilizer exposure",
+                    "factor_label": "magnesium nutrient exposure",
                     "description": "Magnesium either applied or not applied to sub-plots",
                     "plot_application": "Sub plot",
                     "effect": ""
@@ -513,7 +513,7 @@
             "factors": [
                 {
                     "id": 7115,
-                    "factor_term": null,
+                    "factor_term": "phosphate fertilizer exposure",
                     "levels": [
                         {
                             "id": 18587,
@@ -588,7 +588,7 @@
                             "chemical_form_label": "triple superphosphate"
                         }
                     ],
-                    "factor_label": "Phosphorus (P) fertilizer exposure",
+                    "factor_label": "phosphate fertilizer exposure",
                     "description": null,
                     "plot_application": "Whole plot",
                     "effect": ""
@@ -677,7 +677,7 @@
                 },
                 {
                     "id": 7117,
-                    "factor_term": null,
+                    "factor_term": "manganese nutrient exposure",
                     "levels": [
                         {
                             "id": 18595,
@@ -716,14 +716,14 @@
                             "chemical_form_label": null
                         }
                     ],
-                    "factor_label": "Manganese exposure",
+                    "factor_label": "manganese nutrient exposure",
                     "description": "Manganese fertilizer applied to split plots",
                     "plot_application": null,
                     "effect": ""
                 },
                 {
                     "id": 7118,
-                    "factor_term": null,
+                    "factor_term": "sulfate fertiliser exposure",
                     "levels": [
                         {
                             "id": 18597,
@@ -762,7 +762,7 @@
                             "chemical_form_label": "calcium sulfate"
                         }
                     ],
-                    "factor_label": "Sulphur fertilizer exposure",
+                    "factor_label": "sulfate fertiliser exposure",
                     "description": "Sulphur fertilizer applied to split plots",
                     "plot_application": null,
                     "effect": ""
@@ -828,9 +828,9 @@
     "site_soil_properties": [
         {
             "id": 4163,
-            "variable_term": null,
+            "variable_term": "coarse sand content",
             "unit_term": "%",
-            "variable_label": "Coarse sand content (2-0.2 mm)",
+            "variable_label": "coarse sand content",
             "min_depth": 0.0,
             "max_depth": 23.0,
             "depth_unit": "Centimetres",
@@ -844,9 +844,9 @@
         },
         {
             "id": 4164,
-            "variable_term": null,
+            "variable_term": "fine sand content",
             "unit_term": "%",
-            "variable_label": "Fine sand content (0.2- 0.02 mm)",
+            "variable_label": "fine sand content",
             "min_depth": 0.0,
             "max_depth": 23.0,
             "depth_unit": "Centimetres",
@@ -860,9 +860,9 @@
         },
         {
             "id": 4165,
-            "variable_term": null,
+            "variable_term": "silt content",
             "unit_term": "%",
-            "variable_label": "Silt content (0.02-0.002 mm)",
+            "variable_label": "silt content",
             "min_depth": 0.0,
             "max_depth": 23.0,
             "depth_unit": "Centimetres",
@@ -876,9 +876,9 @@
         },
         {
             "id": 4166,
-            "variable_term": null,
+            "variable_term": "clay content",
             "unit_term": "%",
-            "variable_label": "clay content < 2 \u00b5m",
+            "variable_label": "clay content",
             "min_depth": 0.0,
             "max_depth": 23.0,
             "depth_unit": "Centimetres",

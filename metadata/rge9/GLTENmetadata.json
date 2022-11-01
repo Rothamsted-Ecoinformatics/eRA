@@ -42,7 +42,7 @@
                 },
                 {
                     "id": 3739,
-                    "crop_term": null,
+                    "crop_term": "bare fallow",
                     "crop_label": "bare fallow",
                     "start_year": 1879,
                     "end_year": 1883

@@ -1,42 +1,142 @@
 {
     "@context": "https://schema.org/",
     "@type": "Text",
-    "identifier": "10.23637/EX4-sup-002-01",
-    "name": "Experimental layout and total nutrients applied, Phase I",
+    "identifier": "10.23637/ex4-planIV-01",
+    "name": "Exhaustion Land Experiment plans and fertilizer treatments, Phase IV, 1986-2006",
     "shortName": "",
-    "url": "http://www.era.rothamsted.ac.uk/metadata/rex4/Layout%20&%20total%20nutrients%20applied%20Phase%20I.pdf",
+    "url": "https://www.era.rothamsted.ac.uk/metadata/rex4/ex4-planIV-01.pdf",
     "description": [
         {
             "inLanguage": "en",
             "descriptionType": "Abstract",
-            "description": "Plan of the Exhaustion Land Experiment illustrating plots and total inputs for Phase I (1856-1901)."
+            "description": "Plans and details of the fertilizer treatments applied to the Rothamsted Exhaustion Land Experiment, Phase IV (1986-2006), not to scale."
         }
     ],
     "publisher": {
         "type": "organization",
         "name": "Electronic Rothamsted Archive, Rothamsted Research"
     },
-    "publication_year": 2016,
-    "dateCreated": null,
+    "publication_year": 2022,
+    "dateCreated": "2022-10-10",
     "dateModified": null,
     "datePublished": null,
     "inLanguage": "en",
     "version": "1",
     "keywords": [
-        "potatoes",
-        "climate change",
-        "soil pH",
-        "rainfall patterns",
-        "precipitation",
-        "ecological succession"
+        "Exhaustion land long-term experiment",
+        "fertilizer",
+        "residual effects",
+        "Rothamsted Research",
+        "phosphorous",
+        "potassium"
     ],
     "creator": [
         {
-            "type": "organization",
-            "name": "Rothamsted Research"
+            "type": "Person",
+            "Name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
         }
     ],
-    "contributor": [],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectManager",
+            "name": "Andy Gregory",
+            "givenName": "Andy",
+            "familyName": "Gregory",
+            "sameAs": "https://orcid.org/0000-0001-7123-0784",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
     "encodingFormat": "application/pdf",
     "copyrightHolder": {
         "type": "organization",
@@ -57,7 +157,26 @@
         },
         "name": "Hoosfield"
     },
-    "relatedIdentifier": [],
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/ex4-planIII-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Exhaustion Land Experiment plans and fertilizer treatments, Phase III, 1940-1985",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
+        },
+        {
+            "relatedIdentifier": "10.23637/ex4-planV-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Exhaustion Land Experiment plan and fertilizer treatments, Phase V, 2007 onwards",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
+        }
+    ],
     "funder": [
         {
             "type": "organization",
@@ -65,9 +184,24 @@
             "sameAs": "http://dx.doi.org/10.13039/501100000268",
             "award": "BBS/E/C/00005189 - The Rothamsted Long-Term Experiments including Sample Archive and e-RA database",
             "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F00005189"
+        },
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/000J0300 - The Rothamsted Long - Term Experiments - National Capability",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F000J0300"
         }
     ],
-    "distribution": [],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Exhaustion Land Experiment plan and fertilizer treatments, Phase IV, 1986-2006",
+            "URL": "ex4-planIV-01.pdf",
+            "encodingFormat": "pdf",
+            "fileSize": "896 KB"
+        }
+    ],
     "image": [],
     "grade": 1,
     "isExternal": 0,

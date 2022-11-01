@@ -1,10 +1,10 @@
 {
-    "id": 2573,
+    "id": 3873,
     "experiment_type_term": null,
     "experiment_id": 47,
     "people": [
         {
-            "id": 3665,
+            "id": 5333,
             "contacts": [],
             "role_term": "principal investigator",
             "title": "Dr",
@@ -16,7 +16,7 @@
             "role_label": "principal investigator"
         },
         {
-            "id": 3666,
+            "id": 5334,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -35,7 +35,7 @@
     ],
     "organizations": [
         {
-            "id": 2620,
+            "id": 4048,
             "contacts": [],
             "role_term": "research organisation",
             "name": "Rothamsted Research",
@@ -44,7 +44,7 @@
             "role_label": "research organisation"
         },
         {
-            "id": 2621,
+            "id": 4049,
             "contacts": [],
             "role_term": "funding agency",
             "name": "BBSRC",
@@ -55,32 +55,32 @@
     ],
     "periods": [
         {
-            "id": 3882,
+            "id": 5605,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 10934,
+                    "id": 15529,
                     "crop_term": "cabbages",
                     "crop_label": "cabbages",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 10935,
+                    "id": 15530,
                     "crop_term": "peas",
                     "crop_label": "peas",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 10936,
+                    "id": 15531,
                     "crop_term": "leeks",
                     "crop_label": "leeks",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 10937,
+                    "id": 15532,
                     "crop_term": "beetroot",
                     "crop_label": "beetroot",
                     "start_year": null,
@@ -89,25 +89,25 @@
             ],
             "rotations": [
                 {
-                    "id": 1950,
+                    "id": 3435,
                     "phases": [
                         {
-                            "crop_id": 10937,
+                            "crop_id": 15532,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 10934,
+                            "crop_id": 15529,
                             "notes": null,
                             "same_phase": true
                         },
                         {
-                            "crop_id": 10935,
+                            "crop_id": 15530,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 10936,
+                            "crop_id": 15531,
                             "notes": null,
                             "same_phase": true
                         }
@@ -121,11 +121,11 @@
             ],
             "factors": [
                 {
-                    "id": 6097,
+                    "id": 9297,
                     "factor_term": "natural fertilizer exposure",
                     "levels": [
                         {
-                            "id": 16610,
+                            "id": 23356,
                             "factor_variant_term": "farmyard manure",
                             "factor_variant_label": "farmyard manure",
                             "amount": null,
@@ -143,7 +143,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16611,
+                            "id": 23357,
                             "factor_variant_term": "sewage sludge",
                             "factor_variant_label": "sewage sludge",
                             "amount": null,
@@ -161,7 +161,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16612,
+                            "id": 23358,
                             "factor_variant_term": "straw compost",
                             "factor_variant_label": "straw compost",
                             "amount": null,
@@ -179,7 +179,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16613,
+                            "id": 23359,
                             "factor_variant_term": "vegetable compost",
                             "factor_variant_label": "vegetable compost",
                             "amount": null,
@@ -203,11 +203,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 6098,
+                    "id": 9298,
                     "factor_term": "nitrogen fertilizer exposure",
                     "levels": [
                         {
-                            "id": 16614,
+                            "id": 23360,
                             "factor_variant_term": null,
                             "factor_variant_label": "N0",
                             "amount": "0",
@@ -225,7 +225,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16615,
+                            "id": 23361,
                             "factor_variant_term": null,
                             "factor_variant_label": "N1",
                             "amount": "75",
@@ -243,7 +243,7 @@
                             "chemical_form_label": "ammonium sulfate"
                         },
                         {
-                            "id": 16616,
+                            "id": 23362,
                             "factor_variant_term": null,
                             "factor_variant_label": "N2",
                             "amount": "150",
@@ -261,7 +261,7 @@
                             "chemical_form_label": "ammonium sulfate"
                         },
                         {
-                            "id": 16617,
+                            "id": 23363,
                             "factor_variant_term": null,
                             "factor_variant_label": "N3",
                             "amount": "225",
@@ -299,36 +299,36 @@
             "number_of_factor_combinations": null,
             "number_of_harvests_per_year": 2,
             "design_description": "The experiment had two series, each growing a separate phase of a two year rotation. Each series was split into 4 blocks of 10 plots.",
-            "description": null,
+            "description": "Initial period",
             "factorial": true
         },
         {
-            "id": 3883,
+            "id": 5606,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 10938,
+                    "id": 15533,
                     "crop_term": "beetroot",
                     "crop_label": "beetroot",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 10939,
+                    "id": 15534,
                     "crop_term": "cabbages",
                     "crop_label": "cabbages",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 10940,
+                    "id": 15535,
                     "crop_term": "leeks",
                     "crop_label": "leeks",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 10941,
+                    "id": 15536,
                     "crop_term": "potatoes",
                     "crop_label": "potatoes",
                     "start_year": null,
@@ -337,20 +337,20 @@
             ],
             "rotations": [
                 {
-                    "id": 1951,
+                    "id": 3436,
                     "phases": [
                         {
-                            "crop_id": 10938,
+                            "crop_id": 15533,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 10939,
+                            "crop_id": 15534,
                             "notes": "spring cabbage",
                             "same_phase": true
                         },
                         {
-                            "crop_id": 10940,
+                            "crop_id": 15535,
                             "notes": null,
                             "same_phase": false
                         }
@@ -362,20 +362,20 @@
                     "is_treatment": false
                 },
                 {
-                    "id": 1952,
+                    "id": 3437,
                     "phases": [
                         {
-                            "crop_id": 10938,
+                            "crop_id": 15533,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 10941,
+                            "crop_id": 15536,
                             "notes": "early potatoes",
                             "same_phase": true
                         },
                         {
-                            "crop_id": 10940,
+                            "crop_id": 15535,
                             "notes": null,
                             "same_phase": false
                         }
@@ -389,11 +389,11 @@
             ],
             "factors": [
                 {
-                    "id": 6099,
+                    "id": 9299,
                     "factor_term": "natural fertilizer exposure",
                     "levels": [
                         {
-                            "id": 16618,
+                            "id": 23364,
                             "factor_variant_term": "farmyard manure",
                             "factor_variant_label": "farmyard manure",
                             "amount": null,
@@ -411,7 +411,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16619,
+                            "id": 23365,
                             "factor_variant_term": "sewage sludge",
                             "factor_variant_label": "sewage sludge",
                             "amount": null,
@@ -429,7 +429,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16620,
+                            "id": 23366,
                             "factor_variant_term": "straw compost",
                             "factor_variant_label": "straw compost",
                             "amount": null,
@@ -447,7 +447,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16621,
+                            "id": 23367,
                             "factor_variant_term": "vegetable compost",
                             "factor_variant_label": "vegetable compost",
                             "amount": null,
@@ -471,11 +471,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 6100,
+                    "id": 9300,
                     "factor_term": "nitrogen fertilizer exposure",
                     "levels": [
                         {
-                            "id": 16622,
+                            "id": 23368,
                             "factor_variant_term": null,
                             "factor_variant_label": "N0",
                             "amount": null,
@@ -493,7 +493,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16623,
+                            "id": 23369,
                             "factor_variant_term": null,
                             "factor_variant_label": "N1",
                             "amount": "37",
@@ -511,7 +511,7 @@
                             "chemical_form_label": "calcium ammonium nitrate"
                         },
                         {
-                            "id": 16624,
+                            "id": 23370,
                             "factor_variant_term": null,
                             "factor_variant_label": "N2",
                             "amount": "75",
@@ -529,7 +529,7 @@
                             "chemical_form_label": "calcium ammonium nitrate"
                         },
                         {
-                            "id": 16625,
+                            "id": 23371,
                             "factor_variant_term": null,
                             "factor_variant_label": "N3",
                             "amount": "113",
@@ -571,60 +571,60 @@
             "factorial": false
         },
         {
-            "id": 3884,
+            "id": 5607,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 10942,
+                    "id": 15537,
                     "crop_term": "leeks",
                     "crop_label": "leeks",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 10943,
+                    "id": 15538,
                     "crop_term": "beetroot",
                     "crop_label": "beetroot",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 10944,
+                    "id": 15539,
                     "crop_term": "potatoes",
                     "crop_label": "potatoes",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 10945,
+                    "id": 15540,
                     "crop_term": "carrots",
                     "crop_label": "carrots",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 10946,
+                    "id": 15541,
                     "crop_term": "rye",
                     "crop_label": "rye",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 10947,
+                    "id": 15542,
                     "crop_term": "beans",
                     "crop_label": "beans",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 10948,
+                    "id": 15543,
                     "crop_term": "grass leys",
                     "crop_label": "grass leys",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 10949,
+                    "id": 15544,
                     "crop_term": "grass clover leys",
                     "crop_label": "grass clover leys",
                     "start_year": null,
@@ -634,7 +634,7 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 6101,
+                    "id": 9301,
                     "factor_term": "nitrogen fertilizer exposure",
                     "levels": [],
                     "factor_label": "nitrogen fertilizer exposure",
@@ -643,11 +643,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 6102,
+                    "id": 9302,
                     "factor_term": "natural fertilizer exposure",
                     "levels": [
                         {
-                            "id": 16626,
+                            "id": 23372,
                             "factor_variant_term": null,
                             "factor_variant_label": "grass-clover ley",
                             "amount": null,
@@ -665,7 +665,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16627,
+                            "id": 23373,
                             "factor_variant_term": null,
                             "factor_variant_label": "grass ley",
                             "amount": null,
@@ -683,7 +683,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16628,
+                            "id": 23374,
                             "factor_variant_term": "straw",
                             "factor_variant_label": "straw",
                             "amount": "7.5",
@@ -701,7 +701,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16629,
+                            "id": 23375,
                             "factor_variant_term": "peat",
                             "factor_variant_label": "peat",
                             "amount": "7.5",
@@ -719,7 +719,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16630,
+                            "id": 23376,
                             "factor_variant_term": "green manure",
                             "factor_variant_label": "green manure",
                             "amount": null,
@@ -737,7 +737,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16631,
+                            "id": 23377,
                             "factor_variant_term": null,
                             "factor_variant_label": "None",
                             "amount": null,
@@ -755,7 +755,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16632,
+                            "id": 23378,
                             "factor_variant_term": "farmyard manure",
                             "factor_variant_label": "farmyard manure",
                             "amount": "50",
@@ -773,7 +773,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16633,
+                            "id": 23379,
                             "factor_variant_term": null,
                             "factor_variant_label": "PKMg Equivalent",
                             "amount": null,
@@ -815,18 +815,18 @@
             "factorial": false
         },
         {
-            "id": 3885,
+            "id": 5608,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 10950,
+                    "id": 15545,
                     "crop_term": "fallow",
                     "crop_label": "fallow",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 10951,
+                    "id": 15546,
                     "crop_term": "rye grass",
                     "crop_label": "rye grass",
                     "start_year": null,
@@ -853,32 +853,32 @@
             "factorial": false
         },
         {
-            "id": 3886,
+            "id": 5609,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 10952,
+                    "id": 15547,
                     "crop_term": "beetroot",
                     "crop_label": "beetroot",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 10953,
+                    "id": 15548,
                     "crop_term": "carrots",
                     "crop_label": "carrots",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 10954,
+                    "id": 15549,
                     "crop_term": "barley",
                     "crop_label": "barley",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 10955,
+                    "id": 15550,
                     "crop_term": "white clover",
                     "crop_label": "white clover",
                     "start_year": null,
@@ -925,7 +925,7 @@
             "language": null
         }
     ],
-    "saved_time": "2021-02-03T06:55:38.300528Z",
+    "saved_time": "2021-12-20T08:01:35.438930Z",
     "name": "Woburn Market Garden",
     "local_identifier": "W/RN/4",
     "experiment_type_label": null,

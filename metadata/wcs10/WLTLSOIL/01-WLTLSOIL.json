@@ -4,7 +4,7 @@
     "identifier": "10.23637/wcs10-wltlsoil-01",
     "name": "Woburn long-term liming experiment soil properties 1962-1996",
     "shortName": "WLTLSOIL",
-    "url": "http://www.era.rothamsted.ac.uk/dataset/wcs10/01-WLTLSOIL",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/wcs10/01-WLTLSOIL",
     "description": [
         {
             "inLanguage": "en",
@@ -260,5 +260,5 @@
     "image": [],
     "grade": 3,
     "isExternal": 0,
-    "dstype": "Other"
+    "dstype": "Frictionless"
 }

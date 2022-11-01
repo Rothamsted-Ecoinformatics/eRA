@@ -42,7 +42,7 @@ function GetKeyRefs($KeyRef)
                     }
                 }
                 $ReferenceLine = "";
-                $ReferenceLine = $ReferenceLine . "\n<li> ".$rowk2['Authors'];
+                $ReferenceLine = $ReferenceLine . "\n<li> ".$rowk2['Authors'] ;
                 if ($rowk2['Year']) {
                     $ReferenceLine = $ReferenceLine . "(".$rowk2['Year'].")";
                 }
@@ -113,16 +113,16 @@ if (! $resultk2) {
     // echo ("Reference Type\tAuthor\tYear\tTitle\tSecondary Title\tVolume\tPages");
     while ($rowk2 = mysqli_fetch_array($resultk2)) {
         
-        $ReferenceLine = "\n". $rowk2['RefType'];
+        $ReferenceLine = "\n".$rowk2['RefType'];
         $stringAuthors = str_replace(". and", ";", $rowk2['Authors']);
         $stringAuthors2 = str_replace(". ,", ";", $stringAuthors);
-        $ReferenceLine = $ReferenceLine . "\t$stringAuthors2";
-        $ReferenceLine = $ReferenceLine . "\t". $rowk2['Year'];
+        $ReferenceLine = $ReferenceLine . "\t".$stringAuthors2;
+        $ReferenceLine = $ReferenceLine . "\t ".$rowk2['Year'];
         $ReferenceLine = $ReferenceLine . "\t ".$rowk2['Title'];
-        $ReferenceLine = $ReferenceLine . "\t". $rowk2['Journal'];
-        $ReferenceLine = $ReferenceLine . "\t". $rowk2['Volume'];
-        $ReferenceLine = $ReferenceLine . "\t". $rowk2['Pages'];
-        $ReferenceLine = $ReferenceLine . "\t". $rowk2['PaperDOI'];
+        $ReferenceLine = $ReferenceLine . "\t ".$rowk2['Journal'];
+        $ReferenceLine = $ReferenceLine . "\t ".$rowk2['Volume'];
+        $ReferenceLine = $ReferenceLine . "\t ".$rowk2['Pages'];
+        $ReferenceLine = $ReferenceLine . "\t <div>". $rowk2['PaperDOI']."</div>";
         // $ReferenceLine = $ReferenceLine . "\t". $rowk2['Comment'];
         // echo $ReferenceLine;
         fwrite($fh, $ReferenceLine);
@@ -149,7 +149,7 @@ function outputEN($query)
         
         while ($rowk2 = mysqli_fetch_array($resultk2)) {
             
-            $ReferenceLine = "\n\n%0 ".$rowk2['RefType'];
+            $ReferenceLine = "\n\n%0". $rowk2['RefType'];
             $stringAuthors = str_replace(". and", "\n%A", $rowk2['Authors']);
             $stringAuthors2 = str_replace(". ,", "\n%A", $stringAuthors);
             $ReferenceLine = $ReferenceLine . "\n%A $stringAuthors2";
@@ -157,20 +157,20 @@ function outputEN($query)
                 $ReferenceLine = $ReferenceLine . "\n%D ".$rowk2['Year'];
             }
             if ($rowk2['Title']) {
-                $ReferenceLine = $ReferenceLine . "\n%T ".$rowk2['Title'];
+                $ReferenceLine = $ReferenceLine . "\n%T ". $rowk2['Title'];
             }
             if ($rowk2['Journal']) {
-                $ReferenceLine = $ReferenceLine . "\n%J ".$rowk2['Journal'];
+                $ReferenceLine = $ReferenceLine . "\n%J ". $rowk2['Journal'];
             }
             if ($rowk2['Volume']) {
-                $ReferenceLine = $ReferenceLine . "\n%V ".$rowk2['Volume'];
+                $ReferenceLine = $ReferenceLine . "\n%V ". $rowk2['Volume'];
             }
             if ($rowk2['Pages']) {
-                $ReferenceLine = $ReferenceLine . "\n%P ".$rowk2['Pages'];
+                $ReferenceLine = $ReferenceLine . "\n%P ". $rowk2['Pages'];
             }
             if ($rowk2['Comment']) {
                 if (isset($Summary)) {
-                    $ReferenceLine = $ReferenceLine . "\n%X ".$rowk2['Comment'];
+                    $ReferenceLine = $ReferenceLine . "\n%X  ".$rowk2['Comment'];
                 }
             }
             // echo $ReferenceLine;
@@ -198,7 +198,7 @@ function outputMED($query)
         
         while ($rowk2 = mysqli_fetch_array($resultk2)) {
             
-            $ReferenceLine = "\n\nPMID- $rowk2[PaperID]\nPT  - ". $rowk2['RefType'];
+            $ReferenceLine = "\n\nPMID-  ".$rowk2['PaperID']."\nPT  -  ".$rowk2['RefType'];
             $stringAuthors = str_replace(". and", "\nAU", $rowk2['Authors']);
             $stringAuthors2 = str_replace(". ,", "\nAU", $stringAuthors);
             $stringAuthors3 = str_replace(".", "", $stringAuthors2);
@@ -219,7 +219,7 @@ function outputMED($query)
                 $ReferenceLine = $ReferenceLine . "\nTA  - ".$rowk2['Journal'];
             }
             if ($rowk2['Volume']) {
-                $ReferenceLine = $ReferenceLine . "\nVI  -". $rowk2['Volume'];
+                $ReferenceLine = $ReferenceLine . "\nVI  - ".$rowk2['Volume'];
             }
             if ($rowk2['Issue']) {
                 $ReferenceLine = $ReferenceLine . "\nIP  - ".$rowk2['Issue'];
@@ -229,16 +229,16 @@ function outputMED($query)
             }
             
             if ($rowk2['Comment']) {
-                $ReferenceLine = $ReferenceLine . "\nAB  -". $rowk2['Comment'];
+                $ReferenceLine = $ReferenceLine . "\nAB  - ".$rowk2['Comment'];
             }
             // echo $ReferenceLine;
             fwrite($fh, $ReferenceLine);
-        }  
+        }
         fclose($fh);
-}
     }
     
-  
+    
+}
 
 function outputALL($query)
 {
@@ -264,36 +264,36 @@ function outputALL($query)
             $ReferenceLine = $ReferenceLine . "\nAU $stringAuthors4";
             
             if ($rows['Year']) {
-                $ReferenceLine = $ReferenceLine . "\nPY ". $rows['Year'];
+                $ReferenceLine = $ReferenceLine . "\nPY  ".$rows['Year'];
             }
             if ($rows['Title']) {
-                $ReferenceLine = $ReferenceLine . "\nTI ". $rows['Title'];
+                $ReferenceLine = $ReferenceLine . "\nTI  ".$rows['Title'];
             }
             if ($rows['Journal']) {
-                $ReferenceLine = $ReferenceLine . "\nSO ". $rows['Journal'];
+                $ReferenceLine = $ReferenceLine . "\nSO  ".$rows['Journal'];
             }
             
             if ($rows['Volume']) {
-                $ReferenceLine = $ReferenceLine . "\nVL ". $rows['Volume'];
+                $ReferenceLine = $ReferenceLine . "\nVL  ".$rows['Volume'];
             }
             if ($rows['Issue']) {
-                $ReferenceLine = $ReferenceLine . "\nIS ". $rows['Issue'];
+                $ReferenceLine = $ReferenceLine . "\nIS ".$rows['Issue'];
             }
             if ($rows['Pages']) {
-                $ReferenceLine = $ReferenceLine . "\nPG ". $rows['Pages'];
+                $ReferenceLine = $ReferenceLine . "\nPG  ".$rows['Pages'];
             }
             if ($rows['PaperDOI']) {
-                $ReferenceLine = $ReferenceLine . "\nDI ". $rows['PaperDOI'];
+                $ReferenceLine = $ReferenceLine . "\nDI  ".$rows['PaperDOI'];
             }
             fwrite($fh, $ReferenceLine);
             if ($rows['Comment']) {
-                fwrite($fh, "\nAB ".$rows['Comment']);
+                fwrite($fh, "\nAB  ". $rows['Comment']);
             }
             fwrite($fh, "\nER\n");
         }
-        fwrite($fh, "\nEF"); 
+        fwrite($fh, "\nEF");
         fclose($fh);
-}
     }
     
-   
+    
+}

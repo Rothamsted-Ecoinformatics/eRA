@@ -2,7 +2,7 @@
     {
         "md_id": 1534342858,
         "title": "Broadbalk plan 1996-2017",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/rbk1/01-rbk1-plan1996-2017-01.pdf",
+        "URL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/01-rbk1-plan1996-2017-01.pdf",
         "identifier": "10.23637/rbk1-plan1996-2017-01",
         "identifier_type": "DOI",
         "dataset_type": "Field plot map",
@@ -23,7 +23,7 @@
     {
         "md_id": 1052973682,
         "title": "Broadbalk Fertiliser and Manure Treatments 1852-2021",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/rbk1/01-rbk1-FertTreats.pdf",
+        "URL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/01-rbk1-FertTreats.pdf",
         "identifier": "10.23637/rbk1-FertTreats",
         "identifier_type": "DOI",
         "dataset_type": "Experiment details",
@@ -44,7 +44,7 @@
     {
         "md_id": -697415110,
         "title": "Broadbalk Today revised 2018",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/rbk1/Broadbalkplan_2018.pdf",
+        "URL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/Broadbalkplan_2018.pdf",
         "identifier": "10.23637/rbk1-today2018-01",
         "identifier_type": "DOI",
         "dataset_type": "Experiment details",
@@ -65,7 +65,7 @@
     {
         "md_id": 1317669756,
         "title": "Broadbalk Fertilizer and Manure Treatments 1852-2021",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/rbk1/02-rbk1-FertTreats.pdf",
+        "URL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/02-rbk1-FertTreats.pdf",
         "identifier": "10.23637/rbk1-FertTreats-02",
         "identifier_type": "DOI",
         "dataset_type": "Experiment details",
@@ -86,7 +86,7 @@
     {
         "md_id": 1477369090,
         "title": "Broadbalk plan 1852-1925",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/rbk1/01-rbk1-plan1852-1925.pdf",
+        "URL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/01-rbk1-plan1852-1925.pdf",
         "identifier": "10.23637/rbk1-sup-1534342858-01",
         "identifier_type": "DOI",
         "dataset_type": "Experiment details",
@@ -107,7 +107,7 @@
     {
         "md_id": 737747172,
         "title": "Broadbalk plan 1926-1967",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/rbk1/01-rbk1-plan1926-1967.pdf",
+        "URL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/01-rbk1-plan1926-1967.pdf",
         "identifier": "10.23637/rbk1-plan1926-67-01",
         "identifier_type": "DOI",
         "dataset_type": "Experiment details",
@@ -128,7 +128,7 @@
     {
         "md_id": 263689789,
         "title": "Broadbalk Wheat Experiment cropping 1843-2021",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/rbk1/01-rbk1-crop1843-2021.pdf",
+        "URL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/01-rbk1-crop1843-2021.pdf",
         "identifier": "10.23637/rbk1-crop1843-2021-01",
         "identifier_type": "DOI",
         "dataset_type": "Experiment details",
@@ -149,7 +149,7 @@
     {
         "md_id": 1190264121,
         "title": "Broadbalk Wheat Experiment plan and cropping 1852-1925",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/rbk1/02-rbk1-plan1852-1925.pdf",
+        "URL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/02-rbk1-plan1852-1925.pdf",
         "identifier": "10.23637/rbk1-sup-1534342858-02",
         "identifier_type": "DOI",
         "dataset_type": "Experiment details",
@@ -170,7 +170,7 @@
     {
         "md_id": 996362101,
         "title": "Broadbalk Wheat Experiment plan and cropping 1926-1967",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/rbk1/02-rbk1-plan1926-1967.pdf",
+        "URL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/02-rbk1-plan1926-1967.pdf",
         "identifier": "10.23637/rbk1-plan1926-67-02",
         "identifier_type": "DOI",
         "dataset_type": "Experiment details",
@@ -191,7 +191,7 @@
     {
         "md_id": 1376540793,
         "title": "Broadbalk Wheat Experiment plan and cropping 1968-2017",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/rbk1/01-rbk1-plan1968-2017.pdf",
+        "URL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/01-rbk1-plan1968-2017.pdf",
         "identifier": "10.23637/rbk1-plan1968-2017-01",
         "identifier_type": "DOI",
         "dataset_type": "Field plot map",
@@ -212,7 +212,7 @@
     {
         "md_id": 1247030195,
         "title": "Broadbalk Wheat Experiment plan and cropping since 2018",
-        "URL": "http://www.era.rothamsted.ac.uk/metadata/rbk1/02-rbk1-today2018.pdf",
+        "URL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/02-rbk1-today2018.pdf",
         "identifier": "10.23637/rbk1-today2018-02",
         "identifier_type": "DOI",
         "dataset_type": "Experiment details",

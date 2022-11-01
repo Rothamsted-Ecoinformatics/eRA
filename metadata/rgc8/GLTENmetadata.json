@@ -90,7 +90,7 @@
             "factors": [
                 {
                     "id": 7244,
-                    "factor_term": null,
+                    "factor_term": "cultivar",
                     "levels": [
                         {
                             "id": 18847,
@@ -129,7 +129,7 @@
                             "chemical_form_label": null
                         }
                     ],
-                    "factor_label": "variety",
+                    "factor_label": "cultivar",
                     "description": null,
                     "plot_application": "Whole plot",
                     "effect": ""

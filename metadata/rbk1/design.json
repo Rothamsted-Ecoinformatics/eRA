@@ -140,7 +140,7 @@
             },
             {
                 "id": 7393,
-                "name": "FYM exposure",
+                "name": "farmyard manure exposure",
                 "description": "FYM from cattle",
                 "effect": "",
                 "plotApplication": null,
@@ -807,7 +807,7 @@
             },
             {
                 "id": 7400,
-                "name": "FYM exposure",
+                "name": "farmyard manure exposure",
                 "description": "FYM from cattle",
                 "effect": "",
                 "plotApplication": null,
@@ -837,7 +837,7 @@
                 "description": "",
                 "factor": [
                     {
-                        "Factor": "FYM exposure",
+                        "Factor": "farmyard manure exposure",
                         "levelCode": "farmyard manure",
                         "levelText": "farmyard manure",
                         "Comment": null

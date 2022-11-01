@@ -53,7 +53,7 @@ if ($vprocess == "question") {
 				<h1 class="mx-3">Register for prepared datasets</h1></div>
 <div class="m-5">
 
-	<form action="newUser.php" method="post" class="needs-validation"
+	<form action="newUser.php" method="post" class="needs-validation"  name="register-form" id="registration-form"
 		novalidate>
 		<input type="hidden" name="process" value="process">
 		<div class="form-group">
@@ -110,7 +110,12 @@ if ($vprocess == "question") {
 				for="consentCheck">I agree to receiving occasional communication
 				from the e-RA team</label>
 		</div>
-		<button type="submit" class="btn btn-primary mt-5">Submit</button>
+	<button type="submit" 
+		class="btn btn-primary mt-5"
+		class="g-recaptcha" 
+        data-sitekey="<?php echo $reCAPTCHA_site_key;?>" 
+        data-callback='onSubmit' 
+        data-action='register'>Submit</button>
 	</form>
 </div>
 
@@ -156,5 +161,6 @@ if ($vprocess == "question") {
             }, false);
         })();
     </script>
+
 
 

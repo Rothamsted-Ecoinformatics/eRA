@@ -57,12 +57,9 @@ function check_input($value)
 function cleanQuery($string)
 {
     $link = LogAsGuest();
-    
-    if (phpversion() >= '4.3.0') {
-        $string = mysqli_real_escape_string($link, $string);
-    } else {
-        $string = mysqli_escape_string($link,$string);
-    }
+   
+    $string = mysqli_real_escape_string($link, $string);
+   
     return $string;
 } 
 
@@ -540,6 +537,7 @@ function title_case($string)
         'Halticus',
         'hederifolia',
         'Helictotrichon',
+        'Heterodera',
         'Heracleum',
         'Heterotoma',
         'Heterotoma',
@@ -759,6 +757,7 @@ function title_case($string)
         'robur',
         'Rosa',
         'Rosa',
+        'rostochiensis',
         'rotundifolia',
         'rubra',
         'Rubus',

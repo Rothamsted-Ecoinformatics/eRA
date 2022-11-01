@@ -81,7 +81,7 @@
 
 			</div>
 			<div class="card-footer border-top-0">
-				<a target="_blank" href="http://www.era.rothamsted.ac.uk/eradoc/"
+				<a target="_blank" href="https://www.era.rothamsted.ac.uk/eradoc/"
 					class="btn btn-info">e-RAdoc <i class="fa fa-book"></i></a>
 			</div>
 		</div>

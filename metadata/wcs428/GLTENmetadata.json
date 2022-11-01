@@ -1,10 +1,10 @@
 {
-    "id": 996,
+    "id": 3872,
     "experiment_type_term": null,
     "experiment_id": 69,
     "people": [
         {
-            "id": 1159,
+            "id": 5332,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -23,7 +23,7 @@
     ],
     "organizations": [
         {
-            "id": 982,
+            "id": 4046,
             "contacts": [
                 {
                     "contact_type": "URL",
@@ -37,7 +37,7 @@
             "role_label": "research organisation"
         },
         {
-            "id": 983,
+            "id": 4047,
             "contacts": [],
             "role_term": "experimental research station",
             "name": "Woburn Experimental Farm",
@@ -48,11 +48,11 @@
     ],
     "periods": [
         {
-            "id": 1462,
+            "id": 5604,
             "design_type_term": "Randomized complete block design",
             "crops": [
                 {
-                    "id": 3383,
+                    "id": 15528,
                     "crop_term": "rye grass",
                     "crop_label": "rye grass",
                     "start_year": null,
@@ -62,11 +62,11 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 1670,
+                    "id": 9294,
                     "factor_term": "zinc nutrient exposure",
                     "levels": [
                         {
-                            "id": 5510,
+                            "id": 23347,
                             "factor_variant_term": null,
                             "factor_variant_label": "Rate 1",
                             "amount": "348",
@@ -84,7 +84,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 5511,
+                            "id": 23348,
                             "factor_variant_term": null,
                             "factor_variant_label": "Rate 2",
                             "amount": "696",
@@ -102,7 +102,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 5512,
+                            "id": 23349,
                             "factor_variant_term": null,
                             "factor_variant_label": "Rate 3",
                             "amount": "1094",
@@ -126,11 +126,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 1671,
+                    "id": 9295,
                     "factor_term": "copper nutrient exposure",
                     "levels": [
                         {
-                            "id": 5513,
+                            "id": 23350,
                             "factor_variant_term": null,
                             "factor_variant_label": "Rate 1",
                             "amount": "181",
@@ -148,7 +148,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 5514,
+                            "id": 23351,
                             "factor_variant_term": null,
                             "factor_variant_label": "Rate 2",
                             "amount": "351",
@@ -166,7 +166,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 5515,
+                            "id": 23352,
                             "factor_variant_term": null,
                             "factor_variant_label": "Rate 3",
                             "amount": "523",
@@ -190,11 +190,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 1672,
+                    "id": 9296,
                     "factor_term": "cadmium exposure",
                     "levels": [
                         {
-                            "id": 5516,
+                            "id": 23353,
                             "factor_variant_term": null,
                             "factor_variant_label": "Rate 1",
                             "amount": "5.02",
@@ -212,7 +212,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 5517,
+                            "id": 23354,
                             "factor_variant_term": null,
                             "factor_variant_label": "Rate 2",
                             "amount": "7.8",
@@ -230,7 +230,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 5518,
+                            "id": 23355,
                             "factor_variant_term": null,
                             "factor_variant_label": "Rate 3",
                             "amount": "10.58",
@@ -258,7 +258,7 @@
             "measurements": [],
             "start_year": 1995,
             "end_year": null,
-            "ongoing": false,
+            "ongoing": true,
             "name": null,
             "design_type_label": "Randomized complete block design",
             "number_of_blocks": 3,
@@ -279,7 +279,7 @@
     "site_soil_type_term": "arenosol",
     "site_soil_properties": [
         {
-            "id": 905,
+            "id": 6080,
             "variable_term": "sand content",
             "unit_term": "%",
             "variable_label": "sand content",
@@ -295,7 +295,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 906,
+            "id": 6081,
             "variable_term": "silt content",
             "unit_term": "%",
             "variable_label": "silt content",
@@ -311,7 +311,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 907,
+            "id": 6082,
             "variable_term": "clay content",
             "unit_term": "%",
             "variable_label": "clay content",
@@ -327,7 +327,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 908,
+            "id": 6083,
             "variable_term": "soil pH",
             "unit_term": null,
             "variable_label": "soil pH",
@@ -343,7 +343,7 @@
             "unit_label": null
         },
         {
-            "id": 909,
+            "id": 6084,
             "variable_term": "soil organic carbon",
             "unit_term": "%",
             "variable_label": "soil organic carbon",
@@ -373,14 +373,14 @@
             "language": "English"
         }
     ],
-    "saved_time": "2019-10-02T20:01:03.346465Z",
+    "saved_time": "2021-12-20T08:00:54.757443Z",
     "name": "Metal Amended Liquid Sludge Experiment",
     "local_identifier": "W/CS/428",
     "experiment_type_label": null,
     "url": null,
     "start_year": 1994,
     "end_year": null,
-    "ongoing": false,
+    "ongoing": true,
     "establishment_period_end": null,
     "objective": "To the effects of zinc, copper and cadmium on soil microbial activity with low organic matter inputs.",
     "description": "Enables the comparison of metal concentrations (zinc, copper and cadmium) at 3 rates in small amounts of organic matter applied as a specially made liquid sludge applied. \nSamples of the sludge used and periodic soil and plant samples are available in the Rothamsted Sample Archive. \nThis experiment is part of a network of 3 sites across the UK and can also be compared with related Contaminated Sludge Cake Experiment and Metal Salts Experiment, also at Woburn.",

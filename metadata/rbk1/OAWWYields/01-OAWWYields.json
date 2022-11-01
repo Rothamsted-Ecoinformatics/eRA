@@ -4,7 +4,7 @@
     "identifier": "10.23637/KeyRefOABKyields",
     "name": "Broadbalk mean long-term winter wheat yields",
     "shortName": "OAWWYields",
-    "url": "http://www.era.rothamsted.ac.uk/dataset/rbk1/01-OAWWYields",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-OAWWYields",
     "description": [
         {
             "inLanguage": "en",
@@ -197,9 +197,9 @@
     },
     "relatedIdentifier": [
         {
-            "relatedIdentifier": "10.23637/rbk1-FertTreats",
+            "relatedIdentifier": "10.23637/rbk1-FertTreats-02",
             "relatedIdentifierType": "DOI",
-            "name": "Broadbalk Fertiliser and Manure Treatments 1852-2021",
+            "name": "Broadbalk Fertilizer and Manure Treatments 1852-2021",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsSupplementedBy",
             "rt_id": 4,

@@ -189,7 +189,7 @@ if ($dsinfo['isExternal'] == 0) {
 				<strong>YOU MUST CITE AS: </strong><?php echo $refAuthor; ?> (<?php echo $year;?>).
 								<?php echo $datasetTitle;?> <em><?php echo $getPublisher; ?></em>
 				<a target="_blank"
-					href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
+					href="https://doi.org/<?php echo $dsinfo['identifier'];?>">https://doi.org/<?php echo $dsinfo['identifier'];?></a>
 			
 			
 			<p>
@@ -277,7 +277,7 @@ if (isset($arrDescription['Other'])) {
 						<h5 class="mb-0">
 							<button class="btn btn-link collapsed" data-toggle="collapse"
 								data-target="#collapseSix" aria-expanded="false"
-								aria-controls="collapseSix">Miscellaneous</button>
+								aria-controls="collapseSix">Additional Information</button>
 						</h5>
 					</div>
 					<div id="collapseSix" class="collapse" aria-labelledby="Other"
@@ -341,7 +341,6 @@ if ($dsinfo['isExternal'] == 0) {
 
 
 
-
 <!-- Modal OA-->
 <div class="modal fade" id="modalClickTroughOA" tabindex="-1"
 	role="dialog" aria-labelledby="exampleModalCenterTitle"
@@ -385,7 +384,7 @@ if ($dsinfo['isExternal'] == 0) {
 				<form method="POST">
 					<button type="button" class="btn btn-secondary"
 						data-dismiss="modal">Close</button>
-					<button type="submit" class="btn btn-primary" name="dlform"
+					<button type="submit" class="btn btn-primary" name="dlform"  
 						value="isDownload">Agree and Download</button>
 			
 			</div>
@@ -408,7 +407,7 @@ if ($dsinfo['isExternal'] == 0) {
 			<div class="modal-header">
 				<h5 class="modal-title" id="exampleModalLongTitle">End User
 					Agreement</h5>
-				<button type="button" class="close" data-dismiss="modal"
+				<button type="button" class="close" data-dismiss="modal" 
 					aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -441,8 +440,9 @@ if ($dsinfo['isExternal'] == 0) {
 				<form method="POST">
 					<button type="button" class="btn btn-secondary"
 						data-dismiss="modal">Close</button>
-					<button type="submit" class="btn btn-primary" name="dlform"
+					<button type="submit" class="btn btn-primary" name="dlform" 
 						value="isDownload">Agree and Download</button>
+					
 			
 			</div>
 		</div>
@@ -492,7 +492,7 @@ if ($dsinfo['isExternal'] == 0) {
 				<form method="POST">
 					<button type="button" class="btn btn-secondary"
 						data-dismiss="modal">Close</button>
-					<button type="submit" class="btn btn-primary" name="dlform"
+					<button type="submit" class="btn btn-primary" name="dlform" 
 						value="isDownload">Agree and Download</button>
 			
 			</div>
@@ -500,4 +500,27 @@ if ($dsinfo['isExternal'] == 0) {
 	</div>
 </div>
 
-<?php //testvar();?>
+<div class="modal fade" id="spinner" tabindex="-1" role="dialog" mousemove= "$('#spinner').modal('hide');">
+	
+    <div class="modal-dialog modal-dialog-centered justify-content-center" role="document">
+	
+        <span class="fa fa-spinner fa-spin fa-3x"></span>
+		
+    </div>
+</div>
+
+<script type="text/javascript">
+	
+function modal(){
+       $('#spinner').modal('show');
+       setTimeout(function () {
+       	
+       	$('#spinner').modal('hide');
+       }, 6000);
+    }
+</script>
+
+
+<?php 
+
+//testvar();?>

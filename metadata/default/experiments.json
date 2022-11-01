@@ -2,156 +2,199 @@
     {
         "exptID": "rrs9",
         "Title": "Acid Strip",
+        "KeyRef": "KeyRefAcidStrip",
         "station": "r"
     },
     {
         "exptID": "rag6",
         "Title": "Agdell",
+        "KeyRef": "KeyRefAG",
         "station": "r"
     },
     {
         "exptID": "rwf3",
         "Title": "Alternate Wheat and Fallow",
+        "KeyRef": "KeyRefWheatFallow",
         "station": "r"
     },
     {
         "exptID": "rcs326",
         "Title": "Amounts of Straw - Rothamsted",
+        "KeyRef": "KeyRefStraw",
         "station": "r"
     },
     {
         "exptID": "wcs326",
         "Title": "Amounts of Straw - Woburn",
+        "KeyRef": "KeyRefStraw",
         "station": "w"
     },
     {
         "exptID": "rbn7",
         "Title": "Barnfield",
+        "KeyRef": "KeyRefBF",
         "station": "r"
     },
     {
         "exptID": "rbk1",
         "Title": "Broadbalk",
+        "KeyRef": "KeyRefBroadbalk",
         "station": "r"
     },
     {
         "exptID": "rbk1w",
         "Title": "Broadbalk Wilderness",
+        "KeyRef": "KeyREfBroadbalkWilderness",
         "station": "r"
     },
     {
         "exptID": "rcs477",
         "Title": "Continuous Maize - Rothamsted",
+        "KeyRef": null,
         "station": "r"
     },
     {
         "exptID": "wcs478",
         "Title": "Continuous Maize - Woburn",
+        "KeyRef": null,
         "station": "w"
     },
     {
         "exptID": "rex4",
         "Title": "Exhaustion Land",
+        "KeyRef": "KeyRefEX",
         "station": "r"
     },
     {
         "exptID": "rrn2",
         "Title": "Fosters Ley Arable",
+        "KeyRef": "KeyRefRLA",
         "station": "r"
     },
     {
         "exptID": "rgc8",
         "Title": "Garden Clover",
+        "KeyRef": "KeyRefGC",
         "station": "r"
     },
     {
         "exptID": "rge9",
         "Title": "Geescroft Wilderness",
+        "KeyRef": "KeyRefWilderness",
         "station": "r"
     },
     {
         "exptID": "rrs1",
         "Title": "Highfield Bare Fallow",
+        "KeyRef": "KeyRefHBF",
         "station": "r"
     },
     {
         "exptID": "rcs767",
         "Title": "Highfield Conversion",
+        "KeyRef": "KeyRefHR",
         "station": "r"
     },
     {
         "exptID": "rrn1",
         "Title": "Highfield Ley Arable",
+        "KeyRef": "KeyRefRLA",
         "station": "r"
     },
     {
         "exptID": "rhb2",
         "Title": "Hoosfield Spring Barley",
+        "KeyRef": "KeyRefHoosfield",
         "station": "r"
     },
     {
         "exptID": "wcs428",
         "Title": "Liquid Sludge Experiment",
+        "KeyRef": "KeyRefWobLTS",
         "station": "w"
     },
     {
         "exptID": "wrn4",
         "Title": "Market Garden",
+        "KeyRef": "KeyRefWobMG",
         "station": "w"
     },
     {
         "exptID": "wcs439",
         "Title": "Metal Salts Experiment",
+        "KeyRef": "KeyRefWobLTS",
         "station": "w"
     },
     {
         "exptID": "rcs408",
         "Title": "Miscanthus sinensis giganteus study",
+        "KeyRef": null,
         "station": "r"
     },
     {
         "exptID": "rpg5",
         "Title": "Park Grass",
+        "KeyRef": "KeyRefParkGrass",
         "station": "r"
     },
     {
         "exptID": "rcs10",
         "Title": "Rothamsted Long-term Liming",
+        "KeyRef": "KeyRefliming",
         "station": "r"
     },
     {
         "exptID": "srn1",
         "Title": "Saxmundham Rotation 1",
+        "KeyRef": "KeyRefSaxRN",
         "station": "s"
     },
     {
         "exptID": "srn2",
         "Title": "Saxmundham Rotation 2",
+        "KeyRef": "KeyRefSaxRN",
         "station": "s"
     },
     {
         "exptID": "wcs427",
         "Title": "Sewage Cake Experiment",
+        "KeyRef": "KeyRefWobLTS",
+        "station": "w"
+    },
+    {
+        "exptID": "wxb6",
+        "Title": "Woburn Continuous Barley",
+        "KeyRef": "KeyRefWCB",
+        "station": "w"
+    },
+    {
+        "exptID": "wxw6",
+        "Title": "Woburn Continuous Wheat",
+        "KeyRef": "KeyRefWCW",
         "station": "w"
     },
     {
         "exptID": "wrn13",
         "Title": "Woburn Intensive Cereals",
+        "KeyRef": "KeyRefIntCereals",
         "station": "w"
     },
     {
         "exptID": "wrn3",
         "Title": "Woburn Ley Arable",
+        "KeyRef": "KeyRefWLA",
         "station": "w"
     },
     {
         "exptID": "wcs10",
         "Title": "Woburn Long-term Liming",
+        "KeyRef": "KeyRefliming",
         "station": "w"
     },
     {
         "exptID": "wrn12",
         "Title": "Woburn Organic Manuring",
+        "KeyRef": "KeyRefWOM",
         "station": "w"
     }
 ]

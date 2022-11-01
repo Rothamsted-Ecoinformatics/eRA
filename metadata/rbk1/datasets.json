@@ -2,7 +2,7 @@
     {
         "md_id": -1004047716,
         "title": "Broadbalk mean long-term winter wheat yields",
-        "URL": "http://www.era.rothamsted.ac.uk/dataset/rbk1/01-OAWWYields",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-OAWWYields",
         "identifier": "10.23637/KeyRefOABKyields",
         "identifier_type": "DOI",
         "dataset_type": "Crop  yield data",
@@ -23,7 +23,7 @@
     {
         "md_id": 1458776456,
         "title": "Broadbalk soil organic carbon content 1843-2015",
-        "URL": "http://www.era.rothamsted.ac.uk/dataset/rbk1/02-BKSOC1843",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rbk1/02-BKSOC1843",
         "identifier": "10.23637/KeyRefOABKsoc-02",
         "identifier_type": "DOI",
         "dataset_type": "Soil data",
@@ -44,7 +44,7 @@
     {
         "md_id": -1140916605,
         "title": "Broadbalk Soil Total % Nitrogen Content, 1843-2010",
-        "URL": "http://www.era.rothamsted.ac.uk/dataset/rbk1/01-Nitro1843",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-Nitro1843",
         "identifier": "10.23637/BK-oadata-soilN-01",
         "identifier_type": "DOI",
         "dataset_type": "Soil data",
@@ -65,7 +65,7 @@
     {
         "md_id": 1796346264,
         "title": "Broadbalk Wheat Experiment mean annual grain and straw yields 1852-1925",
-        "URL": "http://www.era.rothamsted.ac.uk/dataset/rbk1/01-YIELD852925",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-YIELD852925",
         "identifier": "10.23637/rbk1-1796346264-1",
         "identifier_type": "DOI",
         "dataset_type": "Crop  yield data",
@@ -75,7 +75,7 @@
         "experiment_name": "Broadbalk",
         "experiment_code": "R/BK/1",
         "grade": 3,
-        "dstype": "Other",
+        "dstype": "Frictionless",
         "publication_year": 2021,
         "version": "01",
         "isReady": 2,
@@ -86,7 +86,7 @@
     {
         "md_id": 935928566,
         "title": "Broadbalk changes in Olsen P in top soil, 1843-2010",
-        "URL": "http://www.era.rothamsted.ac.uk/dataset/rbk1/01-OAOlsenP1844",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-OAOlsenP1844",
         "identifier": "10.23637/keyrefoabkolsenp",
         "identifier_type": "DOI",
         "dataset_type": "Soil data",
@@ -107,7 +107,7 @@
     {
         "md_id": 759423885,
         "title": "Broadbalk soil organic carbon content 1843-2010",
-        "URL": "http://www.era.rothamsted.ac.uk/dataset/rbk1/01-BKSOC1843",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-BKSOC1843",
         "identifier": "10.23637/KeyRefOABKsoc",
         "identifier_type": "DOI",
         "dataset_type": "Soil data",
@@ -128,7 +128,7 @@
     {
         "md_id": -2078416917,
         "title": "<i>Cirsium arvense</i> frequency on Broadbalk Section 8 1991-2018",
-        "URL": "http://www.era.rothamsted.ac.uk/dataset/rbk1/01-CIRSIUM1991",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-CIRSIUM1991",
         "identifier": "10.23637/bbk-2078416917-01",
         "identifier_type": "DOI",
         "dataset_type": "Species observation data",
@@ -149,7 +149,7 @@
     {
         "md_id": -1004390306,
         "title": "Fisher 1921 Broadbalk wheat grain yields 1852-1918",
-        "URL": "http://www.era.rothamsted.ac.uk/dataset/rbk1/01-FISHER1921",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-FISHER1921",
         "identifier": "10.23637/rbk1-data-fisher-1921-01",
         "identifier_type": "DOI",
         "dataset_type": "Crop  yield data",
@@ -170,7 +170,7 @@
     {
         "md_id": -1553748648,
         "title": "Broadbalk complete soils data",
-        "URL": "NOT READY",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-BKSOILS",
         "identifier": "10.23637/rbk1-bksoils-01",
         "identifier_type": "DOI",
         "dataset_type": "Soil data",
@@ -191,7 +191,7 @@
     {
         "md_id": 1059348096,
         "title": "Broadbalk Crop Nutrient Content, Beans 1968-1978",
-        "URL": "http://www.era.rothamsted.ac.uk/dataset/rbk1/01-BKNUTRB",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-BKNUTRB",
         "identifier": "10.23637/rbk1-BKNUTRB-01",
         "identifier_type": "DOI",
         "dataset_type": "Crop nutrient data",
@@ -204,7 +204,7 @@
         "dstype": "OA",
         "publication_year": 0,
         "version": "01",
-        "isReady": 0,
+        "isReady": 1,
         "isExternal": 0,
         "shortName": "BKNUTRB",
         "UID": "01-BKNUTRB"
@@ -212,7 +212,7 @@
     {
         "md_id": 519023028,
         "title": "Broadbalk Crop Nutrient Content, Maize 1997-2017",
-        "URL": "http://www.era.rothamsted.ac.uk/dataset/rbk1/01-BKNUTRM",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-BKNUTRM",
         "identifier": "10.23637/rbk1-BKNUTRM-01",
         "identifier_type": "DOI",
         "dataset_type": "Crop nutrient data",
@@ -225,7 +225,7 @@
         "dstype": "OA",
         "publication_year": 0,
         "version": "01",
-        "isReady": 0,
+        "isReady": 1,
         "isExternal": 0,
         "shortName": "BKNUTRM",
         "UID": "01-BKNUTRM"
@@ -233,7 +233,7 @@
     {
         "md_id": 259956136,
         "title": "Broadbalk Crop Nutrient Content, Oats 1996-2015",
-        "URL": "http://www.era.rothamsted.ac.uk/dataset/rbk1/01-BKNUTRO",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-BKNUTRO",
         "identifier": "10.23637/rbk1-BKNUTRO-01",
         "identifier_type": "DOI",
         "dataset_type": "Crop nutrient data",
@@ -246,7 +246,7 @@
         "dstype": "OA",
         "publication_year": 0,
         "version": "01",
-        "isReady": 0,
+        "isReady": 1,
         "isExternal": 0,
         "shortName": "BKNUTRO",
         "UID": "01-BKNUTRO"
@@ -254,7 +254,7 @@
     {
         "md_id": 1343009915,
         "title": "Broadbalk Crop Nutrient Content, Potatoes 1968-1996",
-        "URL": "http://www.era.rothamsted.ac.uk/dataset/rbk1/01-BKNUTRP",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-BKNUTRP",
         "identifier": "10.23637/rbk1-BKNUTRP-01",
         "identifier_type": "DOI",
         "dataset_type": "Crop nutrient data",
@@ -275,7 +275,7 @@
     {
         "md_id": 655881765,
         "title": "Broadbalk Crop Nutrient Content, Wheat 1968-2017",
-        "URL": "http://www.era.rothamsted.ac.uk/dataset/rbk1/01-BKNUTRW",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-BKNUTRW",
         "identifier": "10.23637/rbk1-BKNUTRW-01",
         "identifier_type": "DOI",
         "dataset_type": "Crop nutrient data",
@@ -296,7 +296,7 @@
     {
         "md_id": 875713459,
         "title": "Broadbalk Weed Survey Data 1991-2020",
-        "URL": "http://www.era.rothamsted.ac.uk/dataset/rbk1/01-WeedsSec8",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-WeedsSec8",
         "identifier": "10.23637/rbk1-weeds_1991-2020_01",
         "identifier_type": "DOI",
         "dataset_type": "Species observation data",
@@ -317,7 +317,7 @@
     {
         "md_id": 1577125685,
         "title": "Broadbalk Wheat Experiment brown foot rot (Fusarium spp.) 1992-2009",
-        "URL": "http://www.era.rothamsted.ac.uk/dataset/rbk1/01-BKBFR",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-BKBFR",
         "identifier": "10.23637/rbk1-bfr-01",
         "identifier_type": "DOI",
         "dataset_type": "Disease data",
@@ -334,5 +334,47 @@
         "isExternal": 0,
         "shortName": "BKBFR",
         "UID": "01-BKBFR"
+    },
+    {
+        "md_id": 1051428555,
+        "title": "Broadbalk Wheat Experiment Chalk Applications",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-CHALK",
+        "identifier": "10.23637/rbk1-chalk-01",
+        "identifier_type": "DOI",
+        "dataset_type": "Experiment details",
+        "extension": "xlsx",
+        "description": "Details of the routine chalk (lime) applications to the Broadbalk Wheat Experiment, first applied in 1955. A regular scheme was introduced in 1956 and revised in 1976. The aim was to maintain soil pH above 7.5 and minimize the range of pH values within each Section. No chalk was required 1993-2007. As in earlier years, differential chalk applications were made to selected plots in 2008, 2014 and 2019, the amount applied depending on the soil pH.",
+        "fieldname": "Broadbalk",
+        "experiment_name": "Broadbalk",
+        "experiment_code": "R/BK/1",
+        "grade": 1,
+        "dstype": "OA",
+        "publication_year": 2022,
+        "version": "01",
+        "isReady": 2,
+        "isExternal": 0,
+        "shortName": "CHALK",
+        "UID": "01-CHALK"
+    },
+    {
+        "md_id": 1076388834,
+        "title": "Broadbalk Wheat Experiment yields and N uptake Section 1, 2001-2015",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-YLDS10115",
+        "identifier": "10.23637/rbk1-yldS10115-01",
+        "identifier_type": "DOI",
+        "dataset_type": "Crop  yield data",
+        "extension": "xlsx",
+        "description": "This dataset contains the annual harvested grain and straw yields and N content for each treatment plot of the Broadbalk Wheat Experiment, Section 1 (continuous wheat) 2001-2015. Also other agronomic information including sowing and harvest date, amount, type and date of application of fertilizers and manure, and wheat varieties.",
+        "fieldname": "Broadbalk",
+        "experiment_name": "Broadbalk",
+        "experiment_code": "R/BK/1",
+        "grade": 1,
+        "dstype": "Frictionless",
+        "publication_year": 2022,
+        "version": "01",
+        "isReady": 2,
+        "isExternal": 0,
+        "shortName": "YLDS10115",
+        "UID": "01-YLDS10115"
     }
 ]

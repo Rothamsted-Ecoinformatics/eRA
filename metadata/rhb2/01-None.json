@@ -4,7 +4,7 @@
     "identifier": "10.23637/rhb2-plans1968-2000-01",
     "name": "Hoosfield spring barley experiment plans 1968-2000",
     "shortName": "",
-    "url": "http://www.era.rothamsted.ac.uk/metadata/rhb2/01-rhb2-plans1968-2000.pdf",
+    "url": "https://www.era.rothamsted.ac.uk/metadata/rhb2/01-rhb2-plans1968-2000.pdf",
     "description": [
         {
             "inLanguage": "en",
@@ -161,7 +161,7 @@
         {
             "relatedIdentifier": "10.23637/ERADOC-1-193",
             "relatedIdentifierType": "DOI",
-            "name": "Details of the Classical and Long-term experiments, 1968-1973 (1977)",
+            "name": "Rothamsted (1977) Details of the Classical and Long-term experiments, 1968-1973",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,

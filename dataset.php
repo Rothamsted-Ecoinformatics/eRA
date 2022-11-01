@@ -14,15 +14,14 @@ include_once 'includes/init.php'; // these are the settings that refer to more t
 
 $pageinfo = getPageInfo($expt);
 $KeyRef = $pageinfo['KeyRef'];
-$exptFolder = 'metadata/' . $expt;
 $page_title .= ' dataset: ' . $dataset;
 $datasetParts = explode("-", $dataset);
 $pageinfo = getPageInfo($expt);
 $KeyRef = $pageinfo['KeyRef'];
 $exptFolder = 'metadata/' . $expt;
-
+$onload = "";
 $fileDataset = $exptFolder . '/' . $datasetParts[1] . '/' . $dataset . '.json';
-
+$datasetTitle = "";
 $hasDataset = file_exists($fileDataset);
 if ($hasDataset) {
     $jdataset = file_get_contents($fileDataset);
@@ -96,12 +95,14 @@ if ($hasDataset) {
     // this decide what modal we give depending on the type of dataset: the OA at the moment, does not record the download.
 
     $dstype = $dsinfo["dstype"];
+    $dstypeModal = $dsinfo["dstype"];
     $dstypeStr = "<a href=\"info/howtoaccessdata#OA\" \" target=\"out\">Open</a>";
     if ($dsinfo["dstype"] != 'OA') {
         $dstypeStr = "<a href=\"info/howtoaccessdata#Other\" \" target=\"out\">Registration</a>";
+        $dstypeModal = 'Other';
     }
 
-    $modal = "#modalClickTrough" . $dstype;
+    $modal = "#modalClickTrough" . $dstypeModal;
     $butDownload = "<button type=\"button\" class=\"btn btn-primary my-1 mx-3\" data-toggle=\"modal\"
     data-target=\"" . $modal . "\">Download</button>";
 
@@ -358,13 +359,15 @@ if ($hasDataset) {
             $sqlDownload = "INSERT INTO eRAdownloads (`position`, `IP`,  DOI, `dl-date`,`result`) VALUES(' " . $positionValue . "', '" . $IpAddress . "', '" . $DOI . "', '" . $today . "', '".$siteType ."')";
 
             if ($results = mysqli_query($link, $sqlDownload)) {
-
-                $strUserArea .= "<li class=\"list-group-item text-info \">Downloaded today</li>";
+                $onload = " onload=\"modal();\"  
+                
+                ";
+                $strUserArea .= "<li class=\"list-group-item text-warning \">Downloaded today</li>";
             }
-
+            
             $strMeta .= " <meta
              http-equiv=\"refresh\"
-                 content=\"1; URL=".$root . $zipfile . "\">";
+                 content=\"1; URL=".$root . $zipfile . '?' . time()."\">"; // the Time function to avoid getting the file from the
         } else {
             $sqlError = "INSERT INTO eRAdownloads (`position`, DOI, `dl-date`,`result`) VALUES(' " . $positionValue . "', '" . $DOI . "', '" . $today . "', 'NO FILE')";
             if ($results = mysqli_query($link, $sqlError)) {
@@ -401,7 +404,7 @@ if ($hasDataset) {
 <html class="no-js" lang="en">
 <head>  
         <?php
-        echo $strMeta;
+        echo $strMeta; 
         include 'includes/meta.html'; // that is the <meta and link tags> superseeds head.html
                                       // that is the <head tags>
 
@@ -413,7 +416,7 @@ if ($hasDataset) {
         ?>
     </head>
 
-<body>
+<body <?php echo $onload; ?>>
 	<div class="container bg-white px-0">
     
     <?php
@@ -427,6 +430,12 @@ if ($hasDataset) {
     // -- start footers -----------------------------
 
     include_once 'includes/footer.html';
+
+    // --------------- page specific scripts -------------
+?>
+
+<?php
+    // ---------------------------------------------------
     include_once 'includes/finish.inc';
 
     ?>

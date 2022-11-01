@@ -354,7 +354,7 @@
             {
                 "id": 10612,
                 "name": "Medicago sativa",
-                "sameAs": "Medicago sativa",
+                "sameAs": "alfalfa",
                 "dateStart": null,
                 "dateEnd": null
             },
@@ -381,8 +381,8 @@
             },
             {
                 "id": 10616,
-                "name": "sugar beet",
-                "sameAs": "sugar beet",
+                "name": "sugarbeet",
+                "sameAs": "sugarbeet",
                 "dateStart": null,
                 "dateEnd": null
             },

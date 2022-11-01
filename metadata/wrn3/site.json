@@ -1,13 +1,13 @@
 {
     "administrative": {
         "name": "Stackyard",
-        "identifier": null,
+        "identifier": "W/RN/3",
         "type": "research station field",
         "doi": null,
         "visitsAllowed": "Yes",
-        "visitingArrangements": null,
-        "description": null,
-        "management": null
+        "visitingArrangements": "Contact Dr Andy Macdonald",
+        "description": "The experiment started in 1938 on a site that had grown arable crops since at least 1876 and had 0.98% SOC in the topsoil.",
+        "management": "Conventional management, ploughed. There is no irrigation."
     },
     "location": {
         "addressLocality": "Woburn",
@@ -21,17 +21,17 @@
         "polygon": "NOT IN GLTEN",
         "elevation": 99.0,
         "elevationUnit": "Metres",
-        "slope": null,
+        "slope": 2.0,
         "slopeAspect": null
     },
     "soil": {
         "soilTypeLabel": null,
-        "soilDescription": null
+        "soilDescription": "Sandy loam with 11-16% clay, Cambric Arenosol (FAO, 1990)."
     },
     "soilProperty": [],
     "climate": {
-        "name": null,
-        "description": null,
+        "name": "temperate oceanic climate",
+        "description": "Sandy loam with 11-16% clay, Cambric Arenosol (FAO, 1990).",
         "weatherStation": {
             "weatherStationID": "NOT IN GLTEN",
             "name": "NOT IN GLTEN",

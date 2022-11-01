@@ -12,6 +12,14 @@
  * 
  * It then build a CSV file to import in table or exel database to import the images with already quite a bit of info in them
  * This is a development tool, has a few functions that could be of interest. 
+ * 
+ * 2022-01-18 New It compare the files on the disk with the files in the database. 
+ * 
+ * To use this tool: We thereofre first export the Media table from the Timeline.accdb into a xls and Json file saved in default/images.json. 
+ * It the filename is not in the json file, the line is added to the csv and we know that these are not in the database. 
+ * 
+ * The result is a csv that can be imported in the media table. Once in the media table, the fields like Cation, isWW, and the likes can be amended and the images json files updated. 
+ * We do that from times to time to update he Media table. One day I will make a drawing of that" 
  */
 
 /**
@@ -69,7 +77,7 @@ function renameImages($array, $recursive = false, $null = '&nbsp;')
             $array
         );
     }
-    
+    $commands = "";
     //
     foreach ($array as $folders) {
         
@@ -135,10 +143,15 @@ function makeCSV($array, $recursive = false, $null = '&nbsp;')
             $array
         );
     }
-    
+    global  $jdataset8; // import the array that has all the images already in the database. 
     //
+    $commands = "";
+    $commands .= "-------------------- CSV -----------------<br />";
+    $commands .= "mediaID,Credit,fileLocation,URL,Caption,Type,extension,Description,width,height,orientation,exptID,forWWW,isReviewed,isGalleries<br />";
+       
+    $isHere = "--------------------Already in the database ----------------- <br />";
     foreach ($array as $folders) {
-        $commands = "Credit,fileLocation,URL,Caption,Type,extension,exptID,isReviewed,width,height,orientation<br />";
+        
         $i = 1;
         foreach ($folders as $foldername => $folder) {
             $base = "http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/";
@@ -161,11 +174,16 @@ function makeCSV($array, $recursive = false, $null = '&nbsp;')
                     } else {
                         $orientation = 'Portrait';
                     }
+                    $fileLocation =   $filename ;
+                    $foundIt = 0;
+                    $foundIt = strpos($jdataset8, $fileLocation);
+                    if ($foundIt > 0) { $isHere .=  $fileLocation . " <br>";} else {
                     
                     if (strstr($folder, '.jpg') || strstr($folder, '.gif') || strstr($folder, '.png')) { // we are looking at the php and html files documents
-                        $commands .=  "eRA curators," . $base . "" . $folder.  ",'" . $stitle . "',".$type."," . $ext . "," . $foldername . ",0," . $width . "," . $height . "," . $orientation . "<br />";
+                        $commands .=  "FIRSTROUNDeRA curators," . $base . "" . $folder.  ",'" . $stitle . "',".$type."," . $ext . "," . $foldername . ",0," . $width . "," . $height . "," . $orientation . "<br />";
                         $i = $i + 1;
                     }
+                }
                 } else {
                     $title = "array";
                 }
@@ -190,11 +208,20 @@ function makeCSV($array, $recursive = false, $null = '&nbsp;')
                         } else {
                             $orientation = 'Portrait';
                         }
+                        $fileLocation =  $foldername . '/' . $filename ;
+                        $foundIt = 0;
+                        $foundIt = strpos($jdataset8, $fileLocation);
+                        if ($foundIt > 0) {  $isHere .=  $fileLocation . "  <br>"; } else {
                         
-                        if (strstr($filename, '.jpg') || strstr($filename, '.gif') || strstr($filename, '.png')) { // we are looking at the php and html files documents
-                            $commands .=  "eRA curators,metadata/"  . "" . $foldername . '/' . $filename . ", ". $base . "" . $foldername . '/' . $filename . "," . $stitle . ",Other," . $ext . "," . $foldername . ",0," . $width . "," . $height . "," . $orientation . "<br />";
+                        if (strstr(strtolower($filename), '.jpg') || strstr(strtolower($filename), '.gif') || strstr(strtolower($filename), '.png')) { // we are looking at the php and html files documents
+                            $commands .=  "  ,eRA curators,<b>".'metadata/'  .$fileLocation . "</b>, ". $base . "" . $foldername . '/' . $filename . "," . $stitle . ",Other," . $ext . ",    ,"  . $width . "," . $height . "," . $orientation .",". $foldername . ",0,0,0 <br />";
+                            //mediaID	Credit	fileLocation	URL	Caption	Type	extension	Description	width	height	orientation	exptID	forWWW	isReviewed	isGalleries
+
+                            
                             $i = $i + 1;
                         }
+                    }
+                    
                     } else {
                         $title = "array";
                     }
@@ -202,21 +229,37 @@ function makeCSV($array, $recursive = false, $null = '&nbsp;')
             }
         }
     }
-    
-    return $commands;
+   
+    return $isHere. $commands;
 }
 
+
+$fileImages = 'metadata/default/allimages.json';
+
+$hasImages = file_exists($fileImages);
+echo $hasImages;
+if ($hasImages) {
+    $jdataset = file_get_contents($fileImages);
+    //var_dump($jdataset);
+    $jdataset8 = utf8_encode($jdataset);
+    //var_dump($jdataset8);
+    $imagesInfo = json_decode($jdataset8);
+    //var_dump($imagesInfo);
+}
+//var_dump($imagesInfo);
+
+echo ("This lets you list the images, offers commands to rename files, compare what is in the files with what is in the database and writes a CSV of what is missing in the database. ");
 $dir = 'images/metadata/';
 $files = dirToArray($dir);
 echo "<pre>";
-print_r($files);
+//print_r($files);
 
 echo "<hr />";
-echo "function renameImages <br />";
+echo "--------------------function renameImages --------------------<br />";
 $line = renameImages($files, $recursive = true, $null = '&nbsp;');
 echo $line;
 
-echo "function Make CSV <br />";
+echo "--------------------function Make CSV --------------------<br />";
 $csv = makeCSV($files);
 echo $csv;
 echo "</pre>";

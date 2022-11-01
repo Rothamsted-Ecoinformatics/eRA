@@ -4,7 +4,7 @@
     "identifier": "10.23637/rbk1-BKNUTRM-01",
     "name": "Broadbalk Crop Nutrient Content, Maize 1997-2017",
     "shortName": "BKNUTRM",
-    "url": "http://www.era.rothamsted.ac.uk/dataset/rbk1/01-BKNUTRM",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-BKNUTRM",
     "description": [
         {
             "inLanguage": "en",
@@ -320,7 +320,7 @@
         {
             "relatedIdentifier": "10.23637/ERADOC-1-2",
             "relatedIdentifierType": "DOI",
-            "name": "The plant nutrients in crops grown on Broadbalk, Johnston (1969)",
+            "name": "Johnston (1969) The plant nutrients in crops grown on Broadbalk, pp 50-62.",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
@@ -329,7 +329,7 @@
         {
             "relatedIdentifier": "10.23637/ERADOC-1-22",
             "relatedIdentifierType": "DOI",
-            "name": "The Broadbalk wheat experiment 1968-78: yields and plant nutrients in crops. . . Dyke et al (1983)",
+            "name": "Dyke et al. (1983) Broadbalk wheat experiment 1968-78: yields and plant nutrients in crops. . . ",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
@@ -338,7 +338,7 @@
         {
             "relatedIdentifier": "10.1017/S0021859600082125",
             "relatedIdentifierType": "DOI",
-            "name": "Variation between years in growth and nutrient uptake after anthesis. . . Thorne et al (1988)",
+            "name": "Thorne et al (1988) Variation between years in growth and nutrient uptake after anthesis. . . ",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
@@ -347,7 +347,7 @@
         {
             "relatedIdentifier": "10.1016/j.scitotenv.2007.08.024",
             "relatedIdentifierType": "DOI",
-            "name": "Historical changes in the concentrations of selenium in soil and wheat grain. . .  Fan et al (2008)",
+            "name": "Fan et al. (2008) Historical changes in the concentrations of selenium in soil and wheat grain . . .",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
@@ -356,7 +356,7 @@
         {
             "relatedIdentifier": "10.1016/j.jtemb.2008.07.002",
             "relatedIdentifierType": "DOI",
-            "name": "Evidence of decreasing mineral density in wheat grain over the last 160 years. Fan et al (2008)",
+            "name": "Fan et al. (2008) Evidence of decreasing mineral density in wheat grain over the last 160 years",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,

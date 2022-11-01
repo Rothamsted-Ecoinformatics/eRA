@@ -4,7 +4,7 @@
     "identifier": "10.23637/rbk1-bksoils-01",
     "name": "Broadbalk complete soils data",
     "shortName": "BKSOILS",
-    "url": "NOT READY",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-BKSOILS",
     "description": [
         {
             "inLanguage": "en",
@@ -21,7 +21,7 @@
     "dateModified": null,
     "datePublished": null,
     "inLanguage": "en",
-    "version": "01",
+    "version": "1",
     "keywords": [],
     "creator": [
         {

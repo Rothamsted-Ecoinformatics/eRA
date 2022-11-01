@@ -4,7 +4,7 @@
     "identifier": "10.23637/rbk1-1796346264-1",
     "name": "Broadbalk Wheat Experiment mean annual grain and straw yields 1852-1925",
     "shortName": "YIELD852925",
-    "url": "http://www.era.rothamsted.ac.uk/dataset/rbk1/01-YIELD852925",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-YIELD852925",
     "description": [
         {
             "inLanguage": "en",
@@ -246,7 +246,7 @@
         {
             "relatedIdentifier": "10.23637/ERADOC-1-34916",
             "relatedIdentifierType": "DOI",
-            "name": "Broadbalk: Historical Introduction (Johnston and Garner, 1969)",
+            "name": "Johnson and Garner (1969). The Broadbalk wheat experiment. Historical Introduction",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
@@ -264,7 +264,7 @@
         {
             "relatedIdentifier": "10.23637/ERADOC-1-192",
             "relatedIdentifierType": "DOI",
-            "name": "Details of the Classical and Long-term experiments up to 1967",
+            "name": "Rothamsted (1970) Details of the Classical and Long-term experiments up to 1967",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
@@ -299,5 +299,5 @@
     "image": [],
     "grade": 3,
     "isExternal": 0,
-    "dstype": "Other"
+    "dstype": "Frictionless"
 }
