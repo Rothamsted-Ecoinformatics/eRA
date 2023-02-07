@@ -6,15 +6,15 @@
         "name": "Highfield Bare Fallow",
         "url": null,
         "description": "In 1959 an area of permanent grass (since 1838, Lawes & Gilbert, 1885) adjacent to the Highfield Ley-Arable experiment at Rothamsted was ploughed, and has not grown a crop since. This is the Highfield Bare Fallow. Soil organic carbon (SOC) is measured periodically, and this has declined substantially since the area was first ploughed out of grass. Archived soil samples are available.",
-        "disambiguatingDescription": null
+        "disambiguatingDescription": "The effect of continuous bare fallow."
     },
     "dataAccess": {
         "type": "creativeWork",
         "conditionsOfAccess": "Available to any researcher on request",
         "isAccessibleForFree": "YesOffline",
         "publishingPrinciples": "http://www.era.rothamsted.ac.uk/Other#SEC7",
-        "actionableFeedbackPolicy": null,
-        "correctionsPolicy": null,
+        "actionableFeedbackPolicy": "The effect of continuous bare fallow.",
+        "correctionsPolicy": "The effect of continuous bare fallow.",
         "unnamedSourcesPolicy": null
     },
     "license": {

@@ -130,9 +130,26 @@ if (isset($datacite)) {
 
 
 <div id="idExpt" class="p-0 mb-0">
+
 			<div id="greenTitle"
-				class="d-flex  mb-3 py-3 p3-3 bg-info text-white mt-0 ">
-				<h1 class="mx-3"> <?php echo $h1Title;?></h1>
+				class="d-flex justify-content-between bg-info text-white ">
+                <div class="pt-3 ">
+				<h1 class="ml-3 "> <?php echo $h1Title;?></h1>
+                </div>
+                <div>
+                <p class="pt-4 mr-3 text-right ">
+				<a href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+					class="twitter-share-button" data-via="eRA_curator"
+					data-size="large"
+					data-text=" <?php echo $page[0]['Caption'];?>  "
+					data-url="https://www.era.rothamsted.ac.uk/info/<?php echo $page[0]['exptID'];?>/<?php echo $page[0]['FileName'];?>" 
+                    data-hashtags="eRAinfo"
+					data-related="eRA_Curator,Rothamsted" data-related="Rothamsted"
+					data-show-count="false">Tweet this!</a>
+			</p>
+			<script async src="https://platform.twitter.com/widgets.js"
+				charset="utf-8"></script> 
+                </div>
 			</div>
 <?php
 $includeFile = 'metadata/' . $expt . '/' . $FileName.'.'.$ext;

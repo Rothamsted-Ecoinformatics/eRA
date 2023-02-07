@@ -1,10 +1,10 @@
 {
-    "id": 2565,
+    "id": 5653,
     "experiment_type_term": null,
     "experiment_id": 51,
     "people": [
         {
-            "id": 3648,
+            "id": 6485,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -15,25 +15,30 @@
             "title": "Dr",
             "name": "Sarah Perryman",
             "affiliation": "Rothamsted Research",
-            "department": "Computational and Analytical Sciences",
+            "department": "Intelligent Data Ecosystems",
             "orcid": null,
-            "is_contact": true,
+            "is_contact": false,
             "role_label": "data manager"
         },
         {
-            "id": 3649,
-            "contacts": [],
+            "id": 6486,
+            "contacts": [
+                {
+                    "contact_type": "Email",
+                    "value": "andy.gregory@rothamsted.ac.uk"
+                }
+            ],
             "role_term": "principal investigator",
             "title": "Dr",
-            "name": "Andy Macdonald",
+            "name": "Andrew Gregory",
             "affiliation": "Rothamsted Research",
-            "department": "SAS",
-            "orcid": null,
+            "department": "Protecting Crops and the Environment",
+            "orcid": "https://orcid.org/0000-0001-7123-0784",
             "is_contact": false,
             "role_label": "principal investigator"
         },
         {
-            "id": 3650,
+            "id": 6487,
             "contacts": [],
             "role_term": "principal investigator",
             "title": "Dr",
@@ -47,7 +52,7 @@
     ],
     "organizations": [
         {
-            "id": 2605,
+            "id": 6097,
             "contacts": [],
             "role_term": "research organisation",
             "name": "Rothamsted Research",
@@ -58,11 +63,11 @@
     ],
     "periods": [
         {
-            "id": 3846,
+            "id": 7852,
             "design_type_term": "Randomized complete block design",
             "crops": [
                 {
-                    "id": 10808,
+                    "id": 21750,
                     "crop_term": "Miscanthus sinensis",
                     "crop_label": "Miscanthus sinensis",
                     "start_year": null,
@@ -72,11 +77,11 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 6053,
+                    "id": 12701,
                     "factor_term": "nitrogen fertilizer exposure",
                     "levels": [
                         {
-                            "id": 16463,
+                            "id": 31551,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": "0",
@@ -94,7 +99,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16464,
+                            "id": 31552,
                             "factor_variant_term": null,
                             "factor_variant_label": "N1",
                             "amount": "60",
@@ -112,7 +117,7 @@
                             "chemical_form_label": "ammonium nitrate"
                         },
                         {
-                            "id": 16465,
+                            "id": 31553,
                             "factor_variant_term": null,
                             "factor_variant_label": "N2",
                             "amount": "120",
@@ -197,7 +202,7 @@
     "site_climatic_type_term": "temperate oceanic climate",
     "site_climate_properties": [
         {
-            "id": 1811,
+            "id": 4509,
             "variable_term": "precipitation",
             "unit_term": "mm",
             "variable_label": "precipitation",
@@ -209,7 +214,7 @@
             "unit_label": "millimeter"
         },
         {
-            "id": 1812,
+            "id": 4510,
             "variable_term": "air temperature",
             "unit_term": "degC",
             "variable_label": "air temperature",
@@ -222,7 +227,7 @@
         }
     ],
     "literature": [],
-    "saved_time": "2021-02-02T21:21:36.723867Z",
+    "saved_time": "2022-11-21T10:15:20.195383Z",
     "name": "Long-term Miscanthus Experiment",
     "local_identifier": "R/CS/408",
     "experiment_type_label": null,
@@ -248,7 +253,7 @@
     "site_slope": null,
     "site_slope_aspect": null,
     "site_visits_allowed": true,
-    "site_visiting_arrangements": "By arrangement",
+    "site_visiting_arrangements": "By arrangement with Dr Andrew Gregory",
     "site_history": null,
     "site_management": "Fertilizers and pesticides are applied as necessary. The crop is hand harvested.",
     "site_soil_type_label": null,

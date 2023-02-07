@@ -22,35 +22,35 @@
         },
         "crops": [
             {
-                "id": 11425,
+                "id": 21751,
                 "name": "potatoes",
                 "sameAs": "potatoes",
                 "dateStart": 1969,
                 "dateEnd": 1974
             },
             {
-                "id": 11426,
-                "name": "sugarbeet",
-                "sameAs": "sugarbeet",
+                "id": 21752,
+                "name": "sugar beet",
+                "sameAs": "sugar beet",
                 "dateStart": 1969,
                 "dateEnd": 1974
             },
             {
-                "id": 11427,
+                "id": 21753,
                 "name": "winter wheat",
                 "sameAs": "winter wheat",
                 "dateStart": 1977,
                 "dateEnd": 1986
             },
             {
-                "id": 11428,
+                "id": 21754,
                 "name": "barley",
                 "sameAs": "barley",
                 "dateStart": 1970,
                 "dateEnd": 1979
             },
             {
-                "id": 11429,
+                "id": 21755,
                 "name": "faba beans",
                 "sameAs": "faba beans",
                 "dateStart": null,
@@ -60,7 +60,7 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 6125,
+                "id": 12702,
                 "name": "phosphate fertilizer exposure",
                 "description": "Five amounts of P were tested, P0, P0, P1, P2 and P3. (0, 0, 27.4, 54.8 and 82.2 kg P /ha) applied to a range of existing soil P levels (4-65 mgP/ha). These were applied every two years.",
                 "effect": "",
@@ -138,7 +138,7 @@
                 "scale": null,
                 "material": "SpecifiedCrop",
                 "description": "Nitrogen (N) fertilizer labelled with the heavy isotope 15N was applied to some of the winter wheat plots in the early 1980s, to determine the recovery of fertilizer N in the crop and soil. See Powlson et al (1992) for the recovery of fertilizer N applied in the autumn; Hart et al (1993) for the fate of the residues; Macdonald et al (1989) for the recovery of unused fertilizer N in the soil. The data was also used to partition losses between denitrification and leaching (Addiscott & Powlson, 1992) and to model the fate of N in crop and soil (Bradbury et al, 1993).",
-                "crop": 11427
+                "crop": 21753
             },
             {
                 "variable": "Exchangeable K",
@@ -175,28 +175,28 @@
         },
         "crops": [
             {
-                "id": 11430,
+                "id": 21756,
                 "name": "winter wheat",
                 "sameAs": "winter wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 11431,
+                "id": 21757,
                 "name": "root vegetables",
                 "sameAs": "root vegetables",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 11432,
+                "id": 21758,
                 "name": "barley",
                 "sameAs": "barley",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 11433,
+                "id": 21759,
                 "name": "legumes",
                 "sameAs": "legumes",
                 "dateStart": null,
@@ -206,7 +206,7 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 6126,
+                "id": 12703,
                 "name": "farmyard manure exposure",
                 "description": "25.1 t/ha of FYM",
                 "effect": "",
@@ -214,7 +214,7 @@
                 "level": []
             },
             {
-                "id": 6127,
+                "id": 12704,
                 "name": "nitrogen fertilizer exposure",
                 "description": "Sodium nitrate",
                 "effect": "",
@@ -222,7 +222,7 @@
                 "level": []
             },
             {
-                "id": 6128,
+                "id": 12705,
                 "name": "superphosphate exposure",
                 "description": null,
                 "effect": "",
@@ -256,30 +256,30 @@
         },
         "crops": [
             {
-                "id": 11434,
+                "id": 21760,
                 "name": "barley",
                 "sameAs": "barley",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 11435,
+                "id": 21761,
                 "name": "potatoes",
                 "sameAs": "potatoes",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 11436,
+                "id": 21762,
                 "name": "turnips",
                 "sameAs": "turnips",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 11437,
-                "name": "sugarbeet",
-                "sameAs": "sugarbeet",
+                "id": 21763,
+                "name": "sugar beet",
+                "sameAs": "sugar beet",
                 "dateStart": null,
                 "dateEnd": null
             }
@@ -287,7 +287,7 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 6129,
+                "id": 12706,
                 "name": "farmyard manure exposure",
                 "description": "Applied to plots 4 and 5 in 1966 and 1967, a total of 100.4t/ha .",
                 "effect": "",
@@ -295,7 +295,7 @@
                 "level": []
             },
             {
-                "id": 6130,
+                "id": 12707,
                 "name": "phosphate fertilizer exposure",
                 "description": "Applied to plots 5,6 (total of 246.6 kgP/ha) and 7 (total of 493.2kgP/ha) 1965-69",
                 "effect": "",

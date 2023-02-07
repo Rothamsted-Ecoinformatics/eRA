@@ -1,10 +1,10 @@
 {
-    "id": 2637,
+    "id": 5642,
     "experiment_type_term": null,
     "experiment_id": 48,
     "people": [
         {
-            "id": 3765,
+            "id": 6460,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -15,7 +15,7 @@
             "title": "Dr",
             "name": "Margaret Glendining",
             "affiliation": "Rothamsted Research",
-            "department": "Computational and Analytical Sciences",
+            "department": "Intelligent Data Ecosystems",
             "orcid": "https://orcid.org/0000-0002-6466-4629",
             "is_contact": true,
             "role_label": "data manager"
@@ -23,7 +23,7 @@
     ],
     "organizations": [
         {
-            "id": 2656,
+            "id": 6083,
             "contacts": [
                 {
                     "contact_type": "URL",
@@ -39,11 +39,11 @@
     ],
     "periods": [
         {
-            "id": 4027,
+            "id": 7826,
             "design_type_term": "Randomized complete block design",
             "crops": [
                 {
-                    "id": 11441,
+                    "id": 21638,
                     "crop_term": "wheat",
                     "crop_label": "wheat",
                     "start_year": null,
@@ -53,11 +53,11 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 6134,
+                    "id": 12656,
                     "factor_term": "crop residue management exposure",
                     "levels": [
                         {
-                            "id": 16694,
+                            "id": 31439,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": "0",
@@ -75,7 +75,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16695,
+                            "id": 31440,
                             "factor_variant_term": null,
                             "factor_variant_label": "Normal",
                             "amount": "5",
@@ -93,7 +93,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16696,
+                            "id": 31441,
                             "factor_variant_term": null,
                             "factor_variant_label": "2 x normal",
                             "amount": "10",
@@ -111,7 +111,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16697,
+                            "id": 31442,
                             "factor_variant_term": null,
                             "factor_variant_label": "4 x normal",
                             "amount": "20",
@@ -139,7 +139,7 @@
             "measurements": [
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 11441,
+                    "crop_id": 21638,
                     "comment": null,
                     "collection_frequency": "annual",
                     "variable_label": "grain yield trait",
@@ -194,7 +194,7 @@
     "site_soil_type_term": "luvisol",
     "site_soil_properties": [
         {
-            "id": 3837,
+            "id": 9050,
             "variable_term": "clay content",
             "unit_term": "%",
             "variable_label": "clay content",
@@ -210,7 +210,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 3838,
+            "id": 9051,
             "variable_term": "soil pH",
             "unit_term": null,
             "variable_label": "soil pH",
@@ -229,7 +229,7 @@
     "site_climatic_type_term": "temperate oceanic climate",
     "site_climate_properties": [
         {
-            "id": 1825,
+            "id": 4494,
             "variable_term": "precipitation",
             "unit_term": "mm",
             "variable_label": "precipitation",
@@ -241,7 +241,7 @@
             "unit_label": "millimeter"
         },
         {
-            "id": 1826,
+            "id": 4495,
             "variable_term": "air temperature",
             "unit_term": "degC",
             "variable_label": "air temperature",
@@ -280,7 +280,7 @@
             "language": null
         }
     ],
-    "saved_time": "2021-03-01T12:37:26.917550Z",
+    "saved_time": "2022-11-21T10:07:10.742124Z",
     "name": "Rothamsted Amounts of Straw",
     "local_identifier": "R/CS/326",
     "experiment_type_label": null,

@@ -15,9 +15,9 @@
         },
         {
             "type": "Person",
-            "jobTitle": null,
-            "name": "Andy Gregory",
-            "givenName": "Andy",
+            "jobTitle": "experiment manager",
+            "name": "Andrew Gregory",
+            "givenName": "Andrew",
             "familyName": "Gregory",
             "sameAs": "https://orcid.org/0000-0001-7123-0784",
             "affiliation": {

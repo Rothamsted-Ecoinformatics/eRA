@@ -1,10 +1,10 @@
 {
-    "id": 2713,
+    "id": 5643,
     "experiment_type_term": null,
     "experiment_id": 53,
     "people": [
         {
-            "id": 3965,
+            "id": 6461,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -15,13 +15,13 @@
             "title": "Dr",
             "name": "Sarah Perryman",
             "affiliation": "Rothamsted Research",
-            "department": "Computational and Analytical Sciences",
+            "department": "Intelligent Data Ecosystems",
             "orcid": null,
-            "is_contact": true,
+            "is_contact": false,
             "role_label": "data manager"
         },
         {
-            "id": 3966,
+            "id": 6462,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -32,13 +32,13 @@
             "title": "Dr",
             "name": "Margaret Glendining",
             "affiliation": "Rothamsted Research",
-            "department": "Computational and Analytical Sciences",
+            "department": "Intelligent Data Ecosystems",
             "orcid": "https://orcid.org/0000-0002-6466-4629",
             "is_contact": true,
             "role_label": "data manager"
         },
         {
-            "id": 3967,
+            "id": 6463,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -47,17 +47,17 @@
             ],
             "role_term": "principal investigator",
             "title": "Dr",
-            "name": "Andy Macdonald",
+            "name": "Andrew Gregory",
             "affiliation": "Rothamsted Research",
-            "department": "Sustainable Agricultural Systems",
-            "orcid": null,
+            "department": "Protecting Crops and the Environment",
+            "orcid": "https://orcid.org/0000-0001-7123-0784",
             "is_contact": false,
             "role_label": "principal investigator"
         }
     ],
     "organizations": [
         {
-            "id": 2799,
+            "id": 6084,
             "contacts": [],
             "role_term": "research organisation",
             "name": "Rothamsted Research",
@@ -68,46 +68,46 @@
     ],
     "periods": [
         {
-            "id": 4235,
+            "id": 7827,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 11732,
+                    "id": 21639,
                     "crop_term": null,
                     "crop_label": "spring beans",
                     "start_year": 1962,
                     "end_year": 1964
                 },
                 {
-                    "id": 11733,
+                    "id": 21640,
                     "crop_term": "spring barley",
                     "crop_label": "spring barley",
                     "start_year": 1965,
                     "end_year": 1967
                 },
                 {
-                    "id": 11734,
+                    "id": 21641,
                     "crop_term": "potatoes",
                     "crop_label": "potatoes",
                     "start_year": 1968,
                     "end_year": null
                 },
                 {
-                    "id": 11735,
+                    "id": 21642,
                     "crop_term": "fallow",
                     "crop_label": "fallow",
                     "start_year": 1969,
                     "end_year": null
                 },
                 {
-                    "id": 11736,
+                    "id": 21643,
                     "crop_term": "spring oats",
                     "crop_label": "spring oats",
                     "start_year": 1975,
                     "end_year": null
                 },
                 {
-                    "id": 11737,
+                    "id": 21644,
                     "crop_term": "spring rapeseed",
                     "crop_label": "spring rapeseed",
                     "start_year": 1976,
@@ -117,11 +117,11 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 7110,
+                    "id": 12657,
                     "factor_term": "liming exposure",
                     "levels": [
                         {
-                            "id": 18575,
+                            "id": 31443,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": "0",
@@ -139,7 +139,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 18576,
+                            "id": 31444,
                             "factor_variant_term": null,
                             "factor_variant_label": "lime low",
                             "amount": "7",
@@ -157,7 +157,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 18577,
+                            "id": 31445,
                             "factor_variant_term": null,
                             "factor_variant_label": "lime medium",
                             "amount": "15",
@@ -175,7 +175,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 18578,
+                            "id": 31446,
                             "factor_variant_term": null,
                             "factor_variant_label": "lime high",
                             "amount": "30",
@@ -199,11 +199,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7111,
+                    "id": 12658,
                     "factor_term": "phosphate fertilizer exposure",
                     "levels": [
                         {
-                            "id": 18579,
+                            "id": 31447,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": "0",
@@ -221,7 +221,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 18580,
+                            "id": 31448,
                             "factor_variant_term": null,
                             "factor_variant_label": "P fertilizer exposure",
                             "amount": "27.5",
@@ -245,11 +245,11 @@
                     "effect": "Cumulative"
                 },
                 {
-                    "id": 7112,
+                    "id": 12659,
                     "factor_term": "potassium fertilizer exposure",
                     "levels": [
                         {
-                            "id": 18581,
+                            "id": 31449,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": "104",
@@ -267,7 +267,7 @@
                             "chemical_form_label": "muriate of potash"
                         },
                         {
-                            "id": 18582,
+                            "id": 31450,
                             "factor_variant_term": null,
                             "factor_variant_label": "potassium K",
                             "amount": "104",
@@ -291,11 +291,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7113,
+                    "id": 12660,
                     "factor_term": "Rhizobium leguminosarum exposure",
                     "levels": [
                         {
-                            "id": 18583,
+                            "id": 31451,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": "0",
@@ -303,7 +303,7 @@
                             "amount_unit_label": null,
                             "start_year": 1962,
                             "end_year": 1962,
-                            "crop_id": 11732,
+                            "crop_id": 21639,
                             "all_crops": false,
                             "note": null,
                             "application_frequency": null,
@@ -313,7 +313,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 18584,
+                            "id": 31452,
                             "factor_variant_term": null,
                             "factor_variant_label": "Inoculated",
                             "amount": null,
@@ -321,7 +321,7 @@
                             "amount_unit_label": null,
                             "start_year": 1962,
                             "end_year": 1962,
-                            "crop_id": 11732,
+                            "crop_id": 21639,
                             "all_crops": false,
                             "note": null,
                             "application_frequency": null,
@@ -337,11 +337,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7114,
+                    "id": 12661,
                     "factor_term": "magnesium nutrient exposure",
                     "levels": [
                         {
-                            "id": 18585,
+                            "id": 31453,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": "0",
@@ -359,7 +359,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 18586,
+                            "id": 31454,
                             "factor_variant_term": null,
                             "factor_variant_label": "magnesium Mg",
                             "amount": "112",
@@ -435,74 +435,74 @@
             "factorial": true
         },
         {
-            "id": 4236,
+            "id": 7828,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 11738,
+                    "id": 21645,
                     "crop_term": "oats",
                     "crop_label": "oats",
                     "start_year": 1981,
                     "end_year": 1982
                 },
                 {
-                    "id": 11739,
+                    "id": 21646,
                     "crop_term": "potatoes",
                     "crop_label": "potatoes",
                     "start_year": 1983,
                     "end_year": null
                 },
                 {
-                    "id": 11740,
+                    "id": 21647,
                     "crop_term": "fallow",
                     "crop_label": "fallow",
                     "start_year": 1984,
                     "end_year": null
                 },
                 {
-                    "id": 11741,
+                    "id": 21648,
                     "crop_term": "barley",
                     "crop_label": "barley",
                     "start_year": 1985,
                     "end_year": null
                 },
                 {
-                    "id": 11742,
+                    "id": 21649,
                     "crop_term": "triticales",
                     "crop_label": "triticales",
                     "start_year": 1986,
                     "end_year": null
                 },
                 {
-                    "id": 11743,
+                    "id": 21650,
                     "crop_term": "lupins",
                     "crop_label": "lupins",
                     "start_year": 1987,
                     "end_year": null
                 },
                 {
-                    "id": 11744,
+                    "id": 21651,
                     "crop_term": "beans",
                     "crop_label": "beans",
                     "start_year": 1989,
                     "end_year": 1990
                 },
                 {
-                    "id": 11745,
+                    "id": 21652,
                     "crop_term": "rapeseed",
                     "crop_label": "rapeseed",
                     "start_year": 1991,
                     "end_year": 1992
                 },
                 {
-                    "id": 11746,
+                    "id": 21653,
                     "crop_term": "lupins",
                     "crop_label": "lupins",
                     "start_year": 1993,
                     "end_year": 1994
                 },
                 {
-                    "id": 11747,
+                    "id": 21654,
                     "crop_term": "wheat",
                     "crop_label": "wheat",
                     "start_year": 1995,
@@ -512,11 +512,11 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 7115,
+                    "id": 12662,
                     "factor_term": "phosphate fertilizer exposure",
                     "levels": [
                         {
-                            "id": 18587,
+                            "id": 31455,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": "0",
@@ -534,7 +534,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 18588,
+                            "id": 31456,
                             "factor_variant_term": null,
                             "factor_variant_label": "P1",
                             "amount": null,
@@ -552,7 +552,7 @@
                             "chemical_form_label": "triple superphosphate"
                         },
                         {
-                            "id": 18589,
+                            "id": 31457,
                             "factor_variant_term": null,
                             "factor_variant_label": "P2",
                             "amount": null,
@@ -570,7 +570,7 @@
                             "chemical_form_label": "triple superphosphate"
                         },
                         {
-                            "id": 18590,
+                            "id": 31458,
                             "factor_variant_term": null,
                             "factor_variant_label": "P3",
                             "amount": null,
@@ -594,11 +594,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7116,
+                    "id": 12663,
                     "factor_term": "liming exposure",
                     "levels": [
                         {
-                            "id": 18591,
+                            "id": 31459,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": "0",
@@ -616,7 +616,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 18592,
+                            "id": 31460,
                             "factor_variant_term": null,
                             "factor_variant_label": "lime low",
                             "amount": "8.0",
@@ -634,7 +634,7 @@
                             "chemical_form_label": "ground chalk"
                         },
                         {
-                            "id": 18593,
+                            "id": 31461,
                             "factor_variant_term": null,
                             "factor_variant_label": "lime medium",
                             "amount": "9.5",
@@ -652,7 +652,7 @@
                             "chemical_form_label": "ground chalk"
                         },
                         {
-                            "id": 18594,
+                            "id": 31462,
                             "factor_variant_term": null,
                             "factor_variant_label": "lime high",
                             "amount": "22.5",
@@ -676,11 +676,11 @@
                     "effect": "Residual"
                 },
                 {
-                    "id": 7117,
+                    "id": 12664,
                     "factor_term": "manganese nutrient exposure",
                     "levels": [
                         {
-                            "id": 18595,
+                            "id": 31463,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": "0",
@@ -698,7 +698,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 18596,
+                            "id": 31464,
                             "factor_variant_term": "manganese",
                             "factor_variant_label": "manganese",
                             "amount": "0.3",
@@ -722,16 +722,16 @@
                     "effect": ""
                 },
                 {
-                    "id": 7118,
+                    "id": 12665,
                     "factor_term": "sulfate fertiliser exposure",
                     "levels": [
                         {
-                            "id": 18597,
+                            "id": 31465,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": "0",
-                            "amount_unit_term": "kg/ha",
-                            "amount_unit_label": "kilogram per hectare",
+                            "amount_unit_term": "kgS/ha",
+                            "amount_unit_label": "kg sulfur per hectare",
                             "start_year": 1991,
                             "end_year": 1996,
                             "crop_id": null,
@@ -744,12 +744,12 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 18598,
+                            "id": 31466,
                             "factor_variant_term": "sulphur",
                             "factor_variant_label": "sulphur",
                             "amount": "30",
-                            "amount_unit_term": null,
-                            "amount_unit_label": "kg sulphur per hectare",
+                            "amount_unit_term": "kgS/ha",
+                            "amount_unit_label": "kg sulfur per hectare",
                             "start_year": 1991,
                             "end_year": 1996,
                             "crop_id": null,
@@ -808,7 +808,7 @@
             "end_year": 1996,
             "ongoing": true,
             "name": "Period 2",
-            "design_type_label": "Randomized block design",
+            "design_type_label": null,
             "number_of_blocks": null,
             "number_of_plots": 32,
             "number_of_subplots": 2,
@@ -827,7 +827,7 @@
     "site_soil_type_term": "luvisol",
     "site_soil_properties": [
         {
-            "id": 4163,
+            "id": 9052,
             "variable_term": "coarse sand content",
             "unit_term": "%",
             "variable_label": "coarse sand content",
@@ -843,7 +843,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 4164,
+            "id": 9053,
             "variable_term": "fine sand content",
             "unit_term": "%",
             "variable_label": "fine sand content",
@@ -859,7 +859,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 4165,
+            "id": 9054,
             "variable_term": "silt content",
             "unit_term": "%",
             "variable_label": "silt content",
@@ -875,7 +875,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 4166,
+            "id": 9055,
             "variable_term": "clay content",
             "unit_term": "%",
             "variable_label": "clay content",
@@ -891,7 +891,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 4167,
+            "id": 9056,
             "variable_term": "soil total carbon",
             "unit_term": "%",
             "variable_label": "soil total carbon",
@@ -907,7 +907,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 4168,
+            "id": 9057,
             "variable_term": "total soil nitrogen",
             "unit_term": "%",
             "variable_label": "total soil nitrogen",
@@ -923,7 +923,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 4169,
+            "id": 9058,
             "variable_term": "soil density",
             "unit_term": "t/ha",
             "variable_label": "soil density",
@@ -939,7 +939,7 @@
             "unit_label": "tonnes per hectare"
         },
         {
-            "id": 4170,
+            "id": 9059,
             "variable_term": "soil pH",
             "unit_term": null,
             "variable_label": "soil pH",
@@ -958,7 +958,7 @@
     "site_climatic_type_term": "temperate oceanic climate",
     "site_climate_properties": [
         {
-            "id": 1855,
+            "id": 4496,
             "variable_term": null,
             "unit_term": null,
             "variable_label": "annual total precipitation",
@@ -970,7 +970,7 @@
             "unit_label": "mm"
         },
         {
-            "id": 1856,
+            "id": 4497,
             "variable_term": null,
             "unit_term": "degC",
             "variable_label": "annual mean air temperature",
@@ -1014,7 +1014,7 @@
             "language": "English"
         }
     ],
-    "saved_time": "2021-03-16T12:01:55.018872Z",
+    "saved_time": "2022-11-21T10:07:36.328812Z",
     "name": "Rothamsted Long-term Liming Experiment",
     "local_identifier": "R/CS/10",
     "experiment_type_label": null,
@@ -1039,8 +1039,8 @@
     "site_elevation_unit": "Metres",
     "site_slope": null,
     "site_slope_aspect": null,
-    "site_visits_allowed": false,
-    "site_visiting_arrangements": null,
+    "site_visits_allowed": true,
+    "site_visiting_arrangements": "By arrangement with Dr Andrew Gregory",
     "site_history": "The site is an old arable site, which had not grown beans for many years. The soil was acidic and deficient in P and K. The intial pH ranged between 4.8 and 5.6. The experiment was started in 1962.",
     "site_management": "From 1962-1996 the site was managed according to conventional practices. In most years N fertilizer was applied at a rate appropriate for the crop and site, and a range of conventional pesticides were used to control weeds, pests and diseases.  Since 1997 the plots have been in grass and no treatments are applied.",
     "site_soil_type_label": "luvisol",

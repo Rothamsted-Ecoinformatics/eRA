@@ -4,8 +4,8 @@
         "identifier": "R/CS/10",
         "type": "research station field",
         "doi": null,
-        "visitsAllowed": "No",
-        "visitingArrangements": null,
+        "visitsAllowed": "Yes",
+        "visitingArrangements": "By arrangement with Dr Andrew Gregory",
         "description": "The site is an old arable site, which had not grown beans for many years. The soil was acidic and deficient in P and K. The intial pH ranged between 4.8 and 5.6. The experiment was started in 1962.",
         "management": "From 1962-1996 the site was managed according to conventional practices. In most years N fertilizer was applied at a rate appropriate for the crop and site, and a range of conventional pesticides were used to control weeds, pests and diseases.  Since 1997 the plots have been in grass and no treatments are applied."
     },

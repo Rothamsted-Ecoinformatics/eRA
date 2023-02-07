@@ -22,7 +22,7 @@
         },
         "crops": [
             {
-                "id": 10808,
+                "id": 21750,
                 "name": "Miscanthus sinensis",
                 "sameAs": "Miscanthus sinensis",
                 "dateStart": null,
@@ -32,14 +32,14 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 6053,
+                "id": 12701,
                 "name": "nitrogen fertilizer exposure",
                 "description": null,
                 "effect": "Cumulative",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 16463,
+                        "id": 31551,
                         "name": "control exposure",
                         "amount": "0",
                         "unitCode": null,
@@ -53,7 +53,7 @@
                         "notes": null
                     },
                     {
-                        "id": 16464,
+                        "id": 31552,
                         "name": "N1",
                         "amount": "60",
                         "unitCode": "kgN/ha",
@@ -67,7 +67,7 @@
                         "notes": null
                     },
                     {
-                        "id": 16465,
+                        "id": 31553,
                         "name": "N2",
                         "amount": "120",
                         "unitCode": "kgN/ha",

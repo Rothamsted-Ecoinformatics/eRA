@@ -1,14 +1,14 @@
 {
-    "id": 185,
+    "id": 5659,
     "experiment_type_term": null,
     "experiment_id": 41,
     "people": [
         {
-            "id": 60,
+            "id": 6501,
             "contacts": [],
             "role_term": "principal investigator",
             "title": "Dr",
-            "name": "Andy Macdonald",
+            "name": "Andy Gregory",
             "affiliation": "Rothamsted Research",
             "department": "Sustainable Agricultural Systems",
             "orcid": null,
@@ -16,7 +16,7 @@
             "role_label": "principal investigator"
         },
         {
-            "id": 61,
+            "id": 6502,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -35,7 +35,7 @@
     ],
     "organizations": [
         {
-            "id": 52,
+            "id": 6104,
             "contacts": [],
             "role_term": "research organisation",
             "name": "Rothamsted Research",
@@ -46,18 +46,18 @@
     ],
     "periods": [
         {
-            "id": 203,
+            "id": 7864,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 216,
+                    "id": 21799,
                     "crop_term": "wheat",
                     "crop_label": "wheat",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 217,
+                    "id": 21800,
                     "crop_term": "fallow",
                     "crop_label": "fallow",
                     "start_year": null,
@@ -70,7 +70,7 @@
             "measurements": [
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 216,
+                    "crop_id": 21799,
                     "comment": null,
                     "collection_frequency": "annually",
                     "variable_label": "harvested surface area",
@@ -81,7 +81,7 @@
                 },
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 216,
+                    "crop_id": 21799,
                     "comment": "At field moisture content",
                     "collection_frequency": "annually",
                     "variable_label": "grain yield trait",
@@ -103,7 +103,7 @@
                 },
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 216,
+                    "crop_id": 21799,
                     "comment": "straw yield",
                     "collection_frequency": "annually",
                     "variable_label": "forage yield",
@@ -129,18 +129,18 @@
             "factorial": false
         },
         {
-            "id": 204,
+            "id": 7865,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 218,
+                    "id": 21801,
                     "crop_term": "wheat",
                     "crop_label": "wheat",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 219,
+                    "id": 21802,
                     "crop_term": "fallow",
                     "crop_label": "fallow",
                     "start_year": null,
@@ -149,45 +149,45 @@
             ],
             "rotations": [
                 {
-                    "id": 46,
+                    "id": 5996,
                     "phases": [
                         {
-                            "crop_id": 218,
+                            "crop_id": 21801,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 219,
+                            "crop_id": 21802,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 219,
+                            "crop_id": 21802,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 219,
+                            "crop_id": 21802,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 218,
+                            "crop_id": 21801,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 219,
+                            "crop_id": 21802,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 218,
+                            "crop_id": 21801,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 219,
+                            "crop_id": 21802,
                             "notes": null,
                             "same_phase": false
                         }
@@ -226,7 +226,7 @@
                 },
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 218,
+                    "crop_id": 21801,
                     "comment": "Measured at field moisture content until 1957 and 85% dry matter from 1958",
                     "collection_frequency": "annually",
                     "variable_label": "grain yield trait",
@@ -237,7 +237,7 @@
                 },
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 218,
+                    "crop_id": 21801,
                     "comment": "Measured at field moisture content until 1957 and 85% dry matter from 1958",
                     "collection_frequency": "annually",
                     "variable_label": "forage yield",
@@ -274,18 +274,18 @@
             "factorial": false
         },
         {
-            "id": 205,
+            "id": 7866,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 220,
+                    "id": 21803,
                     "crop_term": "wheat",
                     "crop_label": "wheat",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 221,
+                    "id": 21804,
                     "crop_term": "fallow",
                     "crop_label": "fallow",
                     "start_year": null,
@@ -298,7 +298,7 @@
             "measurements": [
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 220,
+                    "crop_id": 21803,
                     "comment": null,
                     "collection_frequency": "annually",
                     "variable_label": "harvest date",
@@ -320,7 +320,7 @@
                 },
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 220,
+                    "crop_id": 21803,
                     "comment": "Measured at 85% dry matter",
                     "collection_frequency": "annually",
                     "variable_label": "grain yield trait",
@@ -331,7 +331,7 @@
                 },
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 220,
+                    "crop_id": 21803,
                     "comment": "Measured at 85% dry matter",
                     "collection_frequency": "annually",
                     "variable_label": "forage yield",
@@ -357,11 +357,11 @@
             "factorial": false
         },
         {
-            "id": 206,
+            "id": 7867,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 222,
+                    "id": 21805,
                     "crop_term": "wheat",
                     "crop_label": "wheat",
                     "start_year": null,
@@ -394,10 +394,47 @@
     "site_perimeter": [],
     "site_soil_type_term": "luvisol",
     "site_soil_properties": [],
-    "site_climatic_type_term": null,
-    "site_climate_properties": [],
+    "site_climatic_type_term": "temperate oceanic climate",
+    "site_climate_properties": [
+        {
+            "id": 4518,
+            "variable_term": "precipitation",
+            "unit_term": "mm",
+            "variable_label": "precipitation",
+            "year_from": 1981,
+            "year_to": 2010,
+            "mean_value": 733.0,
+            "max_value": null,
+            "min_value": null,
+            "unit_label": "millimeter"
+        },
+        {
+            "id": 4519,
+            "variable_term": "sun hours",
+            "unit_term": null,
+            "variable_label": "sun hours",
+            "year_from": 1981,
+            "year_to": 2010,
+            "mean_value": 4.4,
+            "max_value": null,
+            "min_value": null,
+            "unit_label": null
+        },
+        {
+            "id": 4520,
+            "variable_term": "air temperature",
+            "unit_term": "degC",
+            "variable_label": "air temperature",
+            "year_from": 1981,
+            "year_to": 2010,
+            "mean_value": 9.8,
+            "max_value": 13.6,
+            "min_value": 6.0,
+            "unit_label": "degree Celsius"
+        }
+    ],
     "literature": [],
-    "saved_time": "2019-08-24T12:05:19.336349Z",
+    "saved_time": "2022-11-21T10:58:11.640797Z",
     "name": "Alternate Wheat and Fallow",
     "local_identifier": "R/WF/3",
     "experiment_type_label": null,
@@ -406,8 +443,8 @@
     "end_year": 2014,
     "ongoing": false,
     "establishment_period_end": null,
-    "objective": null,
-    "description": "The Alternate Wheat and Fallow experiment was started by Lawes and Gilbert in 1856, on a 0.4 ha site on part of Hoosfield.\n\nThe experiment originally had two strips which alternated winter wheat and a bare fallow in successive years. Between 1932 and 1982, a modification was introduced to allow a yearly comparison of a one-year and a three-year fallow but the effects on the yield of the subsequent wheat crop were small and since 1983 the experiment has reverted to the original design.\n\nThe wheat cultivar grown has usually been the same as on Broadbalk, and the effects of fallowing on the yield of winter wheat can be roughly estimated by comparing yields from this experiment with continuous, unmanured wheat on Broadbalk (plot 03). In the first 10 years of the experiment the one-year fallow gave an extra 0.6 t ha-1, but over the next 60 years the difference was even smaller (0.14 t ha-1). Since its reversion to the original design in 1983, and with modern cultivars, average yields of the wheat after a one-year fallow have been 1.7 t ha-1. When expressed on the basis of the whole area (i.e. wheat plus fallow), the yield of 0.85 t ha-1 is slightly less than the 1.0 t ha-1 for continuous wheat on Broadbalk.\nSince autumn 2015, the whole experiment (both plots) has been sown to winter wheat, the same variety as is grown on Broadbalk. A small amount of N fertilizer (50 kg N ha-1) is applied in spring (mid-April), but to maintain the low soil P and K status, no other fertilizers are applied. \n\nNo yields or crop samples have been taken since harvest 2015.\n\nIt was in this experiment in 1935, that symptoms caused by the fungal pathogen Gibellina cerealis or 'white straw disease' were first recorded in the UK.",
+    "objective": "Effects of fallow on winter wheat yields.",
+    "description": "The Alternate Wheat and Fallow experiment was started by Lawes and Gilbert in 1856, on a 0.4 ha site on part of Hoosfield.\n\nThe experiment originally had two strips which alternated winter wheat and a bare fallow in successive years. Between 1932 and 1982, a modification was introduced to allow a yearly comparison of a one-year and a three-year fallow but the effects on the yield of the subsequent wheat crop were small and since 1983 the experiment has reverted to the original design.\n\nThe wheat cultivar grown has usually been the same as on Broadbalk, and the effects of fallowing on the yield of winter wheat can be roughly estimated by comparing yields from this experiment with continuous, unmanured wheat on Broadbalk (plot 03). In the first 10 years of the experiment the one-year fallow gave an extra 0.6 t ha-1, but over the next 60 years the difference was even smaller (0.14 t ha-1). Since its reversion to the original design in 1983, and with modern cultivars, average yields of the wheat after a one-year fallow have been 1.7 t ha-1. When expressed on the basis of the whole area (i.e. wheat plus fallow), the yield of 0.85 t ha-1 is slightly less than the 1.0 t ha-1 for continuous wheat on Broadbalk.\n\nSince autumn 2015, the whole experiment (both plots) has been sown to winter wheat, the same variety as is grown on Broadbalk. A small amount of N fertilizer (50 kg N ha-1) is applied in spring (mid-April), but to maintain the low soil P and K status, no other fertilizers are applied. \n\nNo yields or crop samples have been taken since harvest 2015.\n\nIt was in this experiment in 1935, that symptoms caused by the fungal pathogen Gibellina cerealis or 'white straw disease' were first recorded in the UK.",
     "site_name": "Hoosfield",
     "site_local_code": null,
     "site_geonames_id": null,
@@ -423,12 +460,12 @@
     "site_slope": null,
     "site_slope_aspect": null,
     "site_visits_allowed": true,
-    "site_visiting_arrangements": "By arrangement with Dr Andy Macdonald",
+    "site_visiting_arrangements": "By arrangement with Dr Andy Gregory, LTE Manager",
     "site_history": "The experiment is sited on part of Hoosfield that had received no applications of fertilizers or manures since 1851.",
     "site_management": null,
     "site_soil_type_label": "luvisol",
     "site_soil_description": null,
-    "site_climatic_type_label": null,
+    "site_climatic_type_label": "temperate oceanic climate",
     "site_climate_description": null,
     "data_statement_label": "Available to any researcher on request",
     "data_url": "http://www.era.rothamsted.ac.uk/Alternate",
@@ -436,8 +473,8 @@
     "data_policy_url": null,
     "data_license_label": "CC BY",
     "data_contact": null,
-    "farm_operations_data": false,
+    "farm_operations_data": true,
     "sample_archive": true,
     "samples_available": true,
-    "data_access_statement": null
+    "data_access_statement": "Contact data manager"
 }

@@ -1,27 +1,27 @@
 {
-    "id": 4455,
+    "id": 5658,
     "experiment_type_term": null,
     "experiment_id": 37,
     "people": [
         {
-            "id": 5386,
+            "id": 6499,
             "contacts": [
                 {
                     "contact_type": "Email",
-                    "value": "andy.macdonald@rothamsted.ac.uk"
+                    "value": ""
                 }
             ],
             "role_term": "principal investigator",
             "title": "Dr",
-            "name": "Andy Macdonald",
+            "name": "Andrew Gregory",
             "affiliation": "Rothamsted Research",
-            "department": "Sustainable Agricultural Science",
-            "orcid": null,
+            "department": "Protecting Crops and the Environment",
+            "orcid": "https://orcid.org/0000-0001-7123-0784",
             "is_contact": false,
             "role_label": "principal investigator"
         },
         {
-            "id": 5387,
+            "id": 6500,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -32,7 +32,7 @@
             "title": "Dr",
             "name": "Margaret Glendining",
             "affiliation": "Rothamsted Research",
-            "department": "Computational and Analytical Sciences",
+            "department": "Intelligent Data Ecosystems",
             "orcid": "0000-0002-6466-4629",
             "is_contact": true,
             "role_label": "data manager"
@@ -40,7 +40,7 @@
     ],
     "organizations": [
         {
-            "id": 4673,
+            "id": 6102,
             "contacts": [],
             "role_term": "research organisation",
             "name": "Rothamsted Research",
@@ -49,7 +49,7 @@
             "role_label": "research organisation"
         },
         {
-            "id": 4674,
+            "id": 6103,
             "contacts": [],
             "role_term": "experimental research station",
             "name": "Woburn Experimental Farm",
@@ -60,46 +60,46 @@
     ],
     "periods": [
         {
-            "id": 6398,
+            "id": 7861,
             "design_type_term": "Split-plot",
             "crops": [
                 {
-                    "id": 17482,
+                    "id": 21788,
                     "crop_term": "grass clover leys",
                     "crop_label": "grass clover leys",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 17483,
+                    "id": 21789,
                     "crop_term": "grass leys",
                     "crop_label": "grass leys",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 17484,
+                    "id": 21790,
                     "crop_term": "potatoes",
                     "crop_label": "potatoes",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 17485,
-                    "crop_term": "sugarbeet",
-                    "crop_label": "sugarbeet",
+                    "id": 21791,
+                    "crop_term": "sugar beet",
+                    "crop_label": "sugar beet",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 17486,
-                    "crop_term": "Medicago sativa",
+                    "id": 21792,
+                    "crop_term": "alfalfa",
                     "crop_label": "alfalfa",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 17487,
+                    "id": 21793,
                     "crop_term": "spring barley",
                     "crop_label": "spring barley",
                     "start_year": null,
@@ -108,7 +108,7 @@
             ],
             "rotations": [
                 {
-                    "id": 4295,
+                    "id": 5994,
                     "phases": [
                         {
                             "crop_id": null,
@@ -142,25 +142,25 @@
             "factorial": false
         },
         {
-            "id": 6399,
+            "id": 7862,
             "design_type_term": "Split-plot",
             "crops": [
                 {
-                    "id": 17488,
+                    "id": 21794,
                     "crop_term": "wheat",
                     "crop_label": "wheat",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 17489,
+                    "id": 21795,
                     "crop_term": "spring barley",
                     "crop_label": "spring barley",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 17490,
+                    "id": 21796,
                     "crop_term": "winter rye",
                     "crop_label": "winter rye",
                     "start_year": null,
@@ -169,7 +169,7 @@
             ],
             "rotations": [
                 {
-                    "id": 4296,
+                    "id": 5995,
                     "phases": [
                         {
                             "crop_id": null,
@@ -189,7 +189,7 @@
             "measurements": [
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 17488,
+                    "crop_id": 21794,
                     "comment": "Grain yields for test crops (wheat and spring barley)",
                     "collection_frequency": "annually",
                     "variable_label": "Grain yield",
@@ -237,18 +237,18 @@
             "factorial": false
         },
         {
-            "id": 6400,
+            "id": 7863,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 17491,
+                    "id": 21797,
                     "crop_term": "winter wheat",
                     "crop_label": "winter wheat",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 17492,
+                    "id": 21798,
                     "crop_term": "winter rye",
                     "crop_label": "winter rye",
                     "start_year": null,
@@ -261,7 +261,7 @@
             "measurements": [
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 17491,
+                    "crop_id": 21797,
                     "comment": "grain yield for test crops (winter wheat and winter rye)",
                     "collection_frequency": "annually",
                     "variable_label": "grain yield trait",
@@ -318,7 +318,7 @@
     "site_climatic_type_term": "temperate oceanic climate",
     "site_climate_properties": [
         {
-            "id": 3354,
+            "id": 4517,
             "variable_term": null,
             "unit_term": null,
             "variable_label": "Annual total precipitation",
@@ -337,7 +337,7 @@
             "language": "English"
         }
     ],
-    "saved_time": "2022-01-10T14:51:32.393942Z",
+    "saved_time": "2022-11-21T10:19:59.751466Z",
     "name": "Woburn Ley Arable",
     "local_identifier": "W/RN/3",
     "experiment_type_label": null,
@@ -363,7 +363,7 @@
     "site_slope": 2.0,
     "site_slope_aspect": null,
     "site_visits_allowed": true,
-    "site_visiting_arrangements": "Contact Dr Andy Macdonald",
+    "site_visiting_arrangements": "Contact Dr Andrew Gregory",
     "site_history": "The experiment started in 1938 on a site that had grown arable crops since at least 1876 and had 0.98% SOC in the topsoil.",
     "site_management": "Conventional management, ploughed. There is no irrigation.",
     "site_soil_type_label": null,

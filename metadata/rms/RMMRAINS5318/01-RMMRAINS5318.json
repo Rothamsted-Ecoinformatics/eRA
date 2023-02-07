@@ -2,14 +2,14 @@
     "@context": "https://schema.org/",
     "@type": "Dataset",
     "identifier": "10.23637/RMMRAIN5318",
-    "name": "Mean Monthly Rainfall at Rothamsted March 1853 - July 2018",
+    "name": "Total Monthly Rainfall at Rothamsted March 1853 - July 2018",
     "shortName": "RMMRAINS5318",
     "url": "https://www.era.rothamsted.ac.uk/dataset/rms/01-RMMRAINS5318",
     "description": [
         {
             "inLanguage": "en",
             "descriptionType": "Abstract",
-            "description": "This dataset represents the monthly mean rainfall at Rothamsted continuously from March 1853 - July 2018 and is based on continuous daily records measured at the site."
+            "description": "This dataset represents the total monthly rainfall at Rothamsted continuously from March 1853 - July 2018 and is based on continuous daily records measured at the site."
         },
         {
             "inLanguage": "en",
@@ -24,7 +24,7 @@
         {
             "inLanguage": "en",
             "descriptionType": "Other",
-            "description": "The original raw daily data is available, after registering, from the e-RA database. Please contact the e-RA Curators for an access password and further details."
+            "description": "The original raw daily data is available, after registering, from the e-RA database. Please contact the e-RA Curators for an access password and further details.\r\n\r\nThis datasest contains total monthly rainfall and was mistakingly titled 'Mean' monthly rainfall until Decmeber 2022 when it was corrected to 'Total' monthly rainfall; it was then superceded by the long-term total monthly rainfall 1853-2022 in January 2023."
         },
         {
             "inLanguage": "en",

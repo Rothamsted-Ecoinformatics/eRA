@@ -8,7 +8,7 @@
 
 
 DESCRIPTION
-    This is an area on the north end of Hoosfield Barley long-term field experiment with a soil pH ranging from 3.7 to 7.8 (at 0-23cm depth) due to uneven applications of chalk in the 19th Century. Spring barley was grown continuously for over 100 years. It is now sown to winter wheat each year, given only 100 kg N ha-1.The wheat starts to die out about half way along the plot, when the pHis below 5.5. This area has been used to study the relationship between soil pH, and microbial ecology and nutrient dynamics.
+    This a narrow strip of land at the northern edge of Hoosfield, Rothamsted with a soil pH ranging from 3.7 to 7.8 (at 0-23cm depth) due to uneven applications of chalk in the 19th Century. Spring barley was grown continuously for over 100 years. It is now sown to winter wheat each year, given only 100 kg N ha-1.The wheat starts to die out about half way along the plot, when the pH is below 5.5. This area has been used to study the relationship between soil pH, and microbial ecology and nutrient dynamics.
     Effects of soil acidity on soil properties under winter wheat
 
     Experiment start = 1850

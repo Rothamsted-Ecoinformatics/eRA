@@ -42,27 +42,6 @@
         "UID": "02-RMAAtemp"
     },
     {
-        "md_id": 1535448515,
-        "title": "Mean Monthly Rainfall at Rothamsted March 1853 - July 2018",
-        "URL": "https://www.era.rothamsted.ac.uk/dataset/rms/01-RMMRAINS5318",
-        "identifier": "10.23637/RMMRAIN5318",
-        "identifier_type": "DOI",
-        "dataset_type": "Weather data - Rainfall",
-        "extension": "xlsx",
-        "description": "This dataset represents the monthly mean rainfall at Rothamsted continuously from March 1853 - July 2018 and is based on continuous daily records measured at the site.",
-        "fieldname": "Rothamsted Met Station",
-        "experiment_name": "Rothamsted Meteorological Station",
-        "experiment_code": "RMS",
-        "grade": 3,
-        "dstype": "Other",
-        "publication_year": 2018,
-        "version": "01",
-        "isReady": 2,
-        "isExternal": 0,
-        "shortName": "RMMRAINS5318",
-        "UID": "01-RMMRAINS5318"
-    },
-    {
         "md_id": -604972603,
         "title": "Mean monthly temperature at Rothamsted October 1985-September 2017",
         "URL": "https://www.era.rothamsted.ac.uk/dataset/rms/01-rmsMMT10850917",
@@ -168,6 +147,27 @@
         "UID": "01-R30YrMeans9120"
     },
     {
+        "md_id": 1535448515,
+        "title": "Total Monthly Rainfall at Rothamsted March 1853 - July 2018",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rms/01-RMMRAINS5318",
+        "identifier": "10.23637/RMMRAIN5318",
+        "identifier_type": "DOI",
+        "dataset_type": "Weather data - Rainfall",
+        "extension": "xlsx",
+        "description": "This dataset represents the total monthly rainfall at Rothamsted continuously from March 1853 - July 2018 and is based on continuous daily records measured at the site.",
+        "fieldname": "Rothamsted Met Station",
+        "experiment_name": "Rothamsted Meteorological Station",
+        "experiment_code": "RMS",
+        "grade": 3,
+        "dstype": "Other",
+        "publication_year": 2018,
+        "version": "01",
+        "isReady": 2,
+        "isExternal": 0,
+        "shortName": "RMMRAINS5318",
+        "UID": "01-RMMRAINS5318"
+    },
+    {
         "md_id": -1996381318,
         "title": "Annual Mean Air Temperature at Rothamsted 1878-2013",
         "URL": "https://www.era.rothamsted.ac.uk/dataset/rms/01-RMAAtemp",
@@ -208,5 +208,26 @@
         "isExternal": 0,
         "shortName": "rmsMMR10850917",
         "UID": "01-rmsMMR10850917"
+    },
+    {
+        "md_id": 515688629,
+        "title": "Total Monthly Rainfall at Rothamsted March 1853 - December 2022",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rms/01-RMSTotalMonthyRain18532022",
+        "identifier": "10.23637/RMSTotalMonthyRain18532022",
+        "identifier_type": "DOI",
+        "dataset_type": "Weather data - Rainfall",
+        "extension": "csv",
+        "description": "This dataset represents the total monthly rainfall at Rothamsted continuously from March 1853 - December 2022 and is derived from continuous daily records measured at the site.",
+        "fieldname": "Rothamsted Met Station",
+        "experiment_name": "Rothamsted Meteorological Station",
+        "experiment_code": "RMS",
+        "grade": 1,
+        "dstype": "OA",
+        "publication_year": 0,
+        "version": "01",
+        "isReady": 1,
+        "isExternal": 0,
+        "shortName": "rmsMthRain18532022",
+        "UID": "01-rmsMthRain18532022"
     }
 ]

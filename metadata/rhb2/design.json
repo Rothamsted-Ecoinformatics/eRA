@@ -22,7 +22,7 @@
         },
         "crops": [
             {
-                "id": 10956,
+                "id": 21632,
                 "name": "spring barley",
                 "sameAs": "spring barley",
                 "dateStart": 1852,
@@ -32,19 +32,19 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 6103,
+                "id": 12641,
                 "name": "nitrogen fertilizer exposure",
                 "description": "nitrogen fertilizer in various forms applied annually",
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 16634,
+                        "id": 31406,
                         "name": "ammonium sulphate (Series A)",
                         "amount": "48",
                         "unitCode": "kgN/ha",
                         "unitText": "kg nitrogen per hectare",
-                        "appliedToCrop": 10956,
+                        "appliedToCrop": 21632,
                         "dateStart": 1852,
                         "dateEnd": 1966,
                         "frequency": "annually",
@@ -53,12 +53,12 @@
                         "notes": "Applied in the spring."
                     },
                     {
-                        "id": 16635,
+                        "id": 31407,
                         "name": "sodium nitrate (Series AA) plots 1AA-4AA",
                         "amount": "48",
                         "unitCode": "kgN/ha",
                         "unitText": "kg nitrogen per hectare",
-                        "appliedToCrop": 10956,
+                        "appliedToCrop": 21632,
                         "dateStart": 1852,
                         "dateEnd": 1966,
                         "frequency": "annually",
@@ -67,12 +67,12 @@
                         "notes": "Applied in spring."
                     },
                     {
-                        "id": 16636,
+                        "id": 31408,
                         "name": "castor meal (Series C) Plots 1C-4C",
                         "amount": "48",
                         "unitCode": "kgN/ha",
                         "unitText": "kg nitrogen per hectare",
-                        "appliedToCrop": null,
+                        "appliedToCrop": 21632,
                         "dateStart": 1852,
                         "dateEnd": 1967,
                         "frequency": "annually",
@@ -81,12 +81,12 @@
                         "notes": "Castor bean meal since 1941, rape cake 1852-1940."
                     },
                     {
-                        "id": 16637,
+                        "id": 31409,
                         "name": "No nitrogen (Series O) Plots 1O-4O",
-                        "amount": null,
-                        "unitCode": null,
-                        "unitText": null,
-                        "appliedToCrop": null,
+                        "amount": "0",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": 21632,
                         "dateStart": 1852,
                         "dateEnd": 1967,
                         "frequency": null,
@@ -97,19 +97,19 @@
                 ]
             },
             {
-                "id": 6104,
+                "id": 12642,
                 "name": "phosphate fertilizer exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 16638,
+                        "id": 31410,
                         "name": "P",
                         "amount": "35",
                         "unitCode": "kgP/ha",
                         "unitText": "kg phosphorous per hectare",
-                        "appliedToCrop": null,
+                        "appliedToCrop": 21632,
                         "dateStart": 1852,
                         "dateEnd": 1966,
                         "frequency": "annually",
@@ -120,19 +120,19 @@
                 ]
             },
             {
-                "id": 6105,
+                "id": 12643,
                 "name": "potassium fertilizer exposure",
                 "description": "inorganic potassium fertilizer applied, along with 11kgMg and 16kgNa fertilizer",
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 16639,
+                        "id": 31411,
                         "name": "KNaMg",
                         "amount": "90",
                         "unitCode": "kgK/ha",
                         "unitText": "kg potassium per hectare",
-                        "appliedToCrop": null,
+                        "appliedToCrop": 21632,
                         "dateStart": 1852,
                         "dateEnd": 1966,
                         "frequency": "annually",
@@ -143,19 +143,19 @@
                 ]
             },
             {
-                "id": 6106,
+                "id": 12644,
                 "name": "farmyard manure exposure",
                 "description": "Annual applicaton of cattle farmyard manure (FYM)",
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 16640,
+                        "id": 31412,
                         "name": "FYM strip 72",
                         "amount": "35",
                         "unitCode": "t/ha",
                         "unitText": "tonnes per hectare",
-                        "appliedToCrop": null,
+                        "appliedToCrop": 21632,
                         "dateStart": 1852,
                         "dateEnd": 1967,
                         "frequency": "annuallty",
@@ -164,12 +164,12 @@
                         "notes": "Applied before ploughing usually in the autumn"
                     },
                     {
-                        "id": 16641,
+                        "id": 31413,
                         "name": "FYM-residue strip 71",
                         "amount": "35",
                         "unitCode": "t/ha",
                         "unitText": "tonnes per hectare",
-                        "appliedToCrop": null,
+                        "appliedToCrop": 21632,
                         "dateStart": 1852,
                         "dateEnd": 1871,
                         "frequency": "annually",
@@ -178,12 +178,12 @@
                         "notes": "Applied before ploughing usually in the autumn for 20 years only"
                     },
                     {
-                        "id": 16642,
+                        "id": 31414,
                         "name": "None strip 61",
-                        "amount": null,
-                        "unitCode": null,
-                        "unitText": null,
-                        "appliedToCrop": null,
+                        "amount": "0",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": 21632,
                         "dateStart": 1852,
                         "dateEnd": 1967,
                         "frequency": null,
@@ -192,12 +192,12 @@
                         "notes": "No FYM or inorganic fertilizer applied"
                     },
                     {
-                        "id": 16643,
+                        "id": 31415,
                         "name": "Ashes strip 62",
                         "amount": null,
                         "unitCode": null,
                         "unitText": null,
-                        "appliedToCrop": null,
+                        "appliedToCrop": 21632,
                         "dateStart": 1852,
                         "dateEnd": 1932,
                         "frequency": null,
@@ -208,19 +208,19 @@
                 ]
             },
             {
-                "id": 6107,
+                "id": 12645,
                 "name": "silicon nutrient exposure",
                 "description": "Series AA 4 large plots divided into 8 sub-plots testing silicate (AA and AAS) from 1862",
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 16644,
+                        "id": 31416,
                         "name": "silicate AAS",
                         "amount": "450",
                         "unitCode": "kg/ha",
                         "unitText": "kilogram per hectare",
-                        "appliedToCrop": 10956,
+                        "appliedToCrop": 21632,
                         "dateStart": 1862,
                         "dateEnd": 1967,
                         "frequency": "annually",
@@ -229,12 +229,12 @@
                         "notes": "Silicate test on Series AA only 450 kg/ha calcium silicate and sodium silicate 1862-1867."
                     },
                     {
-                        "id": 16645,
+                        "id": 31417,
                         "name": "No silicate AA",
                         "amount": "0",
                         "unitCode": "kg/ha",
                         "unitText": "kilogram per hectare",
-                        "appliedToCrop": null,
+                        "appliedToCrop": 21632,
                         "dateStart": 1862,
                         "dateEnd": 1967,
                         "frequency": null,
@@ -245,7 +245,7 @@
                 ]
             },
             {
-                "id": 6108,
+                "id": 12646,
                 "name": "nil",
                 "description": "No P, K, Na or Mg applied since 1852. Strip 1",
                 "effect": "",
@@ -263,7 +263,7 @@
                 "scale": null,
                 "material": "SpecifiedCrop",
                 "description": "Grain and straw yields at field moisture content, approximately 85% dry matter.",
-                "crop": 10956
+                "crop": 21632
             },
             {
                 "variable": "soil organic carbon",
@@ -320,23 +320,23 @@
         },
         "crops": [
             {
-                "id": 10957,
+                "id": 21633,
                 "name": "spring barley",
                 "sameAs": "spring barley",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10958,
+                "id": 21634,
                 "name": "potatoes",
                 "sameAs": "potatoes",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10959,
-                "name": "faba beans",
-                "sameAs": "faba beans",
+                "id": 21635,
+                "name": "field beans",
+                "sameAs": "field beans",
                 "dateStart": null,
                 "dateEnd": null
             }
@@ -351,17 +351,17 @@
                 "rotationPhases": [
                     {
                         "samePhase": false,
-                        "crop": 10957,
+                        "crop": 21633,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 10959,
+                        "crop": 21635,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 10958,
+                        "crop": 21634,
                         "description": null
                     }
                 ]
@@ -375,17 +375,17 @@
                 "rotationPhases": [
                     {
                         "samePhase": false,
-                        "crop": 10957,
+                        "crop": 21633,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 10959,
+                        "crop": 21635,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 10958,
+                        "crop": 21634,
                         "description": null
                     }
                 ]
@@ -393,14 +393,14 @@
         ],
         "factor": [
             {
-                "id": 6109,
+                "id": 12647,
                 "name": "nitrogen fertilizer exposure",
                 "description": "Inorganic nitrogen fertilizer in various amounts applied annually to split plots on the rotation plots.",
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 16646,
+                        "id": 31418,
                         "name": "N0",
                         "amount": "0",
                         "unitCode": null,
@@ -414,7 +414,7 @@
                         "notes": "Nil treatment"
                     },
                     {
-                        "id": 16647,
+                        "id": 31419,
                         "name": "N1",
                         "amount": "48",
                         "unitCode": "kgN/ha",
@@ -428,7 +428,7 @@
                         "notes": "Applied in the spring"
                     },
                     {
-                        "id": 16648,
+                        "id": 31420,
                         "name": "N2",
                         "amount": "96",
                         "unitCode": "kgN/ha",
@@ -442,7 +442,7 @@
                         "notes": "Applied in the spring"
                     },
                     {
-                        "id": 16649,
+                        "id": 31421,
                         "name": "N3",
                         "amount": "144",
                         "unitCode": "kgN/ha",
@@ -458,14 +458,14 @@
                 ]
             },
             {
-                "id": 6110,
+                "id": 12648,
                 "name": "phosphate fertilizer exposure",
                 "description": "phosphate fertilizer applied annually",
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 16650,
+                        "id": 31422,
                         "name": "P",
                         "amount": "34",
                         "unitCode": "kgP/ha",
@@ -481,14 +481,14 @@
                 ]
             },
             {
-                "id": 6111,
+                "id": 12649,
                 "name": "potassium fertilizer exposure",
                 "description": "inorganic potassium fertilizer applied annually, along with 11kgMg and 16kgNa fertilizer",
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 16651,
+                        "id": 31423,
                         "name": "KNaMg",
                         "amount": "90",
                         "unitCode": "kgK/ha",
@@ -524,7 +524,7 @@
                 "scale": null,
                 "material": "SpecifiedCrop",
                 "description": "Grain and straw %N, P, K, Ca, Mg and Na since 1970.",
-                "crop": 10957
+                "crop": 21633
             },
             {
                 "variable": "thousand grain weight",
@@ -591,7 +591,7 @@
         },
         "crops": [
             {
-                "id": 10960,
+                "id": 21636,
                 "name": "spring barley",
                 "sameAs": "spring barley",
                 "dateStart": null,
@@ -601,19 +601,19 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 6112,
+                "id": 12650,
                 "name": "nitrogen fertilizer exposure",
                 "description": "Inorganic nitrogen fertilizer in various amounts applied annually to split plots",
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 16652,
+                        "id": 31424,
                         "name": "N0",
                         "amount": "0",
-                        "unitCode": null,
-                        "unitText": null,
-                        "appliedToCrop": null,
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": 21636,
                         "dateStart": null,
                         "dateEnd": null,
                         "frequency": null,
@@ -622,12 +622,12 @@
                         "notes": "SInce 1981 the N rates rotate annually, N3>N2>N1>N0"
                     },
                     {
-                        "id": 16653,
+                        "id": 31425,
                         "name": "N1",
                         "amount": "48",
                         "unitCode": "kgN/ha",
                         "unitText": "kg nitrogen per hectare",
-                        "appliedToCrop": 10960,
+                        "appliedToCrop": 21636,
                         "dateStart": 1968,
                         "dateEnd": null,
                         "frequency": "annually",
@@ -636,12 +636,12 @@
                         "notes": "Applied in spring. SInce 1981 the N rates rotate annually, N3>N2>N1>N0"
                     },
                     {
-                        "id": 16654,
+                        "id": 31426,
                         "name": "N2",
                         "amount": "96",
                         "unitCode": "kgN/ha",
                         "unitText": "kg nitrogen per hectare",
-                        "appliedToCrop": 10960,
+                        "appliedToCrop": 21636,
                         "dateStart": 1968,
                         "dateEnd": null,
                         "frequency": "annually",
@@ -650,12 +650,12 @@
                         "notes": "Applied in spring. SInce 1981 the N rates rotate annually, N3>N2>N1>N0"
                     },
                     {
-                        "id": 16655,
+                        "id": 31427,
                         "name": "N3",
                         "amount": "144",
                         "unitCode": "kgN/ha",
                         "unitText": "kg nitrogen per hectare",
-                        "appliedToCrop": 10960,
+                        "appliedToCrop": 21636,
                         "dateStart": 1968,
                         "dateEnd": null,
                         "frequency": null,
@@ -666,19 +666,19 @@
                 ]
             },
             {
-                "id": 6113,
+                "id": 12651,
                 "name": "phosphate fertilizer exposure",
                 "description": "inorganic phosphorus fertilizer applied annually since 1852",
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 16656,
+                        "id": 31428,
                         "name": "P",
                         "amount": "35",
                         "unitCode": "kgP/ha",
                         "unitText": "kg phosphorous per hectare",
-                        "appliedToCrop": 10960,
+                        "appliedToCrop": 21636,
                         "dateStart": 1852,
                         "dateEnd": 2002,
                         "frequency": "annually",
@@ -689,19 +689,19 @@
                 ]
             },
             {
-                "id": 6114,
+                "id": 12652,
                 "name": "potassium fertilizer exposure",
                 "description": "Inorganic potassium fertilizer applied annually since 1852, with inorganic Mg.",
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 16657,
+                        "id": 31429,
                         "name": "KMg",
                         "amount": "90",
                         "unitCode": "kgK/ha",
                         "unitText": "kg potassium per hectare",
-                        "appliedToCrop": 10960,
+                        "appliedToCrop": 21636,
                         "dateStart": 1852,
                         "dateEnd": null,
                         "frequency": "annually",
@@ -712,19 +712,19 @@
                 ]
             },
             {
-                "id": 6115,
+                "id": 12653,
                 "name": "farmyard manure exposure",
                 "description": "farmyard manure in various amounts and periods of application",
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 16658,
+                        "id": 31430,
                         "name": "FYM strip 72",
                         "amount": "35",
                         "unitCode": "t/ha",
                         "unitText": "tonnes per hectare",
-                        "appliedToCrop": null,
+                        "appliedToCrop": 21636,
                         "dateStart": 1852,
                         "dateEnd": null,
                         "frequency": "annually",
@@ -733,12 +733,12 @@
                         "notes": "Applied before ploughing in autumn. Continuation of FYM treatment from early and middle period."
                     },
                     {
-                        "id": 16659,
+                        "id": 31431,
                         "name": "FYM-residue strip 71",
                         "amount": "35",
                         "unitCode": "t/ha",
                         "unitText": "tonnes per hectare",
-                        "appliedToCrop": null,
+                        "appliedToCrop": 21636,
                         "dateStart": 1852,
                         "dateEnd": 1871,
                         "frequency": "annually",
@@ -747,12 +747,12 @@
                         "notes": "Continuation of FYM-residue treatment from early and middle period."
                     },
                     {
-                        "id": 16660,
+                        "id": 31432,
                         "name": "None strip 61",
-                        "amount": null,
-                        "unitCode": null,
-                        "unitText": null,
-                        "appliedToCrop": null,
+                        "amount": "0",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": 21636,
                         "dateStart": null,
                         "dateEnd": null,
                         "frequency": null,
@@ -761,12 +761,12 @@
                         "notes": "No FYM applied. Continuation of Early and Middle Period treatment."
                     },
                     {
-                        "id": 16661,
+                        "id": 31433,
                         "name": "Ash strip 62",
                         "amount": null,
                         "unitCode": null,
                         "unitText": null,
-                        "appliedToCrop": null,
+                        "appliedToCrop": 21636,
                         "dateStart": 1852,
                         "dateEnd": 1932,
                         "frequency": null,
@@ -777,14 +777,14 @@
                 ]
             },
             {
-                "id": 6116,
+                "id": 12654,
                 "name": "silicon nutrient exposure",
                 "description": "Inorganic silicate fertilizer in various amounts and periods of previous application",
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 16662,
+                        "id": 31434,
                         "name": "Si, Series AA",
                         "amount": "450",
                         "unitCode": "kg/ha",
@@ -798,7 +798,7 @@
                         "notes": "Applied before ploughing in the autumn."
                     },
                     {
-                        "id": 16663,
+                        "id": 31435,
                         "name": "(Si), Series AA",
                         "amount": "450",
                         "unitCode": "kg/ha",
@@ -824,7 +824,7 @@
                 "scale": null,
                 "material": "SpecifiedCrop",
                 "description": "Grain and straw yields at 85% dry matter.",
-                "crop": 10960
+                "crop": 21636
             },
             {
                 "variable": "crop nutrient content",
@@ -834,7 +834,7 @@
                 "scale": null,
                 "material": "SpecifiedCrop",
                 "description": "Grain and straw %N, P, K, Ca, Mg and Na since 1979, %S since 1996, from main plots only.",
-                "crop": 10960
+                "crop": 21636
             },
             {
                 "variable": "thousand grain weight",
@@ -844,7 +844,7 @@
                 "scale": null,
                 "material": "SpecifiedCrop",
                 "description": "selected plots only from 1974 onwards",
-                "crop": 10960
+                "crop": 21636
             },
             {
                 "variable": "soil organic carbon",

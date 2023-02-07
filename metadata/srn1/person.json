@@ -2,7 +2,7 @@
     "contributors": [
         {
             "type": "Person",
-            "jobTitle": "data manager",
+            "jobTitle": "data managers",
             "name": "Sarah Perryman",
             "givenName": "Sarah",
             "familyName": "Perryman",
@@ -16,10 +16,10 @@
         {
             "type": "Person",
             "jobTitle": "principal investigator",
-            "name": "Andy Macdonald",
-            "givenName": "Andy",
-            "familyName": "Macdonald",
-            "sameAs": null,
+            "name": "Andrew Gregory",
+            "givenName": "Andrew",
+            "familyName": "Gregory",
+            "sameAs": "https://orcid.org/0000-0001-7123-0784",
             "affiliation": {
                 "type": "Organization",
                 "name": "Rothamsted Research",

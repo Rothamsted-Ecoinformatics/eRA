@@ -253,7 +253,7 @@
         {
             "relatedIdentifier": "10.23637/wrn3-cropping1938-2020-01",
             "relatedIdentifierType": "DOI",
-            "name": "Woburn Ley-arable experiment cropping sequence 1938-2020",
+            "name": "Woburn Ley-arable experiment cropping sequence 1938-2020 - V1 - PDF",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsSupplementedBy",
             "rt_id": 4,
@@ -285,6 +285,15 @@
             "relationType": "IsDerivedFrom",
             "rt_id": 28,
             "relationTypeValue": "is derived from"
+        },
+        {
+            "relatedIdentifier": "10.23637/wrn3-fert1938-2020-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Woburn Ley-arable experiment fertilizer and lime applications 1938-2020",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
         }
     ],
     "funder": [

@@ -12,7 +12,13 @@ include_once 'includes/init.php'; // these are the settings that refer to more t
 
 $page_title .= " - eRApubs";
 
+$filePapers = 'metadata/default/papers.json';
 
+$hasPapers = file_exists($filePapers);
+if ($hasPapers) {
+    $jpapers = file_get_contents($filePapers);  
+    $dbpapers = json_decode($jpapers, true);
+}
 
 ?>
 <!DOCTYPE html>

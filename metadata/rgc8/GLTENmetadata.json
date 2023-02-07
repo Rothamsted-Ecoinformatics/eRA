@@ -1,11 +1,11 @@
 {
-    "id": 2728,
+    "id": 5561,
     "experiment_type_term": null,
     "experiment_id": 56,
     "people": [],
     "organizations": [
         {
-            "id": 2821,
+            "id": 6003,
             "contacts": [
                 {
                     "contact_type": "URL",
@@ -21,11 +21,11 @@
     ],
     "periods": [
         {
-            "id": 4278,
+            "id": 7660,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 11834,
+                    "id": 21219,
                     "crop_term": "red clover",
                     "crop_label": "red clover",
                     "start_year": null,
@@ -52,7 +52,7 @@
             "factorial": false
         },
         {
-            "id": 4279,
+            "id": 7661,
             "design_type_term": null,
             "crops": [],
             "rotations": [],
@@ -75,11 +75,11 @@
             "factorial": false
         },
         {
-            "id": 4280,
+            "id": 7662,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 11835,
+                    "id": 21220,
                     "crop_term": "red clover",
                     "crop_label": "red clover",
                     "start_year": null,
@@ -89,11 +89,11 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 7244,
+                    "id": 12316,
                     "factor_term": "cultivar",
                     "levels": [
                         {
-                            "id": 18847,
+                            "id": 30721,
                             "factor_variant_term": null,
                             "factor_variant_label": "Hungaropoly",
                             "amount": null,
@@ -111,7 +111,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 18848,
+                            "id": 30722,
                             "factor_variant_term": null,
                             "factor_variant_label": "S.123",
                             "amount": null,
@@ -135,11 +135,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7245,
+                    "id": 12317,
                     "factor_term": "fungicide exposure",
                     "levels": [
                         {
-                            "id": 18849,
+                            "id": 30723,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": null,
@@ -157,7 +157,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 18850,
+                            "id": 30724,
                             "factor_variant_term": null,
                             "factor_variant_label": "aldicarb",
                             "amount": "10",
@@ -199,17 +199,17 @@
             "factorial": false
         },
         {
-            "id": 4281,
+            "id": 7663,
             "design_type_term": null,
             "crops": [],
             "rotations": [],
             "factors": [
                 {
-                    "id": 7246,
+                    "id": 12318,
                     "factor_term": "fungicide exposure",
                     "levels": [
                         {
-                            "id": 18851,
+                            "id": 30725,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": null,
@@ -227,7 +227,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 18852,
+                            "id": 30726,
                             "factor_variant_term": null,
                             "factor_variant_label": "benomyl",
                             "amount": null,
@@ -269,11 +269,11 @@
             "factorial": false
         },
         {
-            "id": 4282,
+            "id": 7664,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 11836,
+                    "id": 21221,
                     "crop_term": "red clover",
                     "crop_label": "red clover",
                     "start_year": null,
@@ -283,7 +283,7 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 7247,
+                    "id": 12319,
                     "factor_term": "fungicide exposure",
                     "levels": [],
                     "factor_label": "fungicide exposure",
@@ -325,7 +325,7 @@
             "language": "English"
         }
     ],
-    "saved_time": "2021-06-02T09:17:08.847909Z",
+    "saved_time": "2022-11-18T12:13:16.282864Z",
     "name": "Garden Clover",
     "local_identifier": "R/GC/8",
     "experiment_type_label": null,
@@ -351,7 +351,7 @@
     "site_slope": null,
     "site_slope_aspect": null,
     "site_visits_allowed": true,
-    "site_visiting_arrangements": "By arrangement with Dr Andy Macdonald",
+    "site_visiting_arrangements": "By arrangement with Dr Andy Gregory, LTE Manager",
     "site_history": null,
     "site_management": null,
     "site_soil_type_label": null,

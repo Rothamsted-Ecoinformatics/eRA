@@ -22,7 +22,7 @@
         },
         "crops": [
             {
-                "id": 11834,
+                "id": 21219,
                 "name": "red clover",
                 "sameAs": "red clover",
                 "dateStart": null,
@@ -84,7 +84,7 @@
         },
         "crops": [
             {
-                "id": 11835,
+                "id": 21220,
                 "name": "red clover",
                 "sameAs": "red clover",
                 "dateStart": null,
@@ -94,14 +94,14 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 7244,
+                "id": 12316,
                 "name": "cultivar",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 18847,
+                        "id": 30721,
                         "name": "Hungaropoly",
                         "amount": null,
                         "unitCode": null,
@@ -115,7 +115,7 @@
                         "notes": null
                     },
                     {
-                        "id": 18848,
+                        "id": 30722,
                         "name": "S.123",
                         "amount": null,
                         "unitCode": null,
@@ -131,14 +131,14 @@
                 ]
             },
             {
-                "id": 7245,
+                "id": 12317,
                 "name": "fungicide exposure",
                 "description": null,
                 "effect": "Direct",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 18849,
+                        "id": 30723,
                         "name": "control exposure",
                         "amount": null,
                         "unitCode": null,
@@ -152,7 +152,7 @@
                         "notes": null
                     },
                     {
-                        "id": 18850,
+                        "id": 30724,
                         "name": "aldicarb",
                         "amount": "10",
                         "unitCode": "kg/ha",
@@ -196,14 +196,14 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 7246,
+                "id": 12318,
                 "name": "fungicide exposure",
                 "description": null,
                 "effect": "Direct",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 18851,
+                        "id": 30725,
                         "name": "control exposure",
                         "amount": null,
                         "unitCode": null,
@@ -217,7 +217,7 @@
                         "notes": null
                     },
                     {
-                        "id": 18852,
+                        "id": 30726,
                         "name": "benomyl",
                         "amount": null,
                         "unitCode": null,
@@ -259,7 +259,7 @@
         },
         "crops": [
             {
-                "id": 11836,
+                "id": 21221,
                 "name": "red clover",
                 "sameAs": "red clover",
                 "dateStart": null,
@@ -269,7 +269,7 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 7247,
+                "id": 12319,
                 "name": "fungicide exposure",
                 "description": null,
                 "effect": "Residual",

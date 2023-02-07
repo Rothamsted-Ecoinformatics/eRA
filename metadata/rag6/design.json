@@ -22,63 +22,63 @@
         },
         "crops": [
             {
-                "id": 7074,
+                "id": 21596,
                 "name": "turnips",
                 "sameAs": "turnips",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 7075,
+                "id": 21597,
                 "name": "red clover",
                 "sameAs": "red clover",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 7076,
+                "id": 21598,
                 "name": "beans",
                 "sameAs": "beans",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 7077,
+                "id": 21599,
                 "name": "barley",
                 "sameAs": "barley",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 7078,
+                "id": 21600,
                 "name": "wheat",
                 "sameAs": "wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 7079,
+                "id": 21601,
                 "name": "fallow",
                 "sameAs": "fallow",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 7080,
+                "id": 21602,
                 "name": "root vegetables",
                 "sameAs": "root vegetables",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 7081,
+                "id": 21603,
                 "name": "swedes",
                 "sameAs": "swedes",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 7082,
+                "id": 21604,
                 "name": "feed legumes",
                 "sameAs": "feed legumes",
                 "dateStart": null,
@@ -95,22 +95,22 @@
                 "rotationPhases": [
                     {
                         "samePhase": false,
-                        "crop": 7080,
+                        "crop": 21602,
                         "description": "turnips or swedes"
                     },
                     {
                         "samePhase": false,
-                        "crop": 7077,
+                        "crop": 21599,
                         "description": "undersown"
                     },
                     {
                         "samePhase": false,
-                        "crop": 7082,
+                        "crop": 21604,
                         "description": "red clover or beans"
                     },
                     {
                         "samePhase": false,
-                        "crop": 7078,
+                        "crop": 21600,
                         "description": null
                     }
                 ]
@@ -124,22 +124,22 @@
                 "rotationPhases": [
                     {
                         "samePhase": false,
-                        "crop": 7080,
+                        "crop": 21602,
                         "description": "turnips or swedes"
                     },
                     {
                         "samePhase": false,
-                        "crop": 7077,
+                        "crop": 21599,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 7079,
+                        "crop": 21601,
                         "description": "bare fallowed"
                     },
                     {
                         "samePhase": false,
-                        "crop": 7078,
+                        "crop": 21600,
                         "description": null
                     }
                 ]
@@ -147,19 +147,19 @@
         ],
         "factor": [
             {
-                "id": 3861,
+                "id": 12613,
                 "name": "fertilizer exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 11709,
+                        "id": 31334,
                         "name": "nitrogen",
                         "amount": "48",
                         "unitCode": "kgN/ha",
                         "unitText": "kg nitrogen per hectare",
-                        "appliedToCrop": 7080,
+                        "appliedToCrop": 21602,
                         "dateStart": null,
                         "dateEnd": null,
                         "frequency": "Every 4 years",
@@ -168,12 +168,12 @@
                         "notes": "Until 1912 a mixture of  ammonium chloride and ammonium sulphate"
                     },
                     {
-                        "id": 11710,
+                        "id": 31335,
                         "name": "phosphorous",
                         "amount": "41.5",
                         "unitCode": "kgP/ha",
                         "unitText": "kg phosphorous per hectare",
-                        "appliedToCrop": 7080,
+                        "appliedToCrop": 21602,
                         "dateStart": null,
                         "dateEnd": null,
                         "frequency": "Every 4 years",
@@ -182,12 +182,12 @@
                         "notes": null
                     },
                     {
-                        "id": 11711,
+                        "id": 31336,
                         "name": "potassium",
                         "amount": "224",
                         "unitCode": "kgK/ha",
                         "unitText": "kg potassium per hectare",
-                        "appliedToCrop": 7080,
+                        "appliedToCrop": 21602,
                         "dateStart": null,
                         "dateEnd": null,
                         "frequency": "Every 4 years",
@@ -196,12 +196,12 @@
                         "notes": null
                     },
                     {
-                        "id": 11712,
+                        "id": 31337,
                         "name": "sodium",
                         "amount": "16",
                         "unitCode": "kgNa/ha",
                         "unitText": "kg sodium per hectare",
-                        "appliedToCrop": 7080,
+                        "appliedToCrop": 21602,
                         "dateStart": null,
                         "dateEnd": null,
                         "frequency": "Every 4 years",
@@ -210,12 +210,12 @@
                         "notes": null
                     },
                     {
-                        "id": 11713,
+                        "id": 31338,
                         "name": "magnesium",
                         "amount": "11",
                         "unitCode": "kgMg/ha",
                         "unitText": "kg magnesium per hectare",
-                        "appliedToCrop": 7080,
+                        "appliedToCrop": 21602,
                         "dateStart": null,
                         "dateEnd": null,
                         "frequency": "Every 4 years",
@@ -224,12 +224,12 @@
                         "notes": null
                     },
                     {
-                        "id": 11714,
+                        "id": 31339,
                         "name": "castor meal",
                         "amount": "2242",
                         "unitCode": "kg/ha",
                         "unitText": "kilogram per hectare",
-                        "appliedToCrop": 7080,
+                        "appliedToCrop": 21602,
                         "dateStart": null,
                         "dateEnd": null,
                         "frequency": "Every 4 years",
@@ -238,7 +238,7 @@
                         "notes": "Supplied approximately 121 kgN/ha. Until 1936 rapeseed cake was used."
                     },
                     {
-                        "id": 11715,
+                        "id": 31340,
                         "name": "control exposure",
                         "amount": null,
                         "unitCode": null,
@@ -396,63 +396,63 @@
         },
         "crops": [
             {
-                "id": 7083,
+                "id": 21605,
                 "name": "spring barley",
                 "sameAs": "spring barley",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 7084,
+                "id": 21606,
                 "name": "spring wheat",
                 "sameAs": "spring wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 7085,
+                "id": 21607,
                 "name": "faba beans",
                 "sameAs": "faba beans",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 7086,
+                "id": 21608,
                 "name": "grass",
                 "sameAs": "grass",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 7087,
+                "id": 21609,
                 "name": "fallow",
                 "sameAs": "fallow",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 7088,
-                "name": "sugarbeet",
-                "sameAs": "sugarbeet",
+                "id": 21610,
+                "name": "sugar beet",
+                "sameAs": "sugar beet",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 7089,
+                "id": 21611,
                 "name": "potatoes",
                 "sameAs": "potatoes",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 7090,
+                "id": 21612,
                 "name": "oats",
                 "sameAs": "oats",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 7091,
+                "id": 21613,
                 "name": "winter wheat",
                 "sameAs": "winter wheat",
                 "dateStart": null,
@@ -469,17 +469,17 @@
                 "rotationPhases": [
                     {
                         "samePhase": false,
-                        "crop": 7088,
+                        "crop": 21610,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 7083,
+                        "crop": 21605,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 7089,
+                        "crop": 21611,
                         "description": null
                     }
                 ]
@@ -487,7 +487,7 @@
         ],
         "factor": [
             {
-                "id": 3862,
+                "id": 12614,
                 "name": "phosphate fertilizer exposure",
                 "description": "Effects of different amounts of soil P were tested",
                 "effect": "",
@@ -495,7 +495,7 @@
                 "level": []
             },
             {
-                "id": 3863,
+                "id": 12615,
                 "name": "potassium fertilizer exposure",
                 "description": "Effects of different amounts of soil K were tested",
                 "effect": "",

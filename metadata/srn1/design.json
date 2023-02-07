@@ -22,28 +22,28 @@
         },
         "crops": [
             {
-                "id": 10608,
+                "id": 21774,
                 "name": "wheat",
                 "sameAs": "wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10609,
+                "id": 21775,
                 "name": "root vegetables",
                 "sameAs": "root vegetables",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10610,
+                "id": 21776,
                 "name": "barley",
                 "sameAs": "barley",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10611,
+                "id": 21777,
                 "name": "feed legumes",
                 "sameAs": "feed legumes",
                 "dateStart": null,
@@ -60,22 +60,22 @@
                 "rotationPhases": [
                     {
                         "samePhase": false,
-                        "crop": 10608,
+                        "crop": 21774,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 10609,
+                        "crop": 21775,
                         "description": "Swedes or turnips in the early years, then mangolds or beetroot"
                     },
                     {
                         "samePhase": false,
-                        "crop": 10610,
+                        "crop": 21776,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 10611,
+                        "crop": 21777,
                         "description": "Normally beans but sometimes clover or peas"
                     }
                 ]
@@ -83,14 +83,14 @@
         ],
         "factor": [
             {
-                "id": 5973,
+                "id": 12709,
                 "name": "fertilizer exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 16449,
+                        "id": 31559,
                         "name": "farmyard manure",
                         "amount": "15",
                         "unitCode": "t/ha",
@@ -104,7 +104,7 @@
                         "notes": null
                     },
                     {
-                        "id": 16450,
+                        "id": 31560,
                         "name": "bone meal",
                         "amount": "0.5",
                         "unitCode": "t/ha",
@@ -118,7 +118,7 @@
                         "notes": null
                     },
                     {
-                        "id": 16451,
+                        "id": 31561,
                         "name": "nitrogen",
                         "amount": "100",
                         "unitCode": "kgN/ha",
@@ -132,7 +132,7 @@
                         "notes": null
                     },
                     {
-                        "id": 16452,
+                        "id": 31562,
                         "name": "phosphorous",
                         "amount": "40",
                         "unitCode": "kgP/ha",
@@ -146,7 +146,7 @@
                         "notes": null
                     },
                     {
-                        "id": 16453,
+                        "id": 31563,
                         "name": "potassium",
                         "amount": "63",
                         "unitCode": "kgK/ha",
@@ -352,42 +352,42 @@
         },
         "crops": [
             {
-                "id": 10612,
-                "name": "Medicago sativa",
+                "id": 21778,
+                "name": "alfalfa",
                 "sameAs": "alfalfa",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10613,
+                "id": 21779,
                 "name": "winter wheat",
                 "sameAs": "winter wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10614,
+                "id": 21780,
                 "name": "barley",
                 "sameAs": "barley",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10615,
+                "id": 21781,
                 "name": "faba beans",
                 "sameAs": "faba beans",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10616,
-                "name": "sugarbeet",
-                "sameAs": "sugarbeet",
+                "id": 21782,
+                "name": "sugar beet",
+                "sameAs": "sugar beet",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 10617,
+                "id": 21783,
                 "name": "grass leys",
                 "sameAs": "grass leys",
                 "dateStart": null,

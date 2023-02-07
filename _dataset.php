@@ -41,7 +41,7 @@ $Parsedown = new Parsedown();
     } else {
         ?>
 					
- <li class="list-group-item"><b>Data is at: </b><a
+ <li class="list-group-item"><b>Data is at: </b><a target="_BLANK" 
 							href="<?php echo $dsinfo['url'];?>"><?php echo $dsinfo['identifier'];?></a>
 								
 				<?php
@@ -59,7 +59,7 @@ $Parsedown = new Parsedown();
 						<li class="list-group-item"><b>Data access: </b><?php echo $dstypeStr;?></li>
 
 						<li class="list-group-item"><b>DOI: </b><a
-							href="http://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
+							href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
 						</li>
 						
 						<?php  if ($hasNVersion == 1) { ?>
@@ -76,7 +76,7 @@ $Parsedown = new Parsedown();
 						
 						<?php } else {?>
 						<li class="list-group-item"><b>Experiment: </b> <a
-							href="experiment/<?php echo $expt;?>#datasets"><?php echo $pageinfo['Experiment']; ?></a></li>
+							href="experiment/<?php echo $expt;?>"><?php echo $pageinfo['Experiment']; ?></a></li>
 						
 						<?php
     }

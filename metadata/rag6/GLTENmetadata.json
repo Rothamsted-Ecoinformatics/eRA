@@ -1,10 +1,10 @@
 {
-    "id": 1841,
+    "id": 5636,
     "experiment_type_term": null,
     "experiment_id": 55,
     "people": [
         {
-            "id": 2458,
+            "id": 6443,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -15,25 +15,25 @@
             "title": "Dr",
             "name": "Margaret Glendining",
             "affiliation": "Rothamsted Research",
-            "department": "Computational and Analytical Sciences",
+            "department": "Intelligent Data Ecosystems",
             "orcid": "https://orcid.org/0000-0002-6466-4629",
             "is_contact": true,
             "role_label": "data manager"
         },
         {
-            "id": 2459,
+            "id": 6444,
             "contacts": [],
             "role_term": "principal investigator",
             "title": "Dr",
-            "name": "Andy Macdonald",
+            "name": "Andrew Gregory",
             "affiliation": "Rothamsted Research",
-            "department": "Sustainable Agricultural Systems",
-            "orcid": null,
+            "department": "Protecting Crops and the Environment",
+            "orcid": "0000-0001-7123-0784",
             "is_contact": false,
             "role_label": "principal investigator"
         },
         {
-            "id": 2460,
+            "id": 6445,
             "contacts": [],
             "role_term": "data manager",
             "title": "Dr",
@@ -47,7 +47,7 @@
     ],
     "organizations": [
         {
-            "id": 1916,
+            "id": 6077,
             "contacts": [],
             "role_term": "research organisation",
             "name": "Rothamsted Research",
@@ -58,67 +58,67 @@
     ],
     "periods": [
         {
-            "id": 2691,
+            "id": 7806,
             "design_type_term": "Demonstration strip design",
             "crops": [
                 {
-                    "id": 7074,
+                    "id": 21596,
                     "crop_term": "turnips",
                     "crop_label": "turnips",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 7075,
+                    "id": 21597,
                     "crop_term": "red clover",
                     "crop_label": "red clover",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 7076,
+                    "id": 21598,
                     "crop_term": "beans",
                     "crop_label": "beans",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 7077,
+                    "id": 21599,
                     "crop_term": "barley",
                     "crop_label": "barley",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 7078,
+                    "id": 21600,
                     "crop_term": "wheat",
                     "crop_label": "wheat",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 7079,
+                    "id": 21601,
                     "crop_term": "fallow",
                     "crop_label": "fallow",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 7080,
+                    "id": 21602,
                     "crop_term": "root vegetables",
                     "crop_label": "root vegetables",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 7081,
+                    "id": 21603,
                     "crop_term": "swedes",
                     "crop_label": "swedes",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 7082,
+                    "id": 21604,
                     "crop_term": "feed legumes",
                     "crop_label": "feed legumes",
                     "start_year": null,
@@ -127,25 +127,25 @@
             ],
             "rotations": [
                 {
-                    "id": 1691,
+                    "id": 5971,
                     "phases": [
                         {
-                            "crop_id": 7080,
+                            "crop_id": 21602,
                             "notes": "turnips or swedes",
                             "same_phase": false
                         },
                         {
-                            "crop_id": 7077,
+                            "crop_id": 21599,
                             "notes": "undersown",
                             "same_phase": false
                         },
                         {
-                            "crop_id": 7082,
+                            "crop_id": 21604,
                             "notes": "red clover or beans",
                             "same_phase": false
                         },
                         {
-                            "crop_id": 7078,
+                            "crop_id": 21600,
                             "notes": null,
                             "same_phase": false
                         }
@@ -157,25 +157,25 @@
                     "is_treatment": true
                 },
                 {
-                    "id": 1692,
+                    "id": 5972,
                     "phases": [
                         {
-                            "crop_id": 7080,
+                            "crop_id": 21602,
                             "notes": "turnips or swedes",
                             "same_phase": false
                         },
                         {
-                            "crop_id": 7077,
+                            "crop_id": 21599,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 7079,
+                            "crop_id": 21601,
                             "notes": "bare fallowed",
                             "same_phase": false
                         },
                         {
-                            "crop_id": 7078,
+                            "crop_id": 21600,
                             "notes": null,
                             "same_phase": false
                         }
@@ -189,11 +189,11 @@
             ],
             "factors": [
                 {
-                    "id": 3861,
+                    "id": 12613,
                     "factor_term": "fertilizer exposure",
                     "levels": [
                         {
-                            "id": 11709,
+                            "id": 31334,
                             "factor_variant_term": "nitrogen",
                             "factor_variant_label": "nitrogen",
                             "amount": "48",
@@ -201,7 +201,7 @@
                             "amount_unit_label": "kg nitrogen per hectare",
                             "start_year": null,
                             "end_year": null,
-                            "crop_id": 7080,
+                            "crop_id": 21602,
                             "all_crops": false,
                             "note": "Until 1912 a mixture of  ammonium chloride and ammonium sulphate",
                             "application_frequency": "Every 4 years",
@@ -211,7 +211,7 @@
                             "chemical_form_label": "ammonium sulfate"
                         },
                         {
-                            "id": 11710,
+                            "id": 31335,
                             "factor_variant_term": "phosphorous",
                             "factor_variant_label": "phosphorous",
                             "amount": "41.5",
@@ -219,7 +219,7 @@
                             "amount_unit_label": "kg phosphorous per hectare",
                             "start_year": null,
                             "end_year": null,
-                            "crop_id": 7080,
+                            "crop_id": 21602,
                             "all_crops": false,
                             "note": null,
                             "application_frequency": "Every 4 years",
@@ -229,7 +229,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 11711,
+                            "id": 31336,
                             "factor_variant_term": "potassium",
                             "factor_variant_label": "potassium",
                             "amount": "224",
@@ -237,7 +237,7 @@
                             "amount_unit_label": "kg potassium per hectare",
                             "start_year": null,
                             "end_year": null,
-                            "crop_id": 7080,
+                            "crop_id": 21602,
                             "all_crops": false,
                             "note": null,
                             "application_frequency": "Every 4 years",
@@ -247,7 +247,7 @@
                             "chemical_form_label": "potassium chloride"
                         },
                         {
-                            "id": 11712,
+                            "id": 31337,
                             "factor_variant_term": "sodium",
                             "factor_variant_label": "sodium",
                             "amount": "16",
@@ -255,7 +255,7 @@
                             "amount_unit_label": "kg sodium per hectare",
                             "start_year": null,
                             "end_year": null,
-                            "crop_id": 7080,
+                            "crop_id": 21602,
                             "all_crops": false,
                             "note": null,
                             "application_frequency": "Every 4 years",
@@ -265,7 +265,7 @@
                             "chemical_form_label": "sodium sulphate"
                         },
                         {
-                            "id": 11713,
+                            "id": 31338,
                             "factor_variant_term": "magnesium",
                             "factor_variant_label": "magnesium",
                             "amount": "11",
@@ -273,7 +273,7 @@
                             "amount_unit_label": "kg magnesium per hectare",
                             "start_year": null,
                             "end_year": null,
-                            "crop_id": 7080,
+                            "crop_id": 21602,
                             "all_crops": false,
                             "note": null,
                             "application_frequency": "Every 4 years",
@@ -283,7 +283,7 @@
                             "chemical_form_label": "magnesium sulphate"
                         },
                         {
-                            "id": 11714,
+                            "id": 31339,
                             "factor_variant_term": "castor meal",
                             "factor_variant_label": "castor meal",
                             "amount": "2242",
@@ -291,7 +291,7 @@
                             "amount_unit_label": "kilogram per hectare",
                             "start_year": null,
                             "end_year": null,
-                            "crop_id": 7080,
+                            "crop_id": 21602,
                             "all_crops": false,
                             "note": "Supplied approximately 121 kgN/ha. Until 1936 rapeseed cake was used.",
                             "application_frequency": "Every 4 years",
@@ -301,7 +301,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 11715,
+                            "id": 31340,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": null,
@@ -329,50 +329,50 @@
                 {
                     "members": [
                         {
-                            "factor_id": 3861,
+                            "factor_id": 12613,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 11709,
+                            "factor_level_id": 31334,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 3861,
+                            "factor_id": 12613,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 11710,
+                            "factor_level_id": 31335,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 3861,
+                            "factor_id": 12613,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 11711,
+                            "factor_level_id": 31336,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 3861,
+                            "factor_id": 12613,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 11712,
+                            "factor_level_id": 31337,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 3861,
+                            "factor_id": 12613,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 11714,
+                            "factor_level_id": 31339,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -387,40 +387,40 @@
                 {
                     "members": [
                         {
-                            "factor_id": 3861,
+                            "factor_id": 12613,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 11710,
+                            "factor_level_id": 31335,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 3861,
+                            "factor_id": 12613,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 11711,
+                            "factor_level_id": 31336,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 3861,
+                            "factor_id": 12613,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 11712,
+                            "factor_level_id": 31337,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 3861,
+                            "factor_id": 12613,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 11713,
+                            "factor_level_id": 31338,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -435,10 +435,10 @@
                 {
                     "members": [
                         {
-                            "factor_id": 3861,
+                            "factor_id": 12613,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 11715,
+                            "factor_level_id": 31340,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -502,67 +502,67 @@
             "factorial": false
         },
         {
-            "id": 2692,
+            "id": 7807,
             "design_type_term": "Other",
             "crops": [
                 {
-                    "id": 7083,
+                    "id": 21605,
                     "crop_term": "spring barley",
                     "crop_label": "spring barley",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 7084,
+                    "id": 21606,
                     "crop_term": "spring wheat",
                     "crop_label": "spring wheat",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 7085,
+                    "id": 21607,
                     "crop_term": "faba beans",
                     "crop_label": "faba beans",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 7086,
+                    "id": 21608,
                     "crop_term": "grass",
                     "crop_label": "grass",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 7087,
+                    "id": 21609,
                     "crop_term": "fallow",
                     "crop_label": "fallow",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 7088,
-                    "crop_term": "sugarbeet",
-                    "crop_label": "sugarbeet",
+                    "id": 21610,
+                    "crop_term": "sugar beet",
+                    "crop_label": "sugar beet",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 7089,
+                    "id": 21611,
                     "crop_term": "potatoes",
                     "crop_label": "potatoes",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 7090,
+                    "id": 21612,
                     "crop_term": "oats",
                     "crop_label": "oats",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 7091,
+                    "id": 21613,
                     "crop_term": "winter wheat",
                     "crop_label": "winter wheat",
                     "start_year": null,
@@ -571,20 +571,20 @@
             ],
             "rotations": [
                 {
-                    "id": 1693,
+                    "id": 5973,
                     "phases": [
                         {
-                            "crop_id": 7088,
+                            "crop_id": 21610,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 7083,
+                            "crop_id": 21605,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 7089,
+                            "crop_id": 21611,
                             "notes": null,
                             "same_phase": false
                         }
@@ -598,7 +598,7 @@
             ],
             "factors": [
                 {
-                    "id": 3862,
+                    "id": 12614,
                     "factor_term": "phosphate fertilizer exposure",
                     "levels": [],
                     "factor_label": "phosphate fertilizer exposure",
@@ -607,7 +607,7 @@
                     "effect": ""
                 },
                 {
-                    "id": 3863,
+                    "id": 12615,
                     "factor_term": "potassium fertilizer exposure",
                     "levels": [],
                     "factor_label": "potassium fertilizer exposure",
@@ -677,7 +677,7 @@
     "site_climatic_type_term": "temperate oceanic climate",
     "site_climate_properties": [
         {
-            "id": 1274,
+            "id": 4482,
             "variable_term": null,
             "unit_term": "mm",
             "variable_label": "mean total precipitation",
@@ -689,15 +689,15 @@
             "unit_label": "millimeter"
         },
         {
-            "id": 1275,
+            "id": 4483,
             "variable_term": null,
             "unit_term": "degC",
             "variable_label": "mean annual air temperature",
             "year_from": 1981,
             "year_to": 2010,
             "mean_value": 9.8,
-            "max_value": null,
-            "min_value": null,
+            "max_value": 10.89,
+            "min_value": 8.51,
             "unit_label": "degree Celsius"
         }
     ],
@@ -718,7 +718,7 @@
             "language": null
         }
     ],
-    "saved_time": "2020-06-08T14:14:51.465977Z",
+    "saved_time": "2022-11-21T10:04:10.467792Z",
     "name": "Agdell",
     "local_identifier": "R/AG/6",
     "experiment_type_label": null,

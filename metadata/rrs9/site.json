@@ -4,9 +4,9 @@
         "identifier": "R/RS/9",
         "type": "research station field",
         "doi": null,
-        "visitsAllowed": "No",
-        "visitingArrangements": "By arrangement with Dr Andy Macdonald",
-        "description": "The acid strip is sited at one end of Hoosfield Barley Long-term Experiment. It been under arable management since before the 19th century. It had uneven applications of chalk in the 19th century at which time chalk was dug from 'bell-pits' on neighboring slopes and spread by hand to improve the fertility and workability of the originally acid soils. Spring barley was grown continuously for over 100 years. It is now sown to winter wheat each year. The acid strip has not received any amendment including chemical or organic fertilizer since then. By the 1950's, reserves of CaCO3 remaining from earlier applications had become exhausted by leaching, especially at further distances from the chalk pits. Here the soil became acidic. It is now sown to winter wheat each year and the wheat starts to die out about half way along the plot, when the pH is below 5.5.",
+        "visitsAllowed": "Yes",
+        "visitingArrangements": "By arrangement with Dr Andy Gregory, LTE Manager",
+        "description": "The acid strip is sited at the northern end of Hoosfield, Rothamsted . It been under arable management since before the 19th century. It had uneven applications of chalk in the 19th century at which time chalk was dug from 'bell-pits' on neighboring slopes and spread by hand to improve the fertility and workability of the originally acid soils. Spring barley was grown continuously for over 100 years. It is now sown to winter wheat each year. The acid strip has not received any amendment including chemical or organic fertilizer since then. By the 1950's, reserves of CaCO3 remaining from earlier applications had become exhausted by leaching, especially at further distances from the chalk pits. Here the soil became acidic. It is now sown to winter wheat each year and the wheat starts to die out about half way along the plot, when the pH is below 5.5.",
         "management": "100 kg N ha-1 applied per year."
     },
     "location": {
@@ -14,8 +14,8 @@
         "addressRegion": "Hertfordshire",
         "addressCountry": "United Kingdom",
         "geoLocationPoint": {
-            "pointLongitude": -0.375816,
-            "pointLatitude": 51.812629
+            "pointLongitude": -0.376107,
+            "pointLatitude": 51.812944
         },
         "geoLocationPlace": "United Kingdom",
         "polygon": "NOT IN GLTEN",

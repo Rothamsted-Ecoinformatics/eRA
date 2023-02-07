@@ -2,37 +2,52 @@
     "@context": "https://schema.org/",
     "@type": "Dataset",
     "identifier": "10.23637/rcs10-rltlsoil-01",
-    "name": "Rothamsted long-term liming experiment soil properties 1962-1996",
+    "name": "Rothamsted long-term liming experiment soil chemical properties 1962-1996",
     "shortName": "RLTLSOIL",
     "url": "https://www.era.rothamsted.ac.uk/dataset/rcs10/01-RLTLSOIL",
     "description": [
         {
             "inLanguage": "en",
             "descriptionType": "Abstract",
-            "description": "The experiment tests the effects of different amounts of lime (and thus soil pH), P and K on a sequence of arable crops, on a silty clay loam soil at Rothamsted Experimental Farm, from 1962-1996. Mg, Mn and S were tested on split plots at different times. Target soil pH was 4.5, 5.5, 6.5 and 7.5. There is a parallel experiment at Woburn Experimental Farm. Since 1997 the experiment has been in grass."
+            "description": "The experiment tests the effects of different amounts of lime (and thus soil pH), P and K on a sequence of arable crops, on a silty clay loam soil at Rothamsted Experimental Farm, from 1962-1996. Mg, Mn and S were tested on split plots at different times. Target soil pH was 4.5, 5.5, 6.5 and 7.5. This dataset contains soil pH, Olsen P and exchangeable cations (Ca, K, Mg and Na). There is a parallel experiment at Woburn Experimental Farm. Since 1997 the experiment has been in grass."
         },
         {
             "inLanguage": "en",
             "descriptionType": "Methods",
-            "description": "Period 1 (1962-1980): four lime levels with and without fertilizer P and K. Magnesium was tested on split plots 1974-1978. Period 2 (1981-1996): four lime levels with four P levels. Manganese was tested on split plots 1987-1990; Sulphur was tested on split plots 1991-1996. 2 replicates."
+            "description": "Period 1 (1962-1980): four lime levels with and without fertilizer P and K. Magnesium was tested on split plots 1974-1978. Period 2 (1981-1996): four lime levels with four P levels. Manganese was tested on split plots 1987-1990; Sulphur was tested on split plots 1991-1996. 2 replicates.\r\n\r\n- **Soil pH** measured in water: 1:2.5 soil: water suspension using a standard electrode and pH meter.\r\n- **Olsen P** soil extracted with a solution of 0.5 M NaHCO<sub>3</sub>, buffered at pH8.5, after the method of Olsen et al, 1954.\r\n- **Exchangeable cations** measured in sieved (<2mm) air-dry soil leached with 1 M ammonium acetate, adjusted to pH 7. Leachates analysed by emission or atomic absorption flame spectrophotometry.  Since 1989, the extracts have been analysed by ICP-OES (Inductively Coupled Plasma - Optical Emission Spectrometer)."
         },
         {
             "inLanguage": "en",
             "descriptionType": "TableOfContents",
-            "description": "This dataset contains soil pH, Olsen P (plant-available soil P) and exchangeable cations (Ca, K, Mg and Na) measured several times over the course of the experiment."
+            "description": "An Excel file, 01-RothLTliming-soil.xlsx contains soil pH, Olsen P (plant-available soil P) and exchangeable cations (Ca, K, Mg and Na), measured several times 1962-1994 (not measured every year). Also included are details of the lime (chalk) applications and the different fertilizer treatments. \r\n\r\nFrictionless CSV files are provided for users who prefer CSV over Excel files."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TechnicalInfo",
+            "description": "Air-dried soil, sieved (<2mm). Topsoil (usually 0-23cm) and some sub-soil measurements. For topsoil 12-20 cores were taken from the central area of each plot and combined to make one sample. For subsoil, generally 5-6 cores were taken and combined. Baseline soil pH measurements were taken in February 1962, before the first lime application. Soil samples were generally taken in the autumn, after the current crop was harvested and before the soil was ploughed for the next harvest year, so that the soil properties could be related to the treatments applied in the previous harvest year."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Other",
+            "description": "- **Olsen et al, 1954**   Olsen S.R., Cole C.V., Watanabe F.S., Dean L.A. (1954) Estimation of available phosphorus in soils by extraction with sodium bicarbonate. USDA Circular 939, US Gov. Print. Office, Washington, D.C."
         },
         {
             "inLanguage": "en",
             "descriptionType": "Provenance",
-            "description": "Information is taken from original raw data sheets and analysis files, held in the archives at Rothamsted Research."
+            "description": "Information is taken from original raw data sheets and analysis files, held in the archives at Rothamsted Research. The data is derived from measurements made by the Analytical Chemistry Unit, Rothamsted Research, Harpenden."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Quality",
+            "description": "In accordance with the Joint Code of Practice for Research at Rothamsted, data processing in e-RA follow rigorous standard operating procedures to ensure the quality and correctness of data collected in the field through to depositing in the e-RA database. To ensure quality control during data inputting, the data sets were typed on two separate occasions (double data entry). During the second typing (verification) the data values were compared with those typed on the earlier occasion, and any discrepancies were resolved before verification continued. This procedure also set out how to handle situations where the written records were illegible or ambiguous. This procedure avoided visual checking of data, which can be very inaccurate.\r\nThe Analytical Chemistry Unit follows the Joint Code of Practice (JCoPR) and participates in European Quality Assurance programmes. All performance is strictly monitored using certified external standards alongside in-house standard materials. Standards and check samples are monitored and recorded."
         }
     ],
     "publisher": {
         "type": "organization",
         "name": "Electronic Rothamsted Archive, Rothamsted Research"
     },
-    "publication_year": 2021,
-    "dateCreated": null,
+    "publication_year": 2023,
+    "dateCreated": "2023-01-09",
     "dateModified": null,
     "datePublished": null,
     "inLanguage": "en",
@@ -254,10 +269,97 @@
         },
         "name": "Sawyers I"
     },
-    "relatedIdentifier": [],
-    "funder": [],
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-34802",
+            "relatedIdentifierType": "DOI",
+            "name": "Bolton, 1971. Paper describing setting up the experiment and results from the early years",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.1017/S0021859600027222",
+            "relatedIdentifierType": "DOI",
+            "name": "Bolton, 1977a. Paper describing liming response of potatoes and oats to P, K and Mg.",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.1017/S0021859600027222",
+            "relatedIdentifierType": "DOI",
+            "name": "Bolton, 1977b. Paper describing changes in soil pH and exchangeable calcium over first 12 years",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.1016/j.eja.2019.02.016",
+            "relatedIdentifierType": "DOI",
+            "name": "Holland et al, 2019. Paper describing yield response of all crops grown, 1962-1996",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rcs10-Plans",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted long-term liming experiment plans 1962-1996",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rcs10-Treatments-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted long-term liming experiments lime and fertilizer treatments 1962-1996",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
+        },
+        {
+            "relatedIdentifier": "10.23637/rcs10-rltlyields-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted long-term liming experiment crop yield 1962-1996",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        }
+    ],
+    "funder": [
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/00005189 - The Rothamsted Long-Term Experiments including Sample Archive and e-RA database",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F00005189"
+        },
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/000J0300 - The Rothamsted Long - Term Experiments - National Capability",
+            "identifier": "https://gtr.ukri.org/projects?ref=BBS%2FE%2FC%2F000J0300"
+        }
+    ],
     "distribution": [],
-    "image": [],
+    "image": [
+        {
+            "type": "imageObject",
+            "caption": null,
+            "URL": "soilpH.png",
+            "encodingFormat": "png",
+            "fileSize": "18 KB"
+        }
+    ],
     "grade": 3,
     "isExternal": 0,
     "dstype": "Other"

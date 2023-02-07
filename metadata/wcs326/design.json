@@ -22,7 +22,7 @@
         },
         "crops": [
             {
-                "id": 11445,
+                "id": 21678,
                 "name": "wheat",
                 "sameAs": "wheat",
                 "dateStart": null,
@@ -32,14 +32,14 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 6138,
+                "id": 12673,
                 "name": "crop residue management exposure",
                 "description": "Chopped wheat straw applied annually before sowing.",
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 16710,
+                        "id": 31472,
                         "name": "control exposure",
                         "amount": null,
                         "unitCode": null,
@@ -53,7 +53,7 @@
                         "notes": "All crop residues were removed."
                     },
                     {
-                        "id": 16711,
+                        "id": 31473,
                         "name": "normal",
                         "amount": "5",
                         "unitCode": "t/ha",
@@ -67,7 +67,7 @@
                         "notes": null
                     },
                     {
-                        "id": 16712,
+                        "id": 31474,
                         "name": "2 x normal",
                         "amount": "20",
                         "unitCode": "t/ha",
@@ -81,7 +81,7 @@
                         "notes": null
                     },
                     {
-                        "id": 16713,
+                        "id": 31475,
                         "name": "4 x normal",
                         "amount": "20",
                         "unitCode": "t/ha",
@@ -107,7 +107,7 @@
                 "scale": "plot",
                 "material": "SpecifiedCrop",
                 "description": null,
-                "crop": 11445
+                "crop": 21678
             },
             {
                 "variable": "total soil nitrogen",

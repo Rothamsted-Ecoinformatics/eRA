@@ -29,10 +29,10 @@
         {
             "type": "Person",
             "jobTitle": "principal investigator",
-            "name": "Andrew MacDonald",
-            "givenName": "Andrew",
-            "familyName": "MacDonald",
-            "sameAs": "https://orcid.org/0000-0002-1785-4892",
+            "name": "Andy Gregory",
+            "givenName": "Andy",
+            "familyName": "Gregory",
+            "sameAs": null,
             "affiliation": {
                 "type": "Organization",
                 "name": "Rothamsted Research",

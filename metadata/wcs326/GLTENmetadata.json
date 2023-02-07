@@ -1,10 +1,10 @@
 {
-    "id": 2641,
+    "id": 5646,
     "experiment_type_term": null,
     "experiment_id": 49,
     "people": [
         {
-            "id": 3772,
+            "id": 6470,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -15,27 +15,27 @@
             "title": "Dr",
             "name": "Margaret Glendining",
             "affiliation": "Rothamsted Research",
-            "department": "Computational and Analytical Sciences",
+            "department": "Intelligent Data Ecosystems",
             "orcid": "https://orcid.org/0000-0002-6466-4629",
             "is_contact": true,
             "role_label": "data manager"
         },
         {
-            "id": 3773,
+            "id": 6471,
             "contacts": [],
             "role_term": "experiment manager",
             "title": "Dr",
-            "name": "Andy Macdonald",
+            "name": "Andrew Gregory",
             "affiliation": "Rothamsted Research",
-            "department": "Sustainable Agricultural Sciences",
-            "orcid": null,
+            "department": "Protecting Crops and the Environment",
+            "orcid": "https://orcid.org/0000-0001-7123-0784",
             "is_contact": false,
             "role_label": "experiment manager"
         }
     ],
     "organizations": [
         {
-            "id": 2663,
+            "id": 6087,
             "contacts": [
                 {
                     "contact_type": "URL",
@@ -49,7 +49,7 @@
             "role_label": "research organisation"
         },
         {
-            "id": 2664,
+            "id": 6088,
             "contacts": [],
             "role_term": "experimental research station",
             "name": "Woburn Experimental Farm",
@@ -60,11 +60,11 @@
     ],
     "periods": [
         {
-            "id": 4031,
+            "id": 7834,
             "design_type_term": "Randomized complete block design",
             "crops": [
                 {
-                    "id": 11445,
+                    "id": 21678,
                     "crop_term": "wheat",
                     "crop_label": "wheat",
                     "start_year": null,
@@ -74,11 +74,11 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 6138,
+                    "id": 12673,
                     "factor_term": "crop residue management exposure",
                     "levels": [
                         {
-                            "id": 16710,
+                            "id": 31472,
                             "factor_variant_term": "control exposure",
                             "factor_variant_label": "control exposure",
                             "amount": null,
@@ -96,7 +96,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16711,
+                            "id": 31473,
                             "factor_variant_term": null,
                             "factor_variant_label": "normal",
                             "amount": "5",
@@ -114,7 +114,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16712,
+                            "id": 31474,
                             "factor_variant_term": null,
                             "factor_variant_label": "2 x normal",
                             "amount": "20",
@@ -132,7 +132,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16713,
+                            "id": 31475,
                             "factor_variant_term": null,
                             "factor_variant_label": "4 x normal",
                             "amount": "20",
@@ -160,7 +160,7 @@
             "measurements": [
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 11445,
+                    "crop_id": 21678,
                     "comment": null,
                     "collection_frequency": "annually",
                     "variable_label": "grain yield trait",
@@ -215,7 +215,7 @@
     "site_soil_type_term": "cambisol",
     "site_soil_properties": [
         {
-            "id": 3843,
+            "id": 9060,
             "variable_term": "clay content",
             "unit_term": "%",
             "variable_label": "clay content",
@@ -231,7 +231,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 3844,
+            "id": 9061,
             "variable_term": "soil pH",
             "unit_term": null,
             "variable_label": "soil pH",
@@ -250,7 +250,7 @@
     "site_climatic_type_term": "temperate oceanic climate",
     "site_climate_properties": [
         {
-            "id": 1833,
+            "id": 4502,
             "variable_term": "precipitation",
             "unit_term": "mm",
             "variable_label": "precipitation",
@@ -262,7 +262,7 @@
             "unit_label": "millimeter"
         },
         {
-            "id": 1834,
+            "id": 4503,
             "variable_term": "air temperature",
             "unit_term": "degC",
             "variable_label": "air temperature",
@@ -296,7 +296,7 @@
             "language": "English"
         }
     ],
-    "saved_time": "2021-03-01T14:52:23.003639Z",
+    "saved_time": "2022-11-21T10:09:14.267631Z",
     "name": "Woburn Amounts of Straw",
     "local_identifier": "W/CS/326",
     "experiment_type_label": null,

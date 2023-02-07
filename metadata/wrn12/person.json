@@ -12,6 +12,19 @@
                 "name": "Rothamsted Research",
                 "address": "West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "experiment manager",
+            "name": "Andrew Gregory",
+            "givenName": "Andrew",
+            "familyName": "Gregory",
+            "sameAs": "https://orcid.org/0000-0001-7123-0784",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": "West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
         }
     ]
 }

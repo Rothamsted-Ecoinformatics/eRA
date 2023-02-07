@@ -13,19 +13,7 @@ global $person;
 function getPersonInfo($personDetails)
 {
 
-    // {
-    // "type": "Person",
-    // "jobTitle": null,
-    // "name": "Andy Macdonald",
-    // "givenName": "Andy",
-    // "familyName": "Macdonald",
-    // "sameAs": null,
-    // "affiliation": {
-    // "type": "Organization",
-    // "name": "Computational and Analytical Sciences, Rothamsted Research",
-    // "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
-    // }
-    // },
+
     $line = "";
     if ($personDetails['name']) {
         $line .= "\n<li class=\"list-group-item \"><h4 class=\"mt-3\">" . $personDetails['name'] . "</h4></li>";

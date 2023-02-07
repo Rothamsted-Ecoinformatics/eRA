@@ -22,42 +22,42 @@
         },
         "crops": [
             {
-                "id": 17482,
+                "id": 21788,
                 "name": "grass clover leys",
                 "sameAs": "grass clover leys",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 17483,
+                "id": 21789,
                 "name": "grass leys",
                 "sameAs": "grass leys",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 17484,
+                "id": 21790,
                 "name": "potatoes",
                 "sameAs": "potatoes",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 17485,
-                "name": "sugarbeet",
-                "sameAs": "sugarbeet",
+                "id": 21791,
+                "name": "sugar beet",
+                "sameAs": "sugar beet",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 17486,
-                "name": "Medicago sativa",
+                "id": 21792,
+                "name": "alfalfa",
                 "sameAs": "alfalfa",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 17487,
+                "id": 21793,
                 "name": "spring barley",
                 "sameAs": "spring barley",
                 "dateStart": null,
@@ -107,21 +107,21 @@
         },
         "crops": [
             {
-                "id": 17488,
+                "id": 21794,
                 "name": "wheat",
                 "sameAs": "wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 17489,
+                "id": 21795,
                 "name": "spring barley",
                 "sameAs": "spring barley",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 17490,
+                "id": 21796,
                 "name": "winter rye",
                 "sameAs": "winter rye",
                 "dateStart": null,
@@ -155,7 +155,7 @@
                 "scale": null,
                 "material": "SpecifiedCrop",
                 "description": "Grain yields for test crops (wheat and spring barley)",
-                "crop": 17488
+                "crop": 21794
             },
             {
                 "variable": "soil organic carbon",
@@ -202,14 +202,14 @@
         },
         "crops": [
             {
-                "id": 17491,
+                "id": 21797,
                 "name": "winter wheat",
                 "sameAs": "winter wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 17492,
+                "id": 21798,
                 "name": "winter rye",
                 "sameAs": "winter rye",
                 "dateStart": null,
@@ -228,7 +228,7 @@
                 "scale": null,
                 "material": "SpecifiedCrop",
                 "description": "grain yield for test crops (winter wheat and winter rye)",
-                "crop": 17491
+                "crop": 21797
             },
             {
                 "variable": "soil organic carbon",

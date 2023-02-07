@@ -22,7 +22,7 @@
         },
         "crops": [
             {
-                "id": 3785,
+                "id": 21971,
                 "name": "winter wheat",
                 "sameAs": "winter wheat",
                 "dateStart": null,
@@ -32,7 +32,7 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 1786,
+                "id": 12832,
                 "name": "liming exposure",
                 "description": "Small amounts of chalk applied in 19th century",
                 "effect": "",
@@ -41,6 +41,17 @@
             }
         ],
         "factorCombinations": "NA",
-        "measurements": "NA"
+        "measurements": [
+            {
+                "variable": "soil pH",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": null,
+                "crop": null
+            }
+        ]
     }
 ]

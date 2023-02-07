@@ -22,14 +22,14 @@
         },
         "crops": [
             {
-                "id": 2222,
+                "id": 21259,
                 "name": "maize",
                 "sameAs": "maize",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 2223,
+                "id": 21260,
                 "name": "barley",
                 "sameAs": "barley",
                 "dateStart": null,
@@ -39,14 +39,14 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 1088,
+                "id": 12341,
                 "name": "crop residue management exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 2974,
+                        "id": 30776,
                         "name": "Continuous maize, stubble incorporated",
                         "amount": null,
                         "unitCode": null,
@@ -60,7 +60,7 @@
                         "notes": null
                     },
                     {
-                        "id": 2975,
+                        "id": 30777,
                         "name": "Continuous maize, stubble plus 10t maize tops incorporated",
                         "amount": null,
                         "unitCode": null,
@@ -74,7 +74,7 @@
                         "notes": null
                     },
                     {
-                        "id": 2976,
+                        "id": 30778,
                         "name": "Maize after three years of spring barley, straw removed",
                         "amount": null,
                         "unitCode": null,
@@ -88,7 +88,7 @@
                         "notes": null
                     },
                     {
-                        "id": 2977,
+                        "id": 30779,
                         "name": "Spring barley after five years maize, stubble incorporated",
                         "amount": null,
                         "unitCode": null,
@@ -102,7 +102,7 @@
                         "notes": null
                     },
                     {
-                        "id": 2978,
+                        "id": 30780,
                         "name": "Continuous spring barley, straw removed plus 10 t maize tops incorporated",
                         "amount": null,
                         "unitCode": null,
@@ -116,7 +116,7 @@
                         "notes": null
                     },
                     {
-                        "id": 2979,
+                        "id": 30781,
                         "name": "Continuous spring barley, straw removed",
                         "amount": null,
                         "unitCode": null,

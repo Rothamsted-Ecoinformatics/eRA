@@ -22,21 +22,21 @@
         },
         "crops": [
             {
-                "id": 2200,
+                "id": 21224,
                 "name": "fallow",
                 "sameAs": "fallow",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 2201,
+                "id": 21225,
                 "name": "grass",
                 "sameAs": "grass",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 2202,
+                "id": 21226,
                 "name": "wheat",
                 "sameAs": "wheat",
                 "dateStart": null,
@@ -46,14 +46,14 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 1072,
+                "id": 12322,
                 "name": "cropping system",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Sub plot",
                 "level": [
                     {
-                        "id": 2904,
+                        "id": 30727,
                         "name": "permanent grass",
                         "amount": null,
                         "unitCode": null,
@@ -67,7 +67,7 @@
                         "notes": null
                     },
                     {
-                        "id": 2905,
+                        "id": 30728,
                         "name": "permanent grass converted to arable",
                         "amount": null,
                         "unitCode": null,
@@ -81,7 +81,7 @@
                         "notes": null
                     },
                     {
-                        "id": 2906,
+                        "id": 30729,
                         "name": "permanent grass converted to bare fallow",
                         "amount": null,
                         "unitCode": null,
@@ -95,7 +95,7 @@
                         "notes": null
                     },
                     {
-                        "id": 2907,
+                        "id": 30730,
                         "name": "arable converted to grass",
                         "amount": null,
                         "unitCode": null,
@@ -109,7 +109,7 @@
                         "notes": null
                     },
                     {
-                        "id": 2908,
+                        "id": 30731,
                         "name": "continuous arable",
                         "amount": null,
                         "unitCode": null,
@@ -123,7 +123,7 @@
                         "notes": null
                     },
                     {
-                        "id": 2909,
+                        "id": 30732,
                         "name": "arable converted to bare fallow",
                         "amount": null,
                         "unitCode": null,
@@ -137,7 +137,7 @@
                         "notes": null
                     },
                     {
-                        "id": 2910,
+                        "id": 30733,
                         "name": "bare fallow converted to grass",
                         "amount": null,
                         "unitCode": null,
@@ -151,7 +151,7 @@
                         "notes": null
                     },
                     {
-                        "id": 2911,
+                        "id": 30734,
                         "name": "bare fallow converted to arable",
                         "amount": null,
                         "unitCode": null,
@@ -165,7 +165,7 @@
                         "notes": null
                     },
                     {
-                        "id": 2912,
+                        "id": 30735,
                         "name": "continuous bare fallow",
                         "amount": null,
                         "unitCode": null,

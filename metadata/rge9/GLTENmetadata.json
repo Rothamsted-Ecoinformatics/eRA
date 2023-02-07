@@ -1,11 +1,11 @@
 {
-    "id": 1145,
+    "id": 5563,
     "experiment_type_term": null,
     "experiment_id": 72,
     "people": [],
     "organizations": [
         {
-            "id": 1135,
+            "id": 6006,
             "contacts": [
                 {
                     "contact_type": "URL",
@@ -19,7 +19,7 @@
             "role_label": "research organisation"
         },
         {
-            "id": 1136,
+            "id": 6007,
             "contacts": [],
             "role_term": "research organisation",
             "name": "Environmental change Network",
@@ -30,34 +30,13 @@
     ],
     "periods": [
         {
-            "id": 1651,
+            "id": 7666,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 3738,
-                    "crop_term": "faba beans",
-                    "crop_label": "field beans",
-                    "start_year": 1847,
-                    "end_year": 1878
-                },
-                {
-                    "id": 3739,
-                    "crop_term": "bare fallow",
-                    "crop_label": "bare fallow",
-                    "start_year": 1879,
-                    "end_year": 1883
-                },
-                {
-                    "id": 3740,
-                    "crop_term": "clover",
-                    "crop_label": "clover",
-                    "start_year": 1883,
-                    "end_year": 1885
-                },
-                {
-                    "id": 3741,
+                    "id": 21223,
                     "crop_term": null,
-                    "crop_label": "regeneration to woodland",
+                    "crop_label": "Regeneration to woodland",
                     "start_year": 1886,
                     "end_year": null
                 }
@@ -65,7 +44,7 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 1759,
+                    "id": 12321,
                     "factor_term": "liming exposure",
                     "levels": [],
                     "factor_label": "liming exposure",
@@ -122,7 +101,7 @@
     "site_soil_type_term": null,
     "site_soil_properties": [
         {
-            "id": 1235,
+            "id": 8977,
             "variable_term": "soil pH",
             "unit_term": null,
             "variable_label": "soil pH",
@@ -138,7 +117,7 @@
             "unit_label": null
         },
         {
-            "id": 1236,
+            "id": 8978,
             "variable_term": "soil pH",
             "unit_term": null,
             "variable_label": "soil pH",
@@ -154,7 +133,7 @@
             "unit_label": null
         },
         {
-            "id": 1237,
+            "id": 8979,
             "variable_term": "clay content",
             "unit_term": "%",
             "variable_label": "clay content",
@@ -170,7 +149,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 1238,
+            "id": 8980,
             "variable_term": "clay content",
             "unit_term": "%",
             "variable_label": "clay content",
@@ -190,12 +169,12 @@
     "site_climate_properties": [],
     "literature": [
         {
-            "doi": null,
+            "doi": "https://doi.org/10.23637/ERADOC-1-34803",
             "title": "Jenkinson, D. S. (1971). The accumulation of organic matter in soil left uncultivated. Rothamsted Experimental Station Report for 1970 , Part 2, 113-137",
             "language": "English"
         },
         {
-            "doi": null,
+            "doi": "https://repository.rothamsted.ac.uk/item/8745v/geescroft-wilderness-1883-1995",
             "title": "Poulton, P. R. (1996) \"Geescroft Wilderness, 1883-1995\", NATO Advanced Research Workshop, Evaluation of soil organic matter models using existing long-term datasets, NATO ASI Series I: Global Environmental Change, (Powlson D. S. , Smith P. and Smith J.U. (eds)), Vol 38, 385-389",
             "language": "English"
         },
@@ -210,12 +189,12 @@
             "language": "English"
         },
         {
-            "doi": null,
+            "doi": "https://www.era.rothamsted.ac.uk/experiment/rbk1w#bibliography/",
             "title": "Pye, E. (2002) \"Investigation of woodland regeneration within two Wilderness areas. PhD thesis\", University of Hertfordshire.",
             "language": "English"
         },
         {
-            "doi": null,
+            "doi": "https://link.springer.com/article/10.1023/A:1015731530498",
             "title": "\u2022 Blake, L. and Goulding, K. W. T. (2002) \"Effects of atmospheric deposition, soil pH and acidification on heavy metal contents in soils and vegetation of semi-natural ecosystems at Rothamsted Experimental Station, UK\", Plant and Soil, 240, 235-251",
             "language": "English"
         },
@@ -240,7 +219,7 @@
             "language": "English"
         }
     ],
-    "saved_time": "2019-10-17T18:14:58.920723Z",
+    "saved_time": "2022-11-18T12:30:14.484980Z",
     "name": "Geescroft Wilderness",
     "local_identifier": "R/GE/9",
     "experiment_type_label": null,
@@ -265,9 +244,9 @@
     "site_elevation_unit": "Metres",
     "site_slope": null,
     "site_slope_aspect": null,
-    "site_visits_allowed": false,
-    "site_visiting_arrangements": "By arrangement with Dr Andy Macdonald",
-    "site_history": "The Geescroft Wilderness at Rothamsted was fenced off in the 1880s and left to revert naturally to woodland. The site had previously been arable for centuries. It is an area of 1.3 ha.",
+    "site_visits_allowed": true,
+    "site_visiting_arrangements": "By arrangement with Dr Andy Gregory, LTE Manager",
+    "site_history": "The Geescroft Wilderness at Rothamsted was left to revert naturally to woodland in 1886. The site had previously been arable for centuries, most recently with field beans 1847-1878, bare fallow 1879-1883 and clover 1883-1885. It is an area of 1.3 ha.",
     "site_management": "Small amounts of chalk were applied in the 1840s-1880s, and the soil is now acidic (pH fell from 7.1 in 1883 to 4.4 in 1999).",
     "site_soil_type_label": "Chromic Luvisol",
     "site_soil_description": "Batcombe soil series, silty clay loam surface overlying clay-with-flints, overlying chalk at a depth of several meters.",

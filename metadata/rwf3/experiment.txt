@@ -13,12 +13,13 @@ DESCRIPTION
 The experiment originally had two strips which alternated winter wheat and a bare fallow in successive years. Between 1932 and 1982, a modification was introduced to allow a yearly comparison of a one-year and a three-year fallow but the effects on the yield of the subsequent wheat crop were small and since 1983 the experiment has reverted to the original design.
 
 The wheat cultivar grown has usually been the same as on Broadbalk, and the effects of fallowing on the yield of winter wheat can be roughly estimated by comparing yields from this experiment with continuous, unmanured wheat on Broadbalk (plot 03). In the first 10 years of the experiment the one-year fallow gave an extra 0.6 t ha-1, but over the next 60 years the difference was even smaller (0.14 t ha-1). Since its reversion to the original design in 1983, and with modern cultivars, average yields of the wheat after a one-year fallow have been 1.7 t ha-1. When expressed on the basis of the whole area (i.e. wheat plus fallow), the yield of 0.85 t ha-1 is slightly less than the 1.0 t ha-1 for continuous wheat on Broadbalk.
+
 Since autumn 2015, the whole experiment (both plots) has been sown to winter wheat, the same variety as is grown on Broadbalk. A small amount of N fertilizer (50 kg N ha-1) is applied in spring (mid-April), but to maintain the low soil P and K status, no other fertilizers are applied. 
 
 No yields or crop samples have been taken since harvest 2015.
 
 It was in this experiment in 1935, that symptoms caused by the fungal pathogen Gibellina cerealis or 'white straw disease' were first recorded in the UK.
-    None
+    Effects of fallow on winter wheat yields.
 
     Experiment start = 1856
 

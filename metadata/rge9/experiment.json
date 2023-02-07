@@ -30,16 +30,16 @@
     "citation": [
         {
             "type": "creativeWork",
-            "identifier": null,
-            "sameAs": null,
+            "identifier": "https://doi.org/10.23637/ERADOC-1-34803",
+            "sameAs": "https://doi.org/10.23637/ERADOC-1-34803",
             "citation": "Jenkinson, D. S. (1971). The accumulation of organic matter in soil left uncultivated. Rothamsted Experimental Station Report for 1970 , Part 2, 113-137",
             "inLanguage": "English",
             "relationType": "isCitedBy"
         },
         {
             "type": "creativeWork",
-            "identifier": null,
-            "sameAs": null,
+            "identifier": "https://repository.rothamsted.ac.uk/item/8745v/geescroft-wilderness-1883-1995",
+            "sameAs": "https://repository.rothamsted.ac.uk/item/8745v/geescroft-wilderness-1883-1995",
             "citation": "Poulton, P. R. (1996) \"Geescroft Wilderness, 1883-1995\", NATO Advanced Research Workshop, Evaluation of soil organic matter models using existing long-term datasets, NATO ASI Series I: Global Environmental Change, (Powlson D. S. , Smith P. and Smith J.U. (eds)), Vol 38, 385-389",
             "inLanguage": "English",
             "relationType": "isCitedBy"
@@ -62,16 +62,16 @@
         },
         {
             "type": "creativeWork",
-            "identifier": null,
-            "sameAs": null,
+            "identifier": "https://www.era.rothamsted.ac.uk/experiment/rbk1w#bibliography/",
+            "sameAs": "https://www.era.rothamsted.ac.uk/experiment/rbk1w#bibliography/",
             "citation": "Pye, E. (2002) \"Investigation of woodland regeneration within two Wilderness areas. PhD thesis\", University of Hertfordshire.",
             "inLanguage": "English",
             "relationType": "isCitedBy"
         },
         {
             "type": "creativeWork",
-            "identifier": null,
-            "sameAs": null,
+            "identifier": "https://link.springer.com/article/10.1023/A:1015731530498",
+            "sameAs": "https://link.springer.com/article/10.1023/A:1015731530498",
             "citation": "\u2022 Blake, L. and Goulding, K. W. T. (2002) \"Effects of atmospheric deposition, soil pH and acidification on heavy metal contents in soils and vegetation of semi-natural ecosystems at Rothamsted Experimental Station, UK\", Plant and Soil, 240, 235-251",
             "inLanguage": "English",
             "relationType": "isCitedBy"

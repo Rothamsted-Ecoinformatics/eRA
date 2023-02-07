@@ -4,9 +4,9 @@
         "identifier": null,
         "type": "research station field",
         "doi": null,
-        "visitsAllowed": "No",
-        "visitingArrangements": "By arrangement with Dr Andy Macdonald",
-        "description": "The Geescroft Wilderness at Rothamsted was fenced off in the 1880s and left to revert naturally to woodland. The site had previously been arable for centuries. It is an area of 1.3 ha.",
+        "visitsAllowed": "Yes",
+        "visitingArrangements": "By arrangement with Dr Andy Gregory, LTE Manager",
+        "description": "The Geescroft Wilderness at Rothamsted was left to revert naturally to woodland in 1886. The site had previously been arable for centuries, most recently with field beans 1847-1878, bare fallow 1879-1883 and clover 1883-1885. It is an area of 1.3 ha.",
         "management": "Small amounts of chalk were applied in the 1840s-1880s, and the soil is now acidic (pH fell from 7.1 in 1883 to 4.4 in 1999)."
     },
     "location": {

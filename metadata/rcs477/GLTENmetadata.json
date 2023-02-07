@@ -1,10 +1,10 @@
 {
-    "id": 824,
+    "id": 5568,
     "experiment_type_term": null,
     "experiment_id": 50,
     "people": [
         {
-            "id": 972,
+            "id": 6307,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -23,7 +23,7 @@
     ],
     "organizations": [
         {
-            "id": 764,
+            "id": 6012,
             "contacts": [
                 {
                     "contact_type": "URL",
@@ -39,18 +39,18 @@
     ],
     "periods": [
         {
-            "id": 1085,
+            "id": 7676,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 2226,
+                    "id": 21255,
                     "crop_term": "maize",
                     "crop_label": "maize",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 2227,
+                    "id": 21256,
                     "crop_term": "barley",
                     "crop_label": "barley",
                     "start_year": null,
@@ -60,11 +60,11 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 1090,
+                    "id": 12339,
                     "factor_term": "crop residue management exposure",
                     "levels": [
                         {
-                            "id": 2986,
+                            "id": 30764,
                             "factor_variant_term": null,
                             "factor_variant_label": "Continuous maize, stubble incorporated",
                             "amount": null,
@@ -82,7 +82,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 2987,
+                            "id": 30765,
                             "factor_variant_term": null,
                             "factor_variant_label": "Continuous maize, stubble plus 10t maize tops incorporated",
                             "amount": null,
@@ -100,7 +100,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 2988,
+                            "id": 30766,
                             "factor_variant_term": null,
                             "factor_variant_label": "Maize after three years of spring barley, straw removed",
                             "amount": null,
@@ -118,7 +118,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 2989,
+                            "id": 30767,
                             "factor_variant_term": null,
                             "factor_variant_label": "Spring barley after five years maize, stubble incorporated",
                             "amount": null,
@@ -136,7 +136,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 2990,
+                            "id": 30768,
                             "factor_variant_term": null,
                             "factor_variant_label": "Continuous spring barley, straw removed plus 10 t maize tops incorporated",
                             "amount": null,
@@ -154,7 +154,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 2991,
+                            "id": 30769,
                             "factor_variant_term": null,
                             "factor_variant_label": "Continuous spring barley, straw removed",
                             "amount": null,
@@ -217,7 +217,7 @@
     "site_climatic_type_term": "temperate oceanic climate",
     "site_climate_properties": [],
     "literature": [],
-    "saved_time": "2019-09-28T06:44:05.961245Z",
+    "saved_time": "2022-11-18T12:40:03.593114Z",
     "name": "Rothamsted Continuous Maize",
     "local_identifier": "R/CS/477",
     "experiment_type_label": null,
@@ -243,7 +243,7 @@
     "site_slope": null,
     "site_slope_aspect": null,
     "site_visits_allowed": false,
-    "site_visiting_arrangements": null,
+    "site_visiting_arrangements": "Dr Andy Gregory, LTE Manager",
     "site_history": null,
     "site_management": null,
     "site_soil_type_label": "luvisol",

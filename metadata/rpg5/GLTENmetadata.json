@@ -1,10 +1,10 @@
 {
-    "id": 2726,
+    "id": 5725,
     "experiment_type_term": null,
     "experiment_id": 67,
     "people": [
         {
-            "id": 3998,
+            "id": 6564,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -21,7 +21,7 @@
             "role_label": "data manager"
         },
         {
-            "id": 3999,
+            "id": 6565,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -38,24 +38,24 @@
             "role_label": "experiment manager"
         },
         {
-            "id": 4000,
+            "id": 6566,
             "contacts": [
                 {
                     "contact_type": "Email",
-                    "value": "andrew.macdonald@rothamsted.ac.uk"
+                    "value": "andy.gregory@rothamsted.ac.uk"
                 }
             ],
             "role_term": "principal investigator",
             "title": "Dr",
-            "name": "Andrew MacDonald",
+            "name": "Andy Gregory",
             "affiliation": "Rothamsted Research",
             "department": "Sustainable Agricultural Sciences",
-            "orcid": "https://orcid.org/0000-0002-1785-4892",
+            "orcid": null,
             "is_contact": false,
             "role_label": "principal investigator"
         },
         {
-            "id": 4001,
+            "id": 6567,
             "contacts": [],
             "role_term": null,
             "title": "Dr",
@@ -69,7 +69,7 @@
     ],
     "organizations": [
         {
-            "id": 2819,
+            "id": 6179,
             "contacts": [
                 {
                     "contact_type": "URL",
@@ -85,11 +85,11 @@
     ],
     "periods": [
         {
-            "id": 4270,
+            "id": 7937,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 11828,
+                    "id": 21972,
                     "crop_term": "grass",
                     "crop_label": "grass",
                     "start_year": null,
@@ -99,11 +99,11 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 7224,
+                    "id": 12833,
                     "factor_term": "nitrogen fertilizer exposure",
                     "levels": [
                         {
-                            "id": 18813,
+                            "id": 31844,
                             "factor_variant_term": null,
                             "factor_variant_label": "N1",
                             "amount": "52",
@@ -121,7 +121,7 @@
                             "chemical_form_label": "ammonium sulfate"
                         },
                         {
-                            "id": 18814,
+                            "id": 31845,
                             "factor_variant_term": null,
                             "factor_variant_label": "N2",
                             "amount": "104",
@@ -139,7 +139,7 @@
                             "chemical_form_label": "ammonium sulfate"
                         },
                         {
-                            "id": 18815,
+                            "id": 31846,
                             "factor_variant_term": null,
                             "factor_variant_label": "N3",
                             "amount": "156",
@@ -157,7 +157,7 @@
                             "chemical_form_label": "ammonium sulfate"
                         },
                         {
-                            "id": 18816,
+                            "id": 31847,
                             "factor_variant_term": null,
                             "factor_variant_label": "N1*",
                             "amount": "52",
@@ -175,7 +175,7 @@
                             "chemical_form_label": "ammonium nitrate"
                         },
                         {
-                            "id": 18817,
+                            "id": 31848,
                             "factor_variant_term": null,
                             "factor_variant_label": "N2*",
                             "amount": "104",
@@ -199,11 +199,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7225,
+                    "id": 12834,
                     "factor_term": "natural fertilizer exposure",
                     "levels": [
                         {
-                            "id": 18818,
+                            "id": 31849,
                             "factor_variant_term": "farmyard manure",
                             "factor_variant_label": "farmyard manure",
                             "amount": null,
@@ -221,7 +221,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 18819,
+                            "id": 31850,
                             "factor_variant_term": null,
                             "factor_variant_label": "fish meal",
                             "amount": null,
@@ -245,11 +245,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7226,
+                    "id": 12835,
                     "factor_term": "superphosphate exposure",
                     "levels": [
                         {
-                            "id": 18820,
+                            "id": 31851,
                             "factor_variant_term": null,
                             "factor_variant_label": "P",
                             "amount": "36",
@@ -273,11 +273,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7227,
+                    "id": 12836,
                     "factor_term": "potassium fertilizer exposure",
                     "levels": [
                         {
-                            "id": 18821,
+                            "id": 31852,
                             "factor_variant_term": null,
                             "factor_variant_label": "K",
                             "amount": "242",
@@ -301,11 +301,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7228,
+                    "id": 12837,
                     "factor_term": "sodium nutrient exposure",
                     "levels": [
                         {
-                            "id": 18822,
+                            "id": 31853,
                             "factor_variant_term": null,
                             "factor_variant_label": "Na",
                             "amount": "17",
@@ -329,11 +329,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7229,
+                    "id": 12838,
                     "factor_term": "magnesium nutrient exposure",
                     "levels": [
                         {
-                            "id": 18823,
+                            "id": 31854,
                             "factor_variant_term": null,
                             "factor_variant_label": "Mg",
                             "amount": "12",
@@ -357,11 +357,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7230,
+                    "id": 12839,
                     "factor_term": "silicon nutrient exposure",
                     "levels": [
                         {
-                            "id": 18824,
+                            "id": 31855,
                             "factor_variant_term": null,
                             "factor_variant_label": "Si",
                             "amount": "28",
@@ -385,7 +385,7 @@
                     "effect": ""
                 },
                 {
-                    "id": 7231,
+                    "id": 12840,
                     "factor_term": null,
                     "levels": [],
                     "factor_label": "Sawdust",
@@ -398,7 +398,7 @@
             "measurements": [
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 11828,
+                    "crop_id": 21972,
                     "comment": "1st and 2nd cuts, available from 1856-present.",
                     "collection_frequency": "Biannual",
                     "variable_label": "yield components",
@@ -523,11 +523,11 @@
             "factorial": false
         },
         {
-            "id": 4271,
+            "id": 7938,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 11829,
+                    "id": 21973,
                     "crop_term": "grass",
                     "crop_label": "grass",
                     "start_year": null,
@@ -665,11 +665,11 @@
             "factorial": false
         },
         {
-            "id": 4272,
+            "id": 7939,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 11830,
+                    "id": 21974,
                     "crop_term": "grass",
                     "crop_label": "grass",
                     "start_year": null,
@@ -679,11 +679,11 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 7232,
+                    "id": 12841,
                     "factor_term": "nitrogen fertilizer exposure",
                     "levels": [
                         {
-                            "id": 18825,
+                            "id": 31856,
                             "factor_variant_term": null,
                             "factor_variant_label": "N1",
                             "amount": "48",
@@ -701,7 +701,7 @@
                             "chemical_form_label": "ammonium sulfate"
                         },
                         {
-                            "id": 18826,
+                            "id": 31857,
                             "factor_variant_term": null,
                             "factor_variant_label": "N2",
                             "amount": "96",
@@ -719,7 +719,7 @@
                             "chemical_form_label": "ammonium sulfate"
                         },
                         {
-                            "id": 18827,
+                            "id": 31858,
                             "factor_variant_term": null,
                             "factor_variant_label": "N3",
                             "amount": "144",
@@ -737,7 +737,7 @@
                             "chemical_form_label": "ammonium sulfate"
                         },
                         {
-                            "id": 18828,
+                            "id": 31859,
                             "factor_variant_term": null,
                             "factor_variant_label": "N*1",
                             "amount": "48",
@@ -755,7 +755,7 @@
                             "chemical_form_label": "ammonium nitrate"
                         },
                         {
-                            "id": 18829,
+                            "id": 31860,
                             "factor_variant_term": null,
                             "factor_variant_label": "N*2",
                             "amount": "96",
@@ -773,7 +773,7 @@
                             "chemical_form_label": "ammonium nitrate"
                         },
                         {
-                            "id": 18830,
+                            "id": 31861,
                             "factor_variant_term": null,
                             "factor_variant_label": "N*3",
                             "amount": "144",
@@ -791,7 +791,7 @@
                             "chemical_form_label": "ammonium nitrate"
                         },
                         {
-                            "id": 18831,
+                            "id": 31862,
                             "factor_variant_term": null,
                             "factor_variant_label": "(N2)",
                             "amount": "96",
@@ -809,7 +809,7 @@
                             "chemical_form_label": "ammonium sulfate"
                         },
                         {
-                            "id": 18832,
+                            "id": 31863,
                             "factor_variant_term": null,
                             "factor_variant_label": "(N*2)",
                             "amount": "96",
@@ -833,11 +833,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7233,
+                    "id": 12842,
                     "factor_term": "natural fertilizer exposure",
                     "levels": [
                         {
-                            "id": 18833,
+                            "id": 31864,
                             "factor_variant_term": "farmyard manure",
                             "factor_variant_label": "farmyard manure",
                             "amount": "35",
@@ -855,7 +855,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 18834,
+                            "id": 31865,
                             "factor_variant_term": null,
                             "factor_variant_label": "pelleted poultry manure",
                             "amount": null,
@@ -879,11 +879,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7234,
+                    "id": 12843,
                     "factor_term": "superphosphate exposure",
                     "levels": [
                         {
-                            "id": 18835,
+                            "id": 31866,
                             "factor_variant_term": null,
                             "factor_variant_label": "P",
                             "amount": "17",
@@ -907,11 +907,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7235,
+                    "id": 12844,
                     "factor_term": "potassium fertilizer exposure",
                     "levels": [
                         {
-                            "id": 18836,
+                            "id": 31867,
                             "factor_variant_term": null,
                             "factor_variant_label": "K",
                             "amount": "17",
@@ -935,11 +935,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7236,
+                    "id": 12845,
                     "factor_term": "sodium nutrient exposure",
                     "levels": [
                         {
-                            "id": 18837,
+                            "id": 31868,
                             "factor_variant_term": null,
                             "factor_variant_label": "Na",
                             "amount": "15",
@@ -963,11 +963,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7237,
+                    "id": 12846,
                     "factor_term": "magnesium nutrient exposure",
                     "levels": [
                         {
-                            "id": 18838,
+                            "id": 31869,
                             "factor_variant_term": null,
                             "factor_variant_label": "Mg",
                             "amount": "10",
@@ -991,11 +991,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7238,
+                    "id": 12847,
                     "factor_term": "silicon nutrient exposure",
                     "levels": [
                         {
-                            "id": 18839,
+                            "id": 31870,
                             "factor_variant_term": null,
                             "factor_variant_label": "Si",
                             "amount": "450",
@@ -1019,11 +1019,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7239,
+                    "id": 12848,
                     "factor_term": "liming exposure",
                     "levels": [
                         {
-                            "id": 18840,
+                            "id": 31871,
                             "factor_variant_term": null,
                             "factor_variant_label": "lime",
                             "amount": null,
@@ -1051,7 +1051,7 @@
             "measurements": [
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 11830,
+                    "crop_id": 21974,
                     "comment": "every year from 1856 - present",
                     "collection_frequency": "two cuts per year",
                     "variable_label": "yield components",
@@ -1249,7 +1249,7 @@
     "site_soil_type_term": "luvisol",
     "site_soil_properties": [
         {
-            "id": 4214,
+            "id": 9190,
             "variable_term": "sand content",
             "unit_term": "%",
             "variable_label": "sand content",
@@ -1265,7 +1265,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 4215,
+            "id": 9191,
             "variable_term": "silt content",
             "unit_term": "%",
             "variable_label": "silt content",
@@ -1281,7 +1281,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 4216,
+            "id": 9192,
             "variable_term": "clay content",
             "unit_term": "%",
             "variable_label": "clay content",
@@ -1297,7 +1297,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 4217,
+            "id": 9193,
             "variable_term": "soil density",
             "unit_term": "g/cm3",
             "variable_label": "soil density",
@@ -1392,7 +1392,7 @@
             "language": "English"
         }
     ],
-    "saved_time": "2021-04-22T14:24:33.085517Z",
+    "saved_time": "2022-11-28T10:41:53.392231Z",
     "name": "Park Grass",
     "local_identifier": "R/PG/5",
     "experiment_type_label": null,

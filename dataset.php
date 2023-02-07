@@ -208,10 +208,10 @@ if ($hasDataset) {
         $illustration = "";
         foreach ($dsinfo['image'] as $imgsrc) {
 
-            $illustration .= "<img src=\"";
+            $illustration .= "<div class=\"text-center\"><img src=\"";
             // $distribution .="<a href=\"" . $exptFolder . "/" . $datasetFolder . "/" . $filedownloads['URL'] . "\">";
             $illustration .= $exptFolder . "/" . $datasetFolder . "/" . $imgsrc['URL'] . " \" class=\"img-fluid\" alt=\"" . $imgsrc['caption'] . "\">";
-            $illustration .= "<p><b><i>" . $imgsrc['caption'] . "</i></b></p>";
+            $illustration .= "<p><b><i>" . $imgsrc['caption'] . "</i></b></p></div>";
             // $distribution .= "</a>";
         }
     }

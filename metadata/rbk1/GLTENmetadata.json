@@ -1,22 +1,22 @@
 {
-    "id": 2738,
+    "id": 5637,
     "experiment_type_term": null,
     "experiment_id": 1,
     "people": [
         {
-            "id": 4029,
+            "id": 6446,
             "contacts": [],
             "role_term": "principal investigator",
             "title": "Dr",
-            "name": "Andy Macdonald",
+            "name": "Andrew Gregory",
             "affiliation": "Rothamsted Research",
-            "department": "Sustainable Agricultural Systems",
-            "orcid": null,
+            "department": "Protecting Crops and the Environment",
+            "orcid": "https://orcid.org/0000-0001-7123-0784",
             "is_contact": false,
             "role_label": "principal investigator"
         },
         {
-            "id": 4030,
+            "id": 6447,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -27,13 +27,13 @@
             "title": "Dr",
             "name": "Sarah Perryman",
             "affiliation": "Rothamsted Research",
-            "department": "Computational and Analytical Sciences",
+            "department": "Intelligent Data Ecosystems",
             "orcid": null,
             "is_contact": true,
             "role_label": "data manager"
         },
         {
-            "id": 4031,
+            "id": 6448,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -44,7 +44,7 @@
             "title": "Dr",
             "name": "Margaret Glendining",
             "affiliation": "Rothamsted Research",
-            "department": "Computational and Analytical Sciences",
+            "department": "Intelligent Data Ecosystems",
             "orcid": "https://orcid.org/0000-0002-6466-4629",
             "is_contact": true,
             "role_label": "data manager"
@@ -52,7 +52,7 @@
     ],
     "organizations": [
         {
-            "id": 2831,
+            "id": 6078,
             "contacts": [],
             "role_term": "research organisation",
             "name": "Rothamsted Research",
@@ -63,11 +63,11 @@
     ],
     "periods": [
         {
-            "id": 4310,
+            "id": 7808,
             "design_type_term": "Demonstration strip design",
             "crops": [
                 {
-                    "id": 11927,
+                    "id": 21614,
                     "crop_term": "winter wheat",
                     "crop_label": "winter wheat",
                     "start_year": null,
@@ -77,11 +77,11 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 7392,
+                    "id": 12616,
                     "factor_term": "nitrogen fertilizer exposure",
                     "levels": [
                         {
-                            "id": 19231,
+                            "id": 31341,
                             "factor_variant_term": null,
                             "factor_variant_label": "N1",
                             "amount": "48",
@@ -89,7 +89,7 @@
                             "amount_unit_label": "kg nitrogen per hectare",
                             "start_year": 1852,
                             "end_year": 1925,
-                            "crop_id": 11927,
+                            "crop_id": 21614,
                             "all_crops": false,
                             "note": "All applied in autumn, 1852-1877, all applied in spring 1878-1883; 24 kgN applied in autumn, remainder applied in spring 1884-1925",
                             "application_frequency": null,
@@ -99,7 +99,7 @@
                             "chemical_form_label": "ammonium sulfate"
                         },
                         {
-                            "id": 19232,
+                            "id": 31342,
                             "factor_variant_term": null,
                             "factor_variant_label": "N1*",
                             "amount": "48",
@@ -107,7 +107,7 @@
                             "amount_unit_label": "kg nitrogen per hectare",
                             "start_year": 1852,
                             "end_year": 1925,
-                            "crop_id": 11927,
+                            "crop_id": 21614,
                             "all_crops": false,
                             "note": "All applied in spring, as one application until 1898, as two equal amounts 1899-1925",
                             "application_frequency": null,
@@ -117,7 +117,7 @@
                             "chemical_form_label": "sodium nitrate"
                         },
                         {
-                            "id": 19233,
+                            "id": 31343,
                             "factor_variant_term": null,
                             "factor_variant_label": "N1.5",
                             "amount": "72",
@@ -125,7 +125,7 @@
                             "amount_unit_label": "kg nitrogen per hectare",
                             "start_year": 1852,
                             "end_year": 1878,
-                            "crop_id": 11927,
+                            "crop_id": 21614,
                             "all_crops": false,
                             "note": "Applied to Plot 19 with rape cake, All applied in autumn",
                             "application_frequency": null,
@@ -135,7 +135,7 @@
                             "chemical_form_label": "ammonium sulfate"
                         },
                         {
-                            "id": 19234,
+                            "id": 31344,
                             "factor_variant_term": null,
                             "factor_variant_label": "N2",
                             "amount": "96",
@@ -143,7 +143,7 @@
                             "amount_unit_label": "kg nitrogen per hectare",
                             "start_year": 1852,
                             "end_year": 1925,
-                            "crop_id": 11927,
+                            "crop_id": 21614,
                             "all_crops": false,
                             "note": "All applied in autumn, 1852-1877, all applied in spring 1878-1883; 24 kgN applied in autumn, remainder applied in spring 1884-1925, except to strip 15. Strip 15 N applied in spring 1873-77, N applied in autumn 1878-1925.",
                             "application_frequency": null,
@@ -153,7 +153,7 @@
                             "chemical_form_label": "ammonium sulfate"
                         },
                         {
-                            "id": 19235,
+                            "id": 31345,
                             "factor_variant_term": null,
                             "factor_variant_label": "N2*",
                             "amount": "96",
@@ -161,7 +161,7 @@
                             "amount_unit_label": "kg nitrogen per hectare",
                             "start_year": 1852,
                             "end_year": 1925,
-                            "crop_id": 11927,
+                            "crop_id": 21614,
                             "all_crops": false,
                             "note": "All applied in spring, as one application until 1898, as two equal amounts 1899-1925",
                             "application_frequency": null,
@@ -171,7 +171,7 @@
                             "chemical_form_label": "sodium nitrate"
                         },
                         {
-                            "id": 19236,
+                            "id": 31346,
                             "factor_variant_term": null,
                             "factor_variant_label": "N3",
                             "amount": "144",
@@ -179,7 +179,7 @@
                             "amount_unit_label": "kg nitrogen per hectare",
                             "start_year": 1852,
                             "end_year": 1925,
-                            "crop_id": 11927,
+                            "crop_id": 21614,
                             "all_crops": false,
                             "note": "All applied in autumn, 1852-1877, all applied in spring 1878-1883; 24 kgN applied in autumn, remainder applied in spring 1884-1925",
                             "application_frequency": null,
@@ -189,7 +189,7 @@
                             "chemical_form_label": "ammonium sulfate"
                         },
                         {
-                            "id": 19237,
+                            "id": 31347,
                             "factor_variant_term": null,
                             "factor_variant_label": "N4",
                             "amount": "192",
@@ -197,7 +197,7 @@
                             "amount_unit_label": "kg nitrogen per hectare",
                             "start_year": 1852,
                             "end_year": 1864,
-                            "crop_id": 11927,
+                            "crop_id": 21614,
                             "all_crops": false,
                             "note": "All applied in autumn",
                             "application_frequency": "annually",
@@ -213,11 +213,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7393,
+                    "id": 12617,
                     "factor_term": "farmyard manure exposure",
                     "levels": [
                         {
-                            "id": 19238,
+                            "id": 31348,
                             "factor_variant_term": "farmyard manure",
                             "factor_variant_label": "farmyard manure",
                             "amount": "35",
@@ -225,7 +225,7 @@
                             "amount_unit_label": "tonnes per hectare",
                             "start_year": 1843,
                             "end_year": 1925,
-                            "crop_id": 11927,
+                            "crop_id": 21614,
                             "all_crops": false,
                             "note": "Applied to plot 2b (2.2) from 1843, and to plot 2a (2.1) since 1885. Plot 2a was a new plot made in 1885.  FYM is applied in autumn, supplying approx 225 kgN",
                             "application_frequency": "Annual",
@@ -241,11 +241,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7394,
+                    "id": 12618,
                     "factor_term": "phosphate fertilizer exposure",
                     "levels": [
                         {
-                            "id": 19239,
+                            "id": 31349,
                             "factor_variant_term": null,
                             "factor_variant_label": "P",
                             "amount": "35",
@@ -253,7 +253,7 @@
                             "amount_unit_label": "kilogram per hectare",
                             "start_year": 1843,
                             "end_year": 1925,
-                            "crop_id": 11927,
+                            "crop_id": 21614,
                             "all_crops": false,
                             "note": "Applied in the autumn, omitted 1915",
                             "application_frequency": "annually",
@@ -269,11 +269,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7395,
+                    "id": 12619,
                     "factor_term": "potassium fertilizer exposure",
                     "levels": [
                         {
-                            "id": 19240,
+                            "id": 31350,
                             "factor_variant_term": null,
                             "factor_variant_label": "K",
                             "amount": "90",
@@ -281,7 +281,7 @@
                             "amount_unit_label": "kilogram per hectare",
                             "start_year": 1843,
                             "end_year": 1925,
-                            "crop_id": 11927,
+                            "crop_id": 21614,
                             "all_crops": false,
                             "note": "Applied in the autumn, omitted 1915, 1917-1919",
                             "application_frequency": "annually",
@@ -297,11 +297,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7396,
+                    "id": 12620,
                     "factor_term": "sodium nutrient exposure",
                     "levels": [
                         {
-                            "id": 19241,
+                            "id": 31351,
                             "factor_variant_term": null,
                             "factor_variant_label": "Na",
                             "amount": "16",
@@ -309,7 +309,7 @@
                             "amount_unit_label": "kilogram per hectare",
                             "start_year": 1843,
                             "end_year": 1925,
-                            "crop_id": 11927,
+                            "crop_id": 21614,
                             "all_crops": false,
                             "note": "Applied in the autumn, omitted 1915",
                             "application_frequency": "annually",
@@ -325,11 +325,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7397,
+                    "id": 12621,
                     "factor_term": "magnesium nutrient exposure",
                     "levels": [
                         {
-                            "id": 19242,
+                            "id": 31352,
                             "factor_variant_term": null,
                             "factor_variant_label": "Mg",
                             "amount": "11",
@@ -337,7 +337,7 @@
                             "amount_unit_label": "kilogram per hectare",
                             "start_year": 1843,
                             "end_year": 1925,
-                            "crop_id": 11927,
+                            "crop_id": 21614,
                             "all_crops": false,
                             "note": "Applied in the autumn, omitted 1915",
                             "application_frequency": "annually",
@@ -353,11 +353,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7398,
+                    "id": 12622,
                     "factor_term": "rapeseed cake exposure",
                     "levels": [
                         {
-                            "id": 19243,
+                            "id": 31353,
                             "factor_variant_term": null,
                             "factor_variant_label": "C",
                             "amount": "96",
@@ -365,7 +365,7 @@
                             "amount_unit_label": "kg nitrogen per hectare",
                             "start_year": 1852,
                             "end_year": 1926,
-                            "crop_id": 11927,
+                            "crop_id": 21614,
                             "all_crops": false,
                             "note": "Supplying approx 96 kg N (N2).",
                             "application_frequency": "annually",
@@ -406,40 +406,40 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7394,
+                            "factor_id": 12618,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19239,
+                            "factor_level_id": 31349,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7395,
+                            "factor_id": 12619,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19240,
+                            "factor_level_id": 31350,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7396,
+                            "factor_id": 12620,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19241,
+                            "factor_level_id": 31351,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7397,
+                            "factor_id": 12621,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19242,
+                            "factor_level_id": 31352,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -454,50 +454,50 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7392,
+                            "factor_id": 12616,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19231,
+                            "factor_level_id": 31341,
                             "comment": null,
                             "amount": "48",
                             "amount_unit_term": "kgN/ha",
                             "amount_unit_label": "kg nitrogen per hectare"
                         },
                         {
-                            "factor_id": 7394,
+                            "factor_id": 12618,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19239,
+                            "factor_level_id": 31349,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7395,
+                            "factor_id": 12619,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19240,
+                            "factor_level_id": 31350,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7396,
+                            "factor_id": 12620,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19241,
+                            "factor_level_id": 31351,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7397,
+                            "factor_id": 12621,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19242,
+                            "factor_level_id": 31352,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -512,50 +512,50 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7392,
+                            "factor_id": 12616,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19234,
+                            "factor_level_id": 31344,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7394,
+                            "factor_id": 12618,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19239,
+                            "factor_level_id": 31349,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7395,
+                            "factor_id": 12619,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19240,
+                            "factor_level_id": 31350,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7396,
+                            "factor_id": 12620,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19241,
+                            "factor_level_id": 31351,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7397,
+                            "factor_id": 12621,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19242,
+                            "factor_level_id": 31352,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -570,50 +570,50 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7392,
+                            "factor_id": 12616,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19236,
+                            "factor_level_id": 31346,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7394,
+                            "factor_id": 12618,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19239,
+                            "factor_level_id": 31349,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7395,
+                            "factor_id": 12619,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19240,
+                            "factor_level_id": 31350,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7396,
+                            "factor_id": 12620,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19241,
+                            "factor_level_id": 31351,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7397,
+                            "factor_id": 12621,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19242,
+                            "factor_level_id": 31352,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -628,50 +628,50 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7392,
+                            "factor_id": 12616,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19232,
+                            "factor_level_id": 31342,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7394,
+                            "factor_id": 12618,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19239,
+                            "factor_level_id": 31349,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7395,
+                            "factor_id": 12619,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19240,
+                            "factor_level_id": 31350,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7396,
+                            "factor_id": 12620,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19241,
+                            "factor_level_id": 31351,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7397,
+                            "factor_id": 12621,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19242,
+                            "factor_level_id": 31352,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -686,50 +686,50 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7392,
+                            "factor_id": 12616,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19237,
+                            "factor_level_id": 31347,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7394,
+                            "factor_id": 12618,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19239,
+                            "factor_level_id": 31349,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7395,
+                            "factor_id": 12619,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19240,
+                            "factor_level_id": 31350,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7396,
+                            "factor_id": 12620,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19241,
+                            "factor_level_id": 31351,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7397,
+                            "factor_id": 12621,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19242,
+                            "factor_level_id": 31352,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -744,50 +744,50 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7392,
+                            "factor_id": 12616,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19235,
+                            "factor_level_id": 31345,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7394,
+                            "factor_id": 12618,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19239,
+                            "factor_level_id": 31349,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7395,
+                            "factor_id": 12619,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19240,
+                            "factor_level_id": 31350,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7396,
+                            "factor_id": 12620,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19241,
+                            "factor_level_id": 31351,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7397,
+                            "factor_id": 12621,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19242,
+                            "factor_level_id": 31352,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -802,60 +802,60 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7392,
+                            "factor_id": 12616,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19233,
+                            "factor_level_id": 31343,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7394,
+                            "factor_id": 12618,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19239,
+                            "factor_level_id": 31349,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7395,
+                            "factor_id": 12619,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19240,
+                            "factor_level_id": 31350,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7396,
+                            "factor_id": 12620,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19241,
+                            "factor_level_id": 31351,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7397,
+                            "factor_id": 12621,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19242,
+                            "factor_level_id": 31352,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7398,
+                            "factor_id": 12622,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19243,
+                            "factor_level_id": 31353,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -871,7 +871,7 @@
             "measurements": [
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 11927,
+                    "crop_id": 21614,
                     "comment": "Grain and straw yields at field moisture content. Actual dry matter not measured, assumed to be approximately 85% dry matter.",
                     "collection_frequency": "annually",
                     "variable_label": "yield components",
@@ -882,7 +882,7 @@
                 },
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 11927,
+                    "crop_id": 21614,
                     "comment": "Bushel weights can be used to derive Hectolitre weights (HLWT),a measure of grain quality.",
                     "collection_frequency": "annually",
                     "variable_label": "weight per bushel dressed corn",
@@ -948,7 +948,7 @@
                 },
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 11927,
+                    "crop_id": 21614,
                     "comment": "Includes both cutting and carting date, ie dates crop cut and then removed from the field.",
                     "collection_frequency": "annually",
                     "variable_label": "harvest date",
@@ -974,18 +974,18 @@
             "factorial": false
         },
         {
-            "id": 4311,
+            "id": 7809,
             "design_type_term": "Demonstration strip design",
             "crops": [
                 {
-                    "id": 11928,
+                    "id": 21615,
                     "crop_term": "winter wheat",
                     "crop_label": "winter wheat",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11929,
+                    "id": 21616,
                     "crop_term": "fallow",
                     "crop_label": "fallow",
                     "start_year": null,
@@ -995,11 +995,11 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 7399,
+                    "id": 12623,
                     "factor_term": "nitrogen fertilizer exposure",
                     "levels": [
                         {
-                            "id": 19244,
+                            "id": 31354,
                             "factor_variant_term": null,
                             "factor_variant_label": "N1",
                             "amount": "48",
@@ -1007,7 +1007,7 @@
                             "amount_unit_label": "kilogram per hectare",
                             "start_year": 1926,
                             "end_year": 1967,
-                            "crop_id": 11928,
+                            "crop_id": 21615,
                             "all_crops": false,
                             "note": "24kgN applied in autumn, remainder in spring",
                             "application_frequency": "twice",
@@ -1017,7 +1017,7 @@
                             "chemical_form_label": "ammonium sulfate"
                         },
                         {
-                            "id": 19245,
+                            "id": 31355,
                             "factor_variant_term": null,
                             "factor_variant_label": "N2",
                             "amount": "96",
@@ -1025,7 +1025,7 @@
                             "amount_unit_label": "kilogram per hectare",
                             "start_year": 1926,
                             "end_year": 1967,
-                            "crop_id": 11928,
+                            "crop_id": 21615,
                             "all_crops": false,
                             "note": "24kgN applied in autumn, remainder in spring",
                             "application_frequency": "twice",
@@ -1035,7 +1035,7 @@
                             "chemical_form_label": "ammonium sulfate"
                         },
                         {
-                            "id": 19246,
+                            "id": 31356,
                             "factor_variant_term": null,
                             "factor_variant_label": "N3",
                             "amount": "144",
@@ -1043,7 +1043,7 @@
                             "amount_unit_label": "kilogram per hectare",
                             "start_year": 1926,
                             "end_year": 1967,
-                            "crop_id": 11928,
+                            "crop_id": 21615,
                             "all_crops": false,
                             "note": "24kgN applied in autumn, remainder in spring",
                             "application_frequency": "twice",
@@ -1053,7 +1053,7 @@
                             "chemical_form_label": "ammonium sulfate"
                         },
                         {
-                            "id": 19247,
+                            "id": 31357,
                             "factor_variant_term": null,
                             "factor_variant_label": "N1*",
                             "amount": "48",
@@ -1061,7 +1061,7 @@
                             "amount_unit_label": "kilogram per hectare",
                             "start_year": 1926,
                             "end_year": 1967,
-                            "crop_id": 11928,
+                            "crop_id": 21615,
                             "all_crops": false,
                             "note": "Applied in spring as two equal amounts",
                             "application_frequency": "twice",
@@ -1071,7 +1071,7 @@
                             "chemical_form_label": "sodium nitrate"
                         },
                         {
-                            "id": 19248,
+                            "id": 31358,
                             "factor_variant_term": null,
                             "factor_variant_label": "N2*",
                             "amount": "96",
@@ -1079,7 +1079,7 @@
                             "amount_unit_label": "kilogram per hectare",
                             "start_year": 1926,
                             "end_year": 1967,
-                            "crop_id": 11928,
+                            "crop_id": 21615,
                             "all_crops": false,
                             "note": "Applied in spring as two equal amounts",
                             "application_frequency": "twice",
@@ -1095,11 +1095,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7400,
+                    "id": 12624,
                     "factor_term": "farmyard manure exposure",
                     "levels": [
                         {
-                            "id": 19249,
+                            "id": 31359,
                             "factor_variant_term": "farmyard manure",
                             "factor_variant_label": "farmyard manure",
                             "amount": "35",
@@ -1107,7 +1107,7 @@
                             "amount_unit_label": "tonnes per hectare",
                             "start_year": 1926,
                             "end_year": 1967,
-                            "crop_id": 11928,
+                            "crop_id": 21615,
                             "all_crops": false,
                             "note": "Applied to strips 2.1 (2a) and 2.2 (2b). Not applied in the fallow years",
                             "application_frequency": "Once a year",
@@ -1127,10 +1127,10 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7400,
+                            "factor_id": 12624,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19249,
+                            "factor_level_id": 31359,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -1146,7 +1146,7 @@
             "measurements": [
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 11928,
+                    "crop_id": 21615,
                     "comment": "Grain and straw yields at field moisture content, approximately 85% dry matter.",
                     "collection_frequency": "annually",
                     "variable_label": "yield components",
@@ -1157,7 +1157,7 @@
                 },
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 11928,
+                    "crop_id": 21615,
                     "comment": "Bushel weights can be used to derive hectolitre weights (HLWT), a measure of grain quality",
                     "collection_frequency": "annually",
                     "variable_label": "weight per bushel dressed corn",
@@ -1234,7 +1234,7 @@
                 },
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 11928,
+                    "crop_id": 21615,
                     "comment": "Both cutting date and carting date (ie date crop removed from field)",
                     "collection_frequency": "annually",
                     "variable_label": "harvest date",
@@ -1260,53 +1260,53 @@
             "factorial": false
         },
         {
-            "id": 4312,
+            "id": 7810,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 11930,
+                    "id": 21617,
                     "crop_term": "winter wheat",
                     "crop_label": "winter wheat",
                     "start_year": 1968,
                     "end_year": null
                 },
                 {
-                    "id": 11931,
+                    "id": 21618,
                     "crop_term": "oats",
                     "crop_label": "oats",
                     "start_year": 1996,
                     "end_year": null
                 },
                 {
-                    "id": 11932,
+                    "id": 21619,
                     "crop_term": null,
                     "crop_label": "spring beans",
                     "start_year": 1968,
                     "end_year": 1978
                 },
                 {
-                    "id": 11933,
+                    "id": 21620,
                     "crop_term": "potatoes",
                     "crop_label": "potatoes",
                     "start_year": 1968,
                     "end_year": 1996
                 },
                 {
-                    "id": 11934,
+                    "id": 21621,
                     "crop_term": null,
                     "crop_label": "winter beans",
                     "start_year": 2018,
                     "end_year": null
                 },
                 {
-                    "id": 11935,
+                    "id": 21622,
                     "crop_term": "fallow",
                     "crop_label": "fallow",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11936,
+                    "id": 21623,
                     "crop_term": "maize",
                     "crop_label": "maize",
                     "start_year": 1997,
@@ -1315,10 +1315,10 @@
             ],
             "rotations": [
                 {
-                    "id": 2129,
+                    "id": 5974,
                     "phases": [
                         {
-                            "crop_id": 11930,
+                            "crop_id": 21617,
                             "notes": null,
                             "same_phase": false
                         }
@@ -1330,20 +1330,20 @@
                     "is_treatment": true
                 },
                 {
-                    "id": 2130,
+                    "id": 5975,
                     "phases": [
                         {
-                            "crop_id": 11935,
+                            "crop_id": 21622,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 11930,
+                            "crop_id": 21617,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 11930,
+                            "crop_id": 21617,
                             "notes": null,
                             "same_phase": false
                         }
@@ -1355,20 +1355,20 @@
                     "is_treatment": true
                 },
                 {
-                    "id": 2131,
+                    "id": 5976,
                     "phases": [
                         {
-                            "crop_id": 11933,
+                            "crop_id": 21620,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 11932,
+                            "crop_id": 21619,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 11930,
+                            "crop_id": 21617,
                             "notes": null,
                             "same_phase": false
                         }
@@ -1380,30 +1380,30 @@
                     "is_treatment": true
                 },
                 {
-                    "id": 2132,
+                    "id": 5977,
                     "phases": [
                         {
-                            "crop_id": 11935,
+                            "crop_id": 21622,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 11933,
+                            "crop_id": 21620,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 11930,
+                            "crop_id": 21617,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 11930,
+                            "crop_id": 21617,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 11930,
+                            "crop_id": 21617,
                             "notes": null,
                             "same_phase": false
                         }
@@ -1415,30 +1415,30 @@
                     "is_treatment": true
                 },
                 {
-                    "id": 2133,
+                    "id": 5978,
                     "phases": [
                         {
-                            "crop_id": 11931,
+                            "crop_id": 21618,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 11936,
+                            "crop_id": 21623,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 11930,
+                            "crop_id": 21617,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 11930,
+                            "crop_id": 21617,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 11930,
+                            "crop_id": 21617,
                             "notes": null,
                             "same_phase": false
                         }
@@ -1450,30 +1450,30 @@
                     "is_treatment": true
                 },
                 {
-                    "id": 2134,
+                    "id": 5979,
                     "phases": [
                         {
-                            "crop_id": 11930,
+                            "crop_id": 21617,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 11930,
+                            "crop_id": 21617,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 11931,
+                            "crop_id": 21618,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 11930,
+                            "crop_id": 21617,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 11934,
+                            "crop_id": 21621,
                             "notes": null,
                             "same_phase": false
                         }
@@ -1485,20 +1485,20 @@
                     "is_treatment": true
                 },
                 {
-                    "id": 2135,
+                    "id": 5980,
                     "phases": [
                         {
-                            "crop_id": 11935,
+                            "crop_id": 21622,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 11933,
+                            "crop_id": 21620,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 11930,
+                            "crop_id": 21617,
                             "notes": null,
                             "same_phase": false
                         }
@@ -1512,11 +1512,11 @@
             ],
             "factors": [
                 {
-                    "id": 7401,
+                    "id": 12625,
                     "factor_term": "nitrogen fertilizer exposure",
                     "levels": [
                         {
-                            "id": 19250,
+                            "id": 31360,
                             "factor_variant_term": null,
                             "factor_variant_label": "N1",
                             "amount": "48",
@@ -1524,17 +1524,17 @@
                             "amount_unit_label": "kg nitrogen per hectare",
                             "start_year": 1968,
                             "end_year": null,
-                            "crop_id": 11930,
+                            "crop_id": 21617,
                             "all_crops": false,
-                            "note": "Applied to wheat, maize, spring beans, since 2018 oats at half rate. Not applied to fallow or beans from 2018.",
+                            "note": null,
                             "application_frequency": "annually in mid-April",
                             "application_method_term": null,
                             "application_method_label": null,
                             "chemical_form_term": null,
-                            "chemical_form_label": null
+                            "chemical_form_label": "ammonium nitrate"
                         },
                         {
-                            "id": 19251,
+                            "id": 31361,
                             "factor_variant_term": null,
                             "factor_variant_label": "N2",
                             "amount": "96",
@@ -1542,7 +1542,7 @@
                             "amount_unit_label": "kg nitrogen per hectare",
                             "start_year": 1968,
                             "end_year": null,
-                            "crop_id": 11930,
+                            "crop_id": 21617,
                             "all_crops": false,
                             "note": null,
                             "application_frequency": "annually in mid-April",
@@ -1552,7 +1552,7 @@
                             "chemical_form_label": "ammonium nitrate"
                         },
                         {
-                            "id": 19252,
+                            "id": 31362,
                             "factor_variant_term": null,
                             "factor_variant_label": "N3",
                             "amount": "144",
@@ -1560,7 +1560,7 @@
                             "amount_unit_label": "kg nitrogen per hectare",
                             "start_year": 1968,
                             "end_year": null,
-                            "crop_id": 11930,
+                            "crop_id": 21617,
                             "all_crops": false,
                             "note": null,
                             "application_frequency": "annually in mid-April",
@@ -1570,7 +1570,7 @@
                             "chemical_form_label": "ammonium nitrate"
                         },
                         {
-                            "id": 19253,
+                            "id": 31363,
                             "factor_variant_term": null,
                             "factor_variant_label": "N4",
                             "amount": "192",
@@ -1578,7 +1578,7 @@
                             "amount_unit_label": "kg nitrogen per hectare",
                             "start_year": 1968,
                             "end_year": null,
-                            "crop_id": 11930,
+                            "crop_id": 21617,
                             "all_crops": false,
                             "note": null,
                             "application_frequency": "annually in mid-April",
@@ -1588,7 +1588,7 @@
                             "chemical_form_label": "ammonium nitrate"
                         },
                         {
-                            "id": 19254,
+                            "id": 31364,
                             "factor_variant_term": null,
                             "factor_variant_label": "N5",
                             "amount": "240",
@@ -1596,7 +1596,7 @@
                             "amount_unit_label": "kg nitrogen per hectare",
                             "start_year": 1985,
                             "end_year": null,
-                            "crop_id": 11930,
+                            "crop_id": 21617,
                             "all_crops": false,
                             "note": null,
                             "application_frequency": "annually in mid-April",
@@ -1606,7 +1606,7 @@
                             "chemical_form_label": "ammonium nitrate"
                         },
                         {
-                            "id": 19255,
+                            "id": 31365,
                             "factor_variant_term": null,
                             "factor_variant_label": "N6",
                             "amount": "288",
@@ -1614,7 +1614,7 @@
                             "amount_unit_label": "kg nitrogen per hectare",
                             "start_year": 1985,
                             "end_year": null,
-                            "crop_id": 11930,
+                            "crop_id": 21617,
                             "all_crops": false,
                             "note": null,
                             "application_frequency": "annually in mid-April",
@@ -1624,7 +1624,7 @@
                             "chemical_form_label": "ammonium nitrate"
                         },
                         {
-                            "id": 19256,
+                            "id": 31366,
                             "factor_variant_term": null,
                             "factor_variant_label": "N1+1+1",
                             "amount": "144",
@@ -1632,9 +1632,9 @@
                             "amount_unit_label": "kg nitrogen per hectare",
                             "start_year": 2001,
                             "end_year": null,
-                            "crop_id": 11930,
+                            "crop_id": 21617,
                             "all_crops": false,
-                            "note": "N2+1 for maize",
+                            "note": "N2+1 for maize 1997-2017",
                             "application_frequency": "mid-March, mid-April, Mid-May",
                             "application_method_term": null,
                             "application_method_label": null,
@@ -1642,7 +1642,7 @@
                             "chemical_form_label": "ammonium nitrate"
                         },
                         {
-                            "id": 19257,
+                            "id": 31367,
                             "factor_variant_term": null,
                             "factor_variant_label": "N1+2+1",
                             "amount": "192",
@@ -1650,9 +1650,9 @@
                             "amount_unit_label": "kg nitrogen per hectare",
                             "start_year": 2001,
                             "end_year": null,
-                            "crop_id": 11930,
+                            "crop_id": 21617,
                             "all_crops": false,
-                            "note": "N2+2 for maize",
+                            "note": "N2+2 for maize 1997-2017",
                             "application_frequency": "mid-March, mid-April, Mid-May",
                             "application_method_term": null,
                             "application_method_label": null,
@@ -1660,7 +1660,7 @@
                             "chemical_form_label": "ammonium nitrate"
                         },
                         {
-                            "id": 19258,
+                            "id": 31368,
                             "factor_variant_term": null,
                             "factor_variant_label": "N1+3+1",
                             "amount": "240",
@@ -1668,9 +1668,9 @@
                             "amount_unit_label": "kg nitrogen per hectare",
                             "start_year": 2001,
                             "end_year": null,
-                            "crop_id": 11930,
+                            "crop_id": 21617,
                             "all_crops": false,
-                            "note": "N2+3 for maize",
+                            "note": "N2+3 for maize 1997-2017",
                             "application_frequency": "mid-March, mid-April, Mid-May",
                             "application_method_term": null,
                             "application_method_label": null,
@@ -1678,7 +1678,7 @@
                             "chemical_form_label": "ammonium nitrate"
                         },
                         {
-                            "id": 19259,
+                            "id": 31369,
                             "factor_variant_term": null,
                             "factor_variant_label": "N1+4+1",
                             "amount": "288",
@@ -1686,7 +1686,7 @@
                             "amount_unit_label": "kg nitrogen per hectare",
                             "start_year": 2001,
                             "end_year": null,
-                            "crop_id": 11930,
+                            "crop_id": 21617,
                             "all_crops": false,
                             "note": "N2+4 for maize",
                             "application_frequency": "mid-March, mid-April, Mid-May",
@@ -1697,16 +1697,16 @@
                         }
                     ],
                     "factor_label": "nitrogen fertilizer exposure",
-                    "description": "N was applied as calcium ammonium nitrate (Nitro-chalk) between 1968 and 1985. Between 1968-1996 N was applied at the same rate to beans and potatoes. Between 1996-2017 oats did not receive N. Since 2018 Oats receive N at half the normal rate. Between 1997-2017 split N treatments were applied twice to the seedbed and post-emergence.",
+                    "description": "N was applied as calcium ammonium nitrate (Nitro-chalk) 1968-1985. Between 1968-1996 N was applied at the same rate to beans and potatoes, no N to fallow. 1996-2017 oats did not receive N. 1997-2017 split N treatments were applied to forage maize,  in the seedbed and post-emergence.  Since 2018 oats received N at half the normal rate. No N applied to beans from 2018.",
                     "plot_application": "Whole plot",
                     "effect": "Direct"
                 },
                 {
-                    "id": 7402,
+                    "id": 12626,
                     "factor_term": "potassium fertilizer exposure",
                     "levels": [
                         {
-                            "id": 19260,
+                            "id": 31370,
                             "factor_variant_term": null,
                             "factor_variant_label": "K",
                             "amount": "90",
@@ -1724,7 +1724,7 @@
                             "chemical_form_label": "potassium sulphate"
                         },
                         {
-                            "id": 19261,
+                            "id": 31371,
                             "factor_variant_term": null,
                             "factor_variant_label": "K2",
                             "amount": "180",
@@ -1742,7 +1742,7 @@
                             "chemical_form_label": "potassium sulphate"
                         },
                         {
-                            "id": 19262,
+                            "id": 31372,
                             "factor_variant_term": null,
                             "factor_variant_label": "K*",
                             "amount": "90",
@@ -1766,11 +1766,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7403,
+                    "id": 12627,
                     "factor_term": "phosphate fertilizer exposure",
                     "levels": [
                         {
-                            "id": 19263,
+                            "id": 31373,
                             "factor_variant_term": null,
                             "factor_variant_label": "P",
                             "amount": "35",
@@ -1789,16 +1789,16 @@
                         }
                     ],
                     "factor_label": "phosphate fertilizer exposure",
-                    "description": null,
+                    "description": "P fertilizer no longer applied to some plots since 2000 due to high levels of soil P. Indicated as (P).",
                     "plot_application": "Whole plot",
                     "effect": ""
                 },
                 {
-                    "id": 7404,
+                    "id": 12628,
                     "factor_term": "sodium nutrient exposure",
                     "levels": [
                         {
-                            "id": 19264,
+                            "id": 31374,
                             "factor_variant_term": null,
                             "factor_variant_label": "Na1",
                             "amount": "16",
@@ -1816,7 +1816,7 @@
                             "chemical_form_label": "sodium sulphate"
                         },
                         {
-                            "id": 19265,
+                            "id": 31375,
                             "factor_variant_term": null,
                             "factor_variant_label": "Na2",
                             "amount": "55",
@@ -1840,11 +1840,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7405,
+                    "id": 12629,
                     "factor_term": "magnesium nutrient exposure",
                     "levels": [
                         {
-                            "id": 19266,
+                            "id": 31376,
                             "factor_variant_term": null,
                             "factor_variant_label": "Mg",
                             "amount": "12",
@@ -1862,7 +1862,7 @@
                             "chemical_form_label": "magnesium sulphate"
                         },
                         {
-                            "id": 19267,
+                            "id": 31377,
                             "factor_variant_term": null,
                             "factor_variant_label": "Mg2",
                             "amount": "24",
@@ -1880,7 +1880,7 @@
                             "chemical_form_label": "magnesium sulphate"
                         },
                         {
-                            "id": 19268,
+                            "id": 31378,
                             "factor_variant_term": null,
                             "factor_variant_label": "Mg*",
                             "amount": "30",
@@ -1904,11 +1904,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7406,
+                    "id": 12630,
                     "factor_term": "farmyard manure exposure",
                     "levels": [
                         {
-                            "id": 19269,
+                            "id": 31379,
                             "factor_variant_term": null,
                             "factor_variant_label": "FYM",
                             "amount": "35",
@@ -1916,7 +1916,7 @@
                             "amount_unit_label": "tonnes per hectare",
                             "start_year": 1968,
                             "end_year": null,
-                            "crop_id": 11930,
+                            "crop_id": 21617,
                             "all_crops": false,
                             "note": "Derived from cattle. Not applied to beans from 2018, not applied to oats 1996-2017.",
                             "application_frequency": "Annually in autumn",
@@ -1926,7 +1926,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 19270,
+                            "id": 31380,
                             "factor_variant_term": null,
                             "factor_variant_label": "Residual FYM",
                             "amount": null,
@@ -1950,11 +1950,11 @@
                     "effect": ""
                 },
                 {
-                    "id": 7407,
+                    "id": 12631,
                     "factor_term": "castor meal exposure",
                     "levels": [
                         {
-                            "id": 19271,
+                            "id": 31381,
                             "factor_variant_term": null,
                             "factor_variant_label": "C",
                             "amount": "96",
@@ -1965,25 +1965,7 @@
                             "crop_id": null,
                             "all_crops": false,
                             "note": null,
-                            "application_frequency": null,
-                            "application_method_term": null,
-                            "application_method_label": null,
-                            "chemical_form_term": null,
-                            "chemical_form_label": null
-                        },
-                        {
-                            "id": 19272,
-                            "factor_variant_term": null,
-                            "factor_variant_label": "Residual C",
-                            "amount": null,
-                            "amount_unit_term": null,
-                            "amount_unit_label": null,
-                            "start_year": null,
-                            "end_year": null,
-                            "crop_id": null,
-                            "all_crops": false,
-                            "note": "Plots previously receiving",
-                            "application_frequency": null,
+                            "application_frequency": "annually",
                             "application_method_term": null,
                             "application_method_label": null,
                             "chemical_form_term": null,
@@ -1991,7 +1973,7 @@
                         }
                     ],
                     "factor_label": "castor meal exposure",
-                    "description": null,
+                    "description": "Plots previously receiving Castor Mean indicated as (C)",
                     "plot_application": "Whole plot",
                     "effect": ""
                 }
@@ -2000,40 +1982,40 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19251,
+                            "factor_level_id": 31361,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7406,
+                            "factor_id": 12630,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19269,
+                            "factor_level_id": 31379,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7403,
+                            "factor_id": 12627,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19263,
+                            "factor_level_id": 31373,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7402,
+                            "factor_id": 12626,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19260,
+                            "factor_level_id": 31370,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -2048,40 +2030,40 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7406,
+                            "factor_id": 12630,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19269,
+                            "factor_level_id": 31379,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19253,
+                            "factor_level_id": 31363,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7403,
+                            "factor_id": 12627,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19263,
+                            "factor_level_id": 31373,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7402,
+                            "factor_id": 12626,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19260,
+                            "factor_level_id": 31370,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -2096,20 +2078,20 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7406,
+                            "factor_id": 12630,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19270,
+                            "factor_level_id": 31380,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19253,
+                            "factor_level_id": 31363,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -2124,20 +2106,20 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7406,
+                            "factor_id": 12630,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19269,
+                            "factor_level_id": 31379,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19251,
+                            "factor_level_id": 31361,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -2152,20 +2134,20 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7406,
+                            "factor_id": 12630,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19269,
+                            "factor_level_id": 31379,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19252,
+                            "factor_level_id": 31362,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -2180,10 +2162,10 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7406,
+                            "factor_id": 12630,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19269,
+                            "factor_level_id": 31379,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -2205,40 +2187,40 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7403,
+                            "factor_id": 12627,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19263,
+                            "factor_level_id": 31373,
                             "comment": "P not applied since 2000 due to high soil levels, reviewed annually.",
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7402,
+                            "factor_id": 12626,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19260,
+                            "factor_level_id": 31370,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7404,
+                            "factor_id": 12628,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19264,
+                            "factor_level_id": 31374,
                             "comment": "Applied until 1973",
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7405,
+                            "factor_id": 12629,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19266,
+                            "factor_level_id": 31376,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -2253,37 +2235,37 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19250,
+                            "factor_level_id": 31360,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7403,
+                            "factor_id": 12627,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19263,
+                            "factor_level_id": 31373,
                             "comment": "P not applied since 2000 due to high soil levels, reviewed annually.",
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7402,
+                            "factor_id": 12626,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19260,
+                            "factor_level_id": 31370,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7404,
+                            "factor_id": 12628,
                             "crop_id": null,
                             "all_crops": false,
                             "factor_level_id": null,
@@ -2293,10 +2275,10 @@
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7405,
+                            "factor_id": 12629,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19266,
+                            "factor_level_id": 31376,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -2311,50 +2293,50 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19251,
+                            "factor_level_id": 31361,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7403,
+                            "factor_id": 12627,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19263,
+                            "factor_level_id": 31373,
                             "comment": "P not applied since 2000 due to high soil levels, reviewed annually.",
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7402,
+                            "factor_id": 12626,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19260,
+                            "factor_level_id": 31370,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7404,
+                            "factor_id": 12628,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19264,
+                            "factor_level_id": 31374,
                             "comment": "Applied until 1973",
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7405,
+                            "factor_id": 12629,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19266,
+                            "factor_level_id": 31376,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -2369,50 +2351,50 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19252,
+                            "factor_level_id": 31362,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7403,
+                            "factor_id": 12627,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19263,
+                            "factor_level_id": 31373,
                             "comment": "P not applied since 2000 due to high soil levels, reviewed annually.",
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7402,
+                            "factor_id": 12626,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19260,
+                            "factor_level_id": 31370,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7404,
+                            "factor_id": 12628,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19264,
+                            "factor_level_id": 31374,
                             "comment": "Applied until 1973",
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7405,
+                            "factor_id": 12629,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19266,
+                            "factor_level_id": 31376,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -2427,50 +2409,50 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19253,
+                            "factor_level_id": 31363,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7403,
+                            "factor_id": 12627,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19263,
+                            "factor_level_id": 31373,
                             "comment": "P not applied since 2000 due to high soil levels, reviewed annually.",
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7402,
+                            "factor_id": 12626,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19260,
+                            "factor_level_id": 31370,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7404,
+                            "factor_id": 12628,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19264,
+                            "factor_level_id": 31374,
                             "comment": "Applied until 1973",
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7405,
+                            "factor_id": 12629,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19266,
+                            "factor_level_id": 31376,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -2485,10 +2467,10 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19251,
+                            "factor_level_id": 31361,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -2503,10 +2485,10 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19253,
+                            "factor_level_id": 31363,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -2521,20 +2503,20 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19251,
+                            "factor_level_id": 31361,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7403,
+                            "factor_id": 12627,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19263,
+                            "factor_level_id": 31373,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -2549,30 +2531,30 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19253,
+                            "factor_level_id": 31363,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7403,
+                            "factor_id": 12627,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19263,
+                            "factor_level_id": 31373,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7405,
+                            "factor_id": 12629,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19266,
+                            "factor_level_id": 31376,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -2587,30 +2569,30 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19251,
+                            "factor_level_id": 31361,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7403,
+                            "factor_id": 12627,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19263,
+                            "factor_level_id": 31373,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7404,
+                            "factor_id": 12628,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19265,
+                            "factor_level_id": 31375,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -2625,30 +2607,30 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19258,
+                            "factor_level_id": 31368,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7402,
+                            "factor_id": 12626,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19261,
+                            "factor_level_id": 31371,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7405,
+                            "factor_id": 12629,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19267,
+                            "factor_level_id": 31377,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -2663,30 +2645,30 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19258,
+                            "factor_level_id": 31368,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7402,
+                            "factor_id": 12626,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19260,
+                            "factor_level_id": 31370,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7405,
+                            "factor_id": 12629,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19266,
+                            "factor_level_id": 31376,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -2701,30 +2683,30 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19251,
+                            "factor_level_id": 31361,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7403,
+                            "factor_id": 12627,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19263,
+                            "factor_level_id": 31373,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7402,
+                            "factor_id": 12626,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19260,
+                            "factor_level_id": 31370,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -2739,30 +2721,30 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19253,
+                            "factor_level_id": 31363,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7403,
+                            "factor_id": 12627,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19263,
+                            "factor_level_id": 31373,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7402,
+                            "factor_id": 12626,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19260,
+                            "factor_level_id": 31370,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -2777,40 +2759,40 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19251,
+                            "factor_level_id": 31361,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7403,
+                            "factor_id": 12627,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19263,
+                            "factor_level_id": 31373,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7402,
+                            "factor_id": 12626,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19260,
+                            "factor_level_id": 31370,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7405,
+                            "factor_id": 12629,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19268,
+                            "factor_level_id": 31378,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -2825,30 +2807,30 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19253,
+                            "factor_level_id": 31363,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7403,
+                            "factor_id": 12627,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19263,
+                            "factor_level_id": 31373,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7402,
+                            "factor_id": 12626,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19262,
+                            "factor_level_id": 31372,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -2863,40 +2845,40 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19254,
+                            "factor_level_id": 31364,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7403,
+                            "factor_id": 12627,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19263,
+                            "factor_level_id": 31373,
                             "comment": "Applied until 200, reviewed annually since",
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7402,
+                            "factor_id": 12626,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19260,
+                            "factor_level_id": 31370,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7405,
+                            "factor_id": 12629,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19266,
+                            "factor_level_id": 31376,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -2911,40 +2893,40 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19255,
+                            "factor_level_id": 31365,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7403,
+                            "factor_id": 12627,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19263,
+                            "factor_level_id": 31373,
                             "comment": "Applied until 2000, reviewed annually since",
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7402,
+                            "factor_id": 12626,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19260,
+                            "factor_level_id": 31370,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7405,
+                            "factor_id": 12629,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19266,
+                            "factor_level_id": 31376,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -2959,50 +2941,50 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19251,
+                            "factor_level_id": 31361,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7403,
+                            "factor_id": 12627,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19263,
+                            "factor_level_id": 31373,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7402,
+                            "factor_id": 12626,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19260,
+                            "factor_level_id": 31370,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7404,
+                            "factor_id": 12628,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19264,
+                            "factor_level_id": 31374,
                             "comment": "Until 1973",
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7405,
+                            "factor_id": 12629,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19266,
+                            "factor_level_id": 31376,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -3017,50 +2999,50 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19252,
+                            "factor_level_id": 31362,
                             "comment": "Applied to strip 17",
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19253,
+                            "factor_level_id": 31363,
                             "comment": "Applied to strip 18",
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7403,
+                            "factor_id": 12627,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19263,
+                            "factor_level_id": 31373,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7402,
+                            "factor_id": 12626,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19260,
+                            "factor_level_id": 31370,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7405,
+                            "factor_id": 12629,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19266,
+                            "factor_level_id": 31376,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -3075,40 +3057,40 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19259,
+                            "factor_level_id": 31369,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7403,
+                            "factor_id": 12627,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19263,
+                            "factor_level_id": 31373,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7402,
+                            "factor_id": 12626,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19260,
+                            "factor_level_id": 31370,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7405,
+                            "factor_id": 12629,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19266,
+                            "factor_level_id": 31376,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -3123,40 +3105,40 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19257,
+                            "factor_level_id": 31367,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7403,
+                            "factor_id": 12627,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19263,
+                            "factor_level_id": 31373,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7402,
+                            "factor_id": 12626,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19260,
+                            "factor_level_id": 31370,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7405,
+                            "factor_id": 12629,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19266,
+                            "factor_level_id": 31376,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -3171,10 +3153,10 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7407,
+                            "factor_id": 12631,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19271,
+                            "factor_level_id": 31381,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -3189,30 +3171,30 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19256,
+                            "factor_level_id": 31366,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7402,
+                            "factor_id": 12626,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19260,
+                            "factor_level_id": 31370,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7405,
+                            "factor_id": 12629,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19266,
+                            "factor_level_id": 31376,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -3227,40 +3209,40 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19251,
+                            "factor_level_id": 31361,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7402,
+                            "factor_id": 12626,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19260,
+                            "factor_level_id": 31370,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7404,
+                            "factor_id": 12628,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19264,
+                            "factor_level_id": 31374,
                             "comment": "applied until 1973",
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7405,
+                            "factor_id": 12629,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19266,
+                            "factor_level_id": 31376,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -3275,30 +3257,30 @@
                 {
                     "members": [
                         {
-                            "factor_id": 7401,
+                            "factor_id": 12625,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19253,
+                            "factor_level_id": 31363,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7402,
+                            "factor_id": 12626,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19260,
+                            "factor_level_id": 31370,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 7405,
+                            "factor_id": 12629,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 19266,
+                            "factor_level_id": 31376,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -3325,7 +3307,7 @@
                 },
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 11930,
+                    "crop_id": 21617,
                     "comment": "Since 1999 selected plots only",
                     "collection_frequency": "annually",
                     "variable_label": "hectolitre grain weight",
@@ -3336,7 +3318,7 @@
                 },
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 11930,
+                    "crop_id": 21617,
                     "comment": "Since 1974 selected plots only",
                     "collection_frequency": "annually",
                     "variable_label": "thousand grain weight",
@@ -3413,7 +3395,7 @@
                 },
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 11930,
+                    "crop_id": 21617,
                     "comment": "Selected plots since 1968. Also eyespot, sharp eyespot and brown foot rot.",
                     "collection_frequency": "annually",
                     "variable_label": "take-all disease incidence",
@@ -3468,7 +3450,7 @@
     "site_soil_type_term": "luvisol",
     "site_soil_properties": [
         {
-            "id": 4290,
+            "id": 9034,
             "variable_term": "sand content",
             "unit_term": "%",
             "variable_label": "sand content",
@@ -3484,7 +3466,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 4291,
+            "id": 9035,
             "variable_term": "silt content",
             "unit_term": "%",
             "variable_label": "silt content",
@@ -3500,7 +3482,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 4292,
+            "id": 9036,
             "variable_term": "clay content",
             "unit_term": "%",
             "variable_label": "clay content",
@@ -3516,7 +3498,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 4293,
+            "id": 9037,
             "variable_term": "soil organic carbon",
             "unit_term": "%",
             "variable_label": "soil organic carbon",
@@ -3532,7 +3514,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 4294,
+            "id": 9038,
             "variable_term": "total soil nitrogen",
             "unit_term": "%",
             "variable_label": "total soil nitrogen",
@@ -3548,7 +3530,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 4295,
+            "id": 9039,
             "variable_term": null,
             "unit_term": "mg/kg",
             "variable_label": "plant available phosphorous (Olsen P)",
@@ -3564,7 +3546,7 @@
             "unit_label": "milligram per kilogram"
         },
         {
-            "id": 4296,
+            "id": 9040,
             "variable_term": null,
             "unit_term": "g/cm3",
             "variable_label": "soil bulk density",
@@ -3580,7 +3562,7 @@
             "unit_label": "gram per cubic centimetre"
         },
         {
-            "id": 4297,
+            "id": 9041,
             "variable_term": "soil organic carbon",
             "unit_term": "t/ha",
             "variable_label": "soil organic carbon",
@@ -3599,7 +3581,7 @@
     "site_climatic_type_term": "temperate oceanic climate",
     "site_climate_properties": [
         {
-            "id": 1884,
+            "id": 4484,
             "variable_term": null,
             "unit_term": null,
             "variable_label": "annual total precipitation",
@@ -3611,7 +3593,7 @@
             "unit_label": "mm"
         },
         {
-            "id": 1885,
+            "id": 4485,
             "variable_term": null,
             "unit_term": "degC",
             "variable_label": "annual mean air temperature",
@@ -3660,7 +3642,7 @@
             "language": "English"
         }
     ],
-    "saved_time": "2021-07-02T11:02:33.628144Z",
+    "saved_time": "2022-11-21T10:04:44.757542Z",
     "name": "Broadbalk",
     "local_identifier": "R/BK/1",
     "experiment_type_label": null,
@@ -3686,7 +3668,7 @@
     "site_slope": null,
     "site_slope_aspect": null,
     "site_visits_allowed": true,
-    "site_visiting_arrangements": "Contact Dr Andy Macdonald",
+    "site_visiting_arrangements": "Contact Dr Andrew Gregory",
     "site_history": "The site has probably been occupied since Roman times, and the Rothamsted map of 1623 shows the site under arable cultivation.  The first experimental crop was harvested in 1844 after a rotation of turnips (dunged) 1839, barley 1840, peas 1841, wheat 1842 and oats 1843. The last four crops being entirely unmanured. The field was therefore considered to be exhausted according to contemporary practice.",
     "site_management": "The site is managed using conventional tillage and pesticide applications are applied as necessary, except for herbicide and fungicide exclusion plots. There is no irrigation. \n\nThe plough layer (0-23 m) is limed when necessary to maintain a minimum soil pH of 7.0 \u2013 7.5.",
     "site_soil_type_label": "luvisol",

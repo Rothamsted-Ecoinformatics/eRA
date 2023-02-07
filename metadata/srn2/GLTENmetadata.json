@@ -1,34 +1,39 @@
 {
-    "id": 2633,
+    "id": 5654,
     "experiment_type_term": null,
     "experiment_id": 75,
     "people": [
         {
-            "id": 3759,
-            "contacts": [],
+            "id": 6488,
+            "contacts": [
+                {
+                    "contact_type": "Email",
+                    "value": "andy.gregory@rothamsted.ac.uk"
+                }
+            ],
             "role_term": "principal investigator",
             "title": "Dr",
-            "name": "Andy Macdonald",
+            "name": "Andrew Gregory",
             "affiliation": "Rothamsted Research",
-            "department": "Sustainable Agricultural Systems",
-            "orcid": null,
+            "department": "Protecting Crops and the Environment",
+            "orcid": "https://orcid.org/0000-0001-7123-0784",
             "is_contact": true,
             "role_label": "principal investigator"
         },
         {
-            "id": 3760,
+            "id": 6489,
             "contacts": [],
             "role_term": "principal investigator",
             "title": null,
             "name": "Paul Poulton",
             "affiliation": "Rothamsted Research",
-            "department": "SAS",
+            "department": "Protecting Crops and the Environment",
             "orcid": null,
             "is_contact": false,
             "role_label": "principal investigator"
         },
         {
-            "id": 3761,
+            "id": 6490,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -39,7 +44,7 @@
             "title": "Dr",
             "name": "Margaret Glendining",
             "affiliation": "Rothamsted Research",
-            "department": "Computational and Analytical Sciences",
+            "department": "Intelligent Data Ecosystems",
             "orcid": "https://orcid.org/0000-0002-6466-4629",
             "is_contact": false,
             "role_label": "data manager"
@@ -47,7 +52,7 @@
     ],
     "organizations": [
         {
-            "id": 2652,
+            "id": 6098,
             "contacts": [],
             "role_term": "research organisation",
             "name": "Rothamsted Research",
@@ -58,39 +63,39 @@
     ],
     "periods": [
         {
-            "id": 4021,
+            "id": 7853,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 11425,
+                    "id": 21751,
                     "crop_term": "potatoes",
                     "crop_label": "potatoes",
                     "start_year": 1969,
                     "end_year": 1974
                 },
                 {
-                    "id": 11426,
-                    "crop_term": "sugarbeet",
-                    "crop_label": "sugarbeet",
+                    "id": 21752,
+                    "crop_term": "sugar beet",
+                    "crop_label": "sugar beet",
                     "start_year": 1969,
                     "end_year": 1974
                 },
                 {
-                    "id": 11427,
+                    "id": 21753,
                     "crop_term": "winter wheat",
                     "crop_label": "winter wheat",
                     "start_year": 1977,
                     "end_year": 1986
                 },
                 {
-                    "id": 11428,
+                    "id": 21754,
                     "crop_term": "barley",
                     "crop_label": "barley",
                     "start_year": 1970,
                     "end_year": 1979
                 },
                 {
-                    "id": 11429,
+                    "id": 21755,
                     "crop_term": "faba beans",
                     "crop_label": "faba beans",
                     "start_year": null,
@@ -100,7 +105,7 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 6125,
+                    "id": 12702,
                     "factor_term": "phosphate fertilizer exposure",
                     "levels": [],
                     "factor_label": "phosphate fertilizer exposure",
@@ -179,7 +184,7 @@
                 },
                 {
                     "material": "SpecifiedCrop",
-                    "crop_id": 11427,
+                    "crop_id": 21753,
                     "comment": "Nitrogen (N) fertilizer labelled with the heavy isotope 15N was applied to some of the winter wheat plots in the early 1980s, to determine the recovery of fertilizer N in the crop and soil. See Powlson et al (1992) for the recovery of fertilizer N applied in the autumn; Hart et al (1993) for the fate of the residues; Macdonald et al (1989) for the recovery of unused fertilizer N in the soil. The data was also used to partition losses between denitrification and leaching (Addiscott & Powlson, 1992) and to model the fate of N in crop and soil (Bradbury et al, 1993).",
                     "collection_frequency": "annually",
                     "variable_label": "fertilizer 15N recovery",
@@ -216,32 +221,32 @@
             "factorial": false
         },
         {
-            "id": 4022,
+            "id": 7854,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 11430,
+                    "id": 21756,
                     "crop_term": "winter wheat",
                     "crop_label": "winter wheat",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11431,
+                    "id": 21757,
                     "crop_term": "root vegetables",
                     "crop_label": "root vegetables",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11432,
+                    "id": 21758,
                     "crop_term": "barley",
                     "crop_label": "barley",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11433,
+                    "id": 21759,
                     "crop_term": "legumes",
                     "crop_label": "legumes",
                     "start_year": null,
@@ -251,7 +256,7 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 6126,
+                    "id": 12703,
                     "factor_term": "farmyard manure exposure",
                     "levels": [],
                     "factor_label": "farmyard manure exposure",
@@ -260,7 +265,7 @@
                     "effect": ""
                 },
                 {
-                    "id": 6127,
+                    "id": 12704,
                     "factor_term": "nitrogen fertilizer exposure",
                     "levels": [],
                     "factor_label": "nitrogen fertilizer exposure",
@@ -269,7 +274,7 @@
                     "effect": ""
                 },
                 {
-                    "id": 6128,
+                    "id": 12705,
                     "factor_term": "superphosphate exposure",
                     "levels": [],
                     "factor_label": "superphosphate exposure",
@@ -296,34 +301,34 @@
             "factorial": true
         },
         {
-            "id": 4023,
+            "id": 7855,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 11434,
+                    "id": 21760,
                     "crop_term": "barley",
                     "crop_label": "barley",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11435,
+                    "id": 21761,
                     "crop_term": "potatoes",
                     "crop_label": "potatoes",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11436,
+                    "id": 21762,
                     "crop_term": "turnips",
                     "crop_label": "turnips",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11437,
-                    "crop_term": "sugarbeet",
-                    "crop_label": "sugarbeet",
+                    "id": 21763,
+                    "crop_term": "sugar beet",
+                    "crop_label": "sugar beet",
                     "start_year": null,
                     "end_year": null
                 }
@@ -331,7 +336,7 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 6129,
+                    "id": 12706,
                     "factor_term": "farmyard manure exposure",
                     "levels": [],
                     "factor_label": "farmyard manure exposure",
@@ -340,7 +345,7 @@
                     "effect": ""
                 },
                 {
-                    "id": 6130,
+                    "id": 12707,
                     "factor_term": "phosphate fertilizer exposure",
                     "levels": [],
                     "factor_label": "phosphate fertilizer exposure",
@@ -376,7 +381,7 @@
     "site_climatic_type_term": "temperate oceanic climate",
     "site_climate_properties": [
         {
-            "id": 1817,
+            "id": 4511,
             "variable_term": "precipitation",
             "unit_term": "mm",
             "variable_label": "precipitation",
@@ -388,7 +393,7 @@
             "unit_label": "millimeter"
         },
         {
-            "id": 1818,
+            "id": 4512,
             "variable_term": "air temperature",
             "unit_term": "degC",
             "variable_label": "air temperature",
@@ -432,7 +437,7 @@
             "language": "English"
         }
     ],
-    "saved_time": "2021-02-24T12:59:37.920481Z",
+    "saved_time": "2022-11-21T10:16:25.433750Z",
     "name": "Saxmundham II",
     "local_identifier": "S/RN/2",
     "experiment_type_label": null,

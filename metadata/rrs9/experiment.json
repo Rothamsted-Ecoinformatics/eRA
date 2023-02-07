@@ -5,12 +5,12 @@
         "localIdentifier": "R/RS/9",
         "name": "Acid Strip",
         "url": null,
-        "description": "This is an area on the north end of Hoosfield Barley long-term field experiment with a soil pH ranging from 3.7 to 7.8 (at 0-23cm depth) due to uneven applications of chalk in the 19th Century. Spring barley was grown continuously for over 100 years. It is now sown to winter wheat each year, given only 100 kg N ha-1.The wheat starts to die out about half way along the plot, when the pHis below 5.5. This area has been used to study the relationship between soil pH, and microbial ecology and nutrient dynamics.",
+        "description": "This a narrow strip of land at the northern edge of Hoosfield, Rothamsted with a soil pH ranging from 3.7 to 7.8 (at 0-23cm depth) due to uneven applications of chalk in the 19th Century. Spring barley was grown continuously for over 100 years. It is now sown to winter wheat each year, given only 100 kg N ha-1.The wheat starts to die out about half way along the plot, when the pH is below 5.5. This area has been used to study the relationship between soil pH, and microbial ecology and nutrient dynamics.",
         "disambiguatingDescription": "Effects of soil acidity on soil properties under winter wheat"
     },
     "dataAccess": {
         "type": "creativeWork",
-        "conditionsOfAccess": null,
+        "conditionsOfAccess": "Available to any researcher on request",
         "isAccessibleForFree": "YesOffline",
         "publishingPrinciples": null,
         "actionableFeedbackPolicy": "Effects of soil acidity on soil properties under winter wheat",
@@ -54,8 +54,8 @@
         },
         {
             "type": "creativeWork",
-            "identifier": null,
-            "sameAs": null,
+            "identifier": "https://doi.org/10.1128/aem.02775-08",
+            "sameAs": "https://doi.org/10.1128/aem.02775-08",
             "citation": "Rousk, J. , Brookes, P. C. and Baath, E. (2009) \"Contrasting Soil pH Effects on Fungal and Bacterial Growth Suggest Functional Redundancy in Carbon Mineralization\", Applied and Environmental Microbiology, 75, 1589-1596",
             "inLanguage": "English",
             "relationType": "isCitedBy"

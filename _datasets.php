@@ -13,10 +13,6 @@
 
 
 
-	
-	
-
-
 <?php
 
 /*
@@ -73,6 +69,7 @@ if (! $hasDatasets) {
     $info = "<p>There are no datasets for this experiments yet. </p>";
 } else {
     $list = "";
+    
     $prefix = "10.23637/";
     /*
      *
@@ -114,6 +111,8 @@ if (! $hasDatasets) {
                 
                 $id = str_replace($prefix, '', $dataset['identifier']);
                 $shortname = $dataset['shortName'];
+
+                
                 $countVersions = array_count_values(array_column($datasets, 'shortName'))[$shortname];
                 if ($countVersions < 10) {
                     $strCount = "0" . strval($countVersions);
@@ -161,10 +160,11 @@ if (! $hasDatasets) {
                  * now if the dataset has a next version, then do not show
                  */
                 
-                if ($strCount == $dataset['version']) {
+                 if ($strCount == $dataset['version']) {
                     $listGr .= $info;
                     $notEmptyGr = 1; // shift group to
-                }
+                 }
+                
             }
         }
 

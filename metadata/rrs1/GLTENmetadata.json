@@ -1,14 +1,14 @@
 {
-    "id": 800,
+    "id": 5564,
     "experiment_type_term": null,
     "experiment_id": 46,
     "people": [
         {
-            "id": 960,
+            "id": 6298,
             "contacts": [],
             "role_term": "principal investigator",
             "title": "Dr",
-            "name": "Andy Macdonald",
+            "name": "Andy Gregory",
             "affiliation": "Rothamsted Research",
             "department": "Sustainable Agricultural Systems",
             "orcid": null,
@@ -16,7 +16,7 @@
             "role_label": "principal investigator"
         },
         {
-            "id": 961,
+            "id": 6299,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -35,7 +35,7 @@
     ],
     "organizations": [
         {
-            "id": 730,
+            "id": 6008,
             "contacts": [],
             "role_term": "research organisation",
             "name": "Rothamsted Research",
@@ -46,16 +46,16 @@
     ],
     "periods": [
         {
-            "id": 1061,
+            "id": 7667,
             "design_type_term": null,
             "crops": [],
             "rotations": [],
             "factors": [],
             "factor_combinations": [],
             "measurements": [],
-            "start_year": null,
+            "start_year": 1959,
             "end_year": null,
-            "ongoing": false,
+            "ongoing": true,
             "name": null,
             "design_type_label": null,
             "number_of_blocks": null,
@@ -76,7 +76,7 @@
     "site_soil_type_term": "luvisol",
     "site_soil_properties": [
         {
-            "id": 658,
+            "id": 8981,
             "variable_term": "sand content",
             "unit_term": "%",
             "variable_label": "sand content",
@@ -92,7 +92,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 659,
+            "id": 8982,
             "variable_term": "silt content",
             "unit_term": "%",
             "variable_label": "silt content",
@@ -108,7 +108,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 660,
+            "id": 8983,
             "variable_term": "clay content",
             "unit_term": "%",
             "variable_label": "clay content",
@@ -124,7 +124,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 661,
+            "id": 8984,
             "variable_term": "soil pH",
             "unit_term": null,
             "variable_label": "soil pH",
@@ -169,7 +169,7 @@
             "language": "English"
         }
     ],
-    "saved_time": "2019-09-27T13:56:53.796620Z",
+    "saved_time": "2022-11-18T12:34:06.997585Z",
     "name": "Highfield Bare Fallow",
     "local_identifier": "R/RS/1",
     "experiment_type_label": null,
@@ -178,7 +178,7 @@
     "end_year": null,
     "ongoing": true,
     "establishment_period_end": null,
-    "objective": null,
+    "objective": "The effect of continuous bare fallow.",
     "description": "In 1959 an area of permanent grass (since 1838, Lawes & Gilbert, 1885) adjacent to the Highfield Ley-Arable experiment at Rothamsted was ploughed, and has not grown a crop since. This is the Highfield Bare Fallow. Soil organic carbon (SOC) is measured periodically, and this has declined substantially since the area was first ploughed out of grass. Archived soil samples are available.",
     "site_name": "Highfield",
     "site_local_code": null,
@@ -195,7 +195,7 @@
     "site_slope": null,
     "site_slope_aspect": null,
     "site_visits_allowed": true,
-    "site_visiting_arrangements": "By arrangement with Dr Andy Macdonald",
+    "site_visiting_arrangements": "By arrangement with Dr Andy Gregory, LTE Manager",
     "site_history": "Permanent grass since 1838 (Lawes & Gilbert, 1885) adjacent to the Highfield Ley-Arable experiment at Rothamsted.",
     "site_management": "Since 1959 the experiment is kept free of weeds by frequent cultivation, but herbicides are used occasionally, so inputs of carbon to the soil are negligible. The experiment is on a trapezoidal area of approximately 900 m2.",
     "site_soil_type_label": "luvisol",

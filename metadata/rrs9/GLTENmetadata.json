@@ -1,11 +1,36 @@
 {
-    "id": 1177,
+    "id": 5724,
     "experiment_type_term": null,
     "experiment_id": 71,
-    "people": [],
+    "people": [
+        {
+            "id": 6562,
+            "contacts": [],
+            "role_term": "principal investigator",
+            "title": "Dr",
+            "name": "Andy Gregory",
+            "affiliation": "Rothamsted Research",
+            "department": null,
+            "orcid": null,
+            "is_contact": false,
+            "role_label": "principal investigator"
+        },
+        {
+            "id": 6563,
+            "contacts": [],
+            "role_term": "data manager",
+            "title": "Dr",
+            "name": "Margaret Glendining",
+            "affiliation": "Rothamsted Research",
+            "department": null,
+            "orcid": null,
+            "is_contact": false,
+            "role_label": "data manager"
+        }
+    ],
     "organizations": [
         {
-            "id": 1189,
+            "id": 6177,
             "contacts": [
                 {
                     "contact_type": "URL",
@@ -19,7 +44,7 @@
             "role_label": "research organisation"
         },
         {
-            "id": 1190,
+            "id": 6178,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -35,11 +60,11 @@
     ],
     "periods": [
         {
-            "id": 1689,
+            "id": 7936,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 3785,
+                    "id": 21971,
                     "crop_term": "winter wheat",
                     "crop_label": "winter wheat",
                     "start_year": null,
@@ -49,7 +74,7 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 1786,
+                    "id": 12832,
                     "factor_term": "liming exposure",
                     "levels": [],
                     "factor_label": "liming exposure",
@@ -59,7 +84,19 @@
                 }
             ],
             "factor_combinations": [],
-            "measurements": [],
+            "measurements": [
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": null,
+                    "collection_frequency": null,
+                    "variable_label": "soil pH",
+                    "variable_term": "soil pH",
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                }
+            ],
             "start_year": 1850,
             "end_year": null,
             "ongoing": true,
@@ -76,14 +113,14 @@
             "factorial": false
         }
     ],
-    "data_statement_term": null,
+    "data_statement_term": "Available to any researcher on request",
     "data_license_term": "CC BY",
     "site_type_term": "research station field",
     "site_perimeter": [],
     "site_soil_type_term": null,
     "site_soil_properties": [
         {
-            "id": 1274,
+            "id": 9189,
             "variable_term": "soil pH",
             "unit_term": null,
             "variable_label": "soil pH",
@@ -118,7 +155,7 @@
             "language": "English"
         },
         {
-            "doi": null,
+            "doi": "https://doi.org/10.1128/aem.02775-08",
             "title": "Rousk, J. , Brookes, P. C. and Baath, E. (2009) \"Contrasting Soil pH Effects on Fungal and Bacterial Growth Suggest Functional Redundancy in Carbon Mineralization\", Applied and Environmental Microbiology, 75, 1589-1596",
             "language": "English"
         },
@@ -128,7 +165,7 @@
             "language": "English"
         }
     ],
-    "saved_time": "2019-10-25T14:59:24.405951Z",
+    "saved_time": "2022-11-28T10:40:51.903711Z",
     "name": "Acid Strip",
     "local_identifier": "R/RS/9",
     "experiment_type_label": null,
@@ -138,7 +175,7 @@
     "ongoing": true,
     "establishment_period_end": null,
     "objective": "Effects of soil acidity on soil properties under winter wheat",
-    "description": "This is an area on the north end of Hoosfield Barley long-term field experiment with a soil pH ranging from 3.7 to 7.8 (at 0-23cm depth) due to uneven applications of chalk in the 19th Century. Spring barley was grown continuously for over 100 years. It is now sown to winter wheat each year, given only 100 kg N ha-1.The wheat starts to die out about half way along the plot, when the pHis below 5.5. This area has been used to study the relationship between soil pH, and microbial ecology and nutrient dynamics.",
+    "description": "This a narrow strip of land at the northern edge of Hoosfield, Rothamsted with a soil pH ranging from 3.7 to 7.8 (at 0-23cm depth) due to uneven applications of chalk in the 19th Century. Spring barley was grown continuously for over 100 years. It is now sown to winter wheat each year, given only 100 kg N ha-1.The wheat starts to die out about half way along the plot, when the pH is below 5.5. This area has been used to study the relationship between soil pH, and microbial ecology and nutrient dynamics.",
     "site_name": "Acid Strip",
     "site_local_code": "R/RS/9",
     "site_geonames_id": null,
@@ -147,28 +184,28 @@
     "site_locality": "Harpenden",
     "site_region": "Hertfordshire",
     "site_country": "United Kingdom",
-    "site_centroid_latitude": 51.812629,
-    "site_centroid_longitude": -0.375816,
+    "site_centroid_latitude": 51.812944,
+    "site_centroid_longitude": -0.376107,
     "site_elevation": 128.0,
     "site_elevation_unit": "Metres",
     "site_slope": null,
     "site_slope_aspect": null,
-    "site_visits_allowed": false,
-    "site_visiting_arrangements": "By arrangement with Dr Andy Macdonald",
-    "site_history": "The acid strip is sited at one end of Hoosfield Barley Long-term Experiment. It been under arable management since before the 19th century. It had uneven applications of chalk in the 19th century at which time chalk was dug from 'bell-pits' on neighboring slopes and spread by hand to improve the fertility and workability of the originally acid soils. Spring barley was grown continuously for over 100 years. It is now sown to winter wheat each year. The acid strip has not received any amendment including chemical or organic fertilizer since then. By the 1950's, reserves of CaCO3 remaining from earlier applications had become exhausted by leaching, especially at further distances from the chalk pits. Here the soil became acidic. It is now sown to winter wheat each year and the wheat starts to die out about half way along the plot, when the pH is below 5.5.",
+    "site_visits_allowed": true,
+    "site_visiting_arrangements": "By arrangement with Dr Andy Gregory, LTE Manager",
+    "site_history": "The acid strip is sited at the northern end of Hoosfield, Rothamsted . It been under arable management since before the 19th century. It had uneven applications of chalk in the 19th century at which time chalk was dug from 'bell-pits' on neighboring slopes and spread by hand to improve the fertility and workability of the originally acid soils. Spring barley was grown continuously for over 100 years. It is now sown to winter wheat each year. The acid strip has not received any amendment including chemical or organic fertilizer since then. By the 1950's, reserves of CaCO3 remaining from earlier applications had become exhausted by leaching, especially at further distances from the chalk pits. Here the soil became acidic. It is now sown to winter wheat each year and the wheat starts to die out about half way along the plot, when the pH is below 5.5.",
     "site_management": "100 kg N ha-1 applied per year.",
     "site_soil_type_label": "FAO Classification: chromic luvisol",
     "site_soil_description": "Soil survey of England & Wales soil series: Batcombe-Carstens mix with sandier inclusions\nChromic luvisols soils were originally acidic, well-drained to moderately well-drained and developed in a relatively silty (loess-containing) superficial deposit overlaying, and mixed with, clay-with-flints. The topsoil is a flinty, silty clay loam (18\u201327% clay).",
     "site_climatic_type_label": null,
     "site_climate_description": null,
-    "data_statement_label": null,
+    "data_statement_label": "Available to any researcher on request",
     "data_url": null,
     "data_policy_status": "YesOffline",
     "data_policy_url": null,
     "data_license_label": "CC BY",
     "data_contact": null,
     "farm_operations_data": false,
-    "sample_archive": false,
-    "samples_available": false,
+    "sample_archive": true,
+    "samples_available": true,
     "data_access_statement": null
 }

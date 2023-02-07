@@ -162,55 +162,57 @@ echo title_case($experiment['administrative']['name']);
 ?></h1>
             <div class="row">
                 <div class="col-12 pt-3">
-                    <ul class="nav nav-tabs nav-fill text-body " id="Expttabs">
+                    <ul class="nav nav-tabs nav-fill text-body " id="Expttabs" role="tablist" >
 
                         <li class="nav-item">
-                            <a class="nav-link" id="overview-tab" data-toggle="tab"
-                                href="#overview">Overview</a></li>
-                        <li class="nav-item"><a class="nav-link" id="site-tab" data-toggle="tab" href="#site">Site</a>
+                            <a class="nav-link active" id="overview-tab" data-toggle="tab" href="#overview"  aria-controls="overview" aria-selected="true">Overview</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="site-tab" data-toggle="tab" href="#site"  aria-controls="site" aria-selected="false">Site</a>
                         </li>
                         <?php if ($showDesign == TRUE) {?>
-                        <li class="nav-item"><a class="nav-link" id="design-tab" data-toggle="tab"
-                                href="#design">Design</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="design-tab" data-toggle="tab" href="#design"  aria-controls="design" aria-selected="false">Design</a>
+                            </li>
                         <?php }?>
 
-                        <li class="nav-item"><a class="nav-link" id="datasets-tab" data-toggle="tab"
-                                href="#datasets">Datasets</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="datasets-tab" data-toggle="tab" href="#datasets"  aria-controls="datasets" aria-selected="false">Datasets</a>
+                        </li>
                         <?php if ($displayImages >0) {?>
-                        <li class="nav-item"><a class="nav-link" id="images-tab" data-toggle="tab"
-                                href="#images">Media</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="images-tab" data-toggle="tab"  href="#images"  aria-controls="images" aria-selected="false">Media</a>
+                            </li>
 
                         <?php }
 						if ($hasDocs) {?>
-                        <li class="nav-item"><a class="nav-link" id="documents-tab" data-toggle="tab"
-                                href="#documents">Related Documents</a></li>
+                        <li class="nav-item"><a class="nav-link" id="documents-tab" data-toggle="tab"  href="#documents"  aria-controls="documents" aria-selected="false">Information</a></li>
                         <?php
                             }
                         ?>
-                        <li class="nav-item"><a class="nav-link" id="bibliography-tab" data-toggle="tab"
-                                href="#bibliography">Bibliography</a></li>
+                        <li class="nav-item"><a class="nav-link" id="bibliography-tab" data-toggle="tab"  href="#bibliography"  aria-controls="bibliography" aria-selected="false">Bibliography</a></li>
 
 
                     </ul>
 
                     <div class="tab-content mh-100" id="idExptTabs">
 
-                        <div class="tab-pane active show pb-3" id="overview" role="tabpanel"
+                        <div class="tab-pane fade show active pb-3" id="overview" role="tabpanel"
                             aria-labelledby="overview-tab">
                             <?php
                     include '_summary.php';
                     ?>
                         </div>
 
-                        <div class="tab-pane  pb-3" id="design" role="tabpanel" aria-labelledby="design-tab">
+                        <div class="tab-pane fade pb-3" id="design" role="tabpanel" aria-labelledby="design-tab">
                             <?php include '_design.php';?>
                         </div>
 
-                        <div class="tab-pane  pb-3" id="site" role="tabpanel" aria-labelledby="site-tab">
+                        <div class="tab-pane fade pb-3" id="site" role="tabpanel" aria-labelledby="site-tab">
                             <?php include '_site.php';?>
                         </div>
 
-                        <div class="tab-pane  pb-3" id="datasets" role="tabpanel" aria-labelledby="datasets-tab">
+                        <div class="tab-pane fade pb-3" id="datasets" role="tabpanel" aria-labelledby="datasets-tab">
                             <?php
 $inDet = array(
                             "rbk1",
@@ -222,7 +224,7 @@ $inDet = array(
                         );
 if ($displayDatasets > 0) {
 	
-                        //include '_datasets.php';
+                        
 						include '_datasets.php';
 						echo  "<div class=\"mx-3\"><ul><li><a href=\"info/datasets\">List all eRA datasets</a></li><li>Additional data is available through e-RAdata. Please <a href=\"newGold.php\" >register for access</a></li></ul>.  </div>";
 } else if ($displayDatasets == 0) {
@@ -258,7 +260,7 @@ For more information please <a href=\"mailto:era@rothamsted.ac.uk\">contact the 
                         </div>
 
 
-                        <div class="tab-pane" id="images" role="tabpanel" aria-labelledby="images-tab">
+                        <div class="tab-pane fade" id="images" role="tabpanel" aria-labelledby="images-tab">
                             <?php if ($hasMedia) {
                                 include $fileMedia;
                             } ?>
@@ -275,7 +277,7 @@ For more information please <a href=\"mailto:era@rothamsted.ac.uk\">contact the 
 
     if (isset($sub)) {
         $docpage = $exptFolder . '/' . $sub . '.html';
-
+        echo("<hr />");
         include $docpage;
     }
 
@@ -296,7 +298,7 @@ For more information please <a href=\"mailto:era@rothamsted.ac.uk\">contact the 
                             </div>
                         </div>
                         <?php }?>
-                        <div class="tab-pane  pb-3" id="bibliography" role="tabpanel"
+                        <div class="tab-pane fade pb-3" id="bibliography" role="tabpanel"
                             aria-labelledby="bibliography-tab">
                             <div class="mx-3">
                                 <?php
@@ -331,20 +333,37 @@ For more information please <a href=\"mailto:era@rothamsted.ac.uk\">contact the 
                 }
             });
         </script>
-        
+
 
         <script>
-            $(document).ready(
-               function () {
+            $(document).ready(() => {
+                let url = location.href.replace(/\/$/, "");
 
-                    $('#Expttabs li a').click(function () {
+                if (location.hash) {
+                    const hash = url.split("#");
+                    $('#Expttabs a[href="#' + hash[1] + '"]').tab("show");
+                    $('li.active').removeClass('active');
+  $('a[href="#' + hash[1] + '"]').closest('li').addClass('active'); 
 
-                        //alert($(this).text().toLowerCase());
-                        
+                    url = location.href.replace(/\/#/, "#");
+                    history.replaceState(null, null, url);
+                    setTimeout(() => {
+                        $(window).scrollTop(0);
+                    }, 400);
+                }
 
-                    });
-               }
-            );
+                $('a[data-toggle="tab"]').on("click", function () {
+                    let newUrl;
+                    const hash = $(this).attr("href");
+                    if (hash == "#home") {
+                        newUrl = url.split("#")[0];
+                    } else {
+                        newUrl = url.split("#")[0] + hash;
+                    }
+                    newUrl += "/";
+                    history.replaceState(null, null, newUrl);
+                });
+            });
         </script>
     </div>
 </body>

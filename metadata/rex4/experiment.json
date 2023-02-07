@@ -27,5 +27,38 @@
     "dateEPEnd": null,
     "dateEnd": null,
     "funder": "NOT in GLTEN",
-    "citation": []
+    "citation": [
+        {
+            "type": "creativeWork",
+            "identifier": "10.23637/REX4-YLD5601-01",
+            "sameAs": "10.23637/REX4-YLD5601-01",
+            "citation": "Exhaustion Land yields 1856-1901",
+            "inLanguage": null,
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "10.23637/REX4-YLD0239-01",
+            "sameAs": "10.23637/REX4-YLD0239-01",
+            "citation": "Exhaustion Land yields 1902-1939",
+            "inLanguage": null,
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "10.23637/REX4-YLD4075-01",
+            "sameAs": "10.23637/REX4-YLD4075-01",
+            "citation": "Exhaustion Land yields 1940-1975",
+            "inLanguage": null,
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "10.23637/EX4-oadata-001-01",
+            "sameAs": "10.23637/EX4-oadata-001-01",
+            "citation": "Exhaustion Land yields 1974-2008, crop and soil P data",
+            "inLanguage": null,
+            "relationType": "isCitedBy"
+        }
+    ]
 }

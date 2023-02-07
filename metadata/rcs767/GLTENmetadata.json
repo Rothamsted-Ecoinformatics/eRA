@@ -1,11 +1,11 @@
 {
-    "id": 796,
+    "id": 5565,
     "experiment_type_term": null,
     "experiment_id": 65,
     "people": [],
     "organizations": [
         {
-            "id": 726,
+            "id": 6009,
             "contacts": [
                 {
                     "contact_type": "URL",
@@ -21,25 +21,25 @@
     ],
     "periods": [
         {
-            "id": 1057,
+            "id": 7668,
             "design_type_term": "Randomized complete block design",
             "crops": [
                 {
-                    "id": 2200,
+                    "id": 21224,
                     "crop_term": "fallow",
                     "crop_label": "fallow",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 2201,
+                    "id": 21225,
                     "crop_term": "grass",
                     "crop_label": "grass",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 2202,
+                    "id": 21226,
                     "crop_term": "wheat",
                     "crop_label": "wheat",
                     "start_year": null,
@@ -49,11 +49,11 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 1072,
+                    "id": 12322,
                     "factor_term": "cropping system",
                     "levels": [
                         {
-                            "id": 2904,
+                            "id": 30727,
                             "factor_variant_term": null,
                             "factor_variant_label": "permanent grass",
                             "amount": null,
@@ -71,7 +71,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 2905,
+                            "id": 30728,
                             "factor_variant_term": null,
                             "factor_variant_label": "permanent grass converted to arable",
                             "amount": null,
@@ -89,7 +89,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 2906,
+                            "id": 30729,
                             "factor_variant_term": null,
                             "factor_variant_label": "permanent grass converted to bare fallow",
                             "amount": null,
@@ -107,7 +107,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 2907,
+                            "id": 30730,
                             "factor_variant_term": null,
                             "factor_variant_label": "arable converted to grass",
                             "amount": null,
@@ -125,7 +125,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 2908,
+                            "id": 30731,
                             "factor_variant_term": null,
                             "factor_variant_label": "continuous arable",
                             "amount": null,
@@ -143,7 +143,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 2909,
+                            "id": 30732,
                             "factor_variant_term": null,
                             "factor_variant_label": "arable converted to bare fallow",
                             "amount": null,
@@ -161,7 +161,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 2910,
+                            "id": 30733,
                             "factor_variant_term": null,
                             "factor_variant_label": "bare fallow converted to grass",
                             "amount": null,
@@ -179,7 +179,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 2911,
+                            "id": 30734,
                             "factor_variant_term": null,
                             "factor_variant_label": "bare fallow converted to arable",
                             "amount": null,
@@ -197,7 +197,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 2912,
+                            "id": 30735,
                             "factor_variant_term": null,
                             "factor_variant_label": "continuous bare fallow",
                             "amount": null,
@@ -246,7 +246,7 @@
     "site_soil_type_term": "luvisol",
     "site_soil_properties": [
         {
-            "id": 649,
+            "id": 8985,
             "variable_term": "soil total carbon",
             "unit_term": "%",
             "variable_label": "soil total carbon",
@@ -262,7 +262,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 650,
+            "id": 8986,
             "variable_term": "total soil nitrogen",
             "unit_term": "%",
             "variable_label": "total soil nitrogen",
@@ -278,7 +278,7 @@
             "unit_label": "Percent"
         },
         {
-            "id": 651,
+            "id": 8987,
             "variable_term": "soil organic carbon",
             "unit_term": "g/cm3",
             "variable_label": "soil organic carbon",
@@ -308,7 +308,7 @@
             "language": "English"
         }
     ],
-    "saved_time": "2019-09-27T13:25:57.819161Z",
+    "saved_time": "2022-11-18T12:36:07.465385Z",
     "name": "Highfield Conversion Experiment",
     "local_identifier": "R/CS/767",
     "experiment_type_label": null,

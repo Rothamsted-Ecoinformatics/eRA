@@ -1,15 +1,15 @@
 {
     "@context": "https://schema.org/",
     "@type": "Dataset",
-    "identifier": "10.23637/rbk1-weeds_1991-2020_01",
-    "name": "Broadbalk Weed Survey Data 1991-2020",
+    "identifier": "10.23637/rbk1-weeds_1991-2021_01",
+    "name": "Broadbalk Weed Survey Data 1991-2021",
     "shortName": "WeedsSec8",
     "url": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-WeedsSec8",
     "description": [
         {
             "inLanguage": "en",
             "descriptionType": "Abstract",
-            "description": "This dataset consists of the relative frequencies of all plant species ('weeds') recorded on Section 8 plots of the Broadbalk Wheat Experiment, 1991-2020. Section 8 has not received any herbicides in its history."
+            "description": "This dataset consists of the relative frequencies of all plant species ('weeds') recorded on Section 8 of the Broadbalk Wheat Experiment, 1991-2021. Section 8 has not received any herbicides in its history."
         },
         {
             "inLanguage": "en",
@@ -43,26 +43,6 @@
     "creator": [
         {
             "type": "Person",
-            "Name": "Richard Hull",
-            "givenName": "Richard",
-            "familyName": "Hull",
-            "sameAs": null,
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Biointeractions and Crop Protection, Rothamsted Research",
-                "addressLocality": "Harpenden",
-                "addressRegion": "Hertfordshire",
-                "postalCode": "AL5 2JQ",
-                "addressCountry": "United Kingdom"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Biointeractions and Crop Protection, Rothamsted Research",
-                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
-            }
-        },
-        {
-            "type": "Person",
             "Name": "Sarah Perryman",
             "givenName": "Sarah",
             "familyName": "Perryman",
@@ -78,6 +58,26 @@
             "affiliation": {
                 "type": "Organization",
                 "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Richard Hull",
+            "givenName": "Richard",
+            "familyName": "Hull",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Biointeractions and Crop Protection, Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": "Hertfordshire",
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Biointeractions and Crop Protection, Rothamsted Research",
                 "address": ", West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
             }
         },

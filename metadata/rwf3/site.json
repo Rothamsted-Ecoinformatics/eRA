@@ -5,7 +5,7 @@
         "type": "research station field",
         "doi": null,
         "visitsAllowed": "Yes",
-        "visitingArrangements": "By arrangement with Dr Andy Macdonald",
+        "visitingArrangements": "By arrangement with Dr Andy Gregory, LTE Manager",
         "description": "The experiment is sited on part of Hoosfield that had received no applications of fertilizers or manures since 1851.",
         "management": null
     },
@@ -30,7 +30,7 @@
     },
     "soilProperty": [],
     "climate": {
-        "name": null,
+        "name": "temperate oceanic climate",
         "description": null,
         "weatherStation": {
             "weatherStationID": "NOT IN GLTEN",

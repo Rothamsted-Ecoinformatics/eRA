@@ -1,10 +1,39 @@
 {
-    "id": 2543,
+    "id": 5656,
     "experiment_type_term": null,
     "experiment_id": 52,
     "people": [
         {
-            "id": 3583,
+            "id": 6494,
+            "contacts": [
+                {
+                    "contact_type": "Email",
+                    "value": ""
+                }
+            ],
+            "role_term": null,
+            "title": "Dr",
+            "name": "Sarah Perryman",
+            "affiliation": "Rothamsted Research",
+            "department": "Intelligent Data Ecosystems",
+            "orcid": null,
+            "is_contact": false,
+            "role_label": "data managers"
+        },
+        {
+            "id": 6495,
+            "contacts": [],
+            "role_term": "principal investigator",
+            "title": "Dr",
+            "name": "Andrew Gregory",
+            "affiliation": "Rothamsted Research",
+            "department": "Protecting Crops and the Environment",
+            "orcid": "https://orcid.org/0000-0001-7123-0784",
+            "is_contact": false,
+            "role_label": "principal investigator"
+        },
+        {
+            "id": 6496,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -13,41 +42,17 @@
             ],
             "role_term": "data manager",
             "title": "Dr",
-            "name": "Sarah Perryman",
-            "affiliation": "Rothamsted Research",
-            "department": "Computational and Analytical Sciences",
-            "orcid": null,
-            "is_contact": true,
-            "role_label": "data manager"
-        },
-        {
-            "id": 3584,
-            "contacts": [],
-            "role_term": "principal investigator",
-            "title": "Dr",
-            "name": "Andy Macdonald",
-            "affiliation": "Rothamsted Research",
-            "department": "Sustainable Agricultural Sciences",
-            "orcid": null,
-            "is_contact": false,
-            "role_label": "principal investigator"
-        },
-        {
-            "id": 3585,
-            "contacts": [],
-            "role_term": "data manager",
-            "title": "Dr",
             "name": "Margaret Glendining",
             "affiliation": "Rothamsted Research",
-            "department": "Computational and Analytical Sciences",
+            "department": "Intelligent Data Ecosystems",
             "orcid": "0000-0002-6466-4629",
-            "is_contact": false,
+            "is_contact": true,
             "role_label": "data manager"
         }
     ],
     "organizations": [
         {
-            "id": 2583,
+            "id": 6100,
             "contacts": [],
             "role_term": "research organisation",
             "name": "Rothamsted Research",
@@ -58,32 +63,32 @@
     ],
     "periods": [
         {
-            "id": 3789,
+            "id": 7858,
             "design_type_term": "Randomized complete block design",
             "crops": [
                 {
-                    "id": 10608,
+                    "id": 21774,
                     "crop_term": "wheat",
                     "crop_label": "wheat",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 10609,
+                    "id": 21775,
                     "crop_term": "root vegetables",
                     "crop_label": "root vegetables",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 10610,
+                    "id": 21776,
                     "crop_term": "barley",
                     "crop_label": "barley",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 10611,
+                    "id": 21777,
                     "crop_term": "feed legumes",
                     "crop_label": "feed legumes",
                     "start_year": null,
@@ -92,25 +97,25 @@
             ],
             "rotations": [
                 {
-                    "id": 1928,
+                    "id": 5991,
                     "phases": [
                         {
-                            "crop_id": 10608,
+                            "crop_id": 21774,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 10609,
+                            "crop_id": 21775,
                             "notes": "Swedes or turnips in the early years, then mangolds or beetroot",
                             "same_phase": false
                         },
                         {
-                            "crop_id": 10610,
+                            "crop_id": 21776,
                             "notes": null,
                             "same_phase": false
                         },
                         {
-                            "crop_id": 10611,
+                            "crop_id": 21777,
                             "notes": "Normally beans but sometimes clover or peas",
                             "same_phase": false
                         }
@@ -124,11 +129,11 @@
             ],
             "factors": [
                 {
-                    "id": 5973,
+                    "id": 12709,
                     "factor_term": "fertilizer exposure",
                     "levels": [
                         {
-                            "id": 16449,
+                            "id": 31559,
                             "factor_variant_term": "farmyard manure",
                             "factor_variant_label": "farmyard manure",
                             "amount": "15",
@@ -146,7 +151,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16450,
+                            "id": 31560,
                             "factor_variant_term": "bone meal",
                             "factor_variant_label": "bone meal",
                             "amount": "0.5",
@@ -164,7 +169,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16451,
+                            "id": 31561,
                             "factor_variant_term": "nitrogen",
                             "factor_variant_label": "nitrogen",
                             "amount": "100",
@@ -182,7 +187,7 @@
                             "chemical_form_label": "sodium nitrate"
                         },
                         {
-                            "id": 16452,
+                            "id": 31562,
                             "factor_variant_term": "phosphorous",
                             "factor_variant_label": "phosphorous",
                             "amount": "40",
@@ -200,7 +205,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 16453,
+                            "id": 31563,
                             "factor_variant_term": "potassium",
                             "factor_variant_label": "potassium",
                             "amount": "63",
@@ -228,10 +233,10 @@
                 {
                     "members": [
                         {
-                            "factor_id": 5973,
+                            "factor_id": 12709,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 16449,
+                            "factor_level_id": 31559,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -246,10 +251,10 @@
                 {
                     "members": [
                         {
-                            "factor_id": 5973,
+                            "factor_id": 12709,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 16450,
+                            "factor_level_id": 31560,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -264,10 +269,10 @@
                 {
                     "members": [
                         {
-                            "factor_id": 5973,
+                            "factor_id": 12709,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 16451,
+                            "factor_level_id": 31561,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -282,10 +287,10 @@
                 {
                     "members": [
                         {
-                            "factor_id": 5973,
+                            "factor_id": 12709,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 16452,
+                            "factor_level_id": 31562,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -300,10 +305,10 @@
                 {
                     "members": [
                         {
-                            "factor_id": 5973,
+                            "factor_id": 12709,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 16453,
+                            "factor_level_id": 31563,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -325,20 +330,20 @@
                 {
                     "members": [
                         {
-                            "factor_id": 5973,
+                            "factor_id": 12709,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 16452,
+                            "factor_level_id": 31562,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 5973,
+                            "factor_id": 12709,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 16453,
+                            "factor_level_id": 31563,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -353,20 +358,20 @@
                 {
                     "members": [
                         {
-                            "factor_id": 5973,
+                            "factor_id": 12709,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 16451,
+                            "factor_level_id": 31561,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 5973,
+                            "factor_id": 12709,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 16453,
+                            "factor_level_id": 31563,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -381,20 +386,20 @@
                 {
                     "members": [
                         {
-                            "factor_id": 5973,
+                            "factor_id": 12709,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 16451,
+                            "factor_level_id": 31561,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 5973,
+                            "factor_id": 12709,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 16452,
+                            "factor_level_id": 31562,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -409,30 +414,30 @@
                 {
                     "members": [
                         {
-                            "factor_id": 5973,
+                            "factor_id": 12709,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 16451,
+                            "factor_level_id": 31561,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 5973,
+                            "factor_id": 12709,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 16452,
+                            "factor_level_id": 31562,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null
                         },
                         {
-                            "factor_id": 5973,
+                            "factor_id": 12709,
                             "crop_id": null,
                             "all_crops": false,
-                            "factor_level_id": 16453,
+                            "factor_level_id": 31563,
                             "comment": null,
                             "amount": null,
                             "amount_unit_term": null,
@@ -462,46 +467,46 @@
             "factorial": true
         },
         {
-            "id": 3790,
+            "id": 7859,
             "design_type_term": "Randomized complete block design",
             "crops": [
                 {
-                    "id": 10612,
-                    "crop_term": "Medicago sativa",
+                    "id": 21778,
+                    "crop_term": "alfalfa",
                     "crop_label": "alfalfa",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 10613,
+                    "id": 21779,
                     "crop_term": "winter wheat",
                     "crop_label": "winter wheat",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 10614,
+                    "id": 21780,
                     "crop_term": "barley",
                     "crop_label": "barley",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 10615,
+                    "id": 21781,
                     "crop_term": "faba beans",
                     "crop_label": "faba beans",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 10616,
-                    "crop_term": "sugarbeet",
-                    "crop_label": "sugarbeet",
+                    "id": 21782,
+                    "crop_term": "sugar beet",
+                    "crop_label": "sugar beet",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 10617,
+                    "id": 21783,
                     "crop_term": "grass leys",
                     "crop_label": "grass leys",
                     "start_year": null,
@@ -537,7 +542,7 @@
     "site_climatic_type_term": "temperate oceanic climate",
     "site_climate_properties": [
         {
-            "id": 1767,
+            "id": 4515,
             "variable_term": "precipitation",
             "unit_term": "mm",
             "variable_label": "precipitation",
@@ -549,7 +554,7 @@
             "unit_label": "millimeter"
         },
         {
-            "id": 1768,
+            "id": 4516,
             "variable_term": "air temperature",
             "unit_term": "degC",
             "variable_label": "air temperature",
@@ -573,7 +578,7 @@
             "language": "English"
         }
     ],
-    "saved_time": "2021-02-01T12:20:42.044563Z",
+    "saved_time": "2022-11-21T10:18:54.709596Z",
     "name": "Saxmundham Rotation I",
     "local_identifier": "S/RN/1",
     "experiment_type_label": null,

@@ -22,14 +22,14 @@
         },
         "crops": [
             {
-                "id": 2184,
+                "id": 21627,
                 "name": "wheat",
                 "sameAs": "wheat",
                 "dateStart": 1856,
                 "dateEnd": 1875
             },
             {
-                "id": 2185,
+                "id": 21628,
                 "name": "potatoes",
                 "sameAs": "potatoes",
                 "dateStart": 1876,
@@ -39,14 +39,14 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 1058,
+                "id": 12632,
                 "name": "phosphate fertilizer exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 2841,
+                        "id": 31382,
                         "name": "superphosphate",
                         "amount": "34",
                         "unitCode": "kgP/ha",
@@ -60,12 +60,12 @@
                         "notes": null
                     },
                     {
-                        "id": 2842,
+                        "id": 31383,
                         "name": "basic slag",
                         "amount": "34",
                         "unitCode": "kgP/ha",
                         "unitText": "kg phosphorous per hectare",
-                        "appliedToCrop": 2185,
+                        "appliedToCrop": 21628,
                         "dateStart": 1897,
                         "dateEnd": 1901,
                         "frequency": null,
@@ -76,19 +76,19 @@
                 ]
             },
             {
-                "id": 1059,
+                "id": 12633,
                 "name": "potassium fertilizer exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 2843,
+                        "id": 31384,
                         "name": null,
                         "amount": "91",
                         "unitCode": "kgK/ha",
                         "unitText": "kg potassium per hectare",
-                        "appliedToCrop": 2184,
+                        "appliedToCrop": 21627,
                         "dateStart": 1859,
                         "dateEnd": 1874,
                         "frequency": null,
@@ -97,12 +97,12 @@
                         "notes": null
                     },
                     {
-                        "id": 2844,
+                        "id": 31385,
                         "name": null,
                         "amount": "137",
                         "unitCode": "kgK/ha",
                         "unitText": "kg potassium per hectare",
-                        "appliedToCrop": 2185,
+                        "appliedToCrop": 21628,
                         "dateStart": 1876,
                         "dateEnd": 1901,
                         "frequency": null,
@@ -113,19 +113,19 @@
                 ]
             },
             {
-                "id": 1060,
+                "id": 12634,
                 "name": "farmyard manure exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 2845,
+                        "id": 31386,
                         "name": "farmyard manure",
                         "amount": "35",
                         "unitCode": "t/ha",
                         "unitText": "tonnes per hectare",
-                        "appliedToCrop": 2185,
+                        "appliedToCrop": 21628,
                         "dateStart": 1876,
                         "dateEnd": 1901,
                         "frequency": null,
@@ -136,14 +136,14 @@
                 ]
             },
             {
-                "id": 1061,
+                "id": 12635,
                 "name": "nitrogen fertilizer exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 2846,
+                        "id": 31387,
                         "name": null,
                         "amount": "96",
                         "unitCode": "kgN/ha",
@@ -157,7 +157,7 @@
                         "notes": "As ammonium salts ammonium sulphate & ammonium chloride"
                     },
                     {
-                        "id": 2847,
+                        "id": 31388,
                         "name": null,
                         "amount": "96",
                         "unitCode": "kgN/ha",
@@ -173,14 +173,14 @@
                 ]
             },
             {
-                "id": 1062,
+                "id": 12636,
                 "name": "sodium nutrient exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 2848,
+                        "id": 31389,
                         "name": null,
                         "amount": "16",
                         "unitCode": "kgNa/ha",
@@ -196,14 +196,14 @@
                 ]
             },
             {
-                "id": 1063,
+                "id": 12637,
                 "name": "magnesium nutrient exposure",
                 "description": null,
                 "effect": "",
                 "plotApplication": "Whole plot",
                 "level": [
                     {
-                        "id": 2849,
+                        "id": 31390,
                         "name": null,
                         "amount": "11",
                         "unitCode": "kgMg/ha",
@@ -444,7 +444,7 @@
         },
         "crops": [
             {
-                "id": 2186,
+                "id": 21629,
                 "name": "barley",
                 "sameAs": "barley",
                 "dateStart": 1940,
@@ -454,14 +454,14 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 1064,
+                "id": 12638,
                 "name": "nitrogen fertilizer exposure",
                 "description": "Single rate applied to all plots until 1976 when 4 different N rates were applied but rotate in the sequence N0>N3>N2>N1, eg N0 1976, N3 1977, N2 1978, N1 1979, N0 1980. the cumulative N rate for each plot is therefore equal.",
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 2850,
+                        "id": 31391,
                         "name": null,
                         "amount": "75",
                         "unitCode": "kgN/ha",
@@ -475,7 +475,7 @@
                         "notes": null
                     },
                     {
-                        "id": 2851,
+                        "id": 31392,
                         "name": null,
                         "amount": "63",
                         "unitCode": "kgN/ha",
@@ -489,7 +489,7 @@
                         "notes": null
                     },
                     {
-                        "id": 2852,
+                        "id": 31393,
                         "name": null,
                         "amount": "88",
                         "unitCode": "kgN/ha",
@@ -503,7 +503,7 @@
                         "notes": null
                     },
                     {
-                        "id": 2853,
+                        "id": 31394,
                         "name": "N0",
                         "amount": "0",
                         "unitCode": null,
@@ -517,7 +517,7 @@
                         "notes": null
                     },
                     {
-                        "id": 2854,
+                        "id": 31395,
                         "name": "N1",
                         "amount": "48",
                         "unitCode": "kgN/ha",
@@ -531,7 +531,7 @@
                         "notes": null
                     },
                     {
-                        "id": 2855,
+                        "id": 31396,
                         "name": "N2",
                         "amount": "96",
                         "unitCode": "kgN/ha",
@@ -545,7 +545,7 @@
                         "notes": null
                     },
                     {
-                        "id": 2856,
+                        "id": 31397,
                         "name": "N3",
                         "amount": "144",
                         "unitCode": "kgN/ha",
@@ -587,14 +587,14 @@
         },
         "crops": [
             {
-                "id": 2187,
+                "id": 21630,
                 "name": "barley",
                 "sameAs": "barley",
                 "dateStart": 1986,
                 "dateEnd": 1991
             },
             {
-                "id": 2188,
+                "id": 21631,
                 "name": "wheat",
                 "sameAs": "wheat",
                 "dateStart": 1992,
@@ -604,14 +604,14 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 1065,
+                "id": 12639,
                 "name": "phosphate fertilizer exposure",
                 "description": "Applied to \"P\" test sub-plots. These plots received basal manuring rates of 144 kg N/ha and 83 kg K/ha",
                 "effect": "",
                 "plotApplication": "Sub plot",
                 "level": [
                     {
-                        "id": 2857,
+                        "id": 31398,
                         "name": "P0",
                         "amount": "0",
                         "unitCode": null,
@@ -625,12 +625,12 @@
                         "notes": null
                     },
                     {
-                        "id": 2858,
+                        "id": 31399,
                         "name": "P1",
                         "amount": "44",
                         "unitCode": "kgP/ha",
                         "unitText": "kg phosphorous per hectare",
-                        "appliedToCrop": 2187,
+                        "appliedToCrop": 21630,
                         "dateStart": 1986,
                         "dateEnd": 1991,
                         "frequency": "annually in autumn",
@@ -639,12 +639,12 @@
                         "notes": null
                     },
                     {
-                        "id": 2859,
+                        "id": 31400,
                         "name": "P2",
                         "amount": "87",
                         "unitCode": "kgP/ha",
                         "unitText": "kg phosphorous per hectare",
-                        "appliedToCrop": 2187,
+                        "appliedToCrop": 21630,
                         "dateStart": 1986,
                         "dateEnd": 1991,
                         "frequency": "annually in autumn",
@@ -653,12 +653,12 @@
                         "notes": null
                     },
                     {
-                        "id": 2860,
+                        "id": 31401,
                         "name": "P3",
                         "amount": "131",
                         "unitCode": "kgP/ha",
                         "unitText": "kg phosphorous per hectare",
-                        "appliedToCrop": 2187,
+                        "appliedToCrop": 21630,
                         "dateStart": 1986,
                         "dateEnd": 1991,
                         "frequency": "annually in autumn",
@@ -669,19 +669,19 @@
                 ]
             },
             {
-                "id": 1066,
+                "id": 12640,
                 "name": "nitrogen fertilizer exposure",
                 "description": "Applied to \"N\" Tests sub plots. N rates rotate each year N0>N3>N2>N1, eg N0 1986, N3 1987, N2 1988, N1 1989, N0 1990",
                 "effect": "",
                 "plotApplication": "Sub plot",
                 "level": [
                     {
-                        "id": 2861,
+                        "id": 31402,
                         "name": "N0",
                         "amount": "0",
                         "unitCode": null,
                         "unitText": null,
-                        "appliedToCrop": 2188,
+                        "appliedToCrop": 21631,
                         "dateStart": null,
                         "dateEnd": null,
                         "frequency": null,
@@ -690,12 +690,12 @@
                         "notes": null
                     },
                     {
-                        "id": 2862,
+                        "id": 31403,
                         "name": "N1",
                         "amount": "48",
                         "unitCode": "kgN/ha",
                         "unitText": "kg nitrogen per hectare",
-                        "appliedToCrop": 2187,
+                        "appliedToCrop": 21630,
                         "dateStart": 1986,
                         "dateEnd": 1991,
                         "frequency": null,
@@ -704,7 +704,7 @@
                         "notes": null
                     },
                     {
-                        "id": 2863,
+                        "id": 31404,
                         "name": "N2",
                         "amount": "96",
                         "unitCode": "kgN/ha",
@@ -718,12 +718,12 @@
                         "notes": null
                     },
                     {
-                        "id": 2864,
+                        "id": 31405,
                         "name": "N3",
                         "amount": "144",
                         "unitCode": "kgN/ha",
                         "unitText": "kg nitrogen per hectare",
-                        "appliedToCrop": 2187,
+                        "appliedToCrop": 21630,
                         "dateStart": 1986,
                         "dateEnd": 1991,
                         "frequency": null,

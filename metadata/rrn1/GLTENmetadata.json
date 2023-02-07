@@ -1,10 +1,10 @@
 {
-    "id": 2630,
+    "id": 5566,
     "experiment_type_term": null,
     "experiment_id": 43,
     "people": [
         {
-            "id": 3750,
+            "id": 6300,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -13,7 +13,7 @@
             ],
             "role_term": "principal investigator",
             "title": "Dr",
-            "name": "Andy MacDonald",
+            "name": "Andy Gregory",
             "affiliation": "Rothamsted Research",
             "department": "Sustainable Agricultural Systems",
             "orcid": null,
@@ -21,7 +21,7 @@
             "role_label": "principal investigator"
         },
         {
-            "id": 3751,
+            "id": 6301,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -38,7 +38,7 @@
             "role_label": "data manager"
         },
         {
-            "id": 3752,
+            "id": 6302,
             "contacts": [],
             "role_term": "data manager",
             "title": "Dr",
@@ -52,7 +52,7 @@
     ],
     "organizations": [
         {
-            "id": 2649,
+            "id": 6010,
             "contacts": [],
             "role_term": "research organisation",
             "name": "Rothamsted Research",
@@ -63,39 +63,39 @@
     ],
     "periods": [
         {
-            "id": 4010,
+            "id": 7669,
             "design_type_term": "Replicated control design",
             "crops": [
                 {
-                    "id": 11362,
-                    "crop_term": "Medicago sativa",
+                    "id": 21227,
+                    "crop_term": "alfalfa",
                     "crop_label": "alfalfa",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11363,
+                    "id": 21228,
                     "crop_term": "grass leys",
                     "crop_label": "grass leys",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11364,
+                    "id": 21229,
                     "crop_term": "wheat",
                     "crop_label": "wheat",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11365,
+                    "id": 21230,
                     "crop_term": "potatoes",
                     "crop_label": "potatoes",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11366,
+                    "id": 21231,
                     "crop_term": "barley",
                     "crop_label": "barley",
                     "start_year": null,
@@ -104,7 +104,7 @@
             ],
             "rotations": [
                 {
-                    "id": 2056,
+                    "id": 5941,
                     "phases": [
                         {
                             "crop_id": null,
@@ -119,7 +119,7 @@
                     "is_treatment": false
                 },
                 {
-                    "id": 2057,
+                    "id": 5942,
                     "phases": [
                         {
                             "crop_id": null,
@@ -134,7 +134,7 @@
                     "is_treatment": false
                 },
                 {
-                    "id": 2058,
+                    "id": 5943,
                     "phases": [
                         {
                             "crop_id": null,
@@ -149,7 +149,7 @@
                     "is_treatment": false
                 },
                 {
-                    "id": 2059,
+                    "id": 5944,
                     "phases": [
                         {
                             "crop_id": null,
@@ -228,39 +228,39 @@
             "factorial": false
         },
         {
-            "id": 4011,
+            "id": 7670,
             "design_type_term": "Replicated control design",
             "crops": [
                 {
-                    "id": 11367,
-                    "crop_term": "Medicago sativa",
+                    "id": 21232,
+                    "crop_term": "alfalfa",
                     "crop_label": "alfalfa",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11368,
+                    "id": 21233,
                     "crop_term": "grass leys",
                     "crop_label": "grass leys",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11369,
+                    "id": 21234,
                     "crop_term": "wheat",
                     "crop_label": "wheat",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11370,
+                    "id": 21235,
                     "crop_term": "potatoes",
                     "crop_label": "potatoes",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11371,
+                    "id": 21236,
                     "crop_term": "oats",
                     "crop_label": "oats",
                     "start_year": null,
@@ -332,39 +332,39 @@
             "factorial": false
         },
         {
-            "id": 4012,
+            "id": 7671,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 11372,
+                    "id": 21237,
                     "crop_term": "grass leys",
                     "crop_label": "grass leys",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11373,
+                    "id": 21238,
                     "crop_term": "grass clover leys",
                     "crop_label": "grass clover leys",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11374,
+                    "id": 21239,
                     "crop_term": "wheat",
                     "crop_label": "wheat",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11375,
-                    "crop_term": "sugarbeet",
-                    "crop_label": "sugarbeet",
+                    "id": 21240,
+                    "crop_term": "sugar beet",
+                    "crop_label": "sugar beet",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11376,
+                    "id": 21241,
                     "crop_term": "oats",
                     "crop_label": "oats",
                     "start_year": null,
@@ -436,74 +436,74 @@
             "factorial": false
         },
         {
-            "id": 4013,
+            "id": 7672,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 11377,
-                    "crop_term": "Medicago sativa",
+                    "id": 21242,
+                    "crop_term": "alfalfa",
                     "crop_label": "alfalfa",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11378,
+                    "id": 21243,
                     "crop_term": "grass leys",
                     "crop_label": "grass leys",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11379,
+                    "id": 21244,
                     "crop_term": "grass clover leys",
                     "crop_label": "grass clover leys",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11380,
+                    "id": 21245,
                     "crop_term": null,
                     "crop_label": "reseeded grass",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11381,
+                    "id": 21246,
                     "crop_term": "wheat",
                     "crop_label": "wheat",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11382,
-                    "crop_term": "sugarbeet",
-                    "crop_label": "sugarbeet",
+                    "id": 21247,
+                    "crop_term": "sugar beet",
+                    "crop_label": "sugar beet",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11383,
+                    "id": 21248,
                     "crop_term": "oats",
                     "crop_label": "oats",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11384,
+                    "id": 21249,
                     "crop_term": "potatoes",
                     "crop_label": "potatoes",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11385,
+                    "id": 21250,
                     "crop_term": "barley",
                     "crop_label": "barley",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 11386,
+                    "id": 21251,
                     "crop_term": "feed grasses",
                     "crop_label": "feed grasses",
                     "start_year": null,
@@ -600,7 +600,7 @@
             "language": null
         }
     ],
-    "saved_time": "2021-02-11T15:42:08.239857Z",
+    "saved_time": "2022-11-18T12:37:11.078856Z",
     "name": "Highfield Ley Arable",
     "local_identifier": "R/RN/1",
     "experiment_type_label": null,
@@ -626,7 +626,7 @@
     "site_slope": null,
     "site_slope_aspect": null,
     "site_visits_allowed": true,
-    "site_visiting_arrangements": "By arrangement with Dr Andy Macdonald, LTE Manager.",
+    "site_visiting_arrangements": "By arrangement with Dr Andy Gregory, LTE Manager.",
     "site_history": "The site was originally permanent grassland since 1838 (>100 years).",
     "site_management": "Ploughing: At the start of the experiment ploughing was shallow, not more than 15cm deep but the depth was gradually increased to 23 cm as more powerful tractors were introduced.\nLiming: Lime has been applied as required since 1958.\nLey management - permanent and re-seeded grass: Two-years sheep grazing followed by one-years hay 1949-57. Since 1958 grazing discontinued, cut repeatedly at early silage stage. Since 1991 grass leys were cut for hay in mid-summer; the hay was baled and removed.",
     "site_soil_type_label": "luvisol",

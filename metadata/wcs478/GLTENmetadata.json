@@ -1,11 +1,11 @@
 {
-    "id": 822,
+    "id": 5570,
     "experiment_type_term": null,
     "experiment_id": 66,
     "people": [],
     "organizations": [
         {
-            "id": 761,
+            "id": 6015,
             "contacts": [
                 {
                     "contact_type": "URL",
@@ -19,7 +19,7 @@
             "role_label": "research organisation"
         },
         {
-            "id": 762,
+            "id": 6016,
             "contacts": [],
             "role_term": "experimental research station",
             "name": "Woburn Experimental Station",
@@ -30,18 +30,18 @@
     ],
     "periods": [
         {
-            "id": 1083,
+            "id": 7678,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 2222,
+                    "id": 21259,
                     "crop_term": "maize",
                     "crop_label": "maize",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 2223,
+                    "id": 21260,
                     "crop_term": "barley",
                     "crop_label": "barley",
                     "start_year": null,
@@ -51,11 +51,11 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 1088,
+                    "id": 12341,
                     "factor_term": "crop residue management exposure",
                     "levels": [
                         {
-                            "id": 2974,
+                            "id": 30776,
                             "factor_variant_term": null,
                             "factor_variant_label": "Continuous maize, stubble incorporated",
                             "amount": null,
@@ -73,7 +73,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 2975,
+                            "id": 30777,
                             "factor_variant_term": null,
                             "factor_variant_label": "Continuous maize, stubble plus 10t maize tops incorporated",
                             "amount": null,
@@ -91,7 +91,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 2976,
+                            "id": 30778,
                             "factor_variant_term": null,
                             "factor_variant_label": "Maize after three years of spring barley, straw removed",
                             "amount": null,
@@ -109,7 +109,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 2977,
+                            "id": 30779,
                             "factor_variant_term": null,
                             "factor_variant_label": "Spring barley after five years maize, stubble incorporated",
                             "amount": null,
@@ -127,7 +127,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 2978,
+                            "id": 30780,
                             "factor_variant_term": null,
                             "factor_variant_label": "Continuous spring barley, straw removed plus 10 t maize tops incorporated",
                             "amount": null,
@@ -145,7 +145,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 2979,
+                            "id": 30781,
                             "factor_variant_term": null,
                             "factor_variant_label": "Continuous spring barley, straw removed",
                             "amount": null,
@@ -208,7 +208,7 @@
     "site_climatic_type_term": null,
     "site_climate_properties": [],
     "literature": [],
-    "saved_time": "2019-09-28T06:41:50.633092Z",
+    "saved_time": "2022-11-18T12:46:25.353197Z",
     "name": "Woburn Continuous Maize",
     "local_identifier": "W/CS/478",
     "experiment_type_label": null,
@@ -234,7 +234,7 @@
     "site_slope": null,
     "site_slope_aspect": null,
     "site_visits_allowed": false,
-    "site_visiting_arrangements": null,
+    "site_visiting_arrangements": "Dr Andy Gregory, LTE Manager",
     "site_history": null,
     "site_management": null,
     "site_soil_type_label": "arenosol",

@@ -22,28 +22,28 @@
         },
         "crops": [
             {
-                "id": 20532,
+                "id": 21784,
                 "name": "spring barley",
                 "sameAs": "spring barley",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 20533,
+                "id": 21785,
                 "name": "winter wheat",
                 "sameAs": "winter wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 20534,
+                "id": 21786,
                 "name": "grass leys",
                 "sameAs": "grass leys",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 20535,
+                "id": 21787,
                 "name": "potatoes",
                 "sameAs": "potatoes",
                 "dateStart": null,
@@ -60,27 +60,27 @@
                 "rotationPhases": [
                     {
                         "samePhase": false,
-                        "crop": 20534,
+                        "crop": 21786,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 20535,
+                        "crop": 21787,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 20532,
+                        "crop": 21784,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 20532,
+                        "crop": 21784,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 20532,
+                        "crop": 21784,
                         "description": null
                     }
                 ]
@@ -94,27 +94,27 @@
                 "rotationPhases": [
                     {
                         "samePhase": false,
-                        "crop": 20534,
+                        "crop": 21786,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 20535,
+                        "crop": 21787,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 20533,
+                        "crop": 21785,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 20533,
+                        "crop": 21785,
                         "description": null
                     },
                     {
                         "samePhase": false,
-                        "crop": 20533,
+                        "crop": 21785,
                         "description": null
                     }
                 ]
@@ -122,7 +122,7 @@
         ],
         "factor": [
             {
-                "id": 11997,
+                "id": 12710,
                 "name": "nitrogen fertilizer exposure",
                 "description": "4 rates of N fertilizer.  63 v 126 v 188 v 251 kgN/ha wheat. 50 v 100 v 150 v 200 kgN/ha barley.",
                 "effect": "",
@@ -130,7 +130,7 @@
                 "level": []
             },
             {
-                "id": 11998,
+                "id": 12711,
                 "name": "magnesium nutrient exposure",
                 "description": "Magnesium as Epsom salts applied to sub-sub-plots on wheat blocks only, 1968 and 1969. 0 v 182 kg MgO.",
                 "effect": "",

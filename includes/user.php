@@ -28,11 +28,10 @@
  */
 
  /*------------------  constants  ----------------------------------*/
-$redirect = "no";
+$redirect = "no"; 
 $strMessage = '';
 $output = "";
-$registeredUser = "Login / Register";
-
+$registeredUser = "Get Link";
 $registered = 'no';
 $loggedIn = 'no';
 $formOUT = "<div class=\"my-3\">
@@ -46,14 +45,12 @@ $formOUT = "<div class=\"my-3\">
     
 </div>
     
-    <button type=\"submit\" class=\"btn btn-primary \"  name=\"UserForms\"
+    <button type=\"submit\" class=\"btn btn-primary float-right\"  name=\"UserForms\"
     class=\"g-recaptcha\" 
         data-sitekey=\"".$reCAPTCHA_site_key." \" 
         data-callback=\'onSubmit\' 
-        data-action='login'>Log in</button>
+        data-action='login'>Get Link</button>
 	</form>
-    
-    <a  class=\"btn btn-secondary\" href=\"newUser.php\">Register</a>
 </form>
 </div>
 	";
@@ -105,10 +102,11 @@ You, or someone pretending to be you has requested login or registration  into e
 <li>Email address: " . $answers['email'] . "</li>
 <li>Institution: " . $answers['institution'] . "</li>
 <li>Country: " . $answers['country'] . "</li>
-<li>Comment: " . $answers['information'] . "</li>
-</ul>
-    
-";
+<li>Comment: " . $answers['information'] . "</li>";
+
+//$message .= "<li>TEST: ". $recaptcha['success']. " - " . $recaptcha['score'] . " - " . $recaptcha['action']. "</li>";
+//$message .= "<li>TEST: ".$recaptcha_file. "</li>";
+$message .= "</ul>";
     }
 
     $message .= "
@@ -175,6 +173,7 @@ function checkUser($info)
             }
         } else {
             $user['dbresponse'] = 'no';
+
         }
     }
 
@@ -403,9 +402,9 @@ if (isset($_COOKIE['email'])) {
     $registered = 'yes'; // to see if I need the register button or not
     if ($doorbell == 'ringing') {
         $loggedIn = 'no';
-        $strMessage = "<span class=\"badge badge-success mr-1 \">An email has been sent to " . $email . " <br /> Please check your mail box to confirm your login.</span> ";
+        $strMessage = "<span class=\"badge badge-success mr-1 align-middle \">An email has been sent to " . $email . " <br /> Please check your mail box to confirm your login.</span> ";
     } else if ($doorbell == 'out') {
-        $strMessage = "<span class=\"badge badge-warning\">" . $email . " is not recognised. Please try again or register</span>";
+        $strMessage = "<span class=\"badge badge-warning mr-1 align-middle\">" . $email . " is not recognised. <br /> Please try again or <a class=\"text-primary\" href=\"".$base."newUser.php\"><u>register</u></a></span>";
         $loggedIn = 'no';
     } else {
         $loggedIn = 'yes';
@@ -452,7 +451,7 @@ if (isset($_POST['email']) || isset($_POST['InputEmail'])) {
             setcookie('email', $email, time() + (3600), "/"); // 86400 = 1 day
             setcookie('doorbell', 'out', time() + (3600), "/"); // 86400 = 1 day
             $registered = 'no';
-            $strMessage = "<span class=\"badge badge-warning\">This email is not recognised. Please try again or register</span>";
+            $strMessage = "<span class=\"badge badge-warning  mr-1 align-middle\">" . $email . " is not recognised. <br /> Please try again or  <a class=\"text-primary\" href=\"".$base."newUser.php\"><u>register</u></a></span>";
         }
 
         $loggedIn = 'no';
@@ -466,14 +465,19 @@ if (isset($_POST['email']) || isset($_POST['InputEmail'])) {
  */
 if (isset($_POST['process']) && $_POST['process'] == 'process') {
     
+
     $answers = getInput();
     $email = $answers['email'];
-
     $answers['vericode'] = generateRandomString(10);
     $answers['vericode2'] = generateRandomString(19);
     $answers['timecode'] = makeCode();
     $answers['process'] = 'register';
+     
+    $recaptcha_response = $_POST['g-recaptcha-response'];
+     
+    $recaptcha = file_get_contents($recaptcha_url. '?secret='.$recaptcha_secret.'&response='.$recaptcha_response);
     
+   // if ($recaptcha['success']== 1 AND $recaptcha['score'] >= 0.3 AND $recaptcha['action'] = 'register') {
     setcookie('email', $email, time() + (86400 * 30), "/"); // 86400 = 1 day
     setcookie('doorbell', 'ringing', time() + (86400 * 30), "/"); // 86400 = 1 day
     setcookie('time', $time, time() + (86400 * 30), "/"); // 86400 = 1 day
@@ -492,6 +496,10 @@ if (isset($_POST['process']) && $_POST['process'] == 'process') {
     header($location);
     $output .= $emailsent;
     $output .= $dbanswer;
+
+//} else {
+//    header($location);
+//}
 }
 
 
@@ -542,5 +550,5 @@ if ($loggedIn == 'yes' && $email != 'delete') {
 
     $strRegister = $formOUT;
 
-    $registeredUser = "Login/Register";
+    $registeredUser = "Get Link";
 }

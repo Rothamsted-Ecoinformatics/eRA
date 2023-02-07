@@ -8,100 +8,109 @@
  */
 ?>
 <div class="row">
-	<div class="col-sm-3">
-		<div id="idPaperSideBar" class="card p-1 ml-3">
-			<h4>Search Settings</h4>
-			<hr />
-			<form name = "paperForm" action="e-RApubs.php" method="Get">
+    <div class="col-sm-3">
+        <div id="idPaperSideBar" class="card p-1 ml-3">
+            <form name="paperForm" action="e-RApubs.php" method="Get">
+                <input type="submit" name="submit" value="Search" /><input type="submit" name="reset" value="Reset" />
+                <span></span>
+                <hr />
+                <div class="form-group">
+                    <label for="SearchAuthor">Author:</label> <input type="text" class="form-control" id="SearchAuthor"
+                        name="SearchAuthor" value="" onclick="document.paperForm.submit()">
+                </div>
 
-				<div class="form-group">
-					<label for="SearchAuthor">Author:</label> <input type="text"
-						class="form-control" id="SearchAuthor" name="SearchAuthor"
-						value="" onclick="document.paperForm.submit()">
-				</div>
+                <div class="form-group">
+                    <label for="SearchTitle">Title:</label> <input type="text" class="form-control" id="SearchTitle"
+                        name="SearchTitle" value="" onclick="document.paperForm.submit()">
+                </div>
 
-				<div class="form-group">
-					<label for="SearchTitle">Title:</label> <input type="text"
-						class="form-control" id="SearchTitle" name="SearchTitle" value="" onclick="document.paperForm.submit()">
-				</div>
-
-				<hr />
-				<div class="form-group">
-					<label for="expt[]" multiple="multiple">Experiment:</label> <select
-						class="form-control" multiple id="expt[]" name="expt[]" >
-						<option value="Broadbalk">Broadbalk</option>
-						<option value="Park Grass">Park Grass</option>
-						<option value="Hoosfield">Hoosfield</option>
-						<option value="Alternate Wheat and Fallow">Alternate Wheat and
-							Fallow</option>
-						<option value="Exhaustion Land">Exhaustion Land</option>
-						<option value="Met data">Met data</option>
-						<option value="Agdell">Agdell</option>
-						<option value="Barnfield">Barnfield</option>
-						<option value="Brooms Barn">Brooms Barn</option>
-						<option value="Garden Clover">Garden Clover</option>
-						<option value="Broadbalk Wilderness">Broadbalk Wilderness</option>
-						<option value="Geescroft Wilderness">Geescroft Wilderness</option>
-						<option value="Fosters ley arable">Fosters ley arable</option>
-						<option value="Long-term liming">Long-term liming</option>
-						<option value="Highfield ley arable">Highfield ley arable</option>
-						<option value="Highfield bare fallow">Highfield bare fallow</option>
-						<option value="Saxmundham Rotations">Saxmundham Rotations</option>
-						<option value="Woburn">Woburn</option>
+                <hr />
+                <div class="form-group">
+                    <label for="expt[]" multiple="multiple">Experiment:</label> <select class="form-control" multiple
+                        id="expt[]" name="expt[]">
+                        
+                        <option value="Broadbalk">Broadbalk</option>
+                        <option value="Park Grass">Park Grass</option>
+                        <option value="Hoosfield">Hoosfield</option>
+                        <option value="Alternate Wheat and Fallow">Alternate Wheat and
+                            Fallow</option>
+                        <option value="Exhaustion Land">Exhaustion Land</option>
+                        <option value="Met data">Met data</option>
+                        <option value="Sample Archive">Sample Archive</option>
+                        <option value="Agdell">Agdell</option>
+                        <option value="Barnfield">Barnfield</option>
+                        <option value="Brooms Barn">Brooms Barn</option>
+                        <option value="Garden Clover">Garden Clover</option>
+                        <option value="Broadbalk Wilderness">Broadbalk Wilderness</option>
+                        <option value="Geescroft Wilderness">Geescroft Wilderness</option>
+                        <option value="Fosters ley arable">Fosters ley arable</option>
+                        <option value="Long-term liming">Long-term liming</option>
+                        <option value="Highfield ley arable">Highfield ley arable</option>
+                        <option value="Highfield bare fallow">Highfield bare fallow</option>
+                        <option value="Saxmundham Rotations">Saxmundham Rotations</option>
+                        <option value="Woburn">Woburn</option>
                         <option value="Woburn Continuous Cereals">Woburn Continuous Cereals</option>
                         <option value="Woburn Ley-Arable">Woburn Ley-Arable</option>
                         <option value="Woburn Organic Manuring">Woburn Organic Manuring</option>
-                        
-						
-						
-					</select>
-				</div>
-				<hr />
-				<div class="form-group">
-					<label for="startyear">Start Year:</label> <input name="startyear"
-						size="4" value="" class="form-control"> <br /> <label
-						for="stopyear">End Year:</label> <input name="stopyear" size="4"
-						value="" class="form-control">
-				</div>
-				<hr />
-				<div class="form-group">
-					<label for="SearchTitle">Search Abstracts:</label> <input
-						type="checkbox" name="SearchSum" class="form-control" /> <label
-						for="Summary">Display Abstracts: </label> <input type="checkbox"
-						name="Summary" class="form-control" />
-				</div>
-				<hr />
-				<div class="form-group d-none">
-					<label for="output">Prepare Output: </label> <br /> <input
-						type="radio" name="output" value="TAB" />: TAB separated values<br />
-					<input type="radio" name="output" value="ENL" />: or other
-					reference software<br /> <input type="radio" name="output"
-						value="NO" checked="checked" />: No output <br />
-				</div>
-				<hr />
-				<input type="submit" name="submit" value="Search" /><input
-					type="submit" name="reset" value="Reset" /> <span></span>
 
-			</form>
-		</div>
-	</div>
 
-	<div class="col-sm-9 pr-3">
-		<h1>e-RApubs</h1>
-		<h2>Search the Bibliography</h2>
-				<?php
+
+                    </select>
+                </div>
+                <hr />
+                <div class="form-group">
+                    <label for="startyear">Start Year:</label> <input name="startyear" size="4" value=""
+                        class="form-control"> <br /> <label for="stopyear">End Year:</label> <input name="stopyear"
+                        size="4" value="" class="form-control">
+                </div>
+                <hr />
+                <div class="form-group">
+                    <label for="SearchTitle">Search Abstracts:</label> <input type="checkbox" name="SearchSum"
+                        class="form-control" /> <label for="Summary">Display Abstracts: </label> <input type="checkbox"
+                        name="Summary" class="form-control" /><hr />
+                </div>
+                
+                <div class="form-group d-none">
+                    <label for="output">Prepare Output: </label> <br /> <input type="radio" name="output"
+                        value="TAB" />: TAB separated values<br />
+                    <input type="radio" name="output" value="ENL" />: or other
+                    reference software<br /> <input type="radio" name="output" value="NO" checked="checked" />: No
+                    output <br /><hr />
+                </div>
+                
+                <input type="submit" name="submit" value="Search" /><input type="submit" name="reset" value="Reset" />
+                
+
+            </form>
+        </div>
+    </div>
+
+    <div class="col-sm-9 pr-3">
+        <h1>e-RApubs</h1>
+        <h2>Search the Bibliography</h2>
+        <?php
     if (!isset( $submit)) {
+        $submit = "Search";
         ?>
-					<div class="jumbotron mr-3">Our bibliography contains more than 1650
-			references of articles, reports or documents mentioning the
-			Rothamsted long-term experiments and meteorological records. Please
-			contact us if you think some references are missing.
-			</div>
-					<?php
+        <div class="jumbotron mr-3">Our bibliography contains more than 1900
+            references of articles, reports or documents mentioning the
+            Rothamsted long-term experiments and meteorological records. Please
+            contact us if you think some references are missing.
+        </div>
+        <?php
     } 
     if (isset($submit) && $submit == "Search") {
         // ------------year-----------------
         
+        if (isset($_GET['stopyear'])) {
+        $stopyear   = cleanQuery($_GET['stopyear']);
+            }
+            if (isset($_GET['startyear'])) {
+            $startyear   = cleanQuery($_GET['startyear']);
+            }
+
+
+        $stringYear = "";
         if ($stopyear == "") {
             $stopyear = $startyear;
         }
@@ -109,10 +118,10 @@
         if (($startyear <= $stopyear) and ($startyear > 1800)) {
             $stringYear = ("AND ( `Year` BETWEEN $startyear AND $stopyear ) ");
             // echo ("Timespan:<b> $startyear - $stopyear </b><br />");
-        } else {
-            $stringYear = "";
         }
         
+        
+        $stringKeywords = "";
         if (isset($_GET['expt'])) {
             // -----keywords-------------------
             $stringKeywords = "AND (";
@@ -126,10 +135,12 @@
             $L = strlen($stringKeywords) - 3;
             $stringKeywords = substr($stringKeywords, 0, $L); // removes the last OR
             $stringKeywords = $stringKeywords . ")";
-        } else {
-            $stringKeywords = "";
-        }
+        } 
+
         $stringTitle = "";
+        if (isset($_GET['SearchTitle'])) {
+            $SearchTitle   = cleanQuery($_GET['SearchTitle']);
+        }
         if ($SearchTitle) {
             $stringTitle = "AND (`Title` LIKE '%$SearchTitle%' OR `Keywords` LIKE '%$SearchTitle%' ";
             //echo ("With  <b>$SearchTitle  </b>in the title <br />");
@@ -139,13 +150,18 @@
             $stringTitle = $stringTitle . ") ";
         }
         
-        $StringNameSearch = "AND (";
+        $StringNameSearch = "";
+        if (isset($_GET['SearchAuthor'])) {
+            $SearchAuthor   = cleanQuery($_GET['SearchAuthor']);
+        }
         if ($SearchAuthor) {
-            $StringNameSearch .= "`Authors` LIKE '%$SearchAuthor%' AND ";
+            $StringNameSearch .= "AND `Authors` LIKE '%$SearchAuthor%' ";
              //echo ("With <b>$SearchAuthor </b> in the Author's list <br />");
         }
-        $StringNameSearch .= "`RefType` IS NOT NULL)";
+        $StringNameSearch .= "AND  `RefType` IS NOT NULL";
         // echo $StringNameSearch;
+
+        
         $query = "SELECT `eraPapers`.`PaperID`, 
 `eraPapers`.`RefType`,
  `eraPapers`.`Authors`, 
@@ -162,7 +178,8 @@ IF(`eraPapers`.Year IS NULL or `eraPapers`.Year='', 1, 0)AS yearnull ,
 `eraPapers`.`DOI` as `PaperDOI`, 
 `eraPapers`.`URL`, 
 `eraPapers`.`GRID` as `eRAGRID`,
-`RaDOIs`.`DOI` as `eradocDOI` FROM `eraPapers` left join `RaDOIs` on `RaDOIs`.`GRID` = `eraPapers`.`GRID` WHERE 1
+`RaDOIs`.`DOI` as `eradocDOI` FROM `eraPapers` left join `RaDOIs` on `RaDOIs`.`GRID` = `eraPapers`.`GRID` 
+WHERE 1
 					$stringYear
 					$stringKeywords
 					$stringTitle
@@ -175,37 +192,36 @@ IF(`eraPapers`.Year IS NULL or `eraPapers`.Year='', 1, 0)AS yearnull ,
             outputTAB($query);
             
             ?>
-<br /> <b> <a href="export.txt?noCache=<?=$random?>" >Download
-				your TAB separated Output</a>
-		</b>
-						<?php
+        <br /> <b> <a href="export.txt?noCache=<?=$random?>">Download
+                your TAB separated Output</a>
+        </b>
+        <?php
         } elseif ($output == "ENL") {
             outputALL($query);
             ?>
 
-<b><a href="export.txt?noCache=<?=$random?>" >Save to
-				Endnote or other reference software</a> | <a href="home/helpenl.php"
-			target="out">Help (html) </a> | <a href="home/helpenl.pdf"
-			target="out">Help (pdf) </a> </b>
-					<?php
-        } else {
-            ;
-        }
+        <b><a href="export.txt?noCache=<?=$random?>">Save to
+                Endnote or other reference software</a> | <a href="home/helpenl.php" target="out">Help (html) </a> | <a
+                href="home/helpenl.pdf" target="out">Help (pdf) </a> </b>
+        <?php
+        } 
         ?>
 
-					<?php
-        // echo $query;
+        <?php
+        
         $link = LogAsGuest();
-        //echo ($query);
+        
         $OldYear = "";
         $resultk2 = mysqli_query($link,$query);
         if (! $resultk2) {
-            print("query failed");
+            print("query failed 2018");
+            // print ($query);
         } else {
             $i = 0;
             $nbResults = mysqli_num_rows($resultk2);
             if ($nbResults > 0) {
                 echo ("<br /><b>Result: $nbResults references</b><br />");
+                // print ("<br />".$query);
             }
             while ($rowk2 = mysqli_fetch_array($resultk2)) {
                 
@@ -288,7 +304,7 @@ IF(`eraPapers`.Year IS NULL or `eraPapers`.Year='', 1, 0)AS yearnull ,
     }
     ?>
 
-</ul>
+        </ul>
 
-	</div>
+    </div>
 </div>

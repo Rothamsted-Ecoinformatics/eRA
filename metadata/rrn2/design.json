@@ -22,35 +22,35 @@
         },
         "crops": [
             {
-                "id": 11387,
-                "name": "Medicago sativa",
+                "id": 21194,
+                "name": "alfalfa",
                 "sameAs": "alfalfa",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 11388,
+                "id": 21195,
                 "name": "grass leys",
                 "sameAs": "grass leys",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 11389,
+                "id": 21196,
                 "name": "wheat",
                 "sameAs": "wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 11390,
+                "id": 21197,
                 "name": "potatoes",
                 "sameAs": "potatoes",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 11391,
+                "id": 21198,
                 "name": "barley",
                 "sameAs": "barley",
                 "dateStart": null,
@@ -183,35 +183,35 @@
         },
         "crops": [
             {
-                "id": 11392,
-                "name": "Medicago sativa",
+                "id": 21199,
+                "name": "alfalfa",
                 "sameAs": "alfalfa",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 11393,
+                "id": 21200,
                 "name": "grass leys",
                 "sameAs": "grass leys",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 11394,
+                "id": 21201,
                 "name": "wheat",
                 "sameAs": "wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 11395,
+                "id": 21202,
                 "name": "potatoes",
                 "sameAs": "potatoes",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 11396,
+                "id": 21203,
                 "name": "oats",
                 "sameAs": "oats",
                 "dateStart": null,
@@ -287,35 +287,35 @@
         },
         "crops": [
             {
-                "id": 11397,
+                "id": 21204,
                 "name": "grass leys",
                 "sameAs": "grass leys",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 11398,
+                "id": 21205,
                 "name": "grass clover leys",
                 "sameAs": "grass clover leys",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 11399,
+                "id": 21206,
                 "name": "wheat",
                 "sameAs": "wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 11400,
-                "name": "sugarbeet",
-                "sameAs": "sugarbeet",
+                "id": 21207,
+                "name": "sugar beet",
+                "sameAs": "sugar beet",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 11401,
+                "id": 21208,
                 "name": "oats",
                 "sameAs": "oats",
                 "dateStart": null,
@@ -391,70 +391,70 @@
         },
         "crops": [
             {
-                "id": 11402,
-                "name": "Medicago sativa",
+                "id": 21209,
+                "name": "alfalfa",
                 "sameAs": "alfalfa",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 11403,
+                "id": 21210,
                 "name": "grass leys",
                 "sameAs": "grass leys",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 11404,
+                "id": 21211,
                 "name": "grass clover leys",
                 "sameAs": "grass clover leys",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 11405,
+                "id": 21212,
                 "name": "reseeded grass",
                 "sameAs": "reseeded grass",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 11406,
+                "id": 21213,
                 "name": "wheat",
                 "sameAs": "wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 11407,
-                "name": "sugarbeet",
-                "sameAs": "sugarbeet",
+                "id": 21214,
+                "name": "sugar beet",
+                "sameAs": "sugar beet",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 11408,
+                "id": 21215,
                 "name": "oats",
                 "sameAs": "oats",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 11409,
+                "id": 21216,
                 "name": "potatoes",
                 "sameAs": "potatoes",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 11410,
+                "id": 21217,
                 "name": "barley",
                 "sameAs": "barley",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 11411,
+                "id": 21218,
                 "name": "feed grasses",
                 "sameAs": "feed grasses",
                 "dateStart": null,
