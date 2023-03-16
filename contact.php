@@ -30,6 +30,18 @@ $_SESSION['page'] = 'about.php';
 //include '_carousel.php';
 //include '_about.php';
 //include '_tools.php';
+?>
+<div class="jumbotron bg-lighter p-3 mb-3">
+
+        <p>
+			For further information and assistance, please contact the e-RA
+			curators, Sarah Perryman and Margaret Glendining using the e-RA email
+			address: <a href="mailto:era@rothamsted.ac.uk">era@rothamsted.ac.uk</a>
+		</p>
+		
+	</div>
+
+    <?php 
 include '_people.php';
 
 	

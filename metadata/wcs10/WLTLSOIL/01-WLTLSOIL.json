@@ -1,7 +1,7 @@
 {
     "@context": "https://schema.org/",
     "@type": "Dataset",
-    "identifier": "10.23637/wcs10-wltlsoil-01",
+    "identifier": "10.23637/wcs10-soil-01",
     "name": "Woburn long-term liming experiment soil chemical properties 1962-1996",
     "shortName": "WLTLSOIL",
     "url": "https://www.era.rothamsted.ac.uk/dataset/wcs10/01-WLTLSOIL",
@@ -9,22 +9,17 @@
         {
             "inLanguage": "en",
             "descriptionType": "Abstract",
-            "description": "The experiment tests the effects of different amounts of lime (and thus soil pH), P and K on a sequence of arable crops, on a sandy soil at Woburn Experimental Farm, from 1962-1996. Mg, Mn and S were tested on split plots at different times. Target soil pH was 4.5, 5.5, 6.5 and 7.5. This dataset contains soil pH, Olsen P and exchangeable cations (Ca, K, Mg and Na).  There is a parallel experiment at Rothamsted Experimental Farm. The experiment was discontinued in 1997."
+            "description": "The experiment tests the effects of different amounts of lime (and thus soil pH), P and K on a sequence of arable crops, on a sandy soil at Woburn Experimental Farm, from 1962-1996. Mg, Mn and S were tested on split plots at different times. Target soil pH was 4.5, 5.5, 6.5 and 7.5. This dataset contains soil pH, Olsen P and exchangeable cations (Ca, K, Mg and Na, ammonium acetate method) on soil sampled several times between 1962 and 1996.  There was also a baseline sampling before the experiment was established. There is a parallel experiment at Rothamsted Experimental Farm. The experiment was discontinued in 1997."
         },
         {
             "inLanguage": "en",
             "descriptionType": "Methods",
-            "description": "Period 1 (1962-1980): four lime levels with and without fertilizer P and K. Magnesium was tested on split plots 1974-1978. Period 2 (1981-1996): four lime levels with four P levels. Manganese was tested on split plots 1987-1990; Sulphur was tested on split plots 1991-1996. There are two replicates. \r\n\r\n- **Soil pH** measured in water: 1:2.5 soil: water suspension using a standard electrode and pH meter.\r\n- **Olsen P** soil extracted with a solution of 0.5 M NaHCO<sub>3</sub>, buffered at pH8.5, after the method of Olsen et al, 1954.\r\n- **Exchangeable cations** measured in sieved (<2mm) air-dry soil leached with 1 M ammonium acetate, adjusted to pH 7. Leachates analysed by emission or atomic absorption flame spectrophotometry.  Since 1989, the extracts have been analysed by ICP-OES (Inductively Coupled Plasma - Optical Emission Spectrometer)."
-        },
-        {
-            "inLanguage": "en",
-            "descriptionType": "TableOfContents",
-            "description": "An Excel file, 01-WobLTliming-soil.xlsx, contains soil pH, Olsen P (plant-available soil P) and exchangeable cations (Ca, K, Mg and Na) measured several times over the course of the experiment. Also included are details of the lime (chalk) applications and the different fertilizer treatments. \r\n\r\nFrictionless CSV files are provided for users who prefer CSV over Excel files."
+            "description": "Period 1 (1962-1980): four lime levels with and without fertilizer P and K. Magnesium was tested on split plots 1974-1978. Period 2 (1981-1996): four lime levels with four P levels. Manganese was tested on split plots 1987-1990; Sulphur was tested on split plots 1991-1996. There are two replicates. \r\n\r\n- **Soil pH** measured in water: 1:2.5 soil: water suspension using a standard electrode and pH meter.\r\n- **Olsen P** (plant-available soil P) soil extracted with a solution of 0.5 M NaHCO<sub>3</sub>, buffered at pH8.5, after the method of Olsen et al, 1954.\r\n- **Exchangeable cations** measured in sieved (<2mm) air-dry soil leached with 1 M ammonium acetate, adjusted to pH 7. Leachates analysed by emission or atomic absorption flame spectrophotometry.  Since 1989, the extracts have been analysed by ICP-OES (Inductively Coupled Plasma - Optical Emission Spectrometer)."
         },
         {
             "inLanguage": "en",
             "descriptionType": "TechnicalInfo",
-            "description": "Air-dried soil, sieved (<2mm). Topsoil (usually 0-23cm) and some sub-soil measurements. For topsoil 12-20 cores were taken from the central area of each plot and combined to make one sample. For subsoil, generally 5-6 cores were taken and combined. Baseline soil pH measurements were taken in February 1962, before the first lime application. Soil samples were generally taken in the autumn, after the current crop was harvested and before the soil was ploughed for the next harvest year, so that the soil properties could be related to the treatments applied in the previous harvest year."
+            "description": "Air-dried soil, sieved (<2mm). Topsoil (usually 0-23cm) and some sub-soil measurements. For topsoil 12-20 cores were taken from the central area of each plot and combined to make one sample. For subsoil, generally 5-6 cores were taken and combined. Baseline soil pH measurements were taken in February 1962, before the first lime application. Soil samples were generally taken in the autumn, after the current crop was harvested and before the soil was ploughed for the next harvest year, so that the soil properties could be related to the treatments applied in the previous harvest year. The soil was analysed shortly after sampling."
         },
         {
             "inLanguage": "en",
@@ -47,7 +42,7 @@
         "name": "Electronic Rothamsted Archive, Rothamsted Research"
     },
     "publication_year": 2023,
-    "dateCreated": "2023-01-09",
+    "dateCreated": "2023-03-05",
     "dateModified": null,
     "datePublished": null,
     "inLanguage": "en",
@@ -332,6 +327,24 @@
             "relationType": "IsSupplementedBy",
             "rt_id": 4,
             "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.1111/j.1475-2743.1989.tb00760.x",
+            "relatedIdentifierType": "DOI",
+            "name": "Goulding et al 1989. Paper predicting the lime requirement of soils, using this data.",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/wsc10-wltlcation-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Woburn long-term liming experiment exchangeable cations re-analysed",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
         }
     ],
     "funder": [
@@ -354,7 +367,7 @@
     "image": [
         {
             "type": "imageObject",
-            "caption": null,
+            "caption": "Example dataset derived from the data. Lime applications indicated by +",
             "URL": "soilpH.png",
             "encodingFormat": "png",
             "fileSize": "18 KB"

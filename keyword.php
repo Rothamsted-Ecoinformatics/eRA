@@ -147,7 +147,9 @@ if (count($datasets)) {
                             $strWP .=  "\n<ul>";
                             foreach ($webPages as $webPage) {
                                 $countWP +=1;
-                                $strWP .=  "\n<li><a href=\"" . $webPage['URL'] . "\" >" . $webPage['title'] . "</a>  - <a href=\"experiment/" . $webPage['exptID'] . "\">" . $webPage['exptID'] . "</a></li>";
+                                $exptPage = "";
+                                if ($webPage['pageType']!= 'default') { $exptPage =  "- <a href=\"". $webPage['pageType'] ."/" . $webPage['exptID'] . "\">" . $webPage['exptID'] . "</a>";}
+                                $strWP .=  "\n<li><a href=\"" . $webPage['URL'] . "\" >" . $webPage['title'] . "</a>  ". $exptPage ." </li>";
                             }
                             $strWP .=  "\n</ul>";
                         } else {

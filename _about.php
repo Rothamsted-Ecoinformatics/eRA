@@ -33,9 +33,9 @@
 				of all the collated datasets currently available for it, supporting documentation, site details, history
 				and images.
 			</li>
-			<li><b>Datasets: </b>The collated datasets currently available for the long-term experiments. Includes
-				advice on copyright, appropriate credits, data quality and how to access the three different types of
-				datasets. More datasets are being created and availability will be announced on Twitter.</li>
+			<li><b>Datasets: </b>The Open Access Datasets (OADs) currently available for the long-term experiments. We include
+				advice on copyright, appropriate credits, data quality and how to access the two different types of
+				datasets. New prepared datasets are announced on Twitter.</li>
 
 
 			<li><b>Meteorological Data:</b> Daily meteorological data is recorded at
@@ -57,14 +57,11 @@
 	</div>
 	<div class="row mx-3 px-3">
 		<ul>
-			<li><b>Open Access Datasets:</b> Summary data downloadable with accompanying metadata without registration.
-			</li>
-			<li><b>Registration Datasets:</b> Selected data, at the plot or treatment level / month or year level,
-				downloadable with accompanying metadata, requires registration.
-			</li>
-			<li><b><i>e-RAdata:</i></b> Original data downloadable from the database DET (Data Extraction Tool), no
-				accompanying metadata, requiring registration for a password.
-			</li>
+<li><b>Open Access Datasets (OADs):</b>  Data directly downloadable with accompanying metadata, no password required. </li>
+			<p><u>Summary Open Access Datasets (Summary OADs)</u> - Provide averaged or selected data with some accompanying metadata and descriptions. These provide a summary overview of key data, findings, trends, or changes in the data averaged across a restricted number of plots and/or years. Both LTE and met data are in this format. Meteorological (met) data present daily data averaged to monthly or annual values.</p>
+			<p><u>Complete Open Access Datasets (Complete OADs) </u>- 'Frictionless' format providing comprehensive data with full metadata contained in file. These provide all plots and years relating to a distinct period of time in an LTE, in a machine-readable format with treatments, agronomic information and yields provided. Currently only LTE data is provided in this format.,</p>
+			<li><b>e-RAdata: </b>This database  (previously the Data Extraction Tool, DET) provides the daily meteorological data. It also contains original LTE data, no
+				accompanying metadata. It requires registration for a password.			</li>
 			<ul>
 	</div>
 	<div class="row mx-3 px-3">

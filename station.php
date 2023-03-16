@@ -127,8 +127,6 @@ echo title_case($experiment['administrative']['name']);
 						<li class="nav-item"><a class="nav-link active show"
 							id="overview-tab" data-toggle="tab" href="#overview">Overview</a></li>
 
-
-
 						<li class="nav-item"><a class="nav-link" id="measurements-tab"
 							data-toggle="tab" href="#measurements">Measurements</a></li>
 						
@@ -145,7 +143,7 @@ echo title_case($experiment['administrative']['name']);
 <?php }?>
 	<?php if ($hasdocs) {?>
 						<li class="nav-item"><a class="nav-link" id="documents-tab"
-							data-toggle="tab" href="#documents">Related Documents</a></li>
+							data-toggle="tab" href="#documents">Information</a></li>
 <?php }?>
 						<li class="nav-item"><a class="nav-link" id="bibliography-tab"
 							data-toggle="tab" href="#bibliography">Bibliography</a></li>
@@ -188,12 +186,16 @@ if ($displayDatasets > 0) {
    
                         //include '_datasets.php';
 						include '_datasets.php';
-                        echo  "<div class=\"mx-3\">Additional data is available through e-RAdata. Please <a href=\"newGold.php\" >register for access</a>.  </div>";
+                        echo  "<div class=\"mx-3\">Additional data is available through <a class=\"btn btn-info m-1\" target=\"_BLANK\"
+                        href=\"http://www3.rothamsted.ac.uk/cdera/extract/pages/data_extraction_prototype6.html\"><i
+                            class=\"fa fa-list-alt\"></i> e-RAdata</a>. Please <a href=\"newGold.php\" >register for access</a>.  </div>";
 } else if ($displayDatasets == 0) {
 						
                         
                         if (in_array($expt, $inDet)) {
-                            echo  "<div class=\"mx-auto\" style=\"width: 600px;\">Additional data is available through e-RAdata. 
+                            echo  "<div class=\"mx-auto\" style=\"width: 600px;\">Additional data is available through <a class=\"btn btn-info m-1\" target=\"_BLANK\"
+                            href=\"http://www3.rothamsted.ac.uk/cdera/extract/pages/data_extraction_prototype6.html\"><i
+                                class=\"fa fa-list-alt\"></i> e-RAdata</a>. 
 Please <a href=\"newGold.php\" >register for access</a>.  </div>
 <div class=\"mx-auto\" style=\"width: 600px;\">
   <img class=\"mx-auto\" src=\"images/600x400/DETtop2021.jpg\" alt\"Extract data\" width=\"600\" height=\"400\">
@@ -201,7 +203,9 @@ Please <a href=\"newGold.php\" >register for access</a>.  </div>
 </div>";
                         } else if ($expt == "rwf3") {
                             echo  "<div class=\"mx-auto\" style=\"width: 600px;\"> Datasets for Alternate Wheat and Fallow 
-are only available through  e-RAdata. Please <a href=\"newGold.php\" >register for access</a>. </div>
+are only available through  <a class=\"btn btn-info m-1\" target=\"_BLANK\"
+href=\"http://www3.rothamsted.ac.uk/cdera/extract/pages/data_extraction_prototype6.html\"><i
+    class=\"fa fa-list-alt\"></i> e-RAdata</a>. Please <a href=\"newGold.php\" >register for access</a>. </div>
 <div class=\"mx-auto\" style=\"width: 600px;\">
   <img class=\"mx-auto\" src=\"images/600x400/DETtop2021.jpg\" alt\"Extract data\" width=\"600\" height=\"400\">
 

@@ -12,6 +12,25 @@
  */
 include_once 'includes/init.php'; // these are the settings that refer to more than one page
 
+$datasetTitle = "";
+$dateCreation = "";
+$datePublication = "";
+$dateUpdate = "";
+$getAuthors = "";
+$getAuthorOrganisation = "";
+$getContributors = "";
+$hasCT = 0;
+$getPublisher = "";
+$isAuthor = 0;
+$refAuthor = "DEFAULT";
+$onload = "";
+
+$strDownload = "";
+$strMeta = "";
+$strUserArea = "";
+
+$zipfile = "";
+
 $pageinfo = getPageInfo($expt);
 $KeyRef = $pageinfo['KeyRef'];
 $page_title .= ' dataset: ' . $dataset;
@@ -19,9 +38,8 @@ $datasetParts = explode("-", $dataset);
 $pageinfo = getPageInfo($expt);
 $KeyRef = $pageinfo['KeyRef'];
 $exptFolder = 'metadata/' . $expt;
-$onload = "";
 $fileDataset = $exptFolder . '/' . $datasetParts[1] . '/' . $dataset . '.json';
-$datasetTitle = "";
+
 $hasDataset = file_exists($fileDataset);
 if ($hasDataset) {
     $jdataset = file_get_contents($fileDataset);
@@ -46,6 +64,7 @@ $_SESSION['page'] = 'dataset/' . $expt . '/' . $dataset;
 $_SESSION['dataset'] = $dataset;
 $_SESSION['expt'] = $expt;
 
+/* deprecated funtion  superseeded by printvocab 
 function getVocab($localword)
 {
     GLOBAL $words;
@@ -64,6 +83,7 @@ function getVocab($localword)
     }
     return $vocab;
 }
+*/
 
 function printVocab($localwords)
 {
@@ -92,6 +112,12 @@ if ($hasDataset) {
         $datasetTitle = 'Dataset: '. $dsinfo['name'];
     }
     $DOI = $dsinfo["identifier"];
+    
+    if (isset($_SESSION['downloads'])) {
+        if (in_array($DOI, $_SESSION['downloads'])) {
+            $strUserArea .= "<li class=\"list-group-item\">Downloaded recently</li>";
+        }
+    }
     // this decide what modal we give depending on the type of dataset: the OA at the moment, does not record the download.
 
     $dstype = $dsinfo["dstype"];
@@ -102,19 +128,20 @@ if ($hasDataset) {
         $dstypeModal = 'Other';
     }
 
-    $modal = "#modalClickTrough" . $dstypeModal;
+    //$modal = "#modalClickTrough" . $dstypeModal;
+    $modal = "#modalClickTroughOA";
     $butDownload = "<button type=\"button\" class=\"btn btn-primary my-1 mx-3\" data-toggle=\"modal\"
-    data-target=\"" . $modal . "\">Download</button>";
+    data-target=\"" . $modal . "\">Download Data</button>";
 
     $butLogin = "<button type=\"button\" class=\"btn btn-info my-1 mx-3 \" data-toggle=\"modal\"
         data-target=\"#modalLogin\">" . $registeredUser . "</button>";
-    $dateCreation = "";
+    
     if ($dsinfo["dateCreated"]) {
         $dateCreation .= "<li class=\"list-group-item\"><b>Created: </b> ".$dsinfo["dateCreated"]."</li>";
     } else {
         
     } 
-    $datePublication = "";  
+    
     if ($dsinfo["datePublished"]) {
         
         $datePublication .= "<li class=\"list-group-item\"><b>Published: </b> ".$dsinfo["datePublished"]."</li>";
@@ -128,13 +155,7 @@ if ($hasDataset) {
         
     }
 
-    $getAuthors = "";
-    $getAuthorOrganisation = "";
-    $getContributors = "";
-    $hasCT = 0;
-    $getPublisher = "";
-    $isAuthor = 0;
-    $refAuthor = "DEFAULT";
+
     if (is_array($dsinfo['creator'])) {
         foreach ($dsinfo['creator'] as $creator) {
             if ($creator['type'] == 'organization') {
@@ -173,13 +194,7 @@ if ($hasDataset) {
     $refAuthor = $getAuthorOrganisation;
     if ($isAuthor > 0) {
         $refAuthor = $getAuthors;
-    } else {}
-
-    /*
-     * if ($datePublication != "N/A") {$year = '('.substr($datePublication, 0, 4).')';}
-     * elseif ($dateCreation != "N/A") {$year = '('.substr($dateCreation, 0, 4).')';}
-     * else {$year = "";}
-     */
+    } 
 
     $year = "" . $dsinfo["publication_year"];
 
@@ -332,66 +347,88 @@ if ($hasDataset) {
      * On donload:
      * 1: make a SQL that writed in the usermanagment table that the user is downloading that dataset at that time
      */
-    $strUserArea = "";
-    $today = date('Y/m/d');
+    
+    
     $link = LogMangaAd();
-    if ($registeredUser != "Login/Register") {
-        $positionValue = $_COOKIE['email'];
-        $sqlLast = "SELECT `dl-id`, `position`, DOI, `dl-date`, `result` FROM eRAmanga.eRAdownloads where DOI LIKE '%" . $DOI . "%' and  `position` LIKE '%" . $_COOKIE['email'] . "%' order by `dl-date` DESC LIMIT 1";
+    $stmt = $link->prepare("INSERT INTO downloads (`position`, `IP`,  DOI, `dldate`,`dlresult`, fullname, country, information, institution) VALUES(?,?,?,?,?,?,?,?,?)");
+    //$stmt -> bind_param("sssssssss", $positionValue, $IpAddress,  $DOI, $today, $dlresult, $fullname, $country, $information, $institution );
+   
 
-        if ($results = mysqli_query($link, $sqlLast)) {
-            while ($row = mysqli_fetch_assoc($results)) {
-                $strUserArea .= "<li class=\"list-group-item text-warning \"><b>Last Downloaded : </b>" . $row['dl-date'] . "</li>";
-            }
-        }
-    } else {
-        $strUserArea = "";
-        $positionValue = "Anonymous";
-    } 
     $IpAddress = getIp();
-    $strMeta = "";
+    
     if (isset($_REQUEST['dlform'])) {
-
-        // Check the file exists or not
+        $today = date('Y/m/d');
+        if (!isset($_SESSION['user']['startSession'])) {
+            $_SESSION['user']['startSession'] =  $today;
         
+            $killdate = date_create($today);
+            date_add($killdate , date_interval_create_from_date_string("7 days"));
+            $_SESSION['user']['killSession'] =  date_format($killdate,"Y/m/d");
+        }
+        //$_SESSION['user']['killSession'] = '2023/01/01'; //testing so need to kill session everytime 
+        $_SESSION['user']['lastDownload'] = $today;
+        // Check the file exists or not
         if (file_exists($zipfile)) {
-
-            $sqlDownload = "INSERT INTO eRAdownloads (`position`, `IP`,  DOI, `dl-date`,`result`) VALUES(' " . $positionValue . "', '" . $IpAddress . "', '" . $DOI . "', '" . $today . "', '".$siteType ."')";
-
-            if ($results = mysqli_query($link, $sqlDownload)) {
-                $onload = " onload=\"modal();\"  
-                
-                ";
-                $strUserArea .= "<li class=\"list-group-item text-warning \">Downloaded today</li>";
+                // we are not collecting emails, but that could change
+            if (isset($_REQUEST['InputEmail'])) {
+                $positionValue = mysqli_real_escape_string($link, $_REQUEST['InputEmail']);
+                $_SESSION['user']['positionValue'] = $positionValue;
             }
+            $positionValue = "Anonymous";
+            $fullname = "No Name";
+            $institution  = "NONE";
+            $information = "NONE";
+            $country = "GB";
+            $_SESSION['downloads'][] = $DOI;
+            //we get it from the request and also put it in session! this might need to be done
+            // if not from the request, we get it from session - if in the session, we do not ask again
+            if (isset($_REQUEST['InputName'])) {
+                $fullname = mysqli_real_escape_string($link, $_REQUEST['InputName']); 
+                $_SESSION['user']['fullname'] = $fullname;   
+            } elseif (isset($_SESSION['user']['fullname'])) {
+                $fullname = $_SESSION['user']['fullname'];
+            } 
+            if (isset($_REQUEST['inputCountry'])) {
+                $country = mysqli_real_escape_string($link, $_REQUEST['inputCountry']);
+                $_SESSION['user']['country'] = $country;    
+            } elseif (isset($_SESSION['user']['country'])) {
+                $country = $_SESSION['user']['country'];
+            } 
+        
+            if (isset($_REQUEST['information'])) {
+                $information = mysqli_real_escape_string($link, $_REQUEST['information']);   
+                $_SESSION['user']['information'] = $information; 
+            } elseif (isset($_SESSION['user']['information'])) {
+                $information = $_SESSION['user']['information'];
+            }
+            if (isset($_REQUEST['InputInstitute'])) {
+                $institution = mysqli_real_escape_string($link, $_REQUEST['InputInstitute']);
+                $_SESSION['user']['institution'] = $institution;    
+            } elseif (isset($_SESSION['user']['institution'])) {
+                $institution = $_SESSION['user']['institution'];
+            }
+            $dlresult = $siteType ;
+            $stmt -> bind_param("sssssssss", $positionValue, $IpAddress,  $DOI, $today, $dlresult, $fullname, $country, $information, $institution );
+  
+            if ($stmt->execute()) { $onload = " onload=\"modal();\" "; }
+            
             
             $strMeta .= " <meta
              http-equiv=\"refresh\"
                  content=\"1; URL=".$root . $zipfile . '?' . time()."\">"; // the Time function to avoid getting the file from the
         } else {
-            $sqlError = "INSERT INTO eRAdownloads (`position`, DOI, `dl-date`,`result`) VALUES(' " . $positionValue . "', '" . $DOI . "', '" . $today . "', 'NO FILE')";
-            if ($results = mysqli_query($link, $sqlError)) {
+            //No file present - 
+            $dlresult = "NO FILE" ;
 
-                $strUserArea .= "<li>File Not Found - Team notified </li>";
-            }
+            if ($stmt->execute())  {$strUserArea .= "<li>File Not Found - Team notified </li>"; }
+            
         }
     }
     $strUserArea .= "";
     mysqli_close($link);
 
-    if (file_exists($zipfile)) {
-        if ($dstype == 'OA') {
-            // $strUserArea = "";
+    if (file_exists($zipfile)) {  
             $strDownload = $butDownload;
-        } else {
-            if ($loggedIn == 'yes' && $email != 'delete') {
-
-                $strDownload = $butDownload;
-            } else {
-
-                $strDownload = $butLogin;
-            }
-        }
     } else {
         $strDownload = "";
     }

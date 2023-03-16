@@ -14,7 +14,7 @@
         {
             "inLanguage": "en",
             "descriptionType": "Methods",
-            "description": "Summary data used for this chart are derived from annual daily data measured at Rothamsted Meteorological Station. The mean daily temperature is measured over a 24 hour period 0900 to 0900 GMT and calculated from the daily maximum (Tmax) and minimum temperatures (Tmin); the mean daily tamperature = (Tmax = Tmin)/2."
+            "description": "Summary data used for this chart are derived from annual daily data measured at Rothamsted Meteorological Station. The mean daily temperature is measured over a 24-hour period 0900 to 0900 GMT and calculated from the daily maximum (Tmax) and minimum temperatures (Tmin); the mean daily temperature = (Tmax = Tmin)/2."
         },
         {
             "inLanguage": "en",
@@ -278,7 +278,7 @@
         {
             "relatedIdentifier": "10.23637/ROTHAMSTED-LONG-TERM-EXPERIMENTS-GUIDE-2018",
             "relatedIdentifierType": "DOI",
-            "name": "Macdonald, A. (2018)  Guide to the Classical and Other Long-term Experiments",
+            "name": "Macdonald, A. et. al. (2018)  Guide to the Classical and Other Long-term Experiments",
             "relatedIdentifierGeneralType": "Text",
             "relationType": "IsDescribedBy",
             "rt_id": 7,
@@ -337,6 +337,15 @@
             "relationType": "IsReferencedBy",
             "rt_id": 17,
             "relationTypeValue": "is referenced by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rms-RMAAtemp-03",
+            "relatedIdentifierType": "DOI",
+            "name": "Annual Mean Air Temperature at Rothamsted 1878-2022",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsPreviousVersionOf",
+            "rt_id": 14,
+            "relationTypeValue": "is previous version of"
         }
     ],
     "funder": [

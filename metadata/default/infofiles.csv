@@ -1,91 +1,128 @@
-id,Credit,FileName,Type,Caption,exptID,link,isReviewed,Comments
-1,eRA curators,index,html,Brooms Barn Met Station ,bms,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/bms/index,0,empty file
-2,eRA curators,measurements,html,bms measurements,bms,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/bms/measurements,1,
-3,eRA curators,overview,html,bms Overview,bms,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/bms/overview,1,
-4,eRA curators,experiments,html,Brooms Barn Experiments,broomsbarn,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/broomsbarn/experiments,1,
-5,eRA curators,history,html,History of Broom's Barn,broomsbarn,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/broomsbarn/history,1,
-6,eRA curators,index,html,Brooms Barn,broomsbarn,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/broomsbarn/index,0,
-7,eRA curators,overview,html,Brooms Barn: overview,broomsbarn,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/broomsbarn/overview,1,
-8,eRA curators,site,html,Brooms Bar site,broomsbarn,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/broomsbarn/site,1,
-9,eRA curators,style,html,Styles and Colors,curation,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/curation/style,0,
-10,eRA curators,style2,html,Styles and Colors,curation,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/curation/style2,0,
-11,eRA curators,about,html,About e-RA,default,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/default/about,1,
-12,eRA curators,CF,html,Conversion Factors,default,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/default/CF,1,
-13,eRA curators,conditions,html,Conditions of Use,default,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/default/conditions,1,
-14,eRA curators,credits,html,Credits: past and present staff involved in eRA,default,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/default/credits,1,
-15,eRA curators,dataQuality,html,Data Quality in e-RA,default,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/default/dataQuality,1,
-16,eRA curators,error,html,Erro4 - 404,default,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/default/error,1,
-17,eRA curators,experiments,html,All the experiments,default,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/default/experiments,0,
-18,eRA curators,howtoaccessdata,html,How to access data,default,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/default/howtoaccessdata,1,
-19,eRA curators,howtocredit,html,How to credit materials,default,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/default/howtocredit,1,
-20,eRA curators,index,html,index,default,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/default/index,0,
-21,eRA curators,instrumentdescription,html,Description of the instruments for measuring met data,default,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/default/instrumentdescription,1,
-22,eRA curators,register,html,Registration Forms,default,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/default/register,1,
-23,eRA curators,index,html,The data extraction Tool,DET,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/DET/index,0,
-24,eRA curators,derived_variables,html,Derived Meterological Variables,met,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/met/derived_variables,1,
-25,eRA curators,equipment,html,Measuring the weather,met,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/met/equipment,1,
-26,eRA curators,index,html,Weather data on e-RA,met,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/met/index,0,
-27,eRA curators,instrumentdescription,html,Measuring the weather,met,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/met/instrumentdescription,1,
-28,eRA curators,public,html,Weather data for the public,met,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/met/public,1,
-29,eRA curators,schools,html,Weather data for schools,met,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/met/schools,1,
-30,eRA curators,disease,html,Broadbalk Diseases,rbk1,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rbk1/disease,1,
-31,eRA curators,earthworms,html,Earthworms,rbk1,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rbk1/earthworms,1,
-32,eRA curators,grainquality,html,Grain Quality,rbk1,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rbk1/grainquality,1,
-33,eRA curators,index,html,index,rbk1,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rbk1/index,0,
-34,eRA curators,nutrients,html,Nutrient Data,rbk1,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rbk1/nutrients,1,
-35,eRA curators,outreach,html,Broadbalk Dataset for School,rbk1,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rbk1/outreach,0,
-36,eRA curators,soilchem,html,Soil Chemistry,rbk1,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rbk1/soilchem,1,
-37,eRA curators,soilphys,html,Soil Physical measurements,rbk1,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rbk1/soilphys,1,
-38,eRA curators,soils,html,soils,rbk1,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rbk1/soils,1,
-39,eRA curators,weeds,html,weeds,rbk1,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rbk1/weeds,1,
-40,eRA curators,yields,html,Yield Data ,rbk1,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rbk1/yields,1,
-41,eRA curators,yields_other_crops,html,Broadbalk other crops,rbk1,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rbk1/yields_other_crops,1,
-42,eRA curators,index,html,index,rex4,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rex4/index,0,
-43,eRA curators,index,html,index,rgc8,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rgc8/index,0,
-44,eRA curators,hfsoils,html,Soil in Hoosfield,rhb2,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rhb2/hfsoils,1,
-45,eRA curators,index,html,index,rhb2,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rhb2/index,0,
-46,eRA curators,nutrients,html,Hoosfields Nutrients,rhb2,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rhb2/nutrients,1,
-47,eRA curators,plans,html,Hoosfield Plans and treatments,rhb2,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rhb2/plans,1,
-48,eRA curators,30yearmean,html,30 years mean data,rms,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rms/30yearmean,1,
-49,eRA curators,background,html,Background information on the Rothamsted Weather Station,rms,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rms/background,1,
-50,eRA curators,extreme,html,Extreme weather recordings,rms,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rms/extreme,1,
-51,eRA curators,history,html,History of the Rothamsted Weather Station,rms,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rms/history,1,
-52,eRA curators,index,html,index,rms,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rms/index,0,
-53,eRA curators,measurements,html,Data available and how it is measured,rms,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rms/measurements,1,
-54,eRA curators,monthly,html,Rothamsted Met Data Monthly Updates,rms,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rms/monthly,1,
-55,eRA curators,overview,html,Overview of the Rothamsted Weather Station,rms,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rms/overview,1,
-56,eRA curators,site,html,The Rothamsted Weather station site,rms,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rms/site,1,
-57,eRA curators,history,html,History of Rothamsted Experimental station,rothamsted,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rothamsted/history,1,
-58,eRA curators,index,html,Rothamsted Experimental Station,rothamsted,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rothamsted/index,0,
-59,eRA curators,overview,html,Overview of the Rothamsted experimental station,rothamsted,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rothamsted/overview,1,
-60,eRA curators,site,html,The Rothamsted site,rothamsted,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rothamsted/site,1,
-61,eRA curators,summary,html,Summary,rothamsted,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rothamsted/summary,1,
-62,eRA curators,harvesting,html,Harvesting Parkgrass,rpg5,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rpg5/harvesting,1,
-63,eRA curators,index,html,index,rpg5,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rpg5/index,0,
-64,eRA curators,links,html,list of links for Parkgrass,rpg5,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rpg5/links,1,
-65,eRA curators,parkgrass-history,html,parkgrass history,rpg5,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rpg5/parkgrass-history,1,
-66,eRA curators,pgcomposition1,html,pgcomposition1,rpg5,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rpg5/pgcomposition1,1,
-67,eRA curators,pgsoils,html,pgsoils,rpg5,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rpg5/pgsoils,1,
-68,eRA curators,plans,html,Plans for the Parkgrass experiment,rpg5,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rpg5/plans,1,
-69,eRA curators,metagenomic,html,New data from old samples,rrn1,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rrn1/metagenomic,1,
-70,eRA curators,index,html,index,rwf3,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rwf3/index,0,
-71,eRA curators,experiments,html,Experiments done at Saxmundham,saxmundham,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/saxmundham/experiments,1,
-72,eRA curators,history,html,Hist0ry of the Saxmundham Station,saxmundham,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/saxmundham/history,1,
-73,eRA curators,index,html,Saxmundham Station,saxmundham,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/saxmundham/index,0,
-74,eRA curators,overview,html,Overview,saxmundham,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/saxmundham/overview,1,
-75,eRA curators,site,html,Site,saxmundham,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/saxmundham/site,1,
-76,eRA curators,summary,html,Summary,saxmundham,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/saxmundham/summary,1,
-77,eRA curators,index,html,index,sms,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/sms/index,0,
-78,eRA curators,measurements,html,Measuring the weather,sms,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/sms/measurements,1,
-79,eRA curators,overview,html,Overview of the Saxmundham Weather Station,sms,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/sms/overview,1,
-80,eRA curators,experiments,html,Experiments done at Woburn,woburn,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/woburn/experiments,1,
-81,eRA curators,history,html,History of the Woburm Station,woburn,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/woburn/history,1,
-82,eRA curators,index,html,Woburn Station,woburn,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/woburn/index,0,
-83,eRA curators,overview,html,Overview,woburn,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/woburn/overview,1,
-84,eRA curators,site,html,Site,woburn,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/woburn/site,1,
-85,eRA curators,summary,html,Summary,woburn,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/woburn/summary,1,
-86,eRA curators,plans,html,Plans and treatments for WRN3,wrn3,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/wrn3/plans,1,
-87,eRA curators,index,html,index,wrn3,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/wrn3/index,0,
-88,eRA curators,datasets,php,All the Datasets,default,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/default/datasets,1,
-89,eRA curators,plot-photos,php,Park Grass Plots,rpg5,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rpg5/plot-photos,1,
-90,eRA curators,index,html,About the Rothamsted Sample Archive,rsa,http://local-info.rothamsted.ac.uk/eRA/era2018-new/info/rpg5/plot-photos,1,
+id,isReviewed,order,isInfo,pageType,exptID,FileName,Type,Caption,Description,KeyRefs,Credit
+3,0,0,0,experiment,bms,index,html,Brooms Barn Met Station ,,,eRA curators
+1,1,0,1,experiment,bms,measurements,html,bms measurements,,,eRA curators
+2,1,0,0,experiment,bms,overview,html,bms Overview,,,eRA curators
+6,1,0,1,site,broomsbarn,experiments,html,Brooms Barn Experiments,,,eRA curators
+8,1,0,1,site,broomsbarn,history,html,History of Broom's Barn,,,eRA curators
+5,0,0,0,site,broomsbarn,index,html,Brooms Barn,,,eRA curators
+7,1,0,0,site,broomsbarn,overview,html,Brooms Barn: overview,,,eRA curators
+4,1,0,0,site,broomsbarn,site,html,Brooms Bar site,,,eRA curators
+9,0,0,0,default,curation,style,html,Styles and Colors,,,eRA curators
+10,0,0,0,default,curation,style2,html,Styles and Colors,,,eRA curators
+11,1,0,1,default,default,about,html,About e-RA,,,eRA curators
+15,1,0,1,default,default,CF,html,Conversion Factors,,,eRA curators
+14,1,0,1,default,default,conditions,html,Conditions of Use,,,eRA curators
+16,1,0,1,default,default,credits,html,Credits: past and present staff involved in eRA,,,eRA curators
+17,1,0,1,default,default,dataQuality,html,Data Quality in e-RA,,,eRA curators
+12,1,0,1,default,default,datasets,php,All the Datasets,,,eRA curators
+19,1,0,1,default,default,error,html,Error - 404,,,eRA curators
+13,1,0,1,default,default,experiments,html,All the experiments,,,eRA curators
+20,1,0,1,default,default,howtoaccessdata,html,How to access data,,,eRA curators
+21,1,0,1,default,default,howtocredit,html,How to credit materials,,,eRA curators
+22,0,0,0,default,default,index,html,index,,,eRA curators
+18,1,0,1,default,default,instrumentdescription,html,Description of the instruments for measuring met data,,,eRA curators
+23,1,0,1,default,default,register,html,Registration Forms,,,eRA curators
+25,0,0,0,default,docs,index,html,Default Index page,,,eRA curators
+26,1,0,1,default,met,derived_variables,html,Derived Meterological Variables,,,eRA curators
+27,0,0,1,default,met,equipment,html,Measuring the weather,,,eRA curators
+31,0,0,0,default,met,index,html,Weather data on e-RA,,,eRA curators
+28,1,0,1,default,met,instrumentdescription,html,Measuring the weather,,,eRA curators
+30,1,0,1,default,met,public,html,Weather data for the public,,,eRA curators
+29,1,0,0,default,met,schools,html,Weather data for schools,,,eRA curators
+32,0,0,0,experiment,rag6,index,html,index,,,eRA curators
+36,1,0,1,experiment,rbk1,disease,html,Disease surveys,"Information about the wheat root and stem diseases assessed (take-all, eyespot, sharp eyespot and brown foot rot)",,eRA curators
+37,1,0,1,experiment,rbk1,earthworms,html,Earthworms,Information about earthworm measurements on Broadbalk,,eRA curators
+38,1,0,1,experiment,rbk1,grainquality,html,Grain quality assessment,"Description of what grain quality data is available (TGWs, Hagberg falling number ,Hectolitre weights, grain size categories), and analytical methods used",,eRA curators
+39,0,0,0,experiment,rbk1,index,html,index,,,eRA curators
+40,0,0,0,experiment,rbk1,medialist,html,List of Media,This is included at the top of the Media page to list media that is not in the media database like Videos,,eRA curators
+34,1,0,1,experiment,rbk1,nutrients,html,Crop nutrient content,"Information about analytical methods for crop macro nutrient content (% N, P, K, Ca, Mg, Na and S)",,eRA curators
+33,1,0,1,experiment,rbk1,outreach,html,Broadbalk Dataset for School,Scholastic Dataset,,eRA curators
+42,1,1,1,experiment,rbk1,plans,html,Plans and treatments,"Experimental plans, fertilizer treatments, chalk, cropping details, and dates of key field operations, 1852-present",,eRA curators
+43,1,0,1,experiment,rbk1,soilchem,html,Soil chemical properties,"Details of which soil chemical properties have been measured, analytical methods used and soil sampling methods",,eRA curators
+44,1,0,1,experiment,rbk1,soilphys,html,Soil physical properties and site details,"Site details, plot area, soil moisture and drainage, soil description and texture and soil weights ",,eRA curators
+45,0,0,0,experiment,rbk1,soils,html,Soils - deprecated,Deprecated ,,eRA curators
+46,1,0,1,experiment,rbk1,weeds,html,Weeds surveys,"Information about the weed surveys on Section 8 (no herbicides), 1991-present, and earlier surveys on the whole experiment, 1933-1979. ",,eRA curators
+47,1,0,1,experiment,rbk1,yields,html,Wheat yield background information,Description of harvest methods and datasets available,,eRA curators
+41,1,0,1,experiment,rbk1,yields_other_crops,html,Other crops and fallow,"Description of potatoes, oats, beans and forage maize crops grown on Broadbalk, and the management of the fallow",,eRA curators
+48,0,0,0,experiment,rbk1w,index,html,index,,,eRA curators
+49,0,0,0,experiment,rbn7,index,html,index,,,eRA curators
+51,0,0,0,experiment,rcs10,index,html,index,,,eRA curators
+52,1,1,1,experiment,rcs10,plans,html,Plans and treatments,"Experimental plans, lime and fertilizer treatments details 1962-1996",,eRA curators
+53,0,0,0,experiment,rcs326,index,html,index,,,eRA curators
+54,0,0,0,experiment,rcs408,index,html,index,,,eRA curators
+55,0,0,0,experiment,rcs477,index,html,index,,,eRA curators
+56,0,0,0,experiment,rcs767,index,html,index,,,eRA curators
+58,0,0,0,experiment,rex4,index,html,index,,,eRA curators
+59,1,1,1,experiment,rex4,plans,html,Plans and treatments,"Experimental plans, lime and fertilizer treatments details 1876-2008",,eRA curators
+60,0,0,0,experiment,rgc8,index,html,index,,,eRA curators
+61,0,0,0,experiment,rge9,index,html,index,,,eRA curators
+66,1,0,1,experiment,rhb2,hfsoils,html,Soil chemical and physical properties,"Information about soil properties, and details of which soil chemical properties have been measured",,eRA curators
+64,0,0,0,experiment,rhb2,index,html,index,,,eRA curators
+62,1,0,1,experiment,rhb2,nutrients,html,Crop nutrients,"information about crop macro nutrient content (% N, P, K, Ca, Mg, Na and S)",,eRA curators
+65,1,1,1,experiment,rhb2,plans,html,Plans and treatments,"Plans, fertilizer treatments and cropping details for the Hoosfield spring barley experiment",,eRA curators
+67,1,0,1,experiment,rms,30yearmean,html,30 years mean data,,,eRA curators
+68,1,0,1,experiment,rms,background,html,Background information on the Rothamsted Weather Station,,,eRA curators
+71,1,0,1,experiment,rms,extreme,html,Extreme weather recordings,,,eRA curators
+72,1,0,1,experiment,rms,history,html,History of the Rothamsted Weather Station,,,eRA curators
+73,0,0,0,experiment,rms,index,html,index,,,eRA curators
+69,1,0,1,experiment,rms,measurements,html,Data available and how it is measured,,,eRA curators
+75,1,0,1,experiment,rms,monthly,html,Rothamsted Met Data Monthly Updates,,,eRA curators
+74,1,0,0,experiment,rms,overview,html,Overview of the Rothamsted Weather Station,,,eRA curators
+76,1,0,0,experiment,rms,site,html,The Rothamsted Weather station site,,,eRA curators
+77,0,0,0,site,rothamsted,experiments,html,Experiments done at Rothamsted,,,eRA curators
+78,1,0,1,site,rothamsted,history,html,History of Rothamsted Experimental station,,,eRA curators
+80,0,0,0,site,rothamsted,index,html,Rothamsted Experimental Station,,,eRA curators
+79,1,0,0,site,rothamsted,overview,html,Overview of the Rothamsted experimental station,,,eRA curators
+82,1,0,0,site,rothamsted,site,html,The Rothamsted site,,,eRA curators
+81,1,0,0,site,rothamsted,summary,html,Summary,,,eRA curators
+85,1,0,1,experiment,rpg5,harvesting,html,Harvesting methods,"how yield has been measured and important changes in harvesting methods over the years, including yield correction factor",KeyRefPGharv,eRA curators
+86,0,0,0,experiment,rpg5,index,html,index,,,eRA curators
+87,1,0,1,experiment,rpg5,links,html,Links,related to Park Grass,,eRA curators
+88,0,0,0,experiment,rpg5,medialist,html,List of Media,This is included at the top of the Media page to list media that is not in the media database like Videos,,eRA curators
+89,0,0,0,experiment,rpg5,parkgrass-history,html,Park Grass history,,,eRA curators
+83,1,0,1,experiment,rpg5,pgcomposition1,html,Botanical composition,Information about the botanical surveys,KeyRefPGComposition,eRA curators
+92,1,0,1,experiment,rpg5,pgsoils,html,Soil properties,Information about soil chemical and physical properties,KeyRefPGsoils,eRA curators
+91,1,1,1,experiment,rpg5,plans,html,Plans and treatments,"Plans, fertilizer treatments and liming details for the Park Grass experiment",,eRA curators
+90,1,0,1,experiment,rpg5,plot-photos,php,Park Grass Plots,A photographic journey into the Park Grass Experiment,,eRA curators
+94,0,0,0,experiment,rrn1,index,html,index,,,eRA curators
+95,1,0,1,experiment,rrn1,metagenomic,html,New data from old samples,Metagenomic study,,eRA curators
+96,0,0,0,experiment,rrn2,index,html,index,,,eRA curators
+97,0,0,0,experiment,rro,index,html,index,,,eRA curators
+98,0,0,0,experiment,rrs1,index,html,index,,,eRA curators
+99,0,0,0,experiment,rrs9,index,html,index,,,eRA curators
+100,1,0,1,experiment,rsa,index,html,About the Rothamsted Sample Archive,,,eRA curators
+101,0,0,0,experiment,rwf3,index,html,index,,,eRA curators
+102,1,0,1,site,saxmundham,experiments,html,Experiments done at Saxmundham,,,eRA curators
+103,1,0,1,site,saxmundham,history,html,History of the Saxmundham Station,,,eRA curators
+105,0,0,0,site,saxmundham,index,html,Saxmundham Station,,,eRA curators
+104,1,0,0,site,saxmundham,overview,html,Overview of the Saxmundham Experimental Site,,,eRA curators
+107,1,0,0,site,saxmundham,site,html,The Saxmundham site,,,eRA curators
+106,1,0,0,site,saxmundham,summary,html,Summary,,,eRA curators
+108,0,0,0,experiment,sms,index,html,index,,,eRA curators
+109,1,0,1,experiment,sms,measurements,html,Measuring the weather at Saxmundham,,,eRA curators
+110,1,0,0,experiment,sms,overview,html,Overview of the Woburn Weather Station,,,eRA curators
+111,0,0,0,experiment,srn1,index,html,index,,,eRA curators
+112,0,0,0,experiment,srn2,index,html,index,,,eRA curators
+114,0,0,0,experiment,wcs10,index,html,index,,,eRA curators
+115,1,1,1,experiment,wcs10,plans,html,Plans and treatments,,,eRA curators
+116,0,0,0,experiment,wcs326,index,html,index,,,eRA curators
+117,0,0,0,experiment,wcs427,index,html,index,,,eRA curators
+118,0,0,0,experiment,wcs428,index,html,index,,,eRA curators
+119,0,0,0,experiment,wcs439,index,html,index,,,eRA curators
+120,0,0,0,experiment,wcs478,index,html,index,,,eRA curators
+121,0,0,0,experiment,wms,index,html,index,,,eRA curators
+122,1,0,1,experiment,wms,measurements,html,Measuring the weather at at Woburn,,,eRA curators
+123,1,0,0,experiment,wms,overview,html,Overview of the Saxmundham Weather Station,,,eRA curators
+124,1,0,1,site,woburn,experiments,html,Experiments done at Woburn,,,eRA curators
+125,1,0,1,site,woburn,history,html,History of the Woburm Station,,,eRA curators
+129,0,0,0,site,woburn,index,html,Woburn Station,,,eRA curators
+126,1,0,0,site,woburn,overview,html,Overview,,,eRA curators
+128,1,0,0,site,woburn,site,html,The Woburn site,,,eRA curators
+127,1,0,0,site,woburn,summary,html,Summary,,,eRA curators
+130,0,0,0,experiment,wrn12,index,html,index,,,eRA curators
+131,0,0,0,experiment,wrn13,index,html,index,,,eRA curators
+133,0,0,0,experiment,wrn3,index,html,index,,,eRA curators
+134,1,1,1,experiment,wrn3,plans,html,Plans and treatments,,,eRA curators
+135,0,0,0,experiment,wrn4,index,html,index,,,eRA curators
+137,1,1,1,experiment,wxb6,plans,html,Plans and treatments,,,eRA curators
+139,1,1,1,experiment,wxw6,plans,html,Plans and treatments,,,eRA curators

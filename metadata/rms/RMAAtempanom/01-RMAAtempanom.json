@@ -311,6 +311,15 @@
             "relationType": "Cites",
             "rt_id": 2,
             "relationTypeValue": "cites"
+        },
+        {
+            "relatedIdentifier": "10.23637/rms-RMAAtemp-03",
+            "relatedIdentifierType": "DOI",
+            "name": "Annual Mean Air Temperature at Rothamsted 1878-2022",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "References",
+            "rt_id": 18,
+            "relationTypeValue": "references"
         }
     ],
     "funder": [

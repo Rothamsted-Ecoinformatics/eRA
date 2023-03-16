@@ -79,15 +79,16 @@ if (is_file($url)) {
 
     $h1Title = $page[0]['Caption'];
     $page_title .= ': ' . $page[0]['Caption'];
+    $pageType = $page[0]['pageType'];
     $ext = $page[0]['Type'];
     // $KeyRef = $page[0]['KeyRef'];
 } else {
     $h1Title = $pageinfo['ExperimentName'];
-    $page_title .= $page_title .= ': ' . $pageinfo['ExperimentName'];
+    $page_title .= ': ' . $pageinfo['ExperimentName'];
 }
 
 $fileDataset = 'metadata/default/datasets.json';
-
+/*
 $hasDatasets = file_exists($fileDataset);
 $displayDatasets = 0;
 if ($hasDatasets) {
@@ -100,7 +101,7 @@ if ($hasDatasets) {
         }
     }
 }
-
+*/
 ?>
 <!DOCTYPE html>
 <html class="no-js" lang="en">
@@ -153,7 +154,17 @@ if (isset($datacite)) {
 			</div>
 <?php
 $includeFile = 'metadata/' . $expt . '/' . $FileName.'.'.$ext;
-
+if ($displayValue == 0) {
+    ?>
+    <div class="d-flex justify-content-between bg-warning text-white p-3 "> <h2>To edit this page go to <u><?php echo $includeFile;?></u></h2></div>
+    <?php
+    }
+    $exptPage = "";
+    
+    if ($pageType != 'default') { $exptPage =  " Part of experiment <a href=\"". $pageType ."/" .$expt. "\">" .$expt.  "</a>";}
+                                
+                        
+   echo $exptPage;
 include_once ($includeFile);
 include_once 'includes/footer.html'; // this has the green bar and bottom
 ?>

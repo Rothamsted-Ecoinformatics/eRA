@@ -57,19 +57,12 @@ function getUsers($con)
 
 function getDownloads($con)
 {
-    /*
-     * dl-id
-     * position
-     * DOI
-     * dl-date
-     * result
-     */
-    $sqlUsers = "SELECT * from eRAdownloads where result LIKE 'LIVE'";
-    $result = $con->query($sqlUsers);
+    $sqlDL = "SELECT * from downloads where dlresult LIKE 'LIVE' order by `dldate` DESC";
+    $result = $con->query($sqlDL);
     printf("<ul>");
     // Associative array
     while ($row = $result->fetch_assoc()) {
-        printf("<li>%s: <a href=\"mailto:%s\">%s</a> - <a target=\"_blank\" href=\"https://whatismyipaddress.com/ip/%s\">%s</a> (%s)</li>\n", $row["dl-date"], $row["position"], $row["position"], $row["IP"], $row["IP"], $row["DOI"]);
+        printf("<li>%s: <a href=\"mailto:%s\">%s</a> - <a target=\"_blank\" href=\"https://whatismyipaddress.com/ip/%s\">%s</a> (%s) - %s - %s - %s - %s</li>\n", $row["dldate"], $row["position"], $row["position"], $row["IP"], $row["IP"], $row["DOI"], $row["fullname"], $row["information"], $row["institution"], $row["country"]);
     }
     printf("</ul>");
 }
@@ -144,67 +137,69 @@ $con = mangaCon();
 ?>
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-<head>  
-        <?php
+
+<head>
+    <?php
         include 'includes/meta.html'; // that is the <meta and link tags> superseeds head.html
 
         $script = ''; // $script is added to the header as the
 
-        ?>  
-    </head>
+        ?>
+</head>
 
 <body>
-	<div class="container bg-white px-0">
+    <div class="container bg-white px-0">
         <?php
         include 'includes/header.html'; // all the menus at the top
                                         // -- start dependant content ---------------------------------------------------------
         ?>
         <div id="idExpt">
-			<h1 class="mx-3">Curation Interface</h1>
-			<?php include "metadata/curation/menu.html"; ?>
-			<div class="row">
-				<div class="col-12 pt-3">
-					<ul class="nav nav-tabs nav-fill text-body ">
-						<li class="nav-item"><a class="nav-link active show"
-							id="Users-tab" data-toggle="tab" href="#Users">Users</a></li>
-						<li class="nav-item"><a class="nav-link" id="Requests-tab"
-							data-toggle="tab" href="#Requests">Requests</a></li>
-						<li class="nav-item"><a class="nav-link" id="Downloads-tab"
-							data-toggle="tab" href="#Downloads">Downloads</a></li>
-					</ul>
-					<div class="tab-content mh-100" id="idExptTabs">
-						<div class="tab-pane active show" id="Users" role="tabpanel"
-							aria-labelledby="Users-tab">
-							<h2>Users registered for Aggregated Datasets</h2>
-							<p>We only list those who have confirmed their email adresses. 
-                                As the registration date was added much later, for historical data, the date is date of first download. For people who never downloaded, it is 2021-03-09 (arbitrary)
-							<?php
+            <h1 class="mx-3">Curation Interface</h1>
+            <?php include "metadata/curation/menu.html"; ?>
+            <div class="row">
+                <div class="col-12 pt-3">
+                    <ul class="nav nav-tabs nav-fill text-body ">
+                        <li class="nav-item"><a class="nav-link active show" id="Downloads-tab" data-toggle="tab"
+                                href="#Downloads">Downloads</a></li>
 
-                                    getUsers($con);
-    ?>
-						</div>
-						<div class="tab-pane" id="Requests" role="tabpanel"
-							aria-labelledby="Requests-tab">
-							<h2>Requests for Data - processed</h2>
-							<?php
+                        <li class="nav-item"><a class="nav-link" id="Requests-tab" data-toggle="tab"
+                                href="#Requests">Requests</a></li>
+                        <li class="nav-item"><a class="nav-link" id="Users-tab" data-toggle="tab"
+                                href="#Users">Users</a></li>
+                    </ul>
+                    <div class="tab-content mh-100" id="idExptTabs">
+                        <div class="tab-pane  active show"" id=" Downloads" role="tabpanel"
+                            aria-labelledby="Downloads-tab">
+                            <h2>Dataset Downloads</h2>
+                            <?php
+                                    getDownloads($con);
+                                ?>
+                        </div>
+
+                        <div class="tab-pane" id="Requests" role="tabpanel" aria-labelledby="Requests-tab">
+                            <h2>Requests for Data - processed</h2>
+                            <?php
 							getRequests($con);
 
-    ?>
-						</div>
-						<div class="tab-pane" id="Downloads" role="tabpanel"
-							aria-labelledby="Downloads-tab">
-							<h2>Dataset Downloads</h2>
-							<?php
+                                 ?>
+                        </div>
+                        <div class="tab-pane" id="Users" role="tabpanel" aria-labelledby="Users-tab">
+                            <h2>Users registered for Aggregated Datasets</h2>
+                            <p>We only list those who have confirmed their email adresses.
+                                As the registration date was added much later, for historical data, the date is date of
+                                first download. For people who never downloaded, it is 2021-03-09 (arbitrary)
+                                <?php
 
-getDownloads($con);
-    ?>
-							</div>
-					</div>
-				</div>
-			</div>
+                                    getUsers($con);
+                                ?>
+                        </div>
 
-		</div>
-        					
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
         <?php
         // -- start footers -----------------------------
 
@@ -213,8 +208,8 @@ getDownloads($con);
         include_once 'includes/finish.inc'; // this has the common js scripts
 
         ?>
-        
-	</div>
-</body>
-</html>
 
+    </div>
+</body>
+
+</html>

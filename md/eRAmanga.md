@@ -42,30 +42,26 @@ CREATE TABLE `newmarkers` (
 
 Table for Handling downloads: Connect users to the datasets downloaded 
 
-CREATE TABLE `eRAdownloads` (
-  `dl-id` int(11) NOT NULL AUTO_INCREMENT,     
+CREATE TABLE `downloads` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `position` varchar(100) NOT NULL COMMENT 'email address',
+  `IP` varchar(100) DEFAULT NULL,
   `DOI` varchar(100) NOT NULL COMMENT 'dataset downloaded, identified by its DOI',
-  `dl-date` DATE DEFAULT NULL COMMENT 'when downloaded',
-  PRIMARY KEY (`dl-id`)
-) ENGINE=InnoDB AUTO_INCREMENT=55 DEFAULT CHARSET=ascii COMMENT='Table logging the downloads of Datasets'
+  `dldate` date DEFAULT NULL COMMENT 'when downloaded',
+  `result` varchar(100) DEFAULT NULL COMMENT 'blank is success. Comment is erro type',
+  `fullname` varchar(100) DEFAULT NULL,
+  `country` varchar(100) DEFAULT NULL,
+  `information` text,
+  `institution` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1609 DEFAULT CHARSET=ascii COMMENT='Table logging the downloads of Datasets';
+
 
 When a user downloads a file: 
-INSERT INTO eradoc.eRAdownloads
-(`position`, DOI, `dl-date`)
-VALUES('', '', '');
+INSERT INTO eRAmanga.downloads
+(`position`, IP, DOI, dldate, `result`, fullname, country, information, institution)
+VALUES('', '', '', '', '', '', '', '', '');
 
-<form  action="" . $_SERVER['PHP_SELF'] . "" method="post\">
-    
-<div class="form-group">
-        
-        
- 
-    
-    <button type=\"submit\" class=\"btn btn-primary \" >Log in</button>
-    
-    <a  class=\"btn btn-secondary\" href=\"newUser.php\">Register</a>
-</form>
 
 
 

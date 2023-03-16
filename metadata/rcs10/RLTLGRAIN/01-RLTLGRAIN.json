@@ -499,6 +499,15 @@
             "relationType": "IsSupplementTo",
             "rt_id": 3,
             "relationTypeValue": "is supplement to"
+        },
+        {
+            "relatedIdentifier": "10.23637/rcs10-rltlcation-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted long-term liming experiment exchangeable cations re-analysed",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
         }
     ],
     "funder": [

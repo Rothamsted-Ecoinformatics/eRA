@@ -348,7 +348,7 @@
         "experiment_name": "Broadbalk",
         "experiment_code": "R/BK/1",
         "grade": 1,
-        "dstype": "OA",
+        "dstype": "Frictionless",
         "publication_year": 2022,
         "version": "01",
         "isReady": 2,

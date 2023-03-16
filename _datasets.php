@@ -111,7 +111,8 @@ if (! $hasDatasets) {
                 
                 $id = str_replace($prefix, '', $dataset['identifier']);
                 $shortname = $dataset['shortName'];
-
+                $dstype = "Summary";
+                if ($dataset['dstype']=="Frictionless") {$dstype = "Complete (Frictionless)";}
                 
                 $countVersions = array_count_values(array_column($datasets, 'shortName'))[$shortname];
                 if ($countVersions < 10) {
@@ -136,7 +137,7 @@ if (! $hasDatasets) {
             }
                 $info.="</td>";
                 $info .= "\n    \t     \t <td class=\"pr-4 \">".$dataset['publication_year']."</td>";
-                $info .= "\n    \t     \t <td class=\"pr-4 \">".$dataset['dstype']."</td>";
+                $info .= "\n    \t     \t <td class=\"pr-4 \">".$dstype."</td>";
                 $info .= "\n    \t     \t <td class=\"pr-4 \"><a  href=\"dataset/".$expt."/". $dataset['version']."-".$dataset['shortName'] . "\">". $dataset['identifier']."</a>".$datasetCheckURL." </td>";
                 $info .= "\n    \t     \t <td class=\"pr-4 \">". $dataset['version']."</a></td>";
                 $info .= "\n    \t  </tr>";

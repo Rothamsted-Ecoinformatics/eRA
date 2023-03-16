@@ -195,7 +195,7 @@ if ($vprocess == "Reset") {
     $vprocess = "Q1";
 }
 
-getData();
+getData(); //this is probably obsolete now that we do not ask for login
 
 // we check the $REQUEST values ($RG...)
 if (isset($RGposition)) {
@@ -255,7 +255,7 @@ $vRGreferck[$vRGrefer] = "  checked";
 
 if  ($RGrefer == "OTHER") {
     if (isset($RGreferOtherText) ) {
-        $vRGreferOtherText = $RGreferOtherText;
+        $vRGreferOtherText = substr($RGreferOtherText, 0, 80);
     }
     
 }
@@ -295,14 +295,14 @@ if ($RGagreeCOU == 1) {
 }
 
 if (isset($RGinstitution)) {
-    $vRGinstitution = $RGinstitution;
+    $vRGinstitution = substr($RGinstitution, 0, 80);
 }
 
 if (isset($RGfunding)) {
     $vRGfunding = $RGfunding;
 }
 if (isset($RGfundingOther)) {
-    $vRGfundingOther = $RGfundingOther;
+    $vRGfundingOther = substr($RGfundingOther, 0, 80);
 }
 
 if (isset($RGISPG)) {
@@ -340,7 +340,7 @@ if (isset($RGrothColls)) {
     $vRGrothColls = $RGrothColls;
 }
 if (isset($RGsupName)) {
-    $vRGsupName = $RGsupName;
+    $vRGsupName = substr($RGsupName, 0, 80);
 }
 if (isset($RGsupEmail)) {
     $vRGsupEmail = $RGsupEmail;
@@ -537,9 +537,24 @@ WHERE
         }
     }
 
-    // find the user ID
-
-    $sqlInsertUR = "INSERT INTO eRAmanga.Users_Requests
+    
+    // $link = LogMangaAd();
+    $linkAd = LogMangaAd();
+    $RGur_Q1 =  mysqli_real_escape_string($linkAd, $RGur_Q1); 
+    $RGur_Q2 =  mysqli_real_escape_string($linkAd, $RGur_Q2); 
+    $RGposition =  mysqli_real_escape_string($linkAd, $RGposition);
+    $RGfname =  mysqli_real_escape_string($linkAd, $RGfname);
+    $RGlname =  mysqli_real_escape_string($linkAd, $RGlname);
+    $RGsector =  mysqli_real_escape_string($linkAd, $RGsector);
+    $RGinstitution =  mysqli_real_escape_string($linkAd, $RGinstitution);
+    $RGsupEmail =  mysqli_real_escape_string($linkAd, $RGsupEmail);
+    $RGsupName =  mysqli_real_escape_string($linkAd, $RGsupName);
+    $RGrothColls =  mysqli_real_escape_string($linkAd, $RGrothColls);
+    $RGfunding =  mysqli_real_escape_string($linkAd, $RGfunding);
+    $RGreferOtherText =  mysqli_real_escape_string($linkAd, $RGreferOtherText);
+    
+/*
+$sqlInsertUR = "INSERT INTO eRAmanga.Users_Requests
           (user_email,fname, lname,  ur_date, ur_Q1, ur_Q2, ur_ltes, sector, 
 institution, country, `role`, isStudent, 
 supEmail, supName, rothColls, funding, ISPG, agreeCOU, allowEmails, user_IP, refer)
@@ -547,32 +562,43 @@ supEmail, supName, rothColls, funding, ISPG, agreeCOU, allowEmails, user_IP, ref
 '$RGinstitution', '$RGcountry', '$RGrole', $RGisStudent, 
 '$RGsupEmail', '$RGsupName', '$RGrothColls', '$RGfunding', '$RGISPG', '$RGagreeCOU', $insertRGallowEmails, '$user_IP', '$RGrefer - $RGreferOtherText');
 ";
-    // $link = LogMangaAd();
-    $linkAd = LogMangaAd();
-    $sqlsmessages = "";
-    if ($loggedIn == 'yes') {
-        // if the user is already logged in, there is not need to check all that and the update to the db is enough
-        // that is nice and simple as we know who is sending the information (technically)
-        // we use that info to update the User's info.
+*/
+$totRefer = $RGrefer . " - ". $RGreferOtherText;
+//$stmt = $linkAd->prepare("INSERT INTO downloads (`position`, `IP`,  DOI, `dldate`,`dlresult`, fullname, country, information, institution) VALUES(?,?,?,?,?,?,?,?,?)");
+$stmt = $linkAd->prepare("INSERT INTO eRAmanga.Users_Requests
+                        ( user_email  , fname        , lname  ,  ur_date , ur_Q1      , ur_Q2   , ur_ltes , 
+                          sector      ,  institution , country, `role`   , isStudent  , supEmail, supName , 
+                          rothColls   , funding      , ISPG   , agreeCOU , allowEmails, user_IP , refer    )
+                        VALUES(?, ?,?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+if ( false===$stmt ) {
+    die ('prepare() failed: ' . $mysqli->error);
+  }
+  
+$result = $stmt -> bind_param("sssssssssssissssssiss", 
+$RGposition  , $RGfname       ,  $RGlname  , $ur_date    , $RGur_Q1             , $RGur_Q2    , $ur_ltes  ,
+$RGsector    , $RGinstitution , $RGcountry , $RGrole     , $RGisStudent         , $RGsupEmail , $RGsupName , 
+$RGrothColls , $RGfunding     , $RGISPG    , $RGagreeCOU , $insertRGallowEmails , $user_IP    , $totRefer );
 
-        $queryInput = mysqli_query($linkAd, $sqlInput); // updates the User info
-        $sqlsmessages .= "<br /> 1" . $sqlInput;
-        $queryInsertUR = mysqli_query($linkAd, $sqlInsertUR); // inserts the request
-        $sqlsmessages .= "<br /> 2" . $sqlInsertUR;
+if ( false===$result ) {
+  die('bind_param() failed');
+}
+$sqlsmessages = "";
 
-        // formulate an email with the request fields and information
-        // send same email to res.era;
-    } else {
-        /*
-         * no user logged in: either the user has no username yet or they have a username and they are not logged in
-         * If the user has username, in the database, we just record a User Request and reord their IP address
-         *
-         */
+    /*
+     * no user logged in: either the user has no username yet or they have a username and they are not logged in
+     * If the user has username, in the database, we just record a User Request and reord their IP address
+     *
+     */
 
-        $queryInsertUR = mysqli_query($linkAd, $sqlInsertUR); // inserts the request
-        $sqlsmessages .= "<br /> 3" . $sqlInsertUR;
-    }
-    $ur_insertID = mysqli_insert_id($linkAd);
+//$queryInsertUR = mysqli_query($linkAd, $sqlInsertUR); // inserts the request
+$result = $stmt->execute();
+if ( false===$result ) {
+    die('execute() failed: '.$stmt->error);
+  }
+$sqlsmessages .= "<br /> 3" . $sqlInsertUR;
+
+$ur_insertID = mysqli_insert_id($linkAd);
+
 }
 /**
  * Anything to do with Cookies or sessions must happen before this line..

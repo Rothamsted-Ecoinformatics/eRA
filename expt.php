@@ -50,6 +50,7 @@ if ($hasDatacite) {
     $page_description = $experiment['administrative']['description'];
 }
 
+
 $fileExperiments = 'metadata/default/experiments.json';
 $hasExperiments = file_exists($fileExperiments);
 if ($hasExperiments) {
@@ -57,6 +58,14 @@ if ($hasExperiments) {
     $Experiments = utf8_encode($Experiments);
     $Experiments = json_decode($Experiments, true);
     
+}
+
+$infofilessource = 'metadata/default/infofiles.json';
+$hasFiles = file_exists($infofilessource);
+if ($hasFiles) {
+    $infofiles = file_get_contents($infofilessource);
+    $infofiles = utf8_encode($infofiles);
+    $arrInfofiles = json_decode($infofiles, true);
 }
 
 $fileTimeline = $exptFolder . '/' . 'timeline.json';
@@ -226,12 +235,17 @@ if ($displayDatasets > 0) {
 	
                         
 						include '_datasets.php';
-						echo  "<div class=\"mx-3\"><ul><li><a href=\"info/datasets\">List all eRA datasets</a></li><li>Additional data is available through e-RAdata. Please <a href=\"newGold.php\" >register for access</a></li></ul>.  </div>";
+						echo  "<div class=\"mx-3\"><ul><li><a href=\"info/datasets\">List all eRA datasets</a></li><li>Additional data is available through <a class=\"btn btn-info m-1\" target=\"_BLANK\"
+                        href=\"http://www3.rothamsted.ac.uk/cdera/extract/pages/data_extraction_prototype6.html\"><i
+                            class=\"fa fa-list-alt\"></i> e-RAdata</a>. Please <a href=\"newGold.php\" >register for access</a></li></ul>.  </div>";
 } else if ($displayDatasets == 0) {
 						
                         
                         if (in_array($expt, $inDet)) {
-                            echo  "<div class=\"mx-auto\" style=\"width: 600px;\">Additional data is available through e-RAdata. 
+                            echo  "<div class=\"mx-auto\" style=\"width: 600px;\">Additional data is available through 
+                            <a class=\"btn btn-info m-1\" target=\"_BLANK\"
+                            href=\"http://www3.rothamsted.ac.uk/cdera/extract/pages/data_extraction_prototype6.html\"><i
+                                class=\"fa fa-list-alt\"></i> e-RAdata</a>. 
 Please <a href=\"newGold.php\" >register for access</a>.  </div>
 <div class=\"mx-auto\" style=\"width: 600px;\">
   <img class=\"mx-auto\" src=\"images/600x400/DETtop2021.jpg\" alt\"Extract data\" width=\"600\" height=\"400\">
@@ -239,7 +253,9 @@ Please <a href=\"newGold.php\" >register for access</a>.  </div>
 </div>";
                         } else if ($expt == "rwf3") {
                             echo  "<div class=\"mx-auto\" style=\"width: 600px;\"> Datasets for Alternate Wheat and Fallow 
-are only available through  e-RAdata. Please <a href=\"newGold.php\" >register for access</a>. </div>
+are only available through  <a class=\"btn btn-info m-1\" target=\"_BLANK\"
+href=\"http://www3.rothamsted.ac.uk/cdera/extract/pages/data_extraction_prototype6.html\"><i
+    class=\"fa fa-list-alt\"></i> e-RAdata</a>. Please <a href=\"newGold.php\" >register for access</a>. </div>
 <div class=\"mx-auto\" style=\"width: 600px;\">
   <img class=\"mx-auto\" src=\"images/600x400/DETtop2021.jpg\" alt\"Extract data\" width=\"600\" height=\"400\">
 
@@ -273,27 +289,16 @@ For more information please <a href=\"mailto:era@rothamsted.ac.uk\">contact the 
                                 <?php
 
 
-    include $fileDocs;
+   /* include $fileDocs;
 
     if (isset($sub)) {
         $docpage = $exptFolder . '/' . $sub . '.html';
         echo("<hr />");
         include $docpage;
     }
-
-    if (isset($ref)) {
-        
-        $papers = GetKeyRefs($ref);
-        
-        if (substr($papers, 0, 4) != "NONE") {
-            
-            echo "<h2>Key References</h2> \n\t\t
-                    <div class=\"mx-3\">".$papers."\n\t</div>";
-	
-        } 
-        
-    }
-
+*/
+    
+ include('_information.php');
     ?>
                             </div>
                         </div>

@@ -250,9 +250,9 @@
             "relatedIdentifierType": "DOI",
             "name": "Rothamsted long-term liming experiment crop yield 1962-1996",
             "relatedIdentifierGeneralType": "Dataset",
-            "relationType": "Describes",
-            "rt_id": 8,
-            "relationTypeValue": "describes"
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
         },
         {
             "relatedIdentifier": "10.23637/rcs10-Treatments-01",

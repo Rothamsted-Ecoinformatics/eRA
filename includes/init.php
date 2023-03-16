@@ -75,7 +75,7 @@ include_once 'includes/settings.inc'; //constants - project default constants
 include_once 'includes/functions.php' ; //functions - project php function 
 include_once 'includes/exptData.php'; //functions - experiment data process functions
 include_once 'includes/biblio.php'; //functions - functions for the bibliography
-include_once 'includes/user.php'; //functions and processing User 
+include_once 'includes/user.php'; //functions for processing User 
 include_once 'includes/session.php'; //sort out what is going in the session variables. 
 include_once 'includes/Parsedown.php'; //Tool to transform MarkDown into HTML
 /**

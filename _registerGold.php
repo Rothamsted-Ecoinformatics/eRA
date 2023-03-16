@@ -80,7 +80,7 @@ if ($vprocess == "RGprocess") {
     $headers .= "FROM: res.era@rothamsted.ac.uk" . "\r\n" . "CC: " . $moderationEmail;
 
     $to = $RGposition;
-    $subject = "Data Request for $RGfname $RGlname - $ur_insertID";
+    $subject = "Data Request for ".$RGfname. " " . $RGlname ."- ". $ur_insertID;
     $response = "<p>
 An email has  been sent to <span class=\"badge badge-success\">" . $RGposition . "</span> to confirm your request. ";
     // echo ($to . $subject. $message. $headers);
@@ -92,12 +92,7 @@ An email has  been sent to <span class=\"badge badge-success\">" . $RGposition .
     }
 } else {
     // Q1, Q2, Q3 are the three pannels. The form is reloaded in these stages.
-
     ?>
-
-	 
-
-
 
 
 <div class="m-3">

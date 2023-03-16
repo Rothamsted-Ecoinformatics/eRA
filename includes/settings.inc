@@ -30,16 +30,13 @@
  */
  // set the default timezone to use.
 date_default_timezone_set('Europe/London');
-$date = date("D F j, Y");
 
 $scheme = array(
     "WIKIDATA" => "https://www.wikidata.org/wiki/",
     "AGROVOC" => "http://aims.fao.org/aos/agrovoc/",
     "GACS" => "http://skosmos.dev.finto.fi/gacs/en/page/"
 );
-
 $PictureFolfer = $base . "images/";
-
 $page_description = "e-RA provides a permanent managed database for secure storage of data from Rothamsted's Long-term Experiments, the oldest, continuous agronomic experiments in the world. Together with the accompanying meteorological records, associated documentation and sample archive, it is a unique historical record of experiments that have been measured continuously for over 170 years.";
 $page_keywords = "experiments, long term experiments, agriculture, datasets, research, fields, yields, weather";		
 
@@ -53,16 +50,6 @@ $page_keywords = "experiments, long term experiments, agriculture, datasets, res
  *      
  * @var array $pageSettings
  */
-/* deprecating the $words
-$fileWords = 'metadata/default/vocabulary.json';
-
-$hasWords = file_exists($fileWords);
-if ($hasWords) {
-    $jwords = file_get_contents($fileWords);
-    $jwords = utf8_encode($jwords);
-    $words = json_decode($jwords, true);
-}
-*/
 
 /*
  * Pagesettings associates the expt code, or station with the keyrefs, the page titles and so on. 

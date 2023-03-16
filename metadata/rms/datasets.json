@@ -42,6 +42,27 @@
         "UID": "02-RMAAtemp"
     },
     {
+        "md_id": 1103737784,
+        "title": "Annual Mean Air Temperature at Rothamsted 1878-2022",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rms/03-RMAAtemp",
+        "identifier": "10.23637/rms-RMAAtemp-03",
+        "identifier_type": "DOI",
+        "dataset_type": "Weather data - Temperature",
+        "extension": "xlsx",
+        "description": "Rothamsted has one of the longest running continuous sets of meteorological recordings in the world. The figure shows the annual mean air temperature at Rothamsted every year from 1878-2022. Also shown is the mean over each five-year period, 1878-1882, 1883-1887, etc. The red line shows the mean temperature, 1878-1987. Mean annual air temperature has fluctuated considerably, however, when the variation in annual temperature is smoothed using five-year means, it is apparent that air temperatures have risen sharply since 1987 (Scott, 2015). The mean air temperature at Rothamsted in 2022 was 11.23&deg;C which is 2.17&deg;C higher than the 1878-1987 average (9.06&deg;C). The 10 warmest years on record occurred since 1999. Much of the rise in annual mean temperatures is due to temperature increases in the autumn and winter months, and in night-time temperatures.",
+        "fieldname": "Rothamsted Met Station",
+        "experiment_name": "Rothamsted Meteorological Station",
+        "experiment_code": "RMS",
+        "grade": 3,
+        "dstype": "OA",
+        "publication_year": 2023,
+        "version": "03",
+        "isReady": 2,
+        "isExternal": 0,
+        "shortName": "RMAAtemp",
+        "UID": "03-RMAAtemp"
+    },
+    {
         "md_id": -604972603,
         "title": "Mean monthly temperature at Rothamsted October 1985-September 2017",
         "URL": "https://www.era.rothamsted.ac.uk/dataset/rms/01-rmsMMT10850917",

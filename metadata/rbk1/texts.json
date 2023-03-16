@@ -147,6 +147,27 @@
         "UID": 263689789
     },
     {
+        "md_id": 2050685082,
+        "title": "Broadbalk Wheat Experiment Dates of Key Field Operations 1843-2021",
+        "URL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/rbk1-keydates-01.pdf",
+        "identifier": "10.23637/rbk1-keydates-pdf-01",
+        "identifier_type": "DOI",
+        "dataset_type": "Experiment details",
+        "extension": "pdf",
+        "description": "Dates of the key field operations on the Broadbalk Winter Wheat Experiment since 1843. Includes dates of sowing, harvest, ploughing and application of FYM and fertilizer N. Also wheat cultivars. The first crop was sown in the autumn on 1843. Published as a pdf.",
+        "fieldname": "Broadbalk",
+        "experiment_name": "Broadbalk",
+        "experiment_code": "R/BK/1",
+        "grade": 1,
+        "dstype": "OA",
+        "publication_year": 2023,
+        "version": "01",
+        "isReady": 2,
+        "isExternal": 0,
+        "shortName": "N/A",
+        "UID": 2050685082
+    },
+    {
         "md_id": 1190264121,
         "title": "Broadbalk Wheat Experiment plan and cropping 1852-1925",
         "URL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/02-rbk1-plan1852-1925.pdf",

@@ -395,16 +395,17 @@ if (! isset($_COOKIE['email'])) {
         }
     }
 }
-
+// we are not loggin in at the moment, so that should not happen! but in case we get back to using magic link, 
 if (isset($_COOKIE['email'])) {
     $email = $_COOKIE['email'];
     $doorbell = $_COOKIE['doorbell'];
     $registered = 'yes'; // to see if I need the register button or not
     if ($doorbell == 'ringing') {
         $loggedIn = 'no';
-        $strMessage = "<span class=\"badge badge-success mr-1 align-middle \">An email has been sent to " . $email . " <br /> Please check your mail box to confirm your login.</span> ";
+       
+        //$strMessage = "<span class=\"badge badge-success mr-1 align-middle \">An email has been sent to " . $email . " <br /> Please check your mail box to confirm your login.</span> ";
     } else if ($doorbell == 'out') {
-        $strMessage = "<span class=\"badge badge-warning mr-1 align-middle\">" . $email . " is not recognised. <br /> Please try again or <a class=\"text-primary\" href=\"".$base."newUser.php\"><u>register</u></a></span>";
+        //$strMessage = "<span class=\"badge badge-warning mr-1 align-middle\">" . $email . " is not recognised. <br /> Please try again or <a class=\"text-primary\" href=\"".$base."newUser.php\"><u>register</u></a></span>";
         $loggedIn = 'no';
     } else {
         $loggedIn = 'yes';
